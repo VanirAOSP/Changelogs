@@ -1,0 +1,156 @@
+
+**** https://github.com/VanirAOSP/device_asus_grouper ****
+f3ec44c : grouper: Remove Trebuchet overlay <Tim Clark> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7-common ****
+448f1e2 : m7-common: Remove HCE <Ethan Chen> 29 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2-common ****
+2a998d4 : apexqtmo: update compass init script <lbdroid> 7 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_d710 ****
+4f01d48 : We need a unique kernel path <DHOMD> 9 hours ago
+d93b9fe : d710: Reduce dpi <Ryuinferno> 3 days ago
+73d9a93 : d710: Switch to own common repos <Ryuinferno> 3 days ago
+64f26de : update dependencies <martincz> 3 weeks ago
+bdf1b6d : update dependencies <martincz> 7 weeks ago
+c2cd993 : d710: update for cm-10.2 <Dorian Snyder> 2 months ago
+1f1ec11 : Code Cleanup <martincz> 3 months ago
+5e4a256 : d710: Move has_led_flash to framework <martincz> 3 months ago
+63708a3 : d710: mokee modify <martincz> 4 months ago
+8388661 : Initial empty repository <martincz> 4 months ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_hlte-common ****
+153dc14 : hlte: Disable some unused audio features <Steve Kondik> 10 hours ago
+bea88fe : hlte: Add PowerHAL extension <Steve Kondik> 10 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jf-common ****
+4a4fd12 : jf-common: Change rtc0 to 660 <Dave Daynard> 2 days ago
+daa172c : jf-common: fix restorecon /efs <dcd> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_sony_yuga ****
+f34ae98 : There are issues with yuga's kernel beyond its being named the same as the pollux kernel and repo sync trying to sync both. MAINTAINER PROBLEM kthxbai. <nuclearmistake> 4 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+9123689 : frameworks: av: camera: add missing HTC cam parameter <h8rift> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+c74509e : Share hardware capability info between QuickSettingsController instances <nuclearmistake> 6 hours ago
+cceb66e : BroadcastQueue: fix class typo of next receiver <Leavitt Zhang> 5 days ago
+ebdfd13 : Revert "Revert "[2/2] Framework/base: Configure headset hook"" <nuclearmistake> 21 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+1490079 : SF: Block gpu rendering for virtual display widevine level3 <Ramakant Singh> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_cm ****
+fd915fc : power: cm_power_set_interactive: don't unnecessarily enforce mutual exclusion <nuclearmistake> 60 minutes ago
+d042b3f : cmpower: Add support for set_interactive extension <Steve Kondik> 10 hours ago
+dfd4f2e : power: Always manage notify_on_migrate <Steve Kondik> 11 hours ago
+ 
+**** https://github.com/VanirAOSP/hardware_libhardware ****
+bc98eda : audio: Add WMA Format suppport for offload playback <Manish Dewangan> 3 months ago
+0ba954d : usbaudio: Fixing return value from out_write <Amit Shekhar> 3 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+c1cba56 : hal: Fix a merge derp :( <Steve Kondik> 9 hours ago
+36c0893 : Audio: 8x16 concurrency changes <Naresh Tanniru> 6 days ago
+2a99dea : hal: add input source check to open compress voip input <Narsinga Rao Chella> 8 days ago
+61764e3 : hal: Rename & move platform_parser.c <Ben Romberger> 3 weeks ago
+b27e25f : post_proc: disable adsp reverb when preset is 'None' <wjiang> 11 days ago
+7566f8b : policy_hal: Correct device selection in STRATEGY_ENFORCED_AUDIBLE <Apoorv Raghuvanshi> 2 weeks ago
+d02f2cd : post_proc: Enable effects param in DSP to start effect <Amit Shekhar> 2 weeks ago
+6d8788b : hal: Add static internal function at the top of the file <Krishnankutty Kolathappilly> 3 weeks ago
+769d4d4 : hal: Reduce the deep buffer period count. <Krishnankutty Kolathappilly> 3 weeks ago
+d4f1d13 : hal : Send drain to the driver if next track returns error <Krishnankutty Kolathappilly> 4 weeks ago
+e4f4f12 : audio: mpq: enable volume control for offload playback <Dhananjay Kumar> 5 weeks ago
+b952220 : hal: Update USB headset ACDB ID <Vidyakumar Athota> 3 weeks ago
+5588688 : hal: Add XML parser for platform info <Ben Romberger> 3 weeks ago
+7a9e59d : hal: Fix compilation issue seen when a feature flag is defined <Narsinga Rao Chella> 4 weeks ago
+7690c56 : hal: Send device based parameters for DAP and DDP <Subhash Chandra Bose Naripeddy> 7 weeks ago
+707e751 : hal: add support for voip_out_stream_count key in get_parameters <Narsinga Rao Chella> 3 weeks ago
+07a9ea2 : hal: fix no audio in qchat call with speaker as default device <Shiv Maliyappanahalli> 4 weeks ago
+8911f28 : hal: fix incorrectly updated copyrights for source files <Shiv Maliyappanahalli> 3 weeks ago
+4a72d65 : hal: handle combo output devices for voice call <Mingming Yin> 4 weeks ago
+80ac628 : hal: fix no audio when switching devices in voice concurrency <Shiv Maliyappanahalli> 6 weeks ago
+d2ee825 : hal_mpq: Add the SPDIF device entry <Aviral Gupta> 7 weeks ago
+fdb08f4 : hal_mpq: Fix the underrun issue in the offload playback <Aviral Gupta> 6 weeks ago
+b165a8a : hal: Disable gapless offload playback by default. <Krishnankutty Kolathappilly> 4 weeks ago
+21e5c76 : hal: audio routing enable in hfp case <Vimal Puthanveed> 3 weeks ago
+37b4a1c : hal: avoid audio rerouting to different device when hfp is active <Vimal Puthanveed> 4 weeks ago
+47e6485 : hal: HFP support for setting sampling rate <Vimal Puthanveed> 6 weeks ago
+3e064fd : hal: fix set_parameter() returning -2 error <Shiv Maliyappanahalli> 7 weeks ago
+f930849 : hal: add support for all_call_states key <Shiv Maliyappanahalli> 7 weeks ago
+8f84e9f :   hal: Correct pcm device ID for QCHAT session <Venkata Narendra Kumar Gutta> 5 weeks ago
+3e1319d : hal: mpq:  configure HDMI channel number <Jay Wang> 6 weeks ago
+4b7fdaa : policy_hal: Do not allow sonification for USB headset. <Krishnankutty Kolathappilly> 7 weeks ago
+eb78be7 : hal: set gapless metadata for compress  offload playback <Krishnankutty Kolathappilly> 7 weeks ago
+ 
+**** https://github.com/P880-dev/android_kernel_lge_x3 ****
+9c65a2c : Stop breaking the kernel :p <demetris> 26 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+c4b74e8 : Don't set YAS_SENSOR_KERNEL_DEVFILE_INTERFACE <lbdroid> 6 weeks ago
+5935867 : tcp: add a sysctl to config the tcp_default_init_rwnd <JP Abgrall> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_apq8064 ****
+b14e460 : Odin: don't block FOCUS key in deep sleep <Vladislav Koldobskiy> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/libcore ****
+653203d : Fix a CharsetEncoder bug. <Narayan Kamath> 10 weeks ago
+fdd61c8 : Fix an ASCIICharsetEncoderTest testcase. <Narayan Kamath> 10 weeks ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+e3fc4bf : Track our own hardware_cm (without the temporary powerhal ghosts cm's has atm) <nuclearmistake> 17 minutes ago
+9c2f0d5 : http://vanir.co/nuclearmistake/VanirAOSPNightlies/p700 does not exit... which means p700 has not built since <4.3... if it ever had... at least no one will miss it. <nuclearmistake> 3 hours ago
+0fdfed5 : There are issues with yuga's kernel beyond its being named the same as the pollux kernel and repo sync trying to sync both. MAINTAINER PROBLEM kthxbai. <nuclearmistake> 4 hours ago
+b37ba10 : Add caf-new variants... because they're FROM THE FUTURE, like microwaves <nuclearmistake> 8 hours ago
+4e3c14f : 1 more time,... <DHOMD> 8 hours ago
+88a2d3b : Let's try to fix this one more time,... <DHOMD> 9 hours ago
+a65e717 : Follow our own d710 again <DHOMD> 9 hours ago
+1706c23 : Fix a derp <DHOMD> 9 hours ago
+3e7c640 : D710 Mokee FTW? <DHOMD> 9 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Camera2 ****
+abd9f91 : Camera: Disable Camera Launcher when both Front and Back sensors are not detected <Rajaram Gudivada> 5 months ago
+b403dd4 : Camera: Add indicator icon for burst mode <Ethan Chen> 7 weeks ago
+ac16091 : Camera: Add Burst mode <Michael Bestas> 12 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DSPManager ****
+5b875a3 : Actually add digital dock intent to the filter. <Steve Kondik> 10 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+11d754c : Fix to return to previous activity when a sms/mms notification is selected. <Sindhu Kanathur> 4 weeks ago
+5261c3d : MMS: Fix The slideshow can't be shown in the message <kaiyiz> 4 months ago
+e9cc2e9 : Resize the image in background <c_nagarw> 3 months ago
+fb74e19 : Display message type properly for MMS and SMS <kaiyiz> 6 months ago
+1f00714 : The draft still exists after forwarding mms to the same sender <yanglv> 4 months ago
+5e4c903 : Fix the send button disappearance after selecting the forward recipient <Ravi Paluri> 10 weeks ago
+38e1ed9 : Fix Null pointer expection when Phone is in low memory <imran> 4 months ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+85040f2 : change pkf ui <h0rn3t> 57 minutes ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+f5ef491 : ButtonSettings: Consolidate some redundant CheckboxPreference handling click code, and inline a method called from one place. <nuclearmistake> 20 hours ago
+6131667 : ButtonSettings: return before returning super's onPreferenceTreeClick's return value. <nuclearmistake> 20 hours ago
+4724e6f : ButtonSettings: In-line headset button: CheckBoxes have 2 states. Let's act like they do. <nuclearmistake> 20 hours ago
+c974836 : Revert "Revert "add configurable headset hook to buttons"" <nuclearmistake> 21 hours ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+c140b4f : init: Add vendor-specific initialization hooks <David Ng> 4 months ago
+ 
+**** https://github.com/VanirAOSP/vendor_lge ****
+f6d183a : ES&D, p700... ES&D. <nuclearmistake> 3 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+756ab46 : Remove Apache,.. it's retired <DHOMD> 9 hours ago
+7b52ba3 : Retool to d710 blobs to Mokee <DHOMD> 9 hours ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+dafb2a0 : In memoriam of the commented out stains at the bottom of our vendor makefiles... <nuclearmistake> 3 hours ago
+34c0332 : ES&D, p700. <nuclearmistake> 3 hours ago
+0b75e23 : hlte: unified <nuclearmistake> 9 hours ago
+7de4442 : Remove vestigial cdma QS overlay <nuclearmistake> 9 hours ago
+1a35f01 : Generic multi-carrier overlays based on hammerhead <dhacker29> 2 days ago
+ 

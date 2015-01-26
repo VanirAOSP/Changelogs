@@ -1,0 +1,153 @@
+
+**** https://github.com/VanirAOSP/dalvik ****
+bbe2d7a : Revert JIT changes for now <Steve Kondik> 26 hours ago
+80c0826 : vm: Enable fast multiply on perf builds too <Steve Kondik> 27 hours ago
+462bc92 : Use MAP_FIXED in remapNewHeap <Pete Delaney> 4 weeks ago
+5627e33 : Fix dx test 034. <Jean-Marie Henaff> 3 weeks ago
+653ffbf : Change exception message for ArrayStoreException. <Narayan Kamath> 2 weeks ago
+9c57d27 : Remove code related to extended-opcode. <Jean-Marie Henaff> 3 weeks ago
+a495ba9 : Initialize callTgt variable <Bernhard Rosenkränzer> 5 weeks ago
+15932a7 : Don't implicitly cast NULL to a bool <Bernhard Rosenkränzer> 5 weeks ago
+eadd85e : Dalvik: Add hardware vfp support for OP_LONG_TO_DOUBLE in JIT <Serban Constantinescu> 8 months ago
+bccafab : Dalvik: Add hardware support for OP_LONG_TO_DOUBLE in the interpreter <Serban Constantinescu> 8 months ago
+c28a341 : Dalvik: Add sdiv support in the JIT <Serban Constantinescu> 3 months ago
+a1af431 : Dalvik: Add sdiv support in the interpreter <Serban Constantinescu> 7 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_htc_msm8960-common ****
+b784c39 : msm8960: allow 5th RIL response <Ethan Chen> 3 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+9fb73d5 : Allow touch gesture to be configurable <nuclearmistake> 24 hours ago
+c23ffca : Reconcile framebuffer count <nuclearmistake> 24 hours ago
+7e245fd : enable input resampling <nuclearmistake> 24 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_msm8960dt-common ****
+59d6fe8 : init: msm_rotator: Add group permission for msm_rotator. <dhacker29> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+e05e39f : camera wrapper makefile cleanup <Dan Pasanen> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_qcom-common ****
+5f40ee7 : Qcom-common: update omx libs <Shareef Ali> 9 days ago
+2479aa0 : qcom-common: Update postboot for 8974 <Steve Kondik> 13 days ago
+a94551c : increase msm8974 post_boot dynamicism <nuclearmistake> 27 hours ago
+a36b966 : Revert "qcom-common: enable msm8974 cpu power settings" <Steve Kondik> 2 weeks ago
+5368033 : qcom-common: Misc stuff for 8974 <Steve Kondik> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_smdk4412-common ****
+58f0047 : smdk4412-common: camera: properly enable touch to focus mode <Dheeraj CVR> 3 days ago
+ 
+**** https://github.com/CyanogenMod/AndroidAsync ****
+e6848bb : setParent when using setComplete(future). <Koushik Dutta> 22 hours ago
+36b00ca : Pass the original exception as the cause when throwing ConnectionClosedException <Dmitry Apresian> 3 days ago
+a5ad110 : SocketIO: Better handle queries when building the session url <Rahul Parsani> 4 days ago
+ 
+**** https://github.com/VanirAOSP/Superuser ****
+f465a0a : Fix bugreport toast spam. <Marcos Marado> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+8fba2dc : Lockscreen notifications: Squashed commit of the following... <PrimeDirective> 27 hours ago
+93f9ebe : Vpn: Setup routes. <Brian Beloshapka> 2 days ago
+9b9df54 : GlobalActions: Set the initial status of airplane mode toggle <Cristoforo Cataldo> 4 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_cm ****
+434665a : power: Remove recursive locking <Steve Kondik> 26 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8960 ****
+6912b87 : ondemand: add sysfs entry for down_diff_multi_core <Krishna Vanka> 8 weeks ago
+38eadd2 : cpufreq: ondemand: fix timer-related list corruption in store_powersave_bias() <Osvaldo Banuelos> 8 weeks ago
+e1aa7a2 : cpufreq: ondemand: Fix hotplug deadlock with store_powersave_bias <Matt Wagantall> 6 months ago
+c4aeacb : cpufreq: ondemand: Fix update_sampling_rate race with hotplug <Rohit Gupta> 6 months ago
+17cbd95 : cpufreq: ondemand: add input_boost interface <Dilip Gudlur> 8 months ago
+b94083c : cpufreq: Avoid using smp_processor_id() in preemptible context <Stephen Boyd> 1 year, 3 months ago
+f28dade : cpufreq: ondemand: Boost CPU frequency only for touch input <Tingwei Zhang> 7 months ago
+92daa72 : cpufreq: ondemand: Disable freq sync feature in store_powersave_bias <Rohit Gupta> 8 months ago
+d5d59a5 : cpufreq: ondemand: change freq sync code to use per-CPU kthreads <Steve Muckle> 8 months ago
+e3f2f66 : cpufreq: Use dedicated high-priority workqueues <Matt Wagantall> 9 months ago
+093a213 : msm: Synchronize CPU frequency on thread migration <Rohit Gupta> 10 months ago
+401092b : cpufreq: Fix optimal_freq logic on ramp down <Veena Sambasivan> 9 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_lge_msm8974 ****
+3b8e4bf : synaptics: Update firmware images <Ricardo Cerqueira> 17 hours ago
+749bec0 : msm: ipc: Fix SKB ownership for failure case <Zaheerulla Meer> 6 months ago
+9c41a45 : msm: ipc: Return the error codes without modification <Karthikeyan Ramasubramanian> 6 months ago
+92862b4 : msm: ipc: Add HSIC Transport for off-chip communication <Karthikeyan Ramasubramanian> 10 months ago
+18f0d53 : msm: kgsl: Release hang detect performance counters when not in use <Jordan Crouse> 2 months ago
+0445b4d : msm: kgsl: Add TSE performance counter to software hang detection <Tarun Karra> 2 months ago
+d365689 : msm: kgsl: Protect against a potential overflow in kgsl_sg_alloc <Jordan Crouse> 2 months ago
+0d0aba6 : msm: qmi: Fix access-after-free condition <Zaheerulla Meer> 6 months ago
+4766790 : msm: ipc: Add support to handle version 2 header <Karthikeyan Ramasubramanian> 10 months ago
+7b03f45 : msm: ipc: Pass the local service events to local clients <Karthikeyan Ramasubramanian> 6 months ago
+ad060a1 : msm: ipc: Cleanup a routing table entry under subsystem restart <Karthikeyan Ramasubramanian> 6 months ago
+e0a8a01 : msm: ipc: Fix memory leak <Zaheerulla Meer> 7 months ago
+c0c36f7 : msm: ipc: Send Resume_Tx from the client/server context <Zaheerulla Meer> 7 months ago
+2a5fb7d : msm: ipc: Initialize unused elements of control message to 0 <Karthikeyan Ramasubramanian> 7 months ago
+f316d0c : msm: ipc: Clean-up code redundancy <Arun Kumar Neelakantam> 8 months ago
+2131a76 : msm: ipc: Return error value on send failure <Zaheerulla Meer> 7 months ago
+a146f0a : msm: qmi: Update the wait-for-response to UNINTERRUPTIBLE <Karthikeyan Ramasubramanian> 7 months ago
+b691654 : msm: smem: Update SMEM log dump_sym to indicate QMI modules <Zaheerulla Meer> 8 months ago
+f83cf0c : msm: ipc: Handle the Resume_Tx events from remote endpoints <Zaheerulla Meer> 9 months ago
+5533a7e : msm: ipc: Serialize SMD XPRT CLOSE and OPEN events <Karthikeyan Ramasubramanian> 8 months ago
+9c1be5a : msm: ipc: Make the kernel-space read operation as non-blocking <Zaheerulla Meer> 9 months ago
+3e31967 : msm: ipc: Fix potential AB-BA deadlock <Zaheerulla Meer> 9 months ago
+928004f : msm: ipc_logging: move deserialize function <Eric Holmberg> 8 months ago
+635e029 : msm: ipc_logging: Add ipc logging context destroy API <Arun Kumar Neelakantam> 9 months ago
+602d414 : msm: Fix race condition in domain lookup <Olav Haugan> 8 months ago
+3c58119 : msm: Add null-pointer checks for domains <Olav Haugan> 8 months ago
+1a1aae7 : smp: Relax irqs_disable() warning in smp_call_function_single() <Matt Wagantall> 4 months ago
+1a1c3cd : msm: cpufreq: Move cpu_frequency_* trace points from acpuclock to cpufreq <Matt Wagantall> 5 months ago
+924b827 : msm: acpuclock: Fix acpuclk_data null pointer dereference <Junjie Wu> 8 months ago
+8804dc4 : Kconfig: Add menu choice option to reclaim virtual memory <Neeti Desai> 6 months ago
+6a82913 : Kconfig: Add config option to support vmalloc savings <Neeti Desai> 6 months ago
+e2aa987 : arm: Add ARCH_RANDOM Kconfig <Laura Abbott> 6 months ago
+2ab191b : msm: implement ARCH_RANDOM <Laura Abbott> 6 months ago
+6bde2c5 : platform/msm: qpnp-power-on: Implement cold_boot sysctl parameter <Prasad Sodagudi> 6 months ago
+cf2eb2c : sysctl: add cold_boot sysctl entry <David Keitel> 10 months ago
+e6f64ad : watchdog: Fix warning caused by use of smp_processor_id() <Srivatsa Vaddagiri> 6 months ago
+39d3393 : msm: Remove files no longer buildable under arch/arm/mach-msm <Mohammad Johny Shaik> 3 months ago
+f237a39 : qdsp5: memset stack buffer allocation. <Asish Bhattacharya> 4 months ago
+1a2baa2 : drivers/staging: Configurable android log buffer sizes <Bhargav Upperla> 6 months ago
+a5b0910 : kernel: alarm: :fix the BUG that device automatically powers on <Figo Wang> 6 months ago
+143ef4e : rtc: alarm: Set power-on alarm 120 sec before actual alarm time <Mohit Aggarwal> 6 months ago
+e931b43 : kernel: alarm: add dedicated alarm type for poweroff alarm <Figo Wang> 5 months ago
+7d1d22b : cpufreq: Add LG's new grid-stepping implementation <Ricardo Cerqueira> 27 hours ago
+81e1d1d : cpufreq: Add a sync limit to cpu-boost <Rohit Gupta> 2 months ago
+a28535b : cpufreq: Add cpu-boost driver <Saravana Kannan> 7 months ago
+6a0e6b4 : cpufreq: interactive: Add a sampling_down_factor for max frequencies <Rohit Gupta> 3 months ago
+8120d90 : cpufreq: interactive: fix show_target_loads and show_above_hispeed_delay <Minsung Kim> 5 months ago
+ca8fabb : cpufreq: interactive: resched timer if max freq raised <Lianwei Wang> 9 months ago
+a2b7bd5 : cpufreq: interactive: fix race on cpufreq TRANSITION notifier <Lianwei Wang> 9 months ago
+f2b7b0a : cpufreq: interactive: avoid underflow on active time calculation <Minsung Kim> 10 months ago
+19a5a4c : cpufreq: interactive: reduce chance of zero time delta on load eval <Todd Poynor> 10 months ago
+e87d4e4 : cpufreq: interactive: handle errors from cpufreq_frequency_table_target <Todd Poynor> 10 months ago
+42d6235 : cpufreq: interactive: fix uninitialized spinlock <Minsung Kim> 10 months ago
+41cd0a7 : cpufreq: interactive: base above_hispeed_delay on target freq, not current <Todd Poynor> 11 months ago
+bea1929 : cpufreq: interactive: fix crash on error paths in get_tokenized_data <Todd Poynor> 11 months ago
+959bba3 : cpufreq: interactive: add io_is_busy interface <Lianwei Wang> 12 months ago
+651dbcf : cpufreq: interactive: allow arbitrary speed / delay mappings <Minsung Kim> 11 months ago
+63df930 : cpufreq: ondemand: add input_boost interface <Dilip Gudlur> 8 months ago
+9eef30d : cpufreq: Remove original grid-stepping implementation <Ricardo Cerqueira> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+1310c7a : apache isn't dead yet maybe <nuclearmistake> 2 hours ago
+95b670e : manifest: add OmniSwitch <Dan Trifan> 15 hours ago
+0f47873 : NVM - Testing possibility that it's something on the ramdisk. <nuclearmistake> 24 hours ago
+03571ad : g2: compile a kernel with which the screen stays off <nuclearmistake> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+60c69ef : Camera: fix crash on screen off-on on preview screen <Pawit Pornkitprasan> 33 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+c2e1d02 : deskclock: internationalize repeat days layout <Jorge Ruesga> 26 hours ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+306d45c : ... <h0rn3t> 61 minutes ago
+a442753 : ... <h0rn3t> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+2dd150bc : Unbreak PIN/Password lockscreen options <Ricardo Cerqueira> 29 hours ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+b6d66f1 : Multi-carrier overlays: Fix Mms <dhacker29> 25 hours ago
+ 

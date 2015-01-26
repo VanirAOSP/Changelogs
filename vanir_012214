@@ -1,0 +1,132 @@
+
+**** https://github.com/VanirAOSP/build ****
+1da7bb7 : Revert "Revert "Don't wipe cache and dalvik"" <nuclearmistake> 15 hours ago
+ 
+**** cm	https://github.com/CyanogenMod/Flyhalf205/device_htc_vigor
+https://github.com/vigor/device_htc_vigor
+origin	git@github.com:VanirAOSP/device_htc_vigor.git
+vanir	https://github.com/VanirAOSP/device_htc_vigor
+vanir2	git@github.com:VanirAOSP/device_htc_vigor.git ****
+a5733c5 : Add ChameleonOS support <Snuzzo> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+f5789b2 : Revert "g2: revert g2: dexopt system to /cache" <nuclearmistake> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+9a2c53b : Revert "Revert "msm8960-common: Use /cache for dalvik-cache since we have enough space"" <nuclearmistake> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/external_bluetooth_bluedroid ****
+b54b8b1 : Fix compile without Bluetooth LE stack included <Steven Luo> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/external_exfat ****
+0f694f6 : Append cflags instead of replacing <nuclearmistake> 3 hours ago
+0ce0053 : Fixed return value from exfat_rename(). <resver@gmail.com> 4 days ago
+7775fc6 : Fixed memory use after free on error paths. <resver@gmail.com> 4 days ago
+19c30e7 : Fixed compilation on OpenBSD. <resver@gmail.com> 7 days ago
+b855e45 : Added OpenBSD support. <resver@gmail.com> 9 days ago
+cca6939 : Added to the man page note about partition type. <resver@gmail.com> 9 days ago
+3110ebd : Relaxed node size check. This fixes pagefile.sys error. <resver@gmail.com> 2 months ago
+1ec9a99 : Moved node checks into a separate function check_node(). <resver@gmail.com> 2 months ago
+b03ea41 : Simplified return code checking in shrink_directory(). <resver@gmail.com> 2 months ago
+d0dea8f : Fixed bitmaps handling on big-endian machines. <resver@gmail.com> 3 months ago
+d045491 : Handle I/O error in exfat_next_cluster(). <resver@gmail.com> 3 months ago
+0cd5463 : Fixed return codes from exfat_close() and exfat_fsync(): return -EIO on error instead of 1. Also do fsync() after ublio_fsync(): ublio_fsync() does not flush changes to the disk, just writes them. <resver@gmail.com> 5 months ago
+b66dc93 : Fixed crash on unmount under OSXFUSE: it calls fuse_exfat_fsync() for "/" which was not opened. <resver@gmail.com> 5 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+b9cb6a6 : Telephony: Add data rat constant <Alex Yakavenka> 3 months ago
+7127add : Active notifications: proximity improvements <PrimeDirective> 2 days ago
+343cbd8 : Revert "Allow changing screen-off animation (1/2)" <nuclearmistake> 17 hours ago
+470406d : Bluetooth: Fix PXP LPP app link loss reconnection <Subramanian Srinivasan> 13 days ago
+6e9a8c7 : Bluetooth: Validate input parameters of gatt characteristics <Vadivel Thekkamalai> 4 months ago
+c44187c : Increases Gatt connection timeout value to be 30 secs <Subramanian Srinivasan> 4 weeks ago
+72283a3 : Bluetooth: HID-C: Add support for error parameter for reportError <Hemant Gupta> 3 weeks ago
+2a4c5f6 : wlan: Do not disable the network on Assoc Reject/Authentication Failure. <Vinay Krishna Eranna> 2 weeks ago
+6703e4e : Allow changing screen-off animation (1/2) <Michael Bestas> 7 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+7fbace6 : This is NOT legacy <DHOMD> 3 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+7403170 : alsa_sound: Fix aliasing violations (properly) <nuclearmistake> 2 days ago
+ 
+**** http://github.com/CyanogenMod/android_hardware_ti_omap3
+cm2	https://github.com/CyanogenMod/android_hardware_ti_omap3 ****
+69479ef : hwc: allow building in Thumb mode on ARM <Steven Luo> 4 months ago
+6d7c31b : hwc: use TARGET_SCREEN_WIDTH/TARGET_SCREEN_HEIGHT to set initial overlay size <Steven Luo> 4 months ago
+7891741 : hwc: Fix check for presence of sysfs vsync_time file <Steven Luo> 6 months ago
+2a9902d : hwc: silence a compiler warning <Steven Luo> 6 months ago
+b65fe02 : hwc: fix probable typo/thinko <Steven Luo> 6 months ago
+943b97a : hwc: call omap3_hwc_reset_screen() only once <Steven Luo> 6 months ago
+85f44c2 : hwc: update api version to v1 <Dheeraj CVR> 7 months ago
+43880ac : hwc: Support VSYNC notification via sysfs <Ricardo Cerqueira> 1 year, 3 months ago
+4385dbb : hwc: Add vsync support <Ricardo Cerqueira> 1 year, 4 months ago
+4aba64c : Revert "OMAP3: hwc: Fix for rotation transition to render using SGX." <jutursunil> 1 year, 6 months ago
+ 
+**** http://github.com/CyanogenMod/lge-kernel-gproj ****
+03621d4 : gk: Adjust to the new bcmdhd driver <Ricardo Cerqueira> 2 days ago
+dcc6fb6 : net: wireless: bcmdhd: Change the parameter for TDLS <Ecco Park> 9 weeks ago
+05165eb : net: wireless: bcmdhd: enable TDLS_auto_mode <Ecco Park> 2 months ago
+323684c : net: wireless: bcmdhd: Enable IPv6 RA filter feature <Ecco Park> 10 weeks ago
+effa1ae : Revert "net: wireless: bcmdhd: add debug code to print packet statistics" <Pat Tjin> 2 months ago
+d16e351 : net: wireless: bcmdhd: Change DTIM skip policy in suspend <Ecco Park> 3 months ago
+bc6c079 : net: wireless: bcmdhd: cancel current PNO if connection will happen <Ecco Park> 3 months ago
+dc6a264 : net: wireless: bcmdhd:  clear p2p scan state if PNO scan will start <Ecco Park> 3 months ago
+a77c58e : net: wireless: bcmdhd: add debug code to print packet statistics <Ecco Park> 3 months ago
+9dacbf2 : net: wireless: bcmdhd: reduced the wakelock time of RX packet <Ecco Park> 3 months ago
+26e533c : net: wireless: bcmdhd: Fix country checking <Dmitry Shmidt> 3 months ago
+f811223 : net: wireless: bcmdhd: fixed power consumption issue of P2P. <Ecco Park> 4 months ago
+87db70f : net: wireless: bcmdhd: Reduce active scan time to 20/30 <Dmitry Shmidt> 3 months ago
+7fd0a1e : net: wireless: bcmdhd: add code for WLS service. <Ecco Park> 4 months ago
+a4bbcdd : net: wireless: bcmdhd: Fixed Wi-Fi Location Service issues. <Ecco Park> 4 months ago
+314e433 : net: wireless: bcmdhd: fix for negative padding <Ecco Park> 4 months ago
+be8cea0 : net: wireless: bcmdhd: Fixed Coverity issue. <Ecco Park> 4 months ago
+1dbe49f : bcmdhd: Add LG's reserved memory options <Ricardo Cerqueira> 6 weeks ago
+dcbf0f6 : net: wireless: bcmdhd: new feature for Roaming. <Ecco Park> 4 months ago
+3f54d1b : net: wireless: bcmdhd: Fix of Wireless Location Service <Ecco Park> 4 months ago
+c61b138 : net: wireless: bcmdhd: Fix of Wireless Location Service <Ecco Park> 4 months ago
+8a84e6b : net: wireless: bcmdhd: Update Location Service code <Ecco Park> 5 months ago
+381709c : net: wireless: bcmdhd: enable WL_IFACE_COMB_NUM_CHANNELS <Ecco Park> 5 months ago
+fa53e18 : net: wireless: bcmdhd: Update to version 1.88.45 <Ecco Park> 5 months ago
+4692e86 : net: wireless: bcmdhd: Fix WL_SCHED_SCAN compilation <Dmitry Shmidt> 5 months ago
+91dc8de : net: wireless: bcmdhd: Update to version 1.88.42 	implementation of Wi-Fi Location Service 	-remove white space in file 	-add dhd_pno.o in Makefile 	-remove PASS_ARP_PACKET in Makefile Signed-off-by: Ecco Park <eccopark@broadcom.com> <Ecco Park> 5 months ago
+18d751d : net: wireless: bcmdhd: Enable p2p support bits for p2p device <Dmitry Shmidt> 6 months ago
+ccc1913 : net: wireless: bcmdhd: Update to version 1.88.41     1. Fixed SDIO bus wakeup code when idletime was zero case     2. Fixed OOB interrupt handler was not registered when WLAN on failed case     3. Cleaned up ARP Packet filter code.     4. Cleaned up P2P ESCAN source code.     5. Cleaned up TDLS code.     6. Fixed Neighbor Discovery offload bug     7. Supported Device tree feature for futher usage     8. Use binary semaphore for dhd thread  remove white space  accept Dmitry comment Signed-off-by: Ecco Park <eccopark@broadcom.com> <Ecco Park> 5 months ago
+3a4938e : net: wireless: bcmdhd: Enable p2p support bits for p2p device <Dmitry Shmidt> 6 months ago
+6d3c6e8 : net: wireless: bcmdhd: Update to version 1.88.27 <kyunghoe.kim> 6 months ago
+5c8ab2a : net: wireless: bcmdhd: enable TDLS <kyunghoe.kim> 7 months ago
+75a6962 : net: wireless: bcmdhd: Support for country code mapping table <Devin Kim> 7 months ago
+72bb438 : net: wireless: bcmdhd: Update to version 1.88.21 <kyunghoe.kim> 8 months ago
+fbe2a6b : net: wireless: bcmdhd: Update to Version 1.88.10 <kyunghoe.kim> 9 months ago
+e082824 : net: wireless: bcmdhd: enable custom MAC <Devin Kim> 9 months ago
+abb7f04 : net: wireless: bcmdhd: Fix the panic when using tethering with builtin <Devin Kim> 10 months ago
+d3ab636 : net: wireless: bcmdhd: configurable for builtin driver <Devin Kim> 10 months ago
+a1629d7 : net: wireless: bcmdhd: Update to version 1.61.46 <Devin Kim> 10 months ago
+c08f0d9 : Revert "video: msm: Use the new fence release logic for video panel too" <Ricardo Cerqueira> 3 weeks ago
+67117e4 : gk: Increase the mdp bandwidth <Ricardo Cerqueira> 7 weeks ago
+124a43a : msm: vidc: Initialize kernel space stack variables <Deepak Verma> 3 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_samsung_d2 ****
+1b3ac97 : "I'M MOTHERF&*@ING SICK AND TIRED OF THESE MOTHERF@#!ING [forced python versions] IN THIS MOTHERF!@#ING [kernel]" -Samuel L. Jackson (Snakes on a Plane) <nuclearmistake> 17 hours ago
+ 
+**** http://github.com/CyanogenMod/android_kernel_samsung_smdk4412 ****
+bdb64be : Fix proximity sensor for GT-N5100 <Truong Ta Xuan> 4 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+24a9f9f : Shhhhh!  Revert some Verbose logging from reconcile <DHOMD> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+a0d9ad3 : WIP: add a system app remover in to settings <bart452> 5 days ago
+4a11d11 : Updates to cm performance settings. <nuclearmistake> 2 days ago
+0a22d7f : Revert "omni performancecontrol >>> CM performance settings" <nuclearmistake> 2 days ago
+3443a0c : Bluetooth: Validate the device for A2dpSink <Gubbala Venugopal Rao> 2 weeks ago
+ca32cf9 : Bluetooth: A2dp: Add A2dp Source UUID <Ayan Ghosh> 2 weeks ago
+6c416d4 : Bluetooth: disable scan icon when BT state is off <Srinu Jella> 3 months ago
+236b41f : Allow changing screen-off animation (2/2) <Michael Bestas> 7 weeks ago
+3e2ce05 : DisplaySettings: Add hardware-framework support for tap-to-wake <Ricardo Cerqueira> 20 hours ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+b69d7f7 : Revert "Force disable dex preopt" <nuclearmistake> 15 hours ago
+5d24b48 : User builds can ES&D <nuclearmistake> 16 hours ago
+ 

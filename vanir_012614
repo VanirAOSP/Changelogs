@@ -1,0 +1,287 @@
+
+**** https://github.com/VanirAOSP/build ****
+e802113 : build: use the system's ccache by default <Anthony King> 33 hours ago
+2c736d0 : arm7-a-neon: Let there be voluntary ghosts. <nuclearmistake> 32 hours ago
+ 
+**** http://github.com/CyanogenMod/android_device_htc_m7spr ****
+0222da7 : m7spr: Update kernel dependency <Ethan Chen> 3 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7vzw ****
+b1a1d31 : m7vzw: Update kernel dependency <Ethan Chen> 3 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+4790e2d : msm8974: Disable gapless by default <Steve Kondik> 17 hours ago
+ 
+**** https://github.com/xboxfanj/android_device_lge_gee-common ****
+5ef7ec7 : overlay: Battery LEDs <Jake W> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+37faf2f : hh: Disable gapless by default <Steve Kondik> 17 hours ago
+787c704 : hh: Enable qrngd <Steve Kondik> 17 hours ago
+78f3aa9 : hh: Tune interactive governor <Steve Kondik> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+6f60933 : omap4-common: /ss does not need to be world read-/writable <Michael Gernoth> 27 hours ago
+8b99e74 : omap4-common: fix permission for sdcard0 and mark sdcards nonemulated <Michael Gernoth> 31 hours ago
+ 
+**** http://github.com/CyanogenMod/android_device_samsung_d2-common ****
+3b16986 : Revert "remove qrngd" <Dan Pasanen> 11 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jf-common ****
+3ac13b7 : Revert "remove qrngd" <Dan Pasanen> 11 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_yuga ****
+9fecaca : add property for thermald and mpdecision when not using stock kernel <nikhiljan93> 15 hours ago
+0ae52ad : update usb mass storage path and lower minimum brightness \ <nikhiljan93> 15 hours ago
+8442350 : add persist.thermal.monitor=true <nikhiljan93> 15 hours ago
+ 
+**** https://github.com/VanirAOSP/external_bluetooth_bluedroid ****
+7062c3d : Revert "Bluetooth: Handle sub system restart gracefully" <Ricardo Cerqueira> 26 hours ago
+ 
+**** http://github.com/CyanogenMod/ion ****
+ffe2d46 : Clean up deferred load processing. <Koushik Dutta> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+a325a0e : Make sure our compiled RILConstants have the incorrectly-capitalized UNSOL_CDMA_PRL_CHANGED definition TOO <nuclearmistake> 27 hours ago
+4081f1c : FLAG_PRIVILEGED disappears if privileged app is updated and rebooted <Naofumi Harada> 6 days ago
+d8402f6 : Bluetooth: Fix to avoid object leaks during BT OFF <Nitin Shivpure> 7 weeks ago
+3ab251d : Revert "Telephony: Add data rat constant"  || Dead code <DHOMD> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+0abf1a4 : SamsungQualcommRIL: fixup drivercall for universal builds <Shareef Ali> 9 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display-caf ****
+efa2483 : display: Various cleanups, fix legacy camera heap <Steve Kondik> 7 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media-caf ****
+760f23b : Fix aliasing violations (properly) <nuclearmistake> 8 hours ago
+94c4e70 : mm-video: vdec: Use GRALLOC_USAGE_PRIVATE_ADSP_HEAP <Cristoforo Cataldo> 7 weeks ago
+b0d6260 : mm-video: venc: Don't align chroma on legacy msm7x30 devices <Cristoforo Cataldo> 4 weeks ago
+aaecd97 : mm-video:venc: Add required ION Heap ID for video encoder buffers <Maheshwar Ajja> 1 year, 1 month ago
+ 
+**** http://github.com/CyanogenMod/android_kernel_htc_msm8960 ****
+882c86f1 : m7: initial import of CM m7 defconfig <Ethan Chen> 2 weeks ago
+07c5bc7 : msm: HTC: m7: update board files <Ethan Chen> 2 weeks ago
+aba046b : msm: HTC: m7: Add support for SRE and CABC dimming <Ethan Chen> 12 days ago
+e591a58 : msm: HTC: m7: update board display files <Ethan Chen> 2 weeks ago
+40740f4 : msm: HTC: m7: update board audio file <Ethan Chen> 2 weeks ago
+bc8565f : msm: HTC: m7: update board wifi file <Ethan Chen> 2 weeks ago
+6d46fe3 : msm: HTC: m7: update board rfkill file <Ethan Chen> 2 weeks ago
+5d3ea0b : msm: HTC: m7: update board camera file <Ethan Chen> 2 weeks ago
+7c1e85b : msm: HTC: m7: update board keypad file <Ethan Chen> 2 weeks ago
+b8ddc84 : msm: HTC: m7: update board storage file <Ethan Chen> 2 weeks ago
+4feb9f9 : msm: HTC: m7: update board gpiomux file <Ethan Chen> 2 weeks ago
+6def28b : msm: HTC: m7: update board regulator file <Ethan Chen> 2 weeks ago
+41960bb : msm: HTC: m7: update board PMIC file <Ethan Chen> 2 weeks ago
+0cdea9a : msm: HTC: m7: update board GPU file <Ethan Chen> 2 weeks ago
+e84bb25 : msm: HTC: m7: initial import of board files <Ethan Chen> 2 weeks ago
+18b9536 : msm: HTC: m7: Add M7 board makefiles <Flemmard> 2 weeks ago
+d8127e5 : msm: iomap: Add HTC APQ8064 memory region mappings <Ethan Chen> 2 weeks ago
+57f67d7 : msm: 8064: Set APQ8064 boot addresses for HTC <Flemmard> 2 weeks ago
+1bc7b1c : ASoC: msm: Add support for 24-bit output path <Flemmard> 3 weeks ago
+f26ba13 : ASoC: msm: Add M7 bluetooth routing info <Flemmard> 8 days ago
+d465c6a : ASoC: msm: Add M7 FE/BE and routing info <Flemmard> 3 weeks ago
+1828df1 : msm: HTC: Add M7 AIF clock entry <Flemmard> 3 weeks ago
+538126b : msm: HTC: Add M7 I2S audio devices <Flemmard> 3 weeks ago
+b55c897 : msm: HTC: Add support for M7 GSBI4 resources <Flemmard> 3 weeks ago
+79a0283 : msm: HTC: Add support for GSBI2 <Flemmard> 3 weeks ago
+ff2522b : msm: HTC: Add M7/DLX panel IDs <Flemmard> 3 weeks ago
+82fc260 : m7: Add support for m7 machine types <Flemmard> 3 weeks ago
+d3220c2 : msm: HTC: Add additional HTC camera structures <Flemmard> 2 weeks ago
+fa79849 : msm: HTC: Update HTC MSM8960 acoustic driver <Flemmard> 2 weeks ago
+11af8e7 : msm: HTC: Update HTC headset drivers <Flemmard> 2 weeks ago
+d01e35f : msm: HTC: Update HTC battery drivers <Flemmard> 3 weeks ago
+5974b24 : msm: HTC: Update htc_restart_handler <Flemmard> 3 weeks ago
+443c0c7 : msm: HTC: Update devices_htc.c <Flemmard> 3 weeks ago
+c630cbf : msm: HTC: Update emmc partitions code <Flemmard> 3 weeks ago
+c2640a2 : msm: HTC: Add htc_4335_wl_reg driver <Flemmard> 3 weeks ago
+e65b746 : ARM: Add additional ATAGs <Flemmard> 3 weeks ago
+0810abc : input: touchscreen: synaptics_3200: Update Synaptics 3200 driver <Flemmard> 3 weeks ago
+4b3870c : input: mpu3050: use hr_msleep for sleep <Ethan Chen> 9 days ago
+8923f4a : input: mpu3050: Update HTC version of MPU3050 sensor <Flemmard> 3 weeks ago
+55adfda : input: r3gd20: Update R3GD20 gyroscope driver <Flemmard> 2 weeks ago
+6f36015 : msm: HTC: jet: update cm3629 platform data <Ethan Chen> 2 weeks ago
+84cecde : input: cm3629: Update CM3629 proximity/light sensor <Flemmard> 3 weeks ago
+e777726 : leds: leds-pm8xxx: Update HTC leds-pm8xxx variant <Flemmard> 3 weeks ago
+760fa6f : power: pm8921-charger: Update HTC pm8921 drivers <Flemmard> 3 weeks ago
+6e3ffce : msm: camera: Update HTC camera stack drivers <Flemmard> 2 weeks ago
+3db2218 : msm: HTC: Add HTC 8064 camera IOMMU contexts <Flemmard> 2 weeks ago
+41b862b : msm: HTC: Add HTC 8064 camera clock entries <Flemmard> 2 weeks ago
+7cdc29d : msm: camera: Import HTC M7 camera sensor drivers <Flemmard> 2 weeks ago
+291b292 : msm: camera: yushanII: Import HTC Yushan II driver <Flemmard> 2 weeks ago
+37ac070 : msm: camera: actuators: Import HTC TI201 actuator driver <Flemmard> 3 weeks ago
+3a8390c : msm: camera: actuators: Import lc898212 actuator driver <Flemmard> 3 weeks ago
+c1ffad0 : msm: camera: actuators: Import Rumbas-S actuator driver <Flemmard> 3 weeks ago
+7049080 : msm_serial_hs_cir: Add HTC CIR serial driver <Flemmard> 3 weeks ago
+937c596 : input: bma250_bosch: Add HTC variant of BMA250 sensor <Flemmard> 3 weeks ago
+0a7d294 : input: akm8963_nst: Add HTC variant of AKM8963 compass <Flemmard> 3 weeks ago
+9dc34f3 : misc: rt5501: Add HTC RT5501 Amp driver <Flemmard> 3 weeks ago
+2086183 : misc: tfa9887: Add HTC TFA9887 Amp driver <Flemmard> 3 weeks ago
+be0391a : msm_serial_hs_brcm: Add Broadcom high speed MSM serial interface <Ethan Chen> 2 weeks ago
+7f6505e : msm: mdm2: Add HTC modem initialization code <Flemmard> 13 days ago
+95e01d0 : mmc: msm_sdcc: Add support for HTC SDC_PAD_PWR_SWITCH <Flemmard> 13 days ago
+fafa1ad : msm: HTC: Unconditionally enable USB Speaker support <Ethan Chen> 2 weeks ago
+63e28f9 : ARM: Add support for 64 bit register reads/writes <Olav Haugan> 11 months ago
+628f0c1 : iommu/core: pass a user-provided token to fault handlers <Ohad Ben-Cohen> 1 year, 8 months ago
+c92e49e : msm: kgsl: Add separate GPU shader memory mapping <Carter Cooper> 7 months ago
+321cbbc : msm: We are using the msm2 gpu driver, not msm <Christopher R. Palmer> 8 weeks ago
+f7652b3 : gpu: msm: Add new Adreno driver <Steve Kondik> 9 weeks ago
+4caf72e : msm: rotator: signal timeline when rotator prepare fails. <Naseer Ahmed> 4 months ago
+de56cae : msm: scm: Add scm_call_atomic3 <Carter Cooper> 10 months ago
+dc3c352 : msm: scm-pas: Provide a strongly ordered buffer to the secure world <Mekala Natarajan> 4 months ago
+6482c4e : msm: mdp: Disable early suspend locally <Naseer Ahmed> 7 months ago
+2be2f01 : msm: mdp: Disable early suspend only for the MDP driver <Naseer Ahmed> 8 months ago
+242deab : net: wireless: bcmdhd: Fix of Wireless Location Service <Ecco Park> 5 months ago
+aa78d59 : net: wireless: bcmdhd: Fix of Wireless Location Service <Ecco Park> 5 months ago
+9d67402 : net: wireless: bcmdhd: Update Location Service code <Ecco Park> 5 months ago
+aeb7b22 : net: wireless: bcmdhd: enable WL_IFACE_COMB_NUM_CHANNELS <Ecco Park> 5 months ago
+cc28a9a : net: wireless: bcmdhd: Update to version 1.88.45 <Ecco Park> 5 months ago
+d840aaa : net: wireless: bcmdhd: Update to version 1.88.42 <Dmitry Shmidt> 5 months ago
+dd29c2c : net: wireless: bcmdhd: Update to version 1.88.41 <Dmitry Shmidt> 5 months ago
+981b9a2 : net: wireless: bcmdhd: Remove chatty message from wl_cfgp2p_act_frm_search <Dmitry Shmidt> 6 months ago
+20be533 : net: wireless: bcmdhd: Remove PASS_ARP_PACKET define <Dmitry Shmidt> 6 months ago
+fee2ee5 : net: wireless: bcmdhd: Enable p2p support bits for p2p device <Dmitry Shmidt> 6 months ago
+490c7e9 : net: wireless: bcmdhd: Fix NDO functionality <ECCO PARK> 6 months ago
+6898c2c : net: wireless: bcmdhd: Update to version 1.88.27 <Dmitry Shmidt> 6 months ago
+e1a6181 : net: wireless: bcmdhd: Fix tdls processing from cfg80211 <Dmitry Shmidt> 6 months ago
+7cd5a28 : net: wireless: bcmdhd: Update to version 1.88.21 <Dmitry Shmidt> 8 months ago
+b0ee8d0 : net: wireless: bcmdhd: Close p2p0 device in wl_down <Dmitry Shmidt> 8 months ago
+505a988 : net: wireless: bcmdhd: Update to version 1.88.16 <Dmitry Shmidt> 9 months ago
+bd7f930 : net: wireless: bcmdhd: Update to version 1.88.11 <Dmitry Shmidt> 9 months ago
+af34464 : net: wireless: bcmdhd: Enable full scan on PNO event <Dmitry Shmidt> 9 months ago
+dae590d : net: wireless: bcmdhd: Prevent recursive call of cfg80211_sched_scan_stopped() <Dmitry Shmidt> 9 months ago
+56e333d : net: wireless: bcmdhd: Update to version 1.88.10 <Dmitry Shmidt> 10 months ago
+1917cdf : net: wireless: bcmdhd: Fix WEP-104 authentication <Dmitry Shmidt> 10 months ago
+f5e37be : net: wireless: bcmdhd: Update to version 1.88.7 <Dmitry Shmidt> 10 months ago
+0071ab1 : net: wireless: bcmdhd: Update to version 1.88.6 <Dmitry Shmidt> 10 months ago
+bb3b288 : net: wireless: bcmdhd: Update to version 1.88.4 <Dmitry Shmidt> 11 months ago
+982e38b : net: wireless: bcmdhd: Fix SUPPORT_PM2_ONLY option for p2p <Dmitry Shmidt> 12 months ago
+143b765 : net: wireless: bcmdhd: Update to Version 1.28-27 <Greg Goldman> 12 months ago
+84035b5 : net: wireless: bcmdhd: Update to Version 1.28-24 <Dmitry Shmidt> 1 year ago
+c7e115d : net: wireless: bcmdhd: Fix PEAP with dynamic WEP <Dmitry Shmidt> 1 year ago
+421f0af : net: wireless: bcmdhd: Update to Version 1.28-23 <Dmitry Shmidt> 1 year, 1 month ago
+84f6e78 : net: wireless: bcmdhd: Postpone taking wd_wake lock <Dmitry Shmidt> 1 year, 1 month ago
+5952c3d : net: wireless: bcmdhd: Increase PNO wakelock to 7 sec <Dmitry Shmidt> 1 year, 2 months ago
+28c2c87 : net: wireless: bcmdhd: Fix dhd_txcomplete() dead lock <Franky (Zhenhui) Lin> 1 year, 2 months ago
+03ed7b1 : net: wireless: bcmdhd: Update wireless stack pm mode <Dmitry Shmidt> 1 year, 3 months ago
+3ae45fa : net: wireless: bcmdhd: Avoid suspend on watchdog <Dmitry Shmidt> 1 year, 3 months ago
+006f939 : net: wireless: bcmdhd: Fix host reodering and CRC error handling <Dmitry Shmidt> 1 year, 3 months ago
+c5fa48f : net: wireless: bcmdhd: Fix compilation without SUPPORT_PM2_ONLY <Dmitry Shmidt> 1 year, 3 months ago
+8a8af8e : net: wireless: bcmdhd: Turn ON SUPPORT_PM2_ONLY <Dmitry Shmidt> 1 year, 3 months ago
+c4087c2 : net: wireless: bcmdhd: Fix WD wakelock behavior <Dmitry Shmidt> 1 year, 3 months ago
+a9e395c : net: wireless: bcmdhd: Reduce keep-alive period to 28 sec <Dmitry Shmidt> 1 year, 3 months ago
+704480c : HACK: net: wireless: bcmdhd: Skip freeing skb in case of FW hang <Dmitry Shmidt> 1 year, 3 months ago
+e8cb5ce : net: wireless: bcmdhd: Add sync for wlfc data access <Dmitry Shmidt> 1 year, 3 months ago
+43e7e28 : net: wireless: bcmdhd: Skip turning chip off if not responding <Dmitry Shmidt> 1 year, 3 months ago
+6fd693b : net: wireless: bcmdhd: Propagate FW failure to upper layer <Greg Goldman> 1 year, 3 months ago
+df1eda23 : net: wireless: bcmdhd: Increase scan unassoc active time to 80 ms <Dmitry Shmidt> 1 year, 4 months ago
+0047e06 : net: wireless: bcmdhd: cfg80211 fixes <Dmitry Shmidt> 1 year, 4 months ago
+ce335bc : net: wireless: bcmdhd: Protect dhd_wlfc_cleanup() call <Dmitry Shmidt> 1 year, 4 months ago
+6be60dd : net: wireless: bcmdhd: Skip scan params allocation in timeout <Dmitry Shmidt> 1 year, 4 months ago
+88bb466 : net: wireless: bcmdhd: Update to version 1.28.13-1 <Dmitry Shmidt> 1 year, 4 months ago
+c4ceed3 : net: wireless: bcmdhd: Adjust roaming treshold to -65 dB <Dmitry Shmidt> 1 year, 4 months ago
+bc29390 : net: wireless: bcmdhd: Fix wldev_ioctl set parameter <Dmitry Shmidt> 1 year, 4 months ago
+6960718 : net: wireless: bcmdhd: Update wifi stack ps state if was changed <Dmitry Shmidt> 1 year, 4 months ago
+92ae222 : net: wireless: bcmdhd: Adjust PS mode if we are in 'suspend' <Dmitry Shmidt> 1 year, 4 months ago
+5621bda : net: wireless: bcmdhd: Add print when power-save mode is OFF <Dmitry Shmidt> 1 year, 4 months ago
+8813695 : net: wireless: bcmdhd: Update to Version 1.28.12-1 <Dmitry Shmidt> 1 year, 4 months ago
+86308ce : net: wireless: bcmdhd: Report proper mcs rate mask <Dmitry Shmidt> 1 year, 5 months ago
+40671b4 : net: wireless: bcmdhd: Fix filtering call during dhcp session <Dmitry Shmidt> 1 year, 5 months ago
+0731741 : net: wireless: bcmdhd: Update to version 1.28.11-2 <Dmitry Shmidt> 1 year, 5 months ago
+2be7c74 : net: wireless: bcmdhd: Update to version 1.28.9-5 <Dmitry Shmidt> 1 year, 5 months ago
+a58fa7d : net: wireless: bcmdhd: Remove WIPHY_FLAG_SUPPORTS_FW_ROAM flag <Dmitry Shmidt> 1 year, 5 months ago
+bd05f83 : net: wireless: bcmdhd: Remove WL_CFG80211_SYNC_GON option <Dmitry Shmidt> 1 year, 5 months ago
+d4629b0 : net: wireless: bcmdhd: Update to Version 1.28.9-2 <Dmitry Shmidt> 1 year, 5 months ago
+fb436bc : net: wireless: bcmdhd: Remove obsolete files <Dmitry Shmidt> 1 year, 5 months ago
+1686edc : net: wireless: bcmdhd: Use correct time from boot for TSF <Dmitry Shmidt> 1 year, 5 months ago
+cdc741c : net: wireless: bcmdhd: Set probe_resp.timestamp value to scan results <Dmitry Shmidt> 1 year, 10 months ago
+5ba7a16 : net: wireless: bcmdhd: Prevent deadlock in wl_cfg80211_down() <Dmitry Shmidt> 1 year, 6 months ago
+8e88d1f : net: wireless: bcmdhd: Update to version 1.28-8 <Dmitry Shmidt> 1 year, 6 months ago
+8e7b394 : net: wireless: bcmdhd: Fill station_info packet fields <Dmitry Shmidt> 1 year, 6 months ago
+45a43aa : net: wireless: bcmdhd: Set DHD_USE_IDLECOUNT option <Dmitry Shmidt> 1 year, 6 months ago
+aa07950 : net: wireless: bcmdhd: Fix crash if bus->sih was freed <Dmitry Shmidt> 1 year, 6 months ago
+e949a14 : net: wireless: bcmdhd: Prevent HT Avail request failure to flood the log <Dmitry Shmidt> 1 year, 6 months ago
+270f21d : net: wireless: bcmdhd: Adjust driver/fw/chip info format <Dmitry Shmidt> 1 year, 6 months ago
+2b3b9d0 : net: wireless: bcmdhd: Use proper jiffie-related functions <Dmitry Shmidt> 1 year, 6 months ago
+5abae5c : net: wireless: bcmdhd: Decrease chip recognition attempts to 3 <Dmitry Shmidt> 1 year, 6 months ago
+58b3c35 : net: wireless: bcmdhd: Add info_string param with driver/fw/chip info <Dmitry Shmidt> 1 year, 7 months ago
+5adcf79 : net: wireless: bcmdhd: Update wiphy bands on country and band change <Dmitry Shmidt> 1 year, 7 months ago
+fff42d9 : net: wireless: bcmdhd: Update to version 1.28-5 <Dmitry Shmidt> 1 year, 7 months ago
+ca2368d : net: wireless: bcmdhd: Decrease chip recognition attempts to 3 <Dmitry Shmidt> 1 year, 7 months ago
+752efd5 : net: wireless: bcmdhd: Merge from Version 5.90.195.75 <Dmitry Shmidt> 1 year, 7 months ago
+6b561ab : net: wireless: bcmdhd: Update to version 1.28-4 <Dmitry Shmidt> 1 year, 7 months ago
+8be3a99 : Revert "net: wireless: bcmdhd: HACK - force active power mode" <Dmitry Shmidt> 1 year, 8 months ago
+a1db064 : net: wireless: bcmdhd: Fix FW hang recovery <Dmitry Shmidt> 1 year, 8 months ago
+ 
+**** http://github.com/CyanogenMod/android_kernel_lge_msm8974 ****
+81f1f3b : mdss: fb: Unblock blit ioctl calls when commit is occuring <Terence Hampson> 4 months ago
+41ccaa2 : msm: mdss: release all overlay resources if calling process is unknown <Ujwal Patel> 9 weeks ago
+4b52c449 : msm: mdss: release all overlay resources on last fb release <Ujwal Patel> 2 months ago
+1bcd4de : msm: mdss: Fix race condition during device shutdown <Ujwal Patel> 3 months ago
+1a31a97 : msm: mdss: fix double sync fence put in buf sync function <Adrian Salido-Moreno> 4 months ago
+ 
+**** http://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+75b35d6 : d2: enable rtc alarm <Dave Daynard> 5 hours ago
+02c41bf : Kill old alarm driver, AGAIN <Dave Daynard> 5 hours ago
+0287c96 : qpnp-rtc: clear alarm register when rtc irq is disabled <Matthew Qin> 5 weeks ago
+80d2265 : rtc: alarm: Add power-on alarm feature <Matthew Qin> 6 weeks ago
+c4bc332 : rtc: pm8xxx: Sync up to upstream version <Stephen Boyd> 1 year ago
+188a104 : staging: alarm-dev: information leak in alarm_compat_ioctl() <Dan Carpenter> 8 months ago
+12c6dfb : staging: alarm-dev: information leak in alarm_ioctl() <Dan Carpenter> 8 months ago
+e4de3c3 : staging: alarm-dev: Implement compat_ioctl support <John Stultz> 1 year ago
+49e3a3d : staging: alarm-dev: Refactor alarm-dev ioctl code in prep for compat_ioctl <John Stultz> 1 year ago
+bc0ebe8 : staging: alarm-dev: Drop pre Android 1.0 _OLD ioctls <John Stultz> 1 year ago
+5765727 : Staging: android: Alarm driver cleanups <Dae S. Kim> 1 year, 5 months ago
+83f5e9d : staging: android: alarm: remove unnecessary goto statement <Devendra Naga> 1 year, 8 months ago
+23c8e3e : staging: Android: Fix NULL pointer related warning in alarm-dev.c file <Sachin Kamat> 1 year, 8 months ago
+6b33642 : Staging: android: alarm: Rename pr_alarm to alarm_dbg <Joe Perches> 1 year, 8 months ago
+54d0f4d : staging: Fix typo within android drivers. <Masanari Iida> 1 year, 9 months ago
+3f6b83e : staging: android-alarm: Switch from wakelocks to wakeup sources <John Stultz> 1 year, 9 months ago
+9609894 : Prima: squashed set of reverts from CAF <Dave Daynard> 6 hours ago
+3715f30 : Revert "gcc-wrapper: force python version 2" <Dan Pasanen> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+d0d9d20 : Remove ffmpeg and x264. Unused and old. <nikhiljan93> 7 hours ago
+b129936 : Devices that haven't built since KK came out can GTFO <nuclearmistake> 7 hours ago
+dcc97cc : Add bitbucket remote definition <nuclearmistake> 11 hours ago
+1fb36ff : Track Xperia Z (Yuga) Device repo from my repo <nikhiljan93> 21 hours ago
+c93ff0e : Add Custom Kernel for Xperia Z (Yuga) <nikhiljan93> 21 hours ago
+ 
+**** http://github.com/CyanogenMod/android_packages_apps_Camera2 ****
+8e63ac7 : Camera2: implement volume key zoom in video mode <jt1134> 3 weeks ago
+403eeaf : Camera: separate settings for color effects <jt1134> 6 days ago
+0545302 : Camera2: implement exposure compensation settings in video mode <jt1134> 3 weeks ago
+2854469 : camera: Make the popup menu transparent <Steve Kondik> 3 months ago
+ 
+**** http://github.com/CyanogenMod/android_packages_apps_Email
+cm2	https://github.com/CyanogenMod/android_packages_apps_Email ****
+0c3bdde : Email: Change intent name to recive intents from bluetooth MAP <Pradeep Panigrahi> 5 weeks ago
+079f486 : Email: NPE while checking incoming settings. <kasif> 7 weeks ago
+17006e8 : Add MAIL_SERVICE WAKEUP,SEND, MOVE and DELETE MESSAGE actions.. <Pradeep Panigrahi> 7 weeks ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+1a20d29 : ... <h0rn3t> 4 hours ago
+a974e6e : fixed disk size calculation for multicpu <h0rn3t> 5 hours ago
+2e8dc16 : fixed disk size calculation for multicpu <h0rn3t> 5 hours ago
+efbb235 : ... <h0rn3t> 6 hours ago
+b593663 : ... <h0rn3t> 6 hours ago
+6be67f2 : Bring Russian Translations up-to-date <leroviten> 8 hours ago
+0f07f6f : ... <h0rn3t> 14 hours ago
+36be4b7 : ... <h0rn3t> 16 hours ago
+3b13b91 : ... <h0rn3t> 17 hours ago
+439517d : ... <h0rn3t> 30 hours ago
+ad1d0f1 : ... <h0rn3t> 30 hours ago
+6b01783 : Updated Russian Translations <leroviten> 8 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+9f2354e : use a working version of performance control <PrimeDirective> 2 days ago
+ce537f5 : Bluetooth:GAP: Handle exception while unregistering the Receiver <Srinu Jella> 3 weeks ago
+52f48a7 : Revert "Settings: CA translations" <Vladislav Koldobskiy> 34 hours ago
+2fa7bd7 : Settings: CA translations <arnau> 35 hours ago
+3122a72 : Settings: these dots look just a bit better and match the settings interface better <bart452> 5 days ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+5f2e3dd : This one can GTFO too. Has not built since KK came out. <nuclearmistake> 7 hours ago
+306ac25 : GTFO <nuclearmistake> 7 hours ago
+ 
