@@ -1,0 +1,97 @@
+
+**** https://github.com/VanirAOSP/build ****
+41ea3a7 : FORCE_ARM_DEBUGGING: don't build -g or -DNDEBUG unless specified <PrimeDirective> 26 hours ago
+71655e7 : Faster envsetup.sh sourcing <nuclearmistake> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_dlx ****
+6df46c6 : CM-B-GON <wrapped> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7-common ****
+125191b : m7-common: fstab updates <Matt Mower> 7 days ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_coconut ****
+fa5b371 : Revert "Remove deprecated stereo speaker define" <Michael Bestas> 20 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_mogami-common ****
+7f6e084 : Revert "mogami: Temporarily enable FM" <Michael Bestas> 20 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_msm7x30-common ****
+af8ddff : Enable screenrecord hack <Michael Bestas> 20 hours ago
+5bbd929 : Revert "media_profiles: Enable true 720p" <Michael Bestas> 20 hours ago
+a027ae3 : Revert "audio_policy.conf: Add FM devices" <Michael Bestas> 20 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_qcom-common ****
+34969c8 : sony:qcom-common: fix a typo <Brinly Taylor> 9 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+ede42d5 : Tunning max allowed background services <zfu> 8 weeks ago
+ 
+**** https://github.com/LegacyXperia/android_hardware_ti_wpan ****
+f469785 : Experimenting with audio routing <Michael Bestas> 33 hours ago
+2d4d4b0 : uim: Disable verbose debugging <Michael Bestas> 32 hours ago
+c3880a0 : Squashed update of FM app from d-jb-mr1-release <Michael Bestas> 6 months ago
+ebd0d50 : Squashed update of kfmapp from d-jb-mr1-release <Michael Bestas> 6 months ago
+45129ed : ti-wpan-fm-products.mk: Adding the product packages required for FM <Michael Bestas> 6 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8960 ****
+4e96774 : m7: change vibrator level to 1700mV to match userspace default value <Daniel Hillenbrand> 8 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+5c5994f : Linux 3.4.88 <Greg Kroah-Hartman> 20 hours ago
+d66d207 : wait: fix reparent_leader() vs EXIT_DEAD->EXIT_ZOMBIE race <Oleg Nesterov> 3 weeks ago
+371d9bb : jffs2: remove from wait queue after schedule() <Li Zefan> 2 months ago
+5c8e8e1 : jffs2: avoid soft-lockup in jffs2_reserve_space_gc() <Li Zefan> 2 months ago
+b49c0b8 : jffs2: Fix crash due to truncation of csize <Ajesh Kunhipurayil Vijayan> 4 months ago
+3dba9e3 : jffs2: Fix segmentation fault found in stress test <Kamlakant Patel> 4 months ago
+dfb81e8 : Bluetooth: Fix removing Long Term Key <Claudio Takahasi> 9 months ago
+eea7ead : Char: ipmi_bt_sm, fix infinite loop <Jiri Slaby> 13 days ago
+036132b : sparc64: don't treat 64-bit syscall return codes as 32-bit <Dave Kleikamp> 6 weeks ago
+e509704 : sparc32: fix build failure for arch_jump_label_transform <Paul Gortmaker> 2 months ago
+53c93fe : Revert "sparc64: Fix __copy_{to,from}_user_inatomic defines." <Dave Kleikamp> 4 months ago
+10d52681 : sparc: PCI: Fix incorrect address calculation of PCI Bridge windows on Simba-bridges <oftedal> 6 months ago
+0447707 : rds: prevent dereference of a NULL device in rds_iw_laddr_check <Sasha Levin> 4 weeks ago
+8c3911a : isdnloop: several buffer overflows <Dan Carpenter> 3 weeks ago
+495d659 : isdnloop: Validate NUL-terminated strings from user. <YOSHIFUJI Hideaki> 4 weeks ago
+99df85b : netlink: don't compare the nul-termination in nla_strcmp <Pablo Neira> 4 weeks ago
+4230a2a : ipv6: some ipv6 statistic counters failed to disable bh <Hannes Frederic Sowa> 4 weeks ago
+fec7e11 : xen-netback: remove pointless clause from if statement <Paul Durrant> 4 weeks ago
+1bc0f3b : vhost: validate vhost_get_vq_desc return value <Michael S. Tsirkin> 4 weeks ago
+20a51ab : vhost: fix total length when packets are too short <Michael S. Tsirkin> 4 weeks ago
+4b6da91 : ipv6: ip6_append_data_mtu do not handle the mtu of the second fragment properly <lucien> 6 weeks ago
+4800c47 : ipv6: Avoid unnecessary temporary addresses being generated <Heiner Kallweit> 7 weeks ago
+d82c152 : net: socket: error on a negative msg_namelen <Matthew Leach> 7 weeks ago
+711d917 : vlan: Set correct source MAC address with TX VLAN offload enabled <Peter Boström> 7 weeks ago
+c3363b2 : ipv6: don't set DST_NOCOUNT for remotely added routes <Sabrina Dubroca> 7 weeks ago
+d7fc329 : net: unix: non blocking recvmsg() should not return -EINTR <Eric Dumazet> 5 weeks ago
+098c996 : bridge: multicast: add sanity check for query source addresses <Linus Lüssing> 8 weeks ago
+978a9b7 : net: sctp: fix skb leakage in COOKIE ECHO path of chunk->auth_chunk <Daniel Borkmann> 8 weeks ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+c7c6cdb : Fix LegacyXperia/android_hardware_ti_wpan address <DHOMD> 17 hours ago
+e7dc424 : Switch to LX's hardware/ti/wpan <nuclearmistake> 23 hours ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+fac4ba2 : devices.xml: Added Sony Xperia U (kumquat) <Alberto García Martín> 5 hours ago
+edec4d2 : fix some FC <h0rn3t> 8 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+3fa6381 : PerformanceSettings: Use CM's, because it provides purgable_assets and dithering control, and because we stopped using the one that replaced it <nuclearmistake> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_VanirUpdater ****
+39019f0 : [WOOPS] Fix "new only" update checking. Broken on nightlies from April 17-27. Choose "ALL" updates to download latest versions w/ updater. <nuclearmistake> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_providers_MediaProvider ****
+2ba7dfb : Add dummy strings to prevent aapt warnings <Michael Bestas> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_motorola ****
+eabaa5b : msm8226 & msm8960dt: Get rid of prebuilt charge_only_mode <dhacker29> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+b75ea4d : nicki: updated proprietary blobs from 15.4.A.0.23 <RonGokhale> 4 weeks ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+551e31f : Update a few vendor fingerprints <DHOMD> 3 hours ago
+282bdec : Update AOSP portion of fingerprints <DHOMD> 3 hours ago
+6d8ec46 : Move overlays to device tree <wrapped> 24 hours ago
+ 

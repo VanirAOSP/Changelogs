@@ -1,0 +1,262 @@
+
+**** https://github.com/VanirAOSP/bootable_recovery_TWRP ****
+fcdb76d : twrp-functions: remove unused functions <that> 2 days ago
+a1ad19f : mtp: get rid of string streams, reduces binary size a bit <that> 7 weeks ago
+abb5c4e : Move sleep during MTP startup to MTP thread <Ethan Yonker> 15 hours ago
+c1f5c0f : gui: fix DEVICE_RESOLUTION warnings in Android.mk <that> 5 days ago
+4bfabab : Check for valid MTP_Storage_ID before adding or removing <Ethan Yonker> 15 hours ago
+f9f99bc : Ingore SIGPIPE errors <Ethan Yonker> 15 hours ago
+ee8b314 : Improve MTPServer logging of read errors <Ethan Yonker> 16 hours ago
+32f68a3 : Add TW_IGNORE_MT_POSITION_0 touch flag <Ethan Yonker> 16 hours ago
+dc3223a : toolbox_recovery should always include setenforce <Ethan Yonker> 7 days ago
+ 
+**** https://github.com/VanirAOSP/build ****
+5bb7c20 : ota_from_target_files: add automagic.sh: a shell script for CAREFUL data modification to automagically prevent issues for dirty flashers <nuclearmistake> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+1fb6dee : audio_effects: Fix naming mistake + formatting fix-up. <sudosurootdev> 2 days ago
+7085c26 : Lower power usage & boot time: lower thermal-engine to every 1 minute & decrease boot time by bringing on all cpu's on boot. <sudosurootdev> 6 days ago
+e45a1ef : Add adb to persist.sys.usb.config & restart adb & adbd on adb root <sudosurootdev> 5 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g3-common ****
+860cc2c : audio: don't use dedicated device for voip <AndroidUser00110001> 7 days ago
+e3f9a19 : audio_policy: remove low_latency <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_gee-common ****
+8129a15 : Fix many things from import <DHOMD> 6 hours ago
+cb6b4d4 : Ramdisk <DHOMD> 6 hours ago
+c2a7984 : Walk Wild update from https://github.com/brothaedhung/device_lge_geeb <DHOMD> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/device_moto_shamu ****
+39d04cf : Show APN settings for cdma carriers <Dan Pasanen> 3 weeks ago
+1cadc7f : Make sure to build previously-prebuilt libs (tinycompress, audioroute, mm-qcamera, and rmnetctl) <nuclearmistake> 33 hours ago
+ 
+**** https://github.com/VanirAOSP/device_oneplus_bacon ****
+9703d74 : bacon: Missing calibration blobs <Steve Kondik> 21 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+3e1e33f : msm8974: Missing blob <Steve Kondik> 21 hours ago
+44d8d91 : msm8974: Update bloblist <Steve Kondik> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/device_qcom_common ****
+eb431dc : power: Fix the PowerHAL on msm8974 <Steve Kondik> 29 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_qcom_sepolicy ****
+0066d40 : sepolicy: allow system apps to access sensors settings file <Satya Durga Srinivasu Prabhala> 5 weeks ago
+6893e31 : Seandroid: Moving connectionmanager policy to common <Avijit Kanti Das> 6 weeks ago
+a7b1dd8 : Seandroid: Adding few more policies for IMS <Avijit Kanti Das> 8 weeks ago
+c8c4297 : Seandroid: Changing context for wcnss services <Avijit Kanti Das> 8 weeks ago
+010821e : Seandroid: Adding context for digital Pen <Avijit Kanti Das> 8 weeks ago
+7a08582 : Seandroid: Adding policy for IMS <Avijit Kanti Das> 8 weeks ago
+9e7c101 : Seandroid: Adding context for imscmservice <Avijit Kanti Das> 8 weeks ago
+99ff2c3 : Seandroid: Adding policy for QTI <Avijit Kanti Das> 7 weeks ago
+8bc7e81 : sepolicy: add getattr attribute rule for appdomain in dpmd <Susheel Yadagiri> 3 weeks ago
+013555b : sepolicy: allow location apps to access sensor services <Kevin Tang> 3 weeks ago
+3c4f75f : sepolicy: Allow clients of netmgrd read access to netmgrd stat file <Subash Abhinov Kasiviswanathan> 7 weeks ago
+d53bd7a : Seandroid: Adding policy for atfwd <Avijit Kanti Das> 4 weeks ago
+10bbf3b : Seandroid: Adding policy for atfwd <Avijit Kanti Das> 4 weeks ago
+c30fd14 : sepolicy: Allow QMI test to access 64 bit loader <Karthikeyan Ramasubramanian> 4 weeks ago
+7a0d849 : sepolicy: Add system health monitor device contexts and rules <Karthikeyan Ramasubramanian> 6 months ago
+d5210e9 : sepolicy: sensors: allow access to execmem <Satya Durga Srinivasu Prabhala> 3 weeks ago
+ba4eed9 : sepolicy: allow location apps to access sensor services <Kevin Tang> 3 weeks ago
+93241e5 : sepolicy: Update the sepolicy for RFS and RMTS <Nikhilesh Reddy> 4 weeks ago
+56f17b6 : sepolicy: add getattr attribute rule for appdomain in dpmd <Susheel Yadagiri> 3 weeks ago
+8d099a3 : Sepolicy : Add policies for qlogd <jinwu> 5 weeks ago
+0d416bd : Seandroid: Adding policy for atfwd <Avijit Kanti Das> 4 weeks ago
+a23cdf8 : sepolicy: Update thermal policy to enable graphics mitigation <Shiju Mathew> 4 weeks ago
+e1dd186 : Seandroid: Adding policies for IMS <Avijit Kanti Das> 4 weeks ago
+6637604 : Seandroid: IMS interaction with WPA <Avijit Kanti Das> 4 weeks ago
+3480506 : Seandroid: Allow mm-pp-deamon access to sensor device files <Nirmal Abraham> 4 weeks ago
+abc321e : sepolicy: Update thermal policy to enable graphics mitigation <Shiju Mathew> 4 weeks ago
+b41c5c5 : Seandroid: Adding policy for imscm <Avijit Kanti Das> 4 weeks ago
+48441f4 : Seandroid: Add policies to enable all QDCM functionalities <Zohaib Alam> 7 weeks ago
+7ca611a : SELinux: Denials related to mpdecision <Samir Mehta> 4 weeks ago
+8678c75 : System_server: Add support for accessing SMD Device Access <Hemant Gupta> 4 weeks ago
+b4053ef : Update secure policies for hbtp <Mohan Pallaka> 5 weeks ago
+73d6ec1 : sepolicy: allow system apps to access sensors settings file <Satya Durga Srinivasu Prabhala> 5 weeks ago
+a86fd52 : Seandroid: Added rules to thermal-engine <Kurva Harish> 6 weeks ago
+c242f59 : SEAndroid: Fixing few denials <Samir Mehta> 8 weeks ago
+cfa67e9 : Seandroid: Adding policies for IMS <Avijit Kanti Das> 6 weeks ago
+64f8f61 : Seandroid: Moving connectionmanager policy to common <Avijit Kanti Das> 6 weeks ago
+733050a : SEAndroid: Updated vold domain related policy <Ravi Kumar Siddojigari> 6 weeks ago
+39bed8c : Sepolicy : Added dac_override to qcomsysd.te <Rajshekar Eashwarappa> 6 weeks ago
+99e0957 : sepolicy: Update policy for time daemon <Katish Paran> 6 weeks ago
+7bdce64 : sepolicy: sensors: add net_bind_service capability <Satya Durga Srinivasu Prabhala> 6 weeks ago
+58636a9 : Add secure policies for hbtp <Mohan Pallaka> 6 weeks ago
+1224bdc : sepolicy: add rule for dpm <Bhavya Sokke Mallikarjunappa> 8 weeks ago
+79b9e61 : SEAndroid: Allow mediaserver to access media files for testing <Tatenda Chipeperekwa> 7 weeks ago
+8ec06e0 : WFD : Add WFD specific security policies <Manu Prasad> 2 months ago
+fc0a90e : Seandroid: Adding policy for QTI <Avijit Kanti Das> 7 weeks ago
+a2253d2 : sepolicy: add rule for dhcp <Boxiang Pan> 7 weeks ago
+09a2f19 : sepolicy: Update policy for secure components <Dinesh K Garg> 8 weeks ago
+295b6b9 : Sepolicy: Fix camera & surface flinger denials <Samir Mehta> 7 weeks ago
+b00e855 : sepolicy: add rule for cne logging <Boxiang Pan> 9 weeks ago
+b59ff09 : sepolicy: Allow clients of netmgrd read access to netmgrd stat file <Subash Abhinov Kasiviswanathan> 7 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_hlte-common ****
+488be0a : hlte: enable hw aac encoder <repo Shareef Ali> 5 hours ago
+d5c3352 : hlte:  fix selinux breakage from recent caf merge <repo Shareef Ali> 10 hours ago
+f421096 : HlteRil: Override non-standard data network types. <Ricardo Cerqueira> 11 hours ago
+079211c : hlte: fix derp <repo Shareef Ali> 20 hours ago
+03972f6 : hlte-common: add TimeService blobs <Christer> 4 weeks ago
+c17a756 : hlte: bye bye gsiff daemon <repo Shareef Ali> 23 hours ago
+986c803 : hlte: update selinux includes <repo Shareef Ali> 2 days ago
+ac1e600 : Hlte: bring back enforcing` <repo Shareef Ali> 2 days ago
+dea563e : hlte-common: Address bcm2079x denial <Ethan Chen> 7 days ago
+8563f04 : hlte-common: Add device-specific SELinux policies <Ethan Chen> 9 days ago
+db66960 : hlte: GBNL lolipop blobs <repo Shareef Ali> 3 days ago
+87c51fe : Hlte: Upgrade nh4 blobs, audio stack upgrade <repo Shareef Ali> 4 days ago
+01fdf80 : gps: Add dummy functions stubs <Ethan Chen> 5 months ago
+5eff06f : Samsung calldetail fixes <repo Shareef Ali> 5 days ago
+fc275c8 : Get rid of obsolete changes to ril <repo Shareef Ali> 6 days ago
+e38ace0 : Hlte-common: add common ril <repo Shareef Ali> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_hltespr ****
+fe8d8dd : hlte: remove gsiff daemon <repo Shareef Ali> 23 hours ago
+7920fc7 : Hltespr upgrade entire ril stack <repo Shareef Ali> 4 days ago
+8726ee8 : hlte: kill dupe in device tree. <repo Shareef Ali> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_hltetmo ****
+01938aa : hlte: Add support for unified  device tree ril <Shareef Ali> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_jf-common ****
+549665d : jf: enable qcom aac encoder <Dan Pasanen> 7 hours ago
+e63f9e1 : jf: enable pulsing led while booting <Jon S> 3 months ago
+db2097a : jf: ril: remove lollipop hack <dcd> 26 hours ago
+e564dff : jf: update blobs <dcd> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_qcom-common ****
+12e7c8e : qcom-common: Include healthd charging images <Arne Coucheron> 26 hours ago
+88b208f : qcom-common: Do not build charger <Rox-> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_smdk4412-common ****
+f8f9874 : smdk4412-common: add missing symbol for legacy widevine lib <sbrissen> 11 hours ago
+402e509 : smdk4412-common: camera: don't propogate cancel autofocus in CAF <Dheeraj CVR> 6 days ago
+bfc2eb0 : smdk4412-common: fix LPM <Dheeraj CVR> 7 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_smdk4412-qcom-common ****
+1a8a957 : smdk4412-qcom: remove Operators <sbrissen> 16 hours ago
+ 
+**** https://github.com/Ziyann/android_device_samsung_tuna
+origin	git@github.com:VanirAOSP/NEW_device_samsung_tuna.git
+vanir	https://github.com/VanirAOSP/device_samsung_tuna ****
+66b3f48 : tuna: tune lowmemorykiller for 1gb ram <Ziyan> 9 hours ago
+e01e202 : tuna: increase hispeed_freq to 920 mhz <Ziyan> 18 hours ago
+ 
+**** cm	https://github.com/CyanogenMod/android_device_sony_msm8974-common
+https://github.com/crdroidandroid/android_device_sony_msm8974-common ****
+62da0b9 : consolidate audio and display <Giulio Cervera> 10 days ago
+e6f9276 : lights: remove support for setting minimum LCD brightness at compile time <Chirayu Desai> 2 weeks ago
+a3e9d1a : sepolicy: Add a domain for thermanager <Chirayu Desai> 2 weeks ago
+12f9ac2 : sepolicy: Transition mpdecision file to it's type <Chirayu Desai> 2 weeks ago
+4fff067 : sepolicy: Let system_server connect to time_daemon's socket <Chirayu Desai> 2 weeks ago
+357f869 : sepolicy: make gsiff_daemon happy <Chirayu Desai> 2 weeks ago
+740c028 : msm8974: Trebuchet: enable largeHeap <david> 3 weeks ago
+4c76200 : msm8974: Re-enable batterySdCardAccessibility overlay <david> 4 weeks ago
+6e4d09f : update ril prop <Giulio Cervera> 3 weeks ago
+4e4a4ce : msm8974-common: disable DOZE feature by default user can enable it if they want it <Lars Greiss> 4 weeks ago
+c2b825a : mpdecision: Add SELinux policy <Giulio Cervera> 5 weeks ago
+bab8c79 : Update SELinux policy <Chirayu Desai> 4 weeks ago
+b3c2f11 : Open source thermal management <Chirayu Desai> 6 weeks ago
+c0533ab : Revert "Enable Minikin" <Chirayu Desai> 4 weeks ago
+3e1e40e : Enable Minikin <Giulio Cervera> 4 weeks ago
+3739900 : msm8974: Include an expanded selection of fonts <david> 4 weeks ago
+b675282 : sony msm8974-common: crDroid'fy <david> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/external_bluetooth_bluedroid ****
+2e26840 : shut a2dp logspam. <repo Shareef Ali> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/external_sepolicy ****
+dee8b28 : WFD : Adding policy exceptions in app domain for wfd <Manu Prasad> 2 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+c189514 : nuplayer: Avoid PCM offload when resampler is used <Steve Kondik> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+7f50045 : Cleanup battery style code <Michael Bestas> 11 days ago
+21a049d : BatteryMeter: properly initialize in TEXT mode (hide the graphical battery meter) <nuclearmistake> 17 hours ago
+5716b67 : Forward port 'Swap volume buttons' (1/3) <nadlabak> 9 days ago
+da3d2a8 : [1/2] Forward port power connect/disconnect notification support <Sam Mortimer> 1 year, 9 months ago
+ad84082 : SystemUI: status bar brightness: store value as int <Pawit Pornkitprasan> 2 days ago
+6d457b9 : Fix Quick Settings for MSim [1/2] <Pawit Pornkitprasan> 3 weeks ago
+049981c : Keep quiet when volume keys are used to wake up device <Clyde Tan> 12 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+7706040 : Forward port 'Swap volume buttons' (2/3) <nadlabak> 9 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio ****
+38a601b : audio-caf: msm8974: Correctly handle the lack of voice_extn <Christopher R. Palmer> 2 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_samsung ****
+50c588b : AdaptiveBacklight: fix illegal value exception. <repo Shareef Ali> 3 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_msm8974 ****
+1a8c462 : Patch 3.4.24 <varchild> 23 hours ago
+4449a11 : Patch 3.4.23 <varchild> 33 hours ago
+b1cb4b4 : Patch 3.4.22 <varchild> 34 hours ago
+bc3dc4e : Patch 3.4.21 <varchild> 35 hours ago
+ad19c6b : Patch 3.4.20 <varchild> 35 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960dt-common ****
+fe4d7a0 : ASoC: msm: Fix qcom aac enc - allow alloc of less buffers <nadlabak> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/kernel_samsung_codinalte ****
+826fc08 : Vanir branding <DHOMD> 13 days ago
+efdbfb2 : Remove selinux for now <DHOMD> 13 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_smdk4412 ****
+99c51fb : arm/crypto: Add optimized AES and SHA1 routines <Howard Su> 5 days ago
+c80fa5a : n7100: Enable IDLETIMER which is used in netd. <Howard Su> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+d7175a2 : Add d855 <DHOMD> 5 hours ago
+e6346da : Add device support for amami [1/3] <AndroidNoob69> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+481fdc4 : Camera2: Stop using GPS when going to background <nadlabak> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+e5ef622 : Dialer: truncate hint text for search box <Pawit Pornkitprasan> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+4e3120e : Settings : date and Time - Checkbox --> Switches <x10f> 8 days ago
+92bf7de : Forward port 'Swap volume buttons' (3/3) <Michael Bestas> 9 days ago
+bcc79af : Settings: Move quickboot preference under advanced reboot <Michael Bestas> 7 days ago
+0988acc : Development settings: Checkboxes to switches <Michael Bestas> 7 days ago
+33aa700 : Forward port button/keyboard backlight options <Danny Baumann> 9 days ago
+6c8fe43 : Settings: Add screen color settings <Zhang Fang> 12 months ago
+4a212fe : [2/2] Forward port power connect/disconnect notification support <Sam Mortimer> 1 year, 9 months ago
+c801d5c : Settings: Change 'Model Number' to 'Model Name' <Kyle Laker> 5 days ago
+03bda08 : Fix exception being thrown if CMHW is not installed. <Danny Baumann> 6 months ago
+c6321e6 : Keydisabler: fix button light restore logic <Dave Daynard> 6 months ago
+5157e8d : Buttons: Prevent toggling disable hardware keys too quickly <Ethan Chen> 9 months ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+8cf6bb9 : Fix Quick Settings for MSim [2/2] <Pawit Pornkitprasan> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/vendor_lge ****
+63221e8 : Add d852 and d855 to build barrier <DHOMD> 4 hours ago
+b2e94d5 : D855 files from https://github.com/invisiblek/proprietary_vendor_lge <DHOMD> 5 hours ago
+5f1c40c : Wacky Wild Update to Gee form https://github.com/brothaedhung/ <DHOMD> 7 hours ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_oneplus ****
+5d1db4e : bacon: Update camera blobs, again. <Steve Kondik> 21 hours ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_oppo ****
+0d08a58 : msm8974: Update blobs <Steve Kondik> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+b0aaa6b : bring international up to speed <repo Shareef Ali> 11 hours ago
+1e81b90 : Hlte: add qcom time daemon <repo Shareef Ali> 21 hours ago
+95d9fd1 : hlte:  kill gsiff daemon <repo Shareef Ali> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+ca7d3fa : Add device support for amami [2/3] <AndroidNoob69> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+3505e31 : Add device support for amami [3/3] <AndroidNoob69> 24 hours ago
+66d156b : BUILD_NUMBER should not be included in PRIVATE_BUILD_DESC for PRODUCT_BUILD_PROP_OVERRIDES. No other devices do this and BUILD_NUMBER should increase with date... NEVER SET TO DEFAULT! <sudosurootdev> 2 days ago
+4c12671 : apn: fix some data issues when using sprint operator numerics. <Shareef Ali> 2 weeks ago
+952dffc : automagic.sh: add a shell script that's executed by updater-script to prevent possible dirty flash issues <nuclearmistake> 17 hours ago
+16ef040 : Update quickboot <nuclearmistake> 2 days ago
+ 

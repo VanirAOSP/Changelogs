@@ -1,0 +1,156 @@
+
+**** https://github.com/VanirAOSP/build ****
+28acc8f : TARGET_linux-arm/llvm_config: add a flag to specify debugging on some builds <PrimeDirective> 7 days ago
+c3cc4e4 : Fix a bunch of recent native issues <nuclearmistake> 25 hours ago
+40122b9 : releasetools: Add a newline for radio flashing scripts <Brint E. Kriebel> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+f69fa57 : hammerhead: Add hardware tunables support: display <Lorenzo M> 5 hours ago
+4abd8c7 : hammerhead: Add hardware tunables support: vibrator <Lorenzo M> 4 days ago
+996d832 : hammerhead: Configure sync_freq feature <myfluxi> 10 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_mako ****
+b851e96 : mako: Add default value for display color control <fuzz> 6 weeks ago
+b102b39 : mako: Re-add Discretix libraries to prop list <kszaq> 32 hours ago
+ 
+**** https://github.com/VanirAOSP/device_qcom_common ****
+006ae3f : dtbtool: fix for filesystems that don't return d_type from readdir <Robin Humble> 19 hours ago
+aa892a9 : dtbtool: simplify code. reducing indenting. <Robin Humble> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_mondrianwifi ****
+df77fb7 : Revert "mondrianwifi: LatinIME: Fix portrait mode preview Views" <DHOMD> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_tuna ****
+db5d4d1 : Revert "Revert "Enable QCOM bionic optimizations"" <DHOMD> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_fusion3-common ****
+10d350e : fusion3-common: update selinux policy <Giulio Cervera> 14 hours ago
+91518b1 : fusion: update mpdecision startup <Giulio Cervera> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/external_bluetooth_bluedroid ****
+554f04e : bluedroid: Add wiimote pairing support <Schischu> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/external_linux-tools-perf ****
+2a5bb05 : perf: Reenable benchmarks for Android <myfluxi> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+c6beb55 : audio: Fixed mBytesRemaining when partial buffers are sent <Pavan Chikkala> 3 months ago
+051f753 : StageFrightRecorder.cppp: remove double header include <PrimeDirective> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+16742e5 : Revert "Freeing frame map" <Ethan Chen> 25 hours ago
+44b2d62 : Send Media button events as foreground Intent <Gubbala Venugopal Rao> 3 months ago
+1c3ab4b : Bluetooth:Settings:Handled ACTION_STATE_CHANGED intent at boot time <Pramod Sivaraman> 3 months ago
+03ff3d2 : Bluetooth: Adds check to verify Bluetooth adapter state <Satish kumar sugasi> 6 weeks ago
+5ca6e32 : LocationServiceManager: Fix deadlock due to updateMonitoring. <Shashank Mittal> 4 weeks ago
+19fe64b : QuickSettings: fix long press on LTE Tile <Unpublished> 7 days ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_hardware ****
+0c16e77 : Add default value for display color control (1/2) <Lorenzo M> 3 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+1a7d48d : hal: Correct the V/I feedback PCM device for 8974 <Steve Kondik> 88 minutes ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display-caf ****
+97abdef : liboverlay: do not return error if fb num >= 2 doesn't exist (writeback). <Flemmard> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media-caf ****
+917243e : mm-video: vdec : Avoid updating stride in flushing state <Paras Nagda> 12 days ago
+c644136 : mm-video: vdec: Fix memory leak in color converter. <Rudolf Tammekivi> 3 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_ril ****
+c832b02 : rild: Fix crash when using the emulator <Valerio Pilo> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_ti_wlan
+cm2	https://github.com/CyanogenMod/android_hardware_ti_wlan ****
+b6fbbfe : wl12xx: include: add new compat headers <Sportsstar89> 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960dt-common ****
+58fa832 : defconfig: enable SND_DEBUG <dhacker29> 18 hours ago
+a5ba9c5 : defconfig: Regenerate for 3.4.88 <dhacker29> 18 hours ago
+906d1c3 : sound: debugging <Hashcode> 22 hours ago
+b82d05a : wlan: Check to not cache frames in a SAP session. <Katya Nigam> 13 days ago
+b49b955 : wlan: Adding NULL check before using a poniter. <Hanumantha Reddy Pothula> 2 weeks ago
+741c481 : wlan: do not enter IMPS if DXE rings have pending TX data <Mihir Shete> 6 weeks ago
+0560346 : wlan: Protect wlan_hdd_cfg80211_change_iface function from SSR <Mahesh A Saptasagar> 3 weeks ago
+750f6a1 : wlan: Fix for Static analysis issues in vos_nvitem.c <Abhishek Singh> 6 weeks ago
+29aee5c : wlan: Delay SSR during active entry points <Mahesh A Saptasagar> 4 weeks ago
+96abac7 : TDLS: Set tdls hdd context to NULL after freeing <Pradeep Reddy POTTETI> 6 weeks ago
+5bd3907 : TDLS: replace mutex_lock_interruptible with mutex_lock for tdls lock <Rajesh Chauhan> 2 weeks ago
+149279d : wlan: wdi: Replace VosAssert with VosTrace for bus packets failure <Siddharth Bhal> 6 weeks ago
+492acbe : wlan: HDD: add logpinprogress check for ioctl calls <Siddharth Bhal> 6 weeks ago
+289438d : wlan: TL: Flush cache frames when clean STA. <Siddharth Bhal> 5 weeks ago
+2119c54 : prima : Handling race condition in driver unload in FTM <Atul Mittal> 7 weeks ago
+fdcd9a6 : wlan: Don't Invoke hdd_connRemoveConnectInfo incase of successful Assoc. <Arun Kumar Khandavalli> 3 months ago
+d29899b : msm: kgsl: Fix for panic in z180 postmortem dumps <Gaurav Gagrani> 6 weeks ago
+25b261a : msm: kgsl: Reset VSC control registers <Hareesh Gundu> 3 weeks ago
+de4c7ac : msm: kgsl: Fix GPU hang recovery logic <Hareesh Gundu> 10 weeks ago
+826b14a : msm: qdsp6v2: Increase max ports in APR <Aravind Kumar> 5 weeks ago
+54541df : genalloc: stop crashing the system when destroying a pool <Thadeu Lima de Souza Cascardo> 1 year, 6 months ago
+b80da24 : msm: kgsl: Increase IDLE_TIMEOUT for 2D core to 20secs <Hareesh Gundu> 4 weeks ago
+7fa8415 : genalloc: Correct nbytes calculation on long boundary <Sunil Khatri> 3 months ago
+9089ad9 : diag: Remove error message <Katish Paran> 3 months ago
+ 
+**** https://github.com/crpalmer/android_kernel_samsung_mondrianwifi ****
+b620d2a : mondrianwifi: Generate SW_LID instead of SW_FLIP events <Christopher R. Palmer> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+1d2839c : manifest: track android-visualizer <Roman Birg> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+50e3c5a : Bluetooth: Fix crash when sending SMS from handset instead of MAP <Andrew Wyman> 3 weeks ago
+7d8abf8 : Improve sending web link with Bluetooth <Mathias Jeppsson> 3 years, 1 month ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+59945c5 : Camera2: Prevent autofocus when video snapshot is in progress <Dheeraj CVR> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_CertInstaller
+cm2	https://github.com/CyanogenMod/android_packages_apps_CertInstaller ****
+3a75ff8 : Prevent CertInstallerMain from being recreated upon screenSize change <hanpengx> 4 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Contacts ****
+230fa05 : QuickContact: onLongClick save item data to clipboard <Arnav Gupta> 3 days ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+31e59b2 : ... <h0rn3t> 9 hours ago
+5adcaef : Updated Spanish translation <Alberto García> 14 hours ago
+4b74075 : ... <h0rn3t> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+577e655 : Settings: Add default value for display color control (2/2) <Lorenzo M> 3 months ago
+a8d8a09 : Settings: check if NfcAdapter is null <Evisceration> 2 days ago
+a3d00bd : Revert "Revert "Don't show "Eject card" if the card is not accessible"" <Steve Kondik> 2 hours ago
+369abf0 : Revert "Don't show "Eject card" if the card is not accessible" <Michael Bestas> 10 hours ago
+5b7860c : Display BTH connected status correctly <Tsuyoshi Kamata> 5 months ago
+f01c47d : Data traffic details: use proper string for System UID <Vladislav Koldobskiy> 4 weeks ago
+0f5362d : Total and available fields missing in Settings storage menu <Kent Persson> 1 year ago
+f23fbad : Fix the Mobile networks icon in Settings <oliver.lienhard> 31 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Torch ****
+2d01d9a : Torch: Torch UI Refresh <Roman Birg> 5 days ago
+ 
+**** https://github.com/VanirAOSP/packages_input_LatinIME ****
+f5dbfc9 : LatinIME: Add @ character to DE keyboard's more keys <elektroschmock> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_providers_DownloadProvider ****
+ded2da1 : DownloadProvider: add to support pause/resume download by manual <qqzhou> 5 months ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+802f34e : use proper input type for my phone number dialog <Mustaavalkosta> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_wallpapers_Galaxy4 ****
+cf5a38b : Fix abnormal display for static stars. <Xiaofei Wan> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+d8b8cfa : charger: Use android blue for charge percentage <dhacker29> 3 days ago
+ 
+**** https://github.com/VanirAOSP/system_qcom ****
+f510e31 : Updated string banned functions strncpy and memcpy <Hanumantha Reddy Pothula> 5 months ago
+ 
+**** https://github.com/VanirAOSP/vendor_lge ****
+8987310 : mako: Add dxhdcp implementation <Ricardo Cerqueira> 25 hours ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+e96de9d : galaxysmtd hasn't built in a while, its kernel is borked, and vanirkernelcompat doesn't fix other kernels for it properly (not a modern ramdisk) -- FUTURE WORK <nuclearmistake> 2 days ago
+ 

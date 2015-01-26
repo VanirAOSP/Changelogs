@@ -1,0 +1,178 @@
+
+**** https://github.com/VanirAOSP/device_htc_dlx ****
+68f40db : dlx: Update build fingerprint <pratik> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+1672253 : add sprint overlays for frameworks and mms app <Richard Ross> 5 months ago
+7398404 : overlay: add verizon eri's for vzw's metric shitload of mcc/mnc pairs <Dan Pasanen> 5 months ago
+c6ecabf : update ramdisk: <bart452> 35 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2lte ****
+a2c2b75 : d2lte: setup firmware symlinks <jt1134> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_hlte-common ****
+a360584 : HLTE: Remove unused audio flags. <Tony Layher> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+578ada8 : Crank down bluetooth debug <nuclearmistake> 20 hours ago
+1a5fba5 : ueventd: additional radio permissions <Dan Pasanen> 2 weeks ago
+8993033 : klte-common: increase microphone gain during video recording. <Matt Filetto> 3 weeks ago
+55a37c8 : klte-common: Remove unused flags <Ethan Chen> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+ba0d9af : msm8960-common: move firmware symlinks to individual device repos <jt1134> 25 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_coconut
+lx	https://github.com/LegacyXperia/android_device_semc_coconut ****
+422f8f5 : coconut: Use correct flag to disable stereo recording again <Michael Bestas> 8 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_huashan ****
+3df61c0 : init: Add setup_fs service for Userdata <Chirayu Desai> 11 days ago
+ 
+**** https://github.com/VanirAOSP/device_sony_pollux ****
+94feb9c : pollux: update fingerprint from 10.5.1.A.0.283 <sssemil> 12 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_pollux_windy ****
+11c70e9 : pollux_windy: update fingerprint from 10.5.1.A.0.283 <sssemil> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+d207fcd : 6-bar signal icon sytle [1/2] <Paul Mongold> 2 years, 1 month ago
+5ba4cf6 : Improve strings <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_vcard ****
+40a9319 : vcard: Update SDK version to fix build <Tom Marshall> 2 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_gps ****
+7b66d14 : Use qcom path macros <Tom Marshall> 3 days ago
+ 
+**** https://github.com/jimsth/vanir_hammerhead ****
+abb0f66 : sound: Export effects header to userspace <myfluxi> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/kernel_lge_msm8974 ****
+968ed8d : Clean dual local_irq_disable(); in kernel/panic.c thanks @Alucard24 for alert. <Yuri.Sh> 25 hours ago
+483d732 : ARM: fix user unalignment prefetch abort <Maria Yu> 3 weeks ago
+10b71a0 : mm: do not sleep in balance_pgdat if there's no i/o congestion <Zlatko Calusic> 1 year, 9 months ago
+226116f : Revert "kswapd: Introduce congestion_wait_kswapd" <Pranav Vashi> 2 days ago
+7dd4160 : ARM: gic: Bring inline with upstream <Pranav Vashi> 2 days ago
+eb92db49 : ARM: bitops: prefetch the destination word for write prior to strex <Will Deacon> 1 year, 3 months ago
+fe757f7 : smp: make smp_call_function_many() use logic similar to smp_call_function_single() <Shaohua Li> 1 year, 7 months ago
+38f1aaf : ion: Use dma_free_attrs for freeing secure memory <Laura Abbott> 3 months ago
+d784a0c : ASoC: msm: qdsp6v2: update int to size_t <Fred Oh> 10 days ago
+dc7efd3 : ASoC: msm: qdsp6v2: Change client names for ion alloc <Damir Didjusto> 2 weeks ago
+7da24f6 : ASoC: wcd9320: Fix micbias setting for MAD <Bhalchandra Gajare> 2 months ago
+f740942 : ASoC: msm: q6dspv2: add pause/resume support for audio record <Banajit Goswami> 9 weeks ago
+46e8d65 : ASoC: qdsp6v2: update perf mode flag for LL capture cases <Banajit Goswami> 3 months ago
+a466177 : ASoC: msm: qdsp6v2: Cleanup of compress offload drivers <Damir Didjusto> 8 months ago
+dcf923d : ASoC: msm: qdsp6v2: Cleanup of audio drivers <Gopikrishnaiah Anandan> 7 months ago
+0425c9f : ASoC: msm: qdsp6v2: Add the matrix mixer call during ASM loopback <Damir Didjusto> 4 months ago
+a9c1698 : ASoC: msm: qdsp6v2: Fix bit alignment in snd_codec params <Amit Shekhar> 7 weeks ago
+d812c38 : ASoC: msm: audio-effects: improve logging <Dhananjay Kumar> 5 months ago
+84fb6d0 : ASoC: msm: qdsp6v2: requeue read buffers in mmap device switch <Banajit Goswami> 7 weeks ago
+1ef871e : ASoC: msm: qdsp6v2: check proxy port is open when closing <Aravind Kumar> 7 weeks ago
+b3b29b5 : ALSA: snd-usb: add support for DSD DOP stream transport <Pranav Vashi> 2 days ago
+bb59341 : ALSA: snd-usb: Backport from 3.10 <Pranav Vashi> 10 weeks ago
+3bed66a : initrd: fix lz4 decompress with initrd <Yinghai Lu> 6 weeks ago
+40c4ec3 : lib/decompress_unlz4.c: always set an error return code on failures <Jan Beulich> 8 months ago
+4b238cd : staging: binder: Do not debug failed transactions <Pranav Vashi> 2 days ago
+8bf6a94 : Staging: Android: removed an unnecessary else statement <Karthik Nayak> 3 months ago
+9febdf0 : staging: android: Clean up else statement from binder_send_failed_reply <Lucas Tanure> 10 weeks ago
+1a96f8d : Config Update. <Dorimanx> 3 days ago
+c1c437d : seccomp: Use atomic operations that are present in kernel 3.4. <Robert Sesek> 5 weeks ago
+2bba262 : seccomp: implement SECCOMP_FILTER_FLAG_TSYNC <Kees Cook> 4 months ago
+b9a2168 : seccomp: allow mode setting across threads <Kees Cook> 3 months ago
+b182e99 : seccomp: introduce writer locking <Kees Cook> 3 months ago
+89faa52 : seccomp: split filter prep from check and apply <Kees Cook> 3 months ago
+41bb1ee : sched: move no_new_privs into new atomic flags <Kees Cook> 4 months ago
+898c77e : ARM: add seccomp syscall <Kees Cook> 3 months ago
+1a6cfef : seccomp: add "seccomp" syscall <Kees Cook> 3 months ago
+453e3d9 : seccomp: split mode setting routines <Kees Cook> 3 months ago
+d29bfcf : seccomp: extract check/assign mode helpers <Kees Cook> 3 months ago
+91e3567 : seccomp: create internal mode-setting function <Kees Cook> 4 months ago
+3447c15 : MAINTAINERS: create seccomp entry <Kees Cook> 9 weeks ago
+8a79e67 : CHROMIUM: ARM: r1->r0 for get/set arguments <Will Drewry> 2 years, 5 months ago
+dfce41d : CHROMIUM: seccomp: set -ENOSYS if there is no tracer <Will Drewry> 2 years, 5 months ago
+e461e54 : CHROMIUM: arch/arm: select HAVE_ARCH_SECCOMP_FILTER <Will Drewry> 2 years, 5 months ago
+d688eb0 : CHROMIUM: arch/arm: move secure_computing into trace; respect return code <Will Drewry> 2 years, 5 months ago
+61aff9e : CHROMIUM: arch/arm: add asm/syscall.h <Will Drewry> 2 years, 5 months ago
+b01f654 : samples/seccomp: fix dependencies on arch macros <Will Drewry> 2 years, 5 months ago
+b63467e : seccomp: fix build warnings when there is no CONFIG_SECCOMP_FILTER <Will Drewry> 2 years, 5 months ago
+812d339 : seccomp: ignore secure_computing return values <Will Drewry> 2 years, 5 months ago
+8e27d9c : seccomp: use a static inline for a function stub <Stephen Rothwell> 2 years, 5 months ago
+58729e9 : Documentation: prctl/seccomp_filter <Will Drewry> 2 years, 8 months ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+c902bb8 : net: wireless: bcmdhd:1)Fix PEAP with dynamic WEP 2)Close p2p0 device in wl_down Signed-off-by: Dmitry Shmidt <dimitrysh@google.com> Adjusted to p880 kernel by demetris <demetris> 4 hours ago
+6d3e807 :  net: wireless: bcmdhd: cfg80211 fixes <demetris> 8 hours ago
+4e4d58b : Add a mechanism to get vddio_hsic regulator status This is needed on enteprise and derivative boards like X3 <demetris> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8226 ****
+5ecfcc0 : mm: compaction: detect when scanners meet in isolate_freepages <Vlastimil Babka> 8 months ago
+9c27b23 : mm: compaction: reset cached scanner pfn's before reading them <Vlastimil Babka> 8 months ago
+69916d5 : mm: compaction: do not accidentally skip pageblocks in the migrate scanner <Mel Gorman> 1 year, 7 months ago
+b4f1bce : mm/compaction: Break out of loop on !PageBuddy in isolate_freepages_block <Laura Abbott> 7 months ago
+e7581eb : ksm: Provide support to use deferred timers for scanner thread <Chintan Pandya> 7 months ago
+c7aabad : mm: Mark free pages as read only <Laura Abbott> 5 months ago
+f8445a0 : msm8226: Rename defconfig files to respective devices <Rabih Salamey> 6 days ago
+18eea2c : msm8926_mmi: Don't select VM_RECLAIM <Ethan Chen> 5 days ago
+1236dbf : msm8226_mmi: Don't select VM_RECLAIM <Ethan Chen> 5 days ago
+8666287 : msm8226_mmi: Enable ZRAM <Ethan Chen> 8 days ago
+4ec82c9 : msm8926_mmi: Enable ZRAM <Ethan Chen> 8 days ago
+b34990e : msm8226_mmi: Update defconfig <Ethan Chen> 9 days ago
+b442657 : msm8926_mmi: Update defconfig <Ethan Chen> 9 days ago
+9776934 : msm: mdss: fix rotator failures when pixel format changes <Ingrid Gallardo> 6 weeks ago
+8a85e0a : msm: mdss: Calculate plane size correctly for H2V1/H1V2 rotation <Jayant Shekhar> 4 months ago
+7fe394e : msm: mdss: Use generic data type for rect <Jeykumar Sankaran> 5 months ago
+ec523285 : mdp: mdss: Tune bandwidth and clock based on ROI <Jeykumar Sankaran> 11 months ago
+b1a4ad0 : ASoC: msm: qdsp6v2: Add a new waitqueue state for mem map/unmap <Damir Didjusto> 4 months ago
+98a65ad : ASoC: msm: qdsp6v2: Remove cmd_state from ASM header function <Damir Didjusto> 6 months ago
+ea00930 : Remove duplicate code which introduced in 172a7c3 <Quarx2k> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+e006882 : msm: mdss: Prevent modification to image roi when scaling <Terence Hampson> 5 weeks ago
+d144a18 : sched: Fix migration thread runtime bogosity <Mike Galbraith> 2 years, 2 months ago
+851b4a3 : ARM: Fix undefined instruction exception handling <Russell King> 2 years, 2 months ago
+d29c10d : rtc: alarm: set power_on_alarm again when calling alarm_resume <Mao Jinlong> 4 weeks ago
+99e8389 : qseecom: change the number of bytes to compare app names <William Clark> 3 months ago
+bc877bd : qseecom: Add support to handle multiple app load & unload <William Clark> 4 months ago
+0634777 : netlink: fix possible spoofing from non-root processes <Pablo Neira Ayuso> 2 years, 1 month ago
+168f199 : msm: kgsl: Fixup the idle_timer save/store functions <Jordan Crouse> 6 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+43ca23c : drivers: staging: prima: update to kk_2.7_rb1.43 <jt1134> 2 days ago
+62ab2b0 : db8131m: small updates from opensource.samsung.com <jt1134> 11 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+79080ea : HLTE: Toggle reset of mcu to ensure all devices resume after sleep <Tony Layher> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_CellBroadcastReceiver ****
+68b0a06 : Cell Broadcast for channel 60 and widget support <Sukanya Rajkhowa> 9 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Contacts ****
+0121b5c : Fix string <Michael Bestas> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+b77a001 : InCallUI: Add "Answer Via Speakerphone" Glowpad Target <Jubakuba> 4 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+edaa02c : 6-bar signal icon sytle [2/2] <Alex Cruz> 5 weeks ago
+3738e17 : Revert "Navbar: fix IME layout customization" <nuclearmistake> 21 hours ago
+799fc80 : Navbar: fix IME layout customization <PrimeDirective> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+4795437 : Fix a ton of pre-exiting derps in klimtwifi vendor.mk + use stock names for some props <DHOMD> 4 days ago
+1a6f0f1 : Update a vendor path <DHOMD> 4 days ago
+af33f32 : Initial import of klimtwifi blobs <DHOMD> 4 days ago
+10638c0 : klimtewifi initial from eousphoros <DHOMD> 6 days ago
+3bf7ecc : Revert "hlte: Update temp/humidity sensor driver." <Tony Layher> 2 days ago
+51eee11 : Make sure that klte zips flash on unified twrp <nuclearmistake> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+096b70f : Enable incall recording <DHOMD> 5 weeks ago
+d3ae334 : klimtwifi - G Pro 12.2 <DHOMD> 6 days ago
+5a7f873 : added Yota APN <Merudo> 24 hours ago
+db5714b : corrected Smart APN: missing space before "type" <Merudo> 25 hours ago
+752643b : added Axis, AWCC, MTN, Etisalat, Hutch, MPT APNs. <Merudo> 26 hours ago
+e56d66a : added Public Mobile APN, corrected Rogers WAP APN <Merudo> 29 hours ago
+5639c8c : added ONO and Euskaltel APNs <Merudo> 30 hours ago
+d8e0cb8 : added Cambodia APNs <Merudo> 30 hours ago
+ 

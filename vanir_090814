@@ -1,0 +1,89 @@
+
+**** https://github.com/CyanogenMod/android_device_sony_huashan ****
+dd87307 : huashan: fixup buggy mic (add a missing flag) <Brin Taylor> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+8917c82 : Null check form SignalCluster when isMultiSimEnabled <DHOMD> 2 hours ago
+fc9d7c1 : 6-bar signal icon sytle [1/2] <Paul Mongold> 2 years, 1 month ago
+9e15b21 : Bypass the lockscreen when the hardware keyboard is slid out and security mode is 'none' <Jonas Rahlf> 5 days ago
+c4625f1 : DocumentsUI: Workaround for aapt warnings <Michael Bestas> 2 days ago
+9e4fa8b : add MVNO info for tele2 in croatia per CYAN-5178 <Evan Widger> 3 days ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+b76b7c8 : cgroup: fix exit() vs rmdir() race <Li Zefan> 1 year, 7 months ago
+2249f87 : sched: Fix select_idle_sibling() regression in selecting an idle SMT sibling <Peter Zijlstra> 2 years, 9 months ago
+4ce1117 : sched: Fix buglet in return_cfs_rq_runtime() <Paul Turner> 2 years, 10 months ago
+e1e6699 : sched: Avoid SMT siblings in select_idle_sibling() if possible <Peter Zijlstra> 2 years, 10 months ago
+22dd8fb : sched_fair: Fix a typo in the comment describing update_sd_lb_stats <Hui Kang> 2 years, 11 months ago
+872ac42 : sched: Add a comment to effective_load() since it's a pain <Peter Zijlstra> 2 years, 11 months ago
+8e9ff51 : sched: Remove redundant test in check_preempt_tick() <Wang Xingchao> 3 years ago
+b38ac29 : sched: Remove noop in lowest_flag_domain() <Hillf Danton> 3 years, 3 months ago
+ac5b118 : llist: Add llist_next() <Peter Zijlstra> 3 years ago
+2b251e3 : llist: Return whether list is empty before adding in llist_add() <Huang Ying> 3 years ago
+f43d617 : llist: Move cpu_relax() to after the cmpxchg() <Huang Ying> 3 years ago
+fe8b41d : llist: Remove the platform-dependent NMI checks <Ingo Molnar> 2 years, 11 months ago
+94d501b : llist: Make some llist functions inline <Huang Ying> 3 years ago
+acb2e70 : irq_work: Use llist in the struct irq_work logic <Huang Ying> 3 years ago
+6bd7ad6 : nohz: Fix stale jiffies update in tick_nohz_restart() <Neal Cardwell> 2 years, 5 months ago
+59327a1 : nohz: Make idle/iowait counter update conditional <Michal Hocko> 3 years, 1 month ago
+b937377 : nohz: Fix update_ts_time_stat idle accounting <Michal Hocko> 3 years, 1 month ago
+16e78b1 : sched: add averaging routines from codeaurora's msm-3.4. They are used on the hotplug driver. <franciscofranco> 1 year, 7 months ago
+c2016cc : sched: Allow SD_NODES_PER_DOMAIN to be overridden <Anton Blanchard> 3 years, 2 months ago
+616e4dd : sched: Return unused runtime on group dequeue <Paul Turner> 3 years, 2 months ago
+9602c73 : sched: Add exports tracking cfs bandwidth control statistics <Nikhil Rao> 3 years, 2 months ago
+416c30a : sched: Migrate throttled tasks on HOTPLUG <Paul Turner> 3 years, 2 months ago
+e118a98 : sched: Prevent interactions with throttled entities <Paul Turner> 3 years, 2 months ago
+90ec12b : sched: Allow for positional tg_tree walks <Paul Turner> 3 years, 2 months ago
+a211706 : sched: Add support for unthrottling group entities <Paul Turner> 3 years, 2 months ago
+801c2fb : sched: Add support for throttling group entities <Paul Turner> 3 years, 2 months ago
+a381eaa : sched: Expire invalid runtime <Paul Turner> 3 years, 2 months ago
+0efdd4a : sched: Add a timer to handle CFS bandwidth refresh <Paul Turner> 3 years, 2 months ago
+6287cfa : sched: Accumulate per-cfs_rq cpu usage and charge against bandwidth <Paul Turner> 3 years, 2 months ago
+39c6090 : sched: Validate CFS quota hierarchies <Paul Turner> 3 years, 2 months ago
+b938c32 : sched: Introduce primitives to account for CFS bandwidth tracking <Paul Turner> 3 years, 2 months ago
+5b6e205 : sched: Implement hierarchical task accounting for SCHED_OTHER <Paul Turner> 3 years, 2 months ago
+88908a6 : sched: fix broken SCHED_RESET_ON_FORK handling <Mike Galbraith> 3 years, 1 month ago
+19fc1a1 : sched: fix divide by zero at {thread_group,task}_times <Stanislaw Gruszka> 2 years, 1 month ago
+7336c54 : Revert "sched: task_times() explosion avoidance for tasks with > 2^32 acrued ticks" <demetris> 15 hours ago
+12ad07a : sched: Fix race in task_group() <Peter Zijlstra> 2 years, 3 months ago
+d54cbb7 : sched: Fix the relax_domain_level boot parameter <Dimitri Sivanich> 2 years, 3 months ago
+4aa1f24 : sched: Fix OOPS when build_sched_domains() percpu allocation fails <he, bo> 2 years, 4 months ago
+2543497 : sched: Set the command name of the idle tasks in SMP kernels <Carsten Emde> 2 years, 10 months ago
+e2a408f : sched: Document wait_for_completion_*() return values <J. Bruce Fields> 2 years, 11 months ago
+4a970ef : sched: Don't use tasklist_lock for debug prints <Thomas Gleixner> 3 years, 2 months ago
+afa0bcf : sched: Unify the ->cpus_allowed mask copy <Peter Zijlstra> 3 years, 2 months ago
+6043cfd : sched: Wrap scheduler p->cpus_allowed access <Peter Zijlstra> 3 years, 3 months ago
+b08c656 : rcu: Restore checks for blocking in RCU read-side critical sections <Paul E. McKenney> 3 years, 4 months ago
+d28f169 : treewide: Correct spelling of successfully in comments <Joe Perches> 3 years, 1 month ago
+5d9558e : sched/nohz: Fix rq->cpu_load calculations some more <Peter Zijlstra> 2 years, 4 months ago
+8f81edc : sched/nohz: Fix rq->cpu_load[] calculations <Peter Zijlstra> 2 years, 4 months ago
+e9b0e83 : sched/nohz: Rewrite and fix load-avg computation -- again <Peter Zijlstra> 2 years, 3 months ago
+6081fc9 : sched: Fix nohz load accounting -- again! <Peter Zijlstra> 2 years, 6 months ago
+24104b3 : sched: Request for idle balance during nohz idle load balance <Suresh Siddha> 2 years, 11 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+16cf8d6 : Fix warnings for gcc-4.9 <Dan Pasanen> 2 days ago
+11b7061 : Fix sizeof-pointer-memaccess warning with gcc 4.8 <Vineeta Srivastava> 9 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_espresso10 ****
+af80b62 : revert file-permissions back to 100644 <andi34> 8 weeks ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+7284b0e : no need apply button <h0rn3t> 9 hours ago
+993ddac : ... <h0rn3t> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+eb2d31d : 6-bar signal icon sytle [2/2] <Alex Cruz> 3 weeks ago
+151be90 : Settings: nl translations <bart452> 27 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_ContactsProvider ****
+be89cc2 : Contacts: Move custom strings to cm_strings.xml <Ethan Chen> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+965dfd0 : CDMA: Fix APN setting crash when using CDMA SIM card. <Chenxi Mao> 15 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+4665894 : Enable incall recording <DHOMD> 3 weeks ago
+5eca0d2 : Update APNs for au, docomo, SoftBank and Y!mobile (Japan) <black> 10 hours ago
+183b351 : add KPN 4G apn per CYAN-5253 <Evan Widger> 3 days ago
+ 

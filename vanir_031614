@@ -1,0 +1,164 @@
+
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+1d42eef : use different USB PIDs for adb and adb+ums modes <James Sullins> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/build ****
+d2241b4 : Remove QuickSearchBox from build <Ethan Chen> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_jewel ****
+5e61b5f : jewel: Move cm.dependencies to common <Ethan Chen> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7-common ****
+ab540f8 : m7-common: Use dual mic for Speaker DMIC Stereo <Ethan Chen> 4 days ago
+fdd80a6 : m7-common: Switch to DMIC Endfire for Speaker DMIC Endfire <Ethan Chen> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_m7spr ****
+5906042 : m7spr: Move cm.dependencies to common <Ethan Chen> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+e08f7b3 : Add Bootloader Assert <Abhisek Devkota> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_lge_p880 ****
+4de5dc2 : Make the KeyDisabler available <Ricardo Cerqueira> 9 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_qcom-common ****
+b3c668c : qcom-common: allow multiple hardware tunables includes <Dave Daynard> 13 days ago
+ 
+**** https://github.com/VanirAOSP/external_bluetooth_bluedroid ****
+0c507c9 : bta_hh: Change bus_type to BUS_USB for USB HCI <zombah> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/Superuser ****
+ca10fc2 : Fix UXD for tablets <BILLyTheLiTTle> 5 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+47b4d24 : audio: Added lock during closing of direct output <Pavan Chikkala> 5 weeks ago
+98d8631 : ifdef "stagefright: Enable GraphicBuffer usage to decoder before querying formats" <Pawit Pornkitprasan> 18 hours ago
+1b7ac64 : libstagefright: Add NULL check for mHFRRatio <myfluxi> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+5131bfc : Revert "Update the GPS tile to use the appropriate location modes" <nuclearmistake> 5 hours ago
+6795072 : Revert "Runtime toggle of navbar" <nuclearmistake> 5 hours ago
+debb17a : Update the GPS tile to use the appropriate location modes <Scott Warner> 4 weeks ago
+aa5ed4e : FaceUnlock: Check if faceunlock is disabled <Jorge Ruesga> 2 days ago
+8f3abc0 : Don't recreate keyguard for MCC/MNC changes. <Danny Baumann> 12 days ago
+2c93da2 : Send out USER_PRESENT broadcast on screen on if lockscreen is disabled. <Danny Baumann> 6 weeks ago
+2d983f5 : Don't let apps disable the SIM PIN entry screen. <Danny Baumann> 6 weeks ago
+b6a1eb3 : Runtime toggle of navbar <Timo Wendt> 1 year, 7 months ago
+7c26a5c : SystemUI: reactivate WiFi activity indicators <f14w3d> 31 hours ago
+ea797ad : core & Keyguard: ES translations <Lorenzo M> 8 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+df52735 : Native : gui: Allow devices to disable fence sync <Michael Bestas> 7 months ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_hardware ****
+01627f7 : HAF: Add KeyDisabler stub <Ricardo Cerqueira> 12 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+f4697a8 : SamsungQualcommRIL: allow mQANElements to be device specific <markcs> 10 hours ago
+f91bf16 : telephony: MSim: propagate roaming and data settings to SIM <Pawit Pornkitprasan> 8 days ago
+7e580a6 : RIL: mark mInstanceId as protected <Pawit Pornkitprasan> 8 days ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_telephony-msim ****
+efdaab6 : MSimPhoneFactory: use custom RIL class <Pawit Pornkitprasan> 8 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+6260598 : hal: Fix error in log message <ApurupaPattapu> 11 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display-caf ****
+42fa411 : hwc_copybit: wait on fb target acquire fence before composition <Baldev Sahu> 3 weeks ago
+72949b8 : hwc: Do not use copybit if planeAplha and downscaling invloved <Baldev Sahu> 3 weeks ago
+da4a0f1 : hwc: remove waiting for fence in copybit and avoid sending to mdp <Baldev Sahu> 9 weeks ago
+e4624c6 : hwc: Reset layer composition to GLES if copybit fails <Baldev Sahu> 9 weeks ago
+2b3f6d6 : hwc: Enabled COPYBIT for UI layers in VideoOnly composition <Baldev Sahu> 3 months ago
+9a33183 : display : Add wormholeRegion Calculation <radhakrishna> 5 months ago
+8ccc560 : liboverlay: Correctly roundoff the Downscale factor <Justin Philip> 3 weeks ago
+880e745 : Revert "overlay: Add tolerance to downscale factor" <Arne Coucheron> 10 days ago
+68d258c : libhwcomposer: Synchronize Uevent and Composition threads <Justin Philip> 4 weeks ago
+d021434 : gralloc: Set default value for implementation defined formats <Baldev Sahu> 3 weeks ago
+aee55e6 : Invoke a padding round in certain use-cases. <Raj Kamal> 5 weeks ago
+1a4ca10 : liboverlay: Rotator hangs on playing VP9 tile encoded video <Justin Philip> 6 weeks ago
+6f9a51d : libmemtrack: Fix compilation warning error <Colin Cross> 6 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8960 ****
+592ff58 : input: touchscreen: synaptics_3200: Allow disabling keypad <Ricardo Cerqueira> 11 days ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-gproj ****
+cd7ad35 : lge_touch_core: Allow disabling the nav keys <Ricardo Cerqueira> 9 days ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+f8460fe : lge_touch_core: Allow disabling the nav keys <Ricardo Cerqueira> 9 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+e002ef4 : rcu: Use smp_hotplug_thread facility for RCUs per-CPU kthread <Paul E. McKenney> 1 year, 8 months ago
+931b8bd : rcu: Yield simpler <Thomas Gleixner> 1 year, 8 months ago
+474ce3f : msm: kgsl: Delay the first devfreq status read <Lucille Sylvester> 11 days ago
+9317b61f : gpu: ion: system_heap: add support for 2MB allocations <Mitchel Humpherys> 4 months ago
+c03f20b : msm: msm_bus: Don't divide RPM BW requests <Girish Mahadevan> 6 weeks ago
+6c593cd : devfreq: governor_cpubw_hwmon: Fix use of decay_rate <Saravana Kannan> 8 weeks ago
+a167bcf : msm: Fix high load average from uninterruptible waits <Steve Kondik> 6 weeks ago
+c27ce80 : cpufreq: ondemand: Use hotplug thread infrastructure <myfluxi> 5 weeks ago
+664dca5 : cpufreq: cpu-boost: Use hotplug thread infrastructure <myfluxi> 5 weeks ago
+e5916cf : [backport] Hotplug thread infrastructure <Thomas Gleixner> 1 year, 11 months ago
+93d2f77 : video: msm: Remove some cruft <Steve Kondik> 3 days ago
+b5facc6 : msm: mdss: properly handle panel on and off <Xiaoming Zhou> 3 weeks ago
+9496031 : msm: mdss: Make notify update waits interruptible <Krishna Chaitanya Parimi> 2 weeks ago
+80afe38 : msm: mdss: refactor command mode vsync control logic <Adrian Salido-Moreno> 3 weeks ago
+59bfad2 : msm: mdss: Don't call pan_idle for MSMFB_OVERLAY_PREPARE ioctl <Ramakant Singh> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/kernel_samsung_jf ****
+d3ae1fd : Revert "Revert "msm: msm_fb: Fix Regressions because of overmap changes."" <nuclearmistake> 9 weeks ago
+3fc2b51 : Revert "Revert "msm_fb: display: update video tile framesize register"" <nuclearmistake> 9 weeks ago
+f3d8aff : Revert "Revert "msm_fb: display: Program TILE video frame size in dma ISR"" <nuclearmistake> 9 weeks ago
+0b6a1eb : Revert "Revert "msm: fb: Fix security bugs in msmfb_notify_update & msm_fb_ioctl"" <nuclearmistake> 9 weeks ago
+e1904b6 : Revert "Revert "msm: msm_fb: Do not use ION_IOMMU_UNMAP_DELAYED flag."" <nuclearmistake> 9 weeks ago
+29b837f : Revert "Revert "msm: msm_fb: Map RGB layers to the max possible size."" <nuclearmistake> 9 weeks ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_samsung_tuna
+https://github.com/jimsth/vanir_tuna ****
+51eddc3 : defconfig: version 1.1.0 <Dan Trifan> 12 hours ago
+41c5e76 : defconfig: revert to tuna default vmsplit <Dan Trifan> 13 hours ago
+fef70b7 : bcmdhd: workaround broken AC video queue in IBSS mode <Bruno Randolf> 11 months ago
+f64b5fe : defconfig: enable KSM_CHECK_PAGE <Dan Trifan> 2 days ago
+cd21d8a : mm: ksm: use recomanded values <Dan Trifan> 3 days ago
+973d43b : ksm: check and skip page, if it is already scanned <Pradeep Sawlani> 11 days ago
+f3d7ae8 : Revert "Add UKSM 0.1.2" <Dan Trifan> 2 days ago
+84e03db : Revert "UKSM: Upgrade to 0.1.2.2" <Dan Trifan> 2 days ago
+6c5a1bb : Revert "defconfig: enable UKSM" <Dan Trifan> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+1f99bc6 : CameraModule: bandaid for jpeg quality NumberFormatException <nuclearmistake> 2 hours ago
+801ec5c : Camera: remove fine/normal/superfine jpegquality and use always int <Lars Greiss> 3 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+71c65fd : DeskClock: Support double-digit hours for timers <Daniel Danner> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+3dc3c9c : Hide Titlebar while loading InCallUI (1 of 2) <blackhand1001> 9 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Email
+cm2	https://github.com/CyanogenMod/android_packages_apps_Email ****
+3d375af : Don't fetch deleted messages from IMAP folder <Daniel Volk> 10 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+ebd0c8c : Hide Titlebar while loading InCallUI (2 of 2) <blackhand1001> 9 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+733b1f3 : Mms: ES translations <Lorenzo M> 8 days ago
+ 
+**** https://github.com/omnirom/android_packages_apps_OmniSwitch ****
+31fb0d1 : OmniSwitch: RU translation <Danil K> 2 days ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+cbe5a73 : ... <h0rn3t> 11 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+1571f29 : Revert "Buttons: Allow disabling hard navigation keys" <nuclearmistake> 4 hours ago
+3953389 : Fix resource IDs being added to the android namespace <Clark Scheff> 13 days ago
+10e967f : Settings/Wifi: Add support for Ad-hoc (IBSS) networks <Bruno Randolf> 4 days ago
+f71e73a : Settings: use CMHW serial number for MSim <Pawit Pornkitprasan> 8 days ago
+fa00045 : Buttons: Allow disabling hard navigation keys <Timo Wendt> 1 year, 7 months ago
+e79823d : Settings: ES translations <Lorenzo M> 8 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_htc ****
+21f659d : s4-common: move WCNSS_qcom_cfg.ini out of vendor <Matt Mower> 13 days ago
+ 

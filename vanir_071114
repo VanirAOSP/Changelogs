@@ -1,0 +1,156 @@
+
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+3350c88 : exit instead of return if sideload file creation fails <Ethan Yonker> 1 year, 6 months ago
+cbe5d00 : fix vulnerability in bspatch <Doug Zongker> 8 weeks ago
+f6df6a0 : add --shutdown_after option to recovery <Doug Zongker> 4 months ago
+97f9e95 : recovery: fix building with pointer-to-int errors turned on <Colin Cross> 5 months ago
+2ffad65 : minadbd: remove dead code <Colin Cross> 6 months ago
+8e1155a : adbd: switch to su domain when running as root <Nick Kralevich> 6 months ago
+a7498bb : Add seclabel to minivold <Matt Mower> 33 hours ago
+881f631 : Set SELinux security contexts correctly for init and services. <Stephen Smalley> 6 months ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+acc080a : Automatically detect and set correct panel cmdline <dr87> 11 days ago
+ 
+**** https://github.com/EthanJ99/device_motorola_msm8226-common ****
+a012d5a : Update config.xml <Ethan Johnson> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+f613d8a : Drop NEW_QC_GPS from boardconfig?? <nuclearmistake> 16 hours ago
+d7474ac : reconcile ueventd with elelinux <nuclearmistake> 16 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_shinano-common ****
+c0e5e64 : shinano: use rhine 4.3 blob <Giulio Cervera> 6 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_sirius ****
+bc46e90 : sirius: update blob list <Giulio Cervera> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/Superuser ****
+7d8d00f : Automatic translation import <Michael Bestas> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+781bfd9 : ActiveDisplay: fixes/improvements medley #4,678 <PrimeDirective> 8 hours ago
+8d8ab09 : Selected libs/androidfw/ResourceTypes reconciliationationation <nuclearmistake> 15 hours ago
+f2d36b2 : SystemUI: improve one finger notification expansion <Roman Birg> 3 days ago
+44edca9 : frameworks: move safe volume warning above expanded volume panel <Roman Birg> 3 days ago
+f89998f : HeadsUp: Fix dismiss on back key press. <Adnan> 28 hours ago
+bf29def : Lockscreen blur: fix duplicate flag updates <PrimeDirective> 19 hours ago
+48c7e05 : KeyButtonView: fix longpress and double press actions on a recents key <PrimeDirective> 20 hours ago
+610643c : lockscreen: fix custom lockscreen image <PrimeDirective> 21 hours ago
+309dd1e : quiet hours: add back the option to disable system sounds (1/2) <Dan Trifan> 22 hours ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_fm ****
+588f7d5 : Automatic translation import <Michael Bestas> 16 hours ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+798342c : softirq: reduce latencies In various network workloads, __do_softirq() latencies can be up to 20 ms if HZ=1000, and 200 ms if HZ=100. <demetris> 20 hours ago
+2d0d126 :  sched: reinitialize rq->next_balance when a CPU is hot-added <demetris> 20 hours ago
+ 
+**** https://github.com/VanirAOSP/kernel_oppo_n1 ****
+639de72 : fs/super.c: sync ro remount after blocking writers <Andrew Ruder> 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+58c9e97 : f2fs: check bdi->dirty_exceeded when trying to skip data writes <Jaegeuk Kim> 2 weeks ago
+4bb4176 : f2fs: do checkpoint for the renamed inode <Jaegeuk Kim> 12 days ago
+a1e4b93 : f2fs: release new entry page correctly in error path of f2fs_rename <Chao Yu> 3 weeks ago
+502450b : f2fs: fix error path in init_inode_metadata <Chao Yu> 3 weeks ago
+0c0180a : f2fs: check lower bound nid value in check_nid_range <Chao Yu> 4 weeks ago
+8d9b376 : f2fs: remove unused variables in f2fs_sm_info <Chao Yu> 4 weeks ago
+f5e1340 : f2fs: fix not to allocate unnecessary blocks during fallocate <Jaegeuk Kim> 4 weeks ago
+89aaaac : f2fs: recover fallocated data and its i_size together <Jaegeuk Kim> 4 weeks ago
+b2532be : f2fs: fix to report newly allocate region as extent <Jaegeuk Kim> 4 weeks ago
+fd9e51e : f2fs: support f2fs_fiemap <Jaegeuk Kim> 5 weeks ago
+bb0f45e : f2fs: avoid not to call remove_dirty_inode <Jaegeuk Kim> 5 weeks ago
+47b6950 : f2fs: recover fallocated space <Jaegeuk Kim> 5 weeks ago
+8427691 : f2fs: fix to recover data written by dio <Jaegeuk Kim> 5 weeks ago
+b20cae6 : f2fs: large volume support <Changman Lee> 9 weeks ago
+481c907 : f2fs: avoid crash when trace f2fs_submit_page_mbio event in ra_sum_pages <Chao Yu> 7 weeks ago
+924642c : f2fs: avoid overflow when large directory feathure is enabled <Chao Yu> 6 weeks ago
+778d7a8 : f2fs: fix recursive lock by f2fs_setxattr <Jaegeuk Kim> 6 weeks ago
+61dfc36 : f2fs: add a tracepoint for f2fs_read_data_page <Chao Yu> 10 weeks ago
+c2d6521 : f2fs: add a tracepoint for f2fs_write_{meta,node,data}_pages <Chao Yu> 10 weeks ago
+bb4147c : f2fs: add a tracepoint for f2fs_write_{meta,node,data}_page <Chao Yu> 10 weeks ago
+ebf082a : f2fs: add a tracepoint for f2fs_write_end <Chao Yu> 10 weeks ago
+b9b1b9d : f2fs: add a tracepoint for f2fs_write_begin <Chao Yu> 10 weeks ago
+e422aaf : f2fs: fix checkpatch warning <Zhang Zhen> 10 weeks ago
+9e11619 : f2fs: decrease the lock granularity during write_begin <Jaegeuk Kim> 2 months ago
+207ed41 : f2fs: no need to wait on page writebck to meta pages <Jaegeuk Kim> 2 months ago
+141c945 : f2fs: avoid grab_cache_page_write_begin for data pages <Jaegeuk Kim> 2 months ago
+674c0ab : f2fs: split grab_cache_page and wait_on_page_writeback for node pages <Jaegeuk Kim> 2 months ago
+be58766 : f2fs: fix to truncate inline data in inode page when setattr <Chao Yu> 2 months ago
+4c69dbc : f2fs: readahead multi pages of directory for performance <Chao Yu> 3 months ago
+1a75d30 : f2fs: set errno when f2fs_iget failed in recover_dentry <Chao Yu> 3 months ago
+f6ca208 : f2fs: introduce help macro ADDRS_PER_PAGE() <Chao Yu> 3 months ago
+1ad2e5a : f2fs: submit bio at the reclaim path <Jaegeuk Kim> 3 months ago
+8ecf404 : f2fs: return errors right after checking them <Jaegeuk Kim> 3 months ago
+4fa719c : f2fs: pass flags field to setxattr functions <Jaegeuk Kim> 3 months ago
+57b1194 : f2fs: clean up long variable names <Jaegeuk Kim> 3 months ago
+68a29e8 : f2fs: handle inline data independently in f2fs_bmap <Chao Yu> 3 months ago
+e0bb18f : f2fs: adjust free mem size to flush dentry blocks <Jaegeuk Kim> 3 months ago
+b2ce246 : f2fs: introduce raw_nat_from_node_info() to simplfy codes <Chao Yu> 3 months ago
+1bf53ee : f2fs: avoid BUG_ON when mouting corrupted image having garbage blocks <Jaegeuk Kim> 3 months ago
+ea04611 : f2fs: add available_nids to fix handling max_nid correctly <Jaegeuk Kim> 3 months ago
+31c581b : f2fs: add static to get_max_meta_blks <Fabian Frederick> 3 months ago
+a6f3571 : f2fs: atomically set inode->i_flags in f2fs_set_inode_flags() <Zhang Zhen> 3 months ago
+0e8030a : f2fs: make recover_inline_xattr() static <Jingoo Han> 3 months ago
+28f5f0d : f2fs: remove costly dirty_dir_inode operations <Jaegeuk Kim> 3 months ago
+9a0f6dc : f2fs: fix to unlock f2fs_lock at the omitted error case <Jaegeuk Kim> 3 months ago
+567572d : f2fs: call redirty_page_for_writepage <Jaegeuk Kim> 3 months ago
+d8be348 : f2fs: avoid to conduct roll-forward due to the remained garbage blocks <Jaegeuk Kim> 3 months ago
+74f6370 : msm_bam_rmnet: Fix potential memory corruption <Subash Abhinov Kasiviswanathan> 6 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_smdk4412 ****
+a784c37 : smdk4412: fix kona bootloop <sbrissen> 8 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+e825b26 : Sneak sneak. Stab stab. (dagger+butterknife) <nuclearmistake> 10 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+05c3b13 : Automatic translation import <Michael Bestas> 16 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_BluetoothExt ****
+2338858 : Automatic translation import <Michael Bestas> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Browser ****
+418f198 : Browser: add duckduckgo search enginge to RU locale <Roman Birg> 27 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+6415d23 : Automatic translation import <Michael Bestas> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+f9ed45c : Automatic translation import <Michael Bestas> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DSPManager ****
+ef166ee : Automatic translation import <Michael Bestas> 16 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Email ****
+d4492fd : Automatic translation import <Michael Bestas> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Gallery2 ****
+1e23f6a : Automatic translation import <Michael Bestas> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+746a5bb : Settings: persist double tap to wake state <Roman Birg> 30 hours ago
+f4e63ff : quiet hours: add back the option to disable system sounds (2/2) <Dan Trifan> 21 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Stk ****
+ac73230 : Automatic translation import <Michael Bestas> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ThemeChooser ****
+e7f72cf : Automatic translation import <Michael Bestas> 16 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Torch ****
+ecedf0d : Automatic translation import <Michael Bestas> 16 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_VoicePlus ****
+041d075 : Automatic translation import <Michael Bestas> 16 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_ThemesProvider ****
+f7d4760 : Automatic translation import <Michael Bestas> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+1cd6b33 : Automatic translation import <Michael Bestas> 16 hours ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_oppo ****
+ad79898 : msm8974: Blobs 2 <Steve Kondik> 27 hours ago
+ 

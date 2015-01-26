@@ -1,0 +1,142 @@
+
+**** https://github.com/VanirAOSP/bionic ****
+5c86283 : libc: krait: Fix memmove half-word atomicity <Xin Qi> 4 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+919077f : fix fread buffer has no terminating null string <philz-cwm6> 29 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_jewel ****
+a1e8184 : Revert "jewel: Update media_profiles for HFR attributes" <Ethan Chen> 6 hours ago
+3b349a2 : jewel: Update media_profiles for HFR attributes <Ethan Chen> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7-common ****
+b91d169 : Revert "m7-common: Update media_profiles for HFR attributes" <Ethan Chen> 6 hours ago
+f77d6ca : m7-common: Update media_profiles for HFR attributes <Ethan Chen> 7 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_m7spr ****
+be8c54e : m7spr: remove unneeded vendorsetup.sh <Matt Mower> 8 hours ago
+e9b310a : m7spr: remove unneeded overlay definition <Matt Mower> 10 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7vzw ****
+4b4da71 : m7vzw: remove unneeded overlay definition <Matt Mower> 10 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2lte ****
+7141963 : Revert "d2lte: Modify 'roamingText3' for Network Extender support." <Dan Pasanen> 8 hours ago
+2ded1d5 : Revert "d2lte: Modify 'roamingText3' for Network Extender support." <Rick C> 14 hours ago
+e5a7d6d : d2lte: expressatt needs its own ril blobs <jt1134> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_hlte ****
+085a5a0 : hlte: Mount firmware partitions as drmrpc group <Steve Kondik> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jflte ****
+9a34776 : jflte_init: add cricket and sprint operators <Dan Pasanen> 8 hours ago
+a489b84 : props for jflteusc <Dave Daynard> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+ec25755 : msm8960: Modify 'roamingText3' for Network Extender support. <Jon Mooney> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+df12768 : Tethering: fix NPE when retrieving active interfaces <Dirk Rettschlag> 7 days ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_telephony-msim ****
+37f1b10 : telephony-msim: Fix package issues <Steve Kondik> 3 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+c3d57f8 : hal: Fix memory leak in listen module <Krishnankutty Kolathappilly> 6 weeks ago
+2cc5f4a : mm-audio: Update bitrate based on profile and samplerate <Gopikrishnaiah Anandan> 6 weeks ago
+7817a06 : post_proc: send ENABLE_FLAG directly to offload effect driver <wjiang> 2 weeks ago
+66d6a8b : hal: Enhance compress offload logging <Sidipotu Ashok> 5 weeks ago
+afb51e1 : hal: Fix for down-mixing of multi-ch offload playback <Mingming Yin> 2 weeks ago
+0d80c3e : hal: set Dolby DMID for low latency playback <Mingming Yin> 2 weeks ago
+5133d94 : hal: Update the correct channel count for dolby configuration <Krishnankutty Kolathappilly> 4 weeks ago
+62e1289 : hal: fix a bug introduced as part of changes done for fixing memroy leak <Narsinga Rao Chella> 4 weeks ago
+c4b3b02 : hal: Fix memory leak in HAL debug logs <Krishnankutty Kolathappilly> 6 weeks ago
+c5a0f45 : hal: Add support for PCM in offload path <ApurupaPattapu> 9 weeks ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_lge_msm8974
+https://github.com/bart452/kernel_lge_msm8974
+vani	git@github.com:VanirAOSP/kernel_lge_msm8974.git
+vanir	https://github.com/VanirAOSP/kernel_lge_msm8974 ****
+8207125 : mm: default max readahead to 512 <houst0nn> 6 days ago
+ac0eccd : switch: hds_max1462x: revert & Fix unbalanced IRQ <houst0nn> 3 days ago
+3d428ca : mmc: block: Fix error path of mmc_blk_alloc_req() <Sahitya Tummala> 5 months ago
+6433216 : common: make cpaccess module code writeable <Neil Leeder> 8 months ago
+40c921f : arm: mm: Add export symbol for set_memory_* functions <Laura Abbott> 8 months ago
+4b8036a : arm: mm: Define set_memory_* functions for ARM <Laura Abbott> 9 months ago
+9e67603 : arm: Add definitions for pte_mkexec/pte_mknexec <Laura Abbott> 9 months ago
+52b2ec7 : ARM: 7880/1: Clear the IT state independent of the Thumb-2 mode <T.J. Purtell> 4 months ago
+33d1bc1 : ARM: 7819/1: fiq: Cast the first argument of flush_icache_range() <Fabio Estevam> 7 months ago
+9368dd0 : ARM: Fix FIQ code on VIVT CPUs <Russell King> 7 months ago
+abdc92a : ARM: Fix the world famous typo with is_gate_vma() <Russell King> 7 months ago
+b510e43 : ARM: fix nommu builds with 48be69a02 (ARM: move signal handlers into a vdso-like page) <Russell King> 7 months ago
+a8f8f7d : ARM: fix a cockup in 48be69a02 (ARM: move signal handlers into a vdso-like page) <Russell King> 7 months ago
+de1ebc4 : ARM: move signal handlers into a vdso-like page <Russell King> 8 months ago
+43d3b19 : arm: tracing: disable tracing for the timer clock functions <Pushkar Joshi> 7 months ago
+f504021 : ARM: sched_clock: Load cycle count after epoch stabilizes <Stephen Boyd> 9 months ago
+920bf26 : Perf: Fix counts across power collapse <Sheetal Sahasrabudhe> 9 months ago
+3e91ade : ARM: dts: msm: add perf-events support for msm8226 <Neil Leeder> 9 months ago
+be99eca : ARM: 7565/1: sched: stop sched_clock() during suspend <Felipe Balbi 2> 1 year, 5 months ago
+a586db2 : ARM: 7486/1: sched_clock: update epoch_cyc on resume <Colin Cross> 1 year, 7 months ago
+374f720 : Perf: Add cortex A7 perf support <Neil Leeder> 9 months ago
+737b703 : msm: peripheral-loader: Print firmware start and end addresses <Patrick Daly> 8 months ago
+ba7e00e : msm: peripheral-loader: Fix double irq enable <Patrick Daly> 8 months ago
+6e22edb : msm: peripheral_loader: Use the new request_firmware_direct API <Vikram Mulukutla> 10 months ago
+4d0cee2 : msm: peripheral-loader: Log clk-ready IRQ to help with debugging <Deepak Katragadda> 8 months ago
+8e0b083 : msm: msm_bus: Changes for QOS computation at BIMC <Girish Mahadevan> 5 months ago
+867f631 : msm: 8x10 BKE settings patch <Saurabh Saxena> 6 months ago
+65b0f7f : ARM/dt: 8610: Correct MMSS NoC - BIMC gateway node <Gagan Mac> 8 months ago
+e81d64f : ARM: dts: msm8610: Fix priorities of Krait on 8610 <Gagan Mac> 9 months ago
+efc800f : arm/dt: 8610: Add coreisght support for bus devices <Gagan Mac> 10 months ago
+1cbc531 : msm: msm_bus: Change priority overrides based on master configuration <Sagar Dharia> 6 months ago
+1c3fb1a : msm: msm_bus: Fix the type error causing bandwidth overflow <Alok Chauhan> 6 months ago
+d01a071 : msm: msm_bus: send correct value to bw division function <Alok Chauhan> 6 months ago
+ed82d93 : msm: msm_bus: Don't touch ID array in case of invalid IDs <Gagan Mac> 8 months ago
+107b582 : msm: msm_bus: Add checks during bus client unregistration <Gagan Mac> 8 months ago
+80a1b7c : msm: msm_bus: Correct the return value from register-client <Gagan Mac> 10 months ago
+46afa93 : msm: idle-v7: flush non secure L1 cache lines for l2 GDHS LPM mode <Murali Nalajala> 5 months ago
+5d6b548 : msm: idle-v7: Add support to pass tz flag when core is hotplugged <Priyanka Mathur> 8 months ago
+f118ead : msm: idle-v7: Separate PC termination for hotplug <Mahesh Sivasubramanian> 11 months ago
+4e20c03 : msm: pm-8x60: Use generic clk apis during power collapse <Mahesh Sivasubramanian> 8 months ago
+80abc2f : msm: pm: send notification only for SPC and PC <Venkat Devarasetty> 9 months ago
+8184540 : msm: hsic_sysmon: Support multiple instances <Jack Pham> 1 year, 1 month ago
+ad07ba4 : msm: clock: Add is_better_rate() helper function <Saravana Kannan> 6 months ago
+d52eafa : msm: clock-dummy: Rate-setable independent dummy clocks <Junjie Wu> 8 months ago
+107bf60 : msm: clock: Add pre_set_rate and post_set_rate ops <Saravana Kannan> 12 months ago
+4de92dd : msm: clock-8974: Add an active-only GPLL0 clock <Vikram Mulukutla> 9 months ago
+2588630 : msm: clock-generic: Add a combined mux_div clock <Patrick Daly> 7 months ago
+8581432 : msm: clock-generic: Add a get_rate op for slave dividers <Vikram Mulukutla> 6 months ago
+048d38c : msm: clock-generic: Move mux_reg_ops to clock-local2 <Vikram Mulukutla> 6 months ago
+0f6766d : msm: clock-generic: Allow separate enable/mux-select registers <Vikram Mulukutla> 6 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+d8fb69f : Revert "msm: clock-8974: Reduce PLL lock time" <Giulio Cervera> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+1ff6522 : Camera: video stabilization setting - don't default enable <Hashcode> 5 hours ago
+41b273a : camera: Histogram, ZSL burst mode, HDR-on-ZSL <Steve Kondik> 2 days ago
+daba41b : camera: Add metadata-based ASD <Steve Kondik> 3 days ago
+470cfe3 : Camera2: Fix burst mode, auto scene detect layout <Ethan Chen> 2 days ago
+82b7fbd : Camera2: Smart scene icons w. original artwork <henry j. mason> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+1c645fd : msim: Put files in the corret location <Steve Kondik> 3 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+97c13af : MMS: Disable Android 4.2 specific hack regarding keyboard behavior. <Dan> 2 weeks ago
+ 
+**** https://github.com/omnirom/android_packages_apps_OmniSwitch ****
+6148450 : OmniSwitch: added horizontal gravity support <maxwen> 3 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+5aa4f5e : Navbar Height: Use the slider max and a min value to define the percentage range <nuclearmistake> 20 hours ago
+7bddbd8 : Add a value TextView to the navbar height prefs <PrimeDirective> 2 days ago
+72f816f : Make navbar height+width more reasonable. <nuclearmistake> 28 hours ago
+b31f1ef : battery saver mode: updates (2/2) <Dan Trifan> 3 days ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+2e9ac4a : telephony-msim: Fix package errors <Steve Kondik> 5 months ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+038cee0 : overlay: add tmo and att default LTE apns <Dan Pasanen> 8 days ago
+ 

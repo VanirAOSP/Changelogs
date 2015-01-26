@@ -1,0 +1,209 @@
+
+**** https://github.com/VanirAOSP/device_htc_msm8960-common ****
+9755662 : Fix pthread_create error handling in ril. <Elliott Hughes> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+5f679f8 : TARGET_ARCH_VARIANT_CPU := cortex-a15 <bart452> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+4336bf5 : hh: Update power config <Steve Kondik> 11 hours ago
+a4d3ecc : hh: Reset boost params to recommended values <Steve Kondik> 15 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_qcom-common ****
+b34b80e : Move all the idc/kl/kc stuff to common, it will use what is needed <dhacker29> 6 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_qcom-common ****
+d2d73fb : Add TARGET_INIT_VENDOR_LIB for unified devices <dhacker29> 12 days ago
+ 
+**** https://github.com/CyanogenMod/android_external_chromium_org ****
+72c8996 : chromium: clear favicon bitmap prior to load an url <Jorge Ruesga> 28 hours ago
+ 
+**** https://github.com/CyanogenMod/AndroidAsync ****
+195df9b : Fix NRE in https://github.com/koush/AndroidAsync/issues/99#issuecomment-34524164 <Koushik Dutta> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+fb3e8a2 : Rejigger WifiService so appops doesn't break gapps startupwizard <nuclearmistake> 6 hours ago
+80ad8b2 : Frameworks AppOps: fix allow/reject counting <Sam Mortimer> 4 days ago
+3f44089 : Hide additional AppOps function <Ethan Chen> 12 days ago
+c4deab5 : [2/2] Framework AppOps: Add BOOT_COMPLETED operation. <Shashank Mittal> 10 weeks ago
+96918d1 : [2/2] Framework AppOps: Add per Op allowed and ignored counters <Sam Mortimer> 4 months ago
+af2c3e8 : [2/2] Framework AppOps: Forward port ops from cm-10.2 <Sam Mortimer> 5 weeks ago
+cc5edbb : PackageInstaller: Vanir tramp stamp <PrimeDirective> 3 days ago
+4c1bd4e : Squash of clear all recents position toggle+ <PrimeDirective> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+14d148a : Policy Hal:  Fix video stutters. <slayher> 2 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_ril ****
+fec1174 : Fix pthread_create error handling in ril. <Elliott Hughes> 5 weeks ago
+e237e7b : Stop the kernel complaining about rild. <Elliott Hughes> 3 months ago
+cacfcef : Remove an outdated hack. <Elliott Hughes> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_google_msm ****
+72267ac : msm:pm: Fix for race condition of starting cpu1 when cpu0 in PC. <Anil kumar mamidala> 4 months ago
+3856847 : arm: Set default reclaim mode to use vmalloc saving <Steve Kondik> 5 hours ago
+06ff0b1 : mm: fix anon vma naming <Colin Cross> 3 months ago
+14b650b : mm: fix calculation of dirtyable memory <Sonny Rao> 1 year, 2 months ago
+6dcde4e : cpufreq: cpu-boost: Remove unused waitqueue <myfluxi> 2 days ago
+2a1c013 : cpufreq: cpu-boost: Fix queue_delayed_work_on() race with hotplug <Saravana Kannan> 12 days ago
+b86a8fc : cpufreq: cpu-boost: Use hotplug thread infrastructure <myfluxi> 3 days ago
+e53de1c : cpufreq: ondemand: Remove unused waitqueue <myfluxi> 2 days ago
+6f9b4be : cpufreq: ondemand: Use hotplug thread infrastructure <myfluxi> 3 days ago
+2f158b4 : stop_machine: Mark per cpu stopper enabled early <Thomas Gleixner> 12 months ago
+e733490 : stop_machine: Use smpboot threads <Thomas Gleixner> 1 year ago
+9a008b3 : stop_machine: Store task reference in a separate per cpu variable <Thomas Gleixner> 1 year ago
+a990062 : kthread: Prevent unpark race which puts threads on the wrong cpu <Thomas Gleixner> 10 months ago
+77a9929 : smpboot: Allow selfparking per cpu threads <Thomas Gleixner> 1 year ago
+a52d504 : hotplug: Fix UP bug in smpboot hotplug code <Paul E. McKenney> 1 year, 7 months ago
+610ecaf : smpboot: Provide infrastructure for percpu hotplug threads <Thomas Gleixner> 1 year, 7 months ago
+bf10a17 : kthread: Implement park/unpark facility <Thomas Gleixner> 1 year, 7 months ago
+2519ac2 : kthread_worker: reimplement flush_kthread_work() to allow freeing the work item being executed <Tejun Heo> 1 year, 7 months ago
+46de624 : kthread_worker: reorganize to prepare for flush_kthread_work() reimplementation <Tejun Heo> 1 year, 7 months ago
+416bbc1 : smpboot, idle: Fix comment mismatch over idle_threads_init() <Srivatsa S. Bhat> 1 year, 9 months ago
+e325a20 : smpboot, idle: Optimize calls to smp_processor_id() in idle_threads_init() <Srivatsa S. Bhat> 1 year, 9 months ago
+524b002 : smp, idle: Allocate idle thread for each possible cpu during boot <Suresh Siddha> 1 year, 10 months ago
+af5be99 : smp: Provide generic idle thread allocation <Thomas Gleixner> 1 year, 10 months ago
+39a6da7 : smp: Add generic smpboot facility <Thomas Gleixner> 1 year, 10 months ago
+49179eb : Kconfig: Add menu choice option to reclaim virtual memory <Neeti Desai> 6 months ago
+7f575fa : Kconfig: Add config option to support vmalloc savings <Neeti Desai> 6 months ago
+a490767 : mm: Don't use CMA pages for page cache <Laura Abbott> 6 months ago
+2e9f37c : mm: compaction: fix bit ranges in {get,clear,set}_pageblock_skip() <Bartlomiej Zolnierkiewicz> 1 year, 4 months ago
+3ff90fe : rtc: alarm: init power_on_alarm_lock mutex in alarmtimer_rtc_timer_init <Kumar Gala> 5 weeks ago
+7f3c952 : rtc: alarm: have dummy set_power_on_alarm function <Maria Yu> 5 weeks ago
+59426c5 : arm: msm: add alarm reboot reason <Maria Yu> 2 months ago
+77cb907 : kernel: alarm: Do not call rtc_alarm_irq_enable in IRQ Disabled context <Prasad Sodagudi> 6 weeks ago
+bb1ffd7 : kernel: alarm: add dedicated alarm type for poweroff alarm <Figo Wang> 5 months ago
+8b6c8c5 : kernel: alarm: :fix the BUG that device automatically powers on <Figo Wang> 7 months ago
+9ac0f22 : rtc: alarm: Set power-on alarm 120 sec before actual alarm time <Mohit Aggarwal> 6 months ago
+c1429d6 : rtc: alarm: Add power-on alarm feature <Ashay Jaiswal> 9 months ago
+db7f1ff : fs: fuse: Add replacment for CMA pages into the LRU cache <Laura Abbott> 5 weeks ago
+2291aeb : idr: fix a subtle bug in idr_get_next() <Prakash Kamliya> 9 weeks ago
+a1f4da7 : ARM: Use -mcpu=cortex-a15 when targeting MSM Krait CPUs <Stepan Moskovchenko> 4 months ago
+210d08f : Rotator getting stuck leading to fence timeout <Justin Philip> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_m7 ****
+0171e80 : deadline: Allow 0ms deadline latency, increase the read speed Change a timer compare from after to after-equals, thus allowing 0 timeout and making deadline schedule FIFO. <xiaobing tu> 1 year, 2 months ago
+b8cc061 : reduced the wakelock time of RX packet and fix country checking <flar2> 5 weeks ago
+5268c31 : Implement kexec-hardboot <Vojtech Bocek> 5 months ago
+11f1e13 : freezer: shorten freezer sleep time using exponential backoff <Bryan Maltais> 21 hours ago
+4d8c9b7 : add some more prebuilts to the updater script to deal with CMs bullshit common kernel changes <buckmarble> 2 weeks ago
+50077be : sched: Micro-optimize the smart wake-affine logic <Peter Zijlstra> 7 months ago
+30ef098 : sched: Implement smarter wake-affine logic <Michael Wang> 7 months ago
+44c9166 : sched: Fix select_idle_sibling() bouncing cow syndrome <Mike Galbraith> 1 year ago
+ee1c1be : DRIVERS: SLIMBUS: initial overclocking of slimbus .Increase root freq from 11 (24.526MHz) to 31 max (27+MHz) which is the largest it will take .Increase clock gear from 7 to 10 (max again) <poondog> 5 weeks ago
+0d078a1 : ARM: mm: update __v7_setup() to the new LoUIS cache maintenance API <Santosh Shilimkar> 1 year, 5 months ago
+91e3881 : writeback: fix occasional slow sync(1) <Jan Kara> 5 months ago
+779a246 : readahead: make context readahead more conservative <Fengguang Wu> 5 months ago
+0a4bacb : bdi: allow block devices to say that they require stable page writes <Darrick J. Wong> 12 months ago
+7a6a9c8 : writeback: increase bdi_min_ratio to 5 in light of the latest writeback commit. <Francisco Franco> 8 months ago
+84b54d3 : writeback: I believe these defines were calculated with HZ=1000 in mind. Since our devices are HZ=100 I hardcoded the values on this constants. I'm not 100% sure if this code was made for HZ with 1000 but I couldn't track it to understand clearly. Although I didn't see any drawback of using this as it is now. If anyone knows the answer please chime in. <Francisco Franco> 8 months ago
+26906ef : cpufreq: ondemand:kernel NULL pointer dereference at dbs_check_cpu <Swetha Chikkaboraiah> 2 months ago
+285a4ec : cpufreq: ondemand: Fix locking in store_powersave_bias <Matt Wagantall> 8 months ago
+1f12c46 : cpufreq: ondemand:Fix NULL check for dbs_info->cur_policy <Swetha Chikkaboraiah> 3 months ago
+f516590 : cpufreq: Fix policy getting stuck when user & kernel min/max don't overlap <Saravana Kannan> 7 weeks ago
+5723879 : msm: msm_fb: Update panel info in case of resolution change. In case of resolution change, panel_info and mfd are updated with latest resolution. <raghavendra ambadas> 3 months ago
+d9f44a1 : Revert "[ARM] msm: iommu_domains: replace vmalloc with kmalloc" <Srinivasarao P> 10 weeks ago
+6f0abdb : video: msm: Restore overmapping changes <Steve Kondik> 4 weeks ago
+a605076 : misc: update from HTC One Google Edition source <Ethan Chen> 5 weeks ago
+4ca9c7d : cpufreq: Disable cpu-boost by default <Rohit Gupta> 10 weeks ago
+9944a51 : cpufreq: Add Input Boost feature to the cpu-boost driver <Rohit Gupta> 3 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_lge_msm8974 ****
+16177f6 : Follow our d803 deconfig <DHOMD> 73 minutes ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+90f4f7e : gpu: ion: fix use-after-free in ion_heap_freelist_drain <Mitchel Humpherys> 6 months ago
+0b72541 : msm: kgsl: Fix the NULL context submission size <Lynus Vaz> 3 weeks ago
+06929ba : msm: kgsl: fix race condition setting the event->handle <Jeff Boody> 3 months ago
+b528d14 : msm: kgsl: protect syncpoint events with a reference count <Jeff Boody> 3 months ago
+2299f27 : msm: kgsl: Fix the api type in adreno drawctxt flags <Anoop Kumar Yerukala> 6 weeks ago
+f6041d5 : msm: kgsl: Pass the right timeout to adreno_drawctxt_wait() <Jordan Crouse> 5 weeks ago
+9db3be8 : devfreq: governor_cpubw_hwmon: Fix use of decay_rate <Saravana Kannan> 3 weeks ago
+ef55cc1 : msm: mdss: Enable hardware reset line based on panel setting <Dhaval Patel> 3 months ago
+8c7f83f : msm: kgsl: Use GPU to switch pagetables when current one is default <Shubhraprakash Das> 3 months ago
+cf6080b : msm: kgsl: Wake gpu up on the max freq when using the performance governor <Vladimir Razgulin> 3 months ago
+6fc58aa : msm: kgsl: Changing to kref_get_unless_zero for process refcount <Shrenuj Bansal> 9 weeks ago
+ee7d434 : msm: kgsl: The memory entry pending flag should be guarded <Shubhraprakash Das> 10 weeks ago
+172fa81 : mm/kmemleak.c: remove obsolete simple_strtoul <Abhijit Pawar> 1 year, 2 months ago
+796fc10 : kmemleak: use rbtree instead of prio tree <Michel Lespinasse> 1 year, 4 months ago
+ef165b5 : kmemleak: Replace list_for_each_continue_rcu with new interface <Michael Wang> 1 year, 6 months ago
+79f41e3 : mm/pagewalk.c: walk_page_range should avoid VM_PFNMAP areas <Cliff Wickman> 9 months ago
+06f186b : swap: avoid read_swap_cache_async() race to deadlock while waiting on discard I/O completion <Rafael Aquini> 8 months ago
+6d21abc : mm, memcg: give exiting processes access to memory reserves <David Rientjes> 5 months ago
+3edd9a0 : mm, show_mem: suppress page counts in non-blockable contexts <David Rientjes> 10 months ago
+d68e31d : mm/mmap: check for RLIMIT_AS before unmapping <Cyril Hrubis> 10 months ago
+658c9651 : mm: do not grow the stack vma just because of an overrun on preceding vma <Linus Torvalds> 12 months ago
+505fab5 : writeback: fix negative bdi max pause <Fengguang Wu> 4 months ago
+35dfa72 : crypto: msm: qce50 ota crypto support <Zhen Kong> 4 months ago
+e02782e : crypto: msm: Handle error case <Zhen Kong> 6 months ago
+c60a787 : mm: fix calculation of dirtyable memory <Sonny Rao> 1 year, 2 months ago
+172ca79 : msm: msm_bus: Don't divide RPM BW requests <Girish Mahadevan> 6 days ago
+09da5ad : cpufreq: cpu-boost: Remove unused waitqueue <myfluxi> 2 days ago
+f63eff8 : cpufreq: cpu-boost: Fix queue_delayed_work_on() race with hotplug <Saravana Kannan> 12 days ago
+afc0445 : cpufreq: ondemand: Remove unused waitqueue <myfluxi> 2 days ago
+ed6e0e5 : msm: Fix high load average from uninterruptible waits <Steve Kondik> 6 days ago
+09f8a1f : cpufreq: ondemand: Use hotplug thread infrastructure <myfluxi> 3 days ago
+abab522 : cpufreq: cpu-boost: Use hotplug thread infrastructure <myfluxi> 3 days ago
+8699d16 : stop_machine: Mark per cpu stopper enabled early <Thomas Gleixner> 12 months ago
+cc01661 : stop_machine: Use smpboot threads <Thomas Gleixner> 1 year ago
+3945b82 : stop_machine: Store task reference in a separate per cpu variable <Thomas Gleixner> 1 year ago
+5d4f6b8 : kthread: Prevent unpark race which puts threads on the wrong cpu <Thomas Gleixner> 10 months ago
+0db06a5 : smpboot: Allow selfparking per cpu threads <Thomas Gleixner> 1 year ago
+3b84936 : hotplug: Fix UP bug in smpboot hotplug code <Paul E. McKenney> 1 year, 7 months ago
+9fa28c3 : smpboot: Provide infrastructure for percpu hotplug threads <Thomas Gleixner> 1 year, 7 months ago
+217bb1f : kthread: Implement park/unpark facility <Thomas Gleixner> 1 year, 7 months ago
+8e69a33 : kthread_worker: reimplement flush_kthread_work() to allow freeing the work item being executed <Tejun Heo> 1 year, 7 months ago
+245e7a3 : kthread_worker: reorganize to prepare for flush_kthread_work() reimplementation <Tejun Heo> 1 year, 7 months ago
+5c17fd5 : smpboot, idle: Fix comment mismatch over idle_threads_init() <Srivatsa S. Bhat> 1 year, 9 months ago
+ca08392 : smpboot, idle: Optimize calls to smp_processor_id() in idle_threads_init() <Srivatsa S. Bhat> 1 year, 9 months ago
+fa59d72 : smp, idle: Allocate idle thread for each possible cpu during boot <Suresh Siddha> 1 year, 10 months ago
+102a197 : smp: Provide generic idle thread allocation <Thomas Gleixner> 1 year, 10 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+867d4fd : Derp,... <DHOMD> 62 minutes ago
+d3f2f35 : Follow our own g2 kernel <DHOMD> 64 minutes ago
+374a3d9 : D803 probably does not need it's own kernel, and current one is not configured properly <DHOMD> 3 hours ago
+58eb5dd : Fix derp in 803/ls980 commit <DHOMD> 3 hours ago
+c44fadb : manifest: bring in more g2 variants <bart452> 11 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Browser ****
+a31cfea : Replace removed NARROW_COLUMNS layout mode with TEXT_AUTOSIZING <Steven Luo> 10 days ago
+b0c95e7 : BrowserSettings: update desktop UA string to match Chrome 30 <Steven Luo> 3 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+42067bb : Camera: Fix saturation, contrast, sharpness parameters <Ethan Chen> 4 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+3370fc2 : deskclock: split alarm settings into 2 lines for portrait phone devices <Jorge Ruesga> 2 days ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+9d8dd3f : ... <h0rn3t> 3 hours ago
+18f3f8e : ... <h0rn3t> 3 hours ago
+5fa9f1d : ... <h0rn3t> 3 hours ago
+302b1ef : Fixed path of pocket detect <h0rn3t> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+3df65e9 : AppOps == privacyguard == in security <nuclearmistake> 4 days ago
+00b7d70 : Revert "move appops to app details screen" <nuclearmistake> 4 days ago
+49359f6 : Revert "appops in settings" <nuclearmistake> 4 days ago
+09a8e7a : [1/2] Settings: AppOps: Add bootup template <Shashank Mittal> 9 weeks ago
+9652e9a : [1/2] Settings AppOps: show/hide app type and allow/deny counters <Sam Mortimer> 3 months ago
+71a598a : [1/2] Settings AppOps: Forward port wifi/bluetooth/mobile/wakeup ops <Sam Mortimer> 3 months ago
+0487b57 : Fix incorrect array value. <MBQ> 17 hours ago
+8b3735d : Revert "Settings: Hide left handed nav option in tablet" <nuclearmistake> 6 hours ago
+a93cc1a : Settings: Hide left handed nav option in tablet <Shuhao Wu> 19 hours ago
+bcc502a : Settings part for recents clear all position <PrimeDirective> 26 hours ago
+5babf49 : Revert "settings: open add tile dialog" <Jorge Ruesga> 30 hours ago
+599bea8 : Settings LightSettingsDialog: update led on text change <Sam Mortimer> 8 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_lge ****
+a664f3a : g2: add more variants <bart452> 10 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_motorola ****
+a2068cb : add moto_msm8960 unified device <dhacker29> 2 days ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+56778c8 : Fix fingerprints for new LG builds <DHOMD> 3 hours ago
+b5b8221 : g2: add more variants <bart452> 10 hours ago
+ 

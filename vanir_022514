@@ -1,0 +1,330 @@
+
+**** https://github.com/VanirAOSP/bionic ****
+f254462 : libc: krait: support KINGFISHER optimized memcpy <Vince Leung> 7 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+5b2c6d1 : update-binary: Add collect_backup_data function <Ricardo Cerqueira> 3 hours ago
+d5c4302 : clean up unused variables and fix compiler warnings <philz-cwm6> 3 days ago
+6c3cd5b : nandroid: Allow tar backups of yaffs2 partitions <Michael Bestas> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/build ****
+b94eae8 : gettop: fix symlink detection <synergy> 8 months ago
+ 
+**** https://github.com/VanirAOSP/device_htc_s4-common ****
+c191e9f : s4-common: update wifi init <Matt Mower> 11 days ago
+eb8c3ff : Revert "s4-common: disable unavailable notification light overlay" <Matt Mower> 30 hours ago
+ 
+**** https://github.com/xboxfanj/android_device_lge_gee-common ****
+b04a967 : Add support for RUIM/NV subscription type change <Jake W> 17 minutes ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+6ee6680 : hammerhead: Set timer_rate for cpufreq governor <Steve Kondik> 13 hours ago
+1a5cf90 : Disable separated DTB build and remove dtbtool <Vojtech Bocek> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_qcom-common ****
+8ca2c29 : batt_health, charge_only_mode: Add moto_msm8960 to build barriers <nadlabak> 22 minutes ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_aries-common ****
+26de910 : AriesParts: ES translations <Lorenzo M> 12 hours ago
+7328d06 : AriesParts: MS translations <Marco Brohet> 24 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2lte ****
+338693f : Sprint init_d2lte.c fix-up <sspencer10> 22 hours ago
+ca6b74c : overlay: Camera2: enable Samsung camcorder mode <Dave Daynard> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_hlte ****
+99e65a6 : hlte: Enable SIM hotswap <Steve Kondik> 10 hours ago
+a5b9891 : hlte: Add custom audio_effects.conf <Steve Kondik> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_manta ****
+3efc1d7 : manta: fixup USB OTG <Sam Mortimer> 11 days ago
+c6d2195 : manta: charging led support <Sam Mortimer> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_omap4-common ****
+e745ea3 : Fix crash on boot <Flamefire> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_t0lte ****
+f8b76af : t0lte: boost audio incall <sbrissen> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_toroplus ****
+f3ccb34 : Fix graphic issues. <PlayfulGod> 9 hours ago
+c722c74 : Make toroplus less of a crapsack at rendering <nuclearmistake> 20 hours ago
+ 
+**** https://github.com/VanirAOSP/external_bluetooth_bluedroid ****
+b5c678c : Remove annoying log message when a2dp isn't in use <Steve Kondik> 9 hours ago
+0381cf9 : Handles host behavior for pin or key missing encryption issue <Subramanian Srinivasan> 2 weeks ago
+c9e9f05 : Bluetooth: Defense code to trigger SSR <pramod kotreshappa> 2 weeks ago
+c1daa52 : Bluetooth: Clears hogp device control block data properly <Satish kumar sugasi> 3 weeks ago
+e78de8f : Bluetooth: Prevent mulitiple hal cbacks for A2DP devices <Nitin Arora> 3 weeks ago
+d7730a6 : Set out stream to null if control socket fails to connect <Ayan Ghosh> 4 weeks ago
+8110114 : SDP: Allocate proper sized scratch buffer for SDP response <Mallikarjuna GB> 3 weeks ago
+909771b : Bluetooth: Serialize trackoperations from media task only <AnubhavGupta> 3 weeks ago
+7500105 : Bluetooth: Handle Power Apply enable events <Kiran Kelageri> 5 weeks ago
+7d5d417 : Bluetooth: Clear wait flag on Start response. <Rohit Singh> 5 weeks ago
+6af2ee3 : Bluetooth: Allow concurrent BT scans to proceed <Nitin Arora> 6 weeks ago
+fd68e43 : Bluetooth: To prevent unbonding at 3E encrypt failure <Nitin Arora> 3 weeks ago
+9124b15 : Bluetooth: Enable Hid instance to prevent non association of reports <Nitin Arora> 3 weeks ago
+adeea8e : HID: Use proper value of Handle while retreiving device <Hemant Gupta> 3 weeks ago
+303eeee : Bluetooth: Clear background conn list entries during BT power off <Satish kumar sugasi> 4 weeks ago
+589c6d9 : Bluetooth: whitelist change during unpair BLE hid device <Satish kumar sugasi> 4 weeks ago
+9b65950 : Fixes Casio watch incorrectly added in Bonded list issue <Subramanian Srinivasan> 3 weeks ago
+f692750 : Bluetooth: BT fails to turn on after mutiple on/off <pramod kotreshappa> 4 weeks ago
+dad94b9 : Bluetooth: Checks remote device name is not NULL <Satish kumar sugasi> 5 weeks ago
+5638279 : Bluetooth: HID-ESCO concurrency. <Gaurav Asati> 8 weeks ago
+efd22cc : Bluetooth: Handle error cases for L2CAP fuzz testing <Pramod Sivaraman> 6 weeks ago
+1faea36 : BT: Multi HF support in bluedroid stack. <Sumit Bajpai> 9 weeks ago
+5319fc4 : Bluetooth:GAP: Add NULL check before accessing accept socket <Srinu Jella> 5 weeks ago
+db59998 : GAP: Prevent multiple RNR calls during connection establishment <Hemant Gupta> 5 weeks ago
+eb0baf0 : HID: Add timer for performing sdp for unknown incoming conn <Hemant Gupta> 6 weeks ago
+15abc91 : Bluetooth:GAP: Handle invalid SDP service search request <Srinu Jella> 5 weeks ago
+c7c85ba : Bluetooth: GAP: Increase the security slots for client profiles <Srinu Jella> 5 weeks ago
+18795ce : Bluetooth: Store secure flag of pairing before RNR <Srinu Jella> 5 weeks ago
+10fc8c8 : Bluetooth: Add Stack changes for wipower and peripheral <Kiran Kelageri> 3 months ago
+7942c5d : Bluetooth: To allow DUMO device to be processed by BREDR scan <Nitin Arora> 5 weeks ago
+46ad7fa : Bluetooth:GAP: Avoid sending the ACL connected event again <Srinu Jella> 6 weeks ago
+0f0699b : Update num of SBC frames per AVDTP packet <Ayan Ghosh> 6 weeks ago
+117e723 : BT: Added new file btif_multi_hf.c <Sumit Bajpai> 6 weeks ago
+00ddbab : Revert "Bluetooth: HID: Delay disabling HID until active connections" <Subramanian Srinivasan> 6 weeks ago
+df1d08a : Bluetooth:GAP:Add authentication failed error code in auth_compl_evt. <Jimmy chen> 7 weeks ago
+a6b6eb6 : Bluetooth: Second time stream-setup without signalling connection down <AnubhavGupta> 6 weeks ago
+091b02a : Bluetooth: Handle invalid packet in incoming stream <AnubhavGupta> 2 months ago
+5b19b3b : Bluetooth: Increase gatt discover service timeout <Satish kumar sugasi> 6 weeks ago
+4f143e7 : Bluetooth: Include remote device name as part of filter list <Satish kumar sugasi> 6 weeks ago
+56be4fa : Bluetooth: Add support to send/receive raw command/event <Srinu Jella> 3 months ago
+5a35e5d : Fixes BLE LPP monitor callback issue <Subramanian Srinivasan> 7 weeks ago
+72d5dea : Bluetooth: Enable saving LE services discovered to NVRAM <Nitin Arora> 3 months ago
+ 
+**** https://github.com/VanirAOSP/Superuser ****
+cefff29 : Superuser: IT translations <Francesco> 12 hours ago
+4157a6a : Greek translation for pop-up dialog <BILLyTheLiTTle> 4 months ago
+de4b6c1 : Create pop-up dialog for each application <BILLyTheLiTTle> 5 months ago
+c1a1eca : Fix Trash icon/action bug <BILLyTheLiTTle> 5 months ago
+b5a0f3c : Fix several compiler warnings <BILLyTheLiTTle> 5 months ago
+ 
+**** https://github.com/VanirAOSP/external_wpa-supplicant-8 ****
+6cd0b77 : capabilities ERANG error fix <Michael Gernoth> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+0f9769e : Revert "camera: Add a few missing legacy camera params." <Vladislav Koldobskiy> 3 days ago
+ff7ae18 : audioflinger: Power hints for audio activity <Steve Kondik> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+90bc182 : Revert "Set expanded desktop through profiles (1/2)" <nuclearmistake> 23 minutes ago
+64b499d : Revert "Show panels on lockscreen in expanded desktop mode." <nuclearmistake> 82 minutes ago
+f4f33e4 : Bluetooth: Add Power apply enable event handling <Kiran Kelageri> 5 weeks ago
+cdf3ce5 : Bluetooth: Handle exceptions for bluetoot socket read <Srinu Jella> 5 weeks ago
+3acfa0d : Bluetooth: Add SDK apis for Wipower and Peripheral feature <Kiran Kelageri> 3 months ago
+868f801 : framework/base: IT translations <Francesco> 11 hours ago
+d9bc1b3 : Show panels on lockscreen in expanded desktop mode. <Kyrylo Mikos> 3 months ago
+8d172e6 : Fix the issue that the top of fullscreen dialog is clipped away <Minoru Aoi> 7 weeks ago
+0501cc6 : Set expanded desktop through profiles (1/2) <Kirill Rakhman> 8 weeks ago
+82b0dd8 : Revert "Block application install from unknown sources through adb" <Steve Kondik> 26 hours ago
+67735c4 : UserTile : Check if profile has a photo <Danesh Mondegarian> 3 months ago
+89ab0eb : Show default profile name if no profile exists <Ethan Chen> 3 months ago
+aa04429 : Show owner info creation if no owner is set for UserTile <Ethan Chen> 3 months ago
+b44325b : Adjust the index of the ArrayList during iteration <Nilesh Poddar> 2 weeks ago
+2e9b0e0 : NumberPicker: Don't filter Devanagari-Indic characters <kaiyiz> 5 weeks ago
+73c0f37 : NumberPicker: Don't filter Bengali-Indic characters <kaiyiz> 6 months ago
+0a8e143 : Block application install from unknown sources through adb <Kun Liang> 6 months ago
+459119b : AudioService: add STREAM_DTMF to stream affected by ringer mode <quic_mqiu> 9 weeks ago
+4c1776c : Audio: Fix title of system ringtone contains messy meta <wjiang> 4 months ago
+cce0073 : audio: Set slient persist property according to ringer mode <Xiaocheng Li> 5 months ago
+f512ff5 : core: ES translations <Lorenzo M> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+f2f5645 : Do not just silently fail if surface creation fails <Flamefire> 5 weeks ago
+5e9e33a : surfaceflinger: Conditional compilation for swaprect feature <Steve Kondik> 32 hours ago
+9cd6e7d : Revert "Add sessionId metadata with every buffer queued through Surface" <Naseer Ahmed> 3 weeks ago
+835f0ad : Display: Define new composition type for blit composition <Ramakant Singh> 7 weeks ago
+51dbd89 : SurfaceFlinger: Change to support framebuffer flip for 2D blitters <Arun Kumar K.R> 1 year, 2 months ago
+4fd75c0 : SF: Add flag for swaprect status in HAL <Ramakant Singh> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_hardware ****
+ef4e304 : Hardware: add ColorEnhancement support <M1cha> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_mms
+cm2	https://github.com/CyanogenMod/android_frameworks_opt_mms ****
+3b9a6e7 : Check the unsupported type's uri to avoid NullPointerException <Sindhu Kanathur> 9 weeks ago
+1b51f61 : BACKUP: Fix Phone tip "backup has stopped" when backup mms to SD card <kaiyiz> 4 months ago
+7db1c2f : Audio: Add QCELP, EVRC,AAC_MP4  mime types for MMS <Naresh Tanniru> 4 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_libhardware ****
+412f5fd : Bluetooth: Add Wipower power apply events to HAL <Kiran Kelageri> 5 weeks ago
+76f3fb3 : Bluetooth: Wipower HAL changes <Kiran Kelageri> 3 months ago
+d1ffc00 : BT: Multi HF support in libhardware. <Sumit Bajpai> 9 weeks ago
+0c69db5 : BT: Added new file bt_multi_hf.h <Sumit Bajpai> 6 weeks ago
+7ab009e : Bluetooth: Header file changes to add new APIs for Test APK <Srinu Jella> 3 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+309c1d0 : hal: Minor usb stability fix <Apoorv Raghuvanshi> 4 weeks ago
+533fe41 : hal: Remove extra checks for proprietary features <Steve Kondik> 3 weeks ago
+1a513f1 : audio: Add support for AUXPCM BT <Pavan Chikkala> 3 weeks ago
+b674f2f :  audio: Increase the period size for USB audio <Pavan Chikkala> 6 weeks ago
+1ac0a7e : mm-audio: Fix openmax encoder hang during flush <Gopikrishnaiah Anandan> 10 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display-caf-new ****
+6bd0398 : hwc: Cleanup after merge <Steve Kondik> 28 hours ago
+479cc63 : hwc: hwc_sync - populate correct fences for BLIT <Balamurugan Thanikachalam> 4 weeks ago
+62f1281 : gralloc: Fix getSize and getAlignedWidthAndHeight <Saurabh Shah> 4 weeks ago
+41d6441 : gralloc: Set default value for implementation defined formats <Manoj Kumar AVM> 4 months ago
+d1ae8c3 : h/q/d: Drop layers from composition on NULL ROI. <Jeykumar Sankaran> 5 weeks ago
+c3500c4 : hwc: Reset FB Z order to -1 instead of 0 <Saurabh Shah> 3 weeks ago
+d1b8812 : display : change wormhole calculation for swap rect <Ramakant Singh> 3 months ago
+0696262 : hwc: Add type casting to aspect ratio calculations <Tatenda Chipeperekwa> 5 weeks ago
+98af000 : h/q/d: Optimize layer rects on sourceCropf <Jeykumar Sankaran> 6 weeks ago
+3e0bd24 : qdutils: idle_invalidator: Use fixed timeout rather than range <Saurabh Shah> 5 weeks ago
+9472a02 : hwc: Get the retire fence from the MDP driver <Arun Kumar K.R> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_fm ****
+2a24bc1 : fm2app: ES translations <Lorenzo M> 3 weeks ago
+9edfe5b : FMRecord: NL transation <Eddy Witkamp> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media ****
+8476d1e : qcom: fix errors inside ALOGV <Colin Cross> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media-caf ****
+f8086bb : DashPlayer: Fix in DashCodec for Adapative Streaming <Mahesh Lanka> 4 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_wlan ****
+b5fd804 : wlan: Adding support for batch scan feature <Amarnath Hullur Subramanyam> 6 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_samsung ****
+5d0cdb7 : Fix crash on boot <Flamefire> 5 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_ti_wlan
+cm2	https://github.com/CyanogenMod/android_hardware_ti_wlan ****
+a2df1cf : Use AOSP version of wpa_supplicant_lib <Michael Bestas> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+4e972ee : video: mdss: Kill "pervious" logspam <Steve Kondik> 23 hours ago
+0431bf3 : Revert "usb: dwc3_otg: Turn on VBUS before starting host" <Steve Kondik> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/libcore ****
+43a45c2 : java7: Implement new Locale APIs. <Narayan Kamath> 7 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+3162d77 : Avoid race condition that gets PanService stuck in STATE_DISCONNECTED. <Sharvil Nanavati> 4 weeks ago
+8170afa : Bluetooth: MAP: Synchronize Mns function's to avoid race condition <Pradeep Panigrahi> 2 weeks ago
+3471c4a : Bluetooth: Map: Trim folder name while processing setPath Request <Pradeep Panigrahi> 2 weeks ago
+5f45cd7 : Bluetooth: Map: Validate Mime part element while encoding email. <Pradeep Panigrahi> 2 weeks ago
+0c248e9 : Sends bond state change intent for unbonding a device <Subramanian Srinivasan> 4 weeks ago
+59cb8f6 : Bluetooth: Make Bonded device list operations are synchronous <Srinu Jella> 4 weeks ago
+c4a3113 : BT: HFP: Start DIALING_OUT_TIMEOUT for correct matching device <Sumit Bajpai> 2 weeks ago
+72ddbae : Bluetooth: Wipower power apply event related changes <Kiran Kelageri> 5 weeks ago
+0d81bd6 : PBAP: Fix search by number issue for SIM contacts. <Ashwini Munigala> 3 weeks ago
+9e5b0c9 : Bluetooth: Map: Display proper timestamp on getMessage response <Pradeep Panigrahi> 3 weeks ago
+1956187 : Bluetoth-OPP: Add null check to avoid BT app crash while OPP operation <Juffin Alex Varghese> 3 weeks ago
+0898870 : Bluetooth: Map: Buf fixes on Map Profile <Pradeep Panigrahi> 3 weeks ago
+e9bcec2 : Bluetooth-OPP: Update OPP RxTx notification during BT turned OFF <Juffin Alex Varghese> 4 weeks ago
+ef37b6e : Bluetooth-OPP: Avoid sending TRANSFER_COMPLETED_ACTION intent <Juffin Alex Varghese> 4 weeks ago
+364c7c8 : Bluetooth: MAP: Modify XML serializer to escape double quote <Pradeep Panigrahi> 4 weeks ago
+eb71ef3 : Bluetooth: Map: Validate BT Adapter before starting rfcomm listener <Pradeep Panigrahi> 4 weeks ago
+6eda247 : BT: Multi HF support in Bluetooth App. <Sumit Bajpai> 9 weeks ago
+0aff78b : Bluetooth: MAP: Remove unwanted acquisition of PM wake lock <Pradeep Panigrahi> 4 weeks ago
+4488980 : Bluetooth-OPP: Separating Inbound and Outbound notification <Juffin Alex Varghese> 5 weeks ago
+82cc989 : Bluetooth: Handle exception in OPP during BT ON/OFF <Nitin Shivpure> 10 weeks ago
+1b21550 : Bluetooth: Map: Filter email message based on FilterReadStatus param <Pradeep Panigrahi> 5 weeks ago
+0cf65df : Bluetooth: MAP: Delete Email for valid message hanlde . <Pradeep Panigrahi> 5 weeks ago
+d81255d : Bluetooth: Application changes w.r.t. Wipower and Peripheral Services. <Kiran Kelageri> 3 months ago
+0a3b790 : MAP: Support MMS pushMessage feature. <Ashwini Munigala> 5 weeks ago
+295f735 : Bluetooth: Add NULL check before accessing Profile data <Gaurav Asati> 2 months ago
+0c1b0ac : Bluetooth: Prevent scan start if already in progress <Nitin Arora> 7 weeks ago
+b1e8c8e : Map: Display mandatory fields in msg listing with 0 parmeter mask <Pradeep Panigrahi> 6 weeks ago
+079b9bc : BT: Ignore dial request from HS when 1st call is dialing/alerting <Sumit Bajpai> 6 weeks ago
+418f27a : Bluetooth: Map: update proper interrupted state during bt on/off <Pradeep Panigrahi> 6 weeks ago
+f7f0661 : Bluetooth: Remove pending MAP authorization pop up <Nitin Shivpure> 6 weeks ago
+2c99465 : Bluetooth: Synchronise Key release command and Key State. <Rohit Singh> 8 weeks ago
+ca69040 : Bluetooth: Register new callback for HCI events callback <Srinu Jella> 7 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_BluetoothExt ****
+d1d62eb : BluetoothExt: Fix files for Crowdin <Marco Brohet> 4 hours ago
+bb49e45 : BluetoothExt: IT translations <Francesco> 9 hours ago
+321e51d : BluetoothExt: ES tranlations <Lorenzo M> 34 hours ago
+85f24ee : Revert "SAP: Handle ACL_DISCONNECT from the client" <Smriti Gupta> 6 weeks ago
+16889d4 : A4WP: Start advertising A4WP on power apply event <Kiran Kelageri> 5 weeks ago
+8a72c4e : bluetooth: disable build for aarch64 <Vishwanatha Kumar Ultur> 4 weeks ago
+274b1d1 : Bluetooth: Handle exception in SAP/DUN during BT ON/OFF <Nitin Shivpure> 5 weeks ago
+ab2d7c3 : FTP-Server: Add handling for checking folder name in setpath <Hemant Gupta> 5 weeks ago
+d46e9a4 : FTP Server: Don't send error in case folder already exists <Hemant Gupta> 6 weeks ago
+0ce2646 : Bluetooth: Application changes for A4WP <Kiran Kelageri> 3 months ago
+e9cfb5b : Handles threshold equal scenario in PXP LPP app <Subramanian Srinivasan> 5 weeks ago
+6351dc0 : Bluetooth: Add PXP profile reconnection  after link loss <Satish kumar sugasi> 7 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Browser ****
+39ee172 : Browser: MS translations <Marco Brohet> 6 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calculator ****
+2e18555 : Calculator: MS translations <Marco Brohet> 6 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar
+cm2	https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+8c7bc75 : Calendar: MS translations <Marco Brohet> 6 hours ago
+caa2c89 : Calendar: IT translations <Francesco> 10 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+612572f : Camera2: IT translations <Francesco> 9 hours ago
+e438907 : camera: add support for samsung and htc camcorder modes <codeworkx> 1 year, 3 months ago
+ede1eb1 : Camera2: Fix WB onScreenIndicator when some are settings filtered out. <lee worrall> 8 days ago
+bbe9fe8 : Camera2: ES translations <Lorenzo M> 34 hours ago
+34c53fd : Camera2: Remove untranslatable strings in CA translation <elektroschmock> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+47fa8a9 : ContactsCommon: IT translations <Francesco> 9 hours ago
+ae3f2fe : ContactsCommon: ES translations <Lorenzo M> 32 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DSPManager ****
+e06a255 : DSPManager: MS translations <Marco Brohet> 5 hours ago
+c37e96b : DSPManager: IT translations <Francesco> 8 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+0d4c735 : DeskClock: Update IW translations <Arthur Zamarin> 5 hours ago
+6e5614d : DeskClock: Fix missed alarm notification flickering <Mao Jinlong> 12 days ago
+8ad7d59 : DeskClock: ES translations <Lorenzo M> 32 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+31d4b4c : Dialer: MS translations <Marco Brohet> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+1dd188a : InCallUI: IT translations <Francesco> 10 hours ago
+00fbe73 : Disable Touch by Proximity Sensor <dimfishr> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+2aeae23 : Mms: MS translations <Marco Brohet> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+4a4ab7f : Revert "Set expanded desktop through profiles (2/2)" <nuclearmistake> 14 minutes ago
+7bbd905 : BT: Multi HF support in Settings App. <Sumit Bajpai> 9 weeks ago
+f986ce7 : Settings: IT translations <Francesco> 13 hours ago
+a72a687 : AppOps: Modify Chinese string for Camera as MIIT's suggestion. <Kun Liang> 4 months ago
+f5464b3 : Enable Back-key when go to Emergency call <yuka suzuki> 8 months ago
+5a06512 : Set expanded desktop through profiles (2/2) <Kirill Rakhman> 8 weeks ago
+5e596c7 : Settings: ES translations <Lorenzo M> 34 hours ago
+6e720b2 : Settings: Update IW translations <Arthur Zamarin> 35 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Torch ****
+47d2ff6 : Torch: MS translations <Marco Brohet> 5 hours ago
+346aa37 : Torch: IT translations <Francesco> 9 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_UnifiedEmail ****
+ae664a9 : unified-email: sanitize account name <Jorge Ruesga> 11 days ago
+ 
+**** https://github.com/VanirAOSP/packages_input_LatinIME ****
+e8ae2e6 : LatinIME: IT translations <Francesco> 8 hours ago
+f367ce8 : LatinIME: ES translations <Lorenzo M> 33 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+85c22d9 : BT: Multi HF support for BluetoothManager in Telephony. <Sumit Bajpai> 9 weeks ago
+331ae92 : Telephony: IT translations <Francesco> 10 hours ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+eb5a766 : ueventd: fix a busy loop while reading uevents <Amir Goldstein> 4 months ago
+d549f96 : Unicode: Fix mismatched type initialization <synergy dev> 5 weeks ago
+b6503bb : Fix assertion failure <Flamefire> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/system_vold ****
+1a71660 : Do not show disk errors if they are expected. <Flamefire> 5 weeks ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+893f04f : Allow reading of cpufreq attributes <Steve Kondik> 2 days ago
+ 

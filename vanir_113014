@@ -1,0 +1,325 @@
+
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+6565bd5 : recovery: fix build of verifier_test <Howard Su> 2 days ago
+ 
+**** https://github.com/PhilZ-cwm6/philz_touch_cwm6 ****
+bacec1b : 6.59.0 <philz-cwm6> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/build ****
+6cf5ed7 : otasigcheck: Go back to the key-rewrite check. <Ricardo Cerqueira> 4 hours ago
+afad52a : core: armv7-a-neon.mk: Add missing endif <Arne Coucheron> 11 hours ago
+a7af95b : core: Enable -mcpu=cortex-a9 flag for Cortex-A9 cpu variant <Cristoforo Cataldo> 14 hours ago
+0ad28c8 : buildinfo: only set ro.build.product on non-unified devices <invisiblek> 26 hours ago
+19abab6 : core: Enable -mcpu=cortex-a8 flag for Scorpion cpu variant <Cristoforo Cataldo> 18 hours ago
+e637e81 : Add ext2, ext3, and vfat to releasetools <Brandon Bennett> 3 years ago
+e2b425f : releasetools: ota_from_target_files: add FullOTA_PostValidate <M1cha> 5 days ago
+6065fb7 : repopick: handle variant hal branching <rbox> 8 days ago
+b352136 : Make sure that /system is appropriately mounted before starting installation <nuclearmistake> 24 hours ago
+eb23883 : edify_generator: Mount: Only mount if a partition is not already mounted <nuclearmistake> 27 hours ago
+ 
+**** https://github.com/CyanogenMod/android_development ****
+a37307b : Grant dev tools system permission to trigger media-scan service <Allen Shen> 11 months ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+cf81151 : Fix m8 build by removing torch from dotcase <DHOMD> 3 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+5405cb7 : Hard reset for G2 + L <DHOMD> 3 hours ago
+430c660 : Underp charger service <Ricardo Cerqueira> 3 days ago
+7562dc4 : selinux: Redo policies, inherit qcom common rules <Ricardo Cerqueira> 3 days ago
+a09e215 : gps: Fork the GPS HAL <Ricardo Cerqueira> 13 days ago
+227a3d5 : Update audio_policy <Ricardo Cerqueira> 13 days ago
+0c60a5a : Revert "msm8974: Enable deep buffer output as primary" <Ricardo Cerqueira> 13 days ago
+7a549b0 : Update media_codecs <Ricardo Cerqueira> 2 weeks ago
+e9529a8 : Ditch QCOM flags, use the stable HALs <Ricardo Cerqueira> 2 weeks ago
+895948b : Remove old crud <Ricardo Cerqueira> 2 weeks ago
+2889e91 : Use the 32bit mmap mask in bionic <Ricardo Cerqueira> 2 weeks ago
+4497587 : camera: Move the focus state set <Ricardo Cerqueira> 2 weeks ago
+75b694c : Remove NFC_HAL_SUFFIX <Ricardo Cerqueira> 2 weeks ago
+4f4f980 : Updates for CM12 <Ricardo Cerqueira> 3 weeks ago
+6ad1428 : g2: add sec_config for irsc_util <Dan Pasanen> 4 weeks ago
+19a3ad7 : ril: Remove redundant check in message interception <Ricardo Cerqueira> 10 weeks ago
+93e897c : g2: set volume last to avoid pops on speaker <Georg Veichtlbauer> 2 months ago
+880c6b2 : Add proximity wake flag <Abhisek Devkota> 4 months ago
+2f03063 : Add coordinates for smartwindow cover <Ricardo Cerqueira> 9 months ago
+4eff332 : Make wpa_supplicant oneshot. <Jackpot Clavin> 4 months ago
+94ccc4f : init: Start rmt_storage in charger mode <Ricardo Cerqueira> 5 months ago
+a8b097f : Fix the loki product name <Ricardo Cerqueira> 5 months ago
+0bef1c4 : recovery: Add a loki script as a recovery transformation step <Ricardo Cerqueira> 6 months ago
+eb43f40 : update loki <Ricardo Cerqueira> 6 months ago
+bab1401 : camera: Restart preview after ZSL changes only if the preview is running <Ricardo Cerqueira> 6 months ago
+5901ccf : Don't go into full suspension when proximity is triggered <Ricardo Cerqueira> 6 months ago
+7a8b383 : Stick with the same hp filter for all paths <Ricardo Cerqueira> 6 months ago
+48a828c : Enable use of FFMPEG codecs for extended formats <Steve Kondik> 7 months ago
+6318820 : g2:add Japanese Docomo L-01F support <supersonicninja> 7 months ago
+5aa3651 : ril: Use proper state value to determine SIM ejection <Ricardo Cerqueira> 7 months ago
+14e8b35 : camera: Enable ZSL <Ricardo Cerqueira> 7 months ago
+9c59ef6 : cmhw: DisplayColorCalibration: Updated API <Ricardo Cerqueira> 7 months ago
+e730087 : sensors: Enable the pedometer sensors <Ricardo Cerqueira> 8 months ago
+a764eaa : Drop local copies of ION headers <Ricardo Cerqueira> 8 months ago
+9887464 : sensors: Use stock's configuration <Ricardo Cerqueira> 8 months ago
+7410168 : enable sf optimizations for virtual displays <Ricardo Cerqueira> 8 months ago
+50632e2 : Torch: Switch to sysfs interface <Ricardo Cerqueira> 8 months ago
+f2181e9 : ril: Ignore unsupported IMS state request <Ricardo Cerqueira> 9 months ago
+1d6aa2a : mixer_paths: Fix out-of-scale controls <Ricardo Cerqueira> 9 months ago
+6b4ae18 : Remove local copy of dtbtool, switch to common one <Ricardo Cerqueira> 9 months ago
+2835257 : Use input switches to detect audio jack insertions <Ricardo Cerqueira> 9 months ago
+333b19a : Adjust speaker volumes and add hp filter <darkobas> 10 months ago
+51dade7 : enable loki property <philz-cwm6> 9 months ago
+1906b85 : enable autobrightness by default <houstonn> 10 months ago
+42d3e62 : Enable perflocks from power HAL <Ricardo Cerqueira> 10 months ago
+5d30d45 : Fix USB tethering <arcardinal> 10 months ago
+4790e2d : msm8974: Disable gapless by default <Steve Kondik> 10 months ago
+a2f4da5 : Remove Trebuchet overlay <Ricardo Cerqueira> 10 months ago
+bcd697e : Replace gesture app with cmhw class for tap-to-wake <Ricardo Cerqueira> 10 months ago
+d7a0712 : msm8974: Enable new mixer for offload <Steve Kondik> 10 months ago
+1b081e5 : msm8974: Add offload properties <Steve Kondik> 11 months ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_moto_msm8960 ****
+541bcc7 : sepolicy: Updated thermald policy <dhacker29> 34 hours ago
+2cc375e : sepolicy: Remove duplicates of new common policy <dhacker29> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+f600316 : overlay: add multiuser support <Michael Gernoth> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/device_oneplus_bacon ****
+d3a3a61 : selinux: Enforcing <Ricardo Cerqueira> 29 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_find7 ****
+d7a9cf2 : find7: update build description <Brinly Taylor> 19 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2-common ****
+f15f000 : Revert "props: s/rmt_storage/rmt_storage2/" <Dan Pasanen> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+97b83cf : include qcom sepolicy <nuclearmistake> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_mondrianwifi ****
+770749e : mondrianwifi: Device specific sepolicy <Christopher R. Palmer> 3 days ago
+40238a4 : mondrianwifi: gps: Update for L <Christopher R. Palmer> 12 days ago
+160c025 : mondrianwifi: Remove obsolete WAKE from keylayout files <Christopher R. Palmer> 3 days ago
+4c53b2a : mondrianwifi: Don't use prebuilt libreference-ril.so <Christopher R. Palmer> 3 days ago
+2610fef : mondrianwifi: Cleanup overlays <Christopher R. Palmer> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+b73736a : Revert "init: add rmt_storage2 service" <Dan Pasanen> 22 hours ago
+d0c8dae : Revert "msm8960: Add shell property to use AwesomePlayer as default." <Jon Mooney> 5 days ago
+889ce89 : media_codecs: use google's codecs <dhacker29> 2 weeks ago
+ 
+**** https://github.com/Ziyann/android_device_samsung_tuna
+origin	git@github.com:VanirAOSP/NEW_device_samsung_tuna.git
+vanir	https://github.com/VanirAOSP/device_samsung_tuna ****
+3a7f939 : tuna: enable KSM <Ziyan> 30 hours ago
+dcc909d : tuna: Add ambient temperature sensor. <Kyle Repinski> 5 months ago
+18bafa0 : tuna: remove unnecessary overlay <Ziyan> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_honami ****
+0ddd26d : Remove illumination service <Chirayu Desai> 9 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_msm8974-common ****
+77f636b : Revert "Enable Minikin" <Chirayu Desai> 15 hours ago
+b4b3828 : Enable Minikin <Giulio Cervera> 24 hours ago
+73ce219 : msm8974: Include an expanded selection of fonts <david> 26 hours ago
+39d7d79 : audio: Enable support for effects in DSP for tunnel mode playback <Chirayu Desai> 27 hours ago
+174ff5e : more msm8974 consolidation <Giulio Cervera> 28 hours ago
+988981e : boot: remove duplicate uncompressed recovery ramdisk rule <Chirayu Desai> 2 days ago
+c1643f4 : Include FFMPEG codec configuration <Giulio Cervera> 2 days ago
+d6c843c : alphabetize ... <Giulio Cervera> 2 days ago
+75bd85c : add common overlay <Giulio Cervera> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_rhine-common ****
+a3296c4 : init: cleanup Wi-Fi MAC update service <Chirayu Desai> 5 hours ago
+d18452e : Re-add ta_param_loader <Chirayu Desai> 9 hours ago
+6212607 : Remove illumination service <Chirayu Desai> 9 hours ago
+5380f33 : Revert "Remove ClearPad firmware loader" <Chirayu Desai> 9 hours ago
+dff31ba : Assign TCP buffer thresholds <Giulio Cervera> 2 days ago
+d7b6059 : sensors: update permissions for Lollipop <Giulio Cervera> 2 days ago
+862e148 : Move tad to /system <Giulio Cervera> 2 days ago
+423096a : Charger updates <Giulio Cervera> 5 days ago
+eab95ff : Remove ClearPad firmware loader <Giulio Cervera> 5 days ago
+78bd2aa : Update TA configuration <Giulio Cervera> 5 days ago
+c5d765a : Get rid of ctrl_interface=/data/misc/wifi/socket <Giulio Cervera> 5 days ago
+111a80e : Bluetooth updates <Giulio Cervera> 5 days ago
+a0675b3 : RIL: update header <Giulio Cervera> 9 days ago
+c4ee912 : RIL: rebase header on cm-12.0 <Giulio Cervera> 9 days ago
+4879cd4 : fstab: Update syntax for external sdcard <Giulio Cervera> 5 days ago
+a17439f : more msm8974 consolidation <Giulio Cervera> 28 hours ago
+64ee1e3 : rhine-common: Remove redundant CFLAGS <david> 6 days ago
+cd8e98b : move overlay to msm8974-common <Giulio Cervera> 2 days ago
+f0bc037 : rhine-common: remove uneeded caf definitions <david> 9 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_shinano-common ****
+28d97b9 : init: Use a service for Wi-Fi MAC update <Chirayu Desai> 5 hours ago
+f9fec8d : Re-add ta_param_loader <Chirayu Desai> 9 hours ago
+a6a8849 : Move audio HAL from device, and use open source libaudioroute <Chirayu Desai> 9 hours ago
+9fbe098 : Remove illumination service <Chirayu Desai> 9 hours ago
+ff72796 : Revert "Remove ClearPad firmware loader" <Chirayu Desai> 9 hours ago
+4febae1 : more msm8974 consolidation <Giulio Cervera> 28 hours ago
+2329f2b : move overlay to msm8974-common <Giulio Cervera> 2 days ago
+5862ac4 : remove unused flags <Giulio Cervera> 31 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_sirius ****
+dfa731b : Move audio HAL to shinano <Chirayu Desai> 9 hours ago
+40a2e9e : Remove illumination service <Chirayu Desai> 9 hours ago
+ 
+**** https://github.com/CyanogenMod/android_external_exfat ****
+82c6627 : Changed off_t to loff_t <Spegelius> 7 days ago
+ 
+**** https://github.com/CyanogenMod/android_external_fuse ****
+81b1cc2 : Changed off_t to loff_t <Spegelius> 7 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+f52507a : libstagefright: Fix wrong #ifdef statement <Arne Coucheron> 14 hours ago
+f57f3d8 : raw : Increase the input/output buffer size of raw omx component. <Preetam Singh Ranawat> 2 weeks ago
+34b83b9 : AudioPolicy: Reject offloading for non-music streams <Naresh Tanniru> 12 days ago
+717e225 : exynos4: libstragefright: add support for samsung colorformat/omx/mfc <Ricardo Cerqueira> 1 year, 1 month ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+9bff828 : framework: port IME selector notification toggle (2/2) <Aaron Echols> 2 days ago
+7474b8f : Framework: Volume key cursor control (1/2) <Konsta> 2 years, 3 months ago
+69028cd : KeyguardSimPinView: don't send dummy request to get remaining pin <Pawit Pornkitprasan> 2 days ago
+8497369 : Improve scrolling cache <undefined> 13 days ago
+c84a6e5 : Notifications with icon==0 ARE FINE WITH US <nuclearmistake> 23 hours ago
+562ca17 : Framework: Forward port ADB over network (Part 2 of 2) <Ricardo Cerqueira> 1 year, 1 month ago
+3d5f0f5 : ResourceTypes: Don't warn when resources with id 0 have invalid package identifiers. <nuclearmistake> 27 hours ago
+7398205 : SystemUI: Bring back animated rotation tile <Michael Bestas> 6 days ago
+ 
+**** https://github.com/InSaNiTy-Development/InSaNiTy_kernel_m7
+vanir	https://github.com/VanirAOSP/kernel_htc_m7 ****
+3521ef0 : add -flto flags <Ethan> 19 hours ago
+089b048 : disable logger <Ethan> 19 hours ago
+e6b0393 : Add logging interface for entry storage <Dave Kessler> 4 days ago
+a9d01a0 : enable -funsafe-math-optimizations <Ethan> 20 hours ago
+e6a7f92 : defconfig update <Ethan> 20 hours ago
+ce58073 : ARM: vfpmodule: Move bounce stats file to seq_file and  friends <Tk-Glitch> 10 months ago
+fbf9111 : arm: vfp: always clear vfp_current_hw_state when forcing  reload <Tk-Glitch> 10 months ago
+f68bcc7 : ARM: add .gitignore entry for aesbs-core.S <Tk-Glitch> 10 months ago
+acdce2f : ARM: 7723/1: crypto: sha1-armv4-large.S: fix SP handling <Tk-Glitch> 10 months ago
+852bac8 : ARM: 7837/3: fix Thumb-2 bug in AES assembler code <Tk-Glitch> 10 months ago
+3f94149 : ARM: 7626/1: arm/crypto: Make asm SHA-1 and AES code Thumb-2  compatible <Tk-Glitch> 10 months ago
+571c4f8 : ARM: pull in <asm/simd.h> from asm-generic <Tk-Glitch> 10 months ago
+3583ae3 : ARM: move AES typedefs and function prototypes to separate  header <Tk-Glitch> 10 months ago
+d00f212 : crypto: ablk_helper - Replace memcpy with struct assignment <Tk-Glitch> 10 months ago
+a8cba78 : crypto: create generic version of ablk_helper <Tk-Glitch> 10 months ago
+c69835f : ARM: add support for bit sliced AES using NEON instructions <Tk-Glitch> 10 months ago
+ef0519d : ARM: 7835/2: fix modular build of xor_blocks() with NEON  enabled <Tk-Glitch> 10 months ago
+81e0a1f : ARM: crypto: add NEON accelerated XOR implementation <Tk-Glitch> 10 months ago
+16fdba1 : ARM: add support for kernel mode NEON <Tk-Glitch> 10 months ago
+bd9c98c : ARM: be strict about FP exceptions in kernel mode <Tk-Glitch> 10 months ago
+d69726c : ARM: move VFP init to an earlier boot stage <Tk-Glitch> 10 months ago
+e1b8563 : sched: set sched_mc_power_savings to 2, which is the highest  power saving possible value for this tunable. Basically according to  http://elinux.org/images/1/1d/Comparing_Power_Saving_Techniques_For_Multicore_ARM_Platforms.pdf  this tunable provides serious power saving improvements close to the power  savings of hotpluging cores. Since in this Kernel we're using always a  minimum of 2 cpus online at any time during screen off we might actually  benefit from this because this feature packs tasks together and try to bind  them to cpu0, which in theory will let cpu1 idle longer, thus improving  battery life. <Tk-Glitch> 10 months ago
+c4f9cc5 : SLUB slab allocator: disable slub debugging <Dave Kessler> 2 days ago
+75f77d7 : random: allow architectures to optionally define random_get_entropy() <Theodore Ts'o> 1 year, 2 months ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_lge_hammerhead
+https://github.com/jimsth/vanir_hammerhead ****
+f86e9b5 : version 2.0.2 <Dan Trifan> 26 hours ago
+4f9a79c : defconfig: updates <Dan Trifan> 27 hours ago
+676e8fc : rtc: alarm: Proper handling of spinlock <myfluxi> 5 days ago
+bed86b9 : Revert "rtc: alarm: Proper handling of spinlock" <myfluxi> 5 days ago
+15fcb80 : cpufreq: interactive: Exercise hispeed settings at a policy level <Saravana Kannan> 7 weeks ago
+c0b06e0 : cpufreq: interactive: Make window alignment optional <Junjie Wu> 3 months ago
+0ea4b55 : cpufreq: interactive: Add max_freq_hysteresis feature <Junjie Wu> 3 months ago
+894c242 : cpufreq: ondemand: Remove sync thread feature <myfluxi> 8 weeks ago
+6f36fa4 : cpufreq: ondemand: Remove input boost <myfluxi> 12 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_lge_msm8974 ****
+11d9671 : Add deconfigs in with Vanir naming scheme <DHOMD> 66 minutes ago
+0505c04 : Power: Changes the permission to read only for sysfs file /sys/kernel/wakeup_reasons/last_resume_reason <Ruchi Kandoi> 7 months ago
+616e8c7 : Power: Add guard condition for maximum wakeup reasons <Ruchi Kandoi> 9 months ago
+b99be55 : ARM: gic: remove redundant debug message <Patrick Tjin> 9 months ago
+3dd8cfd : POWER: Add an API call to log wake wakeup reason <Ruchi Kandoi> 9 months ago
+c64babe : POWER: fix compile warnings in log_wakeup_reason <Ruchi Kandoi> 9 months ago
+1a9a29b : Power: add an API to log wakeup reasons <Ruchi Kandoi> 9 months ago
+af008e6 : mmc: sdhci: propagate execute_tuning error to the caller <Ajay Dudani> 1 year, 2 months ago
+ba56150 : mm: Increase number of GFP masks <Naveen Ramaraj> 9 weeks ago
+0f100f8 : msm: mdss: fix wb memory registration optimization <Adrian Salido-Moreno> 8 weeks ago
+3a38472 : ASoC: msm: extend proxy port period count and size range <Eric Laurent> 4 months ago
+7b636ac : ASoC: msm: qdsp6v2: Enable gapless mode for compress playback <Haynes Mathew George> 4 months ago
+0121fb2 : asm changes for custom topology <Haynes Mathew George> 6 months ago
+6268e92 : ASoC: msm: Check accessing session private data <Haynes Mathew George> 5 months ago
+11778f9 : ASoC: msm: qdsp6v2: Check for null pointer <Haynes Mathew George> 5 months ago
+7d4a5b2 : ASoC: Compress: Remove unused hw_params pointer <Haynes Mathew George> 5 months ago
+b0ae327 : ASoC: msm: Reset the stream open flag after CMD_CLOSE is sent to DSP <Haynes Mathew George> 5 months ago
+9d4d699 : ASoC: msm: Check stream id for ASM callbacks in compress driver <Haynes Mathew George> 5 months ago
+36f9bbe : ASoC: msm: qdsp6v2: ASM changes to use stream id as token parameter <Haynes Mathew George> 5 months ago
+2f80c97 : ASoC: msm: qdsp6v2: Wait for stream to be available in gapless playback <Haynes Mathew George> 5 months ago
+f79d7d3 : ASoC: msm: Condition change to feed buffer on resume <Haynes Mathew George> 11 months ago
+5346dd3 : Enable setting security contexts on rootfs inodes. <Stephen Smalley> 1 year, 7 months ago
+49aad30 : cgroup: Fix use after free of cgrp (cgrp->css_sets) <Hans de Goede> 1 year, 11 months ago
+e632c9fe : cgroup: Take css_set_lock from cgroup_css_sets_empty() <Hans de Goede> 1 year, 11 months ago
+02b9158 : Handle 'sk' being NULL in UID-based routing. <Sreeram Ramachandran> 5 months ago
+22ae03e : ASoC: msm: Fix AUXPCM Sample Rate settings <Ravi Kumar Alamanda> 6 months ago
+3473a19 : sched: Fix migration thread runtime bogosity <Mike Galbraith> 2 years, 4 months ago
+faa0030 : ASoC: wcd9320: remove hard coded mad mic bias <Kiran Kandi> 1 year, 2 months ago
+7c0e133 : staging: android: ashmem: Avoid deadlock with mmap/shrink <Laura Abbott> 10 months ago
+f5830d0 : msm: kgsl: Enhance GFT to avoid hang->recover->hang cycle <Tarun Karra> 10 months ago
+055210c : msm: kgsl: Flush the UCHE when context changes <Shubhraprakash Das> 10 months ago
+2f2d529 : msm: mdss: hdmi: Proper permissions for CEC logical address <Ajay Dudani> 1 year, 2 months ago
+5105ece : msm: qdsp6v2: memset stack buffer allocation. <Ajay Dudani> 1 year, 2 months ago
+9604cf3 : msm: mdss: hdmi: Security check for EDID 3D data parsing <Ajay Dudani> 1 year, 2 months ago
+58156e6 : msm: mdss: hdmi: Proper HDMI feature check <Ajay Dudani> 1 year, 2 months ago
+42f460b : msm: kgsl: allow creation of events from the future <Jeremy Gebben> 12 months ago
+25f5555 : msm: kgsl: Do not allow events with bogus timestamp <Shubhraprakash Das> 1 year, 4 months ago
+941fd6c : msm: camera: Add fix to avoid array index out of bound in cpp <Nishant Pandit> 1 year, 5 months ago
+40a742c : msm:cpp: Check number of buffers before allocate stream_info <Iliya Varadzhakov> 1 year, 5 months ago
+2b965e1 : msm: camera: Fix various small issues in vpe driver <Hariram Purushothaman> 1 year, 2 months ago
+90d78da : kernel-msm: camera: KW Changes in camera_v2 <Sourabh Banerjee> 1 year ago
+66e260c : camera_v1/v2: Fix multiple JPEG integer overflow issues <Kamen Kirov> 1 year, 4 months ago
+349ff5a : msm: camera: Maintain buffer queue in isp buf manager <Aditya Jonnalagadda> 1 year ago
+3b9d67f : msm: camera_v2: Use stream cnt for unique stream id <Ankit Premrajka> 1 year, 6 months ago
+1fcc488 : msm: camera: Prevent double free of memory if post event fails <Seemanta Dutta> 1 year, 4 months ago
+546cfae : msm:camera: Bound check the num_planes variable <Lakshmi Narayana Kalavala> 1 year, 5 months ago
+0180558 : net: wireless: bcmdhd: Fix Batch scan get bug <Ashwin> 4 months ago
+fb5924f : msm: vidc: fix corruption of registered buffer list <Arun Menon> 12 months ago
+a3d4896 : msm: vidc: handle dynamic buffers in pendingq during flush <Arun Menon> 5 months ago
+a6f8654 : net: feed /dev/random with the MAC address when registering a device <Theodore Ts'o> 2 years, 5 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+1d13dae : Update d2 kernel t0 L5 <DHOMD> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+24f8779 : Dialer: deblur fab_blue.png <Hamster Tian> 3 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+03a4bdc : Settings: Convert AppOps array items to string references <Michael Bestas> 9 months ago
+7e0bda6 : settings: port IME selector notification toggle (1/2) <Takazumi Matsumoto> 2 days ago
+fc54f98 : Settings: Volume key cursor control (2/2) <Konsta> 5 days ago
+c30b32b : Remove merge error in cm_arrays comment block <Sam Mortimer> 22 hours ago
+087b555 : Settings: Forward port ADB over network (Part 1 of 2) <Dave Carey> 1 year, 1 month ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_ContactsProvider ****
+88e417b : ContactsProvider: Fix FC when deleting selected call log <blong> 12 months ago
+ 
+**** https://github.com/CyanogenMod/android_packages_services_Telecomm ****
+0343fed : Blacklist: fix NPE <Pawit Pornkitprasan> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+da766bd : Telephony: Make voicemail notifications dismissable <ajrty33> 18 hours ago
+a65f33c : Telephony: fix getIccOperatorNumeric <Pawit Pornkitprasan> 7 days ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+c6fc607 : Core: fix compile issue of healthd.` <Shareef Ali> 35 hours ago
+ed31843 : atrace: only cry once about failure to open the trace file <nuclearmistake> 24 hours ago
+5e67af2 : core: Fix compile error with QCOM_LEGACY_UIDS <Arne Coucheron> 6 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+3802764 : Revert "d2: stupid hack for selinux/rmt_storage" <Dan Pasanen> 22 hours ago
+ae6fdcd : mondrianwifi: Cave and hexedit libqc-opt.so <Christopher R. Palmer> 33 hours ago
+2416672 : mondrianwifi: Don't use prebuilt libreference-ril.so <Christopher R. Palmer> 3 days ago
+f49f9cb : mondrianwifi: Add missing divx lib <Christopher R. Palmer> 3 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+2a91020 : 8974: Remove some blobs <Chirayu Desai> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+e439620 : vendor: add policies for netd <Pawit Pornkitprasan> 3 days ago
+f825464 : SELinux: su: Remove extra quote in a comment <Chirayu Desai> 3 days ago
+4458771 : Allow SystemServer to set service.adb.tcp.* properties <Ricardo Cerqueira> 4 days ago
+755b9db : squisher: Minimize jank <nuclearmistake> 23 hours ago
+72f2ae8 : De-derp check_prereq and add some extra ui_print to make sure it's happening <nuclearmistake> 24 hours ago
+d918202 : Squisher: make it functional (though still a bit derpy with how paths are handled between it and opticharger) <nuclearmistake> 24 hours ago
+9a179a5 : backuptool: FIX version check, and add programmatic ui_print from shell script (like bausses) <nuclearmistake> 24 hours ago
+e052b8d : Update Japanese APNs <black> 2 days ago
+e477bb1 : Update Reliance APNs <Abhisek Devkota> 4 days ago
+ 

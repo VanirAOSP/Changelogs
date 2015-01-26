@@ -1,0 +1,148 @@
+
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+7a2c3cf : dedupe: backup & restore selinux contexts. <xiaolu> 8 days ago
+bb6ed28 : Keep 'show log' on screen until user dismisses it <Matt Mower> 2 days ago
+ 
+**** https://github.com/VanirAOSP/build ****
+4dbda5e : TARGET_linux-arm/llvm_config: specify debugging for USERDEBUG && RELEASE builds <PrimeDirective> 13 days ago
+e96a6c3 : releasetools: Fix whitespace error for INSTALLED_DTIMAGE_TARGET <Brint E. Kriebel> 22 hours ago
+df0e995 : releasetools: Properly handle boot images that use dt <Brint E. Kriebel> 2 days ago
+2d2a038 : use -Os for thumb for real this time <PrimeDirective> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_m8 ****
+ec0c5db : overlay: use stock vibration patterns <invisiblek> 5 hours ago
+181eca6 : m8: reset config_bluetooth service start <Ethan Chen> 22 hours ago
+83241ea : m8: Clean up sdcard services <Ethan Chen> 23 hours ago
+471a9c4 : m8: Remove even more unnecessary init entries <Ethan Chen> 23 hours ago
+db822bf : m8: Remove post_boot script, add performance profiles <Ethan Chen> 24 hours ago
+b282136 : m8: Don't let users disable USB charging <Ethan Chen> 24 hours ago
+21ddb79 : m8: Remove SSR script <Ethan Chen> 24 hours ago
+12aa564 : m8: fix indentation <Ethan Chen> 24 hours ago
+166dfba : m8: More dead init entry removal <Ethan Chen> 24 hours ago
+5b35916 : m8: Remove duplicate /persist entries <Ethan Chen> 24 hours ago
+5fd114a : m8: Clean up NFC permissions <Ethan Chen> 24 hours ago
+1bfae6f : m8: Create firmware links at build time <Ethan Chen> 2 days ago
+a741c95 : m8: Remove unnecessary entries from init <Ethan Chen> 2 days ago
+07222ab : m8: Remove insmod, modules are disabled <Ethan Chen> 2 days ago
+d90a1b5 : m8: Move IR, rawchip permissions to ueventd <Ethan Chen> 2 days ago
+a8c94e2 : m8: Correctly set SECONDARY_STORAGE <Ethan Chen> 2 days ago
+feb2c19 : m8: Clean up partition mounting <Ethan Chen> 2 days ago
+431da16 : m8: Remove duplicate NFC property <Ethan Chen> 2 days ago
+482890e : m8: Sort init script by execution order <Ethan Chen> 2 days ago
+9915e6c : m8: Remove unnecessary init scripts <Ethan Chen> 2 days ago
+a2d6adf : m8: Remove libnetcmdiface <Ethan Chen> 2 days ago
+1abadfa : m8: More cleanup <Ethan Chen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_moto_msm8960 ****
+59d7144 : Remove vendorsetup.sh <dhacker29> 18 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_moto_msm8960dt ****
+2c193ed : Remove vendorsetup.sh <dhacker29> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+e486e5b : omap4-common: moto_audio_wrapper: wrap standby-functions <Michael Gernoth> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_apq8064-common ****
+bbbd77d : apq8064: Remove unused QCOM init scripts <Ethan Chen> 89 minutes ago
+ 
+**** https://github.com/VanirAOSP/device_oppo_common ****
+99fd9a2 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2lte ****
+616843e : d2lte: add mpdecision to system group <Dave Daynard> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jflte ****
+d7cc44f : Revert "jflte: back to cm's audio policy conf" <nuclearmistake> 2 days ago
+38388cc : jflte: add mpdecision to system group <Dave Daynard> 18 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960dt-common ****
+670614c : selinux: Report permissive mode in avc: denied messages. <Stephen Smalley> 10 days ago
+d89a13c : Linux 3.4.89 <Greg Kroah-Hartman> 3 days ago
+1361b53 : USB: pl2303: add ids for Hewlett-Packard HP POS pole displays <Aaron Sanders> 6 weeks ago
+6b2b231 : ext4: use i_size_read in ext4_unaligned_aio() <Theodore Ts'o> 4 weeks ago
+982daeb : ocfs2: do not put bh when buffer_uptodate failed <alex chen> 5 weeks ago
+8917a40d : ocfs2: dlm: fix recovery hung <Junxiao Bi> 5 weeks ago
+09400fe : ocfs2: dlm: fix lock migration crash <Junxiao Bi> 5 weeks ago
+96f6aea : hung_task: check the value of "sysctl_hung_task_timeout_sec" <Liu Hua> 5 weeks ago
+af4acfa : mm: hugetlb: fix softlockup when a large number of hugepages are freed. <Mizuma, Masayoshi> 5 weeks ago
+5650bff : sh: fix format string bug in stack tracer <Matt Fleming> 5 weeks ago
+d6f6fc7 : USB: unbind all interfaces before rebinding any <Alan Stern> 8 weeks ago
+216583b : hvc: ensure hvc_init is only ever called once in hvc_console.c <Paul Gortmaker> 4 months ago
+f53fd45 : usb: dwc3: fix wrong bit mask in dwc3_event_devt <Huang Rui> 4 months ago
+f97f28f : usb/xhci: fix compilation warning when !CONFIG_PCI && !CONFIG_PM <David Cohen> 2 weeks ago
+8ccd1a5 : xhci: extend quirk for Renesas cards <Igor Gnatenko> 2 weeks ago
+41b4a7d : usb: musb: set TXMAXP and AUTOSET for full speed bulk in device mode <supriya karanth> 1 year, 5 months ago
+15e5f90 : reiserfs: fix race in readdir <Jeff Mahoney> 5 weeks ago
+86455b8 : target/tcm_fc: Fix use-after-free of ft_tpg <Andy Grover> 5 weeks ago
+d72db3c : iscsi-target: Fix ERL=2 ASYNC_EVENT connection pointer bug <Nicholas Bellinger> 3 months ago
+8ba4bc7 : SCSI: arcmsr: upper 32 of dma address lost <Dan Carpenter> 3 months ago
+41d5d29 : ib_srpt: Use correct ib_sg_dma primitives <Mike Marciniszyn> 5 weeks ago
+794f995 : IB/ehca: Returns an error on ib_copy_to_udata() failure <Yann Droneaud> 9 weeks ago
+53b5bc1 : IB/mthca: Return an error on ib_copy_to_udata() failure <Yann Droneaud> 9 weeks ago
+64900cd : IB/nes: Return an error on ib_copy_from_udata() failure instead of NULL <Yann Droneaud> 9 weeks ago
+066c269 : IB/ipath: Fix potential buffer overrun in sending diag packet routine <Dennis Dalessandro> 3 months ago
+d8992ef : nfsd4: fix setclientid encode size <J. Bruce Fields> 9 weeks ago
+367bce4 : nfsd: notify_change needs elevated write count <J. Bruce Fields> 2 months ago
+c2189c7 : nfsd4: fix test_stateid error reply encoding <J. Bruce Fields> 3 months ago
+9acc531 : nfsd4: buffer-length check for SUPPATTR_EXCLCREAT <J. Bruce Fields> 3 months ago
+fc111bf : nfsd4: session needs room for following op to error out <J. Bruce Fields> 3 months ago
+5d052fb : USB: fix crash during hotplug of PCI USB controller card <Alan Stern> 4 weeks ago
+632d996 : x86-64, modify_ldt: Ban 16-bit segments on 64-bit kernels <H. Peter Anvin> 8 weeks ago
+9d1a595 : staging: r8712u: Fix case where ethtype was never obtained and always be checked against 0 <Larry Finger> 3 weeks ago
+725f2ba : staging:serqt_usb2: Fix sparse warning restricted __le16 degrades to integer <Himangi Saraogi> 9 weeks ago
+6733ac5 : w1: fix w1_send_slave dropping a slave id <David Fries> 4 months ago
+3b015ff : mfd: max8997: Fix possible NULL pointer dereference on i2c_new_dummy error <Krzysztof Kozlowski> 3 months ago
+4efaf42 : mfd: max8998: Fix possible NULL pointer dereference on i2c_new_dummy error <Krzysztof Kozlowski> 3 months ago
+b9546b8 : mfd: max8925: Fix possible NULL pointer dereference on i2c_new_dummy error <Krzysztof Kozlowski> 3 months ago
+f4a8f6c : ALSA: ice1712: Fix boundary checks in PCM pointer ops <Takashi Iwai> 4 weeks ago
+b7b38eb : ALSA: hda - Enable beep for ASUS 1015E <W. Trevor King> 6 weeks ago
+61d0294 : ARM: 8030/1: ARM : kdump : add arch_crash_save_vmcoreinfo <Liu Hua> 3 weeks ago
+76ff67a : ARM: 8027/1: fix do_div() bug in big-endian systems <Xiangyu Lu> 4 weeks ago
+375f0df : ARM: OMAP3: hwmod data: Correct clock domains for USB modules <Roger Quadros> 4 weeks ago
+05b8131 : ARM: OMAP2+: INTC: Acknowledge stuck active interrupts <Stefan Sørensen> 9 weeks ago
+62f2956 : ASoC: cs42l73: Fix mask bits for SOC_VALUE_ENUM_SINGLE <Brian Austin> 7 weeks ago
+2c07a93 : msm: camera: Enable interrupts before returning during Invalid Image mode. <Vijaya Kumar T M> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Browser ****
+f7e4625 : Automatic translation import <Michael Bestas> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+56835d2 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Contacts ****
+ed54a46 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+5c1ea12 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+806a28d : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+8a57359 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+0b956a1 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+b9aa848 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+451a88d : 2.1.18 <h0rn3t> 13 hours ago
+1272d32 : ... <h0rn3t> 13 hours ago
+11e95c5 : Bring Russian Translations Up-to-Date! <leroviten> 30 hours ago
+b676b53 : devices.xml: Galaxy S4 Mini (serrano3gxx, serranoltexx) bring-up <f4k> 32 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+11dad69 : MSIM: Update icon for Multi Sim Settings category <dhacker29> 4 days ago
+dc187ad : MSim Settings: Update UI/UX with user friendly strings <dhacker29> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_VoicePlus ****
+625aade : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_input_LatinIME ****
+867c481 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_providers_DownloadProvider ****
+f2f141e : Automatic translation import <Michael Bestas> 25 hours ago
+ 

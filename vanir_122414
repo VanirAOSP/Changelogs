@@ -1,0 +1,227 @@
+
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+641b7a1 : libvoldclient: Do not use the kernel headers <Ricardo Cerqueira> 3 hours ago
+fc02a2f : minivold: Report vold connect fail only if retries exhausted <Matt Mower> 5 days ago
+d93ec37 : recovery: Move icon_info.png to res-specific dirs <Matt Mower> 5 days ago
+ 
+**** https://github.com/VanirAOSP/bootable_recovery_TWRP ****
+3ca9bd1 : Fixup big merge <DHOMD> 4 hours ago
+f5c904b : 2.8.3.0 <Ethan Yonker> 2 days ago
+960f030 : Fix twrpTar building <Ethan Yonker> 2 days ago
+0c53203 : Fix else if and maxFileSize initializer. <bigbiff> 2 days ago
+a3d31fb : fixPermissions: simplify code, fix bugs <that> 2 days ago
+d79d9bc : Allow non datamedia devices to wipe encryption <Ethan Yonker> 3 days ago
+726a020 : MTP add/remove storage instead of disabling MTP <Ethan Yonker> 7 days ago
+6cb35aa : Recovery init.rc setenforce 0 to make SELinux permissive <Ethan Yonker> 7 days ago
+b789626 : Fix include paths in crypto <Ethan Yonker> 5 days ago
+5216bef : Toggle MTP during ADB sideload <Ethan Yonker> 7 days ago
+e3e8829 : Update SuperSU to 2.40 <Ethan Yonker> 13 days ago
+fb7a2da : Fix adb sideload page on 1440x2560 layout <Ethan Yonker> 5 days ago
+0024e38 : Add support for custom kernel headers <Kra1o5> 7 days ago
+87da424 : Fixes for compiling crypto in older trees <Dees Troy> 11 days ago
+2d11d49 : Fix compiling of dosfstools for arm64 <Ethan Yonker> 12 days ago
+619a721 : Improve resource error logging <Ethan Yonker> 3 weeks ago
+4b94cfd : Attempt to set the proper uid/gid/contexts on new files and dirs <Ethan Yonker> 13 days ago
+ac21cb5 : Fix loading of png images in custom themes <Ethan Yonker> 12 days ago
+b6ef478 : Revert "Fix USB Mass Storage on some devices" <Matt Mower> 7 weeks ago
+b47f28b : Fix generating symlinks for older trees <Dees Troy> 13 days ago
+452e420 : EPOLLWAKEUP handling in minui/events.c <Ethan Yonker> 13 days ago
+d5c6069 : This fixes kernel panic on find7 when disabling MTP before flashing zips. <bigbiff> 12 days ago
+b38de7e : make header layout more readable for 1440x2560 <bigbiff> 4 weeks ago
+0bc17c6 : Fix occasional MTP kernel panic <Ethan Yonker> 2 weeks ago
+738be7a : Use one mizip for all <Ethan Yonker> 2 weeks ago
+ceb7b8e : crypto: fix build in < 5.0 tree <that> 2 weeks ago
+2017279 : Fix mkexfatfs exclusion when TW_NO_EXFAT enabled <Matt Mower> 6 weeks ago
+d5a7c0e : add support unicode font not only ascii <soyu> 4 weeks ago
+38c2ff8 : Include libext2_quota.so if present for e2fsprogs utilities <Ethan Yonker> 2 weeks ago
+8a59459 : Update minui to work properly <Ethan Yonker> 2 weeks ago
+c56ab4c : Fix slidervalue not showing up in some cases <Ethan Yonker> 2 weeks ago
+448c8dc : Fix png graphics load / display on AArch64 <Ethan Yonker> 2 weeks ago
+76084eb : Remove new images from AOSP <Ethan Yonker> 2 weeks ago
+1902c79 : Use linker64 on AArch64 <Ethan Yonker> 3 weeks ago
+7cb4c33 : add function to partition.cpp to return max file size to mtp responder Change-Id: If8114b5eac741db6c512fb35cb48e3825c2ff098 <bigbiff> 4 weeks ago
+253368a : Reduce libs needed for decrypt and clean up old decypt files <Ethan Yonker> 4 weeks ago
+1db013b : bootable recovery: we upgraded to 5.0.1 <erikcas> 3 weeks ago
+75bf041 :  Make the android-5.0 branch compile in 4.4 to 4.1 <Ethan Yonker> 5 weeks ago
+cdc3ef5 : TWRP MTP: make sure inotify_fd is set <Ethan Yonker> 4 weeks ago
+ec0fa4a : Properly set tw_settings_path after decrypt on data media devices <Ethan Yonker> 5 weeks ago
+c8f5899 : Fix process to disable stock recovery flashing <Dees Troy> 5 weeks ago
+2b55601 : Add /firmware to the mount list for L decrypt <Ethan Yonker> 5 weeks ago
+0e67837 : Add flag for including additional files built from source in TWRP <Ethan Yonker> 5 weeks ago
+cceebb8 : Tweak 5.0 L decrypt <Ethan Yonker> 5 weeks ago
+560e65f : Make libmincrypttwrp a shared library <Ethan Yonker> 5 weeks ago
+03ea978 : Clean up make flash utility make files <Ethan Yonker> 5 weeks ago
+85939e5 : Thanks to _that, return null if vector is empty <bigbiff> 5 weeks ago
+4eca40d : Add lollipop decrypt support <Ethan Yonker> 6 weeks ago
+bcc502c : Make TWRP compile for arm64 <Ethan Yonker> 6 weeks ago
+4e36d50 : update theme thanks to Alexey71 on xda. <bigbiff> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+c1f56a7 : add sprint overlays for frameworks and mms app <sudosurootdev> 8 months ago
+642ca17 : Add TARGET_USE_ION_COMPAT := true which allows heap_mask instead of only heap_id_mask to be used with userspace ION... now that kernel/lge/msm8974 is updated to use only heap_mask. <sudosurootdev> 28 hours ago
+3fb66a6 : [TEMP] Disable strictmode to avoid app FC's until all issues are worked out. <sudosurootdev> 29 hours ago
+79e6393 : Fix net.tcp.buffersize.* write must be lower than read... otherwise you get delays... sorting out speeds/buffersizes before tcp connection <sudosurootdev> 33 hours ago
+83e41d7 : Add pre & post processing availability, to AEC & NS. Fix bad path to loudness_enhancer... only set effects AEC & NS when using voice_call Also, fix bad open bracket on bass boost & proxy uuid's <sudosurootdev> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g3-common ****
+b50ed97 : Ignore call for RIL.getHardwareConfig <Ian Roy> 5 days ago
+ 
+**** https://github.com/VanirAOSP/device_moto_shamu ****
+7e59ec2 : Shamu: Set fluence props <dhacker29> 3 days ago
+f8c61af : Add ion compat flag <nuclearmistake> 14 hours ago
+145064f : Reconciliationation <nuclearmistake> 14 hours ago
+ab78309 : Shamu: Add ffmpeg codecs <dhacker29> 25 hours ago
+32356fb : Add CM specific configuration <dhacker29> 3 days ago
+cd3d206 : Shamu: Use libfmas for audio effects <dhacker29> 3 days ago
+7f577ba : Shamu: Update extract-files setup for CM vendor namespace <dhacker29> 25 hours ago
+adc2248 : sec_config: Allow sensors group process to QMI Sensor services <Satya Durga Srinivasu Prabhala> 6 months ago
+4004ce4 : Shamu: Fix for MMS FC <Andres> 13 days ago
+56ccb5e : shamu: Point to CM proprietary vendor location <Ethan Chen> 28 hours ago
+fb9ee98 : shamu: Add nfcee_access.xml <dhacker29> 3 days ago
+f43bfce : shamu: Build com.android.nfc_extras <dhacker29> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_falcon ****
+9d700c0 : falcon: Label firmware partitions <Ethan Chen> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/motorola_msm8226-common ****
+6f7cc2a : msm8226-common: Inherit from QCOM common SELinux policy <Ethan Chen> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+300c5ae : omap4-common: fix camera2 <Michael Gernoth> 17 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_find7 ****
+4d577c9 : find7: Update power profile <Michael Bestas> 8 weeks ago
+bbe262f : find7: Re-organize tree to become find7 device tree <Michael Bestas> 8 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_qcom_common ****
+8e7f17c : cryptfs_hw: libcryptfs_hw doesn't go in vendor/lib/hw <Ethan Chen> 25 hours ago
+352ecbb : Fix multiarch builds <Ricardo Cerqueira> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_codinalte ****
+89ea366 : Experimental test these release tools <DHOMD> 7 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_jf-common ****
+5b44b68 : Revert "jf: camera: Add DurationTimer for vendor compatibility" <dcd> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+bbce071 : klte-common: Use 48KHz sampling rate for A2DP <Matt Filetto> 10 days ago
+a027d6a : klte-common: Address bcm2079x denial <Ethan Chen> 30 hours ago
+dd521d0 : klte-common: Update hardware keys overlay <Matt Filetto> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+cd9147c : sepolicy: fix panel and power devices <Dan Pasanen> 3 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+4c5902b : SystemUI: MSim: hide subs label on KeyGuard <Pawit Pornkitprasan> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+40126c0 : Telephony: DcTracker: Fix CDMA APN Data issues. <Shareef Ali> 1 year, 5 months ago
+31b4840 : DCTracker: HACK Fix eHRPD/LTE data connection. <Shareef Ali> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display ****
+8ebdf61 : msm8916 wants venus color formats, too! <Ricardo Cerqueira> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media ****
+0af8d8e : Revert "Revert "Revert "media: add a flag for ion compatibility""" <DHOMD> 3 hours ago
+175c063 : Revert "Revert "media: add a flag for ion compatibility"" <nuclearmistake> 14 hours ago
+9e2e55a : Revert "media: add a flag for ion compatibility" <nuclearmistake> 26 hours ago
+ 
+**** https://github.com/InSaNiTy-Development/InSaNiTy_kernel_m7
+vanir	https://github.com/VanirAOSP/kernel_htc_m7 ****
+7984181 :  SoC: msm: Add Buffer overflow check <Mohammad Johny Shaik> 4 weeks ago
+ea53d77 : dtc: add integer overflow checks in fdt header <Vijay Kumar Pendoti> 4 months ago
+2851b35 : nl80211: check nla_put_* return values <Johannes Berg> 4 weeks ago
+7c23889 : msm: board-8064-display: adding two extra gpio default values to dsi2lvds_gpio <Srinivasarao P> 5 weeks ago
+32cd3e9 : qseecom:  Add checks for send_cmd inputs <Mona Hossain> 7 weeks ago
+eab0aee : ASoC: msm: qdsp6v2: add check for NULL dereference <Aravind Kumar> 5 weeks ago
+55323d6 : ASoC: msm: qdspv2: Fix junk characters in session name <Karthik Reddy Katta> 5 months ago
+de2af96 : defconfig: Enable bridging and ebtables <Ravinder Konka> 5 weeks ago
+361bc56 : nl80211: fix error path in nl80211_get_key() <Johannes Berg> 1 year, 2 months ago
+032c5cc : updated file arch/arm/configs/msm8960_defconfig <Pradosh Das> 6 weeks ago
+6891c8f : tcp: add a sysctl to config the tcp_default_init_rwnd <JP Abgrall> 11 months ago
+7f699fb : msm: mdp: Validate input arguments from user space <raghavendra ambadas> 3 months ago
+16a9a10 : media: dvb: check filter is valid for fullness callback <Gilad Broner> 4 months ago
+617f8c6 : nl80211: nl80211hdr_put() doesn't return an ERR_PTR <Dan Carpenter> 1 year, 4 months ago
+1d60d8e : netfilter: nf_conntrack: decrement global counter after object release <Pablo Neira Ayuso> 1 year, 1 month ago
+3d7c359 : net/l2tp: don't fall back on UDP [get|set]sockopt <Sasha Levin> 5 months ago
+905a6a9 : net/l2tp: don't fall back on UDP [get|set]sockopt <Sasha Levin> 5 months ago
+b464942 : target/rd: Refactor rd_build_device_space + rd_release_device_space <Nicholas Bellinger> 12 months ago
+7e26856 : vsprintf: ignore %n again <Kees Cook> 1 year, 1 month ago
+8ca5b06 : seq_file: introduce seq_setwidth() and seq_pad() <Tetsuo Handa> 1 year, 1 month ago
+b91346b : seq_file: remove "%n" usage from seq_file users <Tetsuo Handa> 1 year, 1 month ago
+8cb56e3 : net: support marking accepting TCP sockets <Lorenzo Colitti> 9 months ago
+2887dec : net: add a sysctl to reflect the fwmark on replies <Lorenzo Colitti> 9 months ago
+653be18 : net: ipv6: autoconf routes into per-device tables <Lorenzo Colitti> 9 months ago
+cfc667e : net: ipv6: ping: Use socket mark in routing lookup <Lorenzo Colitti> 10 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_msm8974 ****
+7e11b00 : Update README.md <varchild> 12 hours ago
+091623f : Patch 3.4.13 <varchild> 12 hours ago
+3183656 : More trimmin's yo! <varchild> 15 hours ago
+2753448 : Trimming the fat. Gotta stay lean. <varchild> 16 hours ago
+55804d5 : Add In B14CKB1RD Specifics <REV3NT3CH> 18 hours ago
+46d8c22 : ... <varchild> 26 hours ago
+d870265 : Patch 3.4.12 ... again... <varchild> 27 hours ago
+fa09756 : ... <varchild> 29 hours ago
+3fd63531 : Patch 3.4.11 <varchild> 2 days ago
+eee6eda : Patch 3.4.10 <varchild> 2 days ago
+7b8b5e2 : Forgot to add this in. <varchild> 2 days ago
+490bfa4 : Patch 3.4.9 <varchild> 2 days ago
+2d66eed : Patch 3.4.8 <varchild> 3 days ago
+08e5dec : Patch 3.4.7 <varchild> 3 days ago
+39e8c35 : ... <varchild> 3 days ago
+60d055a : ... <varchild> 3 days ago
+c72a0e3 : ... <varchild> 3 days ago
+204efad : Update tick-sched.c <varchild> 3 days ago
+bb20696 : work already! >:( <varchild> 3 days ago
+cc00401 : ... <varchild> 3 days ago
+926eafb : ... <varchild> 3 days ago
+09cd38c : herp derp <varchild> 3 days ago
+50e5afe : fixing compiling errors <varchild> 3 days ago
+699589f : git push <varchild> 4 days ago
+6e391a2 : Patch 3.4.6 <varchild> 4 days ago
+4844fb3 : Patch 3.4.5 <varchild> 4 days ago
+90e64c5 : Patch 3.4.4 <varchild> 4 days ago
+675a2ff : Patch 3.4.3 <varchild> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_lge_g3 ****
+68e3d0d : d852/d855: add initial defconfigs <AndroidUser00110001> 10 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_lge_msm8974 ****
+8a617ac : Align kenel and userspace heap mask calls, using heap_mask for all, now that device FLAG TARGET_USE_ION_COMPAT allows heap_mask instead of only heap_id_mask to be used with userspace ION. <sudosurootdev> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/kernel_samsung_golden ****
+f4c121d : Completely disable selinux <DHOMD> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/kernel_samsung_skomer ****
+cae584f : Remove selinux @ kernel level <DHOMD> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+9e7c7e4 : Follow our own golden kernel <DHOMD> 7 hours ago
+f8a68fb : Try our skomer kernel <DHOMD> 7 hours ago
+bbd7be6 : Remove klimtwifi <DHOMD> 8 hours ago
+1e82ed2 : Use SVOX repository at AOSP due to DMCA takedown <Steve Kondik> 10 hours ago
+c7b3a97 : [TEMP] Track our svox to fix sync <Dave Kessler> 9 hours ago
+a3d72aa : Drop an _android prefix from one of our qcom repo names <nuclearmistake> 16 hours ago
+b88b540 : Track our own hardware/qcom/{media,display,audio} <nuclearmistake> 16 hours ago
+79de181 : vendor/moto is dead. long live vendor/motorola <nuclearmistake> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+60d0ea2 : fix calculation error for ',' as decimal point <muena> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Mms-caf ****
+45efdfe : Fix hint text color in quick popup with light theme <LorDClockaN> 4 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+f56288f : Revert "Bluetooth: Add Manifest configure to fix settings crash issue." <Michael Bestas> 26 hours ago
+7e93b42 : Settings: Fix AOSP WiFi AP translations <Michael Bestas> 3 months ago
+2af53f5 : Settings: Fix the failing strings <Michael Bestas> 5 months ago
+fb6c191 : Settings: EL AOSP translation fixes <Michael Bestas> 9 months ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+a8555c6 : libsysutils: Do not use the kernel headers <Ricardo Cerqueira> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+41c054f : Remove klimtwifi <DHOMD> 7 hours ago
+0a57367 : Change roaming protocol for "telenor.smart" to IPv4 <Arne Coucheron> 6 days ago
+ 

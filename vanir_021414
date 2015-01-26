@@ -1,0 +1,219 @@
+
+**** https://github.com/VanirAOSP/build ****
+3713520 : Allow devices to specify certain ro. props via TARGET_UNIFIED_DEVICE <dhacker29> 2 weeks ago
+0916cb9 : Reconcile some diffs FROM PARTS UNKNOWN <nuclearmistake> 28 hours ago
+b89302d : Fix Tunas kernel and likely any others using a custom gcc compiler <DHOMD> 3 days ago
+4dd9ccd : Build: now with arch-dependent STRIPPERS <nuclearmistake> 3 days ago
+56032bb : Store our best guess at TARGET_ARCH_VARIANT_CPU if it is not defined <nuclearmistake> 4 days ago
+766a081 : build: no more generic kernel toolchains <bart452> 5 days ago
+d19f542 : Use cm's prebuilt ccache, which is a higher version than most distro's ccache package. <nuclearmistake> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7-common ****
+9a04082 : Add sound file to configs <Trevin Gandhi> 4 days ago
+ 
+**** https://github.com/xboxfanj/android_device_lge_gee ****
+a753585 : Move RIL defs to common <Jake Weinstein> 5 hours ago
+758b93b : Move overlays to common <Jake Weinstein> 6 hours ago
+ 
+**** https://github.com/xboxfanj/android_device_lge_gee-common ****
+49d9bce : Move RIL defs to common <Jake Weinstein> 5 hours ago
+79b83c2 : Add overlays to common <Jake Weinstein> 6 hours ago
+a6aebda : Switch to CM PowerHAL <Jake Weinstein> 21 hours ago
+ 
+**** https://github.com/xboxfanj/android_device_lge_geeb ****
+4323b61 : Move RIL defs to common <Jake Weinstein> 5 hours ago
+ccedff7 : move overlay to common <Jake Weinstein> 6 hours ago
+ 
+**** https://github.com/P880-dev/android_device_lge_p880 ****
+907ff2b : X3: NFC: Let apps in the nfc group access it, too <Ricardo Cerqueira> 12 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_qcom-common ****
+fe4a696 : camera wrapper: Add moto_msm8960 to build barriers <nadlabak> 89 minutes ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_hlte ****
+cbc0150 : add android_device_qcom_common to dependencies <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jf-common ****
+7189b93 : jflte: update fstab flags <dcd> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_qcom-common ****
+6c42d59 : Revert "Add TARGET_INIT_VENDOR_LIB for unified devices" <nuclearmistake> 18 hours ago
+ 
+**** https://github.com/CyanogenMod/AndroidAsync ****
+414981e : 124 <Koushik Dutta> 18 hours ago
+1bb0ef4 : organize imports <Koushik Dutta> 18 hours ago
+5e0be5f : SelectorWrapper: proper variable name <Koushik Dutta> 18 hours ago
+75697af : Use selector wrapper, fix busy looping. <Koushik Dutta> 18 hours ago
+7f14abb : WIP SelectorWrapper <Koushik Dutta> 19 hours ago
+9ac407e : Revert busy loop fix. <Koushik Dutta> 2 days ago
+fab67ef : 122 <Koushik Dutta> 2 days ago
+11811eb : Update README.md <Koushik Dutta> 2 days ago
+0ded389 : Remove busy looping. <Koushik Dutta> 2 days ago
+744076d : Fixups for Handler removal. <Koushik Dutta> 4 days ago
+ 
+**** https://github.com/CyanogenMod/ion ****
+e956de1 : 124 <Koushik Dutta> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+1f815f5 : Vanir actions & utilities <PrimeDirective> 5 days ago
+ca4db13 : core/SystemUI: EL translations <Michael Bestas> 2 days ago
+f7081a9 : screenrecord: keep recordings where they belong <Dan Trifan> 8 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_fm ****
+338f01c : FM: Start recording service even when A2DP headset connected <Satish Kodishala> 2 weeks ago
+9843088 : FM: Display dialog box hint in Chinese. <Satish Kodishala> 3 weeks ago
+f64744b : FM: Send a foreground intent to start recording service. <Satish Kodishala> 4 weeks ago
+8e474f2 : FM: Added support for audio routing from speaker to BT headset. <Satish Kodishala> 6 weeks ago
+579463e : FM: Start recording service even when A2DP headset connected <Satish Kodishala> 2 weeks ago
+36c390f : FM: Display dialog box hint in Chinese. <Satish Kodishala> 3 weeks ago
+de41ed9 : FM: Display "FM recording in progress" in Chinese. <Satish Kodishala> 3 weeks ago
+fda27ce : FM: Send a foreground intent to start recording service. <Satish Kodishala> 4 weeks ago
+f6c1228 : FM: Added support for audio routing from speaker to BT headset. <Satish Kodishala> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_gps ****
+450b054 : Fix typo for AMSS 1240 support <Nicholas Flintham> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960-common ****
+5bd85a2 : fix false disconnect due to a signal sent to the reading process <keunyoung> 2 weeks ago
+bb165db : SELinux: Fix kernel BUG on empty security contexts. <Stephen Smalley> 2 weeks ago
+4e67145 : netfilter: xt_IDLETIMER: Revert to retain the kernel API format. <Ashish Sharma> 10 days ago
+ef7c508 : SELinux: Fix possible NULL pointer dereference in selinux_inode_permission() <Steven Rostedt> 5 weeks ago
+dd2f3d7 : nf: xt_qtaguid: fix handling for cases where tunnels are used. <JP Abgrall> 8 weeks ago
+5fe5b0c : ping: prevent NULL pointer dereference on write to msg_name <Hannes Frederic Sowa> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960dt-common ****
+a6d2ebc : Linux 3.4.80 <Greg Kroah-Hartman> 26 hours ago
+cd34de1 : 3.4.y: timekeeping: fix 32-bit overflow in get_monotonic_boottime <Colin Cross> 4 days ago
+cf85cc9 : timekeeping: Avoid possible deadlock from clock_was_set_delayed <John Stultz> 9 weeks ago
+ab99a94 : rtc-cmos: Add an alarm disable quirk <Borislav Petkov> 7 months ago
+dbf3239 : sched/rt: Avoid updating RT entry timeout twice within one tick period <Ying Xue> 1 year, 7 months ago
+f61eb9c : sched: Unthrottle rt runqueues in __disable_runtime() <Peter Boonstoppel> 1 year, 6 months ago
+1e5c13e : sched,rt: fix isolated CPUs leaving root_task_group indefinitely throttled <Mike Galbraith> 1 year, 6 months ago
+21b53ba : sched/rt: Fix SCHED_RR across cgroups <Colin Cross> 1 year, 9 months ago
+d5c2029 : hpfs: deadlock and race in directory lseek() <Al Viro> 9 months ago
+d7c16d1 : PCI: Enable ARI if dev and upstream bridge support it; disable otherwise <Yijing Wang> 1 year, 1 month ago
+27fb12b : drm/radeon/DCE4+: clear bios scratch dpms bit (v2) <Alex Deucher> 3 weeks ago
+00a67d1 : drm/radeon: set the full cache bit for fences on r7xx+ <Alex Deucher> 4 weeks ago
+790d844 : drm/radeon: skip colorbuffer checking if COLOR_INFO.FORMAT is set to INVALID <Marek Olšák> 5 weeks ago
+e449619 : radeon/pm: Guard access to rdev->pm.power_state array <Michel Dänzer> 5 weeks ago
+aea570e : drm/radeon: warn users when hw_i2c is enabled (v2) <Alex Deucher> 5 weeks ago
+11690e1 : dm space map common: make sure new space is used during extend <Joe Thornber> 5 weeks ago
+39bbeb6 : dm: wait until embedded kobject is released before destroying a device <Mikulas Patocka> 6 weeks ago
+b0c0d5a : sunrpc: Fix infinite loop in RPC state machine <Weston Andros Adamson> 8 weeks ago
+b5f0608 : nfs4.1: properly handle ENOTSUP in SECINFO_NO_NAME <Weston Andros Adamson> 5 weeks ago
+3c16dfe : NFSv4: OPEN must handle the NFS4ERR_IO return code correctly <Trond Myklebust> 2 months ago
+8b939c2 : spidev: fix hang when transfer_one_message fails <Daniel Santos> 6 weeks ago
+2332020 : IB/qib: Fix QP check when looping back to/from QP1 <Ira Weiny> 8 weeks ago
+0cc70c5 : ore: Fix wrong math in allocation of per device BIO <Boaz Harrosh> 3 months ago
+0b90937 : mtd: mxc_nand: remove duplicated ecc_stats counting <Michael Grzeschik> 3 months ago
+3111943 : ACPI / init: Flag use of ACPI and ACPI idioms for power supplies to regulator API <Mark Brown> 3 weeks ago
+4c6544f : turbostat: Use GCC's CPUID functions to support PIC <Josh Triplett> 6 months ago
+b06c0a0cc : slub: Fix calculation of cpu slabs <Li Zefan> 5 months ago
+6fadde4 : mmc: atmel-mci: fix timeout errors in SDIO mode when using DMA <Ludovic Desroches> 3 months ago
+cd1188e : audit: correct a type mismatch in audit_syscall_exit() <AKASHI Takahiro> 5 weeks ago
+5593165 : intel-iommu: fix off-by-one in pagetable freeing <Alex Williamson> 3 weeks ago
+ef609ed : SELinux: Fix memory leak upon loading policy <Tetsuo Handa> 6 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_omap4-common ****
+261110a : fix false disconnect due to a signal sent to the reading process <keunyoung> 2 weeks ago
+5c29453 : SELinux: Fix kernel BUG on empty security contexts. <Stephen Smalley> 2 weeks ago
+0a164ac : netfilter: xt_IDLETIMER: Revert to retain the kernel API format. <Ashish Sharma> 10 days ago
+3ac5706 : SELinux: Fix possible NULL pointer dereference in selinux_inode_permission() <Steven Rostedt> 5 weeks ago
+122566a : nf: xt_qtaguid: fix handling for cases where tunnels are used. <JP Abgrall> 8 weeks ago
+3bbeb0b : ping: prevent NULL pointer dereference on write to msg_name <Hannes Frederic Sowa> 3 months ago
+4af8269 : net: ipv6: fix wrong ping_v6_sendmsg return value <Lorenzo Colitti> 8 months ago
+0db1b8e : net: ipv6: add missing lock in ping_v6_sendmsg <Lorenzo Colitti> 8 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+f5ef6e3 : fix mismerge - herp derp <Dan Pasanen> 20 hours ago
+a6d2ebc : Linux 3.4.80 <Greg Kroah-Hartman> 26 hours ago
+cd34de1 : 3.4.y: timekeeping: fix 32-bit overflow in get_monotonic_boottime <Colin Cross> 4 days ago
+cf85cc9 : timekeeping: Avoid possible deadlock from clock_was_set_delayed <John Stultz> 9 weeks ago
+ab99a94 : rtc-cmos: Add an alarm disable quirk <Borislav Petkov> 7 months ago
+dbf3239 : sched/rt: Avoid updating RT entry timeout twice within one tick period <Ying Xue> 1 year, 7 months ago
+f61eb9c : sched: Unthrottle rt runqueues in __disable_runtime() <Peter Boonstoppel> 1 year, 6 months ago
+1e5c13e : sched,rt: fix isolated CPUs leaving root_task_group indefinitely throttled <Mike Galbraith> 1 year, 6 months ago
+21b53ba : sched/rt: Fix SCHED_RR across cgroups <Colin Cross> 1 year, 9 months ago
+d5c2029 : hpfs: deadlock and race in directory lseek() <Al Viro> 9 months ago
+d7c16d1 : PCI: Enable ARI if dev and upstream bridge support it; disable otherwise <Yijing Wang> 1 year, 1 month ago
+27fb12b : drm/radeon/DCE4+: clear bios scratch dpms bit (v2) <Alex Deucher> 3 weeks ago
+00a67d1 : drm/radeon: set the full cache bit for fences on r7xx+ <Alex Deucher> 4 weeks ago
+790d844 : drm/radeon: skip colorbuffer checking if COLOR_INFO.FORMAT is set to INVALID <Marek Olšák> 5 weeks ago
+e449619 : radeon/pm: Guard access to rdev->pm.power_state array <Michel Dänzer> 5 weeks ago
+aea570e : drm/radeon: warn users when hw_i2c is enabled (v2) <Alex Deucher> 5 weeks ago
+11690e1 : dm space map common: make sure new space is used during extend <Joe Thornber> 5 weeks ago
+39bbeb6 : dm: wait until embedded kobject is released before destroying a device <Mikulas Patocka> 6 weeks ago
+b0c0d5a : sunrpc: Fix infinite loop in RPC state machine <Weston Andros Adamson> 8 weeks ago
+b5f0608 : nfs4.1: properly handle ENOTSUP in SECINFO_NO_NAME <Weston Andros Adamson> 5 weeks ago
+3c16dfe : NFSv4: OPEN must handle the NFS4ERR_IO return code correctly <Trond Myklebust> 2 months ago
+8b939c2 : spidev: fix hang when transfer_one_message fails <Daniel Santos> 6 weeks ago
+2332020 : IB/qib: Fix QP check when looping back to/from QP1 <Ira Weiny> 8 weeks ago
+0cc70c5 : ore: Fix wrong math in allocation of per device BIO <Boaz Harrosh> 3 months ago
+0b90937 : mtd: mxc_nand: remove duplicated ecc_stats counting <Michael Grzeschik> 3 months ago
+3111943 : ACPI / init: Flag use of ACPI and ACPI idioms for power supplies to regulator API <Mark Brown> 3 weeks ago
+4c6544f : turbostat: Use GCC's CPUID functions to support PIC <Josh Triplett> 6 months ago
+b06c0a0cc : slub: Fix calculation of cpu slabs <Li Zefan> 5 months ago
+6fadde4 : mmc: atmel-mci: fix timeout errors in SDIO mode when using DMA <Ludovic Desroches> 3 months ago
+cd1188e : audit: correct a type mismatch in audit_syscall_exit() <AKASHI Takahiro> 5 weeks ago
+5593165 : intel-iommu: fix off-by-one in pagetable freeing <Alex Williamson> 3 weeks ago
+ef609ed : SELinux: Fix memory leak upon loading policy <Tetsuo Handa> 6 weeks ago
+26d6a03 : wcnss: Fix Integer overflow <Arif Hussain> 4 months ago
+7c85467 : msm: kgsl: Verify the user address before reading a perfcounter group <Jordan Crouse> 4 months ago
+c5e5524 : net: ipv6: fix wrong ping_v6_sendmsg return value <Lorenzo Colitti> 3 weeks ago
+9c487be : net: ipv6: add missing lock in ping_v6_sendmsg <Lorenzo Colitti> 3 weeks ago
+f704820 : net: ipv6: Add IPv6 support to the ping socket. <Lorenzo Colitti> 1 year, 1 month ago
+dce9561 : ipv6: introdcue __ipv6_addr_needs_scope_id and ipv6_iface_scope_id helper functions <Hannes Frederic Sowa> 3 weeks ago
+e0db830 : msm: ADSPRPC: Fix bugs in hlist usage <Mitchel Humpherys> 12 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+4794842 : qcom_common <nuclearmistake> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Browser ****
+f920efb : Browser: fix translations <Marco Brohet> 7 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar
+cm2	https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+93147a1 : Calendar: CA translations <arnau> 4 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+74edb27 : Camera2: CA translations <arnau> 4 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+2678512 : ContactsCommon: EL translations <Michael Bestas> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+053940e : Dialer: ES translations <Lorenzo M> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+869a9e5 : InCallUI: ES translations <Lorenzo M> 2 weeks ago
+ 
+**** https://github.com/omnirom/android_packages_apps_OmniSwitch ****
+a86899e : OmniSwitch: fixed drag handle placing in immersive mode <Max Weninger> 2 days ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+27dfc33 : ... <h0rn3t> 2 hours ago
+643ee74 : ... <h0rn3t> 2 hours ago
+b771abe : ... <h0rn3t> 3 hours ago
+eb81d2c : ... <h0rn3t> 4 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+8fe6944 : Security: leave PrivacyGuard in the app security category on devices without telephony <nuclearmistake> 4 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Torch ****
+fc47567 : Torch: RU translation: migrate to Transifex <Vladislav Koldobskiy> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_SamsungServiceMode ****
+f1a2eec : SamsungServiceMode: ES translations <Lorenzo M> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_wallpapers_Galaxy4 ****
+4ae8cfb : Galaxy4: ES translations <Lorenzo M> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/vendor_motorola ****
+2fe01d0 : msm8960dt-common: Fix build barrier <dhacker29> 2 days ago
+ 
+**** https://github.com/CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser ****
+fa75ab3 : ThemeChooser: ES translations <Lorenzo M> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_vendor_tmobile_providers_ThemeManager ****
+cad3744 : ThemeManager: ES translations <Lorenzo M> 2 weeks ago
+ 

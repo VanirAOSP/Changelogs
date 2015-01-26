@@ -1,0 +1,501 @@
+
+**** https://github.com/VanirAOSP/build ****
+4bb115a : core: main: remove all the spam about including make files <cybojenix> 7 months ago
+ 
+**** https://github.com/VanirAOSP/device_asus_flo ****
+971abf5 : flo: update fingerprint to latest OTA <Dorian Snyder> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+858a828 : m8: Remote submix only accepts 48KHz <Steve Kondik> 12 hours ago
+9f496eb : m8: Cleanup audio policy <Steve Kondik> 15 hours ago
+78f7380 : overlay: route calls to mute mic through AudioManager <Dan Pasanen> 19 hours ago
+2ebc469 : m8: Enable offload for PCM/AV streaming <Steve Kondik> 19 hours ago
+dfdb547 : m8: Enable offloaded visualizer <Steve Kondik> 21 hours ago
+61f4c2e : fstab: add check on userdata partition <Dan Pasanen> 28 hours ago
+ee3ea24 : Revert "m8: update adreno from qdevenet 30 May 14 KOT49H" <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+7a66405 : hammerhead: Update build fingerprint and description to KTU84M <Tim Clark> 2 days ago
+af13e51 : hammerhead: Enable hotplug boosting <myfluxi> 10 days ago
+b9883df : hammerhead: Use CM default overlays <Lorenzo M> 5 weeks ago
+14d65d2 : hammerhead: Configure interactive frequency dependent timings <myfluxi> 4 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_moto_msm8960dt ****
+47d93ab : Use msm8960dt_mmi_defconfig <dhacker29> 22 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_qcom-common ****
+4d18468 : Update extract-files setup <dhacker29> 16 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_apq8064-common ****
+e1db6d1 : init: Ensure the modem bridge is up before triggering late_start <Ricardo Cerqueira> 2 days ago
+dc18482 : Revert "apq8064-common: Delay sensor init" <Ricardo Cerqueira> 2 days ago
+ 
+**** https://github.com/Team-Exhibit/android_device_samsung_codinalte ****
+978cda2 : codinalte:Add CAMERA_FORCE_LOAD_LIBJHEAD <C457> 11 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2lte ****
+d245372 : d2lte: disable world_phone overlay <Dan Pasanen> 23 hours ago
+1c8bf6a : d2lte: Remove unused overlay <Ethan Chen> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jflte ****
+bc562f4 : jflte: disable world_phone overlay <Dan Pasanen> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+7a64f07 : variant defconfigs are overrated, but wuhtehvs <nuclearmistake> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8974-common ****
+94e8df2 : msm8974: Override qcom-common LPM define for offmode charging <slayher> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_qcom-common ****
+ceffb48 : qcom-common: Remove duplicate overlay <Ethan Chen> 23 hours ago
+876b1bc : Revert "lpm.rc init: Fix charger mode and update pm paths." <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_common ****
+365673f : sony: common: add platform barrier <Giulio Cervera> 2 weeks ago
+ 
+**** https://github.com/nolinuxnoparty/android_device_sony_nicki ****
+f0a10fb : nicki: Enable KSM <Arnav Gosain> 29 hours ago
+8dcf907 : nicki: enable 'Eject SD card' option <RonGokhale> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_shinano-common ****
+1b38f75 : shinano: export platform on extract script <Giulio Cervera> 2 weeks ago
+73d18d7 : shinano: update blob list (17.1.1.A.402) <Giulio Cervera> 34 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_sirius ****
+9d219ed : sirius: update blob list (17.1.1.A.402) <Giulio Cervera> 34 hours ago
+d3aa923 : sirius: update signature <Giulio Cervera> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/external_bluetooth_bluedroid ****
+ef8eb8d : bluedroid: increase uhid report buffer size for wiimote <Schischu> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/external_chromium_org ****
+1b41849 : reduce cookie tracking (1/4): add a way to count cookies <Robin Humble> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/external_e2fsprogs ****
+9b3c709 : e2fsprogs: blkid: Add Flash-Friendly File System (f2fs) support <Ketut Putu Kumajaya> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_external_stagefright-plugins ****
+828c5dd : Don't use ffdshow to downmix the audio stream <Lucian Cristian> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+8ef2b5b : Fix memory leak when filtering commands in insertCommand_l() <Jesper Tragardh> 3 months ago
+d1f21a4 : stagefright: Fix mismerge <Steve Kondik> 8 weeks ago
+8356ac8 : libstagefright: set frame packing from codec config <vivek mehta> 6 weeks ago
+e94691c : libstagefright - Fix seek on audio having empty stss block <Dhananjay Kumar> 2 weeks ago
+06b33a4 : audio: Fixed condition to load AAC HW Encoder <Ramjee> 5 weeks ago
+cbe8158 : libstagefright: Fix to free buffers in error scenarios <Manikanta Kanamarlapudi> 6 weeks ago
+68bbefd : NuPlayer: Fix ANR while resetting RTSP playback <lubiny> 6 weeks ago
+bbed5f5 : audio:Avoid VideoLagUpdate if there is no AudioPlayer <Divya Narayanan Poojary> 6 weeks ago
+805b805 : libstagefright:Fix STE after extended media support <C457> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+d23c16a7 : appops: do not prune apps that are not present <Jorge Ruesga> 21 hours ago
+46b7a56 : MtpDatabase JNI: Fixed a memory-leak in getObjectPropertyValue(). <Martin Blumenstingl> 8 days ago
+a53cec9 : framework: Add compass tile (1/2) <Jacob Mueller> 4 weeks ago
+cbba737 : Use alpha channel instead of red in drawCachedGlyphBitmap <Digish Pandya> 4 weeks ago
+467c2b1 : Correct stride for drawing to cached glyph bitmap <Digish Pandya> 4 weeks ago
+ac418c9 : SystemUI: prevent NPE on clear recents double press <namagi> 4 weeks ago
+a20ab17 : Add support for default data subscription setting. <Muhammed Siju> 8 weeks ago
+d8de2d5 : Validity Period support for MO SMS in 3gpp <Sridhar Dubbaka> 2 months ago
+06b8eeb : Telephony(MSIM): Avoid NullPointerException <Sindhu Kanathur> 9 weeks ago
+2f61584 : Add string resource for UICC storage <Maunik Shah> 2 months ago
+d5cfcc3 : Set empty string to the property if value is null <Chaitanya Saggurthi> 3 months ago
+b110a97 : Add link control support <Chaitanya Saggurthi> 5 months ago
+2b48c2d : PhoneWindowManager: Changes for WFD. <Sachin Shah> 1 year, 9 months ago
+8afd6c0 : CameraTile: Launch default gallery app when long pressing active camera tile <Dan Pasanen> 5 days ago
+2d22b8a : reduce cookie tracking (3/4): add a way to count cookies <Robin Humble> 5 weeks ago
+ee13428 : Recents:  add missing TypedArray.recycle() call <PrimeDirective> 2 days ago
+62459ff : GPS QuickSetting long press action <jtsurf18> 5 days ago
+b941907 : Block signal cluster updates during swipe to notifications/QS <PrimeDirective> 3 weeks ago
+e192002 : Activity chooser "Always" button is not working <Xiong Li> 9 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+2a545c6 : Changing getPdus to use provided senderAddress to construct PDUs <Martin Gross> 4 weeks ago
+9cb6ec7 : Fix to avoid disconnected indication on call end <Susheel nyamala> 3 months ago
+83234f7 : Fix null pointer exception during data profiles reading <Sankar Gonella> 8 weeks ago
+f3dcb6d : Telephony: Implementation of IWLAN. <Yashdev Singh> 5 months ago
+f650dc3 : Clear adn records during cleanup in IccPhoneBookInterfaceManager <Muhammed Siju> 8 weeks ago
+c2c16dc : Send retry SMS over 1x <Sukanya Rajkhowa> 4 months ago
+5f5b7e9 : Fix CdmsSmsTests and NPE in CdmaSmsAddress parsing <Sukanya Rajkhowa> 3 months ago
+a11b227 : MSIM: Fix for getSimOperatorName() returning empty string <Sindhu Kanathur> 3 months ago
+166ee2a : IMS-VT: Multitasking add video pause state <Rekha Kumar> 3 months ago
+2955c7f : Validity Period support for MO SMS in 3gpp <Sridhar Dubbaka> 2 months ago
+4fd4ff7 : MSIM: Add Voicemail support in multi SIM. <Suchand Ghosh> 10 weeks ago
+ba2916f : MSIM: Add Voicemail support in multi SIM. <Suchand Ghosh> 10 weeks ago
+5cc12b1 : Reset 3gCard flag before determining if it is 3G Card. <Rakesh Pallerla> 3 months ago
+d9236f0 : Add FLAG_RECEIVER_FOREGROUND to CatService broadcast intents. <Muhammed Siju> 3 months ago
+d56aa88 : Fix error message handling for STK call control. <Muhammed Siju> 3 months ago
+620a70e : Revert "frameworks/opt: SetAudioMode for ims calls over wifi" <Anju Mathapati> 4 months ago
+032b501 : IMS-VT: Add Call types for video paused and resumed <Rekha Kumar> 3 months ago
+3815997 : Set default value of OOS property to true <Susheel nyamala> 3 months ago
+6b437f2 : Release the CellInfo lock while disposing phone object <Ravindra> 3 months ago
+645e38d : Fix for correct subscription in Cell Broadcast message <Sridhar Dubbaka> 3 months ago
+42ff79f : Add call deflection api <Pavan Kumar Tatavarthi> 4 months ago
+1fb2684 : Revert "Telephony: update property in IccCardProxy" <Muhammed Siju> 4 months ago
+e7d15a4 : Cat: Do not send TR immediately for Display_Text <Umashankar Godachi> 4 months ago
+d5349d8 : Add handover information as extra in Call Details <Shriram Ganesh> 4 months ago
+7422f81 : CallTracker: Process HANGUP before DIAL response <Hariprasad Jayakumar> 4 months ago
+b9e84dd : Add link control support <Chaitanya Saggurthi> 5 months ago
+d3e25f5 : Cat: Report stkIsRunning after StkAppService is ready. <Preeti Ahuja> 5 months ago
+b835c26 : Message priority support for 3gpp2 <Chaitanya Saggurthi> 5 months ago
+4535cde : Add call deflection api <Pavan Kumar Tatavarthi> 4 months ago
+a5ee8d2 : Telephony: Implementation of IWLAN. <Yashdev Singh> 5 months ago
+b0166fe : Ims: Add ANSWERED_ELSEWHERE DisconnectCause <Ravi Paluri> 5 months ago
+4d8fb81 : Telephony: Voice mail notification related changes <Anju Mathapati> 5 months ago
+292a1af : Telephony: update properties in IccCardProxy <luxiaol> 7 months ago
+9e17e21 : Fix OOBE crash/DoS after receiving 0-byte WAP push. <Jake Hamby> 6 months ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_telephony-msim ****
+4ccc246 : Add support for default data subscription setting. <Muhammed Siju> 8 weeks ago
+3ec8bef : MSIM: Use single baseband version for all SUB's <Chaitanya Saggurthi> 9 weeks ago
+ba33b28 : Fix the Subscription copy from method. <Umashankar Godachi> 9 weeks ago
+34958f4 : Fix for unable to read SIM contacts in APM mode. <Umashankar Godachi> 8 weeks ago
+9e24227 : Avoid DDS switch when changing sub selection between two apps in same slot. <Muhammed Siju> 9 weeks ago
+911cf33 : Validity Period support for MO SMS in 3gpp in multisim configuration <Sridhar Dubbaka> 2 months ago
+3d96350 : Correctly handle card absent event during phone shutdown. <Muhammed Siju> 10 weeks ago
+08752e8 : MSIM: Add Voicemail support in multi SIM. <Suchand Ghosh> 3 months ago
+1b1b269 : MSIM: Add Voicemail support in multi SIM. <Suchand Ghosh> 3 months ago
+ad07322 : Add FLAG_RECEIVER_FOREGROUND to CatService broadcast intents. <Muhammed Siju> 3 months ago
+5356f6d : Update subscription preferences when card is removed. <Umashankar Godachi> 4 months ago
+54b98ef : Revert "Telephony-msim: update properties in IccCardProxy" <Muhammed Siju> 4 months ago
+5418f0f : Add support for SIM availability in Flight Mode. <Rakesh Pallerla> 4 months ago
+63efd68 : Add link control support <Chaitanya Saggurthi> 5 months ago
+2807720 : Cat: Report stkIsRunning after StkAppService is Ready <Preeti Ahuja> 4 months ago
+becc82c : Message priority support for 3gpp2 <Chaitanya Saggurthi> 5 months ago
+1cf7f18 : Fix for data enable/disable not working from UI. <Muhammed Siju> 5 months ago
+b3492d5 : Telephony-msim: update properties in IccCardProxy <luxiaol> 7 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_webview ****
+552470b : reduce cookie tracking (2/4): add a way to count cookies <Robin Humble> 5 weeks ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_huawei_huawei-kernel-3.4
+https://github.com/Dazzozo/huawei-kernel-3.4 ****
+f93d840 : u8815/u8833: enable UHID and rebuild defconfigs <Daz Jones> 12 hours ago
+d7610d8 : Merge the UHID driver, backported from Linux 3.8. <Luchesar V. ILIEV> 10 months ago
+ 
+**** cm	http://github.com/CyanogenMod/android_kernel_lge_hammerhead
+https://github.com/jimsth/vanir_hammerhead ****
+331ecea : version 1.1.1 <Dan Trifan> 4 hours ago
+037208c : drivers: thermal: fix bricked with vanir rom <Dan Trifan> 4 hours ago
+eccf9ce : Revert "video: msm: Remove some cruft" <Dan Trifan> 9 hours ago
+e6c04d0 : exfat_super.c: fix misplaced #ifdef CONFIG_EXFAT_KERNEL_DEBUG <Paul Reioux> 8 weeks ago
+2fdc70d : makefile: refactor ccache use <Dan Trifan> 10 hours ago
+3dddc85 : msm: mdss: Make framebuffer ioctl aware of Ultra Low Power State <myfluxi> 26 hours ago
+b997d48 : futex: Make lookup_pi_state more robust <Thomas Gleixner> 5 days ago
+4ef3dee : futex: Always cleanup owner tid in unlock_pi <Thomas Gleixner> 5 days ago
+42c7598 : futex: Validate atomic acquisition in futex_lock_pi_atomic() <Thomas Gleixner> 5 days ago
+0fd99e2 : futex-prevent-requeue-pi-on-same-futex.patch futex: Forbid uaddr == uaddr2 in futex_requeue(..., requeue_pi=1) <Thomas Gleixner> 5 days ago
+33b5902 : msm: mdss: Issue ctl sw reset when underrun happens <Jayant Shekhar> 9 weeks ago
+d934b88 : futex: Prevent attaching to kernel threads <Thomas Gleixner> 4 weeks ago
+8cb3545 : futex: Add another early deadlock detection check <Thomas Gleixner> 4 weeks ago
+dc93612 : futex: update documentation for ordering guarantees <Davidlohr Bueso> 9 weeks ago
+44bf9c9 : futex: avoid race between requeue and wake <Linus Torvalds> 9 weeks ago
+ba76711 : futex: revert back to the explicit waiter counting code <Linus Torvalds> 3 months ago
+8306190 : futex: Allow architectures to skip futex_atomic_cmpxchg_inatomic() test <Heiko Carstens> 3 months ago
+bd80f9b : futexes: Fix futex_hashsize initialization <Heiko Carstens> 5 months ago
+608557e : futexes: Avoid taking the hb->lock if there's nothing to wake up <Davidlohr Bueso> 5 months ago
+ec5cfe9 : futexes: Document multiprocessor ordering guarantees <Thomas Gleixner> 5 months ago
+6608026 : futexes: Increase hash table size for better performance <Davidlohr Bueso> 5 months ago
+f103ac1 : futexes: Clean up various details <Jason Low> 5 months ago
+2c61376 : futex: move user address verification up to common code <Linus Torvalds> 6 months ago
+6e8ab5a : msm: mdss: Clear the previous state of pipe during SOLID_FILL <Sushil Chauhan> 5 weeks ago
+5f5570a : msm: mdss: disable irq to enforce mutex within dsi_event_thread <Kuogee Hsieh> 7 weeks ago
+35b3136 : msm: mdss: dsi: fix error handling when clk enable fails <Aravind Venkateswaran> 8 weeks ago
+f5bea5c : msm: mdss: Add support for sending panel off commands in LP mode <Padmanabhan Komanduru> 6 months ago
+d061509 : msm: mdss: dsi: check ULPS state only for active lanes <Aravind Venkateswaran> 10 weeks ago
+812d5cc : mdss: display: add spin_lock to mdss_disable_irq_nosync() <Kuogee Hsieh> 3 months ago
+c67fd5f : msm: mdss: fix DCS backlight control when broadcast mode is enabled <Padmanabhan Komanduru> 3 months ago
+771fc6e : msm: mdss: Check ctl in mdss_mdp_mixer_get before using <Pawan Kumar> 7 months ago
+50243b6 : msm: mdss: Fix clk warnings for esc clk with dual-dsi panels <Ujwal Patel> 6 months ago
+6e82396 : msm: mdss: Add BTA status check API in DSI controller <Dhaval Patel> 9 months ago
+80df1f9 : msm: mdss: refactor pipe retrieval and ref count logic <Adrian Salido-Moreno> 10 weeks ago
+1ae4a92 : msm: mdss: Turn on DSI link clocks after exiting ULPS <Aravind Venkateswaran> 3 months ago
+a1321ef : msm: mdss: Add support to selectively control bus and link clocks <Aravind Venkateswaran> 3 months ago
+496313e : msm: mdss: cleanup dsi clock handling <Aravind Venkateswaran> 3 months ago
+16388b5 : msm: mdss: add a separate register region for DSI PHY <Padmanabhan Komanduru> 4 months ago
+ca607d1 : msm: mdss: Do not program DSI PLL registers from DSI controller <Aravind Venkateswaran> 8 months ago
+1cf5c39 : msm: mdss: Move bus scale table implementation to device-tree <Ujwal Patel> 10 months ago
+307bec6 : msm: mdss: add iommu attach in bus bandwidth control request <Pawan Kumar> 5 months ago
+cf0fe68 : mdss: display: add mdp core clock to edp control <Kuogee Hsieh> 10 months ago
+1b9bfb1 : msm: clock-8974: Allow measurement of clocks in the WCNSS <Vikram Mulukutla> 6 months ago
+7a40f6b : msm: display: reduce display commit prepare waiting time <Ken Zhang> 8 weeks ago
+6f6066a : msm: mdss: Hold MDP clock Ref count in pan_display path <Jayant Shekhar> 9 weeks ago
+2ceca65 : msm: mdss: prevent dereferencing of user space pointer <Terence Hampson> 9 weeks ago
+87d2ab4 : msm: mdss: ensure pipe is halted before freeing buffers <Adrian Salido-Moreno> 4 months ago
+62d06f2 : msm: mdss: delay freeing buffers for additional vsync <Adrian Salido-Moreno> 11 months ago
+1ce9e9e : msm: mdss: add dynamic clk status check to pipe idle verification <Ujwal Patel> 5 months ago
+0cbf5cd9 : msm: mdss: restrict decimation when layer format is macro-tile <Ujwal Patel> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960dt-common ****
+9f60c53 : defconfigs: Change default schedular to ROW <dhacker29> 13 hours ago
+d5219cd : msm8960_mmi_defconfig: Disable CMA <dhacker29> 2 days ago
+92fc50c : defconfig: Update msm8960dt_mmi_defconfig to disable emu detection <dhacker29> 10 days ago
+5e02408 : defconfig: Update msm8960_mmi_defconfig for M/HD series <dhacker29> 10 days ago
+bdaefc9 : Move ghost/obake defconfig to msm8960dt_mmi_defconfig <dhacker29> 10 days ago
+c76cbbc : Fix compile when CONFIG_EMU_DETECTION is disabled. <dhacker29> 10 days ago
+b37dfd9 : Add back CONFIG_SND_SOC_TPA6165A2 <dhacker29> 10 days ago
+e5f0aab : Add diff from kitkat-mr1-release-ghost to kitkat-mr1-rel-razrm <dhacker29> 10 days ago
+4cf4c3d : net/bluetooth/hci_conn.c: GCC 4.8.x fix up again <Paul Reioux> 2 months ago
+a465d39 : Linaro 4.8 fixes <flar2> 10 months ago
+25c7b87 : Linux 3.4.91 <Greg Kroah-Hartman> 3 weeks ago
+3ddd37a : tgafb: fix mode setting with fbset <Mikulas Patocka> 5 months ago
+7dff32e : powerpc: Add vr save/restore functions <Andreas Schwab> 5 months ago
+7bd3c53 : tracepoint: Do not waste memory on mods with no tracepoints <Steven Rostedt (Red Hat)> 3 months ago
+8ed40c1 : netfilter: Can't fail and free after table replacement <Thomas Graf> 9 weeks ago
+4ede126 : net: Add net_ratelimited_function and net_<level>_ratelimited macros <Joe Perches> 2 years, 1 month ago
+4b87f40 : netfilter: nf_conntrack: reserve two bytes for nf_ct_ext->len <Andrey Vagin> 2 months ago
+14eee5b : blktrace: fix accounting of partially completed requests <Roman Pen> 3 months ago
+664c0fc : n_tty: Fix n_tty_write crash when echoing in raw mode <Peter Hurley> 5 weeks ago
+3307c63 : SCSI: megaraid: missing bounds check in mimd_to_kioc() <Dan Carpenter> 7 months ago
+f39c8bf : Linux 3.4.90 <Greg Kroah-Hartman> 4 weeks ago
+53b67ae : dm thin: fix dangling bio in process_deferred_bios error path <Mike Snitzer> 2 months ago
+b4e472e : Skip intel_crt_init for Dell XPS 8700 <Giacomo Comes> 9 weeks ago
+9a92691 : mtd: sm_ftl: heap corruption in sm_create_sysfs_attributes() <Dan Carpenter> 6 months ago
+c3a4736 : mtd: nuc900_nand: NULL dereference in nuc900_nand_enable() <Dan Carpenter> 4 months ago
+fd9a5e6 : tgafb: fix data copying <Mikulas Patocka> 5 months ago
+0e0dc73 : gpio: mxs: Allow for recursive enable_irq_wake() call <Marek Vasut> 3 months ago
+f8f3dc1 : rtlwifi: rtl8192se: Fix too long disable of IRQs <Larry Finger> 3 months ago
+04dbe2b : rtlwifi: rtl8192cu: Fix too long disable of IRQs <Larry Finger> 3 months ago
+08f36d9 : locks: allow __break_lease to sleep even when break_time is 0 <Jeff Layton> 8 weeks ago
+e45d91a : libata/ahci: accommodate tag ordered controllers <Dan Williams> 7 weeks ago
+b9fbc57 : b43: Fix machine check error due to improper access of B43_MMIO_PSM_PHY_HDR <Rafał Miłecki> 9 weeks ago
+34dc182 : mach64: fix cursor when character width is not a multiple of 8 pixels <Mikulas Patocka> 5 months ago
+caf6f52 : mach64: use unaligned access <Mikulas Patocka> 5 months ago
+7ea3044 : matroxfb: restore the registers M_ACCESS and M_PITCH <Mikulas Patocka> 5 months ago
+8b26a7a : framebuffer: fix cfb_copyarea <Mikulas Patocka> 5 months ago
+89a3abc : crypto: ghash-clmulni-intel - use C implementation for setkey() <Ard Biesheuvel> 2 months ago
+a2295c4 : mpt2sas: Don't disable device twice at suspend. <Tyler Stachecki> 6 weeks ago
+983327a : virtio_balloon: don't softlockup on huge balloon changes. <Rusty Russell> 3 months ago
+ef91467 : MIPS: Hibernate: Flush TLB entries in swsusp_arch_resume() <Huacai Chen> 3 months ago
+bfa7797 : floppy: don't write kernel-only members to FDRAWCMD ioctl output <Matthew Daley> 6 weeks ago
+a04d8ef : floppy: ignore kernel-only members in FDRAWCMD ioctl input <Matthew Daley> 6 weeks ago
+5c5aeb0 : drivers/tty/hvc: don't free hvc_console_setup after init <Tomoki Sekiyama> 5 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+22feaed : Linux 3.4.92 <Greg Kroah-Hartman> 21 hours ago
+11b9a7a : futex: Make lookup_pi_state more robust <Thomas Gleixner> 5 days ago
+a8f96ab : futex: Always cleanup owner tid in unlock_pi <Thomas Gleixner> 5 days ago
+2397889 : futex: Validate atomic acquisition in futex_lock_pi_atomic() <Thomas Gleixner> 5 days ago
+4cca4db : futex-prevent-requeue-pi-on-same-futex.patch futex: Forbid uaddr == uaddr2 in futex_requeue(..., requeue_pi=1) <Thomas Gleixner> 5 days ago
+c6f9d69 : ath9k: protect tid->sched check <Stanislaw Gruszka> 4 months ago
+a592e24 : dj: memory scribble in logi_dj <Alan Cox> 1 year, 9 months ago
+761dae9 : HID: logitech: don't use stack based dj_report structures <Marc Dionne> 2 years ago
+359c634 : PCI/ASPM: Don't touch ASPM if forcibly disabled <Joe Lawrence> 1 year, 5 months ago
+6cc43d8 : xen-netfront: reduce gso_max_size to account for max TCP header <Wei Liu> 1 year, 2 months ago
+b3c463e : net: Add net_ratelimited_function and net_<level>_ratelimited macros <Joe Perches> 2 years, 1 month ago
+8ba2272 : crypto: s390 - Fix aes-xts parameter corruption <Gerald Schaefer> 7 months ago
+f7c02bf4 : can: sja1000: fix {pre,post}_irq() handling and IRQ handler return value <Oliver Hartkopp> 7 months ago
+4381872 : backlight: atmel-pwm-bl: fix gpio polarity in remove <Johan Hovold> 7 months ago
+c341968 : mtd: m25p80: fix allocation size <Brian Norris> 11 months ago
+63badff : crypto: s390 - Fix aes-cbc IV corruption <Herbert Xu> 7 months ago
+40dccfb : mac80211: drop spoofed packets in ad-hoc mode <Felix Fietkau> 9 months ago
+595cfbc : vgacon.c: add cond reschedule points in vgacon_do_font_op <Marcelo Tosatti> 12 months ago
+18c5145 : b43: ensue that BCMA is "y" when B43 is "y" <Hauke Mehrtens> 12 months ago
+56e9240 : i2c-piix4: Add AMD CZ SMBus device ID <Shane Huang> 1 year ago
+377929f : cfg80211: check wdev->netdev in connection work <Johannes Berg> 1 year, 1 month ago
+77dcc24 : random: fix accounting race condition with lockless irq entropy_count update <Jiri Kosina> 1 year ago
+06b08fa : rapidio/tsi721: Fix interrupt mask when handling MSI <Ben Hutchings> 1 year ago
+13bbf8c : rapidio/tsi721: fix bug in MSI interrupt handling <Alexandre Bounine> 1 year ago
+c21fcbb : msi-wmi: Fix memory leak <Maxim Mikityanskiy> 1 year, 6 months ago
+7b74f33 : ixgbe: fix registration order of driver and DCA nofitication <Jakub Kicinski> 1 year, 2 months ago
+676bf08 : i2c: tegra: check the clk_prepare_enable() return value <Laxman Dewangan> 1 year, 3 months ago
+cc4b50e : speakup: lower default software speech rate <Samuel Thibault> 1 year, 9 months ago
+de1ba64 : ata_piix: Add Device IDs for Intel Lynx Point-LP PCH <James Ralston> 1 year, 10 months ago
+cd33b5a : drivers/rtc/rtc-pl031.c: restore ST variant functionality <Linus Walleij> 1 year, 4 months ago
+2b38e37 : rt2800usb: Add support for 2001:3c1e (D-Link DWA-125 rev B1) USB Wi-Fi adapter <Maia Kozheva> 1 year, 6 months ago
+8268214 : Wireless: rt2x00: Add device id for Sweex LW323 to rt2800usb.c <Jaume Delclòs> 1 year, 7 months ago
+af69184 : wireless: rt2x00: rt{2500,73}usb.c put back duplicate id <Xose Vazquez Perez> 2 years, 2 months ago
+d188fc0 : drivers/rtc/rtc-pl031.c: fix the missing operation on enable <Haojian Zhuang> 1 year, 4 months ago
+309faba : drm/radeon: always program the MC on startup <Alex Deucher> 10 months ago
+d9d3e8e : drm/radeon: fix hdmi mode enable on RS600/RS690/RS740 <Alex Deucher> 1 year, 2 months ago
+63034ae : drm/ttm: Fix memory type compatibility check <Thomas Hellstrom> 7 months ago
+465282b : drm: Pad drm_mode_get_connector to 64-bit boundary <Chris Wilson> 8 months ago
+a27d31e : drm/radeon: fix panel scaling with eDP and LVDS bridges <Alex Deucher> 9 months ago
+60b3d18 : drm/i915: try not to lose backlight CBLV precision <Jani Nikula> 10 months ago
+ac5d182 : drm/radeon: Another card with wrong primary dac adj <Ondrej Zary> 11 months ago
+9887b22 : drm/i915: ensure single initialization and cleanup of backlight device <Jani Nikula> 1 year, 2 months ago
+58fcd14 : drm/i915: Workaround incoherence between fences and LLC across multiple CPUs <Chris Wilson> 1 year, 2 months ago
+a5b5cc7 : drm/radeon: cleanup properly if mmio mapping fails <Alex Deucher> 1 year, 2 months ago
+f909046 : drm/radeon: use frac fb div on RS780/RS880 <Alex Deucher> 1 year, 2 months ago
+ace6581 : DRM/i915: Add QUIRK_INVERT_BRIGHTNESS for NCR machines. <Egbert Eich> 1 year, 8 months ago
+ce3a20e : drm/i915: add quirk to invert brightness on Packard Bell NCL20 <Jani Nikula> 1 year, 5 months ago
+1bf4029 : drm/i915: add quirk to invert brightness on eMachines e725 <Jani Nikula> 1 year, 5 months ago
+d0fa0f8 : drm/i915: add quirk to invert brightness on eMachines G725 <Jani Nikula> 1 year, 5 months ago
+678bb5d : drm/i915: panel: invert brightness acer aspire 5734z <Carsten Emde> 2 years, 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+ce6df71 : stereo call recording support <Heinz Teutsch> 5 days ago
+84e7eda : sec-battery: Standardize the output of the "online" property <Ricardo Cerqueira> 7 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_mondrianwifi ****
+c3224cc : sec-battery: Standardize the output of the "online" property <Ricardo Cerqueira> 7 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974pro ****
+62ceaf9 : futex: Validate atomic acquisition in futex_lock_pi_atomic() <Thomas Gleixner> 5 days ago
+1280157 : futex: Make lookup_pi_state more robust <Thomas Gleixner> 5 days ago
+0470f10 : futex: Always cleanup owner tid in unlock_pi <Thomas Gleixner> 5 days ago
+25f720c : futex-prevent-requeue-pi-on-same-futex.patch futex: Forbid uaddr == uaddr2 in futex_requeue(..., requeue_pi=1) <Thomas Gleixner> 5 days ago
+6f71cf3 : futex: Add another early deadlock detection check <Thomas Gleixner> 4 weeks ago
+2f2effe : futex: Prevent attaching to kernel threads <Thomas Gleixner> 4 weeks ago
+2f4f1a2 : n_tty: Fix n_tty_write crash when echoing in raw mode <Peter Hurley> 5 weeks ago
+255ee48 : new helper: iterate_fd() <Al Viro> 1 year, 10 months ago
+a38b1b1 : [backport] Hotplug thread infrastructure <Thomas Gleixner> 2 years, 2 months ago
+e23934c : driver: qpnp-vibrator: implement sysfs interface for intensity <Giulio Cervera> 5 weeks ago
+a4abb22 : [media] v4l2: Add enums to request frame bits info as extra-data <Jorge Solano Altamirano> 7 months ago
+4efff07 : msm: vidc: detect mbaff information from firmware <Arun Menon> 3 months ago
+b024045 : msm: vidc: Query the core on VIDIOC_G_FMT <Deva Ramasubramanian> 3 months ago
+019b391 : msm: vidc: Add description of LTR Extradata <Deva Ramasubramanian> 3 months ago
+7941c3c : msm: vidc: Free smem client after moving core to UNINIT <Deva Ramasubramanian> 4 months ago
+271a1f3 : msm: vidc: Provide qmenu for V4L2_CID_MPEG_VIDC_VIDEO_INTRA_REFRESH_MODE <Deva Ramasubramanian> 7 months ago
+d86a921 : msm: vidc: add control to enable Hierarchical P num layers <Arun Menon> 5 months ago
+9249f8b : msm: vidc: Add support for MBI extradata <Deva Ramasubramanian> 5 months ago
+a8ae3d7 : [media] v4l2: Add enum for frame level QP extra-data <Jorge Solano Altamirano> 7 months ago
+4950ef6 : msm: vidc: Return meaningful information for extra-data plane <Jorge Solano Altamirano> 7 months ago
+b79491c : msm: vidc: Add support to request frame bits info as extra-data <Jorge Solano Altamirano> 7 months ago
+e76c071 : msm: vidc: Add support to request frame level QP information <Jorge Solano Altamirano> 7 months ago
+ceac0e8 : msm: vidc: Add generic LTR mode support <Ashray Kulkarni> 4 months ago
+5ca3fa5 : msm: vidc: add LTR support for video encoder <Ashray Kulkarni> 7 months ago
+c16011a : msm: vidc: Bail out if ocmem allocation failed <Deva Ramasubramanian> 5 months ago
+842240b : msm: Fix high load average from uninterruptible waits <Steve Kondik> 4 months ago
+797e265 : mdss: Add newline to VSYNC timestamp <Naseer Ahmed> 3 months ago
+1572853 : mdss: Notify userspace of changes to blank status <Naseer Ahmed> 3 months ago
+d5d0e9a : msm: mdss: implement overlay prepare ioctl <Adrian Salido-Moreno> 5 months ago
+30d8f94 : shinano: add last_kmsg <Giulio Cervera> 4 months ago
+68c8b01 : shinano: update cm defconfigs <attn1> 3 days ago
+4d0adff : shinano: add cyanogemod defconfigs <Giulio Cervera> 5 weeks ago
+b587051 : Sony Broadcom Wifi driver (17.1.A.0.420) <Giulio Cervera> 5 weeks ago
+2e92623 : Merge of Sony release 17.1.1.A.420 <attn1> 3 days ago
+1ef2d3d : msm: ipa: fix potential heap overflow in intf property queries. <Venkata Aravind> 8 months ago
+b2230f1 : hwmon: qpnp-adc-current: Fix specifying batfet status <Siddartha Mohanadoss> 3 months ago
+dbccbcf : hwmon: qpnp-adc-current: Fix offset channel selection <Siddartha Mohanadoss> 3 months ago
+5bd4e41 : hwmon: qpnp-adc-voltage: Modify temperature compensation <Siddartha Mohanadoss> 4 months ago
+213f920 : hwmon: qpnp-adc-voltage: Add temperature compensation <Siddartha Mohanadoss> 4 months ago
+450b3d4 : hwmon: qpnp-adc-current: Add temperature compensation <Siddartha Mohanadoss> 4 months ago
+0b94cd0 : hwmon: qpnp-adc-current: log the compensation coefficients <Xiaozhe Shi> 6 months ago
+24d8233 : hwmon: qpnp-adc-current: fix current compensation direction <Xiaozhe Shi> 7 months ago
+4a74b3d : hwmon: qpnp-adc: add PM8110 2.0 temperature compensation info <Xiaozhe Shi> 7 months ago
+e85d569 : qpnp-pmic: revid: Add PMIC revision ID support <Siddartha Mohanadoss> 8 months ago
+5250871 : ARM: dts: msm: Add phandle to read PMIC rev-id <Siddartha Mohanadoss> 8 months ago
+b31e209 : hwmon: qpnp-adc-current: Add temperature compensation <Siddartha Mohanadoss> 9 months ago
+8f32f3f : ARM: dts: Modify BKE limiting for Krait master <Girish Mahadevan> 3 months ago
+2c284df : msm: msm_bus: Introduce multi level BKE limiting. <Girish Mahadevan> 4 months ago
+a5e4354 : qseecom: Ensure CE clk is managed properly <Zhen Kong> 3 months ago
+88180cd : qseecom: change qseecom bus scaling timer operation <Zhen Kong> 4 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+3f5d1e5 : assertion starws.next()!=NULL failed <nuclearmistake> 5 hours ago
+db4a1e4 : g2: track new kitkat sources <bart452> 11 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+bbf4858 : Use round() instead of ceil() in calculation of a2dp vol slider position <Christian Hanner> 10 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Browser ****
+8140d53 : reduce cookie tracking (4/4): onResume deletion of cookies <Robin Humble> 5 weeks ago
+f8e085a : BrowserSettings: update desktop UA string to match Chrome 33 <Steven Luo> 5 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+f7f8e61 : IMS-VT: Add IMS permission to the Dialer application. <Garik Badalyan> 4 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+97e4c86 : Underp the dialpad buttons <Steve Kondik> 4 weeks ago
+3494bb5 : MSIM(DSDA): Do not dismiss answer call UI when call active <Sandeep Gutta> 8 weeks ago
+e2d958d : IMS-VT: Don't cache SurfaceTexture of camera preview <Garik Badalyan> 3 months ago
+5127011 : Fix "Not able to answer call in the other sub when one sub has call active" <mengsun> 3 months ago
+b216c26 : Remove dependency on internal telephony <Ravindra> 3 months ago
+53dc2d3 : IMS-VT: Enable video multitasking <Garik Badalyan> 3 months ago
+5bbc60d : Deflect call test using answer call button <Pavan Kumar Tatavarthi> 4 months ago
+085e467 : Add support to Call deflection api <Pavan Kumar Tatavarthi> 4 months ago
+db38496 : Display Conference call Failure to the user <Ravindra> 4 months ago
+94a8544 : IMS-VT: Prevent surface texture destruction. <Garik Badalyan> 6 months ago
+15fb234 : IMS-VT: Consider null call as non VT call. <Garik Badalyan> 4 months ago
+8679ea4 : Voice Privacy Icon Support for CDMA <Ravindra> 5 months ago
+2f3c817 : Fix display of duplicate calls during call hold SRVCC <Shriram Ganesh> 4 months ago
+8ac17d8 : IMS-VT: Pass package name to lib-imscamera.so library. <Garik Badalyan> 5 months ago
+4bd2eee : IMS-VT: VideoPause: Provide a callback function. <Garik Badalyan> 5 months ago
+1dd4db1 : IMS-VT: Don't hide video call widgets in AVP retry mode. <Garik Badalyan> 5 months ago
+c840a7b : MSIM(DSDA): Ensure phone screen wake up on DSDA incoming call. <Muhammed Siju> 5 months ago
+15aa4cf : Update CallCard when Multiparty state change <Ravindra> 5 months ago
+7c60f71 : MS-VT: Fix camera reconfiguration <Garik Badalyan> 6 months ago
+90e069f : IMS-VT: Peer Resolution feature and split screen fix <Rekha Kumar> 8 months ago
+a16ccc5 : Ims: Silently drop the call after SRVCC <Ravi Paluri> 6 months ago
+ce03f7a : InCallUI not dismissing after end call is clicked. <Sindhu Kanathur> 6 months ago
+54ba74f : IMS-VT: Surface Texture creation fix <Rekha Kumar> 6 months ago
+024cf2b : Enable InCall UI logging <Rekha Kumar> 6 months ago
+f7288a1 : IMS-VT: Relayout VideoCallPanel to create surface textures <Garik Badalyan> 6 months ago
+fa0d370 : IMS-VT: Do not change visibility of the camera preview. <Garik Badalyan> 6 months ago
+8fc7682 : IMS-VT: Build and install libvt_jni and libimscamera_jni <Garik Badalyan> 8 months ago
+d6e8ea4 : DSDA: Add InCallUI DSDA support. <Sandeep Gutta> 7 months ago
+6660c44 : IMS-VT: Enable modify call functionality on InCallUI <Garik Badalyan> 7 months ago
+d2c9f3f : IMS-VT: Recording Buffer and CVO Features <Rekha Kumar> 7 months ago
+bb131b3 : IMS: Enable Modify Call functionality <Pavan Kumar Tatavarthi> 7 months ago
+f5bc563 :     Phone: Add support for video calls <Garik Badalyan> 8 months ago
+e710212 : IMS support for UI interface <Pavan Tatavarthi> 8 months ago
+0efaf16 : MSIM: Add multisim support. <Sandeep Gutta> 8 months ago
+9bfd2d7 : Display supplementary service dialogs for CF and CB. <Muhammed Siju> 8 months ago
+7855186 : STK Call Control feature implementation. <Sandeep Kunta> 8 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+a5aaa0e : Settings: Add compass tile (2/2) <Jacob Mueller> 4 weeks ago
+dbcb000 : Settings: Move home answer & power end call options <Michael Bestas> 3 weeks ago
+737f93c : settings: performance: Update get current values in Processor view <Christopher R. Palmer> 6 days ago
+ 
+**** https://github.com/VanirAOSP/packages_providers_MediaProvider ****
+14d4907 : Deactivate the MiniThumbFile when it is not needed. <hanpengx> 8 weeks ago
+3d7bf52 : Clean up cursors in try/finally <Mattias Nilsson> 2 months ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+d0bd012 : Disable data in manual PLMN search <Chaitanya Saggurthi> 3 months ago
+a0a847c : Disable data in manual PLMN search <Chaitanya Saggurthi> 3 months ago
+b0dbb7d : IMS-VT: Add video pause state for VT multitasking. <Garik Badalyan> 3 months ago
+ccfdf09 : Add support for default data subscription setting. <Muhammed Siju> 8 weeks ago
+b959d93 : Bluetooth: Create IBluetoothDsdaService. <Nitin Srivastava> 3 months ago
+32b7261 : MSIM: Clean up the calls in DISCONNECTED properly. <Sandeep Kunta> 9 weeks ago
+848eafe : Correct the logic for isSimPresent method. <Rakesh Pallerla> 4 months ago
+8a50a55 : Display correct message while importing contacts in APM <Rakesh Pallerla> 5 months ago
+7b7b9a7 : MSIM: Voicemail notification for MSIM. <Suchand Ghosh> 3 months ago
+9c6ae0c : MSIM: Voicemail notification for MSIM. <Suchand Ghosh> 3 months ago
+74c467f : Call cleanOtaScreen when otasp call is disconnected. <Ravindra> 5 months ago
+60a23b8 : MSIM: Extend Emergency redial feature for DSDS <Sandeep Kunta> 4 months ago
+5e8835c : IMS-VT: Enable video multitasking <Garik Badalyan> 3 months ago
+ccb5196 : IMS-VT: Define permission for IMS socket. <Garik Badalyan> 4 months ago
+7570158 : IMS-VT: Add video call quality preference. <Garik Badalyan> 5 months ago
+f4b6621 : Add support to call deflection api <Pavan Kumar Tatavarthi> 4 months ago
+458b043 : Ims: Do not process Disconnect indication for SRVCC case <Ravi Paluri> 4 months ago
+9163ea9 : Voice Privacy Icon Support for CDMA <Ravindra> 5 months ago
+0308e52 : MSIM (DSDA): Fix distorted tone issue when call waits on other sub. <Suchand Ghosh> 4 months ago
+84bb1b5 : Display Conference call Failure to the user <Ravindra> 4 months ago
+19dfc2e : Phone: Network settings will force close after setting language as Chinese <Susheel nyamala> 4 months ago
+1e700be : IMS: Handle cdma conference call scenario <Anju Mathapati> 4 months ago
+5aeb999 : MSIM: Do not allow voice call on other sub <Sandeep Kunta> 5 months ago
+bb2b7eb : Ims: Add ANSWERED_ELSEWHERE DisconnectCause <Ravi Paluri> 5 months ago
+bf4e67b : IMS: Initiate emergency calls on IMS phone <Anju Mathapati> 5 months ago
+6728ff0 : Add support to use Ims Service directly for service status update <Shriram Ganesh> 5 months ago
+ 
+**** https://github.com/VanirAOSP/vendor_asus ****
+6afe8fc : flo: Update proprietary libs <Ethan Chen> 3 days ago
+81d035d : Nexus 7 (Wi-Fi) binaries for Android 4.4.3 (KTU84L) <dhacker29> 6 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_htc ****
+f7ce7b0 : dlx: update adreno from qdevenet 30 May 14 KOT49H <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_lge ****
+f746c5f : hammerhead: Update proprietary libs <Ethan Chen> 3 days ago
+9b928a6 : mako: Update copyright headers <Ethan Chen> 3 days ago
+828d574 : mako: Update proprietary libs <Ethan Chen> 3 days ago
+7ef3b37 : [DO NOT MERGE] g2: update blobs to 4.4.2 <bart452> 11 days ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_oppo ****
+8dcbb1c : apq8064: Updated hci_qcomm_init <Ricardo Cerqueira> 2 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+af29c36 : Fix camera on ste devices <C457> 2 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+7319c78 : shinano: updated blob from 17.1.1.A.402 <Giulio Cervera> 30 hours ago
+dba8a10 : nicki: use our own adreno blobs <RonGokhale> 7 days ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+4cff2a7 : new boot animation <PrimeDirective> 6 weeks ago
+a945616 : nuclearwinter: hammerhead thermal fix <Dan Trifan> 3 days ago
+ 

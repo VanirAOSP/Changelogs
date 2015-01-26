@@ -1,0 +1,125 @@
+
+**** https://github.com/VanirAOSP/build ****
+8cab1d7 : Revert "Revert "Revert "Don't wipe cache and dalvik""" <nuclearmistake> 15 minutes ago
+72d8b89 : Add an opt-out environment variable for build completion notifications <nuclearmistake> 22 minutes ago
+e9fdbf0 : Make use of a QUIET repo repo conditional on existence of an environment variable <Chris Heffley> 13 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_lge_p880 ****
+a2e11b1 : RIL: Change the init sequence again <Ricardo Cerqueira> 2 weeks ago
+e7b2807 : Disable BLE options in bluedroid <Ricardo Cerqueira> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_moto_msm8960 ****
+0c3cd54 : snd_soc_msm_2x: Remove redundant and misplaced Dock sections <nadlabak> 16 hours ago
+ 
+**** https://github.com/rebelos/android_device_sony_nicki ****
+451cc8d : Fnalise Vanir& CM in CM-11 <rebelos> 39 minutes ago
+cd50c33 : Bring up Philz CWM <rebelos> 44 minutes ago
+e26149e : clean up and consolidation <rebelos> 48 minutes ago
+25217b6 : reenable a overlay Beanstalk coming.. <rebelos> 55 minutes ago
+ 
+**** https://github.com/CyanogenMod/android_external_libselinux
+cm2	https://github.com/CyanogenMod/android_external_libselinux ****
+db21feb : Don't read selinux policies from /data <Nick Kralevich> 9 days ago
+833cbd6 : Disable restorecon_last usage for restorecon /data/data. <Stephen Smalley> 3 weeks ago
+274e0f6 : Add support for path= specifier in seapp_contexts. <Stephen Smalley> 4 weeks ago
+027670d : Only restorecon /data/data if passed an explicit flag. <Stephen Smalley> 4 weeks ago
+ab40ea9 : Get rid of security_context_t and fix const declarations. <Stephen Smalley> 4 weeks ago
+84cdd3e : Apply const to SELboolean array and name field. <Stephen Smalley> 5 weeks ago
+1b478ea : Convert all selinux_android_restorecon and _setfilecon calls to new API. <Stephen Smalley> 6 weeks ago
+f61f979 : Replace obsolete selinux_android_restorecon* functions with macros. <Stephen Smalley> 6 weeks ago
+e183cec : Extend restorecon to handle app data directories correctly. <Stephen Smalley> 6 weeks ago
+08587cf : Unify toolbox restorecon and libselinux restorecon implementations. <Stephen Smalley> 7 weeks ago
+b77c036 : Fix return value of selinux_android_restorecon. <Stephen Smalley> 6 weeks ago
+0a10104 : Do not log the file_contexts digest/hash value. <Stephen Smalley> 7 weeks ago
+826cc29 : Only apply restorecon_recursive when file_contexts changes. <Stephen Smalley> 7 weeks ago
+7fc97fb : Move restorecon and restorecon_recursive code to libselinux. <Stephen Smalley> 7 weeks ago
+13e1ceb : Remove unused structure and code. <Stephen Smalley> 8 weeks ago
+0dbac4e : Fix a bug in the userspace AVC that broke per-domain permissive mode. <Stephen Smalley> 3 months ago
+df1ece2 : Use a fixed string for the level rather than the caller's range. <Stephen Smalley> 4 months ago
+2c41f9f : Remove dead code <Nick Kralevich> 4 months ago
+833cba6 : Clean up more c++ errors <Nick Kralevich> 4 months ago
+5b91e62 : Clean up some (void *) assignments. <Nick Kralevich> 4 months ago
+e3615f9 : seapp_contexts support for prefix matching on name <William Roberts> 6 months ago
+8ed4242 : Use NULL instead of 0 as terminator to array <William Roberts> 11 months ago
+ 
+**** https://github.com/VanirAOSP/external_sepolicy ****
+fa9a6f3 : sepolicy: Fix more denials <Steve Kondik> 8 hours ago
+268ab14 : Get rid of separate download_file type. <Stephen Smalley> 9 days ago
+801327a : Adding permissions needed to remove cache <jaejyn.shin> 3 months ago
+5da6b8a : Get rid of separate platform_app_data_file type. <Stephen Smalley> 9 days ago
+4dd1199 : Let installd relabel the lib symlinks <Ricardo Cerqueira> 14 hours ago
+b59cdd0 : Make bluetooth, nfc, radio and shell adb-installable <Takeshi Aimi> 4 months ago
+49ac673 : Allow installd to restorecon /data/data. <Stephen Smalley> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+0bf4839 : Revert "fb: Incoming Call in Background (3/3)" -->  Non-intrusive is better <DHOMD> 19 hours ago
+21c645c : Fix WifiHandler for MSim <dhacker29> 34 hours ago
+961fffc : Convert all selinux_android_restorecon and _setfilecon calls to new API. <Stephen Smalley> 6 weeks ago
+fec0d0d : Allow PMS to restorecon directories under /data. <Robert Craig> 2 weeks ago
+cbdb6a8 : Augment SELinuxMMAC functionality. <Robert Craig> 4 months ago
+cf568d1 : msim: Add support for H+ icons <dhacker29> 32 hours ago
+b063eeb : Revert "[1/4] Dialer lookup" <nuclearmistake> 33 hours ago
+cbfee0c : Fix to memory leak leaving WallpaperCropActivity. <Daniel 2 Olofsson> 8 days ago
+5fcefd8 : Change SQL to improve performance. <muzbit.kim> 10 days ago
+fc9a6d0 : Prevent a duplicated registration of Observers <muzbit.kim> 10 days ago
+ff99f60 : Null pointer exception in FileRotator.java <Mikael Gullstrand> 3 months ago
+76e751b : NULL previous background bitmap upon changing wallpaper <jshe32X> 5 months ago
+db8f8aa : NsdService does not clean up after exiting clients <Dave Platt> 2 weeks ago
+7084163 : Audio: Fixed system/call stream volume can't adjust with HS connected. <Guo Xie> 7 months ago
+a2b55a5 : Harden NsdManager against null-dereference crashes <Dave Platt> 3 weeks ago
+ee1acd0 : Avoid duplication of AppWindowToken in created Task <Yevgen Pronenko> 4 weeks ago
+b1bd438 : remove extra file from cherry-fail <PrimeDirective> 2 days ago
+0ae2cf1 : AudioService: Fix absolute volume for AVRCP <Andrzej Kaczmarek> 10 days ago
+1cf9280 : remove unnecessary switchUser call <Jianzheng Zhou> 5 months ago
+be61b7e : Round off when calculate next step in Seekbar <Marcus Danielsson> 11 months ago
+a03bf0a : Remove stray logging statement. <Narayan Kamath> 10 days ago
+a6bbfa8 : ANR caused by incorrect cleanup in BroadcastQueue. <Guobin Zhang> 2 weeks ago
+2555904 : Fix descriptor leak after accepting connections <Dave Platt> 4 months ago
+1256458 : Fix null check for BaseObj.equals. <Tim Murray> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+de7e518 : Convert all selinux_android_restorecon and _setfilecon calls to new API. <Stephen Smalley> 6 weeks ago
+f2337c9 : Proper security labeling of multi-user data directories. <Robert Craig> 8 months ago
+794a0ae : restorecon /data/media when re-creating it for multi-user upgrade. <Stephen Smalley> 3 months ago
+efbaaa6 : Extend installd to support SELinux restorecon function. <Robert Craig> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_rs ****
+3bae1a1 : Solve four separate memory leaks related to rsdHalInit <Jens Gulin> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display-caf ****
+85fbd3f : Enable build with postproc if requested <Steve Kondik> 13 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+6ed9888 : Don't hide baseband on dual sim devices <dhacker29> 3 days ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+f72ceb5 : Revert "Telephony: Incoming Call in Background (2/3)"  || I hate it, non intrusive is soo much better <DHOMD> 19 hours ago
+e351c40 : [2/3] Telephony: Flip to Mute/Reject Call <Sasikumar D R> 2 months ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+6154f7c : Handle policy reloads within ueventd rather than restarting it. <Stephen Smalley> 11 months ago
+267338a : Expose /dev/hw_random to group "system". <Alex Klyubin> 6 months ago
+ca9afa9 : Add -D option to restorecon for relabeling /data/data. <Stephen Smalley> 4 weeks ago
+cdd5238 : Convert all selinux_android_restorecon and _setfilecon calls to new API. <Stephen Smalley> 6 weeks ago
+5b2e126 : Unify toolbox restorecon and libselinux restorecon implementations. <Stephen Smalley> 7 weeks ago
+84fa9be : Revert "toolbox: Add levelFromUid categorization support to restorecon" <Ricardo Cerqueira> 20 hours ago
+78e03a2 : Apply restorecon_recursive to all of /data. <Stephen Smalley> 6 weeks ago
+d9ef0ee : Trigger a policy reload from post-fs-data. <Stephen Smalley> 7 months ago
+e6d6bcd : Move creation of /data/misc/wifi and /data/misc/dhcp to main init.rc file. <Stephen Smalley> 7 weeks ago
+38e85b9 : Move restorecon and restorecon_recursive code to libselinux. <Stephen Smalley> 7 weeks ago
+c37b2b8 : Set security context of /adb_keys and /data/misc/adb/adb_keys. <Stephen Smalley> 6 months ago
+0ad86b4 : Apply strict SELinux checking of PROT_EXEC on mmap/mprotect calls. <Stephen Smalley> 3 months ago
+5f5bc4f : Run the console service shell in the shell domain. <Stephen Smalley> 3 months ago
+9ce39c0 : Do not change ownership on /sys/fs/selinux/enforce. <Stephen Smalley> 3 months ago
+ 
+**** https://github.com/VanirAOSP/system_vold ****
+b246446 : Avoid segv by checking argc in "storage user <mountpoint>" <JP Abgrall> 9 days ago
+005c884 : Convert all selinux_android_restorecon and _setfilecon calls to new API. <Stephen Smalley> 5 weeks ago
+83b686e : Add SELinux restorecon calls on ASEC containers. <Robert Craig> 6 weeks ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+a49511a : Add more VZW numerics to SPN list <Jon Mooney> 3 weeks ago
+19633ae : Revert "Add SELinux filesystem relabeling to init" <Ricardo Cerqueira> 18 hours ago
+c3e3369 : Switch over to moto unified builds <timpohladthomas> 4 weeks ago
+ 

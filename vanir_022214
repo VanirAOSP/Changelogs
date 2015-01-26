@@ -1,0 +1,152 @@
+
+**** https://github.com/VanirAOSP/art ****
+33ba614 : Remove old fork-and-specialize API <Dave Platt> 9 days ago
+ 
+**** https://github.com/VanirAOSP/build ****
+fbeacf3 : build: give CPPFLAGS some love, and make FPU  handling smarter for non-vanirified device trees <nuclearmistake> 19 hours ago
+4baa3fb : Allow complete opt out of per-arch toolchains with TARGET_KERNEL_USE_AOSP_TOOLCHAIN:=true <nuclearmistake> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+c837fee : omap4-common: define BOARD_HAVE_PRE_KITKAT_AUDIO_BLOB <Michael Gernoth> 15 hours ago
+ 
+**** https://github.com/VanirAOSP/external_clang ****
+9ba1970 : Clang: AST: properly fix aliasing violations <nuclearmistake> 33 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+5583cd9 : Enable nav bar for devices with hardware keys <nuclearmistake> 22 hours ago
+fcb1c91 : Make default immersive mode style be the stock immersive mode style <nuclearmistake> 20 hours ago
+6ebd10b : navbar: make empty space not create a lightsout target <PrimeDirective> 4 days ago
+c34360b : rework immersive mode => immersive desktop <PrimeDirective> 4 days ago
+dc19106 : SearchPanelView: disable gesture debugging <PrimeDirective> 28 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960dt-common ****
+45e8447 : f2fs: drop obsolete node page when it is truncated <Jaegeuk Kim> 5 weeks ago
+b9b9711 : f2fs: introduce NODE_MAPPING for code consistency <Jaegeuk Kim> 5 weeks ago
+974a24a : f2fs: remove the orphan block page array <Gu Zheng> 5 weeks ago
+df4c187 : f2fs: add help function META_MAPPING <Gu Zheng> 5 weeks ago
+a5f0ec0 : f2fs: move a branch for code redability <Jaegeuk Kim> 5 weeks ago
+d2fc313 : f2fs: call mark_inode_dirty to flush dirty pages <Jaegeuk Kim> 5 weeks ago
+587364c : f2fs: clean checkpatch warnings <Chris Fries> 5 weeks ago
+5dc0af5 : f2fs: missing REQ_META and REQ_PRIO when sync_meta_pages(META_FLUSH) <Changman Lee> 5 weeks ago
+8b898f0 : f2fs: avoid f2fs_balance_fs call during pageout <Jaegeuk Kim> 5 weeks ago
+8c702da : f2fs: add delimiter to seperate name and value in debug phrase <Changman Lee> 6 weeks ago
+ea3283c : f2fs: use spinlock rather than mutex for better speed <Gu Zheng> 6 weeks ago
+b6b7699 : f2fs: move alloc new orphan node out of lock protection region <Gu Zheng> 6 weeks ago
+7b258f0 : f2fs: move grabing orphan pages out of protection region <Gu Zheng> 6 weeks ago
+de45956 : f2fs: remove the needless parameter of f2fs_wait_on_page_writeback <Yuan Zhong> 6 weeks ago
+09d0b27 : f2fs: add a sysfs entry to control max_victim_search <Jaegeuk Kim> 7 weeks ago
+b9364c1 : f2fs: improve write performance under frequent fsync calls <Jaegeuk Kim> 7 weeks ago
+891176f : f2fs: avoid to read inline data except first page <Chao Yu> 8 weeks ago
+fcfdfc2 : f2fs: avoid to left uninitialized data in page when read inline data <Chao Yu> 8 weeks ago
+38bd2cf : f2fs: fix truncate_partial_nodes bug <shifei10.ge> 4 months ago
+ad6be41 : f2fs: handle errors correctly during f2fs_reserve_block <Jaegeuk Kim> 8 weeks ago
+fee749d : f2fs: add inline_data recovery routine <Jaegeuk Kim> 8 weeks ago
+b150dba : f2fs: add the number of inline_data files to status info <Jaegeuk Kim> 3 months ago
+76de41e : f2fs: refactor f2fs_convert_inline_data <Jaegeuk Kim> 8 weeks ago
+c5c1f05 : f2fs: call f2fs_put_page at the error case <Jaegeuk Kim> 8 weeks ago
+ed6f978 : f2fs: convert inline_data for punch_hole <Jaegeuk Kim> 8 weeks ago
+cfb0d6d : f2fs: don't need to get f2fs_lock_op for the inline_data test <Jaegeuk Kim> 8 weeks ago
+90a4a33 : f2fs: handle inline data operations <Huajun Li> 3 months ago
+9bf5089 : f2fs: key functions to handle inline data <Huajun Li> 3 months ago
+106834e : f2fs: convert max_orphans to a field of f2fs_sb_info <Gu Zheng> 8 weeks ago
+65fb8e2 : f2fs: check the blocksize before calling generic_direct_IO path <Jaegeuk Kim> 8 weeks ago
+0dd617d : f2fs: should put the dnode when NEW_ADDR is detected <Jaegeuk Kim> 8 weeks ago
+f36c191 : f2fs: introduce F2FS_INODE macro to get f2fs_inode <Jaegeuk Kim> 8 weeks ago
+f084aad : f2fs: check filename length in recover_dentry <Chao Yu> 9 weeks ago
+6c2a038 : f2fs: avoid to set wrong pino of inode when rename dir <Chao Yu> 9 weeks ago
+d03e0c8 : f2fs: update several comments <Chao Yu> 9 weeks ago
+a0e578e : f2fs: remove the rw_flag domain from f2fs_io_info <Gu Zheng> 9 weeks ago
+c678314 : f2fs: move all the bio initialization into __bio_alloc <Gu Zheng> 9 weeks ago
+21f2d45 : f2fs: write dirty meta pages collectively <Jaegeuk Kim> 10 weeks ago
+6480270 : f2fs: introduce a new direct_IO write path <Jaegeuk Kim> 10 weeks ago
+28a7ab8 : f2fs: introduce sysfs entry to control in-place-update policy <Jaegeuk Kim> 4 months ago
+b27174f : f2fs: missing kmem_cache_destroy for discard_entry <Changman Lee> 2 months ago
+03b466e : f2fs: fix the location of tracepoint <Jaegeuk Kim> 2 months ago
+b11e923 : f2fs: refactor bio->rw handling <Jaegeuk Kim> 2 months ago
+16115a4 : f2fs: merge pages with the same sync_mode flag <Fan Li> 3 months ago
+e1ef462 : f2fs: add unlikely() macro for compiler more aggressively <Jaegeuk Kim> 3 months ago
+33614ad : f2fs: add unlikely() macro for compiler optimization <Chao Yu> 3 months ago
+7c0e099 : f2fs: avoid unneeded page release for correct _count of page <Chao Yu> 3 months ago
+8065a97 : f2fs: use inner macro GFP_F2FS_ZERO for simplification <Chao Yu> 3 months ago
+edef10e : f2fs: replace the debugfs_root with f2fs_debugfs_root <Younger Liu> 3 months ago
+fb72ce3 : f2fs: remove debufs dir if debugfs_create_file() failed <Younger Liu> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_omap4-common ****
+a814426 : omap4-common: [moto] update Qualcomm Gobi 2000-driver <Michael Gernoth> 28 hours ago
+c272019 : cpufreq: Fix sysfs deadlock with concurrent hotplug/frequency switch <Stephen Boyd> 1 year, 7 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+f6e3158 : ARM/dt: msm8974-gpu: Enable qcom bus-control <myfluxi> 8 weeks ago
+97894c0 : PM: devfreq: Fix simple_ondemand crashing on startup <myfluxi> 13 days ago
+45149e5 : sched: convert WARN_ON() to printk_sched() in try_to_wake_up_local() <Syed Rameez Mustafa> 4 weeks ago
+90ff374 : mmc: queue: do not clean current request when urgent in progress <Konstantin Dorfman> 3 weeks ago
+9f2ec25 : block: do not notify urgent request, when flush with data in flight <Tatyana Brokhman> 4 weeks ago
+9b62633 : ASoc: msm: qdsp6v2: Fix for NULL check <Mingming Yin> 3 months ago
+8b16c43 : ASoC: msm: qdsp6v2: ASM changes to use stream id as token parameter <Krishnankutty Kolathappilly> 5 weeks ago
+bf47994 : ASoC: msm: Condition change to feed buffer on resume <Haynes Mathew George> 3 months ago
+d5aa52b : ASoC: Compress: Remove unused hw_params pointer <Kenneth Westfield> 3 weeks ago
+179f089 : ASoC: msm: qdsp6v2: check if backend active before querying RMS <Jitendra Singh Naruka> 6 weeks ago
+2f36845 : ASoC: msm: qdsp6v2: clear old memhandle list when SSR happens <Laxminath Kasam> 6 weeks ago
+d7a20d9 : ASoC: msm: qdsp6v2: Wait for stream to be available in gapless playback <Krishnankutty Kolathappilly> 7 weeks ago
+96d98e0 : sched,cgroup: Fix up task_groups list <Mike Galbraith> 1 year, 7 months ago
+74cf73f : msm: camera: Add defensive check in ISPIF driver <Sreesudhan Ramakrish Ramkumar> 6 weeks ago
+c80f40f : msm: camera: Limit print in default case of JPEG <Yiduo Wang> 9 weeks ago
+c1b1421 : msm:camera: Limit prints in isp <Yiduo Wang> 10 weeks ago
+839cb5c : msm: camera: Cleanup msm generic buf queue handling <Hariram Purushothaman> 3 months ago
+04ee3c2 : msm: camera: Fix possible NULL pointer dereference. <Petar Sivenov> 4 months ago
+855883e : msm: camera: Error prints added in during camera open <Aditya Jonnalagadda> 9 weeks ago
+eeef024 : msm: camera_v2: cci: check for NULL pointer <Georgi Hristov> 5 months ago
+1b20946 : msm: camera2: cpp: Release vb2 buffer in cpp driver on error <Rajakumar Govindaram> 6 months ago
+b5e3844 : msm: camera: Maintain buffer queue in isp buf manager <Aditya Jonnalagadda> 3 months ago
+be077e9 : msm: camera: Fix for memory leaks and error handlers. <Azam Sadiq Pasha Kapatrala Syed> 3 months ago
+216d6b1 : msm: Fixing the Green frame issue in Raw snapshot <Abhishek Kondaveeti> 3 months ago
+dad6d02 : camera_v2: Use JPEG_DBG instead of JPEG_ERR for some messages <Kamen Kirov> 4 months ago
+57127e6 : msm: camera2: cpp: Added protection for Timeout processing. <Rajakumar Govindaram> 3 months ago
+d715533 : msm: camera: Cleanup msm generic buf queue on userspace crash <Hariram Purushothaman> 3 months ago
+4525136 : camera_v2: JPEG 1.0: add alignment check on register offset <Kamen Kirov> 3 months ago
+7af2ce0 : msm: camera2: cpp: Reduce debug prints in cpp driver <Rajakumar Govindaram> 5 months ago
+a67bd56 : msm: camera: Add retry mechanism to detect camera sensor <Wei Ding> 6 weeks ago
+7427713 : mdss: Fix writeback <Naseer Ahmed> 5 months ago
+7c1e533 : msm: mdss: Call wait4comp after commit for wb intf <Dhaval Patel> 4 months ago
+fbd14fc : msm: mdss: expose MDP capabilities through sysfs <Adrian Salido-Moreno> 8 months ago
+662d9d6 : msm: mdss: Control histogram intr and clk in suspend cases <Carl Vanderlip> 4 months ago
+9b69e54 : msm: mdss: Fix NULL pointer deference in mdss_mdp_overlay_handle_vsync <Jayant Shekhar> 4 months ago
+ca1a993 : mdss: Increase display commit thread priority <Naseer Ahmed> 5 months ago
+e549fff : msm: mdss: Returning NOTIFY_SUSPEND while polling NOTIFY_UPDATE <Krishna Chaitanya Parimi> 8 weeks ago
+0c50897 : msm: mdss: remove interruptible timeout waits <Ujwal Patel> 3 months ago
+691dc0e : msm: mdss: call suspend and resume panel events during runtime triggers <Sree Sesha Aravind Vadrevu> 5 weeks ago
+c471c72 : msm: mdss: Check extra mmb allocated to a pipe <Mayank Chopra> 3 months ago
+d3efea4 : msm: mdss: move rotator SMP reservation to rotator setup <Adrian Salido-Moreno> 9 weeks ago
+87d861b : msm: mdss: Avoid variable overloading <Shalabh Jain> 4 months ago
+e15fdae : msm: mdss: do proper error handling in case of rotator setup fail <Adrian Salido-Moreno> 9 weeks ago
+af99de9 : msm: mdss: Fix mdss iommu detach-attach issue <Pawan Kumar> 8 weeks ago
+b85d58c : msm: mdss: Add BTA status check API in DSI controller <Dhaval Patel> 6 months ago
+23d8a99 : msm: mdss: Add NULL pointer checks in mdss_mdp_wb_set_secure <Jayant Shekhar> 4 months ago
+9a5ee8f : video: mdss: Clean up rotator merge <Steve Kondik> 4 weeks ago
+f7d9c3e : msm: mdss: Return suspend without delay in NOTIFY UPDATE <Krishna Chaitanya Parimi> 7 weeks ago
+18088b2 : msm: mdss: Reset pipe's mfd parameter during pipe free <Mayank Chopra> 5 weeks ago
+fdc43c1 : mdss: Correct the solid fill color swap for mdp3 <Shivaraj Shetty> 3 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+5b951f0 : ares == greek god of war -- aries == I9000 <nuclearmistake> 17 hours ago
+7f40ad5 : I9000B is dead. LONG LIVE THE I9000. <nuclearmistake> 17 hours ago
+da613d1 : bottleservice: handle default remote+revision more inteligently <nuclearmistake> 18 hours ago
+cdd9069 : Kill vestigial yuga kernel line and wildcard gee\* <nuclearmistake> 18 hours ago
+a08a522 : hlte's kernel: wip ==> cm-11.0 <nuclearmistake> 18 hours ago
+d613813 : Use ts1506 kernel for galaxys*mtd (props to driodmaster@XDA) <nuclearmistake> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+39a9e84 : Allow navbar on hardware key devices, and overhaul immersive mode overhaul <nuclearmistake> 20 hours ago
+a9dbd66 : rework immersive mode => immersive desktop <PrimeDirective> 4 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_motorola ****
+bd95e18 : msm8226: Update props from KXB20.25-1.31 <dhacker29> 3 days ago
+44e6060 : moto_msm8960dt: Update props from KXA20.16-1.26 <dhacker29> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+deb6d61 : I9000B is dead. LONG LIVE THE I9000. <nuclearmistake> 17 hours ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+73a1163 : I9000B is dead. LONG LIVE THE I9000. <nuclearmistake> 17 hours ago
+ 

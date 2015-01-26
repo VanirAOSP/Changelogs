@@ -1,0 +1,115 @@
+
+**** https://github.com/VanirAOSP/device_asus_tf700t ****
+285ee07 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_mako ****
+ace82d6 : mako: enable echo cancellation for voice communication <Pawit Pornkitprasan> 8 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_apq8064-common ****
+945c8b7 : apq8064-common: Remove unused init entries <Ethan Chen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+75cc2c3 : Typo <Daniel Moran (garwynn)> 3 hours ago
+cad790f : more fixes <Daniel Moran (garwynn)> 3 hours ago
+3512273 : remove test (mm-gesture-daemon shouldn't be here. <Daniel Moran (garwynn)> 3 hours ago
+22ef501 : Remove test line <Daniel Moran (garwynn)> 3 hours ago
+3797bc8 : Remove ~ file <Daniel Moran (garwynn)> 3 hours ago
+f899b9a : Update blobs <Daniel Moran (garwynn)> 3 hours ago
+5a009fe : Reinsert pull request merge <Daniel Moran (garwynn)> 23 hours ago
+4b4903d : Separate MSM8960 and MSM8974 wrapper <Daniel Moran (garwynn)> 23 hours ago
+751625c : More ramdisk fixes <Daniel Moran (garwynn)> 2 days ago
+935eb45 : Put audio back where it was. (missed a .conf) <Daniel Moran (garwynn)> 2 days ago
+99d6199 : Put audio back where it was. <Daniel Moran (garwynn)> 2 days ago
+2a13c5e : Revert test change to audio <Daniel Moran (garwynn)> 2 days ago
+177c0e7 : More blobs.. <Daniel Moran (garwynn)> 3 days ago
+36211e5 : More blobs missing, audio start over at stock <Daniel Moran (garwynn)> 3 days ago
+387f7bb : Update GPS config <Daniel Moran (garwynn)> 9 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+56101ca : Fix ressource leaks <Flamefire> 13 days ago
+ae0e021 : appops: Fix WIFI_SCAN AppOp permission index <Jorge Ruesga> 4 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_asus_tf700t ****
+b2e1377 : Squash revert of MPdecision this will require more ground work <DHOMD> 14 minutes ago
+490d94e : cpu-tegra: fixing cpu 1-3 frequency memory <Dennis Rassmann> 1 year, 1 month ago
+42e5e23 : Extrapulate board-cardhu <DHOMD> 22 minutes ago
+78e51a4 : mach-tegra: allow setting of individual cpu frequencies ++++ possible-likely taint <Dennis Rassmann> 1 year, 1 month ago
+06cba54 : Huge squished update from Bricked's mpdecision <DHOMD> 65 minutes ago
+dba9a61 : Extrapulate grouper-power.c to cardhu <DHOMD> 67 minutes ago
+cb4af07 : tegra_mpdecision: mergeing with changes from it's msm upstream brother Changes include: - adding input event boost - fixing min/max cores - removing redundant code - increasing delay time to 130ms - fixing locking - introducing scroff_single_core - adding sysfs interface for input event boost - gaining readability - renaming not fitting names <Dennis Rassmann> 1 year, 1 month ago
+30f664e : mach-tegra: Kconfig: switch dependencies and positions so that autoconf shows mpdecision first <Dennis Rassmann> 1 year, 8 months ago
+109db55 : mach-tegra: don't allow tegra_auto_hotplug & tegra_mpdecision at the same time <Dennis Rassmann> 1 year, 8 months ago
+7bf77b1 : mach-tegra: add mpdecision makefile and Kconfig hooks <Dennis Rassmann> 1 year, 8 months ago
+2e7c646 : Try LTO on kernel <DHOMD> 4 hours ago
+a735a11 :  defconfig: enable graphite optimizations <DHOMD> 4 hours ago
+831ef23 : Make Graphite Optimizations a config option to easily enable/disable it <metalspring> 2 weeks ago
+ 
+**** https://github.com/LegacyXperia/android_kernel_semc_msm7x30 ****
+7c7697c : defconfigs: Enable fmem requirements <Michael Bestas> 4 days ago
+769cffc : msm7x30: Enable fmem support for pmem_adsp <Rudolf Tammekivi> 10 hours ago
+36effbe : msm7x30: Enable MM to use CMA heap. <Rudolf Tammekivi> 29 hours ago
+a18e206 : msm: memory: Add back fmem reservation code. <Rudolf Tammekivi> 10 hours ago
+95fb671 : gpu: ion: Sync CMA caching logic with carveout heap. <Rudolf Tammekivi> 29 hours ago
+f55f238 : defconfigs: Disable debugging & unused stuff <Michael Bestas> 11 days ago
+e463e5e : defconfigs: Disable UART debugging <Michael Bestas> 11 days ago
+f796836 : defconfigs: Disable debugfs <Michael Bestas> 11 days ago
+6fbfb98 : Fix compilation with debugfs disabled <Michael Bestas> 11 days ago
+9251d4e : Increase audio volume on all outputs <Michael Bestas> 1 year ago
+77a20a2 : msm: qdsp5v2: Increase buffersize of hostPCM interface. <Sidipotu Ashok> 1 year, 10 months ago
+b179412 : netfilter: nf_conntrack_dccp: fix skb_header_pointer API usages <Daniel Borkmann> 5 months ago
+3465c61 : net: ipv4: current group_info should be put after using. <Wang, Xiaoming> 7 weeks ago
+5432f6a : mm: try_to_unmap_cluster() should lock_page() before mlocking <Vlastimil Babka> 8 weeks ago
+627784e : filter: prevent nla extensions to peek beyond the end of the message <Mathias Krause> 7 weeks ago
+7283713 : defconfig: zeus: Disable SEMC charger arch <Michael Bestas> 3 weeks ago
+c618a72 : rpc_hsusb: Import older SEMC charger code from 4.1.B.1.13 <Michael Bestas> 3 weeks ago
+5c9a1bc : zeus: bring back older board charging code <Michael Bestas> 3 weeks ago
+ac818a9 : Revert "zeus: Remove all code regarding RPC USB." <Michael Bestas> 3 weeks ago
+65b13c1 : zeus: usb charging fixes <nobodyAtall> 8 weeks ago
+8d63fee : block: bfq: Squashed update from BFQ-v7r2 to BFQ-v7r3 <Arne Coucheron> 3 weeks ago
+3df55b4 : n_tty: Fix n_tty_write crash when echoing in raw mode <Peter Hurley> 4 weeks ago
+d18ed04 : qdsp5v2: Remove unused SEMC devices <Michael Bestas> 4 weeks ago
+75d7574 : zeus: Increase ION_MM size <Michael Bestas> 5 weeks ago
+5d23aef : defconfigs: Sync with latest changes <Michael Bestas> 4 weeks ago
+c251b36 : msm_fb: Send vSync events properly. <Rudolf Tammekivi> 5 weeks ago
+1ac12cb : msm_fb: Sync DMA_S config with DMA_P. <Rudolf Tammekivi> 6 weeks ago
+b80e8ec : msm_fb: Make sure BLT is enabled on DMA_S. <Rudolf Tammekivi> 6 weeks ago
+94094ab : cy8ctma300_touch: Disable logspam <Michael Bestas> 6 weeks ago
+efeaf1d : defconfigs: Initial changes for zeus board <Michael Bestas> 8 weeks ago
+1e0e0f2 : zeus: Some GPIO changes from stock kernel <Michael Bestas> 7 weeks ago
+3647160 : zeus: Another SD fix from stock kernel <Michael Bestas> 5 months ago
+ed58f5b : zeus: small fix for sdcard power off <nobodyAtall> 1 year, 1 month ago
+1733eea9 : zeus: Fixup SD gpio strength <Michael Bestas> 5 months ago
+4abf76e : zeus: Configure HAC amplifier <Michael Bestas> 7 weeks ago
+1a5cdbd : zeus: Fixup cmdline serial number. <Rudolf Tammekivi> 8 weeks ago
+2f6f8e8 : zeus-regulator: Increase ldo11 threshold <Michael Bestas> 9 weeks ago
+1f40d8d : zeus: Configure cameras <Michael Bestas> 8 weeks ago
+d812bf6 : zeus-regulator: Increase ldo13 & ldo16 threshold <Michael Bestas> 8 weeks ago
+1aef0fb : zeus: Configure synaptics_touchpad <Michael Bestas> 8 weeks ago
+bfa6401 : zeus: Configure gp2a <Michael Bestas> 8 weeks ago
+0a5ee02 : zeus: Include ION headers <Michael Bestas> 8 weeks ago
+35539d1 : zeus: Cleanup memory allocations <Michael Bestas> 8 weeks ago
+18e7f40 : zeus: msm_serial_hs: Increase rx buffer size to 1024bytes <Michael Bestas> 5 months ago
+db758d9 : zeus: Add persistent_ram support <Michael Bestas> 8 weeks ago
+f3450e42 : zeus-regulator: Increase ldo20 threshold <Michael Bestas> 8 months ago
+2a29a49 : zeus: Configure cy8ctma300_touch <Michael Bestas> 8 weeks ago
+60934b4 : zeus: Configure power button & headset detection <Michael Bestas> 8 weeks ago
+bbaf8d0 : zeus: Add HW ID detection <Michael Bestas> 8 weeks ago
+a0fc83c : zeus: Configure akm8975 <Michael Bestas> 8 weeks ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+7f34074 : Use our kernel for tf700 <DHOMD> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Nfc ****
+1457485 : nxp: Include support declaration for Mifare tags <Ricardo Cerqueira> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+79f7753 : Settings: Allow access for external apps to launch ThemeSettings Fragment directly <Raj Yengisetty> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+977284b : another squishy update from garwynn <nuclearmistake> 45 minutes ago
+8d37594 : updates from garwynn <nuclearmistake> 5 hours ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+ee28c47 : Make tf70[01]'s vendor product naming match the device tree naming <nuclearmistake> 18 hours ago
+ 

@@ -1,0 +1,93 @@
+
+**** https://github.com/VanirAOSP/device_asus_grouper ****
+47351ed : If you want to use different kernels for grouper + tilapia you cannot use a common board config <DHOMD> 30 minutes ago
+ 
+**** https://github.com/VanirAOSP/device_asus_tilapia ****
+d2b210e : Fix kernel sync breakage <DHOMD> 29 minutes ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_m8 ****
+dd852f5 : m8: enable qrngp <invisiblek> 6 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_s4-common ****
+18a6137 : removeing ifdef for ville. im maintaneing jewel so it will use my kernel too because its the same kernel as ville <cannondalev2000> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_moto_msm8960 ****
+339a005 : Add asserts for xt901 and xt905 <dhacker29> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+7d780c3 : Mira Cast Part 5/7 <DHOMD> 2 days ago
+44607ef : Frameworks: Gesture Lockscreen (1/2) <0xD34D> 4 months ago
+6018f5c : Statusbar: dont refresh the signal cluster during panel bar interaction <PrimeDirective> 6 days ago
+aa95176 : PhoneStatusBar: remove carrier label updates from setAreThereNotifications() <PrimeDirective> 17 hours ago
+6dfff3d : Notificationshade: improvements to flip to notifications/quicksettings <PrimeDirective> 18 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8974 ****
+1e0afaa : msm8974: update crypto to kk_3.5, enable QCRYPTO in defconfig <Jake Weinstein> 6 days ago
+5bc6281 : kernel/msm: Add qrngp header file <Hariprasad Dhalinarasimha> 6 days ago
+6322a6d : Revert "Revert "kernel: rng: Add IOCTL support to disable bus bandwidth"" This reverts commit 911fb8222bf5f4df424368a27b1c9f513db0a9d2 <Divya Sharma> 6 days ago
+ 
+**** https://github.com/LegacyXperia/android_kernel_semc_msm7x30 ****
+9dc7d6a : qdsp5v2: Remove unused SEMC devices <Michael Bestas> 8 days ago
+0fa880d : zeus: Increase ION_MM size <Michael Bestas> 2 weeks ago
+36119be : defconfigs: Sync with latest changes <Michael Bestas> 9 days ago
+5c65e9a : msm_fb: Send vSync events properly. <Rudolf Tammekivi> 2 weeks ago
+2f1bf4f : msm_fb: Sync DMA_S config with DMA_P. <Rudolf Tammekivi> 4 weeks ago
+98726e8 : msm_fb: Make sure BLT is enabled on DMA_S. <Rudolf Tammekivi> 4 weeks ago
+fad3dcb : cy8ctma300_touch: Disable logspam <Michael Bestas> 4 weeks ago
+e8d9154 : defconfigs: Initial changes for zeus board <Michael Bestas> 5 weeks ago
+57383b7 : zeus: Some GPIO changes from stock kernel <Michael Bestas> 4 weeks ago
+a862c6b : zeus: Another SD fix from stock kernel <Michael Bestas> 4 months ago
+4424228 : zeus: small fix for sdcard power off <nobodyAtall> 1 year ago
+c056831 : zeus: Fixup SD gpio strength <Michael Bestas> 4 months ago
+9079456 : zeus: Configure HAC amplifier <Michael Bestas> 4 weeks ago
+7cf0efe : zeus: Fixup cmdline serial number. <Rudolf Tammekivi> 5 weeks ago
+9fc5d79 : zeus-regulator: Increase ldo11 threshold <Michael Bestas> 6 weeks ago
+f852a9d : zeus: Configure cameras <Michael Bestas> 5 weeks ago
+6e5fbb4 : zeus-regulator: Increase ldo13 & ldo16 threshold <Michael Bestas> 5 weeks ago
+bb4e39a : zeus: Configure synaptics_touchpad <Michael Bestas> 5 weeks ago
+c73c30f : zeus: Configure gp2a <Michael Bestas> 5 weeks ago
+537b1bc : zeus: Include ION headers <Michael Bestas> 5 weeks ago
+38bb426 : zeus: Cleanup memory allocations <Michael Bestas> 5 weeks ago
+f3d4414 : zeus: msm_serial_hs: Increase rx buffer size to 1024bytes <Michael Bestas> 4 months ago
+7c78134 : zeus: Add persistent_ram support <Michael Bestas> 5 weeks ago
+43a61e4 : zeus-regulator: Increase ldo20 threshold <Michael Bestas> 7 months ago
+9f44d44 : zeus: Configure cy8ctma300_touch <Michael Bestas> 5 weeks ago
+daacd0a : zeus: Configure power button & headset detection <Michael Bestas> 5 weeks ago
+770ac9f : zeus: Add HW ID detection <Michael Bestas> 5 weeks ago
+9891e23 : zeus: Configure akm8975 <Michael Bestas> 5 weeks ago
+593dea9 : zeus: Configure bma150_ng <Michael Bestas> 5 weeks ago
+e5d3c8f : zeus: keyreset with HOME, POWER & VOLUME DOWN <nobodyAtall> 1 year, 2 months ago
+edbc006 : zeus: Add gpio keys/slider support <Michael Bestas> 8 months ago
+1801ea9 : zeus: Configure GPIO 30 for VSYNC. <Michael Bestas> 7 months ago
+f76a9ec : zeus-regulator: Increase ldo15 threshold <Michael Bestas> 8 months ago
+9867770 : zeus: Configure panels <Michael Bestas> 5 weeks ago
+66c8e14 : zeus-board: Add PM8XXX misc driver <Michael Bestas> 8 months ago
+2e22c6c : zeus: Add vreg_helper function <Michael Bestas> 6 months ago
+c5804a6 : zeus: Move gpio arrays to external files <Michael Bestas> 5 weeks ago
+5833009 : zeus: fix SDIO detection <Michael Bestas> 5 weeks ago
+f935c24 : zeus: Support proprietary chargers. <Michael Bestas> 6 months ago
+562b919 : zeus: Configure charger <Michael Bestas> 5 weeks ago
+c749d26 : zeus: Configure as3676 leds <Michael Bestas> 5 weeks ago
+d392e9e : zeus: Remove qcom evaluation machines & add zeus machine <Michael Bestas> 8 months ago
+31cdd10 : zeus: Set correct memory banks <Michael Bestas> 8 months ago
+484f32e : zeus: Setup uart3 for debuging <Michael Bestas> 8 months ago
+d52f683 : zeus: Fix SD detection GPIO <Michael Bestas> 8 months ago
+7b001fb : zeus: Decrease snddev amplifier log level. <Michael Bestas> 8 months ago
+dacc063 : zeus: Add PM8XXX vibrator. <Michael Bestas> 8 months ago
+82a351f : zeus: Configure pm8xxx keypads <Michael Bestas> 5 weeks ago
+649ce70 : zeus: Remove all code regarding RPC USB. <Michael Bestas> 8 months ago
+8790b62 : zeus: Remove unused code <Michael Bestas> 8 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+ea68a11 : change ville and jewel to my kernel. I will maintane both since they are both htc msm8960 devices <cannondalev2000> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+6d84132 : make settings menu themable <Dirk Rettschlag> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+89f120b : Settings: Gesture Lockscreen (2/2) <0xD34D> 4 months ago
+162cd62 : WTF: DIAF: stop merging borked hardware support or it gets the HOSE <PrimeDirective> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/system_qcom ****
+c54aba9 : qsap: Kill more logspam <Steve Kondik> 3 hours ago
+ 

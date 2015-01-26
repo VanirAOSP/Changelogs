@@ -1,0 +1,112 @@
+
+**** https://github.com/VanirAOSP/device_lge_p880 ****
+da30e06 : Various tweaks addictions and reverts to help RIL stabilization issues. <demetris> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_aries-common ****
+1837f72 : Automatic translation import <Michael Bestas> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8974-common ****
+2ec5629 : Revert "msm8974: move firmware symlinks to vendor as binaries expect." // fix mondian build <DHOMD> 8 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_nicki ****
+26ca0a7 : nicki: move libqc-opt.so <Giulio Cervera> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_qcom-common ****
+90a1771 : qcom-common: updqate qcom perf lib location <Giulio Cervera> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_shinano-common ****
+b157ae6 : shinano: move TFA98XX DSP config into device <Giulio Cervera> 2 days ago
+938fb7c : shinano: ramdisk: merge 17.1.2.A.0.314 <Giulio Cervera> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_sirius ****
+0dbf1a0 : sirius: update prop for 17.1.2.A.0.314 <Giulio Cervera> 2 days ago
+ 
+**** https://github.com/VanirAOSP/external_webp ****
+2918324 : Sync-patch with libwebp ver 0.4.1 <JustArchi> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+8e34d4f : Hardware keys: add gesture panel support <PrimeDirective> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+f7dd1e1 : Revert "legacy/alsa_audio is not a performance bottleneck... wno-error=strict-aliasing because something related to PCM isn't happy" <nuclearmistake> 17 hours ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+6185f33 : Revert "asoc: tegra: handle multiple registrations for switch device" <demetris> 24 hours ago
+5667d01 : Fix panel sleep and clean max98088 codec <demetris> 24 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_omap4-common ****
+e0cc858 : Revert audio-changes which do not fix hotword detection <Michael Gernoth> 22 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974pro ****
+f668fa0 : driver: serial: update to Sony 17.1.2.A.0.314 release <Giulio Cervera> 8 days ago
+841f8ba : msm_serial_hs: Remove code dependency on flag tty_flush_receive <Dilip Kota> 8 months ago
+6f27c4a : msm_serial_hs:Enable Error/Break Char off <Dilip Kota> 10 months ago
+8e6a4a0 : msm_serial_hs: Programming BCR Register <Dilip Kota> 10 months ago
+4fa83e9 : msm_serial_hs: fix unbalanced clock vote during port close <Naveen Kaje> 12 months ago
+e4ec31f : msm_serial_hs: Initialize tty_flush_recieve while Port Open <Dilip Kota> 8 months ago
+7e16d55 : msm_serial_hs: Programing the TX FIFO watermark level to 4 <Kiran Gunda> 8 months ago
+e662ca5 : drivers: serial: revert Sony changes <Giulio Cervera> 8 days ago
+9ed2a5e : driver: mmc: update to Sony 17.1.2.A.0.314 release <Giulio Cervera> 8 days ago
+998a240 : mmc: core: Fix power class config for HS400 <Venkat Gopalakrishnan> 9 weeks ago
+3db7f8c : mmc: block: Fix an invalid use of req->cmd_flag in DISCARD operation <Konstantin Dorfman> 3 months ago
+1bb7447 : mmc: core: invoke low power mode if card is not present <Asutosh Das> 5 months ago
+8e6525d : mmc: core: enhance card removal judgement for slow removal <Kevin Liu> 1 year, 7 months ago
+04dcbc2 : mmc: sdhci: Fix issue with SDHCI_NEEDS_RETUNING <Sahitya Tummala> 4 months ago
+30bcfbf : mmc: core: abort rescan if suspend is triggered <Asutosh Das> 5 months ago
+983ee11 : mmc: sdhci-msm: fix issue with tuning command <Sahitya Tummala> 7 months ago
+02f2e91 : mmc: core: fix the issue with clock scaling in HS400 mode <Subhash Jadavani> 9 months ago
+36a1e0f : mmc: card: quirk: disable cache for Kingstone card <Konstantin Dorfman> 5 months ago
+0b5f021 : mmc: core: fix block request queue hang during data crc errors <Sujit Reddy Thumma> 6 months ago
+a8751fa : mmc: sdhci-msm: Correct usage of readl_poll_timeout() API <Matt Wagantall> 5 months ago
+825a23a : mmc: core: Fix clock frequency transitions during invalid states <Sujit Reddy Thumma> 5 months ago
+9ac7932 : mmc: core: fix variable being overwritten <Asutosh Das> 6 months ago
+cbaded9 : drivers: mmc: revert Sony changes <Giulio Cervera> 8 days ago
+4927420 : msm: socinfo: Add support for socinfo v9 <Kishan Kumar> 6 months ago
+a96f6f1 : msm: socinfo: populate arch_read_hardware_id <Abhimanyu Kapur> 7 months ago
+1b1d2b4 : msm: socinfo: Introduce soc string. <Abhimanyu Kapur> 7 months ago
+c1d3ec8 : defconfig: msm: iommu: Enable VBIF check for msm8974, msm8226, and apq8084 <Olav Haugan> 8 months ago
+2bdebdc : driver: ad7146: Clean up warnings about uninitialized variables <Giulio Cervera> 8 days ago
+a365b99 : Revert "USB: msm: Add support for MSM_USB_EXT_CHG_TYPE ioctl" <Giulio Cervera> 8 days ago
+de788e2 : iommu: msm: Add base physical address to drvdata structure <Olav Haugan> 8 months ago
+d9a7869 : msm: Create shadow files under /sys/kernel/ipv4 <Ravi Joshi> 5 months ago
+6c7c6a1 : Revert "seq_file: remove "%n" usage from seq_file users" <Giulio Cervera> 8 days ago
+be043f2 : qseecom: add support to clear key for per file encryption <Zhen Kong> 7 months ago
+ccba16b : iopoll: Use ktime_get() instead of jiffies for timeout calculations <Matt Wagantall> 5 months ago
+03abc7b : USB: msm: Add support for MSM_USB_EXT_CHG_TYPE ioctl <Vijayavardhan Vennapusa> 5 months ago
+34162f2 : USB: Clear pm_done flag to false in msm_otg_sm_work <Saket Saurabh> 5 months ago
+c8017da : USB: Set power supply online status to false after cable disconnect <Saket Saurabh> 6 months ago
+599e39a : USB: msm: Add support for MSM_USB_EXT_CHG_TYPE ioctl <Vijayavardhan Vennapusa> 5 months ago
+82c8232 : USB: dwc3-msm: Enable async irq wakeup capability only if required <Vijayavardhan Vennapusa> 6 months ago
+86d9588 : msm: thermal: Initialize per cpu variables during thermal init <Ram Chandrasekar> 8 months ago
+6f9a4c2 : power: qpnp-charger: update driver from 17.1.2.A.0.314 <Giulio Cervera> 8 days ago
+f2b14a1 : power: qpnp-charger: only apply ibat-loop fix when battery is present <Xiaozhe Shi> 8 months ago
+51524b5 : power: qpnp-charger: allow vinmin to be lowered to 4.0 V <David Keitel> 10 months ago
+a95390c : power: qpnp-charger: wake up upon fast charge after resuming <David Keitel> 8 months ago
+4db37b6 : power: qpnp-bms: update driver from 17.1.2.A.0.314 <Giulio Cervera> 8 days ago
+fafe929 : power: qpnp-bms: do not adjust when shutdown soc is being applied <Xiaozhe Shi> 8 months ago
+018b797 : power: qpnp-bms: estimate OCVs based on temperature <Xiaozhe Shi> 8 months ago
+9e78b16 : power: qpnp-bms: fix coulomb counter selection <Xiaozhe Shi> 10 months ago
+bc71ec5 : power: qpnp-bms: always release output locks in bms driver <Xiaozhe Shi> 10 months ago
+2fb1a67 : power: qpnp-bms: use consistent IAVG for raw SOC calculation <Xiaozhe Shi> 10 months ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+27c8d81 : Automatic translation import <Michael Bestas> 12 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_CellBroadcastReceiver ****
+d7ea74a : Automatic translation import <Michael Bestas> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+280b4cb : Revert "blacklist call recording for US/EU mccs, remove sysprop flag for enabling" <DHOMD> 6 weeks ago
+d15131d : Remove cm_caf files <Michael Bestas> 11 hours ago
+c6baaf2 : Automatic translation import <Michael Bestas> 12 hours ago
+12b1521 : Fix up screen rotation behaviour of call log activity. <Danny Baumann> 4 days ago
+1692777 : Sync landscape layouts to their portrait counterparts. <Danny Baumann> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Email ****
+d70b9d6 : Automatic translation import <Michael Bestas> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+b789d69 : Reconcile All sony <DHOMD> 9 hours ago
+b0535e1 : shinano: merge 17.1.2.A.0.314 <Giulio Cervera> 31 hours ago
+0597f9c : sony: move libqc-opt.so <Giulio Cervera> 34 hours ago
+ 

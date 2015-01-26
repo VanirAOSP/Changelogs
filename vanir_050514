@@ -1,0 +1,98 @@
+
+**** https://github.com/VanirAOSP/device_asus_grouper ****
+2f05b54 : grouper: enable various optimizations <bart452> 8 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+9c59ef6 : cmhw: DisplayColorCalibration: Updated API <Ricardo Cerqueira> 8 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_p880 ****
+e3a7d86 : Update DisplayColorCal for new cmhw values <DHOMD> 27 minutes ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_moto_msm8960 ****
+a2c99af : Remove QCMediaPlayer to fix build.  Duplicated in hw/qcom/media <DHOMD> 2 days ago
+8b20a04 : Experiment using hw/qcom/media dashplayer to fix build <DHOMD> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_mondrianwifi ****
+bf1b2e7 : mondrianwifi: Enable multiple user accounts <Christopher R. Palmer> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8660-common ****
+545536b : msm8660: enable three buffers at all times <Dave Antoine> 7 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_tuna ****
+12200a5 : Revert "Opt in of bionic lowmem optimizations" <DHOMD> 13 minutes ago
+5d43fce : Revert "Revert "Enable QCOM bionic optimizations"" <DHOMD> 2 days ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_msm7x30-common ****
+8878da3 : Enable in-call noise suppression <Michael Bestas> 6 months ago
+b68561e : msm7x30: Add flag for SEMC audio <Michael Bestas> 11 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+3113553 : camera: add getBrightnessLumaTargetSet and getRawSize stubs for HTC hardware <Dan Pasanen> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+5d89ef9 : services: change default sampling interval to -1 <Boxiang Pan> 4 weeks ago
+87de5ef : Connectivity: Set TCP delayed ACK and User Configuration Flag <Ravi Joshi> 4 weeks ago
+08a1faa : Update LinkProperties with MTU value <Sukanya Rajkhowa> 6 weeks ago
+602a43c : Only allow System apps to make VPN exempt routes <Chad Brubaker> 3 months ago
+fe9b529 : Add the calling package name to requestRouteToHost <Chad Brubaker> 3 months ago
+31e2832 : New Icons for the location tile... <oliver.lienhard> 4 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display-caf-new ****
+cd8f649 : hwc: Don't validate dropped layers for MDP support <Jeykumar Sankaran> 2 weeks ago
+5813353 : h/q/d: Read minimum width and height values of the panel ROI <Jeykumar Sankaran> 4 weeks ago
+1482061 : hwc: Use layer dirty rect to calculate frame's updating ROI <Jeykumar Sankaran> 10 weeks ago
+d53a9f2 : hwc: Do not re-program H/W, if the frame geometry has not changed <Sushil Chauhan> 3 weeks ago
+1410778 : hwc: Clear overlay and layer-rot map from caller <Saurabh Shah> 13 days ago
+7f35dfa : hwc: Set DMA state at the start of composition <Raj Kamal> 4 weeks ago
+b191c0e : hwc: Skip dropped layers in video only composition <Jeykumar Sankaran> 4 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8960 ****
+d29899b : msm: kgsl: Fix for panic in z180 postmortem dumps <Gaurav Gagrani> 6 weeks ago
+25b261a : msm: kgsl: Reset VSC control registers <Hareesh Gundu> 3 weeks ago
+29a6e80 : lib/scatterlist: error handling in __sg_alloc_table() <Dan Carpenter> 10 months ago
+ee13905 : msm: display: clear sec_active when the pipe is not for secure <Ken Zhang> 10 months ago
+de4c7ac : msm: kgsl: Fix GPU hang recovery logic <Hareesh Gundu> 10 weeks ago
+826b14a : msm: qdsp6v2: Increase max ports in APR <Aravind Kumar> 5 weeks ago
+54541df : genalloc: stop crashing the system when destroying a pool <Thadeu Lima de Souza Cascardo> 1 year, 6 months ago
+b80da24 : msm: kgsl: Increase IDLE_TIMEOUT for 2D core to 20secs <Hareesh Gundu> 4 weeks ago
+7fa8415 : genalloc: Correct nbytes calculation on long boundary <Sunil Khatri> 3 months ago
+2aaebd0 : ARM: dma-mapping: don't allow DMA mappings to be marked executable <Russell King> 6 months ago
+4f90882 : ARM: fix executability of CMA mappings <Russell King> 5 months ago
+757f3d0 : msm: kgsl: Release process mutex appropriately to avoid deadlock <Sunil Khatri> 5 weeks ago
+1924763 : ARM: mm: remove IPI broadcasting on ASID rollover <Will Deacon> 1 year, 11 months ago
+9d06f92 : defconfig: msm8960: Enable CONFIG_NL80211_TESTMODE in perf config <Dasari Srinivas> 6 weeks ago
+97c7dae : msm: kgsl: fix a race condition when calling kref_put <Hareesh Gundu> 6 weeks ago
+95e3e3c : msm: kgsl: Fix Z180 memory leak <Hareesh Gundu> 6 weeks ago
+544fb4f : kernel:Dont set stop_issued flag in stop recording <Raghu DP> 7 weeks ago
+16fcc8f : misc: qfpfuse: validate ioctl input parameters <Venkatesh Yadav Abbarapu> 9 weeks ago
+6d36c94 : misc: qfpfuse: Fix overflow condition <Venkatesh Yadav Abbarapu> 3 months ago
+9089ad9 : diag: Remove error message <Katish Paran> 3 months ago
+8986ab4 : misc: qfpfuse: validate ioctl input parameters <Venkatesh Yadav Abbarapu> 9 weeks ago
+3fcaeb0 : misc: qfpfuse: Fix overflow condition <Venkatesh Yadav Abbarapu> 3 months ago
+6c0c6ca : msm_fb: Register frame buffer device for device shutdown <raghavendra ambadas> 7 weeks ago
+655261c : kernel:Dont set stop_issued flag in stop recording <Raghu DP> 7 weeks ago
+3b10265 : ASoC: msm: Null dereference check added <Anish Kumar> 8 weeks ago
+bf9f9df : Revert "msm: vidc: No need to allocate metadata by default" <Prados Das> 7 weeks ago
+42c4b7e : Revert "msm: vidc: No need to allocate metadata by default" <Prados Das> 7 weeks ago
+06e59e0 : misc: isa1200: Add mutex for clk_on <Sarada Prasanna Garnayak> 8 weeks ago
+aa9f375 : msm: wfd: Free ion memory properly during a ion failure <Deepak Verma> 3 months ago
+d5e7bb2 : USB: ci13xxx_msm: shutdown callback to disable D+ pullup <ChandanaKishori Chiluveru> 10 weeks ago
+0efc959 : msm: vidc: No need to allocate metadata by default <Deepak Verma> 10 weeks ago
+9a0c1e5 : msm: kgsl: don't use sscanf() <Jordan Crouse> 2 months ago
+a249035 : msm: kgsl: Remove sscanf() from kgsl_pwrctrl.c <Jordan Crouse> 2 months ago
+d950549 : nl80211: support vendor-specific events <Leo Chang> 4 months ago
+b784fbe : nl80211: vendor command support <Leo Chang> 4 months ago
+60a48a8 : cfg80211: pass station supported channel and oper class info <Naresh Jayaram> 4 months ago
+07c202b : msm: clock-rpm: Make rpm clocks sleeping clocks <Stephen Boyd> 1 year, 7 months ago
+aea8045 : power: don't wait for timeout if sys_sync completes early <Srinivasarao P> 3 months ago
+5e3d1c4 : ASoc: msm: qdsp6v2: Fix for NULL check <Mohammad Johny Shaik> 3 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+f000eee : Follow our own p880 until to fix build <DHOMD> 21 minutes ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+b624b51 : Settings: Quiet hours: Bring back summaries <elektroschmock> 6 days ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+cc6d633 : MSimDialerActivity: actually dial when an option is selected <Pawit Pornkitprasan> 15 hours ago
+ 

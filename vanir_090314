@@ -1,0 +1,164 @@
+
+**** https://github.com/VanirAOSP/build ****
+71135de : Edify: Add AssertSomeBaseband <Matt Mower> 6 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_dlx ****
+ad01e48 : dlx: init: Fix /sdcard/ not getting mounted <Christopher R. Palmer> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/device_oneplus_bacon ****
+893cb56 : bacon: Remove unused keylayouts <Michael Bestas> 11 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_find7 ****
+9854f11 : find7: Remove unused keylayouts <Michael Bestas> 11 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+faaaccb : Revert "msm8974: Reenable interactive sync" <Steve Kondik> 8 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_hlte ****
+cb3682b : hlte: Set up nested cm.dependencies <Ethan Chen> 3 hours ago
+bedf2b7 : hlte: Move GPS, QMI, RIL libs to device-specific file <Ethan Chen> 6 days ago
+6862dd0 : hlte: Update proprietary extraction scripts for hlte-common <Ethan Chen> 6 days ago
+bb711f2 : hlte: Move system properties to hlte-common <Ethan Chen> 6 days ago
+2506c5f : hlte: Move config to hlte-common <Ethan Chen> 6 days ago
+9ba956f : hlte: Inherit from hlte-common <Ethan Chen> 6 days ago
+29ef4c0 : hlte: Clean up copyright info, naming <Ethan Chen> 6 days ago
+a00533b : hlte: Set system properties for GSM HLTE devices only <Ethan Chen> 6 days ago
+23a6a43 : hlte: Re-organize tree to become GSM HLTE device tree <Ethan Chen> 6 days ago
+11b954c : Hlte: Raise video recording volume <Evgeniy Cherkasov> 32 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+8ede340 : klte-common: Fix NFC NXP permissions <Matt Filetto> 2 days ago
+096707a : klte-common: fix IR blaster permissions <Matt Filetto> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_kltespr ****
+731dab3 : kltespr: Set correct partition sizes <Ethan Chen> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_kltevzw ****
+916b71c : kltespr: Set correct partition sizes <Ethan Chen> 26 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_msm7x30-common
+lx	https://github.com/LegacyXperia/android_device_semc_msm7x30-common
+vani	git@github.com:VanirAOSP/device_semc_msm7x30-common.git
+vanir	https://github.com/VanirAOSP/device_semc_msm7x30-common ****
+78e56f6 : ueventd: Add permissions for /dev/msm_mp3 <Michael Bestas> 10 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_fusion3-common ****
+f9cd610 : Add local setup-makefiles script, overriding common <Chirayu Desai> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+c12b0b6 : cameraservice: Resolve message vs start/stop preview races <Ricardo Cerqueira> 33 hours ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_sony_DASH ****
+96b4ed6 : bma250: Improve error prints <Bjorn Andersson> 7 weeks ago
+7da2938 : akm8963: Make compilation of dummy library optional <Bjorn Andersson> 7 weeks ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-gproj ****
+e4c7285 : power: battery-bcl: Return voltage in uV <Ricardo Cerqueira> 5 weeks ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_motorola_msm8226
+https://github.com/cannondalev2000/kernel_motorola_msm8226 ****
+da7869d : enable frandom <Ethan> 18 hours ago
+c69d03a : lowmemorykiller.c: convert to use for_each_thread <Paul Reioux> 5 months ago
+db79c1a : introduce for_each_thread() to replace the buggy while_each_thread() <Oleg Nesterov> 8 months ago
+0dfa0a1 : mm, oom: base root bonus on current usage <David Rientjes> 7 months ago
+e3a1fa7 : mm, oom: prefer thread group leaders for display purposes <David Rientjes> 7 months ago
+d4a5197 : oom_kill: add rcu_read_lock() into find_lock_task_mm() <Oleg Nesterov> 8 months ago
+fd7c9ac : oom_kill: has_intersects_mems_allowed() needs rcu_read_lock() <Oleg Nesterov> 8 months ago
+052f208 : oom_kill: change oom_kill.c to use for_each_thread() <Oleg Nesterov> 8 months ago
+e3fe5b1 : mm/oom_kill: remove weird use of ERR_PTR()/PTR_ERR(). <Rusty Russell> 1 year, 2 months ago
+3b903c8 : mm, oom: cleanup pagefault oom handler <David Rientjes> 1 year, 9 months ago
+cb63d2c : oom: use N_MEMORY instead N_HIGH_MEMORY <Lai Jiangshan> 1 year, 9 months ago
+d4555e0 : mm, oom: allow exiting threads to have access to memory reserves <David Rientjes> 1 year, 9 months ago
+60c6d2c : sched/fair: Optimize cgroup pick_next_task_fair() <Peter Zijlstra> 2 years, 7 months ago
+8403801 : sched/fair: Optimize find_busiest_queue() <Peter Zijlstra> 1 year ago
+afb7e62 : mm, memcg: move all oom handling to memcontrol.c <David Rientjes> 2 years, 1 month ago
+a4ff621 : mm, oom: reduce dependency on tasklist_lock <David Rientjes> 2 years, 1 month ago
+6b2301d : mm, memcg: introduce own oom handler to iterate only over its own threads <David Rientjes> 2 years, 1 month ago
+eac109d : mm, oom: introduce helper function to process threads during scan <David Rientjes> 2 years, 1 month ago
+53397a2 : mm, oom: move declaration for mem_cgroup_out_of_memory to oom.h <David Rientjes> 2 years, 1 month ago
+979195c : mm, oom: fix potential killing of thread that is disabled from oom killing <David Rientjes> 2 years, 1 month ago
+49cef2e : mm, oom: do not schedule if current has been killed <David Rientjes> 2 years, 1 month ago
+0eddf0a : mm, oom: fix and cleanup oom score calculations <David Rientjes> 2 years, 2 months ago
+044f182 : mm, oom: fix badness score underflow <David Rientjes> 2 years, 3 months ago
+127e91e : mm, oom: normalize oom scores to oom_score_adj scale only for userspace <David Rientjes> 2 years, 3 months ago
+587cda2 : enable all this new stuff. thanks Sean :P <Ethan> 19 hours ago
+e4353dd : block: FIFO IO Scheduler <Chester Kener> 8 months ago
+aeeceb6 : block: Add TripnDroid IO <Chester Kener> 5 months ago
+647a6df : Add BFQ/SIO/FIOPS/ZEN/VR IO Schedulers <savoca> 7 months ago
+dc8887f : Add /dev/frandom <xcstacy> 9 months ago
+879ad2b : Enable pipe flag. <franciscofranco> 1 year, 9 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+ee31375 : video: mdss: Set initial backlight after first frame done <Steve Kondik> 21 hours ago
+c0f8f5b : video: mdss: Improve sysfs controls and Truly panel support <Steve Kondik> 22 hours ago
+8babaa6 : ASoC: wcd9xxx: Avoid micbias glitches during audio playback <Phani Kumar Uppalapati> 4 weeks ago
+1279e9b : ASoC: wcd9xxx: Change PA on and VDDIO switch sequence <Phani Kumar Uppalapati> 4 weeks ago
+4aa781d : ASoC: wcd9xxx: Changes for High performance mode <Sudheer Papothi> 3 weeks ago
+8799eee : ASoC: wcd9320: Handle the port disconnect correctly <Anish Kumar> 4 weeks ago
+34f5c9a : cpu: Fix generic idle thread allocation <Steve Kondik> 3 days ago
+def3ab9 : arm: Use generic idle thread allocation <Thomas Gleixner> 2 years, 4 months ago
+da0719b : smp: Add task_struct argument to __cpu_up() <Thomas Gleixner> 2 years, 4 months ago
+7bc639f : cma: assign to correct variable in __iommu_alloc_buffer <Mitchel Humpherys> 7 weeks ago
+4b26b72 : Revert "epoll: use freezable blocking call" <Rafael J. Wysocki> 10 months ago
+69d7e62 : ARM: 7449/1: use generic strnlen_user and strncpy_from_user functions <Will Deacon> 2 years, 2 months ago
+e72e9a2 : cgroup: Fix use after free of cgrp (cgrp->css_sets) <Hans de Goede> 1 year, 8 months ago
+5d2e0a0 : cgroup: Take css_set_lock from cgroup_css_sets_empty() <Hans de Goede> 1 year, 8 months ago
+ada3b6f : soc: qcom: rq_stats: remove the redundant iowait check <Anji Jonnala> 4 months ago
+92f4cbe : cpufreq: interactive: Use del_timer/add_timer_on to rearm timers <Junjie Wu> 3 weeks ago
+1b9d523 : cpufreq: interactive: Round up timer_rate to match jiffy <Junjie Wu> 3 weeks ago
+3510a80 : cpufreq: interactive: Reset last evaluated jiffy in idle callback <Junjie Wu> 2 weeks ago
+ba06143 : cpufreq: interactive: Align timer windows for all CPUs <Junjie Wu> 4 months ago
+51c7db8 : cpufreq: interactive: Squashed cleanup patches <Steve Kondik> 5 days ago
+c723230 : cpufreq: Move get_cpu_idle_time() to cpufreq.c <Viresh Kumar> 1 year, 4 months ago
+b2643e9 : cpufreq: interactive: Move definition of cpufreq_gov_interactive downwards <Viresh Kumar> 1 year, 4 months ago
+b02091f : msm: mdss: delay iommu mapping of buffers until commit <Adrian Salido-Moreno> 6 weeks ago
+3821b3e : msm: mdss: unmap rotator src buffer after mapping the next buffer <Kalyan Thota> 5 weeks ago
+e46bbf0 : msm: display: release kickoff before fence waiting <Ken Zhang> 7 weeks ago
+b0c2913 : msm: mdss: Handle wfd READY event in display commit <raghavendra ambadas> 6 weeks ago
+4b965c0 : msm: mdss: ensure rotator work is done before reconfiguring session <Adrian Salido-Moreno> 6 months ago
+c4d4971 : msm: mdss: fix rotator failures when pixel format changes <Ingrid Gallardo> 3 weeks ago
+b182498 : msm: mdss: send DCS commands in LP mode by default <Sandeep Panda> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+f3a0f0e : exfat: don't turn on by default <Dan Pasanen> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+ae2db4a : htlte got split up for some reason <DHOMD> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+81343f4 : Revert "blacklist call recording for US/EU mccs, remove sysprop flag for enabling" <DHOMD> 3 weeks ago
+d8ec8ab : Dialer: remove obsolete values-en-rXX <Vladislav Koldobskiy> 12 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_ContactsProvider ****
+829e8fc : Fix the unitest failure problem <blong> 4 months ago
+c362f89 : Revert "ContactProvider: add another check for local accounts" <Ethan Chen> 6 days ago
+43ee965 : Contacts: Fix CTS failure in testGroupsTable/testAddToGroup <kaiyiz> 5 months ago
+8bfbe3e : Contacts: Fix fuzzy search do not check the name column issue <kaiyiz> 5 months ago
+9d7f320 : Mms: Fix contacts don't display in phone after import vcf file <kaiyiz> 5 months ago
+608ecd9 : Fix issue that SIM contact don't display in contact pick view <Cheng Xiaolong> 6 months ago
+a9673bf : Contacts: Support fuzzy search for phone number <kaiyiz> 6 months ago
+9376dfb : Contacts: Support fuzzy search for telephone number in contacts <kaiyiz> 7 months ago
+42f44bc : ContactsProvider: Add API-getLatinNameLookupKeys() for multi-languages <kaiyiz> 6 months ago
+3a12034 : ContactsProvider: Fix can't search out local groups in mms app <kaiyiz> 7 months ago
+91ba358 : Add the column of duration type in calls <blong> 7 months ago
+0b6ecdc : Enable home location feature <blong> 7 months ago
+a0c8fe8 : Filter SIM contacts with flag <blong> 8 months ago
+1b025be : Create local group database <blong> 9 months ago
+44ee1fb : Add one column for subscription ID in the call log database <blong> 9 months ago
+ff70c6e : ContactsProvider: add the full field search for contacts <blong> 12 months ago
+32c6aed : ContactsProvider: Support contact filter in smart dialer <Qiang Chen> 9 months ago
+b0999e8 : Contacts: Fix the issue of contacts with same values only display one <kaiyiz> 1 year, 1 month ago
+37904a0 : ContactsProvider: Update locale before adding call log <kaiyiz> 1 year, 1 month ago
+ 
+**** https://github.com/VanirAOSP/vendor_asus ****
+475d0ad : tf701t: add some vendor/lib drm and hdcpsrm <Prashant Somashekar> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+efc1481 : hltevzw: Split proprietary files between device and common directories <Ethan Chen> 5 days ago
+60fce0c : hltespr: Split proprietary files between device and common directories <Ethan Chen> 5 days ago
+35247ae : hlte: Split proprietary files between device and common directories <Ethan Chen> 5 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+98f8219 : This is most likely place to start for yuga/pollux taint Revert "Adreno driver cleanup" <DHOMD> 7 hours ago
+0ea56c1 : Reconcile props with Muppets for sirius/shinano <DHOMD> 2 hours ago
+ 

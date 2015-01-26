@@ -1,0 +1,252 @@
+
+**** https://github.com/VanirAOSP/build ****
+2c66fd1 : ASAN: set MAXIMUM_OVERDRIVE := true to disable address sanitizer <Dave Kessler> 14 hours ago
+08de066 : Fix libelf path <Alvin Francis> 5 days ago
+ 
+**** https://github.com/VanirAOSP/device_asus_flo ****
+54761e1 : defconfig: change to vanir_flo_defconfig <Dave Kessler> 12 hours ago
+b268aab : fix: set config_deviceHardwareKeys to 0 <Dave Kessler> 13 hours ago
+070d334 : SELinux: enabled <Dave Kessler> 13 hours ago
+fb5b77f : export MAXIMUM_OVERDRIVE := true <Dave Kessler> 13 hours ago
+519c935 : media: Enable ffmpeg decoders <Ricardo Cerqueira> 14 hours ago
+831eac7 : Recovery: update partition size to fix build <Dave Kessler> 35 hours ago
+ca3f3ab : Remove flo BoardConfig.mk cruft. <Elliott Hughes> 2 weeks ago
+f4311f4 : Remove flo BoardConfig.mk no-op. <Elliott Hughes> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+7c50a64 : Dotcase: Moved DOTS to clean up a little <William C. Garrison III> 2 days ago
+0d8938a : sepolicy: add contexts for amps <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_d800 ****
+e9770b6 : Get rid of BOARD_NFC_HAL_SUFFIX & use defaults <sudosurootdev> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_d801 ****
+5690fef : Get rid of BOARD_NFC_HAL_SUFFIX & use default <sudosurootdev> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_d803 ****
+3614493 : Get rid of BOARD_NFC_HAL_SUFFIX and use default <sudosurootdev> 34 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_lge_d850 ****
+324a46d : wifi: move wcnss firmware/configs to g3-common <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+ceae35a : media: Enable ffmpeg decoders <Ricardo Cerqueira> 14 hours ago
+8c5ec66 : Test default as audio stream param for pre-processing audio effects <sudosurootdev> 24 hours ago
+bcfb887 : Fix initialization of voice_call param in audio_effects.conf done when I was awake for 3 days. <sudosurootdev> 25 hours ago
+6ae3deb : Use linaro cortex-a15 optimized KERNEL_TOOLCHAIN <sudosurootdev> 35 hours ago
+dc0a28e : Complicate things since cm does it :) <sudosurootdev> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g3-common ****
+520ddf1 : wcnss: update firmware from D855 L release <Dan Pasanen> 2 days ago
+9763ac4 : wcnss: move firmware and configs here <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_gproj-common ****
+2a8b797 : media: Enable ffmpeg decoders <Ricardo Cerqueira> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_ls980 ****
+b8e549b : pn54x.default is only if BOARD_NFC_CHIPSET=pn547 so keep same for now to avoid breaking build, or device not booting, until I or someone fixes the pn544 libnfc-nxp Nfc package. <sudosurootdev> 31 hours ago
+2bc8207 : Get rid of BOARD_NFC_HAL_SUFFIX & use defaults <sudosurootdev> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_mako ****
+fe4a18b : media: Enable ffmpeg decoders <Ricardo Cerqueira> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_vs980 ****
+809ca9c : Get rid of BOARD_NFC_HAL_SUFFIX & use defaults <sudosurootdev> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_vs985 ****
+15bef25 : vs985: update fingerprint from VS98512B <Dan Pasanen> 2 days ago
+2678684 : wifi: move wcnss firmware/configs to g3-common <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_oneplus_bacon ****
+cc806d4 : Revert "selinux: Enforcing" <MartinRo> 27 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+42b2ee4 : msm8974: Re-up 4K bitrates <Steve Kondik> 18 hours ago
+2e81785 : msm8974: Cleanup & update media_profiles <Michael Bestas> 5 days ago
+d8ecf4d : Revert "msm8974: Use mm-parser for Matroska" <Steve Kondik> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_external_stagefright-plugins ****
+bcc73c9 : stagefright-plugins: Enable 24-bit output <Steve Kondik> 7 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+9094602 : audioflinger: Bind new mixer code to the resampler property <Ricardo Cerqueira> 4 hours ago
+00e0d43 : audiopolicy: Add missing AV_ENHANCEMENTS flag <Steve Kondik> 14 hours ago
+001c3e7 : stagefright: Support for 24-bit audio in StageFright <Steve Kondik> 7 days ago
+d6d4e8e : audioflinger: Enable floating point samples in AudioFlinger <Steve Kondik> 7 days ago
+35420df : stagefright: Improve FLAC and WAV support for 24-bit <Steve Kondik> 7 days ago
+602e926 : stagefright: Support HEVC tracks in Matroska containers <Steve Kondik> 7 days ago
+1fa9d1e : stagefright: Add FLAC support to MatroskaExtractor <Steve Kondik> 7 days ago
+016c5b8 : stagefright: Keep track of the bit width in the RAW codec <Steve Kondik> 7 days ago
+3002ead : Added support for YEAR metadata key from VorbisComments <Andreas Lillvik> 4 years, 1 month ago
+06468ec : stagefright: httplive: Reduce memcpy calls for chunked content <Leena Winterrowd> 4 weeks ago
+599653e : stagefright: httplive: Fix deadlock for low duration clips <Leena Winterrowd> 3 weeks ago
+4662176 : audio_policy : Fix for incorrect input device selection <Karthik Reddy Katta> 11 days ago
+341fa53 : audio_policy: Fix for mute count mismatch for sonification strategy <Karthik Reddy Katta> 13 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+917b253 : Disgusting hack to temp fix a few builds <DHOMD> 2 weeks ago
+da00d94 : Vanir actions and utilities <Dave Kessler> 17 hours ago
+1a7030f : PowerManagerService: Optimize button illumination The current implementation of button/keyboard illumination is a bit flaky When the device goes into deepsleep before the illumination time has expired the buttons stay illuminated all time <MartinRo> 9 hours ago
+5750a7f : Revert "Update the ADB status bar icon" <Dave Kessler> 13 hours ago
+a852ea5 : Hide new methods instead of modifying the public API <Michael Bestas> 16 hours ago
+99d3b9b : Storage: Add secondary storage support for app installation <Xiaogang Cui> 4 months ago
+fedeb99 : Android Policy: handle volume key event as wake key when preference is set <Martin Brabham> 3 days ago
+5c25d5c : ExternalStorageProvider: SD card's name in Document UI is unreadable <kaiyiz> 7 weeks ago
+30def9e : Make sure emulated storage path index is 0 <Mohamed Abbas> 6 weeks ago
+4e302a6 : UsbSettings: Adjust UMS mode code logic. <jianzhou> 2 weeks ago
+1f13a69 : UsbSettings: Add UMS mode support. <jianzhou> 5 weeks ago
+4f77a41 : tethering: update connectivity intent <Sagar Regmi> 4 weeks ago
+33a9b65 : ExternalStorageProvider: String mismatch with system language <kaiyiz> 7 weeks ago
+7a9c11f : SystemUI: make alarm text selector less blocky <Roman Birg> 3 days ago
+4daf28f : Update the ADB status bar icon <blunden> 19 hours ago
+539bc61 : systemui: Forward-port notification counters <Steve Kondik> 24 hours ago
+f64a468 : PackageManager: allow build-time disabling of components <Pawit Pornkitprasan> 1 year, 3 months ago
+847b02e : Answer call with hardware HOME button (2/2) <Oleksandr Byelkin> 1 year, 11 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+474c1d5 : Revert "omx: Add nBitsPerSample parameter for FLAC" <Steve Kondik> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_chips ****
+8654f01 : Always trim destination. <Danny Baumann> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_audio ****
+74b7909 : hal: Upstream updates for samplerate/bitwidth <Steve Kondik> 4 days ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_google_msm
+https://github.com/AlmightyMegadeth00/kernel_google_msm ****
+f395b10 : makefile: mtune-cortex-a15 for krait and use unsafe math opts <Dave Kessler> 11 hours ago
+9a5a525 : fs: sync: Make sync() satisfy many requests with one invocation <Paul E. McKenney> 1 year, 4 months ago
+3760318 : fs: sync: don't block the flusher thread waiting on IO <Dave Chinner> 1 year, 5 months ago
+2a8100f : fs: sync: add missing return if fsync is disabled from userspace. <Francisco Franco> 1 year, 7 months ago
+d0cf5fb : fs: sync: added fsync on/off support <franciscofranco> 2 years ago
+109cb00 : Optimized ARM RWSEM algorithm <Ashwin Chaugule> 1 year, 4 months ago
+08cda27 : lib/int_sqrt.c: optimize square root algorithm <Davidlohr Bueso> 1 year, 7 months ago
+ec98d86 : increase readhead from 128 to 256 <Dave Kessler> 12 hours ago
+e35dadb : mount noatime and nodiratime on all partitions by default <Dave Kessler> 12 hours ago
+e1daf23 : use a proper name for the defconfig <Dave Kessler> 12 hours ago
+de669b1 : af_unix: speedup /proc/net/unix /proc/net/unix has quadratic  behavior, and can hold unix_table_lock for a while if high number of unix  sockets are alive. (90 ms for 200k sockets...) <Tk-Glitch> 10 months ago
+154bef4 : Effectively revert "gpu: ion: replace __GFP_ZERO with manual zero'ing" <Iliyan Malchev> 2 weeks ago
+f6e71ea : kgsl: do not vmap/memset to zero-out pages <Iliyan Malchev> 2 weeks ago
+d4a2276 : lowmemorykiller: enhance debug information <Liam Mark> 6 months ago
+ce59dad : lowmemorykiller: make default lowmemorykiller debug message useful <Colin Cross> 4 weeks ago
+0d03837 : mm, oom: make dump_tasks public <Liam Mark> 6 months ago
+97f1907 : fs/seq_file: Use vmalloc by default for allocations > PAGE_SIZE <Jordan Crouse> 3 months ago
+65cd8ac : fs/seq_file: fallback to vmalloc allocation <Heiko Carstens> 2 months ago
+1b8711e : nick kvfree() from apparmor <Al Viro> 2 months ago
+fa84206 : mmc: add 5.0 emmc support <hsuan-chih_chen> 8 weeks ago
+0368de3 : mm: Increase number of GFP masks <Naveen Ramaraj> 9 weeks ago
+b72125b : lowmemorykiller: Account for highmem during kswapd reclaim <Naveen Ramaraj> 10 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_lge_g3 ****
+abaceca : wcnss: Add API to get monotonic boot time <Hardik Kantilal Patel> 4 months ago
+b29c841 : cfg80211: pass station supported channel and oper class info <Naresh Jayaram> 11 months ago
+38d102f : [PATCH] netlink: add signed types <Jiri Pirko> 5 months ago
+a6432f7 : prima: enable TDLS by default <Dan Pasanen> 2 days ago
+bb17284 : prima: update to D855 L release <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_lge_msm8974 ****
+3f8545f : Fix sequence-point for operation on ret <sudosurootdev> 10 hours ago
+bdec1c2 : Just a bit of opt <sudosurootdev> 5 weeks ago
+06875fe : Versioning, and add d803_defconfig <sudosurootdev> 5 hours ago
+0ecebee : [NO CODE CHANGES] Fix perms with perms-rw alias <sudosurootdev> 27 hours ago
+71329a0 : lib/string: use glibc version <faux123> 2 years ago
+ecffed6 : lib/memcopy: use glibc version <faux123> 2 years ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_lge_v500 ****
+371e46b : defconfig: Modules off <Ricardo Cerqueira> 12 hours ago
+3d7fdd6 : rcu: Add RCU_FAST_NO_HZ tracing for idle exit <Paul E. McKenney> 2 years, 9 months ago
+584d820 : rcu: Use smp_hotplug_thread facility for RCUs per-CPU kthread <Paul E. McKenney> 2 years, 5 months ago
+9cf703b : rcu: Yield simpler <Thomas Gleixner> 2 years, 5 months ago
+a90d0b0 : rcu: Add a module parameter to force use of expedited RCU primitives <Antti P Miettinen> 2 years, 2 months ago
+41035ac : panic: resume console if panic after console suspend. <Devin Kim> 1 year, 3 months ago
+3907a69 : kthread: Fix the race condition when kthread is parked <Subbaraman Narayanamurthy> 6 months ago
+0ad0616 : genirq: Always force thread affinity <Thomas Gleixner> 2 years, 1 month ago
+02378b8 : genirq: Introduce irq_do_set_affinity() to reduce duplicated code <Jiang Liu> 2 years, 8 months ago
+da75b09 : msm:pm: Fix for race condition of starting cpu1 when cpu0 in PC. <Anil kumar mamidala> 1 year, 1 month ago
+99ba365 : cgroup: Take css_set_lock from cgroup_css_sets_empty() <Hans de Goede> 1 year, 11 months ago
+e2f8c8f : cgroup: Fix use after free of cgrp (cgrp->css_sets) <Hans de Goede> 1 year, 11 months ago
+6d33d78 : stop_machine: Mark per cpu stopper enabled early <Thomas Gleixner> 1 year, 9 months ago
+2bb8b5e : stop_machine: Use smpboot threads <Thomas Gleixner> 1 year, 10 months ago
+efc285e : stop_machine: Store task reference in a separate per cpu variable <Thomas Gleixner> 1 year, 10 months ago
+c13a326 : kthread: Prevent unpark race which puts threads on the wrong cpu <Thomas Gleixner> 1 year, 8 months ago
+cdaf98a : smpboot: Allow selfparking per cpu threads <Thomas Gleixner> 1 year, 10 months ago
+c795773 : hotplug: Fix UP bug in smpboot hotplug code <Paul E. McKenney> 2 years, 5 months ago
+6835166 : smpboot: Provide infrastructure for percpu hotplug threads <Thomas Gleixner> 2 years, 5 months ago
+ce6078c : kthread: Implement park/unpark facility <Thomas Gleixner> 2 years, 5 months ago
+751a4b1 : kthread_worker: reimplement flush_kthread_work() to allow freeing the work item being executed <Tejun Heo> 2 years, 5 months ago
+366a96c : kthread_worker: reorganize to prepare for flush_kthread_work() reimplementation <Tejun Heo> 2 years, 5 months ago
+af30dc0 : smpboot, idle: Fix comment mismatch over idle_threads_init() <Srivatsa S. Bhat> 2 years, 6 months ago
+b213087 : smpboot, idle: Optimize calls to smp_processor_id() in idle_threads_init() <Srivatsa S. Bhat> 2 years, 6 months ago
+76a3eb9 : smp, idle: Allocate idle thread for each possible cpu during boot <Suresh Siddha> 2 years, 8 months ago
+58a0398 : smp: Provide generic idle thread allocation <Thomas Gleixner> 2 years, 8 months ago
+f6b9067 : smp: Add generic smpboot facility <Thomas Gleixner> 2 years, 8 months ago
+7d8380c : CPU hotplug, debug: detect imbalance between get_online_cpus() and put_online_cpus() <Srivatsa S. Bhat> 2 years, 2 months ago
+90d33f4 : ASoC: msm: Add metadata mode changes to LPA driver <Krishnankutty Kolathappilly> 1 year, 9 months ago
+6b2c8ea : ASoC:msm: Increase Proxy buffering <Alexy Joseph> 1 year, 5 months ago
+1d1c2ff : msm: Fix permission of boot_adsp/boot node. <Shashank Mittal> 1 year, 6 months ago
+efd52f2 : msm: audio: qdsp6v2: Add size safety check to ACDB driver <Ajay Dudani> 1 year, 6 months ago
+a430020 : msm: audio: qdsp6v2: Fix command sequence issue in Non-tunnel player <Asish Bhattacharya> 1 year, 7 months ago
+79ca088 : msm: audio: qdsp6v2: Fix for kernel crash during stability <Deepa Madiregama> 1 year, 6 months ago
+72185e1 : msm: qpsp6v2: Makefile change to build adsp_loader <Mekala Natarajan> 1 year, 8 months ago
+8842bc3 : ASoC: msm: Load ADSP image during bootup <Mekala Natarajan> 1 year, 9 months ago
+99199b3 : gpu: ion: add explicit sync ioctl (not implemented) <Rebecca Schultz Zavin> 2 years, 5 months ago
+a0032ad : Revert "ion: replace some vmalloc with kmalloc" <Ricardo Cerqueira> 16 hours ago
+18176a8 : msm_gemini: Add input null check validation. <Mekala Natarajan> 1 year, 3 months ago
+e02aa2e : msm: vidc: enable pic_order_cnt_type for H264 encoding <srikarri> 11 months ago
+c773094 : ASoC: msm: Fix wrong wait_event_timeout timeout checks <Asish Bhattacharya> 1 year, 7 months ago
+0406958 : ASoc: fix compilation error <Eric Laurent> 1 year, 8 months ago
+85096ab : ASoc: fix compilation error <Eric Laurent> 1 year, 8 months ago
+83d6836 : ASoC: soc-compress: Initialise delayed work to power down audio <Charles Keepax> 1 year, 10 months ago
+9c6e444 : ASoC: add definations for compressed operations <Vinod Koul> 2 years, 4 months ago
+9ad96f7 : ASoC: msm: Reduce min buffer size for low latency <Mekala Natarajan> 1 year, 9 months ago
+8e76f72 : ALSA: compress_core: fix open flags test in snd_compr_open() <Dan Carpenter> 2 years, 3 months ago
+0dad2ec : ALSA: compress_core: cleanup pointers on stop <Vinod Koul> 2 years, 6 months ago
+8de00cb : ALSA: compress: fix compilation error <Eric Laurent> 1 year, 8 months ago
+95e1c75 : ALSA: core: don't return uninitialized snd_compr_tstamp <Richard Fitzgerald> 1 year, 10 months ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_samsung_tuna
+https://github.com/Ziyann/omap ****
+b308f1d : power: max17040: add support for POWER_SUPPLY_PROP_PRESENT <Ziyann> 3 hours ago
+84d447e : ASoC: add back generic SDP4430 board file <Ziyann> 15 hours ago
+ba26753 : ASoC: Tuna: separate tuna board file <Ziyann> 16 hours ago
+658e836 : ASoC: sdp4430: Correct stream name for FM BE DAI <Manjunatha Halli> 3 years, 1 month ago
+cb040a8 : ASoC: OMAP PCM: Remove combined ABE/HDMI constraint <Misael Lopez Cruz> 2 years, 10 months ago
+f28a2c9 : ASoC: twl6040: VDDHF as SUPPLY widget <Misael Lopez Cruz> 2 years, 8 months ago
+5142401 : ASoC: twl6040: Add VDDHF regulator <Girish S Ghongdemath> 3 years ago
+e70d3d7 : ASoC: TWL6040: Adding Aux audio output <Israel Cepeda> 2 years, 7 months ago
+5fa74de : ASoC: twl6040: Handle handsfree overcurrent events <Misael Lopez Cruz> 3 years ago
+ff8a9db : ASoC: twl6040: Add wakelock for headset detection interrupt <Misael Lopez Cruz> 2 years, 10 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_apq8064 ****
+de00093 : ARM: 7670/1: fix the memset fix <Nicolas Pitre> 1 year, 9 months ago
+32c542d : ARM: 7668/1: fix memset-related crashes caused by recent GCC (4.7.2) optimizations <Ivan Djelic> 1 year, 9 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+90e8ac1 : FIX SYNC: wrong project name for compiler-rt <sudosurootdev> 12 hours ago
+e37ed99 : Switch to our compiler-rt <Dave Kessler> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+dbee0e3 : Settings: Fix NPE in Superuser settings <Altaf-Mahdi> 10 hours ago
+fe66be3 : BootReceiver: remove duplicate DisplaySettings.restore(ctx); <Altaf-Mahdi> 10 hours ago
+8a2af12 : settings: Forward-port notification counters <Steve Kondik> 22 hours ago
+ea4504c : Use vanir drawables for settings headers <Dave Kessler> 18 hours ago
+6c2e002 : Settings: volume wake preference <Martin Brabham> 3 days ago
+32c14c9 : Setting: add app move to external storage <jianzhou> 3 months ago
+47a9d05 : settings: Squashed commit of CMHW features <Danny Baumann> 1 year, 1 month ago
+294c4f2 : Display Settings: Better font size control <p4r4n01d> 1 year, 1 month ago
+37b2038 : bluetooth: Show a refresh icon on the select devices screen <Diogo Ferreira> 2 days ago
+25aacfb : Answer call with hardware HOME button (1/2) <Oleksandr Byelkin> 1 year, 11 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_UnifiedEmail ****
+b819a14 : SubjectAndFolderView: initialize mSubject to an empty string so BidiFormatter doesn't barf if it was never set <nuclearmistake> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+6653c31 : Remove the adb usb vendor id whitelist. <Elliott Hughes> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/system_vold ****
+be2a125 : vold: Support unmount <path> detach <Tom Marshall> 4 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+42a3278 : smkd4412-qcom: update libloc_api_v02 fir gps update <sbrissen> 21 hours ago
+579d51c : jf-common: add jfltexx to build barrier <Dan Pasanen> 24 hours ago
+ 

@@ -1,0 +1,184 @@
+
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+20dbf30 : m8: let's use new and improved governor settings <Jake Weinstein> 26 hours ago
+87efc7f : m8: disable thermal-engine <Jake Weinstein> 26 hours ago
+ 
+**** https://github.com/EthanJ99/device_motorola_msm8226-common ****
+719a7fc : Update config.xml <Ethan Johnson> 18 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_i9500 ****
+0a85f54 : i9500: enable eject sdcard <Unpublished> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_janice ****
+4f16a97 : janice:Cleanup common things <C457> 3 days ago
+ 
+**** https://github.com/nolinuxnoparty/android_device_sony_nicki ****
+1fbaf14 : nicki: Set composition to dyn <RonGokhale> 10 hours ago
+ 
+**** https://github.com/olivieer/device_sony_taoshan ****
+80e281c : taoshan: drop custom twrpgraphics.c <RonGokhale> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+cd63d66 : stagefright: Only use HW AAC for AV content <Steve Kondik> 2 days ago
+33b9f47 : stagefright: Fix MediaCodecList <Steve Kondik> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+6777458 : base: update link ring-notifications after read user settings <Jorge Ruesga> 7 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display-caf-new ****
+08192ba : overlay: Add a flag for compilation with new API <Steve Kondik> 6 days ago
+ab71b55 : hwc: Map dirtyRect to layer destination for single DSI panels. <Jeykumar Sankaran> 7 weeks ago
+c864453 : hwc: Support single ROI for split panels. <Jeykumar Sankaran> 3 months ago
+cbbd512 : hwc: Extend partial frame update for split displays <Jeykumar Sankaran> 8 months ago
+145fe70 : hwc: initialize viewFrame for primary display <Arun Kumar K.R> 3 weeks ago
+32c97c4 : hwc: Define binder interface to set view frame of a display <Ramkumar Radhakrishnan> 8 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_fm ****
+6ec9451 : fm: fix getting RDS text <M1cha> 4 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media-caf-new ****
+b9b752a : mm-video: Recognise "OMX.qcom.video.decoder.divx4" when setting role <Deva Ramasubramanian> 7 months ago
+9cf284a : mm-video-v4l2: vdec: Use aligned line length for mapping to fb <Srinu Gorle> 3 months ago
+d691d6a : mm-core: Kill logspam <Steve Kondik> 4 days ago
+b6fab57 : Revert "mm-video: vidc: vdec: advertise color formats based on usage hint" <Steve Kondik> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_asus_grouper ****
+ae44e9b : futex: Make lookup_pi_state more robust <Thomas Gleixner> 6 weeks ago
+684dd62 : futex: Always cleanup owner tid in unlock_pi <Thomas Gleixner> 6 weeks ago
+16e420b : futex: Validate atomic acquisition in futex_lock_pi_atomic() <Thomas Gleixner> 6 weeks ago
+4f55eb8d : futex-prevent-requeue-pi-on-same-futex.patch futex: Forbid uaddr == uaddr2 in futex_requeue(..., requeue_pi=1) <Thomas Gleixner> 6 weeks ago
+d444f96 : futex: Add another early deadlock detection check <Thomas Gleixner> 9 weeks ago
+de76f4f : futex: Prevent attaching to kernel threads <Thomas Gleixner> 9 weeks ago
+f90c839 : n_tty: Fix n_tty_write crash when echoing in raw mode <Peter Hurley> 3 months ago
+1e42d16 : sysfs: Fix memory leak in sysfs_sd_setsecdata(). <Masami Ichikawa> 2 years, 5 months ago
+ca9edb1 : android: base-cfg: enable DM_VERITY (used for secureboot) <JP Abgrall> 5 months ago
+9665d61 : android: configs: Add CONFIG_NETFILTER_XT_TARGET_IDLETIMER <Ashish Sharma> 6 months ago
+4cc1934 : android: configs: Grab the android/configs from kernel/common <JP Abgrall> 6 months ago
+f64a719 : tcp: add a sysctl to config the tcp_default_init_rwnd <JP Abgrall> 5 months ago
+3fe067f : fix false disconnect due to a signal sent to the reading process <keunyoung> 6 months ago
+78d8cba : SELinux: Fix kernel BUG on empty security contexts. <Stephen Smalley> 6 months ago
+f18a4ff : netfilter: xt_IDLETIMER: Revert to retain the kernel API format. <Ashish Sharma> 5 months ago
+b1d8199 : SELinux: Fix possible NULL pointer dereference in selinux_inode_permission() <Steven Rostedt> 6 months ago
+6881d82 : ping: prevent NULL pointer dereference on write to msg_name <Hannes Frederic Sowa> 8 months ago
+8a9e9ca : nf: xt_qtaguid: fix handling for cases where tunnels are used. <JP Abgrall> 7 months ago
+b88bac6 : netfilter: qtaguid: rate limit some of the printks <JP Abgrall> 1 year, 3 months ago
+3b8d472 : SELinux: include definition of new capabilities <Eric Paris> 2 years ago
+90cc2c9b1 : Defconfig: Enable CONFIG_NETFILTER_XT_TARGET_TCPMSS <dhacker29> 7 months ago
+23d59d5 : Enable CONFIG_NETFILTER_XT_TARGET_TCPMSS <Ed Tam> 8 months ago
+716f7bb : charger: smb345: add hot limit temperature to stop charging <Hank_Lee> 9 months ago
+79c7fef : update cm defconfig with  CONFIG_DHD_USE_SCHED_SCAN=y <fattire> 8 months ago
+30c5396 : Enable USB audio module <Matthew Redman> 11 months ago
+2bfad85 : grouper: Better background gradients <Andrea> 10 months ago
+b4f28f3 : block: Switch from BFQ-v6r1 for 3.1.0 to BFQ-v6r2 for 3.1.0. <Arianna Avanzini> 1 year, 1 month ago
+b3062ae : block: Switch from BFQ-v6 for 3.1.0 to BFQ-v6r1 for 3.1.0. <Arianna Avanzini> 1 year, 2 months ago
+d7255d0 : block: Switch from BFQ-v5r1 for 3.1.0 to BFQ-v6 for 3.1.0. <Arianna Avanzini> 1 year, 6 months ago
+ee8af1d : block: Switch from BFQ-v5 for 3.1.0 to BFQ-v5r1 for 3.1.0. <Arianna Avanzini> 1 year, 7 months ago
+8682a9b : start new cyanogenmod_grouper_defconfig for cm-10.2 <fattire> 12 months ago
+d08812a : perf: Treat attr.config as u64 in perf_swevent_init() <Tommi Rantala> 1 year, 3 months ago
+ea48912 : bcmdhd: workaround broken AC video queue in IBSS mode <Bruno Randolf> 1 year, 3 months ago
+6a965d1 : bcmdhd: Enable Ad-Hoc (IBSS) mode <Bruno Randolf> 1 year, 5 months ago
+72e6ca1 : Enable rndis support in kernel <Janson Kang> 1 year, 7 months ago
+830e42f : scripts/Kbuild.include: Fix portability problem of "echo -e" <Bernhard Walle> 2 years, 5 months ago
+a7a9119 : Revert "Set as-instr to use printf intsead of echo" <Brandon Bennett> 1 year, 9 months ago
+2223eb0 : drivers: staging: android: lmk compile fixup <Dennis Rassmann> 1 year, 9 months ago
+b7c2e49 : lowmemorykiller: Use asynchronous compaction <Steve Kondik> 1 year, 10 months ago
+9e63f7e : lowmemorykiller: Compact memory when killing processes <Steve Kondik> 1 year, 10 months ago
+f6abaa7 : Block: Add the BFQ-v5 I/O scheduler to 3.1 <Paul Beeler> 1 year, 9 months ago
+988b32a : Revert "Block: Add the BFQ-v4 I/O scheduler to 3.1" <Paul Beeler> 1 year, 9 months ago
+96be439 : cm kernel config: Update a proper defconfig <Paul Beeler> 1 year, 9 months ago
+009b6d1 : mmc: card: Bypass discard for Hynix and Kingston <Ban_Feng> 1 year, 10 months ago
+3de09ec : mmc: core: new discard feature support at Samsung eMMC v4.41+. <singhome_lee> 1 year, 10 months ago
+d65d8b6 : bq27541: Correct scaling of voltage_now <Andrew Dodd> 1 year, 11 months ago
+9142d6f : bq27541: Add current_now property <Andrew Dodd> 1 year, 11 months ago
+2562ea0 : mmc: set emmc vcore voltage to 3.0V <hsuan-chih_chen> 1 year, 10 months ago
+9a76feb : net: wireless: bcmdhd: Report proper mcs rate mask <Dmitry Shmidt> 1 year, 10 months ago
+a01e715 : arm: tegra: grouper: ti-pmu: set ldo1 as 'always on' <Ban_Feng> 1 year, 10 months ago
+ 
+**** https://github.com/faux123/Nexus-grouper ****
+7464355 : defconfig: regen for ksm and f2fs support <Paul Reioux> 4 months ago
+ccd4fde : fs/f2fs/namei.c: fix merge derp + linux 3.2 compatibility fixups <Paul Reioux> 4 months ago
+90295d8 : f2fs: change the prototype for show_options <Alejandro Martinez Ruiz> 1 year, 6 months ago
+f286223 : sysfs: count subdirectories <Mikulas Patocka> 3 years ago
+b41c514 : security: Fix security_old_inode_init_security() when CONFIG_SECURITY is not set <Jan Kara> 2 years, 6 months ago
+65830dc : security: update security_file_mmap() docs <Kees Cook> 2 years, 7 months ago
+37eaa87 : include/linux/security.h: fix security_inode_init_security() arg <Andrew Morton> 2 years, 8 months ago
+0f8a061 : security.h: fix misc typos/grammar errors in comments <Vsevolod Alekseev> 2 years, 8 months ago
+41915f9 : security: sparse fix: Move security_fixup_op to security.h <James Morris> 2 years, 11 months ago
+62e1369 : security: Fix a typo <rongqing.li@windriver.com> 2 years, 10 months ago
+e874ce6 : evm: fix build problems <Mimi Zohar> 2 years, 11 months ago
+872b68d : evm: building without EVM enabled fixes <Mimi Zohar> 2 years, 11 months ago
+207f3db : f2fs: add code to handle the lack of s_max_links superblock field in 3.2 <Paul Reioux> 4 months ago
+42ac7b5 : vfs: new helper - d_make_root() <Al Viro> 2 years, 6 months ago
+91d1618b : vfs: export symbol d_find_any_alias() <Sage Weil> 2 years, 6 months ago
+2dfc248 : vfs: add d_prune dentry operation <Sage Weil> 2 years, 9 months ago
+1e3cc8a : vfs: protect i_nlink <Miklos Szeredi> 2 years, 9 months ago
+dc780ff : filesystems: add set_nlink() <Miklos Szeredi> 2 years, 9 months ago
+397f68c : filesystems: add missing nlink wrappers <Miklos Szeredi> 2 years, 9 months ago
+0438e5b : logfs: remove unnecessary nlink setting <Miklos Szeredi> 2 years, 9 months ago
+33418bc : ocfs2: remove unnecessary nlink setting <Miklos Szeredi> 2 years, 9 months ago
+78180ed : jfs: remove unnecessary nlink setting <Miklos Szeredi> 2 years, 9 months ago
+f6fd70c : hypfs: remove unnecessary nlink setting <Miklos Szeredi> 2 years, 9 months ago
+d706624 : vfs: ignore error on forced remount <Miklos Szeredi> 2 years, 9 months ago
+f2506ca : ehci-tegra.c: fix OTG disconnect reboot issue! <NetFluke> 4 months ago
+6ef56fe : FS: Initial F2FS import <Paul Reioux> 4 months ago
+83e1c3c : ksm: check and skip page, if it is already scanned <Pradeep Sawlani> 4 months ago
+57dd386 : defconfig: regen to latest kk mr1 baseline <Paul Reioux> 4 months ago
+ab2df94 : defconfig: kitkat 4.4 baseline <Paul Reioux> 8 months ago
+f92e56d : ARM: 7527/1: uaccess: explicitly check __user pointer when !CPU_USE_DOMAINS <Russell King> 1 year, 10 months ago
+91b0fcc : ARM: 7301/1: Rename the T() macro to TUSER() to avoid namespace conflicts <Catalin Marinas> 2 years, 6 months ago
+8006f78 : net: wireless: bcmdhd: Fix sched scan processing <Dmitry Shmidt> 1 year, 2 months ago
+54e3249 : net: wireless: bcmdhd: Clean scan status if request is empty <Dmitry Shmidt> 11 months ago
+c7f9777 : net: wireless: bcmdhd: Inject EID value if it has 0 length <Dmitry Shmidt> 11 months ago
+3446743 : net: wireless: bcmdhd: Fix roaming to hidden AP <Dmitry Shmidt> 11 months ago
+5eb0e6e : net: ipv6: fix wrong ping_v6_sendmsg return value <Lorenzo Colitti> 1 year ago
+51cdd7b : net: ipv6: add missing lock in ping_v6_sendmsg <Lorenzo Colitti> 1 year ago
+55c67f9 : net: wireless: bcmdhd: Enable p2p support bits for p2p device <Dmitry Shmidt> 12 months ago
+de24c79 : ping: always initialize ->sin6_scope_id and ->sin6_flowinfo <Cong Wang> 1 year, 1 month ago
+a4b6b84 : net: ipv6: Add IPv6 support to the ping socket. <Lorenzo Colitti> 1 year, 6 months ago
+0b2fbee : ipv6: introdcue __ipv6_addr_needs_scope_id and ipv6_iface_scope_id helper functions <Hannes Frederic Sowa> 1 year, 4 months ago
+4776c68 : Enable CONFIG_NETFILTER_XT_TARGET_TCPMSS <Ed Tam> 8 months ago
+79642c7 : charger: smb345: add hot limit temperature to stop charging <Hank_Lee> 9 months ago
+ee1a0b2 : ARM: 7527/1: uaccess: explicitly check __user pointer when !CPU_USE_DOMAINS <Russell King> 1 year, 10 months ago
+2ad7743 : ARM: 7301/1: Rename the T() macro to TUSER() to avoid namespace conflicts <Catalin Marinas> 2 years, 6 months ago
+f80c0a4 : net: wireless: bcmdhd: Fix sched scan processing <Dmitry Shmidt> 1 year, 2 months ago
+c132272 : net: wireless: bcmdhd: Clean scan status if request is empty <Dmitry Shmidt> 11 months ago
+72be581 : net: wireless: bcmdhd: Inject EID value if it has 0 length <Dmitry Shmidt> 11 months ago
+f67e2bc : net: wireless: bcmdhd: Fix roaming to hidden AP <Dmitry Shmidt> 11 months ago
+1031446 : net: ipv6: fix wrong ping_v6_sendmsg return value <Lorenzo Colitti> 1 year ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+fddd36a : lib/lzo: huge LZO decompression speedup on ARM by using unaligned access <Markus F.X.J. Oberhumer> 1 year, 5 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_oppo_n1 ****
+b95dd1d : misc: Revert of the following thread parking commits: <Ricardo Cerqueira> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+0758142 : Linux 3.4.99 <Greg Kroah-Hartman> 2 hours ago
+cd0c28d : ACPI / battery: Retry to get battery information if failed during probing <Lan Tianyu> 11 days ago
+d824be9 : x86, ioremap: Speed up check for RAM pages <Roland Dreier> 3 months ago
+2a77794 : rtmutex: Plug slow unlock race <Thomas Gleixner> 5 weeks ago
+ea018da : rtmutex: Handle deadlock detection smarter <Thomas Gleixner> 6 weeks ago
+307e2e0 : rtmutex: Detect changes in the pi lock chain <Thomas Gleixner> 6 weeks ago
+90b421b : rtmutex: Fix deadlock detector for real <Thomas Gleixner> 8 weeks ago
+bf09db9 : tracing: Remove ftrace_stop/start() from reading the trace file <Steven Rostedt (Red Hat)> 3 weeks ago
+fa1bd9b : drm/radeon: stop poisoning the GART TLB <Christian König> 6 weeks ago
+ef01826 : ext4: clarify error count warning messages <Theodore Ts'o> 12 days ago
+7b9eab8 : powerpc/perf: Never program book3s PMCs with values >= 0x80000000 <Anton Blanchard> 7 weeks ago
+30bbd39 : hwmon: (adm1029) Ensure the fan_div cache is updated in set_fan_div <Axel Lin> 2 weeks ago
+5cc80fb : hwmon: (amc6821) Fix permissions for temp2_input <Axel Lin> 2 weeks ago
+f54e041 : cpuset,mempolicy: fix sleeping function called from invalid context <Gu Zheng> 3 weeks ago
+d06191b : USB: ftdi_sio: Add extra PID. <Bert Vermeulen> 10 days ago
+d45a238 : USB: cp210x: add support for Corsair usb dongle <Andras Kovacs> 3 weeks ago
+fd7afe2 : usb: option: Add ID for Telewell TW-LTE 4G v2 <Bernd Wachter> 2 weeks ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+445f0dd : ... <h0rn3t> 7 hours ago
+1833a5e : ... <h0rn3t> 9 hours ago
+43b0696 : ... <h0rn3t> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+6726e67 : Telephony: Update ActionBar to match Settings <Michael Bestas> 8 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+f6c64aa : codina|janice:Missing alsa configs <C457> 29 hours ago
+ 

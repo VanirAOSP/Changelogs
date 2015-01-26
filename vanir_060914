@@ -1,0 +1,132 @@
+
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+ec80985 : m8: Properly configure WCNSS <Steve Kondik> 2 days ago
+ 
+**** https://github.com/Team-Exhibit/android_device_samsung_codinalte ****
+42b1b3e : Symlink libjhead to libhead <C457> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jflte ****
+69b08aa : jflte: add permissions for keydisabler <Dave Daynard> 2 months ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+fdc7aa7 : partial Revert "Revert "Additional sensors fix (Credit to Chrissi Cool)"" <Matt Filetto> 15 hours ago
+344886a : Start using msm8974-common <Matt Filetto> 15 hours ago
+6b088b4 : add missing permissions <elelinux> 3 days ago
+fd13968 : remove cm.dependencies <Matt Filetto> 19 hours ago
+2192839 : Revert "Revert the Outbound call fix for testing" <Matt Filetto> 19 hours ago
+4bf2579 : Revert "kltetmo: update build fingerprint" <Matt Filetto> 19 hours ago
+c5eab5a : power: use default qcom powerhal (elelinux) <Matt Filetto> 3 days ago
+92e305f : kltetmo: update build fingerprint <Matt Filetto> 3 days ago
+052cece : Revert the Outbount call fix for testing <Matt Filetto> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_maguro ****
+0f3796d : Samsung-RIL <Paul Kocialkowski> 5 months ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+12da705 : msm8960-common: add keydisabler hw file <sbrissen> 3 months ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_msm7x30-common ****
+4ef209b : Also unblank screen during init <Arne Coucheron> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_shinano-common ****
+5a66727 : shinano: fix wlan fw path <Giulio Cervera> 7 hours ago
+b084bcf : shinano: udpate tad blob <Giulio Cervera> 26 hours ago
+9942e8a : shinano: clean mdp prop <Giulio Cervera> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+83fbd94 : SystemUI: modify AOSP RU translation <Vladislav Koldobskiy> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_asus_tf701t ****
+fb7b8c5 : defconfig: regen <Prashant Somashekar> 19 hours ago
+997c6ab : Linux 3.4.92 <Greg Kroah-Hartman> 2 days ago
+4e005c4 : futex: Make lookup_pi_state more robust <Thomas Gleixner> 6 days ago
+96a54c1 : futex: Always cleanup owner tid in unlock_pi <Thomas Gleixner> 6 days ago
+7d99982 : futex: Validate atomic acquisition in futex_lock_pi_atomic() <Thomas Gleixner> 6 days ago
+51d3933 : futex-prevent-requeue-pi-on-same-futex.patch futex: Forbid uaddr == uaddr2 in futex_requeue(..., requeue_pi=1) <Thomas Gleixner> 6 days ago
+0b9e248 : ath9k: protect tid->sched check <Stanislaw Gruszka> 4 months ago
+207d558 : dj: memory scribble in logi_dj <Alan Cox> 1 year, 9 months ago
+ea225a9 : HID: logitech: don't use stack based dj_report structures <Marc Dionne> 2 years ago
+e1bd131 : PCI/ASPM: Don't touch ASPM if forcibly disabled <Joe Lawrence> 1 year, 5 months ago
+a8d43a6 : xen-netfront: reduce gso_max_size to account for max TCP header <Wei Liu> 1 year, 2 months ago
+3f4edaf : net: Add net_ratelimited_function and net_<level>_ratelimited macros <Joe Perches> 2 years, 1 month ago
+0ef6b5a : crypto: s390 - Fix aes-xts parameter corruption <Gerald Schaefer> 7 months ago
+2c5bcaa : can: sja1000: fix {pre,post}_irq() handling and IRQ handler return value <Oliver Hartkopp> 7 months ago
+ed713bb : backlight: atmel-pwm-bl: fix gpio polarity in remove <Johan Hovold> 7 months ago
+c8cbafe : mtd: m25p80: fix allocation size <Brian Norris> 11 months ago
+cf784d4 : crypto: s390 - Fix aes-cbc IV corruption <Herbert Xu> 7 months ago
+a083d21 : mac80211: drop spoofed packets in ad-hoc mode <Felix Fietkau> 9 months ago
+c86503e : vgacon.c: add cond reschedule points in vgacon_do_font_op <Marcelo Tosatti> 12 months ago
+70f32db : b43: ensue that BCMA is "y" when B43 is "y" <Hauke Mehrtens> 1 year ago
+4340fb8 : i2c-piix4: Add AMD CZ SMBus device ID <Shane Huang> 1 year ago
+233bcc4 : cfg80211: check wdev->netdev in connection work <Johannes Berg> 1 year, 1 month ago
+a2291da : random: fix accounting race condition with lockless irq entropy_count update <Jiri Kosina> 1 year, 1 month ago
+82bed7b0 : rapidio/tsi721: Fix interrupt mask when handling MSI <Ben Hutchings> 1 year ago
+032a4d5 : rapidio/tsi721: fix bug in MSI interrupt handling <Alexandre Bounine> 1 year, 1 month ago
+f33b75a : msi-wmi: Fix memory leak <Maxim Mikityanskiy> 1 year, 6 months ago
+11aea71 : ixgbe: fix registration order of driver and DCA nofitication <Jakub Kicinski> 1 year, 2 months ago
+a002b32 : speakup: lower default software speech rate <Samuel Thibault> 1 year, 9 months ago
+a7ea240 : ata_piix: Add Device IDs for Intel Lynx Point-LP PCH <James Ralston> 1 year, 10 months ago
+4f31867 : drivers/rtc/rtc-pl031.c: restore ST variant functionality <Linus Walleij> 1 year, 4 months ago
+7475107 : rt2800usb: Add support for 2001:3c1e (D-Link DWA-125 rev B1) USB Wi-Fi adapter <Maia Kozheva> 1 year, 6 months ago
+014d429 : Wireless: rt2x00: Add device id for Sweex LW323 to rt2800usb.c <Jaume Delclòs> 1 year, 7 months ago
+418298e : wireless: rt2x00: rt{2500,73}usb.c put back duplicate id <Xose Vazquez Perez> 2 years, 2 months ago
+055183c : drivers/rtc/rtc-pl031.c: fix the missing operation on enable <Haojian Zhuang> 1 year, 4 months ago
+2ba274c : drm/radeon: always program the MC on startup <Alex Deucher> 10 months ago
+e5ee019 : drm/radeon: fix hdmi mode enable on RS600/RS690/RS740 <Alex Deucher> 1 year, 2 months ago
+83b2387 : drm/ttm: Fix memory type compatibility check <Thomas Hellstrom> 8 months ago
+49cc2fc : drm: Pad drm_mode_get_connector to 64-bit boundary <Chris Wilson> 8 months ago
+10342dd : drm/radeon: fix panel scaling with eDP and LVDS bridges <Alex Deucher> 9 months ago
+3283c01 : drm/i915: try not to lose backlight CBLV precision <Jani Nikula> 10 months ago
+ce5ee8d : drm/radeon: Another card with wrong primary dac adj <Ondrej Zary> 11 months ago
+ae8d404 : drm/i915: ensure single initialization and cleanup of backlight device <Jani Nikula> 1 year, 2 months ago
+16312b3 : drm/i915: Workaround incoherence between fences and LLC across multiple CPUs <Chris Wilson> 1 year, 2 months ago
+f476273 : drm/radeon: cleanup properly if mmio mapping fails <Alex Deucher> 1 year, 2 months ago
+778b316 : drm/radeon: use frac fb div on RS780/RS880 <Alex Deucher> 1 year, 2 months ago
+1f939bb : DRM/i915: Add QUIRK_INVERT_BRIGHTNESS for NCR machines. <Egbert Eich> 1 year, 8 months ago
+28ec69a : drm/i915: add quirk to invert brightness on Packard Bell NCL20 <Jani Nikula> 1 year, 5 months ago
+10e0476 : drm/i915: add quirk to invert brightness on eMachines e725 <Jani Nikula> 1 year, 5 months ago
+bd7c03b : drm/i915: add quirk to invert brightness on eMachines G725 <Jani Nikula> 1 year, 5 months ago
+bba39a7 : drm/i915: panel: invert brightness acer aspire 5734z <Carsten Emde> 2 years, 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+3eb8c3a : drivers: usb: Use Android device as USB keyboard/mouse <Pranav Vashi> 3 weeks ago
+cd5e275 : kswapd: Introduce congestion_wait_kswapd <Luis Cruz> 8 weeks ago
+3922509 : usb: otg:  Retry putting the OTG PHY in low power mode. <Jason Hrycay> 11 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_samsung_jf ****
+b6d1683 : jf: cypress-touchkey - add keydisabler <sbrissen> 2 months ago
+ 
+**** https://github.com/LegacyXperia/android_kernel_semc_msm7x30 ****
+449d2d3 : block: bfq: Squashed update from BFQ-v7r3 to BFQ-v7r4 <Arne Coucheron> 13 days ago
+e7e340c : drivers: usb: Use Android device as USB keyboard/mouse <Pranav Vashi> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+2805752 : Revert "Add open-source samsung rils (for tunas)" -- gitoriuos is being too annoying, fix after work <DHOMD> 10 hours ago
+a14190f : Add open-source samsung rils (for tunas) <DHOMD> 21 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+b8eb2b7 : Camera2: Fix AOSP mismerge <Michael Bestas> 8 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+1b93ca5 : Hide shadow overlay for contact tiles with letter tile avatars <Yorke Lee> 3 months ago
+aeca1fb : Dialer: Update landscape layout to match 4.4.3 codebase <nadlabak> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+7447da6 : InCallUI: Improve latest CAF strings <Michael Bestas> 8 hours ago
+40646c2 : Replace deprecated string resources. <Ricardo Cerqueira> 24 hours ago
+7b86c36 : InCallUI: Fix landscape layout <nadlabak> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+c43573e : Mms: disable SplitActionBar <Vladislav Koldobskiy> 2 days ago
+7d3c2b3 : Hide "Insert smiley" if emoticons are disabled <Vladislav Koldobskiy> 33 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+22645a3 : Settings: modify AOSP RU translation <Vladislav Koldobskiy> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_ThemesProvider ****
+d18ad8f : When applied theme is removed, revert to default <Andy Mast> 4 days ago
+71cd2fb : Cleanup cached preview images on uninstall <Andy Mast> 5 days ago
+ 
+**** https://github.com/VanirAOSP/system_vold ****
+9e04b8e : Add Flash-Friendly File System (f2fs) support. <Evan McClain> 3 months ago
+ 

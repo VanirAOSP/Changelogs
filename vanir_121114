@@ -1,0 +1,228 @@
+
+**** git://git.samba.org/ccache.git ****
+a393dcd : Prepare for v3.2.1 <Joel Rosdahl> 30 hours ago
+5c5ead0 : Set correct permission for stats, manifest and ccache.conf files <Joel Rosdahl> 32 hours ago
+d4683d5 : Revert "Do not rely on pids being unique" <Joel Rosdahl> 2 days ago
+ed51f2b : Create CACHEDIR.TAG files in [0-9a-f] subdirectories to avoid losing the config <Joel Rosdahl> 4 days ago
+4ad86e7 : Whitespace cleanup <Joel Rosdahl> 4 days ago
+380d473 : doc: Add missing documentation for max_files and max_size options <Joel Rosdahl> 7 days ago
+d7f2461 : doc: Sort configuration options correctly and fix typo <Joel Rosdahl> 7 days ago
+bd93cb5 : Make default cache size suffix be "G", like documented <Joel Rosdahl> 8 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+9d77714 : sepolicy: add some more policies <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+f4cd977 : OOPS... audio_effects not audio_policy <sudosurootdev> 20 hours ago
+6682011 : Now that DSPManager is not used, the audio_effects.conf copyfile will copy, but only into /system/vendor/etc as build copies frameworks/av version into /system/etc <sudosurootdev> 23 hours ago
+36914f7 : Use linaro-4.9 toolchain version <sudosurootdev> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g3-common ****
+be23a86 : sec_config: update from lollipop release <Dan Pasanen> 3 days ago
+c8ffb3d : LgeLteRIL: properly reset radio on RIL_CONNECTED <Richard Ross> 6 days ago
+e52e854 : LgeLteRIL: allow skipping of initial radio power off message <Ethan Chen> 6 days ago
+6b75499 : g3: selinux enforcing <Dan Pasanen> 2 weeks ago
+85e3e5c : sepolicy: add device specific-sepolicies <Dan Pasanen> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_lge_ls990 ****
+95afaed : ls990: bring up overlays <Hrubak> 10 days ago
+8c8798c : ls990: update thermal-engine <Hrubak> 6 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_mako ****
+bb00030 : Replace libcyanogen-dsp in audio effects config. <Danny Baumann> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_p880 ****
+9eb233d : TARGET_CPU_SMP is the default, remove it. Add shell property to use AwesomePlayer as default. Disable adaptive playback. <demetris> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+c9eba18 : msm8974: Remove extra resampler <Steve Kondik> 18 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_qcom_sepolicy ****
+2177774 : thermal-engine: Fix socket re-creation perms <Ricardo Cerqueira> 33 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_jf-common ****
+188f612 : jf: selinux enforcing <dcd> 3 days ago
+eca3f82 : sepolicy: add device-specific sepolicies <Dan Pasanen> 2 weeks ago
+b195c0d : Revert "jf-common: remove hce permission" <Rick C> 12 days ago
+caaac6c : jf: Use Google's codecs <dcd> 3 weeks ago
+f6bbaf0 : jf: remove QCOM_FLUENCE_ENABLED := false <dcd> 3 days ago
+6869e88 : jf: fix NFC <Steve Kondik> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_jfltetmo ****
+64bdcd6 : jfltetmo: update fingerprint <dcd> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_jfltevzw ****
+c3c4ca3 : jfltevzw: update fingerprint <fitsnugly> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_kltevzw ****
+0c11efa : jfltevzw: set prop to enable IMSI from SIM <fitsnugly> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_honami ****
+b58b009 : Voice call routing <Chirayu Desai> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_rhine-common ****
+5e97f14 : Voice call routing <Chirayu Desai> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/Superuser ****
+2b782d1 : Fix security, tighter str comparison, fix warnings <Marcos Marado> 5 hours ago
+c2ec204 : su: Fix verification fails when the client isn't setuid <Ricardo Cerqueira> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+ecc16ea : stagefright: Increase raw codec buffer size <Steve Kondik> 18 hours ago
+cb950e2 : stagefright: Fix FFMPEG catchall decoders <Steve Kondik> 25 hours ago
+382b0f6 : stagefright: Adjust confidence threshold for extended sniffers <Steve Kondik> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+693832f : Move CAF strings <Michael Bestas> 2 weeks ago
+d6eeda2 : Disgusting hack to temp fix a few builds <DHOMD> 3 weeks ago
+1f77af9 : frameworks: add keyguard wallpaper functionality to WallpaperManager <Roman Birg> 8 months ago
+f325f87 : frameworks: allow last app action to be assigned to hardware keys <Roman Birg> 4 months ago
+d9ad9af : SystemUI: make long pressing recent switch to last app <Roman Birg> 4 months ago
+ccb215c : SettingsProvider: Migrate STATS_COLLECTION to secure. <Adnan Begovic> 3 days ago
+3440a67 : media: Scan FLV files, because why not? <Steve Kondik> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+6faaa94 : dumpstate: Squash fixes from CM 10.0 <Mike Kasick> 2 years, 1 month ago
+1ec0623 : surfaceflinger: Unbreak the ABI <Steve Kondik> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_datetimepicker ****
+553e5e6 : DateTimePicker : Add facilities to customize MonthView's appearance. <Rohit Yengisetty> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_mms ****
+d666022 : Fix warnings <Steve Kondik> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_audio ****
+8e7004b : hal: Be specific about supported offload formats <Steve Kondik> 21 hours ago
+5958d60 : hal: Remove samplerate checks for speaker <Steve Kondik> 26 hours ago
+5bc6114 : hal: Kill useless logspam <Steve Kondik> 2 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_dlx ****
+0811a26 : dlx: enable idletimer for netd <Dan Pasanen> 28 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8974 ****
+6772cb4 : nfc: pn544: Switch header places and export <Jurica Vukadin> 3 weeks ago
+6266cff : m8: enable idletimer for netd <invisiblek> 28 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_lge_g3 ****
+b616ed8 : radio: iris: Use #define to declare numerical constants <Dan Pasanen> 8 weeks ago
+2d44328 : g3: death to all modules <Dan Pasanen> 20 hours ago
+2321119 : usb: dwc3: set power supply type as usb when probing <bryan2894> 2 weeks ago
+24a8187 : g3: enable idletimer for netd <Dan Pasanen> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/kernel_lge_msm8974 ****
+e9cd190 : Update/shorten LOCALVERSION & use @ VanirAOSP <sudosurootdev> 23 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960dt-common ****
+2cde1cf : ext4: Add support for FIDTRIM, a best-effort ioctl for deep discard trim <JP Abgrall> 4 months ago
+e207a5b : net: ipv6: allow choosing optimistic addresses with use_optimistic <Erik Kline> 7 days ago
+5f6fb23 : net/ping: handle protocol mismatching scenario <Jane Zhou> 2 weeks ago
+f3dafaf : net: ipv6: Add a sysctl to make optimistic addresses useful candidates <Erik Kline> 6 weeks ago
+bc72a0a : cpufreq: Avoid using global variable total_cpus <Ruchi Kandoi> 7 weeks ago
+18568ef : introduce for_each_thread() to replace the buggy while_each_thread() <Oleg Nesterov> 11 months ago
+7fd7a44 : Linux 3.4.105 <Zefan Li> 11 days ago
+4290973 : l2tp: fix race while getting PMTU on PPP pseudo-wire <Guillaume Nault> 3 months ago
+9024225 : ixgbevf: Prevent RX/TX statistics getting reset to zero <Narendra K> 2 years, 5 months ago
+10d5d53 : net: Do not enable tx-nocache-copy by default <Benjamin Poirier> 11 months ago
+c58038a : ipv6: reuse ip6_frag_id from ip6_ufo_append_data <Hannes Frederic Sowa> 10 months ago
+4b7f15c : rtl8192ce: Fix null dereference in watchdog <Ben Hutchings> 8 months ago
+50f1b3d : ipv4: disable bh while doing route gc <Marcelo Ricardo Leitner> 8 weeks ago
+b54ca60 : ipv4: avoid parallel route cache gc executions <Marcelo Ricardo Leitner> 4 months ago
+b6153ea : ipv4: move route garbage collector to work queue <Marcelo Ricardo Leitner> 4 months ago
+23dd72f : Fix spurious request sense in error handling <James Bottomley> 9 months ago
+be73621 : dm crypt: fix access beyond the end of allocated space <Mikulas Patocka> 4 months ago
+b47d65d : mnt: Only change user settable mount flags in remount <Eric W. Biederman> 5 months ago
+ae552f6 : bluetooth: hci_ldisc: fix deadlock condition <Felipe Balbi> 8 months ago
+2f1eef2 : perf: Handle compat ioctl <Pawel Moll> 6 months ago
+69724a6 : NFS: fix stable regression <Sergio Gelato> 9 weeks ago
+efdbbff : ext4: avoid trying to kfree an ERR_PTR pointer <Theodore Ts'o> 3 months ago
+df22b9e : ext4: propagate errors up to ext4_find_entry()'s callers <Theodore Ts'o> 4 months ago
+50d6b91 : nl80211: clear skb cb before passing to netlink <Johannes Berg> 5 months ago
+62db31b : genhd: fix leftover might_sleep() in blk_free_devt() <Jens Axboe> 3 months ago
+48dd9ce : init/Kconfig: Hide printk log config if CONFIG_PRINTK=n <Josh Triplett> 10 weeks ago
+232beb6 : perf: fix perf bug in fork() <Peter Zijlstra> 2 months ago
+ea38cd4 : mm: migrate: Close race between migration completion and mprotect <Mel Gorman> 2 months ago
+e5b7413 : ASoC: core: fix possible ZERO_SIZE_PTR pointer dereferencing error. <Xiubo Li> 3 months ago
+3efcfa5 : ARM: 8165/1: alignment: don't break misaligned NEON load/store <Robin Murphy> 3 months ago
+8c3c6b9 : shmem: fix nlink for rename overwrite directory <Miklos Szeredi> 3 months ago
+8b46751 : ocfs2/dlm: do not get resource spinlock if lockres is new <Joseph Qi> 3 months ago
+78d8eef : nilfs2: fix data loss with mmap() <Andreas Rohner> 3 months ago
+504c461 : MIPS: mcount: Adjust stack pointer for static trace in MIPS32 <Markos Chandras> 3 months ago
+4fae6cc : cpuset: PF_SPREAD_PAGE and PF_SPREAD_SLAB should be atomic flags <Zefan Li> 3 months ago
+699c06b : sched: add macros to define bitops for task atomic flags <Zefan Li> 3 months ago
+f4d8504 : sched: Fix unreleased llc_shared_mask bit during CPU hotplug <Wanpeng Li> 3 months ago
+6a77b9b : parisc: Only use -mfast-indirect-calls option for 32-bit kernel builds <John David Anglin> 3 months ago
+7433a2a : Fix nasty 32-bit overflow bug in buffer i/o code. <Anton Altaparmakov> 3 months ago
+d7bbf15 : ALSA: pcm: fix fifo_size frame calculation <Clemens Ladisch> 3 months ago
+8fcf8e6 : can: at91_can: add missing prepare and unprepare of the clock <David Dueck> 3 months ago
+a125f73 : can: flexcan: put TX mailbox into TX_INACTIVE mode after tx-complete <Marc Kleine-Budde> 3 months ago
+a6cdbae : can: flexcan: implement workaround for errata ERR005829 <David Jander> 3 months ago
+12c6d3d : can: flexcan: correctly initialize mailboxes <David Jander> 4 months ago
+b06c98e : can: flexcan: mark TX mailbox as TX_INACTIVE <Marc Kleine-Budde> 3 months ago
+c228332 : USB: storage: Add quirks for Entrega/Xircom USB to SCSI converters <Mark> 3 months ago
+b75a066 : USB: storage: Add quirk for Ariston Technologies iConnect USB to SCSI adapter <Mark> 3 months ago
+361be54 : USB: storage: Add quirk for Adaptec USBConnect 2000 USB-to-SCSI Adapter <Mark> 3 months ago
+b559f0b : libiscsi: fix potential buffer overrun in __iscsi_conn_send_pdu <Mike Christie> 3 months ago
+b6cab21 : NFSv4: Fix another bug in the close/open_downgrade code <Trond Myklebust> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_jf ****
+3b9620e : SELinux: include definition of new capabilities <Eric Paris> 2 years, 5 months ago
+1f2b4fb : jf: Enable IDLETIMER which is used in netd <Howard Su> 2 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_samsung_klte ****
+da7590d : Fix vzw nfc <nuclearmistake> 2 days ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+c50515e : Always something <DHOMD> 3 hours ago
+99218b6 : Commotio <DHOMD> 3 hours ago
+df338eb : AudioFX for now <nuclearmistake> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_BluetoothExt ****
+3984f7b : Revert "Bluetooth-wipower: Enabling A4WP Profile." <Steve Kondik> 3 weeks ago
+fb3b5c5 : Fix makefile guard <Steve Kondik> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+ccd6fff : calculator: drag down on display to reveal history <emancebo> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+7b8ac44 : Calendar : Adding Year View <Rohit Yengisetty> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Contacts ****
+36db90b : Clean up multi picker activity. <Danny Baumann> 3 months ago
+0e85548 : Import feature - auto prompt for importing SIM contacts <Raj Yengisetty> 3 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+e486a7f : Fix checkmarks being displayed stretched for contact pictures. <Danny Baumann> 11 hours ago
+5d3fe79 : Add a checkable QuickContactBadge. <Danny Baumann> 4 days ago
+735ed91 : Import feature - auto prompt for importing SIM contacts <Raj Yengisetty> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Mms-caf ****
+f9ba58b : Mms: Move CAF strings <Michael Bestas> 3 hours ago
+4c0ef29 : Fix orientation change behaviour of SelectRecipientsList. <Danny Baumann> 13 hours ago
+06cb616 : Revert "Mms: Dispaly wrong text message limit for per conversation" <Arne Coucheron> 17 hours ago
+99e2e77 : Modernize recipient selection activity. <Danny Baumann> 3 days ago
+e79c286 : Use CheckableContactBadge. <Danny Baumann> 3 days ago
+528eb0c : Add filtering by SIM for mms conversations (2/2) <emancebo> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+7e6abd3 : Move CAF strings <Michael Bestas> 4 days ago
+fe407ed : Settings: last app action in long press <Marcos Marado> 35 hours ago
+6473406 : Settings: Fix blacklist settings crash <Michael Bestas> 28 hours ago
+a1e5ca5 : settings: Fix warnings <Steve Kondik> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Stk ****
+5d7fdd9 : Stk: Move CAF strings <Michael Bestas> 9 months ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_TelephonyProvider ****
+97bc135 : Add filtering by SIM for mms conversations (1/2) <emancebo> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+a4ae7ba : telephony: Fix package name warnings <Steve Kondik> 2 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+cc6356d : Add Bulsatcom APN <Abhisek Devkota> 2 days ago
+743e0fc : cm: add sepolicy entry for lockscreen wallpaper <Roman Birg> 3 days ago
+6925ea1 : selinux: Workaround for devices with PR_SET_NO_NEW_PRIVS enforcement <Ricardo Cerqueira> 29 hours ago
+6d5ee03 : Revert "SELinux: su: update policies" <Ricardo Cerqueira> 33 hours ago
+ef2b1d6 : AudioFX... steve says devices should use stock audio_effects or one with offload... not sure if we'll stick with this or go back to dspmanager <nuclearmistake> 2 days ago
+778cb52 : sepolicy: More rules for recovery <Steve Kondik> 10 days ago
+ 

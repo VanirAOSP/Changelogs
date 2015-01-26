@@ -1,0 +1,161 @@
+
+**** https://github.com/VanirAOSP/build ****
+7b3577f : [1/2]Make squasher compatible with Jenkins <MartinRo> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_p880 ****
+9de07f6 : Add device perms for lcd density: This allows gralloc to initialize the lcd_density value under certain conditions. <demetris> 31 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+2ccf627 : Revert "Overlay mms_config to increase allowed picture size" <Ricardo Cerqueira> 18 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_n1 ****
+bb316fa : n1: Update bootloader image <Ethan Chen> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+1fa73be : nuclearwinter: make sure to set the system prop it uses to determine the thermal service name for eventual kernel kthermal support <nuclearmistake> 24 hours ago
+53c41f1 : Dexopt to /data/ only <nuclearmistake> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_kltevzw ****
+e2b38c2 : kltevzw: use prebuilt NFC HAL, like KLTE does. <nuclearmistake> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8974-common ****
+44d4ce9 : msm8974: move firmware symlinks to vendor as binaries expect. <Tony Layher> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_rhine-common ****
+381091f : rhine: Set IO scheduler to noop for bootup <Ethan Chen> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/external_skia ****
+6ef67c5 : "Revert "skia: Rename perf flag" again" 	I only needed this to test setting var in build repo. 	It is better to try to keep all equal for mgrep etc. This reverts commit 1c56efbeb0a91f05599b6cd366c78f7889c402ea. <sudosurootdev> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_samsung_slsi_exynos5420 ****
+be1b7cd : exynos5420: Add USE_NORMAL_DRM ifdefs ala exynos5-insignal <Christopher R. Palmer> 3 weeks ago
+21d3cb1 : exynos5420: Use kernel includes <Christopher R. Palmer> 3 weeks ago
+a594a5a : Remove curl for cm-11.0 <Patrick Buckley> 8 weeks ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+be52c9f : Revert "asoc:tegra: disable ext1 clock in suspend" <demetris> 18 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+bb4a05a : Linux 3.4.104 <Zefan Li> 26 hours ago
+618dea4 : alpha: add io{read,write}{16,32}be functions <Michael Cree> 2 years, 10 months ago
+3a8f613 : ext2: Fix fs corruption in ext2_get_xip_mem() <Jan Kara> 11 months ago
+f79bb94 : alpha: Fix fall-out from disintegrating asm/system.h <Michael Cree> 2 years, 1 month ago
+92a6e26 : UniCore32-bugfix: fix mismatch return value of __xchg_bad_pointer <Guan Xuetao> 2 years, 3 months ago
+4e36063 : UniCore32-bugfix: Remove definitions in asm/bug.h to solve difference between native and cross compiler <Guan Xuetao> 2 years, 3 months ago
+62cdcce : unicore32: select generic atomic64_t support <Fengguang Wu> 2 years ago
+82a938ab : 8250_pci: fix warnings in backport of Broadcom TruManage support <Paul Gortmaker> 5 weeks ago
+69db2d4 : slab/mempolicy: always use local policy from interrupt context <Andi Kleen> 2 years, 4 months ago
+ab22539 : openrisc: add missing header inclusion <Stefan Kristiansson> 1 year, 7 months ago
+c1bc007 : MIPS: Fix accessing to per-cpu data when flushing the cache <Ralf Baechle> 1 year ago
+9a8fa93 : MIPS: perf: Fix build error caused by unused counters_per_cpu_to_total() <Florian Fainelli> 2 years, 2 months ago
+c804743 : USB: serial: fix potential heap buffer overflow <Johan Hovold> 4 weeks ago
+62148f7 : USB: serial: fix potential stack buffer overflow <Johan Hovold> 4 weeks ago
+2f3e285 : ARM: 8129/1: errata: work around Cortex-A15 erratum 830321 using dummy strex <Mark Rutland> 6 weeks ago
+5624bb3 : ARM: 8128/1: abort: don't clear the exclusive monitors <Mark Rutland> 6 weeks ago
+e78c127 : HID: picolcd: sanity check report size in raw_event() callback <Jiri Kosina> 4 weeks ago
+e115f02 : HID: magicmouse: sanity check report size in raw_event() callback <Jiri Kosina> 4 weeks ago
+0bfb000 : NFSv4: Fix problems with close in the presence of a delegation <Trond Myklebust> 4 weeks ago
+818ee41 : USB: sisusb: add device id for Magic Control USB video <Stephen Hemminger> 4 weeks ago
+86d165e : HID: logitech-dj: prevent false errors to be shown <Benjamin Tissoires> 5 weeks ago
+2f2c704 : USB: whiteheat: Added bounds checking for bulk command response <James Forshaw> 5 weeks ago
+1d37c3e : usb: xhci: amd chipset also needs short TX quirk <Huang Rui> 5 weeks ago
+42494f0 : xhci: Treat not finding the event_seg on COMP_STOP the same as COMP_STOP_INVAL <Hans de Goede> 5 weeks ago
+d232e2c : USB: ftdi_sio: Added PID for new ekey device <Jaša Bartelj> 6 weeks ago
+68e9929 : USB: serial: pl2303: add device id for ztek device <Greg KH> 6 weeks ago
+262548e : USB: ftdi_sio: add Basic Micro ATOM Nano USB2Serial PID <Johan Hovold> 6 weeks ago
+78aea3a : USB: option: add VIA Telecom CDS7 chipset device id <Brennan Ashton> 7 weeks ago
+c2aa9b7 : staging: et131x: Fix errors caused by phydev->addr accesses before initialisation <Mark Einon> 7 weeks ago
+f40751b : xtensa: fix a6 and a7 handling in fast_syscall_xtensa <Max Filippov> 8 weeks ago
+bcf20fd : xtensa: fix TLBTEMP_BASE_2 region handling in fast_second_level_miss <Max Filippov> 9 weeks ago
+fb2ae73 : xtensa: fix address checks in dma_{alloc,free}_coherent <Alan Douglas> 9 weeks ago
+2297927 : xtensa: replace IOCTL code definitions with constants <Max Filippov> 10 weeks ago
+483320c : ALSA: hda/realtek - Avoid setting wrong COEF on ALC269 & co <Takashi Iwai> 6 weeks ago
+d06e4b0 : CIFS: Fix wrong directory attributes after rename <Pavel Shilovsky> 6 weeks ago
+a0e5b9d : md/raid6: avoid data corruption during recovery of double-degraded RAID6 <NeilBrown> 6 weeks ago
+77e5657 : iommu/amd: Fix cleanup_domain for mass device removal <Joerg Roedel> 7 weeks ago
+db83744 : pata_scc: propagate return value of scc_wait_after_reset <Arjun Sreedharan> 6 weeks ago
+f0634a3 : kvm: iommu: fix the third parameter of kvm_iommu_put_pages (CVE-2014-3601) <Michael S. Tsirkin> 5 weeks ago
+33df36f : MIPS: OCTEON: make get_system_type() thread-safe <Aaro Koskinen> 9 weeks ago
+5ccd3e2 : isofs: Fix unbounded recursion when processing relocated directories <Jan Kara> 6 weeks ago
+c945ed6 : HID: logitech: perform bounds checking on device_id early enough <Jiri Kosina> 5 weeks ago
+dab2f9b : HID: fix a couple of off-by-ones <Jiri Kosina> 5 weeks ago
+9220628 : ibmveth: Fix endian issues with rx_no_buffer statistic <Anton Blanchard> 5 weeks ago
+c27d3b5 : ASoC: pxa-ssp: drop SNDRV_PCM_FMTBIT_S24_LE <Daniel Mack> 6 weeks ago
+b402b72 : stable_kernel_rules: Add pointer to netdev-FAQ for network patches <Dave Chiluk> 3 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_samsung_exynos5420 ****
+e3a2113 : Additional defs needed in LINUX_VIDEODEV2_EXYNOS_MEDIA <DHOMD> 9 hours ago
+edfc109 : Update defconfig <DHOMD> 10 hours ago
+5b970af : klimtwifi: Set SELinux permissive <C457> 7 weeks ago
+313d46d : [media] fimc: Move camera file paths to sane location <Ethan Chen> 9 weeks ago
+59f21ab : [media] fimc: Move camera ID file to sane location <Ethan Chen> 9 weeks ago
+309d637 : Kbuild: export videodev2_exynos_camera header <Ethan Chen> 3 months ago
+6d917cc : futex: Make lookup_pi_state more robust <Thomas Gleixner> 4 months ago
+d004942 : futex: Always cleanup owner tid in unlock_pi <Thomas Gleixner> 4 months ago
+86d877d : futex: Validate atomic acquisition in futex_lock_pi_atomic() <Thomas Gleixner> 4 months ago
+5d16c61 : futex: Add another early deadlock detection check <Thomas Gleixner> 5 months ago
+94c7260 : futex: Prevent attaching to kernel threads <Thomas Gleixner> 5 months ago
+640277b : exynos: universal5420: Support legacy LPM param <Ethan Chen> 5 months ago
+b03aea8 : media: gscaler: Add hack to swap Cr and Cb order <Ethan Chen> 8 months ago
+088635d : Kbuild: Export additional Exynos headers <Ethan Chen> 11 months ago
+57a1bd9d : video: backlight: Fix touchscreen failure on first screen-on <Ethan Chen> 1 year, 2 months ago
+fced7b4 : klimtwifi:Add cm defconfig <C457> 7 weeks ago
+3b81b8d : fix building to separate output dir (arg O=) <C457> 7 weeks ago
+184a75e : Import SM-T700 <C457> 7 weeks ago
+cbfed95 : Linux 3.4.39 <Greg Kroah-Hartman> 1 year, 6 months ago
+29fcbcb : Revert "xen/blkback: Don't trust the handle from the frontend." <Greg Kroah-Hartman> 1 year, 6 months ago
+aa5ec22 : bonding: get netdev_rx_handler_unregister out of locks <Veaceslav Falico> 1 year, 6 months ago
+c843819 : smsc75xx: fix jumbo frame support <Steve Glendinning> 1 year, 6 months ago
+74bed69 : pch_gbe: fix ip_summed checksum reporting on rx <Veaceslav Falico> 1 year, 6 months ago
+f0180de : net: add a synchronize_net() in netdev_rx_handler_unregister() <Eric Dumazet> 1 year, 6 months ago
+5afd933 : ks8851: Fix interpretation of rxlen field. <Max.Nekludov@us.elster.com> 1 year, 6 months ago
+567a4ac : ipv6: don't accept node local multicast traffic from the wire <Hannes Frederic Sowa> 1 year, 6 months ago
+6a51997 : ipv6: fix bad free of addrconf_init_net <Hong Zhiguo> 1 year, 6 months ago
+df19106 : ipv6: don't accept multicast traffic with scope 0 <Hannes Frederic Sowa> 1 year, 7 months ago
+ccb926f : DM9000B: driver initialization upgrade <Joseph CHANG> 1 year, 6 months ago
+98b3a57 : atl1e: drop pci-msi support because of packet corruption <Hannes Frederic Sowa> 1 year, 6 months ago
+d97bcfa : aoe: reserve enough headroom on skbs <Eric Dumazet> 1 year, 6 months ago
+a930484 : net: fix *_DIAG_MAX constants <Andrey Vagin> 1 year, 6 months ago
+71ec40e : drivers: net: ethernet: cpsw: use netif_wake_queue() while restarting tx queue <Mugunthan V N> 1 year, 6 months ago
+86f1b8c : drivers: net: ethernet: davinci_emac: use netif_wake_queue() while restarting tx queue <Mugunthan V N> 1 year, 6 months ago
+ae8c63b : bonding: fix disabling of arp_interval and miimon <nikolay@redhat.com> 1 year, 6 months ago
+d98ea18 : bonding: fix miimon and arp_interval delayed work race conditions <nikolay@redhat.com> 1 year, 10 months ago
+b11b7d9 : bonding: remove already created master sysfs link on failure <Veaceslav Falico> 1 year, 6 months ago
+fbb7347 : unix: fix a race condition in unix_release() <Paul Moore> 1 year, 6 months ago
+b9f3bf1 : thermal: shorten too long mcast group name <Masatake YAMATO> 1 year, 6 months ago
+a834179 : 8021q: fix a potential use-after-free <Cong Wang> 1 year, 6 months ago
+d1f60c6 : tcp: undo spurious timeout after SACK reneging <Yuchung Cheng> 1 year, 6 months ago
+21b56e0 : tcp: preserve ACK clocking in TSO <Eric Dumazet> 1 year, 6 months ago
+8787606 : sky2: Threshold for Pause Packet is set wrong <Mirko Lindner> 1 year, 6 months ago
+27d365a : sky2: Receive Overflows not counted <Mirko Lindner> 1 year, 6 months ago
+a897b79 : net: remove a WARN_ON() in net_enable_timestamp() <Eric Dumazet> 1 year, 6 months ago
+7b7cf9f : tracing: Prevent buffer overwrite disabled for latency tracers <Steven Rostedt (Red Hat)> 1 year, 6 months ago
+2f6b6e2 : tracing: Protect tracer flags with trace_types_lock <Steven Rostedt (Red Hat)> 1 year, 6 months ago
+2457a40 : ext4: use atomic64_t for the per-flexbg free_clusters count <Theodore Ts'o> 1 year, 7 months ago
+46c14b9 : ext4: convert number of blocks to clusters properly <Lukas Czerner> 1 year, 7 months ago
+4025b05 : efivars: Handle duplicate names from get_next_variable() <Matt Fleming> 1 year, 7 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+e6d6fa8 : Speacil cases <DHOMD> 8 hours ago
+f8a4124 : Klimtwifi builds with our kernel <DHOMD> 9 hours ago
+370ecab : android_ for cm <DHOMD> 12 hours ago
+75cbc15 : Use new CM paths for Klimtwifi <DHOMD> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+470dabc : Revert "blacklist call recording for US/EU mccs, remove sysprop flag for enabling" <DHOMD> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+0826928 : Hardware keys: add gesture panel support <PrimeDirective> 4 weeks ago
+f20dc56 : Settings: Remove unused strings <Michael Bestas> 2 days ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+b7019fb : Kill stuff from 2012, allow scaling sysfs paths to be read always all the time by urrybody and msome drm crap <nuclearmistake> 27 hours ago
+6a54cc4 : Fix whitespace above late-init trigger <nuclearmistake> 27 hours ago
+e55be76 : Explicitly set mediadrm permissions regardless of mkdir happening <nuclearmistake> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+950f5ef : Enable incall recording <DHOMD> 6 weeks ago
+161e6a6 : klimtwifi - G Pro 12.2 <DHOMD> 11 days ago
+c0eb373 : lulvestiges? Revert "squisher: qcom + Moto X blobs == WTFBBQ" <nuclearmistake> 25 hours ago
+5654d06 : [2/2]Make squasher compatible with Jenkins <MartinRo> 3 days ago
+ 

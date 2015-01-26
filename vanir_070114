@@ -1,0 +1,425 @@
+
+**** https://github.com/VanirAOSP/build ****
+6865ee0 : build: updater-script: Fix mount and format commands on F2FS <laufersteppenwolf> 2 days ago
+ 
+**** cm	https://github.com/CyanogenMod/android_device_htc_ville
+https://github.com/EthanJ99/device_htc_ville ****
+865f336 : Update BoardConfig.mk <Ethan Johnson> 8 hours ago
+2ee2b79 : Update BoardConfig.mk <Ethan Johnson> 9 hours ago
+5fcdd13 : Update fstab.qcom <Ethan Johnson> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+4e97325 : G2: enable prebuilt clang <bart452> 15 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_gproj-common ****
+07ee05c : recovery: Add a loki script as a recovery transformation step <Ricardo Cerqueira> 13 days ago
+7317614 : update loki <Ricardo Cerqueira> 13 days ago
+bcb01f7 : spm: Disable retention on core 0 <Ricardo Cerqueira> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+21ee432 : hammerhead: use prebuilt clang <Dan Trifan> 11 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_moto_msm8960 ****
+6eb761c : proprietary-files: Use stock rild/libril <dhacker29> 19 hours ago
+44c14df : snd_soc_msm_2x: Fix speakerphone voice transmission <dhacker29> 2 days ago
+1aa83ee : root: Fix directory for gpsone_daemon <dhacker29> 3 days ago
+45a949f : lights: Hack the values in half since max is 127 in kernel <dhacker29> 8 days ago
+42286ac : snd_soc: Updates for xt90x/attempt to fix speaker phone <dhacker29> 11 days ago
+a30803b : Update media_codecs from 4.4.2 <dhacker29> 11 days ago
+c2cd5a9 : snd_soc_msm_sx: Update for xt90x from stock 4.4.2 <dhacker29> 2 weeks ago
+d10a08d : snd_soc_msm_2x: Update for xt92x from stock 4.4.2 <dhacker29> 2 weeks ago
+0aa8629 : gps: Update config for new gps blobs <dhacker29> 3 weeks ago
+c4db72c : proprietary-files: Use gps prebuilts from N1 <dhacker29> 3 weeks ago
+f51291d : proprietary-files: Organize and commonize with msm8960dt <dhacker29> 3 weeks ago
+cff0532 : root: Check if userdata is f2fs and copy in the right fstab <dhacker29> 3 weeks ago
+579b94a : Good bye asanti it was nice to know you when Moto cared. <dhacker29> 3 weeks ago
+d934287 : Assert that this device has a 4.4 bootloader before installing <dhacker29> 3 weeks ago
+763eddf : releasetools: Update for new ro.boot.device <dhacker29> 2 weeks ago
+fa491f5 : init: Razr M is now "smq" :( Y NO scorpion_mini <dhacker29> 3 weeks ago
+83631e2 : Set selinux permissive until we fix sensors <dhacker29> 3 weeks ago
+1bff188 : root: Improve boot speed <dhacker29> 3 weeks ago
+88f2d8d : overlay: Update power_profile from stock and add some configs <dhacker29> 3 weeks ago
+2476cb1 : root: Update post-boot from upstream <dhacker29> 3 weeks ago
+2a7b931 : root: Enable start_sensors <dhacker29> 3 weeks ago
+4b54b67 : proprietary-files: Add radio framework jars <dhacker29> 3 weeks ago
+1b7fd8b : init: Update fingerprints and only assert for xt907 and xt926 <dhacker29> 3 weeks ago
+1bbe846 : proprietary-files: Use stock libOmxVenc <dhacker29> 4 weeks ago
+5208e42 : Refactor for 3.4 kernel <dhacker29> 4 weeks ago
+7db0839 : Revert "Move legacy GPS defines to device trees" <dhacker29> 11 days ago
+53e0c4f : Revert "Move legacy GPS hal to device tree" <dhacker29> 11 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_moto_msm8960dt ****
+1d103d9 : proprietary-files: Use stock ril <dhacker29> 19 hours ago
+2c29b92 : proprietary-files: Remove unneeded blobs <dhacker29> 20 hours ago
+6e8b5c8 : proprietary-files: Commonize msm8960 and msm8960dt where possible <dhacker29> 13 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_qcom-common ****
+49ccc8e : Disable lpa.decode to fix headset playback on msm8960 <dhacker29> 8 days ago
+cd3b387 : proprietary-files: Commonize msm8960 and msm8960dt where possible <dhacker29> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_oppo_common ****
+e8e0984 : ConfigPanel : Add proximity checks <Danesh M> 33 hours ago
+6f9b3db : Automatic translation import <Michael Bestas> 2 days ago
+6ea209d : OppoPanel: Allow camera to be launched when locked <Scott Mertz> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jflte ****
+1bcdf1f : clangify <nuclearmistake> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+dee1280 : klte doesn't have a blob for qcom audio <nuclearmistake> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/device_semc_msm7x30-common ****
+52565fb : camera: Disable unsupported stuff for zeus <Michael Bestas> 4 days ago
+bb8696e : msm7x30: Add live wallpapers <Michael Bestas> 6 days ago
+8f389e4 : msm7x30: Increase tmpfs size to fix adb sideload <Michael Bestas> 11 days ago
+af64f06 : media_profiles: Enable true 720p <Michael Bestas> 4 months ago
+07e0d1b : msm7x30: Moar bootspeed! <Steve Kondik> 4 months ago
+203127b : Revert "msm7x30: Enable qcom HW AAC encoder" <Michael Bestas> 3 weeks ago
+a6229fc : init: Add permissions for IO scheduler <Michael Bestas> 3 weeks ago
+1e30414 : msm7x30: Fix AF resampler quality <Michael Bestas> 3 weeks ago
+eca3d63 : msm7x30: Enable qcom HW AAC encoder <Michael Bestas> 3 weeks ago
+b0f67b9 : msm7x30: Remove libnetcmdiface <Michael Bestas> 3 weeks ago
+6ed9c47 : msm7x30: Add qcmediaplayer <Michael Bestas> 3 weeks ago
+f339907 : Also unblank screen during init <Arne Coucheron> 4 weeks ago
+fd40f46 : Update releasetools <Eslam Mohamed> 33 hours ago
+f32d5ac : audio_policy: Add FM devices & qcom formats <Michael Bestas> 5 weeks ago
+123b753 : Set resampler quality <Michael Bestas> 1 year ago
+6d1a722 : media_codecs: Cleanup unsupported codecs <Michael Bestas> 5 weeks ago
+be7e058 : Update offline charging animation <Michael Bestas> 5 weeks ago
+96afb6f : init: Blank main framebuffer on boot <Michael Bestas> 5 weeks ago
+b9f6987 : msm7x30: Update egl.cfg for new Adreno libs <Michael Bestas> 7 weeks ago
+75af4b0 : msm7x30: Update Adreno blobs. <Rudolf Tammekivi> 7 weeks ago
+ecc604f : overlay: Remove config_telephony_set_audioparameters <Michael Bestas> 7 weeks ago
+97076b8 : msm7x30: Disable LPA for now <Michael Bestas> 8 weeks ago
+5967fe0 : msm7x30: Enable use of FFMPEG codecs for extended formats <Steve Kondik> 8 weeks ago
+97bdc8a : Enable in-call noise suppression <Michael Bestas> 8 months ago
+7e430b5 : msm7x30: Add flag for SEMC audio <Michael Bestas> 8 weeks ago
+ef7d078 : msm7x30: Support UICC hotswap. <Rudolf Tammekivi> 8 weeks ago
+48e8008 : msm7x30: Add some LPA props <Michael Bestas> 8 weeks ago
+4d35416 : media_codecs: Readd AAC HW decoder <Michael Bestas> 8 weeks ago
+a648a7b : Fix UMS dirty ratio <Michael Bestas> 9 weeks ago
+0d7d88f : Small update to bootlogo <Michael Bestas> 9 weeks ago
+8c7d995 : Add device-specific gralloc_priv.h header <Michael Bestas> 9 weeks ago
+a14cb64 : audio_policy: Allow a sample rate of 8 KHz only for VoIP output <Cristoforo Cataldo> 4 months ago
+4c59d44 : Enable screenrecord hack <Michael Bestas> 9 weeks ago
+44266e2 : Revert "media_profiles: Enable true 720p" <Michael Bestas> 9 weeks ago
+7875d81 : Revert "audio_policy.conf: Add FM devices" <Michael Bestas> 9 weeks ago
+e19feed : audio_policy.conf: Add FM devices <Michael Bestas> 10 weeks ago
+b9147ae : msm7x30: Update recovery_keys.c <Michael Bestas> 10 weeks ago
+96f4ab7 : New bootlogo by JovieBrett <Michael Bestas> 3 months ago
+befe8cd : init: move on-post-fs-data from mogami-common <Michael Bestas> 3 months ago
+3c1acf1 : msm7x30: Enable PMEM_ADSP <Michael Bestas> 3 months ago
+bbb93b3 : SemcQualcomm7x30RIL: Properly report SIM card missing status. <Rudolf Tammekivi> 3 months ago
+09b0e7b : msm7x30: Move custom RIL from frameworks/opt/telephony <Michael Bestas> 3 months ago
+438e0bd : msm7x30: Move pre-recovery.sh to /sbin. <Rudolf Tammekivi> 3 months ago
+de67221 : msm7x30: Remove the need of specialized init binary. <Rudolf Tammekivi> 3 months ago
+8db3bf2 : init.sh: Parse boot type. <Rudolf Tammekivi> 3 months ago
+78ac419 : Revert "msm7x30: Enable KSM by default" <Michael Bestas> 3 months ago
+83c44da : msm7x30: Disable video uncached buffers. <Michael Bestas> 3 months ago
+023d9f0 : audio_policy: Sync with msm8660 <Michael Bestas> 3 months ago
+2bfcc17 : msm7x30: Enable dynamic composer. <Michael Bestas> 3 months ago
+48011d9 : msm7x30: Remove dyn threshold override. <Michael Bestas> 3 months ago
+ 
+**** https://github.com/nolinuxnoparty/android_device_sony_nicki ****
+0b9730b : TWRP Config <Arnav> 13 hours ago
+4948a3f : More Vanir Specific <Arnav> 13 hours ago
+ 
+**** https://github.com/VanirAOSP/external_wpa-supplicant-8 ****
+7b4ceed : PKCS #1: Enforce minimum padding for decryption in internal TLS <Jouni Malinen> 6 weeks ago
+dd104a2 : PKCS #1: Allow only BT=01 for signature in internal TLS <Jouni Malinen> 6 weeks ago
+d0af3a7 : X.509: Fix internal TLS/X.509 validation of PKCS#1 signature <Jouni Malinen> 6 weeks ago
+1b6a5e9 : WNM: Fix neighbor report subelement parser to not leak memory <Jouni Malinen> 3 months ago
+7801325 : WNM: Fix neighbor report subelement parser <Jouni Malinen> 3 months ago
+e212bad : WNM: Fix deinit path to clean neighbor report count <Jouni Malinen> 3 months ago
+6c233a0 : P2P: Fix scan optimization for GO during persistent group invocation <Rashmi Ramanna> 7 weeks ago
+f48fc29 : eap_proxy: enhance the proxy layer to support DSDS and SS feature <Naresh Jayaram> 10 weeks ago
+f01250d : Add SIM identifier to the network profile and cred block <Naresh Jayaram> 10 weeks ago
+2fe7ba5 : eap_proxy: EAP-SIM feature for single SIM. <Naresh Jayaram> 7 months ago
+d326112 : P2P: Clear p2p_in_invitation on cancel <Jouni Malinen> 3 months ago
+e45c763 : P2P: Mark the scan in p2p_in_invitation as p2p_probe <Sunil Dutt> 3 months ago
+cf6c868 : Pass TDLS peer capability information in tdls_mgmt <Sunil Dutt> 3 months ago
+7564193 : TDLS: Use QoS info from WMM IE obtained in TDLS frames <Sunil Dutt> 5 months ago
+23ff23c : Sync with wireless-testing.git include/uapi/linux/nl80211.h <Jouni Malinen> 3 months ago
+d370ca0 : Sync with wireless-testing.git include/uapi/linux/nl80211.h <Jouni Malinen> 5 months ago
+c278119 : nl80211: Pass station supported channel and oper class info <Sunil Dutt> 6 months ago
+db0c964 : Set the station to authorized on assoc event for open authentication <Sunil Dutt Undekari> 4 months ago
+7ed2910 : P2P: Report dev_found event (if not yet done) from GO Neg Req RX <Sunil Dutt Undekari> 4 months ago
+4b55a1f : P2P: Set a timeout for a persistent reinvoke on a P2P Client <Sunil Dutt Undekari> 3 months ago
+d407faf : P2P: Optimize scan for GO during persistent group invocation <Rashmi Ramanna> 3 months ago
+c22b7af : TDLS: Work around interop issues with supported operating class <Sunil Dutt Undekari> 4 months ago
+79d8b49 : TDLS: Pass peer's Supported channel and oper class info during sta_add <Sunil Dutt> 6 months ago
+202938b : P2P: Don't expire the peer, if GO Negotiation is in progress <Jithu Jance> 6 months ago
+8aa9fe0 : Allow channel list to be specified for SCAN command <Jouni Malinen> 6 months ago
+09750cc : Restore scan_req if sta scan is rescheduled in the scan results event <Loic Poulain> 1 year, 1 month ago
+8dc0b95 : Move int_array helpfer functions to utils/common.c. <Jouni Malinen> 6 months ago
+337f60b : P2P: Cancel action frame offchan wait after recv GO Neg Conf <Eyal Shapira> 7 months ago
+6c450db : WPS: Remove old duplicate network even if key is different <Jouni Malinen> 7 months ago
+858ba4b : P2P: Allow GO Negotiation Request to update peer entry after PD <Po-Lun Lai> 6 months ago
+0d4211f : P2P: Apply unsafe frequency rules to available channels <Arif Hussain> 5 months ago
+7538752 : Add a header file defining QCA OUI and vendor extensions <Jouni Malinen> 5 months ago
+3131ab3 : nl80211: Fix sizeof check in vendor command/event handling <Max Stepanov> 5 months ago
+eb8a1b7 : nl80211: Initial support for vendor commands and events <Jouni Malinen> 6 months ago
+3e3b81f : nl80211: Sync with mac80211-next.git <Jouni Malinen> 6 months ago
+5fbb982 : nl80211: Sync with wireless-testing.git <Jouni Malinen> 6 months ago
+b4d3a21 : Increase global ctrl_iface buffer to same size as per-interface <Jouni Malinen> 5 months ago
+d86514f : Sync with wireless-testing.git include/uapi/linux/nl80211.h <Jouni Malinen> 8 months ago
+29e9c4c : nl80211: Make wpa_driver_nl80211_data::first_bss pointer <Kyeyoon Park> 8 months ago
+c04a959 : Make frequency range list routines more general <Jouni Malinen> 8 months ago
+641634c : P2P: Extend the listen time based on the active concurrent session <Rashmi Ramanna> 5 months ago
+4fccad8 : Do not use results from externally requested scan for network selection <Jouni Malinen> 6 months ago
+4590807 : Ignore externally triggered scan results with scan_res_handler. <Jouni Malinen> 6 months ago
+9883d08 : Track whether scan was started by us or an external program <Jouni Malinen> 6 months ago
+7ad8428 : P2P: Clear pending group formation data on group removal <Jouni Malinen> 8 months ago
+db29c4a : hostapd: Make install path configurable <Prashanth Bhatta> 10 months ago
+ee53889 : wpa_supplicant_8: Don't expire peers when in P2P_PENDING_PD. <Sunil Dutt> 1 year, 10 months ago
+89a35a7 : P2P: Fix channel preference use for MCC p2p_connect <Jouni Malinen> 8 months ago
+89bce65 : eap_proxy: Extend Android.mk to support additional libraries <Naresh Jayaram> 7 months ago
+2ca9982 : TDLS: Do not reenable TDLS link on retransmitted setup frame <Sunil Dutt> 7 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+9fb88bf : libstagefright: Fix wrong ifdef <Arne Coucheron> 22 hours ago
+2d5fd3a : Camera: Update MemoryHeapIon <Ethan Chen> 6 days ago
+32b1dc9 : Fix buffer allocation <Marco Nelissen> 8 days ago
+72e6f3e : DO NOT MERGE: Fix for SW video decoder OMX profile/level query <Xiaosong Wei> 7 months ago
+9a59488 : libstagefright: Keep LOOPING/AUTO_LOOPING flag during teardown <Zhou Song> 12 days ago
+57cb1f2 : libstagefright: add timeout to avoid blocking readAt function call <Li Sun> 2 weeks ago
+388b6a3 : AwesomePlayer: post seek complete if seek cannot be handled <Haynes Mathew George> 4 months ago
+953f6c9 : libmediaplayerservice:Fix deadlock on gapless start failure <Ashish Jain> 3 weeks ago
+c0a88d8 : CameraService: Change order of client declaration and service lock. <Sai Kumar Sanagavarapu> 5 weeks ago
+0454fa6 : libstagefright: Fix for ANR in streaming during seek <Manikanta Kanamarlapudi> 3 weeks ago
+9176fcb : libstagefright: Add the conditions to ignore seek and allow sink stop <Preetam Singh Ranawat> 4 weeks ago
+5c56da1 : stagefright: Cleanup legacy stuff <Steve Kondik> 13 days ago
+47ebec3 : libstagefright: Get rtp port range and cache size from system properties <lubiny> 9 weeks ago
+0de88fe : ExtendedCodec: update amrwb+ component input/output ports <Mingming Yin> 2 months ago
+01e8bd0 : libstagefright: Avoid MPEG4 DP fallback to software decoder for MSM8x10 <Vikas Reddy Pachika> 4 months ago
+b1af100 : ExtendedCodec: update amrwb+ format parameters <Mingming Yin> 3 months ago
+3c61e0b : libstagefright: Print playback stats in suspend call <Surajit Podder> 1 year ago
+8657af8 : frameworks/av: Enhance logging for audio usecases <Chaithanya Krishna Bacharaju> 4 months ago
+666c068 : libstagefright: Render video frames on vsync <Surajit Podder> 4 months ago
+f088924 : stagefright: Add a prefetching source <Praveen Chavan> 7 months ago
+19642c3 : libstagefright: Customize AV sync behavior <Vikash Garodia> 10 months ago
+6443402 : NuPlayer: Add RTSP Server Timeout Setting to Meta Data <huiy> 10 months ago
+2874364 : NuPlyer:RTSP: Fix some issues while seeking RTSP source <huiy> 3 months ago
+4162df4 : stagefright: Correct timescale in MvHd for HFR <Leena Winterrowd> 7 weeks ago
+185214b : libstagefright: mpeg2ts: Ignore continuity_counter discontinuity <Manikanta Kanamarlapudi> 7 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+7ad02d7 : Use ArrayListExtra for broadcasting theme changes [1/2] <Andy Mast> 7 days ago
+e105511 : PhoneStatusBar: Readd headsup view when theme change occurs. <Adnan> 30 hours ago
+9b101cb : systemui: SignalClusterTextView fixes and optimizations <Jorge Ruesga> 3 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+c556a0e : Fix QCOM_BSP ifdef <Michael Bestas> 31 hours ago
+f2b2273 : egl: Add support for BGRA_8888 format <Alberto96> 6 days ago
+974ff06 : reduce PB size from 2MB to 512KB <Mathias Agopian> 2 years, 1 month ago
+5f550b2 : binder: update MemoryHeapIon <Ethan Chen> 7 days ago
+af8b05e : frameworks/native:  Reset dirtyRect after every queuebuffer call. <Jeykumar Sankaran> 5 weeks ago
+5fb19b1 : sf: Validate display device id and disable dirtyrect composition <Ramkumar Radhakrishnan> 7 weeks ago
+3305392 : sf: Use DirtyRect to optimize Full GPU composition <Sravan Kumar D.V.N> 8 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display-caf-new ****
+eb21667 : libmemtrack: Use correct format specifier <Arun Kumar K.R> 11 days ago
+1d34aa4 : libmemtrack: Use kgsl memory flag to determine usermapped buffers <Harsh Vardhan Dwivedi> 8 weeks ago
+e1b4023 : hwc: Extend PTOR feature for two layers <Arun Kumar K.R> 4 weeks ago
+ef0cc72 : hwc/overlay: Fix decimation / bwc bugs <Saurabh Shah> 2 weeks ago
+3e67a47 : hwc: On downscale check swap on 90 transform <Saurabh Shah> 3 weeks ago
+063d593 : hwc: Rotate RGB layer using MDP Rotator <Ramkumar Radhakrishnan> 8 months ago
+a3a7ad2 : hwc: Calculate DPI values according to changed resolution <Praveena Pachipulusu> 4 weeks ago
+ab325fc : hwc: Align left and top before aligning width and height <Praveena Pachipulusu> 6 weeks ago
+703893d : hwc: Avoid MDP draw if prepare is not successful. <Raj Kamal> 4 weeks ago
+07df928 : overlay: Request specific pipe type <radhakrishna> 8 weeks ago
+f658ca5 : overlay: Change max rotator sessions to 4 and log level <Saurabh Shah> 5 weeks ago
+a29cb49 : gralloc: Align NV21 to 32 pixels <Naseer Ahmed> 5 weeks ago
+9a5c212 : gralloc: Fix NV12 and NV21 stride <Naseer Ahmed> 5 weeks ago
+e422939 : display: Fix binder parcel position <Naseer Ahmed> 5 weeks ago
+25a78f6 : libgralloc: Set Alignment to 1M only for Secured buffers. <Praveena Pachipulusu> 4 weeks ago
+d560b1f : hwc: source split: Enable BWC for video with width <= mixer width <Saurabh Shah> 6 weeks ago
+70bc782 : hwc: Map dirtyRect to layer destination before using. <Jeykumar Sankaran> 8 weeks ago
+315f22c : hwc: Full MDP Composition mode with overlap region removal <Sushil Chauhan> 7 weeks ago
+176d0fc : copybit: Enable RB Swap for RGB_888 <Omprakash Dhyade> 5 weeks ago
+819260b : copybit: Enable HAL_PIXEL_FORMAT_RGB_888 support in c2d <Sushil Chauhan> 7 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media-caf-new ****
+2004c5c : dashplayer: handle text track error <Mahesh Lanka> 3 months ago
+f7f5ed4 : Revert "mm-video: vdec: Set frame rate if computed fps is more than existing fps" <Arun Menon> 10 weeks ago
+5cad71e : mm-video: vdec: fix multiple downscalar issues <Pushkaraj Patil> 4 months ago
+e471141 : mm-core: Add new mime for QTI FLAC container <Satya Krishna Pindiproli> 5 months ago
+46a3f47 : mm-video-v4l2: venc: set intra period as per client setting <Srinu Gorle> 3 months ago
+157195d : mm-video: vidc: Honor client's request to set CABAC <Deva Ramasubramanian> 6 months ago
+4eedc2d : mm-video-v4l2: venc: Add setprop support for bframes and entropy <Ashray Kulkarni> 8 months ago
+541fa3b : mm-video: vidc: hevc: Amend fill internal buffers flag correctly <Rajeshwar Kurapaty> 4 months ago
+92ea4b8 : mm-video: vidc: defer flush until headers are consumed <Deva Ramasubramanian> 3 months ago
+e253b47 : mm-video: vidc: Missing release of pending input buffers to client <Sowmya Pandiri> 3 months ago
+80d89be : mm-video: vidc: Avoid erroring out if too many corrupt frames <Deva Ramasubramanian> 3 months ago
+0faff6a : mm-video: vidc: Missing release of meta buffer at encoder omx component <Deva Ramasubramanian> 4 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_asus_tf701t ****
+1ba7446 : defconfig: regen <Prashant Somashekar> 23 hours ago
+4467ee8 : Linux 3.4.96 <Greg Kroah-Hartman> 23 hours ago
+b42e24d : x86_32, entry: Do syscall exit work on badsys (CVE-2014-4508) <Andy Lutomirski> 8 days ago
+b43fbd6 : usb: usbtest: Add timetout to simple_io() <Roger Quadros> 7 months ago
+1af422a : btrfs: fix use of uninit "ret" in end_extent_writepage() <Eric Sandeen> 3 weeks ago
+de45311 : Btrfs: use right type to get real comparison <Liu Bo> 3 weeks ago
+cbe0a74 : fs: btrfs: volumes.c: Fix for possible null pointer dereference <Rickard Strandqvist> 6 weeks ago
+85adfc9 : Btrfs: fix double free in find_lock_delalloc_range <Chris Mason> 6 weeks ago
+3d43b04 : skbuff: skb_segment: orphan frags before copying <Michael S. Tsirkin> 4 months ago
+1dfd266 : skbuff: export skb_copy_ubufs <Michael S. Tsirkin> 1 year, 11 months ago
+198abe2 : skbuff: add an api to orphan frags <Michael S. Tsirkin> 1 year, 11 months ago
+69b1f8a : genirq: Sanitize spurious interrupt detection of threaded irqs <Thomas Gleixner> 1 year, 4 months ago
+c8fc183 : x86, x32: Use compat shims for io_{setup,submit} <Mike Frysinger> 8 weeks ago
+681dc14 : x86-32, espfix: Remove filter for espfix32 due to race <H. Peter Anvin> 9 weeks ago
+156cf49 : target: Explicitly clear ramdisk_mcp backend pages <Nicholas A. Bellinger> 2 weeks ago
+3cc1a8e : ARM: stacktrace: avoid listing stacktrace functions in stacktrace <Russell King> 9 weeks ago
+9229805 : ACPI: Fix conflict between customized DSDT and DSDT local copy <Lv Zheng> 7 weeks ago
+4d11472 : USB: sierra: fix remote wakeup <Johan Hovold> 5 weeks ago
+3bea12e : USB: sierra: fix urb and memory leak on disconnect <Johan Hovold> 5 weeks ago
+7e45c69 : USB: sierra: fix urb and memory leak in resume error path <Johan Hovold> 5 weeks ago
+c476668 : USB: sierra: fix use after free at suspend/resume <Johan Hovold> 5 weeks ago
+f6e5987 : USB: sierra: fix AA deadlock in open error path <Johan Hovold> 5 weeks ago
+8975edc : USB: usb_wwan: fix potential blocked I/O after resume <Johan Hovold> 5 weeks ago
+9111acb : USB: usb_wwan: fix potential NULL-deref at resume <Johan Hovold> 5 weeks ago
+41ba2c5 : USB: usb_wwan: fix urb leak at shutdown <Johan Hovold> 5 weeks ago
+4c1f1a5 : USB: usb_wwan: fix write and suspend race <Johan Hovold> 5 weeks ago
+96bbe2ac : USB: usb_wwan: fix race between write and resume <xiao jin> 5 weeks ago
+b78c5b5 : USB: usb_wwan: fix urb leak in write error path <xiao jin> 5 weeks ago
+b3dc2b2 : matroxfb: perform a dummy read of M_STATUS <Mikulas Patocka> 7 weeks ago
+e4c7274 : ext4: fix wrong assert in ext4_mb_normalize_request() <Maurizio Lombardi> 5 weeks ago
+f7a6bc3 : s390/lowcore: reserve 96 bytes for IRB in lowcore <Christian Borntraeger> 5 weeks ago
+a31fb40 : mm: vmscan: clear kswapd's special reclaim powers before exiting <Johannes Weiner> 4 weeks ago
+e238663 : HID: core: fix validation of report id 0 <Kees Cook> 3 months ago
+1110a13 : mm: fix sleeping function warning from __put_anon_vma <Hugh Dickins> 4 weeks ago
+78d11d8 : mm/memory-failure.c: don't let collect_procs() skip over processes for MF_ACTION_REQUIRED <Tony Luck> 4 weeks ago
+20bd801 : mm/memory-failure.c-failure: send right signal code to correct thread <Tony Luck> 4 weeks ago
+f955aec : USB: option: fix runtime PM handling <Johan Hovold> 5 weeks ago
+d50ee90 : USB: EHCI: avoid BIOS handover on the HASEE E200 <Alan Stern> 4 weeks ago
+495bafb : usb: dwc3: gadget: clear stall when disabling endpoint <Felipe Balbi> 3 months ago
+1c73a58 : usb: gadget: rename CONFIG_USB_GADGET_PXA25X <Paul Bolle> 5 weeks ago
+93f91df : USB: usbtest: add a timeout for scatter-gather tests <Alan Stern> 4 weeks ago
+1125f97 : usb: usbtest: fix unlink write error with pattern 1 <Huang Rui> 5 weeks ago
+6daf4d2 : applicom: dereferencing NULL on error path <Dan Carpenter> 8 weeks ago
+890e0eb : staging: tidspbridge: check for CONFIG_SND_OMAP_SOC_MCBSP <Paul Bolle> 5 weeks ago
+a7e5e57 : can: peak_pci: prevent use after free at netdev removal <Stephane Grosjean> 6 weeks ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-gproj ****
+a660467 : msm: pm-8x60: Increase warn timeout for sleep sts check <Priyanka Mathur> 1 year, 1 month ago
+2ebc0a0 : media: msm: vfe32: Remove weird recovery "fix" <Ricardo Cerqueira> 3 hours ago
+151e71d : Revert "Revert "video: msm: Use the new fence release logic for video panel too"" <Ricardo Cerqueira> 4 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960dt-common ****
+3e3d5f6 : Linux 3.4.96 <Greg Kroah-Hartman> 23 hours ago
+d300733 : x86_32, entry: Do syscall exit work on badsys (CVE-2014-4508) <Andy Lutomirski> 8 days ago
+3b0d089 : usb: usbtest: Add timetout to simple_io() <Roger Quadros> 7 months ago
+e18bac2 : btrfs: fix use of uninit "ret" in end_extent_writepage() <Eric Sandeen> 3 weeks ago
+64b84ef : Btrfs: use right type to get real comparison <Liu Bo> 3 weeks ago
+8f1dd63 : fs: btrfs: volumes.c: Fix for possible null pointer dereference <Rickard Strandqvist> 6 weeks ago
+a25ebe2 : Btrfs: fix double free in find_lock_delalloc_range <Chris Mason> 6 weeks ago
+2edae61 : skbuff: skb_segment: orphan frags before copying <Michael S. Tsirkin> 4 months ago
+2f3ca8e : skbuff: export skb_copy_ubufs <Michael S. Tsirkin> 1 year, 11 months ago
+1f29351 : skbuff: add an api to orphan frags <Michael S. Tsirkin> 1 year, 11 months ago
+a97df3f : genirq: Sanitize spurious interrupt detection of threaded irqs <Thomas Gleixner> 1 year, 4 months ago
+1d48df4 : x86, x32: Use compat shims for io_{setup,submit} <Mike Frysinger> 8 weeks ago
+69d6615 : x86-32, espfix: Remove filter for espfix32 due to race <H. Peter Anvin> 9 weeks ago
+e802a11 : target: Explicitly clear ramdisk_mcp backend pages <Nicholas A. Bellinger> 2 weeks ago
+b2ff2f4 : ARM: stacktrace: avoid listing stacktrace functions in stacktrace <Russell King> 9 weeks ago
+0992ba4 : ACPI: Fix conflict between customized DSDT and DSDT local copy <Lv Zheng> 7 weeks ago
+d228aea : USB: sierra: fix remote wakeup <Johan Hovold> 5 weeks ago
+edc71a5 : USB: sierra: fix urb and memory leak on disconnect <Johan Hovold> 5 weeks ago
+fe8dec3 : USB: sierra: fix urb and memory leak in resume error path <Johan Hovold> 5 weeks ago
+05bec81 : USB: sierra: fix use after free at suspend/resume <Johan Hovold> 5 weeks ago
+3c3d7a8 : USB: sierra: fix AA deadlock in open error path <Johan Hovold> 5 weeks ago
+9e91351 : USB: usb_wwan: fix potential blocked I/O after resume <Johan Hovold> 5 weeks ago
+0886f4e : USB: usb_wwan: fix potential NULL-deref at resume <Johan Hovold> 5 weeks ago
+ca91395 : USB: usb_wwan: fix urb leak at shutdown <Johan Hovold> 5 weeks ago
+887b3c3 : USB: usb_wwan: fix write and suspend race <Johan Hovold> 5 weeks ago
+50476ee : USB: usb_wwan: fix race between write and resume <xiao jin> 5 weeks ago
+640768a : USB: usb_wwan: fix urb leak in write error path <xiao jin> 5 weeks ago
+4aff699 : matroxfb: perform a dummy read of M_STATUS <Mikulas Patocka> 7 weeks ago
+2dbc65d : ext4: fix wrong assert in ext4_mb_normalize_request() <Maurizio Lombardi> 5 weeks ago
+029784e : s390/lowcore: reserve 96 bytes for IRB in lowcore <Christian Borntraeger> 5 weeks ago
+162692c : mm: vmscan: clear kswapd's special reclaim powers before exiting <Johannes Weiner> 4 weeks ago
+41772cf : HID: core: fix validation of report id 0 <Kees Cook> 3 months ago
+b9f10ce : mm: fix sleeping function warning from __put_anon_vma <Hugh Dickins> 4 weeks ago
+8e040c1 : mm/memory-failure.c: don't let collect_procs() skip over processes for MF_ACTION_REQUIRED <Tony Luck> 4 weeks ago
+bbc5519 : mm/memory-failure.c-failure: send right signal code to correct thread <Tony Luck> 4 weeks ago
+3dc4a23 : USB: option: fix runtime PM handling <Johan Hovold> 5 weeks ago
+1038502 : USB: EHCI: avoid BIOS handover on the HASEE E200 <Alan Stern> 4 weeks ago
+4cbd8a2 : usb: dwc3: gadget: clear stall when disabling endpoint <Felipe Balbi> 3 months ago
+a7f0226 : usb: gadget: rename CONFIG_USB_GADGET_PXA25X <Paul Bolle> 5 weeks ago
+35a58e8 : USB: usbtest: add a timeout for scatter-gather tests <Alan Stern> 4 weeks ago
+43e5e63 : usb: usbtest: fix unlink write error with pattern 1 <Huang Rui> 5 weeks ago
+b60ba82 : applicom: dereferencing NULL on error path <Dan Carpenter> 8 weeks ago
+3c96691 : staging: tidspbridge: check for CONFIG_SND_OMAP_SOC_MCBSP <Paul Bolle> 5 weeks ago
+84716cf : can: peak_pci: prevent use after free at netdev removal <Stephane Grosjean> 6 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_omap4-common ****
+448edc2 : lzo: properly check for overruns <Greg Kroah-Hartman> 11 days ago
+a037049 : lib/lzo: huge LZO decompression speedup on ARM by using unaligned access <Markus F.X.J. Oberhumer> 1 year, 5 months ago
+294754a : lib/lzo: Update LZO compression to current upstream version <Markus F.X.J. Oberhumer> 1 year, 11 months ago
+329a008 : lib/lzo: Rename lzo1x_decompress.c to lzo1x_decompress_safe.c <Markus F.X.J. Oberhumer> 1 year, 11 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+83b525f : Fix the oldest derp in the book <DHOMD> 6 hours ago
+eb22747 : change to this kernel so anything msm8960 can use F2FS <EthanJ99> 21 hours ago
+ca60cbd : use own msm7x30-common <Eslam Mohamed> 32 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+c517d94 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Nfc ****
+a605f20 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_PackageInstaller ****
+08b8051 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+a560cd0 : Settings: Check to see if menu items are null onPause. <Adnan> 27 hours ago
+0869831 : Settings: Make settings searchable. <Adnan> 3 days ago
+96e1f02 : Fix heads up action bar switch handling for tablets. <Danny Baumann> 2 days ago
+28f1804 : settings: Auto-brightness levels shouldn't fill the screen <Christopher R. Palmer> 5 days ago
+47bc97f : settings: Unbreak wifi display on tablets <Christopher R. Palmer> 6 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_soundrecorder ****
+6036840 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_input_LatinIME ****
+94dd832 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_providers_DownloadProvider ****
+0a4a5d1 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_providers_MediaProvider ****
+4e1ea53 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_ThemesProvider ****
+0415665 : Revert "Modify config to support app specific themes [3/4]" <DHOMD> 73 minutes ago
+3378148 : Modify config to support app specific themes [3/4] <Clark Scheff> 2 weeks ago
+da02291 : Don't call insertCapabilities for legacy icon packs. <Clark Scheff> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/linaro_toolchains_2014 ****
+4bb6ab9 : Update kernel toolchains from @Christopher83 2014.06 <bart452> 7 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_htc ****
+0ec71ea : m7: Update some blobaroos <Steve Kondik> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_lge ****
+178bb40 : g2: update adreno from qdevnet 24 June 14 KOT49H <bart452> 15 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_motorola ****
+8f2c641 : msm8226: Latest GPS blobs from bacon <dhacker29> 19 hours ago
+8c3d5a3 : msm8226: Update latest adreno blobs from bacon <dhacker29> 19 hours ago
+60644dd : moto_msm8960: Use stock rild/libril to fix phone number display <dhacker29> 19 hours ago
+456e5c9 : moto_msm8960dt: Use stock rild/libril <dhacker29> 19 hours ago
+bda4de1 : moto_msm8960dt: Remove unused blobs <dhacker29> 20 hours ago
+d2c2c2f : msm8960: Commonize msm8960 and msm8960dt where possible   Update common blobs to KXA21.12-L1.21 4.4.3 release <dhacker29> 3 weeks ago
+df1d37a : msm8960: Use gps prebuits from N1 <dhacker29> 3 weeks ago
+1448353 : moto_msm8960: Add radio framework jars <dhacker29> 3 weeks ago
+508a7e4 : moto_msm8960: Use stock libOmxVenc <dhacker29> 4 weeks ago
+0ab0e0f : moto_msm8960: Update for 3.4 kernel <dhacker29> 4 weeks ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_oppo ****
+bb48f75 : find7: Update sensor config <Ethan Chen> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+0485df0 : Cricket merged with AIO, add APN <neatchee> 31 hours ago
+1f59041 : vendor/vanir: cleanup vanir_nicki.mk <Arnav> 3 days ago
+ 

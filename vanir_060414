@@ -1,0 +1,1393 @@
+
+**** https://github.com/VanirAOSP/art ****
+d5e4ac0 : Properly tolerate missing declaring source files <Brian Carlstrom> 4 months ago
+c0f96d0 : Fix stack overflow for mutual recursion. <Brian Carlstrom> 3 months ago
+0c6afa4 : Fix NewLocalRef, NewGlobalRef to handle cleared weak globals. <Mathieu Chartier> 6 months ago
+7170092 : Search for miranda methods in virtual methods instead of interface. <Jeff Hao> 7 months ago
+3addc29 : Fix stack trace for proxy methods and added test case. <Jeff Hao> 6 months ago
+8151b8f : Fix FindFieldID to use class's classloader to find field type. <Jeff Hao> 6 months ago
+ 
+**** https://github.com/VanirAOSP/bionic ****
+cd9c79e : Fix pthread_detach for already-exited threads. <Elliott Hughes> 3 months ago
+081db84 : Allow overlap in resolv uid => DNS iface mapping <Chad Brubaker> 3 months ago
+04583ce : Upgrade to tzdata2014a. <Elliott Hughes> 3 months ago
+806f3bd : Upgrade to tzdata2013i. <Elliott Hughes> 6 months ago
+5fddfb8 : Fix dns searchdomain use in gethostbyname. <Robert Greenwalt> 6 months ago
+ 
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+5c11855 : Version 6.0.4.9 <Matt Mower> 4 hours ago
+8528fde : Remove obsolete check on device_flash_type() before trying to read args from BCB <Steven Luo> 10 days ago
+173f293 : Match AOSP get/set_bootloader_message() layouts <Matt Mower> 7 hours ago
+54fd234 : f2fs: fix nandroid restore to f2fs partitions <philz-cwm6> 4 days ago
+f43957e : Support selinux context inside tar archive <philz-cwm6> 4 weeks ago
+340d693 : Fix 'media' exception: <philz-cwm6> 17 hours ago
+b4da686 : cleanup preserve data/media workaround <philz-cwm6> 4 days ago
+7051738 : fix null struct exception <philz-cwm6> 4 days ago
+5ef9747 : cleanup unused code <philz-cwm6> 4 days ago
+6b97d5e : do not include dead code <philz-cwm6> 4 days ago
+ 
+**** https://github.com/VanirAOSP/build ****
+2faf0a0 : forall_vanir: Fix multiline <nuclearmistake> 8 hours ago
+548b77f : forall_vanir: Fix multiline <nuclearmistake> 8 hours ago
+42a2687 : forall_vanir - make repo forall only iterate over the listed repos <nuclearmistake> 8 hours ago
+300a7b3 : forall_vanir - make repo forall only iterate over the listed repos <nuclearmistake> 8 hours ago
+07629dc : Screw it... aliased evaluation isn't different enought to break this many of my scripts. lol <nuclearmistake> 9 hours ago
+8bdb3cb : Screw it... aliased evaluation isn't different enought to break this many of my scripts. lol <nuclearmistake> 9 hours ago
+ad03cd2 : Ensure forall_vanir is defined after sourcing, even when sourced or used inside another script <nuclearmistake> 9 hours ago
+c789731 : Ensure forall_vanir is defined after sourcing, even when sourced or used inside another script <nuclearmistake> 9 hours ago
+116c7da : Rejigger forall_vanir evaluation to avoid superflous escapement requirement <nuclearmistake> 31 hours ago
+db222c5 : Rejigger forall_vanir evaluation to avoid superflous escapement requirement <nuclearmistake> 31 hours ago
+1313d47 : "KTU84M" <The Android Automerger> 4 weeks ago
+92d4836 : "KTU84L" <The Android Automerger> 5 weeks ago
+8329a83 : "KTV31" <The Android Automerger> 5 weeks ago
+366c379 : KTU84K <The Android Automerger> 5 weeks ago
+ae7232f : KTU84J <The Android Automerger> 6 weeks ago
+8cf5549 : "KTU84I" <The Android Automerger> 6 weeks ago
+7c5c496 : "KTU84H" <The Android Automerger> 7 weeks ago
+2328f6d : "KTU84G" <The Android Automerger> 8 weeks ago
+914b4fa : KTU84F <The Android Automerger> 9 weeks ago
+dab5f73 : "KTU84E" <The Android Automerger> 10 weeks ago
+a1c0674 : "KTU84D" <The Android Automerger> 10 weeks ago
+a2a34e6 : "KTU84C" <The Android Automerger> 10 weeks ago
+675279e : "KTU84B" <The Android Automerger> 10 weeks ago
+b28458a : "KTU84" <The Android Automerger> 2 months ago
+1e4a1c8 : "KTU83" <The Android Automerger> 2 months ago
+c235aa1 : "KTU79B" <The Android Automerger> 3 months ago
+f39752e : Skip the product-scoped --product flag if it's set in LOCAL_AAPT_FLAGS <Ying Wang> 3 months ago
+e926906 : "KTU79" <The Android Automerger> 3 months ago
+82cb46e : "KTU78B" <The Android Automerger> 3 months ago
+7540a0b : "KTU78" <The Android Automerger> 3 months ago
+1434f51 : "KTU77" <The Android Automerger> 3 months ago
+cffdd0e : "KTU76" <The Android Automerger> 3 months ago
+2bd5b17 : "KTU72B" <The Android Automerger> 3 months ago
+093697b : "KTU72" <The Android Automerger> 3 months ago
+2c0295d : "KTU71" <The Android Automerger> 3 months ago
+7503e73 : 4.4.3 is MR2, version boogaloo! <Dianne Hackborn> 3 months ago
+9f0c5b7 : "KTU70" <The Android Automerger> 3 months ago
+f566614 : "KTU69" <The Android Automerger> 3 months ago
+bf59aaa : "KTU65" <The Android Automerger> 3 months ago
+354ac03 : "KTU64" <The Android Automerger> 3 months ago
+fe5ad53 : "KTU63" <The Android Automerger> 3 months ago
+5395acf : Fix version file <The Android Automerger> 3 months ago
+1b5dae0 : "KTU58" <The Android Automerger> 3 months ago
+14a7099 : Bump version to KTU58 <The Android Automerger> 3 months ago
+facd992 : Makefile used spaces instead of a tab <Michael Runge> 6 months ago
+4038aa8 : Enabled incrementals to patch + rename moved files <Michael Runge> 6 months ago
+7493c39 : Add utility function find-files-in-subdirs <Ying Wang> 6 months ago
+ab92f3d : Add Dialer to SDK system image. DO NOT MERGE. <Xavier Ducrohet> 6 months ago
+63ac275 : .1 becomes .2 <Dave Langemak> 6 months ago
+9b23f2c : add option to generate two-step recovery files <Doug Zongker> 6 months ago
+ 
+**** https://github.com/VanirAOSP/dalvik ****
+36e356c : Changed dvmDexCacheStatus to check for odex file first. <Jeff Hao> 3 months ago
+4afbba6 : Fix BufferOverflowException when merging dexes <Benoit Lamarche> 6 months ago
+acb058b : Fix synchronization when preparing ids. <Yohann Roussel> 7 months ago
+43ee5e9 : Deactivate multi-thread in multi-dex mode <Benoit Lamarche> 8 months ago
+ 
+**** https://github.com/VanirAOSP/development ****
+fc1c698 : Updated sdk.atree to include new samples for feb sample launch <Alexander Lucas> 4 months ago
+fc92103 : incremented Pkg.Revision <Alexander Lucas> 4 months ago
+bc0b4a8 : Bundle Noto fonts with the SDK <Deepanshu Gupta> 5 months ago
+0a56aec : Update build tools to 19.0.2 <Xavier Ducrohet> 5 months ago
+7f15ddd : Properly package the RS support bc file. <Xavier Ducrohet> 5 months ago
+c522b31 : docs: Code sample for game controller training class. <quddusc> 9 months ago
+1815903 : Add API demo for game style system UI interaction. <Dianne Hackborn> 6 months ago
+3519ce6 : Adjust SDK revisions for KLP MR1 for platform and samples <Raphael Moll> 6 months ago
+c04b7aa : SDK Repository: switch to sdk addon revision 6. <Raphael Moll> 8 months ago
+b734f1b : Updating sdk.atree to reflect new set of samples <Alexander Lucas> 7 months ago
+dff8282 : Update api-versions.xml for latest API changes <Tor Norbye> 7 months ago
+e3d7035 : Prepare SDK for KLP MR1. Do not merge. <Raphael Moll> 7 months ago
+ 
+**** https://github.com/VanirAOSP/device_asus_deb ****
+a23855f : Update for KOT49H <Conley Owens> 6 months ago
+ 
+**** https://github.com/VanirAOSP/device_asus_flo ****
+61addbf : Revert "wlan: Disable channel 12,13,14 in default regulatory for new FCC rule - DO NOT MERGE" <Yuhao Zheng> 7 weeks ago
+3504317 : N7: configuration to enable IPv6 RA filtering - DO NOT MERGE <Yuhao Zheng> 3 months ago
+c09fad9 : wlan: Disable channel 12,13,14 in default regulatory for new FCC rule - DO NOT MERGE <jim1_lin> 4 months ago
+42ae348 : Update for KOT49H <Conley Owens> 6 months ago
+ 
+**** https://github.com/VanirAOSP/device_asus_grouper ****
+39b4daa : Snapshot to 3fac2c96ae27d71378b421affda0caef6e5572c1 <The Android Open Source Project> 7 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_asus_tf700t ****
+c7688b0 : Automatic translation import <Michael Bestas> 5 days ago
+ 
+**** https://github.com/VanirAOSP/device_asus_tilapia ****
+d1f0443 : Update for KOT49H <Conley Owens> 6 months ago
+ 
+**** cm	https://github.com/CyanogenMod/android_device_htc_ville
+https://github.com/EthanJ99/android_device_htc_ville ****
+c0f3d35 : linaro 4.8 <cannondalev2000> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+bab1401 : camera: Restart preview after ZSL changes only if the preview is running <Ricardo Cerqueira> 5 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+24a08ea : hammerhead: enable slimport detection after boot completion [DO NOT MERGE] <choongryeol.lee> 7 months ago
+715f475 : reduce mic gain for video chat use case <Eric Laurent> 3 months ago
+0bf5c52 : Change headset mic gain for voice call <sangwon.jeon> 6 months ago
+2d89d53 : Revert "hammerhead: Add support for modem logging" [DO NOT MERGE] <Vineeta Srivastava> 4 months ago
+a76e7ed : Revert "Revert "hammerhead: Disable subsystem ramdump collection"" [DO NOT MERGE] <Vineeta Srivastava> 4 months ago
+f7da0d0 : gps: modify NMEA_PROVIDER to Modem processor <woojin.shin> 4 months ago
+98154d5 : Revert "hammerhead: Disable subsystem ramdump collection" <Vineeta Srivastava> 4 months ago
+62c468c : Revert "Revert "Revert "Revert "hammerhead: Add support for modem logging"""" <Vineeta Srivastava> 4 months ago
+4924132 : Update for KOT49H <Conley Owens> 6 months ago
+ 
+**** https://github.com/VanirAOSP/device_lge_mako ****
+9cc6d5d : Revert "mako: wifi: Update NV file to disable passive scan on channel 12 and 13" <Yuhao Zheng> 7 weeks ago
+7ea0baa : Camera: Fix race condition in snapshot. <Mekala Natarajan> 2 months ago
+ecbd7ec : mako: wifi: Update NV file to disable passive scan on channel 12 and 13 <Devin Kim> 3 months ago
+d3602ef : N4: configuration to enable IPv6 RA filtering [DO NOT MERGE] <Yuhao Zheng> 3 months ago
+09efce0 : camera: Fixes for race conditions in abnormal snapshot stop. <Mekala Natarajan> 5 months ago
+36d8bef : Update for KOT49H <Conley Owens> 6 months ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_apq8064-common ****
+6ff8cc8 : Revert "apq8064: Fix baseband version" <Ethan Chen> 5 days ago
+ed0b5d6 : apq8064-common: Delay sensor init <Ethan Chen> 6 days ago
+a52e893 : apq8064-common: Reorganize init files <Ethan Chen> 6 days ago
+1ef8767 : apq8064-common: Remove unused radio services <Ethan Chen> 5 days ago
+ 
+**** https://github.com/VanirAOSP/device_qcom_common ****
+5a096dd : Revert "power: Modify power HAL hint for Interactive governor" <nuclearmistake> 4 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2lte ****
+ea10a1c : wlan: Improve W-Fi data transmission stablity <ErwinP> 4 weeks ago
+a0b7f0a : Revert "d2lte: enable KSM" <Dave Daynard> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+2b36b0c : Misc fixes as passed to us <Daniel Moran (garwynn)> 2 days ago
+127da25 : HLTE: Move to common msm8974 repo. <slayher> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_manta ****
+2435d07 : Revert "manta: Set default locale to US" <Yuhao Zheng> 7 weeks ago
+62bfd4c : prebuild kernel (/dev/mali0 VM_MAYWRITE) [DO NOT MERGE] <Rom Lemarchand> 3 months ago
+b3fdbe2 : prebuilt kernel (selinux, tcp rwnd,  ping, usb disconnect) [DO NOT MERGE] <JP Abgrall> 3 months ago
+192f490 : manta: Set default locale to US <Dmitry Shmidt> 3 months ago
+f5ed205 : Update for KOT49H <Conley Owens> 6 months ago
+2fca97d : prebuilt kernel (TCPMSS support to fix vpn mtu) DO NOT MERGE <JP Abgrall> 7 months ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_mondrianwifi ****
+e7e6a17 : mondrianwifi: Update proprietary files <Christopher R. Palmer> 4 days ago
+b30be4f : mondrianwifi: Move to msm8974 common <Christopher R. Palmer> 2 weeks ago
+d168c2d : mondrianwifi: init: Configure plug_boost <Christopher R. Palmer> 7 days ago
+c2ba176 : mondrianwifi: Use $(LOCAL_PATH) instead of hard-coded path <Christopher R. Palmer> 8 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+e54d5cf : msm8960-common: set some properties <Dave Daynard> 3 days ago
+ 
+**** https://github.com/Team-Exhibit/android_device_samsung_skomer ****
+16ecfca : skomer:Update gpio-keys.kl for home button wake <C457> 29 hours ago
+ 
+**** https://github.com/nolinuxnoparty/android_device_sony_nicki ****
+0c6f021 : nicki: add egl.cfg and move device assert from BoardConfigCommon to BoardConfig <RonGokhale> 3 days ago
+af7f40e : nicki: don't use adreno blobs from qcom-common <RonGokhale> 3 days ago
+ 
+**** https://github.com/VanirAOSP/external_android-clat ****
+2b4cc73 : DO NOT MERGE: Support translating fragmented packets. <Lorenzo Colitti> 4 months ago
+13a58c4 : DO NOT MERGE: Modify the pseudo-header checksum functions. <Lorenzo Colitti> 4 months ago
+f0029d7 : DO NOT MERGE: Move translation entry point into translate.c. <Lorenzo Colitti> 4 months ago
+c1be479 : DO NOT MERGE: Fix up checksums instead of recalculating them. <Lorenzo Colitti> 4 months ago
+57bcefd : DO NOT MERGE: Add generic IP packet code and use it for GRE. <Lorenzo Colitti> 7 months ago
+c2549b4 : DO NOT MERGE: Fix compiler warnings and enable -Wall -Werror <Lorenzo Colitti> 7 months ago
+72f3126 : DO NOT MERGE: Remove unused variables <Bernhard Rosenkränzer> 6 months ago
+82ab730 : DO NOT MERGE: Remove two almost-unused include files. <Lorenzo Colitti> 7 months ago
+2636ea7 : Revert "DO NOT MERGE: Support translating fragmented packets." <Lorenzo Colitti> 3 months ago
+09c026b : Revert "DO NOT MERGE: Modify the pseudo-header checksum functions." <Lorenzo Colitti> 3 months ago
+19b68f9 : Revert "DO NOT MERGE: Move translation entry point into translate.c." <Lorenzo Colitti> 3 months ago
+adf8724 : Revert "DO NOT MERGE: Fix up checksums instead of recalculating them." <Lorenzo Colitti> 3 months ago
+5658b25 : Revert "DO NOT MERGE: Add generic IP packet code and use it for GRE." <Lorenzo Colitti> 3 months ago
+5b29cef : Revert "DO NOT MERGE: Fix compiler warnings and enable -Wall -Werror" <Lorenzo Colitti> 3 months ago
+88ee177 : Revert "DO NOT MERGE: Remove unused variables" <Lorenzo Colitti> 3 months ago
+f085c7a : Revert "DO NOT MERGE: Remove two almost-unused include files." <Lorenzo Colitti> 3 months ago
+866b4af : DO NOT MERGE: Support translating fragmented packets. <Lorenzo Colitti> 4 months ago
+fea4efa : DO NOT MERGE: Modify the pseudo-header checksum functions. <Lorenzo Colitti> 4 months ago
+6c9862b : DO NOT MERGE: Move translation entry point into translate.c. <Lorenzo Colitti> 4 months ago
+489e108 : DO NOT MERGE: Fix up checksums instead of recalculating them. <Lorenzo Colitti> 4 months ago
+f10644c : DO NOT MERGE: Add generic IP packet code and use it for GRE. <Lorenzo Colitti> 7 months ago
+d0024fb : DO NOT MERGE: Fix compiler warnings and enable -Wall -Werror <Lorenzo Colitti> 7 months ago
+cb72f36 : DO NOT MERGE: Remove unused variables <Bernhard Rosenkränzer> 6 months ago
+86cb1ac : DO NOT MERGE: Remove two almost-unused include files. <Lorenzo Colitti> 7 months ago
+ade8308 : Add ip6 dummy address to keep data usage stats consistent. <JP Abgrall> 6 months ago
+815d325 : Remove debug tag from the clatd.conf build target <Lorenzo Colitti> 11 months ago
+ 
+**** https://github.com/VanirAOSP/external_bluetooth_bluedroid ****
+c88d800 : BT:Don't open SCO on state change for multi party call on DUT. <Sumit Bajpai> 8 weeks ago
+af3d188 : Bluetooh: Fix for BTIF context stuck while updating INQ Responses <pramod kotreshappa> 10 weeks ago
+9a9bb20 : Bluetooth: Handled delayed info rsp from remote during SDP <Pramod Sivaraman> 2 months ago
+87ed2e5 : Bluetooth : Ignores Included service read response event of HOGP remote <Satish kumar sugasi> 3 months ago
+138a4a0 : Bluetooth: Prevent unpairing if encryption returns conn timeout <Nitin Arora> 3 months ago
+63f7ac7 : Bluetooth:CoreStack: DUT Stack Logging <Pramod Sivaraman> 3 months ago
+0582ed7 : Bluetooth: Handle Open after set_config <AnubhavGupta> 3 months ago
+1a65ea7 : Bluetooth: Proper AV state movement. <Gaurav Asati> 4 months ago
+de7597e : Bluetooth: Set rendering bit in COD for A2DP Sink <AnubhavGupta> 4 months ago
+974ab34 : Bluetooth: Start preload timer before sending preload request <Nitin Shivpure> 5 months ago
+a5a031e : HID: Prevent freeing buffer twice during set report <Hemant Gupta> 2 months ago
+8b0e424 : HID-D: Don't always remove pairing on reception of VC unplug <Hemant Gupta> 3 months ago
+a55666b : Bluetooth: Set sniff subrate with optimize latency value on HID link <Hemant Gupta> 4 months ago
+f4471c7 : DO NOT MERGE Allow simultaneous LE Observe and BTM Inquiry/Scan <Nitin Arora> 3 months ago
+a4611ac : DO NOT MERGE: cherrypick from master to fix b/13289050 <Andre Eisenbach> 3 months ago
+ad73b9c : DO NOT MERGE use bluetooth HID remote device name as input device name. <Zhihai Xu> 6 months ago
+91f0122 : DO NOT MERGE trouble syncing with fitbit and can't turn off bluetooth. <Zhihai Xu> 5 months ago
+6e8d789 : DO NOT MERGE BLE stack doesn't handle multiple l2cap_conn_update requests <Zhihai Xu> 6 months ago
+61973be : DO NOT MERGE sometime the BLE connection parameter isnot updated for the first time <Zhihai Xu> 7 months ago
+b991273 : DO NOT MERGE BLE HID device connection failure due to security error. <Zhihai Xu> 7 months ago
+ae6028a : DO NOT MERGE Remove the device from le backgrond connection whitelist when it's unpaired <Zhihai Xu> 7 months ago
+1918cdd : DO NOT MERGE BLE Secuity manager state machine generate wrong pairing success event. <Zhihai Xu> 7 months ago
+5a79e08 : DO NOT MERGE fix a potential native crash during bluetooth sutdown <Zhihai Xu> 6 months ago
+35f6b7f : DO NOT MERGE the HID device state is out of sync after upair. <Zhihai Xu> 7 months ago
+fb10ec3 : DO NOT MERGE Can only support two HID report instance for BLE HID. <Zhihai Xu> 6 months ago
+fb1552a : DO NOT MERGE read report array out of boundary for BLE HID device. <Zhihai Xu> 6 months ago
+bb38497 : DO NOT MERGE need to increase maximum number HID report for HOGP <Zhihai Xu> 6 months ago
+aefcb18 : DO NOT MERGE Bluetooth: Cleanup bt_config.xml during BLE Scan <Sunny Kapdi> 7 months ago
+b74fe9e : DO NOT MERGE LE: Add service UUIDs and data to advertising data <Andre Eisenbach> 7 months ago
+ 
+**** https://github.com/VanirAOSP/external_bouncycastle ****
+f1d6765 : Add ANSSI intermediate to the on-device blacklist. <Geremy Condra> 6 months ago
+ 
+**** https://github.com/VanirAOSP/external_busybox ****
+2b3b644 : unzip: set ENABLE_DESKTOP to allow unpacking signed Android OTAs <Steven Luo> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/external_chromium_org ****
+b0d719c : Revert "gpu: Refactor GpuMemoryBuffer framework for multi-process support." <nuclearmistake> 4 hours ago
+69db19f : Fork: Disable GLSL translator <Bo Liu> 2 months ago
+e3f98c7 : Cherry-pick: aw: Use minimum_accelerated_2d_canvas_size to turn canvas on/off <Bo Liu> 2 months ago
+3124836 : Fix for potential crash displaying <select> dialog <Ben Murdoch> 2 months ago
+516693c : Cherry-pick: Do not clear root frame buffer for android webview <Bo Liu> 2 months ago
+3142a81 : Cherry-pick: Set thread names to be visible in debuggers <Torne (Richard Coles)> 3 months ago
+f6f1cfe : cc: Replace recorded region with direct map lookup <Ben Murdoch> 3 months ago
+48d0fb7 : cc: Add a tiling iterator that doesn't include borders <Ben Murdoch> 3 months ago
+fe24f36 : Add CleanSpec after system skia switch <Ben Murdoch> 3 months ago
+8a6e767 : Revert "Revert "Use system skia for WebView."" <Ben Murdoch> 3 months ago
+4d13591 : Revert "Use system skia for WebView." <Bart Sears> 3 months ago
+979ef06 : Cherry-pick: gpu: Add extension check when initializing MailboxSync <Bo Liu> 3 months ago
+63baaa1 : Use system skia for WebView. <Torne (Richard Coles)> 3 months ago
+6324be4 : Merge diff: gpu: Mailbox emulation with EGLImage <Bo Liu> 3 months ago
+34d5ff3 : Cherry-pick: aw: Disable hardware features for software layer <boliu@chromium.org> 3 months ago
+d109387 : Record Chromium merge at DEPS revision 33.0.1750.166 <Ben Murdoch> 3 months ago
+577f0d8 : Merge from Chromium at DEPS revision 33.0.1750.166 <Ben Murdoch> 3 months ago
+7a75445 : Cherry pick: Revert "hide the input method window when the user is done typing" <Hui Shu> 3 months ago
+7e573dc : Always invalidate the webview when requested to do so. <Hui Shu> 3 months ago
+394e20c : Revert "Use system skia for WebView." <Ben Murdoch> 3 months ago
+f0d1159 : Use system skia for WebView. <Torne (Richard Coles)> 3 months ago
+dea9c96 : Set required skia flag to build against system skia. <Torne (Richard Coles)> 3 months ago
+6d5f7a3 : Fork: Early out WebMediaPlayerAndroid::copyVideoTextureToPlatformTexture <Bo Liu> 3 months ago
+871ad54 : Cherry-pick: Mailbox emulation with EGLImage <sievers@chromium.org> 3 months ago
+11598a0 : Cherry-pick: GLInProcessContext: Implement global sync points <sievers@chromium.org> 3 months ago
+c4a24b1 : Cherry-pick: Keep Compositor Offscreen context in sync compositor <boliu@chromium.org> 3 months ago
+a1a4478 : Cherry-pick: cc: Update Main RendererCapabilities on DeferredInitialize <boliu@chromium.org> 4 months ago
+29b9551 : Cherry-pick: Support multiple service instances with GLInProcessContext <sievers@chromium.org> 4 months ago
+da769a3 : Cherry-pick: gpu: Use a single container for GLInProcessContext share group <sievers@chromium.org> 4 months ago
+10fa398 : Cherry-pick: Stop using HMAC for gpu mailboxes <piman@chromium.org> 4 months ago
+5bbd2b0 : Cherry-pick: cc: Free Mailbox on TextureLayerImpl::ReleaseResources <boliu@chromium.org> 4 months ago
+37167aa : Cherry-pick: [Android WebView] Turn on accelerated canvas based on View.isHardwareAccelerated <boliu@chromium.org> 5 months ago
+2e7d13f : Cherry-pick: [Android WebView] Do not block GetOffscreenContextProviderForMainThread <boliu@chromium.org> 5 months ago
+87f58e1 : Cherry-pick: cc: Add RendererCapabilitiesImpl <boliu@chromium.org> 5 months ago
+8218cdc : Cherry-pick: Move SynchronousCompositorFactoryImpl into separate h/cc files <boliu@chromium.org> 5 months ago
+04fded3 : Set the original url correctly if the frame is loaded via loadData Base URL <Hui Shu> 3 months ago
+613f9f2 : Cherry-pick: aw: Always call computeScrollOffset for fling state <boliu@chromium.org> 3 months ago
+ccaa519 : Cherry-pick: cc: Do not skip TileManager::ManageTiles due to invalid viewport <boliu@chromium.org> 3 months ago
+c468a50 : Allow all mixed content <Kristian Monsen> 8 months ago
+258a408 : Minimise logging in release branch. <Torne (Richard Coles)> 3 months ago
+ca49023 : Record Chromium merge at DEPS revision 33.0.1750.146 <Ben Murdoch> 3 months ago
+f5859ba : Merge from Chromium at DEPS revision 33.0.1750.146 <Ben Murdoch> 3 months ago
+7477a40 : Cherry pick: [Android] Fix bug in address parser. <Ben Murdoch> 3 months ago
+fb3a634 : Fork: fix fatal warning on x86. <Torne (Richard Coles)> 3 months ago
+93a3fb3 : Cherry pick: Show IME when DPAD_CENTER is pressed <Hui Shu> 3 months ago
+6680793 : Cherry pick: Don't process pending prefetch events if we fail to create video decoder job <Tao Bai> 3 months ago
+def509d : Record Chromium merge at DEPS revision 33.0.1750.132 <Ben Murdoch> 3 months ago
+e640228 : Merge from Chromium at DEPS revision 33.0.1750.132 <Ben Murdoch> 3 months ago
+eff0ac5 : Fork: Fix deadlock in AudioManagerAndroid.init <Bo Liu> 3 months ago
+c4df102 : Fork: Allow embedders to override text from scaling by system font scale <Ben Murdoch> 3 months ago
+ 
+**** https://github.com/VanirAOSP/external_chromium_org_third_party_openssl ****
+fe46ce2 : Update makefiles after merge of Chromium at 241107 <Torne (Richard Coles)> 5 months ago
+bb4cbc9 : Update makefiles after merge of Chromium at 238989 <Android Chromium Automerger> 6 months ago
+683a158 : Update makefiles after merge of Chromium at 238573 <Android Chromium Automerger> 6 months ago
+ca755f7 : Update makefiles after merge of Chromium at 238197 <Android Chromium Automerger> 6 months ago
+5a301d9 : Update makefiles after merge of Chromium at 238097 <Android Chromium Automerger> 6 months ago
+f50952b : OpenSSL: prefer ChaCha20 ciphersuites. <agl@chromium.org> 7 months ago
+8ec9980 : Update makefiles after merge of Chromium at 235999 <Android Chromium Automerger> 7 months ago
+74e3032 : Also remove chacha_vec.c from x86. <agl@chromium.org> 7 months ago
+155c41f : Update patch files and gyp from r235188. <agl@chromium.org> 7 months ago
+ef5c952 : Don't use poly1305_vec.c on 32-bit x86. <agl@chromium.org> 7 months ago
+2376da7 : Update makefiles after merge of Chromium at 235157 <Android Chromium Automerger> 7 months ago
+efbeabe : Update makefiles after merge of Chromium at 235046 <Android Chromium Automerger> 7 months ago
+d92c9ac : Patch updates for r234628. <agl@chromium.org> 7 months ago
+6688767 : NEON fixes. <agl@chromium.org> 7 months ago
+1676349 : Update makefiles after merge of Chromium at 234542 <Android Chromium Automerger> 7 months ago
+2b8f006 : Update patch files to reflect previous changes. <agl@chromium.org> 7 months ago
+8d86528 : Change asm files to have a .S extension. <agl@chromium.org> 7 months ago
+9817b94 : Add missing include to Poly1305 code. <agl@chromium.org> 7 months ago
+f797bdc : Compile the NEON asm with -fpic. <agl@chromium.org> 7 months ago
+2d4ef1b : Forcing the EABI hard-float attribute off. <agl@chromium.org> 7 months ago
+5662079 : Update makefiles after merge of Chromium at 233893 <Android Chromium Automerger> 7 months ago
+16bc225 : Update makefiles after merge of Chromium at 233887 <Android Chromium Automerger> 7 months ago
+9553641 : Update makefiles after merge of Chromium at 233627 <Android Chromium Automerger> 7 months ago
+0a92d04 : Update makefiles after merge of Chromium at 233612 <Android Chromium Automerger> 7 months ago
+219af2c : third_party/openssl: add ChaCha20+Poly1305 support. <agl@chromium.org> 7 months ago
+cf2eb32 : Fix the patch file from r233053. <agl@chromium.org> 7 months ago
+2365a8a : Add patch file missing from r233017. <agl@chromium.org> 7 months ago
+08086bd : sh implementation to avoid unwanted resizes during iteration. <digit@chromium.org> 7 months ago
+55b6b14 : Update makefiles after merge of Chromium at 232403 <Android Chromium Automerger> 7 months ago
+ec73e16 : Initial empty repository <Baligh Uddin> 7 months ago
+0de3043 : Update makefiles after merge of Chromium at 231849 <Android Chromium Automerger> 7 months ago
+fc8760c : third_party/openssl: fix ChannelID patch. <agl@chromium.org> 7 months ago
+d831892 : third_party/openssl: number patches. <agl@chromium.org> 7 months ago
+44196e9 : third_party/openssl: fix import_from_android.sh when using git. <agl@chromium.org> 7 months ago
+af7d7fa : third_party/openssl: add OWNERS file. <agl@chromium.org> 7 months ago
+4a89e64 : Fix comment and variable name in macro definition. <qsr@chromium.org> 7 months ago
+8a61201 : Fix code style. <qsr@chromium.org> 8 months ago
+daa13d1 : Update Channel ID API to use a callback. <qsr@chromium.org> 8 months ago
+2e79cad : Updating Channel ID to allow computing the key when the server supports it. <qsr@chromium.org> 8 months ago
+3b8fc78 : Use C source for openssl RC4 calculation instead of ASM <yhirano@chromium.org> 8 months ago
+1a7785c : Update makefiles after merge of Chromium at 227040 <Android Chromium Automerger> 8 months ago
+cf25ed7 : Update makefiles after merge of Chromium at 224573 <Android Chromium Automerger> 9 months ago
+fbbcdbf : Update makefiles after merge of Chromium at 223573 <Android Chromium Automerger> 9 months ago
+a5c61ac : Update makefiles after merge of Chromium at 223269 <Android Chromium Automerger> 9 months ago
+cabb6c5 : Update makefiles after merge of Chromium at 223266 <Android Chromium Automerger> 9 months ago
+59228bb : Update makefiles after merge of Chromium at 222376 <Android Chromium Automerger> 9 months ago
+0f742e9 : Update makefiles after merge of Chromium at r221681 <Android Chromium Automerger> 9 months ago
+b59c75f : Update makefiles after merge of Chromium at r221673 <Android Chromium Automerger> 9 months ago
+66ffdd8 : Update makefiles after merge of Chromium at r221391 <Android Chromium Automerger> 9 months ago
+e7f348a : Update makefiles after merge of Chromium at r221383 <Android Chromium Automerger> 9 months ago
+ 
+**** https://github.com/VanirAOSP/external_flac ****
+9aad9a2 : Revert "Add signed integer overflow checking to flac." <Glenn Kasten> 6 months ago
+ 
+**** https://github.com/CyanogenMod/android_external_google ****
+3a9f4e2 : external/google: add Play Services definition <Roman Birg> 5 days ago
+ 
+**** https://github.com/VanirAOSP/external_icu4c ****
+18668f3 : Force icu4c to always default to the Gregorian calendar. <Elliott Hughes> 6 months ago
+ 
+**** https://github.com/VanirAOSP/android_external_jhead ****
+acbfc9c : Rename libexif to libjhead, since that's what it is <Marco Nelissen> 6 months ago
+ 
+**** https://github.com/VanirAOSP/external_libnl-headers ****
+6c175b0 : Fix libnl so users can compile with old-style and uapi kernel headers. <Elliott Hughes> 7 months ago
+ 
+**** https://github.com/VanirAOSP/external_libselinux ****
+8b47609 : DO NOT MERGE: Fix a bug in the userspace AVC that broke per-domain permissive mode. <Stephen Smalley> 5 months ago
+72888bf : Don't read selinux policies from /data <Nick Kralevich> 5 months ago
+ 
+**** https://github.com/VanirAOSP/external_ppp ****
+2e50db2 : Fix pppd to build with both old and uapi headers. <Elliott Hughes> 7 months ago
+ 
+**** https://github.com/VanirAOSP/external_qemu ****
+454ca73 : Add support for xxhdpi and xxxhdpi when injecting a skin dpi. <Deepanshu Gupta> 7 months ago
+ 
+**** https://github.com/VanirAOSP/external_sepolicy ****
+9702e49 : DO NOT MERGE: Adding permissions needed to remove cache <jaejyn.shin> 5 months ago
+2a2a493 : DO NOT MERGE: Make bluetooth, nfc, radio and shell adb-installable <Takeshi Aimi> 6 months ago
+ 
+**** https://github.com/VanirAOSP/external_skia ****
+9642e68 : Set GR_GL_IGNORE_ES3_MSAA to 0. DO NOT MERGE <Leon Scroggins> 3 months ago
+e958b3a : Disable optimizations for chromium m33. <Leon Scroggins> 3 months ago
+33fd387 : Add an Android version of SkRefCnt - DO NOT MERGE <Leon Scroggins> 3 months ago
+12fc268 : DO NOT MERGE - Allow buffered stream to work with an offset. <Leon Scroggins> 3 months ago
+ebc83e2 : Fix build on arm devices w/o neon. DO NOT MERGE <Leon Scroggins> 3 months ago
+c952405 : Fix x86 build. DO NOT MERGE <Leon Scroggins III> 3 months ago
+b065aca : Apply all Skia changes made to the chromium m33 branch of Skia. <Derek Sollenberger> 3 months ago
+3f70cbf : Fix issue in the image decoders where the bitmap config was not properly set. <Derek Sollenberger> 4 months ago
+910f694 : Snapshot from http://skia.googlecode.com/svn/trunk@12682 <Derek Sollenberger> 5 months ago
+0a657bb : Snapshot from http://skia.googlecode.com/svn/trunk@12108 <Derek Sollenberger> 7 months ago
+ 
+**** https://github.com/VanirAOSP/external_sqlite ****
+f764dbb : disable fts3_tokenizer <Nick Kralevich> 3 months ago
+ 
+**** https://github.com/VanirAOSP/external_tremolo ****
+94933c8 : Don't crash on corrupt files <Marco Nelissen> 2 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+226a083 : Remove a duplicate definition of aacaot <DHOMD> 35 hours ago
+66809dc : DO NOT MERGE: Revert "mediaplayer: keep more buffers with the BufferQueue" <Lajos Molnar> 10 weeks ago
+77c5b04 : DO NOT MERGE: Revert "stagefright: allow for minUndequeuedBufs to be one less" <Lajos Molnar> 10 weeks ago
+0370be9 : DO NOT MERGE: camera: Fix setParameters for Preview FPS single/range values <Igor Murashkin> 3 months ago
+65e20ff : DO NOT MERGE: PlaylistFetcher: fix infinite loop when parsing ADTS. <Robert Shih> 4 months ago
+f622e2c : Increased recorded MP4 max file size to 4GB (more precisely 2^32-1 bytes -- FAT32 max file size) <Rachad> 4 months ago
+25bab83 : Fix build <Marco Nelissen> 3 months ago
+a047087 : stagefright: allow for minUndequeuedBufs to be one less <Lajos Molnar> 3 months ago
+1faa417 : stagefright: allow for minUndequeuedBufs to be one less <Lajos Molnar> 3 months ago
+0c271b7 : Verify certificates <Marco Nelissen> 3 months ago
+b635b0e : mediaplayer: keep more buffers with the BufferQueue <Lajos Molnar> 4 months ago
+43ca783 : httplive: block-by-block fetch, decrypt, and parse ts files. <Robert Shih> 3 months ago
+bd3e2e0 : camera2: Fix segfault when using null availability listener <Igor Murashkin> 3 months ago
+8a57d24 : Verify certificates <Marco Nelissen> 3 months ago
+cf49a51 : fix codec buffer leak in error handling when timestamp goes backward <Chong Zhang> 4 months ago
+7d3044d : LiveSession: fix incorrect stream key (subtitle"s") <Robert Shih> 3 months ago
+9f434cf : M3UParser: trim spaces when parsing comma separated codecs. <Robert Shih> 3 months ago
+ceeabe1 : httplive: clear access units before returning from seekTo. <Robert Shih> 3 months ago
+8bd4d16 : Cap pts gap between adjacent frames to specified value <Chong Zhang> 5 months ago
+1c608ab : save mGraphicBuffer pointer even when we're suspended <Chong Zhang> 5 months ago
+bc69c8b : DO NOT MERGE: Camera: delete preview callback when preview size is changed <Zhijun He> 4 months ago
+dcec903 : Simplify AudioTrack stream end and fix race <Glenn Kasten> 9 months ago
+5874615 : Allow for larger codec private data <Marco Nelissen> 4 months ago
+a1076eb : LiveSession: Use the actual, possibly redirected url as base in the M3U <Martin Storsjo> 6 months ago
+75d0318 : M3UParser: Skip query strings when looking for the last slash in a URL <Martin Storsjo> 6 months ago
+2048c22 : AudioTrack: When paused, return cached playback position <Haynes Mathew George> 5 months ago
+be1195a : Fix SIGABRT when playing mp4 file <Marco Nelissen> 6 months ago
+e2492dc : ChromiumHTTPDataSource: Keep track of the redirected URL <Martin Storsjo> 6 months ago
+777ee5e : Initial HLS seamless switch implementation. <Robert Shih> 3 months ago
+0523da8 : NuPlayer side support for seamless format switch. <Robert Shih> 4 months ago
+6c8495c : LiveSession refactor <Robert Shih> 4 months ago
+2cd9458 : PlaylistFetcher: Add support for block-by-block decryption. <Robert Shih> 4 months ago
+822a489 : LiveSession: Add support for block-by-block fetchFile. <Robert Shih> 4 months ago
+7e50e1c : AnotherPacketSource support to get latest buffered MetaData. <Robert Shih> 4 months ago
+933a4d3 : Added support to query ACodec whether adaptive playback is enabled. <Robert Shih> 4 months ago
+f7e34cf : stagefright: use CODECS field in EXT-X_STREAM-INF as fallback <Robert Shih> 4 months ago
+b2be2f2 : Fixed misplaced bracket for switch-case block. <Robert Shih> 4 months ago
+e62d202 : stagefright: Fix issue with tracking media format in packet source <Lajos Molnar> 6 months ago
+6708a45 : stagefright: Fix bugs in playlist fetcher logic <Lajos Molnar> 6 months ago
+f590f94 : stagefright: do not offload LD-AAC decoding <Eric Laurent> 6 months ago
+3b7ddf8 : set AAC MPEG version to MPEG-2 <Chong Zhang> 4 months ago
+3c836e7 : stagefright: fix offloading HE-AAC sampling rate. <Eric Laurent> 6 months ago
+a413dd6 : DO NOT MERGE: Camera: fix focusArea wrong indexing issue <Zhijun He> 4 months ago
+6706009 : DO NOT MERGE: camera2: Fix race with stream deletion during disconnect. <Ruben Brunk> 6 months ago
+81d7543 : DO NOT MERGE: camera2/3: Add protection for still capture path <Zhijun He> 6 months ago
+d812fc0 : Increase kFastTrackMultiplier from 1 to 2 <Glenn Kasten> 6 months ago
+88876fb : AudioTrack: fix obtainBuffer timeout calculation <Eric Laurent> 4 months ago
+145b727 : libstagefright: Delay release of wakelock in TimedEventQueue <Haynes Mathew George> 6 months ago
+281dd4e : audioflinger: fix static track end detection <Eric Laurent> 6 months ago
+abab1c3 : AudioMixer: Remove tracks from enabledTracks after reseting outTemp <Gaurav Kumar> 5 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+99adb3b : Fix dangling else from merge fail in WallpaperClopper <nuclearmistake> 2 hours ago
+f04fd95 : WallpaperCropActivity.java fixup <DHOMD> 3 hours ago
+0b4d67b : Kill AOSP QuickSettingsModel <nuclearmistake> 3 hours ago
+1367d5e : Fix getTopLevelResources invocation for themechooser post-4.4.3 merge <nuclearmistake> 4 hours ago
+ab5d5a9 : Themes: uninstallThemeForAllApps shouldn't check if map is empty if it's null <nuclearmistake> 7 hours ago
+789cb99 : Temporarily hide lock screen unlock targets if opening a widget <Veeti Paananen> 5 weeks ago
+331c4dc : fw: media: Handle NPE due to threading race <Tom Marshall> 29 hours ago
+ef9b23f : Themes: Handle apps using "original-package" tag <Andy Mast> 2 days ago
+0a38110 : Step on old commits to merge new hasPermanentMenuKey <DHOMD> 29 hours ago
+851b8dc : WallpaperCropper: do not display null bitmaps <Roman Birg> 31 hours ago
+35c0794 : Themes: Update last postFinish call <Ethan Chen> 29 hours ago
+7b01deb : Change defaultDreams to com.android namespace <Danesh M> 31 hours ago
+beec5a2 : Themes: Add '|' delimited list of components to broadcast <Clark Scheff> 33 hours ago
+3205b88 : Make theme change broadcast a protected broadcast. <Clark Scheff> 32 hours ago
+ec22008 : Cleanup app->{theme1,theme2...} mapping on uninstall <Andy Mast> 6 days ago
+0541e4c : Themes: Delete icon resources during uninstall <Andy Mast> 2 days ago
+3943735 : Themes: remove unused code <Andy Mast> 2 days ago
+e9eccb2 : Add boolean sHasPermanentMenuKey <DHOMD> 29 hours ago
+ba13ffe : apn: national roaming for ONO (Spain) <Jorge Ruesga> 2 days ago
+77ab499 : Fix hiding ADB notification <Adam77Root> 4 days ago
+76593e1 : MTP: Fix getThumbnail <Mike Lockwood> 6 weeks ago
+f02d7bf : Don't reset country code once it is persisted <Vinit Deshapnde> 7 weeks ago
+9d6b121 : Fix FLAG_DISMISS_KEYGUARD not working <Craig Mautner> 9 weeks ago
+ba5f1f2 : Enlarge space allowed for internal downloads. <Jeff Sharkey> 10 weeks ago
+ab4c3f1 : Fixed crash when setting wallpaper with built in rotation <Selim Cinek> 10 weeks ago
+9bc5f2f : Don't wait for finishing animation when second display is disconnected <Koji Fukui> 3 months ago
+bb87ac7 : DO NOT MERGE: Downgrade expedited to normal on reschedule. <Matthew Williams> 2 months ago
+077587f : Import translations. DO NOT MERGE <Baligh Uddin> 2 months ago
+c41853c : Fixed wallpaper bug where wrong size was taken when cropping <Selim Cinek> 2 months ago
+0392442 : Allow FLAG_SHOW_WHEN_LOCKED to apply to dialogs <Craig Mautner> 3 months ago
+83da75d : Added a private apis jar that includes explicitly supported APIs that are not useful for 3rd party developers. <Gabriel Peal> 3 months ago
+965bed1 : DO NOT MERGE: camera: Fix setParameters for Preview FPS single/range values <Igor Murashkin> 3 months ago
+ba126c0 : Disable Set Wallpaper button while loading image <Selim Cinek> 3 months ago
+91f0a45 : Eliminate mHasAlpha <John Reck> 3 months ago
+774eb08 : Revert "UsbDeviceManager: Fix race condition between accessory start and USB configured uevents" <Mike Lockwood> 3 months ago
+e2934fc : UsbDeviceManager: A better fix for race condition when starting USB accessory mode <Mike Lockwood> 3 months ago
+3368a63 : Change wallpaper sizing <Michael Jurka> 6 months ago
+d181673 : Fix stopBatchedScan not working for wifi <Wei Wang> 3 months ago
+d8be490 : UsbDeviceManager: A better fix for race condition when starting USB accessory mode <Mike Lockwood> 3 months ago
+205a3ea : Revert "UsbDeviceManager: Fix race condition between accessory start and USB configured uevents" <Mike Lockwood> 3 months ago
+9702432 : Move task to top in window manager. <Craig Mautner> 3 months ago
+f503a2d : Update contextual asset bar assets to avoid 9-patch artifacts <Adam Powell> 3 months ago
+c0384b6 : DO NOT MERGE: Move advetise clean up to callback code. fixes b/13289050 Cherrypick from master to fix b/13289050 <Wei Wang> 3 months ago
+46e6311 : DO NOT MERGE - Fix memory leak caused by mismatched linkToDeath() in WindowManagerService <Jim Miller> 6 months ago
+a413a4a : Fix the build.  DO NOT MERGE <Jim Miller> 3 months ago
+4b4eebb : DO NOT MERGE:  Add status callback for start/stop advertising. <Wei Wang> 3 months ago
+45b97c2 : DO NOT MERGE - Use Samoa country code to satisfy wifi regulatory concerns <Vinit Deshapnde> 3 months ago
+b4998ee : Fix loop limits. <Craig Mautner> 6 months ago
+5d39a77 : Fix projection offset caching - DO NOT MERGE <Chris Craik> 4 months ago
+0cab07d : MediaPlayer: fix int overflow issue in MediaTimeProvider <Lajos Molnar> 3 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_compile_slang ****
+ac71e8c : Fix C++ reflection so that -p works. <Stephen Hines> 7 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_ex ****
+ce2b95a : Fix AudioEngine to allow re-initialization - DO NOT MERGE <Jay Shrauner> 3 months ago
+e49544d : Import translations. DO NOT MERGE <Baligh Uddin> 4 months ago
+6b48b5d : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+9c7db08 : Build the benchmark test to /data/local/tmp/ for automated test <Xia Wang> 3 months ago
+5b61ad2 : Check the padded size of the read byte array <Kenny Root> 3 months ago
+37b4496 : Add support for writing byte arrays to parcels <Marco Nelissen> 3 months ago
+f0190bf : Add support for writing byte arrays to parcels <Marco Nelissen> 3 months ago
+19d6481 : Bug fix for SensorFusion data rate. <Aravind Akella> 6 months ago
+4b84704 : Ignore flush complete events when recording last value for a sensor. <Aravind Akella> 3 months ago
+6790329 : Fix "Binder: Make sure binder objects do not overlap" to work old binder kernel interface <Arve Hjønnevåg> 4 months ago
+f50b9ea : Binder: Make sure binder objects do not overlap <Arve Hjønnevåg> 4 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_colorpicker ****
+bd624b6 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_datetimepicker ****
+1100c53 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+41d3154 : MccTable: add backwards compatibile updateMccMncConfiguration overload <nuclearmistake> 3 hours ago
+96904b3 : Not sure where this delta came from... seems like somebody chose BASE on a 3-way diff or something <nuclearmistake> 3 hours ago
+b4e8b55 : Remove a single line from handleSimRefresh... SIMRecord.java may need much TLC <nuclearmistake> 3 hours ago
+3f02b50 : Don't write blank baseband version <Ethan Chen> 5 days ago
+c187f0e : Handle provisioning APN by turning off/on data. <Wink Saville> 3 months ago
+82d87ae : Telephony: Add + for international number for MT SMS <Sudheer Reddy Yampalla> 7 months ago
+b0b637d : Switch from SIM to carrier info for wifi country <Robert Greenwalt> 3 months ago
+fb36cdc : Fix isSameNamedOperatorConsideredRoaming [DO NOT MERGE] <Robert Greenwalt> 6 months ago
+7af882a : UICC : delete adn cache after SIM REFRESH RESET <duho.ro> 4 months ago
+023346c : Fix OOBE crash/DoS after receiving 0-byte WAP push. <Jake Hamby> 6 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_timezonepicker ****
+8aedf94 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+7fc07dd : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_rs ****
+7d2a6e8 : Fix memory leak due to smart pointer misuse. <Tim Murray> 6 months ago
+5c89f71 : update cleanspec for header generator <Jason Sams> 3 months ago
+3fca8f8 : Make object destruction asynchronous. <Jason Sams> 3 months ago
+edc0cd0 : Add handcode mode to rsg_generator. <Jason Sams> 3 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_support ****
+197708f : Refresh cast icon assets to improve visual contrast. <Jeff Brown> 3 months ago
+0b2a873 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+5c4a0d6 : Update maven support lib version for KLP MR1. <Raphael Moll> 6 months ago
+5057daa : Update maven support lib version for KLP. <Raphael Moll> 7 months ago
+cca0884 : Make action bar media router icons blue again. <Jeff Brown> 7 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_testing ****
+abc9b55 : Removed url from javadoc. <Allen Hair> 7 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_webview ****
+ce0577b : Add missing Chromium LICENSE file. <Ben Murdoch> 9 weeks ago
+c09906e : Revert "Support a prebuilt WebView." <Torne (Richard Coles)> 7 months ago
+b3d255b : Fix check when setLayerType is called in constructor <Bo Liu> 3 months ago
+8b40943 : Plumb setLayerType to AwContents <Bo Liu> 3 months ago
+bd7f8eb : Update resources to match upstream. <Marcin Kosiba> 3 months ago
+86f3250 : Import translations. DO NOT MERGE <Baligh Uddin> 4 months ago
+c3ad68b : Revert "Split AndroidRuntime into AndroidRuntimeBase base-class and the rest." <Andreas Huber> 4 months ago
+82fd119 : Split AndroidRuntime into AndroidRuntimeBase base-class and the rest. <Andreas Huber> 4 months ago
+319b081 : Merge scripts: duplicate arm makefile for arm64. <Torne (Richard Coles)> 4 months ago
+f9b4aa3 : Don't strip ColorPicker resources referenced from XML. <Ben Murdoch> 5 months ago
+9281a85 : Remove @override to fix build break <Selim Gurun> 4 months ago
+f0f0618 : Add WebSettings API tracing <Mikhail Naganov> 6 months ago
+c548c8e : Reland "automerger: download gn before generating makefiles." <Richard Coles> 6 months ago
+6a06648 : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+0ddbe44 : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+b5841d5 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+4aab98d : Do not merge third_party/angle_dx11 <Bo Liu> 6 months ago
+6ce095b : Add third_party/angle to merged project list. <Torne (Richard Coles)> 6 months ago
+6a6311f : Revert "Revert "Wire up resources for the Form Validation message bubble."" <Ben Murdoch> 6 months ago
+477b059 : Revert "Wire up resources for the Form Validation message bubble." <Mikhail Naganov> 6 months ago
+0820c3d : Wire up resources for the Form Validation message bubble. <Ben Murdoch> 9 months ago
+1dcc873 : Revert "Adding a fake on page started for data url's since we know it wont be sent" <Martin Kosiba> 6 months ago
+36797b2 : Revert "automerger: download gn before generating makefiles." <Richard Coles> 6 months ago
+26ed03a : DO NOT MERGE: Support a prebuilt WebView. <Torne (Richard Coles)> 8 months ago
+a2b8757 : Remove deprecated locales <Baligh Uddin> 6 months ago
+c13e4e8 : Resources for "Support datalist for date/time input types on Android" <Bo Liu> 6 months ago
+3fbc954 : Add resource after chromium crrev.com/r239076 <Bo Liu> 6 months ago
+c673dbd : automerger: download gn before generating makefiles. <Torne (Richard Coles)> 6 months ago
+79a1e3e : Update resources needed for colour picker. <Primiano Tucci> 6 months ago
+37ec002 : Enable webview printing <Selim Gurun> 7 months ago
+edc70c8 : DO NOT MERGE: Support a prebuilt WebView. <Torne (Richard Coles)> 8 months ago
+48c8233 : Connect up the showFileChooser client callback <Jonathan Dixon> 10 months ago
+8be908c : Allow CookieManager to be used without starting Chromium. <Torne (Richard Coles)> 8 months ago
+8ec5fb8 : Remove dependency on UniquePtr. <Ben Murdoch> 6 months ago
+6c5c7a3 : Add third_party/sfntly to merged project list. <Torne (Richard Coles)> 7 months ago
+2fbdaa7 : Reflect move of CommandLine from content/ to base/ <Ben Murdoch> 7 months ago
+700f46f : For apps targeting JB MR2+, bind to the first thread using WebView <Jonathan Dixon> 8 months ago
+fafc9af : Add java resources after crrev.com/r234378 <Bo Liu> 7 months ago
+0350636 : Remove a not dangerous warning from skia header files <Kristian Monsen> 7 months ago
+c92fae9 : Stop using the test constructor. <Martin Kosiba> 7 months ago
+57f39b9 : Tidy up WebViewChromiumFactoryProvider. <Ben Murdoch> 7 months ago
+2ab6417 : Enable favicon downloading. <Ben Murdoch> 8 months ago
+fa14014 : Do not assume WebView is running on the main thread. <Ben Murdoch> 8 months ago
+90922c7 : Import translations. DO NOT MERGE <Baligh Uddin> 7 months ago
+aa1f358 : Make the onScrollChange implementation a no-op. <Martin Kosiba> 7 months ago
+e9cbca9 : Support a prebuilt WebView. <Torne (Richard Coles)> 8 months ago
+bd4bc1a : Possible fix for bug b/11114227: Occasional crash on rotation <Kristian Monsen> 7 months ago
+8a75592 : Import translations. DO NOT MERGE <Baligh Uddin> 7 months ago
+86abeb6 : Optimize the complex clip case <Jonathan Dixon> 9 months ago
+031cc89 : Make string descriptions more explicit. <Torne (Richard Coles)> 8 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_broadcom_wlan ****
+1a9a279 : bcm4339: update firmware to 6.37.32.23.34.14 [DO NOT MERGE] <Patrick Tjin> 4 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_libhardware ****
+e5d76f7 : DO NOT MERGE BLE peripheral mode (1/4): change HAL to support service data and service uuids. <Wei Wang> 7 months ago
+1482406 : usbaudio: fix for out->dev->lock remains locked in error case <Amit Shekhar> 4 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio ****
+34fa769 : audio msm8974: new path for speaker phone with AEC <Eric Laurent> 3 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_camera ****
+042fdc8 : [TEST] possible fix for HH camera <nuclearmistake> 6 weeks ago
+742f098 : Camera3: Clean up ALOGE calls in non-error conditions [DO NOT MERGE] <Shuzhen Wang> 5 months ago
+1858b84 : Camera3: Increase retry count when opening camera <Shuzhen Wang> 3 months ago
+c020026 : Camera3: Only use Plain Old Data for global variable <Shuzhen Wang> 4 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display-caf ****
+f042f99 : hwc: poll for vsync event <Naseer Ahmed> 12 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media ****
+a5751c9 : Fix an include <DHOMD> 29 hours ago
+7887e31 : Move Android.mks to their parent dir. <Ying Wang> 4 months ago
+e568499 : Move Android.mks to their parent dir. <Ying Wang> 4 months ago
+5a9eab6 : mm-video: vidc: fix memory leak in dynamic buffer mode <Arun Menon> 5 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_samsung ****
+f1b9dcd : WIP: exynos: SEC_OMX_H264dec.c solve dump when decoding hd and fullhd h264 <Javier Ferrer> 6 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_samsung_slsi_exynos5 ****
+0904c36 : Don't advertise metadata mode for VP8 decoder. <Lajos Molnar> 4 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_ti_omap4xxx ****
+0fbe7ec : libexif is now libjhead <Marco Nelissen> 6 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_asus_tf700t ****
+20b5b92 : Revert "Try LTO on kernel" <DHOMD> 32 hours ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_htc_msm8960
+https://github.com/EthanJ99/android_kernel_htc_msm8960 ****
+4a85704 : update defconfigs for new zram and lz4 patches <cannondalev2000> 2 hours ago
+16c0a04 : zcache-main: switch to lz4 as default <Paul Reioux> 10 months ago
+16a17b1 : zcache-main.c: use MACRO define instead of hardcoded default of lzo <Paul Reioux> 10 months ago
+a4b8378 : zram_drv: switch default compressor to new lz4 <Paul Reioux> 10 months ago
+af6d41c : staging: zram: add per-cpu support to Crypto <Paul Reioux> 10 months ago
+845cfa4 : staging: zram: fix errors from previous cherry-pick <rmbq> 7 months ago
+d3b61b9 : staging: zram: add Crypto API support <Paul Reioux> 10 months ago
+bebf72f : Kconfig: remove QCACHE if ARCH_8960 is selected <rmbq> 7 months ago
+2cd4b2a : msm_ion.c: fix zcache compatibility issues <Paul Reioux> 12 months ago
+c6fe774 : zsmalloc: support zsmalloc to ARM, MIPS, SUPERH credits to Minchan Kim <rmbq> 7 months ago
+ec53a28 : zcache & zram: remove x86 dependency from kconfig <rmbq> 7 months ago
+7d543e4 : LZ4: compression/decompression signedness mismatch (v2) <Sergey Senozhatsky> 10 months ago
+4a3144e : lib/lz4/lz4_compress: fix macro usage error <Paul Reioux> 10 months ago
+dc2be98 : crypto: Add lz4 Cryptographic API <Chanho Min> 10 months ago
+7a5d342 : lib: Add lz4 compressor module <Chanho Min> 10 months ago
+31b1bd9 : arm: Add support for LZ4-compressed kernel <Kyungsik Lee> 10 months ago
+bb33d27 : lib: Add support for LZ4-compressed kernel <Kyungsik Lee> 10 months ago
+0a01058 : decompressor: Add LZ4 decompressor module <Kyungsik Lee> 10 months ago
+7ea1553 : fix cifs shit i forgot earler <cannondalev2000> 2 days ago
+ffe8f1d : patch for linaro 4.8 <cannondalev2000> 2 days ago
+2acd8be : increase bus voltages <cannondalev2000> 2 days ago
+2d56107 : oc the bus <cannondalev2000> 2 days ago
+99cbb04 : m4 defconfig update <cannondalev2000> 2 days ago
+8365d79 : ville: enable f2fs <Jason Riordan> 7 weeks ago
+81216cf : jet: enable f2fs <Jason Riordan> 7 weeks ago
+756d52a : fighter: enable f2fs <Jason Riordan> 7 weeks ago
+c21b76d : evita: enable f2fs <Jason Riordan> 7 weeks ago
+bdda7a8 : f2fs-for-3.2 backport changes from https://github.com/nowcomputing/f2fs-backports to enable 3.4 compile <Jason Riordan> 7 weeks ago
+2d8519b : f2fs-for-3.5 backport changes from https://github.com/nowcomputing/f2fs-backports <Jason Riordan> 7 weeks ago
+435fd6b : initial backport of f2fs from https://github.com/nowcomputing/f2fs-backports <Jason Riordan> 7 weeks ago
+3cc9401 : l2 tweeks <cannondalev2000> 3 days ago
+853d768 : update m4 and jet(jewel) defconfig <cannondalev2000> 3 days ago
+df92d6b : remove shit im not useing <cannondalev2000> 3 days ago
+1dc54f3 : defconfig update <cannondalev2000> 4 days ago
+c7ce5a2 : Optimized ARM RWSEM algorithm <Ashwin Chaugule> 2 years, 3 months ago
+68fd132 : ARM: only allow kernel mode neon with AEABI <Russell King> 9 months ago
+f1e6f0d : ARM: 7835/2: fix modular build of xor_blocks() with NEON enabled <Ard Biesheuvel> 9 months ago
+f6419f5 : ARM: crypto: add NEON accelerated XOR implementation <Ard Biesheuvel> 1 year, 1 month ago
+fb522f5 : ARM: add support for kernel mode NEON <Paul Reioux> 5 months ago
+b7734fe : ARM: be strict about FP exceptions in kernel mode <Paul Reioux> 5 months ago
+ce35268 : ARM: move VFP init to an earlier boot stage <Paul Reioux> 5 months ago
+aaba8ee : arm: lib: Fix makefile issue Fix the typo introduced by commit fb7051a. <Hong-Mei Li> 7 weeks ago
+1eeba06 : msm: memutils: memcpy, memmove optimization <Hong-Mei Li> 11 months ago
+67cf146 : fix things from last commit <cannondalev2000> 4 days ago
+f7d4ebf : msm: memutils: memcpy, memmove, copy_page optimization Preload farther to take advantage of the memory bus, and assume 64-byte cache lines.  Unroll some pairs of ldm/stm as well, for unexplainable reasons. <Chris Fries> 3 months ago
+4bd1fd2 : add memutils to kconfig and makefile <cannondalev2000> 4 days ago
+f7c8cdf : Revert "add memutils to kconfig and makefile" <cannondalev2000> 3 days ago
+2e835b8 : add the wrest of the kernel <cannondalev2000> 3 days ago
+c888229 : add memutils to kconfig and makefile <cannondalev2000> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_omap4-common ****
+cb6a396 : ti-st: use msleep_interruptible instead of mdelay <Nishanth Menon> 2 years ago
+96e530f : ti-st: use cpu friendly wait_for_completions <Nishanth Menon> 2 years ago
+114239f : drivers:misc: ti-st: fix potential NULL pointer dereference in st_register() <Wei Yongjun> 1 year, 8 months ago
+90f0dd1 : ti-st: tty_hci: Properly unregister protocols in open. <Oleksandr Kozaruk> 12 months ago
+58b8547 : ti-st: tty_hci: Fix race condition in hci_tty_open. <Oleksandr Kozaruk> 12 months ago
+002b3c2 : ti-st: tty_hci: Remove redundant assignment. <Oleksandr Kozaruk> 12 months ago
+360034e : ti-st: tty_hci: Check kzalloc return value. <Oleksandr Kozaruk> 12 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+01460a0 : d2lte: I like MHL <Dave Daynard> 3 days ago
+5874f20 : sec_battery: driver changes from ND8 release <Dave Daynard> 3 days ago
+b70faaf : apexq: small driver change from ND8 release <Dave Daynard> 3 days ago
+df11b53 : Everyone likes 7 step call volumes <Dave Daynard> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_mondrianwifi ****
+5cb13f3 : mondrianwifi: prima: Fix left over merge conflicts <Christopher R. Palmer> 3 days ago
+1cab061 : mondrianwifi: defconfig: Configure prima correctly <Christopher R. Palmer> 3 days ago
+c5ca5e7 : prima: Add Kconfig option to QCOM_TDLS <Christopher R. Palmer> 4 weeks ago
+bb71a71 : cpuboost: Add hotplug boosting <Christopher R. Palmer> 7 days ago
+e84d95b : mondrianwifi: mdss: Add back Samsung's pipe cleanup <Christopher R. Palmer> 5 days ago
+1a3f919 : mondrianwifi: We don't use mdp3 <Christopher R. Palmer> 5 days ago
+3f047a9 : msm: mdss: Don't call pan_idle for MSMFB_OVERLAY_PREPARE ioctl <Ramakant Singh> 4 months ago
+e2d2445 : msm: mdss: update pipe params on first update after suspend <Adrian Salido-Moreno> 9 months ago
+4862697 : msm: mdss: Move splash thread functionality <Dhaval Patel> 3 months ago
+f4839ce : mdss: fb: Add backward compatibility to fb memory <Jeevan Shriram> 5 weeks ago
+2537b25 : mdss: msm_fb: Allocate fb memory during mmap <Jeevan Shriram> 2 months ago
+d6a3e46 : video: mdss: Update DT and cleanup after merge <Steve Kondik> 12 days ago
+35d1cbe : msm: mdss: Fix rgb_565 format for 90 degree rotation <Pawan Kumar> 8 months ago
+b832336 : msm: mdss: remove extra lock for ctl calls <Adrian Salido-Moreno> 9 months ago
+8e2d346 : msm: mdss: Allow DMA pipe sharing only on WB mixer <Sree Sesha Aravind Vadrevu> 10 months ago
+c847e31 : msm: mdss: fix multiple overlay release sequence <Ujwal Patel> 8 weeks ago
+9969a38 : Revert "Revert "msm: mdss: refactor pipe list management"" <Vishnuvardhan Prodduturi> 6 weeks ago
+98a5eb7 : msm: mdss: refactor pipe retrieval and ref count logic <Adrian Salido-Moreno> 9 weeks ago
+8c438b9 : msm: mdss: Clear the previous state of pipe during SOLID_FILL <Sushil Chauhan> 4 weeks ago
+6265932 : msm: mdss: disable irq to enforce mutex within dsi_event_thread <Kuogee Hsieh> 6 weeks ago
+cf8162a : msm: mdss: Add update notify for backlight change in static screen <Ping Li> 3 months ago
+7d6a078 : msm: mdss: Hold MDP clock Ref count in pan_display path <Jayant Shekhar> 8 weeks ago
+4ac6632 : msm: mdss: prevent dereferencing of user space pointer <Terence Hampson> 9 weeks ago
+0d2d888 : msm: mdss: Remove init phase programming <Sree Sesha Aravind Vadrevu> 3 months ago
+2b46db7 : msm: mdss: Prevent excessive logging during rotation set failure <Vineet Bajaj> 2 months ago
+3b7fb85 : msm: mdss: Handle case when pipe is not idle during cleanup. <Jayant Shekhar> 3 months ago
+2f0dc47 : msm: mdss: ensure pipe is halted before freeing buffers <Adrian Salido-Moreno> 4 months ago
+e775b27 : msm: mdss: add dynamic clk status check to pipe idle verification <Ujwal Patel> 5 months ago
+d295719 : msm: mdss: fix sync fence deadlock when rotator is used <Ujwal Patel> 5 weeks ago
+0337054 : msm: mdss: add support for rotator in mdss_mdp_mixer_get <Ujwal Patel> 3 months ago
+9a63401 : msm: display: reduce display commit prepare waiting time <Ken Zhang> 7 weeks ago
+2f1c75a : msm: mdss: fix race condition between shutdown thread and fb ioctl <Ujwal Patel> 9 weeks ago
+92b38f3 : msm: mdss: add proper pipe unmap calls for pipe references <Adrian Salido-Moreno> 7 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_smdk4412 ****
+7b33a26 : smdk4412: cypress-touchkey - add keydisabler <sbrissen> 10 weeks ago
+ecefed8 : synaptics_s7301: add disabling keypad <sbrissen> 2 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_t1 ****
+41930bb : t1: Touchscreen driver updates from CHN_JB_Opensource_Update1 <Ryuinferno> 2 weeks ago
+ 
+**** https://github.com/LegacyXperia/android_kernel_semc_msm7x30 ****
+ffaf46b : mogami: Remove more unused code <Michael Bestas> 29 hours ago
+f279fc6 : SELinux: Fix memory leak upon loading policy <Tetsuo Handa> 5 months ago
+f5d6dd2 : SELinux: Fix possible NULL pointer dereference in selinux_inode_permission() <Steven Rostedt> 5 months ago
+2e5f8d8 : ipv4: Dump stack on attempt to release alive inet socket <myfluxi> 4 months ago
+af0c24c : selinux: Fix Kernel panic due to NULL pointer dereference <Satya Durga Srinivasu Prabhala> 8 months ago
+af326ec : mogami: Make pmem_adsp cached <Michael Bestas> 3 months ago
+6594c8d : mogami: Increase pmem allocation for 5MP devices <Michael Bestas> 33 hours ago
+5ad1772 : defconfigs: enable SERIAL_MSM_HS_TI <Michael Bestas> 4 days ago
+b720011 : drivers: add msm_serial_hs_ti driver <Nick Reuter> 6 months ago
+ 
+**** https://github.com/VanirAOSP/libcore ****
+9b24ebf : Test that icu4c only uses the Gregorian calendar when formatting date ranges for us. <Elliott Hughes> 6 months ago
+2a85a29 : CA certificates update <Kenny Root> 3 months ago
+7dd2dd0 : SSLSocketTest: test NPN/ALPN socket reuse <Kenny Root> 3 months ago
+9c5e545 : Return SSL_TLSEXT_ERR_NOACK with no NPN/ALPN <Kenny Root> 3 months ago
+f05f3a6 : When decoding enum annotation value, treat it as a field name, not enum value <Brian Carlstrom> 3 months ago
+adc4c29 : OpenSSLECPrivateKey: no encoding for ENGINE-backed keys <Kenny Root> 4 months ago
+8ebfe8f : Delete test that depends on an external server. <Narayan Kamath> 4 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+1624275 : We are the borg. All of our cm-tracked repos with 4.4.3 changes will be assimilated <nuclearmistake> 6 hours ago
+fc15a7f : netd <nuclearmistake> 35 hours ago
+07df37b : Use vanir's jhead <nuclearmistake> 2 days ago
+557163a : Use vanir's jhead <nuclearmistake> 2 days ago
+f2742eb : Use vanir's jhead for 4.4.3 <nuclearmistake> 2 days ago
+dc85a98 : More lazy==>fail <nuclearmistake> 2 days ago
+7d0730f : When good find+replace goes bad <nuclearmistake> 2 days ago
+a2f26bf : Fix codinalte revision <nuclearmistake> 2 days ago
+1304328 : owwww, my sooouulll... so many FALSDKJAKSJD missing refs lol <nuclearmistake> 2 days ago
+7a36413 : put up or shut up. beeyaww <nuclearmistake> 2 days ago
+bb9bfdd : why... <nuclearmistake> 2 days ago
+4008c01 : Manifests. srsbznz <nuclearmistake> 2 days ago
+a3beeb6 : HEY ASSHOLES. YOU FORGOT SOME. <nuclearmistake> 2 days ago
+5c27d93 : Most amps go to 4.4.2_r2... our amps go to 11. <nuclearmistake> 2 days ago
+84a5251 : Fixup <DHOMD> 2 days ago
+a6cb28f : Use our p3110 - it aliases better <DHOMD> 2 days ago
+970077a : OCD <DHOMD> 2 days ago
+3a9a68c : changes for p31xx tabs <cannondalev2000> 6 days ago
+26e90e3 : add samsung msm8974-common <nuclearmistake> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_BasicSmsReceiver ****
+6527967 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+e60e64d : Continue slaying heads of the Hydra <DHOMD> 35 minutes ago
+bc9f324 : Cross fingers <nuclearmistake> 2 hours ago
+7c59f18 : I WIN <nuclearmistake> 2 hours ago
+bc7237c : More non-sense mutations Signed-off-by: DHOMD <DHO@dho.im> <DHOMD> 2 hours ago
+c9928bc : Replication Translocation resulting in nonsense translation error <DHOMD> 2 hours ago
+24dce60 : DO NOT MERGE: Add status callback for start/stop advertising. cherrypick from master to fix b/13289050 <Wei Wang> 3 months ago
+98dde68 : DO NOT MERGE release wakelock if no activity in Bluetooth MAP profile to avoid waste power. <Zhihai Xu> 6 months ago
+6d4c5c8 : DO NOT MERGE MAP: fixed missing filtering on Priority <kschulz> 8 months ago
+d3195da : DO NOT MERGE update play status based on A2dp audio state from stack. <Zhihai Xu> 5 months ago
+3f77ee6 : DO NOT MERGE Add Bluetooth privileged permission to bluetooth app. fix b/13226130. <Wei Wang> 3 months ago
+873b806 : DO NOT MERGE BLE peripheral mode (2/4): Gatt Service Change. <Wei Wang> 7 months ago
+e061a83 : Device cannot go to sleep while connected to HBM-570 BT headset <Zhihai Xu> 8 months ago
+ab23300 : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+14b74c3 : Use pathPrefix filter instead of path for /btopp content <Matthew Xie> 6 months ago
+5eb524f : Use pathPrefix filter instead of path for /btopp content <Matthew Xie> 6 months ago
+deb7bda : Use pathPrefix filter instead of path for /btopp content <Matthew Xie> 6 months ago
+418431c : Use pathPrefix filter instead of path for /btopp content <Matthew Xie> 6 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Browser ****
+d2391b4 : Further tighten the files that the browser can show <Selim Gurun> 5 months ago
+852794e : DO NOT MERGE Convert the scheme to lowercase <Selim Gurun> 5 months ago
+c87d826 : DO NOT MERGE Convert the scheme to lowercase <Selim Gurun> 5 months ago
+1089d99 : DO NOT MERGE Convert the scheme to lowercase <Selim Gurun> 5 months ago
+468a2be : DO NOT MERGE Convert the scheme to lowercase <Selim Gurun> 5 months ago
+6243e7c : Restrict loading private browser files <Selim Gurun> 5 months ago
+6d06046 : DO NOT MERGE Do not let intents request viewing private browser files <Selim Gurun> 5 months ago
+00c6794 : DO NOT MERGE Do not let intents request viewing private browser files <Selim Gurun> 5 months ago
+816688b : DO NOT MERGE Do not let intents request viewing private browser files <Selim Gurun> 5 months ago
+7719d6c : DO NOT MERGE Do not let intents request viewing private browser files <Selim Gurun> 5 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+50343ae : Calculator: Remove unused string <Michael Bestas> 2 days ago
+d2cd5b7 : Tie decimal and grouping separators to the locale <Ricardo Cerqueira> 3 days ago
+d89ea8c : Import translations. DO NOT MERGE <Baligh Uddin> 4 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calendar ****
+aabff4d : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+484fad5 : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+6abdbbc : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+d3b2e5b : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+74ce355 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+9221943 : Allow app to upgrade database on install. <Sam Blitzstein> 6 months ago
+f52c641 : Force a manual, incremental sync one time, as early as possible. <Sam Blitzstein> 6 months ago
+fb0097a : Adding requiredAccountType attribute into fuchsia (DO NOT MERGE) <James Kung> 6 months ago
+4e7b1b2 : Use the correct version code check for K. <Sam Blitzstein> 8 months ago
+4329c74 : Use the holodark assets/ colors instead of hololight <Mindy Pereira> 8 months ago
+1d2a83b : More calendar de-blueing <Sam Blitzstein> 8 months ago
+043a867 : Calendar deblueing <Ari Sachter-Zeltzer> 8 months ago
+b5a786d : Adding additional assets. <Sam Blitzstein> 8 months ago
+92dab54 : Fix AOSP Calendar build <Paul Westbrook> 9 months ago
+4b6f921 : New xxhdpi assets <Isaac Katzenelson> 9 months ago
+96cce4a : Abort onClick if no Window Focus <Alon Albert> 9 months ago
+ffd6101 : Support PreferenceActivity.isValidFragment <Alon Albert> 9 months ago
+e8305d6 : Use setExact on K and up only. <Isaac Katzenelson> 9 months ago
+1169804 : Remove negative margin fron all day label <Isaac Katzenelson> 10 months ago
+244d94f : Call build() on the Builder, not the Style. <Daniel Sandler> 10 months ago
+296ea5d : Process RSVP Intent Without Event Editor <Alon Albert> 12 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+dfe0b43 : Various fixes to FocusOverlayManager.java <DHOMD> 3 hours ago
+9d8187c : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+dae90cf : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+9f7b40e : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+f9b2d0c : Remove TRIM support <Alan Newberger> 6 months ago
+ecaad7a : Import translations. DO NOT MERGE <Geoff Mendal> 6 months ago
+be55432 : Import translations. DO NOT MERGE <Geoff Mendal> 6 months ago
+d75b9ae : Fix samsung video recording <Michael Kolb> 1 year ago
+13350e5 : Fix WB indicator override <Michael Kolb> 12 months ago
+0f7d548 : Revert fixed focus area in CAF mode <Michael Kolb> 11 months ago
+398f151 : Add another HTC picture resolution <Michael Kolb> 12 months ago
+7993f45 : Always set focus mode first before applying scene mode <Michael Kolb> 11 months ago
+88f9b3e : Reduce logging of flattened Preferences <Seth Raphael> 6 months ago
+7191c95 : Import translations. DO NOT MERGE <Geoff Mendal> 6 months ago
+adf7022 : Import translations. DO NOT MERGE <Geoff Mendal> 6 months ago
+18eb2e4 : Import translations. DO NOT MERGE <Baligh Uddin> 7 months ago
+ae13f34 : Import translations. DO NOT MERGE <Baligh Uddin> 7 months ago
+7dc6e97 : Delay onResume tasks to speed up lockscreen onResume->onPause->onResume launch sequence. <Andy Huibers> 7 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_CellBroadcastReceiver ****
+3ff0d90 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+b61bd46 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+7174591 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Contacts ****
+3ec9a85 : Import translations. DO NOT MERGE <Baligh Uddin> 2 months ago
+b789436 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+02e6cea : Disable animations if manually overriding.  DO NOT MERGE. <Craig Mautner> 6 months ago
+59c448b : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+2b8fc03 : Don't initialize ActionBar with invalid tab index <Brian Attwell> 4 months ago
+f044393 : Include original exception to ease debugging <Brian Attwell> 4 months ago
+b00ca40 : Use new ContactPhotoManager APIs for default avatars in Contacts <Yorke Lee> 3 months ago
+de047f4 : Fix crash in getPhotoPickSize <Jay Shrauner> 5 months ago
+af7b799 : Fix NPE in setGroupMetaData <Jay Shrauner> 3 months ago
+515baf4 : Don't crash if account label is null <Jay Shrauner> 4 months ago
+2565151 : Catch ActivityNotFoundExceptions <Jay Shrauner> 4 months ago
+35bf18b : Catch ActivityNotFoundExceptions <Jay Shrauner> 4 months ago
+d7ab82f : Fix NPE when phone number or email is null <Jay Shrauner> 4 months ago
+1e090bf : Fix NPE on non decodable Bitmap <Jay Shrauner> 4 months ago
+9b9dacb : Fix potential NPE with null cursor <Jay Shrauner> 4 months ago
+d0dac2f : Fix NPE when sorting accounts lacking type <Jay Shrauner> 4 months ago
+ea6e4ec : Fix crash on missing mimetype <Jay Shrauner> 5 months ago
+2ba6dc6 : Fix NPE in bindEditor <Jay Shrauner> 5 months ago
+946ebfa : Fix NPE on null cursor close <Jay Shrauner> 5 months ago
+a8c9337 : Handle null returns from insertChild <Jay Shrauner> 5 months ago
+3238dc9 : Fix IllegalState in ContactSelectionActivity <Jay Shrauner> 5 months ago
+a1f9ffe : NPE fix on ContactDetailActivity <Jay Shrauner> 5 months ago
+49a9c12 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+aaedbd4 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+3035565 : Import translations. DO NOT MERGE <Geoff Mendal> 6 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+b2e8cd6 : Import translations. DO NOT MERGE <Baligh Uddin> 2 months ago
+54eb09f : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+1aa9bae : Import translations. DO NOT MERGE <Geoff Mendal> 3 months ago
+18cfd4b : Fix ShortcutIntentBuilder to use LetterTileDrawables <Yorke Lee> 3 months ago
+d2c694b : Tweaks to redlines for letter tile avatars <Yorke Lee> 3 months ago
+efa79da : Make ContactTileLoaderFactory.COLUMNS_PHONE_ONLY visible for testing <Yorke Lee> 4 months ago
+b9f9bad : Add support for letter tile avatars to ContactsPhotoManager <Yorke Lee> 4 months ago
+fda11a1 : Fix search crash <Jay Shrauner> 4 months ago
+6061a6a : Fix Contact photo flicker in People and Dialer <Yorke Lee> 3 months ago
+e87886e : Fix NPE if contactsCursor is null <Jay Shrauner> 4 months ago
+e29f9f5 : Fix potential NPE with null cursor <Jay Shrauner> 4 months ago
+2d731e2 : Fix NPE with null cursor <Jay Shrauner> 4 months ago
+99b3c23 : Fix NPE when kind is null in getBestType <Jay Shrauner> 5 months ago
+3c3b30f : Add null check for cursor in DirectoryListLoader <Yorke Lee> 6 months ago
+2ebea8a : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+3420f13 : Import translations. DO NOT MERGE <Baligh Uddin> 4 months ago
+6310a85 : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+d6e49cd : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+d889fc6 : Hopefully finally fix dialer... <DHOMD> 47 minutes ago
+e8274d9 : Dialer: Cleanup CAF additions <Michael Bestas> 3 months ago
+6f70c51 : Fixup russian T9 layout <nuclearmistake> 4 hours ago
+957aee1 : Missing colors and dimens for contacts search settings and call stats <nuclearmistake> 5 hours ago
+9c8c2b5 : Revert "Dialer: Landscape support (for in-dock use / qwerty sliders)" <nuclearmistake> 5 hours ago
+988205c : TEMP//FIX ME - Partial Revert "Dialer: restore full compatibility with theme chooser" <DHOMD> 26 hours ago
+7fde435 : OpenCnameReverseLookup: fix import class <Dan Pasanen> 2 days ago
+50cc4c8 : ReverseLookup: Don't return OpenCNAM errors as caller IDs <Ricardo Cerqueira> 2 days ago
+97794b6 : DO NOT MERGE Fix broken copy-paste dialog <Yorke Lee> 10 weeks ago
+4b47f93 : DO NOT MERGE Fix crash when recreating activity and receiving dial intent <Yorke Lee> 2 months ago
+5dba48f : DO NOT MERGE Fix NPE during activity recreation <Yorke Lee> 2 months ago
+2ae10d4 : Import translations. DO NOT MERGE <Baligh Uddin> 2 months ago
+7fa4c75 : DO NOT MERGE. Fix merge artifact. <Ihab Awad> 3 months ago
+c5517b3 : Protect against class cast exception DO NOT MERGE <Jay Shrauner> 3 months ago
+c9063f5 : Make Dialer a core app DO NOT MERGE <Jay Shrauner> 3 months ago
+aace94a : DO NOT MERGE. Fix problem where swiping upward in overflow menu did not display the correct options menu items. <Ihab Awad> 3 months ago
+d8bf311 : DO NOT MERGE Speed up scroll speed when dragging <Yorke Lee> 3 months ago
+331e0a1 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+4e24159 : DO NOT MERGE Swap 9 patch for contact tiles <Yorke Lee> 3 months ago
+74af808 : Corrected issue where history icon placement does not match spec.  DO NOT MERGE <Tyler Gunn> 3 months ago
+21ed6cb : DO NOT MERGE Fade out favorites screen when dialpad is displayed <Yorke Lee> 3 months ago
+e2d0e48 : DO NOT MERGE Slight UX tweaks to Dialer <Yorke Lee> 3 months ago
+263b01d : Changed dialer launch activity style to use a 0dp height actionbar. This prevents the user from seeing a blue "Phone" actionbar during loading.  DO NOT MERGE <Tyler Gunn> 3 months ago
+b3df8c1 : DO NOT MERGE Make dialpad slide down when dismissed by tapping outside <Yorke Lee> 3 months ago
+6567a89 : DO NOT MERGE Add null check in ContactInfoHelper.isBusiness <Yorke Lee> 3 months ago
+1f51f2b : Correcting issue where text entered by user in searchbox is gray. DO NOT MERGE <Tyler Gunn> 3 months ago
+f879638 : Fix color in Call Details action bar. DO NOT MERGE <Tyler Gunn> 3 months ago
+958a3b6 : Fix contact tile horizontal animations when swiping shortcut card DO NOT MERGE <Yorke Lee> 3 months ago
+6b55340 : Fix jank in no favorites screen when showing/hiding dialpad DO NOT MERGE <Yorke Lee> 3 months ago
+be28ad8 : Fix for letter tile avatars not displaying properly in calllog DO NOT MERGE <Yorke Lee> 3 months ago
+c1e92f6 : Restricted the tap target for "All Contacts" to the "All Contacts" button alone.  DO NOT MERGE <Tyler Gunn> 3 months ago
+56e3471 : Fix threading problems in voicemail code - DO NOT MERGE <Jay Shrauner> 3 months ago
+5883866 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+7146ee8 : Fix slight screen jank when sliding dialpad upwards <Yorke Lee> 3 months ago
+3eb8215 : New appearance and look and feel for dialpad. <Ihab Awad> 3 months ago
+06ca3f9 : Remove ContactPrefs from DialpadFragment <Yorke Lee> 6 months ago
+876cb39 : Hide shadow overlay for contact tiles with letter tile avatars <Yorke Lee> 3 months ago
+dfc8165 : Use new ContactPhotoManager APIs for letter tile avatars <Yorke Lee> 3 months ago
+9270e7f : Changed color for the contacts reordering teaser to be the same as the background behind the tiles. Previously it was set to the action bar color, and when the action bar changed to blue, so did this. <Tyler Gunn> 3 months ago
+04717ef : Move secondary action view/button out of primary action view to provide a more clear separation of the pressable areas for both. <Tyler Gunn> 3 months ago
+f2e6bb6 : UX Changes: Dialer actionbar, tabs and searchbox. See CL 423036 for the searchbox text changes. <Tyler Gunn> 3 months ago
+d5b5d0a : Add drag to remove for favorites in Dialer <Yorke Lee> 5 months ago
+1a31e34 : Adding "Speed Dial" title to dialer favorites list and moving "All Contacts" affordance. <Tyler Gunn> 4 months ago
+27c57f5 : Call History Affordances Swap <Tyler Gunn> 4 months ago
+ef793ed : Fix Dialer tests <Yorke Lee> 7 months ago
+c5b35dd : Rename PhoneNumberHelper in Dialer <Yorke Lee> 7 months ago
+df4d08d : Use single instance of PhoneNumberUtilsWrapper <Yorke Lee> 7 months ago
+25c9f24 : Always show overflow icon for quick contacts affordance <Yorke Lee> 3 months ago
+3ce6018 : Switch favorites screen to grid layout <Yorke Lee> 4 months ago
+2c1f343 : Remove private references from Dialer <Yorke Lee> 8 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Email ****
+3c377d8 : Revert "Add some logging" <DHOMD> 2 hours ago
+a3a2826 : More nonsense mutations... exonuclease reverse polymerase... correct mutation... look for next <DHOMD> 2 hours ago
+8efa01d : Restore xxxhdpi icons. <Yu Ping Hu> 2 months ago
+0596fe1 : Import translations. DO NOT MERGE <Baligh Uddin> 2 months ago
+63eedee : Increment email versioncode. <Yu Ping Hu> 3 months ago
+d7fe0ed : Disambiguate providers between AOSP and EmailGoogle <Tony Mantler> 3 months ago
+6621e1b : Increment Email version. <Yu Ping Hu> 3 months ago
+4b33b98 : b/9564335. Add support for a maxAttachmentSize column in the Account table and connect the data to the Settings object in the existing location (SettingsColumns.MAX_ATTACHMENT_SIZE). <Anthony Lee> 3 months ago
+cce566b : Increment version. <Yu Ping Hu> 3 months ago
+4633ca2 : Increment version. <Yu Ping Hu> 3 months ago
+dcccc04 : Increment version. <Yu Ping Hu> 3 months ago
+5c75a4d : Increment version. <Yu Ping Hu> 3 months ago
+4a5b11d : Add sync to IEmailService. <Yu Ping Hu> 3 months ago
+0132856 : Changed the IEmailService interface to accept and accountId in the loadAttachment() call. This work was necessary to support the new EasService & EasOperation infrastructure. <Anthony Lee> 3 months ago
+3e8ff1a : Add pushModify to IEmailService. <Yu Ping Hu> 3 months ago
+c8ed785 : Get Email units to compile in mr2 branch <Jerry Xie> 3 months ago
+89b8fdc : Disable, suppress, remove broken and obsolete Email tests <Jerry Xie> 6 months ago
+475a762 : Add makefile for EmailTests <Jerry Xie> 6 months ago
+515d830 : Get Email units to compile <Jerry Xie> 6 months ago
+d715e17 : Delete unused functions from IEmailService.aidl. <Yu Ping Hu> 4 months ago
+9ef2c5f : Fix sync window preference being added multiple times <Tony Mantler> 3 months ago
+e41461c : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+9beac5c : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+220dc1b : Fix IMAP delete handling <Tony Mantler> 3 months ago
+c5685ba : Fix tests <Tony Mantler> 3 months ago
+16fea4d : Quit dropping inline attachments on the floor <Tony Mantler> 3 months ago
+5f72d21 : Add a placeholder flaky test. <Brett Chabot> 3 months ago
+695c77e : Convert Email tests to use android-support-tests <Brett Chabot> 3 months ago
+ff3276a : Update the title for the oauth authentication screen <Martin Hibdon> 3 months ago
+ae0143e : Fix temporary setup flow on tablets <Martin Hibdon> 3 months ago
+cad590c : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+ecbdb2e : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+4f31696 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+eebefdb : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+3555dc0 : Add @SmallTest annotation to test classes so they get run in continuous <Jerry Xie> 4 months ago
+10c7412 : Fix some broken tests <Martin Hibdon> 4 months ago
+6864d7e : Update version number <Martin Hibdon> 4 months ago
+426de73 : Fix unbounded async task creation in ADS <Tony Mantler> 4 months ago
+feeb1e3 : Mark otherwise unused method as @VisibleForTesting <Tony Mantler> 4 months ago
+d9cec23 : Fix the build <Martin Hibdon> 4 months ago
+7190973 : Fix authentication view <Martin Hibdon> 4 months ago
+9cf99fc : Update assets for setup <Martin Hibdon> 4 months ago
+ad94ecc : Fix account setup test <Martin Hibdon> 4 months ago
+872ac90 : Import translations. DO NOT MERGE <Baligh Uddin> 4 months ago
+b94bfc3 : Remove some security violating logging <Martin Hibdon> 4 months ago
+8919f57 : Update layouts for setup <Martin Hibdon> 4 months ago
+b9f8dbc : Change account settings buttons back to text <Martin Hibdon> 4 months ago
+87de902 : Make settings flow work for OAuth <Martin Hibdon> 4 months ago
+37a4c65 : Introduce an SSL handshake timeout value of 30 seconds. <Anthony Lee> 4 months ago
+6ef1621 : In 4.4 unbindService can return other RuntimeExceptions outside of IllegalArgumentException.  Make sure we catch it. <Anthony Lee> 4 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Exchange ****
+d4ce060 : Do not store the attachment limit in the DB. <Yu Ping Hu> 2 months ago
+e337078 : Do not terminate outbox sync on single message failures. <Yu Ping Hu> 3 months ago
+aac54f0 : If Ping encounters an error, wait before repinging. <Yu Ping Hu> 3 months ago
+38a95ca : Revert "Email addresses should be decoded as they arrive from Exchange" <Yu Ping Hu> 3 months ago
+0024957 : Email addresses should be decoded as they arrive from Exchange <James Lemieux> 3 months ago
+51ce7c7 : Increment exchange versioncode. <Yu Ping Hu> 3 months ago
+0a5006c : Bump the version code in the useragent string. <Yu Ping Hu> 3 months ago
+f615858 : Clean up handling of NPE when sending a message <Martin Hibdon> 3 months ago
+22f48ed : b/12723917. Make sure that explicit request to sync from our code sets manual to true.  This solves the problem of sync requests being dropped on the floor if email sync is disabled but something like calendar is still enabled. <Anthony Lee> 3 months ago
+b8b3df6 : Fix a crash when logging <Martin Hibdon> 3 months ago
+c60938c : Fix sending on Exchange 2007 <Martin Hibdon> 3 months ago
+f977cc2 : Increment Exchange version. <Yu Ping Hu> 3 months ago
+6506c8e : Allow Junk to be synced. <Yu Ping Hu> 3 months ago
+77670c2 : Suppress auth notification for provisioning errors. <Yu Ping Hu> 3 months ago
+18e8674 : Fixed some small changes that were brought up by CL 430679. <Anthony Lee> 3 months ago
+a11cc53 : b/13349278. Fix multiple downloads of the same attachment. <Anthony Lee> 3 months ago
+5cbc178 : Fix another issue causing duplicated sent messages <Martin Hibdon> 3 months ago
+abaa28c : Delete a message from the outbox once it's sent <Martin Hibdon> 3 months ago
+dd5d868 : b/13349278. Fix multiple downloads of the same attachment. <Anthony Lee> 3 months ago
+72eadc9 : Fix the build <Martin Hibdon> 3 months ago
+8ee92f0 : Add EasCalendarSync <Martin Hibdon> 3 months ago
+e573fcd : Fix another issue causing duplicated sent messages <Martin Hibdon> 3 months ago
+3f72cca : Delete a message from the outbox once it's sent <Martin Hibdon> 3 months ago
+52c9dfb : Switch contacts sync to an EasSyncBase. <Yu Ping Hu> 3 months ago
+c327f27 : b/9564335. Set maxAttachmentSize on the Account table after receiving policy information from Exchange. <Anthony Lee> 3 months ago
+883ec03 : Increment version. <Yu Ping Hu> 3 months ago
+8f19826 : Switch to using EasSyncBase for mail downsync. <Yu Ping Hu> 3 months ago
+399bf55 : Allow EasSyncCollectionTypeBase to use member variables <Martin Hibdon> 3 months ago
+5cb88e8 : Make sending an EasOperation <Martin Hibdon> 3 months ago
+f643f5d : Get rid of the old search class <Martin Hibdon> 3 months ago
+ded8358 : Add EasSyncCollectionTypeBase and its mail sync subclass. <Yu Ping Hu> 3 months ago
+347561c : Make search an EasOperation <Martin Hibdon> 3 months ago
+3e6f730 : Fill out implemenation of PingSyncSynchronizer. This class is not enabled yet as it is utilized by EasService. <Anthony Lee> 3 months ago
+9367309 : EasService fixes & improvements. <Yu Ping Hu> 3 months ago
+36fa2e5 : Increment version. <Yu Ping Hu> 3 months ago
+9a22303 : Switch to using EasSyncBase for mail downsync. <Yu Ping Hu> 3 months ago
+d6ee594 : Allow EasSyncCollectionTypeBase to use member variables <Martin Hibdon> 3 months ago
+da9fdf7 : Make sending an EasOperation <Martin Hibdon> 3 months ago
+929bf85 : Get rid of the old search class <Martin Hibdon> 3 months ago
+48dc7e7 : Increment version. <Yu Ping Hu> 3 months ago
+03a51c8 : Increment version. <Yu Ping Hu> 3 months ago
+75269e7 : Fix handling of display names <Jay Shrauner> 4 months ago
+65398a6 : Fix Exchange units <Jerry Xie> 7 months ago
+bfa0e71 : NPE fix in NameComparator when null strings are provided by the caller. <Anthony Lee> 4 months ago
+7e916f8 : Add EasSyncCollectionTypeBase and its mail sync subclass. <Yu Ping Hu> 3 months ago
+4fce2f9 : Make search an EasOperation <Martin Hibdon> 3 months ago
+2880232 : Fill out implemenation of PingSyncSynchronizer. This class is not enabled yet as it is utilized by EasService. <Anthony Lee> 3 months ago
+68489d7 : EasService fixes & improvements. <Yu Ping Hu> 3 months ago
+d1a58ba : Fix regular sync, part 1. <Yu Ping Hu> 3 months ago
+02d8984 : Created an EasOperation for attachment loading. This class has been enabled within EmailSyncAdapterService although it was written as part of the move to EasService. <Anthony Lee> 3 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Gallery2 ****
+6127c45 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+5385169 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+eeceee8 : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+e0659df : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+7631080 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+67ddd38 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+b24fcaa : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+91eb4e5 : Import translations. DO NOT MERGE <Baligh Uddin> 7 months ago
+daac361 : Import translations. DO NOT MERGE <Baligh Uddin> 7 months ago
+aa22947 : Fix the thumbnail generation. <ztenghui> 7 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_HTMLViewer ****
+be6aab1 : Do not add mimetype to url as a query parameter <Selim Gurun> 6 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+9afd660 : Sanity Override <DHOMD> 9 minutes ago
+b9e308e : incallui: fix callbuttons xxhdpi images <Jorge Ruesga> 3 days ago
+b1fc41c : DO NOT MERGE Fix for in-call dialpad not sliding full length of screen <Yorke Lee> 2 months ago
+5aeadf3 : Import translations. DO NOT MERGE <Baligh Uddin> 2 months ago
+f4373c9 : DO NOT MERGE. Fix build breakage: Fix an ID syntax error. <Ihab Awad> 3 months ago
+559d7c9 : DO NOT MERGE. Rearrange dialpad layout for better esthetics. <Ihab Awad> 3 months ago
+73456fa : DO NOT MERGE Request FLAG_SHOW_WHEN_LOCKED for respond via text dialogs <Yorke Lee> 3 months ago
+58e89be : Import translations. DO NOT MERGE <Geoff Mendal> 3 months ago
+886e887 : Fix build break <Yorke Lee> 3 months ago
+7318ee4 : DO NOT MERGE Fix NPE in DialpadFragment.onHover when fragment is detached <Yorke Lee> 3 months ago
+083be34 : DO NOT MERGE Fix IllegalStateException in InCallUI <Yorke Lee> 3 months ago
+e666e9b : Update dialpad to new look and feel. DO NOT MERGE. <Ihab Awad> 3 months ago
+3b93334 : Remove unused strings <Jay Shrauner> 7 months ago
+060bd3d : Fix NPE in onPostDialCharWait <Jay Shrauner> 6 months ago
+ad3eacb : Import translations. DO NOT MERGE <Baligh Uddin> 4 months ago
+cda74a3 : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+06cc7f7 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+99425be : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+1ac0b72 : Decrease the timeout for unknown endcall screen from 5 to 2 sec. <Santos Cordon> 7 months ago
+829ebfe : Remove an extra logging call left over from development. <Ihab Awad> 7 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Launcher3 ****
+4ca721f : LauncherAppState: Remove things that refer to preferencemanager <nuclearmistake> 2 hours ago
+934d1d2 : Revert "Readd an import for PreferenceManager in LauncherAppState" <nuclearmistake> 2 hours ago
+d5249af : Readd an import for PreferenceManager in LauncherAppState <DHOMD> 27 hours ago
+ab5fa3a : Don't lose icons when migrating from different-sized hotseats. <Dan Sandler> 3 months ago
+8a4a731 : Revert "Fix issue of extra blank screen after uninstall (issue 12372657)" <Adam Cohen> 3 months ago
+c6c0367 : Disabling cling when the user moves the folder before launching it. (Bug 12963868) <Winson Chung> 3 months ago
+b2603e3 : Fix issue of extra blank screen after uninstall (issue 12372657) <Adam Cohen> 3 months ago
+65e4303 : Fix build <Adam Cohen> 3 months ago
+ffed658 : Changed behaviour of the wallpaper picker. <Selim Cinek> 3 months ago
+7084c60 : Guard against null default wallpaper <Christoph Studer> 3 months ago
+517a7f5 : Avoid stripping empty screens if the workspace is still loading (issue 12523285) <Adam Cohen> 3 months ago
+3aa2831 : Changed inconsistency when selecting default wallpaper, where it did not go back to home. <Selim Cinek> 3 months ago
+7114426 : skip backup if launcher is in a bad state <Chris Wren> 3 months ago
+b45b65e : Revert "Disabled the wallpaper when completely in -1 Now space." <Jorim Jaggi> 3 months ago
+c66109c : Updating Read/Write settings permission protectionLevels. (Bug 11372484) <Winson Chung> 3 months ago
+c13e0a5 : Fixed visibility issue of save button in case the url loading failed <Selim Cinek> 3 months ago
+10addc3 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+71e03b9 : Fix issue where clings didn't appear after set up wizard (issue 13077829) <Adam Cohen> 3 months ago
+beb7bc6 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+f42cf7d : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+6d0dde0 : use restored icon for restored app shortcuts <Chris Wren> 4 months ago
+c0bb4a1 : Fix for Can't convert to dimension: type=0x12 Crash on JB deviecs. <Yura> 4 months ago
+55bd972 : Implement spring-loading of folders when dragging over. <Jorim Jaggi> 5 months ago
+085c853 : Do updateWorkspaceScreenOrder inside a single transaction. <Yura> 4 months ago
+30e43d7 : Import translations. DO NOT MERGE <Baligh Uddin> 4 months ago
+57251be : Import translations. DO NOT MERGE <Baligh Uddin> 4 months ago
+ec0d61d : Fix NPE in when dropping from all apps (issue 12917451) <Adam Cohen> 4 months ago
+b6d4c28 : update placeholder on package install or restore <Chris Wren> 4 months ago
+76a47a1 : Small refactor to separate adding workspace / all apps items <Adam Cohen> 4 months ago
+6033ceb : Ensure we don't call getLayoutDirection() for devices not running JB MR1+. (Bug 12906355) <Winson Chung> 4 months ago
+22dc65e : Fix deprecated EMPTY_ARRAY usage (nanoprotos). <Mac Duy Hai> 4 months ago
+4f93ec6 : Do not show overview when menu pressed on CustomContent screen. <Yura> 4 months ago
+1c8cb6f : Missing paddingRight added. <Yura> 4 months ago
+e68504f : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+f47cc89 : Import translations. DO NOT MERGE <Baligh Uddin> 4 months ago
+dadd984 : Fix black flash during rotation of -1 screen with GEL. <Derek Prothro> 5 months ago
+2a4f492 : Fix bug: Scroll position reported incorrectly to live wallpapers <Michael Jurka> 4 months ago
+d805837 : Add callback for "Widgets" button click in launcher <Sandeep Siddhartha> 4 months ago
+f4d0811 : handle shortcut restore for missing packages <Chris Wren> 5 months ago
+4635a40 : Import translations. DO NOT MERGE <Baligh Uddin> 4 months ago
+c2abb6b : Import translations. DO NOT MERGE <Baligh Uddin> 4 months ago
+b1f50d7 : Catch exceptions if Exif is malformed <Michael Jurka> 4 months ago
+0b560dd : Adding tighter first run checks for migration clings. (Bug 12626290) <Winson Chung> 4 months ago
+2b47174 : Defend against missing DB during migration. <Dan Sandler> 4 months ago
+9444915 : Avoid NPE from delayed Runnable <Ian Parkinson> 5 months ago
+930514d : Fix overlapping pages (issue 12551580) <Adam Cohen> 5 months ago
+3abfd16 : Adding specific buckets for N5 in dynamic grid. (Bug 12604220) <Winson Chung> 5 months ago
+e029874 : Dismissing search and other overlays when the menu button is pressed. (Bug 12524591) <Winson Chung> 5 months ago
+849aff7 : Disable Set Wallpaper button while loading image <Michael Jurka> 5 months ago
+efb31e3 : Fix overlapping pages (issue 12551580) <Adam Cohen> 5 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+c1e0826 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+fc51482 : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+8538506 : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+cb5141f : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+8830201 : Android denial of service attack using class 0 SMS messages <Tom Taylor> 6 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Nfc ****
+d755ed4 : Fix compiler warnings (DO NOT MERGE). <Nick Kralevich> 5 months ago
+57198e1 : DO NOT MERGE Fix NPE in RegisteredAidCache <Yuka Anami> 5 months ago
+056f130 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+6b20156 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_PackageInstaller ****
+cbdce69 : Import translations. DO NOT MERGE <Baligh Uddin> 4 months ago
+9ad6bdb : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+327b5b2 : P2P : Fix for P2P group name <Nalla Kartheek> 3 weeks ago
+8aef013 : Settings: Fix error when input WLAN Direct name with long Chinese name <kaiyiz> 8 weeks ago
+5b404ff : Setting: Fix error when turn on wifi hotspot with long Chinese Ssid issue <kaiyiz> 3 months ago
+f7f1ac4 : Settings: add TEME_SETTINGS intent and SHORTCUT category to ThemeSettings intent <Roman Birg> 5 days ago
+8655dd3 : add call settings to wireless/networks -> more <PrimeDirective> 3 weeks ago
+dd9d901 : Prohibit uninstall of the default (or only) home app <Christopher Tate> 6 weeks ago
+da4a6a5 : Import translations. DO NOT MERGE <Baligh Uddin> 2 months ago
+947e899 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+e8de72e : Import translations. DO NOT MERGE <Geoff Mendal> 3 months ago
+edcb923 : Add string parameter order to default SMS dialog text <David Braun> 3 months ago
+7c35c10 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+f1b94b2 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+00f221d : DO NOT MERGE Add preference for caption text opacity <Alan Viverette> 3 months ago
+af28fac : DO NOT MERGE Remove extra fragment in captioning preferences <Alan Viverette> 3 months ago
+549a39b : DO NOT MERGE HTML injection fix for bluetooth pairing, issue 65946 <Rob Fletcher> 3 months ago
+1a188f4 : DO NOT MERGE Change bluetooth off display message. <Wei Wang> 3 months ago
+d83484d : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+c7843db : Remove unused DebugIntentSender <Amith Yamasani> 4 months ago
+6b8a711 : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+0ae418b : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+0f95275 : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+7ba7272 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+1177cde : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+879cc42 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+233d666 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+0637c1f : Revert "Fix for formatting of Korean/Japanese text which is displayed upon default SMS app change Bug: 11923434 Change-Id: I34a353137338b0f8d55e2309f037c34922141181" <Lance Jin-woong Chang> 6 months ago
+3c29831 : Import translations. DO NOT MERGE <Geoff Mendal> 6 months ago
+5796dad : Fix for formatting of Korean/Japanese text which is displayed upon default SMS app change Bug: 11923434 Change-Id: I34a353137338b0f8d55e2309f037c34922141181 <Lance Chang> 6 months ago
+f8e1829 : Import translations. DO NOT MERGE <Geoff Mendal> 6 months ago
+b8fe3aa : Import translations. DO NOT MERGE <Geoff Mendal> 6 months ago
+d82e8f2 : Import translations. DO NOT MERGE <Geoff Mendal> 6 months ago
+a88bdd3 : Put fragment in specific activity's whitelist <Amith Yamasani> 6 months ago
+c3bd608 : Import translations. DO NOT MERGE <Geoff Mendal> 7 months ago
+f06ce4e : Import translations. DO NOT MERGE <Baligh Uddin> 7 months ago
+130118d : Add help url for remote display. <Jeff Brown> 7 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_soundrecorder ****
+4af823c : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+67991aa : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Stk ****
+a60177b : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Tag ****
+bc405e7 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+1f4bce9 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_ThemeChooser ****
+e3faf49 : Allow filtering components when viewing a specific theme. <Clark Scheff> 2 days ago
+8963aaa : ThemeChooser : Scale iconSize in previews <Danesh M> 5 days ago
+e71277d : Make IconPackHelper a member of IconPreviewHelper <Clark Scheff> 6 days ago
+9c06afa : Show "No preview available" when no preview is loaded. <Clark Scheff> 7 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_UnifiedEmail ****
+b0c0eb5 : Use darker cancel button for all dpis. <Andrew Sapperstein> 8 months ago
+40e90c9 : Update conv list pressed state assets <Mindy Pereira> 8 months ago
+2f5f097 : Few more de-blued assets <Mindy Pereira> 8 months ago
+a65b46f : De-blue email pressed states <Mindy Pereira> 8 months ago
+66fd42b : Update proguard flags to fix test case <Martin Hibdon> 5 months ago
+b6ed270 : comment out broken unit tests in UnifiedEmail <Anthony Lee> 4 months ago
+cacbc1a : Fix test error in MessageHeaderViewTest <Tony Mantler> 5 months ago
+653c810 : Expose methods in Throttle for units <Jerry Xie> 6 months ago
+a767bb9 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+1bf20e0 : Disable disable some PII logging <Paul Westbrook> 3 months ago
+e764cfd : small refactor <Andy Huang> 3 months ago
+371a71c : Make drawer available in Search and ConversationView <Martin Hibdon> 4 months ago
+f420943 : Better fix for displaying add/remove star in actionBar <Martin Hibdon> 3 months ago
+27c5e6f : Move the add/remove star item out of the overflow <Martin Hibdon> 3 months ago
+a1b5b1b : Make changeAccount protected and add strings. <Andrew Sapperstein> 3 months ago
+d74c7b4 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+7e65b85 : Convert tests to use android-support-test. <Brett Chabot> 3 months ago
+6a7ac78 : Fix compose message cursor placement <Tony Mantler> 4 months ago
+97fb85c : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+cd37700 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+f14743d : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+6fb4bda : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+7348cf2 : Fix yet another unicodeWrap NPE. b/13108784. <Andrew Sapperstein> 3 months ago
+1e947b0 : Add test size annotation to test classes so they get run in continuous <Jerry Xie> 4 months ago
+986776b : fix missing message text processing upon send (and as drafts mutate) <Andy Huang> 4 months ago
+581edd4 : Warnings and finals <Tony Mantler> 4 months ago
+2354fd9 : Make sure that no null values are placed into the notification map. <Anthony Lee> 4 months ago
+c052585 : Import translations. DO NOT MERGE <Baligh Uddin> 4 months ago
+2d27e88 : Adjust padding in spam warning text view. <Venkat> 4 months ago
+00a2afc : Adjusting spam warning banner as per the mock. <Venkat> 4 months ago
+8a6969e : Add missing sw600dp-xxhdpi assets. b/12996185. <Andrew Sapperstein> 4 months ago
+a44b0ed : Fancier empty states. Fixes b/9730911. <Andrew Sapperstein> 4 months ago
+b6910bd : Fix scrolling in conversation list. b/12996192. <Andrew Sapperstein> 4 months ago
+8f655ca : fix message bodies w/ CSS float breaking out of message bounds <Andy Huang> 4 months ago
+42b7c3b : Import translations. DO NOT MERGE <Baligh Uddin> 4 months ago
+3884aab : Enable swipe-refresh on empty labels. b/12095723. <Mindy Pereira> 6 months ago
+77f4af1 : Set visibility for "view image" properly. <Andrew Sapperstein> 4 months ago
+5a5c53d : Don't print inline attachments. b/12175599. <Andrew Sapperstein> 4 months ago
+865ae9c : Hide inline attachments in compose. b/12553195. <Andrew Sapperstein> 4 months ago
+0d28906 : Fix pop crash. b/12968001. <Andrew Sapperstein> 4 months ago
+85068e4 : you get a tab! everybody gets a tab! <Andy Huang> 4 months ago
+2160d53 : fix text sizing inaccuracy from 980px switch <Andy Huang> 4 months ago
+7c411aa : Disable swipe refresh when swiping to archive. <Andrew Sapperstein> 4 months ago
+88a377f : Make RTL drawer icon work on all api levels. <Andrew Sapperstein> 4 months ago
+b8efbaf : Update rtl send icon. Fixes b/12922718. <Andrew Sapperstein> 4 months ago
+643b6b4 : Support overriding AccountsAdapter. <Andrew Sapperstein> 4 months ago
+c933cbd : comment out broken unit tests in UnifiedEmail <Anthony Lee> 4 months ago
+4dc7323 : Render conversations to 980px viewport <Andy Huang> 4 months ago
+68d9594 : Update Spam Warning View. <Venkat> 4 months ago
+3b59b33 : Mail in Sent, Drafts and Outbox should show addressees, not sender. <James Lemieux> 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_VoicePlus ****
+4fc673d : Fix received message duplication. <Koushik Dutta> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_input_LatinIME ****
+80dc424 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+6b76a61 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+89a8240 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+ 
+**** https://github.com/VanirAOSP/packages_providers_ContactsProvider ****
+60189cd : Fix EMAIL_FILTER ranking for duplicate emails in different accounts <Yorke Lee> 5 months ago
+7b8bf37 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+092278c : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+ 
+**** https://github.com/VanirAOSP/packages_providers_DownloadProvider ****
+738782f : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+8f3c652 : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+fc6d1ea : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+ 
+**** https://github.com/VanirAOSP/packages_providers_MediaProvider ****
+91c8bcc : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+8eaf225 : MSimPhoneGlobals: update PhoneInterfaceManager.init invocation <nuclearmistake> 3 hours ago
+6d9a0aa : MSimPhoneGlobals: CallGatewayManager is now a singleton <nuclearmistake> 3 hours ago
+faf32a9 : PhoneInterfaceManager needs to override these CallModeler abstract functions now that it implements CallModeler.Listener <nuclearmistake> 3 hours ago
+5bd5b65 : Telephony: respect quiet hours vibration settings when ringing <Roman Birg> 30 hours ago
+7001872 : OutgoingCallBroadcaster: add subscription id to NEW_OUTGOING_CALL <Pawit Pornkitprasan> 8 days ago
+7e09c53 : Import translations. DO NOT MERGE <Baligh Uddin> 2 months ago
+805a72e : Added some APIs to TelephonyManager <Gabriel Peal> 3 months ago
+d6e08fc : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+dafd9fc : Import translations. DO NOT MERGE <Geoff Mendal> 3 months ago
+829b26e : Fix issue #11965706: Calls using IntentChooser are now Broken in 4.3 and 4.4 <Dianne Hackborn> 3 months ago
+20bfdeb : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+37abbab : [USSD] Consolidate USSD messages in a single dialog box <Etan Cohen> 3 months ago
+08a5e78 : Fixed actionbar call settings styles. DO NOT MERGE <Tyler Gunn> 3 months ago
+41588dc : Rewording comments around ACTION_NEW_OUTGOING_CALL <Santos Cordon> 3 months ago
+6e06e30 : Modified PhoneUtils.java to move call to setGatewayInfoForConnection inside a code block that appropriately checks for null, as required. b/12210645 <Tyler Gunn> 5 months ago
+b2bf852 : Don't display gateway number on bluetooth <Jay Shrauner> 6 months ago
+439a24d : Call UI not showing for MO/MT call till pwr cycle <nfjb73> 6 months ago
+1c09481 : NPE in BluetoothPhoneService.java when switch users. <Zhihai Xu> 7 months ago
+25dd948 : Import translations. DO NOT MERGE <Baligh Uddin> 4 months ago
+79fc3b3 : Fix exported property on NotificationBroadcastReceiver. <Santos Cordon> 4 months ago
+7636a56 : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+55710b6 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+bd9a11d : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+c2f96fa : Import translations. DO NOT MERGE <Geoff Mendal> 7 months ago
+ 
+**** https://github.com/VanirAOSP/packages_wallpapers_Basic ****
+bf6b3d8 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+ 
+**** https://github.com/VanirAOSP/packages_wallpapers_LivePicker ****
+1834eb6 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+ 
+**** https://github.com/VanirAOSP/prebuilts_misc ****
+8446ac5 : add unbundled uiautomator as prebuilt <Guang Zhu> 3 months ago
+449a260 : Update ddmlib and tradefed prebuilt for CTS failure <Guang Zhu> 7 months ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+efbf36f : init.rc: prep tcp_default_init_rwnd, set the default to 60 <JP Abgrall> 3 months ago
+6941a83 : don't load property_contexts from /data <Nick Kralevich> 5 months ago
+02916aa : Remove obsolete vdc call. <Nick Kralevich> 5 months ago
+e89e09d : Fix overflow in adb_client <Nick Kralevich> 6 months ago
+479efb5 : init.rc: mount pstore fs, set console-ramoops permissions <Todd Poynor> 7 months ago
+ 
+**** https://github.com/VanirAOSP/system_media ****
+30bf0cc : audio_route: fix crash with unsupported control types <Eric Laurent> 6 months ago
+ 
+**** https://github.com/VanirAOSP/system_netd ****
+2ebaf11 : Allow overlap in UidMarkMap <Chad Brubaker> 3 months ago
+1a16c18 : Update clearifaceforuidrange to take the interface <Chad Brubaker> 3 months ago
+797ec70 : Move VPN routing decisions from iptables to ip <Chad Brubaker> 4 months ago
+2a39012 : Mark uids without rules with PROTECT_MARK <Chad Brubaker> 4 months ago
+9440e7f : SecondaryTableController: force the MSS to match pmtu on TCP SYN <JP Abgrall> 7 months ago
+ 
+**** https://github.com/VanirAOSP/system_vold ****
+0de7c61 : Validate asec names. <Nick Kralevich> 4 months ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_oppo ****
+18af606 : apq8064-common: Remove unused radio blobs <Ethan Chen> 3 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+4abd9fb : add the p31xx tabs back into the vendor <cannondalev2000> 6 days ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+11de7d2 : 4.4.3! <DHOMD> 2 days ago
+3986f78 : KTU84M <DHOMD> 2 days ago
+9ee85a1 : finish up adding support for p31xx tabs <cannondalev2000> 6 days ago
+ 

@@ -1,0 +1,74 @@
+
+**** https://github.com/VanirAOSP/build ****
+1241130 : build: Store no_separate_recovery flag in misc_info <Brint E. Kriebel> 2 days ago
+d045582 : Specify -mcpu=cortex-a15 for krait CPU variants. <Ian Rogers> 10 months ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+25c38c5 : Fix call echo <nuclearmistake> 11 hours ago
+4acb829 : THOU SHALT NOT BE A NOTE 3. <nuclearmistake> 27 hours ago
+b32ce56 : amps to 11 <nuclearmistake> 32 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_tuna ****
+2c1f209 : Refactor device tree <Ziyann> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+073bb2a : Themes: setUserRequired(false) when updating audibles <Clark Scheff> 29 hours ago
+95ed3fc : Themes: Allow clearing the wallpaper and ls wallpaper <Clark Scheff> 2 days ago
+5e558fe : SettingsProvider: add default overlay entry for SEND_ACTION_APP_ERROR <Roman Birg> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+bf20a78 : ARM: dts: msm: Add CX regulator Phandle to MDP node <Xiaoming Zhou> 5 weeks ago
+1d86976 : qup_i2c: Initialize I2C resource before registering. <Sana Venkat Raju> 9 months ago
+01f7bfe : mmc: core: Fix power class config for HS400 <Venkat Gopalakrishnan> 2 weeks ago
+439ae12 : PM / devfreq: Check for GPU busy time before sending the sample <Suman Tatiraju> 5 months ago
+dd0ff99 : Revert "arm/dt: Set capless mode for MICBIAS2" <Steve Kondik> 19 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+9f089cf : Linux 3.4.103 <Greg Kroah-Hartman> 21 hours ago
+0ace429 : arch/sparc/math-emu/math_32.c: drop stray break operator <Andrey Utkin> 10 days ago
+29fa649 : sparc64: ldc_connect() should not return EINVAL when handshake is in progress. <Sowmini Varadhan> 13 days ago
+a46e945 : sunsab: Fix detection of BREAK on sunsab serial console <Christopher Alexander Tobias Schulze> 11 days ago
+7554c49 : bbc-i2c: Fix BBC I2C envctrl on SunBlade 2000 <Christopher Alexander Tobias Schulze> 11 days ago
+d7bcdfe : sparc64: Guard against flushing openfirmware mappings. <David S. Miller> 10 days ago
+afa9b04 : sparc64: Do not insert non-valid PTEs into the TSB hash table. <David S. Miller> 10 days ago
+8e8955a : sparc64: Add membar to Niagara2 memcpy code. <David S. Miller> 3 months ago
+fdd8801 : sparc64: Fix huge TSB mapping on pre-UltraSPARC-III cpus. <David S. Miller> 3 months ago
+0de4921 : sparc64: Don't bark so loudly about 32-bit tasks generating 64-bit fault addresses. <David S. Miller> 3 months ago
+86982cf : sparc64: Fix top-level fault handling bugs. <David S. Miller> 4 months ago
+d2671e6 : sparc64: Handle 32-bit tasks properly in compute_effective_address(). <David S. Miller> 4 months ago
+4fdf73f : sparc64: Make itc_sync_lock raw <Kirill Tkhai> 4 months ago
+0da9685 : sparc64: Fix argument sign extension for compat_sys_futex(). <David S. Miller> 4 months ago
+5c19acc : sctp: fix possible seqlock seadlock in sctp_packet_transmit() <Eric Dumazet> 9 days ago
+8fbbef0 : iovec: make sure the caller actually wants anything in memcpy_fromiovecend <Sasha Levin> 2 weeks ago
+80db167 : net: Correctly set segment mac_len in skb_segment(). <Vlad Yasevich> 2 weeks ago
+e2a2802 : macvlan: Initialize vlan_features to turn on offload support. <Vlad Yasevich> 2 weeks ago
+0fd6471 : net: sctp: inherit auth_capable on INIT collisions <Daniel Borkmann> 3 weeks ago
+1d06a70 : tcp: Fix integer-overflow in TCP vegas <Christoph Paasch> 2 weeks ago
+1f9480d : tcp: Fix integer-overflows in TCP veno <Christoph Paasch> 2 weeks ago
+c28d71c : net: sendmsg: fix NULL pointer dereference <Andrey Ryabinin> 3 weeks ago
+509a15a : ip: make IP identifiers less predictable <Eric Dumazet> 3 weeks ago
+ad52eef : inetpeer: get rid of ip_id_count <Eric Dumazet> 2 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_smdk4412 ****
+8792361 : d710: enable r3p1 mali drivers and autoregen defconfig <Dorian Snyder> 8 weeks ago
+d90b43b : mali: add r3p1 for devices that need it <Dorian Snyder> 9 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+df7f323 : Call recording service implementation, show recordings and allow playback in call history <emancebo> 10 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+d7ff41e : Fix display of 'Dialing (waiting...)' state. <Danny Baumann> 4 days ago
+7a156e0 : Add an option in the InCall UI to perform call recording <emancebo> 10 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+dee018c : Refactor Device/More... to voodoo/Hardware: <PrimeDirective> 3 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ThemeChooser ****
+f6b0cee : Use getThemedResourcesForApplication for icons <d34d> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+0b966bd : Handle CALL_IS_WAITING MO notification. <Danny Baumann> 5 days ago
+ 
+**** http://android.git.linaro.org/git-ro/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro ****
+be23180 : Add fix for bug #176 <Bernhard Rosenkraenzer> 13 hours ago
+ 

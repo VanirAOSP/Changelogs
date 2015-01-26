@@ -1,0 +1,124 @@
+
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+d623fa2 : msm8974: Melt faces off <Steve Kondik> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+af11c4c : KLTE: CameraWrapper: "Come on, sugar... [klte] ain't no sailor" <nuclearmistake> 21 hours ago
+21b5e35 : Use prebuild nfc HAL instead <elelinux> 5 days ago
+f99eb81 : update audio <elelinux> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+56d3cac : Move idmap to frameworks/base [2/2] <Clark Scheff> 4 days ago
+a811657 : AN/LSN: De Morgan's Law. Learn it. <nuclearmistake> 21 hours ago
+fe7b18f : AN: Crap polishing <nuclearmistake> 21 hours ago
+8efce86 : Fix lock screen notifications proximity sensors Fixes pocket mode and wake on notification options <liquid0624> 6 days ago
+4a22338 : Fix AN/LSN QuietHours logic and variable scope <nuclearmistake> 22 hours ago
+80eec37 : AN/LSN: if (whoWritesCodeLikeThis?("if (A) { //nothing } else { something(); }") != Authors.ME) fixit(); <nuclearmistake> 22 hours ago
+e12e16a : ACCESS_THEME_SERVICE is dead. Long live ACCESS_THEME_MANAGER. (also from the mess that is AD/LSN) <nuclearmistake> 22 hours ago
+a9a9ff3 : Kill a redundant android.permission.REVOKE_PERMISSIONS from the ActiveDisplay clusterf#@& <nuclearmistake> 22 hours ago
+dbd142b : Revert "readd a permission that got stomped" <nuclearmistake> 22 hours ago
+ad6bd6c : Kill duplicate SYSTEM_NOTIFICATION_LISTENER in core/res/AndroidManifest.xml <nuclearmistake> 22 hours ago
+6280bf1 : Automatic translation import <Michael Bestas> 29 hours ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_hardware ****
+96a8df4 : cmhw: Add stubs for SRE support <Brinly Taylor> 2 days ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+46fb8fb :  sched: Set MC (multi-core) sched domain's busy_factor attribute to 1 <demetris> 6 hours ago
+87d5380 : net: wireless: bcmdhd: Enable p2p support bits for p2p device <demetris> 7 hours ago
+85cd984 : net/l2tp: don't fall back on UDP [get|set]sockopt <Sasha Levin> 6 weeks ago
+56de1f1 : ipv6: tcp: fix TCLASS value in ACK messages sent from TIME_WAIT <Eric Dumazet> 2 years, 10 months ago
+be28745 : ipv6: use RCU in inet6_csk_xmit() <Eric Dumazet> 3 years, 1 month ago
+78705d6 : ipv4: tcp: fix TOS value in ACK messages sent from TIME_WAIT <Eric Dumazet> 2 years, 10 months ago
+99437de : net: rfkill: convert net/rfkill/* to use module_platform_driver() <Axel Lin> 2 years, 9 months ago
+a498bd5 : net/rfkill/core.c: use kstrtoul, etc <Julia Lawall> 2 years, 10 months ago
+05b1126 : net: add moduleparam.h for users of module_param/MODULE_PARM_DESC <Paul Gortmaker> 2 years, 11 months ago
+1fee4fb : net:rfkill: add a gpio setup function into GPIO rfkill <Sangwook Lee> 2 years, 11 months ago
+278a79c : rfkill: properly assign a boolean type <Mohammed Shafi Shajakhan> 2 years, 11 months ago
+3f40e28 : rfkill: Remove unnecessary OOM logging messages <Joe Perches> 3 years ago
+0335532 : net: Deinline __nlmsg_put and genlmsg_put. -7k code on i386 defconfig. <Denys Vlasenko> 2 years, 7 months ago
+b71b8ee : security: remove the security_netlink_recv hook as it is equivalent to capable() <Eric Paris> 2 years, 8 months ago
+706f02e : genetlink: add auto module loading <Stephen Hemminger> 2 years, 8 months ago
+bb6ddda : netlink: Undo const marker in netlink_is_kernel(). <David S. Miller> 2 years, 8 months ago
+9986f65 : netlink: wake up netlink listeners sooner (v2) <stephen hemminger> 2 years, 8 months ago
+58c94ec : netlink: af_netlink cleanup (v2) <stephen hemminger> 2 years, 8 months ago
+d2326b3 : genetlink: Add lockdep_genl_is_held(). <Pravin B Shelar> 2 years, 9 months ago
+d54218f : genetlink: Add genl_notify() <Pravin B Shelar> 2 years, 9 months ago
+c86bdc5 : af_unix: dont send SCM_CREDENTIALS by default <Eric Dumazet> 2 years, 11 months ago
+f8a1ef0 : net: cleanup some rcu_dereference_raw <Eric Dumazet> 3 years ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_motorola_msm8226
+https://github.com/cannondalev2000/kernel_motorola_msm8226 ****
+c351701 : Revert "Backport vnswap/frontswap/zswap to Moto G" <Ethan> 11 hours ago
+6b95474 : Revert "mm/page_io.c: remove printk warning when used with zswap" <Ethan> 12 hours ago
+4cb0878 : Revert "mm/Kconfig: add ZSWAP writeback options" <Ethan> 12 hours ago
+92cb6bb : Revert "mm: vmscan: If kswapd has been running too long, allow it to sleep" <Ethan> 12 hours ago
+29d9e7f : Revert "intelli_plug: code review clean up" <Ethan> 12 hours ago
+fa9c0bc : Revert "Revert "intelli_plug: code review clean up"" <Ethan> 12 hours ago
+ee0a8e7 : Revert "Revert "mm: vmscan: If kswapd has been running too long, allow it to sleep"" <Ethan> 12 hours ago
+90ce8a8 : Revert "ksm: check and skip page, if it is already scanned" <Ethan> 12 hours ago
+634abea : Revert "lowmemorykiller: also count zram swapfile usage" <Ethan> 12 hours ago
+6f553b4 : Revert "mm: vmscan: If kswapd has been running too long, allow it to sleep" <Ethan> 12 hours ago
+9d43f66 : Revert "mm, oom: normalize oom scores to oom_score_adj scale only for userspace" <Ethan> 12 hours ago
+388193d : Revert "mm, oom: fix badness score underflow" <Ethan> 12 hours ago
+e61872e : Revert "mm, oom: fix and cleanup oom score calculations" <Ethan> 12 hours ago
+7535341 : Revert "mm, oom: do not schedule if current has been killed" <Ethan> 12 hours ago
+1e40a80 : Revert "mm, oom: fix potential killing of thread that is disabled from oom killing" <Ethan> 12 hours ago
+9db069d : Revert "mm, oom: move declaration for mem_cgroup_out_of_memory to oom.h" <Ethan> 12 hours ago
+e738a2a : Revert "mm, oom: introduce helper function to process threads during scan" <Ethan> 12 hours ago
+62777c1 : Revert "mm, memcg: introduce own oom handler to iterate only over its own threads" <Ethan> 12 hours ago
+5f3f05f : Revert "mm, oom: reduce dependency on tasklist_lock" <Ethan> 12 hours ago
+742807b : Revert "mm, memcg: move all oom handling to memcontrol.c" <Ethan> 12 hours ago
+0bac32a : Revert "lowmemorykiller: reduce swap significance by 1/2" <Ethan> 12 hours ago
+653b85f : Revert "sched/fair: Optimize find_busiest_queue()" <Ethan> 12 hours ago
+e223a26 : Revert "sched/fair: Optimize cgroup pick_next_task_fair()" <Ethan> 12 hours ago
+5e85b18 : Revert "Revert "lowmemorykiller: reduce swap significance by 1/2"" <Ethan> 12 hours ago
+13d55b3 : Revert "mm, oom: allow exiting threads to have access to memory reserves" <Ethan> 12 hours ago
+6f89845 : Revert "oom: use N_MEMORY instead N_HIGH_MEMORY" <Ethan> 12 hours ago
+2d69bc1 : Revert "mm, oom: cleanup pagefault oom handler" <Ethan> 12 hours ago
+5a157de : Revert "mm/oom_kill: remove weird use of ERR_PTR()/PTR_ERR()." <Ethan> 12 hours ago
+6586451 : Revert "oom_kill: change oom_kill.c to use for_each_thread()" <Ethan> 12 hours ago
+3424919 : Revert "oom_kill: has_intersects_mems_allowed() needs rcu_read_lock()" <Ethan> 12 hours ago
+0da2181 : Revert "oom_kill: add rcu_read_lock() into find_lock_task_mm()" <Ethan> 12 hours ago
+84b49ba : Revert "mm, oom: prefer thread group leaders for display purposes" <Ethan> 12 hours ago
+822fc42 : Revert "mm, oom: base root bonus on current usage" <Ethan> 12 hours ago
+8a289a0 : Revert "introduce for_each_thread() to replace the buggy while_each_thread()" <Ethan> 12 hours ago
+852232c : Revert "lowmemorykiller.c: convert to use for_each_thread" <Ethan> 12 hours ago
+727def0 : Revert "defconfig update" <Ethan> 12 hours ago
+e2c0c32 : Revert "defconfig update" <Ethan> 12 hours ago
+c84c7a1 : defconfig update <Ethan> 12 hours ago
+2694ca1 : defconfig update <Ethan> 12 hours ago
+4712ace : lowmemorykiller.c: convert to use for_each_thread <Paul Reioux> 5 months ago
+cd2d79c : introduce for_each_thread() to replace the buggy while_each_thread() <Oleg Nesterov> 7 months ago
+d36db0e : mm, oom: base root bonus on current usage <David Rientjes> 7 months ago
+916e084 : mm, oom: prefer thread group leaders for display purposes <David Rientjes> 7 months ago
+5f81f73 : oom_kill: add rcu_read_lock() into find_lock_task_mm() <Oleg Nesterov> 7 months ago
+63473da : oom_kill: has_intersects_mems_allowed() needs rcu_read_lock() <Oleg Nesterov> 7 months ago
+00ad94a : oom_kill: change oom_kill.c to use for_each_thread() <Oleg Nesterov> 7 months ago
+fb306be : mm/oom_kill: remove weird use of ERR_PTR()/PTR_ERR(). <Rusty Russell> 1 year, 1 month ago
+b613c82 : mm, oom: cleanup pagefault oom handler <David Rientjes> 1 year, 8 months ago
+f2db1e1 : oom: use N_MEMORY instead N_HIGH_MEMORY <Lai Jiangshan> 1 year, 8 months ago
+64eefec : mm, oom: allow exiting threads to have access to memory reserves <David Rientjes> 1 year, 8 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_omap4-common ****
+7d59139 : net/l2tp: don't fall back on UDP [get|set]sockopt <Sasha Levin> 6 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+8730b44 : video: mdss: Sunlight readability enhancement support <Steve Kondik> 3 days ago
+d150991 : sched: fix race between try_to_wake_up() and move_task() <Steve Muckle> 6 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_apq8064 ****
+45e7392 : net/l2tp: don't fall back on UDP [get|set]sockopt <Sasha Levin> 6 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8x60 ****
+29391c6 : net/l2tp: don't fall back on UDP [get|set]sockopt <Sasha Levin> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+4f0939d : Revert "blacklist call recording for US/EU mccs, remove sysprop flag for enabling" <DHOMD> 8 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+bd75320 : Vendor blobs update <elelinux> 3 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+06417f7 : nicki: revert 'update audcal' <RonGokhale> 26 hours ago
+ 

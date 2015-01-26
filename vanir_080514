@@ -1,0 +1,128 @@
+
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+d696abd : Dotcase: getSmallNumSprite isn't just numbers anymore <William C. Garrison III> 3 days ago
+df1ec99 : Dotcase: update snooze and cancel sprites to match small text sprites <William C. Garrison III> 3 days ago
+d27018f : Dotcase: minor cleanup <William C. Garrison III> 3 days ago
+350cc74 : Dotcase: add scrolling caller name to ringing screen <William C. Garrison III> 5 days ago
+74fa5bd : cmdline: enable zcache <invisiblek> 3 days ago
+dc9d1e4 : init: interactive changes <Christopher R. Palmer> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_p880 ****
+ee39464 : Device tree cleanup <demetris> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/device_oneplus_bacon ****
+fbb9574 : Revert "CameraNext: Remove denoise from the back camera" <Wilhelm Fitzpatrick> 26 hours ago
+446d552 : nfc: Build the NFC HAL <Ricardo Cerqueira> 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_find7 ****
+b98e10c : find7: Remove noemulatedsd from external sdcard <Tom Marshall> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+cb7ccfe : Kill audio_effects.conf <nuclearmistake> 9 hours ago
+c6ddd32 : apaservice <nuclearmistake> 10 hours ago
+eb2af55 : Add libxml2 for camera and some (probably redundant) hals <nuclearmistake> 10 hours ago
+d4d34a2 : Restore audio_effects.conf <nuclearmistake> 10 hours ago
+a81e914 : Fix unified init <nuclearmistake> 10 hours ago
+c1d4a2a : re-fix naming again <nuclearmistake> 10 hours ago
+6bc5399 : Moved some stuff by mistake in earlier clean up, move it back <elelinux> 2 days ago
+ffd292f : major clean up in the test branch <elelinux> 3 days ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_mogami-common ****
+fbe3dae : mogami: Enable CWM swipe feature <Michael Bestas> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/device_semc_msm7x30-common ****
+1695ca0 : Revert "msm7x30: Enable CWM swipe feature" <Michael Bestas> 18 hours ago
+e749423 : msm7x30: Remove obsolete props <Michael Bestas> 31 hours ago
+1a02256 : camera: Remove extra semicolon <Michael Bestas> 2 days ago
+32576bb : msm7x30: Remove libmm-omxcore from packages. <Rudolf Tammekivi> 6 days ago
+ 
+**** https://github.com/VanirAOSP/device_sony_nicki ****
+da618b7 : nicki: Fix qcom typo in snd_soc_msm_Sitar <RonGokhale> 2 days ago
+ 
+**** https://github.com/VanirAOSP/external_busybox ****
+3ae2578 : android: clearenv should not set environ to NULL <Tanguy Pruvot> 12 hours ago
+b0919fd : Android: update busybox def PATH and cron folder <Tanguy Pruvot> 17 hours ago
+76616e3 : selinux: implement missing selinux functions <Tanguy Pruvot> 14 hours ago
+57da4a8 : Android.mk: prevent warnings on make prepare <Tanguy Pruvot> 14 hours ago
+37d7f5f : mktemp: include libc mktemp, safe in busybox <Tanguy Pruvot> 17 hours ago
+e553d65 : android: on prepare, clean all intermediates <Tanguy Pruvot> 19 hours ago
+ 
+**** https://github.com/CyanogenMod/android_external_tinyalsa ****
+e23d708 : Revert "Revert "pcm: add support for pcm_ioctl() api"" <Steve Kondik> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+dad4749 : rtsp: keep some damaged access unit to enhance fault tolerance <lubiny> 5 weeks ago
+4805f08 : libstagefright: poke the udp hole twice for future incoming udp packets <Li Sun> 6 weeks ago
+331e8cc : frameworks/av: miscellaneous fixes <Haynes Mathew George> 7 weeks ago
+d75fb23 : libstagefright: fix issues in AH263Assembler <Li Sun> 3 weeks ago
+6061cc0 : StagefrightRecorder: correct the flow of resuming or stopping from pause <Kim Zhang> 3 weeks ago
+c55bf95 : video: Fix crash during video recording <Surajit Podder> 3 weeks ago
+4142e51 : Camera: Add Samsung klte camera parameters <Tom Marshall> 3 months ago
+eb48405 : appop: reimplement OP_RECORD_AUDIO op check in mediaserver <Jorge Ruesga> 10 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+7c86a4a : LockscreenTile : Don't rely on DEVICE_POLICY broadcast <Danesh Mondegarian> 10 days ago
+3ca63e4 : Fix a bug that the RecentTask list of other’s may show up to non-primary users. <Eunae Kim> 12 days ago
+1068639 : [ActivityManager] Prevent coredump file may not complete for testing. <riddle_hsu> 6 days ago
+4526b89 : [ActivityManager] Avoid mistaking visibility by finishing task. <riddle_hsu> 6 days ago
+d4c3c1d : [ActivityManager]: Update home process when home activity resumed <louis_chang> 3 months ago
+ffe65c4 : [ActivityManager] Do not finish root activity when reset task <louis_chang> 3 weeks ago
+1ebc8d8 : [ActivityManager] Move top task to top in window manager <louis_chang> 3 weeks ago
+a2da033 : [ActivityManager] Prevent potential deadlock from system error dialog and InputMethodManager. <riddle_hsu> 4 weeks ago
+635ab38 : [ActivityManager] Avoid keeping restarting home when only home activity exists. <riddle_hsu> 5 weeks ago
+8a08c1f : [ActivityManager] Prevent kill a restarted process again. <riddle_hsu> 5 weeks ago
+a10964e : [ActivityManager] Ensure alive process is not killedByAm. <riddle_hsu> 5 weeks ago
+f76a4ab : [View] Clear Hardware-Layers before system destroys HardwareRenderer​. <henry.uh_chen> 3 weeks ago
+e2f32ef : Revert " Audio: SetForceUse config check in AudioService" <Satya Krishna Pindiproli> 6 weeks ago
+a8850e5 : Broadcast upstream interface change event independently for IPv4 & IPv6 <Sagar Regmi> 6 weeks ago
+0362ce1 : NetworkManagementService: Change exception type thrown on IPv6 <Harout Hedeshian> 3 months ago
+55f9d3e : Wifi: Fix 2 ip addresses issue <Paul Zhang> 6 weeks ago
+36c7a8d : Ensure to add Persistent Apps to LruProcess List on app restart <padarshr> 7 weeks ago
+330fd13 : Proximity : Check proximity flags only if from native <Danesh M> 22 hours ago
+36b8021 : Add navbar background preview to ThemesContract <Clark Scheff> 6 days ago
+810052a : Include default wallpaper in LockscreenWallpaperPickerActivity <Clark Scheff> 8 days ago
+465d986 : Move 3rd party wallpaper pickers to the front <Clark Scheff> 8 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display-caf-new ****
+1e72c79 : hwc: 8084: Split videos with width > 2048 if source split absent <Saurabh Shah> 9 weeks ago
+3736c73 : hwc: In PTOR, offset depends on stride calculated by gralloc <Sushil Chauhan> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+3767ed1 : bcmdhd:Enable wl_cfg80211_mgmt_tx_cancel_wait. Needed for Wi-Fi Direct to function properly. <demetris> 6 hours ago
+cf5dc6e : Revert "cpufreq: Break out early if freq equals to target_freq" <demetris> 13 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+0e156bd : WIP legacy manifest <DHOMD> 7 minutes ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+91901f0 : Bluetooth: Prevent race condition when authorizing <Scott Mertz> 12 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_BluetoothExt ****
+2f2514e : BluetoothExt: Fix incorrect uses-feature declaration <Scott Mertz> 8 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+1759c04 : Dialer: Fix T9 for Hebrew <cretin45> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+d93fdb3 : Fix call buttons being incorrectly hidden. <Danny Baumann> 4 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+2b4c086 : Hey look! some more poo flung during the HALO port. <nuclearmistake> 11 hours ago
+8cb6e1b : Disable settings search on all subactivities. <Danny Baumann> 6 days ago
+243a277 : Add summary to notification filtering <Eddy Witkamp> 6 days ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+e8fd343 : Add missing array include <nuclearmistake> 10 hours ago
+b4a8d2f : Don't overzealously disable all preferences in airplane mode. <Danny Baumann> 5 days ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_oppo ****
+3fdec52 : msm8974: Update blobs <Steve Kondik> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+f6d7c49 : Add more missing blobs inc. Audio F/W <elelinux> 5 weeks ago
+b4d62b4 : some more test <elelinux> 3 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+0907015 : WIP :Legacy Manifest <DHOMD> 8 minutes ago
+273791f : Legacy staging, Part 1, 20 devices <DHOMD> 60 minutes ago
+ 

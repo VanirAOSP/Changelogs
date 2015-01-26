@@ -1,0 +1,128 @@
+
+**** https://github.com/VanirAOSP/build ****
+97aebaf : build: qcom: Set QCOM_*_PATH variables for hardware/qcom-* projects <Tom Marshall> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_p880 ****
+82ab882 : X3Ril: Fix lge recovery with new ts0710_mux driver. Credit: alfsamsung <demetris> 82 minutes ago
+fe8a82d : Enable /data encryption on FOTA partition(FOT -> /dev/block/mmcblk0p11) <demetris> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8974-common ****
+aac6c49 : IR: Increase Buffer size <Tony Layher> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_sony_nicki ****
+eeccecc : init: Add setup_fs service for userdata <Chirayu Desai> 12 days ago
+ 
+**** https://github.com/VanirAOSP/device_sony_yuga ****
+260d22b : yuga: update fingerprint from 10.5.1.A.0.283 <sssemil> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+0877bba : av: media: Add audio/qti-flac MIME type definition <Tom Marshall> 4 days ago
+f43fbd5 : av: camera: Generic QCOM camera symbols <Tom Marshall> 4 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+49cc07d : MSim: Add Multi Sim support for SEEK <ur name> 4 months ago
+791365c : Support for SEEK on Android <Satish Kumar Singh> 5 months ago
+4c11f57 : 6 bar signal: simplify <PrimeDirective> 10 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+a3a755f : Support for SEEK on Android. <Satish Kumar Singh> 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8226 ****
+3754a69 : msm: kgsl: Keep track of kernel space mappings to memory <Shubhraprakash Das> 1 year ago
+ba415e5 : msm: kgsl: Fix memory entry leak when calling adreno_convertaddr <Shubhraprakash Das> 1 year, 2 months ago
+913c541 : ARM: dts: Restrict SMP buffer to 2 <Ethan Chen> 9 hours ago
+69adad9 : msm: mdss: fix rotator failures when pixel format changes <Ingrid Gallardo> 6 weeks ago
+58654eb : msm: mdss: modify userspace src format during MSMFB_SET on rotator <Sree Sesha Aravind Vadrevu> 3 months ago
+7837123 : msm: mdss: fix sync fence deadlock when rotator is used <Ujwal Patel> 5 months ago
+9ef9a63 : msm: mdss: add support for rotator in mdss_mdp_mixer_get <Ujwal Patel> 6 months ago
+32a01e7 : msm: mdss: Clear the previous state of pipe during SOLID_FILL <Sushil Chauhan> 5 months ago
+9554780 : msm: display: Add pipe type selection in overlay request <Vineet Bajaj> 3 months ago
+1e4bffa : msm: display: only release kickoff when no cleanup pipe <Ken Zhang> 4 months ago
+9fec67f : msm: mdss: refactor pipe retrieval and ref count logic <Adrian Salido-Moreno> 6 months ago
+6e65e9f : Revert "msm: mdss: refactor pipe retrieval and ref count logic" <Anusha Koduru> 5 months ago
+c853bf8 : msm: display: reduce display commit prepare waiting time <Ken Zhang> 5 months ago
+0188527 : msm: mdss: Handle case when pipe is not idle during cleanup. <Jayant Shekhar> 6 months ago
+42e6ee3 : msm: mdss: ensure pipe is halted before freeing buffers <Adrian Salido-Moreno> 7 months ago
+7d7628c : msm: mdss: add dynamic clk status check to pipe idle verification <Ujwal Patel> 8 months ago
+cd9b13c : msm: mdss: add property to set from device tree the overlap BW fudge factor <Ingrid Gallardo> 6 months ago
+313d907 : msm: mdss: fix race condition between shutdown thread and fb ioctl <Ujwal Patel> 6 months ago
+eb30462 : msm: mdss: refactor pipe retrieval and ref count logic <Adrian Salido-Moreno> 6 months ago
+14f896b : msm: mdss: prevent dereferencing of user space pointer <Terence Hampson> 6 months ago
+4dae52d : msm: mdss: fix issue of overlapping BW for two adjacent surfaces <Ingrid Gallardo> 8 months ago
+03db5ce : ARM: dts: decrease max BW cap for low kbps to 1.1 Ghz on 8226 <Anusha Koduru> 6 months ago
+35e24d7 : msm: mdss: Perform bandwidth check before applying any fudge <Anusha Koduru> 6 months ago
+63de3c5 : msm: mdss: Fix mdp clock rate assignment when apply fudge is false <Jayant Shekhar> 8 months ago
+9a78f0f : msm: mdss: MDP clock optimization for single layer video playback <Jayant Shekhar> 8 months ago
+8109c24 : msm: mdss: move MDSS revision macros to /linux/msm_mdp.h <Ujwal Patel> 10 months ago
+91db5f4 : msm: mdss: Make notify update waits interruptible <Krishna Chaitanya Parimi> 6 months ago
+823149e : msm: mdss: Notify userspace of idle screen case <Aravind Venkateswaran> 8 months ago
+8680d1d : msm: mdss: Program unpack pattern for pipes with solidfill <Aravind Venkateswaran> 6 months ago
+245147a : mdss: Add newline to VSYNC timestamp <Naseer Ahmed> 6 months ago
+09038bb : mdss: Notify userspace of changes to blank status <Naseer Ahmed> 7 months ago
+3c42d1c : msm: mdss: Prevent race condition between dsi off and bta status check <Jayant Shekhar> 9 months ago
+bc695c2 : msm: mdss: wait for dma done before issuing dsi bta request <Xiaoming Zhou> 7 months ago
+d75c18a : msm: mdss: keep clocks on during kickoff operation <Kuogee Hsieh> 7 months ago
+61c1287 : msm: mdss: Sanitize overlay kickoff inputs <Sree Sesha Aravind Vadrevu> 7 months ago
+7d70aa6 : msm: mdss: refactor command mode vsync control logic <Adrian Salido-Moreno> 7 months ago
+efc66c1 : msm: mdss: Don't call pan_idle for MSMFB_OVERLAY_PREPARE ioctl <Ramakant Singh> 7 months ago
+531737c : msm: mdss: Add SMP per pipe parameter into hw capabilites <Mayank Chopra> 7 months ago
+4659615 : msm: mdss: add bandwidth check function <Adrian Salido-Moreno> 8 months ago
+e6ce965 : msm: mdss: implement overlay prepare ioctl <Adrian Salido-Moreno> 9 months ago
+d6f51ff : msm: mdss: optimize MDP pipes cleanup <Adrian Salido-Moreno> 8 months ago
+a4a8801 : msm: mdss: Add SMP parameters into hw capabilites <Mayank Chopra> 10 months ago
+be3189e : msm: mdss: Reserve single SMP block for writeback mixer pipes <Mayank Chopra> 9 months ago
+660a535 : ARM: dts: msm: Tune SMP block restriction for 8x26 <Mayank Chopra> 10 months ago
+1e360b9 : msm: mdss: On sharing dma pipe increment pipe ref_cnt <Justin Philip> 9 months ago
+1465ce7 : msm: mdss: update latency buffer bytes calculation for prefill bandwidth <Huaibin Yang> 9 months ago
+ffbe604 : msm: mdss: release mdp bandwidth voting for command mode when idle <Huaibin Yang> 9 months ago
+cd0485b : msm: mdss: add tile format condition for prefill bytes calculation <Huaibin Yang> 9 months ago
+757888c : msm: mdss: Fix for bus bandwidth issue <Radhika Ranjan Soni> 9 months ago
+c81a6f0 : msm: mdss: calculate prefill bandwidth using the worst case vbp <Huaibin Yang> 9 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+82a1583 : msm: mdss: fix rotator failures when pixel format changes <Ingrid Gallardo> 6 weeks ago
+bf79a4d : msm: mdss: modify userspace src format during MSMFB_SET on rotator <Sree Sesha Aravind Vadrevu> 3 months ago
+384137c : msm: mdss: fix sync fence deadlock when rotator is used <Ujwal Patel> 5 months ago
+43fef7a : msm: mdss: add support for rotator in mdss_mdp_mixer_get <Ujwal Patel> 6 months ago
+4238774 : msm: mdss: Clear the previous state of pipe during SOLID_FILL <Sushil Chauhan> 5 months ago
+5e4f0c2 : msm: display: only release kickoff when no cleanup pipe <Ken Zhang> 4 months ago
+6c50bc6 : msm: mdss: refactor pipe retrieval and ref count logic <Adrian Salido-Moreno> 6 months ago
+4fb9daf : Revert "msm: mdss: refactor pipe retrieval and ref count logic" <Anusha Koduru> 5 months ago
+48df846 : msm: display: reduce display commit prepare waiting time <Ken Zhang> 5 months ago
+d256b8d : msm: mdss: Handle case when pipe is not idle during cleanup. <Jayant Shekhar> 6 months ago
+02d1c5c : msm: mdss: ensure pipe is halted before freeing buffers <Adrian Salido-Moreno> 7 months ago
+fd89bc5 : msm: mdss: add dynamic clk status check to pipe idle verification <Ujwal Patel> 8 months ago
+00be192 : msm: mdss: fix race condition between shutdown thread and fb ioctl <Ujwal Patel> 6 months ago
+784fed5 : msm: mdss: refactor pipe retrieval and ref count logic <Adrian Salido-Moreno> 6 months ago
+e86bac0 : msm: mdss: prevent dereferencing of user space pointer <Terence Hampson> 6 months ago
+b72b4a2 : msm: mdss: move MDSS revision macros to /linux/msm_mdp.h <Ujwal Patel> 10 months ago
+3069023 : msm: mdss: Make notify update waits interruptible <Krishna Chaitanya Parimi> 6 months ago
+915585d : msm: mdss: Notify userspace of idle screen case <Aravind Venkateswaran> 8 months ago
+aee32e2 : msm: mdss: Program unpack pattern for pipes with solidfill <Aravind Venkateswaran> 6 months ago
+70fa45e : msm: mdss: Prevent race condition between dsi off and bta status check <Jayant Shekhar> 9 months ago
+5f9ecbb : msm: mdss: wait for dma done before issuing dsi bta request <Xiaoming Zhou> 7 months ago
+9108847 : msm: mdss: keep clocks on during kickoff operation <Kuogee Hsieh> 7 months ago
+39879b4 : msm: mdss: Sanitize overlay kickoff inputs <Sree Sesha Aravind Vadrevu> 7 months ago
+608767d : msm: mdss: refactor command mode vsync control logic <Adrian Salido-Moreno> 7 months ago
+227d6d5 : msm: mdss: Don't call pan_idle for MSMFB_OVERLAY_PREPARE ioctl <Ramakant Singh> 7 months ago
+e63b3a4 : msm: mdss: Add SMP per pipe parameter into hw capabilites <Mayank Chopra> 7 months ago
+a32cb48 : msm: mdss: optimize MDP pipes cleanup <Adrian Salido-Moreno> 8 months ago
+066adb6 : msm: mdss: Add SMP parameters into hw capabilites <Mayank Chopra> 10 months ago
+28516d7 : msm: mdss: Reserve single SMP block for writeback mixer pipes <Mayank Chopra> 9 months ago
+3208ee8 : msm: mdss: On sharing dma pipe increment pipe ref_cnt <Justin Philip> 9 months ago
+f2b0bcc : msm: mdss: Clean up merge damage <Ethan Chen> 10 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+bbe3d68 : 6-bar signal: follow our style formatting <PrimeDirective> 10 hours ago
+bb43917 : NavbarSettingsFragment: Move imelayout dialog stuff inline and clean up onCreateView headache <PrimeDirective> 10 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+a00ddff : Msim: Add Multi sim support for SEEK on Android. <ur name> 4 months ago
+5bda9fe : Support for SEEK on Android <Satish Kumar Singh> 6 months ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+d21de8c : init: Allow target-specific platform device base to be specified <David Ng> 9 months ago
+6a75f10 : init: Allow platform devices directly under soc.0 *HACK* <David Ng> 9 months ago
+130499e : IMS-VT: Define IMS group. <Garik Badalyan> 7 months ago
+2f7e178 : ueventd: Add bootdevice symlink <David Ng> 12 months ago
+ 

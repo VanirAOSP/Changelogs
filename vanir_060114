@@ -1,0 +1,106 @@
+
+**** https://github.com/VanirAOSP/device_htc_msm8960-common ****
+ef07d82 : change to cortex a15 instead of default a9 <cannondalev2000> 15 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2lte ****
+3d783c8 : Increase read-ahead to 512 KB and read ahead on mmcblk1 too <Dan Pasanen> 3 weeks ago
+448eaa1 : d2lte: add permissions for keydisabler <Dave Daynard> 9 weeks ago
+1699f48 : d2lte: enable KSM <Dave Daynard> 21 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_hlte ****
+eeed1c1 : HLTE: fixup permissions for inputs. <slayher> 3 hours ago
+8b6d3ca : HLTE: Move to common msm8974 repo. <slayher> 5 hours ago
+ 
+**** https://github.com/nolinuxnoparty/android_device_sony_nicki ****
+e2436e4 : move BoardConfig to BoardConfigCommon so that we can support nicki_ds <Arnav Gosain> 3 days ago
+3c510a1 : some mroe changes <Arnav Gosain> 6 days ago
+8f30769 : :3 <Arnav Gosain> 6 days ago
+afc0425 : nicki: keep Adjusting volume <RonGokhale> 7 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_qcom-common ****
+e24cd39 : qcom-common: add makefile to exclude adreno blobs <Adam Farden> 11 hours ago
+7f98e78 : Revert "qcom-common: Update Adreno for Android 4.4 binary files" <Jerpelea> 13 hours ago
+5519feb : qcom-common: Update Adreno for Android 4.4 binary files <Adam Farden> 10 weeks ago
+9c44a78 : Allow Sony devices to use own Adreno blobs <Adam Farden> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+af24489 : stagefright: yield callbackDispatcher to writer only for video <Praveen Chavan> 6 weeks ago
+b374543 : libstagefright: Fix to handle EAGAIN error on first read to source <Preetam Singh Ranawat> 3 weeks ago
+68a4010 : audio: mute duration at the beginning of recording <Divya Narayanan Poojary> 9 weeks ago
+bae2e7d : camera: Disable extra HDR frame on QCOM_HARDWARE <Ricardo Cerqueira> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+c85a8d4 : NBV: factor out private getter for feature-specific disabled navbar flags <PrimeDirective> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+cc48444 : drivers: staging: prima: yadda yadda from caf <Dave Daynard> 23 hours ago
+88ea3b1 : fix minor mismerge <Dave Daynard> 23 hours ago
+8d44a39 : d2: cypress-touchkey - add keydisabler <sbrissen> 9 weeks ago
+08873c5 : Update d2 defconfig and turn on F2FS <Evan McClain> 3 months ago
+d0fa93c : f2fs: Update to version in 3.14 <Changman Lee> 7 months ago
+f454e9b : F2FS: Backport to 3.4 <Evan McClain> 2 months ago
+031d1dd : f2fs: Pull in from upstream 3.13 kernel <Linus Torvalds> 1 year, 5 months ago
+d93c41d : lockdep, rwsem: fix down_write_nest_lock() if !CONFIG_DEBUG_LOCK_ALLOC <Jiri Kosina> 1 year, 5 months ago
+310562f : lockdep, rwsem: provide down_write_nest_lock() <Jiri Kosina> 1 year, 5 months ago
+5e8ab94 : cpuidle: make a single register function for all <Daniel Lezcano> 1 year, 1 month ago
+af62bf5 : net: support marking accepting TCP sockets <Lorenzo Colitti> 10 weeks ago
+7bcaf98 : net: add a sysctl to reflect the fwmark on replies <Lorenzo Colitti> 3 months ago
+46012f5 : net: ipv6: autoconf routes into per-device tables <Lorenzo Colitti> 10 weeks ago
+5dde956 : net: ipv6: ping: Use socket mark in routing lookup <Lorenzo Colitti> 3 months ago
+22944b1 : arm: arch_timer: set memory mapped timer interrupt as IRQF_TIMER <Mahesh Sivasubramanian> 3 months ago
+9bb3381 : ARM: Set CLK_EVT_FEAT_DYNIRQ flag memory mapped timers <Karthik Parsha> 6 months ago
+75057df : clocksource: arm_arch_timer: Use clocksource for suspend timekeeping <Stephen Boyd> 8 months ago
+e20854d : tick: Dynamically set broadcast irq affinity <Daniel Lezcano> 1 year, 3 months ago
+02ea82b : timekeeping: utilize the suspend-nonstop clocksource to count suspended time <Feng Tang> 1 year, 3 months ago
+13f57f6 : clocksource: Add new feature flag CLOCK_SOURCE_SUSPEND_NONSTOP <Feng Tang> 1 year, 3 months ago
+e242ed4 : arm: tracing: disable tracing for the timer clock functions <Pushkar Joshi> 10 months ago
+adc7ef3 : arm: arch_timer: Allow mmio and cp15 timers to coexist <Stephen Boyd> 1 year, 2 months ago
+9a0e10e : ARM: architected timers: remove percpu_timer_setup <Abhimanyu Kapur> 1 year, 2 months ago
+c6f35aa : ARM: architected timers: add support for UP timer <Marc Zyngier> 2 years, 4 months ago
+d91ebde : msm: cpufreq: Move cpu_frequency_* trace points from acpuclock to cpufreq <Matt Wagantall> 9 months ago
+a24b752 : msm: acpuclock: Add a null check for acpuclk_data <Vikram Mulukutla> 1 year, 3 months ago
+5b6e83a : sched: convert WARN_ON() to printk_sched() in try_to_wake_up_local() <Syed Rameez Mustafa> 4 months ago
+ce35382 : sched/debug: Make sysrq prints of sched debug data optional <Matt Wagantall> 6 months ago
+51c8bdd : sched: Fix clear NOHZ_BALANCE_KICK <Vincent Guittot> 12 months ago
+0f7df4f : tracing/sched: add load balancer tracepoint <Steve Muckle> 6 months ago
+f87e6e8 : tracing/sched: Add trace events to track cpu hotplug. <Arun Bharadwaj> 11 months ago
+25c7b87 : Linux 3.4.91 <Greg Kroah-Hartman> 2 weeks ago
+3ddd37a : tgafb: fix mode setting with fbset <Mikulas Patocka> 4 months ago
+7dff32e : powerpc: Add vr save/restore functions <Andreas Schwab> 5 months ago
+7bd3c53 : tracepoint: Do not waste memory on mods with no tracepoints <Steven Rostedt (Red Hat)> 3 months ago
+8ed40c1 : netfilter: Can't fail and free after table replacement <Thomas Graf> 8 weeks ago
+4ede126 : net: Add net_ratelimited_function and net_<level>_ratelimited macros <Joe Perches> 2 years, 1 month ago
+4b87f40 : netfilter: nf_conntrack: reserve two bytes for nf_ct_ext->len <Andrey Vagin> 9 weeks ago
+14eee5b : blktrace: fix accounting of partially completed requests <Roman Pen> 3 months ago
+664c0fc : n_tty: Fix n_tty_write crash when echoing in raw mode <Peter Hurley> 4 weeks ago
+3307c63 : SCSI: megaraid: missing bounds check in mimd_to_kioc() <Dan Carpenter> 7 months ago
+4a55518 : ASoC: qdsp6v2: fix the audio record failure <Aviral Gupta> 4 weeks ago
+eacc878 : msm: msm_fb: set dma pan info when continuous splash is enabled. <Vishnuvardhan Prodduturi> 9 months ago
+0c66603 : msm: camera: Enable interrupts before returning during Invalid Image mode. <Vijaya Kumar T M> 7 weeks ago
+50deb42 : 'Revert "msm: camera: Enable interrupts before returning during Invalid Image mode." <Vijaya Kumar T M> 3 weeks ago
+ce8164e : usb: Fix race between diag_function_disable() and usb_diag_write() <Saket Saurabh> 7 weeks ago
+345be76 : nohz: Reduce overhead under high-freq idling patterns <Ingo Molnar> 1 year, 1 month ago
+19d3024 : cpufreq: interactive: Optimize sync_freq implementation <myfluxi> 6 weeks ago
+8135c79 : android/lowmemorykiller: Account for total_swapcache_pages <Liam Mark> 9 months ago
+9e5a410 : alarm : Fix the race conditions in alarm-dev.c <Mao Jinlong> 7 weeks ago
+ 
+**** https://github.com/LegacyXperia/android_kernel_semc_msm7x30 ****
+5c5744e : ksm: Provide support to use deferred timers for scanner thread <Chintan Pandya> 3 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+195ffea : Fix up path for sony additions <DHOMD> 5 hours ago
+161b8fe : Add support for Xperia Z2 <Arun Manohar Manoharan> 14 hours ago
+4459349 : manifest: change all 3 msm8960 devices to my kernel <cannondalev2000> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+4392484 : Bluetooth: Fix for device gets stuck in pairing <pramod kotreshappa> 8 weeks ago
+7ab3215 : Bluetooth: Acquire wakelock to turn on lcd during Connection <Smriti Gupta> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+a6fa0dc : Squashed addition of rhine common from Muppets <DHOMD> 5 hours ago
+5c6de99 : Initial shinano import <Giulio Cervera> 9 days ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+3735058 : Sony Z2 <DHOMD> 5 hours ago
+ 

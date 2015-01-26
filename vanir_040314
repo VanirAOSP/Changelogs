@@ -1,0 +1,163 @@
+
+**** https://github.com/VanirAOSP/build ****
+f6e0ac3 : releasetools: use variable instead of fixed name for bootable image <Brint E. Kriebel> 20 hours ago
+1ecf3ab : change default to linaro's 4.8 <nuclearmistake> 5 days ago
+db1ffc8 : TARGET_linux-arm: -Os for TARGET_thumb_CFLAGS <PrimeDirective> 7 days ago
+b4d5014 : build: Add support for Luxembourgish <Michael Bestas> 5 days ago
+9341d8b : TARGET_linux-arm: pass -fstrict-aliasing to TARGET_GLOBAL_CFLAGS <PrimeDirective> 11 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_moto_msm8960 ****
+e9b19ee : Initial translation import <Michael Bestas> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jflte ****
+4cf4a24 : Add missing Permissions for Step Sensor <jumoog> 28 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_common ****
+6e18389 : sony: common: Properly set up QC props <Ethan Chen> 11 days ago
+c21a847 : sony: common: sort proprietaries <Giulio Cervera> 11 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+6911baa : show connected devices or name of single device on Bluetooth Tile <Eric Cochran> 7 weeks ago
+cffa9bf : Runtime navbar toggling: remove views immediately <nuclearmistake> 22 hours ago
+650aa88 : Prevent Lockscreen album art from activating FLAG_KEEP_SCREEN_ON <Jeanette Löfgren> 5 months ago
+fd72796 : Do not show Home behind full screen activity <Yevgen Pronenko> 3 weeks ago
+30b7b6f : Hang off call by power button while screen is on <shower> 3 months ago
+1b0310f : Parallel shutdown <Martin Wallgren> 1 year, 3 months ago
+8f7b240 : HOLY F#*%, remove ~1800 lines of dead quicksettings code <PrimeDirective> 32 hours ago
+976ca51 : onthegotile:  remove some junky code <PrimeDirective> 33 hours ago
+7798b02 : Fix for crash in LocationManagerService <Ashwin Kumar> 6 weeks ago
+455981d : Combo Provider: Specific location screening <Dante Russo> 9 weeks ago
+6beca75 : Combo Provider: Get the package name from resource <Dante Russo> 9 weeks ago
+4b8f1d5 : Send Media button events as foreground Intent <Gubbala Venugopal Rao> 7 weeks ago
+88e1b16 : systemui: fix qs tiles layout height in landscape mode <Jorge Ruesga> 24 hours ago
+ae4ac7b : Solve three memory leaks related to PatchCache <Jens Gulin> 8 weeks ago
+1ed0a153 : remove unnecessary switchUser call <Jianzheng Zhou> 6 months ago
+3f3bde0 : Prevent Lockscreen album art from activating FLAG_KEEP_SCREEN_ON <Jeanette Löfgren> 5 months ago
+bc8ac0c : Do not show Home behind full screen activity <Yevgen Pronenko> 3 weeks ago
+f670f1a : Change when the SELinux relabel of /data/data occurs. <Robert Craig> 7 days ago
+f475325 : Get rid of noise during boot. <Dianne Hackborn> 2 weeks ago
+b78f667 : Hang off call by power button while screen is on <shower> 3 months ago
+b24d4f1 : core: Add support for Luxembourgish <Michael Bestas> 4 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+b8736b3 : DCTracker: Fix UICC load stall <Shareef Ali> 7 days ago
+fc54d9a : DCTracker: Relax the dummy profile check <Shareef Ali> 8 days ago
+84b029a : Telephony: Bring back older IMSI method for legacy RIL <Shareef Ali> 9 days ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_lge_msm8974
+https://github.com/bart452/kernel_lge_msm8974
+vani	git@github.com:VanirAOSP/kernel_lge_msm8974.git
+vanir	https://github.com/VanirAOSP/kernel_lge_msm8974 ****
+c85a2df : Linux 3.4.84 <houst0nn> 9 days ago
+712607c : mm/compaction: Break out of loop on !PageBuddy in isolate_freepages_block <Laura Abbott> 4 weeks ago
+8c344d1 : mm: vmscan: If kswapd has been running too long, allow it to sleep <Mel Gorman> 2 years, 11 months ago
+96c1642 : kswapd: reduce time spent in congestion_wait <Liam Mark> 7 months ago
+91d2189 : staging: android: ashmem: Avoid deadlock with mmap/shrink <Laura Abbott> 10 weeks ago
+e479054 : rtc: alarm: Proper handling of spinlock <Mohit Aggarwal> 4 weeks ago
+b595281 : msm: clock-8974: Reduce PLL lock time <Shalabh Jain> 6 months ago
+b96a3e3 : irq: Set CPU affinity right on thread creation <Sankara Muthukrishnan> 1 year, 5 months ago
+e4f8762 : writeback: fix race that cause writeback hung <Junxiao Bi> 7 months ago
+7685159 : msm: dma: Refactored driver to avoid queuing of cmds in workq. <Venkatesh Yadav Abbarapu> 8 months ago
+bf0b100 : softirq: Use hotplug thread infrastructure <Thomas Gleixner> 1 year, 9 months ago
+97ae7c0 : sched,rt: disable rt_runtime borrowing by default <Mike Galbraith> 10 months ago
+8d9b1b0 : sched/rt: Remove redundant nr_cpus_allowed test <Shawn Bohrer> 6 months ago
+885641b : sched: Reduce overestimating rq->avg_idle <Jason Low> 7 months ago
+8af810a : sched: scale the busy and this queue's per-task load before compare <Lei Wen> 10 months ago
+da0b7a2 : sched: reduce calculation effort in fix_small_imbalance <Lei Wen> 10 months ago
+c2d1e3f : mutex: back out architecture specific check for negative mutex count <Waiman Long> 12 months ago
+faebfd4 : mutex: Queue mutex spinners with MCS lock to reduce cacheline contention <Waiman Long> 12 months ago
+589c339 : mutex: Make more scalable by doing less atomic operations <Waiman Long> 12 months ago
+31f4fb7 : lib, net: make isodigit() public and use it <Andy Shevchenko> 11 months ago
+3becee6 : scsi: Allow auto suspend override by low-level driver <Sujit Reddy Thumma> 4 months ago
+de7d0b1 : sd: call blk_pm_runtime_init before add_disk <Aaron Lu> 6 months ago
+8b4c0dd : sd: change to auto suspend mode <Lin Ming> 1 year ago
+c369841 : sd: use REQ_PM in sd's runtime suspend operation <Lin Ming> 1 year ago
+08c6bf2 : scsi_pm: use callbacks from dev_pm_ops for scsi devices <Aaron Lu> 1 year, 5 months ago
+02fefbf : scsi_pm: resume device if suspend failed <Aaron Lu> 1 year, 11 months ago
+93aaf15 : block: queue work on power efficient wq <Viresh Kumar> 11 months ago
+27defd8 : workqueue: Add system wide power_efficient workqueues <Viresh Kumar> 11 months ago
+d5417ea : workqueues: Introduce new flag WQ_POWER_EFFICIENT for power oriented workqueues <Viresh Kumar> 12 months ago
+cf3d1c9 : power: wakeup_reason: rename irq_count to irqcount <Greg Hackmann> 3 weeks ago
+209074a : cpufreq: cpu-boost: Fix queue_delayed_work_on() race with hotplug <Saravana Kannan> 9 weeks ago
+f56e4f7 : msm: cpufreq: Fix msm_cpufreq_get_freq() for sync CPUs <Junjie Wu> 7 weeks ago
+203a1dd : msm: cpufreq: Correct synchronous cpu logic <Patrick Daly> 8 weeks ago
+018f158 : msm: cpufreq: Avoid NULL clock pointer references <Patrick Daly> 4 months ago
+0fb7a54 : ARM: dts: msm: Enable nt35590's PWM output. <Ray Zhang> 10 months ago
+dadd6d3 : msm: hotplug: Block hotplug removal of CPU0 <Matt Wagantall> 4 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+380ed8e : cpufreq: cpu-boost: Handle wakeup hints received for foreground tasks <Rohit Gupta> 3 weeks ago
+c3d1cd5 : sched: Call the notify_on_migrate notifier chain for wakeups as well <Rohit Gupta> 3 weeks ago
+58e55a2 : cpufreq: cpu-boost: Introduce scheduler assisted load based syncs <Rohit Gupta> 3 weeks ago
+54610e0 : sched: window-based load stats for tasks <Srivatsa Vaddagiri> 3 months ago
+25fb29f : sched: Make scheduler aware of cpu frequency state <Srivatsa Vaddagiri> 4 months ago
+974609b : cpufreq: interactive: Don't reset sampling down factor at max freq <Patrick Cain> 3 months ago
+0327ce8 : cpufreq: cpu-boost: Re-issue boosts above minimum frequency <Patrick Cain> 3 weeks ago
+72c5c3c : ARM: msm: Clean up sensor ADSP driver; OCMEM is no longer used <Satya Durga Srinivasu Prabhala> 9 weeks ago
+76abc86 : ARM: 7430/1: sizes.h: move from asm-generic to <linux/sizes.h> <Alessandro Rubini> 1 year, 9 months ago
+7168150 : cpufreq: Fix broken uevents for cpufreq governor and cpu devices <myfluxi> 13 days ago
+50875f7 : drivers: cpufreq: Send a uevent when governor changes <Steve Kondik> 1 year, 7 months ago
+3b02449 : cpufreq: Sync on thread migration optimizations <Patrick Cain> 3 months ago
+2bec036 : cpufreq: interactive: delete timers for GOV_START <Shridhar Rasal> 7 months ago
+7965c80 : genalloc: stop crashing the system when destroying a pool <Thadeu Lima de Souza Cascardo> 1 year, 5 months ago
+893f7db : genalloc: Correct nbytes calculation on long boundary <Sunil Khatri> 7 weeks ago
+3a235ee : new helper: iterate_fd() <Al Viro> 1 year, 7 months ago
+6cca1a7 : staging: android: ashmem: Avoid deadlock with mmap/shrink <Laura Abbott> 10 weeks ago
+fb59a45 : avtimer: Update avtimer driver to parse driver tree data <Gopikrishnaiah Anandan> 7 months ago
+c1cce0c : rcu: Use smp_hotplug_thread facility for RCUs per-CPU kthread <Paul E. McKenney> 1 year, 9 months ago
+504121b : rcu: Yield simpler <Thomas Gleixner> 1 year, 9 months ago
+f2bf41f : workqueue: Backport from upstream <Dan Carpenter> 2 years ago
+f433521 : msm: dma: Refactored driver to avoid queuing of cmds in workq. <Venkatesh Yadav Abbarapu> 8 months ago
+b7abcc7 : softirq: reduce latencies <Eric Dumazet> 1 year, 3 months ago
+87fd7c2 : softirq: Use hotplug thread infrastructure <Thomas Gleixner> 1 year, 9 months ago
+cc38614 : random: make 'add_interrupt_randomness()' do something sane <Theodore Ts'o> 1 year, 9 months ago
+eb753c3 : msm: Fix high load average from uninterruptible waits <Steve Kondik> 8 weeks ago
+1e4ad03 : cpufreq: ondemand: Use hotplug thread infrastructure <myfluxi> 8 weeks ago
+0156693 : cpufreq: ondemand: Revert Sony changes to ondemand <Ethan Chen> 7 days ago
+28fcc36 : cpufreq: cpu-boost: Use hotplug thread infrastructure <myfluxi> 8 weeks ago
+5c04d63e : [backport] Hotplug thread infrastructure <Thomas Gleixner> 1 year, 11 months ago
+5773fc4 : cpufreq: cpu-boost: Fix queue_delayed_work_on() race with hotplug <Saravana Kannan> 9 weeks ago
+5b1eba1 : cpufreq: cpu-boost: Fix deadlock in wake_up of sync threads <Saravana Kannan> 9 weeks ago
+6c82d2f : msm: camera: Use Sony camera stack from 4.3 <Ethan Chen> 5 days ago
+1373cc2 : Sony: Disable lots of unused modules <Ethan Chen> 6 days ago
+393538f : msm: camera: Force SONY_CAM_V4L2 to select VIDEOBUF2 <Ethan Chen> 7 days ago
+0493844 : mdss: Add newline to VSYNC timestamp <Naseer Ahmed> 3 weeks ago
+d87787c : mdss: Notify userspace of changes to blank status <Naseer Ahmed> 3 weeks ago
+26646af : driver: qpnp-vibrator: implement sysfs interface for intensity <Giulio Cervera> 6 months ago
+5f5bde0 : msm: vidc: add control to enable Hierarchical P num layers <Arun Menon> 3 months ago
+a8c1935 : msm: vidc: Add support for MBI extradata <Deva Ramasubramanian> 3 months ago
+5ae587f : [media] v4l2: Add enums to request frame bits info as extra-data <Jorge Solano Altamirano> 5 months ago
+38d0cc9 : [media] v4l2: Add enum for frame level QP extra-data <Jorge Solano Altamirano> 5 months ago
+d6d63e34 : msm: vidc: Return meaningful information for extra-data plane <Jorge Solano Altamirano> 5 months ago
+d26bb4e : msm: vidc: Add support to request frame bits info as extra-data <Jorge Solano Altamirano> 5 months ago
+daf3eac : msm: vidc: Add support to request frame level QP information <Jorge Solano Altamirano> 5 months ago
+9bff59e : msm: vidc: Add generic LTR mode support <Ashray Kulkarni> 9 weeks ago
+6b25bc4 : msm: vidc: add LTR support for video encoder <Ashray Kulkarni> 5 months ago
+2824f7c : msm: vidc: Bail out if ocmem allocation failed <Deva Ramasubramanian> 3 months ago
+f492c59 : Revert "msm: vidc: Disable clock gating for 8x26" <Vikash Garodia> 3 months ago
+fd75e22 : msm: vidc: eliminate race condition in dynamic buffer mode <Arun Menon> 3 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+059be96 : Fresh LINARO 4.8 instead of the jb-devel cfx branch we've been on <nuclearmistake> 6 days ago
+b591aca : Update README for SUN JAVA 6 <Christopher Latham> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+238dc01 : bluetooth: notify ACTION_ALIAS_CHANGED <Jorge Ruesga> 6 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+cb797e3 : Initial translation import <Michael Bestas> 29 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Email
+cm2	https://github.com/CyanogenMod/android_packages_apps_Email ****
+5f1680d : email: add support for Server Name Indication (SNI) <Jorge Ruesga> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+4ce86fd : KeyDisabler + navbar toggle: stop double-tapping checkboxes <nuclearmistake> 16 hours ago
+58c85bd : KeyDisabler: separate disabling hardware navkeys (in button settings) from enabling navbar (in navbar settings) <nuclearmistake> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_input_LatinIME ****
+ea07053 : Initial translation import <Michael Bestas> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_providers_DownloadProvider ****
+a9e5d0f : Initial translation import <Michael Bestas> 29 hours ago
+ 

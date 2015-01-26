@@ -1,0 +1,146 @@
+
+**** https://github.com/VanirAOSP/build ****
+edd6de2 : Change CM recovery install script filename [1/2] <Matt Mower> 3 weeks ago
+860b9fb : update no_separate_recovery handling <nuclearmistake> 4 hours ago
+8622dbe : Fixed building incrementals when "no separate recovery" is specified. <Martin Blumenstingl> 10 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+dcacfcc : Hate is a strong word... but I HATE the G2. HATE HATE HATE HATE <nuclearmistake> 3 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_gproj-common ****
+38e6c43 : LgeLteRIL: VSS add check for null apn <Seth Shelnutt> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+4da2ad3 : hammerhead: add f2fs support <Dan Trifan> 8 days ago
+1d64c70 : hammerhead: configure load dependent update rates <myfluxi> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_lge_p880 ****
+8d30078 : Enable use of FFMPEG codecs for extended formats and some cleaning <demetris> 15 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_apq8064-common ****
+aac6470 : apq8064-common: Give keydisabler rights to gpio-keys node <Ethan Chen> 5 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2lte ****
+937d759 : d2lte: don't try to use thermal-engine <Matt Grochowalski> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_i9100g ****
+d935eb7 : I9100G: Preload libjhead in init <Andrew Jiang> 2 days ago
+ 
+**** https://github.com/Team-Exhibit/android_device_samsung_janice
+origin	git@github.com:VanirAOSP/device_samsung_janice.git ****
+b77450e : Will rever this later: Change method of looking up baseband + misc fixes <DHOMD> 2 hours ago
+1d398be : Remove duplicate PDA IDs from blobinstaller <DHOMD> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jflte ****
+223779f : jflte: fix the auto brighness curve <Drew Davis> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_mondrianwifi ****
+e0ba5d9 : mondrianwifi: wlan: wpa_supplicant_overlay from stock <Christopher R. Palmer> 2 days ago
+91cab01 : mondrianwifi: wlan: Fixup the startup of wlan <Christopher R. Palmer> 3 days ago
+feca04c : mondrianwifi: Update autobrightness levels from stock <Christopher R. Palmer> 7 days ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_msm7x30-common ****
+183055c : media_profiles: Enable true 720p <Michael Bestas> 3 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+9e3f03f : libstagefright: Fix video encoder input buffer <ZoliN> 2 weeks ago
+04bf5a1 : libstagefright: Allow using camera recording buffer as input for encoder <ZoliN> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+050e798 : Themes: Set bounds on iconUpon <d34d> 30 hours ago
+5c1a2bd : Keyguard: Distinguish the TextView id of pinEntry <kaiyiz> 6 weeks ago
+5da1d05 : PackageManagerService: Prevent sending a SIGKILL while the device shutting down <fuzz> 3 days ago
+66761e9 : tests: Hide new private APIs <fuzz> 15 hours ago
+73a95c1 : This is why we can't have nice things... dirt from CustomRecents <nuclearmistake> 29 hours ago
+b7000c1 : CustomRecents: Add a constants class for the mode enumeration, and leverage RecentsComponent to commonize slim and aosp recents in BaseStatusBar <nuclearmistake> 29 hours ago
+6e47c2a : Configurable recents [1/2] <PrimeDirective> 2 days ago
+6231c47 : Hover [1/2]: original + vanirification <PrimeDirective> 2 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+88343b5 : legacy/msm7x30: Enable stereo recording <ZoliN> 4 days ago
+c425eb4 : audio: Close the file descriptor in error scenarios <Shreyas Nagasandra Chandrasekhar> 10 weeks ago
+7d2f74d : audio: Force route call on HAL during device disconnection <Pavan Chikkala> 3 months ago
+ 
+**** https://github.com/mathkid95/linux_lg_kitkat ****
+201ba27 : Disable dynamic fsync control by default <mathkid95> 20 hours ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+a6efe5f : block: Adding ROW scheduling algorithm <Tatyana Brokhman> 1 year, 9 months ago
+9bfee8c : Fix BFQ V7r4 Merge patch <demetris> 5 hours ago
+10621e2 : Update graphic drivers from htc_endeavoru <TripNRaVeR> 1 year, 4 months ago
+09b8676 : fix false disconnect due to a signal sent to the reading process <keunyoung> 5 months ago
+c270f47 : Add Budget Fair Queueing (BFQ) Storage-I/O Scheduler and make it default. <demetris> 16 hours ago
+03f8f1e : android: base-cfg: enable DM_VERITY (used for secureboot) <JP Abgrall> 4 months ago
+873c053 : android: configs: Add CONFIG_NETFILTER_XT_TARGET_IDLETIMER <Ashish Sharma> 5 months ago
+f64aa06 : android: configs: Grab the android/configs from kernel/common <JP Abgrall> 5 months ago
+9a678d9 : SELinux: Fix kernel BUG on empty security contexts. <Stephen Smalley> 5 months ago
+581bf4b : SELinux: Fix possible NULL pointer dereference in selinux_inode_permission() <Steven Rostedt> 5 months ago
+4cbeabe : SELinux: include definition of new capabilities <Eric Paris> 1 year, 11 months ago
+fa5e7ca : signal: always clear sa_restorer on execve <Kees Cook> 1 year, 3 months ago
+c08d1a3 : tcp: add a sysctl to config the tcp_default_init_rwnd <JP Abgrall> 4 months ago
+970aacf : sysfs: Fix memory leak in sysfs_sd_setsecdata(). <Masami Ichikawa> 2 years, 4 months ago
+188d6db : ext4: add missing save_error_info() to ext4_error() <Theodore Ts'o> 2 years, 1 month ago
+e726ab6 : fix false disconnect due to a signal sent to the reading process <keunyoung> 5 months ago
+f9db80c : sched: Ensure cpu_power periodic update <Vincent Guittot> 2 years, 6 months ago
+59caf3f : sched: use cpu capacity to decide if a ILB is needed <Vincent Guittot> 2 years, 4 months ago
+5cf2a32 : cpufreq: Report correct min/max frequencies. random: increase entropy levels (both read and write) mmc/core: disable crc to improve performance mmc-core: Increase timeout limits to improve when using bad sd cards <demetris> 18 hours ago
+011e867 : vfp: Use hard-float and neon libraries instead of vfp ones <demetris> 19 hours ago
+d4f8d43 : add extra free kbytes tunable <Rik van Riel> 2 years, 10 months ago
+2ac9f7c : patch: updated dma_buf <maxl> 1 year, 1 month ago
+3cc3cb7 : backlight: added brightness sysfs usages to log <maxl> 1 year, 1 month ago
+3f286fc : smp: no need to log this again <maxl> 1 year, 2 months ago
+817ec8c : SCHEDULER: Autogroup patch group by current user android UID instead of task ID <maxl> 1 year, 4 months ago
+3f20afa : timekeeping: fix 32-bit overflow in get_monotonic_boottime <maxl> 1 year, 4 months ago
+c0d0eeb : sched: Remove rq->avg_load_per_tas. <maxl> 1 year, 4 months ago
+312de8e : sched: Kill WAKEUP_PREEMPT <maxl> 1 year, 4 months ago
+b975a80 : Optimise apply_slack() for size and speed <maxl> 1 year, 4 months ago
+9fbc2b5 : sched: clock wrap bug in 2.6.35-stable kills scheduling <maxl> 1 year, 5 months ago
+a910f0c : sched: task_times() explosion avoidance for tasks with > 2^32 acrued ticks <maxl> 1 year, 5 months ago
+2896938 : kernel/resource.c: fix stack overflow in __reserve_region_with_split <maxl> 1 year, 5 months ago
+289a880 : ext4: prevent kernel panic in case of uninitialized jinode <maxl> 1 year, 4 months ago
+d4513dc : switch do_fsync() to fget_light() <maxl> 1 year, 4 months ago
+7624fac : block/deadline: tweak for better android performance <maxl> 1 year, 4 months ago
+2894af5 : scatterlist: add sg_alloc_table_from_pages <maxl> 1 year, 1 month ago
+84303ea : rwsem: squashed rwsem: steal writing sem for better performance  rwsem-spinlock: let rwsem write lock stealable <maxl> 1 year, 3 months ago
+97bd7a7 : lib/string: use glibc version <maxl> 1 year, 4 months ago
+a51da1f : lib/memcopy: use glibc version <maxl> 1 year, 4 months ago
+353d5eb : mm: do not grow the stack vma just because of an overrun on preceding vma <maxl> 1 year, 3 months ago
+f2616d4 : ashmem: fix deadlock when system is low on memory <maxl> 1 year, 4 months ago
+13ff47d : lowmemorykiller compaction enhancements <maxl> 1 year, 6 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_smdk4412 ****
+8a5d38c : Fix CVE-2014-3153 <Thomas Gleixner> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_t1 ****
+24cf17d : futex-prevent-requeue-pi-on-same-futex.patch futex: Forbid uaddr == uaddr2 in futex_requeue(..., requeue_pi=1) <Thomas Gleixner> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_apq8064 ****
+df7cfca : fusion3: Enable iptables TCPMSS <Hexchain Tong> 21 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+b3fceae : Drop remnants of broken local locales <Ricardo Cerqueira> 3 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+5926aa2 : InCallUI: ES translations (AOSP) <Lorenzo M> 3 days ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+9b236ab : ... <h0rn3t> 8 hours ago
+b5a55fa : ... <h0rn3t> 18 hours ago
+9020ffc : Update devices.xml <RizalLovins> 5 days ago
+b907e10 : Bring Russian Translations Up-to-Date <leroviten> 10 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+30185c9 : This is why we can't have nice things... remove a duplicate, unalphabetized import <nuclearmistake> 29 hours ago
+5235dd0 : CustomRecents: Use RecentsConstants and simplify some sloppy logic <nuclearmistake> 29 hours ago
+51562bd : Configurable recents [2/2] <PrimeDirective> 2 days ago
+992a126 : Hover [2/2] original + vanirification <PrimeDirective> 2 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_lge ****
+c5d77bc : Fix LS980 Camcorder <dr87> 2 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+70524b9 : Support for Codina and Janice <C457> 5 days ago
+ 
+**** https://github.com/LegacyXperia/proprietary_vendor_semc ****
+a2d11d3 : mogami: Use stock .587 camera lib <ZoliN> 2 weeks ago
+ 

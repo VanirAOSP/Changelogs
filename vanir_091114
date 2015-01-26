@@ -1,0 +1,133 @@
+
+**** https://github.com/VanirAOSP/bionic ****
+53c2af9 : DNS: make the same ip type DNS query as the interface address type <Nilesh Poddar> 7 weeks ago
+ 
+**** https://github.com/VanirAOSP/build ****
+aa15281 : determine recommended mfpu based on cpu_for_optimizations, in case TARGET_ARCH_VARIANT_CPU is set but TARGET_ARCH_VARIANT_FPU is not. <nuclearmistake> 10 hours ago
+557644c : vanirified (cflag no-op on most devices): Apply correct, optimized mfpu compiler flag for ARMv7-A Cortex CPUs <arter97> 3 days ago
+32ed5a1 : Restore VerifySignature to edify_generator <nuclearmistake> 7 days ago
+820fc09 : ota_from_target_files: Validate signatures after possible data wipe <Brint E. Kriebel> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_moto_msm8960_jbbl ****
+6530762 : media_profiles: Add HFR params to h264 video encoder capabilities <nadlabak> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_qcom-common ****
+805fa2e : CameraWrapper: Fix HFR values order (and shuffle params dumps) <nadlabak> 22 hours ago
+22db327 : qcom-common: Generate guard for vendor directory <Ethan Chen> 35 hours ago
+642748c : qcom-common: Only allow moto_msm8960/moto_msm8960_jbbl <Ethan Chen> 35 hours ago
+28b261f : Set call recording audiosource to voice call <nadlabak> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_find7 ****
+5482281 : camera: Add support for exposure time <Michael Bestas> 2 weeks ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_mogami-common
+lx	https://github.com/LegacyXperia/android_device_semc_mogami-common ****
+c248778 : mogami: Remove WiFi Direct permission <Michael Bestas> 7 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_msm7x30-common
+lx	https://github.com/LegacyXperia/android_device_semc_msm7x30-common
+vani	git@github.com:VanirAOSP/device_semc_msm7x30-common.git
+vanir	https://github.com/VanirAOSP/device_semc_msm7x30-common ****
+104a7bb : msm7x30: Add back mistakenly removed prop <Michael Bestas> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_tsubasa ****
+7a38cfd : Remount SD at boot, attempt to fix mounts <DHOMD> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_sony_yuga ****
+1983cf2 : bootrec: update gpio-keys node <Chirayu Desai> 8 days ago
+9452268 : update fingerprint and build description from 10.5.A.0.230 <Chirayu Desai> 9 weeks ago
+2a465c1 : update snd_soc_msm from 10.5.A.0.230 <Chirayu Desai> 9 weeks ago
+1131fc1 : update sysmon.cfg from 10.5.A.0.230 <Chirayu Desai> 9 weeks ago
+2c87cf3 : bootrec: update gpio-keys node for sony kk kernel <Chirayu Desai> 9 weeks ago
+ 
+**** https://github.com/VanirAOSP/external_bash ****
+ff77661 : bashrc: use xterm as default terminal <Dan Pasanen> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/external_openssh ****
+d24b89e : fix access to /sdcard for shell login <Terrence Ezrol> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/external_skia ****
+6c75dbc : Don't try to compile ARM assembly when we're not compiling for ARM. <Chris Sarbora> 3 days ago
+ 
+**** https://github.com/VanirAOSP/external_wpa-supplicant-8 ****
+e635060 : WNM: Check wpa_s->current_bss more consistently <Jouni Malinen> 6 months ago
+3cc4970 : WNM: Add debug logs to get the RSSI from the scan results <Sudha Daram> 9 months ago
+298f5b8 : P2P: Refrain from performing extended listen during PD <Jouni Malinen> 4 months ago
+e0a8146 : P2P: Refrain from performing extended listen during P2P connection. <Sunil Dutt> 4 months ago
+f03962e : Fix hostapd segfault on beacon hint event <Jouni Malinen> 7 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+772e86e : 6-bar signal icon sytle [1/2] <Paul Mongold> 2 years, 1 month ago
+ec15317 : base: fix ACTION_NOTIFICATION_LISTENER_SETTINGS intent name <Jorge Ruesga> 3 days ago
+3ce7e3c : SystemUI: Modify and add AOSP JA translations <black> 2 days ago
+e6c9991 : Allow granting permissions based on signature in <allow-permission/> <Clark Scheff> 5 days ago
+e0207a4 : Revert "Add support for allow-permission extension." <Brint E. Kriebel> 5 days ago
+1ff3c18 : AwesomeConstants: rename + renamespace + refactor + update copyright block <nuclearmistake> 31 hours ago
+1ae0786 : AwesomeConstants: give it a new haircut <nuclearmistake> 2 days ago
+9e15b21 : Bypass the lockscreen when the hardware keyboard is slid out and security mode is 'none' <Jonas Rahlf> 8 days ago
+c4625f1 : DocumentsUI: Workaround for aapt warnings <Michael Bestas> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_hardware ****
+4acfb64 : Fix HighTouchSensivity (2/2) <Michael Bestas> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_rs ****
+acffe3a : Fix bug in blur when processing odd widths <Jason Sams> 9 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+76b191e : f2fs: reposition unlock_new_inode to prevent accessing invalid inode <Chao Yu> 13 days ago
+e4c7da4 : f2fs: fix wrong casting for dentry name <Jaegeuk Kim> 2 weeks ago
+2ed5d7d : f2fs: simplify by using a literal <Dan Carpenter> 2 weeks ago
+5d7ff4a : f2fs: truncate stale block for inline_data <Jaegeuk Kim> 2 weeks ago
+abace96 : f2fs: use macro for code readability <Chao Yu> 3 weeks ago
+c8b9508 : f2fs: introduce need_do_checkpoint for readability <Chao Yu> 3 weeks ago
+3e95395 : f2fs: fix incorrect calculation with total/free inode num <Chao Yu> 3 weeks ago
+b68800f : f2fs: skip if inline_data was converted already <Jaegeuk Kim> 3 weeks ago
+2b45a91 : f2fs: remove rewrite_node_page <Jaegeuk Kim> 4 weeks ago
+a8c711c : f2fs: avoid double lock in truncate_blocks <Jaegeuk Kim> 4 weeks ago
+876816a : f2fs: add WARN_ON in f2fs_bug_on <Jaegeuk Kim> 4 weeks ago
+27625fe : f2fs: handle EIO not to break fs consistency <Jaegeuk Kim> 4 weeks ago
+761aff4 : f2fs: check s_dirty under cp_mutex <Jaegeuk Kim> 4 weeks ago
+ff42fde : f2fs: unlock_page when node page is redirtied out <Jaegeuk Kim> 4 weeks ago
+d84c726 : f2fs: introduce f2fs_cp_error for readability <Jaegeuk Kim> 4 weeks ago
+9c2f651 : f2fs: give a chance to mount again when encountering errors <Jaegeuk Kim> 5 weeks ago
+7fb0f3b : f2fs: trigger release_dirty_inode in f2fs_put_super <Jaegeuk Kim> 3 weeks ago
+5d395f7 : f2fs: don't skip checkpoint if there is no dirty node pages <Jaegeuk Kim> 3 weeks ago
+13ec6c7 : f2fs: avoid bug_on when error is occurred <Jaegeuk Kim> 5 weeks ago
+1c83db8 : f2fs: fix to recover inline_xattr/data and blocks <Jaegeuk Kim> 5 weeks ago
+ede4654 : f2fs: should clear the inline_xattr flag <Jaegeuk Kim> 5 weeks ago
+413fbfc : f2fs: clear FI_INC_LINK during the recovery <Jaegeuk Kim> 5 weeks ago
+a908d09 : f2fs: fix the initial inode page for recovery <Jaegeuk Kim> 5 weeks ago
+c8646fd : f2fs: make clear on test condition and return types <Jaegeuk Kim> 5 weeks ago
+960c4cf : f2fs: should convert inline_data during the mkwrite <Jaegeuk Kim> 5 weeks ago
+902e9fa : f2fs: fix typo <arter97> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+244cd88 : Follow our own tsubaas <DHOMD> 27 minutes ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+98c920c : Camera2: Improve shutter button <sssemil> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+592e276 : Revert "blacklist call recording for US/EU mccs, remove sysprop flag for enabling" <DHOMD> 4 weeks ago
+737d527 : Dialer: Move CAF strings <Michael Bestas> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+3cd0695 : 6-bar signal icon sytle [2/2] <Alex Cruz> 3 weeks ago
+6437afc : AwesomeConstants: turn it inside out and airbrush some dragons on it <nuclearmistake> 31 hours ago
+e3089ed : Device Info: Move legal information to the bottom <PrimeDirective> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_UnifiedEmail ****
+a0e6661 : email: always refresh actionbar menu on select/deselect conversations <Jorge Ruesga> 6 days ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+b775add : Dedupe _GNU_SOURCE and ucontext.h definition and inclusion, put them in sane locations. <Chris Sarbora> 6 days ago
+5bcfe2b : Revert "adbd: Don't close/reopen FFS ep0 on disconnect" <Manu Gautam> 9 weeks ago
+ 
+**** https://github.com/cyngn/android_vendor_cyngn ****
+c532906 : permissions: Remove deprecated user-id permissions and add signature <Brint E. Kriebel> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+d60e5a0 : Enable incall recording <DHOMD> 4 weeks ago
+d22be34 : Minor update to n7100 <DHOMD> 49 minutes ago
+784f97f : init.rc: Adding setprop entries for tcp delayed ack for Wifi & LTE <Arne Coucheron> 4 months ago
+ 

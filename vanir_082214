@@ -1,0 +1,120 @@
+
+**** https://github.com/VanirAOSP/device_lge_p880 ****
+94c60d0 : P880:add BOARD_HAVE_PRE_KITKAT_AUDIO_POLICY_BLOB config This is needed for the recent hotword source fix. <demetris> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+056c465 : NFC libs <nuclearmistake> 5 hours ago
+c81ed7f : add support for cmhw <elelinux> 30 hours ago
+f62d116 : Revert "fix bracers and clean up" <nuclearmistake> 9 hours ago
+18ade6b : update fw overlay <elelinux> 30 hours ago
+ 
+**** cm	https://github.com/CyanogenMod/android_device_samsung_n5120
+https://github.com/ryukiri/android_device_samsung_n5120 ****
+53011d3 : Resolve build error for Vanir and all strict-aliasing builds Solved: dereferencing type-punned pointer will break strict-aliasing rules [-Werror=strict-aliasing] <Austin Quach> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+e74f097 : Lycamobile (MNC04) considered non-roaming on Vodafone (MNC01) <neatchee> 22 hours ago
+fa93b9a : Vectone/Delight (MNC07) considered non-roaming on NOS (MNC03) <neatchee> 22 hours ago
+1a833d6 : Themes: Load missing style attributes from original style <Clark Scheff> 4 days ago
+ac2e431 : Themes: Fix blurry composed icons <Andy Mast> 4 days ago
+054132e : [DO NOT MERGE] IME Navbar: temporarily hide the keyboard during navbar toggling on hardware navkey devices <nuclearmistake> 4 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_libhardware-legacy ****
+f8000e1 : wifi: remove local nl80211 header <Michael Bestas> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_ti_wpan ****
+94bc460 : New call-in/-back functions for Controller to do vendor-specific shutdown <Vishal Mahaveer> 6 weeks ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_htc_msm8960
+https://github.com/cannondalev2000/kernel_htc_msm8960 ****
+14d12f9 : update defconfig <Ethan> 3 hours ago
+da65466 : LZ4: compression/decompression signedness mismatch (v2) <Sergey Senozhatsky> 1 year ago
+1040819 : lib/lz4/lz4_compress: fix macro usage error <Paul Reioux> 1 year ago
+3321ea8 : crypto: Add lz4 Cryptographic API <Chanho Min> 1 year ago
+ef39552 : lib: Add lz4 compressor module <Chanho Min> 1 year ago
+b65802d : arm: Add support for LZ4-compressed kernel <Kyungsik Lee> 1 year ago
+38314ed : lib: Add support for LZ4-compressed kernel <Kyungsik Lee> 1 year ago
+8fa8f33 : decompressor: Add LZ4 decompressor module <Kyungsik Lee> 1 year ago
+c97b793 : intelli_plug: older Qualcomm kernel compatibility fixup <Paul Reioux> 5 weeks ago
+44872bb : intelli_plug: use primary CPU's info data for non-boot cpu's settings <Paul Reioux> 6 weeks ago
+4864681 : intelli_plug: initialize ip_info struct element during driver init <Paul Reioux> 6 weeks ago
+ccb1fe9 : intelli_plug: fix incorrect cpufreq API usage <Paul Reioux> 6 weeks ago
+7d588fc : intelli_plug: only apply suspend/resume logic if active <Paul Reioux> 7 weeks ago
+0d1c8b7 : intelli_plug: fix logic error for eco mode profiles <Paul Reioux> 9 weeks ago
+5d29fc1 : intelli_plug: fix thread capacity threshold calculation <Paul Reioux> 9 weeks ago
+e93bb35 : intelli_plug: adjust thread capacity for Cortex A7 SOCs <Paul Reioux> 9 weeks ago
+b116088 : intelli_plug: unify powersuspend and earlysuspend drivers <Paul Reioux> 9 weeks ago
+34a6735 : intelli_plug: move to its own directory. It's been cross platform for a while <Paul Reioux> 9 weeks ago
+a5a050af3 : msm: HTC: s4: update prima config <Matt Mower> 6 days ago
+fa8e8e5 : staging: prima: Get MAC address from WCNSS platform device <Steve Kondik> 4 days ago
+0054c42 : staging: prima: setup wcnss before prima loads <Flemmard> 8 months ago
+8339dba : staging: prima: rebase on sony_msm8x60's driver <Matt Mower> 6 days ago
+cc2dbf7 : msm: HTC: s4: regenerate defconfigs <Matt Mower> 6 days ago
+67fe408 : msm: HTC: t6: update Prima config <David Hays> 9 days ago
+3b41e5a : staging: Prima: release 3.2.2.20 <David Hays> 9 days ago
+72cbec2 : net: wireless: bcmdhd: Add support for hidden ssid PNO scan <Ashwin> 4 weeks ago
+4a61d15 : net: wireless: bcmdhd: Add WIPHY_WOWLAN_ANY support <Dmitry Shmidt> 6 weeks ago
+b1806a0 : net: wireless: bcmdhd: ifdef wl_cfg80211_sched_scan_stop declaration <Matt Mower> 7 weeks ago
+66399e4 : net: wireless: bcmdhd: support Hotspot 2.0 release 1.0 <Ecco Park> 9 months ago
+e25e9ef : net: wireless: bcmdhd: Change the parameter for TDLS <Ecco Park> 9 months ago
+194cdbe : net: wireless: bcmdhd: Sync with N5 branch <Dmitry Shmidt> 9 months ago
+b2c25d2 : net: wireless: bcmdhd: enable TDLS_auto_mode <Ecco Park> 9 months ago
+6434020 : net: wireless: bcmdhd: Enable IPv6 RA filter feature <Ecco Park> 9 months ago
+045b914 : net: wireless: bcmdhd: Set MAX_DTIM_ALLOWED_INTERVAL to 600 <Dmitry Shmidt> 9 months ago
+34842f1 : net: wireless: bcmdhd: Change DTIM skip policy in suspend <Ecco Park> 10 months ago
+ffb1b86 : net: wireless: bcmdhd: cancel current PNO if connection will happen <Ecco Park> 10 months ago
+2661749 : net: wireless: bcmdhd: reduced the wakelock time of RX packet <Ecco Park> 10 months ago
+a2a3355 : net: wireless: bcmdhd: Fixed a problem of buganizer issue (11190960) <Ecco Park> 10 months ago
+3c3294b : net: wireless: bcmdhd: fixed power consumption issue of P2P. <Ecco Park> 11 months ago
+c1eb904 : net: wireless: bcmdhd: Fix country checking <Dmitry Shmidt> 10 months ago
+6a48302 : net: wireless: bcmdhd: add code for WLS service. <Ecco Park> 11 months ago
+9430e04 : net: wireless: bcmdhd: Fixed Wi-Fi Location Service issues. <Ecco Park> 11 months ago
+5380b5c : net: wireless: bcmdhd: fix for negative padding <Ecco Park> 11 months ago
+b11dfd4 : net: wireless: bcmdhd: Fixed Coverity issue. <Ecco Park> 11 months ago
+a5ba85b : net: wireless: bcmdhd: new feature for Roaming. <Ecco Park> 11 months ago
+2387bc6 : Fix build for GCC 4.7 <Devin Kim> 1 year, 7 months ago
+6eee052 : msm: perf: Fix standalone compilation <Ethan Chen> 3 weeks ago
+803da50 : net: Zeroing the structure ethtool_wolinfo in ethtool_get_wol() <Avijit Kanti Das> 3 months ago
+7eb7890 : msm_bam_rmnet: Fix potential memory corruption <Subash Abhinov Kasiviswanathan> 3 months ago
+6a3aa61 : n_tty: Fix n_tty_write crash when echoing in raw mode <Peter Hurley> 3 months ago
+ 
+**** https://github.com/jimsth/vanir_hammerhead ****
+c37796f : arm/dts: hammerhead: Disable ULPS <myfluxi> 9 days ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_motorola_msm8226
+https://github.com/cannondalev2000/kernel_motorola_msm8226 ****
+f7be416 : Revert "Push ramdisk" <Ethan> 4 hours ago
+d063b9a : Revert "Add build script" <Ethan> 4 hours ago
+9891b3e : Revert "modify build script" <Ethan> 4 hours ago
+a4f8ba0 : Revert "Add zip template" <Ethan> 4 hours ago
+3b8cceb : Revert "update updater script" <Ethan> 4 hours ago
+0921787 : update updater script <Ethan> 14 hours ago
+5c188fc : Add zip template <savoca> 7 weeks ago
+a3958c4 : modify build script <Ethan> 14 hours ago
+169e962 : Add build script <savoca> 7 weeks ago
+3c74706 : Push ramdisk <savoca> 7 weeks ago
+5b34993 : Revert "loop: use aio to perform io on the underlying file" <Ethan> 21 hours ago
+bcc5dd9 : Revert "aio: add aio_kernel_() interface" <Ethan> 22 hours ago
+93b1149 : Revert "aio: add aio support for iov_iter arguments" <Ethan> 22 hours ago
+97c0b09 : Revert "bio: add bvec_length(), like iov_length()" <Ethan> 22 hours ago
+b18c28b : Revert "ext4: add support for read_iter and write_iter" <Ethan> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+9940e53 : N5120: Cannot use CM's device tree CM tree breaks build due to our strict-aliasing rules <Austin Quach> 21 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+ec11716 : Prevent an IllegalArgumentException if there's an issue with fused location. <nuclearmistake> 9 hours ago
+cf28e0c : Add to dialer stats: track actions in the dialer to actually initiate a call <emancebo> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_system_netd ****
+78defa7 : Don't choke if IPv6 rules fail. <Sreeram Ramachandran> 5 weeks ago
+8bd422f : netd: Don't reload fw if a single fw is supported <Eliad Peller> 8 months ago
+ca8bcb6 : Squashed revert of SoftapControllerTI changes <Michael Bestas> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/vendor_htc ****
+3665834 : m7: Revert IR HAL to 3.58.1700.5 <Ethan Chen> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+e75aa93 : TimeService? <nuclearmistake> 5 hours ago
+4a6773f : nfc and qcril jars+permissions from elelinux <nuclearmistake> 9 hours ago
+ 

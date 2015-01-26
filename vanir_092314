@@ -1,0 +1,137 @@
+
+**** https://github.com/VanirAOSP/motorola_msm8226-common ****
+59c4420 : moto msm8226: reconcile with cm <bart452> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_qcom-common ****
+8194c71 : qcom-common: Only allow moto_msm8960/moto_msm8960_jbbl <Ethan Chen> 13 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+7335bca : Remove CNE init script from eng builds <Scott Mertz> 6 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_i9500 ****
+dd28965 : i9500: Add missing overlay for noise suppression <NBruderman> 33 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_nicki ****
+a181865 : nicki: Enable multi-color battery LED <RonGokhale> 22 hours ago
+36346d9 : nicki: undrep proprietary-files.txt <Arnab Jain> 5 days ago
+ 
+**** https://github.com/VanirAOSP/device_sony_qcom-common ****
+27ea3db : remove duplicate blob <Giulio Cervera> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_sirius ****
+afe6bb4 : sirius: update signature <Giulio Cervera> 28 hours ago
+64f9f8d : sirius: enable glove mode <Giulio Cervera> 6 days ago
+f88d708 : sirius: update ts firmware <Giulio Cervera> 33 hours ago
+ 
+**** https://github.com/VanirAOSP/external_bluetooth_bluedroid ****
+0bf2680 : avrcp: fix valid notification range <Scott Mertz> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+14d6888 : Hardware keys: add gesture panel support <PrimeDirective> 4 weeks ago
+6b9fb93 : Themes: Only process themes that are applied during boot <Clark Scheff> 7 days ago
+328f34b : Export missing internal resource as symbol <Scott Mertz> 7 hours ago
+a58ceb7 : InputDevices: Move AOSP strings <Michael Bestas> 5 days ago
+219e266 : core/Keyguard: Move CAF strings <Michael Bestas> 5 days ago
+8e3ef91 : Centralize triggerVirtualKeypress in InputManager, and separate down and up events by 10ms <nuclearmistake> 16 hours ago
+5dc8731 : Fix Halo button not showing up on toggle <PrimeDirective> 32 hours ago
+5e4ff8e : AwesomeAction: remove duplicate string comparison <PrimeDirective> 33 hours ago
+8d85518 : ActiveDisplayView: fix non-pocket mode <PrimeDirective> 34 hours ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+e92758e : cpusets: avoid looping when storing to mems_allowed if one node remains set <David Rientjes> 2 years, 11 months ago
+8ba6eab : oom: do not kill tasks with oom_score_adj OOM_SCORE_ADJ_MIN <Michal Hocko> 2 years, 10 months ago
+9070b12 : oom: fix race while temporarily setting current's oom_score_adj <David Rientjes> 2 years, 11 months ago
+19e8ece : oom: remove oom_disable_count <David Rientjes> 2 years, 11 months ago
+eb91a2d : oom: avoid killing kthreads if they assume the oom killed thread's mm <David Rientjes> 2 years, 11 months ago
+e114023 : oom: thaw threads if oom killed thread is frozen before deferring <David Rientjes> 2 years, 11 months ago
+507f6b2 : block: add missed trace_block_plug <Shaohua Li> 2 years, 10 months ago
+0d8b944 : block: avoid unnecessary plug list flush <Shaohua Li> 2 years, 10 months ago
+a8e1cdd : block: Change module.h -> export.h in bsg-lib.c <Paul Gortmaker> 3 years ago
+6526cbb : block: add export.h to files using EXPORT_SYMBOL/THIS_MODULE macros <Paul Gortmaker> 3 years, 4 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+d69f27a : hlte: fix merge fail. <Tony Layher> 13 hours ago
+dd2f978 : hlte: Fix sensors for real this time. <Tony Layher> 13 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974pro ****
+3b8daaa : driver: bcmdhd: update to Sony 17.1.2.A.0.314 release <Giulio Cervera> 2 days ago
+3a9fbd8 : cfg80211: unblock user hint when cfg80211_regdom is intersected <Mihir Shete> 2 days ago
+fbf5108 : wlan: Correct db.txt for a set of countries. <Amar Singhal> 6 months ago
+9acd156 : cfg80211: change regulatory rules for Indonesia <Mihir Shete> 6 months ago
+d44430f : netlink: fix possible spoofing from non-root processes <Pablo Neira Ayuso> 2 years, 1 month ago
+d495eff : seq_file: remove "%n" usage from seq_file users <Tetsuo Handa> 10 months ago
+a0fe953 : net: ipv4: current group_info should be put after using. <Wang, Xiaoming> 5 months ago
+1ee58b5 : pktgen: clean up ktime_t helpers <Daniel Borkmann> 1 year, 11 months ago
+ee6794d : fat: limit the number of error prints <Asutosh Das> 7 months ago
+cab886e : seq_file: introduce seq_setwidth() and seq_pad() <Tetsuo Handa> 10 months ago
+b2132e9 : net: flow_dissector: fail on evil iph->ihl <Subash Abhinov Kasiviswanathan> 8 months ago
+a125f24 : driver: max1187x: update to Sony 17.1.2.A.0.314 release <Giulio Cervera> 33 hours ago
+4294525 : msm: mdss: fix rotator failures when pixel format changes <Ingrid Gallardo> 6 weeks ago
+068b4aa : msm: mdss: modify userspace src format during MSMFB_SET on rotator <Sree Sesha Aravind Vadrevu> 3 months ago
+eb552e6 : msm: mdss: fix sync fence deadlock when rotator is used <Ujwal Patel> 5 months ago
+5fe6159 : msm: mdss: add support for rotator in mdss_mdp_mixer_get <Ujwal Patel> 6 months ago
+63ca8be : msm: mdss: Clear the previous state of pipe during SOLID_FILL <Sushil Chauhan> 5 months ago
+2d4866e : msm: display: only release kickoff when no cleanup pipe <Ken Zhang> 4 months ago
+2a6705d : msm: mdss: refactor pipe retrieval and ref count logic <Adrian Salido-Moreno> 6 months ago
+cc7258a : Revert "msm: mdss: refactor pipe retrieval and ref count logic" <Anusha Koduru> 5 months ago
+fa77dd5 : msm: display: reduce display commit prepare waiting time <Ken Zhang> 5 months ago
+228d84b : msm: mdss: Handle case when pipe is not idle during cleanup. <Jayant Shekhar> 7 months ago
+860bdd3 : msm: mdss: ensure pipe is halted before freeing buffers <Adrian Salido-Moreno> 7 months ago
+c2fb4bd : msm: mdss: add dynamic clk status check to pipe idle verification <Ujwal Patel> 8 months ago
+b01b2d0 : msm: mdss: fix race condition between shutdown thread and fb ioctl <Ujwal Patel> 6 months ago
+7f9347c : msm: mdss: refactor pipe retrieval and ref count logic <Adrian Salido-Moreno> 6 months ago
+684be66 : msm: mdss: prevent dereferencing of user space pointer <Terence Hampson> 6 months ago
+eb7c2ef : msm: mdss: move MDSS revision macros to /linux/msm_mdp.h <Ujwal Patel> 10 months ago
+d055b98 : msm: mdss: Program unpack pattern for pipes with solidfill <Aravind Venkateswaran> 6 months ago
+214d2c1 : msm: mdss: Prevent race condition between dsi off and bta status check <Jayant Shekhar> 9 months ago
+637fa7f : msm: mdss: wait for dma done before issuing dsi bta request <Xiaoming Zhou> 7 months ago
+9d2a6e7 : msm: mdss: keep clocks on during kickoff operation <Kuogee Hsieh> 7 months ago
+57d0211 : msm: mdss: protect command mode BW votes by tracking HW/SW states <Ingrid Gallardo> 7 months ago
+84ed099 : msm: mdss: refactor command mode vsync control logic <Adrian Salido-Moreno> 7 months ago
+51bf53a : msm: mdss: Don't call pan_idle for MSMFB_OVERLAY_PREPARE ioctl <Ramakant Singh> 8 months ago
+b96a36e : msm: mdss: Add SMP per pipe parameter into hw capabilites <Mayank Chopra> 7 months ago
+333434f : msm: mdss: optimize MDP pipes cleanup <Adrian Salido-Moreno> 8 months ago
+048d304 : msm: mdss: Add SMP parameters into hw capabilites <Mayank Chopra> 10 months ago
+fb555c9 : msm: mdss: Reserve single SMP block for writeback mixer pipes <Mayank Chopra> 9 months ago
+d470974 : msm: mdss: On sharing dma pipe increment pipe ref_cnt <Justin Philip> 9 months ago
+4aa8265 : msm: mdss: Check null-pointer dereferencing and buffer overflows <Mathew Karimpanal> 10 months ago
+ca960a4 : msm: mdss: Notify userspace of idle screen case <Aravind Venkateswaran> 8 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+d81cc36 : Revert "[2/2] manifest: track peregrine(moto g 4g)" <DHOMD> 8 hours ago
+fc2bc24 : manifest: track our own webp <bart452> 12 hours ago
+59ce364 : [2/2] manifest: track peregrine(moto g 4g) <bart452> 4 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+7605d96 : Update song start time and current Position <Ayan Ghosh> 4 months ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_CellBroadcastReceiver ****
+fb991c8 : Move CAF strings to separate file <Ethan Chen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Contacts ****
+e1cf0d6 : Clean up multi picker activity. <Danny Baumann> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+c57175a : Hardware keys: add gesture panel support <PrimeDirective> 4 weeks ago
+6e04f86 : Settings: set proper default value for tap to wake <Roman Birg> 11 hours ago
+381abe1 : settings: two times negative equals positive <bart452> 11 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Stk ****
+7189a6d : Stk: Move CAF strings <Michael Bestas> 5 days ago
+ 
+**** https://github.com/VanirAOSP/linaro_toolchains_2014 ****
+f26cf6b : kernel toolchains: update 4.8.4 and 4.9.2 from @Christopher83 <bart452> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/vendor_motorola ****
+baf5f02 : [3/2] import peregrine <bart452> 4 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+9d20562 : kltevzw: Use precompiled nfc_nci like klte does <nuclearmistake> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+d512df7 : Enable incall recording <DHOMD> 5 weeks ago
+9f8e852 : klimtwifi - G Pro 12.2 <DHOMD> 8 days ago
+708fd66 : Clean up APNs for au and SoftBank (Japan) <black> 3 days ago
+c83e768 : Add APN for EMOBILE (Japan) <black> 3 days ago
+da7035d : [1/2]vanir: add moto g 4g support <bart452> 4 days ago
+ 

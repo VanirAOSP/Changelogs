@@ -1,0 +1,66 @@
+
+**** https://github.com/VanirAOSP/device_oneplus_bacon ****
+a7fb2b3 : Make a proper MK for bacon <DHOMD> 49 minutes ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_i9500 ****
+cf29a2e : i9500: Add audio.r_submix.default for casting <zachd> 6 hours ago
+ 
+**** https://github.com/CyanogenMod/android_external_libnfc-nci ****
+d62f251 : Adding NXP NCI Hal implementation <Jizhou Liao> 4 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_libhardware ****
+1dc5e25 : Revert "Add camera parameters for htc evo 3D. (2/2)" <Michael Bestas> 23 hours ago
+ 
+**** https://github.com/xboxfanj/android_kernel_htc_msm8974 ****
+ebbc589 : cpufreq: interactive: Add target_loads_down freq selection <Christopher R. Palmer> 8 days ago
+7b4d495 : cpufreq: interactive: Remove unnecessary cpu_online() check <Viresh Kumar> 1 year, 3 months ago
+f3ac334 : cpufreq: fix sleeping in atomic context when realloc freq_table for all_time_in_state <Minsung Kim> 6 weeks ago
+80bc7b8 : cpufreq: Persist cpufreq time in state data across hotplug <Ruchi Kandoi> 5 months ago
+614ae00 : cpufreq: interactive: turn boost_pulse off on boost off <Ruchi Kandoi> 4 months ago
+bf467bc : drivers: staging: Fix Zcache <Steve Kondik> 2 days ago
+eb7c10c : defconfig: m8: enable zcache <Dan Pasanen> 2 days ago
+27a8594 : staging: zcache: cleanup the code between tmem_obj_init and tmem_obj_find <Xiao Guangrong> 2 years, 1 month ago
+a9f0a44 : staging: zcache: introduce get_zcache_client <Xiao Guangrong> 2 years, 1 month ago
+4260c54 : staging: zcache: cleanup zcache_do_preload and zcache_put_page <Xiao Guangrong> 2 years, 1 month ago
+7b154a8 : staging: zcache: optimize zcache_do_preload <Xiao Guangrong> 2 years, 1 month ago
+4ee2842 : staging: zcache: cleanup zbud_init <Xiao Guangrong> 2 years, 1 month ago
+84100a1 : staging: zcache: mark zbud_init/zcache_comp_init as __init <Xiao Guangrong> 2 years, 1 month ago
+38f1105 : staging: zcache: fix a compile warning <Xiao Guangrong> 2 years, 1 month ago
+026d66f : staging: zcache: fix refcount leak <Xiao Guangrong> 2 years, 1 month ago
+7f07a8c : staging: zcache: don't limit number of pools per client <Sasha Levin> 2 years, 2 months ago
+b4b26a2 : CHROMIUM: UPSTREAM: staging: zram/zcache: swtich Kconfig dependency from X86 to ZSMALLOC <Seth Jennings> 2 years, 1 month ago
+409cc9d : staging: zcache: fix cleancache race condition with shrinker <Seth Jennings> 1 year, 11 months ago
+211106e : htc: go fuck yourselves <Dan Pasanen> 2 days ago
+45b8724 : rcu: Stop rcu_do_batch() from multiplexing the "count" variable <Paul E. McKenney> 2 years, 1 month ago
+aeff553 : Revert "rcu: Move PREEMPT_RCU preemption to switch_to() invocation" <Paul E. McKenney> 2 years, 1 month ago
+e275177 : rcu: Precompute RCU_FAST_NO_HZ timer offsets <Paul E. McKenney> 2 years, 3 months ago
+4336efc : rcu: Move RCU_FAST_NO_HZ per-CPU variables to rcu_dynticks structure <Paul E. McKenney> 2 years, 3 months ago
+e90ec28 : rcu: Update RCU_FAST_NO_HZ tracing for lazy callbacks <Paul E. McKenney> 2 years, 3 months ago
+ec89b1a : timer: Fix mod_timer_pinned() header comment <Paul E. McKenney> 2 years, 3 months ago
+cc7d161 : rcu: Make rcu_barrier() less disruptive <Paul E. McKenney> 2 years, 5 months ago
+4b0d7cc : rcu: Explicitly initialize RCU_FAST_NO_HZ per-CPU variables <Paul E. McKenney> 2 years, 3 months ago
+1e6dbdf : rcu: Make RCU_FAST_NO_HZ handle timer migration <Paul E. McKenney> 2 years, 3 months ago
+6a9553b : rcu: Make exit_rcu() more precise and consolidate <Paul E. McKenney> 2 years, 4 months ago
+d9664a1 : rcu: Move PREEMPT_RCU preemption to switch_to() invocation <Paul E. McKenney> 2 years, 4 months ago
+2ddbc84 : rcu: Ensure that RCU_FAST_NO_HZ timers expire on correct CPU <Paul E. McKenney> 2 years, 5 months ago
+069c38e : rcu: Add warning for RCU_FAST_NO_HZ timer firing <Paul E. McKenney> 2 years, 3 months ago
+ecd403f : rcu: Make RCU_FAST_NO_HZ account for pauses out of idle <Paul E. McKenney> 2 years, 5 months ago
+683ea16 : rcu: Make RCU_FAST_NO_HZ use timer rather than hrtimer <Paul E. McKenney> 2 years, 5 months ago
+455f934 : rcu: Add RCU_FAST_NO_HZ tracing for idle exit <Paul E. McKenney> 2 years, 5 months ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+71ecf85 : Revert "Enable INPUT_CFBOOST" <demetris> 12 hours ago
+ 
+**** https://github.com/LegacyXperia/android_kernel_semc_msm7x30 ****
+24cc670 : msm: rpc: Do not allow new clients on reboot call. <Rudolf Tammekivi> 2 days ago
+1891deb : msm: qdsp5v2: Minor code sync. <Rudolf Tammekivi> 5 days ago
+041d71a : msm: qdsp5v2: Convert all audio devices to ION. <Rudolf Tammekivi> 5 days ago
+35dbf55 : qdsp5v2: Disable fluence code <Arne Coucheron> 1 year, 3 months ago
+cb1c16e : pmem: Do not use special case for DMA. <Rudolf Tammekivi> 8 days ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_oneplus ****
+b48201b : bacon: Remove NFC HAL blob <Ricardo Cerqueira> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+e79943b : taoshan: add sensors.qcom blob <Joseph Riches> 9 days ago
+ 

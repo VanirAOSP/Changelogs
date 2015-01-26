@@ -1,0 +1,156 @@
+
+**** https://github.com/CyanogenMod/android_device_htc_jewel ****
+d1f1041 : jewel: Move custom recovery font to device tree <Ethan Chen> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m4 ****
+3567fe0 : All CPUs on boot <DHOMD> 5 days ago
+5bd9231 : Revert "Revert "m4: drop a bunch of bogus voice call verbs"" <nuclearmistake> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+71d3b3a : Dotcase: add permission to end calls <William C. Garrison III> 4 hours ago
+9a2e8ea : DisplayColorCalibration: get minValue from the sysfs node <Dan Pasanen> 5 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_s4-common ****
+d255b8b : s4-common: Move custom recovery font to device trees <Ethan Chen> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+13f8972 : g2: enable 192KHZ and 24 bit audio for headphones <bart452> 3 hours ago
+71c63a2 : g2: Speed up the notification shade <Steve Kondik> 8 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_lge_p880 ****
+1447135 : Stop redirecting wpa&p2p supplicant to logging system. <demetris> 3 days ago
+c0b48ec : Modify gps permission in init.rc <demetris> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_moto_msm8960 ****
+f6099e7 : Remove duplicate entries in makefiles <nadlabak> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+ef50d3e : don't use SoftAAC for downmix <Lucian Cristian> 32 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_i9500 ****
+e9efbf3 : i9500: Add missing mobicore file to proprietary-files <NBruderman> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_mondrianwifi ****
+5fb7333 : Revert "mondrianwifi: audio: Enable high samplerate on supported paths" <Christopher R. Palmer> 14 hours ago
+ 
+**** https://github.com/olivieer/device_sony_taoshan ****
+2ecc907 : taoshan: don't force the inheritance of taoshan-vendor.mk <Olivier> 5 hours ago
+7f61b88 : taoshan: update dependencies <Olivier> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+b906ecb : unprotect virtual ~AudioTrack(); to fix build <DHOMD> 2 hours ago
+0e37e36 : httplive: fix issues during httplive streaming seek <Li Sun> 3 months ago
+5ebd3ea : libstagefright: Disable smoothstreaming for secure playback <Santhosh Behara> 5 weeks ago
+6df1bb5 : stagefright: Do not drop encoded frames when writer is paused <Praveen Chavan> 13 days ago
+4692352 : audioflinger: remove wake lock implementation from APS <Preetam Singh Ranawat> 2 weeks ago
+3e64b6a : stagefright: avoid crash while seeking MKV content <Praveen Chavan> 11 days ago
+3ed51e2 : stagefright: More custodial engineering <Steve Kondik> 6 days ago
+fe4d84c : libstagefright: Don't invoke FFMPEG for MP3 <Steve Kondik> 6 days ago
+895417e : stagefright: fix offloading HE-AAC sampling rate. <Eric Laurent> 7 months ago
+a99ce77 : mp3dec: Hide legacy stuff <Steve Kondik> 6 days ago
+3feb280 : frameworks/av : Add Null check for Audio Track <Satish Babu Patakokila> 4 months ago
+6e5c9b6 : stagefright: Fix the input channel count <Steve Kondik> 6 days ago
+f9e8671 : Added support to query ACodec whether adaptive playback is enabled. <Robert Shih> 6 months ago
+a76809c : RTSP: Don't post AUTimeout check during pause when EOS is nearing <Santhosh Behara> 5 weeks ago
+ecf990e : Set the correct audio bit rate for camera recorded content <Daniel Bonnevier> 5 months ago
+fd1ef61 : accelerate camera recording start up speed <Guoliang Ji> 1 year, 2 months ago
+a6a58e2 : Fix for getPosition after seek <Wang Liyong> 2 years, 3 months ago
+f5b9912 : audioflinger: Ensure SRS effects are applied on active tracks <Sharad Sangle> 10 weeks ago
+99e1183 : audio:Avoid AudioTrackThread if Track creation fails <Divya Narayanan Poojary> 3 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+3a33e77 : KeyguardViewManager: reduce IO for lockscreen and accelerometer rotation <PrimeDirective> 6 days ago
+2ffbc65 : KeyguardViewManager: use global for high end graphics check <PrimeDirective> 7 days ago
+67cd38e : Fix crash in widget pager - DO NOT MERGE <Jim Miller> 2 months ago
+6c3cb71 : Revert " Audio: SetForceUse config check in AudioService" <Satya Krishna Pindiproli> 2 weeks ago
+5e7da85 : Use a content observer for getting the default APN <Dante Russo> 3 weeks ago
+59f9ad3 : server: clear forwarding rules when tethering is disabled <Sagar Regmi> 3 weeks ago
+d9838df : frameworks/base: Fix binder parcel leak with getMetadata() API <Maunik Shah> 3 weeks ago
+d58605d : Use the correct package name for CHOOSER. <Kenny Root> 4 months ago
+4bc307b : KeyChain: add explicit package for getPrivateKey. <Kenny Root> 5 months ago
+6dd5993 : lockscreen blur: make sure FLAG_SHOW_WALLPAPER is properly removed <PrimeDirective> 7 hours ago
+e71d48e : fix hardcoded navbar spacing on tablets <PrimeDirective> 28 hours ago
+11ec188 : Keyguard: repair/improve lockscreen blur with CM's theme engine <PrimeDirective> 6 days ago
+0f210dc : Themes: Style, boot animation, and wallpaper previews <Clark Scheff> 5 days ago
+d9b59c7 : Allow subclasses to override bindPreferences(). <Danny Baumann> 4 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_libhardware ****
+86458ac : audio: Add flac codec specific parameters <ApurupaPattapu> 4 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_libhardware-legacy ****
+caeec1b : audio_policy: Fix for audio routing speaker though BT is connected <Zhou Song> 4 weeks ago
+39376a7 : audio: Handle sonification for last stream in stopOutput <Chaithanya Krishna Bacharaju> 8 weeks ago
+a74b033 : audio: New audio format for FLAC <ApurupaPattapu> 4 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+ff93769 : audio: Starting proxy thread when there is an active stream <Ramjee> 7 weeks ago
+3b182e0 : mm-audio: Remove omx decoder components from mm-audio folder <Manish Dewangan> 3 months ago
+a969e69 : mm-audio: aenc: timestamp fixes <Haynes Mathew George> 3 months ago
+d89a349 : hal: fix mutex unlock issue <Gopikrishnaiah Anandan> 6 weeks ago
+a935fe1 : alsa_sound: call voice volume api for direct output also <Karthik Reddy Katta> 4 weeks ago
+a6ccbe3 : policy_hal: Set the output devices in ascending order of outputs <Preetam Singh Ranawat> 5 weeks ago
+478b74d : Revert "audio: primary desc check for sonification" <Mingming Yin> 10 weeks ago
+7eca620 : audio_policy: force cancel unexecuted device routing command <Zhou Song> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display-caf-new ****
+28c5f40 : overlay: Remove usage of scale header <Saurabh Shah> 8 weeks ago
+d34af09 : overlay: Trace all MDP ioctls <Naseer Ahmed> 7 days ago
+40070f9 : copybit: Minor fix in opening copybit device <Dileep Kumar Reddi> 12 days ago
+12c08f5 : copybit: Export c2d header <Naseer Ahmed> 9 weeks ago
+9825013 : hwc: Close release fence fd on buf sync ioctl failure <Tatenda Chipeperekwa> 4 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+bb8da9a : Gammacontrol: Lucky number 13 <Dave Daynard> 19 hours ago
+f0d9725 : oled: d2, etc: Clean up some logspam <Luis Cruz> 21 hours ago
+2743448 : mipi_samsung_oled: Set gammas without need for a screen reset <Ryan Pennucci> 22 hours ago
+bf64c3a : GammaControl: Color mods fixup <Luis Cruz> 22 hours ago
+7913639 : Linux 3.4.97 <Greg Kroah-Hartman> 22 hours ago
+0c3351a : tracing: Fix syscall_*regfunc() vs copy_process() race <Oleg Nesterov> 3 months ago
+e3293b8 : ptrace,x86: force IRET path after a ptrace_stop() <Tejun Heo> 4 days ago
+60db341 : powerpc: fix typo 'CONFIG_PPC_CPU' <Paul Bolle> 7 weeks ago
+52cbee9 : powerpc: fix typo 'CONFIG_PMAC' <Paul Bolle> 7 weeks ago
+d5110f6 : powerpc/pseries: Fix overwritten PE state <Gavin Shan> 3 months ago
+bdef830 : nfsd: getattr for FATTR4_WORD0_FILES_AVAIL needs the statfs buffer <Christoph Hellwig> 6 weeks ago
+eb55ed0 : nfsd4: fix FREE_STATEID lockowner leak <J. Bruce Fields> 6 weeks ago
+d0d9888 : IB/umad: Fix use-after-free on close <Bart Van Assche> 4 weeks ago
+b6b405b : IB/umad: Fix error handling <Bart Van Assche> 7 weeks ago
+c52be4c : IB/srp: Fix a sporadic crash triggered by cable pulling <Bart Van Assche> 7 weeks ago
+7517010 : IB/ipath: Translate legacy diagpkt into newer extended diagpkt <Dennis Dalessandro> 9 weeks ago
+dd823fd : IB/qib: Fix port in pkey change event <Mike Marciniszyn> 9 weeks ago
+e8b6433 : watchdog: sp805: Set watchdog_device->timeout from ->set_timeout() <Viresh Kumar> 8 weeks ago
+0834497 : UBIFS: Remove incorrect assertion in shrink_tnc() <hujianyang> 5 weeks ago
+df5c07b : MIPS: MSC: Prevent out-of-bounds writes to MIPS SC ioremap'd region <Markos Chandras> 2 weeks ago
+0e4c57c : recordmcount/MIPS: Fix possible incorrect mcount_loc table entries in modules <Alex Smith> 3 weeks ago
+5564b79 : PCI: Fix incorrect vgaarb conditional in WARN_ON() <Bjorn Helgaas> 3 months ago
+ade1407 : PCI: Add new ID for Intel GPU "spurious interrupt" quirk <Thomas Jarosch> 3 months ago
+c80dcb8 : Input: elantech - deal with clickpads reporting right button events <Hans de Goede> 4 weeks ago
+c589161 : GammaControl: Fix tuner being set <Luis Cruz> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+db22df0 : Calculator: fix exponents in matrices <Xlythe> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_CellBroadcastReceiver ****
+ee9323f : CellBroadcastReceiver: Add missing up navigation <Michael Bestas> 4 days ago
+b0c8ca8 : CellBroadcastReceiver: Update ActionBar to match Settings <Michael Bestas> 4 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+cd55c40 : Highlight search string match. <Danny Baumann> 6 days ago
+c79852c : DisplayColor: Properly handle a minValue <Dan Pasanen> 4 days ago
+6802c5d : lockscreen interface: reenable lockscreen blur <PrimeDirective> 7 days ago
+fb819e9 : Fixup search stuff <nuclearmistake> 19 hours ago
+892a8d5 : Settings: Disable search item in some fragments. <Adnan> 6 days ago
+ab0c455 : Improve search performance. <Danny Baumann> 4 days ago
+992ab8f : Settings : Scroll to preference on search and highlight <Danesh Mondegarian> 7 days ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+14d581a : toggleLTE: switch to Global mode on devices that default to it <Dan Pasanen> 10 days ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+a1eabf9 : audio: Add support for FLAC in compress offload path <ApurupaPattapu> 4 months ago
+ 
+**** https://github.com/VanirAOSP/system_vold ****
+6c90306 : Create disk encryption key before framework start <Dinesh K Garg> 3 months ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+12528ba : P31XX & P51XX: get rid of prebuilt hostapd <andi34> 30 hours ago
+ 

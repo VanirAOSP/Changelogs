@@ -1,0 +1,208 @@
+
+**** https://github.com/VanirAOSP/bionic ****
+36dee3b : libc: Add memchr for cortex-a53 <Howard M. Harte> 9 months ago
+ 
+**** https://github.com/VanirAOSP/build ****
+5a4f952 : Fix graphite flags breaking clang (when enabled) <nuclearmistake> 7 hours ago
+e0e0ada : vanir_config v1.0.1: introduce a centralized location for custom build flags <Dave Kessler> 6 days ago
+7a229f0 : Optimize for krait cpu's with krait2 clang flags <sudosurootdev> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_dlx ****
+e363255 : telephony: show apn settings <Dan Pasanen> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+c3dd373 : Add TARGET_ARCH_VARIANT_CPU := cortex-a15 which cm doesn't use. Better ID better OPT! Never noticed it missing till just now. <sudosurootdev> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g3-common ****
+e4b6b4d : Revert "sepolicy: address a couple denials" <Dan Pasanen> 24 hours ago
+261e0bf : sepolicy: address a couple denials <Dan Pasanen> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_vs985 ****
+9afe7ff : telephony: show apn settings <Dan Pasanen> 17 hours ago
+2df1e3d : overlay: increase mms size limit <Jonathan Dean> 7 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_find7 ****
+7a3a635 : find7: Enable additional pseudo sensors <Steve Kondik> 2 weeks ago
+3997bb8 : find7: Update property to enable sensor gestures <Steve Kondik> 3 weeks ago
+5da0218 : find7: Don't offload AC3 <Steve Kondik> 3 weeks ago
+c8fa18d : find7: Remove unused overlay <Michael Bestas> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+53334c2 : msm8974: sepolicy for display tuning knobs <Steve Kondik> 24 hours ago
+f94a633 : msm8974: use 48KHz sampling rate for A2DP <Andrew Bartholomew> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_qcom_sepolicy ****
+e04329d : sepolicy: Rule for CM's mpdecision extension <Steve Kondik> 24 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2vzw ****
+602af3b : telephony: show apn settings <Dan Pasanen> 17 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_jf-common ****
+a930bbc : jf: remove deprecated audio_policy.msm8960 <jt1134> 31 hours ago
+4392c31 : jf: sepolicy: fix /data/cam_socket* denials <dcd> 29 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_jfltevzw ****
+dd349b8 : telephony: show apn settings <Dan Pasanen> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+26bbb55 : msm8960: remove deprecated audio policy HAL <jt1134> 2 weeks ago
+ 
+**** https://github.com/Ziyann/android_device_samsung_tuna
+origin	git@github.com:VanirAOSP/NEW_device_samsung_tuna.git
+vanir	https://github.com/VanirAOSP/device_samsung_tuna ****
+e79ffa9 : Revert "Use accelerometer for desk docks." <Ziyan> 7 hours ago
+3b7d475 : Revert "Disable marquee fading edges" <Ziyan> 7 hours ago
+ec03926 : tuna: disable fRom for now <Ziyan> 8 hours ago
+cd74b07 : tuna: audio: align widget names with recent kernel changes <Ziyan> 9 days ago
+3681177 : tuna: audio: add parameters to open stream functions <Ziyan> 10 days ago
+bbe4dc6 : tuna: audio: Add audio_input_flags_t to HAL open_input_stream <Ziyan> 10 days ago
+891884c : tuna: audio: deprecate audio_stream_frame_size() <Ziyan> 10 days ago
+6b214c1 : tuna: use awesome player for now <Ziyan> 11 days ago
+7df9de2 : tuna: update keymaster to KEYMASTER_MODULE_API_VERSION_0_3 <Ziyan> 11 days ago
+4d607a8 : tuna: fix most selinux denials <Ziyan> 11 days ago
+b1944ec : tuna: moved fRom to vendor/bin <Ziyan> 11 days ago
+9168d58 : tuna: add ffmpeg codecs <Ziyan> 11 days ago
+2028ac7 : Force old camera API. <Kyle Repinski> 13 days ago
+6a4612b : tuna: enable KSM <Ziyan> 2 weeks ago
+4456806 : tuna: Add ambient temperature sensor. <Kyle Repinski> 5 months ago
+fdfec61 : tuna: remove unnecessary overlay <Ziyan> 2 weeks ago
+f676feb : Enable use of FFMPEG codecs for extended formats <Lucian Cristian> 7 months ago
+b53f30f : tuna: check proximity when waking device <Ziyan> 2 weeks ago
+fbb93c9 : tuna: enable LED customizations <Ziyan> 2 weeks ago
+b7703b7 : tuna: add support for battery LED charging <Lars Greiss> 1 year, 2 months ago
+93aa9d1 : hwc: Add option to ignore fb1. <Kyle Repinski> 2 weeks ago
+89db3d9 : tuna: drop restorecons from init.tuna.rc file <Ziyan> 2 weeks ago
+2875849 : tuna: changes for healthd charger mode <Ziyan> 2 weeks ago
+ccca6a5 : tuna: remove unnecessary init entries <Ziyan> 2 weeks ago
+581b329 : tuna: add TARGET_NEEDS_BIONIC_MD5 <Ziyan> 2 weeks ago
+daff537 : tuna: simplify /factory partition handling <Ziyan> 2 weeks ago
+625dac9 : tuna: adapt keylayouts to 5.0 <Ziyan> 2 weeks ago
+2bc6f79 : Allow telephony access to proc/cmdline <dhacker29> 1 year, 4 months ago
+9b176bf : tuna: add open-source domx/camera stuff <Ziyann> 3 weeks ago
+9f5171d : tuna: fix sensors build with 5.0 <Ziyann> 3 weeks ago
+5c2a404 : libcorkscrew: add stub-implementation to make gralloc happy <Michael Gernoth> 5 weeks ago
+e695bfc : tuna: stagefright: use media_codecs_google*.xml files <Ziyann> 3 weeks ago
+3739168 : overlay: Recents configuration. <Kyle Repinski> 5 weeks ago
+9e6be6a : tuna: enable WITH_DEXPREOPT <Ziyann> 3 weeks ago
+3d02065 : tuna: add wifi packages <Ziyann> 3 weeks ago
+7678627 : tuna: fix recovery build <Ziyann> 3 weeks ago
+628f707 : tuna: update hwcompomposer.h from 5.0 <Ziyann> 3 weeks ago
+3de078b : PVR: add re-implemented pvrsrvinit and glue <Kyle Repinski> 4 weeks ago
+aeee470 : Add linux/fb.h to kernel-headers. <Kyle Repinski> 8 weeks ago
+887aa47 : Fix liblight build. <Kyle Repinski> 8 months ago
+fde9e24 : tuna: selinux: accelerometer_device is obsoleted by the more general sensors_device <Ziyann> 4 weeks ago
+2367929 : tuna: update device tree to use PVR 1.9@2291151 <Ziyan> 2 weeks ago
+cc5588a : tuna: recovery updates <Ziyann> 4 weeks ago
+9f48104 : selinux: Don't reset inherited system-wide configs <Ricardo Cerqueira> 1 year, 1 month ago
+c3683b6 : tuna: update flag for dumpstate library <Michael Limb> 1 year, 1 month ago
+270287c : tuna: force the screenshot path to CPU consumer <Ziyann> 4 weeks ago
+6667b6e : tuna: commonize what we can (1/4) <Ziyann> 3 months ago
+b3a8b11 : tuna: refactor makefiles <Ziyann> 4 weeks ago
+9679fc4 : tuna: remove outdated prebuilt kernel, setup inline kernel building <Ziyann> 4 weeks ago
+11dbb91 : tuna: move key maps to keymap/ <Ziyann> 4 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_common ****
+b5906da : extract-files: Add a setup-only option <Chirayu Desai> 19 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_rhine-common ****
+1ab555f : Fix typo in audio policy configuration <Chirayu Desai> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/external_sepolicy ****
+3126224 : sepolicy: allow system apps to access ASEC <Pawit Pornkitprasan> 2 days ago
+ 
+**** https://github.com/VanirAOSP/external_skia ****
+5c4182f : external/skia: Update QC hooks <Xin Qi> 3 weeks ago
+d29be05 : SkDraw::drawRect  optimization <Lucas Crowthers> 1 year, 1 month ago
+fe5bd66 : NEON optimized blitter S32_Opaque_D32_filter_DX <Xin Qi> 1 year, 1 month ago
+d9c9fb8 : SkBlitter_RGB16: Add device-specific optimization hooks <David Ng> 3 years ago
+5933685 : external/skia Hooks for optimized blitting <Xin Qi> 1 year, 2 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+396b737 : stagefright: Allocate only what is needed for FLAC decoding <Steve Kondik> 31 hours ago
+45e9380 : stagefright: Revert patches which should not have carried over <Steve Kondik> 2 days ago
+97d303e : AudioTrack: Reject offloading for non-music streams <Haynes Mathew George> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+2ca542a : Gesture panel [2/2] <PrimeDirective> 4 months ago
+4fd5519 : Frameworks: Gesture Lockscreen (1/2) <0xD34D> 11 months ago
+97a001b : Update color dependent items when reusing notifications. <Danny Baumann> 22 hours ago
+aa7e289 : framework: add blacklist disconnect cause <Roman Birg> 30 hours ago
+7a57a13 : platform/framework/base: Fix Half Blank screen issue in Wallpaper <Sashidhar Ganiga> 8 weeks ago
+a3531ba : Status bar: Add HSPA+ icons <Rashed Abdel-Tawab> 13 days ago
+e3a5a49 : Revert "SystemUI: Add data type and signal icons" <Michael Bestas> 3 days ago
+0407211 : Battery text mode (1/2) <kecinzer> 2 weeks ago
+a890901 : frameworks/base: Fix key remapping after toggling navigationbar. <Kyrylo Mikos> 4 days ago
+1065674 : frameworks/base: Don't report existing menu key if it was remapped. <Kyrylo Mikos> 6 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+a3485ea : Be more graceful about handling null waitingapns <nuclearmistake> 7 hours ago
+e54a015 : Telephony : Add TRANSPORT_TYPE_COUNT_COLUMN column <Danesh M> 29 hours ago
+48a9501 : Correctly provide the technology to setup data connection <Cristoforo Cataldo> 4 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_gps ****
+5bd867e : build: Only include this for qcom platforms <Diogo Ferreira> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_lge_g3 ****
+70f31b7 : msm: mdss: enable under-run interrupt for secondary ctl <Ujwal Patel> 11 months ago
+90cd848 : msm: mdss: add support to validate pixel extension calculations <Ujwal Patel> 4 months ago
+6ceb463 : msm: mdss: fix underrun between splash screen and boot animation <Ingrid Gallardo> 4 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+27f5410 : Get rid of identical hardware/qcom/media <sudosurootdev> 27 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_AudioFX ****
+f248386 : AudioFX: Move the layout from res/layout-sw330dp to res/layout <linus_lee> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Browser ****
+7bd77ce : Browser: Materialize <linuxx> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+298b03a : calculator: add hex/binary mode <emancebo> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+1d5af43 : DeskClock: Make settings consistent <Michael Bestas> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+19b2b7c : Make reverse lookup implement the phone number lookup interface (1/2) <Danny Baumann> 10 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+4aa8deb : Make reverse lookup implement the phone number lookup interface (2/2) <Danny Baumann> 10 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Mms-caf ****
+90beefa : Mms : Add ability to delete sms/mms individually <Danesh M> 2 days ago
+05788cd : Mms : Fix templates <Danesh M> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+3ffcd0b : Gesture panel [1/2] <PrimeDirective> 4 months ago
+2b98515 : Settings: Gesture Lockscreen (2/2) <0xD34D> 11 months ago
+e5f812c : Settings: add a way to open blacklist settings externally <Roman Birg> 2 days ago
+853405b : Battery text mode (2/2) <kecinzer> 2 weeks ago
+2b5ad16 : Settings: fix MSim package names <Pawit Pornkitprasan> 2 days ago
+f318cf2 : Settings: Remove Wallpaper selection from Display <Roman Birg> 8 months ago
+7ce9b33 : Settings: Cleanup display settings code <Michael Bestas> 2 days ago
+4fa0ba4 : Accessibility settings: Convert checkboxes to switches <Michael Bestas> 2 days ago
+4909742 : Settings: Remove screen rotation from accessibility <Michael Bestas> 7 months ago
+34c855b : Settings - Button settings: CheckBoxes to Switches <STELIX> 6 days ago
+29f58c7 : Revert "settings: Fix warnings" <Varun Chitre> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Stk ****
+d1f5ba1 : Stk: Make the text a little smaller <Diogo Ferreira> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_TelephonyProvider ****
+a90e022 : MmsProvider : Add ability to query types in a conversation thread <Danesh M> 29 hours ago
+fdf517e : MmsProvider : Add ability to delete mms given a thread id <Danesh M> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_services_Telecomm ****
+333a5f4 : Telecomm: update blacklist activity name <Roman Birg> 2 days ago
+14cb7dc : Telecom: mark the Call as blacklisted <Roman Birg> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+91e66c9 : Telephony: fix MSim package names <Pawit Pornkitprasan> 2 days ago
+ 
+**** https://github.com/VanirAOSP/system_vold ****
+62ff432 : vold: Mount ext4/f2fs sdcards with sdcard_posix context <Tom Marshall> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+0f3b0c7 : cm: sepolicy: Remove vold external sdcard rules, moved to main sepolicy <Tom Marshall> 6 hours ago
+0ec1584 : Sepolicy: Add theme service as system service <Andy Mast> 5 days ago
+ 

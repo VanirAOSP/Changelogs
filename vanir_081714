@@ -1,0 +1,149 @@
+
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+1d34c09 : m8: ramdisk update <Jake Weinstein> 4 hours ago
+9cf412f : m8: update power configuration <Jake Weinstein> 4 days ago
+ 
+**** https://github.com/cannondalev2000/device_motorola_falcon ****
+093fb13 : Update BoardConfig.mk <cannondalev2000> 22 hours ago
+2dbe966 : falcon: Move fstab to device <Ethan Chen> 4 days ago
+2c86386 : falcon: Correct partition sizes for 8GB variant <Ethan Chen> 4 days ago
+7d22969 : falcon: Move WCNSS NV to device <Ethan Chen> 4 days ago
+a0f5795 : falcon: Move storage_list overlay to device <Ethan Chen> 4 days ago
+e31ffc0 : falcon: Update setup-makefiles.sh, extract-files.sh <Ethan Chen> 4 days ago
+2273493 : falcon: Move common system properties to msm8226-common <Ethan Chen> 4 days ago
+4df4f0b : falcon: Move sensor HAL to device <Ethan Chen> 4 days ago
+a748ec3 : falcon: Move common device definitions to msm8226-common <Ethan Chen> 4 days ago
+7aaa61b : squish into move items back <Ethan Chen> 4 days ago
+975e0dc : falcon: Use nested cm.dependencies <Ethan Chen> 4 days ago
+28d7d54 : falcon: Move common items back to msm8226-common <Ethan Chen> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+57c6b6d : overlays: enable all location overlays + misc cleanup <elelinux> 26 hours ago
+9c34ef3 : add missing permission for compass <elelinux> 30 hours ago
+b0c4e50 : add misc to gps group <elelinux> 30 hours ago
+1124285 : Revert "Build nfc HAL from the source" <nuclearmistake> 9 hours ago
+ 
+**** https://github.com/Team-Exhibit/android_device_samsung_u8500-common ****
+5481284 : Update step numbers for enabling voltages <Robert Rozic> 3 weeks ago
+4d53493 : UV: We are not using extended steps on CM releases <Robert Rozic> 3 weeks ago
+2843c56 : u8500: init: switch to deadline scheduler on boot <zwliew> 3 weeks ago
+b8b6456 : Update audio.h <Robert Rozic> 3 weeks ago
+7dbbce3 : init: tune interactive governor more <zwliew> 3 weeks ago
+84d9a2d : init: tune interactive above_hispeed_delay after boot <zwliew> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+d587d57 : Add missing functions and signatures for older OMX video libs compat <timduru> 12 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+4d2d515 : Navbar: configurable IME layout <PrimeDirective> 3 weeks ago
+ 
+**** https://github.com/xboxfanj/android_kernel_htc_msm8974 ****
+e6c717d : rq_stats: Import myfluxi's driver so PowerHAL functions <Jake Weinstein> 9 hours ago
+0207359 : interactive: add back get_cpu_idle_time_jiffy <Jake Weinstein> 29 hours ago
+460f903 : interactive: Import neobuddy89's governor based on myfluxi and crpalmer's <Jake Weinstein> 32 hours ago
+7443c05 : interactive: import myfluxi's gov <Jake Weinstein> 2 days ago
+56ef915 : cpufreq: interactive: don't schedule timer on offline cpu <Lianwei Wang> 1 year, 3 months ago
+5a5af35 : msm: hotplug: Check down lock for lowest load cpu <myfluxi> 2 months ago
+bd2fe52 : msm: hotplug: Add io_is_busy interface <myfluxi> 3 months ago
+de37009 : defconfig: enable msm_hotplug, disable cpuquiet <Jake Weinstein> 3 days ago
+8318752 : msm: hotplug: Update default fast_lane_load <myfluxi> 3 months ago
+8ea33c1 : msm: hotplug: Fix another derp <myfluxi> 3 months ago
+cea09c5 : msm: hotplug: Use load dependent update rates <myfluxi> 3 months ago
+a9c0ae8 : msm: hotplug: Readd suspend max cpus and frequency options <myfluxi> 3 months ago
+4692c8a : msm: hotplug: Remove the redundant iowait check <myfluxi> 3 months ago
+09e30f8 : msm: hotplug: On- and offline cpus only when enabled <myfluxi> 3 months ago
+7e76896 : msm: hotplug: Underp input checks <myfluxi> 3 months ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+c55f216 : af-packet: TPACKET_V3 flexible buffer implementation. <chetan loke> 3 years ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_motorola_msm8226
+https://github.com/cannondalev2000/kernel_motorola_msm8226 ****
+4e74209 : Revert "msm: rq_stats: Disable hotplug and stats by default" <Ethan> 5 hours ago
+b40a05c : msm: rq_stats: Disable hotplug and stats by default <myfluxi> 3 months ago
+6f34cdb : defconfig update <Ethan> 10 hours ago
+2fb4fa5 : fix bus overclock <Luka Karinja> 5 weeks ago
+a949e07 : Overclock stock bus & ram <Luka Karinja> 6 weeks ago
+709dca2 : defconfig update <Ethan> 17 hours ago
+c2847e6 : arm/crypto: Add optimized AES and SHA1 routines <faux123> 1 year, 9 months ago
+d309fc0 : Optimized ARM RWSEM algorithm <faux123> 2 years, 5 months ago
+1a12325 : lib/string: use glibc version <faux123> 1 year, 9 months ago
+a199d6a : lib/memcopy: use glibc version <faux123> 1 year, 9 months ago
+25b2e0f : enable NEON mode <Ethan> 17 hours ago
+374e470 : ARM: use -mcpu=cortex-a7 when targeting MSM8226 CPUs (Cortex-A7 based) <Paul Reioux> 7 months ago
+7adff08 : ARM: only allow kernel mode neon with AEABI <Russell King> 11 months ago
+1c2e598 : ARM: 7835/2: fix modular build of xor_blocks() with NEON enabled <Ard Biesheuvel> 11 months ago
+10d310e : ARM: crypto: add NEON accelerated XOR implementation <Ard Biesheuvel> 1 year, 3 months ago
+0b9461e : ARM: add support for kernel mode NEON <Paul Reioux> 7 months ago
+ee5d9e8 : ARM: be strict about FP exceptions in kernel mode <Paul Reioux> 7 months ago
+e46149e : ARM: move VFP init to an earlier boot stage <Paul Reioux> 7 months ago
+5d97d70 : intelliactive: Fix Compile Warnings <Chet Kener> 3 months ago
+221c94f : Remove early_suspend cpu govs <cameron581> 3 months ago
+fa4e0f5 : Fix Frequencies <cameron581> 3 months ago
+92991eb : Add All the Cpu Gov's to Defconfig! <cameron581> 3 months ago
+6256008 : HYPER: Remove Dead Code <Chester Kener> 5 months ago
+14f16e7 : cpufreq: smartass2: Update <Chester Kener> 7 months ago
+7f0fb64 : cpufreq: interactivex: Update <Chester Kener> 7 months ago
+c67f997 : cpufreq: ondemandx: Make lowercase "x" <Chester Kener> 7 months ago
+d02cf5c : cpufreq: Update HYPER <Chester Kener> 5 months ago
+e02272a : Revert "cpufreq: Makefile: Reverse Alphabetize" <cameron581> 3 months ago
+d99e1c1 : cpufreq: Makefile: Reverse Alphabetize <Sean Hoyt> 3 months ago
+a17f854 : cpufreq: Introduce Darkness <Chet Kener> 3 months ago
+125ead3 : uberdemand: simplify code <Chet Kener> 4 months ago
+ed37778 : cpufreq: Introduce Uberdemand <Chet Kener> 4 months ago
+7932f67 : cpufreq: Add Lazy <Chester Kener> 5 months ago
+1b1bb36 : cpufreq: PegasusQ <Chester Kener> 5 months ago
+6378cb1 : Add Asswax Gov <Sean Hoyt> 4 months ago
+bf31982 : Add Nightmare Gov <Sean Hoyt> 4 months ago
+79293f8 : Smartmax <TommyTarts> 9 months ago
+f022a3d : update intellidemand <cameron581> 3 months ago
+6732dc8 : intelliactive: add upstream patches <Paul Reioux> 5 months ago
+d04d9a4 : intelliactive: make touch boost interface generic <Paul Reioux> 5 months ago
+0e642f2 : intelliactive: fix race condition when unregistering input handlers <Paul Reioux> 6 months ago
+08fa60c : cpufreq: intelliactive: adjust tunables for MSM8226 devices <Paul Reioux> 7 months ago
+c5a6707 : cpufreq: intelliactive: initial coding and introduction! <Paul Reioux> 7 months ago
+11b7030 : Cpufreq: Add DanceDance <Chester Kener> 7 months ago
+e2336be : Badass CPU Gov <Chester Kener> 7 months ago
+f58a310 : Cpufreq: Add Wheatley <Chester Kener> 7 months ago
+97108e0 : Add More CPU Govs <Chester Kener> 7 months ago
+2aadd00 : cpufreq: Add Many Governors <Chester Kener> 7 months ago
+6354aca : arch/arm/mach-msm/mpm-of.c: gcc 4.9.x fix up <Paul Reioux> 2 weeks ago
+e87543b : fix build error to use 4.10 toolchain 	modified:   drivers/cpufreq/cpufreq_interactive.c <Jason H Weitzel> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_smdk4412 ****
+8245168 : cpuidle-exynos4: calm down some logspam <Dan Pasanen> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+ffc9c1c : Revert "remove motorola 8226-common it was all moved to falcon tree" <Ethan> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+8d1f48f : Navbar: configurable IME layout <PrimeDirective> 3 weeks ago
+c16d17d : remove disable navkeys option <PrimeDirective> 35 hours ago
+256b6df : Navbar: update enable switch state based on hardware key navbar toggle <PrimeDirective> 3 days ago
+2442812 : Immersive desktop: fix array values/entries update when toggling navbar <PrimeDirective> 3 days ago
+81947d9 : Add most settings to recursive setting search feature <PrimeDirective> 10 days ago
+ 
+**** http://android.git.linaro.org/git-ro/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro ****
+d1fc21b : Import toolchain 4.9-2014.08 <Bernhard Rosenkränzer> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_htc ****
+6550c40 : m8: remove VerizonSSO apk <Jake Weinstein> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_lge ****
+7892bb7 : g2: update adreno drivers from qdevnet 7 august 2014 <bart452> 2 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_motorola ****
+d7ed59d : re add 8226-common and update falcon <Ethan> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+6ce80d7 : Reconcile camera related props with Muppets <DHOMD> 6 hours ago
+f325dd7 : jflte: use gpe camera hal <Dan Pasanen> 24 hours ago
+18c1024 : Revert "build nfc HAL from the source instead of prebuilt" <nuclearmistake> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+1f49319 : honami: adapted outgoing call fix <root> 15 hours ago
+479fcb2 : yuga: adapted outgoing call fix <root> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+b53e17e : Enable incall recording <DHOMD> 2 days ago
+ 

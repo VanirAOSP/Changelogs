@@ -1,0 +1,245 @@
+
+**** https://github.com/VanirAOSP/bootable_recovery_TWRP ****
+751a85e : Allow for X and Y offsets in GUI <Ethan Yonker> 4 weeks ago
+fda239b : Add locking to DataManager, remove unused C parts <Vojtech Bocek> 2 days ago
+8360a34 : Use power button to go back in watch themes <Vojtech Bocek> 2 days ago
+0d47eb5 : Improve GUI handling of zip flashing <Ethan Yonker> 12 hours ago
+96af84a : Allow flashing of images via the GUI <Ethan Yonker> 4 days ago
+7d3b54f : gui: fix action threading if background thread is busy <that> 8 hours ago
+c608548 : Run some actions in a separate thread <that> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/build ****
+bc41b26 : include raw build.prop in blkimgdiff output - because our ota tool has a REALLY dumb backend :-D <nuclearmistake> 6 hours ago
+c609c40 : Revert "Revert "Disable -mcpu=cortex-a15 flag for krait"" <nuclearmistake> 2 days ago
+ 
+**** https://github.com/AlmightyMegadeth00/device_htc_flounder-kernel ****
+cc79d48 : Rename Image.gz-dtb to kernel <Dave Kessler> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m4 ****
+892940e : m4: Address rild denial <Jurica Vukadin> 29 hours ago
+a956d06 : m4: Fix drmserver denial <Jurica Vukadin> 35 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_msm8960-common ****
+f428120 : Camera: override camera2.portability.force_api property <Suman Mukherjee> 4 months ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+275a58b : Fix Verizon Roaming Issue & Sprint subcompany data issues. <sudosurootdev> 11 hours ago
+5dfae39 : Camera2 overlay not used anymore <sudosurootdev> 3 days ago
+1a0b3b8 : None of these Settings overlays are used. <sudosurootdev> 3 days ago
+866ace4 : Remove Torch overlays, while Torch app is not used. <sudosurootdev> 3 days ago
+a76f6a2 : Fix sprint tethering <sudosurootdev> 3 days ago
+909e4b5 : Create seperate voip input & output <sudosurootdev> 4 days ago
+9a67fee : More mixer path updates. <sudosurootdev> 6 days ago
+2b3a6c8 : Remove all cellular specific dirs & files. The same is in default values and xml dirs, and/or in framework, which should be good by now. <sudosurootdev> 5 days ago
+67243c5 : Update overlays with missing ROAMING INDICATORS. <sudosurootdev> 5 days ago
+bef72b6 : Actual Mistake <sudosurootdev> 5 days ago
+9518683 : Revert "Fix mistake" Telephony & Telecomm are blurring my mind & vision... lol. There was no mistake. <sudosurootdev> 5 days ago
+b3d3b67 : Fix mistake <sudosurootdev> 5 days ago
+14bfca7 : Sort out overlay files. <sudosurootdev> 6 days ago
+feef96b : Make sure that lge_touch "Tap to Wake' is working on boot. It was not re-activated after reboot... so you'd have to turn it off and on again everytime with EXODUS branch builds. <sudosurootdev> 5 days ago
+f6520e6 : Remove unused Audio Controls & Switches <sudosurootdev> 7 days ago
+390411c : Revert "Revert "Revert "Don't cutoff meta-data being set!!!""" <sudosurootdev> 8 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g3-common ****
+d4cec72 : g3: add dummy LgDataFeature telephony class <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_ls980 ****
+e828863 : Add back persist.radio.no_wait_for_card=1 prop lost in: https://github.com/VanirAOSP/device_lge_ls980/commit/92cecfe33b0045e91f9115558893ce8b1b59d2b2 <sudosurootdev> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_mako ****
+1ff2c80 : mako: Use 44/48KHz sampling rate for A2DP <fuzz> 5 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_falcon ****
+0424c5a : falcon: Set ro.build.property <Ethan Chen> 11 hours ago
+ 
+**** https://github.com/VanirAOSP/motorola_msm8226-common ****
+71c1c9d : msm8226-common: proprietary-files: Add radish <Konsta> 16 hours ago
+810d07c : msm8226-common: proprietary-files: Don't link libtime_genoff <Konsta> 11 hours ago
+7e576f1 : msm8226-common: Address batt_health denials <LuK1337> 35 hours ago
+754e216 : msm8226-common: Clean up unneeded FM files <Ethan Chen> 29 hours ago
+d16b7fe : msm8226-common: Disable kernel modules <Quarx2k> 4 months ago
+f9f9231 : msm8226-common: Remove unnecessary FM script <Ethan Chen> 33 hours ago
+07fafbd : msm8226-common: Update audio policy <Ethan Chen> 34 hours ago
+75eb1cd : msm8226-common: Configure and enable KSM <Konsta> 4 days ago
+d3a8562 : msm8226-common: sepolicy: Adjust for gyroscope denial <Rabih Salamey> 33 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+d63e8fd : SELinux: add policies for Motorola Omap4 devices <Michael Gernoth> 2 days ago
+d2c6cc6 : kexec: add .safestrapped directly to ramdisk <Michael Gernoth> 16 hours ago
+6d46554 : releasetool: we have no ext4, only ext3 <Michael Gernoth> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/device_oneplus_bacon ****
+ed3848e : bacon: Add USB charging mode <Michael Bestas> 33 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_find7-common ****
+36b2ed9 : find7-common: Add USB charging mode <Michael Bestas> 34 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_hlte-common ****
+d472198 : Revert "hlte:  go back to 44.1k A2dp" <Shareef Ali> 5 hours ago
+4b497ff : hlte:  go back to 44.1k A2dp <Shareef Ali> 17 hours ago
+42c9fea : hlte: fix efs mount and it related denials <Shareef Ali> 22 hours ago
+ccc937c : Revert "Revert "hlte: update A2DP policy"' <Shareef Ali> 24 hours ago
+d108fce : hlteril: Workaround for Samsung CDMA "ring of death" bug <Mike Kasick> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+799d61a : klteril: Override non-standard data network types. <Ricardo Cerqueira> 4 days ago
+807887d : klte: add support for samsung states. <Shareef Ali> 4 days ago
+b929bcd : klte: remove lolipop hack <Shareef Ali> 4 days ago
+2d83e16 : klte: add support for sprint nonstandard SIM <Shareef Ali> 4 days ago
+ 
+**** https://github.com/Ziyann/android_device_samsung_maguro
+vanir	https://github.com/VanirAOSP/device_samsung_maguro ****
+84cc6e4 : maguro: fix long sms sending <Ziyan> 8 hours ago
+ad7abf6 : maguro: temporary fix for bootanimation causing PVR crashes <Ziyann> 6 weeks ago
+1c2eca1 : maguro: do not restrict vendor files <Ziyann> 8 weeks ago
+af459b8 : maguro: don't copy sample APNs <Ziyann> 8 weeks ago
+7251933 : tuna: commonize what we can (2/4) <Ziyann> 4 months ago
+8f82708 : maguro: remove duplicate overlay <Ziyann> 4 months ago
+212fc2e : Setup common tuna extract-files/remove Google self-extractors <dhacker29> 1 year, 1 month ago
+ 
+**** https://github.com/Ziyann/android_device_samsung_tuna
+origin	git@github.com:VanirAOSP/NEW_device_samsung_tuna.git
+vanir	https://github.com/VanirAOSP/device_samsung_tuna ****
+38d8d25 : camera: Remove a lot of cruft tuna doesn't need/support. <Kyle Repinski> 9 hours ago
+15b27cd : camera: Fix minor bug in a tuna workaround & disable a TI workaround we don't need. <Kyle Repinski> 10 hours ago
+64736e4 : camera: Clean up some logcat spam. <Kyle Repinski> 10 hours ago
+24aa678 : camera: Fix compiler warnings, remove some S3D stuff. <Kyle Repinski> 11 hours ago
+3963805 : camera: Limit tuna to 2 camera sensors. <Kyle Repinski> 12 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_blue-common ****
+be87d3f : blue-common: use dlmalloc instead of jemalloc for mallocs <Daniel Hillenbrand> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+c2f3dd1 : Power menu customizations [1/2] <Dave Kessler> 3 weeks ago
+6186ccb : LockPatternUtils: don't crash when no profile is selected <Roman Birg> 2 days ago
+7103496 : profiles: clean up default profiles <Roman Birg> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_datetimepicker ****
+16c5cf2 : Datetimepicker : Account for RTL locales when formulating Day labels <Rohit Yengisetty> 33 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+ab77d4c : MSIM: changing default SIM name <Marcos Marado> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_bt ****
+1d0d45d : Fix up building with TARGET_2ND_ARCH <Ricardo Cerqueira> 26 hours ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_keymaster ****
+7600f09 : keymaster: Set HEAP_MASK_COMPATIBILITY by platform for QCOM_HARDWARE <Ethan Chen> 10 hours ago
+52b1500 : keymaster: Set ION_HEAP_MASK_COMPATIBILITY by platform <Ethan Chen> 3 days ago
+1043614 : Revert "keymaster: add a flag for ion compatibility" <Ethan Chen> 3 days ago
+0a54e78 : Revert "keymaster: QCOM hardware uses old ION heap id" <Ethan Chen> 3 days ago
+f1dbe5f : Allow msm8916 platform device to build keystore <Ethan Chen> 3 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_dlx ****
+3d30287 : net: ipv6: autoconf routes into per-device tables <Lorenzo Colitti> 10 months ago
+8b1429a : net/ipv6/addrconf: IPv6 tethering enhancement <Harout Hedeshian> 2 years, 1 month ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_msm8974 ****
+bbef6e7 : Symlink <varchild> 11 hours ago
+2290e97 : Delete msmcal-hwdep.h <varchild> 11 hours ago
+41aefaf : testing something.. <varchild> 2 days ago
+0c921f7 : Patch 3.4.44 <varchild> 32 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_lge_g3 ****
+57bb62f : net: ipv6: autoconf routes into per-device tables <Lorenzo Colitti> 10 months ago
+7cbcd00 : lm3697: stfu <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+5a1e681 :  mmc: core: Fix bit width test failing on old eMMC cards <demetris> 7 hours ago
+141362e : KEYS: close race between key lookup and freeing <Sasha Levin> 11 days ago
+42919a4 : mmc: trace single-block reads and writes as well <Iliyan Malchev> 7 weeks ago
+bb3cae5 : mmc: Add tracepoints of mmc block operations <Ken Sumrall> 1 year, 8 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_motorola_msm8226 ****
+faa9160 : falcon: peregrine: Disable module support <Ethan Chen> 32 hours ago
+2b1384c : media: radio: Fix building and loading the IRIS transport <Ricardo Cerqueira> 32 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+216c7d5 : msm: pm: Notify secure code of L2 power mode from last core only <Mahesh Sivasubramanian> 12 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+8c8bd97 : hlte: partially mimick klte bluesleep. Disable turning off the hostWake gpio <Shareef Ali> 18 hours ago
+e8c5bea : Hlte: msm_serial_hs: fix LA.BF.1.1.1_rb1.1 mismerge <Shareef Ali> 25 hours ago
+456ceb8 : msm_serial_hs: Handle client requests without port open <Dilip Kota> 5 months ago
+cb0ff17 : msm_serial_hs: Avoid potential unclocked access by clients <Naveen Kaje> 9 months ago
+fe3b6d6 : msm_serial_hs: remove unused code <Naveen Kaje> 9 months ago
+733483d : msm_serial_hs: Manage wake unlock delay <Dilip Kota> 12 months ago
+9b55b7c : msm_serial_hs: Fix return value handling from platform_get_irq_by_name <Naveen Kaje> 1 year, 3 months ago
+3e53997 : msm_serial_hs: Fix the logic for numbering the serial device <Naveen Kaje> 1 year, 1 month ago
+bdea59e : msm_serial_hs: Programming BCR Register <Dilip Kota> 1 year, 1 month ago
+dc711c7 : msm_serial_hs: Remove code dependency on flag tty_flush_receive <Dilip Kota> 11 months ago
+35b516c : msm_serial_hs: fix unbalanced clock vote during port close <Naveen Kaje> 1 year, 3 months ago
+115a73e : msm_serial_hs: Programing the TX FIFO watermark level to 4 <Kiran Gunda> 11 months ago
+505bad5 : msm_serial_hs: Program RFR to synchronize clock-off sequence with HW <Dilip Kota> 12 months ago
+7d34220 : msm_serial_hs: Race Condition during Baud Rate Configuration <Dilip Kota> 11 months ago
+ba0ea36 : msm_serial_hs: Avoid RX getting stuck during rapid clock on/off <Kiran Gunda> 12 months ago
+1876258 : msm_serial_hs: Manage clock path-vote correctly <Kiran Gunda> 12 months ago
+1e6a543 : msm_serial_hs: Defensive checks <Dilip Kota> 12 months ago
+466d1df : msm_serial_hs: Implement driver functionality to be closer to HW spec <Naveen Kaje> 1 year, 1 month ago
+d2646e1 : msm_serial_hs: Dynamic allocation of port structures <Naveen Kaje> 1 year, 3 months ago
+6675312 : msm_serial_hs:Enable Error/Break Char off <Dilip Kota> 1 year, 1 month ago
+d7fcf71 : msm: ipc_logging: add client version support <Eric Holmberg> 3 months ago
+029e888 : Revert "mm: fix calculation of dirtyable memory" <arter97> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_AudioFX ****
+e8e23ee : AudioFX: Improve strings <Michael Bestas> 31 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+7cb3bea : Fix a string for crowdin <Michael Bestas> 5 days ago
+a441d88 : Calendar : Temporarily add localizations for YearView in Chinese languages. <Rohit Yengisetty> 34 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_CellBroadcastReceiver ****
+8bbee19 : Update SIM labels in cell broadcast settings tab view <emancebo> 35 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+5190917 : DeskClock: Cleanup CAF strings <Michael Bestas> 26 hours ago
+b84a1bb : Fix incorrect World Clock city names and timezones <stumped> 6 weeks ago
+dfb1ea6 : DeskClock: Add back Kiev to World Clock <Michael Bestas> 27 hours ago
+60a608a : Improve strings. <Danny Baumann> 5 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+c57eee1 : Dialer: Remove Chinese CAF translations <Michael Bestas> 25 hours ago
+35a62c6 : Dialer: Improve CAF strings <Michael Bestas> 25 hours ago
+1d1994f : Move string addition to cm_strings <linus_lee> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Gallery2 ****
+5b3edb5 : Gallery2: Modify AOSP EL translations <Michael Bestas> 1 year, 5 months ago
+94552b0 : Gallery2: Remove Chinese CAF translations <Michael Bestas> 25 hours ago
+613c095 : Gallery2: Set untranslatable <Michael Bestas> 3 months ago
+54a6da3 : Gallery2: Remove unused strings <Michael Bestas> 4 months ago
+126b63c : Gallery2: Improve strings <Michael Bestas> 4 months ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Mms-caf ****
+22429e1 : Mms:Better Android Wearable support including sending text reply from notification without main device interaction <dexslab> 4 weeks ago
+069aa70 : Mms: fix quick message layout on 320dp <Pawit Pornkitprasan> 1 year, 1 month ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_PhoneCommon ****
+94c2157 : PhoneCommon: Set untranslatable <Michael Bestas> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+1761628 : Power menu customizations [2/2] <Dave Kessler> 3 weeks ago
+534176c : Reorg of Settings <DHOMD> 5 days ago
+1ef6091 : MSIM: identify SIM slot id on preferences dropdowns <Marcos Marado> 13 hours ago
+2c8936e : Update strings (mostly "cellular data" -> "mobile data") <Marcos Marado> 13 hours ago
+d988a74 : MSIM: Display Carrier Name instead of SIM name <Marcos Marado> 17 hours ago
+6f2506e : Settings: select text when editing name <Roman Birg> 32 hours ago
+38a25d4 : Settings: add a way to fill a profile from the current device state <Roman Birg> 32 hours ago
+ef99a8b : Settings: add delete confirmation dialog for profiles <Roman Birg> 2 days ago
+6b116f4 : Settings: display Triggers inline with Profile actions <Roman Birg> 3 days ago
+1dd2ffd : Settings: make empty profile trigger screens more useful <Roman Birg> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Stk ****
+005c8de : Stk: EL AOSP translation modification <Michael Bestas> 10 months ago
+ 
+**** https://github.com/DHOMD/commotio ****
+5bcd187 : Remove depriacated gapps <DHOMD> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_motorola ****
+77e51bf : msm8226-common: Add radish <Konsta> 10 hours ago
+fe1ebf7 : msm8226-common: Don't link libtime_genoff <Konsta> 10 hours ago
+1534e7b : msm8226-common: Update Adreno libraries <Ethan Chen> 28 hours ago
+65e39ef : msm8226-common: Clean up unneeded FM files <Ethan Chen> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+8634591 : mint: update libqc-opt.so <Daniel Hillenbrand> 10 hours ago
+ 

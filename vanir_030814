@@ -1,0 +1,201 @@
+
+**** https://github.com/VanirAOSP/device_htc_s4-common ****
+aeae674 : s4-common: update WCNSS_qcom_cfg.ini <Matt Mower> 10 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_e980 ****
+d321394 : e980: build loki_unpatch - needed for kernelassimilator <nuclearmistake> 8 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+26bcc65 : g2: build loki_unpatch - needed for kernelassimilator <nuclearmistake> 8 hours ago
+942dc6b : g2: add the dolby subformat flag <bart452> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_gproj-common ****
+a834f96 : gproj: build loki_unpatch for all gproj devices. <nuclearmistake> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_p880 ****
+7b2b5b0 : Enable audio r_submix to P880 <demetris> 5 weeks ago
+b0a863b : Fix the tun ifname for bnep <Ricardo Cerqueira> 5 weeks ago
+f97c37e : X3: 1.Add electron beam animation on screen off 2.Remove Gsm config 3.Add cache target for NEON optimization 4.Improve i/o performance 5.Change product release name to OptimusX4HD Change-Id: Ia84e2cb94180736515e7342392e888176413698d <demetris> 9 weeks ago
+8652809 : X3: NFC: Let apps in the nfc group access it, too <Ricardo Cerqueira> 5 weeks ago
+5c7d73e : init.x3.rc:Tweaking and cleanup <demetris> 9 weeks ago
+b9285e2 : Merge Battery Health Hal <demetris> 3 months ago
+2775596 : overlay: update torch values <Adam77Root> 3 months ago
+fd930b8 : Fix Battery Capacity value <Stergios P> 5 weeks ago
+e65d4ea : overlay: Add Settings overlay <alfsamsung> 8 weeks ago
+d81e85d : Audio config: Remove aic326x <alfsamsung> 8 weeks ago
+b4f49f7 : X3RIL: fix  setCallForward when using mmi/ussd code.This is working in my <alfsamsung> 9 weeks ago
+775962a : Enable didim <Ricardo Cerqueira> 9 weeks ago
+388bd76 : fstab: Fix mmc2 vold label <Ricardo Cerqueira> 9 weeks ago
+427265e : asound.conf: update to fix notification lag <Adam77Root> 9 weeks ago
+0a6dbfd : Updates for cm11 <Ricardo Cerqueira> 3 months ago
+ 
+**** https://github.com/VanirAOSP/device_qcom_common ****
+4edd3a0 : loki_unpatch: executable to turn a .lok into a .img <nuclearmistake> 8 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jflte ****
+d13b2a8 : jflte: build loki_unpatch - needed for kernelassimilator <nuclearmistake> 20 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_qcom-common ****
+cbfe652 : Fix pthread_create error handling in ril. <Elliott Hughes> 9 weeks ago
+52b3b03 : Fix parameter mismatch between header and implementation <Bernhard Rosenkränzer> 3 months ago
+59117ff : Use SimRefreshResponse struct in RIL Versions greater than 7. <Rakesh Pallerla> 8 weeks ago
+c2e7638 : Add TD-SCDMA support <Jaime Lopez> 11 months ago
+cc62995 : Support Additional SIM Depersonalizations. <Rakesh Pallerla> 4 months ago
+94bf19f : Interface changes to support Multi SIM functionality. <Srikanth Chintala> 2 years, 1 month ago
+ab95d23 : Add Multi RILD support. <Srikanth Chintala> 2 years, 2 months ago
+3a42bcd : Add WRITE_SMS_TO_SIM and UNSOL_SUPP_SVC_NOTIFICATION. <Naveen Kalla> 2 years, 4 months ago
+641130f : STK Call Control feature implementation. <Naveen Kalla> 2 years, 4 months ago
+3fbc1d5 : Support reading data profiles from OMH cards <Naveen Kalla> 2 years, 4 months ago
+2c5baa5 : rild: Send extended information records as ByteBuffer <Ajay Dudani> 3 years, 9 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+01693c6 : fb: Incoming Call in Background (3/3) <Lars Greiss> 8 weeks ago
+2b28c28 : proper fix for navbar color glitch <PrimeDirective> 25 hours ago
+82ae4a9 : base: NL transelation fix <bart452> 28 hours ago
+9c49898 : Bluetooth: Added new key to store last connected A2dp Sep type <AnubhavGupta> 6 weeks ago
+b36ebcb : Bluetooth: Fix for FileDescriptor leakage causing ANR <pramod kotreshappa> 8 days ago
+5ecd0ed : VideoView: Correct a type error in the previous patch <huiy> 12 days ago
+03c09ae : Bluetooth-OBEX: Reduce the MTU size if default OBEX MTU > 8k <Juffin Alex Varghese> 4 weeks ago
+8f26826 : Fix tracking of broadcast reference count <Nilesh Poddar> 12 days ago
+978897e : Navigation Bar Height: detect and fix impossibly high values <nuclearmistake> 34 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8960 ****
+cb117bb : msm: ADSPRPC: Add checks for erroneous values <Mitchel Humpherys> 4 months ago
+13ececa : msm: camera: Clear frame stucture before use <Ashok Raj Deenadayalan> 13 days ago
+ed82017 : msm-camera: Assign NULL after freeing memory <Raghu DP> 2 weeks ago
+2606524 : Linux 3.4.82 <Greg Kroah-Hartman> 2 weeks ago
+df1cc7d : genirq: Add missing irq_to_desc export for CONFIG_SPARSE_IRQ=n <Paul Gortmaker> 4 weeks ago
+17ff13b : ring-buffer: Fix first commit on sub-buffer having non-zero delta <Steven Rostedt (Red Hat)> 4 weeks ago
+7db019a : power: max17040: Fix NULL pointer dereference when there is no platform_data <Krzysztof Kozlowski> 5 weeks ago
+d6e20e8 : time: Fix overflow when HZ is smaller than 60 <Mikulas Patocka> 6 weeks ago
+cd6f6b7 : md/raid5: Fix CPU hotplug callback registration <Oleg Nesterov> 4 weeks ago
+5a0d43c : KVM: return an error code in kvm_vm_ioctl_register_coalesced_mmio() <Dan Carpenter> 6 weeks ago
+cc512a4 : IB/qib: Add missing serdes init sequence <Mike Marciniszyn> 3 weeks ago
+c5bdb3a : block: add cond_resched() to potentially long running ioctl discard loop <Jens Axboe> 3 weeks ago
+e7a9561 : Modpost: fixed USB alias generation for ranges including 0x9 and 0xA <Jan Moskyto Matejka> 4 weeks ago
+f0fbd5c : usb: option: blacklist ZTE MF667 net interface <Raymond Wanyoike> 4 weeks ago
+99c30d6 : usb-storage: enable multi-LUN scanning when needed <Alan Stern> 5 weeks ago
+2aac5d8 : usb-storage: restrict bcdDevice range for Super Top in Cypress ATACB <Alan Stern> 5 weeks ago
+6540468 : usb-storage: add unusual-devs entry for BlackBerry 9000 <Alan Stern> 7 weeks ago
+400cbed : USB: ftdi_sio: add Tagsys RFID Reader IDs <Ulrich Hahn> 5 weeks ago
+1c41ee3 : usb: ftdi_sio: add Mindstorms EV3 console adapter <Bjørn Mork> 8 weeks ago
+402d539 : staging:iio:ad799x fix error_free_irq which was freeing an irq that may not have been requested <Hartmut Knaack> 9 weeks ago
+dce0ea4 : tty: n_gsm: Fix for modems with brk in modem status control <Lars Poeschel> 9 weeks ago
+cc01cae : lockd: send correct lock when granting a delayed lock. <NeilBrown> 4 weeks ago
+e24cfb1 : raw: test against runtime value of max_raw_minors <Paul Bolle> 5 weeks ago
+566d987 : spi: Fix crash with double message finalisation on error handling <Geert Uytterhoeven> 6 weeks ago
+9558f9d : s390: fix kernel crash due to linkage stack instructions <Martin Schwidefsky> 5 weeks ago
+021139f : s390/dump: Fix dump memory detection <Michael Holzheu> 5 weeks ago
+fb11ab5 : mac80211: fix fragmentation code, particularly for encryption <Johannes Berg> 5 weeks ago
+ce5562e : fs/file.c:fdtable: avoid triggering OOMs from alloc_fdmem <Eric W. Biederman> 4 weeks ago
+2af3263 : xen-blkfront: handle backend CLOSED without CLOSING <David Vrabel> 5 weeks ago
+dd12c7c : Linux 3.4.81 <Greg Kroah-Hartman> 2 weeks ago
+478b97d : nfs: tear down caches in nfs_init_writepagecache when allocation fails <Jeff Layton> 1 year, 7 months ago
+26fead6 : lib/vsprintf.c: kptr_restrict: fix pK-error in SysRq show-all-timers(Q) <Dan Rosenberg> 1 year, 7 months ago
+374d3a4 : virtio-blk: Use block layer provided spinlock <Asias He> 1 year, 9 months ago
+ba37c70 : Input: synaptics - handle out of bounds values from the hardware <Seth Forshee> 1 year, 7 months ago
+b249f99 : PM / Hibernate: Hibernate/thaw fixes/improvements <Bojan Smojver> 1 year, 10 months ago
+ec90b61 : KVM: Fix buffer overflow in kvm_set_irq() <Avi Kivity> 1 year, 11 months ago
+230a0c3 : target/file: Re-enable optional fd_buffered_io=1 operation <Nicholas Bellinger> 1 year, 5 months ago
+45a0374 : target/file: Use O_DSYNC by default for FILEIO backends <Nicholas Bellinger> 1 year, 9 months ago
+f744106 : IB/qib: Convert qib_user_sdma_pin_pages() to use get_user_pages_fast() <Jan Kara> 5 months ago
+f5a4c4b : sched/nohz: Fix rq->cpu_load calculations some more <Peter Zijlstra> 1 year, 10 months ago
+e2d51f2 : sched/nohz: Fix rq->cpu_load[] calculations <Peter Zijlstra> 1 year, 10 months ago
+1c2bd0d : ftrace: Have function graph only trace based on global_ops filters <Steven Rostedt> 4 weeks ago
+2955866 : ftrace: Fix synchronization location disabling and freeing ftrace_ops <Steven Rostedt> 4 weeks ago
+95bcd16 : ftrace: Synchronize setting function_trace_op with ftrace_trace_function <Steven Rostedt> 4 weeks ago
+a7333f3 : dm sysfs: fix a module unload race <Mikulas Patocka> 8 weeks ago
+3fea8b0 : mm: setup pageblock_order before it's used by sparsemem <Xishi Qiu> 1 year, 7 months ago
+237597d : mm/page_alloc.c: remove pageblock_default_order() <Andrew Morton> 1 year, 9 months ago
+dbdd2eb : drm/i915: kick any firmware framebuffers before claiming the gtt <Daniel Vetter> 1 year, 8 months ago
+4e0bc3f : ext4: protect group inode free counting with group lock <Tao Ma> 1 year, 9 months ago
+5e23efd : printk: Fix scheduling-while-atomic problem in console_cpu_notify() <Paul E. McKenney> 1 year, 5 months ago
+ 
+**** https://github.com/P880-dev/android_kernel_lge_x3 ****
+c36f217 : Makefile optimizations clean up <demetris> 25 minutes ago
+37ab5c9 : net: merge memcontrol from Linux 3.13-rc2 <Amperific> 3 months ago
+833b341 : include/linux/res_counter.h needs errno.h <Amperific> 3 months ago
+aeaa3bf : Cleaned last MEMBLOCK_ERROR from code. <Dorimanx> 1 year, 10 months ago
+21eb162 : arm/kernel: fix merge error <faux123> 2 years, 1 month ago
+905a63a : mm/memblock: A potential bug in mm/memblock.c <Peter Teoh> 1 year, 10 months ago
+20829be : memblock: Implement memblock_add_node() <Tejun Heo> 2 years, 3 months ago
+395711d : memblock: s/memblock_analyze()/memblock_allow_resize()/ and update users <faux123> 2 years, 1 month ago
+533d22b : memblock: Track total size of regions automatically <Tejun Heo> 2 years, 3 months ago
+c568692 : memblock: Reimplement memblock_enforce_memory_limit() using __memblock_remove() <Tejun Heo> 2 years, 3 months ago
+7b921e0 : memblock: Make memblock functions handle overflowing range @size <Tejun Heo> 2 years, 3 months ago
+a2e9501 : memblock: Reimplement __memblock_remove() using memblock_isolate_range() <Tejun Heo> 2 years, 3 months ago
+2920e8c : memblock: Separate out memblock_isolate_range() from memblock_set_node() <Tejun Heo> 2 years, 3 months ago
+d136c9f : memblock: Kill memblock_init() <faux123> 2 years, 1 month ago
+7961279 : memblock: Kill sentinel entries at the end of static region arrays <Tejun Heo> 2 years, 3 months ago
+eaac470 : memblock: Add __memblock_dump_all() <Tejun Heo> 2 years, 3 months ago
+437854e : memblock: Use memblock_reserve() in memblock internal functions <Tejun Heo> 2 years, 3 months ago
+cdee9fb : memblock: Make memblock_{add|remove|free|reserve}() return int and update prototypes <Tejun Heo> 2 years, 3 months ago
+3708148 : mm/memblock.c: quiet sparse noise <H Hartley Sweeten> 2 years, 4 months ago
+767f1eb : memblock: add memblock_start_of_DRAM() <Sam Ravnborg> 2 years, 4 months ago
+f8d0871 : memblock: Cast phys_addr_t to unsigned long long for printf use <H. Peter Anvin> 2 years, 8 months ago
+51ec817 : memblock, x86: Replace memblock_x86_reserve/free_range() with generic ones <faux123> 2 years, 1 month ago
+88d0d22 : memblock, x86: Make ARCH_DISCARD_MEMBLOCK a config option <faux123> 2 years, 1 month ago
+bf33cff : memblock: Implement for_each_free_mem_range() <Tejun Heo> 2 years, 8 months ago
+6120ba0 : memblock: Add optional region->nid <Tejun Heo> 2 years, 8 months ago
+6857fa0 : memblock: Reimplement memblock_add_region() <Tejun Heo> 2 years, 8 months ago
+b027d37 : memblock: Remove memblock_memory_can_coalesce() <Tejun Heo> 2 years, 8 months ago
+521eecd : memblock: Separate out memblock_find_in_range_node() <Tejun Heo> 2 years, 8 months ago
+1cdb3bd : memblock: Make memblock_alloc_[try_]nid() top-down <Tejun Heo> 2 years, 8 months ago
+45c0cf2 : memblock: Don't allow archs to override memblock_nid_range() <Tejun Heo> 2 years, 8 months ago
+aea3b5c : memblock: Improve generic memblock_nid_range() using for_each_mem_pfn_range() <Tejun Heo> 2 years, 8 months ago
+0b6fb16 : memblock: Replace memblock_find_base() with memblock_find_in_range() <Tejun Heo> 2 years, 8 months ago
+a5d0aa8 : memblock: Kill MEMBLOCK_ERROR <Tejun Heo> 2 years, 8 months ago
+e1d47ce : memblock: Use round_up/down() instead of memblock_align_up/down() <Tejun Heo> 2 years, 8 months ago
+1e57164 : memblock: Use MEMBLOCK_ALLOC_ACCESSIBLE instead of ANYWHERE in memblock_alloc_try_nid() <Tejun Heo> 2 years, 8 months ago
+801d18d : slub: remove unused argument of init_kmem_cache_node() <Joonsoo Kim> 1 year, 10 months ago
+7a95f42 : Fix build errors <Kostas K> 5 months ago
+2d001fb : kernel: audit: bye stupid logs. <Francisco Franco> 5 months ago
+ec2d11c : merge: fix merging issues <Ivan Cerrato> 10 weeks ago
+7c9d7e2 : sched: reduce the overhead of obtain factor <Kostas K> 5 months ago
+0e83fac : sched: smart wake-affine foundation <Kostas K> 5 months ago
+cda804c : mm/vmalloc: use wrapper function get_vm_area_size to caculate size of vm area <Kostas K> 5 months ago
+d10d7b9 : mm, vmalloc: use well-defined find_last_bit() func <Kostas K> 5 months ago
+20d182a : ARM: cacheflush: add new iovec-based cache flushing system call <Kostas K> 5 months ago
+6bf0241 : ARM: cacheflush: don't bother rounding to nearest vma <Kostas K> 5 months ago
+1474554 : ARM: cacheflush: don't round address range up to nearest page <Kostas K> 5 months ago
+51e5f11 : power: decrease the amount of time the device waits after entering lower power state - Thanks Franco <anarkia1976> 11 months ago
+0ba8853 : governors/menu.c: Reduce nr_iowait_cpu to 2 for Idle <anarkia1976> 1 year, 4 months ago
+a637f57 : ARM: rwlocks: remove unused branch labels from trylock routines <Kostas K> 6 months ago
+58ea589 : [PATCH 2/2] mm: forcely swapout when we are out of page cache <Kostas K> 6 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+5d45d15 : ApexQ: High brightness mode for torch <Malcolm Mallardi> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+db1fdb9 : ARM: dts: honami: enable clearpad pen input <Chirayu Desai> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+c61b3a1 : Track our own e980 (needs loki_unpatch added to device mk file) <nuclearmistake> 7 hours ago
+2eea1e6 : track our own qcom-common <nuclearmistake> 8 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+1e1cfb0 : InCallUI: Set Ticker to contact <Jubakuba> 8 weeks ago
+b67de9d : InCallUI: add decline and answer  incoming call action on notifications <Lars Greiss> 8 weeks ago
+a49d279 : InCallUI: Incoming Call in Background (1/3) <Lars Greiss> 8 weeks ago
+ 
+**** https://github.com/omnirom/android_packages_apps_OmniSwitch ****
+09a6059 : OmniSwitch: Updated DE translation <Ralph Meyer> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+72dc663 : Settings: Fix EL translations <Michael Bestas> 11 hours ago
+46f3f7d : settings: Re-add translated appops strings <Steve Kondik> 18 hours ago
+c64fffe : [WIP]Settings: Convert AppOps array items to string references <Michael Bestas> 24 hours ago
+66d7d91 : Settings: Fix AppOps arrays <Michael Bestas> 28 hours ago
+3f9467a : Make navbar height+width bounds relative to their dimens in com.android.internal <nuclearmistake> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_soundrecorder ****
+0a45c67 : soundrecorder: Fix crash on devices without external storage <Steve Kondik> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+68821a8 : Telephony: Incoming Call in Background (2/3) <Lars Greiss> 8 weeks ago
+3ec809e : Telephony: Fix network selection array <Michael Bestas> 4 days ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+d6ed2af : system/core: don't only include dolby subformats for qcom hardware <bart452> 27 hours ago
+ba81b72 : Underp an ifdef <Steve Kondik> 32 hours ago
+ 

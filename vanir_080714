@@ -1,0 +1,182 @@
+
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+769f46b : properties: RIL sends only one RIL_UNSOL_CALL_RING, so set call_ring.multiple to false <Ricardo Cerqueira> 4 hours ago
+28bfd2e : msm8974: Use the normal speaker output <Steve Kondik> 2 days ago
+da5c358 : msm8974: Improve thermal mitigation <Steve Kondik> 2 days ago
+53e1dbc : msm8974: Audio tunings <Steve Kondik> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2lte ****
+69adc8c : Revert "Add  ro.com.google.clientidbase to init_d2lte" <Dan Pasanen> 10 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jflte ****
+65b2617 : More reconciling with new reorg <DHOMD> 66 minutes ago
+439b614 : Fixes from merger <DHOMD> 2 hours ago
+8d84e62 : jflte: move libcsd-client to /system/lib <Dan Pasanen> 6 hours ago
+f525f35 : Add ro.com.google.clientidbase to init_jflte <Dan Pasanen> 32 hours ago
+126b613 : jflte: Fix merge failures <Ethan Chen> 2 days ago
+35c1d83 : Revert: jf: fix race condition at boot <Dan Pasanen> 13 days ago
+852cc5a : jflte: update thermald/thermal-engine configs <Dan Pasanen> 3 days ago
+2879904 : jflte: Clean up Samsung device inheritance <Ethan Chen> 13 days ago
+c22ee4f : jf: increase ui responsiveness <Steve Kondik> 7 weeks ago
+4507cd1 : jf: use qcom powerhal <invisiblek> 9 days ago
+86dd89e : jf: clean up init & warnings <Drew Davis> 13 days ago
+d1a39dd : jf: update adreno blobs <invisiblek> 12 days ago
+d89faf6 : jf: set row as default iosched after boot <Dan Pasanen> 13 days ago
+fd45811 : gps: Enable both LPP_User_Plane and LPP_Control_Plane <wilfredlams> 13 days ago
+5e130b1 : gps: Revert: Add a new LocAdapterProxyBase class <Dan Pasanen> 2 weeks ago
+ae1160f : gps: fixups for build and supporting the new hal <Drew Davis> 2 weeks ago
+d5199ad : jflte: kk_2.7-stable gps hal <Drew Davis> 2 weeks ago
+ea5d108 : jf: add led permissions <Dan Pasanen> 2 weeks ago
+a43ad90 : jf: disable zsl for ffc <Dan Pasanen> 2 weeks ago
+7f02668 : jflte: Utilize charger class for offmode charging <Arne Coucheron> 2 weeks ago
+866b322 : jf: update props <invisiblek> 2 weeks ago
+214bb4f : init_jflte: remove useless cdma prop <Dan Pasanen> 2 weeks ago
+946e2d0 : jflte: add permissions for keydisabler <Dave Daynard> 4 months ago
+b3b6539 : init: fix vibrator permissions <Dan Pasanen> 2 weeks ago
+584bd98 : jf: Enable built-in WiFI <Steve Kondik> 4 months ago
+2d48416 : jflte: tcp buffer config <Drew Davis> 4 weeks ago
+d7579d3 : jflte: remove unused gps-nomsb.conf <Drew Davis> 4 weeks ago
+cff9234 : jflte: allow mpdecision to manage sleep modes <Dave Daynard> 10 weeks ago
+17f9964 : jflte: loki: support flashing loki'd recovery images <Dan Pasanen> 7 weeks ago
+0d34ea9 : loki: update to latest code from djrbliss (v1.9) <invisiblek> 7 weeks ago
+fb197d2 : jflte: fix the auto brighness curve <Drew Davis> 3 months ago
+ce62278 : jflte: add permissions for mmcblk1 scheduler; increase read ahead cache size <Drew Davis> 8 weeks ago
+7e00eb6 : jflte: disable world_phone overlay <Dan Pasanen> 9 weeks ago
+b06742d : Update fingerprint for 9505G 4.4.3 <Scott Warner> 9 weeks ago
+9d43523 : add support for the GT-I9507 (jftddxx) <invisiblek> 3 months ago
+c49b144 : jflte: add mpdecision to system group <Dave Daynard> 3 months ago
+a6dafdf : init: enable telephony.sms.pseudo_multipart for variants that need it <Dan Pasanen> 3 months ago
+a994198 : jflte: set proper lte mode and default network mode <Dan Pasanen> 3 months ago
+910503f : jflte: switch antibanding default to off <Dave Daynard> 4 months ago
+80598e2 : init: add jflteusc operators back too <Dan Pasanen> 4 months ago
+ab00971 : recovery: remove custom recovery_keys <Dan Pasanen> 4 months ago
+b2836bb : init: add alpha an numeric back for vzw and cri <Dan Pasanen> 4 months ago
+fdc3906 : system.prop: add missing props <Dan Pasanen> 4 months ago
+c2d386c : jflte: Cleanup settings overlay <Arne Coucheron> 4 months ago
+ab8135d : assert: add jflterefreshspr <Dan Pasanen> 4 months ago
+ada2bcc : Add missing Permissions for Step Sensor <jumoog> 4 months ago
+48300e8 : jflte: clean up variant props and add new ril props <Dan Pasanen> 4 months ago
+cd337fb : BoardConfig: we're just using one defconfig now <Dan Pasanen> 4 months ago
+391f753 : jflte: Add support for high touch sensitivity <Xiao-Long Chen> 4 months ago
+8d0f9b5 : wifi: death to modules <Dan Pasanen> 4 months ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+63fc703 : [FINALLY] working recents hardware button <nuclearmistake> 11 hours ago
+84ed471 : int main() { CHANGE(whitespace); REORDER(LINES); return EWTFFFS; } <nuclearmistake> 19 hours ago
+37f01bd : klte: Clean up Samsung device inheritance <Ethan Chen> 10 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_mondrianwifi ****
+e852322 : mondrianwifi: power: Less debugging <Christopher R. Palmer> 25 hours ago
+95ab0dc : mondrianwifi: init: More interactive governor config <Christopher R. Palmer> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8660-common ****
+763d4fb : msm8660-common: Cleanup Samsung device inheritance <Ethan Chen> 13 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+6110d27 : Test reconcile <DHOMD> 36 minutes ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8974-common ****
+1b98290 : msm8974-common: Clean up Samsung device inheritance <Ethan Chen> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_sony_nicki ****
+0b98b63 : nicki: Fixing volumes after glitches patch <Bonoboo> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_rhine-common ****
+760c5c7 : rhine: Remove unnecessary overlay option <Ethan Chen> 21 hours ago
+ 
+**** https://github.com/CyanogenMod/ion ****
+a36ff89 : Ion : Add ability to disable transform cache <Danesh Mondegarian> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+233de83 : midi audio: allow midi restart even upon stop state <wjiang> 2 weeks ago
+965459f : HLS: Queue discontinuity only for the first block <Santhosh Behara> 3 weeks ago
+16e52dc : RTSP: Correct the data type in the check <huiy> 2 weeks ago
+992e60e : libstagefright: Decrease reference count before deleting AudioPlayer <Zhou Song> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+337b009 : Fix: wallpaper changes when changing lockscreen WP <Clark Scheff> 3 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+8fbf09f : hal: add the stream to uc_info for speaker protection enablement <Anish Kumar> 3 weeks ago
+5aec2a3 : hal: Speaker protection pre-emption fixes <Gopikrishnaiah Anandan> 5 weeks ago
+50350c4 : hal: Add/remove speaker protection usecase to/from global list <Gopikrishnaiah Anandan> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display-caf-new ****
+f9f6f24 : hwc: Enable PTOR feature for split display <Sushil Chauhan> 2 weeks ago
+0e3dbba : hwc: Configure MDP with updated crop and whf for PTOR layers <Sushil Chauhan> 13 days ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+95784ed : Kernel cleanup: Revert "random: fix accounting race condition with lockless irq entropy_count update" <demetris> 11 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+730f5f0 : asoc: msm: Adjust MBHC thresholds <Steve Kondik> 5 days ago
+076f6b8 : asoc: msm: Untangle the external micbias control for wcd9320 <Steve Kondik> 5 days ago
+b365949 : msm8974: Set micbias flags for common device <Steve Kondik> 4 days ago
+1700a12 : msm8974: Clean up Oppo audio configurations <Steve Kondik> 6 days ago
+ae2ce21 : ASoC: wcd9xxx: Correct wrong check conditions <Simmi Pateriya> 5 months ago
+d5d2077 : ASoC: wcd9320: Add ANC loopback path and cache HPF bypass control <Jay Wang> 3 months ago
+37feaa9 : ASoC: wcd9xxx-mbhc: Avoid flipping current source setting <Bhalchandra Gajare> 9 weeks ago
+b5ac9c3 : ASoC: wcd9xxx: Enable current source support for 2nd mic detection <Simmi Pateriya> 9 months ago
+cee1ca2 : ASoC: wcd9xxx-mbhc: Disable micbias for impedance detection <Bhalchandra Gajare> 9 weeks ago
+9086874 : ASoC: wcd9320: Check denominator for zero before division <Phani Kumar Uppalapati> 2 weeks ago
+2bd5c8d : ASoC: wcd9320: Update condition to disable HPH PA after impedance detection <Phani Kumar Uppalapati> 4 weeks ago
+d9dee38 : ASoC: wcd9xxx: Don't enable micbias if headset is removed <Simmi Pateriya> 4 weeks ago
+50bc4f6 : mfd: wcd9xxx: Add support for REPEAT_CHANGE_VALUE <Bhalchandra Gajare> 5 months ago
+776ee22 : ASoC: msm: qdsp6v2: Add a new waitqueue state for mem map/unmap <Damir Didjusto> 9 weeks ago
+1c5c75d : ASoC: msm: Rampup volume on each start <Haynes Mathew George> 3 weeks ago
+657b4b2 : misc: Kill logspam <Steve Kondik> 2 days ago
+e96f4fc : sched: fix race between try_to_wake_up() and move_task() <Steve Muckle> 4 weeks ago
+076c389 : ARM: dts: msm: Update the vifeed back routing <Gopikrishnaiah Anandan> 4 months ago
+98d297c : arm/dts: Enable workaround for superspeed enumeration issue for msm8974 <Vijayavardhan Vennapusa> 3 months ago
+1eca193 : USB: dwc3: Add support for fixing superspeed enumeration issue <Vijayavardhan Vennapusa> 3 months ago
+dac0bfd : usb: dwc3: Add support to disable hsphy auto suspend feature <Mayank Rana> 5 months ago
+04c8409 : arm/dts: Cleanup duplicate entry in sound config <Steve Kondik> 3 days ago
+cac1ac4 : ARM: dts: msm: Add CX regulator Phandle to MDP node <Xiaoming Zhou> 4 weeks ago
+c08bf94 : usb: msm_otg: Fix timeout during usb disconnect with hvdcp charger <Saket Saurabh> 3 months ago
+b76a788 : USB: ci13xxx_udc:  Add support for UI interrupts counting <Manu Gautam> 6 weeks ago
+814ec77 : usb: msm_otg: Fix bug with hvdcp connect and disconnect processing <Saket Saurabh> 3 months ago
+46184f0 : USB: Fix bug in ext_chg_active flag handling <Pavankumar Kondeti> 3 months ago
+b012c12 : USB: msm: Add support for MSM_USB_EXT_CHG_TYPE ioctl <Vijayavardhan Vennapusa> 3 months ago
+28b8d7b : USB: msm_otg: Process HOST disconnect only after system RESUME <Saket Saurabh> 10 weeks ago
+f5e5b22 : dwc3: gadget: Add support for transfer complete events counting <Manu Gautam> 6 weeks ago
+e8bd69d : ARM: dts: enable auto mode for MSM8974 based devices <Abhijeet Dharmapurikar> 4 months ago
+27b308f : msm: krait-regulator: auto mode workarounds for pm8841 <Abhijeet Dharmapurikar> 4 months ago
+4dd9e17 : msm: krait-regulator: add support for auto mode <Abhijeet Dharmapurikar> 4 months ago
+ddcb009 : ARM: dts: msm: use a corner regulator for wcnss VDD_CX on all boards <Yue Ma> 10 months ago
+393b989 : defconfig: msm8974: Enable proxy consumer driver <David Collins> 1 year, 1 month ago
+db038e0 : ARM: dts: msm: Add proxy consumer properties for regulators on msm8974 <David Collins> 1 year, 1 month ago
+de9032c : regulator: Call proxy-consumer functions for each regulator registered <David Collins> 1 year, 1 month ago
+6989bd6 : regulator: Add proxy consumer driver <David Collins> 1 year, 2 months ago
+a053fdc : wcnss: Reduce the pil_retry count value <Hardik Kantilal Patel> 5 weeks ago
+a90a739 : msm: mdss: refactor MDSS idle power collapse logic <Aravind Venkateswaran> 13 days ago
+4c937e81 : msm: mdss: reset runtime status upon device resume <Aravind Venkateswaran> 2 months ago
+2d09ff9 : msm: msm_bus: Fix inadvertent stomp on BKE_EN register <Girish Mahadevan> 13 days ago
+0a98836 : msm: vidc: handle dynamic buffers in pendingq during flush <Arun Menon> 5 weeks ago
+4f15ba5 : msm: mdss: support reduced dspp and WB interfaces <Dhaval Patel> 5 weeks ago
+8034f48 : mdss: display: move mdss_mdp_irq_enable out of clk_lock scope <Kuogee Hsieh> 3 months ago
+502d833 : msm: mdss: reset cont splash screen flag after notifying panel intf <Aravind Venkateswaran> 2 weeks ago
+a8d5b5f : video: mdss: Fix a few potential NULL pointers <Steve Kondik> 6 days ago
+99aa694 : msm: mdss: Correct set backlight call during unblank <Krishna Chaitanya Parimi> 5 weeks ago
+210b49d : msm: mdss: disable bw release from rotator <Ingrid Gallardo> 3 weeks ago
+c9efd8f : msm: mdss: Disable bw release for cmd mode panels <Ingrid Gallardo> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+e610b08 : WIP legacy manifest <DHOMD> 2 days ago
+dd3ad4c : I should not have pushed this: Revert "WIP legacy manifest" <DHOMD> 2 hours ago
+7e5df19 : Update readme <DHOMD> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+07c1b42 : Camera2 : Make navigation bar and status bar transparent <Danny Baumann> 8 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+f03d002 : Settings: Only show clear button when search field has text. <Adnan> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_TelephonyProvider ****
+ad112ea : Enforce convertability to a valid E164 number on insert or update. <Danny Baumann> 3 days ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_oppo ****
+f5d48cf : msm8974: New mpdecision binary <Steve Kondik> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+ab0a512 : jflte: Update proprietary libs for next branch <Dan Pasanen> 2 weeks ago
+ 

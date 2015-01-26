@@ -1,0 +1,53 @@
+
+**** https://github.com/VanirAOSP/build ****
+1ce435f : Fix an error with gcc 4.7 introduced by the -fno-canonical-system-headers addition <nuclearmistake> 17 hours ago
+7b9092f : Two Squashed commits, from: 1)Qualcomm & 2)AOSP 1. Reduce incorrect PATHS & linker errors from msm clang, especially 3.5,    by adding -no-canonical-prefixes to: TARGET_GLOBAL_LDFLAGS for msm-% clang,    as well as addding the following AOSP commit which adds    -no-canonical-prefixes to: TARGET_GLOBAL_CFLAGS, which are both taken directly    from the Stock Released Qualcomm llvm/clang setup.mk files, which can both be seen here: https://github.com/sudosurootdev/prebuilts_clang_linux-x86_host_msm-3.4/blob/stock/arm-linux-androideabi-snapdragonclang3.4/setup.mk & https://github.com/sudosurootdev/prebuilts_clang_linux-x86_host_msm-3.5/blob/stock/arm-linux-androideabi-snapdragonclang3.5/setup.mk <sudosurootdev> 5 months ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m4 ****
+ef203bc : m4: Switch to QCOM power HAL <Jurica Vukadin> 3 days ago
+2ecca1c : m4: Update thermald config <Jurica Vukadin> 11 days ago
+f8a17b1 : m4: Fix sound recording in Whatsapp <Jurica Vukadin> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_moto_msm8960 ****
+948d04f : Prevent premature wcnss firmware loading <nadlabak> 35 hours ago
+ 
+**** https://github.com/VanirAOSP/external_bash ****
+58b5914 : Patch CVE-2014-7169 <Chet Ramey> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+0913182 : Hardware keys: add gesture panel support <PrimeDirective> 4 weeks ago
+aa63bbe : core: Fix AOSP EL translation <Michael Bestas> 34 hours ago
+9b4229e : SystemUI: Remove unused strings <Michael Bestas> 35 hours ago
+d9185c0 : SystemUI: Improve AOSP JA translation <black> 2 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_cm ****
+1bdfa72 : power: Rename perf flag <Tom Marshall> 35 hours ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+7c4dde9 : board-x3-audio: Set default I2S channels to 2 and some cleanup. <alfsamsung> 3 weeks ago
+93013c8 : arm: tegra: Change DDC freq to 10KHz <alfsamsung> 3 weeks ago
+0807bfe : Add missing vibrator for x3 <demetris> 8 hours ago
+746ad2f : Squash commit of: <demetris> 9 hours ago
+5acd6fd : net: constify skbuff and Qdisc elements <Eric Dumazet> 2 years, 11 months ago
+781d6f6 : net: Allow skb_recycle_check to be done in stages <Andy Fleming> 3 years ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+ef05c40 : msm: mdss: Move iommu attach after overlay start in pan display <Steve Kondik> 21 hours ago
+b0ab6239 : ARM: 7755/1: handle user space mapped pages in flush_kernel_dcache_page <Simon Baatz> 1 year, 4 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+f00b9a4 : Calculator: Remove unused strings <Michael Bestas> 35 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+986d00f : Revert "Telephony: Move CAF strings" <nuclearmistake> 9 hours ago
+f4d70ae : Revert "Telephony: Remove unused strings" <nuclearmistake> 9 hours ago
+88fe4df : Revert "Telephony: Make strings consistent" <nuclearmistake> 9 hours ago
+01e6d84 : Telephony: Make strings consistent <Michael Bestas> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_htc ****
+5715dd4 : m4: Copy mpdecision and thermald from m7 <Jurica Vukadin> 12 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+fa5877e : Enable incall recording <DHOMD> 6 weeks ago
+e807920 : klimtwifi - G Pro 12.2 <DHOMD> 12 days ago
+ 

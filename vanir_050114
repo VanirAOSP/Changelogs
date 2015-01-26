@@ -1,0 +1,208 @@
+
+**** https://github.com/VanirAOSP/build ****
+2640784 : TARGET_linux-arm/llvm_config: add a flag to specify debugging on some builds <PrimeDirective> 5 days ago
+e52f625 : releasetools: Modify regex for radio files <Brint E. Kriebel> 20 hours ago
+9f4fb32 : Remove extra product property overrides <Abhisek Devkota> 7 days ago
+ 
+**** https://github.com/VanirAOSP/dalvik ****
+052e0b4 : Revert "Use MAP_FIXED in remapNewHeap" <Ricardo Cerqueira> 26 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_jewel ****
+e4dc750 : jewel: Use by-name partitions in fstab <Ethan Chen> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_m4 ****
+e1b76bc : m4: Use by-name partitions in fstab <Jurica Vukadin> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7-common ****
+af40196 : m7-common: use by-name paths for partitions in fstab <Matt Mower> 10 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_ville ****
+1c283e7 : ville: Use by-name partitions in fstab <Ethan Chen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+c3e3b3d : hammerhead: Configure sync_freq feature <myfluxi> 8 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_ls980 ****
+0e3c093 : Revert "Delete unnecessary cm files, and definitions. Everything is in vendor/vanir Only thing that wasn't, Boot Animation size, I added to ls980.mk" <nuclearmistake> 10 hours ago
+defb227 : Delete unnecessary cm files, and definitions. Everything is in vendor/vanir Only thing that wasn't, Boot Animation size, I added to ls980.mk <sudosurootdev> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_moto_msm8960 ****
+fd390d5 : selinux: Enable enforcing <dhacker29> 13 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_moto_msm8960dt ****
+3d7fa28 : selinux: Enable enforcing <dhacker29> 13 hours ago
+740caa0 : charger: Actually use the charger res <dhacker29> 14 hours ago
+5c43308 : Fix speakerphone: Device doesn't use fluence <dhacker29> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_qcom-common ****
+5d1f16f : selinux: Fixes for moto_msm8960 devices to enable enforcing <dhacker29> 13 hours ago
+e0897eb : charge_only_mode: Allow to work with Moto G <dhacker29> 14 hours ago
+c5105df : sepolicy: fix for user builds <dhacker29> 17 hours ago
+8b8845a : Remove unnecessary usbnet function in MTP+ADB mode. <Toha> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_smdk4412-common ****
+b6f26b5 : Revert "camera: Fix loss of focus mode between shots" <Dheeraj CVR> 4 months ago
+ 
+**** https://github.com/nolinuxnoparty/android_device_sony_nicki ****
+13b744d : nicki: defconfig name change again :P <Arnav Gosain> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+54471cf : stagefright: Handle acquireWakeLock failure case <Leena Winterrowd> 2 weeks ago
+1d61b42 : libstagefright: Copy the entire buffer from/to OMX component <Deva Ramasubramanian> 3 weeks ago
+928223d : StagefrightRecorder: Pause audio encoder on recorder pause <Kim Zhang> 4 weeks ago
+907e920 : libstagefright/omx: Fix logic to handle dead observers. <Shivaprasad Hongal> 3 weeks ago
+6d8f392 : stagefright: yield callbackDispatcher to writer safely <Praveen Chavan> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+20469cd : Revert "Allow configuration of the default screen-off animation style" <nuclearmistake> 18 hours ago
+4d25afe : Allow configuration of the default screen-off animation style <Steve Kondik> 28 hours ago
+526bff9 : frameworks/base: Fix change propagating issue <ywen> 5 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8960 ****
+5cce5d1 : lowmemorykiller: Account for highmem during kswapd reclaim <Liam Mark> 7 weeks ago
+ada77f4 : android/lowmemorykiller: Account for total_swapcache_pages <Liam Mark> 8 months ago
+ 
+**** cm	http://github.com/CyanogenMod/android_kernel_lge_hammerhead
+https://github.com/jimsth/vanir_hammerhead ****
+a96c951 : version 1.0.8 <Dan Trifan> 10 hours ago
+60fb273 : msm: camera: sensor: Update CCI WR comamnd buffer size to 11 bytes <Rajesh Bondugula> 6 days ago
+0b5b112 : msm: camera: Fix long overflow on the pix clk <Peter Liu> 4 months ago
+0d88bd0 : msm: camera: Fix sensor info parsing logic <Suresh Vankadara> 3 months ago
+576fb55 : msm:camera: Limit prints in isp <Yiduo Wang> 5 months ago
+95a38f1 : msm: camera: Fix race condition between camera driver and camera daemon <Yiduo Wang> 2 weeks ago
+de16603 : msm: camera: Make ISP and camera kernel not interruptible <Yiduo Wang> 4 weeks ago
+1fcf3dc : msm: camera: Fix improper memory free in failure case <Yiduo Wang> 2 weeks ago
+40131fd : msm: hotplug: Terminate load thresh table <myfluxi> 16 hours ago
+9812595 : soc: qcom: smd: Validate read and write addresses <Zaheerulla Meer> 2 weeks ago
+b80fa9c : ASoC: msm: qdsp6v2: Avoid DS1 and SRS topology on low latency path <Subhash Chandra Bose Naripeddy> 4 weeks ago
+f5fd7fe : mmc: core: Fix clock frequency transitions during invalid states <Sujit Reddy Thumma> 11 days ago
+71b4a70 : dma-contiguous: Retrun 'zero' pfn in case of error <Chintan Pandya> 8 days ago
+5467701 : ARM: Improve vmalloc address checking in show_data() <Matt Wagantall> 9 days ago
+93512af : defconfig: enable deferred resume for mmc <Dan Trifan> 2 days ago
+f62fa92 : kswapd: Introduce congestion_wait_kswapd <Luis Cruz> 2 weeks ago
+63a75e5 : CHROMIUM: clocksource: allow clocksources to be selected earlier during boot <Andrew Bresticker> 7 months ago
+bf8262e : Revert "defconfig: enable LZ4 compression/decompression" <Dan Trifan> 35 hours ago
+18257fa : defconfig: enable LZ4 compression/decompression <Dan Trifan> 2 days ago
+ba3544c : arm: lz4: faster boot-up process. <franciscofranco> 3 days ago
+9649ca4 : lz4: fix compression/decompression signedness mismatch <Sergey Senozhatsky> 8 months ago
+8b9dc58 : lib/lz4: correct the LZ4 license <Richard Laager> 8 months ago
+78f167a : crypto: add lz4 Cryptographic API <LaboDJ> 5 months ago
+89e6e46 : lib: add lz4 compressor module <Chanho Min> 10 months ago
+fa1b378 : arm: add support for LZ4-compressed kernel <LaboDJ> 5 months ago
+2781480 : lib: add support for LZ4-compressed kernel <Kyungsik Lee> 10 months ago
+54e9c7f : decompressor: add LZ4 decompressor module <Kyungsik Lee> 10 months ago
+6611f35 : x86: Fix rebuild with EFI_STUB enabled <Jan Beulich> 1 year, 1 month ago
+f0b9ce3 : efi: Build EFI stub with EFI-appropriate options <Matthew Garrett> 1 year, 9 months ago
+254071f : msm: mdss: Turn off backlight while power off <Shuo Yan> 2 weeks ago
+7757574 : ARM: Don't dump vmalloc addresses with show_data() <Matt Wagantall> 4 weeks ago
+3f94cc9 : cfg80211: unblock user hint when cfg80211_regdom is intersected <Mihir Shete> 5 weeks ago
+7ca1979 : net: ipv4: current group_info should be put after using. <JP Abgrall> 7 days ago
+321c415 : nf: Remove compilation error <Ruchi Kandoi> 7 days ago
+ffeeaea0 : Power: Changes the permission to read only for sysfs file /sys/kernel/wakeup_reasons/last_resume_reason <Ruchi Kandoi> 7 days ago
+2f0ca16 : msm: hotplug: Honor enabled toggle <myfluxi> 8 days ago
+110883d : msm: kgsl: Do not detect faults when GPU core is idle <Tarun Karra> 2 months ago
+973d236 : ASoC: wcd9xxx: Update button release thresholds based on current micbias <Phani Kumar Uppalapati> 4 weeks ago
+e25bf1e : msm: Allow native driver to communicate with APR <Vicky Sehrawat> 3 months ago
+dc17fb2 : msm: Fix for APR session based callbacks <Vicky Sehrawat> 9 weeks ago
+d0ae625 : nf: IDLETIMER: time-stamp and suspend/resume handling. <Ruchi Kandoi> 5 weeks ago
+37279e0 : prctl: adds PR_SET_TIMERSLACK_PID for setting timer slack of an arbitrary thread. <Ruchi Kandoi> 13 days ago
+fac6714 : mmc: core: get drive types supported by eMMC cards <Krishna Konda> 6 months ago
+fc69065 : mmc: core: Fix disabling of cache for Hynix cards <Konstantin Dorfman> 6 weeks ago
+b4fce4d : mmc: card: quirk: disable cache for Hynix card <Maya Erez> 3 months ago
+e927aff : mmc: core: fix block request queue hang during data crc errors <Sujit Reddy Thumma> 3 weeks ago
+c8510e7 : cpufreq: interactive: Optimize sync_freq implementation <myfluxi> 8 days ago
+526333e : iommu: msm: Move location of local iommu halt <Olav Haugan> 6 weeks ago
+74495d4 : block: Convert BDI proportion calculations to flexible proportions <Jan Kara> 1 year, 11 months ago
+67ec4c4 : lib/flex_proportions.c: fix corruption of denominator in flexible proportions <Jan Kara> 1 year, 7 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960dt-common ****
+fd7809f : net: ipv4: current group_info should be put after using. <JP Abgrall> 7 days ago
+22672fe : nf: Remove compilation error caused by e254d2c28c880da28626af6d53b7add5f7d6afee <Ruchi Kandoi> 7 days ago
+8092b92 : nf: IDLETIMER: time-stamp and suspend/resume handling. <Ruchi Kandoi> 5 weeks ago
+5c5994f : Linux 3.4.88 <Greg Kroah-Hartman> 5 days ago
+d66d207 : wait: fix reparent_leader() vs EXIT_DEAD->EXIT_ZOMBIE race <Oleg Nesterov> 3 weeks ago
+371d9bb : jffs2: remove from wait queue after schedule() <Li Zefan> 3 months ago
+5c8e8e1 : jffs2: avoid soft-lockup in jffs2_reserve_space_gc() <Li Zefan> 3 months ago
+b49c0b8 : jffs2: Fix crash due to truncation of csize <Ajesh Kunhipurayil Vijayan> 4 months ago
+3dba9e3 : jffs2: Fix segmentation fault found in stress test <Kamlakant Patel> 4 months ago
+dfb81e8 : Bluetooth: Fix removing Long Term Key <Claudio Takahasi> 9 months ago
+eea7ead : Char: ipmi_bt_sm, fix infinite loop <Jiri Slaby> 2 weeks ago
+036132b : sparc64: don't treat 64-bit syscall return codes as 32-bit <Dave Kleikamp> 7 weeks ago
+e509704 : sparc32: fix build failure for arch_jump_label_transform <Paul Gortmaker> 3 months ago
+53c93fe : Revert "sparc64: Fix __copy_{to,from}_user_inatomic defines." <Dave Kleikamp> 5 months ago
+10d52681 : sparc: PCI: Fix incorrect address calculation of PCI Bridge windows on Simba-bridges <oftedal> 7 months ago
+0447707 : rds: prevent dereference of a NULL device in rds_iw_laddr_check <Sasha Levin> 5 weeks ago
+8c3911a : isdnloop: several buffer overflows <Dan Carpenter> 3 weeks ago
+495d659 : isdnloop: Validate NUL-terminated strings from user. <YOSHIFUJI Hideaki> 4 weeks ago
+99df85b : netlink: don't compare the nul-termination in nla_strcmp <Pablo Neira> 4 weeks ago
+4230a2a : ipv6: some ipv6 statistic counters failed to disable bh <Hannes Frederic Sowa> 4 weeks ago
+fec7e11 : xen-netback: remove pointless clause from if statement <Paul Durrant> 5 weeks ago
+1bc0f3b : vhost: validate vhost_get_vq_desc return value <Michael S. Tsirkin> 5 weeks ago
+20a51ab : vhost: fix total length when packets are too short <Michael S. Tsirkin> 5 weeks ago
+4b6da91 : ipv6: ip6_append_data_mtu do not handle the mtu of the second fragment properly <lucien> 7 weeks ago
+4800c47 : ipv6: Avoid unnecessary temporary addresses being generated <Heiner Kallweit> 7 weeks ago
+d82c152 : net: socket: error on a negative msg_namelen <Matthew Leach> 7 weeks ago
+711d917 : vlan: Set correct source MAC address with TX VLAN offload enabled <Peter Boström> 7 weeks ago
+c3363b2 : ipv6: don't set DST_NOCOUNT for remotely added routes <Sabrina Dubroca> 8 weeks ago
+d7fc329 : net: unix: non blocking recvmsg() should not return -EINTR <Eric Dumazet> 5 weeks ago
+098c996 : bridge: multicast: add sanity check for query source addresses <Linus Lüssing> 8 weeks ago
+978a9b7 : net: sctp: fix skb leakage in COOKIE ECHO path of chunk->auth_chunk <Daniel Borkmann> 8 weeks ago
+f9c7c61 : pronto: Panic on vos double free detection <Pradeep Kumar Goudagunta> 6 weeks ago
+1e4e890 : VOSS: Fix recursive spin_lock issue <Pradeep Kumar Goudagunta> 4 weeks ago
+07c4978 : wlan: Use numOfChannels to check if channel list is empty <Abhishek Singh> 4 weeks ago
+5a93753 : wlan: Fix multiple issues with iw_softap_getassoc_stamacaddr() <Jeff Johnson> 5 weeks ago
+5b4111d : wlan: Fix for FTM mode host driver memory leak <Mahesh A Saptasagar> 4 weeks ago
+c5cd02b : wlan: memory corruption fix <Leo Chang> 5 months ago
+339545d : wlan: flush cached frames on assoc failure <Mihir Shete> 3 weeks ago
+1924763 : ARM: mm: remove IPI broadcasting on ASID rollover <Will Deacon> 1 year, 11 months ago
+7cb2703 : wlan: add extra debugging when DXE channel error is detected <Mihir Shete> 7 weeks ago
+0f8403a : WLAN : Revision 3.2.7.47 <AnjaneeDevi Kapparapu> 7 weeks ago
+e7a5486 : wlan0: reduce severity of logs coming in low resource context <Mihir Shete> 8 weeks ago
+d04a194 : wlan: Enable roaming on DFS channel <Sandeep Puligilla> 7 weeks ago
+270ee51 : WLAN : Revision 3.2.7.46 <AnjaneeDevi Kapparapu> 7 weeks ago
+64fb8b4 : wlan: Prevent several functions to continue during SSR <Yue Ma> 7 weeks ago
+4deee5a : wlan: Avoid PNO during active session or session in progress <Vinay Krishna Eranna> 9 weeks ago
+6cc6cac : wlan: Reduce logging level that can cause crash <Agarwal Ashish> 8 weeks ago
+c64e32a : wlan: reprogram DXE registers if they go out of synch <Mihir Shete> 9 weeks ago
+e834369 : wlan: Check for logp in progress in WDA api . <Katya Nigam> 9 weeks ago
+fa3ead3 : wlan: Increase NV download waiting time of host driver during SSR <Yue Ma> 9 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_omap4-common ****
+fb0766a : omap4-common: fix the power-key <Michael Gernoth> 2 days ago
+ 
+**** https://github.com/VanirAOSP/libcore ****
+0d40611 : Revert "Fix a CharsetEncoder bug." <Ricardo Cerqueira> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+6d10e7f : Revert "A quick experiment,... can -q be default" <DHOMD> 43 minutes ago
+dd674cd : A quick experiment,... can -q be default <DHOMD> 45 minutes ago
+6ed9f3d : We need this repo too <DHOMD> 79 minutes ago
+0b8ff3b : cp errors <DHOMD> 81 minutes ago
+ed2f989 : OppO <DHOMD> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+df6b569 : Add 3264x1840 as a valid camera resolution for benefit of HTC DLX and others. <Brian Rodgers> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+f216d2d : DeskClock: Fix NullPointerException in AlarmClockFragment <Paul Bouman> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+cb900b3 : MSIM: Use operator name instead of SUBS for InCallUI <dhacker29> 4 days ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+9849e05 : ... <h0rn3t> 8 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+982d42f : Revert "Settings : Add contributors word cloud" <nuclearmistake> 22 hours ago
+05ad817 : Settings : Add contributors word cloud <Danesh Mondegarian> 5 days ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+d29ca11 : Remove hard-coded CDMA roaming mode restrictions. <Mike Kasick> 2 years, 3 months ago
+60c3d05 : Holoize multi-SIM call target selection dialog. <Danny Baumann> 3 days ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+29d5a84 : Sanitize white space and remove redundant call <DHOMD> 56 minutes ago
+5a28679 : Initial Oppo N1 + Find 5 <DHOMD> 69 minutes ago
+d4a9c55 : Staging for mondrianwifi <DHOMD> 2 days ago
+ 

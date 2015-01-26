@@ -1,0 +1,324 @@
+
+**** https://github.com/VanirAOSP/bootable_recovery_TWRP ****
+bcff146 : Build more needed libs for mke2fs <Ethan Yonker> 26 hours ago
+7b4c7a6 : Update blkid to 2.25.0 Break libblkid into 4 libraries: libblkid, libuuid, libutil-linux and libfdisk. <bigbiff> 4 days ago
+183a6f8 : crypto: remove unused libs and clean up makefile <that> 6 days ago
+d83587d : Fix adb sideload during ORS <Ethan Yonker> 2 days ago
+24e7eb7 : Thread openrecoveryscript action to properly display action page <Ethan Yonker> 2 days ago
+cc8ddca : fix adb sideload <that> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m4 ****
+cd7ab3f : m4: Add labels to firmware partitions <Jurica Vukadin> 16 hours ago
+04f87ef : m4: Inherit QCOM sepolicy <Jurica Vukadin> 18 hours ago
+bd2d533 : m4: Update overlay <Jurica Vukadin> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7-common ****
+2d0b632 : m7-common: Add CIR sepolicy <David Hays> 30 hours ago
+aa8e3f7 : m7-common: Remove logwrapper <Ethan Chen> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+7529365 : m8: disable libaudioamp for now <noname55804> 35 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+a241117 : Remove all cellular specific dirs & files. The same is in default values and xml dirs, and/or in framework, which should be good by now. <sudosurootdev> 13 hours ago
+4b723f6 : Update overlays with missing ROAMING INDICATORS. <sudosurootdev> 20 hours ago
+46b9ad6 : Actual Mistake <sudosurootdev> 21 hours ago
+2f3e1ba : Revert "Fix mistake" Telephony & Telecomm are blurring my mind & vision... lol. There was no mistake. <sudosurootdev> 21 hours ago
+59783cd : Fix mistake <sudosurootdev> 21 hours ago
+ff43ddb : Sort out overlay files. <sudosurootdev> 2 days ago
+9cc65a3 : Make sure that lge_touch "Tap to Wake' is working on boot. It was not re-activated after reboot... so you'd have to turn it off and on again everytime with EXODUS branch builds. <sudosurootdev> 32 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g3-common ****
+9c1bb63 : g3-common: Change LCD density to 560dpi <Shawn Alty> 6 weeks ago
+dac2c3c : init: disable lg screen sharpening <savoca> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_mako ****
+db12c48 : mako: Update proprietary files <Diogo Ferreira> 15 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_vs980 ****
+bf6dbc3 : Fix Verizon Roaming Issue: Update Verizon cdma numeric code. <sudosurootdev> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_vs985 ****
+88738df : vs985: force getting eri from xml <Dan Pasanen> 5 days ago
+ 
+**** https://github.com/VanirAOSP/device_moto_shamu ****
+ea32b73 : Add rmnetcli to test data-y stuff <nuclearmistake> 17 hours ago
+b069770 : Shamu: proprietary-files: Build libmm-qcamera <dhacker29> 9 days ago
+c33a2b9 : Shamu: proprietary-files: Build some audio related libs from source <dhacker29> 9 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_moto_msm8960 ****
+764c167 : include: sync android_filesystem_config.h with systemcore <dhacker29> 8 hours ago
+ 
+**** https://github.com/VanirAOSP/motorola_msm8226-common ****
+8d253b9 : msm8226-common: Update DRM library list <Ethan Chen> 9 hours ago
+4a4b553 : Revert "msm8226-common: Set SELinux to permissive mode" <Ethan Chen> 10 days ago
+ae47f94 : msm8226-common: Address system_app shell_data_file denial <Ethan Chen> 9 hours ago
+f96b6f0 : msm8226-common: re-enable and fix performance profiles <Konsta> 14 hours ago
+54362d9 : msm8226-common: include: update filesystem config header <Konsta> 14 hours ago
+e0ba7a5 : msm8226-common: overlay: update hardware key configuration <Konsta> 14 hours ago
+33c9738 : Revert "msm8226-common: Add shell property to use AwesomePlayer as default." <Rabih Salamey> 6 weeks ago
+5377c91 : msm8226-common: Add platform-specific SELinux policy <Ethan Chen> 2 weeks ago
+349aacd : msm8226-common: Don't use separate VOIP use cases <Rabih Salamey> 22 hours ago
+4791b75 : Revert "msm8266-common: Vendor files should be included if-exists" <Simon Sickle> 26 hours ago
+72d3546 : msm8266-common: Vendor files should be included if-exists <Simon Sickle> 29 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_qcom_sepolicy ****
+64bf328 : Fix: Repetition of same filenames in the sepolicy union list <ramsudharsan> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_hlte-common ****
+7786ea8 : hlte: fix voice call <repo Shareef Ali> 17 hours ago
+c040af3 : hlte:  audio features update <repo Shareef Ali> 18 hours ago
+944dd7d : hlte-common: slip in the UHD reso for video recording <Tony Layher> 6 days ago
+4a4ef27 : hlte: update camera stuff <repo Shareef Ali> 19 hours ago
+201c8b2 :  Hlte: cleanup Props <repo Shareef Ali> 20 hours ago
+ec26727 : hlte:  enable and get rid of obsolete audio features <repo Shareef Ali> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jf-common ****
+0ca3e98 : jf: denials on denials on denials <dcd> 23 hours ago
+a71197e : Add back Oh... Shit! button <DHOMD> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+79cebb8 : klte-common: import universal KlteRIL for GSM and CDMA <Matt Filetto> 10 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_kltespr ****
+26056dc : kltespr: Expose the APN settings menu <Matt Filetto> 5 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_klteusc ****
+f11aefb : klteusc: Expose the APN settings menu <Matt Filetto> 5 weeks ago
+0007846 : klteusc: set correct size for userdata partition <Matt Filetto> 12 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_mondrianwifi ****
+7ee646e : mondrianwifi: sepolicy: Label firmware data appropriately <Christopher R. Palmer> 28 hours ago
+dbbcc18 : mondrianwifi: Update AAPT config <Christopher R. Palmer> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8974-common ****
+323c2b1 : msm8974: remove things that are  handled elsewhere <repo Shareef Ali> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_n7100 ****
+3dd3324 : n7100: use opensource camera HAL <Howard Su> 10 days ago
+bf2938f : n7100: use opensource sensor lib instead of blobs <Howard Su> 10 days ago
+75abf8e : n7100: bring note2 to L <Howard Su> 11 days ago
+ 
+**** https://github.com/Ziyann/android_device_samsung_tuna
+origin	git@github.com:VanirAOSP/NEW_device_samsung_tuna.git
+vanir	https://github.com/VanirAOSP/device_samsung_tuna ****
+83b9361 : tuna: add CM performance profiles <Ziyan> 15 hours ago
+e21c89c : tuna: remove custom recovery ui <Ziyan> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_blue-common ****
+3156d6f : blue-common: sepolicy: rmt: remove violations <Daniel Hillenbrand> 15 hours ago
+ce0ae6b : blue-common: set selinux to permissive <Daniel Hillenbrand> 15 hours ago
+91c9b63 : blue: seLinux policy for rmt_storage process. <Daniel Hillenbrand> 15 hours ago
+436ba37 : build: Avoid poisoning the host binaries with bad ABIs <Ricardo Cerqueira> 16 hours ago
+825014a : blue: sepolicy: rename domain "system" to "system_server" <Daniel Hillenbrand> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+06f0b85 : HLSCustom: Bandwidth switching improvement in HLS <Manikanta Kanamarlapudi> 4 weeks ago
+1ea977c : httplive: Support embedded images in audio-only playlist <Manikanta Kanamarlapudi> 4 weeks ago
+22f6020 : HLSCustom: Fix compilation issues and support for dual HLS stack <Manikanta Kanamarlapudi> 4 weeks ago
+0778792 : HLSCustom: Copying KK-mr2 files from httplive to httplivecustom <Manikanta Kanamarlapudi> 4 weeks ago
+6da6ace : nuplayer: Don't assume audio streams have metadata <Ricardo Cerqueira> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+cae589e : Kill immersive mode <DHOMD> 5 hours ago
+93e97e3 : Power menu: move actions to centralized constants class <Dave Kessler> 4 days ago
+6c229ed : Power menu customizations [1/2] <Dave Kessler> 2 weeks ago
+494c857 : Squash of 11 of Dave's commits for Navi <Dave Kessler> 4 weeks ago
+d746c4a : Revert "Cleanup battery style code" <nuclearmistake> 6 hours ago
+5c76460 : Smooth Spinners: Makes the loading "spinner" animation smoother in non-holo apps <Sar Castillo> 2 years, 2 months ago
+9203171 : Cleanup battery style code <Michael Bestas> 3 weeks ago
+85b5efd : Revert "Revert "appops: Add support for SU"" <nuclearmistake> 18 hours ago
+30a9dbe : IMS : Incoming Call Barring <Basudev Achary Konderpu> 10 weeks ago
+b6f3583 : IMS OMA-DM Intent and ImsReasonInfo Additions <Omkar Kolangade> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+2f179cb : libgui: Add pre-MR2-compatible symbol for setPosition <Ricardo Cerqueira> 1 year, 5 months ago
+a40cfcf : libbinder: Add legacy MemoryDealer constructor for old Nvidia OMX adaptor <Thomas Wendt> 6 weeks ago
+798798a : surfaceflinger: Track the last surfaceview frame for latency dumps <Ricardo Cerqueira> 6 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_net_ims ****
+ea1948e : IMS : Incoming Call Barring <Basudev Achary Konderpu> 10 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+096aa2e : CDMALTEPhone didn't have this case before oosisdc handling, so it shouldn't after. <nuclearmistake> 6 hours ago
+0b6b063 : ModemPolicy: fix NPE <Shareef Ali> 4 weeks ago
+14aa80f : IMS: Incoming Call Barring <Basudev Achary Konderpu> 10 weeks ago
+3291314 : Revert "Revert "Fix the roaming searching text display in standby screen"" <Dan Pasanen> 5 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_webview ****
+1139f1f : Webview: chromium: update icon <linuxx> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_broadcom_libbt ****
+cac0bdf : libbt: Add support for using two stop bits <Steve Kondik> 1 year, 5 months ago
+68c58d0 : libbt: Add prepatch support <Steve Kondik> 1 year, 6 months ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_bt ****
+a8f7a4f : Revert "Bluetooth: Compilation Fix for BT bring up" <Christopher R. Palmer> 2 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_samsung ****
+36b5065 : XMM626x: fix Samsung RIL v9 update <bmork> 3 days ago
+518d172 : lights: Clean up light priorities and dedupe code <Ricardo Cerqueira> 3 days ago
+f3ba720 : macloader: Add SEMCO3RD and WISOL for BCM4354. <Andreas Schneider> 3 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_msm8974 ****
+e231856 : patch 3.4.39 <varchild> 29 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_lge_g3 ****
+103c2cf : g3: enable userspace sharpening control <savoca> 2 days ago
+2650d18 : msm: mdss: Allow sharpening control from userspace <savoca> 2 days ago
+552c482 : Revert "dts: msm8974pro-lge-panel: Oversharpening fix" <savoca> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+0a88dcf : bacon: Disable DIAG <Steve Kondik> 28 hours ago
+13c2fa4 : synaptics_dsx: Unsuspend in doze mode <Steve Kondik> 2 days ago
+6bbbde7 : msm: cpp: Fix potential dereference of NULL pointer <Iliya Varadzhakov> 17 hours ago
+9e17018 : msm: camera: Change Avtimer timestamp implementation <Abhishek Kondaveeti> 11 months ago
+bdb1bb9 : msm: camera: Fix long overflow on the pix clk <Peter Liu> 1 year, 1 month ago
+2b1c34f : msm: camera: Fix improper memory free in failure case <Yiduo Wang> 18 hours ago
+ddd2428 : msm: Camera: Return proper value for msm_camera_qup_i2c_txdata(). <Vivek Veenam> 18 hours ago
+0d72d3d : msm: camera: make sure num_buf is not out of bound <Hariram Purushothaman> 18 hours ago
+74bd1d2 : msm: camera: Fix various small issues in Actuator driver <Yiduo Wang> 18 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+91be532 : hlte: fix cabc values <repo Shareef Ali> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_mondrianwifi ****
+9fd5eda : mondrianwifi: mdss: Samsung, don't scale brightness to 0! <Christopher R. Palmer> 19 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_tuna ****
+8bb843b : power: power_supply: add POWER_SUPPLY_PROP_CHARGE_ENABLED <Todd Poynor> 2 years, 6 months ago
+6acf53a : tuna: enable 512 MHz GPU frequency slot <Ziyan> 2 weeks ago
+562ac78 : power: max17040: add support for POWER_SUPPLY_PROP_PRESENT <Ziyan> 2 weeks ago
+952bced : tuna: add cyanogenmod defconfig <Ziyan> 3 weeks ago
+0d791e5 : tuna: update defconfig <Ziyan> 3 weeks ago
+a2bb75e : Added Color Control version 4. <Ezekeel> 2 years, 6 months ago
+240ea5d : Add sysfs vibrator intensity controls <codeworkx> 2 years, 3 months ago
+61c6c77 : optimized LPDDR RAM timings (~10% throughput increase) <Boy Petersen> 1 year, 6 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8x60 ****
+3b3e71b : Fix all sizeof-pointer-memaccess for gcc 4.8. <Mohamad Ayyash> 15 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+6a6ffad : Restire some legacy devices <DHOMD> 7 hours ago
+5959f25 : Add Terminal app <Ricardo Cerqueira> 2 days ago
+0075d11 : Replace app-based superuser with the PG version <Ricardo Cerqueira> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_BluetoothExt ****
+7874437 : BluetoothExt: Cleanup CAF strings <Michael Bestas> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+5bcfdcb : Crash fix: deal with ClassCastException <Marcos Marado> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+776f0a2 : DeskClock: move CAF strings to cm_strings <Vladislav Koldobskiy> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Exchange ****
+465752c : Exchange: Update icon to Material <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+5a39707 : Test <DHOMD> 2 hours ago
+6bd89a0 : Kill of immersive mode <Dave Kessler> 2 days ago
+9956406 : PowerMenuActions: set user switcher checked with priority on number of users instead of the user config array <Dave Kessler> 2 days ago
+4c27e70 : Power menu: Remove preferences not present in the overlay <Dave Kessler> 4 days ago
+d5bd74f : PowerMenu: move actions[] to a resource to allow overlays <Dave Kessler> 7 days ago
+2732e94 : Power menu customizations [2/2] <Dave Kessler> 2 weeks ago
+f368bcc : Fix style issue <MartinRo> 16 hours ago
+8f20a1a : Reorg of Settings <DHOMD> 30 hours ago
+6373789 : Squash of Dave's commits for Navi (2/2) <Dave Kessler> 4 weeks ago
+965810d : Revert "Add CM Legal" <nuclearmistake> 6 hours ago
+6472e3b : Settings: Fix hiding button backlight option <Konsta> 2 days ago
+cffc805 : Show application's package name in the "App info" screen. <Chirayu Desai> 1 year, 7 months ago
+401d4ba : Check boxes to Switches in PrivacyGuardPerfs <nickdoherty81> 25 hours ago
+c1132fe : PrivacyGuard: Tint the enabled icon <Diogo Ferreira> 12 hours ago
+4190135 : Move button settings under notification settings <Michael Bestas> 11 hours ago
+4465e7d : Add CM Legal <Abhisek Devkota> 1 year, 1 month ago
+cdbfe98 : Utils: Fix isPackageInstalled <Ricardo Cerqueira> 15 hours ago
+2b90def : Revert "Settings : Add contributors word cloud" <nuclearmistake> 18 hours ago
+ebc3d19 : su: Add Root access app-ops control <Diogo Ferreira> 3 weeks ago
+79843d0 : su: Remove the superuser app <Diogo Ferreira> 3 weeks ago
+4f6297a : Settings: improve CAF strings <Vladislav Koldobskiy> 2 days ago
+9c4d3f1 : Settings: modify AOSP RU translation <Vladislav Koldobskiy> 4 days ago
+d206e5e : Settings : Add contributors word cloud <Danesh Mondegarian> 8 months ago
+c11c1ff : Buttons: set HOME wake key default as disabled [1/2] <jrior001> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Terminal ****
+451275e : Add application icon <Tom Marshall> 5 days ago
+b424b73 : Add settings for fullscreen, orientation, font size, color <Tom Marshall> 5 days ago
+bb6bb3f : Show cursor <Tom Marshall> 6 days ago
+d3090cb : Remove rows/cols from nativeInit <Tom Marshall> 6 days ago
+1c4704e : Show soft keyboad on click <Tom Marshall> 6 days ago
+8dc5449 : Fix focus on initial start <Tom Marshall> 6 days ago
+ffbad51 : Update and fix Terminal. <Elliott Hughes> 5 weeks ago
+1a161f7 : Now LOCAL_JNI_SHARED_LIBRARIES works for both bundled and unbundled build. <Ying Wang> 9 months ago
+96403af : Terminal: fix compiling for 64-bit <Colin Cross> 9 months ago
+02abbd1 : Remove persistent flag from manifest <Michael Wright> 1 year, 8 months ago
+00b0081 : Add scrollback support. <Jeff Sharkey> 1 year, 9 months ago
+a816285 : Add liblog. <Ying Wang> 1 year, 9 months ago
+1ab44cc : Include JNI in both system and unbundled apps. <Jeff Sharkey> 1 year, 9 months ago
+2c9fd65 : Disable ProGuard for development. <Jeff Sharkey> 1 year, 9 months ago
+441f018 : Terminal app disabled by default. <Jeff Sharkey> 1 year, 10 months ago
+fd6f097 : Decode UTF-32 chars. <Jeff Sharkey> 1 year, 10 months ago
+c8be179 : Added input error handling and enabled keyboard input <Michael Wright> 1 year, 10 months ago
+303dab0 : Remove unnecessary cast <Michael Wright> 1 year, 10 months ago
+26c9bb3 : Start hooking up keyboard input to view <Michael Wright> 1 year, 10 months ago
+007efde : Add jni hooks for key dispatching <Michael Wright> 1 year, 10 months ago
+d654ac6 : Add support for conversion from Android to libvterm keys <Michael Wright> 1 year, 10 months ago
+d080099 : Updated proguard flags <Michael Wright> 1 year, 10 months ago
+de15e79 : Service to host long-lived terminals, tab UI. <Jeff Sharkey> 1 year, 10 months ago
+cedf158 : Correctly resize terminal, hook up colors. <Jeff Sharkey> 1 year, 10 months ago
+6a142b6 : Working damage! <Jeff Sharkey> 1 year, 10 months ago
+fa50ddd : Fixed proguard issues on non-eng builds <Michael Wright> 1 year, 10 months ago
+a76e338 : Start hooking up damage, shell script to test. <Jeff Sharkey> 1 year, 10 months ago
+479bd64 : Split init() and run(). <Jeff Sharkey> 1 year, 10 months ago
+9cae0a9 : Add CellRun to speed up cell rendering. <Jeff Sharkey> 1 year, 10 months ago
+d439bac : Initial pass at read() loop. <Jeff Sharkey> 1 year, 10 months ago
+9a0032b : Properly configure ptys on Terminal construction <Michael Wright> 1 year, 10 months ago
+a36312d : Add forkpty function <Michael Wright> 1 year, 10 months ago
+410e0da : TerminalView to draw session contents. <Jeff Sharkey> 1 year, 11 months ago
+5d4b395 : Start hooking up forkpty() <Jeff Sharkey> 1 year, 11 months ago
+8c04033 : Add callbacks <Kenny Root> 1 year, 11 months ago
+ef946f3 : Initial code for Terminal app, with JNI glue. <Jeff Sharkey> 1 year, 11 months ago
+1a4f172 : Initial empty repository <Baligh Uddin> 1 year, 11 months ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_TelephonyProvider ****
+af7e476 : TelephonyProvider: Update icon to Material <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telecomm ****
+7ca5fbd : Telecomm: Update icon to Material <Michael Bestas> 30 hours ago
+44b050a : Telecomm: move CAF strings to cm_strings <Vladislav Koldobskiy> 2 days ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+e419108 : rootdir: Remove duplicate rule <myfluxi> 2 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_asus ****
+6061fd0 : depreciate tf701 <DHOMD> 7 hours ago
+d038e08 : deb: use libacdbdata.so from preview package <Dave Daynard> 3 weeks ago
+ 
+**** https://github.com/DHOMD/commotio ****
+57623aa : D855 got nuked?  Back in <DHOMD> 7 hours ago
+2f7bca1 : SU removal :( <DHOMD> 8 hours ago
+27303c4 : Shameful hack <DHOMD> 8 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_lge ****
+9ddb89b : mako: Update to LRX22C <Diogo Ferreira> 15 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_motorola ****
+4342874 : depreciate maserati <DHOMD> 7 hours ago
+0ef2b55 : msm8226-common: Update Widevine libraries <Ethan Chen> 9 hours ago
+9efa878 : Restore libqmimotext.so <nuclearmistake> 15 hours ago
+1b02695 : shamu: big update from 5.0.1 dump <nuclearmistake> 16 hours ago
+a028382 : shamu: update qmi giblets <nuclearmistake> 17 hours ago
+d4c9874 : Revert "Revert "Shamu: Build librmnetctl from source"" <nuclearmistake> 16 hours ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_oppo ****
+44f539d : msm8974: Update blobs <Steve Kondik> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+7fadc61 : Revert "Add profiles to the default power menu" <DHOMD> 3 hours ago
+2afcda5 : Add profiles to the default power menu <Raj Yengisetty> 12 hours ago
+15afb11 : d855 testing and working <DHOMD> 7 hours ago
+dd2ce5d : Make sure cm stuff (like su) builds properly with minimal dicking-with <nuclearmistake> 18 hours ago
+1663ce7 : config: Build the new Terminal app <Ricardo Cerqueira> 2 days ago
+fe35029 : Remove Superuser app <Ricardo Cerqueira> 2 days ago
+8072652 : sepolicy: Add policies for the new superuser sockets. <Ricardo Cerqueira> 3 weeks ago
+ 

@@ -1,0 +1,227 @@
+
+**** https://github.com/VanirAOSP/device_asus_tf700t ****
+5a597d4 : tf700t: update denied selinux policies <Jorge Ruesga> 8 hours ago
+8adbaa0 : tf700t: fix typo in audio policy <Jorge Ruesga> 8 hours ago
+c1f7c34 : tf700t: use_default_bootanimation <Jorge Ruesga> 13 hours ago
+b456a42 : tf700t: return to 2048 dalvik heap <Jorge Ruesga> 28 hours ago
+419194c : tf700t: remove unnecessary stuff <Jorge Ruesga> 28 hours ago
+804cce6 : tf700t: add init.te selinux policy <Jorge Ruesga> 30 hours ago
+492c132 : tf700t: add audio policy <Jorge Ruesga> 31 hours ago
+c6d1f82 : tf700t: fix camera blob property denial. <chrmhoffmann> 34 hours ago
+6787130 : tf700t: remove dalvik precise setting. try mem settings for 1GB tablet. <chrmhoffmann> 2 days ago
+85f67fc : tf700t: sync release tools. <chrmhoffmann> 3 days ago
+ac1712c : tf700t: fix nvidia alsa service denial <chrmhoffmann> 5 days ago
+3c81679 : tf700t: use dir perms. <chrmhoffmann> 8 days ago
+3ed2c78 : tf700t: selinux policy updates <chrmhoffmann> 8 days ago
+d89b81c : tf700t: antibanding setting auto not accepted, so write a camera wrapper. Thx go to thoemy for the inital camera wrapper structure. <chrmhoffmann> 7 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_lge_d851 ****
+19ce129 : overlay: prefer the ipv6 apn <Dan Pasanen> 10 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+c114c54 : Hammerhead, use selinux <DHOMD> 5 hours ago
+bde5d8b : hammerhead: set persist.sys.isUsbOtgEnabled to enable USB storage. <Clyde Tan> 12 days ago
+3ad8ae4 : hammerhead: add androidboot.bootdevice <f14w3d> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_ls980 ****
+52533bf : Do not build NFC at all, while it isn't working. Must finish HAL libnfc-nxp for pn544 device, first. <sudosurootdev> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_moto_shamu ****
+e723abe : Fix battery charging light <CPA-Poke> 2 days ago
+35cd713 : netmgrd: give explicit read access to /proc/net <Nick Kralevich> 4 days ago
+ 
+**** https://github.com/VanirAOSP/motorola_msm8226-common ****
+b0dabd8 : Revert "msm8226-common: disable LOGD" <Konsta> 4 days ago
+7302a94 : Revert "msm8226-common: Use legacy MMAP for camera" <Konsta> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_oneplus_bacon ****
+d76b066 : bacon: Remove defunct overlay <Steve Kondik> 2 days ago
+098b7e0 : Bacon: A more elegant and OSX friendly extraction script <Zyg0te> 4 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_find5 ****
+2838a1f : build: Avoid poisoning the host binaries with bad ABIs <Ricardo Cerqueira> 5 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+be28a52 : msm8974: Allow telephony to control tap-to-wake procfs <Steve Kondik> 22 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_hlte-common ****
+61f0a01 : Hlte: add missing adreno blob <Shareef Ali> 17 hours ago
+d9adb20 : hlte: add flp.conf <Shareef Ali> 24 hours ago
+d617ab4 : hlte: derp  fix <Shareef Ali> 28 hours ago
+5510e5a : hlte:  go back to 44.1k A2dp <Shareef Ali> 10 days ago
+f57ce00 : hlte-common: fix modem <christer12> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jf-common ****
+6cd54ea : bluetooth: disable axi bridge lock <invisiblek> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+8011bfc : klte-common: import universal KlteRIL for GSM and CDMA <Matt Filetto> 3 weeks ago
+c1530c2 :  klte-common: add missing cpu parameters <Ozzy2403> 8 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_smdk4412-common ****
+0aeb005 : Revert "wifi: don't build wifi HAL" <MarcKe> 3 weeks ago
+ 
+**** https://github.com/Ziyann/android_device_samsung_tuna
+origin	git@github.com:VanirAOSP/NEW_device_samsung_tuna.git
+vanir	https://github.com/VanirAOSP/device_samsung_tuna ****
+b21baad : tuna: fix tracer permissions <Ziyan> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_blue-common ****
+8d6ccb8 : blue: sepolicy: allow mediaserver to access camera.1.name property <Daniel Hillenbrand> 9 hours ago
+0729e0d : blue-common: disable legacy uids, cleanup non-existing qcom_oncrpc group <Daniel Hillenbrand> 3 days ago
+947b4fe : blue-common: sepolicy: add property contexts <Daniel Hillenbrand> 34 hours ago
+ 
+**** https://github.com/CyanogenMod/android_external_dhcpcd ****
+10cb9e2 : dhcpcd: Store DUID file in a location that can be created <Christopher R. Palmer> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_external_htop ****
+841159c : htop: Update to 1.0.3 <Diogo Ferreira> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_external_vim ****
+65cd352 : vim: Update to 7.4.568 <Bram Moolenaar> 6 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+7451f72 : base: fix battery stats wakelock crazyness <maxwen> 7 weeks ago
+cb7234c : ColorFade: Fix memory leak <Evisceration> 4 weeks ago
+b702239 : Fix warning <Steve Kondik> 29 hours ago
+448e72d : Prevent copyNativeLib of package scanning to reduce booting time. <hyemin.hwang> 2 weeks ago
+b87d386 : SystemUI: Fix system ui crash while continuously click flash light tile issue <kaiyiz> 9 weeks ago
+97b7db8 : SystemUI: Fix user profile activity overlapped by status bar panel issue <kaiyiz> 10 weeks ago
+56c67c0 : Framework: Fix GSM signal strength <Ricardo Cerqueira> 1 year, 2 months ago
+4d86952 : USB: AppOps: always show "USB connection" when usb connected <Kun Liang> 3 months ago
+9faca97 : Quick settings: Option to disable brightness slider (1/2) <Altaf-Mahdi> 7 days ago
+970f603 : Navbar: Class members that get set multiple times in the ONE function they're used in ought to be local. SRSLY <nuclearmistake> 34 hours ago
+80b13c4 : NavBar: Fix IME back button when extra IME buttons are enabled, the day of the week ends with a T, and your mother's maiden name starts with a vowel. <nuclearmistake> 34 hours ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_broadcom_wlan ****
+078ebed : bcmdhd: workaround for driver compiled as a module <Dheeraj CVR> 4 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_asus_tf700t ****
+7d91da5 : cardhu: bluetooh: add bluesleep <Aaron Echols> 2 years, 1 month ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_msm8974 ****
+34bb419 : cpufreq: Preserve sysfs min/max request <JTrefzger> 22 hours ago
+44066c3 : m8: Fix for tap to wake randomly dying after a while. <JTrefzger> 22 hours ago
+5413ad8 : Revamp spinlock ASM code <Randy DuCharme> 3 weeks ago
+4673ea6 : msm: use of swp{b} is deprecated for ARMv6+ <Pranav Vashi> 1 year, 1 month ago
+17d3a12 : initrd: fix lz4 decompress with initrd <Yinghai Lu> 5 months ago
+424d19d : MIPS: ZBOOT: Support LZ4 compression scheme <Florian Fainelli> 1 year, 4 months ago
+cbd200a : s390: add support for LZ4-compressed kernel <Heiko Carstens> 1 year, 6 months ago
+3943eb0 : nohz: Reduce overhead under high-freq idling patterns <Ingo Molnar> 1 year, 9 months ago
+81a3d7f : readahead: make context readahead more conservative <Fengguang Wu> 1 year, 4 months ago
+2c7ab22 : msm: kgsl: Add an input handler to power up the GPU on a touch event <Jordan Crouse> 1 year, 2 months ago
+ddb8369 : mmc: Disable crc check (thanks Cl3Kener) <JTrefzger> 6 days ago
+b249528 : ARM: mm: Enable NCSE feature for A15 only <Bo Yan> 4 months ago
+99f02c6 : ARM: mm: enable non-cacheable streaming enhancement <Bo Yan> 4 months ago
+4455f60 : more neon enabling <JTrefzger> 24 hours ago
+1f787c2 : enable neon mode <JTrefzger> 24 hours ago
+d308fd8 : enable neon mode <JTrefzger> 24 hours ago
+c372832 : max out slimbus, see if there are issues <JTrefzger> 24 hours ago
+fa80196 : lib/string: use glibc version <Miao Xie> 2 years, 10 months ago
+385ab4f : lib/memcopy: use glibc version <Miao Xie> 2 years, 10 months ago
+58071bd : ARM: add support for kernel mode NEON 3 <JTrefzger> 24 hours ago
+f09e278 : ARM: add support for kernel mode NEON 2 <JTrefzger> 24 hours ago
+04a1320 : ARM: add support for kernel mode NEON 1 <JTrefzger> 24 hours ago
+39dc229 : ARM: be strict about FP exceptions in kernel mode <Ard Biesheuvel> 1 year, 8 months ago
+ae965f9 : ARM: move VFP init to an earlier boot stage <JTrefzger> 24 hours ago
+4812fb4 : enable power efficient wq (thought it already was) <JTrefzger> 26 hours ago
+6481518 : enable power efficient wq and moto memory enhancments <JTrefzger> 26 hours ago
+298a127 : enable power efficient wq and moto memory enhancments <JTrefzger> 26 hours ago
+59102aa : msm: kgsl: Wake up GPU only for touch events <EvolutionMod> 10 weeks ago
+5f28743 : DTS: drop down more i2c freqs to 19.2 MhZ <Jake Weinstein> 4 months ago
+5f6f172 : ARM: dts: msm: i2c: change clock rate to 19.2 MHz <JTrefzger> 5 weeks ago
+090caf1 : 600MHz gpu overclock and start at 200MHz <JTrefzger> 6 days ago
+fac353f : block: Reserve only one queue tag for sync IO if only 3 tags are available <Jan Kara> 1 year, 7 months ago
+61a529d : lib/int_sqrt.c: optimize square root algorithm <Davidlohr Bueso> 1 year, 9 months ago
+6d2e3b5 : arm: lz4: faster boot-up process. <franciscofranco> 9 months ago
+1be7737 : cpufreq: Memory leak with sysfs when stats table are freed <Keff> 2 years ago
+6179129 : sched: Fix select_idle_sibling() bouncing cow syndrome If the previous CPU is cache affine and idle, select it. <HolyAngel> 4 weeks ago
+2de6824 : msm8974pro: regulator: adjust GFX regulator parameters <Paul Reioux> 11 months ago
+5f7c885 : power: msm_battery: increase battery check interval from 5 to 15 seconds <DerRomtester> 12 days ago
+a0d80b0 : mm: slub: Default slub_max_order to 0 <Mel Gorman> 3 years, 8 months ago
+054429f : (CR) msm_fb: display: reduce turn-on display time.     When turning on panel, increase its priority and restore it     after panel has been turned on to reduce Turn-on display     time when press power key. <Jake Weinstein> 10 months ago
+9b2c1ce : net/neighbour: queue work on power efficient wq <Pranav Vashi> 10 months ago
+14db72b : Power efficient workque perm fix <Tom Tartaro> 13 days ago
+c5de7fd : Minor fixup for PE Workqueue <Tom Tartaro> 3 weeks ago
+b42a5f7 : ASoC: pcm: Use the power efficient workqueue for delayed powerdown <Mark Brown> 1 year, 6 months ago
+b042433 : another fixup <Tom Tartaro> 4 months ago
+46d46a6 : msm: bam_dmux: Use power efficient workqueues for  delayed timeouts <Luis Cruz> 10 months ago
+bb26160 : regulator: core: Use the power efficient workqueue for delayed powerdown <Mark Brown> 1 year, 6 months ago
+3696c02 : [LINARO] ASoC: jack: Use power efficient workqueue <Mark Brown> 1 year, 6 months ago
+5b38a49 : [LINARO] PHYLIB: queue work on system_power_efficient_wq <Viresh Kumar> 1 year, 9 months ago
+a3189da : [LINARO] block: queue work on power efficient wq <Viresh Kumar> 1 year, 9 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960dt-common ****
+94cb116 : mmi_defconfig: Include selinux by default <dhacker29> 8 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+eae45b6 : ARM: dts: bacon: Don't issue redundant CABC mode on panel on <Ethan Chen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_oppo_n1 ****
+0e354ae : find5/n1: use ext4 for ext2/3 <Evisceration> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+3bab7b9 : hlte: upgrade sensorhub driver and firmware from g900f update <Shareef Ali> 24 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8x60 ****
+9f84695 : KEYS: close race between key lookup and freeing <Sasha Levin> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_libnativehelper ****
+74dcb12 : libnativehelper: Fix modern Xcode & OSX compilation <Scott Mertz> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_AudioFX ****
+f6e304f : AudioFX: materialize <linuxx> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+ac159cd : No more "Miscellaneous" in Battery Stats <sudosurootdev> 4 weeks ago
+4100081 : Fix NPE in HighTouchSensivity <Michael Bestas> 13 hours ago
+5985de7 : privacyguard: Add Superuser summary <Diogo Ferreira> 13 days ago
+4539716 : Quick settings: Option to disable brightness slider (2/2) <Altaf-Mahdi> 7 days ago
+77025c6 : Fix Build - Detab - WS cleanup <DHOMD> 26 hours ago
+1f4f129 : Improve settings menu <Michael Bestas> 2 days ago
+5e473b9 : Settings: Add HighTouchSensitivity support <Xiao-Long Chen> 7 months ago
+62c224a : apn: Update the add actionbar icon <Diogo Ferreira> 5 days ago
+c33908e : Revert "Settings: Remove Wallpaper selection from Display" <nuclearmistake> 32 hours ago
+5c541a9 : Relocate notification shade brightness slider out of the statusbar and into the same section as QS <nuclearmistake> 35 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Stk ****
+7cf0cc0 : Stop the StkAppService in multi sim scenario correctly. <Preeti Ahuja> 6 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Terminal ****
+23449b3 : Some cleanup. <Danny Baumann> 5 days ago
+bac0a6d : Term: materialize <linuxx> 2 weeks ago
+df1166f : Properly clear background when changing colors. <Danny Baumann> 5 days ago
+9a76b21 : Also use set colors for scrollback lines that aren't filled yet. <Danny Baumann> 5 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ThemeChooser ****
+ca65f6c : Remove icon from launcher <DHOMD> 2 days ago
+c052e53 : Clear out icon resources for non-composed icons <Clark Scheff> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_TelephonyProvider ****
+7e4b031 : TelephonyProvider: allow specifying a protocol for preferred apn <Dan Pasanen> 10 days ago
+3bc21f3 : Mms: Support query and delete multi SIM card message <Mengjun Leng> 10 weeks ago
+8268a7f : TelephonyProvider: Support classification of searching for message. <Mengjun Leng> 4 months ago
+667d875 : MSIM: Use default data subId for all APN operations. <Sandeep Gutta> 3 months ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+9e142f7 : Telephony: Use toasts instead of alert dialogs for contact operations <Michael Bestas> 25 hours ago
+1078f34 : Revert "Add Managed Roaming feature support." <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+4ec3924 : init: Don't wreck things if androidboot.bootdevice isn't set <Steve Kondik> 29 hours ago
+1f01e5f : Fix building on modern versions of Xcode and OS X. <Al Sutton> 9 weeks ago
+ 
+**** https://github.com/VanirAOSP/system_vold ****
+c1e8c56 : Vold: Don't reset mPartMinors array when handling disk <Jiangyi> 4 weeks ago
+d9858c2 : Vold: Correct part_num ignore logic <Jiangyi> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/vendor_htc ****
+eaf3d0e : m8: add hdvcp daemon <Mansour Behabadi> 2 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+8a4d1be : hlte: add missing blob. <Shareef Ali> 17 hours ago
+7228e75 : smdk4412: remove battery images <sbrissen> 3 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+7a0e949 : add hlte makefile so lunch target would work <Ench0> 5 days ago
+ 

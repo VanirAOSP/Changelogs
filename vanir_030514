@@ -1,0 +1,91 @@
+
+**** https://github.com/VanirAOSP/bionic ****
+2bdcb87 : libc: Fix memchr inclusion <Steve Kondik> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/build ****
+ac6381f : Store the value from BOARD_CUSTOM_BOOTIMG_MK to a file <Brint E. Kriebel> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+e12f6de : hammerhead: Fix invalid input_boost value <Steve Kondik> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+031b972 : AudioTrack: Fix for race condition <Haynes Mathew George> 6 weeks ago
+7469d8f : AudioFlinger: Remove unwanted update of track generation <Haynes Mathew George> 7 weeks ago
+51e6ed3 : audio: Add support for tunnel mode recording and compress voip <Mingming Yin> 11 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+b9f3d1e : Fix "telephony: DataConnection: support old RILs" <Pawit Pornkitprasan> 4 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_libhardware-legacy ****
+9715bf6 : Revert "audio: Fix check for sonification on digital docks" <Chris Soyars> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_camera ****
+c50a1c3 : QCamera3: HAL2: support using qcom display obj copied headers <synergy dev> 3 months ago
+985fc11 : set unused attribute for unused variables <synergy dev> 3 months ago
+171d4cc : HAL3: cleanup unreachable conditionals <synergy dev> 6 days ago
+b9b39cd : Remove include <linux/android_pmem.h> <synergy dev> 9 weeks ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_lge_msm8974
+https://github.com/bart452/kernel_lge_msm8974
+vani	git@github.com:VanirAOSP/kernel_lge_msm8974.git
+vanir	https://github.com/VanirAOSP/kernel_lge_msm8974 ****
+a69f869 : add vanir's ramdisk <bart452> 6 hours ago
+a1c9f3d : rtc: alarm: update power_on alarm setting logic <Xiaocheng Li> 5 months ago
+66be2fe : qpnp-rtc: clear alarm register when rtc irq is disabled <Xiaocheng Li> 4 months ago
+960f97a : kernel: alarm: setup the RTC immediately for poweroff alarm <Figo Wang> 5 months ago
+019820f : locking: Various static lock initializer fixes <Thomas Gleixner> 2 years, 8 months ago
+c95aad4 : diag: dci: Preventing unitialized stack memcpy operation <Katish Paran> 6 weeks ago
+04d801a : diag: Reduce error message frequency <Katish Paran> 7 weeks ago
+f21dcc6 : msm: ipa: Changing message in wwan driver <Vladislav Mordohovich> 9 months ago
+adec8c5 : net: usb: rmnet_usb_ctrl: Honor device polling interval <Hemant Kumar> 6 weeks ago
+e6d4865 : net: usb: Do not modify usbnet device context upon rx complete <Hemant Kumar> 8 weeks ago
+bf38768 : net: rmnet_usb: Fix probe error path <Pavankumar Kondeti> 11 months ago
+4aa1426 : net: rmnet_usb: Block open until a response is received from MDM <Pavankumar Kondeti> 11 months ago
+c955323 : net: rmnet_usb: initialize rmnet before registering with usb <Vamsi Krishna> 12 months ago
+ace26c0 : net: rmnet_usb: Fix rx_submitted anchor list corruption <Pavankumar Kondeti> 12 months ago
+caffc2b : net: rmnet_usb: qmap: reset skb tail when changing data pointer <Vamsi Krishna> 12 months ago
+d83ff5f : net: usb: Add MUX support in embedded rmnet driver <Hemant Kumar> 1 year, 3 months ago
+8d0e486 : net: rmnet_usb: Fix assignment order of instances <Jack Pham> 1 year ago
+7d2113e : net: rmnet_usb: Add support for PID 0x9079 <Jack Pham> 1 year, 1 month ago
+4a37184 : net: rmnet_usb: Support multiple instances <Jack Pham> 1 year, 1 month ago
+cbc0b08 : net: rmnet_usb: Use USB_DEVICE_INTERFACE_NUMBER <Jack Pham> 1 year, 1 month ago
+32907ab : bcmdhd: decrease rx wakelock time from 500ms to 250ms for testing purposes. <franciscofranco> 5 weeks ago
+9a0d459 : msm: wfd: Don't enforce FIFO ordering when buffers are returned <Deva Ramasubramanian> 8 months ago
+c69c88d : msm: wfd: Invalidate output buffer when returned from Venus <Deva Ramasubramanian> 10 months ago
+f2f390a : iommu: msm: Add timeouts for some operations <Ajay Dudani> 5 months ago
+ef9b6f4 : diag: Add new polling command <Ravi Aravamudhan> 6 weeks ago
+8a856f6 : USB: gadget: ether: Fix memory corruption issues with multi_pkt_xfers <Manu Gautam> 5 weeks ago
+7f5b7ba : usb: misc: mdm_ctrl_bridge: Honor device polling interval <Hemant Kumar> 6 weeks ago
+75e2043 : USB: dwc3: Fix compilation error when debugfs is disabled <Olav Haugan> 3 months ago
+a5a1ee9 : USB: dwc3: gadget: Add support for sending zero length packets <Vijayavardhan Vennapusa> 4 months ago
+09f350c : rtc: qpnp-rtc: Sets RTC time correctly <Mohit Aggarwal> 4 weeks ago
+e36f283 : fs: Tweak mount options for all partitions <Pranav Vashi> 7 weeks ago
+7eae440 : Linux 3.4.82 <houst0nn> 10 days ago
+23811a3 : Linux 3.4.81 <houst0nn> 10 days ago
+f1f20ef : fat: limit the number of error prints <Asutosh Das> 5 weeks ago
+56ecdd0 : fs: fuse: Add replacment for CMA pages into the LRU cache <Laura Abbott> 9 weeks ago
+042a495 : jbd2: optimize jbd2_journal_force_commit <mrg666> 2 months ago
+072658a : ext4: speed up truncate/unlink by not using bforget() unless needed <Andrey Sidorov> 1 year, 5 months ago
+0fa4424 : switch do_fsync() to fget_light() <Al Viro> 1 year, 11 months ago
+b9d7539 : deadline: Allow 0ms deadline latency, increase the read speed <xiaobing tu> 1 year, 3 months ago
+42c0bd2 : mm: fix anon vma naming <Colin Cross> 4 months ago
+9509e20 : mm/kmemleak.c: remove obsolete simple_strtoul <Abhijit Pawar> 1 year, 3 months ago
+b4f50a7 : kmemleak: use rbtree instead of prio tree <Michel Lespinasse> 1 year, 5 months ago
+2d21b17 : kmemleak: Replace list_for_each_continue_rcu with new interface <Michael Wang> 1 year, 7 months ago
+4c2933e : mm/page-writeback.c: do not count anon pages as dirtyable memory <Johannes Weiner> 5 weeks ago
+453a00a : mm/page-writeback.c: fix dirty_balance_reserve subtraction from dirtyable memory <Johannes Weiner> 5 weeks ago
+91d70e0 : mm, vmalloc: remove useless variable in vmap_block <Joonsoo Kim> 6 months ago
+a69a6a8 : mm, vmalloc: use well-defined find_last_bit() func <Joonsoo Kim> 6 months ago
+2bce67a : readahead: make context readahead more conservative <Fengguang Wu> 6 months ago
+21f124a : mm: change freepage state correctly in __isolate_free_page <Laura Abbott> 3 months ago
+b5e9123 : POWER: fix compile warnings in log_wakeup_reason <Ruchi Kandoi> 13 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_PackageInstaller ****
+ecb41b4 : PackageInstaller: AST translations <malditoastur> 33 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+287433c : Settings: This is not cyanogenmod in NL <bart452> 4 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+098ddec : Add compatibility code with mainline's configuration options for unlock <Ricardo Cerqueira> 5 months ago
+ 

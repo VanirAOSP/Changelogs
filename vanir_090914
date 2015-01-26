@@ -1,0 +1,349 @@
+
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+f7117c8 : remove duplicate, over-general dependency on kernel features. this is QCOM only and there is now already a check for that. <Chris Sarbora> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+ff356d9 : m8: Use extended audio platform to provide speaker backend <Ethan Chen> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_p880 ****
+06e56f2 : Disable fading Marguee.Enable OTG host X3 Init:Small adjustments for optimal effectiveness <demetris> 2 days ago
+4c5691c : Restructure X3 init to accommodate kernel changes. <demetris> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+2e4e361 : camera: don't hang while taking pictures in VIDEO_AF_STATE <Michael Gernoth> 27 hours ago
+dbf93a0 : camera: don't start AF again in VIDEO_AF_STATE <Michael Gernoth> 28 hours ago
+863b2b2 : camera: don't drop focus-callback in VIDEO_AF_STATE <Michael Gernoth> 29 hours ago
+773df2e : camera: handle CAMERA_QUERY_BUFFER_SIZE_IMAGE_CAPTURE in VIDEO_AF_STATE <Michael Gernoth> 31 hours ago
+7481eab : camera: handle switch from AF_RUN to CAMERA_START_VIDEO <Michael Gernoth> 31 hours ago
+80cea1a : camera: Handle capture request in AF run <Alex Ray> 1 year, 5 months ago
+ 
+**** https://github.com/VanirAOSP/device_oppo_common ****
+34ace79 : 'V' gesture for torch (without navringhelper dep) <nuclearmistake> 2 hours ago
+bbc4734 : Gestures: Ensure system stays awake for gesture handling <Scott Mertz> 33 hours ago
+7f1bc75 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_find7 ****
+268b34d : Revert "Revert "find7: Use camera interface for torch"" <Michael Bestas> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+1a59d8b : msm8974-common: Update audio_platform_info for extended format <Ethan Chen> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2lte ****
+534a971 : d2lte: include GPS HAL <jt1134> 7 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_hlte-common ****
+40c8783 : hlte-common: Update audio_platform_info for new extended format. <Tony Layher> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+00adb05 : Remove kltedcm from unified build <black> 31 hours ago
+d3ca163 : klte: lower NFC logging intensity <Matt Filetto> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+6d33368 : klte-common: Update audio_platform_info for extended format <Ethan Chen> 4 days ago
+66a20b8 : klte-common: fix wifi passwords being reset after a reboot. <Matt Filetto> 35 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_kltespr ****
+4c6f087 : kltespr: Set telephony prop for ril class <Matt Filetto> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_mondrianwifi ****
+c88227c : mondrianwifi: audio: Improve compatibility with "handset" <Christopher R. Palmer> 6 hours ago
+f61d257 : mondrianwifi: audio: Fix bluetooth acdb ids <Christopher R. Palmer> 7 hours ago
+edbac02 : mondrianwifi: audio: Remove custom platform code <Christopher R. Palmer> 7 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+f317025 : msm8960: add moar modem firmware for symlinks <Dan Pasanen> 3 hours ago
+9863eb0 : msm8960-common: move GPS HAL down to individual device repos <jt1134> 8 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_anzu
+lx	https://github.com/LegacyXperia/android_device_semc_anzu ****
+8d00584 : init: Update led permissions <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_coconut
+lx	https://github.com/LegacyXperia/android_device_semc_coconut ****
+eadff89 : init: Update led permissions <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_haida
+lx	https://github.com/LegacyXperia/android_device_semc_haida ****
+8c3fda7 : init: Update led permissions <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_hallon
+lx	https://github.com/LegacyXperia/android_device_semc_hallon ****
+2f27f87 : init: Update led permissions <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_iyokan
+lx	https://github.com/LegacyXperia/android_device_semc_iyokan ****
+0776249 : init: Update led permissions <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_mango
+lx	https://github.com/LegacyXperia/android_device_semc_mango ****
+435e868 : init: Update led permissions <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_msm7x30-common
+lx	https://github.com/LegacyXperia/android_device_semc_msm7x30-common
+vani	git@github.com:VanirAOSP/device_semc_msm7x30-common.git
+vanir	https://github.com/VanirAOSP/device_semc_msm7x30-common ****
+baf2af2 : init.sh: Don't enable blue led in recovery <Michael Bestas> 28 hours ago
+68a26e5 : init.sh: Don't enable button backlight on boot <Michael Bestas> 28 hours ago
+f6985cb : msm7x30: Disable hardware ALS switch <Michael Bestas> 31 hours ago
+c117756 : init: Update as3676 driver permissions <Michael Bestas> 31 hours ago
+ce8453e : liblights: Fix trigger paths for SEMC kernel driver <Michael Bestas> 32 hours ago
+513854c : Revert "Allow minimum brightness" <Michael Bestas> 32 hours ago
+8e4f084 : liblights: Cleanup ifdefs and remove device-specific header <Michael Bestas> 32 hours ago
+bc8f242 : camera: Remove AS3676 torch hack <Michael Bestas> 32 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_satsuma
+lx	https://github.com/LegacyXperia/android_device_semc_satsuma ****
+a791fb8 : init: Update led permissions <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_smultron
+lx	https://github.com/LegacyXperia/android_device_semc_smultron ****
+811d876 : init: Update led permissions <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_urushi
+lx	https://github.com/LegacyXperia/android_device_semc_urushi ****
+fa8b5f1 : urushi: Use sysfs interface for Torch <Michael Bestas> 28 hours ago
+f54f625 : init: Update led permissions <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_blue-common ****
+d1e66b7 : recovery: remove empty postrecoveryboot script <Chirayu Desai> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_sony_fusion3-common ****
+7da58aa : recovery: remove empty postrecoveryboot script <Chirayu Desai> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_huashan ****
+68eef58 : recovery: remove empty postrecoveryboot script <Chirayu Desai> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_sony_qcom-common ****
+1ecefe8 : Let us build the common Sony bits on msm8226 <Adam Farden> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_rhine-common ****
+9cf640c : rhine: init.rc fixes for encrypted devices <Joey Hewitt> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_shinano-common ****
+48137b4 : recovery: remove empty postrecoveryboot script <Chirayu Desai> 4 days ago
+ 
+**** https://github.com/CyanogenMod/AndroidAsync ****
+0b99866 : watch for selector exceptions. <Koushik Dutta> 19 hours ago
+4ee0ae0 : Added protected API for WebSocket creation <paulpdaniels> 25 hours ago
+8a2a956 : iml <Koushik Dutta> 2 days ago
+edb529c : Update README.md <Tae Hwan Kim> 9 days ago
+758763a : fix cherry-pick <Koushik Dutta> 2 weeks ago
+04dfd67 : 138 <Koushik Dutta> 2 weeks ago
+3f9ecec : Fix up leaky alloctions. <Koushik Dutta> 2 weeks ago
+f3213fe : iml <Koushik Dutta> 3 weeks ago
+00d1f56 : DataEmitter.charset fixes: <Koushik Dutta> 3 weeks ago
+f780d54 : Add api for sending ping and receiving pong on WebSocket <Zbigniew Szymański> 5 weeks ago
+9681d1f : fix gzip input filter <Koushik Dutta> 5 weeks ago
+c79ad08 : watch for exceptions when setting the proxy <Koushik Dutta> 6 weeks ago
+8607951 : Some HTTP servers are sending only newline instead of CRLF. <Koushik Dutta> 5 weeks ago
+8f5a76f : Fix a rare NPE crash in Android 2.x See http://crashes.to/s/5ee30776a5d <Steve Lhomme> 6 weeks ago
+1a9a743 : use another hash function if MD5 is not available <Steve Lhomme> 6 weeks ago
+c866d2b : potential fix for selector exception in L preview. <Koushik Dutta> 7 weeks ago
+68c948e : Crash fix for a case where the EndCallback is not set and used <Steve Lhomme> 7 weeks ago
+499d277 : removed package protected on some fields so that subclasses could access the fields <Sean Stuckless> 8 weeks ago
+5864287 : fixes for eclipse <Koushik Dutta> 8 weeks ago
+c39cfbe : derp. <Koushik Dutta> 8 weeks ago
+9473c0e : ByteBuffer List fixes: <Koushik Dutta> 8 weeks ago
+d8a5060 : AsyncSSLSocketWrapper: Perform handshake before allowing read/write. <Koushik Dutta> 8 weeks ago
+eb633ea : Refactor proxy implementation. Maybe this should go into ion? <Koushik Dutta> 8 weeks ago
+55e31f2 : remove file <Koushik Dutta> 8 weeks ago
+31d7f50 : ffs <Koushik Dutta> 8 weeks ago
+75fc659 : ffs <Koushik Dutta> 8 weeks ago
+4df2593 : goddamn gradle publishing <Koushik Dutta> 8 weeks ago
+84df7c6 : DataEmitters now have charset hints. <Koushik Dutta> 9 weeks ago
+ced6f25 : 131 <Koushik Dutta> 9 weeks ago
+ae0ddd2 : 130 <Koushik Dutta> 9 weeks ago
+13dd623 : Remove defaultConfig flavor. Was derping up gradle inclusion. <Koushik Dutta> 9 weeks ago
+e8a7fe0 : 129 <Koushik Dutta> 9 weeks ago
+7446a19 : Deprecate socket.io. No longer works on 1.0+. <Koushik Dutta> 9 weeks ago
+c78a345 : Use the system proxy when it's defined. The default HttpUrlConnection does that, as well as okhttp. This should only work on API v12 and above. Before that the system proxy had to be caught manually by the UrlConnection user. <Steve Lhomme> 9 weeks ago
+b136469 : 128 <Koushik Dutta> 9 weeks ago
+8e83241 : pass host and port to ssl engine configurator <Koushik Dutta> 9 weeks ago
+9835052 : a 0-sized Content-Length should not use the chunked encoding <Steve Lhomme> 10 weeks ago
+73a9015 : setting the content length to -1 should not write a header (safety first) <Steve Lhomme> 10 weeks ago
+c589bfb : do not count the unknown length in the written count (safety first) <Steve Lhomme> 10 weeks ago
+fb36ed0 : fix paths <Koushik Dutta> 10 weeks ago
+4b388a1 : restructure tests for gradle <Koushik Dutta> 10 weeks ago
+e2056eb : gradle <Koushik Dutta> 10 weeks ago
+9679745 : test issue 189, shuffle UntypedHashTable around. <Koushik Dutta> 2 months ago
+b7307ff : Workarounds the L preview. <Koushik Dutta> 2 months ago
+e62122d : Add new growing smart allocator to consolidate code. Refactor 304 responses and cached responses in http response cache. <Koushik Dutta> 2 months ago
+5ca2847 : Caching: Remove transfer encoding and content encoding headers. Set Content-Lenght. <Koushik Dutta> 3 months ago
+8655df9 : Fix bug in conditional cache response if content-length exists. More careful location error handling. <Koushik Dutta> 3 months ago
+efc2953 : Multipart now uses long lengths. Allows setting of content-type. <Koushik Dutta> 3 months ago
+665d4ff : Future refactoring and add ConvertFuture. <Koushik Dutta> 3 months ago
+3810a08 : SSL: Add some experimental code for negotiation (commented out) <Koushik Dutta> 3 months ago
+ 
+**** https://github.com/VanirAOSP/Superuser ****
+500ece6 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/CyanogenMod/ion ****
+374601a : junk file <Koushik Dutta> 2 days ago
+e841e6a : ConscryptMiddleware fixes: <Koushik Dutta> 2 days ago
+b6b0a5b : rename the exception and move it out of BitmapDecodeException <Steve Lhomme> 12 days ago
+288fa3b : throw a custom Exception when the size set for resize are incorrect, rather than a generic Exception with no info on return <Steve Lhomme> 2 weeks ago
+995dec4 : 138 <Koushik Dutta> 2 weeks ago
+d6b83b9 : impose death penalty for strictmode violations in the samples <Koushik Dutta> 2 weeks ago
+f006914 : given the cast below I think this test is incorrect <Steve Lhomme> 3 weeks ago
+4a4ba77 : lock gson to 2.3 <Koushik Dutta> 3 weeks ago
+a89ea50 : ImageView recycling bug: fix issue 315 <Koushik Dutta> 3 weeks ago
+852322c : Test for issue 329. <Koushik Dutta> 3 weeks ago
+cafb177 : Rename setJsonObjectBody to setJsonPojoBody. <Koushik Dutta> 4 weeks ago
+fdfd852 : test issue 318 <Koushik Dutta> 5 weeks ago
+f37b1b7 : added Eventius to projects using Ion <Gero> 5 weeks ago
+af8996e : gson v2+ <Koushik Dutta> 5 weeks ago
+3dd6bf6 : Revert "gson v2+" <Koushik Dutta> 5 weeks ago
+14f6bfc : gson v2+ <Koushik Dutta> 5 weeks ago
+1ce1033 : test for issue 312 (lf, instead of crlf in headers): <Koushik Dutta> 5 weeks ago
+9b4493d : fix the ConscryptMiddleware disabling <Steve Lhomme> 6 weeks ago
+39dc623 : disable conscrypt <Koushik Dutta> 6 weeks ago
+5e16413 : Fix concurrent modification error. https://github.com/koush/ion/issues/244 <Koushik Dutta> 7 weeks ago
+58c815d : resize bitmaps to a better quality version (with bilinear filtering) See this thread http://stackoverflow.com/a/7468636 <Steve Lhomme> 7 weeks ago
+0385e64 : only allocate the return Bitmap when we know we'll need one <Steve Lhomme> 7 weeks ago
+b5a6d8f : don't draw the resized bitmap if the source and destination are the same <Steve Lhomme> 7 weeks ago
+e73f7c5 : fix a crash when resizing with a dimension to 0 (based on the ImageView dimensions) <Steve Lhomme> 7 weeks ago
+fec6f8d : fixes for eclipse <Koushik Dutta> 8 weeks ago
+750a72b : Make conscrypt middleware toggleable <Koushik Dutta> 8 weeks ago
+18df9d0 : Use the new GMS provided Conscrypt SSL Engine! <Koushik Dutta> 8 weeks ago
+7ed420f : update <Koushik Dutta> 8 weeks ago
+1f6b1c0 : ffs <Koushik Dutta> 8 weeks ago
+4f31f90 : Update README.md <Koushik Dutta> 8 weeks ago
+aa8eee3 : ffs <Koushik Dutta> 8 weeks ago
+a1b805b : Update README.md <Koushik Dutta> 8 weeks ago
+46cb8ea : goddamn gradle publishing <Koushik Dutta> 8 weeks ago
+bee1165 : add support for json parsing charset. fix moved asset. <Koushik Dutta> 9 weeks ago
+fb321aa : gradle changes <Koushik Dutta> 9 weeks ago
+ceecf11 : 131 <Koushik Dutta> 9 weeks ago
+fdc479a : 130 <Koushik Dutta> 9 weeks ago
+9c26750 : Remove defaultConfig flavor. Was derping up gradle inclusion. <Koushik Dutta> 9 weeks ago
+c91c422 : Update README.md <Koushik Dutta> 9 weeks ago
+82ff3bb : 129 <Koushik Dutta> 9 weeks ago
+9f4ddfb : manifest fixups <Koushik Dutta> 9 weeks ago
+d2082cd : Execute or defer the bitmap action after the imageview unregisters. <Koushik Dutta> 9 weeks ago
+eacaf77 : Call unregister in cancel. This may be bad? <Koushik Dutta> 9 weeks ago
+b62c6e0 : Fix recycling bug. Any time the callback key changes, must cancel. <Koushik Dutta> 9 weeks ago
+0d43ef6 : Support resizing of just width or height. Fix imageview load regression (excessive unregister). Add support for hinting image dimensions from ImageView LayoutParams. <Koushik Dutta> 9 weeks ago
+308ec2f : Switch the default verifier to BrowserCompatHostnameVerifier. <Koushik Dutta> 9 weeks ago
+861733c : add support for multiple post processors. Switch back back to drawing the placeholder into the entire bounds. Placeholders should be 9 patches. intrinsic width/height are now whatever is the primary drawable at the time. do not force resize width/height. <Koushik Dutta> 9 weeks ago
+734f22a : Ion imageview and bitmap loading enhancements: <Koushik Dutta> 10 weeks ago
+185be09 : IonDrawable fixes: <Koushik Dutta> 10 weeks ago
+507476b : fixes up drawing placeholder/error drawable <Koushik Dutta> 10 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+35ad71d : libstagefright: stop audio source before deleting AudioPlayer <Zhou Song> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+7ffc91a : 6-bar signal icon sytle [1/2] <Paul Mongold> 2 years, 1 month ago
+72347b0 : StickyTorch: it works... reduce spam. <nuclearmistake> 66 minutes ago
+06ea52d : Revert "Fix occassional hotboot with reboot dialog activity" <nuclearmistake> 2 hours ago
+aa8e228 : Telephony: Get SIM card capacity count of SMS. <Zhang Fang> 5 months ago
+9e419fb : Fix occassional hotboot with reboot dialog activity <PrimeDirective> 11 hours ago
+76d7eb5 : Handle empty recents visibility in spite of getting an incorrectly-typed empty view <nuclearmistake> 12 hours ago
+f221e77 : ... a little of it did. <nuclearmistake> 12 hours ago
+686a876 : Not sure why this view is being found as a RelativeLayout... but it doesn't need to be an ImageView in this java code. <nuclearmistake> 12 hours ago
+6f82a43 : msim_status_bar.xml: now with left+center clock views <nuclearmistake> 13 hours ago
+629b18c : Fix heads up tile click action. <Danny Baumann> 15 hours ago
+9ce0051 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+0e55168 : Telephony:Copying MO/MT SMS of SUB2 to its SIM memory is fail in C+G. <Sridhar Dubbaka> 10 weeks ago
+6ce1ab0 : Telephony: Get SIM card capacity count of SMS. <Zhang Fang> 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_telephony-msim ****
+91bb878 : Add support for query SIM SMS capacity <Zhang Fang> 5 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+f9e14e8 : audio: Extend platform parser to allow device name aliasing <Ethan Chen> 4 days ago
+83d5015 : audio: extend platform parser <Haynes Mathew George> 3 months ago
+9836f19 : Revert "hal: Add speaker backend case handling" <Ethan Chen> 4 days ago
+156dd72 : Revert "hal: add custom platform abstraction" <Ethan Chen> 12 days ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_fm ****
+89b2663 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_mondrianwifi ****
+cacc2d8 : Fix source discrepancies <Josue Rivera> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+5a0e032 : They're multiplying O.o <nuclearmistake> 2 hours ago
+df7573f : HTC kernels can eat shit and die. <nuclearmistake> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+d0c6874 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Browser ****
+d9b1196 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+b4d3eb5 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+daa890e : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+31c4f3e : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Contacts ****
+196b196 : Contacts: Show error when no activity found to handle SMS sharing <Ethan Chen> 32 hours ago
+217ddde : String improvements. <Danny Baumann> 5 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+e71cb11 : contacts: return the first sdcard entry found <Jorge Ruesga> 3 days ago
+e6aea6f : contacts: don't assume the device has an sdcard <Jorge Ruesga> 3 days ago
+949999f : Improve strings. <Danny Baumann> 5 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DSPManager ****
+6b9dbc9 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+093e249 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+015191d : Revert "blacklist call recording for US/EU mccs, remove sysprop flag for enabling" <DHOMD> 3 weeks ago
+d8ebf21 : Fix call stats NPE <Ethan Chen> 3 hours ago
+77a52dc : Rewrite speed dial feature. <Danny Baumann> 5 days ago
+5c85fa7 : Automatic translation import <Michael Bestas> 26 hours ago
+330db6b : Improve search UI. <Danny Baumann> 4 days ago
+156b22e : Improve strings. <Danny Baumann> 5 days ago
+7237316 : Fix call stats fragment layout. <Danny Baumann> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Email ****
+8bcc8f5 : Automatic translation import <Michael Bestas> 26 hours ago
+9e96676 : Email: Clarify some strings <Ethan Chen> 33 hours ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+5c8282b : small UI adjustments <h0rn3t> 10 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+5f9eb77 : 6-bar signal icon sytle [2/2] <Alex Cruz> 3 weeks ago
+4022abd : Automatic translation import <Michael Bestas> 26 hours ago
+0b0436e : CryptKeeper: update emergency call button to Holo <Chirayu Desai> 3 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ThemeChooser ****
+43717b7 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Torch ****
+cb43e61 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_UnifiedEmail ****
+7a68eeb : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_VanirUpdater ****
+07ae937 : Fix whitespace <nuclearmistake> 2 hours ago
+cd794a3 : LOL: update GMS_CORE string to reflect actual gapps package <PrimeDirective> 8 hours ago
+1d64dae : VanirUpdater: add a notifier activity <PrimeDirective> 7 days ago
+ 
+**** https://github.com/VanirAOSP/packages_input_LatinIME ****
+fb57c91 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+bb94849 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+33496c9 : msm8960-common: move GPS props down to d2lte <jt1134> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+f6fca70 : Enable incall recording <DHOMD> 4 weeks ago
+2de5e37 : Clean up apns-conf.xml <black> 11 hours ago
+ef4dfcf : Huashan ressurection <DHOMD> 2 days ago
+ 

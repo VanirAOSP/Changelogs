@@ -1,0 +1,125 @@
+
+**** https://github.com/VanirAOSP/bionic ****
+11d765c : Fix build for x86. Remove duplicate mcmchr from Android.mk. Other implemented in arch-x86/x86.mk <HazouPH> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_asus_tf701t ****
+cef48bd : dock: add elantec_touchscreen.idc from tf700 flavour <Rich Wareham> 2 months ago
+b6ba750 : native: ui: remove HAVE_PIXEL_FORMAT_INFO <Prashant Somashekar> 4 days ago
+1e38d73 : overlay: disable fading marquee <Prashant Somashekar> 4 days ago
+ 
+**** https://github.com/cannondalev2000/device_motorola_msm8226-common ****
+135ff06 : Revert "dont need this. il make a work around. and it breaks art" <Ethan> 16 hours ago
+f57f158 : Revert "This overlay can die. its disabled anywase" <Ethan> 16 hours ago
+bbf8b65 : This overlay can die. its disabled anywase <cannondalev2000> 18 hours ago
+7ecce58 : dont need this. il make a work around. and it breaks art <cannondalev2000> 18 hours ago
+dc8ce5d : Update init.qcom.rc <cannondalev2000> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+619ea11 : omap4-common: add soft-reboot option <Michael Gernoth> 7 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+ebc5f35 : msm8974: Disable multiple offload support <Steve Kondik> 7 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_i9500 ****
+8ca74f4 : i9500: properly fix torch permissions <Alberto96> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+a630824 : klte: Add support for cmhw features <Matt Filetto> 13 hours ago
+1375a11 : add flag for camera hardware <elelinux> 33 hours ago
+22411a4 : fix bracers and clean up <elelinux> 33 hours ago
+ 
+**** https://github.com/CyanogenMod/android_external_powertop ****
+54ace06 : [x86] Add missing libpci includes <HazouPH> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+d902659 : Fix theme FC <Owain van Brakel> 4 days ago
+641322d : frameworks:base: SystemUI: cleanup a duplicate permission <Brinly Taylor> 35 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_asus_tf701t ****
+a9bdead : input: gpio_keys: Fix disordered wakeup key reports <David Yu> 7 months ago
+9b2e6f2 : tegra: macallan: panel: enable smooth_k <Prashant Somashekar> 4 days ago
+3d35b4d : video: tegra: dc: fix nvsd smooth_k handling <Daniel Solomon> 4 months ago
+b1a0801 : video: tegra: dc: fix filtering during rotation <Jon Mayo> 4 months ago
+6bef415 : video: tegra: dc: swap rotated h/v filter check <Jon Mayo> 9 months ago
+500cf33 : Revert "video: tegra: Fix filtering with SCAN_COLUMN on" <David Yu> 3 months ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_motorola_msm8226
+https://github.com/cannondalev2000/kernel_motorola_msm8226 ****
+af22c4f : Revert "tmpfs: add support for read_iter and write_iter" <Ethan> 45 minutes ago
+b3c52bc : Revert "mm: Added filesystem dynamic read-ahead (Credits to Chad Gooldman)" <Ethan> 46 minutes ago
+91503f3 : enable lz4 in defconfig <Ethan> 16 hours ago
+c02bb1b : reclaim ram from loggers thx to SeannyM <Luka Karinja> 6 months ago
+7d6cb42 : LZ4: compression/decompression signedness mismatch (v2) <Sergey Senozhatsky> 1 year ago
+354d985 : lib/lz4/lz4_compress: fix macro usage error <Paul Reioux> 1 year ago
+16f2c6f : crypto: Add lz4 Cryptographic API <Chanho Min> 1 year ago
+d44dc9e : lib: Add lz4 compressor module <Chanho Min> 1 year ago
+ff47bc4 : arm: Add support for LZ4-compressed kernel <Kyungsik Lee> 1 year ago
+664daed : lib: Add support for LZ4-compressed kernel <Kyungsik Lee> 1 year ago
+f5453f5 : decompressor: Add LZ4 decompressor module <Kyungsik Lee> 1 year ago
+5f0d439 : mm: Added filesystem dynamic read-ahead (Credits to Chad Gooldman) <Luka Karinja> 5 weeks ago
+b4eaa8b : Overclock gpu 550mhz <Luka Karinja> 2 weeks ago
+2845129 : Overclock bus 600mhz <Luka Karinja> 2 weeks ago
+3be1e96 : Overclock ram 600mhz <Luka Karinja> 2 weeks ago
+e8fe759 : Not cool to force that debugging. <morfic> 1 year, 6 months ago
+769493f : tmpfs: add support for read_iter and write_iter <faux123> 1 year, 7 months ago
+918b8e7 : ext4: add support for read_iter and write_iter <faux123> 1 year, 7 months ago
+cc574ad : loop: use aio to perform io on the underlying file <faux123> 1 year, 7 months ago
+ddd5f71 : bio: add bvec_length(), like iov_length() <faux123> 1 year, 7 months ago
+13b4154 : aio: add aio support for iov_iter arguments <faux123> 1 year, 7 months ago
+ae07845 : aio: add aio_kernel_() interface <faux123> 1 year, 7 months ago
+9c36c31 : intelli_plug: add nr_running_thresholds based on thread capacity of SOC type <Paul Reioux> 9 weeks ago
+6a2b8c2 : intelli_plug: remove legacy msm_rq based code <Paul Reioux> 9 weeks ago
+894ea70 : Intelli_plug: kernel sched/core: add per cpu nr_running stats <Paul Reioux> 10 weeks ago
+8c39c5f : intelli_plug: refactor stats calculation code to be less intrusive <Paul Reioux> 10 weeks ago
+79d0c1b : fix my stupid ass durp <Ethan> 20 hours ago
+60fba17 : dont need this <Ethan> 21 hours ago
+9249af0 : Revert "msm: hotplug: Add MSM Hotplug driver" <Ethan> 21 hours ago
+315cd36 : Revert "msm: hotplug: Remove spinlock in load stats" <Ethan> 21 hours ago
+74c8bc0 : Revert "msm: hotplug: Stop hotplug work a tad later" <Ethan> 21 hours ago
+4c44f35 : Revert "msm: hotplug: Schedule suspend/resume work" <Ethan> 21 hours ago
+24287b5 : Revert "hammerhead: touch: Remove touch boost" <Ethan> 21 hours ago
+1fc09d4 : Revert "msm: hotplug: Increase down lock duration and janitize" <Ethan> 21 hours ago
+8b69055 : Revert "msm: hotplug: Use high-priority workqueue" <Ethan> 21 hours ago
+b407775 : Revert "msm: hotplug: Add input boost handler" <Ethan> 21 hours ago
+e2cd40d : Revert "msm: hotplug: Add minimum interval for input boost" <Ethan> 21 hours ago
+9a850bf : Revert "msm: hotplug: Remove deprecated msm_cpufreq_set_freq_limits" <Ethan> 21 hours ago
+8f97918 : Revert "msm: hotplug: Cleanup hotplugging routines" <Ethan> 21 hours ago
+63cc45e : Revert "cpufreq: add new routine cpufreq_verify_within_cpu_limits()" <Ethan> 21 hours ago
+42dd9a5 : Revert "msm: hotplug: Optimize hotplugging routines" <Ethan> 21 hours ago
+af474c1 : Revert "msm: hotplug: Add pm ops" <Ethan> 21 hours ago
+5c166a5 : Revert "msm: hotplug: Fix symbol export" <Ethan> 21 hours ago
+d8b9cdf : Revert "msm: hotplug: Fixup sysfs interface" <Ethan> 21 hours ago
+694f0bc : Revert "msm: hotplug: Update threshold values and down lock duration" <Ethan> 21 hours ago
+d913eaf : Revert "msm: hotplug: Revert to original thresholds" <Ethan> 21 hours ago
+b1424a2 : Revert "msm: hotplug: Consider load instead of frequency for slowest cpu" <Ethan> 21 hours ago
+8862c67 : Revert "msm: hotplug: Protect load stats routine and cleanup" <Ethan> 21 hours ago
+a6f9fe5 : Revert "msm: hotplug: Fix licensing issue" <Ethan> 21 hours ago
+f2fe238 : Revert "msm: hotplug: Cleanup probe function" <Ethan> 21 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+41804e5 : asoc: msm: MBHC tunings forever! <Steve Kondik> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+acc6923 : Unbreak manifests! <DHOMD> 56 minutes ago
+9f4e3d9 : Fork kona-common <nuclearmistake> 11 hours ago
+3f30a13 : Cleanup LegacyXperia stuff <Michael Bestas> 2 days ago
+3fd5374 : Add support for Note 8 <Austin Quach> 20 hours ago
+7fe1684 : More like jINACTIVEltexx, because it hasn't built in a month and the "contributor" who tracked some random jackoff's repos hasn't bothered fixing it <nuclearmistake> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+90cdc90 : bluetooth: avrcp - Respond to PDU 0x16 correctly <Scott Mertz> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+1ccb2e9 : recents clear all: match frameworks for default value <PrimeDirective> 20 hours ago
+ 
+**** http://android.git.linaro.org/git-ro/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro ****
+8015ab9 : Rebuild for compatibility with ancient build environments <Bernhard Rosenkränzer> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+7cdd0dd : Add support for note 8 <Austin Quach> 30 hours ago
+683bed2 : jflte: gpe 4.4.4 adreno <Dan Pasanen> 5 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+a6da55a : Enable incall recording <DHOMD> 6 days ago
+893ccf9 : Add support for Note 8 <Austin Quach> 20 hours ago
+ 

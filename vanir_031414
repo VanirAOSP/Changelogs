@@ -1,0 +1,132 @@
+
+**** https://github.com/CyanogenMod/android_device_htc_dlx ****
+cc01815 : dlx: Remove deprecated bnep services <Christopher R. Palmer> 15 hours ago
+26ba4d0 : dlx: Add CM performance profile definitions <Christopher R. Palmer> 10 weeks ago
+cbfc522 : dlx: Disable input filtering <Christopher R. Palmer> 15 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7-common ****
+132a8db : m7-common: Disable input filtering <Steve Kondik> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+1d6aa2a : mixer_paths: Fix out-of-scale controls <Ricardo Cerqueira> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_i9300 ****
+aecc204 : i9300: audio: update hal <UtkarshGupta> 5 days ago
+1a52fb6 : i9300: audio: hal update <markcs> 2 weeks ago
+258bac4 : i9300: audio: fix battery drain after phone call <Javier Ferrer> 32 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_tuna ****
+14df082 : tuna: enable torch overlay <Dan Trifan> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+46e5918 : media_profiles: the HFR parameters don't need to be mandatory <Ricardo Cerqueira> 30 hours ago
+23373ed : stagefright: Disable HSR for now <Steve Kondik> 2 days ago
+7c06b86 : stagefright: Enable GraphicBuffer usage to decoder before querying formats <Praveen Chavan> 5 weeks ago
+12fa017 : libstagefright: Enable HFR feature for video recording <Leena Winterrowd> 4 months ago
+eafa053 : libstagefright: Add support for AC3/EC3 playback in tunnel mode <Subhash Chandra Bose Naripeddy> 1 year, 1 month ago
+5dcce8b : AudioTrack: Handle track invalidate on wait for stream done <Haynes Mathew George> 7 weeks ago
+cb542db : Revert "Audio: Add Pause/Resume in AMR-WB tunnel recording" <quic_mqiu> 3 weeks ago
+8de456c : libstagefright: Set is_streaming flag for all widevine content <ApurupaPattapu> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+ace4a56 : Revert "SystemUI: fix calculating alpha for back button in landscape mode." <nuclearmistake> 61 minutes ago
+7796c69 : SystemUI: Set Status bar opaque during drawer pulldown on tablets only <blackhand1001> 5 days ago
+a72b73e : Tethering: fix NPE when retrieving active interfaces <Dirk Rettschlag> 8 days ago
+e72cbd0 : EncoderCapabilities: Adding HFR entry in EncoderCapabilities and JNI <Vikas Reddy Pachika> 7 weeks ago
+a40b314 : Fix ellipsizing of emoji symbols in StatisLayout. <Kyrylo Mikos> 2 weeks ago
+1fae06e : SystemUI: fix calculating alpha for back button in landscape mode. <Kiril Mikos> 2 weeks ago
+671f99c : frameworks/base: Day and week on data usage (1/2) <dagix5> 3 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+cf13f20 : DcTrackerBase: Dont provision APN if default is disconnecting <markcs> 13 hours ago
+6175913 : telephony: Fix initialization ordering of SMS middleware <Ethan Chen> 23 hours ago
+cc648d4 : telephony: Clean up IccSmsInterfaceManagerProxy <Ethan Chen> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_webview ****
+a9376ee : Conditionalize libwebcore inclusion <nuclearmistake> 11 hours ago
+e22fa32 : Revert "Remove the classic WebView from the build." <Jiangyi> 4 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+a06a516 : msm7x30: Sync audio_policy with alsa_sound <Michael Bestas> 2 weeks ago
+ac882f1 : hal: msm8960: Don't even try to calculate a compress-offload buffer <Ricardo Cerqueira> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display-caf-new ****
+91404e8 : hwc: hwc_sync - populate correct fences for BLIT <Balamurugan Thanikachalam> 6 weeks ago
+360c2a3 : HWC: Use proper typecast to avoid scaling issues <Dileep Kumar Reddi> 9 days ago
+3418e23 : hwc: Reset FB Z order to -1 instead of 0 <Saurabh Shah> 5 weeks ago
+961beda : Invoke a padding round in certain use-cases. <Raj Kamal> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media-caf-new ****
+1ab1029 : vidc: vdec: consider max size between firmware and component extra data <Pushkaraj Patil> 4 weeks ago
+2eb94e4 : mm-video-v4l2: vdec: Remove secure session checks for extra data enabling <Srinu Gorle> 4 weeks ago
+7c903cb : vidc: venc: save QP values set by OMX client <Pushkaraj Patil> 9 weeks ago
+436d5e8 : mm-video: venc: Enable QP range setting for VP8 <Jorge Solano Altamirano> 4 months ago
+4347ff1 : mm-video: venc: Set default key-frame periodicity for VP8 codec <Jorge Solano Altamirano> 4 months ago
+dc3f6e0 : mm-video: venc: Add support for secure encode for wifi display <Sachin Shah> 4 months ago
+2d21521 : mm-video: vidc: avoid input error count for zero length FBD <Vikash Garodia> 6 weeks ago
+cf7777c : dashplayer: fix dynamic buffering issue. <Mahesh Lanka> 6 weeks ago
+fb53b26 : mm-video: Amend time stamp delta variable to 64-bit <Manikanta Kanamarlapudi> 8 weeks ago
+f877129 : mm-video: vdec: Set format with adaptive playback framesize <Deepak Verma> 6 weeks ago
+87e20af : mm-video: vidc: Add support for Macroblock Info extradata <Deva Ramasubramanian> 9 weeks ago
+36f4c26 : mm-video-v4l2: venc: Add LTR mode support for H264 video encoder <Sachin Shah> 7 weeks ago
+bb427a3 : mm-video-v4l2: venc: Add ltr mode support for video encoder <Ashray Kulkarni> 4 months ago
+f4d0665 : mm-video: vidc: venc: add control to enable Hierarchical P num layers <Arun Menon> 8 weeks ago
+d79f977 : mm-video-v4l2: vdec: Request input bits size info in OMX test app <Jorge Solano Altamirano> 9 weeks ago
+5433845 : mm-video-v4l2: vdec: add input frame bits info as extradata <Jorge Solano Altamirano> 9 weeks ago
+55d5588 : mm-video-v4l2: vdec: Request frame QP in OMX test app <Jorge Solano Altamirano> 9 weeks ago
+b10850d : mm-video-v4l2: vdec: add frame QP request as extra data <Jorge Solano Altamirano> 9 weeks ago
+e456210 : mm-video: add ENDOFFRAME flag when encoder gets FBD from driver. <Jia Meng> 2 months ago
+861bc80 : DashPlayer: Fix in DashCodec for Adaptive  Streaming <Mahesh Lanka> 6 weeks ago
+125165d : mm-video: vidc: hevc: support adaptive playback <Arun Menon> 3 months ago
+ecb9d2a : mm-video: vidc: hevc: dynamic buffer support in omx hevc <Arun Menon> 4 months ago
+79cff22 : mm-video: Guard 120fps decoding and fix corner cases <vivek mehta> 7 weeks ago
+53c4e58 : MetaData: add HSR key <vivek mehta> 8 weeks ago
+50910b4 : vidc: venc: Add support for setting QP range parameter <Maheshwar Ajja> 6 months ago
+a75c69f : mm-video: support clip playback > 60 fps <vivek mehta> 9 weeks ago
+50ab1bf : mm-video: vidc: fix memory leak in dynamic buffer mode <Arun Menon> 9 weeks ago
+adefcc1 : dashplayer: DASH TSB support <Manikanta Kanamarlapudi> 3 months ago
+a2efdb1 : mm-video: vdec: Add adaptive playback support for Q6 <Deepak Verma> 3 months ago
+9ba5d83 : mm-video: vidc: Stop setting frame rate on ETB <Deva Ramasubramanian> 2 months ago
+faaf024 : mm-http: Setting proper height/width <Mahesh Lanka> 9 weeks ago
+507d655 : mm-video: Amend stride and scanlines according to the color format <Maheshwar Ajja> 2 months ago
+ce9a0fc : mm-core: Increase max instance value to 16 <Deepak Verma> 4 months ago
+3c47b18 : mm-video: vdec: synchronize set_framerate with ETB <Vikash Garodia> 3 months ago
+f8908a6 : mm-video: vidc: disable extra data for vp8 <Arun Menon> 3 months ago
+3a3c649 : mm-video: added a property "persist.vidc.dec.conceal_color" <Jia Meng> 3 months ago
+6e0dcf2 : dashplayer: enable dynamic buffering <Manikanta Kanamarlapudi> 3 months ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_samsung_tuna
+https://github.com/jimsth/vanir_tuna ****
+26ee9e4 : nf: xt_qtaguid: fix handling for cases where tunnels are used. <JP Abgrall> 3 months ago
+1634475 : netfilter: qtaguid: rate limit some of the printks <JP Abgrall> 11 months ago
+a31a2b9 : tcp: add a sysctl to config the tcp_default_init_rwnd <JP Abgrall> 3 weeks ago
+70ce1e6 : fix false disconnect due to a signal sent to the reading process <keunyoung> 6 weeks ago
+b120f81 : SELinux: Fix kernel BUG on empty security contexts. <Stephen Smalley> 6 weeks ago
+ff4744f : netfilter: xt_IDLETIMER: Revert to retain the kernel API format. <Ashish Sharma> 5 weeks ago
+86c54a2 : SELinux: Fix possible NULL pointer dereference in selinux_inode_permission() <Steven Rostedt> 9 weeks ago
+c5b59d8 : ping: prevent NULL pointer dereference on write to msg_name <Hannes Frederic Sowa> 4 months ago
+85314a2 : scheduler: compute time-average nr_running per run-queue <Diwakar Tundlam> 1 year, 10 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+d4ac4f8 : Adding Matr1x kernel for Vanir mako kernel <mathkid95> 2 hours ago
+45fa2dc : anzu and _conditionally-included_ antique webkit stuff <nuclearmistake> 12 hours ago
+4115e45 : vanir frameworks/webview <nuclearmistake> 11 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Browser ****
+1ee12ff : variant-ize browser. this one is NOT for antiques <nuclearmistake> 11 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+2ea9c89 : Mms: Cleanup CAF additions <Michael Bestas> 6 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+d74b54d : Revert "NavbarHeight: remove unnecessary conditional." <Dave Kessler> 70 minutes ago
+26cefb6 : NavbarHeight: remove unnecessary conditional. <nuclearmistake> 2 hours ago
+00c94e0 : fix a dingleberry from an upstream math fix i had locally <PrimeDirective> 4 hours ago
+5079f69 : fix some issues with the new navbar resizing class <PrimeDirective> 5 hours ago
+004769a : Navbar Height: Use the slider max and a min value to define the percentage range <nuclearmistake> 2 days ago
+b82a67c : settings: Put MSIM files in the right place <Steve Kondik> 4 days ago
+7690980 : Settings: Day and week on data usage cycle (2/2) <dagix5> 3 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_soundrecorder ****
+fda9f47 : Revert regressions introduced by QRD update. <Danny Baumann> 5 months ago
+ 

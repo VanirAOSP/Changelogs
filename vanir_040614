@@ -1,0 +1,133 @@
+
+**** https://github.com/VanirAOSP/build ****
+61f0f64 : bottleservice: Make initial device directory matching more strict <nuclearmistake> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/dalvik ****
+d5ccc2e : Re-AOSP-ify id synchronization <nuclearmistake> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+f68fe84 : omap4-common: fix ttyO1-permissions for whisper(dock)-service <Michael Gernoth> 10 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_hlte ****
+b6e2d18 : hlte: fix error while searching for network <wilfredlams> 2 hours ago
+f9d1c59 : hlte: Fix typo in init.carrier.rc <arter97> 35 hours ago
+3363b92 : hlte: remove GSM APN list <yanniks> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jflte ****
+6dfa1a1 : assert: add jflterefreshspr <Dan Pasanen> 22 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_msm7x30-common ****
+9bdb6b3 : SemcQualcomm7x30RIL: Properly report SIM card missing status. <Rudolf Tammekivi> 2 days ago
+2ae3d0d : msm7x30: Move custom RIL from frameworks/opt/telephony <Michael Bestas> 27 hours ago
+165dbdb : msm7x30: Move pre-recovery.sh to /sbin. <Rudolf Tammekivi> 28 hours ago
+70551e7 : msm7x30: Remove the need of specialized init binary. <Rudolf Tammekivi> 28 hours ago
+01b4c92 : init.sh: Parse boot type. <Rudolf Tammekivi> 35 hours ago
+b7ca14c : Revert "msm7x30: Enable KSM by default" <Michael Bestas> 31 hours ago
+8ae4e9e : msm7x30: Disable video uncached buffers. <Michael Bestas> 31 hours ago
+e72742e : audio_policy: Sync with msm8660 <Michael Bestas> 31 hours ago
+6bad6f8 : msm7x30: Enable dynamic composer. <Michael Bestas> 31 hours ago
+ed836a1 : msm7x30: Remove dyn threshold override. <Michael Bestas> 31 hours ago
+bcca1b6 : msm7x30: Update Adreno blobs. <Michael Bestas> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/external_busybox ****
+c1f4182 : zcat: complain if input is not compressed <Denys Vlasenko> 9 weeks ago
+a99f066 : libbb: open_zipped() should not fail on non-compressed files <Denys Vlasenko> 10 weeks ago
+05cea40 : nc: fix option bit positions. Closes 6926 <Denys Vlasenko> 6 weeks ago
+439f7c2 : iplink: fix build with kernel versions prior to 2.6.23 <Eugene Rudoy> 2 months ago
+b69306a : libbb: fix parsing of "10101010" date/time form <Denys Vlasenko> 3 months ago
+77e054b : ash: in bash compat mode, always export $SHLVL <Denys Vlasenko> 3 months ago
+13733d3 : libarchive: open_zipped() does not need to check extensions for e.g. gzip <Denys Vlasenko> 3 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+1fa02a6 : Separate Change Encryption Password Entry (2 of 2) <pulser> 9 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+7125fcb : Remove SemcQualcomm7x30RIL <Michael Bestas> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+2d09fc6 : legacy/msm7x30: Fix build with FM disabled <Michael Bestas> 2 days ago
+c9b71fc : legacy/msm7x30: Use new audio API defines. <Rudolf Tammekivi> 8 weeks ago
+5da9457 : legacy/msm7x30: Disable tunneled audio. <Rudolf Tammekivi> 7 weeks ago
+5d8fb64 : legacy/msm7x30: Add support for FM radio. <Rudolf Tammekivi> 9 weeks ago
+525b5a2 : legacy/msm7x30: Make sure to update voice volume when starting call. <Rudolf Tammekivi> 8 weeks ago
+a445ac9 : legacy/msm7x30: Add supported devices. <Rudolf Tammekivi> 8 weeks ago
+24acf52 : legacy/msm7x30: Fix compile problem with FM enabled. <Rudolf Tammekivi> 9 weeks ago
+db5c4b9 : legacy/msm7x30: Sync audio_policy with ALSA. <Rudolf Tammekivi> 3 months ago
+a59f40c : Add msm7x30 to the build barrier <Michael Bestas> 5 months ago
+acd6525 : audio/msm7x30: Solve mediaserver crash problem. <Rudolf Tammekivi> 3 months ago
+5a58cd6 : audio: Sync msm7x30 inclusion with msm8660. <Rudolf Tammekivi> 3 months ago
+d5d8cae : audio/msm7x30: Fix compile errors on kk builds. <Rudolf Tammekivi> 3 months ago
+48f5c81 : audio/msm7x30: Allow devices with broadside dual mic to function. <Rudolf Tammekivi> 10 months ago
+3855446 : audio/msm7x30: Allow devices with mono speaker to function. <Rudolf Tammekivi> 10 months ago
+b1bff56 : audio/msm7x30: Add system property to toggle headset microphone. <Rudolf Tammekivi> 11 months ago
+1e4325a : audio/msm7x30: disable logcat spam <Michael Bestas> 8 months ago
+7bd1aca : audio/msm7x30: fix a crash on audio initialize <Tiziano Carotti> 12 months ago
+c7d92f5 : audio/msm7x30: Only use earpiece when specified. <Rudolf Tammekivi> 7 months ago
+c952d8e : audio/msm7x30: set mRecordState in AudioInputStreamMSM72xx::set <Ethan Chen> 12 months ago
+daf91cd : audio/msm7x30: Stop the log spam during VOIP calls <Arne Coucheron> 12 months ago
+da62756 : audio/msm7x30: Use q5v2_msm_audio_mvs_frame struct <Arne Coucheron> 12 months ago
+d1b992d : audio/msm7x30: Fix for Echo in Gtalk <Susmitha Perla> 1 year, 4 months ago
+c1e1987 : audio/msm7x30: Fix log tags and disable debug logging <Arne Coucheron> 1 year, 3 months ago
+33ca7de : Fix build in CM <Michael Bestas> 5 months ago
+525aa3d : legacy/msm7x30: Use CM standard qcom naming <Michael Bestas> 5 months ago
+955162a : Import msm7630 audio HAL from jb_2.5.3 branch <Michael Bestas> 5 months ago
+a98b8e2 : Revert "audio-caf: resurrect msm7x30 audio" <Rudolf Tammekivi> 3 months ago
+22267f2 : Revert "audio-caf: Remove STE fmradio" <Rudolf Tammekivi> 9 weeks ago
+a6ec900 : Revert "audio-caf: legacy: Sync FM flag with ALSA" <Rudolf Tammekivi> 9 weeks ago
+cf7b4b5 : post_proc: disable effect immediately when routed to invalid devices <wjiang> 10 days ago
+b4b9153 : hal: update bt-sco sample rate before device enable <Vidyakumar Athota> 2 weeks ago
+a64140e : post_proc: disable Bassboost and Virtualizer for certain devices <wjiang> 3 weeks ago
+ba373b0 : post_proc: reverb preset id is not mapped correctly <wjiang> 3 weeks ago
+0d0c0d4 : post_proc: Enable reverb in DSP to start effect <wjiang> 13 days ago
+ce624e6 : hal: Clear VI feedback cal after VI capture path is started <Gopikrishnaiah Anandan> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media-caf ****
+d2a8c71 : mm-video: vdec: Fix memory leak in color converter. <Rudolf Tammekivi> 8 weeks ago
+f1ec2d5 : mm-video: Use multimedia heap on MSM7x30 (720p) too. <Rudolf Tammekivi> 4 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media-caf-new ****
+5b4dc5d : mm-video: vidc: vdec: set frame interlace based on firmware flag <Arun Menon> 7 weeks ago
+8172b79 : mm-video: vdec: avoid set metadata after free buffer <Pushkaraj Patil> 5 weeks ago
+faf3864 : mm-video: vidc: Adds NULL check for ETB buffer <Praneeth Paladugu> 4 months ago
+5c4a6b7 : mm-video: vidc: Add extradata logging support for encoder <Deva Ramasubramanian> 9 weeks ago
+a54c891 : msm: venc: Enable/Disable buffer logging at runtime <Jayasena Sangaraboina> 7 months ago
+a92e0bf : dashplayer: support dynamic null surface <Mahesh Lanka> 8 weeks ago
+c814af3 : dashplayer: Fix for pause-resume-pause usecase <Mahesh Lanka> 7 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+35b7041 : msm: vidc: detect mbaff information from firmware <Arun Menon> 4 weeks ago
+aec5a07 : msm: vidc: Query the core on VIDIOC_G_FMT <Deva Ramasubramanian> 5 weeks ago
+194a2f0 : msm: vidc: Add description of LTR Extradata <Deva Ramasubramanian> 5 weeks ago
+75d42d5 : msm: vidc: Add min resolution check for video session <Arun Menon> 9 weeks ago
+dfce1ef : msm: vidc: Re-program the vbif settings post-power collapse <Deva Ramasubramanian> 4 months ago
+088ab87 : msm: vidc: initialize venus hfi locks during hfi creation <Arun Menon> 8 weeks ago
+a5579a7 : msm: vidc: Free smem client after moving core to UNINIT <Deva Ramasubramanian> 7 weeks ago
+52f1fd2 : msm: vidc: Suppress spammy log <Deva Ramasubramanian> 4 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_samsung_jf ****
+11b9422 : kt cpufreq: only reset freqs when store_booted changes isBooted from 0 to 1 <nuclearmistake> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+1f20418 : add ville device tree <cannondalev2000> 22 hours ago
+ 
+**** https://github.com/omnirom/android_packages_apps_OmniSwitch ****
+3f3a115 : OmniSwitch: fix IndexOutOfBoundsException <maxwen> 27 hours ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+a70a788 : added override sd path + fixed uksm cpu_governor read <h0rn3t> 13 hours ago
+ff21778 : ... <h0rn3t> 27 hours ago
+4393486 : ... <h0rn3t> 29 hours ago
+d35ea00 : rewrote ksm/uksm for compatibility with new variants <h0rn3t> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+a28f411 : Update 'Wi-Fi display' string to 'Cast screen' <Brian Resnik> 2 days ago
+7bf34c2 : Do not enable Camera widget on non-camera devices <fuzz> 3 days ago
+681fb8e : Separate Change Encryption Password Entry (1 of 2) <pulser> 9 months ago
+4d12cb8 : add Voice Wakeup switch <Roman Birg> 11 days ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+a118755 : Revert "init: Fix serial number display for semc msm7x30 devices" <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/LegacyXperia/proprietary_vendor_semc ****
+95e4ef5 : msm7x30: Update Adreno blobs. <Michael Bestas> 31 hours ago
+ 

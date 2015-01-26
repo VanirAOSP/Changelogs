@@ -1,0 +1,139 @@
+
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+602ab7f : Fix sim issue for sprint users <Kasey Jones> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_moto_msm8960_jbbl ****
+2e5ca5c : enable support for Android SEEK and remove local ril.h <Michael Gernoth> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+0145011 : audio_wrapper: add more debugging-info <Michael Gernoth> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+02ff4cb : klte-common: thermal-engine does not run without libthermalioctl.so <nuclearmistake> 6 days ago
+6b8d850 : klte-common: add kltedv to build barrier <Matt Filetto> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_sony_nicki ****
+4c0aa9a : nicki: Fix for CTS CamcorderProfileTest <RonGokhale> 2 days ago
+ 
+**** https://github.com/VanirAOSP/external_wpa-supplicant-8 ****
+699897d : P2P: Fix segfault when PBC overlap is detected <Avraham Stern> 7 months ago
+3463345 : X.509: Fix internal TLS/X.509 validation of PKCS#1 signature <Jouni Malinen> 5 months ago
+d16e18d : P2P: Extend the listen time based on the active concurrent session <Rashmi Ramanna> 9 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+16879b6 : SystemUI: Status bar UI cleanup for MSIM and roaming <cretin45> 32 hours ago
+6031265 : Keyguard: Change SUB label to SIM <cretin45> 31 hours ago
+44e39e8 : Add string resource for UICC storage <Maunik Shah> 7 months ago
+48b943a : Rename a recently introduced meaninglessly named Settings.System constant <nuclearmistake> 28 hours ago
+4449a3c : symbols: Remove duplicate symbol <Michael Bestas> 30 hours ago
+80a12ef : Rename "Wi-Fi AP" QS tile to "Wi-Fi hotspot" <Oliver Middleton> 10 days ago
+aa5774b : Cleanup merge derpies from new status bar mods <PrimeDirective> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+1ebac85 : hal: Fixes for 8916 features <Steve Kondik> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_keymaster ****
+f6ae49b : qcom: keymaster: Include keymaster in all targets <Hariprasad Dhalinarasimha> 8 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media-caf-new ****
+5e0f206 : Kernel 3.10 compatibility <Ricardo Cerqueira> 29 hours ago
+b89a013 : mm-video: vidc: venc: add set ctrl to request sequence header <Arun Menon> 12 months ago
+ecef3ec : mm-video-v4l2: venc: Amend check for camera meta data buffer flags <Srinu Gorle> 7 months ago
+e023a45 : mm-video: venc: Add property to enable narrow search range <Maheshwar Ajja> 5 months ago
+9f9d1e1 : mm-video: venc: handle zero-length invalid EOS buffers <Praveen Chavan> 1 year, 2 months ago
+6962f66 : mm-video: vidc: add support for 601 to 709 clamping in encoding <Srinu Gorle> 11 months ago
+5fe8aa8 : mm-core: vdec: Add HEVC Hw video decoder support <Srinu Gorle> 6 months ago
+b23407b : mm-core: Add mpeg2 secure component role in 8916 registry table <Srinu Gorle> 6 months ago
+e17da83 : mm-core: 8916: Clean up HEVC hybrid and full DSP from registry table <Ravi Kiran Vonteddu> 7 months ago
+a197e0b : mm-core: Add 8916 target specific registry files <Maheshwar Ajja> 8 months ago
+6c1820c : mm-video-v4l2: venc: Add dynamic encoder settings support for 8916 <Srinu Gorle> 8 months ago
+8a0340a : mm-video-v4l2: venc: add support to configure initial qp <Ashray Kulkarni> 9 months ago
+9235364 : media: Add initial support for msm8916 <Sivalatha Chakrala> 10 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_ril ****
+decb970 : Support for SEEK on Android <Preeti Ahuja> 7 months ago
+ 
+**** https://github.com/xboxfanj/android_kernel_htc_msm8974 ****
+00f7886 : defconfig: disable VERITY <Jake Weinstein> 32 hours ago
+47372bf : defconfig: remove arm thumbee <Jake Weinstein> 2 days ago
+bc92a74 : ARM: smp: fix unterminated ifdef <Jake Weinstein> 4 days ago
+5b06aba : processor: remove system.h include <Jake Weinstein> 6 days ago
+0f03e23 : ARM: barrier: allow options to be passed to memory barrier instructions <Will Deacon> 1 year, 5 months ago
+7331418 : jiffies: Remove compile time assumptions about CLOCK_TICK_RATE <John Stultz> 2 years, 2 months ago
+18be798 : jiffies: Kill unused TICK_USEC_TO_NSEC <John Stultz> 2 years, 2 months ago
+dd7d43d : time/jiffies: Allow CLOCK_TICK_RATE to be undefined <Catalin Marinas> 2 years, 3 months ago
+009faf9 : xen/arm: sync_bitops <Stefano Stabellini> 2 years, 2 months ago
+44d5259 : the only place that needs to include asm/exec.h is linux/binfmts.h <Al Viro> 2 years, 3 months ago
+a43b840 : ARM: 7955/1: spinlock: ensure we have a compiler barrier before sev <Will Deacon> 9 months ago
+bc91feb : ARM: 7854/1: lockref: add support for lockless lockrefs using cmpxchg64 <Will Deacon> 1 year ago
+c9d1071 : ARM: locks: prefetch the destination word for write prior to strex <Will Deacon> 1 year, 4 months ago
+9d0d454 : ARM: smp_on_up: move inline asm ALT_SMP patching macro out of spinlock.h <Will Deacon> 1 year, 4 months ago
+1770bde : ARM: 7812/1: rwlocks: retry trylock operation if strex fails on free lock <Will Deacon> 1 year, 2 months ago
+3950b17 : ARM: 7811/1: locks: use early clobber in arch_spin_trylock <Will Deacon> 1 year, 2 months ago
+ba3be72 : ARM: spinlock: use inner-shareable dsb variant prior to sev instruction <Will Deacon> 1 year, 5 months ago
+0f536a2 : ARM: 7749/1: spinlock: retry trylock operation if strex fails on free lock <Will Deacon> 1 year, 5 months ago
+84af80f : ARM: 7632/1: spinlock: avoid exclusive accesses on unlock() path <Will Deacon> 1 year, 9 months ago
+9c52ec3 : ARM: 7447/1: rwlocks: remove unused branch labels from trylock routines <Will Deacon> 2 years, 4 months ago
+f89b7bf : ARM: 7446/1: spinlock: use ticket algorithm for ARMv6+ locking implementation <Will Deacon> 2 years, 4 months ago
+3010b00 : ARM: 7983/1: atomics: implement a better __atomic_add_unless for v6+ <Will Deacon> 8 months ago
+beca791 : ARM: atomic64: fix endian-ness in atomic.h <Victor Kamensky> 1 year, 3 months ago
+97fcd26 : ARM: atomics: prefetch the destination word for write prior to strex <Will Deacon> 1 year, 4 months ago
+7a185f5 : ARM: prefetch: add support for prefetchw using pldw on SMP ARMv7+ CPUs <Will Deacon> 1 year, 4 months ago
+be6da7c : ARM: prefetch: remove redundant "cc" clobber <Will Deacon> 1 year, 4 months ago
+5c1082e : ARM: cacheflush: add synchronization helpers for mixed cache state accesses <Nicolas Pitre> 1 year, 6 months ago
+9d489e9 : ARM: mpu: add MPU initialisation for secondary cores <Jonathan Austin> 1 year, 8 months ago
+24ad52a : ARM: mpu: add early bring-up code for the ARMv7 PMSA-compliant MPU <Jonathan Austin> 1 year, 8 months ago
+b4134a0 : ARM: mpu: add header for MPU register layouts and region data <Jonathan Austin> 1 year, 8 months ago
+cc85c54 : ARM: mpu: add PMSA related registers and bitfields to existing headers <Jonathan Austin> 1 year, 8 months ago
+a66a95c : ARM: nommu: add stub local_flush_bp_all() for !CONFIG_MMUU <Jonathan Austin> 1 year, 6 months ago
+1808610 : ARM: nommu: provide dummy cpu_switch_mm implementation <Will Deacon> 2 years, 8 months ago
+3e7e295 : ARM: nommu: define dummy TLB operations for nommu configurations <Will Deacon> 2 years, 8 months ago
+7ef4aa3 : asm-generic: io: don't perform swab during {in,out} string functions <Will Deacon> 1 year, 10 months ago
+2ac9a9b : locking/mcs: Allow architecture specific asm files to be used for contended case <Tim Chen> 9 months ago
+a3ef455 : ARM: 7491/1: use generic version of identical asm headers <Rob Herring> 2 years, 2 months ago
+a34d20c : ARM: bitops: prefetch the destination word for write prior to strex <Will Deacon> 1 year, 4 months ago
+b4d35c1 : ARM: 7408/1: cacheflush: return error to userspace when flushing syscall fails <Will Deacon> 2 years, 6 months ago
+5a4f87b : arch: arm: TLB invalidate if power collapse gets aborted <Anji Jonnala> 2 months ago
+fcb22c9 : ARM: 7691/1: mm: kill unused TLB_CAN_READ_FROM_L1_CACHE and use ALT_SMP instead <Will Deacon> 1 year, 7 months ago
+596164c : ARM: 7660/1: tlb: add branch predictor maintenance operations <Will Deacon> 1 year, 8 months ago
+44978db : spinlock: end if statement <Jake Weinstein> 9 days ago
+9d74c8b : spinlock: fix merge derp <Jake Weinstein> 9 days ago
+bf46449 : defconfig: enable THUMBEE <Jake Weinstein> 9 days ago
+b7e53f8 : PM: don't make WFI-only suspend the default option <Jake Weinstein> 9 days ago
+c119044 : ARM: 8062/1: Modify ldrt fixup handler to re-execute the userspace instruction <Arun K S> 9 days ago
+db06dee : ARM: 8071/1: perf: Make perf use arm_get_current_stackframe <Nikolay Borisov> 9 days ago
+bdf7df0 : ARM: 8075/1: oprofile: Use of arm_get_current_stackframe <Nikolay Borisov> 5 months ago
+55153e6 : ARM: 8072/1: time: Make use of arm_get_current_stackframe <Nikolay Borisov> 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+ce2e49b : msm8974: Stop breaking the whole system <Steve Kondik> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+5e07e5c : kltedv <nuclearmistake> 11 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+017cbbf : Dialer: Fix possible crash in call details <Ethan Chen> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+eb79416 : Test reconcile mms/ui + mms/model <DHOMD> 5 hours ago
+03e28df : UriImage: maybe the absence of this synchronized block CM has would affect slideshow handling <nuclearmistake> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+d1d1f15 : Settings: Change labels for MSIM <cretin45> 32 hours ago
+a51bf9f : Rename a recently introduced meaninglessly named Settings.System constant <nuclearmistake> 28 hours ago
+7c67d81 : Settings: Fix "Use actual storage type of sdcard/usb (1/2)." <Oliver Middleton> 10 days ago
+95faa32 : Settings: Improve some strings <Oliver Middleton> 10 days ago
+a961973 : Launch Protected Apps <Raj Yengisetty> 6 weeks ago
+3e35d0d : Fix copyright headers <Michael Bestas> 6 days ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+056169f : TeleService: fix vibrate on answer <Shaleen Jain> 2 days ago
+2e8b0fd : TeleService: Change labels for MSIM <cretin45> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+de42ce3 : adb/fastboot: Support SuperSpeed USB devices <Peter Heatwole> 1 year, 2 months ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+3c21e8c : kltedv: Import proprietary libs <Matt Filetto> 2 weeks ago
+18ff43d : klte-common: add kltedv to build barrier <Matt Filetto> 2 weeks ago
+ 

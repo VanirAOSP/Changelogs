@@ -1,0 +1,216 @@
+
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+c036d70 : Fix mass storage in recovery <Pawit Pornkitprasan> 19 hours ago
+f870897 : fix compiler warning <philz-cwm6> 2 days ago
+4d0e795 : fix display current path when navigating backward in folders <philz-cwm6> 3 days ago
+ 
+**** https://github.com/VanirAOSP/build ****
+1d18d5c : Reconcile some diffs FROM PARTS UNKNOWN <nuclearmistake> 4 hours ago
+ 
+**** https://github.com/VanirAOSP/device_asus_flo ****
+123f0c8 : flo: Disable retention on core 0 <Steve Kondik> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+5048f59 : g2: update audio configuration <houst0nn> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_msm8960-common ****
+ea7dd3c : Set mm.enable.smoothstreaming true <dhacker29> 13 hours ago
+aca8d2d : Revert "Refactor gps HAL to family tree" <dhacker29> 21 hours ago
+b2e27ca : Revert "proprietary-files: Use older libgeofence for msm8960" <dhacker29> 21 hours ago
+aeaff4c : Revert "Move BOARD_HAVE_NEW_QC_GPS to msm8960-common" <dhacker29> 21 hours ago
+8f58f95 : Revert "Move gps.h to msm8960-common" <dhacker29> 21 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_msm8960dt-common ****
+927d191 : gps: Use Razr HD hal and libloc_api_v02 <dhacker29> 20 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+a22343a : Try 4.7 toolchain, new cortex based linaro toochains do not include 4.6 <DHOMD> 22 hours ago
+8452503 : omap4-common: update common_ota_from_target_files to fix build <Michael Gernoth> 24 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_qcom-common ****
+d55530e : Move mm.enable.smoothstreaming up a level <dhacker29> 13 hours ago
+18461af : gps: Make it compile for TARGET_BOARD_PLATFORM <dhacker29> 20 hours ago
+3b8a178 : proprietary-files: Move libgeofence and libloc_api_v02 to common <dhacker29> 21 hours ago
+8b5edee : Revert "Refactor gps HAL to family trees" <dhacker29> 21 hours ago
+377f45c : Revert "Move gps.h to msm8960-common" <dhacker29> 21 hours ago
+0d38461 : Revert "Move QC_NEW_GPS to msm8960-common" <dhacker29> 21 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2att ****
+ce8f74b : Add I747MUMUEMK3 for Telcel <Dave Daynard> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_hlte ****
+e153507 : hlte: [WIP] utilize TARGET_UNIFIED_DEVICE <slayher> 12 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jfltevzw ****
+8456883 : jfltevzw: access vzw apps in Play store <nuclearmistake> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_t0lte ****
+d1eb962 : New cortex based toolchains does not support 4.6.... Try using 4.7 <DHOMD> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_pollux ****
+c6c0fec : Use "include" instead of "-include" wherever appropriate <Chirayu Desai> 10 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_pollux-common ****
+62bcca3 : Use "include" instead of "-include" wherever appropriate <Chirayu Desai> 10 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_pollux_windy ****
+218139c : Use "include" instead of "-include" wherever appropriate <Chirayu Desai> 10 days ago
+ 
+**** https://github.com/VanirAOSP/device_sony_yuga ****
+d7dc197 : Try 4.7 toolchain, new cortex based linaro toochains do not include 4.6 <DHOMD> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+c6791bd : audio: Use composition instead of multiple inheritance <Haynes Mathew George> 2 weeks ago
+a50273c : audio: Check the return code of MediaWriter::start <Pavan Chikkala> 8 weeks ago
+616521f : Audio: Tunnel Exception for ER AAC ELD profile format <Naresh Tanniru> 8 weeks ago
+7be4151 : audioflinger: Add Null pointer check while enabling effects for LPA <Nitesh Bhardwaj> 9 weeks ago
+5668f24 : framework/av: Fix for frame drop in video playback <Phani Kumar Allada> 1 year, 5 months ago
+8bcbb48 : audio: Supress redundant effect config events in short duration <wjiang> 4 months ago
+9fc34ac : audioflinger: SRS effects are not working for LPA <Sharad Sangle> 3 months ago
+1b37c78 : audioflinger: do not use raw pointer for tracks <Eric Laurent> 3 months ago
+2d844ce : media: Add Ops check before starting audio recording. <Shashank Mittal> 5 months ago
+4dfe626 : framework/av: Check for NULL pointer of mCblk and zero division error <wjiang> 4 months ago
+af8b665 : frameworks/av: Mediacodec initialization check in QCUtils <Divya Narayanan Poojary> 3 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+6c03e5c : SystemUI: Nl translation <Eddy Witkamp> 8 days ago
+d10c24c : Core & SystemUI: RU translation <Vladislav Koldobskiy> 6 days ago
+e265472 : Frameworks: PT-BR Translations <Gustavo> 9 weeks ago
+0e20875 : Keyguard: IT translation <Eddy Witkamp> 3 weeks ago
+ddd9e4c : SystemUI: modify AOSP EL translations <Michael Bestas> 6 months ago
+9f5f243 : Release wakelocks acquired by SyncManager <Nilesh Poddar> 4 weeks ago
+b8db689 : server: Handle broadcast intent and receiver <Guntawee Tiwapong> 9 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_datetimepicker
+cm2	https://github.com/CyanogenMod/android_frameworks_opt_datetimepicker ****
+4408f22 : Frameworks_opt_datetimepicker: AST translations <malditoastur> 12 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+ac0890f : DCTracker: if cdma sim is not avaliable, load from predefined property from build.prop <Shareef Ali> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display-caf-new ****
+83c10c0 : hwc: Add an ifdef for retire fence usage <Steve Kondik> 2 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_ti_omap4xxx ****
+b521246 : Fix crash on boot <Flamefire> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+df37cea : disable CONFIG_SECURITY_SELINUX_DEVELOP <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_BasicSmsReceiver
+cm2	https://github.com/CyanogenMod/android_packages_apps_BasicSmsReceiver ****
+333056e : BasicSmsReceiver: AST translations <malditoastur> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+4983e0d : Bluetooth: DA translation <Jacob Overgaard Madsen> 11 days ago
+28e7a1e : Bluetooth: AST translations <malditoastur> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_BluetoothExt ****
+1255af6 : BluetoothExt: AST translations <malditoastur> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Browser ****
+e2fab8f : Browser: AST translations <malditoastur> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calculator ****
+f604424 : Calculator: don't translate cube root symbol <Eddy Witkamp> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+7689397 : Camera2: DA translation <Jacob Overgaard Madsen> 11 days ago
+20a3464 : Camera2: EL translations <Michael Bestas> 2 weeks ago
+ad9b1c1 : Camera2: PT-BR Translations <Gustavo> 9 weeks ago
+774150a : Camera2: NL translation <Eddy Witkamp> 2 weeks ago
+eefcc92 : Camera2: LT translations <Frant1c> 3 weeks ago
+97f89f0 : Camera2: Modify AOSP EL translations <Michael Bestas> 5 days ago
+695dd86 : Camera2: RU translation <Vladislav Koldobskiy> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_CellBroadcastReceiver ****
+764f55e : CellBroadcastReceiver: AST translations <malditoastur> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_CertInstaller
+cm2	https://github.com/CyanogenMod/android_packages_apps_CertInstaller ****
+14d2983 : CertInstaller: AST translations <malditoastur> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Contacts ****
+2e4196f : Contacts: AST translations <malditoastur> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+8662c0a : ContactsCommon: DA translation <Jacob Overgaard Madsen> 30 hours ago
+c3900cd : ContactsCommon: AST translations <malditoastur> 13 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DSPManager ****
+6e9e9fe : DSPManager: AST translations <malditoastur> 13 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+ac32416 : DeskClock: PT-BR Translations <Gustavo> 9 weeks ago
+401361e : DeskClock: DA translation <Jacob Overgaard Madsen> 11 days ago
+234d4bd : DeskClock: AST translations <malditoastur> 13 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+350854f : Dialer: Modify AOSP EL translations <Michael Bestas> 6 months ago
+e704a8c : Dialer: DA translation <Jacob Overgaard Madsen> 11 days ago
+034a8de : Dialer: RU translation <Vladislav Koldobskiy> 5 days ago
+4b468c9 : Dialer: AST translations <malditoastur> 13 days ago
+c48acfb : Dialer: NL translation <Eddy Witkamp> 2 weeks ago
+f6745cf : Dialer: LT translations <Frant1c> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Email
+cm2	https://github.com/CyanogenMod/android_packages_apps_Email ****
+0d00f0c : Email: DA translation <Jacob Overgaard Madsen> 11 days ago
+5df93b8 : Email: RU translation <Vladislav Koldobskiy> 5 days ago
+53a48c4 : Email: AST translations <malditoastur> 13 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Exchange
+cm2	https://github.com/CyanogenMod/android_packages_apps_Exchange ****
+870cb84 : Exchange: AST translations <malditoastur> 13 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_HTMLViewer
+cm2	https://github.com/CyanogenMod/android_packages_apps_HTMLViewer ****
+1b2b7db : HTMLViewer: AST translations <malditoastur> 13 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+28e7693 : Revert "InCallUI: DA translation" <Ricardo Cerqueira> 20 hours ago
+979db99 : InCallUI: DA translation <Jacob Overgaard Madsen> 11 days ago
+5f3e49c : InCallUI: RU translation <Vladislav Koldobskiy> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_KeyChain
+cm2	https://github.com/CyanogenMod/android_packages_apps_KeyChain ****
+4458ed2 : KeyChain: AST translations <malditoastur> 13 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+bbe50c5 : MMS: DA translation <Jacob Overgaard Madsen> 11 days ago
+5d125f2 : Mms: LT translations <Frant1c> 2 weeks ago
+4cb3625 : Mms: AST translations <malditoastur> 13 days ago
+ 
+**** https://github.com/omnirom/android_packages_apps_OmniSwitch ****
+f746051 : OmniSwitch: new launcher icons <maxwen> 2 days ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+cb3080e : added agressive to multicore power saving, added hotplug control, gpu max. freq. <h0rn3t> 44 minutes ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+2193aeb : Settings: EL translations <Michael Bestas> 3 weeks ago
+b557bb0 : Settings: RU translation <Vladislav Koldobskiy> 5 days ago
+d39d371 : Settings: PT-BR Translations <Gustavo> 9 weeks ago
+1a27571 : Settings: NL translation <Eddy Witkamp> 2 weeks ago
+1e16afa : Update cm_strings.xml <moltam91> 31 hours ago
+9bcdd33 : Settings: DA translation <Jacob Overgaard Madsen> 11 days ago
+7250c02 : Settings: TR Translations <Oguz Kirat> 4 days ago
+921b2bb : Settings: AST translations <malditoastur> 12 days ago
+ 
+**** https://github.com/VanirAOSP/packages_input_LatinIME ****
+f11ad22 : LatinIME: PT-BR Translations <Gustavo> 9 weeks ago
+e9d2246 : LatinIME: NL translation <Eddy Witkamp> 2 weeks ago
+c3421ba : LatinIME: DA translation <Jacob Overgaard Madsen> 11 days ago
+b45ee2d : LatinIME: EL translations <Michael Bestas> 2 weeks ago
+32c0a71 : LatinIME: Update DE translation <elektroschmock> 12 days ago
+9786820 : LatinIME: RU translation <Vladislav Koldobskiy> 6 days ago
+55f16aa : LatinIME: CS translation <Ondrej Zima> 8 days ago
+9682eac : LatinIME: LT translations <Frant1c> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+d35a473 : Squash update of hlte blobs from themuppets <nuclearmistake> 19 hours ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+ed15780 : ffs <nuclearmistake> 4 hours ago
+ 

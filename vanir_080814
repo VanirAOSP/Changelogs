@@ -1,0 +1,249 @@
+
+**** https://github.com/VanirAOSP/bionic ****
+dbf87e7 : bionic: libm: replace Qualcomm's routines with Nvidia's (except pow) <Jake Weinstein> 9 days ago
+ 
+**** https://github.com/VanirAOSP/dalvik ****
+6132eb7 : Dalvik: Add sdiv support in the JIT <Serban Constantinescu> 9 months ago
+575be2c : Dalvik: Add hardware vfp support for OP_LONG_TO_DOUBLE in JIT <Serban Constantinescu> 1 year, 2 months ago
+ 
+**** https://github.com/CyanogenMod/android_device_asus_tf701t ****
+4372b2c : recovery: sync init <Prashant Somashekar> 8 days ago
+d9e6c5b : build: override keylayout/audio file(s) with device tree copy <Prashant Somashekar> 2 weeks ago
+aae9524 : keylayout: remove dups <Prashant Somashekar> 2 weeks ago
+13021e4 : device: update from V11.4.1.17 <Prashant Somashekar> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7-common ****
+8650285 : perf.profiles: cores online when setting <Tom Hite> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_p880 ****
+30e0203 : We now provide our own GPS config. <demetris> 4 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jflte ****
+9bd7758 : jf: not to be judged by its unified tree name <nuclearmistake> 10 hours ago
+ba606ed : Fixup cm reorg, and temporarily switch to cm-11.0's kernel <nuclearmistake> 11 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+53f916a : Stereo -- BUT WIDER <nuclearmistake> 11 hours ago
+a82ab59 : Revert "Kill audio_effects.conf" <nuclearmistake> 11 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_mondrianwifi ****
+81b6968 : mondrianwifi: Add missing mic paths <Christopher R. Palmer> 2 days ago
+e0ccbe7 : mondrianwifi: init: Configure minimum GPU speed <Christopher R. Palmer> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_sony_fusion3-common ****
+3791d0d : Rename lights and camera HAL to use hw_get_module_by_class <Michael Bestas> 5 days ago
+ 
+**** https://github.com/VanirAOSP/device_sony_nicki ****
+fe48c57 : Rename lights and camera HAL to use hw_get_module_by_class <Michael Bestas> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_qcom-common ****
+6f97108 : camera: do not use GNU old-style field designators <synergydev> 9 months ago
+7220d4e : camera: Cleanup & remove compiler warnings <Michael Bestas> 7 months ago
+fb10cfb : camera: clean up wrapper code <Ethan Chen> 9 months ago
+61bdc8b : CameraWrapper: Use hw_get_module_by_class <Jiangyi> 4 weeks ago
+8e89f39 : LightsWrapper: Use hw_get_module_by_class <Jiangyi> 4 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_rhine-common ****
+0a7a99c : Rename lights and camera HAL to use hw_get_module_by_class <Michael Bestas> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_shinano-common ****
+32fefcf : Rename lights and camera HAL to use hw_get_module_by_class <Michael Bestas> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_external_libtar ****
+166d83a : libtar: Fix hardlink extract <Tom Marshall> 5 weeks ago
+a271d76 : libtar: Various bug fixes and enhancements <philz-cwm6> 4 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+ac6f6a9 : Add column for tracking when a theme was installed <Clark Scheff> 2 days ago
+4280486 : frameworks: base: grammar fixes <Brinly Taylor> 2 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media-caf ****
+7d66594 : Use NO_IOMMU for msm7x30 too <Arne Coucheron> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_asus_tf701t ****
+a471787 : defconfig: regen <Prashant Somashekar> 26 hours ago
+701f5ba : Linux 3.4.102 <Greg Kroah-Hartman> 29 hours ago
+be3b140 : ipv6: reallocate addrconf router for ipv6 address when lo device up <Gao feng> 7 months ago
+d07847a : mm: try_to_unmap_cluster() should lock_page() before mlocking <Vlastimil Babka> 4 months ago
+b03de6d : x86/espfix/xen: Fix allocation of pages for paravirt page tables <Boris Ostrovsky> 4 weeks ago
+de362e7 : lib/btree.c: fix leak of whole btree nodes <Minfei Huang> 9 weeks ago
+2db54f5 : net/l2tp: don't fall back on UDP [get|set]sockopt <Sasha Levin> 4 weeks ago
+5c4cfbb : Revert: "net: ip, ipv6: handle gso skbs in forwarding path" <Greg Kroah-Hartman> 4 days ago
+a1e329e : x86_64/entry/xen: Do not invoke espfix64 on Xen <Andy Lutomirski> 2 weeks ago
+58bd582 : x86, espfix: Make it possible to disable 16-bit support <H. Peter Anvin> 3 months ago
+831fc61 : x86, espfix: Make espfix64 a Kconfig option, fix UML <H. Peter Anvin> 3 months ago
+6a75c74 : x86, espfix: Fix broken header guard <H. Peter Anvin> 3 months ago
+b1c14e4 : x86, espfix: Move espfix definitions into a separate header file <H. Peter Anvin> 3 months ago
+cc5f856 : x86-64, espfix: Don't leak bits 31:16 of %esp returning to 16-bit stack <H. Peter Anvin> 3 months ago
+271d961 : Revert "x86-64, modify_ldt: Make support for 16-bit segments a runtime option" <H. Peter Anvin> 3 months ago
+fde263a : timer: Fix lock inversion between hrtimer_bases.lock and scheduler locks <Jan Kara> 8 days ago
+a2e2f24 : printk: rename printk_sched to printk_deferred <John Stultz> 9 weeks ago
+7675b46 : mm, thp: do not allow thp faults to avoid cpuset restrictions <David Rientjes> 9 days ago
+cde99f4 : scsi: handle flush errors properly <James Bottomley> 5 weeks ago
+67dd4eb : ARM: 8115/1: LPAE: reduce damage caused by idmap to virtual memory layout <Konstantin Khlebnikov> 2 weeks ago
+60e9a04 : crypto: af_alg - properly label AF_ALG socket <Milan Broz> 10 days ago
+9052e29 : defconfig: regen <Prashant Somashekar> 7 days ago
+d87046a : Linux 3.4.101 <Greg Kroah-Hartman> 8 days ago
+d11be0d : mm: kmemleak: avoid false negatives on vmalloc'ed objects <Catalin Marinas> 9 months ago
+90c6651 : introduce SIZE_MAX <Xi Wang> 2 years, 2 months ago
+55eccc9 : s390/ptrace: fix PSW mask check <Martin Schwidefsky> 7 weeks ago
+b15f726 : Fix gcc-4.9.0 miscompilation of load_balance() in scheduler <Linus Torvalds> 13 days ago
+6934b82 : mm: hugetlb: fix copy_hugetlb_page_range() <Naoya Horiguchi> 2 weeks ago
+842b319 : x86_32, entry: Store badsys error code in %eax <Sven Wegener> 3 weeks ago
+363ebcd : ahci: add support for the Promise FastTrak TX8660 SATA HBA (ahci mode) <Romain Degez> 4 weeks ago
+a864633 : libata: introduce ata_host->n_tags to avoid oops on SAS controllers <Tejun Heo> 2 weeks ago
+f13fb95 : libata: support the ata host which implements a queue depth less than 32 <Kevin Hao> 4 weeks ago
+8a4cf9b : block: don't assume last put of shared tags is for the host <Christoph Hellwig> 5 weeks ago
+fff8a1c : defconfig: regen <Prashant Somashekar> 10 days ago
+7576e16 : Linux 3.4.100 <Greg Kroah-Hartman> 12 days ago
+8176fbc : iommu/vt-d: Disable translation if already enabled <Takao Indoh> 1 year, 4 months ago
+5ffe5cd : PM / sleep: Fix request_firmware() error at resume <Takashi Iwai> 4 weeks ago
+d7e5433 : alarmtimer: Fix bug where relative alarm timers were treated as absolute <John Stultz> 5 weeks ago
+1539986 : drm/radeon: avoid leaking edid data <Alex Deucher> 4 weeks ago
+39c109c : mwifiex: fix Tx timeout issue <Amitkumar Karwar> 7 weeks ago
+2f08654 : perf/x86/intel: ignore CondChgd bit to avoid false NMI handling <HATAYAMA Daisuke> 6 weeks ago
+999f9d1 : ipv4: fix buffer overflow in ip_options_compile() <Eric Dumazet> 3 weeks ago
+1362f09 : dns_resolver: Null-terminate the right string <Ben Hutchings> 3 weeks ago
+ee06371 : dns_resolver: assure that dns_query() result is null-terminated <Manuel Schölling> 9 weeks ago
+db09467 : sunvnet: clean up objects created in vnet_new() on vnet_exit() <Sowmini Varadhan> 3 weeks ago
+2227c1c : net: pppoe: use correct channel MTU when using Multilink PPP <Christoph Schulz> 4 weeks ago
+3424965 : net: sctp: fix information leaks in ulpevent layer <Daniel Borkmann> 4 weeks ago
+a9258a6 : tipc: clear 'next'-pointer of message fragments before reassembly <Jon Paul Maloy> 4 weeks ago
+8c7fd67 : be2net: set EQ DB clear-intr bit in be_open() <Suresh Reddy> 4 weeks ago
+eccdd99 : appletalk: Fix socket referencing in skb <Andrey Utkin> 5 weeks ago
+ 
+**** https://github.com/jimsth/vanir_hammerhead ****
+3d11254 : version 1.1.4 <Dan Trifan> 20 hours ago
+069eebb : bcmdhd: fix p2p interface and wlan0 assoc race <bibhayr> 2 days ago
+c0bf1cd : Linux 3.4.101 <Pranav Vashi> 6 days ago
+5cf70bc : Linux 3.4.100 <Pranav Vashi> 11 days ago
+5b8c0b8 : Linux 3.4.99 <LaboDJ> 3 weeks ago
+e8ab058 : msm: pm: Increase cpu collapse timeout <myfluxi> 2 days ago
+48ad659 : cpufreq: Always allow update of user policy <Taniya Das> 9 days ago
+e30aa06 : cpufreq: interactive: Choose highest frequency below or at target <myfluxi> 2 days ago
+fc331a9 : [PATCH] netlink: add signed types <Jiri Pirko> 6 weeks ago
+d6b2576 : [PATCH] Staging: android: binder: More offset validation. <Arve Hjonnevag> 5 months ago
+221b1e3 : USB: ccid_bridge: Provide bulk message write/read stats via debugfs <Pavankumar Kondeti> 3 months ago
+addb03f : USB: ccid_bridge: Don't kill URB in release after device is disconnected <Pavankumar Kondeti> 4 months ago
+84c4e32 : USB: ccid_bridge: Add support for USB smart card class <Pavankumar Kondeti> 9 months ago
+12d66e6 : spi_qsd: Initialize wait queue <Sana Venkat Raju> 5 weeks ago
+b529273 : spi_qsd: Fix bug in multi-xfer bam mode transaction <Alok Chauhan> 5 months ago
+f03a386 : spi_qsd: Add core message queue feature <Alok Chauhan> 11 months ago
+2308dc7 : spi_qsd: Add support for multiple BAM descriptors <Alok Chauhan> 1 year ago
+53ddc22 : spi_qsd: Remove check for unaligned  length during input_irq <Sana Venkat Raju> 8 months ago
+c699811 : spi_qsd: correct the chip select gpios valid field entry <Alok Chauhan> 12 months ago
+c423c36 : spi_qsd: Config GPIOs by name rather then by index <Gilad Avidov> 1 year, 3 months ago
+cf50eaf : net: sockev: Initial Commit <Harout Hedeshian> 3 weeks ago
+90c45dc : net: socket: Added notifier chains for socket administrative functions <Harout Hedeshian> 5 months ago
+7f5aa86 : crypto: msm: Compilation flag in  Kconfig For FIPS <Dinesh K Garg> 4 weeks ago
+0d74aec : crypto: msm: Add support for FIPS complience <Dinesh K Garg> 4 weeks ago
+3047182 : sched: fix race between try_to_wake_up() and move_task() <Steve Muckle> 4 weeks ago
+e4f0155 : msm: kgsl: Add ratelimit check to limit excessive kernel logging <Prabhat Awasthi> 7 weeks ago
+eb2e15c : msm: kgsl: Read fault register on ringbuffer h/w fault <Shubhraprakash Das> 6 months ago
+bb5628e : msm: kgsl: Rate limit interrupt error messages <Shubhraprakash Das> 8 months ago
+ad8aa71 : msm: kgsl: Protect CP_STATE_DEBUG_INDEX <Jordan Crouse> 4 months ago
+90d009f : msm: kgsl: Policy change to skip entire command during fault recovery <Tarun Karra> 5 months ago
+96c3482 : msm: kgsl: Skip the entire command during fault recovery <Tarun Karra> 5 months ago
+f0610de : msm: kgsl: Fix power api's used in fault interrupt sysfs control <Tarun Karra> 5 months ago
+3edfa9c : msm: kgsl: Remove the "global" locking from the ioctl path <Jordan Crouse> 9 weeks ago
+0b08bc4 : msm: kgsl: Take the pagetable reference count only when needed <Prabhat Awasthi> 9 weeks ago
+04e11a2 : msm: msm-krait-l2-accessors: Add RTB logging <Matt Wagantall> 5 months ago
+5cf1cc1 : ARM: Improve vmalloc address checking in show_data() <Matt Wagantall> 4 months ago
+eb2bc36 : ARM: Don't dump vmalloc addresses with show_data() <Matt Wagantall> 4 months ago
+c1e0215 : msm: krait-l2-accessors: Remove set_get_l2_indirect_reg() API <Matt Wagantall> 5 months ago
+7eecc24 : vsprintf: ignore %n again <Kees Cook> 9 months ago
+0d4cc39 : seq_file: remove "%n" usage from seq_file users <Tetsuo Handa> 9 months ago
+a1eaf852 : seq_file: introduce seq_setwidth() and seq_pad() <Tetsuo Handa> 9 months ago
+15729d2 : rcu: Stop rcu_do_batch() from multiplexing the "count" variable <Paul E. McKenney> 2 years, 2 months ago
+685b858 : Revert "rcu: Move PREEMPT_RCU preemption to switch_to() invocation" <Paul E. McKenney> 2 years, 1 month ago
+872e4f1 : rcu: Precompute RCU_FAST_NO_HZ timer offsets <Paul E. McKenney> 2 years, 3 months ago
+a0a0905 : rcu: Move RCU_FAST_NO_HZ per-CPU variables to rcu_dynticks structure <Paul E. McKenney> 2 years, 3 months ago
+ad15f8c : rcu: Update RCU_FAST_NO_HZ tracing for lazy callbacks <Paul E. McKenney> 2 years, 3 months ago
+61ceab3 : timer: Fix mod_timer_pinned() header comment <Paul E. McKenney> 2 years, 3 months ago
+eb1b90c : rcu: Make rcu_barrier() less disruptive <Paul E. McKenney> 2 years, 5 months ago
+dd2c9e7 : rcu: Explicitly initialize RCU_FAST_NO_HZ per-CPU variables <Paul E. McKenney> 2 years, 3 months ago
+12696a9 : rcu: Make RCU_FAST_NO_HZ handle timer migration <Paul E. McKenney> 2 years, 3 months ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+c897fef : PM / Sleep: Update freezer documentation <Srivatsa S. Bhat> 2 years, 9 months ago
+1675470 : PM / Sleep: Remove unused symbol 'suspend_cpu_hotplug' <Srivatsa S. Bhat> 2 years, 9 months ago
+b357aa7 : PM / Sleep: Correct inaccurate information in devices.txt <Rafael J. Wysocki> 2 years, 9 months ago
+ec8b271 : PM / Sleep: Simplify device_suspend_noirq() <Rafael J. Wysocki> 2 years, 9 months ago
+0696e9e : PM / Sleep: Merge internal functions in generic_ops.c <Rafael J. Wysocki> 2 years, 8 months ago
+113d90d : PM / Sleep: Simplify generic system suspend callbacks <Rafael J. Wysocki> 2 years, 8 months ago
+d16a3a6 : PM / Sleep: Fix read_unlock_usermodehelper() call. <Tetsuo Handa> 2 years, 7 months ago
+d774f80 : PM / Sleep: Fix freezer failures due to racy usermodehelper_is_disabled() <Srivatsa S. Bhat> 2 years, 8 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+3fa0f28 : msm: mdss: always request for dsi gpios when cont splash is enabled <Aravind Venkateswaran> 6 weeks ago
+d5d8121 : Revert "ARM: dts: enable auto mode for MSM8974 based devices" <Steve Kondik> 23 hours ago
+b8b97e4 : asoc: wcd9320: Use class AB headphone path for high-res formats <Steve Kondik> 24 hours ago
+2b512fe : ASoC: msm8974: Add VoWLAN dia link <Vicky Sehrawat> 3 months ago
+bfe15a3 : ASoC: wcd9xxx: switch to VDDIO while recording is on TX1 <Yeleswarapu Nagaradhesh> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/kernel_samsung_jf ****
+18c10a0 : jf: update defconfig <Drew Davis> 9 days ago
+adc2c6b : Fix compilation issues with CONFIG_SEC_DEBUG disabled. <cyanogen> 9 days ago
+ead0864 : cm: Disable DVFS touch booster <invisiblek> 3 days ago
+fa02679 : input: Add option to disable touch booster <Steve Kondik> 1 year, 3 months ago
+3698e62 : Makefile: use a sane value for CROSS_COMPILE <Dan Pasanen> 5 days ago
+45322b0 : jf: enable UIO <Dan Pasanen> 5 days ago
+4d3bd39 : drivers: staging: Fix Zcache <Steve Kondik> 6 days ago
+7ae7603 : defconfig: jf: enable zcache <Dan Pasanen> 6 days ago
+96ec924 : staging: zcache: cleanup the code between tmem_obj_init and tmem_obj_find <Xiao Guangrong> 2 years, 1 month ago
+6fbb375 : staging: zcache: introduce get_zcache_client <Xiao Guangrong> 2 years, 1 month ago
+4fc74a6 : staging: zcache: cleanup zcache_do_preload and zcache_put_page <Xiao Guangrong> 2 years, 1 month ago
+4c31c0a1 : staging: zcache: optimize zcache_do_preload <Xiao Guangrong> 2 years, 1 month ago
+c54ce70 : staging: zcache: cleanup zbud_init <Xiao Guangrong> 2 years, 1 month ago
+d84f3cd : staging: zcache: mark zbud_init/zcache_comp_init as __init <Xiao Guangrong> 2 years, 1 month ago
+faf6697 : staging: zcache: fix a compile warning <Xiao Guangrong> 2 years, 1 month ago
+c1dd2f7 : staging: zcache: fix refcount leak <Xiao Guangrong> 2 years, 1 month ago
+0bd0e42 : staging: zcache: don't limit number of pools per client <Sasha Levin> 2 years, 2 months ago
+e37a5ff : CHROMIUM: UPSTREAM: staging: zram/zcache: swtich Kconfig dependency from X86 to ZSMALLOC <Seth Jennings> 2 years, 1 month ago
+d69cf0b : staging: zcache: fix cleancache race condition with shrinker <Seth Jennings> 1 year, 11 months ago
+37a3b1a : rcu: Stop rcu_do_batch() from multiplexing the "count" variable <Paul E. McKenney> 2 years, 2 months ago
+a1d9f85 : Revert "rcu: Move PREEMPT_RCU preemption to switch_to() invocation" <Paul E. McKenney> 2 years, 1 month ago
+d338edb : rcu: Precompute RCU_FAST_NO_HZ timer offsets <Paul E. McKenney> 2 years, 3 months ago
+8a2c2d8 : rcu: Move RCU_FAST_NO_HZ per-CPU variables to rcu_dynticks structure <Paul E. McKenney> 2 years, 3 months ago
+3f1409d : rcu: Update RCU_FAST_NO_HZ tracing for lazy callbacks <Paul E. McKenney> 2 years, 3 months ago
+b1a29d2 : timer: Fix mod_timer_pinned() header comment <Paul E. McKenney> 2 years, 3 months ago
+4fafa3a : rcu: Make rcu_barrier() less disruptive <Paul E. McKenney> 2 years, 5 months ago
+ac16e4b : rcu: Explicitly initialize RCU_FAST_NO_HZ per-CPU variables <Paul E. McKenney> 2 years, 3 months ago
+4619071 : rcu: Make RCU_FAST_NO_HZ handle timer migration <Paul E. McKenney> 2 years, 3 months ago
+3e19913 : rcu: Make exit_rcu() more precise and consolidate <Paul E. McKenney> 2 years, 4 months ago
+7275417 : rcu: Move PREEMPT_RCU preemption to switch_to() invocation <Paul E. McKenney> 2 years, 4 months ago
+a4c65ed : rcu: Ensure that RCU_FAST_NO_HZ timers expire on correct CPU <Paul E. McKenney> 2 years, 5 months ago
+2cff8e9 : rcu: Add warning for RCU_FAST_NO_HZ timer firing <Paul E. McKenney> 2 years, 4 months ago
+6cf33ee : rcu: Make RCU_FAST_NO_HZ account for pauses out of idle <Paul E. McKenney> 2 years, 5 months ago
+97187fc : rcu: Make RCU_FAST_NO_HZ use timer rather than hrtimer <Paul E. McKenney> 2 years, 5 months ago
+0ddb090 : rcu: Add RCU_FAST_NO_HZ tracing for idle exit <Paul E. McKenney> 2 years, 5 months ago
+fa7a18c : msm: kgsl: Fix the offset of FSYNR1 <Shubhraprakash Das> 1 year, 4 months ago
+9dc439a : PM / Sleep: Change wakeup source statistics to follow Android <Rafael J. Wysocki> 2 years, 3 months ago
+8daae25 : PM / Sleep: Use wait queue to signal "no wakeup events in progress" <Rafael J. Wysocki> 2 years, 3 months ago
+62b1619 : PM / Sleep: Look for wakeup events in later stages of device suspend <Rafael J. Wysocki> 2 years, 3 months ago
+67e0513 : msm: iommu: Lock the genpool allocation <Laura Abbott> 1 year, 3 months ago
+6021ab3 : msm: iommu: Check for NULL genpools during domain teardown <Laura Abbott> 9 months ago
+e3c1115 : msm: Add null-pointer checks for domains <Olav Haugan> 1 year, 2 months ago
+8222009 : msm: kgsl: Treat 0x0 as valid GPU pagetable physical address <Tarun Karra> 5 months ago
+2225369 : cpu-boost: sync with kk_3.5 <Dan Pasanen> 11 days ago
+cc94e62 : cpufreq: interactive: delete timers for GOV_START <Shridhar Rasal> 11 months ago
+6da4584 : cpufreq: interactive: Fix null pointer dereference in interactive governor <Vijay Ganti> 7 months ago
+3ccf302 : msm: kgsl: Mark the IOMMU setstate memory as read only <Jordan Crouse> 12 days ago
+27fe62c : sensorhub: use system revison rather than defconfig for variants <Dan Pasanen> 12 days ago
+48d5230 : jf: update defconfig <Drew Davis> 2 weeks ago
+5773b70 : board-8064: pmic: enable RTC write <Dan Pasanen> 1 year, 2 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_mondrianwifi ****
+f70301a : Sqash of revert of qseecom patch-up to caf/kk_3.5 <Christopher R. Palmer> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+b320289 : Dialer: Handle "Unknown" and null numbers when adding to blacklist. <Adnan> 4 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+fcdbd5d : Moove some string vanirifications to vanir_strings.xml <nuclearmistake> 11 hours ago
+2957441 : Settings: Fix the failing strings <Michael Bestas> 7 days ago
+1daf188 : Settings: Modify AOSP EL translations <Michael Bestas> 32 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+b7b2f29 : jflte: Update proprietary libs for next branch <Dan Pasanen> 3 weeks ago
+ 

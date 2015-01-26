@@ -1,0 +1,206 @@
+
+**** https://github.com/VanirAOSP/device_asus_tf700t ****
+20b4a85 : Use our own deconfig <DHOMD> 29 minutes ago
+4ed1be4 : Maybe break something with CPU boost <DHOMD> 2 days ago
+bf332cc : Write read_ahead_kb on fs mount <DHOMD> 2 days ago
+5f7ca10 : ffmpeg audio/video codecs <DHOMD> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+f5f3fb1 : camera: Restart preview after ZSL changes only if the preview is running <Ricardo Cerqueira> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+523909f : hammerhead: Add mpdecision to system group <myfluxi> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_lge_mako ****
+1f79216 : wlan: Improve W-Fi data transmission stablity <ErwinP> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_oppo_common ****
+f822935 : Automatic translation import <Michael Bestas> 9 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_aries-common ****
+f97a06a : Automatic translation import <Michael Bestas> 9 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_msm7x30-common ****
+ee441ba : msm7x30: Add releasetools extensions <Michael Bestas> 11 hours ago
+e8e0cca : msm7x30: Disable /boot mount & format in CWM <Michael Bestas> 11 hours ago
+2daeb4c : Remove releasetools <Michael Bestas> 8 months ago
+87340a1 : fstab: Add fake boot partition <Michael Bestas> 8 months ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_common ****
+a2a2a9d : sony: Sony targets do not have recovery partition <Ethan Chen> 3 days ago
+ 
+**** https://github.com/VanirAOSP/external_busybox ****
+3284a1d : selinux: enable support for bionic, add applets in config <Tanguy Pruvot> 2 weeks ago
+2955fd1 : tar: only include selinux context with -p opt <Tanguy Pruvot> 33 hours ago
+2689fb5 : tar: add selinux context support on create <Tanguy Pruvot> 13 days ago
+ 
+**** https://github.com/VanirAOSP/Superuser ****
+79a893a : Automatic translation import <Michael Bestas> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+a4805e0 : Keyguard: Make sure disabling Camera widget <fuzz> 3 days ago
+8a868ba : RecentsPanelView: remove internal getter for isHighEndGfx() <PrimeDirective> 21 hours ago
+d963872 : navbar: make the camera and notification buttons independent of the navring <PrimeDirective> 20 hours ago
+ddbb5ad : J:LKSDGJH:LAJG <PrimeDirective> 20 hours ago
+adeb376 : NavigationBarView: Reduce getInt instances occuring in setDisabledFlags() <PrimeDirective> 21 hours ago
+a1ef6d3 : Navbar: don't read the user config on every setupNavigationButtons call <PrimeDirective> 21 hours ago
+d91ca6d : Halo: selectively add boost hints <PrimeDirective> 7 months ago
+17c871c : lockscreen notifications: fix expand/clearall button behavior <PrimeDirective> 22 hours ago
+9b37f6e : Active Display: inline some methods to prevent duplicate calls <PrimeDirective> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_fm ****
+73118ba : Automatic translation import <Michael Bestas> 9 hours ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_asus_tf700t
+https://github.com/Hardslog/android_kernel_asus_tf700t
+vani	git@github.com:VanirAOSP/kernel_asus_tf700t.git ****
+c5bd744 : As mentioned before, use our own deconfig <DHOMD> 9 minutes ago
+68094b6 : Squashed revert of lib: memory alloc 2/2 compiling error <DHOMD> 44 minutes ago
+c0ba264 : lib: memory_alloc: Support 64-bit physical addresses <Laura Abbott> 1 year, 2 months ago
+8649f5b : lib: Add debugfs file for tracking memory allocations <Jordan Crouse> 3 years ago
+8c9427f : lib: Remove negative error values from allocate_contiguous_memory_nomap <Jordan Crouse> 3 years ago
+8f06c09 : lib: remove extraneous exports and function prototypes <Larry Bassel> 3 years, 1 month ago
+1767fff : Optimized ARM RWSEM algorithm <faux123> 2 years, 2 months ago
+967515f : Asynchronous I/O latency to a solid-state disk greatly increased between the 2.6.32 and 3.0 kernels. By removing the plug from do_io_submit(), we observed a 34% improvement in the I/O latency. <Dave Kleikamp> 2 years, 6 months ago
+7d7582b : tegra: custom user voltage control  ++++++ possible merge taint <faux123> 1 year, 10 months ago
+2eca784 : sched: disable GENTLTE_FAIR_SLEEPERS for better performance on Android <faux123> 2 years, 3 months ago
+9b4d4c5 : lib/string: use glibc version  ++++++ did not merge clean, look here for taint <Miao Xie> 2 years, 2 months ago
+b00acad : lib/memcopy: use glibc version <Miao Xie> 2 years, 2 months ago
+832e7ff : lib: memory alloc <Larry Bassel> 3 years, 2 months ago
+761b153 : defconfig: enable automatic process group scheduling <DHOMD> 2 hours ago
+86601f2 : Enable UNALIGNED_ACCESS for the new LZO algorithm to use. LZO decrompression is used on QCACHE so we benefit a little from the new and improved LZO code. <franciscofranco> 1 year, 3 months ago
+e74865c : lib/lzo: huge LZO decompression speedup on ARM by using unaligned access <Markus F.X.J. Oberhumer> 1 year, 4 months ago
+7a53bf4 : lib:lzo: updated LZO libs <Linus Torvalds> 1 year, 3 months ago
+0fcf3f8 : lib/lzo: Update LZO compression to current upstream version <Markus F.X.J. Oberhumer> 1 year, 10 months ago
+3eb78c8 : SCHEDULER: Autogroup patch group by current user android UID instead of task ID <Lance Poore> 1 year, 10 months ago
+a798bca : scripts: remove the "+" symbol from kernel version string <Dan Trifan> 7 months ago
+f4e7845 : Remove Sha from Depmod Part #2 <Chet Kener> 5 days ago
+620ca87 : Use our own deconfig + CONFIG_CPUQUIET_FRAMEWORK=y <DHOMD> 2 hours ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-gproj ****
+40d361b : Revert "Revert "ARM: 7169/1: topdown mmap support"" <Ajay Dudani> 1 year, 1 month ago
+5fe8cf7 : msm: kgsl: fix a race condition when calling kref_put <Carter Cooper> 10 months ago
+21c4120 : kref: Implement kref_get_unless_zero v3 <Thomas Hellstrom> 10 months ago
+79a83a4 : msm: kgsl: guard all mem_idr operations with the mem_lock <Carter Cooper> 10 months ago
+952b621 : msm: kgsl: Use ion_share_dma_buf_fd to get ion fd <Carter Cooper> 11 months ago
+8b1e7f5 : msm: kgsl: Check the return value of msm_get_iommu_domain <Carter Cooper> 1 year, 1 month ago
+2fd5102 : msm: kgsl: Avoid dereferencing NULL pointers <Carter Cooper> 1 year, 1 month ago
+3612bea : msm: kgsl: add new clock for 8610 <Carter Cooper> 1 year, 1 month ago
+acc7595 : msm: kgsl: Set aggressive HW clock gating for A330v2 <Carter Cooper> 1 year, 3 months ago
+82f1d69 : msm: kgsl: Add genlock to KGSL DRM driver <Carter Cooper> 1 year, 2 months ago
+03a4527 : msm: kgsl: a2xx: Check the right interrupt status bits <Carter Cooper> 1 year, 2 months ago
+22b2cb0 : msm: kgsl: Add support for A305C GPU for MSM8x10 <Carter Cooper> 1 year, 2 months ago
+f92da40 : msm: Fix mem leak when using per-process pages <Olav Haugan> 1 year, 1 month ago
+559e303 : msm: kgsl: Use register domain for IOMMU domain <Carter Cooper> 1 year, 2 months ago
+8d0186f : msm: kgsl: Remove few a3xx registers from the register list <Carter Cooper> 1 year, 3 months ago
+8364366 : msm: kgsl: Enable VBIF dynamic clock gating for 8974v2 <Carter Cooper> 1 year, 4 months ago
+803f573 : msm: kgsl: Initialize only required IOMMU context <Carter Cooper> 1 year, 3 months ago
+e47832d : msm: kgsl: Use phys_addr_t where appropriate <Carter Cooper> 1 year, 3 months ago
+4c3f658 : msm: kgsl: Copy data back to user in case of error <Carter Cooper> 1 year, 3 months ago
+cc7588c : msm: kgsl: Change bus frequency before GPU frequency <Carter Cooper> 1 year, 3 months ago
+d4c4085 : msm: kgsl: add more VBIF settings for A305B <Carter Cooper> 1 year, 3 months ago
+e08be03 : msm: kgsl: Optimize clock call order <Carter Cooper> 1 year, 4 months ago
+2f8626c : msm: kgsl: Reduce cmd buffer size for adreno_iommu_setstate <Carter Cooper> 1 year, 6 months ago
+6c9c6cd : msm: kgsl: Add intermediate power levels <Carter Cooper> 1 year, 4 months ago
+e36fc7e : msm: kgsl: Resize the CP ROQ for a330/a305b <Carter Cooper> 1 year, 4 months ago
+88a6c5e : msm: kgsl: Added DRM_IOCTL_KGSL_GEM_CREATE_FROM_ION to DRM <Carter Cooper> 1 year, 3 months ago
+40c21a9 : msm: kgsl: Set a useful pm_qos default value <Carter Cooper> 1 year, 4 months ago
+8a8715c : msm: kgsl: rename iommu version specific data <Carter Cooper> 1 year, 4 months ago
+9b690ec : msm: kgsl: Fix checking of validity of process private pointer <Carter Cooper> 1 year, 1 month ago
+15b2271 : msm: kgsl: Add a section to list memory entries in snapshot <Carter Cooper> 1 year, 4 months ago
+242918d : gpu: ion: Minimize allocation fallback delay <Olav Haugan> 1 year, 2 months ago
+c95bef2 : gpu: ion: suppress excessive logging for expected failure cases <Mitchel Humpherys> 1 year, 3 months ago
+bd5b6bb : gpu: ion: Use writecombine for uncached mappings <Olav Haugan> 1 year, 6 months ago
+a338365 : gpu: ion: add pointer null checks in map and unmap <Huaibin Yang> 1 year, 4 months ago
+3702731 : gpu: ion: Do fallback when allocating large sizes <Olav Haugan> 1 year ago
+6463dbb : gpu: ion: Use correct type for variables <Olav Haugan> 1 year, 1 month ago
+f3b5b29 : gpu: ion: allocate huge pages in iommu heap <Mitchel Humpherys> 1 year, 4 months ago
+04f87b6 : gpu: ion: replace __GFP_ZERO with manual zero'ing <Mitchel Humpherys> 1 year, 4 months ago
+4831335 : gpu: ion: Align va address to biggest buffer size <Olav Haugan> 1 year, 2 months ago
+e7a012d : msm: Increase the kernel virtual area to include lowmem <Neeti Desai> 12 months ago
+7be1523 : msm: Update the kernel log messages <Neeti Desai> 10 months ago
+8c7c6ca : mm: Update is_vmalloc_addr to account for vmalloc savings <Laura Abbott> 9 months ago
+08eaf80 : msm: Allow lowmem to be non contiguous and mixed. <Neeti Desai> 12 months ago
+f2d9cf0 : mm/memcg: scanning_global_lru means mem_cgroup_disabled <Hugh Dickins> 2 years ago
+880739d : mm: cma: discard clean pages during contiguous allocation instead of migration <Minchan Kim> 1 year, 8 months ago
+cb35fff : mm/vmscan: remove update_isolated_counts() <Konstantin Khlebnikov> 2 years ago
+9f0a19c : mm/vmscan: push lruvec pointer into isolate_lru_pages() <Konstantin Khlebnikov> 2 years ago
+5538404 : mm/vmscan: push zone pointer into shrink_page_list() <Konstantin Khlebnikov> 2 years ago
+37515b8 : mm: memcg: count pte references from every member of the reclaimed hierarchy <Johannes Weiner> 2 years ago
+63e2cad : kernel: cgroup: push rcu read locking from css_is_ancestor() to callsite <Johannes Weiner> 2 years ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_omap4-common ****
+15d05e4 : Revert "Revert "omap4-common: fix wake on unplug"" <Michael Gernoth> 9 hours ago
+7805437 : Revert "Merge omapzoom-changes into drivers/video/omap2/dss/dispc.c" <Michael Gernoth> 13 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_mondrianwifi ****
+05532fb : mondrianwifi: Enable TSP_BOOSTER <Christopher R. Palmer> 15 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_BluetoothExt ****
+cd2cc28 : Automatic translation import <Michael Bestas> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Browser ****
+09cc93a : Automatic translation import <Michael Bestas> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+04f7a95 : Automatic translation import <Michael Bestas> 9 hours ago
+715e0fb : Calculator: New Features Part 6 <Xlythe> 6 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar
+cm2	https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+b28d474 : Automatic translation import <Michael Bestas> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+465a35d : Underp translations <Michael Bestas> 7 hours ago
+094e620 : Automatic translation import <Michael Bestas> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DSPManager ****
+f5fd906 : Automatic translation import <Michael Bestas> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+cf93236 : Automatic translation import <Michael Bestas> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+6b0cb56 : Automatic translation import <Michael Bestas> 9 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Email
+cm2	https://github.com/CyanogenMod/android_packages_apps_Email ****
+5e7e14a : Automatic translation import <Michael Bestas> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+4668604 : Automatic translation import <Michael Bestas> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+0e4ca08 : Automatic translation import <Michael Bestas> 9 hours ago
+7db3404 : Mms: Clear notifications and mark messages read in certain situations <Ian Ling> 3 days ago
+7fae966 : Revert "Remove smiley support" <Matthieu Baerts> 7 weeks ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+eb37fb2 : ... <h0rn3t> 11 hours ago
+75d9e3e : read minfree default values when init.d script is active <h0rn3t> 11 hours ago
+28e284d : update init.d script only there are changes <h0rn3t> 17 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_SamsungServiceMode ****
+6911fcd : Automatic translation import <Michael Bestas> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+5e3178c : MSIM: Status & Subscriptions Status themes & navigation <Fábio Silva> 24 hours ago
+5a59db4 : Automatic translation import <Michael Bestas> 9 hours ago
+7b25c1f : Settings: Disable Battery status preference on ModLock. <Adnan Begovic> 2 days ago
+ccbf364 : Settings headers: Mobile networks -> Mobile <PrimeDirective> 13 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_ThemeChooser ****
+b94fadf : Automatic translation import <Michael Bestas> 9 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Torch ****
+8256a2e : Automatic translation import <Michael Bestas> 9 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_VoicePlus ****
+d119dae : Automatic translation import <Michael Bestas> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_providers_DownloadProvider ****
+0021aa3 : Automatic translation import <Michael Bestas> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+b2560bf : Automatic translation import <Michael Bestas> 9 hours ago
+ 

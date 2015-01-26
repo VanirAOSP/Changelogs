@@ -1,0 +1,288 @@
+
+**** https://github.com/VanirAOSP/bootable_recovery_TWRP ****
+41ae124 : Include libnetd_client in recovery <Vojtech Bocek> 2 days ago
+1db5090 : Remove mtdutils source from libaosprecovery <Ethan Yonker> 2 days ago
+d6786b8 : Stop building unneeded libs for libblkid <Ethan Yonker> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_evita ****
+8877c93 : evita: Move akmd service to s4-common <Ethan Chen> 27 hours ago
+3c67080 : evita: Remove unused cand service <Ethan Chen> 27 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_jewel ****
+ad330f4 : jewel: Move akmd service to s4-common <Ethan Chen> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7-common ****
+15117d2 : m7-common: Add akmd SELinux domain <Ethan Chen> 27 hours ago
+f147e0c : m7-common: Address CIR denials <Ethan Chen> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_msm8960-common ****
+c8b7f2c : msm8960-common: Use QCOM HW AAC encoder <Ethan Chen> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_s4-common ****
+5ee4060 : s4-common: Restrict ewtzmud policy <Ethan Chen> 26 hours ago
+6e9ced2 : s4-common: Add akmd SELinux domain <Ethan Chen> 26 hours ago
+8241048 : s4-common: Move akmd service to s4-common <Ethan Chen> 27 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_ville ****
+be79866 : ville: Move akmd service to s4-common <Ethan Chen> 27 hours ago
+e90870c : ville: Remove unused cand service <Ethan Chen> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+9bffdf2 : Fix sprint tethering <sudosurootdev> 9 hours ago
+7c89e52 : Create seperate voip input & output <sudosurootdev> 34 hours ago
+9b30f96 : More mixer path updates. <sudosurootdev> 3 days ago
+fff509b : g2: Fix the system partition size <Ricardo Cerqueira> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g3-common ****
+9f26fd8 : Revert "g3-common: Change LCD density to 560dpi" <DHOMD> 4 hours ago
+fd4d49b : sepolicy: few rule updates <Dan Pasanen> 15 hours ago
+a5e4759 : camerawrapper: wholesale kang from g2 <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+fea2834 : hammerhead: Enable tethering <dhacker29> 27 hours ago
+d8e692d : hammerhead: Update A2DP policy <Steve Kondik> 5 days ago
+ 
+**** https://github.com/VanirAOSP/device_moto_shamu ****
+f1a1c18 : telephony: show apn settings <Dan Pasanen> 4 weeks ago
+87599e4 : Reconcilophile <nuclearmistake> 15 hours ago
+9444882 : Use ril-aosp variant path <nuclearmistake> 17 hours ago
+8ca32c6 : Revert "Add rmnetcli to test data-y stuff" <nuclearmistake> 24 hours ago
+7349fec : There's RIL stuff in hardware/ril inside QCOM_HARDWARE ifdefs that IS NOT guarded in android-5.0.1_r1... free the mahimahi <nuclearmistake> 25 hours ago
+6408a7d : Shamu: Enable tethering <dhacker29> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_moto_msm8960_jbbl ****
+f754d6f : Remove QCMediaPlayer/dashplayer <dhacker29> 20 hours ago
+8d412f1 : overlay: Remove non-existent config_singleStageCameraKey <dhacker29> 20 hours ago
+9245f8f :  build: Avoid poisoning the host binaries with bad ABIs <dhacker29> 20 hours ago
+14e01d1 : MotorolaQualcommRIL: Lollipop compatibility <dhacker29> 24 hours ago
+b83909d : include: sync android_filesystem_config.h with systemcore <dhacker29> 31 hours ago
+ef65f3a : qcom: Enabling default route addition during RA in IPv6 <Ravinder Konka> 8 weeks ago
+ba56d16 : Set ro.telephony.get_imsi_from_sim true for Verizon <dhacker29> 3 weeks ago
+a2f0b6e : releasetools: Mount system before doing FullOTA_InstallEnd commands <dhacker29> 4 weeks ago
+04734c1 : Move a few things to cm.mk <dhacker29> 4 weeks ago
+3350e92 : Inherit the common qcom sepolicy <dhacker29> 24 hours ago
+6ef3df2 :  media_codecs: add vendor provided capabilities <dhacker29> 6 weeks ago
+5c97433 : Include FFMPEG codec configuration <dhacker29> 6 weeks ago
+8b7f0ce : codecs: TEMP disable ffmpeg <dhacker29> 7 weeks ago
+447f33f : fstab: set selinux context on modem partition <dhacker29> 24 hours ago
+7987274 : fstab: Fix warning about deprecated storage paths <dhacker29> 7 weeks ago
+9b97bb9 : Audio: Disabled - VOIP_TX & FAST This change enables the basic audio fucntionality. These profile would be enabled once the specific features (VOIP & FAST) are enabled. <dhacker29> 8 weeks ago
+422b3b8 : Import init.target.rc from init.qcom.rc <dhacker29> 8 weeks ago
+af32ad1 : Add performance profiles <dhacker29> 25 hours ago
+cf31d67 : Set BOARD_USES_LEGACY_MMAP := true to allow rmt_storage to work <dhacker29> 8 weeks ago
+7dfff0c : Remove deprecated build flags <dhacker29> 8 weeks ago
+4016b73 : Bluetooh: fix for change define in bluedriod <dhacker29> 8 weeks ago
+347d0a1 : Get rid of ctrl_interface=/data/misc/wifi/sockets <dhacker29> 8 weeks ago
+14e0041 : stagefright: use media_codecs_google*.xml files <dhacker29> 8 weeks ago
+eb850f1 : Camera: override camera2.portability.force_api property <dhacker29> 8 weeks ago
+9247aa3 : msm8960: Video playback issue fix <dhacker29> 8 weeks ago
+748c0c4 : Fix compilation issues <dhacker29> 9 weeks ago
+4551ae2 : includes: Sync android_filesystem_config with system/core changes <dhacker29> 9 weeks ago
+28b1633 : Automatic translation import <Michael Bestas> 3 days ago
+ 
+**** https://github.com/VanirAOSP/motorola_msm8226-common ****
+17f5f1a : msm8226-common: Update A2DP sample rate <Ethan Chen> 29 hours ago
+3fa3cf0 : msm8226-common: Do not create legacy directory <Ethan Chen> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+9651b59 : sepolicy: allow pvrsrvinit to talk to the GPU <Michael Gernoth> 12 hours ago
+5718552 : sepolicy: remove file-contexts for ttyGS{0,1} <Michael Gernoth> 13 hours ago
+1c2402d : Inherit the common qcom sepolicy <dhacker29> 24 hours ago
+0165ab6 : media_codecs: include ffmpeg/google codecs, remove local definition <Michael Gernoth> 13 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_hlte-common ****
+01be2ac : Hlte-common: Migrating XTRA from gpsonextra.net to cloud based izatcloud.net <Pandari Sabhapathi> 5 months ago
+bfb719b : hlte: don't let ril set signal strength type. <repo Shareef Ali> 21 hours ago
+c5f83df : hlte: clean up old cruft from msm8960 ril` <repo Shareef Ali> 23 hours ago
+797342a : Revert "hlte: update A2DP policy" <Shareef Ali> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jf-common ****
+34c1f6a : jf: denials on denials on denials <dcd> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+799d61a : klteril: Override non-standard data network types. <Ricardo Cerqueira> 19 hours ago
+807887d : klte: add support for samsung states. <Shareef Ali> 20 hours ago
+b929bcd : klte: remove lolipop hack <Shareef Ali> 20 hours ago
+2d83e16 : klte: add support for sprint nonstandard SIM <Shareef Ali> 21 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_blue-common ****
+7d6aca3 : blue-common: fix typo ttyHS0 in ueventd.qcom.rc <Hamster Tian> 15 hours ago
+140274a : blue-common: audio: update policy conf, remove redundant qcom flags <Daniel Hillenbrand> 17 hours ago
+2518e59 : blue-common: drop obselete WAKE and WAKE_DROPPED flags from kl files <Hamster Tian> 6 weeks ago
+0de138a : blue-common: include an expanded selection of fonts <Daniel Hillenbrand> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/external_bluetooth_bluedroid ****
+34d5b98 : a2dp: kill more logspam <Dan Pasanen> 6 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+7356fa7 : Power menu customizations [1/2] <Dave Kessler> 3 weeks ago
+74b461b : Add global scramble pin layout setting. <Adnan Begovic> 3 weeks ago
+eb16253 : Keyguard: Add option to scramble pin layout when unlocking (2/2). <Adnan> 5 months ago
+26abdab : Allow disabling Search/Recents button wake (2/2) <Michael Bestas> 2 weeks ago
+a2010ba : Drastically overhaul fundamental aspects of navbar code <nuclearmistake> 13 hours ago
+83bb2d5 : Squash of 11 of Dave's commits for Navi <Dave Kessler> 5 weeks ago
+dbab953 : Add system setting for t9 search input locale <emancebo> 6 months ago
+8841987 : Wake Keys: enforce the wake keys overlay <jrior001> 2 weeks ago
+c3e7230 : Revert "Buttons: set HOME wake key defaults as disabled [2/2]" <Arne Coucheron> 3 days ago
+4d8c54e : BroadcastReceiver : Get sender of broadcasts <Danesh M> 1 year, 5 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+f166831 : sensorservice: add fusion sensors if all events are supported <Scott Mertz> 10 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+ab9d6ce : Revert "ModemPolicy: fix NPE" <nuclearmistake> 14 hours ago
+1386ba8 : IMS: Incoming Call Barring <Basudev Achary Konderpu> 10 weeks ago
+99e8213 : Revert "Revert "Fix the roaming searching text display in standby screen"" <Dan Pasanen> 6 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_ril ****
+7c859e8 : AOSP RIL has alot of giblets that wound up in QCOM_HARDWARE ifdefs, which is NOT defined for shamu <nuclearmistake> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_asus_grouper ****
+124dbe5 : tracing/syscalls: Ignore numbers outside NR_syscalls' range <Rabin Vincent> 10 weeks ago
+d4b892e : tracing/syscalls: Fix perf syscall tracing when syscall_nr == -1 <Will Deacon> 2 years, 5 months ago
+f9fd624 : net: guard tcp_set_keepalive() to tcp sockets <Eric Dumazet> 2 years, 3 months ago
+a1bc128 : KEYS: close race between key lookup and freeing <Sasha Levin> 8 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_dlx ****
+91e8f21 : KEYS: close race between key lookup and freeing <Sasha Levin> 8 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_msm8974 ****
+18aa44e : Create msmcal-hwdep.h <varchild> 33 hours ago
+75e03a7 : Patch 3.4.40 <varchild> 34 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_lge_g3 ****
+79edeb5 : KEYS: close race between key lookup and freeing <Sasha Levin> 8 days ago
+ 
+**** github	https://github.com/jimsth/vanir_hammerhead
+https://github.com/VanirAOSP/kernel_lge_hammerhead ****
+10f4294 : KEYS: close race between key lookup and freeing <Sasha Levin> 8 days ago
+535698e : net: guard tcp_set_keepalive() to tcp sockets <Eric Dumazet> 2 years, 3 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_lge_msm8974 ****
+c4cdad1 : USB: gadget: ether: Clean up req->buf to avoid wild pointer <Figo Wang> 1 year, 2 months ago
+a0e49c0 : USB: gadget: rndis: Optimize tx path for better performance <Mayank Rana> 1 year, 3 months ago
+5d5cb96a : USB: f_mass_storage: Send GADGET_DELAYED_STATUS for MSC RESET command <Vijayavardhan Vennapusa> 1 year, 3 months ago
+cabbbac : USB: Debugfs: Fix compilation issues when debugfs is disabled <Tarun Gupta> 1 year, 3 months ago
+c14601b : USB: android: Prevent change of host mac address of 'rndis0' interface <Vijayavardhan Vennapusa> 1 year, 4 months ago
+3a80c69 : USB: u_ether: Set complete handler before queueing to endpoint <Vijayavardhan Vennapusa> 1 year, 3 months ago
+dddef33 : msm: usb: Add multi-lun support for UMS <wujin> 1 year, 4 months ago
+06c1c42 : USB: f_mtp: Set maximum burst value to two for superspeed mode <Vijayavardhan Vennapusa> 1 year, 5 months ago
+b47875a : USB: android: Handle error conditions if usb_add_config fails <Vijayavardhan Vennapusa> 1 year, 6 months ago
+e984b2c : USB: gadget: composite: Don't enable endpoints if already enabled <Vijayavardhan Vennapusa> 1 year, 5 months ago
+c3caa5b : USB: gadget: qdss: Return Error when set_alt failed <Mayank Rana> 1 year, 5 months ago
+8dec8b8 : USB: gadget: diag: Use spinlocks for protection when freeing requests <Maria Yu> 1 year, 5 months ago
+33bc5d4 : usb: gadget: u_bam: Delay suspend sequence until connect sequence finished <Bar Weiner> 1 year, 6 months ago
+ea256c0 : USB: gadget: diag: Free USB requests during composition switch <Manu Gautam> 1 year, 6 months ago
+9aa2b63 : usb: gadget: Fix datastall upon USB cable disconnect <Lena Salman> 1 year, 7 months ago
+e407579 : usb: gadget: composite: Fix a bug in delayed status handling <Pavankumar Kondeti> 1 year, 7 months ago
+5352318 : usb: gadget: u_data_hsic: Use GFP_KERNEL where ever possible <Pavankumar Kondeti> 1 year, 9 months ago
+83d34e8 : usb: gadget: u_data_hsic: Cancel pending MDM write work during remove <Pavankumar Kondeti> 1 year, 10 months ago
+f092566 : usb: gadget: Support multiple HSIC transport instances for dun and rmnet <Hemant Kumar> 1 year, 11 months ago
+b7238e6 : usb: gadget: u_bam: Enable zero length packet for tx transfers <Rajkumar Raghupathy> 1 year, 7 months ago
+9fe2c57 : USB: gadget: mtp: Fix OUT endpoint request length usage in read <Pavankumar Kondeti> 1 year, 7 months ago
+5a4a1f2 : usb: u_bam: Fix spinlock leak followed by lockup from workqueue <Manu Gautam> 1 year, 7 months ago
+81d78f6 : usb: gadget: Disable transfer-complete interrupt on BAM2BAM transfers <Bar Weiner> 1 year, 7 months ago
+924e21a : USB: gadget: Cleanup boot-up message with default usb composition <Mayank Rana> 1 year, 7 months ago
+251adf9 : usb: gadget: Allow non-default and non-zero ITC value <Amit Blay> 1 year, 7 months ago
+312bff3 : USB: gadget: f_mtp: Fix using tx buffer pointer <Vijayavardhan Vennapusa> 1 year, 7 months ago
+a794edb : usb: gadget: Fix race condition in connect/disconnect <Bar Weiner> 1 year, 7 months ago
+d31f5bc : usb: chipidea: udc: fix memory access of shared memory on armv5 machines <Michael Grzeschik> 1 year, 9 months ago
+7b28ed1 : usb: gadget: Allow MBIM to queue packets before QBI is ready <Bar Weiner> 1 year, 7 months ago
+2777112 : usb: gadget: Allow transfer of large packets over SMD <Bar Weiner> 1 year, 7 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+89c174f : KEYS: close race between key lookup and freeing <Sasha Levin> 8 days ago
+dba323f : find7: Disable DIAG <Steve Kondik> 2 days ago
+4d2de45 : find7: Update defconfig <Steve Kondik> 8 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+c8eef48 : KEYS: close race between key lookup and freeing <Sasha Levin> 8 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+02a18ef : KEYS: close race between key lookup and freeing <Sasha Levin> 8 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_jf ****
+5a64f79 : KEYS: close race between key lookup and freeing <Sasha Levin> 8 days ago
+71b5f37 : KEXEC_HARDBOOT for jactive board <Spegelius> 3 weeks ago
+dd0ff31 : Jactive defconfig update <Spegelius> 17 hours ago
+e9539ce : Jactive GCC 4.8 build fix <Spegelius> 17 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_mondrianwifi ****
+b3b15f6 : KEYS: close race between key lookup and freeing <Sasha Levin> 8 days ago
+f961d70 : mondrianwifi: sound: Fix typo to enable flac offloading <Christopher R. Palmer> 35 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8x60 ****
+ce40cbf : ARM: 7670/1: fix the memset fix <Nicolas Pitre> 19 hours ago
+35e7f34 : ARM: 7668/1: fix memset-related crashes caused by recent GCC (4.7.2) optimizations <Ivan Djelic> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+43c65c6 : Add find7 common, device was restructured <DHOMD> 4 hours ago
+6d580e8 : Track our own system/extras/su <nuclearmistake> 16 hours ago
+caf74f7 : add aosp ril variant <nuclearmistake> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+ccaa531 : Dialer: Fix T9 for Hebrew <cretin45> 5 months ago
+86c9b69 : Return match positions to enable highlighting for CN smart dial <emancebo> 6 months ago
+1f62ee2 : Add setting for t9 search input locale <emancebo> 29 hours ago
+fe57f36 : Read option for t9 search input locale and refresh smart dial db when locale changes <emancebo> 6 months ago
+7d23a38 : Dialer: Refactor SmartDial for additional languages <cretin45> 6 months ago
+b559010 : Add Korean smart dial map <cretin45> 6 months ago
+016c0d4 : Hebrew T9 for Dialer <Arthur Zamarin> 11 months ago
+d1b8942 : Dialer: Add Greek T9 support <Michael Bestas> 11 months ago
+3b0062e : Russian T9 for Dialer <dimfishr> 12 months ago
+0aa14c9 : Separate blacklist from missed filter in history/stats <linus_lee> 33 hours ago
+5406f45 : Merge code and add CallStats in multi sim <linus_lee> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Mms-caf ****
+1b1c50b : Mms : Update chips if contacts updated <Danesh M> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_PhoneCommon ****
+0a94eaa : Refactor dialpad layout to support t9 search in multiple languages <emancebo> 4 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+ee74e76 : Power menu customizations [2/2] <Dave Kessler> 3 weeks ago
+dc83a57 : Reorg of Settings <DHOMD> 2 days ago
+f8eb1c4 : Settings: Add option to scramble pin layout when unlocking (1/2). <Adnan> 5 months ago
+ac6c726 : Allow disabling Search/Recents button wake (1/2) <Michael Bestas> 2 weeks ago
+3084d7f : Fix style issue <MartinRo> 2 days ago
+9e3c9ab : Squash of Dave's commits for Navi (2/2) <Dave Kessler> 4 weeks ago
+3aae065 : Revert "Buttons: set HOME wake key default as disabled [1/2]" <Arne Coucheron> 3 days ago
+70414b2 : Update Performance settings drawable <blunden> 28 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Terminal ****
+704921b : Allow access to external storage <Tom Marshall> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+646ad78 : Revert "Remove hard-coded CDMA roaming mode restrictions." <nuclearmistake> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/system_extras_su ****
+a98616a : Let non-debuggable builds have root. We don't package google apps in ANY builds. <nuclearmistake> 13 hours ago
+2acd98d : goddamn C, yo <nuclearmistake> 15 hours ago
+c988463 : Break arbitrary conditionalization <nuclearmistake> 16 hours ago
+ 
+**** https://github.com/DHOMD/commotio ****
+fe0ac2b : Kltespr to build <DHOMD> 3 hours ago
+bdd2bb9 : Small fixes <DHOMD> 3 hours ago
+b8f685c : Revert "Shameful hack" <DHOMD> 4 hours ago
+25ca33c : Drop some legacy devices <DHOMD> 4 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_htc ****
+9dbe49c : m7-common: Update IR blobs from GPE 5.11.1700.3 <Matt Mower> 2 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_lge ****
+e6caacb : Fix mobile network on g3 <Hendrik H> 12 hours ago
+d2c9e2a : d852/d855: initial bringup and some minor g3 cleanup <Dan Pasanen> 9 weeks ago
+ 
+**** https://github.com/VanirAOSP/vendor_motorola ****
+f0a1915 : shamu: wares: firmer. <nuclearmistake> 23 hours ago
+7f09781 : shamu: Kill qmi debug+test giblets <nuclearmistake> 23 hours ago
+dd9f4c5 : shamu: superficially correct perms of shamu bin blobs <nuclearmistake> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+0bc5a87 : taoshan: update libqc-opt.so <Varun Chitre> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+038db1e : Restore user builds to vendorsetup... user build flags are pretty zippy, and don't require derping the entire build repo <nuclearmistake> 13 hours ago
+65899d9 : Cleanup vanir_shamu.mk <nuclearmistake> 15 hours ago
+b9e517f : Revert "Make sure cm stuff (like su) builds properly with minimal dicking-with" <nuclearmistake> 16 hours ago
+ 

@@ -1,0 +1,265 @@
+
+**** https://github.com/CyanogenMod/android_development ****
+6847ddb : Update classpath to remove obsolete apps and to fix compile error when importing to eclipse <Ming> 10 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_ls980 ****
+45a3662 : Old files which are not used. If run extract-files.sh or setup-makefiles.sh they will get error. <sudosurootdev> 7 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_moto_msm8960dt ****
+6104bd1 : Overlay Fix up telephony <dhacker29> 15 hours ago
+931ee49 : WIP: Audio fixes <Skrilax_CZ> 6 weeks ago
+41f41fd : Update dt.img from KXA20.16-1.26 <dhacker29> 8 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_qcom_common ****
+7607043 : init script: Add usergroup write permission to idle_time node. <Ramkumar Radhakrishnan> 10 weeks ago
+ 
+**** https://github.com/Team-Exhibit/android_device_samsung_codinalte ****
+680f15e : Fix wifi permissions <C457> 2 days ago
+f36acaf : Update releasetools <C457> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2lte ****
+8bd80f1 : Add common overlays for the non d2's <Dave Daynard> 2 days ago
+dfe96be : These are handled in the wrapper now <Dave Daynard> 3 days ago
+840af9a : d2: enable samsung camera mode <Dave Daynard> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jflte ****
+e4e7107 : jflte: do stuff like hlte does it. <Shareef Ali> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+34b5442 : fix this mess <Dave Daynard> 28 hours ago
+b83be34 : toggle ZSL mode properly <Dave Daynard> 2 days ago
+5e4fe44 : msm8960: fix samsung camcorder mode the right way <Dave Daynard> 3 days ago
+6c03243 : add ISO 50 mode for d2 <Dave Daynard> 2 days ago
+ee9f002 : camera: Don't forcefully enable ZSL <Ricardo Cerqueira> 3 days ago
+6a76f67 : msm8960: Enable ZSL in video mode too <Arne Coucheron> 9 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_qcom-common ****
+c47ac53 : Telephony: Add support for Sprint TW "System select" choices. <Mike Kasick> 2 years, 2 months ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_tuna ****
+13459f1 : Opt in of bionic lowmem optimizations <DHOMD> 2 days ago
+ 
+**** https://github.com/VanirAOSP/external_bluetooth_bluedroid ****
+89f3f21 : Revert "BT: Multi HF support in bluedroid stack." <Steve Kondik> 3 days ago
+d3c4e48 : Revert "BLUETOOTH:GAP: Handled concurrent RNR and create connection requests" <Pramod Sivaraman> 6 weeks ago
+6233fd2 : Revert "BLUETOOTH:GAP: Handled concurrent RNR and create connection requests" <Pramod Sivaraman> 6 weeks ago
+5fc33bc : Bluetooth:GAP: Update local device name immediately <Srinu Jella> 3 months ago
+18500a9 : Bluetooth: Adds SMP response timer for security request <Satish kumar sugasi> 8 weeks ago
+1126c31 : Bluetooth: Disconnect HFP before sending SIGKILL. <Gubbala Venugopal Rao> 6 weeks ago
+485a23a : Bluetooth: Disconnect if call is already active <AnubhavGupta> 3 months ago
+4017c83 : Bluetooth: Detect the SSR and set the property <Ajay Kumar> 8 weeks ago
+98ce530 : Bluetooth: GAP: Don't update Remote name if alias name present <Srinu Jella> 7 weeks ago
+74575b4 : Bluetooth: Check codec type to assign correct handle <AnubhavGupta> 6 weeks ago
+4475aa7 : Bluetooth: A2DP Sink reduce delay in playing packets. <AnubhavGupta> 9 weeks ago
+1b5ae72 : Bluetooth: Process signal down event. <Gaurav Asati> 3 months ago
+ed4a683 : Bluetooth: Return proper SEP type. <Gaurav Asati> 7 weeks ago
+da7d275 : Bluetooth: Delete Connect Req from Queue. <Gaurav Asati> 8 weeks ago
+886db0e : Bluetooth: Check for device address. <Gaurav Asati> 10 weeks ago
+5b5449d : BT: HF: Return ERROR for invalid CHLD command arguments <Sumit Bajpai> 8 weeks ago
+8c5bd9c : Bluetooth: Set proper max latency value for specific HID device <Nitin Shivpure> 8 weeks ago
+6090e42 : Fixes LG HID service is not disabled issue <Subramanian Srinivasan> 9 weeks ago
+6707434 : BLUETOOTH:GAP: Handled concurrent RNR and create connection requests <Pramod Sivaraman> 3 months ago
+0bf08f6 : Bluetooth: MAP: validate control block handle before using it <Pradeep Panigrahi> 9 weeks ago
+111e0d9 : Fixes Casio watch incorrectly added in Bonded list issue <Subramanian Srinivasan> 3 months ago
+772bf4d : Bluetooth: To prevent unbonding at 3E encrypt failure <Nitin Arora> 3 months ago
+9c96c69 : Bluetooth: Clear background conn list entries during BT power off <Satish kumar sugasi> 3 months ago
+f0a21f0 : Handles host behavior for pin or key missing encryption issue <Subramanian Srinivasan> 10 weeks ago
+c5ad3fb : Bluetooth: Enable Hid instance to prevent non association of reports <Nitin Arora> 3 months ago
+be9ab6b : Set out stream to null if control socket fails to connect <Ayan Ghosh> 3 months ago
+e06c6df : SDP: Allocate proper sized scratch buffer for SDP response <Mallikarjuna GB> 2 months ago
+3ccd645 : Bluetooth: Serialize trackoperations from media task only <AnubhavGupta> 2 months ago
+69b497a : Bluetooth: Clear wait flag on Start response. <Rohit Singh> 3 months ago
+c7fa0da : Bluetooth: Prevent mulitiple hal cbacks for A2DP devices <Nitin Arora> 2 months ago
+1d4317e : Bluetooth: Clears hogp device control block data properly <Satish kumar sugasi> 2 months ago
+41fad04 : HID: Use proper value of Handle while retreiving device <Hemant Gupta> 3 months ago
+247d69d : Bluetooth: Allow concurrent BT scans to proceed <Nitin Arora> 3 months ago
+e005145 : Bluetooth: whitelist change during unpair BLE hid device <Satish kumar sugasi> 3 months ago
+3bf6a59 : Bluetooth: Checks remote device name is not NULL <Satish kumar sugasi> 3 months ago
+78f0f7c : Bluetooth:GAP: Add NULL check before accessing accept socket <Srinu Jella> 3 months ago
+b55b5f8 : Bluetooth: GAP: Increase the security slots for client profiles <Srinu Jella> 3 months ago
+88f257c : GAP: Prevent multiple RNR calls during connection establishment <Hemant Gupta> 3 months ago
+ada9a1a : Bluetooth: Enable saving LE services discovered to NVRAM <Nitin Arora> 4 months ago
+3547238 : Bluetooth: Store secure flag of pairing before RNR <Srinu Jella> 3 months ago
+b8e06e4 : Bluetooth: HID-ESCO concurrency. <Gaurav Asati> 4 months ago
+908f265 : Update num of SBC frames per AVDTP packet <Ayan Ghosh> 3 months ago
+2d4190d : Bluetooth:GAP: Avoid sending the ACL connected event again <Srinu Jella> 3 months ago
+a0730aa : HID: Add timer for performing sdp for unknown incoming conn <Hemant Gupta> 3 months ago
+68b964b : Bluetooth: Increase bitpool for specification compliance <AnubhavGupta> 3 months ago
+8f524af : Bluetooth: Second time stream-setup without signalling connection down <AnubhavGupta> 3 months ago
+06d4b12 : Bluetooth: Flush Que during suspend <AnubhavGupta> 3 months ago
+40cd989 : Bluetooth: Handle error cases for L2CAP fuzz testing <Pramod Sivaraman> 3 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+6d3ba52 : Fix for crash in LocationManagerService <Ashwin Kumar> 9 weeks ago
+0bc78fe : Combo Provider: Specific location screening <Dante Russo> 3 months ago
+491ac57 : Combo Provider: Get the package name from resource <Dante Russo> 3 months ago
+a43e60a : decouple SW FLP and HW FLP overlay flags <Kevin Tang> 8 weeks ago
+632daaa : Stomp on a benefitless, probably problematic, delta that creaped in with ActiveDisplay <nuclearmistake> 16 hours ago
+de35e8e : Restore pre-"Update QS" flip direction <nuclearmistake> 21 hours ago
+14e1418 : Remove powermenu from default tiles <nuclearmistake> 21 hours ago
+7c469ad : QS: update tile 1/3 <PrimeDirective> 3 weeks ago
+a3bb715 : Revert "Themes: Fix handling of overlay packages in AssetManager" <nuclearmistake> 2 days ago
+4b27dab : Don't register methods when there's nothing to register. <Narayan Kamath> 5 weeks ago
+70b5760 : [ActivityManager] Fix a bug: unable to start activity after starting activities during screen off. <leo_hsu> 4 weeks ago
+634faa9 : Always call super.onCreate().  Always. <Christopher Tate> 10 weeks ago
+49bae76 : [ActivityManager] Reduce report ANR on wrong activity. <riddle_hsu> 13 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_libhardware ****
+4967f0b : Revert "BT: Multi HF support in libhardware." <DHOMD> 26 minutes ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960dt-common ****
+9660cc5 : Linux 3.4.87 <Greg Kroah-Hartman> 6 days ago
+1436b33 : powernow-k6: reorder frequencies <Mikulas Patocka> 4 months ago
+1acb634 : powernow-k6: correctly initialize default parameters <Mikulas Patocka> 4 months ago
+cccd0fd : powernow-k6: disable cache when changing frequency <Mikulas Patocka> 4 months ago
+c34cad8 : media: saa7164: fix return value check in saa7164_initdev() <Wei Yongjun> 6 months ago
+96ca972 : media: hdpvr: fix iteration over uninitialized lists in hdpvr_probe() <Alexey Khoroshilov> 10 months ago
+092bc21 : media: hdpvr: register the video node at the end of probe <Hans Verkuil> 1 year, 1 month ago
+9ef2f22 : media: dmxdev: remove dvb_ringbuffer_flush() on writer side <Soeren Moch> 11 months ago
+915b4b0 : media: omap_vout: find_vma() needs ->mmap_sem held <Al Viro> 1 year, 4 months ago
+ac871a8 : media: v4l: Reset subdev v4l2_dev field to NULL if registration fails <Laurent Pinchart> 1 year, 5 months ago
+1b8904d : media: gspca_kinect: add Kinect for Windows USB id <Jacob Schloss> 1 year, 4 months ago
+8d4787e : tg3: Add read dma workaround for 5720 <Nithin Sujir> 11 months ago
+9e6f42f : tg3: Skip powering down function 0 on certain serdes devices <Nithin Sujir> 11 months ago
+14a7213 : sb_edac: Avoid overflow errors at memory size calculation <Mauro Carvalho Chehab> 1 year, 7 months ago
+82d16b3 : mmc: mxs-mmc: fix deadlock caused by recursion loop <Lauri Hintsala> 1 year, 9 months ago
+faf1003 : OMAPFB: fix framebuffer console colors <Grazvydas Ignotas> 1 year, 8 months ago
+c81c26f : tg3: Wait for boot code to finish after power on <Nithin Sujir> 10 months ago
+2963280 : tg3: Add New 5719 Read DMA workaround <Michael Chan> 1 year, 9 months ago
+5759171 : hwmon: Prevent some divide by zeros in FAN_TO_REG() <Dan Carpenter> 4 months ago
+e4b2585 : hwmon: (applesmc) Always read until end of data <Henrik Rydberg> 7 months ago
+7aa8c17 : hwmon: (coretemp) Add support for Atom CE4110/4150/4170 <Guenter Roeck> 1 year, 6 months ago
+b428b89 : hwmon: (coretemp) Improve support for TjMax detection on Atom CPUs <Guenter Roeck> 1 year, 10 months ago
+2a3c503 : hwmon: (coretemp) Add support for Atom D2000 and N2000 series CPU models <Guenter Roeck> 1 year, 10 months ago
+b32e4b1 : hwmon: (coretemp) Improve support of recent Atom CPU models <Jean Delvare> 1 year, 10 months ago
+d454e9e : ALSA: hda/realtek - Add support of ALC231 codec <Kailang Yang> 5 months ago
+296d59e : ALSA: pcsp: Fix the order of input device unregistration <Takashi Iwai> 5 months ago
+a8d5c05 : ALSA: hda - hdmi: Fallback to ALSA allocation when selecting CA <Anssi Hannula> 8 months ago
+03017e7 : ALSA: 6fire: make buffers DMA-able (midi) <Torsten Schenk> 8 months ago
+825ca11 : ALSA: 6fire: make buffers DMA-able (pcm) <Torsten Schenk> 8 months ago
+a204372 : ALSA: 6fire: fix DMA issues with URB transfer_buffer usage <Jussi Kivilinna> 9 months ago
+c971052 : ALSA: ak4xx-adda: info leak in ak4xxx_capture_source_info() <Dan Carpenter> 10 months ago
+775a5dd : ALSA: usb: Parse UAC2 extension unit like for UAC1 <Torstein Hegge> 1 year, 1 month ago
+d47b372 : ALSA: usb-audio: skip UAC2 EFFECT_UNIT <Eldad Zack> 1 year, 5 months ago
+ff15138 : ALSA: hda - Add another GPU codec ID to snd-hda <Aaron Plattner> 9 months ago
+6f06d39 : ALSA: hda - Add new GPU codec ID to snd-hda <Aaron Plattner> 1 year, 9 months ago
+ea76e8c : ALSA: hda - Cache the MUX selection for generic HDMI <Takashi Iwai> 10 months ago
+ace6269 : xhci: Limit the spurious wakeup fix only to HP machines <Takashi Iwai> 4 months ago
+630b5e0 : xhci: Fix spurious wakeups after S5 on Haswell <Takashi Iwai> 7 months ago
+e4330c7 : xhci: quirk for extra long delay for S4 <Oliver Neukum> 7 months ago
+da02a12 : usb: hub: Clear Port Reset Change during init/resume <Julius Werner> 6 months ago
+8fd2b47 : ahci: Add Device IDs for Intel Wildcat Point-LP <James Ralston> 6 months ago
+4af001a : xhci: Don't enable/disable RWE on bus suspend/resume. <Sarah Sharp> 9 months ago
+86726b0 : ahci: AHCI-mode SATA patch for Intel Coleto Creek DeviceIDs <Seth Heasley> 10 months ago
+72c84d5 : ahci: Add Device IDs for Intel Wellsburg PCH <James Ralston> 1 year, 2 months ago
+a5b2244 : USB: ftdi_sio: fixed handling of unsupported CSIZE setting <Colin Leitner> 6 months ago
+e157f56 : usb: wusbcore: change WA_SEGS_MAX to a legal value <Thomas Pugliese> 6 months ago
+bec174d : usb: wusbcore: set the RPIPE wMaxPacketSize value correctly <Thomas Pugliese> 6 months ago
+080d225 : usb: dwc3: add support for Merrifield <David Cohen> 7 months ago
+36269ba : usb: dwc3: pci: add support for BayTrail <Heikki Krogerus> 7 months ago
+9e5f97b : usb: Disable USB 2.0 Link PM before device reset. <Sarah Sharp> 7 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+c45d2ad : workqueue: reimplement WQ_HIGHPRI using a separate worker_pool <Tejun Heo> 1 year, 9 months ago
+e87d149 : workqueue: introduce NR_WORKER_POOLS and for_each_worker_pool() <Tejun Heo> 1 year, 9 months ago
+de4637a : workqueue: separate out worker_pool flags <Tejun Heo> 1 year, 9 months ago
+43370c6 : workqueue: use @pool instead of @gcwq or @cpu where applicable <Tejun Heo> 1 year, 9 months ago
+32089f1 : workqueue: factor out worker_pool from global_cwq <Tejun Heo> 1 year, 9 months ago
+546b99b : workqueue: don't use WQ_HIGHPRI for unbound workqueues <Tejun Heo> 1 year, 9 months ago
+2b4a0a0 : cpufreq: interactive: turn boost_pulse off on boost off <Ruchi Kandoi> 2 weeks ago
+ea8acfa : cpufreq: interactive: restructure CPUFREQ_GOV_LIMITS <Badhri Jagan Sridharan> 2 weeks ago
+8e7ff66 : ARM: fix warning caused by wrongly typed arm_dma_limit <Russell King> 1 year, 10 months ago
+7095966 : lowmemorykiller: Account for highmem during kswapd reclaim <Liam Mark> 6 weeks ago
+1914662 : mm: vmscan: If kswapd has been running too long, allow it to sleep <Mel Gorman> 2 years, 11 months ago
+705071b : mm: slub: Default slub_max_order to 0 <Mel Gorman> 2 years, 11 months ago
+1907f11 : deadline: Allow 0ms deadline latency, increase the read speed <xiaobing tu> 1 year, 4 months ago
+02f7e82 : sched: Fix select_idle_sibling() bouncing cow syndrome <Mike Galbraith> 1 year, 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+b7600cc : Merge of Sony release 14.3.A.0.757 <Giulio Cervera> 12 days ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+da46611 : Update remote="cfx" from bitbucket.org/codefirex to github.com/codefireXperiment/ & revision kk-devel <Christopher Latham> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+35743ee : Revert "BT: Multi HF support in Bluetooth App." <Steve Kondik> 3 days ago
+695d044 : Revert "BT: HFP: Start DIALING_OUT_TIMEOUT for correct matching device" <Steve Kondik> 3 days ago
+18806a4 : Bluetooth: Update Current Player Status. <Gaurav Asati> 5 weeks ago
+00af3b0 : Bluetooth: Do not delay braodcasting. <Gaurav Asati> 7 weeks ago
+ddee5f0 : Bluetooth: Check for last connected A2dp Sep type <Gubbala Venugopal Rao> 3 months ago
+84e908b : Bluetooth: update playingdevice after user initiated disconnect <AnubhavGupta> 9 weeks ago
+98718fe : BT: HFP: Set VR flags to false when HS disconnects <Sumit Bajpai> 9 weeks ago
+bbbf469 : Bluetooth-OPP: Remove hashmap entry after Tx complete <Juffin Alex Varghese> 9 weeks ago
+350f996 : Bluetooth: Setting bluetooth.isEnabled on BT state change <Pradeep Panigrahi> 9 weeks ago
+d5626fc : Sends bond state change intent for unbonding a device <Subramanian Srinivasan> 3 months ago
+30ede28 : Bluetooth-OPP: Avoid displaying two pop-ups in Tranfer History <Juffin Alex Varghese> 2 months ago
+ac2cbee : Bluetooth: Make Bonded device list operations are synchronous <Srinu Jella> 3 months ago
+93f0d6e : Bluetooth-OPP: Clear incoming file notification while BT turned OFF <Juffin Alex Varghese> 2 months ago
+1988646 : BT: HDP: Add NULL check in cleanupApps <Sumit Bajpai> 3 months ago
+3be44ac : Bluetoth-OPP: Add null check to avoid BT app crash while OPP operation <Juffin Alex Varghese> 3 months ago
+5bed91a : Bluetooth:GAP: Change Pairing intent as ordered broadcast intent <Srinu Jella> 3 months ago
+5f386cc : Bluetooth: Map: Validate BT Adapter before starting rfcomm listener <Pradeep Panigrahi> 3 months ago
+7e1b35d : Bluetooth: MAP: Modify XML serializer to escape double quote <Pradeep Panigrahi> 3 months ago
+445e4fc : Bluetooth-OPP: Update OPP RxTx notification during BT turned OFF <Juffin Alex Varghese> 3 months ago
+9877291 : Bluetooth-OPP: Avoid sending TRANSFER_COMPLETED_ACTION intent <Juffin Alex Varghese> 3 months ago
+9ada79d : MAP: Fix parse email body for non RFC2822 complaint message. <Ashwini Munigala> 3 months ago
+c9d439f : Bluetooth: Process AT+BTRH response. <Gaurav Asati> 3 months ago
+d32d93c : MAP: Fix MMS pushMessage from OUTBOX to SENT folder. <Ashwini Munigala> 3 months ago
+87047c1 : Bluetooth: MAP: Remove unwanted acquisition of PM wake lock <Pradeep Panigrahi> 3 months ago
+a43743b : MAP: Reject GetMessage native charset for MMS or Email Type. <Ashwini Munigala> 3 months ago
+21fcb29 : Bluetooth: Handle exception in OPP during BT ON/OFF <Nitin Shivpure> 4 months ago
+a243546 : Bluetooth: Map: Filter email message based on FilterReadStatus param <Pradeep Panigrahi> 3 months ago
+d6859e2 : Bluetooth: MAP: Delete Email for valid message hanlde . <Pradeep Panigrahi> 3 months ago
+46832be : Bluetooth-OPP: Separating Inbound and Outbound notification <Juffin Alex Varghese> 3 months ago
+74fdd7f : Map: Display mandatory fields in msg listing with 0 parmeter mask <Pradeep Panigrahi> 3 months ago
+9761458 : Bluetooth: Map: Add TEL field in v card version 2.1 for getMessage <Pradeep Panigrahi> 3 months ago
+649bfc7 : MAP: Support MMS pushMessage feature. <Ashwini Munigala> 3 months ago
+1e7cfc3 : Bluetooth: Handle CPBS read command properly. <Nitin Srivastava> 3 months ago
+e0a66e7 : Blueototh: MAP: Validate Parameter mask before setting date in msglisting <Pradeep Panigrahi> 3 months ago
+addf36e : Bluetooth: Prevent scan start if already in progress <Nitin Arora> 3 months ago
+653235b : Bluetooth: Add NULL check before accessing Profile data <Gaurav Asati> 4 months ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_BluetoothExt ****
+de50b94 : Revert "Bluetooth: BTC: Disable BTC module" <Pradeep Panigrahi> 9 weeks ago
+b3bfc2e : Bluetooth: bttestapp: Add originator to bmsg element during push message <Pradeep Panigrahi> 9 weeks ago
+ef6ef89 : Bluetooth: Avoiding a ANR, if FTP service record is not registered <Nitin Shivpure> 3 months ago
+c0a9c91 : Bluetooth: Handle exception in SAP/DUN during BT ON/OFF <Nitin Shivpure> 3 months ago
+e7dc957 : Handles threshold equal scenario in PXP LPP app <Subramanian Srinivasan> 3 months ago
+1abf965 : FTP-Server: Add handling for checking folder name in setpath <Hemant Gupta> 3 months ago
+7298a9b : Revert "SAP: Handle ACL_DISCONNECT from the client" <Smriti Gupta> 3 months ago
+3cbb818 : FTP Server: Don't send error in case folder already exists <Hemant Gupta> 3 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+c9f88e7 : Revert "BT: Multi HF support in Settings App." <DHOMD> 30 minutes ago
+762c0f0 : Add dummy strings to prevent aapt warnings <Michael Bestas> 26 hours ago
+8b9db9f : QS: update tile 3/3 <PrimeDirective> 3 weeks ago
+71a0098 : Make phone status string translatable. <Danny Baumann> 3 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_VanirUpdater ****
+f4e898a : Put the kibosh on non-optional update sounds, and handle manual quicksettings updates in a way that's differentiable from regular background update checking. <nuclearmistake> 15 hours ago
+56408ea : QS: update tile 2/3 <PrimeDirective> 3 weeks ago
+ 
+**** https://github.com/codefireXperiment/prebuilts_gcc_linux-x86_arm_arm-eabi-4.8 ****
+b41807f : Revert "[linux-x86] toolchain refresh from cfX toolchain_* repos" <synergy dev> 9 weeks ago
+8719549 : [linux-x86] toolchain refresh from cfX toolchain_* repos <synergy dev> 9 weeks ago
+e9a3e24 : cfX-Toolchain 4.8: current toolchain_package arm-eabi build <Synergy Dev> 6 months ago
+ 
+**** https://github.com/codefireXperiment/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8 ****
+debb251 : Revert "[linux-x86] toolchain refresh from cfX toolchain_* repos" <synergy dev> 9 weeks ago
+4d865de : Revert "[linux-x86] toolchain refresh with downgraded host flex" <synergy dev> 9 weeks ago
+3870f2b : [linux-x86] toolchain refresh with downgraded host flex <synergy dev> 9 weeks ago
+b7b0024 : [linux-x86] toolchain refresh from cfX toolchain_* repos <synergy dev> 9 weeks ago
+d9735fc : [linux-x86] ARM toolchain refresh <Ben Cheng> 8 months ago
+fd0bc4f : Initial empty repository <Chad Jones> 8 months ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+ef734d0 : Add Nokia vendor ID to adb and fastboot <dhacker29> 4 days ago
+dfe31f9 : adb: Do not look for bu in /system/bin when in recovery mode <Tom Marshall> 12 days ago
+ 
+**** https://github.com/VanirAOSP/system_vold ****
+5b438de : Add exfat/ntfs support for modules or static mode. if you cannot write to partitions, it could be you miss SE permissions <xiaolu> 12 days ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+bbad712 : apns: remove default- and dun-types for Verizon MMS 31x/48x <Michael Gernoth> 3 days ago
+ 

@@ -1,0 +1,123 @@
+
+**** https://github.com/VanirAOSP/build ****
+aaa6f80 : build: fix dopush for SystemUI <Pawit Pornkitprasan> 17 hours ago
+c80e5ad : recovery: set 18x32 on 560dpi as well <Dan Pasanen> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7vzw ****
+36cfc20 : m7vzw: Provide minimal java RIL to handle unsols <Matt Mower> 7 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_msm8960-common ****
+51cad0c : msm8960-common: ril: Recognize unsols 5757, 4259 <Matt Mower> 7 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_s4-common ****
+0349df3 : s4-common: Correctly log HTC unsols <Matt Mower> 7 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+9ac2a20 : Build with linaro-4.9 toolchain <Dave Kessler> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_ls980 ****
+c3cc415 : Didn't help keyguard SIM MISSING issue... so remove these 2, Avoid any problems from SPRINT END, if possible, having tether issues. Leave the other prop gone. <sudosurootdev> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_mako ****
+4d9a565 : mako: update config_deviceHardwareKeys <Pawit Pornkitprasan> 21 hours ago
+ 
+**** https://github.com/VanirAOSP/device_moto_shamu ****
+92efdb9 : Revert "permissive selinux for now" <nuclearmistake> 7 hours ago
+ccc9339 : device_hardwareKeys: 64 == volume rocker <nuclearmistake> 12 hours ago
+8d6091e : Hardware keys: no estan aqui <nuclearmistake> 19 hours ago
+02b6b62 : Revert "Back to liquid's lean-based linaro 4.9 kernel" <nuclearmistake> 19 hours ago
+47405a2 : sec_config: Allow sensors group process to QMI Sensor services <Satya Durga Srinivasu Prabhala> 6 months ago
+eeddb32 : Revert "shamu: Add support for USB OTG" <Brian Jolly> 35 hours ago
+b05b7e3 : shamu: proprietary-files: Add widevine drm libs <dhacker29> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+1f9818e : omap4-common: don't define ANDROID_P2P_STUB in global CFLAGS <Michael Gernoth> 15 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_jfltespr ****
+4190a07 : telephony: get imsi from sim <Michael Wawrzyniak> 8 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+ea5aecd : klte-common: dont mount persist, persdata <Matt Filetto> 4 weeks ago
+68d9978 : Revert "klte-common: Set SELinux to permissive" <Ethan Chen> 2 days ago
+083fa02 : klte-common: Add device-specific SELinux policies <Ethan Chen> 2 days ago
+2c1a62d : klte-common: Remove deprecated audio_effects <Ethan Chen> 2 days ago
+373fec2 : klte-common: Inherit QCOM SELinux policies <Ethan Chen> 2 days ago
+c7ffd58 : klte-common: Move KlteRIL to klte-common <Matt Filetto> 4 weeks ago
+7f09355 : klte-common: Remove WAKE_DROPPED flags from keylayouts <Matt Filetto> 4 weeks ago
+73af2cc : klte-common: Remove tty_enabled from Telephony <dcd> 5 weeks ago
+f1bf60b : klte-common: Enable battery LED settings overlay <Matt Filetto> 4 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_kltedv ****
+9234ea6 : kltedv: Move RIL class to klte-common <Ethan Chen> 7 hours ago
+8867bb0 : kltedv: update partition sizes to fix block based flashing <Matt Filetto> 4 weeks ago
+0698bd8 : kltedv: fix props for Android 5.0 <Matt Filetto> 6 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_kltespr ****
+f4f4dd8 : kltespr: Use KlteRIL defined in klte-common <Ethan Chen> 8 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_klteusc ****
+489306d : klteusc: Use KlteRIL defined in klte-common <Ethan Chen> 7 hours ago
+30a3096 : klteusc: set correct partition sizes <Matt Filetto> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_mondrianwifi ****
+6d0ee88 : mondrianwifi: overlay: Update hardware keys <Christopher R. Palmer> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+0a42854 : media_codecs: add adaptive-playback feature <Dan Pasanen> 8 hours ago
+ 
+**** https://github.com/CyanogenMod/android_external_libusbx ****
+b0b3190 : fix build on linux <kenshin> 7 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+2face62 : nuplayer: Fix build <Steve Kondik> 12 hours ago
+6ffb297 : pre kitkat audio legacy poliy fix for hotword (ok google) <chrmhoffmann> 3 weeks ago
+334b708 : DO NOT MERGE - NuPlayer: open audio sink in offload mode when resuming from timeout teardown. <Ronghua Wu> 7 weeks ago
+a87f46e : DO NOT MERGE - NuPlayer: invalid anchor time when render is flushed. <Ronghua Wu> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+2d11cf6 : SystemUI: various fixes to data type display <Pawit Pornkitprasan> 2 days ago
+a000cdc : Allow adjusting progress on touch events. <Danny Baumann> 1 year, 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_display ****
+7425b73 : gralloc: add a flag for ion compatibility <Nick Reuter> 10 days ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_keymaster ****
+9759ae6 : keymaster: add a flag for ion compatibility <Nick Reuter> 10 days ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_media ****
+d1e8c3a : media: add a flag for ion compatibility <Nick Reuter> 10 days ago
+ 
+**** github	https://github.com/jimsth/vanir_hammerhead
+https://github.com/VanirAOSP/kernel_lge_hammerhead ****
+66bce78 : Fix build for linaro-4.9 toolchain <Dave Kessler> 13 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+d5e839f : while [ "$(basename $(pwd))" = "manifest" ]; do DERP; done <nuclearmistake> 6 hours ago
+cd51f8f : Add 8916 QCOM HALs <Ricardo Cerqueira> 13 hours ago
+fd99557 : Shield tablet: out of date, and not something I would flash on MINE <nuclearmistake> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+560c677 : Camera2: Remove settings preferences only once <Konsta> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+1b409df : DeskClock : If volume actions are set, always show activity <Danesh M> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Mms-caf ****
+959789b : Mms: Add close button for removing subject as a new UX path instead of relying on the depracated onKeyListener <Martin Brabham> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+cd04c2a : Settings: fix custom SIM name lost on reboot <Pawit Pornkitprasan> 14 hours ago
+7c8c8e7 : Settings: fix FC viewing 'running' detail <Pawit Pornkitprasan> 20 hours ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+bad5a07 : libcutils: Do not use the kernel headers <Ricardo Cerqueira> 5 hours ago
+533f279 : fastboot: Add missing fastboot USB IDs <Steve Kondik> 10 weeks ago
+3572bc6 : init: create symlinks to mtd block device nodes <Brian Beloshapka> 3 weeks ago
+e9af679 : set /system/etc/init.d/* permissions <Michaël Burtin> 2 years, 11 months ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+d8c36f8 : sepolicy: remove stray + in type statement <Matt Mower> 32 hours ago
+eacda2c : hlte: tmo and spr exist... 2 of the 3 hltes we had don't <nuclearmistake> 19 hours ago
+cfd21e9 : peregrine: never actually supported? <nuclearmistake> 19 hours ago
+6355110 : spring cleaning: shieldtablet <nuclearmistake> 19 hours ago
+ 

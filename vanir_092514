@@ -1,0 +1,148 @@
+
+**** https://github.com/VanirAOSP/art ****
+3a01865 : if ZipArchive::Find fails, include the name of the entry it was finding in the warning <nuclearmistake> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m4 ****
+94f7c24 : m4: Fix cmhw path <Jurica Vukadin> 8 hours ago
+8ed4da9 : m4: Support vibrator tuning <Ethan Chen> 10 hours ago
+96998b1 : m4: Eliminate bootanimation jank <Jurica Vukadin> 13 hours ago
+ 
+**** https://github.com/xboxfanj/android_device_lge_gee-common ****
+3221909 : gee-common: power update <Jake Weinstein> 25 hours ago
+223930a : gee-common: boardconfig update <Jake Weinstein> 25 hours ago
+64c5699 : gee-common: media update <Jake Weinstein> 25 hours ago
+1caf7ea : gee-common: remove unnecessary boardconfig flags <Jake Weinstein> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_p880 ****
+1fb4d8f : X3: Enable Device has slow blur and some telephony confing cleanup <demetris> 8 hours ago
+e12c42d : Set the correct network mode.P880 dont support LTE <demetris> 8 hours ago
+f129c4f : Update TCP buffer sizes and thresholds Fix java missing symbol in DisplayColorCalibration. <demetris> 9 hours ago
+d5db10d : CMHW: only expose userspace options if kernel supports it <demetris> 10 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_hlte-common ****
+f26b26f : hlte: Stop using voice paths for VOIP. <Tony Layher> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/external_bash ****
+1392e41 : Patch cve-2014-6271 <Stephane Chazelas> 8 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+7f61b5b : stagefright: Fix compilation when ! ENABLE_AV_ENHANCEMENTS <Christopher R. Palmer> 19 hours ago
+93fa0ed : audio: Update timestamp for offload playback after EOS. <Soumya> 4 weeks ago
+0e2f70c : frameworks/av: Avoid timestamp query to AudioPlayer during reset <Chaithanya Krishna Bacharaju> 9 weeks ago
+e7d38f6 : stagefright: Fix NULL pointer access issues <Leena Winterrowd> 9 weeks ago
+11fe1a0 : audioflinger: decline track to be offloaded if there's active one <Zhou Song> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+abb403b : Hardware keys: add gesture panel support <PrimeDirective> 4 weeks ago
+900804f : AndroidRuntime: art doesn't have interpreter-mode extensions like dalvik, and is slower in interpreter-only mode, so don't set Xint options <nuclearmistake> 16 hours ago
+5c2beaa : Show devices connected to the WiFi hotspot(1/2) <sssemil> 10 days ago
+c0cc75b : Fix for "volume buttons change two volume steps per click" bug <Lanchon> 5 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+2173e32 : sf: Clear FrameBuffer only if there are GLES composed layers <Sravan Kumar D.V.N> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display-caf-new ****
+397891a : hwc: Reset ROI for all the prepare calls. <Jeykumar Sankaran> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_samsung ****
+50bbcbe : omx_core: fix heap corruption when unregistering component <Dheeraj CVR> 8 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8960 ****
+90169b0 : msm: HTC: m4: Add clock sleep control for bcm4334 <Jurica Vukadin> 9 days ago
+dd6295e8 : msm: HTC: m4: Update defconfig <Jurica Vukadin> 12 days ago
+429c02e : msm: HTC: m4: Update panel driver <Jurica Vukadin> 10 days ago
+0422db6 : msm: HTC: m4: Remove alternate RPM regulator config <Jurica Vukadin> 10 days ago
+dc1175e : radio: iris: Initialize radio-iris for built-in iris-transport <M1cha> 1 year ago
+3294f78 : radio: iris: Mark radio_hci_smd_init as __init <M1cha> 1 year ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+390f737 :  framebuffer: add a pollable sysfs entry for display status <demetris> 10 hours ago
+62be110 :  asoc:tegra: fix dam cif programming <demetris> 15 hours ago
+be5c9e3 : asoc: tegra: handle multiple registrations for switch device <Nikesh Oswal> 2 years ago
+f956163 : asoc:tegra: disable ext1 clock in suspend Fix the way ext1 clock is disabled in suspend and enable in resume. <demetris> 16 hours ago
+7fb954f : asoc: tegra: MAX98088 machine: fix coverity issue <Sri Krishna chowdary> 2 years ago
+313ab84 : Fix the way to get EQ channel names and some cleanup <demetris> 17 hours ago
+08b2d0e : asoc: codec: convert gpio to irq for max98088 <Nikesh Oswal> 2 years ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_omap4-common ****
+7c37be1 : defconfig: enable IPV6_ROUTE_INFO and IPV6_SUBTREES <Michael Gernoth> 15 hours ago
+ee70eb7 : ipv6: tcp: fix panic in SYN processing <Eric Dumazet> 2 years, 10 months ago
+7754076 : ipv6: don't stop backtracking in fib6_lookup_1 if subtree does not match <Hannes Frederic Sowa> 1 year, 2 months ago
+1926e15 : ipv6: Don't depend on per socket memory for neighbour discovery messages <Thomas Graf> 1 year, 1 month ago
+4fe5654 : ipv6: send unsolicited neighbour advertisements to all-nodes <Hannes Frederic Sowa> 1 year, 11 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+d0ba759 : Bluetooth: Update proper delete calls in AVRCP JNI <Gubbala Venugopal Rao> 7 months ago
+1c19198 : Bluetooth: Delete the pointer to avoid memory leakage <Gubbala Venugopal Rao> 6 months ago
+a64b0d5 : Remove duplicate mime type for apk file transfer <Scott Mertz> 33 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_BluetoothExt ****
+d9cf391 : BluetoothExt: Remove unused string <Michael Bestas> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+69405e8 : Camera2: Remove unused strings <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Contacts ****
+d1435c4 : Contacts: Remove unused strings <Michael Bestas> 28 hours ago
+5f3f37e : Contacts: Null check local group query result <Ethan Chen> 7 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+dab405b : Revert "ContactsCommon: Remove unused strings" <Martincz Gao> 24 hours ago
+01b20a0 : ContactsCommon: Remove unused strings <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DSPManager ****
+0f78257 : DSPManager: Remove unused strings <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+4507937 : Dialer: Remove unused strings <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Email ****
+0210ff9 : Email: Remove unused string <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Gallery2 ****
+f34f711 : Gallery2: Remove unused strings <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+2ef5c9a : InCallUI: Remove unused strings <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+c7d1387 : Mms: Remove unused strings <Michael Bestas> 28 hours ago
+5eed843 : Mms: Move CAF strings <Michael Bestas> 7 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+56b6a69 : Hardware keys: add gesture panel support <PrimeDirective> 4 weeks ago
+b50d3d2 : Show devices connected to the WiFi hotspot(2/2) <sssemil> 10 days ago
+71b8e3b : Settings: Move CAF strings <Michael Bestas> 7 days ago
+16c0e01 : Settings: Improve AOSP & CM AOSP JA translation <black> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ThemeChooser ****
+72ea5dc : ThemeChooser: Remove unused string <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_VoicePlus ****
+e49ec7c : VoicePlus: Remove unused strings <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+67df128 : Telephony: Remove unused strings <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+8d073e8 : system: Update function to calculate bytes per sample for offload <Pradnya Chaphekar> 3 months ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+ef35f4d : HLTE: update adreno drivers to 30JUL14 Build. <Tony Layher> 3 days ago
+c5ff2ec : mondrianwifi: Update adreno blobs for 30JUL14 version <Christopher R. Palmer> 2 days ago
+43f86e4 : klte: Add hacked libsec-ril.so for GSM <Ethan Chen> 33 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+0304c5a : Enable incall recording <DHOMD> 6 weeks ago
+19f3f32 : klimtwifi - G Pro 12.2 <DHOMD> 10 days ago
+f724650 : otasigcheck: Don't fail a signature check if data will be wiped <Brint E. Kriebel> 10 hours ago
+d2ba269 : init.d/09cron: use sysrw and sysro <nuclearmistake> 16 hours ago
+e20d23b : ffmpeg giblets <nuclearmistake> 17 hours ago
+d450c6e : kill vestigial commented-out props <nuclearmistake> 17 hours ago
+a7edcbf : More things that shouldn't be common, and aren't really. <nuclearmistake> 17 hours ago
+115c690 : Let poo be flung as fast or as slow as FB and devices want. <nuclearmistake> 17 hours ago
+173d430 : Remove enc+dec property overrides - device-set or default. <nuclearmistake> 17 hours ago
+a07f00a : disable some snake oil - if this does anything, devices ought to set it themselves. <nuclearmistake> 17 hours ago
+3d32ad4 : corrected Telekom DE APNs <Merudo> 2 days ago
+18486b8 : APNs remove trailing whitespace from Bite <elektroschmock> 35 hours ago
+ 

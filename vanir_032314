@@ -1,0 +1,99 @@
+
+**** https://github.com/VanirAOSP/dalvik ****
+6fa4413 : Dalvik : Increase the upper limit check for DexOpt Deps table <Tapas Pradhan> 4 weeks ago
+cdf7a37 : dalvik: add placeholder for future changes <Wei Wang> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_htc_msm8960-common ****
+c4a0ec4 : msm8960-common: ril: Avoid collision with RIL constant 1138 <Dave Carey> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_mako ****
+4a8a0e4 : Revert "Revert "Mako: use mako_defconfig for matr1x"" <Jake Weinstein> 29 hours ago
+573cf4c : Revert "Revert "mako: flo and mako don't use the same kernel, so change path to kernel/lge/mako"" <Jake Weinstein> 29 hours ago
+ 
+**** https://github.com/Team-Exhibit/android_device_samsung_codinalte ****
+74882ed : codinalte:Enable builds for golden and skomer <C457> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2lte ****
+eed82bd : init_d2lte: clean up cdma/gsm variant props <Dan Pasanen> 4 days ago
+ 
+**** https://github.com/Team-Exhibit/android_device_samsung_golden ****
+bbb6997 : Initial Commit <C457> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jflte ****
+9c01597 : init_jflte: clean up cdma/gsm variant props <Dan Pasanen> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+ff20e54 : camera: this is not just for d2 anymore <Dan Pasanen> 8 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_qcom-common ****
+24a90c6 : overlay: add sprint eri.xml for mcc310/mnc120 <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/Team-Exhibit/android_device_samsung_skomer ****
+5b83226 : Initial Commit <C457> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_smdk4412-common ****
+0378c1e : smdk4412-common: camera: Don't set focus to FOCUS_MODE_TOUCH after taking a picture <Javier Ferrer> 20 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+4791df4 : Revert "fb: Incoming Call in Background (3/3)" -->  Non-intrusive is better <DHOMD> 3 days ago
+8e3fee6 : Avoid collision with RIL constant 1138, used in some Samsung devices for RIL_UNSOL_TETHERED_MODE_STATE_CHANGED. Needs http://review.cyanogenmod.org/#/c/61292/ Thanks to iptux on XDA for pointing out the change in constants between CM-10.2 and CM-11.0. <Will Keaney> 4 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_libhardware ****
+d2e5781 : audio: Update Listen HAL API for MultiSession. <Bharath Ramachandramurthy> 10 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+d3b9cc3 : hal: Updated APIs to support Listen Multisession <Bharath Ramachandramurthy> 10 weeks ago
+ac3f343 : hal: update playback channel mapping for USB headset <Mingming Yin> 3 weeks ago
+abbb5e8 : hal: Add the missing sound device of voice_speaker <Walter Yang> 4 weeks ago
+b728f41 : hal: Add support for EC in regular audio recording <Ravi Kumar Alamanda> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_camera ****
+cab0858 : Revert "Revert "Revert "Camera3: Work around for streams with different o/p rates""" <nuclearmistake> 5 hours ago
+eb83994 : HAL3: cleanup unreachable conditionals <synergy dev> 3 weeks ago
+4b73a49 : Remove include <linux/android_pmem.h> <synergy dev> 3 months ago
+ccb78d7 : QCamera3: HAL2: support using qcom display obj copied headers <synergy dev> 3 months ago
+e9e066e : set unused attribute for unused variables <synergy dev> 3 months ago
+6c159cb : Undo -Wno-error "fixes" <nuclearmistake> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/hardware_ril ****
+ab552db :  hardware: ril: Avoid collision with RIL constant 1138 <Dave Carey> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+1b8a8ae : d2: board-mms-tsp: fix type mismatch for system_rev <Dave Daynard> 19 hours ago
+396550e : timer: optimize apply_slack() <Felix Fietkau> 1 year, 11 months ago
+533ee05 : mmc: core: do not reinsert prepeared FUA and FLUSH requests in stop flow <Konstantin Dorfman> 3 months ago
+55d73a0 : Optimized ARM RWSEM algorithm <Ashwin Chaugule> 2 years ago
+2d0ece0 : writeback: Fix occasional slow sync(1) <Jan Kara> 8 months ago
+d8ed9ce : writeback: fix writeback cache thrashing <Namjae Jeon> 1 year, 3 months ago
+59b3428 : block/partitions: optimize memory allocation in check_partition() <Ming Lei> 1 year, 1 month ago
+770f7a3 : sync: don't block the flusher thread waiting on IO <Dave Chinner> 9 months ago
+2a146f2 : jbd2: optimize jbd2_journal_force_commit <mrg666> 3 months ago
+7560c36 : writeback: fix race that cause writeback hung <Junxiao Bi> 6 months ago
+58054ce : msm_zsl: port NULL checks and irq enable/disable from non zsl variant <Dave Daynard> 26 hours ago
+bfb5b0f : msm_fb: display: workaround a single underrun when lcdc is on <Huaibin Yang> 11 days ago
+02bc3c2 : USB: ci13xxx_msm: shutdown callback to disable D+ pullup <ChandanaKishori Chiluveru> 4 weeks ago
+fcea612 : who are we kidding? we always want turbo mode <Dave Daynard> 31 hours ago
+2d52c00 : d2 camera: squash commits from caf <Dave Daynard> 7 days ago
+31ef1b3 : msm: camera: Fix for camera crash <Suresh Vankadara> 1 year, 2 months ago
+b885a52 : binder: search for receiving context pid in global namespace <Ricardo Mendoza> 8 months ago
+c6baea3 : Drop SDR104 support as some SoC revisions can't handle it <infernix> 26 hours ago
+3eb4976 : Reset parameters for EMMC to stock 3.0 <infernix> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+bd6c44b : Revert "Revert "Adding Matr1x kernel for Vanir mako kernel"" <Jake Weinstein> 29 hours ago
+ 
+**** https://github.com/omnirom/android_packages_apps_OmniSwitch ****
+d66bfd3 : OmniSwitch: added icon pack support <maxwen> 10 days ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+5a38f19 : [2/3] Telephony: Flip to Mute/Reject Call <Sasikumar D R> 3 months ago
+b4e77f6 : Revert "Telephony: Incoming Call in Background (2/3)"  || I hate it, non intrusive is soo much better <DHOMD> 3 days ago
+2162349 : Implement toggleLte <Scott Warner> 9 weeks ago
+ 
+**** https://github.com/VanirAOSP/system_extras ****
+4bb5356 : ext4_utils: fix utility build (libmincrypt) <Pawit Pornkitprasan> 2 days ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+9b82b02 : Fix nicki build error <3andala> 37 minutes ago
+ 

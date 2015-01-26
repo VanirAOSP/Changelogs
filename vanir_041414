@@ -1,0 +1,126 @@
+
+**** https://github.com/VanirAOSP/bionic ****
+81770d1 : Make use of new memcpy, tweak settings Summary: MIME-Version: 1.0 Content-Type: text/plain; charset=UTF-8 Content-Transfer-Encoding: 8bit <Bernhard Rosenkränzer> 3 months ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+4f2c436 : omap4-common: cap batteryLevel at 100% <Michael Gernoth> 13 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_d710 ****
+93eb3e4 : Remove duplicate selinux permission to fix build <DHOMD> 52 minutes ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+04cd7c2 : Add Wifi Display Support to Galaxy Nexus (1/3) <burstlam> 3 months ago
+a388389 : audio: Fixed mBytesRemaining when partial buffers are sent <Pavan Chikkala> 9 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+b54988a : Fix Aapt so that duplicate package ID errors are not incorrectly reported. <Kyle Halbach> 9 weeks ago
+3d53c6b : NotificationsAlpha: runnableizing didn't alleviate occasional ANRs <nuclearmistake> 2 hours ago
+b030795 : This ain't no superclass method. <nuclearmistake> 3 hours ago
+c9df1a9 : de/re-derp lights-out animations WRT leftclock <nuclearmistake> 3 hours ago
+e2954af : PSB: ContentObservers are grown-ass men. they do what they want, and don't tell super about it. <nuclearmistake> 3 hours ago
+eb233c4 : Revert "Revert "Revert "Avoid duplication of AppWindowToken in created Task""" <nuclearmistake> 3 hours ago
+0a7d9cb : frameworks/base: Call setDirtyRect to update dirty rectangle <Jeykumar Sankaran> 5 weeks ago
+3dd5f56 : CM11 Themes: Take into account ALL res/xml dirs <Clark Scheff> 11 hours ago
+12b7ae1 : Move theme strings to cm_strings.xml <Michael Bestas> 12 hours ago
+7bd5eaa : Keyguard : Fix album art sticking after playback is stopped <Danesh Mondegarian> 25 hours ago
+ad75473 : Fix the value type of def_noise_suppression <Steve Kondik> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+fb7e786 : Fix aliasing violation in latest HWComposer <nuclearmistake> 2 hours ago
+300bc5e : ui: expose min framebuffer count variable <nuclearmistake> 3 days ago
+683a41a : SF: Add known programs to cache. <Omprakash Dhyade> 6 weeks ago
+f88fe15 : egl: Addition of eglGpuPerfHintQCOM <Ramkumar Radhakrishnan> 5 weeks ago
+57c4140 : frameworks/native: Propagate dirty region in hwc_layer <Jeykumar Sankaran> 9 weeks ago
+2aa1da5 : Revert swaprect feature for new upstream implementation. <Steve Kondik> 7 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_libhardware ****
+a1dd951 : libhardware: Add dirty region field to hwc layer <Jeykumar Sankaran> 9 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+4af189c : hal: Do not apply CSD voice switch API on 8960 <Ricardo Cerqueira> 4 hours ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display-caf-new ****
+d31fcbd : display: Add ifdefs for some optional features <Steve Kondik> 10 days ago
+daa35db : gralloc: Change loglevel of adreno_utils warning <Steve Kondik> 3 months ago
+7c0005e : Don't build lights module if vendor supplies it <Steve Kondik> 3 months ago
+b809c0d : display: Update paths to display-caf-new <Steve Kondik> 3 months ago
+dd8237a : hwc/overlay: Add support for pipe priorities, 1 pipe config for FB <Saurabh Shah> 6 weeks ago
+3d01d8d : gralloc: Perform func to return stride and height <Raj Kamal> 6 weeks ago
+34d33bc : gralloc: Add support for lock_ycbcr <Naseer Ahmed> 11 months ago
+4cff928 : HWC: Minor fix in 4k2kYUVsplit feature <Dileep Kumar Reddi> 2 weeks ago
+39240c9 : hwc: Add rotator obj to layer-rot-map if acquired <Saurabh Shah> 2 weeks ago
+42e5dde : gralloc: Set colorspace in the metadata <Naseer Ahmed> 2 weeks ago
+6c85f05 : libgralloc: use proper types and type casts <Arun Kumar K.R> 3 months ago
+d9443c7 : hwc: Use proper typecasts <Praveena Pachipulusu> 8 weeks ago
+0f59a5a : libvirtual: Fix logic to detect DRC use case <Tatenda Chipeperekwa> 3 weeks ago
+f69f135 : hwc: Fix for HDMI video playback out of boundary in portrait. <Ramkumar Radhakrishnan> 3 weeks ago
+3686b7e : hwc: set mModeOn flag for fbupdate properly <Ramkumar Radhakrishnan> 4 weeks ago
+8f1b9d7 : hwc: Extend pause/resume functionality to VDS displays <Tatenda Chipeperekwa> 9 weeks ago
+3e30832 : libqdutils: Update panel capabilities from sys node <Jeykumar Sankaran> 6 weeks ago
+d1fe207 : h/q/d: Invoke padding when DMA is not availble for ext rotator <Jeykumar Sankaran> 3 weeks ago
+a6f9187 : libgralloc: include <sys/ioctl.h> <Arun Kumar K.R> 4 weeks ago
+fb82291 : hwc: Set GPU performance hint. <Ramkumar Radhakrishnan> 4 weeks ago
+aef031c : copybit: Use proper type casts and pointers <Praveena Pachipulusu> 9 weeks ago
+fda00fc : hwc: Color layer always has zero transform. <Sushil Chauhan> 4 weeks ago
+3fdb2eb : hwc: Handle more events from driver <Naseer Ahmed> 5 weeks ago
+2e792f9 : h/q/d: Add utility function for 8x16 and read RGB scalar capability <radhakrishna> 5 weeks ago
+330a282 : display: Remove VPU related code <Naseer Ahmed> 6 weeks ago
+8cbbf7c : hqd: Restrict decimation when layer format is macro-tile <Manoj Kumar AVM> 5 weeks ago
+2ba2051 : libgralloc: Invoke adreno for ASTC format padding. <Jeykumar Sankaran> 7 weeks ago
+39e79bf : HWC: Use proper typecast to avoid scaling issues <Dileep Kumar Reddi> 6 weeks ago
+c28eb0b : h/q/d: Add support to update framebuffer partially <Jeykumar Sankaran> 7 weeks ago
+f080b79 : hqd: Adjust resolution based on aspect ratio <Tatenda Chipeperekwa> 6 weeks ago
+a7dd23c : hwc: Move aspect ratio helper function to qdutils <Tatenda Chipeperekwa> 6 weeks ago
+a61a0da : hwc: Disable Actionsafe for 8974 target and non-HDMI display. <Ramkumar Radhakrishnan> 6 weeks ago
+ab47c69 : hwc: Add support for SourceSplit <Saurabh Shah> 9 weeks ago
+f3529c3 : qdutils: make qdMetaData.h compatible with C <Shuzhen Wang> 3 months ago
+bf333c7 : hqd : Use proper type casts <Dileep Kumar Reddi> 7 weeks ago
+5d14c71 : hwc: Enable downscale feature through system property <Tatenda Chipeperekwa> 8 weeks ago
+c502c87 : gralloc: add GRALLOC_MODULE_PERFORM_GET_COLOR_SPACE_FROM_HANDLE <Shuzhen Wang> 3 months ago
+0d11348 : display: Add color space metadata field <Shuzhen Wang> 3 months ago
+be7bd32 : hwc: Iterative Load based comp <Saurabh Shah> 8 weeks ago
+8f470d8 : hwc : Skip panel reset sequence if panel is already off <Neti Ravi Kumar> 8 weeks ago
+80f36f2 : HWC/copybit: Add ceil value for downscale value <Ramakant Singh> 7 weeks ago
+5a5529b : hqd: Add support for 565 macro tile format <Manoj Kumar AVM> 7 weeks ago
+8ab3f5d : hwc: Fix external display position calculation <Ramkumar Radhakrishnan> 8 weeks ago
+0cba653 : hwc: Remove bandwidth checks <Saurabh Shah> 3 months ago
+1f6a821 : gralloc: Add GRALLOC_PRIVATE_USAGE_WFD flag <Manoj Kumar AVM> 8 weeks ago
+c2d78d8 : h/q/d: Optimize framebuffer layer update <Jeykumar Sankaran> 8 weeks ago
+b5cb26f : Revert "hwc: Add support to query max. supported WriteBack width" <Tatenda Chipeperekwa> 8 weeks ago
+c32563e : common: Do not link to ABL lib <Naseer Ahmed> 8 weeks ago
+92abb4f : qdutils: Refactor idletimeout fallback mechanism. <Ramkumar Radhakrishnan> 10 weeks ago
+7d6c4c0 : h/q/d: Rename property to enable partial update <Jeykumar Sankaran> 8 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_wlan ****
+518fbeb : Fix derpy ifdef <Steve Kondik> 18 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_google_msm ****
+a7e9448 : msm: cpufreq: Fix msm_cpufreq_get_freq() for sync CPUs <Junjie Wu> 9 weeks ago
+7752185 : cpufreq: cpu-boost: Re-issue boosts above minimum frequency <Patrick Cain> 5 weeks ago
+c07ba89 : cpufreq: interactive: Remove unnecessary cpu_online() check <Viresh Kumar> 11 months ago
+95efeb3 : cpufreq: interactive: Don't reset sampling down factor at max freq <Patrick Cain> 3 months ago
+8ffe605 : cpufreq: Sync on thread migration optimizations <Patrick Cain> 3 months ago
+d452192 : cpufreq: interactive: delete timers for GOV_START <Shridhar Rasal> 7 months ago
+c9c257a : cpufreq: ondemand: Remove unnecessary synchronization attempt <Srivatsa Vaddagiri> 5 months ago
+ 
+**** https://github.com/omnirom/android_packages_apps_OmniSwitch ****
+909089c : OmniSwitch: fixes for handling disabled apps <maxwen> 6 hours ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+9bdb32e : 2.1.14 <h0rn3t> 9 hours ago
+2902e12 : fixed some issues on multicore devices <h0rn3t> 9 hours ago
+e0303da : added support for /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels <h0rn3t> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+fcf981d : Changed "Wake on plug" description... <Brian Resnik> 3 days ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+fc218af : telephony: Disable MSIM settings if unavailable <Steve Kondik> 20 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_htc ****
+fb3e36a : m7-common: Update mpdecision <Ethan Chen> 5 days ago
+6a8148d : m7-common: Update thermald <Ethan Chen> 5 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_lge ****
+3aa67ae : g2: Update Adreno <Ricardo Cerqueira> 13 hours ago
+ 

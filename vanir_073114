@@ -1,0 +1,83 @@
+
+**** https://github.com/CyanogenMod/android_device_htc_jewel ****
+07ac106 : jewel: updates for new partition layout with emulated storage <CaptainThrowback> 5 months ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_mondrianwifi ****
+6beb5a9 : mondrianwifi: Switch to our power HAL <Christopher R. Palmer> 6 days ago
+fb308c5 : mondrianwifi: init: Disable interactive's io_is_busy <Christopher R. Palmer> 31 hours ago
+3f9bdf3 : mondrianwifi: Switch to our power HAL <Christopher R. Palmer> 6 days ago
+2e0957b : mondrianwifi: Add our own power HAL <Christopher R. Palmer> 6 days ago
+dad1d37 : mondrianwifi: init: Disable interactive's go_hispeed <Christopher R. Palmer> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_external_flac ****
+a05c01b : Upgrade to libFLAC 1.3.0 <Steve Kondik> 6 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+6ee95d8 : IMS: Add API to set create time for a Connection. <Muhammed Siju> 6 weeks ago
+c8a0f99 : IMS : Notifying CallModifyRequest Fail or sucess <Basudev Achary Konderpu> 8 weeks ago
+e33fd4c : Add ServiceStatus class for uniform capability handling <Shriram Ganesh> 5 months ago
+6af3410 : Change to return proper MNC in case of CSIM <Rakesh Pallerla> 3 months ago
+a71dd2b : Fix voicemail count issue. <Suchand Ghosh> 3 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+1882e80 : post_proc: Fix improper datatype of EQ preset band level value <wjiang> 12 days ago
+e63a342 : hal: Permit device switch for primary output in a voip call <Avinash Vaish> 5 weeks ago
+084799a : hal: Update EC support for HPF usecase <Ashish Jain> 4 months ago
+77c3a0d : hal: Add support for VoWLAN on MSM8974 <Vicky Sehrawat> 3 months ago
+f34350a : hal: Add support for VoWLAN feature <Vicky Sehrawat> 6 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_gps ****
+fcd92b0 : Get unbuildable loc_api module out of the way <Steve Kondik> 14 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_google_msm ****
+e5bf64b : ARM: 7759/1: decouple CPU offlining from reboot/shutdown <Stephen Warren> 1 year, 2 months ago
+aceb52a : ARM: Use TTBR1 instead of reserved context ID <Steve Kondik> 4 weeks ago
+0427b44 : ARM: 7408/1: cacheflush: return error to userspace when flushing syscall fails <Will Deacon> 2 years, 3 months ago
+bfc0345 : ARM: 7569/1: mm: uninitialized warning corrections <viresh kumar> 1 year, 9 months ago
+70f0da9 : ARM: 7953/1: mm: ensure TLB invalidation is complete before enabling MMU <Will Deacon> 6 months ago
+b8de061 : ARM: 7784/1: mm: ensure SMP alternates assemble to exactly 4 bytes with Thumb-2 <Will Deacon> 1 year, 1 month ago
+696eaff : ARM: 7691/1: mm: kill unused TLB_CAN_READ_FROM_L1_CACHE and use ALT_SMP instead <Will Deacon> 1 year, 4 months ago
+641fb8f : ARM: 7660/1: tlb: add branch predictor maintenance operations <Will Deacon> 1 year, 5 months ago
+647e818 : ARM: 7678/1: Work around faulty ISAR0 register in some Krait CPUs <Stepan Moskovchenko> 1 year, 4 months ago
+f6cce71 : ARM: fix scheduling while atomic warning in alignment handling code <Russell King> 1 year, 5 months ago
+1aabd77 : ARM: 7752/1: errata: LoUIS bit field in CLIDR register is incorrect <Jon Medhurst> 1 year, 2 months ago
+61a21fc : ARM: 7606/1: cache: flush to LoUU instead of LoUIS on uniprocessor CPUs <Will Deacon> 1 year, 7 months ago
+9e2bcda : ARM: mm: rename jump labels in v7_flush_dcache_all function <Lorenzo Pieralisi> 1 year, 10 months ago
+7d6887e : ARM: mm: implement LoUIS API for cache maintenance ops <Lorenzo Pieralisi> 1 year, 11 months ago
+748a40d : ARM: 7747/1: pcpu: ensure __my_cpu_offset cannot be re-ordered across barrier() <Will Deacon> 1 year, 2 months ago
+5bdb171 : ARM: 7587/1: implement optimized percpu variable access <Rob Herring> 1 year, 8 months ago
+1f1f0db : ARM: 7680/1: Detect support for SDIV/UDIV from ISAR0 register <Stephen Boyd> 1 year, 4 months ago
+d6f8599 : ARM: 7559/1: smp: switch away from the idmap before updating init_mm.mm_count <Will Deacon> 1 year, 9 months ago
+1c9150b : lib: cpu_rmap: avoid flushing all workqueues <David Decotigny> 1 year, 7 months ago
+f1154d1 : ARM: gic: use a private mapping for CPU target interfaces <Nicolas Pitre> 2 years, 4 months ago
+c04613e : ARM: 7573/1: idmap: use flush_cache_louis() and flush TLBs only when necessary <Nicolas Pitre> 1 year, 9 months ago
+a7de555 : ARM: 7542/1: mm: fix cache LoUIS API for xscale and feroceon <Lorenzo Pieralisi> 1 year, 10 months ago
+1d4f474 : ARM: mm: update __v7_setup() to the new LoUIS cache maintenance API <Santosh Shilimkar> 1 year, 11 months ago
+583c133 : ARM: kernel: update __cpu_disable to use cache LoUIS maintenance API <Lorenzo Pieralisi> 1 year, 11 months ago
+c62d92d : ARM: cpu hotplug: remove majority of cache flushing from platforms <Russell King> 1 year, 3 months ago
+a0e2921 : msm: hotplug: Block hotplug removal of CPU0 <Matt Wagantall> 8 months ago
+e664074 : ARM: smp: flush L1 cache in cpu_die() <Russell King> 1 year, 3 months ago
+9350661 : ARM: Don't dump vmalloc addresses with show_data() <Matt Wagantall> 4 months ago
+1a9a810 : rcu: Add RCU_FAST_NO_HZ tracing for idle exit <Paul E. McKenney> 2 years, 5 months ago
+6d7a27b : rcu: Add a module parameter to force use of expedited RCU primitives <Antti P Miettinen> 1 year, 10 months ago
+aad5efb : [backport] sched_rt: Upstream fixes <Kirill Tkhai> 2 years, 4 months ago
+09c02fe : [backport] sched: Misc upstream scheduler improvements <Peter Zijlstra> 2 years, 3 months ago
+c535f34 : [backport]: sched: Load-based CPU boosting <Srivatsa Vaddagiri> 2 years, 1 month ago
+8279fcb : sched: Remove get_online_cpus() usage <Kaushal Kumar> 3 months ago
+cf015f4 : Revert "Revert "sched: add sysctl for controlling task migrations on wake"" <Steve Kondik> 19 hours ago
+13312f9 : Revert "Revert "sched: add PF_WAKE_UP_IDLE"" <Steve Kondik> 19 hours ago
+3c43da8 : tracing/sched: Track per-cpu rt and non-rt cpu_load. <Arun Bharadwaj> 1 year, 1 month ago
+0d530d2 : kthread: Fix the race condition when kthread is parked <Subbaraman Narayanamurthy> 6 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_omap4-common ****
+e134042 : Revert "Revert "Merge omapzoom-changes into drivers/video/omap2/dss/dispc.c"" <Michael Gernoth> 4 days ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+e663280 : ... <h0rn3t> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+948b128 : IMS: Only enable IMS calls if IMS service status shows enabled <Ethan Chen> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_asus ****
+6063bd8 : flo: Update blobs <Steve Kondik> 14 hours ago
+ 

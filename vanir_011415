@@ -1,0 +1,242 @@
+
+**** https://github.com/VanirAOSP/build ****
+8c3cc49 : bottleservice: status msgs to stderr <nuclearmistake> 14 hours ago
+1afffe8 : build: Only set capabilities if provided <Tom Marshall> 4 weeks ago
+792e1ed : fixup new backuptool layout <nuclearmistake> 15 hours ago
+84a9a20 : build: ota: Support for install tools in /tmp/install <Tom Marshall> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_asus_flo ****
+ccb45a9 : Remove obsolete dalvik.gc.type-precise <Brian Carlstrom> 9 days ago
+b2a2813 : Cleanup Obsolete LOCAL_PRELINK_MODULE. <Ying Wang> 4 weeks ago
+0b67ba6 : Suppress benign clang warning, <Chih-Hung Hsieh> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7-common ****
+1a028e1 : m7-common: Reduce SELinux permissiveness <Ethan Chen> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_d802 ****
+27ace39 : Revert "[6/7] Move NfcNci to g2-common" Not used in ls980 <sudosurootdev> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+c301a73 : nfc: Remove hce access as it never worked and now causes linker errors for nxp devices <Seth Shelnutt> 8 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g3-common ****
+e2d2101 : sepolicy: give radio access to tap2wake node <Dan Pasanen> 6 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_p880 ****
+bbebb7a : P880:Lollipop:Bringup(continue) Gpio keys as default input config Edit remaining board flags for L Overlay tweaks for Colorfade animation issue. <demetris> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_vs980 ****
+a1be07a : Leave numeric operator & homesystem as they were, builds are working fine with data working, no roaming issue, & I'm tired of messing with it. Changing again will require user to reset thier APN... DONE! <sudosurootdev> 22 hours ago
+8f0cdb7 : Final verizon change, Raoming Issue alreay fixed, but this fixes issue with mobile data. <sudosurootdev> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_moto_shamu ****
+35941b1 : Revert "okgoogle: replace prebuilt apks with deodexed versions off of stock 5.0.1" <nuclearmistake> 12 hours ago
+0c16fac : We're using franco's source... replace shamu_defconfig with franco_defconfig <nuclearmistake> 13 hours ago
+a5fd757 : okgoogle: be sure to build soundtrigger libs <nuclearmistake> 13 hours ago
+37e3cf3 : okgoogle: replace prebuilt apks with deodexed versions off of stock 5.0.1 <nuclearmistake> 13 hours ago
+2267291 : Use francokernel <CPA-Poke> 7 days ago
+7b17d8c : shamu: Add double-tap to wake option <Steve Kondik> 10 days ago
+f232f91 : Update ramdisk <CPA-Poke> 7 days ago
+766c0ed : add the missing permission for google now listening everywhere <sykopompos> 11 days ago
+626995f : that was a nasty little bug that no one caught and I just randomly caught it myself. the cpu freq is getting lost in the wrong contexts causing selinux to not be able to access it causing slow down in games <sykopompos> 4 days ago
+8630bb8 : Add shamu-specific service_manager access. <dcashman> 4 weeks ago
+2ca7292 : Add SELinux Policy for RILD to access FSG partition <Wenlong Che> 8 weeks ago
+1bd3033 : shamu: Allow rild to parse through procfs <Naveen Ramaraj> 9 weeks ago
+6d985f2 : overlay: Correct VZW overlay format so it applies correctly <CPA-Poke> 3 days ago
+33fc7b1 : Add missing OK Google Everywhere pieces <CPA-Poke> 4 days ago
+ 
+**** https://github.com/VanirAOSP/motorola_msm8226-common ****
+4fa18fa : msm8226-common: sepolicy: remove mm-pp-daemon <Konsta> 10 hours ago
+63d9f46 : msm8226-common: Update proprietary libs for lollipop <Ethan Chen> 2 days ago
+553c0c2 : msm8226-common: Remove unused services, proprietary files <Ethan Chen> 2 days ago
+7422774 : msm8226-common: Clean up device repo <Ethan Chen> 4 days ago
+b6c569b : msm8226-common: Address mpdecision denials <Ethan Chen> 5 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+2d5c382 : Revert "motoOmap4RIL: don't return an exception in setDataAllowed" <Michael Gernoth> 6 hours ago
+583f1dc : BoardConfig: remove unused RECOVERY_CANT_USE_CONFIG_EXT4_FS_XATTR <Michael Gernoth> 15 hours ago
+75611a9 : releasetool: sync with base <Michael Gernoth> 15 hours ago
+86ba237 : sepolicy: more updates for {,umts_}spyder <Michael Gernoth> 27 hours ago
+18807ca : ak8975fs: Fall back to proprietary blob if device can't be opened <Michael Gernoth> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_qcom-common ****
+8666ae8 : proprietary-files: Remove unused script and refuse <dhacker29> 21 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+a060186 : init: Move qseecomd out of late_start <Ricardo Cerqueira> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/device_qcom_common ****
+74e08ca : cryptfs_hw: Add support for get_hwfde_status routine <AnilKumar Chimata> 4 weeks ago
+fc2646f : cryptfs_hw: Fix for aarch64 <Ricardo Cerqueira> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_qcom_sepolicy ****
+6cd495b : netd: Fix creation of hostapd sockets dir <Ricardo Cerqueira> 8 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_hlte-common ****
+ab35081 : Revert "Revert "hlte: add SM-N900S/K dts files to dt.img generation"" <Shareef Ali> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jf-common ****
+21d0933 : jf: use REAL gpe system partition size <Dan Pasanen> 35 hours ago
+ 
+**** https://github.com/Ziyann/android_device_samsung_tuna
+origin	git@github.com:VanirAOSP/NEW_device_samsung_tuna.git
+vanir	https://github.com/VanirAOSP/device_samsung_tuna ****
+eda60f6 : [FIX] Check if component private data exists before using <Vidhoon Viswanathan> 2 years, 6 months ago
+0222d24 : Revert "tuna: disable fRom for now" <Ziyan> 16 hours ago
+14406c1 : tuna: domx: remove backup files <Ziyan> 27 hours ago
+cd10b80 : tuna: remove redundant egl.cfg symlink <Ziyan> 35 hours ago
+871b188 : tuna: dumpstate: dump mmc0 properties <Ziyan> 3 days ago
+94a59e0 : tuna: update storage_list.xml <Ziyan> 3 days ago
+5223fa5 : tuna: remove obsolete stuff <Ziyan> 3 days ago
+04302ba : hwc: Disable eglSwapBuffers() in HWC 1.1+ <Mykola Ostrovskyy> 2 years, 1 month ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_blue-common ****
+5f2241d : blue-common: use COMMON_PATH <Daniel Hillenbrand> 10 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_msm8960-common ****
+3b08112 : msm8960-common: map QCOM HSPAP_DC to HSPAP <Daniel Hillenbrand> 8 hours ago
+ 
+**** https://github.com/CyanogenMod/android_external_vim ****
+71a51b1 : vim: Tone down FORTIFY_SOURCE for 64 bits <Diogo Ferreira> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+7083256 : fix memory leak in PatchPanel <soon1.choi> 10 days ago
+20a096d : Fix wrong int argument of FOURCC. <Chih-Hung Hsieh> 5 weeks ago
+1c9182f : Don't signal an error at the end of a short file <Marco Nelissen> 3 months ago
+5d6eb16 : Stagefright: Fix unused variables, functions, values <Andreas Gampe> 7 weeks ago
+506f4d1 : Cast int64_t values to long long before print. <Bernhard Rosenkränzer> 7 weeks ago
+9350982 : libstagefright: Handle EOS for audio in A/V clips <Manikanta Kanamarlapudi> 3 weeks ago
+937f22c : audio : Fixed usage of QTI_FLAC_DECODER <Divya Narayanan Poojary> 4 weeks ago
+991bf3d : audio: execute setVoiceVolume for USB device during inCall usecase <Divya Narayanan Poojary> 3 weeks ago
+58f016d : Revert "Track volume should be maintained even if track is restored" <Steve Kondik> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+9541f27 : su: Add an indicator when a 'su' session is active <Diogo Ferreira> 4 weeks ago
+3c081ac : appops: Disassociate appops requests from notification broadcasts <Diogo Ferreira> 19 hours ago
+fa9580d : ConnectionSettings: Add 4g as connection options for profiles (1/2) <Adnan> 6 months ago
+283fb54 : SystemUI: Create expandable volume panel. <Adnan Begovic> 6 days ago
+20af04c : Implement linked volumes and add upgrade path. <Adnan Begovic> 1 year, 2 months ago
+7c3472d : Allow granting permissions based on signature in <allow-permission/> <Clark Scheff> 4 months ago
+2e68cb6 : ProcessList: Handle invalid state when computing next PSS Time <Uday Kiran jandhyala> 7 weeks ago
+8ec5d18 : Update RemoteController on Session update <Ayan Ghosh> 5 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_ti_wlan ****
+19e6205 : nl80211: Add unhandled attributes from wpa_supplicant <Thomas Wendt> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_msm8974 ****
+a92fabb : More tweak'ns. <varchild> 24 hours ago
+1d088ba : herp derp <varchild> 25 hours ago
+11c415b : work already <varchild> 26 hours ago
+1e65e4d : Remove the molasses and bring back ondemand-for now <varchild> 27 hours ago
+ab50945 : DRIVERS: SLIMBUS: some more tweaks, which is double what we had before. According to some documents this is what we want for optimium audio quality <poondog> 8 months ago
+adf6b5c6 : sound control fix permission <JTrefzger> 2 days ago
+9c5f8d5 : sched/cpuidle: reduce IPI storm. Backport upstream 3.16 scheduler updates <Paul Reioux> 7 months ago
+9d82f40 : Sound Control: add line gain to cached and register lock <Paul Reioux> 4 months ago
+24f6695 : Sound Control: separate locking mechanism for recording and playback <Paul Reioux> 6 months ago
+39343d7 : Sound Control: let register lock be dependent on different hw revisions <Paul Reioux> 6 months ago
+b2b79cf : Sound Control: Misc clean up for newer WCD9xxx SOCs <Paul Reioux> 6 months ago
+4437d59 : Sound Control: expose direct register manipulations to userspace <Paul Reioux> 6 months ago
+39fc804 : Sound Control 3.x: adaptation for HTC One (M8) <Paul Reioux> 9 months ago
+ed00c59 : sound control: add register cache <Paul Reioux> 1 year, 2 months ago
+738e4fc : Sound Control: (OPTIONAL) add power amp registers access control as well <Paul Reioux> 1 year, 2 months ago
+8a367bd : Sound Control: (Optional) work around for Nexus 4/5 audio issues <Paul Reioux> 1 year, 2 months ago
+bb5cde5 : sound control: WCD9320: update speaker gain control for Z1 <Paul Reioux> 1 year, 4 months ago
+d4c00ea : sound control 3.x: Initial GPL release for WCD9320 Audio Codec <Paul Reioux> 1 year, 4 months ago
+db1c2f2 : Sound Control: WCD9320: expose additional controls <Paul Reioux> 1 year, 2 months ago
+4bf74dc : BACON and RAGINGMOLASSES because.... REASONS! <varchild> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+a30016c : ASoC: wcd9320: set gain after IIR clock is enabled <SoumyaManagoli> 5 weeks ago
+85d35f7 : qseecom: Save appname in qseecom when loading app by kernel client <Zhen Kong> 3 months ago
+5a32a79 : arm: arch_timer: add arch_counter_set_user_access <Mark Rutland> 2 years, 2 months ago
+4460181 : msm: smd: Register SMD & SMSM IRQs with IRQF_NO_SUSPEND flag <Arun Kumar Neelakantam> 4 weeks ago
+a3fa3d1 : usb: dwc3: gadget: Ignore L1 RESUME events <Vijayavardhan Vennapusa> 6 weeks ago
+80cce7b : Revert "Revert "ARM: dts: msm: Add support for second qcrypto device for 8974"" <Steve Kondik> 34 hours ago
+5505e0b : ARM: dts: bacon: Reduce Sharp panel on delay <Ethan Chen> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+aa5d743 : msm: vidc: add new control for limiting i/p buffer size <Manikanta Sivapala> 6 months ago
+7ccbb6d : msm: vidc: Add instance to instance list prior to CORE_INIT <Srinu Gorle> 7 months ago
+92b647e : msm: vidc: Change in input buffer size calculation <Praneeth Paladugu> 1 year, 4 months ago
+cfed34b :  hlte fix mismerge <Shareef Ali> 20 hours ago
+361bc17 : msm: vidc: Handle max clients error from video hardware <Maheshwar Ajja> 9 months ago
+8d6aa38 : msm: vidc: Handle hfi session creation failures properly <Deva Ramasubramanian> 11 months ago
+9e434fe : msm: vidc: Fix race condition in power collapse sequence <Maheshwar Ajja> 2 months ago
+6fd1eae : msm: vidc: Refactor OCMEM alloc, set, unset and free <Shalaj Jain> 4 months ago
+a328b2a : msm: vidc: Enable clocks before iommu attach <Maheshwar Ajja> 4 months ago
+d59a90f : msm: vidc: Increase firmware unload delay <Maheshwar Ajja> 5 months ago
+7f246d3 : msm: vidc: Unload firmware immediately after sys error <Maheshwar Ajja> 5 months ago
+e00da9b : msm: vidc: Increase max buffers to VB2_MAX_FRAME (i.e. 64) <Deva Ramasubramanian> 6 months ago
+a4a2183 : msm: vidc: Bug fix in instance clean-up <Praneeth Paladugu> 1 year, 4 months ago
+2f1b012 : msm: vidc: Delay firmware unload during session close <Maheshwar Ajja> 7 months ago
+45c340a : msm: vidc: handle dynamic buffers in pendingq during flush <Arun Menon> 7 months ago
+f1d88bb : msm: vidc: flush queued work during device suspend <Vikash Garodia> 8 months ago
+b4940c7 : defconfig: switch to LZMA <arter97> 22 hours ago
+bde5af6 : msm: vidc: change concealment color <Manikanta Sivapala> 7 months ago
+e946866 : msm: vidc: avoid setting smoothstreaming for Q6 <Vikash Garodia> 7 months ago
+b947f72 : msm-vidc: Modify HFI not to alter VP8 max supported width <Manikanta Sivapala> 7 months ago
+4975742 : msm-vidc: Modify Q6 HFI not to alter VP8 max supported width <Ravi Kiran Vonteddu> 7 months ago
+421d7ff : msm: vidc: Print out the proper height and width in debugfs <Deva Ramasubramanian> 1 year, 3 months ago
+558b590 : v4l2: vb2: replace VIDEO_MAX_FRAME with VB2_MAX_FRAME <Balamurugan Alagarsamy> 5 months ago
+d99adf7 : hlte: fix mismerge of LA.BF.1.1.1_rb1.1 <Shareef Ali> 25 hours ago
+6b42d03 : slim_ngd: Ensure device state consistency with runtime-pm during SSR <Sagar Dharia> 2 months ago
+e3a1d3a : slim_ngd: Use DSP before-shutdown notification for DSP SSR <Sagar Dharia> 3 months ago
+5c7c871 : ngd_slim: Ignore pm_runtime_get error when runtime-pm is not enabled <Sagar Dharia> 4 months ago
+82e5a95 : slim_msm: support non-blocking writes from slimbus MSM controller <Sagar Dharia> 10 months ago
+374fda3 : [media] Revert "[media] v4l2: vb2: one more fix for REQBUFS()" <Marek Szyprowski> 3 years, 7 months ago
+50c6da6 : videobuf2-core: Avoid locking userpages if no current->mm <Deva Ramasubramanian> 11 months ago
+346b729 : Revert "[media] videobuf2-core: Use current->mm_active when locking USERPTR" <Deva Ramasubramanian> 11 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+6f07eb7 : Rhine: suppress mice emulation <david> 7 hours ago
+b6b023a : msm: camera: Fix Sony Rhine clocks <Chirayu Desai> 3 days ago
+f257c2b : msm: camera: Removed unused sensor files <Chirayu Desai> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+6ed25d1 : Use CM cts repo instead of AOSP <Scott Mertz> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+ff61bbf : Retain keyboard layout and expression formatting for base when switching from portrait to landscape <emancebo> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+a8ad225 : Fix picking music for alarms not working <linus_lee> 28 hours ago
+6eeeab6 : Do not disable alarm list when adding new alarm <emancebo> 6 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+ba26c2b : Port "filter by date range" from call stats page to call log <emancebo> 6 hours ago
+fbb4f13 : Revert "Dialer: support "add to black/white list" in call detail" <Michael Bestas> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Email ****
+16d4624 : Don't fetch deleted messages from IMAP folder <Daniel Volk> 11 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+b14bd69 : Fix the build <camcory> 2 hours ago
+5d15220 : QuickMessage: bring back mark as read <DvTonder> 10 days ago
+a417d17 : mms: markAllAsUnread is never called <Jorge Ruesga> 6 months ago
+939f203 : Implement SMS mark for unread (Cyan-348) <Vladimir Vainer> 1 year, 2 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+106d487 : Profiles: Add 4g as connection options for profiles (2/2) <Adnan> 6 months ago
+6198b0a : Settings: Create unlinked and linked notification & ring volume options. <Adnan Begovic> 6 days ago
+7920296 : System Profiles: Do not allow user to delete active profile <Raj Yengisetty> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+a6c4e12 : Port network mode toggle from CM11 <Pawit Pornkitprasan> 2 years, 11 months ago
+7549afa : MSIM: Replace the "SUB" string <Marcos Marado> 8 hours ago
+2ea4109 : BugFix: importing the SwitchPreference class <Marcos Marado> 9 hours ago
+66b20a3 : Change string "Cellular" to "Mobile" <Marcos Marado> 9 hours ago
+52b9ec7 : Add compatibility code with mainline's configuration options for unlock <Ricardo Cerqueira> 1 year, 3 months ago
+0feb80d : TeleService: switches for checkboxes <eyosen> 6 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_motorola ****
+4f23c64 : qcom-common: remove unneeded script and refuse binary <dhacker29> 20 hours ago
+2cfacd1 : msm8226-common: Update radio/QMI/GPS proprietary libraries <Bharat Gogineni> 2 days ago
+ebb7489 : msm8226-common: Remove unused proprietary files <Ethan Chen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+65e3296 : tf701: a unicorn? <nuclearmistake> 13 hours ago
+1c1905a : NICKI: now with makefies that ^;#@ing exist <nuclearmistake> 13 hours ago
+e3a231f : ZOMG @DHO COPY PASTA ZOMG :-P <nuclearmistake> 14 hours ago
+1056a75 : sepolicy: new label for io scheduler sysfs nodes <Dan Pasanen> 9 days ago
+2114f3f : cm: Put install tools in OUT/install <Tom Marshall> 5 weeks ago
+ 

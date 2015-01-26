@@ -1,0 +1,72 @@
+
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+56827c6 : Fix overlay inclusion on MSM <Ricardo Cerqueira> 6 hours ago
+6501cd9 : recovery: Fix compilation for non MSM target <Pawan Kumar> 6 weeks ago
+ad6c7e2 : recovery: Add support for split display <Pawan Kumar> 9 weeks ago
+fa2288a : recovery: add overlay interface for recovery mode <Radhika Ranjan Soni> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_development ****
+0c0ea97 : Allow importing of settings into eclipse <Flamefire> 9 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_jewel ****
+e0ae596 : jewel: move multiple ring prop to msm8960 <Ethan Chen> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7-common ****
+8fe5a83 : m7-common: switch back to ondemand <Ethan Chen> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_m7spr ****
+204ffe1 : m7spr: move multiple ring prop to msm8960 <Ethan Chen> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_msm8960-common ****
+be8a985 : msm8960: set multiple ring prop <Ethan Chen> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+5d30d45 : Fix USB tethering <arcardinal> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2-common ****
+fdbe1e1 : d2-common: update ueventd.qcom.rc <Dave Daynard> 4 days ago
+92f3382 : d2-common: re-add hdmi permissions I removed <Dave Daynard> 4 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+8063bbb : Fixed cancel() not working correctly <jl1990> 6 months ago
+0d7cf02 : Lockscreen Notifications: try to fix occasionally SystemUI FC on boot <David96> 4 days ago
+81647ad : active display fixes fix navbar ghost issues fix some screen turning off issues only add mactivedisplayview if it's null stuff remove AM/PM as a preference <PrimeDirective> 2 days ago
+b4bb1d2 : lockscreen notifications: readd wake on notification <PrimeDirective> 2 days ago
+98126d3 : Lockscreen Notifications: Custom background color [1/2] <David96> 5 days ago
+4f76187 : Lockscreen Notifications: fix show/hide of show all button <David96> 6 days ago
+99002c4 : Lockscreen Notifications: dismiss all button, improve animations, cleanup <David96> 6 days ago
+91c98c5 : Revert "Frameworks AppOps: fix allow/reject counting" <nuclearmistake> 19 hours ago
+2a81a23 : Frameworks AppOps: fix allow/reject counting <Sam Mortimer> 21 hours ago
+45e413c : SystemUI: remove unused translations <Eddy Witkamp> 2 days ago
+5a3c6b0 : storage: Don't list removed volumes in storage list <Steve Kondik> 2 days ago
+7e872b7 : Modify alarm tile to show alarms when clicked <Robert Burns> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_wlan ****
+9063d89 : wcnss-service: Preseve old behavior as default <dhacker29> 9 days ago
+bd9128e : wlan: Use wcnss driver's control interface <Sameer Thalappil> 7 weeks ago
+55cb3d8 : wcnss: Add support to copy WLAN config file <Sameer Thalappil> 4 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8960 ****
+e75b9c0 : input: ewtzmu2: Fix gyro off status checks <Erwin Mascher> 25 hours ago
+ 
+**** https://github.com/P880-dev/android_kernel_lge_x3 ****
+7c44fb7 : gpio_keys: Remove triplicate reporting of wakeups... Wake keys were being triggered 3 times on wake, causing a ON/OFF/ON sequence: The key itself, once when disabling irqwake, and then once more as a gpio event. If one of the events was lost for some reason (like debouncing pauses), we'd end up with "ON/OFF", and the device wouldn't actually turn on. Get rid of the 2 superfluous reports. <Ricardo Cerqueira> 3 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Gallery2 ****
+7b9a79f : gallery: change typo '&&' to '||' <Leavitt Zhang> 10 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+4995e00 : logging toggling <PrimeDirective> 9 days ago
+4524691 : fixes to active notifications <PrimeDirective> 2 days ago
+c3796e7 : lockscreen notifications: port notification color background <PrimeDirective> 2 days ago
+6d60a88 : lockscreen notifications: readd wake on notification <PrimeDirective> 2 days ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+e092602 : sdcard: Respect check_caller_access_to_name on readdir() calls <Ricardo Cerqueira> 2 days ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+301d69c : vendor: add OmniSwitch <Dan Trifan> 4 hours ago
+f0425ee : multi-carrier overlays: Add eri and config for US Cellular <dhacker29> 2 days ago
+c4f519b : cm: New ultimate revolutionary feature of revolution! <Steve Kondik> 2 days ago
+ 

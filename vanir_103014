@@ -1,0 +1,151 @@
+
+**** https://github.com/VanirAOSP/build ****
+13602a3 : PKG needed for change: http://gerrit.vanir.co:8080/875 <sudosurootdev> 29 hours ago
+665cd00 : Fix Java detection on some Linux distributions <Bernhard Rosenkraenzer> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m4 ****
+d94a8bc : m4: camera: Update HAL API versions and fix warnings <Arne Coucheron> 27 hours ago
+4020ffc : m4: Mask the exec bit on firmware partitions <Jurica Vukadin> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7-common ****
+dbabd3b : m7-common: Update HAL API versions and fix warnings <Arne Coucheron> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+df24d40 : hammerhead: Update IPC router security configuration <myfluxi> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/motorola_msm8226-common ****
+13ad63d : msm8226-common: Remove unnecessary legacy data bind mount <Ethan Chen> 19 hours ago
+40b8f9e : Setup overlay for single-color notification LED. <Cody Ferber> 2 months ago
+ 
+**** https://github.com/VanirAOSP/device_oneplus_bacon ****
+674f4d4 : bacon: Update NFC configuration <Steve Kondik> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/device_qcom_common ****
+3bcff47 : power: Initial powerhal for 8939 <Steve Kondik> 7 hours ago
+9c1e3d3 : init_msm: Add usergroup permission to dynamic_fps node. <Arun Kumar K.R> 9 weeks ago
+2e65c97 : power: Various updates to Power HAL <Steve Kondik> 9 hours ago
+284b288 : power: add sched boost enum. <Pracheer> 4 months ago
+8814b80 : common: add CPU max cores online enums <Vince Leung> 8 months ago
+e8cf19d : common: add CPU max freq enums <Vince Leung> 8 months ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_klte ****
+a288903 : klte: Fix formatting <Matt Filetto> 5 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+205da93 : klte-common: Increase gain for mixer path "vr-main-mic" <Matt Filetto> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_mondrianwifi ****
+7344812 : mondrianwifi: overlay: Allow physical keyboards <Christopher R. Palmer> 3 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_nicki ****
+dfb7016 : nicki: Add Widevine blobs <RonGokhale> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_rhine-common ****
+2205021 : rhine: update header <Giulio Cervera> 22 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_shinano-common ****
+597d321 : shinano: update header <Giulio Cervera> 22 hours ago
+ 
+**** https://github.com/CyanogenMod/android_external_libnfc-nci ****
+d5fd4d4 : Adding API for NXP specific NCI command <Jizhou Liao> 5 months ago
+ 
+**** https://github.com/VanirAOSP/external_sepolicy ****
+1400258 : sepolicy: Fix a few denials when debugging <Stephen Smalley> 2 years, 3 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+dee891c : stagefright: Avoid querying time from AudioPlayer after audio EOS <Jia Meng> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+1a2d2dc : perf: Send boost hint during initial launch <Steve Kondik> 19 hours ago
+9aaaecf : reconcile RemoteDisplayTile w/ cm <nuclearmistake> 27 hours ago
+b9cede5 : Use actual storage type for format message strings <Oliver Middleton> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_telephony-msim ****
+dadbef4 : Update phoneSubInfo properly <Chaitanya Saggurthi> 4 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+a69ecd3 : hal: Fix mismerge <Steve Kondik> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display-caf-new ****
+560e897 : Add support to set dynamic fps <Raj Kamal> 7 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media-caf-new ****
+060fc1d : mm-video: vidc: Avoid setting invalid timestamp of eos NAL <Balamurugan Alagarsamy> 5 weeks ago
+8a08a87 : mm-video: vdec: Get updated resolution along with output buffers <Maheshwar Ajja> 3 months ago
+3d4a541 : mm_video: vidc: Update buffer geometry with stride and scanline <Pushkaraj Patil> 4 months ago
+d7b6e5f : mm-video: vdec: Correct video driver's crop parameters handling <Maheshwar Ajja> 4 months ago
+260399f : Revert "mm-video-v4l2: Update video resolution when updating crop" <Maheshwar Ajja> 4 months ago
+42981ed : venc: Set max supported AVC level to OMX_VIDEO_AVCLevel42 on 8916 <Steve Kondik> 2 days ago
+ 
+**** https://github.com/jimsth/vanir_hammerhead ****
+2e69d8a : hammerhead: lcd_kcal: remove control bit <Lorenzo M> 4 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+a1a9176 : synaptics_dsx: Fix manual fw updates <Ricardo Cerqueira> 49 minutes ago
+49016f9 : msm: kgsl: Wake up GPU only for touch events <Ananta Kishore K> 6 days ago
+9bff3d8 : slim_msm: support non-blocking writes from slimbus MSM controller <Sagar Dharia> 7 months ago
+696048d : ngd_slim: Ignore pm_runtime_get error when runtime-pm is not enabled <Sagar Dharia> 6 weeks ago
+ef6225d : slim_msm: Handle ADSP SSR gracefully for apps-owned data channels <Sagar Dharia> 3 months ago
+6b9a3c6 : slimbus: Cleanup dev_list when device is removed <Naveen Kaje> 8 weeks ago
+60fb15d : ASoC: wcd9320: Fix DAPM timeout when accesing MAD calibration (FIX) <Steve Kondik> 4 days ago
+4b42c25 : ASoC: wcd9xxx: modify sequence post SSR <Aravind Kumar> 6 weeks ago
+daca0c1 : ASoC: wcd9xxx: Notify mbhc when TX1/IN1 path is enabled <Phani Kumar Uppalapati> 11 months ago
+230cbaa : msm: vidc: Send resolution along with output buffer <Maheshwar Ajja> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+a59fe03 : msm: vidc: Send resolution along with output buffer <Maheshwar Ajja> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_mondrianwifi ****
+516efaf : msm: vidc: Don't free OCMEM when there is an open video instance <Sultanxda> 8 weeks ago
+c49541b : msm: vidc: Send resolution along with output buffer <Maheshwar Ajja> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_apq8064 ****
+561cc06 : ASoC: msm: Flexible period size for pcm playback <Mekala Natarajan> 1 year, 7 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+75c4487 : msm: vidc: Send resolution along with output buffer <Maheshwar Ajja> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974pro ****
+4ad512d : msm: vidc: Send resolution along with output buffer <Maheshwar Ajja> 3 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+f19adb5 : Revert "camera: add support for samsung and htc camcorder modes" <Michael Bestas> 3 weeks ago
+0e79bb6 : Camera2: Remove CAF video duration code <Michael Bestas> 6 days ago
+4287797 : Camera: Don't enable shutterdown for count down timer <Suman Mukherjee> 8 months ago
+9dc82ab : Camera: Decrease downsample factor for smaller resolution <Suman Mukherjee> 6 months ago
+faca259 : Camera2: enable WNR in video mode <Likai Ding> 5 months ago
+043d219 : Camera: cancel auto focus after snapshot done if in CAF mode. <Kerong Sui> 8 months ago
+d5a5b7a : Camera2: enable antibanding when dis is enable <Gaoxiang Chen> 7 months ago
+fd45a63 : Camera2: fix sawtooth in camera preview <Likai Ding> 8 weeks ago
+4fff272 : Camera2: Make menu not pop up in take picture interface <kaiyiz> 5 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Contacts ****
+e675a5d : Contacts: fix clicking on contact list item action with multi sim <Roman Birg> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+6a2f008 : Dialer: fix last call card not initiating dial on click for multi sim <Roman Birg> 19 hours ago
+9e5bc66 : Dialer: do not assume which subscription to use in call detail header <Roman Birg> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Nfc ****
+38be878 : Adding MiFARE DESFire format support <Jizhou Liao> 5 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+b0bafae : Settings: Fix Profile Ringermode not correctly applied when you choose normal This is due to the missinterpretation of normal as noaction. I added now a new item noaction for that and then normal is applied as intended <MartinRo> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_providers_DownloadProvider ****
+97086b2 : DownloadProvider: fix secondary storage support <James Sullins> 8 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+044d433 : Telephony: Fix NPE while opening allowed number. <solk2> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_htc ****
+7bdb8b9 : m4: Fix keymaster blobs path <Jurica Vukadin> 26 hours ago
+0cf814e : m4: Add keymaster firmware images <Jurica Vukadin> 3 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+34dd23f : klte-common: Update Adreno drivers. <Matt Filetto> 3 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+06c97c1 : shinano: Use AOSP wifi firmware <Chirayu Desai> 2 days ago
+468e790 : nicki: Add Widevine blobs <RonGokhale> 2 weeks ago
+ 

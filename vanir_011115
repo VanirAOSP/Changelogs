@@ -1,0 +1,236 @@
+
+**** https://github.com/VanirAOSP/bootable_recovery ****
+1585db4 : minui: graphics_fbdev: Fix BGRA panels regardless of depth <Ricardo Cerqueira> 27 hours ago
+6541d94 : recovery: Use ro.product.device instead of ro.build.product <Ethan Chen> 35 hours ago
+46752b5 : sr: Allow mounting of F2FS volumes <Ethan Chen> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/bootable_recovery_TWRP ****
+f66324f : Fix restore of images for mtd and bml nand <Ethan Yonker> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/build ****
+87ead6b : include raw build.prop in blkimgdiff output - because our ota tool has a REALLY dumb backend :-D <nuclearmistake> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_dlx ****
+26eef27 : dlx: add usb charging mode <Matt Mower> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7-common ****
+8d452ef : m7-common: Adjust selinux permissions for akmd <Matt Mower> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+d279f11 : Revert "Temp: Disable AUDIO_FEATURE_ENABLED_HWDEP_CAL" <DHOMD> 7 hours ago
+a60979c : m8: add usb charging mode <Dan Pasanen> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_s4-common ****
+816be5a : s4-common: Adjust selinux permissions for akmd <Matt Mower> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_d800 ****
+785141d : [4/7] Move NfcNci to g2-common <sudosurootdev> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_d801 ****
+6a84578 : [5/7] Move NfcNci to g2-common <sudosurootdev> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_d802 ****
+a3bb182 : [6/7] Move NfcNci to g2-common <sudosurootdev> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_d803 ****
+6465703 : [7/7] Move NfcNci to g2-common <sudosurootdev> 23 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_lge_d855 ****
+ec251e6 : d855: Update cm.mk <finnq> 5 days ago
+5c448d0 : d855: update thermal-engine config <CamberCreak> 5 weeks ago
+47a97a2 : d855: Add LTE support <Hendrik H> 6 days ago
+6d65bfd : d855: lower partition sizes <CamberCreak> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+4fb47b8 : [1/7] Move NfcNci to g2-common & LS980 seperate conf <sudosurootdev> 23 hours ago
+2aa1d16 : Fix Verizon Roaming Issue - Part 1 + Fix occasional Sprint data issues. <sudosurootdev> 35 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_ls980 ****
+1dcffab : [2/7] Move NfcNci to g2-common & FIX LS980 NFC!!! <sudosurootdev> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_vs980 ****
+b0ed393 : [3/7] Move NfcNci to g2-common <sudosurootdev> 23 hours ago
+277989d : Fix Verizon Data Roaming - Part 2 <sudosurootdev> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_moto_msm8960 ****
+30709bf : Remove redundant flag <dhacker29> 30 hours ago
+a6bfdc3 : root: Use mount_pds.sh from qcom-common now <dhacker29> 30 hours ago
+6ea3a2d : modem symlinks: Fix typo <dhacker29> 31 hours ago
+fa7c487 : Remove deprecated package audio_policy.msm8960 <dhacker29> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+94ead8b : motoOmap4RIL: add null-checks and overload more methods <Michael Gernoth> 9 hours ago
+44068a7 : sepolicy: rild updates <Michael Gernoth> 11 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_qcom_sepolicy ****
+01a24c6 : common: remove duplicate <Daniel Hillenbrand> 16 hours ago
+b68d772 : Fix access to crypto/DRM firmware <Ricardo Cerqueira> 27 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_hlte-common ****
+0e3741e : hlte-common: Fix bluetooth UART device perms <christer12> 9 hours ago
+d31ec6b : hlte: Add 4k recording to camera <repo Shareef Ali> 10 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+89fa875 : klteril: Override non-standard data network types. <Ricardo Cerqueira> 5 days ago
+cce10ab : klte: add support for samsung states. <Shareef Ali> 5 days ago
+544bb45 : klte: remove lolipop hack <Shareef Ali> 5 days ago
+b4ff4ce : klte: add support for sprint nonstandard SIM <Shareef Ali> 5 days ago
+599f83b : Crank down bluetooth debug <nuclearmistake> 4 months ago
+c1c9772 : nuclearwinter: make sure to set the system prop it uses to determine the thermal service name for eventual kernel kthermal support <nuclearmistake> 4 months ago
+2f8e94a : nuclear winter <nuclearmistake> 5 months ago
+d7c16fa : Hard reset for L <DHOMD> 6 hours ago
+4172493 : KlteRIL: add additional params to RIL_REQUEST_DIAL_EMERGENCY <Matt Filetto> 6 weeks ago
+27ae474 : klte-common: import common KlteRIL <Matt Filetto> 6 weeks ago
+1abaf7a : klte-common: move efs, persist, and persdata out of fstab <Matt Filetto> 6 weeks ago
+846543e : klte-common: remove context flags from fstab <Matt Filetto> 6 weeks ago
+6d2f3b2 : Revert "include qcom sepolicy" <nuclearmistake> 6 weeks ago
+d49048f : klte-common: Remove tty_enabled from Telephony <dcd> 7 weeks ago
+a0e0e1c : Remove reduntant clearing of GpsLocation memory <Dante Russo> 4 months ago
+bbeacd8 : Migrating XTRA from gpsonextra.net to cloud based izatcloud.net <Pandari Sabhapathi> 5 months ago
+e82a371 : Changes for External DR enablement feature. <Kevin Tang> 6 months ago
+2fb9adc : Platform:ADPES2,Chip Info:APQ8064 Automotive <Linto Paul> 7 months ago
+184b241 : Fix for CR 692085, error mapping incorrect in one of the cases <Kevin Tang> 5 months ago
+64259ec : loc timer util fix to handle the race condition <Kevin Tang> 6 months ago
+ecf722b : fixing the SSR recovery race condition <Kevin Tang> 6 months ago
+4c872ab : Add support for XTRA_VERSION_CHECK QMI LOC msg <Tushar Janefalkar> 7 months ago
+97b83cf : include qcom sepolicy <nuclearmistake> 6 weeks ago
+e12b423 : Reconcile boardconfig w/ cm <nuclearmistake> 6 weeks ago
+2705409 : [TEMP] kill missing config values in FB overlay <nuclearmistake> 7 weeks ago
+3b5ef09 : klte-common: update gps.h with changes for L <Matt Filetto> 9 weeks ago
+dc9f8b3 : klte-common: add custom CameraParametersExtra.h for wrapper <Matt Filetto> 8 weeks ago
+dbc2f65 : klte-common: import CameraWrapper <Matt Filetto> 7 weeks ago
+dfacaf3 : klte-common: remove unused Makefiles <Matt Filetto> 7 weeks ago
+0d4d8bc : klte-common: set long-press on HOME key to search assistant <Matt Filetto> 7 weeks ago
+542cd3f : klte-common: move NFC HAL to device specific trees <Matt Filetto> 7 weeks ago
+e70c383 : klte-common: use legacy MMAP <Matt Filetto> 7 weeks ago
+04c904e : klte-common: add keydisabler <Matt Filetto> 3 months ago
+70aee11 : This was tied to other qcom cflags - Revert "klte-common: try the new Widevine+Stagefright compat flag to fix DRM maybe?" <nuclearmistake> 3 months ago
+963f00d : Revert "Try dex preopt" <nuclearmistake> 3 months ago
+013586b : Try dex preopt <nuclearmistake> 3 months ago
+c3e4b6b : Revert "Dexopt to /data/ only" <nuclearmistake> 3 months ago
+78db976 : QCPerf doesn't live here any more. <nuclearmistake> 3 months ago
+c1918e5 : klte-common: widevine: try harder <nuclearmistake> 3 months ago
+11c1cad : klte-common: try the new Widevine+Stagefright compat flag to fix DRM maybe? <nuclearmistake> 3 months ago
+1fa73be : nuclearwinter: make sure to set the system prop it uses to determine the thermal service name for eventual kernel kthermal support <nuclearmistake> 4 months ago
+53c41f1 : Dexopt to /data/ only <nuclearmistake> 4 months ago
+578ada8 : Crank down bluetooth debug <nuclearmistake> 4 months ago
+1a5fba5 : ueventd: additional radio permissions <Dan Pasanen> 4 months ago
+8993033 : klte-common: increase microphone gain during video recording. <Matt Filetto> 4 months ago
+742c322 : klte: turn off sensor debugging <nuclearmistake> 4 months ago
+a05d1dd : overlay: this seems like a good idea. <nuclearmistake> 5 months ago
+163ccce : nuclear winter <nuclearmistake> 5 months ago
+829da72 : Back to vanir audio confs, and redundant (but functional) acdbs <nuclearmistake> 5 months ago
+49f4b3e : Prebuilt clang's back <nuclearmistake> 5 months ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+ed04885 : msm8960: add usb charging mode <Matt Mower> 34 hours ago
+ 
+**** https://github.com/Ziyann/android_device_samsung_tuna
+origin	git@github.com:VanirAOSP/NEW_device_samsung_tuna.git
+vanir	https://github.com/VanirAOSP/device_samsung_tuna ****
+58cbcd5 : tuna: cleanup domx defines <Ziyan> 30 hours ago
+a91cb8b : tuna: enable multiuser support <Ziyan> 30 hours ago
+1d61cd4 : tuna: add hardware key overlays <Ziyan> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_blue-common ****
+68afc8a : blue-common: update overlay <Daniel Hillenbrand> 9 hours ago
+eb1e026 : blue-common: selinux: enforce! <Daniel Hillenbrand> 12 hours ago
+5bd4ece : blue-common: sepolicy: more more updates <Daniel Hillenbrand> 9 hours ago
+5665584 : blue-common: sepolicy: more updates <Daniel Hillenbrand> 10 hours ago
+78a8244 : blue-common: move tad_static to system/bin <Daniel Hillenbrand> 11 hours ago
+dc094d4 : Revert "blue-common: don't use wifi hal" <Daniel Hillenbrand> 12 hours ago
+48e232a : blue-common: sepolicy: more updates <Daniel Hillenbrand> 13 hours ago
+83c76ae : blue-common: don't use wifi hal <Daniel Hillenbrand> 13 hours ago
+6b02f51 : blue-common: sepolicy: use common qcom policies <Daniel Hillenbrand> 15 hours ago
+742720b : blue-common: fix setting selinux to permissive <Daniel Hillenbrand> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+43710af : Power menu customizations [1/2] <Dave Kessler> 3 weeks ago
+1f75e63 : MountService: support UMS on any volume <Scott Mertz> 34 hours ago
+c4b16ea : Clean up keyguard carrier text handling. <Danny Baumann> 3 days ago
+71f5743 : Keyguard: Forward port lockscreen quick unlock (1/2) <Matt Mower> 10 days ago
+95e30ee : Allow setting a per-device default configuration for STATUS_BAR_BATTERY_STYLE <Ricardo Cerqueira> 1 year, 2 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+1816143 : Revert "sf: Make sure HWC_BLENDING_NONE is set for opaque layer" <Baldev Sahu> 4 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_datetimepicker ****
+37381bd : [1/2] DateTimePicker: Add ability to set Month Title layout offset. <Rohit Yengisetty> 8 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display ****
+cae99f7 : copybit: Fix type conversion error for GCC 4.7 <Naseer Ahmed> 1 year, 9 months ago
+68cee49 : copybit: Fix type conversion error for GCC 4.7 <Dhivya Subramanian> 1 year, 7 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_msm8974 ****
+777298e : Hopefully fix kernel includion of msmcal-hwdep.h <DHOMD> 7 hours ago
+3054b80 : Patch 3.4.45 <varchild> 7 hours ago
+aeb9dd4 : Voltage Control <varchild> 11 hours ago
+ 
+**** https://github.com/lollipop-og/kernel_msm
+origin	git@github.com:VanirAOSP/kernel_lge_gee.git
+vanir	https://github.com/VanirAOSP/kernel_lge_gee ****
+dabefdb : Revert "msm: camera: fix null pointer" needs to be fixed but it is night time and I want to finish compile <Kevindeving> 7 hours ago
+b4f4442 : Adjust PLAYBACK_PERIOD_SIZE <adrian-bl> 8 hours ago
+1bebfb4 : Revert "ASoC: msm: Flexible period size for pcm playback" <Kevin> 8 hours ago
+95766ec : gee config: update <Kevin> 8 hours ago
+b318b04 : msm: camera: fix null pointer <fransicofranco> 8 hours ago
+242d84d : msm: msm_bus: Fix the type error causing bandwidth overflow <Alok Chauhan> 1 year, 4 months ago
+27311b2 : msm: buspm: Correct size type in buspm_xfer_req <Sana Venkat Raju> 1 year, 1 month ago
+ecf75b5 : mm/page-writeback.c: fix dirty_balance_reserve subtraction from dirtyable memory <Johannes Weiner> 12 months ago
+6a36944 : tick: Upstream fixes <Thomas Gleixner> 1 year, 8 months ago
+c61a9b4 : block: Reserve only one queue tag for sync IO if only 3 tags are available <Jan Kara> 1 year, 6 months ago
+99f8ed0 : Staging: android: binder: Fix memory leak on thread/process exit <Arve Hjønnevåg> 2 years, 3 months ago
+c000f6b : block/partitions: optimize memory allocation in check_partition() <Ming Lei> 1 year, 10 months ago
+254b5e5 : CPU hotplug, writeback: Don't call writeback_set_ratelimit() too often during hotplug <Srivatsa S. Bhat> 2 years, 3 months ago
+db19551 : sched: Set MC (multi-core) sched domain's busy_factor attribute to 1 <Srivatsa Vaddagiri> 1 year, 8 months ago
+32f8aeef : msm: rpm-smd: Configure WQ for higer priority <Mahesh Sivasubramanian> 1 year, 8 months ago
+7515964 : cpufreq: Retain only online cpus in managed_policy->cpus <Srivatsa Vaddagiri> 1 year, 10 months ago
+4a6f804 : msm_fb: Set RR sched policy for Glupdator thread <Kalyan Thota> 1 year, 9 months ago
+f90787e : cpufreq: Manage only online cpus <Viresh Kumar> 2 years ago
+1e1091b : readahead: make context readahead more conservative <Fengguang Wu> 1 year, 4 months ago
+6461284 : writeback: fix race that cause writeback hung <Junxiao Bi> 1 year, 4 months ago
+2b84ef6 : ARM: Use -mcpu=cortex-a15 when targeting MSM Krait CPUs <Stepan Moskovchenko> 1 year, 3 months ago
+3b093e9 : sync: don't block the flusher thread waiting on IO <Dave Chinner> 1 year, 6 months ago
+5120547 : mach-msm: subsystem_restart: Fix CPU detection <Stratos Karafotis> 1 year, 4 months ago
+da654ce : selinux: add a ugly workaround to bail early when selinux tries to free a socket that is still in use and it ends in a Kernel panic. These lines are from opensource.samsung.com. While this will most likely put a bandaid over this Kernel panic it does not fix the bug so it might occur somewhere else if the same conditions are met but since I have only seen panics from this hook then we may as well sleep in peace. <franciscofranco> 11 months ago
+415d298 : board: mako: reduce the minimum backlight value to 0x01. <Francisco Franco> 1 year, 4 months ago
+7c11c20 : msm: kgsl: Report GPU frequency correctly in sysfs <myfluxi> 1 year, 5 months ago
+49ba35b : Revert "disable DEBUG in Prima WiFi driver" <Kevin> 9 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8x60 ****
+3c3f410 : nl80211: fix error path in nl80211_get_key() <Johannes Berg> 12 hours ago
+1f7e40d : nl80211: nl80211hdr_put() doesn't return an ERR_PTR <Dan Carpenter> 12 hours ago
+003c9c7 : Enable NEED_NETDEV for vendor command support. <Subhani Shaik> 12 hours ago
+99bfacb : nl80211: Correct the usage of command NL80211_CMD_VENDOR <Sunil Dutt> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+c3e9a34 : Fix <DHOMD> 6 hours ago
+7184336 : Follow our own MMs <DHOMD> 6 hours ago
+aa0379a : Swap d855 repos <DHOMD> 11 hours ago
+df401e4 : Partial Revert "Restore some legacy devices" <DHOMD> 11 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+a517fd2 : Calendar - Added provisions to show/hide Floating Action Button. <Rohit Yengisetty> 5 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+aa9b875 : Camera2: Samsung 4k Camera workaround. <repo Shareef Ali> 10 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+eae7cd4 : QuickMessage: bring back mark as read <DvTonder> 7 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+b7fbdff : Power menu customizations [2/2] <Dave Kessler> 3 weeks ago
+93cec6b : Reorg of Settings <DHOMD> 6 days ago
+eb4d123 : USB Settings: Show menu if device has mass storage <Matt Mower> 3 days ago
+7beac4e : USB Settings: Warn before enabling UMS mode <Matt Mower> 3 days ago
+00f9fad : Keyguard: Forward port lockscreen quick unlock (2/2) <Matt Mower> 10 days ago
+ 
+**** https://github.com/VanirAOSP/system_vold ****
+deb839e : vold: support more than 1 UMS share <Pawit Pornkitprasan> 1 year, 2 months ago
+ 
+**** https://github.com/VanirAOSP/vendor_lge ****
+7beb0cc : Community recommended fix for Sprint <DHOMD> 11 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_motorola ****
+1880f71 : Revert "depreciate maserati" <DHOMD> 11 hours ago
+ 

@@ -1,0 +1,185 @@
+
+**** https://github.com/VanirAOSP/build ****
+4baecea : build: Add support for Tamil <Solomon Sunder> 7 weeks ago
+00bfd0f : build: Add support for Uyghur <Michael Bestas> 2 days ago
+daa6b6b : build: Refactor additional languages/locales <Michael Bestas> 10 hours ago
+5895bb7 : ota_from_target_files: boot.d perms, and remove old cron-related perms <nuclearmistake> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/dalvik ****
+1c07a3c : Revert "dalvik: add placeholder for future changes" <nuclearmistake> 20 hours ago
+a9c3ca1 : Revert "Dalvik : Increase the upper limit check for DexOpt Deps table" <nuclearmistake> 20 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_msm8960-common ****
+fff75f6 : msm8960-common: remove redundant qcom cflag <Matt Mower> 10 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_s4-common ****
+09df27f : s4-common: Switch to ondemand governor <Ethan Chen> 20 hours ago
+cfa4de6 : s4-common: Remove post-boot script <Ethan Chen> 20 hours ago
+ 
+**** https://github.com/Team-Exhibit/android_device_samsung_codinalte ****
+c586cd8 : codinalte: Use mali for compositor in surface flinger <C457> 23 hours ago
+82317e1 : audio: Update Listen HAL API for MultiSession. <Bharath Ramachandramurthy> 2 months ago
+d3ef636 : audio.h: Fix a warning <C457> 24 hours ago
+deeec2a : Codinalte:Restore old charging fix <C457> 24 hours ago
+ea291d9 : Clean up uneeded things <C457> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_hlte ****
+38b83de : h: Update bloblist <Steve Kondik> 2 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_coconut ****
+c254f1a : Remove LatinIME overlay <Michael Bestas> 5 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_mango ****
+6c39828 : Remove LatinIME overlay <Michael Bestas> 5 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_satsuma ****
+d919b1b : Remove LatinIME overlay <Michael Bestas> 5 hours ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_smultron ****
+96d22c0 : Remove LatinIME overlay <Michael Bestas> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_fusion3-common ****
+71a1607 : fusion3: Move NO_CELLINFOLIST flag to platform <Giulio Cervera> 26 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_qcom-common ****
+ff906f4 : qcom-common: Move NO_CELLINFOLIST flag to platform <Ethan Chen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/Superuser ****
+cc4fe14 : Superuser: CS translation <Ondrej Zima> 33 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+4251a52 : Frameworks base core: AST translations <malditoastur> 3 weeks ago
+4c71d69 : quickboot: Only enable QuickBoot if package is installed <Steve Kondik> 5 hours ago
+1152752 : Proper security labeling of multi-user data directories. <Robert Craig> 8 months ago
+43097ce : Frameworks/base: DA translation <Jacob Overgaard Madsen> 3 weeks ago
+f96cf98 : Revert "Revert "Avoid duplication of AppWindowToken in created Task"" <nuclearmistake> 20 hours ago
+d526d5e : Core/SystemUI: PT-BR Translations <Gustavo> 10 days ago
+7edef93 : Squashed commit of QuickBoot feature from Qualcomm <Kun Liang> 3 months ago
+674bf69 : frameworks/base: Fix the random UI corruption <ywen> 3 weeks ago
+aee1171 : SystemUI: IT translations <Francesco> 28 hours ago
+2e1b855 : ActiveDisplay: fix possible add>remove>add(nothing happens) condition <nuclearmistake> 35 hours ago
+7c634ca : Revert "Avoid duplication of AppWindowToken in created Task" <nuclearmistake> 35 hours ago
+68780a3 : ImmsersiveDesktop: fix expanded mode allowing the statusbar <PrimeDirective> 2 days ago
+120ea67 : frameworks/base: Fix the random UI corruption <ywen> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8960 ****
+15c16ed : cpufreq: cpu-boost: Remove unused waitqueue <myfluxi> 7 weeks ago
+391e0d8 : cpufreq: cpu-boost: Use hotplug thread infrastructure <myfluxi> 7 weeks ago
+8f63971 : Revert "cpufreq: cpu-boost: Fix deadlock in wake_up of sync threads" <Ethan Chen> 22 hours ago
+df256f4 : cpufreq: ondemand: Remove unused waitqueue <myfluxi> 7 weeks ago
+8dd7c2f : cpufreq: ondemand: Use hotplug thread infrastructure <myfluxi> 7 weeks ago
+cb2c5b2 : stop_machine: Mark per cpu stopper enabled early <Thomas Gleixner> 1 year, 1 month ago
+785582b : stop_machine: Use smpboot threads <Thomas Gleixner> 1 year, 2 months ago
+247fa74 : stop_machine: Store task reference in a separate per cpu variable <Thomas Gleixner> 1 year, 2 months ago
+a0e34e7 : kthread: Prevent unpark race which puts threads on the wrong cpu <Thomas Gleixner> 12 months ago
+6d6f3f0 : smpboot: Allow selfparking per cpu threads <Thomas Gleixner> 1 year, 2 months ago
+054e219 : hotplug: Fix UP bug in smpboot hotplug code <Paul E. McKenney> 1 year, 9 months ago
+8a8ddf3 : smpboot: Provide infrastructure for percpu hotplug threads <Thomas Gleixner> 1 year, 8 months ago
+851f521 : kthread: Implement park/unpark facility <Thomas Gleixner> 1 year, 8 months ago
+09f5a30 : smpboot, idle: Fix comment mismatch over idle_threads_init() <Srivatsa S. Bhat> 1 year, 10 months ago
+c6353c7 : smpboot, idle: Optimize calls to smp_processor_id() in idle_threads_init() <Srivatsa S. Bhat> 1 year, 10 months ago
+4d383e1 : smp, idle: Allocate idle thread for each possible cpu during boot <Suresh Siddha> 1 year, 11 months ago
+14a018f : smp: Provide generic idle thread allocation <Thomas Gleixner> 1 year, 11 months ago
+3fb17c7 : smp: Add generic smpboot facility <Thomas Gleixner> 1 year, 11 months ago
+98b64b6 : msm: HTC: Enable UIO driver for storage daemon change <Steve Kondik> 22 hours ago
+2c36414 : Revert "drivers: cpufreq: Send a uevent when governor changes" <Ethan Chen> 22 hours ago
+f20c421 : drivers: cpufreq: Send a uevent when governor changes <Steve Kondik> 22 hours ago
+e55d474 : cpufreq: Fix broken uevents for cpufreq governor and cpu devices <myfluxi> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960-common ****
+e90009f : Revert "ASoC: wcd9310: Fix DMIC current leakage after disable" <Mohammed Johny Shaik> 7 months ago
+9868e29 : cpufreq: Retain only online cpus in managed_policy->cpus <Srivatsa Vaddagiri> 1 year, 1 month ago
+6eb2782 : provide cgroup option to notify on migrations <namagi> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+2e8814c : msm: clock: Add parent fields to gcc_ce1_clk and gcc_ce2_clk <Vikram Mulukutla> 5 months ago
+77eb1b5 : ARM: dts: Modify BKE limiting for Krait master <Girish Mahadevan> 6 weeks ago
+e181404 : msm: msm_bus: Introduce multi level BKE limiting. <Girish Mahadevan> 6 weeks ago
+5df8acb : cpufreq: Sync on thread migration optimizations <Patrick Cain> 3 months ago
+ce23f28 : cpufreq: interactive: delete timers for GOV_START <Shridhar Rasal> 7 months ago
+23cd9be : ASoC: msm: Null dereference check added <Anish Kumar> 2 weeks ago
+9f7b7b7 : msm: mpm-of: fix for "cxo_lpm_clk is unbalanced" slowpath warning. <Mahesh Sivasubramanian> 9 weeks ago
+ca905d8 : msm: lpm_levels: Fix incorrect computation of next wakeup time <Mahesh Sivasubramanian> 8 weeks ago
+0d935ad : ASoC: msm: Add PCM support in compress driver <Dhananjay Kumar> 4 months ago
+9f6a0c4 : genalloc: stop crashing the system when destroying a pool <Thadeu Lima de Souza Cascardo> 1 year, 5 months ago
+b80936f : genalloc: Correct nbytes calculation on long boundary <Sunil Khatri> 6 weeks ago
+37f6831 : cpufreq: Fix broken uevents for cpufreq governor and cpu devices <myfluxi> 6 days ago
+3883ce2 : drivers: cpufreq: Send a uevent when governor changes <Steve Kondik> 1 year, 6 months ago
+33d3651 : PM / devfreq: Make target flags unique <Lucille Sylvester> 2 weeks ago
+9ab7753 : qcom: mpm-of: fix bug in finding the pending interrupts <Murali Nalajala> 2 weeks ago
+c8c6e86 : msm: mpm-of: set wakeup interrupt as NO_SUSPEND <Mahesh Sivasubramanian> 3 weeks ago
+5cf0ad3 : msm: lpm_levels: update suspend stats counters and time <Anil kumar mamidala> 3 weeks ago
+a0a11ac : msm: mdss: Add backlight attenuation mechanism in AD auto strength mode <Ping Li> 9 weeks ago
+91f8f4d : msm: mdss: Add SMP parameters into hw capabilites <Mayank Chopra> 4 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+4722088 : Fix a booboo introduced while shit-polishing on the behalf of vs980 users <nuclearmistake> 24 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar
+cm2	https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+eb1ddfb : Calendar: DA translation <Jacob Overgaard Madsen> 28 hours ago
+c3bbb46 : Calendar: IT translations <Francesco> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+c8e23ff : Camera2: DA translation <Jacob Overgaard Madsen> 27 hours ago
+bb422c9 : Camera2: IT translations <Francesco> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+8a688f3 : DeskClock: IT translations <Francesco> 28 hours ago
+ffb75b6 : DeskClock: Update DE translation <elektroschmock> 3 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+e30d7fc : Dialer: DA translation <Jacob Overgaard Madsen> 3 weeks ago
+7fc0a56 : Dialer: PT-BR Translations <Gustavo> 11 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Gallery2 ****
+c1ec526 : Gallery2: PT-BR Translations <Gustavo> 10 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+09ad978 : Mms: AST translations <malditoastur> 3 weeks ago
+f56d6e1 : MMS: DA translation <Jacob Overgaard Madsen> 3 weeks ago
+2eb80d8 : Mms: PT-BR Translations <Gustavo> 10 days ago
+48edcc4 : Mms: Update DE translation <elektroschmock> 3 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+ddbbe1e : fix merge derp <PrimeDirective> 86 minutes ago
+5414866 : Navbar size: +50/-50 instead of +50/-34 <PrimeDirective> 2 days ago
+27da231 : QuickBoot: enable QuickBoot Settings UI <Kun Liang> 3 months ago
+1224b18 : Settings: Add screen color settings <Zhang Fang> 3 months ago
+3ccaa76 : Settings: CA translations <arnau> 3 days ago
+877703a : settings: hide settings of disabled components <Jorge Ruesga> 25 hours ago
+2796cc7 : Settings: IT translations <Francesco> 35 hours ago
+aa902e8 : Settings: minor translation fixes <Eddy Witkamp> 28 hours ago
+1fc1542 : Settings: PT-BR Translations <Gustavo> 11 days ago
+401dfc3 : Settings: Update DE translation and move missing AOSP strings <elektroschmock> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_soundrecorder ****
+b402d7b : SoundRecorder: PT-BR Translations <Gustavo> 11 days ago
+a02abf5 : SoundRecorder: DA translation <Jacob Overgaard Madsen> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Stk ****
+eb1a348 : Stk: IT translations <Francesco> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+023689a : Telephony: CS translation <Ondrej Zima> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+a2bf5d4 : init.rc: Reconcile diffs from PARTS UNKNOWN <nuclearmistake> 24 hours ago
+d9a8752 : libcutils:Reduce remount poll for STE devices <C457> 2 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+40728ee : h: Update blobs <Steve Kondik> 2 hours ago
+0da2f7f : h: Update blobs <Steve Kondik> 3 hours ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+e7b976e : vanirnice, meet 2014. 2014, meet vanirnice. <nuclearmistake> 12 hours ago
+b763075 : boot.d: "userinit" venirified <nuclearmistake> 24 hours ago
+49d4b32 : apns-conf: Fix SKT LTE typo <nadlabak> 26 hours ago
+3df2f28 : apns-conf: Fix Movistar Argentina (CYAN-3739) <nadlabak> 2 days ago
+2b36a8c : jflte: FINALLY fix overclocking+underclocking w/ vanir's ktoonsez-based kernel <nuclearmistake> 34 hours ago
+6961dba : init.d: remove entropy script <Dan Trifan> 2 days ago
+845588e : init.d: removal of uksm/ksm derp fix <Dan Trifan> 2 days ago
+0138efa : init.d: remove uksm/ksm script <Dan Trifan> 2 days ago
+a14416c : persist props \(if configurable and not otherwise problematic\) should not be set in build.prop (as their persist prefix means they're stored in /data/property/ <nuclearmistake> 2 days ago
+ 

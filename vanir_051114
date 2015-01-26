@@ -1,0 +1,213 @@
+
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+7d53181 : create /data/media directory after internal storage is wiped <philz-cwm6> 2 days ago
+ 
+**** https://github.com/VanirAOSP/build ****
+6e8a6f3 : core/main.mk: tone down the java version support harassment <nuclearmistake> 3 hours ago
+da04c9b : releasetools: bring back boot.img handling <Pawit Pornkitprasan> 2 days ago
+b8c24aa : Allow explicit override of default CCACHE_BASEDIR behavior <nuclearmistake> 27 hours ago
+1efb2d5 : TARGET_NEEDS_EXTRA_DEBUGGING: reduce debugging symbols unless otherwise specified <PrimeDirective> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/dalvik ****
+f2e427d : Prevent occasional post-dexopt brain damage that required re-dalvik-wiping and a four leaf clover to recover from? <nuclearmistake> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_asus_grouper ****
+6f7dd8a : Tilapia uses grouper's kernel too. If you're going to touch something in manifest, DON'T BREAK IT. <nuclearmistake> 2 days ago
+80f70bd : Fix "failure to mmap file" binder issues <nuclearmistake> 2 days ago
+60c5ea2 : n7: use faux's kernel (2/2) <bart452> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_dlx ****
+b423bed : cm.mk: don't override BUILD_ID <Dan Pasanen> 6 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_m8 ****
+489fb8e : Add Sprint default RIL properties and move some VZW properties to common cdma properties <John Kirk> 3 days ago
+2865a70 : makelinks: bail on error <invisiblek> 24 hours ago
+f1296b2 : Notification LED: Fix blinking the wrong color for notification <Simon Sickle> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+d603689 : hammerhead: Enable use of FFMPEG codecs for extended formats <Steve Kondik> 5 days ago
+bb904b3 : hammerhead: Disable forced use of triple framebuffers <Steve Kondik> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_aries-common ****
+f08c1ce : aries-common: create uncompressed ramdisk <Pawit Pornkitprasan> 2 days ago
+ 
+**** https://github.com/Team-Exhibit/android_device_samsung_codinalte ****
+856a66b : codinalte:Enable use of FFMPEG codecs for extended formats <C457> 29 hours ago
+1d81007 : Support Live Wallpaper <C457> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_hlte ****
+033e9fc : HLTE: Collapse primary audio outputs. <slayher> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_mondrianwifi ****
+2bac1d5 : mondrianwifi: prima: Enabled 11d and TxPowerSave <Christopher R. Palmer> 9 hours ago
+517065a : mondrianwifi: Remove libnetcmdiface <Christopher R. Palmer> 3 days ago
+776c5ab : mondrianwifi: Remove init.ril.rc which isn't needed <Christopher R. Palmer> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+3aa1444 : apexq: camera: remove inapplicable hack <Dave Daynard> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_tuna ****
+3300e87 : tuna: cmhw: add support for third-party kernel <Lorenzo M> 4 months ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_msm7x30-common ****
+d84d440 : overlay: Remove config_telephony_set_audioparameters <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_fusion3-common ****
+cbedec7 : Change IR app's name <sssemil> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_qcom-common ****
+1315d4b : qcom-common: Enable use of FFMPEG codecs for extended formats <Steve Kondik> 2 days ago
+ 
+**** https://github.com/VanirAOSP/external_bluetooth_bluedroid ****
+8465daa : Fix "Bluetooth: Handle sub system restart gracefully" <Steve Kondik> 4 days ago
+77ff30b : A2dp: Reduce out buffer size to accomodate 8 PCM frames <Ayan Ghosh> 3 weeks ago
+22bc092 : A2DP HAL: Delay open_output_stream <Gubbala Venugopal Rao> 4 weeks ago
+cea1e4b : A2DP HAL: Update maximum Audio buffer size <Gubbala Venugopal Rao> 5 weeks ago
+68701aa : Bluetooth: Avoid premption while modifying gki timer queue <Bhasker Neti> 8 months ago
+8b00996 : Raise the transmission priority for a2dp media channel to high <Ayan Ghosh> 4 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+62ab437 : libmedia: Add timelapse profiles for 4k sizes <Emilian Peev> 6 weeks ago
+ed27c0c : libeffect: Fix enabled effect count calculation error <wjiang> 13 days ago
+cebdc84 : libstagefright: Fix crash while setting buffer size <Surajit Podder> 5 weeks ago
+c2cbd9c : libstagefright: Add MPEG2 Codec support <Riaz Rahaman> 8 weeks ago
+3397714 : DataSource: Remove global variables in DataSource related to sniff <Surajit Podder> 4 months ago
+2797948 : STE build is pretty fubar... <nuclearmistake> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+9add91a : ActiveDisplay: Remove brightness logic and revert removal of IPowerManager screen state getter <PrimeDirective> 32 minutes ago
+4ae3fdb : CamcorderProfile: Add 4k timelapse encoder constants <Emilian Peev> 6 weeks ago
+a637cb7 : WIFI: FIX wifi not auto-connect issue. <Paul Zhang> 5 weeks ago
+cf8ce3f : Wifi: Add a feature to control wifi auto connect. <luxiaol> 4 months ago
+aa909ef : framework/base: Create surface based on the panel orientation. <Ramkumar Radhakrishnan> 1 year ago
+293519a : WIFI: Fix wifi auto-connect to other saved APs during WPS PIN scanning. <Paul Zhang> 4 weeks ago
+531f417 : P2P : Wait for the terminate events on all the open interfaces <Naresh Jayaram> 4 months ago
+06b2837 : SystemServer: Do not start Atlas Service on lowram devices. <Vijay Dandiga> 5 months ago
+f62417d : wlan: Fix to handle the failure status on supplicant start. <Mahesh A Saptasagar> 4 months ago
+d44dbf1 : wifi: Disable the network based on the Deauth reason code. <Naresh Jayaram> 10 weeks ago
+1a559f4 : Display: Initialize mRotation to panel orientation. <Panneer Arumugam> 11 months ago
+13e3540 : Show submenu from menu list on hardware MENU key press <Abhishek Arpure> 9 weeks ago
+16ce5e6 : [video] : added mime-type for mov files <Manikanta Kanamarlapudi> 8 months ago
+b0f84e7 : lowmemorykiller: Overwrite LMK parameters for low-tier devices <Chitti Babu Theegala> 7 weeks ago
+af4dc2c : framework/base : Fix for Wi-Fi grayed out issue <Nalla Kartheek> 3 weeks ago
+e3b739e : audio: no notification sound when adjusting volume bar twice. <mqiu> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+3fda6ef : SF: Reduce size of DisplayFrame according to "transparent region" <Dileep Kumar Reddi> 3 weeks ago
+dcbc1dc : Allow non-"low-mem" devices with memory issues to use a smaller binder vm size <nuclearmistake> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_vcard ****
+047d5a1 : vcard: Add support to generate vcard jar. <Shashank Mittal> 9 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_bt ****
+c176fd8 : libbt: Fix case where SoC type is not set <Steve Kondik> 7 months ago
+de4ad23 : libbt-qcom: Allow building without proprietary bits <Steve Kondik> 8 days ago
+17cac68 : libbt-vendor: KW issue fix <Juffin Alex Varghese> 3 weeks ago
+ce9a628 : Bluetooth: Fix for nvm file parsing <pramod kotreshappa> 4 weeks ago
+76e96a1 : Bluetooth: NULL callback access avoidance <Ajay Kumar> 4 weeks ago
+842f24c : Bluetooth: Fix for rampatch version parsing from tlv <pramod kotreshappa> 5 weeks ago
+4863a27 : Bluetooth: Ref count increamented based on client connections <pramod kotreshappa> 6 weeks ago
+b9ddda7 : Bluetooth: Fix crash on null pointer <SungJun Park> 7 weeks ago
+4c1f23a : Blutooth: Fix file handler clean up <Sungjun Park> 9 weeks ago
+6f23d14 : Bluetooth: Fix extra bytes during downloading rampatch <SungJun Park> 8 weeks ago
+fc4306b : Bluetooth: Enable 500msec delay only for SSR <Srinu Jella> 3 months ago
+1a63df5 : Bluetooth: Fix for BT fails to turn on after recovery from crash <pramod kotreshappa> 3 months ago
+a07673f : Revert "Handle cleanup on termination of wcnss client" <Sungjun Park> 3 months ago
+03c2edf : Bluetooth: Enable controller logs by default <Vadivel Thekkamalai> 3 months ago
+a132f9b : Bluetooth: Fix for fail to turn on BT after multiple on/off <pramod kotreshappa> 3 months ago
+0fb6684 : Bluetooth: add bluetooth and wifi status sync change <Pradeep Panigrahi> 3 months ago
+387a3f3 : Handle cleanup on termination of wcnss client <Vadivel Thekkamalai> 4 months ago
+ddb70dd : Bluetooth: Fix proper rome chipset version check <Sungjun Park> 4 months ago
+960ddcb : Read BD address from persist file <Vadivel Thekkamalai> 4 months ago
+c83133b : Bluetooth: Add Rome 2.1 patch <Sungjun Park> 4 months ago
+beb6b0a : Add support to rome 1.3 controller <Vadivel Thekkamalai> 5 months ago
+bec8a25 : Enable Bluetooth controller logs on need. <Vadivel Thekkamalai> 5 months ago
+8de7842 : Bluetooth: Read and use BD address from persist file. <Vadivel Thekkamalai> 7 months ago
+aabe785 : Bluetooth: generalize transport initialization properties <Bhakthavatsala Raghavendra> 6 months ago
+1ab28c4 : Bluetooth: Add changes for wcnss_filter introduction <Bhakthavatsala Raghavendra> 7 months ago
+62907af : Bluetooth: Fix crash issue for 8960/8064. <Sungjun Park> 7 months ago
+5b324b2 : Bluetooth: Driver support for Rome. <Sungjun Park> 8 months ago
+19b4c94 : bluetooth: enable lpm support for atheros SoC. <Ilia Lin> 8 months ago
+8e30e72 : Bluetooth: Driver support for AR3002 SOC <Ilia Lin> 8 months ago
+a31c0bb : Bluetooth - Fix devicename being opened on retry. <Hemant Gupta> 10 months ago
+3f76f11 : Bluetooth: Enable Bluetooth vendor component <Bhakthavatsala Raghavendra> 8 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8974 ****
+f55b817 : msm: htc_wifi_nvs: expose wifi calibration data to kernel <Ethan Chen> 1 year, 7 months ago
+99f50c9 : Wifi: Enable CONFIG_HTC_WIFI_NVS <Nicholas Flintham> 2 days ago
+435fffa : staging: prima: add option to read calibration data from HTC NVS <Ethan Chen> 1 year, 7 months ago
+182783b : Wifi : Switch to 3.2.3.172 revision of pronto driver <Nicholas Flintham> 2 days ago
+605ba93 : wcnss: Add support to configure the Wlan MAC addr <Nicholas Flintham> 3 days ago
+591b706 : wcnss: Add two registers to wcnss dump <Sameer Thalappil> 5 months ago
+166700f : wlan: Store avoid channel list <Leo Chang> 6 months ago
+51fadbd : WCNSS: Add back comments <Nicholas Flintham> 3 days ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_huawei_huawei-kernel-3.4
+https://github.com/Dazzozo/huawei-kernel-3.4 ****
+ae43f18 : radio-tavarua: update to msm-3.4 <eloygomez> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_mondrianwifi ****
+1b97f09 : mondrianwifi: defconfig: prima: Enable CCX & CCX_UPLOAD <Christopher R. Palmer> 8 hours ago
+08dd993 : mondrianwifi: prima: Expose Kconfig options for CCX and CCX_UPLOAD <Christopher R. Palmer> 8 hours ago
+b25d061 : mondrianwifi: hid: Import hid-zagg changes from sm-t325 <Christopher R. Palmer> 2 days ago
+6b855db : mondrianwifi: bluesleep: Import changes from sm-t325 kernel <Christopher R. Palmer> 2 days ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+1b0c1e0 : Add ebtables <Steve Kondik> 11 hours ago
+b26cb1a : [TYL (today you learned)] TWO DIFFERENT KERNELS CANNOT SYNC TO THE SAME DIRECTORY <nuclearmistake> 2 days ago
+146a14b : fix tilapia/grouper kenel sync issue <nuclearmistake> 2 days ago
+8ee74cd : add my own kernel for htc one s aka ville to improve stability and preformance over stock cm kernel which has become unstable recently <EthanJ99> 2 days ago
+ecd9f79 : grouper: track faux's kernel (1/2) <bart452> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_BasicSmsReceiver
+cm2	https://github.com/CyanogenMod/android_packages_apps_BasicSmsReceiver ****
+db72bf2 : Revert "Automatic translation import" <Michael Bestas> 21 hours ago
+0f79d04 : Automatic translation import <Michael Bestas> 21 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+67ecde1 : Bluetooth: Add up navigation for BluetoothOppTransferHistory <MrBaNkS> 2 days ago
+7d342be : Bluetooth: Make the bluetooth share action bar use settings icon <MrBaNkS> 2 days ago
+bb5c7c2 : Bluetooth: Force use of solid action bar for BluetoothOppTransferHistory <MrBaNkS> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar
+cm2	https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+ee65470 : Revert "Automatic translation import" <Michael Bestas> 21 hours ago
+37459df : Automatic translation import <Michael Bestas> 21 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+3e27a1f : Camera2: Fix default slow shutter option <Michael Bestas> 31 hours ago
+6c33235 : Camera2: Tweak some strings <Michael Bestas> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+f46c624 : Underp the dialpad buttons <Steve Kondik> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+65e407c : ActiveDisplay: remove brightness logic and cleanup settings <PrimeDirective> 7 hours ago
+fae42b2 : Packages : Fix for Softap turn ON/OFF fail issue. <Nalla Kartheek> 6 weeks ago
+bdee452 : P2PSetting:Avoid p2p_find on group removal event <Rashmi Ramanna> 10 weeks ago
+3caac6f : Bluetooth: Increase allowed duration to connect to a profile <Nitin Arora> 9 weeks ago
+f6f26b8 : Fixes error message during pairing of HOGP devices <Subramanian Srinivasan> 3 months ago
+34a1f87 : Bluetooth: Ignore the second button if one already pressed <Srinu Jella> 2 months ago
+746ba3b : Bluetooth: Release pan proxy object while coming out from tethering menu <Nitin Shivpure> 3 months ago
+05c297b : settings: Remove "mobile plan" <Steve Kondik> 32 hours ago
+4f2092d : Settings: Make the Desktop backup password header actually say Desktop backup password <MrBaNkS> 4 days ago
+5eb9255 : Settings: Add up navigation in more places <MrBaNkS> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_soundrecorder ****
+4b77fa7 : SoundRecorder: mark file types as untranslatable <Vladislav Koldobskiy> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+55f760a : MSim: always enable activity disabler <Pawit Pornkitprasan> 7 days ago
+f816b8f : Telephony: Set X-Divert as untranslatable. <Vladislav Koldobskiy> 22 hours ago
+89ccb74 : Telephony-Available Networks: Add up navigation to the action bar as well <MrBaNkS> 6 days ago
+a230a64 : Telephony: Force settings icon to match the others in settings menu <MrBaNkS> 6 days ago
+ 
+**** https://github.com/VanirAOSP/system_qcom ****
+b980ab0 : qsap: Put files in a sane location <Steve Kondik> 9 hours ago
+6cf22dc : qsap: Don't log sensitive information <Steve Kondik> 11 hours ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+a5c8965 : cm: policy for ipv6 tethering <Steve Kondik> 10 hours ago
+08cd5cb : fix typo for True-Move carrier <minelove> 2 days ago
+ 

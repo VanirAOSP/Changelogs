@@ -1,0 +1,166 @@
+
+**** https://github.com/VanirAOSP/device_asus_tf700t ****
+602de53 : ffmpeg audio/video codecs <DHOMD> 3 hours ago
+c674f18 : Remove msm features,.. it is unlikely they could ever work on tegra <DHOMD> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_msm8960-common ****
+1d3502d : Set default kernel source for shit that omits defining it <nuclearmistake> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+5901ccf : Don't go into full suspension when proximity is triggered <Ricardo Cerqueira> 4 days ago
+6318820 : g2:add Japanese Docomo L-01F support <supersonicninja> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_apq8064-common ****
+57238e9 : apq8064-common: Fix spacing <Ethan Chen> 84 minutes ago
+ab79273 : apq8064-common: Cleanup symlinks <Ethan Chen> 2 hours ago
+437e762 : apq8064-common: Add FFMPEG media codecs <Ethan Chen> 18 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_find5 ****
+103edc8 : find5: Remove deprecated entries <Ethan Chen> 2 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_n1 ****
+9a61827 : n1: Remove deprecated entries <Ethan Chen> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_i9300 ****
+9100865 : Add iso mode settings to the CameraWrapper <MarcKe> 5 days ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_msm7x30-common ****
+227c644 : Update releasetools with latest changes <Michael Bestas> 6 hours ago
+f390f4b : audio_policy: Add FM devices & qcom formats <Michael Bestas> 6 hours ago
+284d8bf : Set resampler quality <Michael Bestas> 11 months ago
+c573ef3 : media_codecs: Cleanup unsupported codecs <Michael Bestas> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+728c3b4 : Desertcase dreamsaver: Add vanir iconography to desert_android <PrimeDirective> 3 hours ago
+034412c : Added Non-Roaming for carrier BSNL in UP East and WEST INDIA <Aditya Pandey> 4 weeks ago
+74e024e : No need to hide flags in configChange <Clark Scheff> 25 hours ago
+fc10f78 : WallpaperCropper requires these permission. <Andy Mast> 25 hours ago
+2fe4cb3 : Fix wallpapers not applying in full screen <Andy Mast> 26 hours ago
+9ebe630 : Revert "WallpaperCropper requires these permission." <Andy Mast> 26 hours ago
+1b67a9d : CM11 Themes: Don't kill setup wizards <Clark Scheff> 2 days ago
+fdb5ab2 : CM11 Themes: Add themeChange config change to manifest <Clark Scheff> 2 days ago
+0d538df : Revert "CM11 Themes: Delay setting default theme" <Clark Scheff> 2 days ago
+b34d063 : wm: Simplify menu action decision paths <Ricardo Cerqueira> 32 hours ago
+9deaa30 : WallpaperCropper requires these permission. <baked> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+5732bf1 : Ensure that app lib symlinks are correctly labeled when created. <Stephen Smalley> 2 weeks ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_asus_tf700t
+https://github.com/Hardslog/android_kernel_asus_tf700t
+vani	git@github.com:VanirAOSP/kernel_asus_tf700t.git ****
+f01c647 : Vanir Pride <DHOMD> 2 hours ago
+158e998 : Now that it works... BREAK IT!   Add CFLAG + modflag optomizations <DHOMD> 4 hours ago
+f0ef3a4 : Squashed revert fo CPU Boost, return to this later <DHOMD> 5 hours ago
+86e63d5 : -O3 compilation fixups <showp1984> 2 years, 7 months ago
+73bddc5 : lib: avoid ICE on linaro 8.12 <Dennis Rassmann> 1 year, 8 months ago
+45fa81e : Remove taint <DHOMD> 5 hours ago
+8664f22 : Revert "cpufreq: cpu-boost: Use hotplug thread infrastructure" <DHOMD> 6 hours ago
+fc9fe36 : Revert last 4 commits, but keep in history if ever needed <DHOMD> 6 hours ago
+6e20a3f : stop_machine: Use smpboot threads <Thomas Gleixner> 1 year, 4 months ago
+5f0a01d : stop_machine: Mark per cpu stopper enabled early <Thomas Gleixner> 1 year, 3 months ago
+91473bd : smpboot: Allow selfparking per cpu threads <Thomas Gleixner> 1 year, 4 months ago
+773fced : smpboot: Provide infrastructure for percpu hotplug threads <Thomas Gleixner> 1 year, 10 months ago
+22a665e : Clean up + remove call to drivers/staging/media/* --- it does not exist <DHOMD> 6 hours ago
+e212e91 : ksm: Provide support to use deferred timers for scanner thread <Chintan Pandya> 3 months ago
+358440a : ksm: check and skip page, if it is already scanned <Pradeep Sawlani> 3 months ago
+a8f197f : Rethinking 1 ksm value <DHOMD> 7 hours ago
+ac82b8c : Optimize ksm <DHOMD> 7 hours ago
+3ec41df : Some LTO changes that did not get captures and  defconfig: enable cpu_power driver <DHOMD> 7 hours ago
+7b5650a :  Update ARM topology and add cpu_power driver <flar2> 7 months ago
+c4ab59f : ARM: 7182/1: ARM cpu topology: fix warning <Vincent Guittot> 2 years, 6 months ago
+8bff9c1 : ARM: 7011/1: Add ARM cpu topology definition <Vincent Guittot> 2 years, 10 months ago
+89d9ef3 : Add config option to enable/disable Link time optimization <metalspring> 12 days ago
+25e7e16 : silence some debugging <DHOMD> 7 hours ago
+c31fafe : cpufreq: cpu-boost: Handle wakeup hints received for foreground tasks <Rohit Gupta> 3 months ago
+c7f92ed : cpufreq: cpu-boost: Handle wakeup hints received for foreground tasks +++++++ <Rohit Gupta> 3 months ago
+3c25714 : cpufreq: cpu-boost: Don't register for cpufreq notifiers too early <Saravana Kannan> 4 months ago
+a2f0a36 : cpufreq: cpu-boost: Remove unused waitqueue <myfluxi> 4 months ago
+cc4de7c : cpufreq: cpu-boost: Fix queue_delayed_work_on() race with hotplug <Saravana Kannan> 4 months ago
+882de56 : cpufreq: cpu-boost: Use hotplug thread infrastructure <myfluxi> 4 months ago
+b60928d : cpufreq: Disable cpu-boost by default <Rohit Gupta> 6 months ago
+d2a08d7 : cpufreq: Add Input Boost feature to the cpu-boost driver <Rohit Gupta> 6 months ago
+2dcdb94 : cpufreq: Add a sync limit to cpu-boost <Rohit Gupta> 6 months ago
+9d41099 : cpufreq: Add cpu-boost driver <Saravana Kannan> 11 months ago
+ 
+**** cm	http://github.com/CyanogenMod/android_kernel_lge_hammerhead
+https://github.com/jimsth/vanir_hammerhead ****
+d17311a : defconfig: version 1.0.9 <Dan Trifan> 21 hours ago
+1c23be2 : cpufreq: cpuboost: Always consider current policy max <myfluxi> 31 hours ago
+e1a2227 : ASoC: msm: qdsp6v2: Add missing set to compress offload driver <Pranav Vashi> 5 weeks ago
+02dfc5d : logger: modify the sysfs for the enable toggle <Dan Trifan> 35 hours ago
+f1a7389 : PM: devfreq: fix simple_ondemand merge derps <Dan Trifan> 2 days ago
+fcb25fc : perf: Prevent false warning in perf_swevent_add <Jiri Olsa> 8 weeks ago
+50612f7 : cpufreq: cpu-boost: Consider only task load to decide on sync frequency <Girish S Ghongdemath> 8 weeks ago
+4f0e7b5 : smp: Allow booting a specific subset of CPUs <Stepan Moskovchenko> 10 days ago
+1094b22 : ASoC: wcd9xxx: Clear unsupported jack from hph status <Phani Kumar Uppalapati> 4 weeks ago
+fca8b69 : ASoC: wcd9xxx: Add check for buffer overflow <Aravind Kumar> 2 months ago
+027e4eb : ASoC: msm: ensure check before accessing session private data. <Asish Bhattacharya> 9 weeks ago
+68498cb : mmc: core: abort rescan if suspend is triggered <Asutosh Das> 4 weeks ago
+9a2ac03 : ASoC: msm8974: Set tx bit rate for slim tx params <Sudheer Papothi> 7 weeks ago
+6a7d144 : msm: perf: set filter bits for cycle counter on krait <Neil Leeder> 2 weeks ago
+f4a5a73 : Perf: Reset pmu after hotplug <Sheetal Sahasrabudhe> 4 months ago
+810114c : msm: perf: tracectr: Initialize cnts after hotplug <Sheetal Sahasrabudhe> 4 months ago
+24d2bc1 : msm: ocmem: Call restore_sec_config() after every power collapse <Neeti Desai> 4 weeks ago
+5b0c5ec : PM: devfreq: Fix simple_ondemand crashing on startup <myfluxi> 2 days ago
+7692ef3 : defconfig: updates for DEVFREQ_GOV_CONSERVATIVE <Dan Trifan> 2 days ago
+59cebda : msm: hotplug: Remove the redundant iowait check <myfluxi> 3 days ago
+507df9d : soc: qcom: rq_stats: remove the redundant iowait check <Anji Jonnala> 9 days ago
+567272c : PM / devfreq: Get priv data for msm-adreno-tz governor from dev_profile <Vladimir Razgulin> 5 weeks ago
+d96cbf9 : sched: window-stats: Fix overflow bug <Srivatsa Vaddagiri> 2 weeks ago
+8a72aa0 : ARM: dts: msm8974: Allow power collapse as minimum l2 gdhs mode <myfluxi> 4 days ago
+0f1ce33 : PM: devfreq: conservative: Return 0 if GPU just started <myfluxi> 5 months ago
+86d6a0e : PM: devfreq: Add some conservativeness <myfluxi> 5 months ago
+a4681fc : PM: devfreq: Add conservative governor <myfluxi> 5 months ago
+6330280 : defconfig: disable some debug options <Dan Trifan> 3 days ago
+e3b52a7 : bcmdhd: Disable Debugging <Chet Kener> 3 weeks ago
+de59d61 : mach-msm: Remove smd debugging <Chet Kener> 2 weeks ago
+40deee9 : cpufreq: Makefile: Reverse Alphabetize <Chet Kener> 9 days ago
+e562000 : block: Alphabetize IO Schedulers <Chet Kener> 9 days ago
+cf471e3 : Remove Sha from Depmod Part #2 <Chet Kener> 4 days ago
+8c176b7 : defconfig: enable auto localversion <Dan Trifan> 3 days ago
+4fe86b2 : Add config option to enable/disable Link time optimization <metalspring> 12 days ago
+b7031de : defconfig: enable SIO scheduler <Dan Trifan> 3 days ago
+bdc866a : Add SIO scheduler <glewarne> 7 months ago
+930f7c6 : block/partitions: optimize memory allocation in check_partition() <Ming Lei> 1 year, 3 months ago
+a3b28714 : cpufreq: ondemand: Calculate load_at_max_freq based on current policy->max <myfluxi> 5 days ago
+7c49363 : sched: Calculate max_possible_freq based on current policy->max <myfluxi> 5 days ago
+49bbdff : msm: hotplug: On- and offline cpus only when enabled <myfluxi> 6 days ago
+1ed7698 : Revert "defconfig: Disable MSM Run Queue stats" <myfluxi> 6 days ago
+7d74038 : msm: rq_stats: Disable hotplug and stats by default <myfluxi> 6 days ago
+db38174 : mmc: sdhci-msm: fix issue with tuning command <Sahitya Tummala> 3 months ago
+16687a8 : msm: kgsl: Update calculation for graphics IOMMU context IDs <Lokesh Batra> 4 months ago
+35bd713 : sched: Window-based load stat improvements <Srivatsa Vaddagiri> 9 weeks ago
+e948ee8 : sched: Disable wakeup hints for foreground tasks by default <Rohit Gupta> 6 weeks ago
+5bc8d0b : cpufreq: cpu-boost: Handle wakeup hints received for foreground tasks <Rohit Gupta> 3 months ago
+56f4da2 : sched: Call the notify_on_migrate notifier chain for wakeups as well <Rohit Gupta> 3 months ago
+7123cbe : cpufreq: cpu-boost: Introduce scheduler assisted load based syncs <Rohit Gupta> 3 months ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+710e441 : n_tty: Fix n_tty_write crash when echoing in raw mode <Peter Hurley> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+3cd517b : A CURSE UPON ALL HTC PHONES. CCCCUUUURRRRRSSSSEEEEE <nuclearmistake> 24 hours ago
+44a9205 : seriously, though... this non-vanir tracking bullshit is ruining the feng shui <nuclearmistake> 24 hours ago
+b9066ee : Ville: YOU GO TO HELL AND YOU DIE. <nuclearmistake> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+47255e4 : Alarm: Show a warning toast when alarm volume is set to silent <Vladimir Vainer> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Launcher3 ****
+68a62fb : Launcher: Add hotword detection <Guillaume Lesniak> 6 days ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+2bcaade : update init.d script only there are changes <h0rn3t> 4 hours ago
+fb1c4dc : ... <h0rn3t> 4 hours ago
+bcd286e : ... <h0rn3t> 12 hours ago
+0fe7527 : ... <h0rn3t> 14 hours ago
+ee313a5 : ... <h0rn3t> 14 hours ago
+bc01269 : ... <h0rn3t> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+21c02b2 : Settings: Remove "Make pattern visible" regardless. <Adnan Begovic> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/linaro_toolchains_2014 ****
+2f2a77f : Bring in 4.9.1 toolchains from Christopher83 <bart452> 12 days ago
+ 

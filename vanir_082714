@@ -1,0 +1,137 @@
+
+**** https://github.com/VanirAOSP/build ****
+8e044fb : Fixed mounting /system when 'override_prop' is enabled. <Martin Blumenstingl> 3 days ago
+0326b2a : Clang: krait devices not setting msm-3.4/prebuilt shouldn't use msm-3.4 flags <PrimeDirective> 21 hours ago
+ 
+**** https://github.com/VanirAOSP/device_asus_flo ****
+885f43c : CLANG: make use of msm-3.4 <PrimeDirective> 21 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+9718e7f : CLANG: TARGET_ENABLE_PREBUILT_CLANG := true <PrimeDirective> 21 hours ago
+ 
+**** https://github.com/VanirAOSP/device_nvidia_shieldtablet ****
+1ad76b4 : shieldtablet: Wifi sync with stock confgiuration <C457> 11 hours ago
+8c5ee59 : shieldtablet: use prebuilt bt blob for now <C457> 22 hours ago
+5d101d6 : shieldtablet: Bluedroid vendor config <C457> 22 hours ago
+c448980 : shieldtablet: Compile kernel with linaro 4.8 <C457> 24 hours ago
+b1f8b35 : Initial Commit <C457> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/device_nvidia_wx_na_wf ****
+aff01f1 : Initial Commit <C457> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_oneplus_bacon ****
+136d28f : CLANG: TARGET_ENABLE_PREBUILT_CLANG := true <PrimeDirective> 21 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+440935b : Revert "KLTE: CameraWrapper: "Come on, sugar... [klte] ain't no sailor"" <nuclearmistake> 9 hours ago
+1133135 : configs: import nfc configs from t-mobile NG3. <Matt Filetto> 11 hours ago
+321bb56 : configs: nfc: fix path for NFA storage <Matt Filetto> 15 hours ago
+38f103b : configs: remove the pn544 nfc configs for now <Matt Filetto> 15 hours ago
+cdddbfa : overlay: this seems like a good idea. <nuclearmistake> 20 hours ago
+ddcc67c : Location overlays: moto_msm8960 and oppo/apq8064 use these. I'm going to assume samsung hasn't joined that club. <nuclearmistake> 20 hours ago
+d7ca449 : add proxomity flag <elelinux> 33 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8974-common ****
+a22ea50 : msm8974: consumerir: Convert transmit input from ms to pulses <Christopher R. Palmer> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_sony_nicki ****
+05a479b : nicki: clean-up class_main script <RonGokhale> 35 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+e7cfa8b : stagefright: stop audio source if player fails to start <Scott Mertz> 5 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+7756c74 : AwesomeAction: Vertical justification: harder than it seems? <nuclearmistake> 19 hours ago
+476d948 : AwesomeAction: this handler doesn't need to override handleMessage <nuclearmistake> 19 hours ago
+5f31759 : frameworks: add last app animation, and make sure we handle userID all smart-like when switching apps. <Roman Birg> 2 days ago
+13e0645 : Revert "SystemUI: don't show eq tile while casting" <Roman Birg> 22 hours ago
+184a9a1 : Themes: Remove listener if exception is thrown <Clark Scheff> 2 days ago
+b9e7aab : Themes: Track NotFoundException on app launch failure <d34d> 5 days ago
+5abc180 : Themes: Fix setting wallpaper from a legacy theme <Clark Scheff> 5 days ago
+ 
+**** https://github.com/xboxfanj/android_kernel_htc_msm8974 ****
+08a5b7c : Sound Control: separate locking mechanism for recording and playback <Paul Reioux> 4 weeks ago
+ed4396f : Sound Control: let register lock be dependent on different hw revisions <Paul Reioux> 4 weeks ago
+e977895 : Sound Control: Misc clean up for newer WCD9xxx SOCs <Paul Reioux> 4 weeks ago
+f2e9560 : Sound Control: expose direct register manipulations to userspace <Paul Reioux> 7 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+8d4e229 : mdss: mdp: start vreg release index from PANEL_PM <Dhaval Patel> 6 weeks ago
+ce84bfe : msm: mdss: release pipes associated with respective process <Dhaval Patel> 3 weeks ago
+5799dc1 : msm: mdss: reset runtime status upon device resume <Aravind Venkateswaran> 3 months ago
+d48407d : video: mdss: Fixup power collapse <Steve Kondik> 16 hours ago
+3d05316 : msm: mdss: refactor MDSS idle power collapse logic <Aravind Venkateswaran> 5 weeks ago
+1d5b671 : qcom: rpm-smd: Mask the interrupt before sending the sleep set. <Mahesh Sivasubramanian> 7 weeks ago
+f90a7d5 : video: mdss: Color enhancement feature <Steve Kondik> 4 days ago
+c15c81f : msm: mdss: always set mdp_busy when partial update is disabled <Kuogee Hsieh> 8 weeks ago
+eb19c9b : msm: mdss: double check mdp ping pong done state <Adrian Salido-Moreno> 4 weeks ago
+7009fcb : ARM: dts: msm: use a corner regulator for wcnss VDD_CX on all boards <Yue Ma> 11 months ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+b6ec996 : Improve delete handling strings. <Danny Baumann> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+25490cf : Camera: Fix filtering of unsupported camcorder color effects <Michael Bestas> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+d06e036 : Improve strings. <Danny Baumann> 14 hours ago
+2164699 : DeskClock: Snooze based on snooze interval set by user during call. <Adnan> 2 days ago
+f459826 : DeskClock: Fix the start icon color of stopwatch turn gray when rotate <kaiyiz> 6 weeks ago
+5cba463 : DeskClock: Fix crash when click the dismiss in the notification <kaiyiz> 6 weeks ago
+4f04ce1 : DeskClock: Digital clock display incomplete when huge font size in chinese <kaiyiz> 7 weeks ago
+a7cea59 : DeskClock: The alarm ringtone name display error <kaiyiz> 3 months ago
+75f2486 : WorldClock: Remove duplicate Kiev translation entries <Ethan Chen> 12 days ago
+84b6915 : WorldClock: modify some cities on city list <kaiyiz> 3 months ago
+5e8911a : DeskClock: Fix alarm name display abnormal when choose audio <kaiyiz> 4 months ago
+fce93f2 : DeskClock: Fix DeskClock crash when click dismiss clock <kaiyiz> 4 months ago
+ff44b7a : DeskClock: Avoid DeskClock layout displays abnormally on landscape. <wjiang> 4 months ago
+1aceb75 : WorldClock:The Next icon is not working when search city on World clock <kaiyiz> 4 months ago
+a4b3205 : DeskClock: Request user to confirm power-on device on power-off alarm event <kaiyiz> 4 months ago
+187d05e : DeskClock: handle call events on alarm <kaiyiz> 5 months ago
+6f6d51f : DeskClock: handle call events on alarm <kaiyiz> 5 months ago
+ea4c923 : DeskClock: Fixed the ringtone name display incorrect when delete music file <kaiyiz> 5 months ago
+ceb4147 : DeskClock: Fix the delay or missed condition of the alarm after boot <Xiaocheng Li> 5 months ago
+620c208 : DeskClock: Avoid alarm ringtone changed as silent <wjiang> 5 months ago
+c2f8ddc : DeskClock: Search cities with any part of the name <kaiyiz> 5 months ago
+471cf7e : DeskClock: Alarm Vibrator can't stop while coming a MT voice call - Alarm Vibrator can't stop while coming a MT voice call - Add inTelephoneCall condition to stop Alarm Vibrate when receive a call. <kunleiz> 5 months ago
+a93f46e : DeskClock: Sometimes alarm can't stop while coming a MT voice call <wjiang> 6 months ago
+3af53eb : WorldClock: Fix cities/time zone entries <Ethan Chen> 12 days ago
+109e714 : WorldClock: Add some worldwide cities and update timezone <jiangmin> 7 months ago
+85b83cc : DeskClock: Add selection for external device <jiangmin> 8 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+3b69396 : Settings: Remove leftover from old theme chooser <Michael Bestas> 33 hours ago
+325af7c : Revert "Allow changing theme to Holo.Light without crashing" <Clark Scheff> 7 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_soundrecorder ****
+c8eca9d : Re-apply 'Revert regressions introduced by QRD update' <Danny Baumann> 6 days ago
+b2f4b54 : SoundRecorder: reset VU Meter upon pause <Likai Ding> 3 months ago
+e717067 : SoundRecorder: add a focus listener to change record state <wjiang> 3 months ago
+023a7ed : SoundRecorder: Fix menu item not display gray. <kaiyiz> 4 months ago
+4162d12 : SoundRecorder: Fix getSDPath() returns unexpected volume. <wjiang> 4 months ago
+fe4ab9b : SoundRecorder: Make pointer back to initial position. <kaiyiz> 5 months ago
+6adbb44 : audio: Reset mAudioSourceType once call disconnects <Chaithanya Krishna Bacharaju> 5 months ago
+255ae50 : SoundRecorder: Fix back key no response in pause state <kaiyiz> 5 months ago
+ce634c1 : MMS: Exit app after recording, if from MMS. <Zhang Fang> 5 months ago
+2ef5550 : SoundRecorder: Avoid error when record start and stop comes too closely. <wjiang> 5 months ago
+a45043b : SoundRecorder: set proper message and icon res in idle state <wjiang> 5 months ago
+73b6dc6 : SoundRecorder: Reset record state if length is less then 1s <wjiang> 5 months ago
+4b8a0d1 : SoundRecorder: audio source changes to UPLINK during incall state <wjiang> 5 months ago
+0162bad : audio: update mAudioSourceType during incall. <Divya Narayanan Poojary> 6 months ago
+fd3b5d7 : SoundRecorder: don't exit app when user accepts recorded clip <wjiang> 6 months ago
+d922752 : SoundRecorder: Fix timestamp mismatches in recorder and music app <wjiang> 6 months ago
+b6a5886 : Revert "Revert regressions introduced by QRD update." <Ethan Chen> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Torch ****
+c4921e6 : Torch: Update license string <Michael Bestas> 4 days ago
+ 
+**** https://github.com/VanirAOSP/packages_providers_MediaProvider ****
+2d008db : MediaProvider probably needs permission to read external storage. <nuclearmistake> 20 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+37e7fa3 : klte camera: rewrap <nuclearmistake> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+71dbf7b : Enable incall recording <DHOMD> 12 days ago
+b593544 : Add APNs for Claro (Panama) <neatchee> 27 hours ago
+ 

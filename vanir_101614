@@ -1,0 +1,223 @@
+
+**** https://github.com/VanirAOSP/build ****
+bf478fc : build: Enable Uyghur locale <Michael Bestas> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/motorola_msm8226-common ****
+bd9df9c : Revert "msm8226-common: Use correct CPU flags" <Konsta> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_oppo_common ****
+da81e63 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_aries-common ****
+6680418 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/Superuser ****
+342fd64 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+0c2ed09 : Themes: Force recompiling common resources when scanning theme <Clark Scheff> 9 days ago
+29fc872 : SystemUI (MSIM): Add extra vaules for sim state ready <cretin45> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_fm ****
+b2bb593 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8960 ****
+db58087 : radio: iris: Use #define to declare numerical constants <Dan Pasanen> 12 hours ago
+0deef91 : radio: iris: Fixed an issue with search stations list. <Satish Kodishala> 9 months ago
+66b1e2e : radio: iris: Bound check user space values <Ayaz Ahmad> 10 months ago
+96ba786 : radio: iris: Add NULL pointer check <Ayaz Ahmad> 1 year ago
+edc330a : radio: iris: Add the parameter to turn on/off sig blend <Sheng Fang> 1 year, 2 months ago
+1aa8b2d : radio-iris: Configure repeat count for PS string <Venkateshwarlu Domakonda> 1 year, 6 months ago
+95cd5f3 : radio: iris: Expose FM Radio commands and events to user-space <Venkateshwarlu Domakonda> 1 year, 6 months ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_motorola_msm8226
+https://github.com/InSaNiTy-Development/InSaNiTy_kernel_msm8226 ****
+2623ea2 : ARM: 7493/1: use generic unaligned.h <Rob Herring> 2 years, 2 months ago
+627c5ac : Disable -fconserve-stack on ARM v2 <Andi Kleen> 3 years ago
+a79f2d4 : mm: Add NULL check before de-referencing vma <Bharat Nihalani> 4 months ago
+c5051fd : mm: failslab: Add support to force slab alloc failures based on size. <Krishna Reddy> 2 years, 3 months ago
+dbc61fa : kernel: power: Add PM_USERSPACE_FROZEN workqueue <Arto Merilainen> 1 year, 2 months ago
+b53bb3f : freezer: set PF_SUSPEND_TASK flag on tasks that call freeze_processes <Colin Cross> 1 year, 3 months ago
+25e8385 : alarmtimer: Do not check for wake capability in registration <Chaitanya Bandi> 1 year, 9 months ago
+c8c6179 : ARM: Honor udelay convention for timer-based delay <Alex Frid> 1 year, 2 months ago
+4463194 : ARM: kgdb: ignore breakpoint instructions from user mode <Todd Poynor> 1 year, 3 months ago
+f1f4493 : ARM: Export LoUIS flush <Antti P Miettinen> 7 months ago
+74020c9 : ARM: mm: adding a check for slab objects in flush_dcache_page <Vishal Singh> 3 years, 2 months ago
+329ad7e : ARM: mm: Enable NCSE feature for A15 only <Bo Yan> 3 weeks ago
+1a86998 : ARM: mm: enable non-cacheable streaming enhancement <Bo Yan> 3 weeks ago
+1bb89e0 : ARM: 7650/1: mm: replace direct access to mm->context.id with new macro <Ben Dooks> 1 year, 8 months ago
+a585bb3 : ARM: cache-l2x0: get size of outer cache <Kirill Artamonov> 2 years, 1 month ago
+1daa6dd : ARM: dma: Drop GFP_COMP for DMA-IOMMU memory allocations <Hiroshi Doyu> 2 years, 6 months ago
+497f58e : ARM: mm: cache-l2x0: Implement outer_clean_all() <Kirill Artamonov> 2 years, 3 months ago
+d142c2f : ARM: LPAE: Invalidate the TLB for module addresses during translation fault <Catalin Marinas> 2 years, 8 months ago
+e05108a : ARM: remove unnecessary dcache_clean_area <Heechul Yun> 3 years, 3 months ago
+a1822b8 : ARM: mm: Skip I-cache invalidate for Cortex-A15 boot <Bo Yan> 1 year, 8 months ago
+c0b7517 : ARM: mm: Remove unnecessary CMO in Cortex A15 startup <Bo Yan> 1 year, 10 months ago
+3aeda4e : ARM: cleanup undefined instruction entry code <Russell King> 1 year, 8 months ago
+137b520 : arch: arm: lib: optimize memcpy for cortex-A15 <Jake Weinstein> 4 weeks ago
+deb1fc5 : kernel/smp.c: use '|=' for csd_lock <liguang> 1 year, 6 months ago
+7322462 : smp: enhance power efficiency <Sumit Singh> 6 months ago
+cb416b0 : hrtimer: enhance power efficiency <Sumit Singh> 6 months ago
+f9d8965 : sched: Trying to reduce power usage <Sumit Singh> 8 months ago
+0337ef2 : seqlock: enhance power efficiency <Sumit Singh> 6 months ago
+dfbf740 : cpu: enhance power efficiency <Sumit Singh> 6 months ago
+0d2c952 : ARM: including asm-generic/processor.h <Sumit Singh> 8 months ago
+26628bf : asm-generic: processor.h: adding new header file <Sumit Singh> 7 months ago
+614f97f : llist: defining relaxed version of llist_empty <Sumit Singh> 6 months ago
+0a6d2fc : asm-generic: relaxed.h: defined relaxed.h <Sumit Singh> 6 months ago
+2539d85 : sched: defining relaxed version of idle_cpu <Sumit Singh> 6 months ago
+3d86971 : arm: asm: relaxed.h: defined relaxed.h <Sumit Singh> 6 months ago
+d881510 : arm: atomic.h: defined relaxed atomic_read <Sumit Singh> 6 months ago
+cad96d9 : remove extre defconfigs <Ethan> 4 days ago
+1d09ccc : defconfig update <Ethan> 4 days ago
+a923a2f : arch: arm: lib: optimize memcpy for cortex-A15 <Chandler Zhang> 1 year, 7 months ago
+aa740bc : zram use 4 block devices insteaad of one <Ethan> 8 days ago
+6ebee3e :  -fstrict-aliasing in makefile <Ethan> 12 days ago
+807d7f9 : lib/lzo: Make sure rename lzo1x_decompress.c to lzo1x_decompress_safe.c <fuzz> 2 weeks ago
+3216547 : ARM: 7493/1: use generic unaligned.h <Rob Herring> 2 years, 2 months ago
+665b7b4 : ARM: 7928/1: kconfig: select HAVE_EFFICIENT_UNALIGNED_ACCESS for CPUv6+ && MMU <Will Deacon> 10 months ago
+1fdbe5c : ARM: 7583/1: decompressor: Enable unaligned memory access for v6 and above <Dave Martin> 1 year, 11 months ago
+75cdf7c : lib/lzo: huge LZO decompression speedup on ARM by using unaligned access <Markus F.X.J. Oberhumer> 1 year, 8 months ago
+9fc8ea6 : lzo: properly check for overruns <Greg Kroah-Hartman> 4 months ago
+ec60e88 : lib/lzo: huge LZO decompression speedup on ARM by using unaligned access <Markus F.X.J. Oberhumer> 1 year, 8 months ago
+8277aee : lib/lzo: Update LZO compression to current upstream version <Markus F.X.J. Oberhumer> 2 years, 2 months ago
+19dbc3f : lib/lzo: Rename lzo1x_decompress.c to lzo1x_decompress_safe.c <Markus F.X.J. Oberhumer> 2 years, 2 months ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_BasicSmsReceiver ****
+1461cef : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+1c87ad3 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_BluetoothExt ****
+a280feb : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Browser ****
+9cb033d : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+fe85f5a : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+ae54973 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+69dca15 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_CellBroadcastReceiver ****
+01ff5ef : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_CertInstaller ****
+1ddf3ba : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Contacts ****
+85fa16a : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+b39a4ac : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DSPManager ****
+99af4f1 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+0746f62 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+da62675 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Email ****
+3454b1a : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Exchange ****
+0e95c39 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Gallery2 ****
+c4be435 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_HTMLViewer ****
+9448072 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+eae3ce5 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_KeyChain ****
+9de8175 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+3bd6de6 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Nfc ****
+11a53db : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_PackageInstaller ****
+5537e22 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+d822db3 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_soundrecorder ****
+e23da0e : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Stk ****
+cc65d27 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Tag ****
+7ff0b4c : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Torch ****
+d22704c : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_UnifiedEmail ****
+c7603b8 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_VoiceDialer ****
+9be54af : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_input_LatinIME ****
+5dc20bc : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_CalendarProvider ****
+1053ad7 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_ContactsProvider ****
+d58f289 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_providers_DownloadProvider ****
+1bf992d : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_providers_MediaProvider ****
+b14c644 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_TelephonyProvider ****
+9e0c6a8 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_screensavers_Basic ****
+7138a1e : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_screensavers_PhotoTable ****
+627e389 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+9d4874f : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_wallpapers_Basic ****
+991a544 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_wallpapers_HoloSpiral ****
+bc3eb38 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_wallpapers_LivePicker ****
+71b1059 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_wallpapers_MagicSmoke ****
+b331d48 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_wallpapers_MusicVisualization ****
+7bbe291 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_wallpapers_NoiseField ****
+e7bc861 : Automatic translation import <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_wallpapers_PhaseBeam ****
+8d4d013 : Automatic translation import <Michael Bestas> 30 hours ago
+ 

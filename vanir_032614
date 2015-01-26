@@ -1,0 +1,123 @@
+
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+69ff8b9 : Revert "Add a copy of the updater binary to the recovery resources" <Matt Mower> 7 days ago
+da36597 : Use legacy property environment if old update-binary <Matt Mower> 7 days ago
+2371d9d : Make legacy prop environment available to recovery <that> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+75f344b : Revert "g2: tweaks" <nuclearmistake> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+23377db : msm8960-common: I don't want to see your face <Dave Daynard> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_smdk4412-common ****
+9e716ca : smdk4412: update batteryCurrentNowPath <markcs> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/external_bluetooth_bluedroid ****
+749a45b : Fix building for USB <Ricardo Cerqueira> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/Superuser ****
+0f79d4a : Superuser: PT-BR Translations <Gustavo> 9 days ago
+ 
+**** https://github.com/VanirAOSP/external_sepolicy ****
+4c7ebba : Kill a remnant of brokedick exfat support <nuclearmistake> 21 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+8733a2d : Frameworks : Make sure a reply is sent when not provisioning default apn <Danesh Mondegarian> 16 hours ago
+97b485a : Telephony: Allow ruim to fetch in cdma lte mode, <Shareef Ali> 7 months ago
+6d68ebc : DcTracker: Don't leave CMD_IS_PROVISIONING_APN dangling <Ricardo Cerqueira> 2 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+3f704fd : audio: Update call state from RIL during silent mode <Pavan Chikkala> 12 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_m7 ****
+e92906c : cpufreq: Fix broken uevents for cpufreq governor and cpu devices <myfluxi> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+a17a174 : msm: gemini: Reset the core incase of overflow error <Sunid Wilson> 11 months ago
+eaf0679 : cpufreq: Fix broken uevents for cpufreq governor and cpu devices <myfluxi> 5 days ago
+b1cee75 : Linux 3.4.84 <Greg Kroah-Hartman> 3 days ago
+7c0a02e : jiffies: Avoid undefined behavior from signed overflow <Paul E. McKenney> 8 months ago
+212b465 : ALSA: oxygen: modify adjust_dg_dac_routing function <Roman Volkov> 9 weeks ago
+dba7949 : Btrfs: fix data corruption when reading/updating compressed extents <Filipe David Borba Manana> 7 weeks ago
+7c1de35 : SCSI: storvsc: NULL pointer dereference fix <Ales Novak> 4 weeks ago
+3ce68dc : SCSI: qla2xxx: Poll during initialization for ISP25xx and ISP83xx <Giridhar Malavali> 4 weeks ago
+d9e8942 : SCSI: isci: correct erroneous for_each_isci_host macro <Lukasz Dorau> 7 weeks ago
+ff441df : SCSI: isci: fix reset timeout handling <Dan Williams> 7 weeks ago
+f8d17b6 : can: flexcan: flexcan_open(): fix error path if flexcan_chip_start() fails <Marc Kleine-Budde> 4 weeks ago
+5e764c5 : vmxnet3: fix building without CONFIG_PCI_MSI <Arnd Bergmann> 2 weeks ago
+6b4741d : vmxnet3: fix netpoll race condition <Neil Horman> 2 weeks ago
+18bd55f : KVM: SVM: fix cr8 intercept window <Radim Krčmář> 2 weeks ago
+7dab506 : drm/radeon/atom: select the proper number of lanes in transmitter setup <Alex Deucher> 3 weeks ago
+bfe635e : fs/proc/base.c: fix GPF in /proc/$PID/map_files <Artem Fetishev> 2 weeks ago
+e877d41 : NFS: Fix a delegation callback race <Trond Myklebust> 3 weeks ago
+02a4ed4 : libata: add ATA_HORKAGE_BROKEN_FPDMA_AA quirk for Seagate Momentus SpinPoint M8 (2BA30001) <Michele Baldessari> 3 weeks ago
+f863716 : firewire: don't use PREPARE_DELAYED_WORK <Tejun Heo> 3 weeks ago
+f37058b : firewire: net: fix use after free <Stefan Richter> 5 weeks ago
+a299804 : tracing: Do not add event files for modules that fail tracepoints <Steven Rostedt (Red Hat)> 4 weeks ago
+c5ad4fd : cpuset: fix a race condition in __cpuset_node_allowed_softwall() <Li Zefan> 4 weeks ago
+b46741f : genirq: Remove racy waitqueue_active check <Chuansheng Liu> 4 weeks ago
+bb7d79f : x86/amd/numa: Fix northbridge quirk to assign correct NUMA node <Daniel J Blueman> 13 days ago
+8271b4d : ARM: 7991/1: sa1100: fix compile problem on Collie <Linus Walleij> 4 weeks ago
+ec01230 : powerpc: Align p_dyn, p_rela and p_st symbols <Anton Blanchard> 3 weeks ago
+377f8ac : ALSA: usb-audio: Add quirk for Logitech Webcam C500 <Takashi Iwai> 3 weeks ago
+99792c0 : ALSA: oxygen: Xonar DG(X): capture from I2S channel 1, not 2 <Roman Volkov> 9 weeks ago
+cf828d9 : drm/ttm: don't oops if no invalidate_caches() <Rob Clark> 2 weeks ago
+c7fc368 : mwifiex: copy AP's HT capability info correctly <Amitkumar Karwar> 3 weeks ago
+8509583 : ath9k: Fix ETSI compliance for AR9462 2.0 <Sujith Manoharan> 6 weeks ago
+46a5a54 : mac80211: fix AP powersave TX vs. wakeup race <Emmanuel Grumbach> 5 weeks ago
+18684df : net: sctp: fix sctp_sf_do_5_1D_ce to verify if we/peer is AUTH capable <Daniel Borkmann> 3 weeks ago
+fc8927f : tg3: Don't check undefined error bits in RXBD <Michael Chan> 4 weeks ago
+73c6422 : virtio-net: alloc big buffers also when guest can receive UFO <Jason Wang> 5 weeks ago
+6ba4d1d : sched: Fix double normalization of vruntime <George McCollister> 5 weeks ago
+efcb918 : ocfs2 syncs the wrong range... <Al Viro> 6 weeks ago
+e7f76c8 : ocfs2: fix quota file corruption <Jan Kara> 3 weeks ago
+3b10265 : ASoC: msm: Null dereference check added <Anish Kumar> 13 days ago
+42c4b7e : Revert "msm: vidc: No need to allocate metadata by default" <Prados Das> 9 days ago
+06e59e0 : misc: isa1200: Add mutex for clk_on <Sarada Prasanna Garnayak> 2 weeks ago
+d5e7bb2 : USB: ci13xxx_msm: shutdown callback to disable D+ pullup <ChandanaKishori Chiluveru> 4 weeks ago
+a249035 : msm: kgsl: Remove sscanf() from kgsl_pwrctrl.c <Jordan Crouse> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/kernel_samsung_jf ****
+7d10c54 : cpufreq: Fix broken uevents for cpufreq governor and cpu devices <myfluxi> 5 days ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+fb1da93 : De-derp! <DHOMD> 2 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar
+cm2	https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+03b3619 : Calendar: PT-BR Translations <Gustavo> 9 days ago
+1658be8 : Calendar: NL translation AOSP fix <Eddy Witkamp> 21 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+88a3429 : DeskClock: DA translation <Jacob Overgaard Madsen> 24 hours ago
+56ca8b6 : DeskClock: CS translation <Ondrej Zima> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+5503428 : Dialer: IT translations <rheeze> 29 hours ago
+06adbdd : Dialer: CS translation <Ondrej Zima> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Gallery2 ****
+7ff0bca : Gallery2: CS translation <Ondrej Zima> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+79f5cd1 : Default non-intrusive InCallUI back to off <PrimeDirective> 22 hours ago
+126cbe1 : InCallUI: CS translation <Ondrej Zima> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+a8e5bde : Mms: CS translation <Ondrej Zima> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+8b125e3 : fix power menu NPE and use the correct drawable <PrimeDirective> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_soundrecorder ****
+ab6e5c9 : SoundRecorder: CS translation <Ondrej Zima> 24 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Stk ****
+2a9ae6f : Stk: PT-BR Translations <Gustavo> 9 days ago
+4594126 : Stk: CS translation <Ondrej Zima> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+9032de4 : Telephony: NL translation <Eddy Witkamp> 3 weeks ago
+7d631d0 : Telephony: IT translations <rheeze> 30 hours ago
+ 

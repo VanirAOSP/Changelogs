@@ -1,0 +1,97 @@
+
+**** https://github.com/VanirAOSP/art ****
+24ea451 : Finish fixing Zygote descriptor leakage problem <Dave Platt> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/bionic ****
+b19b11c : libc: cortex-a15 memcpy: fix missing .cfi_startproc errors <nuclearmistake> 9 hours ago
+71dff24 : Replace memcpy with the cortex-strings implementation <Bernhard Rosenkraenzer> 4 days ago
+5b99ebf : Import memchr implementation from cortex-strings for Cortex A15 <Bernhard Rosenkraenzer> 4 days ago
+db09d9e : Replace Cortex A15 strlen implementation with cortex-strings <Bernhard Rosenkraenzer> 6 days ago
+ 
+**** https://github.com/VanirAOSP/build ****
+faa2a73 : Allow complete opt out of per-arch toolchains with TARGET_KERNEL_USE_AOSP_TOOLCHAIN:=true <nuclearmistake> 16 hours ago
+ad05def : Revert "Allow devices to specify certain ro. props via TARGET_UNIFIED_DEVICE" <nuclearmistake> 18 hours ago
+18c8063 : edify_generator.py: Reconcile symlink wordwrapping w/ cm <nuclearmistake> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/dalvik ****
+7abfb03 : Remove old fork-and-specialize API <Dave Platt> 8 days ago
+0ba2fc8 : Finish fixing Zygote descriptor leakage problem <Dave Platt> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7-common ****
+cfea090 : m7-common: Re-enable performance profiles <Ethan Chen> 13 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+37875b3 : g2: add optimizations <bart452> 12 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+ab68e67 : omap4-common: fix permissions for cpufreq/scaling_min_freq <Michael Gernoth> 13 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_qcom-common ****
+e12461a : Fix extract-files for unified devices <dhacker29> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_hlte ****
+71233f7 : HLTE: Fix LED <kejar31> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_i9305 ****
+8bbfece : i9305: update telephony overlays <markcs> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jflte ****
+e05444b : jflte: increase read-ahead cache size <dcd> 7 days ago
+9ff82e8 : jflte: update fstab flags <dcd> 7 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+10a21c0 : msm8960: Make Samsung camera mode optional <Arne Coucheron> 8 weeks ago
+ 
+**** https://github.com/CyanogenMod/ion ****
+f0628a6 : Add original mime type to bitmap info. <Koushik Dutta> 31 hours ago
+1de2552 : Update README.md <Koushik Dutta> 8 days ago
+e6208cb : Update README.md <Koushik Dutta> 8 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+a92694a : AudioFlinger: Remove code for supporting resampling in fast tracks <Martin Storsjo> 2 weeks ago
+ff9f7e6 : AudioTrack: Never try to use the fast path if resampling is required <Martin Storsjo> 3 weeks ago
+41045ac : audioflinger: fix static track end detection <Eric Laurent> 9 weeks ago
+6027b7e : fix deadlock issues that arise when there are simultaneous effect control interface calls to proxy and to non sub-effect wrappers(eg., bundlewrapper) from audioflinger Also, return NO_ERROR when CMD_OFFLOAD succeeds <jpadmana> 3 months ago
+d93c066 : AudioTrack: fix position callback after restore <Eric Laurent> 3 months ago
+bfcfded : update offloaded audio track sampling rate <Eric Laurent> 7 months ago
+41f72b7 : Only increase the counter when we do take a wakelock <Jimmy Dalqvist> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+7917bbf : Fix Power Shutter Exception 2 of 2 <Abhisek Devkota> 2 days ago
+71421b1 : Sensor: Enable the motion accelerometer for screen orientation change <Oliver Wang> 5 months ago
+ae41fbc : systemui: Fix crash on theme change <Steve Kondik> 29 hours ago
+fc2fb1d : Finish fixing Zygote descriptor leakage problem <Dave Platt> 2 weeks ago
+5166d8e : Fix, MountService now only sends one onShutDownComplete <Rickard Helldin> 2 weeks ago
+8c879f8 : A background started service is removed from mStartingBackground when timeout. Fix is to make sure mStartingBackground is updated to remove one. <Junu Kim> 3 days ago
+f377b7d : core: Fix too long ON/OFF strings <Marco Brohet> 2 days ago
+6409c56 : FIX NAVBAR TOUCH EVENTS. woops <nuclearmistake> 34 hours ago
+2d1d164 : KeyButtonView: remove useless private getters <nuclearmistake> 2 days ago
+8d8cbce : Fix an NPE introduced 24b4a48f, and remove an unnecessary explicit local <nuclearmistake> 2 days ago
+1900bac : Expanded Desktop : Fix Left handed navbar during landscape mode <Pakkapon Phongthawee> 3 days ago
+efc0aa4 : Make Navring available to devices with no navbar <Steve Spear> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+0438f81 : sf: Enable swaprect optimization by default only on QCOMs <Steve Kondik> 3 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+737f7a6 : offload_visualizer: "violate" aliasing violations <nuclearmistake> 24 hours ago
+9465db9 : Revert "hal: Use new acdb-loader init api" <Steve Kondik> 3 days ago
+54c040b : mm-audio: Add some guards around legacy libraries <Steve Kondik> 3 days ago
+2e084df : audio: Changes to support AV streaming in offload path <ApurupaPattapu> 9 weeks ago
+29b8fc7 : hal: fix a memeory leak caused by using str_parms_to_str() <Narsinga Rao Chella> 3 weeks ago
+29b4fd5 : audio: update the vifeedback pcm device id <Gopikrishnaiah Anandan> 4 weeks ago
+bc136bd : hal: Fix input device selection for stereo recording <Walter Yang> 5 weeks ago
+490d347 : hal: Use new acdb-loader init api <Ben Romberger> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media-caf-new ****
+cc9a825 : Add flag for building proprietary codec <Steve Kondik> 18 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8960 ****
+680ae33 : msm: HTC: m7: Remove suspend/resume LPM function logging <Ethan Chen> 2 days ago
+1647f18 : msm: HTC: m7: Remove unnecessary usleep <Ethan Chen> 2 days ago
+9d90408 : msm: HTC: battery_8960: don't schedule update on suspend/resume <Ethan Chen> 3 days ago
+d873ad3 : misc: Remove psensor, pocket mode code <Ethan Chen> 3 days ago
+3b74145 : msm: HTC: m7: initialize clk_ctrl variable <Ethan Chen> 31 hours ago
+be1b48f : msm: HTC: m7: enable CMD_CLK_CTRL for display on <Ethan Chen> 2 days ago
+30e77e0a : ip_gre: remove duplicate pointer definition <Jon Haus> 6 weeks ago
+ 

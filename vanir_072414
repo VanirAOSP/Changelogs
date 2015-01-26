@@ -1,0 +1,123 @@
+
+**** https://github.com/VanirAOSP/bionic ****
+c5bcf78 : SIZE_MAX redefinition is only prevented in one of two possible header inclusion orders <nuclearmistake> 25 hours ago
+de4b59f : Re-export libgcc's __aeabi_uidivmod and __popcount_tab <Bernhard Rosenkränzer> 6 months ago
+f5e3e73 : Add __popcountsi2 to the function compat list. <Ben Cheng> 7 months ago
+ 
+**** https://github.com/VanirAOSP/build ****
+1af0f3a : build: add gcc 4.9 to the barrier <bart452> 8 weeks ago
+7cbdeb1 : while(build) derp(); <nuclearmistake> 22 hours ago
+ea36d57 : Omit some sketchy cflags when BONE_STOCK is defined <nuclearmistake> 25 hours ago
+f79ee09 : Fix internal compiler error when compiling w/ arm-linux-androidabi-4.7 <nuclearmistake> 25 hours ago
+a1bc533 : BONE_STOCK implies aosp kernel toolchains <nuclearmistake> 26 hours ago
+bb659a9 : BONE_STOCK: use 4.7 aosp toolchain <nuclearmistake> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/dalvik ****
+fa602ee : vm/oo/Class -- Remove unused variable <nuclearmistake> 26 hours ago
+d875332 : Dalvik :Increase the upper limit check for DexOpt Deps table <Tapas Pradhan> 5 weeks ago
+96de38b : dalvik: use memmove_words for word atomic memmove <Wei Wang> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_htc_dlx ****
+7a59183 : All CPUs on boot <DHOMD> 3 weeks ago
+4f28b1f : dlx: init: Tone down the cpu-boost driver <Christopher R. Palmer> 3 days ago
+a993d27 : dlx: init: Configure cpu-boost's plug_boost <Christopher R. Palmer> 3 days ago
+7df5153 : dlx: init: Fix configuration of cpu-boost sync_freq <Christopher R. Palmer> 3 days ago
+6038401 : dlx: init: Set read-ahead to 512 KB <Christopher R. Palmer> 3 days ago
+ 
+**** https://github.com/cannondalev2000/device_htc_evita ****
+a3266a7 : evita: Add separate VOIP use cases <Ethan Chen> 6 days ago
+21af52e : evita: fstab: Add misc partition <Matt Mower> 2 weeks ago
+4f3b6b2 : evita: Move custom recovery font to device tree <Ethan Chen> 2 weeks ago
+70e7362 : evita: Remove unnecessary data icon overlay options <Ethan Chen> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m4 ****
+83538db : All CPUs on boot <DHOMD> 3 weeks ago
+7b0c781 : Turns out the audio issue is not resolved by using cm's kernel, even though it works on CM <nuclearmistake> 28 hours ago
+18f8c5f : Remove banana from phone callee's ear (louder mics) <nuclearmistake> 29 hours ago
+ 
+**** cm	https://github.com/CyanogenMod/android_device_htc_ville
+https://github.com/cannondalev2000/device_htc_ville ****
+6887af5 : ville: Add separate VOIP use cases <Ethan Chen> 8 days ago
+c431605 : ville: fstab: Add misc partition <Matt Mower> 2 weeks ago
+b5ccbd6 : ville: Use smaller recovery font <Ethan Chen> 3 weeks ago
+1bc2742 : ville: update the readme <Brinly Taylor> 3 weeks ago
+ 
+**** https://github.com/cannondalev2000/device_motorola_falcon ****
+a885a08 : proprietary-files: No need for seperate xt1033 libs now <dhacker29> 3 weeks ago
+ 
+**** https://github.com/cannondalev2000/device_motorola_msm8226-common ****
+4bec532 : a15 <cannondalev2000> 19 hours ago
+a373970 : root: Update post_boot and switch to interactive <dhacker29> 3 weeks ago
+2ca35b3 : proprietary-files: Use stock rild/libril to fix missing phone number <dhacker29> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_i9500 ****
+196df42 : i9500: Remove deprecated defines <Ethan Chen> 3 days ago
+1fec3c8 : i9500: Move camera ID file to sane location <Ethan Chen> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+adfd4ce : klte is a vzw-unified device: act like it... and adopt a jflte-like recursive per-bootloader blob layout <nuclearmistake> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+e788dc9 : msm8960: Add bloat to support power off charging <Arne Coucheron> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8974-common ****
+a3d240b : Let msm8974 devices optimize cortex-a15 if they choose... otherwise, trust build. <nuclearmistake> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_semc_msm7x30-common ****
+6a4a195 : msm7x30: Readd props to disable strict mode <Michael Bestas> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/external_busybox ****
+bf57436 : selinux: remove dependency on libsepol static lib <Tanguy Pruvot> 32 hours ago
+45fbbd5 : darwin: fix make prepare, force prebuilt host compiler <Tanguy Pruvot> 33 hours ago
+ 
+**** https://github.com/CyanogenMod/android_external_vim ****
+4a50054 : vim: add a medium CM build variant <Tanguy Pruvot> 26 hours ago
+1d086c2 : add vimrc config file as a dependency for the product <Ricardo Cerqueira> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+fc98eeb : Revert "QuickBoot: don't wake up screen when usb connected" <Michael Bestas> 2 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+404b64e : Limit codec offload to devices with QCOM_AV_ENHANCEMENTS enabled <Ricardo Cerqueira> 9 hours ago
+719106f : hal: Avoid unnecessary rerouting for sample rate changes <Steve Kondik> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_fm ****
+d665503 : Automatic translation import <Michael Bestas> 6 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_mondrianwifi ****
+04eca51 : mondrianwifi: Enable RCU_FAST_NO_HZ across the board for msm8974 <Christopher R. Palmer> 35 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_smdk4412 ****
+89e6992 : mach-exynos: cpufreq: Show list of available frequencies <Donggeun Kim> 3 years ago
+ 
+**** https://github.com/VanirAOSP/kernel_sony_msm8x27 ****
+a7476d3 : Fix msm_fb.c <Arnav Gosain> 17 hours ago
+7e2a5a7 : FIH: Bring back Support for following modems <RonGokhale> 2 days ago
+bec974f : msm8x27: enable f2fs in defconfig <Arnav Gosain> 4 days ago
+881fbba : FS: import F2FS <dennes544> 5 months ago
+55ac26b : Optimized ARM RWSEM algorithm <Ashwin Chaugule> 2 years, 4 months ago
+0ee85fd : disable rtc writting <RonGokhale> 2 weeks ago
+c2b0b1f : Fix dancing cwm <Shardul Seth> 1 year, 7 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+aee7ced : Simplify use of TARGET_GCC_VERSION 4.9-linaro With this change just add TARGET_GCC_VERSION := 4.9-linaro without is big mess to use. <sudosurootdev> 5 weeks ago
+414dacf : change my device trees to my new git <EthanJ99> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+1a4a2c7 : Automatic translation import <Michael Bestas> 6 hours ago
+e5fd713 : Bluetooth: MAP: Close output stream before closing client session <Pradeep Panigrahi> 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_SamsungServiceMode ****
+7c15bff : Automatic translation import <Michael Bestas> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_input_LatinIME ****
+5143dba : Handle GCC 4.8 special case explicitly, rather than with this broke-ass helper function that returns true when building with gcc-4.7 <nuclearmistake> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+a4caaf0 : klte: use a recursive releasetool to enable unified vzw-prop support like on jflte <nuclearmistake> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+5d80478 : common: build f2fs for all targets <Dan Pasanen> 2 days ago
+1fb0f20 : m4: break stuff to fix stuff <nuclearmistake> 27 hours ago
+5649c4b : Revert "m4: kill until call audio restored" <nuclearmistake> 31 hours ago
+ 

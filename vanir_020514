@@ -1,0 +1,1231 @@
+
+**** https://github.com/VanirAOSP/build ****
+384dd1e : Prepare upcoming GCC 4.8 release. <Ben Cheng> 6 months ago
+ 
+**** https://github.com/xboxfanj/android_device_lge_gee-common ****
+6afe01d : Add gee as possible target; leave geespr and geehrc still for compatibility <Jake Weinstein> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+de685a0 : [test] cortex-a15 <PrimeDirective> 29 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_msm8960dt-common ****
+4e7c7af : Add CM performance profiles and recovery power modes <dhacker29> 19 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_qcom-common ****
+1f9090b : Move some overlays in from xt897 <dhacker29> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2-common ****
+98d95f6 : Update bluetooth configs to work with the recent caf merges <Zach> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2att ****
+7d88162 : d2att: remove all L series bootloaders <Dave Daynard> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_d710 ****
+76b9d0d : mokee bringup <martincz> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jf-common ****
+bf8af8c : [EXP] -mcpu=cortex-a15 <nuclearmistake> 8 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+f83359f : Revert "msm8960-common: fix up tethering" <Dave Daynard> 8 hours ago
+ 
+**** https://github.com/VanirAOSP/external_bluetooth_bluedroid ****
+ffb292f : Return an explicit error if initing BLE callbacks without support <Ricardo Cerqueira> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/Superuser ****
+a6cf75c : Fix merge derp: Emulated storage should be mounted in the child, not the parent. <Danny Baumann> 6 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+b7e0c0c : Fix up expanded layout <nuclearmistake> 10 hours ago
+1bc87e7 : Better expose 'QS Tiles and layout' function <Abhisek Devkota> 6 weeks ago
+bd53122 : ActivityManager: Fix monkey tests <Ricardo Cerqueira> 31 hours ago
+31dc7af : Revert "Fix error checking in MemoryFile." <Ricardo Cerqueira> 32 hours ago
+0af22dd : Restore ProfileGroup notification override functionality <Sam Mortimer> 4 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+3d6e905 : surfaceflinger: Properly fix aliasing violations <nuclearmistake> 6 hours ago
+9ca2285 : Revert "surfaceflinger: Work around aliasing violations" <nuclearmistake> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/hardware_ril ****
+82f69d2 : Fix parameter mismatch between header and implementation <Bernhard Rosenkränzer> 8 weeks ago
+ 
+**** https://github.com/xboxfanj/kernel_msm ****
+8d0396c : defconfigs: add gee defconfig (same as geehrc) <Jake W> 2 hours ago
+ 
+**** cm	http://github.com/CyanogenMod/android_kernel_lge_hammerhead
+https://github.com/jimsth/vanir_hammerhead ****
+b19892e : version 1.0.3 <Dan Trifan> 18 hours ago
+2088b5b : ARM: dts: msm: Increase OCMEM BW request for video decode <Vinay Kalia> 4 weeks ago
+208455c : ASoC: msm: hold lock while allocating and freeing ASM clients <Kiran Kandi> 9 weeks ago
+f9d4abf : ASoC: compress: Update lock for dpcm calls <Gopikrishnaiah Anandan> 5 weeks ago
+6d374ea : audio: ocmem: fix the ocmem driver crash during video playback <anish kumar> 3 weeks ago
+b3ed9fd : msm: mdss: Check extra mmb allocated to a pipe <Mayank Chopra> 2 months ago
+3ed54bc : msm: lpm: remove redundant assignment <Venkat Devarasetty> 13 days ago
+f8e1491 : gpu: ion: fix use-after-free in ion_heap_freelist_drain <Mitchel Humpherys> 6 months ago
+9812069 : ion: remove unused function <Mitchel Humpherys> 8 weeks ago
+837583b : msm: lpm_levels: fix driver compilation issue <Murali Nalajala> 2 weeks ago
+07b0981 : msm: mdss: Reset pipe's mfd parameter during pipe free <Mayank Chopra> 3 weeks ago
+292d75c : msm: mdss: Return suspend without delay in NOTIFY UPDATE <Krishna Chaitanya Parimi> 5 weeks ago
+0e55502 : ARM: dts: Reintroduce dual config for CPU on msm8974 <Girish Mahadevan> 3 weeks ago
+3e794fc : defconfig: disable CLEANCACHE <Dan Trifan> 2 days ago
+612e5c7 : workqueue: backport updates from kernel 3.7 <mrg666> 3 months ago
+638255e : workqueue: cond_resched() after processing each work item commit b22ce27 upstream. <mrg666> 4 months ago
+e1aee3e : workqueue: backport from Linux 3.6.11 to get the following patches by Tejun Heo that improves the latency of cpu hotplug events. workqueue: simplify CPU hotplug code workqueue: remove CPU offline trustee workqueue: don't butcher idle workers on an offline CPU workqueue: reimplement CPU online rebinding to handle idle workers https://wiki.linaro.org/WorkingGroups/PowerManagement/Doc/Hotplug#Workqueue <mrg666> 4 months ago
+26087ca : workqueue: rollback some changes to merge 3.6/3.7 backports. <franciscofranco> 4 weeks ago
+4fdb7cf : tcp: network speed tweak <Pranav Vashi> 4 days ago
+f4bfed9 : net/ipv4/tcp_output.c: conflicting types for 'tcp_write_xmit' <Andre Saddler> 5 weeks ago
+540fb9c : fat: limit the number of error prints <Asutosh Das> 8 days ago
+57c9f9f : mdss: display: add command mode mdp fifo underflow recovery <Kuogee Hsieh> 6 months ago
+2aad16e : Revert "iommu: msm: Add call to set maximum mapped size" <Dan Trifan> 4 days ago
+46c83ab : msm: msm_bus: Modify IB aggregation at master <Girish Mahadevan> 2 weeks ago
+fabd3f2 : msm: vidc: NULL terminate devicetree match table <Sachin Shah> 5 weeks ago
+4c845df : msm: mdss: clean up overlay resources properly when display is off <Xiaoming Zhou> 3 weeks ago
+2d18aa9 : arm: new way of handling ERESTART_RESTARTBLOCK <Al Viro> 1 year, 9 months ago
+944874a : arm: if there's no handler we need to restore sigmask, syscall or no syscall <Al Viro> 1 year, 9 months ago
+ca98563 : ASoC: msm: qdsp6v2: disable OCMEM by default <Banajit Goswami> 4 weeks ago
+44f9fa7 : cpufreq: interactive: Fix null pointer dereference in interactive governor <Vijay Ganti> 3 weeks ago
+a147296 : spmi: Correct pointer casting and arithmetic <Gilad Avidov> 7 weeks ago
+f18a864 : msm: msm_bus: Allow QOS address offset to be configurable <Girish Mahadevan> 9 weeks ago
+89a324e : usb: storage: enable scsi auto-suspend for USB UICC devices <Pavankumar Kondeti> 6 weeks ago
+f26cacd : scsi: Allow auto suspend override by low-level driver <Sujit Reddy Thumma> 9 weeks ago
+0eb84af : sd: call blk_pm_runtime_init before add_disk <Aaron Lu> 4 months ago
+1030053 : msm: vidc: add sleep of 100us before clock disable <Vikash Garodia> 4 weeks ago
+90c5bbe : mmc: queue: scale down the max_segs if memory allocation fails <Subhash Jadavani> 6 months ago
+848eb6b : Revert "mmc: core: do not reinsert prepeared FUA and FLUSH requests in stop flow". <Abhinay Reddy Vanipally> 8 days ago
+d829048 : msm: mdss: Add support for macro tile formats <Shalabh Jain> 7 months ago
+041745f : mdss: dsi: Resolving memory leak in parse dsi commands <Krishna Chaitanya Parimi> 4 months ago
+10b6910 : msm: ipc: Possible memory corruption due to Sign Conversion <Zaheerulla Meer> 4 months ago
+0582ca5 : msm: ipc: Fix SKB ownership for failure case <Zaheerulla Meer> 6 months ago
+94fcaf8 : msm: ipc: Add support to handle version 2 header <Karthikeyan Ramasubramanian> 10 months ago
+8965487 : msm: ipc: Pass the local service events to local clients <Karthikeyan Ramasubramanian> 6 months ago
+47db920 : msm: ipc: Cleanup a routing table entry under subsystem restart <Karthikeyan Ramasubramanian> 6 months ago
+ec9dba0 : msm: ipc: Fix memory leak <Zaheerulla Meer> 7 months ago
+e1f6993 : msm: ipc: Send Resume_Tx from the client/server context <Zaheerulla Meer> 7 months ago
+065083a : msm: ipc: Initialize unused elements of control message to 0 <Karthikeyan Ramasubramanian> 7 months ago
+a3156d5 : msm: ipc: Clean-up code redundancy <Arun Kumar Neelakantam> 8 months ago
+a366dc2 : msm: ipc: Serialize SMD XPRT CLOSE and OPEN events <Karthikeyan Ramasubramanian> 8 months ago
+b24dff0 : Revert "mmc: sdhci: retune on cmd or data CRC error" <Shruthi Krishna> 9 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+bc5081a : bluesleep_bcm: bring in some changes from ML1 <Dan Pasanen> 23 hours ago
+b9c88bb : Revert "d2: update bluetooth to latest d2 source drop (i535's ML1)" <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/MoKee/android_kernel_samsung_d710 ****
+8149477 : d710: MoKee bringup <Ryuinferno> 5 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+29e386e : msm: audio: fix build of sony effect <Giulio Cervera> 2 days ago
+34bb2da : ARM: dts: msm: Add new 'sharedmem' devices <Pratibhasagar V> 4 months ago
+21dd632 : msm: Remove old unused sdio related code <Venkat Gopalakrishnan> 5 weeks ago
+2b9cbd6 : ARM: dts: msm: Enable IBAT calibration for PM8941 <Anirudh Ghayal> 4 months ago
+c8b459a : ARM: dts: msm: update BMS OCV correction limits <Xiaozhe Shi> 3 months ago
+fd786f1 : kernel/msm: Add qrngp header file <Hariprasad Dhalinarasimha> 3 weeks ago
+2e79fc63a : ARM: dts: msm: allow VDD_CX to operate in AUTO mode for MSM8974Pro <David Collins> 7 weeks ago
+3fd8fbb : rhine: Enable msm_sharedmem UIO driver <Giulio Cervera> 25 hours ago
+670430d : defconfig: Enable msm_sharedmem UIO driver <Pratibhasagar V> 3 months ago
+46b8704 : defconfig: Disable CONFIG_SYSRQ_SCHED_DEBUG for MSM targets <Matt Wagantall> 9 weeks ago
+89f07c4 : kernel: enable internaldb on perf build <Tushnim Bhattacharyya> 7 weeks ago
+aba98dc : usb: storage: enable scsi auto-suspend for USB UICC devices <Pavankumar Kondeti> 6 weeks ago
+c1e15cd : USB: phy-msm-usb: mark floated charger as DCP type <Zhenhua Huang> 3 months ago
+5481c1c : usb: msm_otg: Add support for vdd min without phy retention <Saket Saurabh> 2 months ago
+382db16 : ehci-msm2: Add boundary check in echi driver <Saket Saurabh> 4 months ago
+39c2e40 : usb: misc: diag_bridge: use platform_device_register_simple <Jack Pham> 5 months ago
+5c382d9 : usb: ehci-msm-hsic: avoid double free of platform data <Pavankumar Kondeti> 6 weeks ago
+183c836 : USB: gadget: qdss: Flush pending works before function unbind <Manu Gautam> 3 weeks ago
+c7628b5 : USB: gadget: u_bam: Add module parameter for max packets pending with bam <Vijayavardhan Vennapusa> 4 weeks ago
+aeba1c5 : usb: f_qc_rndis: set context for encapsulated response <Dov Levenglick> 4 weeks ago
+692e427 : USB: u_serial: Don't free usb_requests in gs_close and reuse them <Manu Gautam> 6 weeks ago
+c1626d7 : USB: gadget: f_mtp: Fix bug in receive_file work <Vijayavardhan Vennapusa> 7 weeks ago
+0fe2d61 : USB: gadget: f_uac1.c: Fix bug in accessing freed buffer pointer <Vijayavardhan Vennapusa> 3 months ago
+0c2dd65 : usb: gadget: Fixing array index out of bound violation <Saket Saurabh> 3 months ago
+fd455f0 : USB: gadget: Add support to enable streaming mode with required function <Mayank Rana> 3 months ago
+302655f : USB: msm_otg: Add support for AHB2AHB Bypass Mode in device mode <Mayank Rana> 3 months ago
+e36fc5de : usb: core: Limit HCD old enumeration scheme request to root ports <Pavankumar Kondeti> 6 weeks ago
+18f5fab : USB: ccid_bridge: Add support for USB smart card class <Pavankumar Kondeti> 3 months ago
+9bbe0cf : USB: dwc3-msm: Fix USB connection issue after DCP charger disconnection <Vijayavardhan Vennapusa> 3 weeks ago
+1dd09db : USB: dwc3_msm: Disable all events before error recovery for Erratic event <Wesley Cheng> 3 weeks ago
+ab0cf93 : USB: dwc3: Fix compilation error when debugfs is disabled <Olav Haugan> 7 weeks ago
+c5e7fa8 : USB: dwc3: gadget: Add support for sending zero length packets <Vijayavardhan Vennapusa> 3 months ago
+24aac0d : USB: dwc3: Clear USB2PHY_SUSP bit during disconnect <Vijayavardhan Vennapusa> 3 months ago
+dc0ae71 : USB: gadget: ether: Clean up req->buf to avoid wild pointer <Figo Wang> 3 months ago
+0d470c9 : USB: gadget: rndis: Optimize tx path for better performance <Mayank Rana> 4 months ago
+81091b5 : usb: gadget: qdss: Fix usage on non-DWC3 controllers <Jack Pham> 4 months ago
+4db0eab : uio: msm_sharedmem: Add new device driver for sharedmemory access <Pratibhasagar V> 3 months ago
+0238614 : slimbus: Provide framer-booted notification to slimbus device drivers <Sagar Dharia> 8 weeks ago
+3235fdf : ashmem: avoid deadlock between read and mmap calls <Todd Poynor> 8 months ago
+213873f : staging: android: ashmem: get_name,set_name not to hold ashmem_mutex <Shankar Brahadeeswaran> 12 months ago
+1f60ad0 : scsi: Allow auto suspend override by low-level driver <Sujit Reddy Thumma> 9 weeks ago
+3256db3 : sd: call blk_pm_runtime_init before add_disk <Aaron Lu> 4 months ago
+0ac6cde : kernel: alarm: Do not call rtc_alarm_irq_enable in IRQ Disabled context <Prasad Sodagudi> 5 weeks ago
+f40dc10 : msm: fix incorrect termination of struct of_device_id arrays <Xu Kai> 9 weeks ago
+d66903a : input: powerkey: don't send dummy release event <Kun Liang> 9 weeks ago
+5cb902d : msm: platform: qpnp-clkdiv: fix potential null pointer dereference <David Collins> 8 weeks ago
+7aad6db : msm: sps: Enable the clocks when BAMDMA available <Dipen Parmar> 6 weeks ago
+deafe76 : msm: sps: Fix error case handling in probe function <Dipen Parmar> 2 months ago
+1dccce50 : msm: sps: Add integer wrap check for debugfs buffer <Dipen Parmar> 8 weeks ago
+5a38df3 : msm: sps: Add probe deferral support in sps driver <Dipen Parmar> 4 months ago
+aeafb5c : net: usb: Do not modify usbnet device context upon rx complete <Hemant Kumar> 4 weeks ago
+a909126 : Revert "mmc: core: do not reinsert prepeared FUA and FLUSH requests in stop flow". <Abhinay Reddy Vanipally> 8 days ago
+75b299f : Revert "mmc: sdhci: retune on cmd or data CRC error" <Shruthi Krishna> 9 days ago
+fc141bd : mmc: sdhci-msm: Fix clock gating while voltage switch is in progress <Sujit Reddy Thumma> 4 weeks ago
+bea387e : mmc: block: stop bkops during shutdown <Asutosh Das> 4 weeks ago
+35b57b7 : mmc: core: Hold host resume status while card rescan is in progress <Sujit Reddy Thumma> 4 weeks ago
+be63d30 : mmc: core: do not reinsert prepeared FUA and FLUSH requests in stop flow <Konstantin Dorfman> 4 weeks ago
+9d7501d : mmc: core: increase data-timeout value for Hynix cards <Asutosh Das> 8 weeks ago
+9daefe0 : mmc: sdhci: retune on cmd or data CRC error <Asutosh Das> 8 weeks ago
+263c21e : mmc: sdhci: fix NULL dereference in sdhci_request() tuning <Chris Ball> 1 year, 3 months ago
+c38844e : mmc: sdhci: fix incorrect command used in tuning <Aaron Lu> 1 year, 7 months ago
+d1d6a15 : mmc: card: fix arbitrary write via read handler in mmc_block_test <Maya Erez> 6 weeks ago
+b72a954 : mmc: core : fix arbitrary read/write to user space <Raviv Shvili> 3 months ago
+a2264cb : mmc: core : fix arbitrary read/write to user space <Raviv Shvili> 4 months ago
+da9be99 : mmc: host: Use sentinels for devicetree match tables <Sujit Reddy Thumma> 2 months ago
+e473681 : mmc: queue: scale down the max_segs if memory allocation fails <Subhash Jadavani> 6 months ago
+3ad0927 : mmc: core: fix buffer overflow during memcpy of ext_csd <Sujit Reddy Thumma> 9 weeks ago
+64c2a62 : mmc: sdhci-msm: enable controller clocks at MMC_POWER_UP <Asutosh Das> 3 months ago
+476c0b9 : mmc: sdhci: Turn on controller clocks and card power at MMC_POWER_UP <Asutosh Das> 3 months ago
+2737a37 : mmc: sdhci-msm: add USE_CORE_PM capability <Asutosh Das> 5 months ago
+36ed004 : mmc: core: disable runtime-pm if MMC_CAP2_CORE_RUNTIME_PM is not defined <Asutosh Das> 5 months ago
+a7ef9d5 : mmc: cd-gpio: Add sanity checks in mmc_cd_gpio_free() <Sahitya Tummala> 3 months ago
+d8b789f : mmc: core: increase timeout for disable cache operation <Maya Erez> 3 months ago
+f659a3f : mtd: msm_qpic_nand: Fix buffer overflow issue <Sahitya Tummala> 3 months ago
+5399d50 : msm: ipa: teth_bridge: bug fix in get_aggr_capabilities ioctl <Gidon Studinski> 3 months ago
+70412bc : msm: tspp: Fix memory leak <Hamad Kadmany> 8 weeks ago
+e03ad08 : tspp: Protect against buffer overflow <Hamad Kadmany> 3 months ago
+e48eb5b : zram: Change ratio to 90% for bad compress <Olav Haugan> 5 months ago
+0cccb93 : fbcmap: prevent memory overflow <Shalabh Jain> 3 months ago
+ed55085 : fbmem: Check failure of FBIOPUTCMAP ioctl <Pawan Kumar> 3 months ago
+fd60977 : msm: wfd:Wait for one more vsync cycle, if VSG running out of input frames <Srinu Gorle> 5 weeks ago
+eff6053 : [media] v4l2-ctrl: add constrained high h.264 profile to menu <Jorge Solano Altamirano> 3 months ago
+edca174 : media: dvb: Protect against variable update <Hamad Kadmany> 3 months ago
+1506a2e : radio: iris: Bound check user space values <Ayaz Ahmad> 7 weeks ago
+4ff9550 : radio: iris: Add NULL pointer check <Ayaz Ahmad> 4 months ago
+bebdef6 : radio: iris: Allow task to be interrupted <Ayaz Ahmad> 3 months ago
+c3d1646 : radio: iris: Avoid NULL pointer dereferencing <Ayaz Ahmad> 5 months ago
+3222f2b : radio: iris: Removed reference to user provided pointer. <Satish Kodishala> 7 weeks ago
+0fffa57 : radio: iris: Avoid memory leak and NULL pointer dereferencing <Ayaz Ahmad> 5 months ago
+2bc2405 : radio: iris: Prevent probable overflow <Ayaz Ahmad> 3 months ago
+4248fd9 : radio: iris: Use kernel API to copy data from user space <Ayaz Ahmad> 4 months ago
+2f5307e : radio: iris: Avoid inconsistent free <Ayaz Ahmad> 5 months ago
+d8760e9 : radio: tavarua: Added NULL checks for input arguments. <Satish Kodishala> 2 months ago
+412bd53 : radio: iris: Prevent loss of data <Ayaz Ahmad> 3 months ago
+aa3484b : radio: tavarua: Fix buffer overflow. <Satish Kodishala> 3 months ago
+c10828f : radio: tavarua: Fixes for memory leaks. <Satish Kodishala> 3 months ago
+6a33d3a : radio: iris: Add NULL pointer check <Ayaz Ahmad> 4 months ago
+2bd65ba : radio: iris: Checking if driver's buffer is large enough. <Satish Kodishala> 4 months ago
+3450836 : media: dvb: Add cache maintenance when working with SDMX <Hamad Kadmany> 8 weeks ago
+1ed9548 : media: dvb: Change printout from error to debug <Hamad Kadmany> 9 weeks ago
+89ef09b : media: dvb: Fix video framing <Hamad Kadmany> 9 weeks ago
+a537797 : input: don't send dummy release event when system resumes <Kun Liang> 8 weeks ago
+ae2e18f : hwmon: qpnp-adc: Add check for wrong calib data <Dipen Parmar> 2 months ago
+6fb2cfc : hwmon: qpnp-adc-current: Fix potential race condition <Siddartha Mohanadoss> 3 months ago
+19a1bf4 : hwmon: qpnp-adc: add battery thermistor mapping table for skug <Wu Fenglin> 7 weeks ago
+85d8963 : ARM: dts: msm: Add a new device tree for msm8926 SKUG PVT <Maria Yu> 7 weeks ago
+638641d : ARM: dts: msm: 8x26: add support for 1080p panel boards <Syed Rameez Mustafa> 3 months ago
+057b193 : ARM: dts: msm: update firmware ID for FT5336 <Bingzhe Cai> 3 months ago
+57764e2 : csdio: Remove the driver <Hamad Kadmany> 7 weeks ago
+4c6dd51 : USB: HSIC SMSC HUB: Pass AUXDATA while adding HSIC_HOST <Manu Gautam> 3 months ago
+8dafc92 : thermal: qpnp-adc-tm: Fix format specifier in snprintf <Dipen Parmar> 4 months ago
+dcaee35 : thermal: qpnp-adc-thermal: Add checks for low/high notification <Siddartha Mohanadoss> 3 months ago
+0d7773e : of: batterydata: fix a typo on flat-ocv-threshold-uv property reading <Wu Fenglin> 3 months ago
+73df1b4 : msm: smd: change bounds check on smd edges <Brent Hronik> 4 months ago
+b7c3ac9 : iommu: msm: Add call to set maximum mapped size <Laura Abbott> 3 months ago
+d3b315f : hwmon: epm_adc: Add debug logs <Siddartha Mohanadoss> 7 weeks ago
+e45a0cb : hsic_sysmon_test: Add check for userspace buffer size count <Saket Saurabh> 4 months ago
+1d05f40 : gpio: qpnp-pin: map interrupts only when required <Abhijeet Dharmapurikar> 4 weeks ago
+5e93686 : msm: krait-regulator: fix up CPU_UP_CANCELED handling <Abhijeet Dharmapurikar> 5 months ago
+250962c : msm: krait-regulator: fix the cold boot sequence <Abhijeet Dharmapurikar> 5 months ago
+710d1a7 : msm: krait-regulator: Add flag to disable LDO mode usage <Abhijeet Dharmapurikar> 5 months ago
+fd0c68f : qseecom: Add checks for user space buffer pointers <Zhen Kong> 2 months ago
+66c926b : qseecom: Removal of flags and options to protect listener memory <Hariprasad Dhalinarasimha> 5 months ago
+87951de : qseecom: Fix issues on key management scheme <Zhen Kong> 7 weeks ago
+2d4cf7a : qseecom: Add support for bus scaling <Zhen Kong> 5 months ago
+249cb3c : qseecom: Check input buffer from IOCTL <Hariprasad Dhalinarasimha> 3 months ago
+b03c91b : qseecom: Fix issues with qssecom_remove/exit APIs <AnilKumar Chimata> 4 months ago
+54eae91 : qseecom: Fix error handling path in receive_req() <AnilKumar Chimata> 7 months ago
+041742ec : qseecom: Copy userspace buffer into kernel space before dereferencing <Hariprasad Dhalinarasimha> 4 months ago
+6418d5d : qseecom:  Check for case where listener service is not found <Zhen Kong> 4 months ago
+1cd8e3e : qseecom: Remove debug  messages <Zhen Kong> 4 months ago
+80cd4a9 : arm/dts: msm8974: Change qseecom device tree setting <Zhen Kong> 4 months ago
+65f57b9 : msm: ecm_ipa: add differentiation for EP config <Talel Atias> 3 weeks ago
+2411d96 : rhine: Enable config to allow vmalloc savings <Neeti Desai> 5 months ago
+5b5ef14 : msm: msm8974: Add NFC I2C GPIO mux for 8974 <Houston Hoffman> 9 weeks ago
+cc0324f : cpufreq: interactive: Fix null pointer dereference in interactive governor <Vijay Ganti> 3 weeks ago
+bf2eaaa : cpufreq: Fix policy getting stuck when user & kernel min/max don't overlap <Saravana Kannan> 7 weeks ago
+e83703b : cpufreq: interactive: Use default min_sample_time if SDF is zero <Rohit Gupta> 7 weeks ago
+c41f4d3 : cpufreq: interactive: Modifying sync_freq implementation <Rohit Gupta> 7 weeks ago
+19077fd : cpufreq: ondemand: Remove unnecessary synchronization attempt <Srivatsa Vaddagiri> 3 months ago
+d01b9ff : ondemand: add sysfs entry for down_diff_multi_core <Krishna Vanka> 8 weeks ago
+7ff8110 : cpufreq: interactive: Remove trace event from idle_start handler <Rohit Gupta> 8 weeks ago
+f9c8305 : cpufreq: ondemand: fix timer-related list corruption in store_powersave_bias() <Osvaldo Banuelos> 9 weeks ago
+8fd5bcf : cpufreq: remove sony stuff <Giulio Cervera> 31 hours ago
+90ec8c53 : cpufreq: interactive: Reset floor_validate_time if busy at max for 100ms <Rohit Gupta> 2 months ago
+9e87123 : cpufreq: interactive: sync freq feature for interactive governor <Rohit Gupta> 3 months ago
+1b7b1e9 : cpufreq: interactive: Allow 1 ms error in above_hispeed_delay comparisons <Rohit Gupta> 3 months ago
+62abb95 : cpufreq: Disable cpu-boost by default <Rohit Gupta> 9 weeks ago
+86f56d7 : cpufreq: Add Input Boost feature to the cpu-boost driver <Rohit Gupta> 2 months ago
+ff75883 : cpufreq: Add a sync limit to cpu-boost <Rohit Gupta> 3 months ago
+783d5b8 : cpufreq: Add cpu-boost driver <Saravana Kannan> 7 months ago
+77f713207 : cpufreq: interactive: Add a sampling_down_factor for max frequencies <Rohit Gupta> 3 months ago
+eb7673e : cpufreq: interactive: fix show_target_loads and show_above_hispeed_delay <Minsung Kim> 6 months ago
+d031c14 : cpufreq: interactive: resched timer if max freq raised <Lianwei Wang> 10 months ago
+b2b2770 : cpufreq: interactive: fix race on cpufreq TRANSITION notifier <Lianwei Wang> 9 months ago
+96e9647 : cpufreq: interactive: avoid underflow on active time calculation <Minsung Kim> 10 months ago
+f8c058e : cpufreq: interactive: reduce chance of zero time delta on load eval <Todd Poynor> 10 months ago
+9f4c07e : cpufreq: interactive: handle errors from cpufreq_frequency_table_target <Todd Poynor> 10 months ago
+1cc3007 : cpufreq: interactive: fix uninitialized spinlock <Minsung Kim> 10 months ago
+0313ac7 : cpufreq: interactive: base above_hispeed_delay on target freq, not current <Todd Poynor> 11 months ago
+bd25ee5 : cpufreq: interactive: fix crash on error paths in get_tokenized_data <Todd Poynor> 11 months ago
+1ee0760 : cpufreq: interactive: add io_is_busy interface <Lianwei Wang> 12 months ago
+bf6409f : cpufreq: interactive: allow arbitrary speed / delay mappings <Minsung Kim> 12 months ago
+1f95689 : diag: Safeguard for bound checks and integer underflow <Katish Paran> 6 weeks ago
+e15a57e : diag: dci: Safeguard to prevent integer overflow <Katish Paran> 6 weeks ago
+eb66d6a : diag: Send non real time control packet to all peripherals <Ravi Aravamudhan> 3 months ago
+48ee731 : diag: dci: Safeguard to prevent Integer Underflow and Memory Leak <Katish Paran> 7 weeks ago
+a51b785 : diag: Fix improper handling of Diag real time vote IOCTL <Ravi Aravamudhan> 8 weeks ago
+433d1a3 : diag: Correct the minimum dci packet length <Dixon Peterson> 4 months ago
+38a47be : diag: dci: Remove the cap on number of delayed rsp registrations <Ravi Aravamudhan> 8 weeks ago
+8dcc8cb : diag: dci: DCI setting event_config variable incorrectly <Mohit Aggarwal> 9 weeks ago
+509f36a : diag: diag over uart not working for QSC <Mohit Aggarwal> 9 weeks ago
+298d32b : diag: Enable  APSS diag hdlc encoding <Dixon Peterson> 5 months ago
+0f14635 : diag: Handle Mutexes correctly in the case of Callback data <Ravi Aravamudhan> 3 months ago
+c546ff3 : CPU hotplug, debug: detect imbalance between get_online_cpus() and put_online_cpus() <Srivatsa S. Bhat> 1 year, 4 months ago
+ef91701 : rtc: alarm: have dummy set_power_on_alarm function <Maria Yu> 4 weeks ago
+688ce32 : rtc: alarm: init power_on_alarm_lock mutex in alarmtimer_rtc_timer_init <Kumar Gala> 5 weeks ago
+e187b52 : sched: Fix clear NOHZ_BALANCE_KICK <Vincent Guittot> 8 months ago
+a95f515 : tracing/sched: add load balancer tracepoint <Steve Muckle> 3 months ago
+ce43d43 : mm: change freepage state correctly in __isolate_free_page <Laura Abbott> 9 weeks ago
+8fd1acf : add extra free kbytes tunable <Rik van Riel> 2 years, 5 months ago
+7debf3a : mm: swap: Rate limit swap write errors <Olav Haugan> 3 months ago
+91e3eac : mm: vmscan: Move pages that fail swapout to LRU active list <Olav Haugan> 3 months ago
+2f0700f : mm: vmscan: fix do_try_to_free_pages() livelock <Lisa Du> 5 months ago
+6b28217 : swap: add per-partition lock for swapfile <Shaohua Li> 12 months ago
+8836acd : msm: thermal: Add support for requesting optimum current for CX rail <Ram Chandrasekar> 8 weeks ago
+f5d55ec : msm: thermal: Add IOCTL interface support to Kernel Thermal Monitor <Ram Chandrasekar> 3 months ago
+89efecc : msm: thermal: Add support for emergency frequency mitigation <Ram Chandrasekar> 3 months ago
+45fbbe8 : Revert "Revert "msm: thermal: Clean up msm cpufreq function calls"" <Jennifer Liu> 5 months ago
+6f2552e : msm: thermal: Don't initialize hotplug thread when not configured <Ram Chandrasekar> 3 months ago
+198db84 : thermal: Add Support for enabling and disabling tsens trip <Ram Chandrasekar> 4 months ago
+1f824b9 : pwm: qpnp: provide both nsec/usec-supported pwm config() functions <Xu Kai> 9 weeks ago
+c3e498f : leds: leds-qpnp: Rename WLED OVP Enumeration <Abinaya P> 6 weeks ago
+12dff34 : leds: leds-qpnp: Correctly terminate of_device_id array <Himanshu Aggarwal> 2 months ago
+d6433e7 : msm: clock-8226: Fix compile errors when CONFIG_DEBUG_FS is removed <Patrick Daly> 4 months ago
+14cb416 : msm: clock: Add is_better_rate() helper function <Saravana Kannan> 5 months ago
+240d4d6 : PM / devfreq: fix find_governor_data() function <Vladimir Razgulin> 7 months ago
+561413a : PM / devfreq: Add new flag to do simple clock scaling <Sahitya Tummala> 4 months ago
+f9ce0e9 : PM / devfreq: Add a new target flag for the performance governor <Vladimir Razgulin> 3 months ago
+ad5d728 : PM: devfreq: Fix the fast ramp case in the adreno governor <Lucille Sylvester> 3 months ago
+02bb89a : devfreq: governor_cpubw_hwmon: Remove sample_ms and fix round up of freq <Saravana Kannan> 3 weeks ago
+da05ce3 : ARM: dts: msm: Enable emergency frequency mitigation for MSM8974 <Ram Chandrasekar> 4 months ago
+807ba90 : ARM: dts: msm: Add kraitbw-l2pm device for 8974. <Saravana Kannan> 3 months ago
+392cff8 : ARM: dts: msm: Modify bus vector for RNG client on msm8974 <Girish Mahadevan> 3 weeks ago
+8b0f1db : ARM: dts: msm: List all possible BW levels in cpubw for 8974 <Panwar Vivek> 2 weeks ago
+fa2211e : ARM: dts: msm: Add CX regulator Phandle to MDP node <Chandan Uddaraju> 5 months ago
+d415cdd : Revert "msm: clock: Add parent fields to gcc_ce1_clk and gcc_ce2_clk" <Giulio Cervera> 33 hours ago
+ab5c5e0 : msm: clock-a7: fix memory corruption due to out of boundary write <Prasad Sodagudi> 5 weeks ago
+4166e0e : msm: clock-a7: Correct cpu clock reference count <Patrick Daly> 3 months ago
+e3bb3e2 : msm: clock-a7: Parse data from device tree <Patrick Daly> 6 months ago
+459d5f1 : msm: clock-a7: Add functions to implement mux_div ops for a7 <Patrick Daly> 5 months ago
+5ebc33c : msm: clock-krait: Fix register checking for div clock <Junjie Wu> 6 months ago
+12c49bc : msm: clock-krait-8974: Expose PVS table data through module parameters <Matt Wagantall> 7 weeks ago
+f53a97f : msm: clock: Add a new API to print registers for debugging <Patrick Daly> 4 months ago
+4506a7f : msm: clock-8974: Reduce PLL lock time <Shalabh Jain> 4 months ago
+7d187e6 : msm: clock-mdss: Update the PLL lock sequence for 8x26 <Padmanabhan Komanduru> 2 months ago
+b999403 : msm: clock-mdss-8974: Proper hdmi set rate <Ajay Singh Parmar> 3 months ago
+f15154c : msm: clock-mdss-8974: Enable AHB clock before register access <Ajay Singh Parmar> 4 months ago
+2f0e073 : msm: clock-mdss-8974: Set min/max div for fixed divider clocks <Junjie Wu> 4 months ago
+1530813 : msm: clock-pll: Add round_rate for table based plls <Patrick Daly> 6 months ago
+9ff463e : msm: clock: Check that round_rate is less than fmax <Patrick Daly> 4 months ago
+d0b87c5 : msm: clock: Allow set_parent on clocks without the set_parent op <Vikram Mulukutla> 5 months ago
+b2b510a : msm: clock: Don't update clk->parent in clk_set_parent() <Saravana Kannan> 7 months ago
+3851b0c : msm: clock: Call regulator_enable/disable when updating vdd <Junjie Wu> 6 months ago
+f47c33f : msm: cpufreq: Avoid NULL clock pointer references <Patrick Daly> 7 weeks ago
+9f30c9f : devfreq: Add CPUBW HW monitor governor. <Saravana Kannan> 5 months ago
+5aa6eda : devfreq: Add MSM CPUfreq governor <Saravana Kannan> 2 months ago
+55700f0 : ARM: dts: msm: Reduce Krait-DDR IB votes from CPU driver for 8974Pro <Saravana Kannan> 4 months ago
+fe0e554 : ARM: dts: msm8974pro: Correct nominal GPU frequency request <Lucille Sylvester> 8 weeks ago
+0f2c7b2 : msm: devfreq_cpubw: Add devfreq driver for CPU to DDR bandwidth voting <Saravana Kannan> 3 months ago
+c6c8865 : Kconfig: Add CONFIG_MSM_CORTEX <Patrick Daly> 3 months ago
+935b261 : Kconfig: Enable config to allow vmalloc savings <Neeti Desai> 3 months ago
+9c49089 : msm: clock-krait-8974: Change ref count behavior at boot <Mahesh Sivasubramanian> 3 months ago
+09efe31 : msm: cpufreq: Remove unused msm_cpufreq_set_freq_limits() API <Saravana Kannan> 5 months ago
+d8cc850 : msm: cpufreq: Add msm_cpufreq debugfs file to show CPU -> L2/BW mapping <Xiaogang Cui> 5 months ago
+8a18da2 : msm: cpufreq: Update frequency index <Patrick Daly> 6 months ago
+5b2be6f : msm: cpufreq: Add support for CPU clocks and msm-cpufreq device <Saravana Kannan> 8 months ago
+9c888ba : msm: mdss: do not shut down edp link during link training <Kuogee Hsieh> 4 months ago
+9fb04e5 : mdss: display: add mdp core clock to edp control <Kuogee Hsieh> 6 months ago
+64ad763 : mdss: display: add edp frame rate <Kuogee Hsieh> 5 months ago
+7167d1c : mdss: display: add support of additional EDP color bit component <Kuogee Hsieh> 5 months ago
+6d83b5a : msm: mdss: Change eDP backlight pwm_config to use nanoseconds <Benet Clark> 7 weeks ago
+e78330f : pwm: qpnp: modify to use pwm_config_us() for some qcom drivers <Xu Kai> 7 weeks ago
+e93bc2c : msm: mdss: Read the max brightness level from device tree <Ping Li> 3 months ago
+48f7df9 : mdss: display: edp continuous splash support. <Manish Kumar> 8 weeks ago
+af0678a : msm: mdss: Detach mdss iommu on static screen <Pawan Kumar> 9 weeks ago
+fee0a6b : msm: clock-8974: Allow measurement of clocks in the WCNSS <Vikram Mulukutla> 7 weeks ago
+1069257 : msm: clock-mdss-8974: Dynamic HDMI PHY-PLL configuration <Ajay Singh Parmar> 5 months ago
+9072701 : clock-mdss-8974: Switch HDMI clocks to use the new PLL implementation <Ajay Singh Parmar> 6 months ago
+173fe65 : mdss: clock: add edp dynamic clock rate support. <Kuogee Hsieh> 6 months ago
+2e6699c : msm: clock-generic: Add a combined mux_div clock <Patrick Daly> 6 months ago
+168b4e6 : msm: clock-generic: Add a get_rate op for slave dividers <Vikram Mulukutla> 5 months ago
+b1e2183 : msm: clock-generic: Move mux_reg_ops to clock-local2 <Vikram Mulukutla> 5 months ago
+4ca87fb : msm: clock-generic: Allow separate enable/mux-select registers <Vikram Mulukutla> 5 months ago
+3c656db : msm: clock-generic: Add get_rate op for ext clocks <Vikram Mulukutla> 5 months ago
+d3390a3 : msm: clock-generic: Return best parent_rate from div_round_rate <Patrick Daly> 5 months ago
+1356c7e : msm: clock-generic: Reorganize divider clock parameters <Patrick Daly> 5 months ago
+797a94d : msm: clock-generic: Introduce an ext_clk clock type <Vikram Mulukutla> 7 months ago
+c23063d : msm: clock-generic: Update the rate field on mux parent change. <Saravana Kannan> 7 months ago
+e4870e3 : msm: clock-generic: Refactor round rate code <Saravana Kannan> 5 months ago
+37df539 : msm: clock-generic: Add support for recursive set parent to mux_clk <Saravana Kannan> 7 months ago
+1d344e2 : msm: clock-8974: Update lookup table for NFC clocks <Houston Hoffman> 9 weeks ago
+7f23cb2 : ARM: dts: msm: Add clock-krait and msm-cpufreq device for msm8974 <Saravana Kannan> 9 months ago
+7eda8c7 : ASoC: msm8974: Update PCM MUX for 8974Pro variant <Banajit Goswami> 3 months ago
+0026154 : msm: clock-krait-8974: Fall back to safest PVS when table not found <Junjie Wu> 4 months ago
+0db5b7a : clock-krait-8974: Increase PVS bin efuse field to a 4-bit field <Saravana Kannan> 5 months ago
+dfa2322 : msm: clock-krait: Read CONFIG_CTL value and the vco mask from DT <Vikram Mulukutla> 5 months ago
+2d60917 : msm: clock-krait: Always configure low performance level krait clock tree <Saravana Kannan> 5 months ago
+4908755 : msm: clock-krait-8974: Run force reinit sequence for all CPUs <Saravana Kannan> 5 months ago
+942ccb9 : msm: clock-krait-8974: Add support for 8974 Krait clocks <Saravana Kannan> 1 year, 4 months ago
+16520d7 : msm: clock-8610: Allow measurement of clocks in the WCNSS <Vikram Mulukutla> 7 weeks ago
+7dae1aa : msm: clock-8610: Add clock lookup entries for clock-a7 driver <Patrick Daly> 3 months ago
+1d61a54 : msm: clock-8x10: Update lookup table for NFC clocks for PVT <Houston Hoffman> 3 months ago
+4a5fdec : msm: clock-8610: Switch camera muxes to generic mux implementation <Vikram Mulukutla> 7 months ago
+c3293a1 : msm: clock-8610: Add 12 MHz for blsp spi <Patrick Daly> 3 months ago
+a8fb15d : msm-camera: enable csi-ahb-clk while accessing csi phy registers. <Chandan Gera> 4 months ago
+dea88fd : Revert "msm: clock-nfc: fix clock voting to keep BBCLK2 on durring idle mode power collapse" <Manish Kumar> 5 weeks ago
+bad9048 : msm: clock-8226: Allow measurement of clocks in the WCNSS <Vikram Mulukutla> 7 weeks ago
+0dfa495 : msm: clock-nfc: fix clock voting to keep BBCLK2 on durring idle mode power collapse <Houston Hoffman> 3 months ago
+88a7523 : msm: clock-8226: Add clock lookup entries for clock-a7 driver <Patrick Daly> 5 months ago
+969b63e : msm: clock: Add 63.16 MHz rate to UART clocks <Vikram Mulukutla> 3 months ago
+9189ab2 : msm: clock: Add parent fields to gcc_ce1_clk and gcc_ce2_clk <Vikram Mulukutla> 3 months ago
+7ce9f31 : msm: acpuclock-cortex: Fix off by one error for large frequency tables <Patrick Daly> 4 months ago
+4cdad20 : msm: acpuclock: Delete legacy acpuclock-krait drivers <Saravana Kannan> 5 months ago
+16715cf : msm: acpuclock-krait: Update 'unknown rate' debug prints to warnings <Matt Wagantall> 3 months ago
+db85bbc : msm: acpuclock-8974: Remove unused 8974v1-specific data and code <Matt Wagantall> 3 months ago
+e3dbc99 : ASoC: msm: qdsp6v2: Add support for probe deferral in audio ocmem driver <Phani Kumar Uppalapati> 3 months ago
+ffd43f1 : msm: ipa: Fix the format string vulnerability. <Skylar Chang> 3 months ago
+6817914 : ARM: dts: Reintroduce dual config for CPU on msm8974 <Girish Mahadevan> 3 weeks ago
+91019d8 : ARM: dts: msm: Remove dual configuration for CPU on msm8974 <Girish Mahadevan> 3 months ago
+9916574 : spmi: pmic_arb: Fix opcode calculate error in pmic_arb_cmd <Wu Fenglin> 6 weeks ago
+556eb98 : spmi: Correct pointer casting and arithmetic <Gilad Avidov> 7 weeks ago
+bdc5870 : msm: bam_dmux: modify DL low memory algorithm <Jeff Hugo> 7 weeks ago
+56007d3 : msm: bam_dmux: Fix race condition during SSR <Arun Kumar Neelakantam> 4 months ago
+134de92 : msm: bam_dmux: add loopback support <Brent Hronik> 5 months ago
+d6250a8 : msm: bam_dmux: tune downlink polling parameters <Anurag Singh> 6 months ago
+e302cf2 : msm: cpr-regulator: add support for quotient adjustment algorithm <Ke Liu> 3 months ago
+624816d : msm: cpr-regulator:  remove maxmize and restore down threshold <Ke Liu> 4 months ago
+10bafcd : msm: cpr-regulator: change device tree vendor prefix from 'qti' to 'qcom' <Ke Liu> 6 weeks ago
+0397a89 : ARM: dts: msm: change cpr SVS voltage for msm8x10 <Ke Liu> 7 weeks ago
+c9b718a : ARM: dts: msm: change turbo floor voltage for msm8x10 <Ke Liu> 7 weeks ago
+15c80d9 : ARM: dts: update frequency to corner and quot mapping on msm8226 and msm8610 <Ke Liu> 7 weeks ago
+729199c : ARM: dts: msm: enable pvs voltage uplift workaround for msm8226 <Wu Fenglin> 10 weeks ago
+c20d76f : msm: cpr-regulator: change CPR_CORNER to CPR_FUSE_CORNER <Ke Liu> 8 weeks ago
+1521c0c : msm: cpr-regulator: add support for virtual corner based quotient scaling <Ke Liu> 8 weeks ago
+489adf9 : msm: cpr-regulator: add debug message in cpr_scale <Ke Liu> 9 weeks ago
+241543e : msm: cpr-regulator: add dummy read to bypass false register value <Ke Liu> 3 months ago
+a9d8527 : msm: cpr-regulator: add pvs voltage uplift workaround <Wu Fenglin> 10 weeks ago
+145c139 : msm: cpr-regulator: modify the dts definition for cond-min-volt <Wu Fenglin> 2 months ago
+3c376e9 : ARM: dts: msm: specify conditional VDD_APC minimum voltage for msm8226 <Ke Liu> 3 months ago
+ce583b7 : ARM: dts: msm: reduce CPR turbo floor voltage for msm8226 <Ke Liu> 9 weeks ago
+f307fbd : msm: cpr-regulator: add support for conditional minimum voltage <Ke Liu> 3 months ago
+9b80e8c : msm: cpr-regulator: change cpr_read_efuse_row api <Ke Liu> 3 months ago
+cf00623 : msm: cpr-regulator: change device tree vendor prefix to 'qti' <Ke Liu> 3 months ago
+6f8b169 : msm: rpm-regulator-smd: remove incorrect rpm_regulator_get() unlock calls <David Collins> 9 weeks ago
+fcaf961 : msm: rpm-regulator-smd: limit current to RPM defined maximum <David Collins> 9 weeks ago
+25607c6 : msm: rpm-regulator-smd: correct use-after-free in rpm_vreg_device_remove <David Collins> 3 months ago
+17bfe66 : msm: rpm-smd: use data type correctly for a variable <Anil kumar mamidala> 2 months ago
+0761f14 : arm: msm: add alarm reboot reason <Maria Yu> 9 weeks ago
+5073ee3 : msm: restart: Add pmic wdog fix for emergency download mode. <Pan Fang> 8 weeks ago
+d6590c5 : msm: Do not use offset, when reporting  image version string <Yulian Shandorov> 10 weeks ago
+474b7d5 : msm: smd: Use irq_set_affinity() API instead of the callback in irqchip. <Mahesh Sivasubramanian> 7 weeks ago
+6df2979 : ARM: dts: msm: Add L2 perf monitor interrupts to bypass list <Saravana Kannan> 5 weeks ago
+6d09cec : ARM: dts: msm8974: Update MPM mapping to bypass few GIC interrupts <Girish S Ghongdemath> 7 weeks ago
+d36fc32 : ARM: dts: msm8974pro: Update MPM mapping for GIC interrupts <Badhri Jagan Sridharan> 9 weeks ago
+96da60d : i2c_qup: Improve implementation of PM callbacks <Gilad Avidov> 8 weeks ago
+bc95eab0 : msm: socinfo: Add board identification function for SBC <Eugene Yasman> 3 months ago
+1e11df8 : msm: pil-msa: Fix authentication error path <Vikram Mulukutla> 3 months ago
+f8f832d : sensors: change the ssc sensor class driver name <Jie Cheng> 3 months ago
+44f4099 : msm: ipc: Set unsupported protocol operations to default operations <Karthikeyan Ramasubramanian> 3 months ago
+b78081f : msm: ipc: Possible memory corruption due to Sign Conversion <Zaheerulla Meer> 4 months ago
+800d6e8 : msm: gpiomux: Add msm_tlmm_misc_reg_read API <Rohit Vaswani> 3 weeks ago
+c2df5d2 : msm: cpuidle: use format string in snprintf <Murali Nalajala> 4 months ago
+745f151 : msm: perf: Fix cpu id logic in tracectr notifier <Sheetal Sahasrabudhe> 4 weeks ago
+21ce5f3 : msm: perf: fix formatting of trace entry <Neil Leeder> 7 weeks ago
+7503502 : Perf: preserve registers across hotplug <Neil Leeder> 9 weeks ago
+4dfe943 : Perf: Fix PID for tracepoints <Sheetal Sahasrabudhe> 3 months ago
+7fec3fd : Perf: Make per-process counters cumulative <Sheetal Sahasrabudhe> 4 months ago
+2bd42f5 : msm: perf: clean up duplicate constraint events <Neil Leeder> 4 months ago
+915149f : msm: perf: initialise krait perf L2 counter enables <Neil Leeder> 5 months ago
+d1c098c : Perf: Support sw events across hotplug <Neil Leeder> 5 months ago
+e6f5e55 : Perf: bring CPU online if needed when disabling irq <Neil Leeder> 5 months ago
+bc84151 : Perf: keep events across hotplug <Neil Leeder> 10 months ago
+801df2a : msm: perf: Add L2 support for tracecounters <Sheetal Sahasrabudhe> 7 months ago
+66d760b : msm: msm_bus: Modify IB aggregation at master <Girish Mahadevan> 2 weeks ago
+531385e : msm: msm_bus: Arbitrate IB for dual config masters <Girish Mahadevan> 3 weeks ago
+9c4ed1f : msm: msm_bus: Don't program bw regs in dual config <Girish Mahadevan> 4 weeks ago
+59c7f1c : msm: msm_bus: Allow QOS address offset to be configurable <Girish Mahadevan> 9 weeks ago
+81e4d8e : msm: msm_bus: Changes for QOS computation at BIMC <Girish Mahadevan> 4 months ago
+04e1cdc : msm: msm_bus: Change priority overrides based on master configuration <Sagar Dharia> 5 months ago
+2f92327 : msm: rpm_stats: show master votes for xo/cxo sleep mode <Murali Nalajala> 3 months ago
+1824762 : msm: pm: cleanup spm code related to SAW2_V1 <Venkat Devarasetty> 3 months ago
+347548a : msm: pm: add new stat variable for reporting suspend stats <Anil kumar mamidala> 9 weeks ago
+1287f4f : msm: iommu: Check for NULL genpools during domain teardown <Laura Abbott> 3 months ago
+cc5e4ba : msm: msm_rq_stats: remove is_smp() API <Murali Nalajala> 4 weeks ago
+520feb5 : msm: msm-pm: Remove timeout waiting for cpu to power collapse <Mahesh Sivasubramanian> 9 months ago
+f54e7fb : msm: pm: Disable cpu clk during retention <Mahesh Sivasubramanian> 5 months ago
+c44974f : msm: hotplug: Block hotplug removal of CPU0 <Matt Wagantall> 2 months ago
+05182b1 : msm: lpm_levels: remove debug print <Venkat Devarasetty> 7 weeks ago
+5ebca2a : lpm_levels: Do not consider latency during suspend <Archana Sathyakumar> 8 weeks ago
+6db2bf9 : msm: pm: Set affinity of PM irqs to next scheduled CPU <Mahesh Sivasubramanian> 3 months ago
+5f133bd : msm: lpm_levels: Support for RPM PC on all cores <Mahesh Sivasubramanian> 9 months ago
+3d0968b : of: address: Don't fail a lookup just because a node has no reg property <Lee Jones> 1 year, 7 months ago
+7680394 : fat: limit the number of error prints <Asutosh Das> 8 days ago
+dd23a6a : jbd2: Fix use after free after error in jbd2_journal_dirty_metadata() <Jan Kara> 6 months ago
+5ed1cf2 : ext4: fix memory leak in xattr <Dave Jones> 4 months ago
+1fbf5b5 : ext4: make sure the journal sb is written in ext4_clear_journal_err() <Theodore Ts'o> 1 year, 6 months ago
+05d4640 : ext4: fix the free blocks calculation for ext3 file systems w/ uninit_bg <Theodore Ts'o> 1 year, 8 months ago
+8a0704a : lib: spinlock_debug: increase spin dump timeout to one second <Syed Rameez Mustafa> 8 weeks ago
+f4fd57d : sched/debug: Make sysrq prints of sched debug data optional <Matt Wagantall> 9 weeks ago
+153fa25 : idr: fix a subtle bug in idr_get_next() <Prakash Kamliya> 9 weeks ago
+6c34f40 : msm: net: add the fix for the skb data alloc fail case <Pan Fang> 3 months ago
+386c45e : Bluetooth: Replace sprintf with snprintf <Juffin Alex Varghese> 7 weeks ago
+f5cd118 : msm: vidc: add sleep of 100us before clock disable <Vikash Garodia> 4 weeks ago
+9875f8b : driver: staging: prima: updated 3.2.3.172 (161262f) <Giulio Cervera> 2 days ago
+59984b0 : wlan: Store avoid channel list <Leo Chang> 3 months ago
+58a7398 : msm: ultrasound: Add support for general button events <Lior Barenboim> 6 weeks ago
+d148f6a : msm: ultrasound: add verifications of some input parameters <Baruch Eruchimovitch> 4 months ago
+4c26090 : msm: ultrasound: support multiple devices, conflicting with USF <Baruch Eruchimovitch> 8 weeks ago
+464904a : msm: ultrasound: Add Sync Gesture data format <Ravit Dennis> 8 weeks ago
+565d8ee : msm: ultrasound: Support side buttons <Ravit Dennis> 3 months ago
+4d9a218 : msm: ultrasound: Add a new input device configuration <Ravit Dennis> 4 months ago
+79ca8f9 : ASoC: msm: Add routing controls from MM6 to MM8 to MI2S_RX_AUDIO <Damir Didjusto> 2 months ago
+f351b8c : ASoC: msm: Add MM6 routing <Damir Didjusto> 3 months ago
+7dee280 : ASoC: msm: hold lock while allocating and freeing ASM clients <Kiran Kandi> 9 weeks ago
+d4dda0f : ASoc: msm: Add check for compressed capture format <Mingming Yin> 3 months ago
+897727bd : ASoC: msm: qdsp6v2: disable OCMEM by default <Banajit Goswami> 4 weeks ago
+66aca5c : msm: qdsp6v2: memset stack buffer allocation. <Mohammad Johny Shaik> 9 weeks ago
+b288c28 : ASoC: msm: remove event_abort and enabled flags from RESET_EVENTS callback <Fred Oh> 3 months ago
+6c67bfe : ASoC: msm: Disable gapless offload playback by default <Krishnankutty Kolathappilly> 4 weeks ago
+9eaed16 : ASoC: compress: Update lock for dpcm calls <Gopikrishnaiah Anandan> 5 weeks ago
+7969a3d : ASoC: msm: DTS parameter validation <Gopikrishnaiah Anandan> 3 months ago
+5e42953 : ARM: dts: msm: Add device tree node for ASM loopback <Vimal Puthanveed> 2 months ago
+ce7235e : ARM: dts: msm: Add low latency level to device tree <Krishnankutty Kolathappilly> 2 months ago
+cb7ddfe : ARM: dts: msm: Update device tree node for msm-pcm-dsp <Krishnankutty Kolathappilly> 8 weeks ago
+12fd7d0 : msm: audio: initialize the structure before sending to user space <Fred Oh> 4 months ago
+389f681 : qdsp6v2: Add support for suspend command for WMA decoder <Alexy Joseph> 3 months ago
+87a477b : msm: qdsp6v2: memset stack buffer allocation. <Mohammad Johny Shaik> 3 months ago
+c71ed8a : msm: qdsp6v2: Deleting kernel driver from arch/arm/mach-msm <Asish Bhattacharya> 3 months ago
+79284bc : Soc: msm: qdsp6v2: Fix invalid params handling <Gopikrishnaiah Anandan> 3 months ago
+cf8df92 : msm: qdsp6v2: Deleting kernel driver from arch/arm/mach-msm/qdsp6v2 <Asish Bhattacharya> 3 months ago
+b76e1f0c : ASoC: usb: change uevent value to digital USB HEADSET <sangwoo> 6 months ago
+825b960 : ASoC: msm: qdsp6v2: increase time-out value for WB call start <hyunsub.na> 6 months ago
+3b51357 : ASoc: msm: Update default stream channel mapping <sangwon.jeon> 4 months ago
+29e9344 : ASoC: apq8074: register for codec up event <Fred Oh> 3 months ago
+8e5ddc4 : ASoC: msm: Add support for RTAC version 1.1 <Ben Romberger> 9 weeks ago
+0d59a4d : ASoC: msm: Add support for external EC reference point <Venkat Sudhir> 3 months ago
+00250ee : msm: reap unused audio files <anish kumar> 8 weeks ago
+172a1f0 : ASoC: msm: Add routing for HFP using AFE and ASM Loopback <Vimal Puthanveed> 3 months ago
+34ecaf9 : ASoC: msm: update endpoint based DAP table for REMOTE_SUBMIX <Jitendra Singh Naruka> 3 months ago
+b0e0284 : ASoC: qdsp6: Add support for custom topology <Subhash Chandra Bose Naripeddy> 4 months ago
+89762c0 : ASoC: msm: qdsp6v2: Fix APR de-register issues during session close <Phani Kumar Uppalapati> 9 weeks ago
+401565d : ASoC: msm: qdsp6v2: Handle SSR for audio playback over BT usecase <Phani Kumar Uppalapati> 3 months ago
+58a3a50 : ASoC: msm8974: Add support for HFP <Vimal Puthanveed> 8 weeks ago
+807acb4 : ASoC: msm: Fix HW Delay print <Ben Romberger> 9 weeks ago
+911bd6a : ASoC: msm: Fix playback failure with tinyalsa test app <Ravi Kumar Alamanda> 4 months ago
+9d1bfc3 : ASoC: msm: Do not allow commands during gapless transition. <Krishnankutty Kolathappilly> 7 weeks ago
+43ea7b8 : ASoC: msm: Disable gapless offload playback by default <Krishnankutty Kolathappilly> 4 weeks ago
+06f8965 : ASoC: msm: Handle RESET_EVENTS in compress driver <Haynes Mathew George> 3 months ago
+a2942ca : ASoC: msm: Enable initial/trailing silence removal <Ravi Kumar Alamanda> 3 months ago
+bf19868 : ASoC: msm: Add playback support for AC3/EC3 in compress driver <Mingming Yin> 3 months ago
+5b2747b : ASoC: msm: Add support for gapless audio playback <Ravi Kumar Alamanda> 4 months ago
+11b3673 : ASoC: msm: Fix potential spin lock recursion in compress driver <Ajay Dudani> 4 months ago
+82e07b3 : ASoC: msm: handle write done events in pause state <Eric Laurent> 5 months ago
+2dbf387 : ASoC: msm: handle partial writes in compress driver <Eric Laurent> 5 months ago
+3b66d73 : ASoC: msm: compr_free(), check if EOS is going on before waiting <Eric Laurent> 5 months ago
+caaedcf : ASoC: msm: treat partial drain like full drain <Eric Laurent> 5 months ago
+6ca4c6a : ASoc: msm: stub set_metadata ops function <Eric Laurent> 5 months ago
+82418a7 : ASoc: msm: Send media format block for compress playback <Eric Laurent> 5 months ago
+a48d96a : ASoC: msm: Return proper error codes <Eric Laurent> 5 months ago
+5dcde46 : Asoc: msm: compr drain/flush fixes <Haynes Mathew George> 5 months ago
+a8366b5 : ASoc: msm: Change condition to get session time <Eric Laurent> 7 months ago
+d340c62 : ASoC: msm: Handle data loss at device switch for FM <Damir Didjusto> 3 months ago
+5e309bf : ASoc: msm: Fix for pcm_read getting struck in alsa core. <anish kumar> 6 weeks ago
+a4898fc : ASoC: qdsp6v2: Add support of ULL and LL <Krishnankutty Kolathappilly> 2 months ago
+c5d1eaa : ASoC: msm: Update the name for pcm platform driver. <Krishnankutty Kolathappilly> 8 weeks ago
+f219d97 : ASoC: msm: flush if prior and current backends rate not matching <Damir Didjusto> 3 months ago
+9f0313e : ASoC: msm: Add support for ASM loopback <Damir Didjusto> 3 months ago
+bbc5929 : ASoC: msm: Add support to enable audio post processing in DSP <Subhash Chandra Bose Naripeddy> 4 months ago
+107b293 : ASoC: msm: change to enable audio <Haynes Mathew George> 5 months ago
+65d291d : ASoC: qdsp6: Add support for audio post processing effects <Ravi Kumar Alamanda> 3 months ago
+493c91d : ASoC: qdsp6: Add support for gapless audio playback <Ravi Kumar Alamanda> 4 months ago
+a4f088c : ASoC: msm: Implement platform driver for compress audio playback <Eric Laurent> 7 months ago
+26e3a99 : ASoC: qdsp6: Add support for post processing on low latency path <Ravi Kumar Alamanda> 4 months ago
+c3fd525 : ASoC: Compress: Check and set pcm_new driver op <Ravi Kumar Alamanda> 2 months ago
+158979f : Adjust refcounts for FE Dai links in SOC compress framework <Haynes Mathew George> 6 months ago
+8b38422 : ASoc: Add {get/set}_metadata ops for dynamic DAI links <Eric Laurent> 5 months ago
+b52a2aa : ASoC: compress: dont aquire lock for draining states <Eric Laurent> 5 months ago
+2594366 : ASoC: pcm: Protect FE dai list during dai open/close <sangwoo> 6 months ago
+af8d50e : ASoC: core: Update FE dpcm state to trigger BE routing <Eric Laurent> 7 months ago
+eb92bd7 : ASoC: DPCM: make some DPCM API calls non static for compressed usage <Liam Girdwood> 9 months ago
+564e2e4 : ALSA: PCM - Add PCM creation API for internal PCMs. <Liam Girdwood> 2 years ago
+cc302e1 : ALSA: compress: Memset timestamp structure to zero. <Krishnankutty Kolathappilly> 3 months ago
+d107dba : soc: return value of get soc version ioctl <Haynes Mathew George> 7 months ago
+6fa9e8e : ALSA: compress: Use kzalloc() for ioctls writing back data <Takashi Iwai> 10 months ago
+4be6759 : ALSA: compress: info leak in snd_compr_get_caps() <Dan Carpenter> 10 months ago
+06ea1f9 : ALSA: compress_core: Add support for capture streams <Charles Keepax> 10 months ago
+a8bb90a : ASoC: compress: Add suport for DPCM into compressed audio <Liam Girdwood> 9 months ago
+88222a0 : ASoC: add definations for compressed operations <Vinod Koul> 1 year, 6 months ago
+7743f2f : ALSA: compress_core: Rework writes to use cumulative values <Charles Keepax> 10 months ago
+9b177d3 : ALSA: compress_core: Remove unused hw_pointer <Charles Keepax> 10 months ago
+745b213 : ALSA: compress_core: Deconstify copy callback buffer <Charles Keepax> 10 months ago
+f560cdb : ASoC: compress - add support for metadata apis <Jeeja KP> 11 months ago
+4d28cc4 : ASoc: fix compilation error <Eric Laurent> 9 months ago
+70c3873 : ASoC: compress: Cancel delayed power down if needed <Charles Keepax> 11 months ago
+eafdec3 : ASoC: compress: Only mute playback streams <Mark Brown> 12 months ago
+3ed5cf1 : ASoc: fix compilation error <Eric Laurent> 10 months ago
+034dff5 : ASoC: soc-compress: Add support for not memory mapped DSPs <Charles Keepax> 1 year ago
+54ff543 : ASoC: soc-compress: Initialise delayed work to power down audio <Charles Keepax> 1 year ago
+29c103c : ASoC: soc-compress: Serialise compressed ops <Charles Keepax> 1 year ago
+f37daf9 : ASoC: soc-compress: Add missing brackets around else <Charles Keepax> 1 year ago
+6f0fe38 : ASoC: compress - fix code alignment <Vinod Koul> 1 year, 6 months ago
+3d01d21 : ASoc: fix compilation error <Eric Laurent> 10 months ago
+d375f6d : ASoC: add compress stream support <Namarta Kohli> 1 year, 6 months ago
+806797d : ALSA: compress_core: Calculate avail correctly for capture streams <Charles Keepax> 10 months ago
+ea0e457 : ALSA: compress_core: Update calc_avail to use cumulative values <Charles Keepax> 10 months ago
+682384d : ALSA: compress: use mutex in drain <Eric Laurent> 5 months ago
+4f7973b : ALSA: Compress - dont use lock for all ioctls <Eric Laurent> 5 months ago
+d9afc19 : ALSA: compress: Make sure we trigger STOP before closing the stream. <Liam Girdwood> 8 months ago
+558e521 : ALSA: compress: Add snd_compress_free() <Liam Girdwood> 9 months ago
+0efcc4d : ALSA: compress: fix compilation error <Eric Laurent> 10 months ago
+4b11b24 : ALSA: compress: add support for gapless playback <Jeeja KP> 12 months ago
+3bf73b3 : ALSA: core: don't return uninitialized snd_compr_tstamp <Richard Fitzgerald> 12 months ago
+d5d93f4 : ALSA: Compress - add codec parameter checks <Vinod Koul> 1 year, 5 months ago
+e45c916 : ALSA: compress - move the buffer check <Vinod Koul> 1 year, 5 months ago
+10bbebe : ALSA: compress_core: integer overflow in snd_compr_allocate_buffer() <Dan Carpenter> 1 year, 5 months ago
+503e10e : ALSA: compress_core: fix open flags test in snd_compr_open() <Dan Carpenter> 1 year, 5 months ago
+8b123ab : ALSA: compress_core: cleanup pointers on stop <Vinod Koul> 1 year, 8 months ago
+46bd74d : ALSA: compress_core: don't wake up on pause <Vinod Koul> 1 year, 8 months ago
+e7d9019 : ASoC: msm: qdsp6v2: Add support for non-pcm VoIP formats <Narsinga Rao Chella> 3 months ago
+2913a50 : msm: qdsp6v2: Buffer address for Record and playback is 32-byte aligned. <Asish Bhattacharya> 3 months ago
+45d37cc : ASoc: msm: qdsp6v2: add vm page offset validation <Fred Oh> 4 months ago
+95698d8 : msm: audio: qdsp6v2: disable read interrupts for smd channels <Panwar Vivek> 3 weeks ago
+10ad82d : msm: usbaudio: Add check for NULL before dereferencing <Mayank Rana> 4 months ago
+12f4981 : msm_serial_hs: Fix register access issue <Dilip Kota> 3 months ago
+ab23e9f : msm_serial_hs: Add IPC Logging <Dilip Kota> 9 weeks ago
+0d7abbd : msm_serial_hs: Fix the wrong register offset Macro usage <Dilip Kota> 9 weeks ago
+21e4f51 : msm_serial_hs_lite: Handle Tx request during System Suspend <Dilip Kota> 3 months ago
+7ec0fe2 : msm_serial_hs: fix compilation warning <Dilip Kota> 4 months ago
+5d814b0 : msm_serial_hs: Disable RFR line and auto RFR in set_termios <Naveen Kaje> 4 months ago
+2b9701b : msm_serial_hs: Fix race condition with BAM rx pipe <Kiran Gunda> 5 months ago
+66a6ba1 : msm: pm: Rearchitect power management code <Mahesh Sivasubramanian> 3 months ago
+739386d : ARM: dts: msm: update LPM parameters for 8x10v1 and v2 <Murali Nalajala> 4 months ago
+b462870 : ARM: dts: msm: add intermediate LPM level for 8x10 v1 and v2 <Murali Nalajala> 4 months ago
+e5df7c0 : Revert "msm: lpm_levels: Adjust latency for Multi core cases" <Mahesh Sivasubramanian> 2 months ago
+8f8048e : msm: pm: Rename pm-8x60.c to msm-pm.c <Mahesh Sivasubramanian> 3 months ago
+d726999 : msm: idle: Use ARM suspend/resume APIs to restore during warmboot <Mahesh Sivasubramanian> 4 months ago
+38df13d : msm: pm: idle-v7 clean up <Venkat Devarasetty> 6 months ago
+667fd49 : msm: idle-v7: flush non secure L1 cache lines for l2 GDHS LPM mode <Murali Nalajala> 4 months ago
+b25a739 : msm: pm-8x60: Use generic clk apis during power collapse <Mahesh Sivasubramanian> 7 months ago
+d66e244 : msm: vidc: Increse OCMEM BW request to enhance performance <Vinay Kalia> 3 months ago
+9904bf5 : cpuidle: make a single register function for all <Daniel Lezcano> 10 months ago
+8a3593f : tick: Dynamically set broadcast irq affinity <Daniel Lezcano> 11 months ago
+8db0e35 : arm: new way of handling ERESTART_RESTARTBLOCK <Al Viro> 1 year, 9 months ago
+7bfb273 : arm: if there's no handler we need to restore sigmask, syscall or no syscall <Al Viro> 1 year, 9 months ago
+5118cc9 : ARM: 7880/1: Clear the IT state independent of the Thumb-2 mode <T.J. Purtell> 3 months ago
+d96a8d4 : ARM: Set CLK_EVT_FEAT_DYNIRQ flag memory mapped timers <Karthik Parsha> 3 months ago
+86e6333 : msm: Fix compiler error due to CONFIG_HIGHMEM being disabled <Neeti Desai> 3 months ago
+fcb3511 : mm: make is_vmalloc_addr lockless <Laura Abbott> 7 weeks ago
+9d6bf24 : cma: Add API to get the start address of a CMA region <Laura Abbott> 8 months ago
+a43ce85 : arm: vfp: always clear vfp_current_hw_state when forcing reload <Yuanyuan Zhong> 4 months ago
+d2fb36c : ARM: 7670/1: fix the memset fix <Nicolas Pitre> 11 months ago
+d5a26c5 : ARM: 7668/1: fix memset-related crashes caused by recent GCC (4.7.2) optimizations <Ivan Djelic> 11 months ago
+80d9a51 : ARM: mm: implement LoUIS API for cache maintenance ops <Lorenzo Pieralisi> 1 year, 5 months ago
+508e7fe : ARM: kernel: update cpu_suspend code to use cache LoUIS operations <Lorenzo Pieralisi> 1 year, 5 months ago
+5896728 : msm: vidc: Support s3d framepacking payload information <Maheshwar Ajja> 3 months ago
+49089ad : wcnss: Add support to configure the Wlan MAC addr <Hardik Kantilal Patel> 7 weeks ago
+3053d84 : wcnss: Add new device interface for user control messages <Sameer Thalappil> 7 weeks ago
+066b3c9 : wcnss: Fix Integer overflow <Arif Hussain> 3 months ago
+04f6910 : wcnss: Add support for WCNSS build version <Sameer Thalappil> 3 months ago
+6441250 : wcnss: Trigger WCNSS driver on first open <Sameer Thalappil> 4 months ago
+c62be2f : driver: qpnp-vibrator: implement sysfs interface for intensity <Giulio Cervera> 4 months ago
+70a9837 : rhine: disable CONFIG_SYSRQ_SCHED_DEBUG <Giulio Cervera> 3 days ago
+7c9e7a6 : net/wireless: Fix kernel crash while doing iwlist scan <Ming-yi Lin> 5 weeks ago
+63121ec : cfg80211: export regulatory_hint_user() API <Mihir Shete> 4 months ago
+0366478 : cfg80211: discard regulatory hints from country IEs with undefined wiphy <Mihir Shete> 7 weeks ago
+7089a10 : cfg80211: permanently disable channels specified by base settings <Mihir Shete> 3 months ago
+2a00123 : cfg80211: fix set_regdom() to cancel requests with same alpha2 <Mihir Shete> 3 months ago
+3ad3c3d : cfg80211: add flags to define country IE processing rules <Mihir Shete> 4 months ago
+c4cfca6 : msm: wlan: update db.txt for Taiwan <Mihir Shete> 10 weeks ago
+3cc9071 : msm: wlan: update  db.txt with information from compliance team <Arif Hussain> 3 months ago
+9a36644 : msm: wlan: Add VHT80 support on db.txt <Mihir Shete> 4 months ago
+e470860 : msm: vidc: update max P frames num for encode <Arun Menon> 7 weeks ago
+fb7a452 : msm: venc: Initialize all encoder V4L2 custom control to proper type <Srinu Gorle> 3 months ago
+909e7bd : msm: vidc: avoid re-initialize of v4l2 spin lock <Arun Menon> 5 weeks ago
+0d53700 : msm: vidc: fix memory leak issue in dynamic buffer mode <Arun Menon> 4 weeks ago
+90104fc : msm: vidc: update max P frames num for encode <Arun Menon> 7 weeks ago
+12dc21e : msm: vidc: reduce clk frquency before disable <Vikash Garodia> 7 weeks ago
+331d447 : msm: vidc: enable deferred probe support for Q6 <Arun Menon> 8 weeks ago
+1e692d7 : msm: vidc: Disable clock gating for 8x26 <Vinay Kalia> 4 weeks ago
+42e290e : msm: vidc: Fix a race condition in masking interrupts <Vinay Kalia> 5 weeks ago
+733eb95 : clenaup vidc merge <Giulio Cervera> 6 weeks ago
+937b9c6 : msm: vidc: Halt axi bus before clock disable <Vikash Garodia> 3 months ago
+5061d47 : msm: vidc: Mask interrupts from venus after receiving IDLE message <Vinay Kalia> 9 weeks ago
+aac9256 : msm: vidc: Halt axi bus before clock disable <Vikash Garodia> 3 months ago
+0dcd691 : msm: vidc: Fix handling of ocmem_notifier_register() return value <Vinay Kalia> 2 months ago
+06c9b3f : msm: vidc: Handle SYS_IDLE interrupt concurrency <Sachin Shah> 4 months ago
+435efce : msm: vidc: Fix issue in IOMMU mapping for QDSS address <Praneeth Paladugu> 3 months ago
+d2f2197 : msm: vidc: Set default values for plane and image sizes <Jorge Solano Altamirano> 4 months ago
+92670a1c : msm: vidc: Change tz version for dynamic buffer feature support <Shalaj Jain> 4 weeks ago
+24ebcba : msm: vidc: Fix unsupported codec error from video driver <Maheshwar Ajja> 6 weeks ago
+94896dc : msm: vidc: Send ABORT in FLUSH command from the Client <Deepak Verma> 6 weeks ago
+cda75e8 : msm: vidc: defer probe if iommu_group_find fails <Arun Menon> 8 weeks ago
+9f1c61f : msm: vidc: NULL terminate devicetree match table <Sachin Shah> 5 weeks ago
+3838e8e : msm: vidc: change interface for opening driver instance <Arun Menon> 5 weeks ago
+47051de : msm: vidc: fix corruption of registered buffer list <Arun Menon> 8 weeks ago
+fa2e276 : tcp: fix FIONREAD/SIOCINQ <Eric Dumazet> 1 year, 4 months ago
+11c0744 : netfilter: x_tables: fix ordering of jumpstack allocation and table update <Will Deacon> 4 months ago
+3ed2b6b : msm: kgsl: remove KGSL_IOCTL_WAKE from context destruction <Jeremy Gebben> 3 months ago
+64f7f44 : msm: kgsl: Don't open kgsl device in erroneous case <Prabhat Awasthi> 6 weeks ago
+d493e55 : msm: kgsl: always check kgsl_active_count_get() result <Jeremy Gebben> 3 months ago
+32df766 : msm: kgsl: Fix range checking for profile wrapping <Carter Cooper> 7 weeks ago
+2485b96 : msm: kgsl: Remove cpu_is_msm8960() check <Shrenuj Bansal> 4 weeks ago
+748b134 : msm: kgsl: Add arch_mmap_check() stub definition <Shrenuj Bansal> 4 weeks ago
+cbb1246 : msm: kgsl: reconcile with caf <Giulio Cervera> 7 days ago
+ee667c8 : msm: mdss: Flush pending clk work before set ctx variable to 0 <Han Jun-Yeong> 7 months ago
+61fc2d7 : msm: mdss: WARN typo correction <Se Hun Kim> 6 months ago
+e3ec9fe : msm: mdss: Change the writeback format enumerations <Sree Sesha Aravind Vadrevu> 6 months ago
+ee8e7ff : msm: mdss: Fix DSPP layer mixer programming <Sree Sesha Aravind Vadrevu> 7 months ago
+eed355d : msm: mdss: Allow DMA pipe sharing only on WB mixer <Sree Sesha Aravind Vadrevu> 6 months ago
+06191e7 : msm: mdss: remove extra lock for ctl calls <Adrian Salido-Moreno> 5 months ago
+0b0a6f3 : mdss: Fix writeback <Naseer Ahmed> 4 months ago
+12b6c79 : mdss: Validate sync timeline object before inc <Naseer Ahmed> 4 months ago
+6ec6db6 : msm: hdmi: Handle fast HPD interrupts <Naseer Ahmed> 4 months ago
+c98f173 : msm: mdss: add wait4pingpong in stop func <Naseer Ahmed> 4 months ago
+76fc061 : msm: mdss: null check for ctl pointer <Naseer Ahmed> 4 months ago
+36fe924 : mdss: use a nonthreaded interrupt <Iliyan Malchev> 4 months ago
+cd9e971 : msm: mdss: unmap user writeback buffers after session is terminated <Adrian Salido-Moreno> 5 months ago
+19d3ded : msm: mdss: allow re-queue of writeback buffers <Adrian Salido-Moreno> 3 months ago
+3b5fe57 : msm: mdss: set writeback RGBX8888 output alpha to opaque <Adrian Salido-Moreno> 3 months ago
+299f057 : Revert "msm: mdss: push wait for fences and ping pong done as late as possible" <Giulio Cervera> 4 days ago
+48bc8ec : msm: ADSPRPC: Always map buffers into IOMMU if one is present <Mitchel Humpherys> 3 weeks ago
+20bd0c8 : msm: ADSPRPC: Save and restore contexts when interrupted <Mitchel Humpherys> 8 weeks ago
+92f73cb : msm: ADSPRPC: Add mappings to IOMMU for remote heap <Mitchel Humpherys> 8 weeks ago
+ac6dd95 : msm: ADSPRPC: Remove scatterlist validation <Mitchel Humpherys> 3 months ago
+1326b74 : msm: ADSPRPC: Close SMD channel after RPC session ends <Mitchel Humpherys> 3 months ago
+b8bbe02 : msm: ADSPRPC: Add checks for erroneous values <Mitchel Humpherys> 3 months ago
+64d391a : introduce kref_put_mutex() <Al Viro> 1 year, 6 months ago
+e63a4b7 : kref: Implement kref_get_unless_zero v3 <Thomas Hellstrom> 6 months ago
+c563ea7 : msm: kgsl: fix after merge <Giulio Cervera> 4 days ago
+9669825 : msm: kgsl: Force the ME off before reading the microcode. <Jordan Crouse> 4 weeks ago
+5bbabb0 : msm: kgsl: when unmapping from the mmu flush the entire tlb <Shrenuj Bansal> 7 weeks ago
+e9e2e58 : msm: kgsl: devfreq_target requests can happen during SLUMBER <Lucille Sylvester> 7 weeks ago
+d7cae07 : msm: kgsl: Fix mem leak when page allocation fails <Hareesh Gundu> 5 weeks ago
+4d5d405 : msm: kgsl: Increase fault timer for A305B GPU <Prabhat Awasthi> 5 weeks ago
+f652ee4 : msm: kgsl: Increase fault timer for slower a305 GPU <Tarun Karra> 7 weeks ago
+645bd81 : msm: kgsl: Prevent device start after it is already started <Tarun Karra> 7 weeks ago
+4d9d75e : msm: kgsl: Don't enable VBIF counters for targets that don't use them <Lucille Sylvester> 8 weeks ago
+e4aa367 : msm: kgsl: avoid zero length scatterlist allocation <Prakash Kamliya> 8 weeks ago
+f0f54f5 : msm: kgsl: Restrict the maximum memory entries for bulk cache sync <Jordan Crouse> 2 months ago
+30f6fce : msm: kgsl: Re-enable performance counters <Jordan Crouse> 9 weeks ago
+08b1051 : msm: kgsl: Account for fixed perfcounter groups <Jordan Crouse> 9 weeks ago
+58d8d05 : msm: kgsl: When switching pagetable use current context ID <Shubhraprakash Das> 2 months ago
+91ae288 : msm: kgsl: Release hang detect performance counters when not in use <Jordan Crouse> 3 months ago
+f015a2d : msm: kgsl: Add an input handler to power up the GPU on a touch event <Jordan Crouse> 3 months ago
+67daf9f : msm: kgsl: Allow GPU start to run in a high priority queue <Jordan Crouse> 3 months ago
+1cf0486 : msm: kgsl: Get reference to process private when attaching mem entry <Shubhraprakash Das> 3 months ago
+b6b769c : msm: kgsl: Add TSE performance counter to software hang detection <Tarun Karra> 3 months ago
+e58dc92 : msm: kgsl: Get CP_RPTR from register instead of shadow memory <Tarun Karra> 3 months ago
+c6a157e : msm: kgsl: Protect against a potential overflow in kgsl_sg_alloc <Jordan Crouse> 3 months ago
+3255dc2 : msm: kgsl: Advance the profiling shared buffer on error <Jordan Crouse> 3 months ago
+00c7fed : msm: kgsl: Save/restore performance counters across GPU power collapse <Harshdeep Dhatt> 3 months ago
+a332a51 : msm: kgsl: Allow run time control of bus modification <Lucille Sylvester> 3 months ago
+4ca587e : msm: kgsl: bus modifier computation <Lucille Sylvester> 5 months ago
+b424bd4 : msm: kgsl: Ensure signals do not cause waits to end early. <Carter Cooper> 4 weeks ago
+a42b117 : msm: kgsl: Panic if global timestamp wait fails in context detach. <Jordan Crouse> 4 weeks ago
+188a623 : msm: kgsl: Add check for NULL value from dev_get_drvdata <Jordan Crouse> 2 months ago
+044fe81 : msm: kgsl: convert pwrscale to use bus_mod <Lucille Sylvester> 7 months ago
+d92481e : PM / devfreq: Allow the governors to set the target flag <Lucille Sylvester> 7 months ago
+f154b7e : PM / devfreq: add msm-adreno-tz governor <Jeremy Gebben> 11 months ago
+224d038 : msm: kgsl: make msm-adreno-tz the default governor for adreno <Jeremy Gebben> 11 months ago
+4bbc922 : msm: kgsl: convert pwrscale framework to use devfreq <Jeremy Gebben> 11 months ago
+4fea031 : Revert "msm: kgsl: Add TSE performance counter to software hang detection" <Zhoulu Luo> 3 months ago
+f186282 : msm: kgsl: remove KGSL_IOCTL_WAKE from context destruction <Jeremy Gebben> 3 months ago
+d02fe6d : msm: kgsl: manage active count in adreno_ioctl() <Jeremy Gebben> 3 months ago
+992ff5a : msm: kgsl: always check kgsl_active_count_get() result <Jeremy Gebben> 3 months ago
+6081d5c : msm: kgsl: Add IB submission gate for device suspend <Carter Cooper> 3 months ago
+de2d9eb : msm: kgsl: Do not take active_cnt for events and waittimestamp <Jordan Crouse> 3 months ago
+bb4e5d4 : msm: kgsl: Propagate the error from kgsl_active_count_wait() <Jordan Crouse> 3 months ago
+ddf586d : msm: kgsl: Return the correct error from kgsl_active_count_wait() <Jordan Crouse> 3 months ago
+d95b988 : msm: kgsl: Use the standard functions to read the queued timestamp <Jordan Crouse> 3 months ago
+318deb1 : msm: kgsl: Avoid a possible pointer deference in __force_on_show <Jordan Crouse> 3 months ago
+b854aa4 : msm: kgsl: Fix several possible problem spots in the dispatcher <Jordan Crouse> 3 months ago
+a669f1d : msm: kgsl: Bootstrap GPU microcode <Tarun Karra> 3 months ago
+6d58fb4 : msm: kgsl: Set CP_DEBUG in GPU cores start routine <Shubhraprakash Das> 3 months ago
+acaa81c : msm: kgsl: Detect gpu mem entry collisions when using MAP_FIXED flag <Harsh Vardhan Dwivedi> 3 months ago
+e89855e : msm: kgsl: prevent kgsl_get_pagetable from returning a destroyed pt <Jeff Boody> 3 months ago
+ab96c85 : msm: kgsl: Switch to default pagetables in case of NULL context <Harsh Vardhan Dwivedi> 3 months ago
+1d3b507 : msm: kgsl: Re-run the events handler when inflight goes to zero <Jordan Crouse> 3 months ago
+429ce2b : msm: kgsl: Don't spam the kernel log if qcom,step-pwrlevel isn't found <Jordan Crouse> 3 months ago
+ab5e3f0 : msm: kgsl: Verify the user address before reading a perfcounter group <Jordan Crouse> 3 months ago
+03478cb : msm: kgsl: Correctly return the context reset status <Jordan Crouse> 3 months ago
+1d0eed0 : msm: kgsl: Adds NULL check for drawctxt ops <Shrenuj Bansal> 3 months ago
+ed46d17 : msm: kgsl: Activate the dispatcher following a resume <Jordan Crouse> 3 months ago
+c23174a : msm: kgsl: Correctly enable A3XX performance counters <Harshdeep Dhatt> 3 months ago
+c706aeb : msm: kgsl: Enable the iommu halt feature for certain IOMMU versions <Shubhraprakash Das> 3 months ago
+d8a246d : msm: kgsl: keep usermode context flags in kgsl_context <Jeremy Gebben> 3 months ago
+38fb0fd : msm: kgsl: consolidate preamble based context switch code <Jeremy Gebben> 3 months ago
+cf98580 : msm: kgsl: Detach context when context creation fails in create function <Shubhraprakash Das> 3 months ago
+b173f38 : msm: kgsl: Fix freezing of counter when reading it <Shubhraprakash Das> 3 months ago
+338e336 : msm: kgsl: Add return value for perfcounter enable function <Shubhraprakash Das> 3 months ago
+9c4ea14 : msm: kgsl: Call adreno_init only once on startup <Shubhraprakash Das> 3 months ago
+922ef63 : msm: kgsl: Run the idle timer while the GPU is not power collapsed <Lucille Sylvester> 3 months ago
+fe96ec2 : msm: kgsl: Fix page align allocation overflow <Carter Cooper> 3 months ago
+5a27fce : msm: kgsl: Fix reading of special case counters <Shubhraprakash Das> 3 months ago
+9ff8771 : msm: kgsl: Restructure performance counters <Shubhraprakash Das> 3 months ago
+016757d : msm: kgsl: Store process private pointer in context <Shubhraprakash Das> 3 months ago
+c635bf0 : msm: kgsl: Add dispatcher and server-side-sync support <Jordan Crouse> 3 months ago
+2fd2bb6 : Revert "msm: kgsl: Don't use uninitialized values in hang detection" <Giulio Cervera> 4 days ago
+103e62f : Revert "msm: kgsl: Use the right set of flags for issuing user commands" <Giulio Cervera> 4 days ago
+8767530 : Revert "msm: kgsl: Switch to default pagetables in case of NULL context" <Zhoulu Luo> 3 months ago
+472a50e : Revert "msm: kgsl: Enable GPU hang interrupt" <Zhoulu Luo> 3 months ago
+fdcace6 : Revert "msm: kgsl: Set FSR to 0 on IOMMU pagefault" <Zhoulu Luo> 3 months ago
+3c5255f : Revert "msm: kgsl: GPU pagefault policy change to not stall on pagefault" <Zhoulu Luo> 3 months ago
+e341cd2 : Revert "msm: kgsl: Don't spam the kernel log if qcom,step-pwrlevel isn't found" <Zhoulu Luo> 3 months ago
+2a054cd : Revert "msm: kgsl: Verify the user address before reading a perfcounter group" <Zhoulu Luo> 3 months ago
+34ae1a3 : Revert "msm: kgsl: Restructure performance counters" <Zhoulu Luo> 3 months ago
+cb8a5bc : Revert "msm: kgsl: Save/restore performance counters across GPU power collapse" <Zhoulu Luo> 3 months ago
+70f5c9d : msm: kgsl: Add TSE performance counter to software hang detection <Tarun Karra> 3 months ago
+f5241f0 : rhine: add last_kmsg <Giulio Cervera> 4 days ago
+44698fe : msm: mdss: Enable solid fill on pipe <Adrian Salido-Moreno> 7 months ago
+e0301ef : msm: mdss: enable overfetch in dual pipe scenarios <Adrian Salido-Moreno> 6 months ago
+b9a7e59 : msm: mdss: Add support to get/set secure flag via an ioctl <Tatenda Chipeperekwa> 3 months ago
+184f1a7 : msm: mdp: Add retire fence <Naseer Ahmed> 5 months ago
+005b46d : msm: vidc: set ctrl to request sequence header for encoder <Arun Menon> 5 weeks ago
+80ee883 : msm: vidc: Check input arguments correctly <Deva Ramasubramanian> 3 months ago
+e1a403c : msm: vidc: Fix cache invalidation issue <Maheshwar Ajja> 2 months ago
+dd946c1 : msm: vidc: Return failure for unsupported codecs <Maheshwar Ajja> 3 months ago
+d90b9f5 : msm: vidc: expose smem apis through msm vidc <Arun Menon> 3 months ago
+2a056c6 : msm: vidc: Fix a race condition in core instances list access <Rajeshwar Kurapaty> 3 months ago
+91ce931 : msm: vidc: send extradata size in ftb for dynamic buffer mode <Arun Menon> 3 months ago
+212eb67 : kernel: rng: Add IOCTL support to disable bus bandwidth <Hariprasad Dhalinarasimha> 6 months ago
+02fc82e : rhine: enable qcom crypto <Giulio Cervera> 10 days ago
+e7667e2 : Revert "crypto: Fix memory leak in bam_release call" <Zhen Kong> 7 weeks ago
+a708783 : crypto: msm: Fix null pointer exception in qcrypto_count_sg() <AnilKumar Chimata> 4 months ago
+69e4922 : crypto: msm: Use scnprintf() instead of snprintf() <AnilKumar Chimata> 4 months ago
+9900c22 : crypto: msm: Remove invalid check in qcedev driver <AnilKumar Chimata> 4 months ago
+5d99ef8 : crypto: msm: Fix issues related to non-zero byteoffset input <AnilKumar Chimata> 4 months ago
+ff99e1b : crypto: Fix memory leak in bam_release call <Zhen Kong> 3 months ago
+9473fd4 : crypto: msm: multiple qce50 support <Zhen Kong> 7 months ago
+55b6d6e : crypto: msm: check potential integer overflow on AEAD req length <Zhen Kong> 4 months ago
+34cbeca : cifs: fix parsing of password mount option <Suresh Jayaraman> 1 year, 8 months ago
+fba7792 : rhine: enable Qualcomm ADSP RPC driver <Giulio Cervera> 3 weeks ago
+ede51ab : Merge of Sony 14.2.A.1.114 defconfig changes <Giulio Cervera> 5 days ago
+aab11b6 : driver: staging: prima: updated 3.2.3.172 (70ee632) <Giulio Cervera> 2 weeks ago
+85b7a28 : driver: staging: prima: updated 3.2.3.172 (2c02103) <Giulio Cervera> 3 weeks ago
+b54e142 : android/lowmemorykiller: Account for total_swapcache_pages <Liam Mark> 5 months ago
+b157dc0 : driver: staging: prima: updated 3.2.3.172 (12247a9) <Giulio Cervera> 4 weeks ago
+f4c82b8 : Fix build and add missing prima include <Giulio Cervera> 7 weeks ago
+4828507 : driver: staging: prima: updated 3.2.3.172 (c5bdd64) <Giulio Cervera> 7 weeks ago
+03a1076 : driver: staging: prima: updated 3.2.3.172 (7118d6a) <Giulio Cervera> 8 weeks ago
+1b301e2 : driver: staging: prima: updated 3.2.3.172 (5b58dd7) <Giulio Cervera> 10 weeks ago
+3a28506 : driver: staging: prima: updated 3.2.3.172 (9feefad) <Giulio Cervera> 3 months ago
+9b7dd9e : driver: staging: prima: updated 3.2.3.172 (f544109) <Giulio Cervera> 3 months ago
+28ffacf : driver: staging: prima: updated 3.2.3.172 (18aa84b) <Giulio Cervera> 3 months ago
+f861c0b : driver: staging: prima: updated 3.2.3.172 (254863c) <Giulio Cervera> 4 months ago
+552b4a8 : driver: staging: prima: updated 3.2.3.172 (e8786b7) <Giulio Cervera> 4 months ago
+36e5d33 : wlan: FTM second start crash fix. <Author: Leo Chang> 4 months ago
+88c365d : wlan: Updating country code on best AP in scan list. <Author: Agarwal Ashish> 4 months ago
+b79add2 : wlan : 11r : Add support to trigger roam using ioctl <Sandeep Puligilla> 4 months ago
+14d68d7 : wlan: Reduce logging level of DXE logs <Gopichand Nakkala> 4 months ago
+325119c : wlan: Fix for FTM mode spin lock crash <Madan Mohan Koyyalamudi> 4 months ago
+80b2b33 : driver: prima: load patched firmware <Alin Jerpelea> 4 months ago
+a98bec1 : driver: staging: prima: WLAN Driver Release 3.2.3.172 (0300ca8) <Giulio Cervera> 4 months ago
+03ba7ad : Add Cyanogenmod defconfigs <Giulio Cervera> 7 weeks ago
+77098c0 : Merge of Sony 14.2.A.1.114 <Giulio Cervera> 5 days ago
+cbe4f38 : ARM: dts: msm8974: Update MPM mapping for GIC interrupts <Anji Jonnala> 4 months ago
+da844ba : msm: mdss: Check ctl in mdss_mdp_mixer_get before using <Pawan Kumar> 3 months ago
+025cfb5 : msm: mdss: hdmi: Proper length check for EDID data block <Ajay Singh Parmar> 3 months ago
+413f928 : msm: mdss: Fix under run on HDMI on adb shell stop <Pawan Kumar> 5 months ago
+54b0891 : ARM: dts: msm8974: Update MPM mapping for GIC interrupts <Anji Jonnala> 4 months ago
+d2e06f70 : msm: mdp3: move mdp_overlay variable from stack to heap <Terence Hampson> 3 months ago
+45f1911 : defconfig: 8226: Disable SLUB_DEBUG in the perf defconfig <Syed Rameez Mustafa> 4 months ago
+28a8ee5 : msm: mdss: Check ctl in mdss_mdp_mixer_get before using <Pawan Kumar> 3 months ago
+12fc9f6 : msm: mdss: Fix under run on HDMI on adb shell stop <Pawan Kumar> 5 months ago
+062bf25 : ARM: dts: msm8974: Update MPM mapping for GIC interrupts <Anji Jonnala> 4 months ago
+3419e0b : ARM: dts: msm: fix screen display shift issue for ssd2080m <Ray Zhang> 4 months ago
+6b618bb : msm: mdss: send frame events on polling mode <Adrian Salido-Moreno> 3 months ago
+bbcb99f : diag: Change implementation of diag log masks <Ravi Aravamudhan> 3 months ago
+4185a53 : msm: vidc: Fix image version sys property processing <Sachin Shah> 4 months ago
+3a01001 : ASoC: msm: Change ACDB driver to use mutex <Ben Romberger> 4 months ago
+bf02bfd : mdss: fb: Unblock blit ioctl calls when commit is occuring <Terence Hampson> 4 months ago
+36186c3 : msm: mdss: Fix under run on HDMI on adb shell stop <Pawan Kumar> 5 months ago
+9aaee82 : arm/dts: msm8610 : Changes for wled homerow backlight. <Sarada Prasanna Garnayak> 4 months ago
+ebcdc4b : msm: Fix NULL pointer dereference in sensors ADSP driver. <Satya Durga Srinivasu Prabhala> 3 months ago
+f38015e : msm: Fix warning in sensors ADSP driver with GCC 4.7 toolchain. <Satya Durga Srinivasu Prabhala> 3 months ago
+60a14e5 : msm:cpp: Set inst_info before send it to userspace <Iliya Varadzhakov> 3 months ago
+18ae74b : msm: vidc: Amend Q6 HFI session id entry to session list <Rajeshwar Kurapaty> 3 months ago
+7cab6a5 : msm: mdss: update for error logging <Xiaoming Zhou> 3 months ago
+55c4261 : ASoC: dapm: lock mixer & mux update power with DAPM mutex <Liam Girdwood> 1 year, 11 months ago
+6acab8c : ASoC: dapm: Use DAPM mutex for DAPM ops instead of codec mutex <Liam Girdwood> 1 year, 11 months ago
+29d829d : ASoC: dapm: Convert pin switches to use snd_soc_card <Mark Brown> 2 years ago
+2ade04b : msm: mdss: hdmi: Proper length check for EDID data block <Ajay Singh Parmar> 3 months ago
+b7ef6ad : ARM: dts: msm: Modify VFE master port for msm8226 <Girish Mahadevan> 4 months ago
+80daefc : diag: dci: Check if the DCI client is valid before signaling <Ravi Aravamudhan> 5 months ago
+4b19fdf : msm: mdss: reduce minimum mdp ib bandwidth request <Huaibin Yang> 4 months ago
+5371d6f : msm: camera: Check length of cmd_len to zero in isp driver <Hariram Purushothaman> 3 months ago
+2540408 : msm: mdss: expose MDP capabilities through sysfs on 8x10 <Xiaoming Zhou> 3 months ago
+49d5662 : input: touchscreen: ft5x06: add FT5336 firmware update support <Bingzhe Cai> 3 months ago
+58db10d : input: touchscreen: power off touch panel during suspend <Bingzhe Cai> 5 months ago
+4c43065 : ARM: dts: msm: Add external rsense channel for iadc <Zhenhua Huang> 5 months ago
+dd61974 : power: qpnp-charger: fix power stage work around <Zhenhua Huang> 4 months ago
+fc59307 : ARM: dts: msm: enable touchscreen power off in sleep <Bingzhe Cai> 3 months ago
+c9d42b4 : media: dvb: Discard video frames with 0 length <Hamad Kadmany> 4 months ago
+0ec913a : media: dvb: Verify filter is still active after stalling <Hamad Kadmany> 4 months ago
+08fac90 : msm: mdss: hdmi: Avoid unnecessary BCAPS read <Ajay Singh Parmar> 3 months ago
+7c17869 : msm: mdss: Call wait4comp after commit for wb intf <Dhaval Patel> 3 months ago
+df7e12e : mmc: sdhci: Use max timeout and skip timeout calculation <Asutosh Das> 4 months ago
+d2a9e0d : ARM: dts: msm: Add NFC dtsi entry for 8610 qrd skuaa devices <Houston Hoffman> 3 months ago
+f7a9609 : of_batterydata: Fix possible divide by 0 conditions <Xiaozhe Shi> 6 months ago
+fd87caa : ARM: dts: msm: Update ldo-delta for 8974Pro and APQ8084 based devices <Abhijeet Dharmapurikar> 3 months ago
+2b5283e : qup_i2c: Handle scenario if runtime PM is disable <Dilip Kota> 8 months ago
+b1b62b5 : ASoC: msm8974: Update PCM MUX for 8974Pro variant <Banajit Goswami> 3 months ago
+023aaac : ASoC: wcd9xxx: Update valid delta threshold when plug type is HIGH_HPH <Phani Kumar Uppalapati> 3 months ago
+d529473 : ASoC: msm: qdsp6v2: Add support for probe deferral in audio ocmem driver <Phani Kumar Uppalapati> 3 months ago
+e2a18e2 : ASoC: wcd9306: unvote pm runtime after slim disconnect port <Phani Kumar Uppalapati> 3 months ago
+f8e9f68 : ASoC: wcd9xxx: Prevent disabling of internal micbias <Simmi Pateriya> 4 months ago
+d093f1f : NFC: Implement LDO control for 8610 qrd skuaa devices <Bansidhar Gopalachari> 4 months ago
+12f10f6 : ARM: dts: msm: Add NFC dtsi entry for 8610 qrd skuaa devices <Bansidhar Gopalachari> 4 months ago
+da55fee : msm: mdss: Request for TE GPIO only for command mode panel <Padmanabhan Komanduru> 5 months ago
+d0e97f0 : msm: msm_watchdog_v2: Update module parameter comments <Stepan Moskovchenko> 3 months ago
+99ee5c0 : ARM: dts: msm: SPI Modify SPI BAM physical memory size <Sana Venkat Raju> 4 months ago
+0b67e58 : msm: mdss: Fix race condition during device shutdown <Ujwal Patel> 4 months ago
+a5e7a30 : ARM: dts: msm: final tuning Himax 8379a panel. <shuoy> 3 months ago
+707f188 : msm: ehci-hsic: Don't change DEVICE name from driver <Manu Gautam> 3 months ago
+f3b5371 : board: 8226: add aux data for hsic device <Pavankumar Kondeti> 3 months ago
+95bf142 : msm: soundrecorder: Add support for pause/resume in HW AAC mode <quic_mqiu> 3 months ago
+c3a6e25 : msm: camera: Remove camera v1 source files <Deepak Cherian> 4 months ago
+fa05db9 : msm: kgsl: Don't resume MMU before detaching domain <Harsh Vardhan Dwivedi> 3 months ago
+46b43b1 : ARM: dts: msm: correct tz-usage-tables in DTSI files. <Cullum Baldwin> 3 months ago
+cb487b1 : power: qpnp-bms: recalculate SoC faster when vbat is low <Xiaozhe Shi> 4 months ago
+9cbf01d : mm: remove compressed copy from zram in-memory <Minchan Kim> 7 months ago
+a4c1bbe : zram: don't grab mutex in zram_slot_free_noity <Minchan Kim> 6 months ago
+65872f0 : zram: fix invalid memory access <Minchan Kim> 6 months ago
+cc447fc : Staging: zram: zram_drv.c: Fixed Error of trailing whitespace <Kumar Gaurav> 6 months ago
+7413085 : zram: prevent data loss in error cases of function zram_bvec_write() <Sunghan Suh> 7 months ago
+6ef7d20 : staging: zram: Add auto loading of module if user opens /dev/zram. <Konrad Rzeszutek Wilk> 7 months ago
+5b43cb4 : staging: zram: protect zram_reset_device() call <Sergey Senozhatsky> 8 months ago
+fd26cbb : zram: allow request end to coincide with disksize <Sergey Senozhatsky> 8 months ago
+7a9e7e5 : staging: zsmalloc: access page->private by using page_private macro <Sunghan Suh> 7 months ago
+01a8381 : staging/zsmalloc: Fixed up incorrect formatted comments <Sara Bird> 9 months ago
+c51fb28 : Staging: Fixes string split across lines in zsmalloc zsmalloc-main <Marlies Ruck> 9 months ago
+acc76a2 : zram: remove zram_sysfs file (v2) <Sergey Senozhatsky> 8 months ago
+d9aa256 : zram: use atomic64_xxx() to replace zram_stat64_xxx() <Jiang Liu> 8 months ago
+4b74148 : zram: simplify and optimize dev_to_zram() <Jiang Liu> 8 months ago
+db9f759 : zram: protect sysfs handler from invalid memory access <Jiang Liu> 8 months ago
+50fe41f : zram: optimize memory operations with clear_page()/copy_page() <Jiang Liu> 8 months ago
+8f4e07e : zram: kill unused zram_get_num_devices() <Jiang Liu> 8 months ago
+c105e98 : zram: avoid access beyond the zram device <Jiang Liu> 8 months ago
+f24a8cd : zram: avoid double free in function zram_bvec_write() <Jiang Liu> 8 months ago
+56552ab : zram: destroy all devices on error recovery path in zram_init() <Jiang Liu> 8 months ago
+c25a207 : zram: use zram->lock to protect zram_free_page() in swap free notify path <Jiang Liu> 8 months ago
+cf72d2a : zram: avoid invalid memory access in zram_exit() <Jiang Liu> 8 months ago
+e642887 : Staging: Fixes string split across lines in zram <Marlies Ruck> 9 months ago
+fdd4d47 : mm: methods for teaching filesystems about PG_swapcache pages <Mel Gorman> 1 year, 6 months ago
+c46ddb5 : zram: use 3.10 version of zram <Larry Bassel> 4 months ago
+b354263 : zsmalloc: use 3.10 version of zsmalloc <Larry Bassel> 4 months ago
+0929f9a : msm: qdsp6v2: memset stack buffer allocation. <Asish Bhattacharya> 3 months ago
+5699ad4 : msm: qdsp6v2: memset stack buffer allocation. <Asish Bhattacharya> 3 months ago
+bf7e38e : camera_v2: Changes for dual JPEG encoding <Kamen Kirov> 4 months ago
+9c506c9 : msm: camera: Fix for invalid kernel memory access <Aditya Jonnalagadda> 3 months ago
+f9e2ea6 : msm: camera: Prevent camera suspend while active <Lakshmi Narayana Kalavala> 4 months ago
+256a78e : msm: mdss: hdmi: Add MHL handshake <Ajay Singh Parmar> 3 months ago
+c82bd36 : ASoC: wcd9xxx: Cancel headset detect work while in IRQ handler <Santosh Mardi> 3 months ago
+b9d13d4 : ARM: dts: msm8226: use panel hx8394a for qrd pvt device <Kun Liang> 4 months ago
+ca445c0 : ASoC: msm: Handle error scenarios correctly <Phani Kumar Uppalapati> 3 months ago
+f3d0524 : ASoC: wcd9xxx: don't report unnecessary headphone removal <Phani Kumar Uppalapati> 4 months ago
+4deceb3 : input: touchscreen: ft5x06: remove unbalanced touch event <Bingzhe Cai> 3 months ago
+17cbb9c : msm: venc: Initialize all encoder V4L2 custom control to proper type <Srinu Gorle> 3 months ago
+54a5001 : ASoC: msm8x10: Update headset thresholds for 2.7 volts micbias <Bhalchandra Gajare> 4 months ago
+8107e4a : ARM: dts: msm: Update audio codec to use 2.7 volts micbias voltage <Bhalchandra Gajare> 4 months ago
+9943aa6 : ASoC: wcd9xxx: Use common functionality to change micbias voltage <Bhalchandra Gajare> 4 months ago
+2c7ff45 : ASoC: msm8x10: Enable current source for headset detection <Bhalchandra Gajare> 4 months ago
+a22cbdb : USB: gadget: qdss: Fix strncmp length usage <Kumar Gala> 6 months ago
+30c7b1c : Kconfig: Enable config to allow vmalloc savings <Neeti Desai> 3 months ago
+f332249 : defconfig: Enable config to allow vmalloc savings <Neeti Desai> 3 months ago
+b2df125 : ARM: dt: msm8974Pro: Add new GPU bandwidth votes <Suman Tatiraju> 3 months ago
+70f5926 : iommu: msm: Use ion_phys_addr_t for iova argument <Olav Haugan> 4 months ago
+da8d06c : USB: dwc3: clear LANE0_PWR_PRESENT bit after initialization <Vijayavardhan Vennapusa> 4 months ago
+9644241 : input: synaptics_i2c_rmi4: Turn off the reset gpio before freeing it. <Sarada Prasanna Garnayak> 3 months ago
+d68c225 : ARM: Use -mcpu=cortex-a15 when targeting MSM Krait CPUs <Stepan Moskovchenko> 4 months ago
+80c895c : Revert "msm: mdss:set brightness to min_bl if brightness is less than min_bl." <Carl Vanderlip> 4 months ago
+6966186 : msm: clock: Use CLKFLAG_NO_RATE_CACHE in clk_set_parent <Vikram Mulukutla> 4 months ago
+c4f1ca6 : diag: Fix feature mask received check <Dixon Peterson> 3 months ago
+f816500 : input: touchscreen: Add fw_name sysfs entry in Goodix driver <Shantanu Jain> 4 months ago
+4c6cc8b : ASoC: wcd9310: Codec changes to use new macros <Jay Wang> 4 months ago
+1f1c786 : msm: vidc: Set default values for plane and image sizes <Jorge Solano Altamirano> 4 months ago
+c0afaac : msm: vidc: Fix issue with picture type property <Jayasena Sangaraboina> 4 months ago
+5767aa8 : msm: ipa: fix potential NULL pointer dereference <Ravi Gummadidala> 3 months ago
+cd2546a : msm: ipa: fix potential NULL pointer dereference <Ravi Gummadidala> 3 months ago
+e6b7e6f : msm: ipa: fix potential NULL pointer dereference <Ravi Gummadidala> 3 months ago
+3c8bdd8 : msm: ocmem: Do not return error when debugfs is disabled <Neeti Desai> 4 months ago
+2a6375d : msm: ipa: fix potential NULL pointer dereference <Ravi Gummadidala> 3 months ago
+465a3c2 : msm: mdss: Fix race condition during device shutdown <Ujwal Patel> 4 months ago
+3959f24 : mdss: dsi_v2: remove second call to msm_dsi_cmd_dma_tx <Terence Hampson> 3 months ago
+4a96cf5 : defconfig: 8610: remove virtual frame buffer on perf defconfig <Xiaoming Zhou> 3 months ago
+7598d2e : msm: camera: prevent invalid access through mmap <Manoj Rao> 9 months ago
+c1da80b : mm: Don't use CMA pages for page cache <Laura Abbott> 6 months ago
+1e67c2b : diag: Fix for CRC check for Control byte <Katish Paran> 4 months ago
+39b39d3 : defconfig: msm8610: enable gpio led driver for QRD SKUAB <Xu Kai> 4 months ago
+4e8799e : msm: Remove files no longer buildable under arch/arm/mach-msm <Mohammad Johny Shaik> 4 months ago
+3b55c9c : msm: mdss: allow meta data to be retrieved in display off state <Xiaoming Zhou> 3 months ago
+bbc3274 : ASoC: msm8x10-wcd: Enable impedance detection <Bhalchandra Gajare> 4 months ago
+4f59445 : msm: vidc: Document venus color format <Vinay Kalia> 4 months ago
+699ac77 : ARM: dts: msm: Add battery FET regulator to mdp device <Shalabh Jain> 4 months ago
+31396f4 : wcnss: additional checks to prevent unclocked register access <Mihir Shete> 4 months ago
+7a75211 : msm: cci: fix for invalid error handle <Vasko Kalanoski> 7 months ago
+3728b74 : msm: actuator: fix to prevent kernel heap buffer overflow <Vasko Kalanoski> 4 months ago
+21270b3 : msm: actuator: fix to prevent untrusted pointer to lead DoS <Vasko Kalanoski> 4 months ago
+a720434 : msm: mdss: Implement overlay handoff for continuous splash screen <Aravind Venkateswaran> 4 months ago
+162e4ce : msm: acpuclock-8974: fix CPU voltage limits to support additional parts <Matt Wagantall> 3 months ago
+9cd1f7d : msm: vcap: disable vcap driver by default <Xiaoming Zhou> 4 months ago
+dbb7295 : msm: mdss: increase display commit thread priority <Adrian Salido-Moreno> 5 months ago
+b6c2be9 : msm: mdss: push wait for fences and ping pong done as late as possible <Adrian Salido-Moreno> 4 months ago
+0396d28 : msm: mdss: allow asynchronous acquire fence waits <Adrian Salido-Moreno> 4 months ago
+13cd38f : msm: mdss: remove pan_idle from vsync control <Naseer Ahmed> 4 months ago
+3fb37ce : msm: mdss: unregister command mode vsync handlers on stop <Adrian Salido-Moreno> 4 months ago
+d4219a3 : msm: mdss: implement asynchronous frame events <Adrian Salido-Moreno> 5 months ago
+800ef7b : msm: mdss: implement frame events notification <Adrian Salido-Moreno> 5 months ago
+908d049 : msm: mdss: implement display thread to handle commits <Adrian Salido-Moreno> 4 months ago
+6805e6a : leds: leds-qpnp: Changes for WLED work function called only once. <Sarada Prasanna Garnayak> 3 months ago
+4068113 :  ARM: dts: msm: enable phase scaling for 8974pro devices <Abhijeet Dharmapurikar> 4 months ago
+c2f9660 : Kconfig: Add menu choice option to reclaim virtual memory <Vishwanatha Kumar Ultur> 4 months ago
+44dc852 : ARM: dts: msm8610: Primary disp perf for msm8x10 qrd skuab device2. <shuoy> 4 months ago
+df310a5 : ARM: dts: msm: Add 8x10 QRD hx8389b panel for SKUAB dev2 <shuoy> 3 months ago
+271114e : input: misc: stk3x1x: turn off device power when sensor is not enabled <Bingzhe Cai> 4 months ago
+8f6c000 : mmc: sdhci: fix issue with auto cmd err detection <Sahitya Tummala> 6 months ago
+2c4bd64 : mmc: sdhci-msm: Fix issue with power save bit enablement <Sahitya Tummala> 5 months ago
+c69e2a2 : mmc: sdhci-msm: Enable controller power save feature <Sahitya Tummala> 8 months ago
+64ff17a : ARM: dts: msm: Add eeprom entry for ov8865 and ov5648 OTP <Su Liu> 3 months ago
+363eb14 : mmc: block: Fix error path of mmc_blk_alloc_req() <Sahitya Tummala> 4 months ago
+2762366 : ARM: dts: msm: i2c: change  clock rate to 19.2 MHz <Sana Venkat Raju> 4 months ago
+b0966ac : input: atmel_mxt_ts: Add NULL pointer check <Himanshu Aggarwal> 6 months ago
+98e2e40 : msm: vidc: Document venus color format <Vinay Kalia> 4 months ago
+5b525e9 : ARM: dts: msm: Add battery FET regulator to mdp device <Shalabh Jain> 4 months ago
+6f7d58e : msm: mdss: restructure rotator code and add mutex for rotator api <Huaibin Yang> 4 months ago
+812e31e : ASoC: msm8x10-wcd: Add suspend / resume for codec driver <Bhalchandra Gajare> 4 months ago
+ea7bd6f : mfd: wcd9xxx_irq: Fix the condition to lock/unlock sleep <Bhalchandra Gajare> 4 months ago
+3db2ac2 : ARM: dts: msm: Remove redundant interrupt mapping for 8610 <Bhalchandra Gajare> 4 months ago
+ba569f2 : msm: mdss: hdmi: Proper DDC power off sequence <Ajay Singh Parmar> 3 months ago
+77abf31 : mmc: msm_sdcc: Remove unnecessary delay in interrupt context <Venkat Gopalakrishnan> 4 months ago
+cc1d0dc : input: synaptics_i2c_rmi4: Check configuration after reset <Amy Maloche> 4 months ago
+aeca350 : msm: mdss: fix the dma-s register offset on 8x10 <Xiaoming Zhou> 4 months ago
+0ced4ec : msm: mdss: Enable fixed MMBs support for RGB pipes <Ujwal Patel> 5 months ago
+1be8950 : msm: mdss: Fix watermark level calculations for pipe updates <Ujwal Patel> 5 months ago
+01991a5 : ASoC: msm: Avoid multiple release of ocmem memory <Banajit Goswami> 6 months ago
+289fcf8 : power: qpnp-charger: fix vin_min for values > 5.6V <David Keitel> 3 months ago
+e2d99de : cpufreq: Save user policy min/max instead of policy min/max during hotplug <Saravana Kannan> 6 months ago
+c713632 : msm: clock-8610: Remove some simulation related FIXMEs <Vikram Mulukutla> 5 months ago
+d7f13c4 : arm/dts: 8974pro: Set deemphasis value to override default setting <Vijayavardhan Vennapusa> 4 months ago
+aaa9b33 : media: dvb: Abort SDMX processing when DVR device is closed <Hamad Kadmany> 6 months ago
+3f5060a : media: dvb: Protect against wrong meta-data size from SDMX <Hamad Kadmany> 6 months ago
+0d80744 : USB: f_mass_storage: Send GADGET_DELAYED_STATUS for MSC RESET command <Vijayavardhan Vennapusa> 4 months ago
+d01d04a : diag: Set Diag mode correctly when USB is disconnected <Ravi Aravamudhan> 4 months ago
+91391ce : diag: Forward pkts to peripherals only after receiving feature mask <Ravi Aravamudhan> 4 months ago
+4b61d4f :  ARM: dts: msm: enable phase scaling for 8974pro devices <Abhijeet Dharmapurikar> 4 months ago
+6e3249d : coresight: fix error checks for byte counter init code <Pratik Patel> 4 months ago
+84d2221 : msm: camera: support simple led flash controlled by one gpio for SKUAB <Xu Kai> 4 months ago
+ede15c4 : ARM: dts: msm: raise limits for WLAN LDOs for 8974/8x10/8x26 <David Keitel> 4 months ago
+5f39841 : Revert "Debug: This helps debug iommu issue inside mdp ppp." <Terence Hampson> 4 months ago
+29ccc04 : mdss: display: add mdp core clock to dsi clock control <Kuogee Hsieh> 6 months ago
+b4735c9 : Kconfig: Add menu choice option to reclaim virtual memory <Vishwanatha Kumar Ultur> 4 months ago
+4682d22 : ARM: dts: msm: move led_flash0 device node for msm8974 <David Collins> 6 months ago
+e5c46ba : spi_qsd: Remove redundant input first setting in bam mode <Gilad Avidov> 6 months ago
+4684092 : msm: mdss: Change the Alpha scaling type to bilinear <Sree Sesha Aravind Vadrevu> 6 months ago
+3f8e5ec : ARM: dts: msm: Support all versions of msm8974-liquid <Amy Maloche> 6 months ago
+5e5474e : msm: scm: Add logging of actual return code from scm call <Olav Haugan> 6 months ago
+d4dfbce : ARM: dts: msm: camera:add reset pin for gc0339's new module <Kerong Sui> 4 months ago
+9421565 : ARM: dts: msm: enable led flash for camera driver for QRD SKUAB <Xu Kai> 4 months ago
+64fa028 : ARM: dts: msm: enable simple led flash controlled by gpio for QRD SKUAB <Xu Kai> 4 months ago
+9043cdd : msm: vidc: Increase timeout for power collapse <Vinay Kalia> 4 months ago
+271a5d7 : cfg80211: Fix memory leak <Larry Finger> 1 year ago
+3d55cf8 : ASoC: msm: Fixup number of channels for FM transmitter <Phani Kumar Uppalapati> 4 months ago
+200405d : ARM: dts: msm: Reduce HS200 SDC1 frequency for MSM8974Pro AC MTP <Venkat Gopalakrishnan> 4 months ago
+cfbfa2f : ASoC: wcd9xxx: Reset MBHC registers upon plug removal <Phani Kumar Uppalapati> 4 months ago
+b5c045a : msm: clock-8974: Change SDCC1 frequencies for MSM8974Pro AC <Junjie Wu> 4 months ago
+c87b76c : msm: mdss: Fix DSI event handler for dynamic FPS configuration <Aravind Venkateswaran> 4 months ago
+70eb9e3 : defconfig: Disable CONFIG_MSM_OCMEM_NONSECURE for msm8226 <Neeti Desai> 4 months ago
+7ce3a9f : leds: leds-qpnp: Added in delay for flash LED operation <Chun Zhang> 4 months ago
+ea34bac : msm: camera: Checking an enum value greater than zero <Xu Han> 4 months ago
+5e77e1e : msm: wfd: Restart hrtimer after forwarding it <Deva Ramasubramanian> 5 months ago
+ced3a46 : ARM: dts: msm: Reduce the clocks for SD card slot for MSM8610 <Pratibhasagar V> 4 months ago
+d1b6af2 : ASoC: wcd9xxx: Enable MBHC_MUX_MODE when polling is active <Yeleswarapu, Nagaradhesh> 4 months ago
+d136cd2 : ARM: dts: msm: Add firmware update fields for 8226 qrd <Mohan Pallaka> 5 months ago
+7d7eb3e : platform: qpnp-power-on: Add explicit support for bark irq <Mohan Pallaka> 5 months ago
+ab4a1fb : ARM: dts: msm8610: Add SKUAB dvt2 device tree <Maria Yu> 4 months ago
+cae621a : ARM: dts: msm: Add battery FET regulator to mdp device <Shalabh Jain> 4 months ago
+54d56a8 : defconfig: 8610: Enable CC_STACKPROTECTOR <Syed Rameez Mustafa> 4 months ago
+725fc79 : msm: vidc: Add support for decoder downscaling <Praneeth Paladugu> 5 months ago
+34a025d : ARM: dts: msm: Modified nodes for multiple partitions in msm_vidc <Praneeth Paladugu> 5 months ago
+e63b361 : msm: vidc: Add support for FW version check <Praneeth Paladugu> 4 months ago
+bf74bb1 : msm: vidc: Add support for encoder deinterlacing <Praneeth Paladugu> 4 months ago
+9c8d996 : msm: vidc: Add support for encoder scaling <Praneeth Paladugu> 4 months ago
+bfad056 : msm: vidc: flush dynamic output buffers in reconfig <Arun Menon> 4 months ago
+ffd889e : msm: vidc: fix a race condition in dynamic buffer handling <Arun Menon> 4 months ago
+706c97e : msm: vidc: Synchronise data shared between controls <Deva Ramasubramanian> 4 months ago
+62e6c43 : msm: mhl: sii8334: initialize return value <Manoj Rao> 6 months ago
+fb656ee : msm: vidc: Add support for encoder rotation <Praneeth Paladugu> 4 months ago
+280d52d : msm: camera: Prevent camera suspend while active <Lakshmi Narayana Kalavala> 4 months ago
+c7209c1 : msm: kgsl: Save/restore performance counters across GPU power collapse <Harshdeep Dhatt> 4 months ago
+5081549 : msm: kgsl: Restructure performance counters <Shubhraprakash Das> 4 months ago
+6b742e5 : msm: kgsl: Verify the user address before reading a perfcounter group <Jordan Crouse> 4 months ago
+318cac4 : slim_ngd: Add NULL pointer check apart from error check <Kiran Gunda> 4 months ago
+8764aab : defconfig: msm8610: add VPN support for msm8610 <Xiaocheng Li> 4 months ago
+ddf811d : defconfig: msm8226: add VPN support for msm8226 <Xiaocheng Li> 4 months ago
+c7bd62a : klist: del waiter from klist_remove_waiters before wakeup waitting process <wang, biao> 9 months ago
+0c33a96 : spmi: Inline a function to remove compilation error <Kiran Gunda> 4 months ago
+05e8da5 : msm: mdss: restructure rotator code and add mutex for rotator api <Huaibin Yang> 4 months ago
+ccbc9c7 : ASoC: wcd9320: Fix the VI feedback enable/disable sequence <Gopikrishnaiah Anandan> 4 months ago
+254793e : msm: kgsl: Try to run soft reset on all targets that support it <Tarun Karra> 4 months ago
+1674893 : ASoC: wcd9xxx: Refactor interrupt mapping per codec <Bhalchandra Gajare> 4 months ago
+69cdf9d : ASoC: wcd9xxx: Correct OCP IRQ mapping for Tapan <Yeleswarapu, Nagaradhesh> 4 months ago
+1cce9a3 : mdss: display: support dcs read with length more than 8 bytes <Kuogee Hsieh> 4 months ago
+ee08fc5 : msm: kgsl: Don't spam the kernel log if qcom,step-pwrlevel isn't found <Jordan Crouse> 4 months ago
+39db85c : defconfig: 8226: Set ROW as the default block I/O scheduler <Tatyana Brokhman> 4 months ago
+ebdcad3 : ASoC: msm: qdsp6v2: Update log message priority to debug <Pradnya Chaphekar> 4 months ago
+8aeeb03 : ARM: dts: msm:  Add support for JDI 1080p panel <Siddhartha Agrawal> 6 months ago
+a6d20ee : msm: mdss: Update panel on sequence <Casey Piper> 4 months ago
+08cdec0 : msm: mdss: Correctly update pwm configuration <Casey Piper> 4 months ago
+6550fca : msm: kgsl: GPU pagefault policy change to not stall on pagefault <Tarun Karra> 6 months ago
+93e7526 : iommu: Do not clear FSR if fault handler returns EBUSY <Shubhraprakash Das> 6 months ago
+f64b0ec : msm: kgsl: Set FSR to 0 on IOMMU pagefault <Shubhraprakash Das> 6 months ago
+db06585 : ASoC: msm: Fix for power collapse hostless usecase <Gopikrishnaiah Anandan> 4 months ago
+5f3ed73 : msm: kgsl: Enable GPU hang interrupt <Tarun Karra> 7 months ago
+aef1782 : msm: mdss:  Set rotator output format as pseudo planar 420 <Pawan Kumar> 4 months ago
+8fb3153 : defconfig: msm8610: enable Goodix touchscreen driver <Bingzhe Cai> 4 months ago
+c3f252d : ARM: dts: msm: update skuab device tree for CTP dynamic detection <Bingzhe Cai> 4 months ago
+d940b86 : msm: acpuclock-8974: Update PVS table for msm8974 Pro <Junjie Wu> 4 months ago
+a62baec : msm: msm_bus: fix memory leak in msm_bus_fabric_probe <Syed Rameez Mustafa> 4 months ago
+6bc5e04 : msm: kgsl: Handle failure of find_process_private() <Harsh Vardhan Dwivedi> 4 months ago
+071823f : ALSA: pcm: check for integer overflow during multiplication <Phani Kumar Uppalapati> 4 months ago
+6f65a96 : scsi: Remove compilation error introduced by a previous change <Tarun Gupta> 4 months ago
+44ad2bb : USB: Debugfs: Fix compilation issues when debugfs is disabled <Tarun Gupta> 4 months ago
+9c89b9b : ALSA: core: Fix crash by avoiding appl_ptr crossing 32-bit boundary <Laxminath Kasam> 7 months ago
+7062674 : input: misc: turn off mma8x5x device power while disabled <Bingzhe Cai> 4 months ago
+1389dd3 : ARM: dts: msm: add cti devices for remote procs on 9625 <Pratik Patel> 5 months ago
+28af1e9 : ARM: dts: msm: rename cti cpu node on 9625 <Pratik Patel> 4 months ago
+af40ba1 : ARM: dts: msm: add cti devices for remote procs on 8610 <Pratik Patel> 5 months ago
+b8bb7d8 : ARM: dts: msm: add cti devices for remote procs on 8226 <Pratik Patel> 5 months ago
+2478806 : ARM: dts: msm: add cti devices for remote procs on 8974 <Pratik Patel> 5 months ago
+2742305 : msm: clock-9625: add clock entries for cti devices of remote procs <Pratik Patel> 4 months ago
+8541977 : msm: clock-8610: add clock entries for cti devices of remote procs <Pratik Patel> 4 months ago
+40c4b87 : msm: clock-8226: add clock entries for cti devices of remote procs <Pratik Patel> 4 months ago
+d6c3cd6 : msm: clock-8974: add clock entries for cti devices of remote procs <Pratik Patel> 4 months ago
+9c8a942 : defconfig: 8610: enable etm trace on remote processors <Aparna Das> 7 months ago
+fd7508e : ARM: dts: msm: add coresight dt nodes for remote processors for 8610 <Aparna Das> 7 months ago
+f507f00 : defconfig: 9625: enable etm trace on remote processors <Aparna Das> 7 months ago
+7028fb1 : ARM: dts: msm: add coresight dt nodes for remote processors for 9625 <Aparna Das> 7 months ago
+299330a : defconfig: 8226: enable etm trace on remote processors <Aparna Das> 7 months ago
+00d20c2 : ARM: dts: msm: add coresight dt nodes for remote processors for 8226 <Aparna Das> 7 months ago
+c65e63f : defconfig: 8974: enable etm trace on remote processors <Aparna Das> 7 months ago
+c347d36 : ARM: dts: msm: add coresight dt nodes for remote processors for 8974 <Aparna Das> 7 months ago
+b84b311 : coresight: support etm tracing on remote processors <Aparna Das> 7 months ago
+930aa02 : msm: mdss: For video mode enable cmd mode while dsi read commands <Shivaraj Shetty> 4 months ago
+edae8cc : ARM: dts: msm: add GT915 touchscreen support for skuab <Bingzhe Cai> 4 months ago
+954bbbc9 : msm: mdss: Add battery FET regulator usage <Ujwal Patel> 6 months ago
+d34385a : msm: vidc: Add clocks and power counts <Sachin Shah> 4 months ago
+36f7a1a : wcnss: Enable/disable WCNSS register dump on WCNSS bite <Sameer Thalappil> 4 months ago
+7b9cc48 : msm: pil: Unregister modem notifer on failure to create kobj <Deepak Katragadda> 4 months ago
+e902314 : msm: mdss: Reset Ctl interface during video stop <Sree Sesha Aravind Vadrevu> 4 months ago
+eb66822 : mdss: display: add command mode mdp fifo underflow recovery <Kuogee Hsieh> 6 months ago
+e1c7a9f : msm: kgsl: Switch to default pagetables in case of NULL context <Harsh Vardhan Dwivedi> 4 months ago
+d9ffdaf : power: qpnp-bms: fix batterydata reverse interpolation <Xiaozhe Shi> 5 months ago
+ee39e5d : power: qpnp-bms: fix soc adjustment in high load charging <Xiaozhe Shi> 4 months ago
+24f91a0 : power: qpnp-bms: Use charger's battery insertion OCV <Xiaozhe Shi> 5 months ago
+90f3a41 : power: qpnp-bms: remove misuse of bool <Xiaozhe Shi> 6 months ago
+bc4f9ee : power: qpnp-charger: save open circuit voltage upon battery insertion <Xiaozhe Shi> 5 months ago
+10fc73c : ASoC: msm: qdsp6v2: Fix buffer overflow in voice driver <Shiv Maliyappanahalli> 4 months ago
+dc7ef2b : power_supply: Add voltage_ocv property and use it for max17042 driver <Ramakrishna Pallala> 1 year, 10 months ago
+972ada2 : msm: vidc: Document venus color format <Vinay Kalia> 4 months ago
+0c38440 : msm: kgsl: Fix overflow check in mmap_range_valid <Jordan Crouse> 4 months ago
+f6fe485 : msm: kgsl: Return NULL when done parsing the profiler assignments string <Jordan Crouse> 4 months ago
+79ba99b : msm: kgsl: Change an overflow check to be "smart" compiler proof <Jordan Crouse> 4 months ago
+3a48a97 : msm: kgsl: Enable the shader corruption workaround for all A3XX targets <Jordan Crouse> 4 months ago
+becda46 : base: genlock: Zero a structure before sending it to user space <Jordan Crouse> 4 months ago
+1fdd097 : ASoC: msm: Change acdb_mmap size variable to unsigned <Ben Romberger> 4 months ago
+fbdaf19 : mmc: msm_sdcc: Fix compilation issues <Sahitya Tummala> 4 months ago
+b5ce4e7 : msm: vidc: allow clients to set buffer size on OUTPUT plane <Shalaj Jain> 4 months ago
+53049b0 : ASOC: qdsp6: Add pause/resume support for AAC encoder <Sharad Sangle> 4 months ago
+20eca99 : msm: vidc: Add 5.2 level support <Rajeshwar Kurapaty> 4 months ago
+ce20b47 : mdss: hdmi: Wait for audio off <Ajay Singh Parmar> 7 months ago
+2db478c : msm: acpuclock-8974: Modify L2 table for 8974 <Dilip Gudlur> 7 months ago
+9f74b1b : USB: dwc3-msm: Add support for overriding SSPHY deemphasis setting <Vijayavardhan Vennapusa> 5 months ago
+8f83a98 : msm: camera: Fix various small issues in vpe driver <Hariram Purushothaman> 4 months ago
+912b381 : diag: NRT read wakelocks held for very long time <Mohit Aggarwal> 5 months ago
+b77e143 : USB: dwc3: Fix QDSS data integrity issue <Vijayavardhan Vennapusa> 4 months ago
+4e0e532 : msm: camera: fix signal error for function msm_post_event <Yu Yang> 4 months ago
+3cd4521 : ASoC: wcd9xxx: Correct clk and Bandgap handling <Yeleswarapu, Nagaradhesh> 4 months ago
+e7947c7 : ARM: dts: msm: Add support for Synaptics touch controller <Mohan Pallaka> 4 months ago
+3ebefb6 : input: touchscreen: remove PRESSURE event from ft5x06 driver <Bingzhe Cai> 5 months ago
+6da972c : msm: camera: To prevent the unbounded copy <Cherian Deepak> 4 months ago
+d5610e6 : mms: mdss: hdmi: Support for raw EDID data <Ajay Singh Parmar> 6 months ago
+929478a : msm: mdss: hdmi: Set ITC and CN0_1 bits in AVI infoFrame <Ajay Singh Parmar> 6 months ago
+d7257c4 : msm: mdss: hdmi: HDCP Topology <Ajay Singh Parmar> 6 months ago
+f9ca6396 : msm: mdss: hdmi: bounds check for 3d data in vsd buf <Manoj Rao> 6 months ago
+8e01fcc : msm: mdss: hdmi: bounds check for ieee reg id field <Manoj Rao> 6 months ago
+cbb6817 : msm: mdss: hdmi: bounds check for edid dbc <Manoj Rao> 6 months ago
+03a8229 : mmc: core: skip stop flow when current request already done <Konstantin Dorfman> 5 months ago
+66e7ce7 : sdhci: sdhci_stop_request() returns error when no request <Konstantin Dorfman> 5 months ago
+4c2d6c6 : msm: Add nodes in socinfo, to store APPS image version in SMEM <Yulian Shandorov> 4 months ago
+ed2265b : msm: Add image version reporting node into socinfo <Yulian Shandorov> 6 months ago
+43be312 : ARM: dts: msm8226: Add qrd pvt device tree <Maria Yu> 5 months ago
+43564d6 : msm: mdss: Prevent ALS data configuration when AD is disabled <Ping Li> 4 months ago
+f512ef3 : ASoC: msm: Add argument to config_debug_fs definition <Ben Romberger> 4 months ago
+ddbeaa3 : ASoC: wcd9320: remove hard coded mad mic bias <Kiran Kandi> 4 months ago
+6f0e8a2 : ASoC: msm: Move ASM custom topology data out of Debugfs define <Ben Romberger> 4 months ago
+6394545 : ARM: dts: apq: enable dsi device node for dragonboard8074 <Asaf Penso> 4 months ago
+c2b6328 : msm: audio: qdsp6v2: Zero the cfg stack var <Kenneth Westfield> 4 months ago
+f78bea2 : cpufreq: ondemand: add input_boost interface <Dilip Gudlur> 8 months ago
+4062447 : msm: pm-8x60: Fix suspend time tracking <Stephen Boyd> 4 months ago
+051319a : clocksource: arm_arch_timer: Use clocksource for suspend timekeeping <Stephen Boyd> 4 months ago
+bca69e2 : timekeeping: utilize the suspend-nonstop clocksource to count suspended time <Feng Tang> 11 months ago
+f7b8252 : timekeeping: Add missing update call in timekeeping_resume() <Thomas Gleixner> 1 year, 7 months ago
+1c417b6 : msm: kgsl: Don't use uninitialized values in hang detection <Jordan Crouse> 4 months ago
+b79fd20 : ASoC: msm: q6: check upper bounds when copy ac3 params <Fred Oh> 4 months ago
+265722d : msm: kgsl: Use the right set of flags for issuing user commands <Jordan Crouse> 4 months ago
+598cc91 : mdss: display: making lpg channel and pwm period as optional <Asaf Penso> 4 months ago
+83ada4c : mdss: display: remove the pwm gpio request from edp backlight <Asaf Penso> 6 months ago
+6d4b9da : power: qpnp-charger: allow charging in host mode <David Keitel> 5 months ago
+b3ea298 : ARM: dts: Don't put SDHC1's vdd-io regulator in lpm for msm8610 CDP/MTP <Venkat Gopalakrishnan> 5 months ago
+6895c55 : ARM: dts: apq: remove unnecessary configuration of pmic gpio 36 <Asaf Penso> 6 months ago
+ceee6e8 : USB: phy-msm-usb: Enable USB Interrupt only if ASYNC IRQ is not present <Sujeet Kumar> 5 months ago
+2feeade : ASoC: wcd9xxx: Disable RC oscillator after use <Phani Kumar Uppalapati> 5 months ago
+8ec3c6f : radio: iris: Add the parameter to turn on/off sig blend <Sheng Fang> 6 months ago
+db45cd8 : msm: mdss: hdmi: NUL-terminate spd data <Manoj Rao> 6 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+d7b81ab : Readme to 4.4.2 <DHOMD> 6 hours ago
+6d4c816 : Mac users... -g darwin <DHOMD> 6 hours ago
+fc574c4 : Make mips toolchains require "repo init ... -g mips" to sync <nuclearmistake> 8 hours ago
+a810cd3 : nodefault ==> notdefault? <nuclearmistake> 8 hours ago
+f3f75d7 : Those who wear sweatervests have to repo init -u https://github.com/VanirAOSP/platform_manifest -b kk44 -g darwin <nuclearmistake> 8 hours ago
+c6d969f : Tewlchaynz <nuclearmistake> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+d4d21f7 : Drop duplicate service state check. <Danny Baumann> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_BluetoothExt ****
+989febb : BluetoothExt: Cleanup translations <Michael Bestas> 3 months ago
+ 
+**** https://github.com/omnirom/android_packages_apps_OmniSwitch ****
+65c7352 : OmniSwitch: service life-cycle tweaks <maxwen> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+f725b75 : Better expose 'QS Tiles and layout' function <Abhisek Devkota> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_UnifiedEmail ****
+8d80020 : Revert "Linkify email addresses only." <Jonathan Deitch> 9 days ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+e504545 : Under da hood brandang <nuclearmistake> 20 hours ago
+dede8bf : Add a default MMS UA Profile URL <Ricardo Cerqueira> 30 hours ago
+434725a : Add a default MMS UA <Ricardo Cerqueira> 30 hours ago
+ 

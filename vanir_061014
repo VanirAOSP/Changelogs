@@ -1,0 +1,134 @@
+
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+4998303 : Only chmod backup/blobs directory if it exists <Matt Mower> 22 hours ago
+13651e2 : Fixup nandroid-md5.sh with legitimate return code <Matt Mower> 22 hours ago
+93a6755 : fix segfault during shell nandroid backup/restore commands <philz-cwm6> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_jewel ****
+fc24c15 : jewel: remove duplicate init entries <Ethan Chen> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_s4-common ****
+ddfa75a : s4-common: Move directory creation to post-fs-data <Ethan Chen> 26 hours ago
+b16b70d : s4-common: Remove unused init entries and scripts <Ethan Chen> 26 hours ago
+386e18b : s4-common: Don't assign garbage groups <Ethan Chen> 26 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_moto_msm8960dt ****
+e4ef095 : Add PDS and USB OTG to TWRP fstab <Dees Troy> 4 hours ago
+fd9257b : Force permissive mode in recovery <Dees Troy> 4 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_qcom-common ****
+5758d26 : root: Link 8960 thermal.conf to /dev/thermald.conf <dhacker29> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_hlte ****
+cf9aa23 : hlte: disable world_phone overlay <Dan Pasanen> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jflte ****
+c27a13d : jflte: clean up overlays <Dan Pasanen> 3 months ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_maguro ****
+6b97ce9 : Fix hardware includes: Do not place repos inside other repos <DHOMD> 33 hours ago
+6884f46 : Audio-RIL-Interface <Paul Kocialkowski> 5 months ago
+7b9cf33 : Samsung-RIL <Paul Kocialkowski> 5 months ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_tuna ****
+1deca34 : Make ril commits harmonize with with Toro and T+ <DHOMD> 51 minutes ago
+e247ae5 : Revert "SELinux mods to init file." + a mild fixup <DHOMD> 81 minutes ago
+098bcfd : Audio-RIL-Interface <Paul Kocialkowski> 5 months ago
+826e6ec : Factory partition rw mount <Paul Kocialkowski> 5 months ago
+ 
+**** https://github.com/LegacyXperia/android_device_semc_msm7x30-common ****
+a7135f8 : msm7x30: Fix AF resampler quality <Michael Bestas> 7 hours ago
+d28691d : msm7x30: Enable qcom HW AAC encoder <Michael Bestas> 7 hours ago
+284b1f1 : msm7x30: Remove libnetcmdiface <Michael Bestas> 8 hours ago
+91e030e : msm7x30: Add qcmediaplayer <Michael Bestas> 8 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+2ce9191 : av: QC AAC encoder supports 320KBps <Steve Kondik> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+87924eb : Quicksettings: add click sound feedback <PrimeDirective> 4 hours ago
+56dc94b : Double-check navbar transparency in addNavigationBar <nuclearmistake> 22 hours ago
+1c1013e : GEL Integration (1/3) <Matt Garnes> 6 days ago
+4bab11b : Theme special volumeup+down volume panel <Andy Mast> 4 days ago
+0120b6a : sync status bar transparency state on theme change <Andy Mast> 4 days ago
+777fafc : synchronize updateStringCache on mAccessLock <Andy Mast> 5 days ago
+e0e3a3a : Themes: Avoid compiling icon packs every boot <Andy Mast> 6 days ago
+772d87f : Themes: Check CRC of APK MANIFEST.MF at install <Andy Mast> 6 days ago
+0569cd7 : base: remove extra checks <Jorge Ruesga> 3 days ago
+f24217c : inputdevices: update from aosp (master) <roeefriedman> 3 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_libhardware-legacy ****
+5e06c7b : Audio: Add new format and property for PCM offload <ApurupaPattapu> 5 months ago
+6fcc312 : audio: Increased mute wait for USB Playback <Pavan Chikkala> 5 weeks ago
+ade2977 : audio: improve logging. <Sidipotu Ashok> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+421746b : post_proc: fix post and pre process KW issues <wjiang> 4 weeks ago
+40bc78b : post_proc: disable Bassboost and Virtualizer for USB_ACCESSORY <Dhananjay Kumar> 5 weeks ago
+e0ff6bd : post_proc: improve logging <Dhananjay Kumar> 3 months ago
+31c859a : hal: Fix teardown during back to back pause/play of WFD session <Satya Krishna Pindiproli> 5 weeks ago
+824878c : hal: improve logging. <Sidipotu Ashok> 6 weeks ago
+e75f0ce : Audio: Enhance logging in AudioPolicyManager <Chaithanya Krishna Bacharaju> 3 months ago
+89171d7 : hal: SSR support for pcm playback,pcm record usecases <Naresh Tanniru> 4 weeks ago
+ 
+**** https://github.com/xboxfanj/kernel_msm ****
+45d5f63 : gee: fix actuator/autofocus (Thanks faust93) <Jake Weinstein> 3 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+7539e842 : rtc: pm8xxx: move device_init_wakeup() before rtc_register <Josh Cartwright> 10 weeks ago
+fd08aa5 : d2: set to default interactive <Dave Daynard> 2 days ago
+1122e45 : usb: Avoid incorrect memory leaks reported by kmemleak tool. <Saket Saurabh> 4 months ago
+e5a0d04 : Remove extra defconfigs <Dave Daynard> 6 weeks ago
+41c0a82 : msm: acpuclock-krait: Enable HFPLL for init only if switching to it <Matt Wagantall> 1 year, 3 months ago
+b7b50f3 : regulatory: use correct regulatory initiator on wiphy register <Arik Nemtsov> 11 months ago
+2a05738 : fs/super.c: sync ro remount after blocking writers <Andrew Ruder> 4 months ago
+07cd46b : genirq: Introduce irq_do_set_affinity() to reduce duplicated code <Jiang Liu> 2 years, 2 months ago
+ed7ed4d : ARM: Don't dump vmalloc addresses with show_data() <Matt Wagantall> 10 weeks ago
+5f58d92 : ARM: Improve vmalloc address checking in show_data() <Matt Wagantall> 7 weeks ago
+b5cb537 : iopoll: Use ktime_get() instead of jiffies for timeout calculations <Matt Wagantall> 7 weeks ago
+8b88083 : iopoll: Make readl_poll_timeout() and friends preemption-safe <Matt Wagantall> 1 year, 2 months ago
+78fde7f : pktgen: clean up ktime_t helpers <Daniel Borkmann> 1 year, 7 months ago
+20dd089 : tick: Upstream fixes <Thomas Gleixner> 1 year, 1 month ago
+d179643 : fs: exfat: update to 1.2.7 from ND8 release <Dave Daynard> 3 days ago
+446c70b : selinux: Report permissive mode in avc: denied messages. <Stephen Smalley> 6 weeks ago
+278649b : msm8960: update wifi and storage boardfiles from sprint NB8 <Dave Daynard> 5 days ago
+a00035f : bcmdhd: update to 1.141.44 from sprint ND8 source <Dan Pasanen> 5 weeks ago
+ab5dee1 : Import Samsung audio changes from ND8 release <Dave Daynard> 6 days ago
+2da1d4d : seq_file: always update file->f_pos in seq_lseek() <Devin Kim> 5 months ago
+72763fb : seq_file: always clear m->count when we free m->buf <Devin Kim> 5 months ago
+ad5458c : fs/dcache.c: Fix the too small buffer for dname <Devin Kim> 5 months ago
+da5dd21 : android: configs: Grab the android/configs from kernel/common <JP Abgrall> 5 months ago
+ae39cb3 : msm: mdp: Free secure memory based on pipe config <Naseer Ahmed> 11 months ago
+1b46f3f : Revert "msm: display: clear sec_active when the pipe is not for secure" <Dave Daynard> 5 days ago
+ 
+**** https://github.com/LegacyXperia/android_kernel_semc_msm7x30 ****
+0760878 : defconfigs: Various updates <Michael Bestas> 3 hours ago
+dc44df8 : mogami: Specify outer cache in correct place. <Rudolf Tammekivi> 11 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+7132e3e : stereo call recording support <Heinz Teutsch> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+23acad7 : G2: never again. <nuclearmistake> 21 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+117edc4 : Hide Titlebar while loading InCallUI (2 of 2) <blackhand1001> 3 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+380cd0d : Hide "Volume adjustment sound" option on non-voice capable devices <Vladislav Koldobskiy> 4 days ago
+63dbc69 : Settings: Fix isPackageInstalled logic. <Adnan> 24 hours ago
+56c4db0 : settings: FC on quick settings editor on tablets without a vibrator <Jorge Ruesga> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_ThemesProvider ****
+a5e79ba : Insert instead of update if theme doesn't exist <Andy Mast> 2 days ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_oppo ****
+a72c908 : msm8974: Update blobs <Steve Kondik> 3 days ago
+c72e04b : msm8974: Initial import of MSM8974 family proprietary libs <Ethan Chen> 4 months ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+938b07f : hlte: Return time_daemon to working state <Wilfred Lam> 9 weeks ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+04287e8 : shinano: use older netmgrd for now <attn1> 31 hours ago
+ 

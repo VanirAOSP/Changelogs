@@ -1,0 +1,157 @@
+
+**** https://github.com/VanirAOSP/art ****
+9693f84 : Remove old fork-and-specialize API <Dave Platt> 11 days ago
+eb76b5c : Fix NewLocalRef, NewGlobalRef to handle cleared weak globals. <Mathieu Chartier> 10 weeks ago
+ 
+**** https://github.com/VanirAOSP/build ****
+8009075 : [HAX] Allow per-target dtbTool <Steve Kondik> 24 hours ago
+04178a7 : Allow devices to specify certain ro. props via TARGET_UNIFIED_DEVICE <dhacker29> 4 weeks ago
+ 
+**** https://github.com/xboxfanj/android_device_lge_gee-common ****
+d8f25b8 : gee-common: misc updates <Jake Weinstein> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+da7bd2a : omap4-common: fix wifi/p2p-config <Michael Gernoth> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_hlte ****
+b93e6ec : hlte: Improve boot speed <Steve Kondik> 4 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_qcom-common ****
+5253799 : qcom-common: Set timer_rate to 30000 for 8974 <Steve Kondik> 4 hours ago
+ 
+**** https://github.com/VanirAOSP/Superuser ****
+a4b3c46 : Superuser: ES translations <Lorenzo M> 9 hours ago
+215b8e4 : Superuser: IW translations <Arthur Zamarin> 8 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+d0cab79 : Revert "core: ES translations" <Michael Bestas> 24 hours ago
+aeee387 : donot translate maps xml file added <Solomon Sunder> 3 weeks ago
+6c022ff : base: Af Tranlastions <isimobile> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_libhardware ****
+eaf76c0 : libhardware: Define queriable attribute for max. WriteBack width <Tatenda Chipeperekwa> 5 weeks ago
+ffa6b96 : libhardware: Add audio power hint <Steve Kondik> 5 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+0ccd221 : af_unix: use freezable blocking calls in read <Colin Cross> 10 months ago
+cce4846 : sigtimedwait: use freezable blocking call <Colin Cross> 10 months ago
+34f985e : nanosleep: use freezable blocking call <Colin Cross> 10 months ago
+b6285d3 : futex: use freezable blocking call <Colin Cross> 10 months ago
+3936016 : select: use freezable blocking call <Colin Cross> 10 months ago
+6978db6 : epoll: use freezable blocking call <Colin Cross> 10 months ago
+b4329f4 : binder: use freezable blocking calls <Colin Cross> 10 months ago
+146a226 : freezer: add new freezable helpers using freezer_do_not_count() <Colin Cross> 10 months ago
+7f8881a : freezer: convert freezable helpers to static inline where possible <Colin Cross> 10 months ago
+0223745 : freezer: convert freezable helpers to freezer_do_not_count() <Colin Cross> 10 months ago
+38ec452 : freezer: skip waking up tasks with PF_FREEZER_SKIP set <Colin Cross> 10 months ago
+fd34c9b : freezer: shorten freezer sleep time using exponential backoff <Colin Cross> 10 months ago
+51e8b07 : Revert "PM: wakelock: Abort task freezing if a wake lock is held." <Iliyan Malchev> 8 months ago
+f07bda7 : lockdep: check that no locks held at freeze time <Mandeep Singh Baines> 10 months ago
+b2531d0 : lockdep: remove task argument from debug_check_no_locks_held <Colin Cross> 10 months ago
+d668ab8 : freezer: add unsafe versions of freezable helpers for CIFS <Colin Cross> 10 months ago
+9db36ea : freezer: add unsafe versions of freezable helpers for NFS <Colin Cross> 10 months ago
+3303e99 : HACK: ARM: disable sleeping while atomic warning in do_signal <Colin Cross> 1 year, 6 months ago
+484f0cc : Revert "freezer: comment out might_sleep()" <Iliyan Malchev> 8 months ago
+11d28a2 : freezer: add missing mb's to freezer_count() and freezer_should_skip() <Tejun Heo> 1 year, 4 months ago
+d0ec383 : camera: Freeze camera headers for H <Steve Kondik> 2 days ago
+c5cca73 : msm8974: Merge changes to Samsung DT <Steve Kondik> 2 days ago
+50f81bd : qseecom: Add basic suspend resume functionality <Zhen Kong> 4 months ago
+bc3875c : ARM: dts: msm : add external buck support <Anil kumar mamidala> 2 weeks ago
+baee740 : Revert "ARM: dts: msm : add external buck support." <Divya Sharma> 11 days ago
+571ca6f : msm: ext-buck-support: add external buck support driver <Anil kumar mamidala> 3 weeks ago
+a39a335 : msm: lpm_levels: remove rpm handshake in l2_gdhs mode <Anil kumar mamidala> 3 weeks ago
+01314d3 : ARM: dts: msm: Change the capless mode for 8226 qrd <Kunlei Zhang> 5 weeks ago
+c52e903 : USB: gadget: ether: Fix memory corruption issues with multi_pkt_xfers <Manu Gautam> 4 weeks ago
+6764410 : msm: peripheral-loader: Change IOMAP_SIZE from SZ_4M to SZ_1M <Deepak Katragadda> 2 weeks ago
+194ba36 : msm: camera: Fix for camera powerup crash <Abhinay Reddy Vanipally> 2 weeks ago
+04af3f8 : msm: camera: Fix mt9m114 sensor orientation <Evgeniy Borisov> 3 weeks ago
+aacb311 : msm: camera: Fix sp1628 sensor orientation <Evgeniy Borisov> 3 weeks ago
+88af496 : msm: camera: Populate sensor actuator subdev id during probe <Evgeniy Borisov> 4 months ago
+7a80b8f : msm: camera: Populate sensor eeprom subdev id during probe <Evgeniy Borisov> 4 months ago
+1bdb7cd : msm: camera: Add power down sequence separately for camera <Evgeniy Borisov> 3 months ago
+8234aeb : msm: camera: Fix for gpio usage in camera modules <Evgeniy Borisov> 4 months ago
+131a918 : msm: camera: Updated the vreg parameters for powerdown. <Rajesh Bondugula> 5 weeks ago
+87ebe9c : msm: camera: Add support for camera multimodule in eeprom <Evgeniy Borisov> 9 weeks ago
+d9ca993 : msm: camera: Camera multimodule fixes for 8x10 platform. <Evgeniy Borisov> 4 months ago
+0d5de50 : ARM: dts: Add generic camera nodes for msm8612. <Evgeniy Borisov> 4 months ago
+72cd5a5 : ARM: dts: Add generic camera nodes for msmsamarium. <Evgeniy Borisov> 4 months ago
+572617f : ARM: dts: Add generic camera nodes for apq8084 and msm8926. <Evgeniy Borisov> 4 months ago
+c3c26ea : ARM: dts: Add generic camera node for 8974MTP slot #2. <Evgeniy Borisov> 4 months ago
+e227e7e : ARM: dts: msm: camera: Add generic camera node per HW socket. <Evgeniy Borisov> 5 months ago
+11d85b0 : msm: camera: Multi module support in sensor architecture. <Evgeniy Borisov> 5 months ago
+f80b63a : msm: camera: Improve calibration data parsing. <Sreesudhan Ramakrish Ramkumar> 5 months ago
+784546e : USB: msm_otg: Print warning message when not able to turn USB CLKs <Saket Saurabh> 4 weeks ago
+9643b4a : msm: camera: Cleanup msm_generic_buff list while close <Azam Sadiq Pasha Kapatrala Syed> 3 weeks ago
+3c712f9 : ARM: dts: msm: limit VDD_MX requests to 1.2875 V for msm8926-v2 <Ke Liu> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Browser ****
+b7bd1dd : Revert "Browser: ES translations" <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar
+cm2	https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+c9ac520 : Calendar: ES translations <Lorenzo M> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+d8ecb2e : Revert "Camera2: ES translations" <Michael Bestas> 24 hours ago
+c46c473 : Revert "Camera2: CA translations" <Arnau> 25 hours ago
+64e4b4c : Updated Simplified Chinese translations <justinxu> 2 days ago
+a96931d : Camera2: Af Translations <isimobile> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+9b1057b : ContactsCommon: Af Translation <isimobile> 9 days ago
+d0094a9 : Revert "ContactsCommon: ES translations" <Michael Bestas> 25 hours ago
+b359936 : ContactsCommon: LT translations <Frant1c> 12 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DSPManager ****
+2ce55fe : DSPManager: ES translations <Lorenzo M> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+ff0ca2b : Revert "DeskClock: ES translations" <Michael Bestas> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+274d8fa : Revert "Dialer: ES translations" <Michael Bestas> 24 hours ago
+787e29a : Dialer: Af Translations <isimobile> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Email
+cm2	https://github.com/CyanogenMod/android_packages_apps_Email ****
+b0755e3 : Email: Update IW translations <Arthur Zamarin> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+ee636a8 : Revert "InCallUI: ES translations" <Michael Bestas> 24 hours ago
+a406820 : InCallUI: Af Translations <isimobile> 9 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+e8487fd : Revert "Mms: ES translations" <Michael Bestas> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+ff5458d : Updated Simplified Chinese translations <justinxu> 2 days ago
+f450592 : Settings: PT-BR Translations <Gustavo> 2 months ago
+4e9bc34 : Revert "Settings: ES translations" <Michael Bestas> 24 hours ago
+42f1527 : Revert "Settings: ES translations" <Michael Bestas> 24 hours ago
+59b7952 : Revert "Settings: CA translations" <Arnau> 25 hours ago
+1877895 : Settings: Revert changes for Transifex <Michael Bestas> 26 hours ago
+4c072be : Settings: Af Translations <isimobile> 2 weeks ago
+230c846 : Settings: LT translations <Frant1c> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_input_LatinIME ****
+586494c : LatinIME: IW translations <Arthur Zamarin> 8 days ago
+90de4b4 : Revert "LatinIME: ES translations" <Michael Bestas> 24 hours ago
+9705840 : LatinIME: Af Translations <isimobile> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+abc4254 : Telephony: Af Translations <isimobile> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_wallpapers_Galaxy4 ****
+774d4eb : Galaxy4: IW translations <Arthur Zamarin> 2 hours ago
+7fc2cb4 : Galaxy4: Prepare for Crowdin <Marco Brohet> 9 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_wallpapers_PhaseBeam ****
+9fb18b3 : PhaseBeam: IW translaions <Arthur Zamarin> 3 hours ago
+ 
+**** https://github.com/CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser ****
+36e8b1c : ThemeChooser: ES translations <Lorenzo M> 7 hours ago
+ee63a2d : ThemeChooser: IW translation <Arthur Zamarin> 11 hours ago
+ 
+**** https://github.com/CyanogenMod/android_vendor_tmobile_providers_ThemeManager ****
+7aa8949 : ThemeManager: IW translations <Arthur Zamarin> 8 days ago
+ 

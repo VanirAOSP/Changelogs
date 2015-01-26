@@ -1,0 +1,131 @@
+
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+2c1917b : hammerhead: Set volume last to avoid pops on speaker <Steve Kondik> 5 days ago
+60abce0 : hammerhead: Disable interactive sync feature <myfluxi> 2 weeks ago
+0e40f4b : hammerhead: Make proximity check opt-in <myfluxi> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_falcon ****
+5876295 : Revert "falcon: Rename defconfig", breaks build <DHOMD> 18 minutes ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+0afedfd : msm8974: Update audio topology, again! <Steve Kondik> 3 hours ago
+3cb0956 : audio: Update audio topologies <Steve Kondik> 6 hours ago
+bc14a0e : msm8974: Add the ADSP loader bits <Steve Kondik> 2 days ago
+b2d887b : msm8974: Switch to TimeService blobs <Scott Mertz> 16 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_hlte-common ****
+d6bda15 : HLTE: Add support for S-View style flip cover. <Tony Layher> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+176ff71 : klte-common: fix typo on fstab <arter97> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_kltevzw ****
+3c14186 : kltevzw: Use NXP NFC <Ethan Chen> 28 hours ago
+922b0d7 : kltevzw: Use Verizon BCM firmware <Ethan Chen> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_maguro ****
+5dd7573 : tuna: commonize what we can (2/4) <Ziyann> 29 hours ago
+ddfba22 : maguro: remove duplicate overlay <Ziyann> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_toro ****
+1d18ad2 : tuna: commonize what we can (3/4) <Ziyann> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_tuna ****
+fca09e1 : tuna: commonize what we can (1/4) <Ziyann> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_nicki ****
+85a1be1 : nicki: Remove modem links, generate firmware symlinks <Steve Kondik> 9 months ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_shinano-common ****
+8634196 : shinano: remove unneded header <Giulio Cervera> 11 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+262fb4e : 6-bar signal icon sytle [1/2] <Paul Mongold> 2 years, 1 month ago
+6496eea : Navbar: reuse the *view/info classes during layout population <PrimeDirective> 21 hours ago
+1c48e05 : add missing patchset from layout changer menu key handling <PrimeDirective> 22 hours ago
+11835bd : NavbarLayout(s) - arrayification -- and fix initialization of ime buttons <nuclearmistake> 23 hours ago
+08d5d08 : Reduce redundancy w/ KBV in LCBV and fix opacity wonk <nuclearmistake> 25 hours ago
+43153d2 : Fix attribute resolution in theme lookup <Andy Mast> 2 days ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+bc7fe72 : sched: Fix ancient race in do_exit() <Yasunori Goto> 2 years, 8 months ago
+bd5073d : net: guard tcp_set_keepalive() to tcp sockets <Eric Dumazet> 2 years ago
+2dace8c : Fix implicit declaration of function   'ieee80211_cfg_on_oper_channel' [-Werror=implicit-function-declaration] In net/mac80211/work.c <demetris> 23 hours ago
+74194ac : Convert all refrigerator() users to try_to_freeze() <demetris> 24 hours ago
+5df422e : treewide: Fix typos in various parts of the kernel, and fix some comments. <Justin P. Mattock> 2 years, 10 months ago
+c0054a7 : freezer: unexport refrigerator() and update try_to_freeze() slightly <Tejun Heo> 2 years, 10 months ago
+9630181 : PM / Freezer: Reimplement wait_event_freezekillable using freezer_do_not_count/freezer_count <Oleg Nesterov> 2 years, 11 months ago
+b90d298 : Fix build break when freezer not configured <Steve French> 2 years, 11 months ago
+d751d6a : [CIFS] Fixup trivial checkpatch warning <Steve French> 2 years, 11 months ago
+a9744a6 : cifs, freezer: add wait_event_freezekillable and have cifs use it <Jeff Layton> 2 years, 11 months ago
+b332058 : PM / Hibernate: Freeze kernel threads after preallocating memory <Rafael J. Wysocki> 3 years ago
+c74389e : freezer: fix current->state restoration race in refrigerator() <Tejun Heo> 2 years, 10 months ago
+eef63e1 : ext4: add blk_finish_plug in error case of writepages. <Namjae Jeon> 2 years, 10 months ago
+5ecddcf : ext4: Remove kernel_lock annotations <Richard Weinberger> 2 years, 10 months ago
+ac8d8d7 : ext4: ignore journalled data options on remount if fs has no journal <Theodore Ts'o> 2 years, 10 months ago
+84d38ea : filesystems: add set_nlink() <Miklos Szeredi> 2 years, 11 months ago
+47b3cd0 : sysfs: Remove support for tagged directories with untagged members. <Eric W. Biederman> 2 years, 11 months ago
+992e2c3 : sysfs: count subdirectories <Mikulas Patocka> 3 years, 2 months ago
+ab60048 : filesystems: add missing nlink wrappers <Miklos Szeredi> 2 years, 11 months ago
+94b6ba5 : ext4: let ext4_ext_rm_leaf work with EXT_DEBUG defined <Yongqiang Yang> 2 years, 11 months ago
+5f26dfa : ext4: fix a syntax error in ext4_ext_insert_extent when debugging enabled <Yongqiang Yang> 2 years, 11 months ago
+2fb6d62 : ext4: fix a typo in struct ext4_allocation_context <Robin Dong> 2 years, 11 months ago
+e64222c : ext4: Don't normalize an falloc request if it can fit in 1 extent. <Greg Harm> 2 years, 11 months ago
+0df209d : ext4: remove comments about extent mount option in ext4_new_inode() <Eryu Guan> 2 years, 11 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974pro ****
+077f1df : driver: clearpad: Clean up warnings about uninitialized variables <Giulio Cervera> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/kernel_sony_msm8x27 ****
+12b9a4f : net: guard tcp_set_keepalive() to tcp sockets <Eric Dumazet> 2 years ago
+1435084 : msm: fih_proc_fs: fix typo <RonGokhale> 35 hours ago
+c6f9197 : msm: fih_proc_fs: create model number proc file <RonGokhale> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8x60 ****
+9a1a169 : net: guard tcp_set_keepalive() to tcp sockets <Eric Dumazet> 2 years ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Contacts ****
+67c1442 : Add missing colon to memory status <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+89e5fd6 : Cleanup newlines in strings <Michael Bestas> 26 hours ago
+4818e18 : String improvements. <Danny Baumann> 2 days ago
+07c9e70 : Make sure internal lists of AccountTypeManager aren't modified. <Danny Baumann> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DSPManager ****
+75f5584 : dspmanager: Allow target to provide it's own replacement <Steve Kondik> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+d032c4b : Revert "DialerStats: track how frequently contact images are present on the call detail page" <nuclearmistake> 25 hours ago
+d6e4f35 : DialerStats: track how frequently contact images are present on the call detail page <emancebo> 6 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Gallery2 ****
+d2736c8 : Fix crash of gallery on showing details <Flamefire> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+8ea8616 : 6-bar signal icon sytle [2/2] <Alex Cruz> 4 weeks ago
+8517e07 : Navbar mult-layout -- OMFG. arrays moar plox. <nuclearmistake> 7 hours ago
+3286111 : Fix IME navbar settings - these extra changes broke things. <nuclearmistake> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_UnifiedEmail ****
+69d2ac4 : UnifiedEmail: Improve string <Michael Bestas> 32 hours ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_oppo ****
+34d810d : msm8974: Add TimeService blobs <Scott Mertz> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+ee4e431 : Fix a ton of pre-exiting derps in klimtwifi vendor.mk + use stock names for some props <DHOMD> 2 days ago
+3b7d7ed : Update a vendor path <DHOMD> 2 days ago
+6bf9053 : Initial import of klimtwifi blobs <DHOMD> 2 days ago
+216449e : klimtewifi initial from eousphoros <DHOMD> 4 days ago
+bb32f67 : Jactivelte vendor props <Spegelius> 3 days ago
+9c4b58d : kltevzw: more derped firmware <nuclearmistake> 2 days ago
+0b958df : Add missing/incorrect BT firmware <nuclearmistake> 2 days ago
+db9334c : klteusc blobs <nuclearmistake> 2 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+3a0c014 : Enable incall recording <DHOMD> 5 weeks ago
+824e025 : klimtwifi - G Pro 12.2 <DHOMD> 4 days ago
+56adb00 : Add an init.d script to facilitate rolling out a one-time thumbnail purge <nuclearmistake> 25 hours ago
+4bf8120 : Themes: Add versioning to the theme feature <Clark Scheff> 7 days ago
+ 

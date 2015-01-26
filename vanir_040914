@@ -1,0 +1,118 @@
+
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+3dafc75 : dualboot: handle 'format_device' <M1cha> 4 weeks ago
+47f8bb0 : dualboot: add menu item under advanced to set bootmode - also refresh dualboot entries everytime before calling 'get_filtered_menu_selection'   to sync changes <M1cha> 4 weeks ago
+867f468 : dualboot: add truedualboot support <M1cha> 4 weeks ago
+3c9f03c : allow changing menu color <M1cha> 1 year, 2 months ago
+626f070 : add basic support for native dualboot <M1cha> 4 weeks ago
+f91ee1c : mounts: add find_mounted_volume_by_real_node this function finds a mounted volume by the real device node(resolved symlink) <M1cha> 4 weeks ago
+b6230df : allow using custom recovery_ui.c <M1cha> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/build ****
+ad7ee02 : releasetools: Add radio images to fastboot packages <Brint E. Kriebel> 2 days ago
+9f7b6a0 : build: Disable Punjabi & Sinhala languages <Michael Bestas> 32 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+036c4bd : g2: Correct encryption file "encrypt" not "metadata" <sudosurootdev> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+5651128 : omap4-common: HDMI: honor preferred-flag on video-mode <Michael Gernoth> 2 days ago
+ed63a0e : omap4-common: ALSA: make sure to return from poll() <Michael Gernoth> 3 days ago
+9566677 : omap4-common: enable analog dock-audio <Michael Gernoth> 24 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_qcom-common ****
+9eab0b8 : Update sepolicy <namagi> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/device_qcom_common ****
+8b0f299 : dtbtool: add new --dt_tag switch <h8rift> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+503d189 : msm8960: Remove duplicate audio firmware type <Steve Kondik> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+788e3d1 : PhoneStatusBar: tighten 'er up a bit <PrimeDirective> 7 days ago
+76d6293 : PhoneStatusBar: remove race condition in adding the navbar view <PrimeDirective> 20 hours ago
+1b82c91 : frameworks_base:Add a vanorified adb notify icon <MrBaNkS> 2 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+49902b9 : alsa_pcm: re-fix previous aliasing violations without using memcpy <nuclearmistake> 11 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+972939c : msm8974: Bring DT and PM in line with recent changes <Steve Kondik> 5 hours ago
+ee2a50e : msm: kgsl: allow creation of events from the future <Jeremy Gebben> 7 weeks ago
+0541186 : msm: mdss: Prevent race condition between dsi off and bta status check <Jayant Shekhar> 4 months ago
+6b0000c : msm: mdss: wait for dma done before issuing dsi bta request <Xiaoming Zhou> 6 weeks ago
+d9342f0 : msm: mdss: add bandwidth check function <Adrian Salido-Moreno> 3 months ago
+cdc0706 : msm: pm: Notify secure code of L2 power mode from last core only <Mahesh Sivasubramanian> 3 months ago
+18da584 : msm: mdss: Sanitize overlay kickoff inputs <Sree Sesha Aravind Vadrevu> 6 weeks ago
+54efeac : msm: mdss: add bandwidth check while performing frame level checks <Saurabh Shah> 3 months ago
+f1fa3d1 : msm: kgsl: Protect fault detect start with active count <Jordan Crouse> 5 weeks ago
+ad057d7 : msm: kgsl: don't use sscanf() <Jordan Crouse> 7 weeks ago
+7b66ae1 : msm: kgsl: Remove sscanf() from kgsl_pwrctrl.c <Jordan Crouse> 7 weeks ago
+6df7feb : msm: kgsl: Remove unnecessary profile close check <Harsh Vardhan Dwivedi> 2 months ago
+29e3159 : msm: kgsl: Ensure that power constraints run for a full interval <Jordan Crouse> 7 weeks ago
+1458828 : msm: kgsl: Flush the UCHE when context changes <Shubhraprakash Das> 7 weeks ago
+139dfac : msm: kgsl: Fix memleak in IOMMU clock disable <Tarun Karra> 8 weeks ago
+b9a8e6e : msm: mdss: keep clocks on during kickoff operation <Kuogee Hsieh> 5 weeks ago
+4c9cd15 : msm: mdss: fix issue of overlapping BW for two adjacent surfaces <Ingrid Gallardo> 9 weeks ago
+7e6d05c : mdss: Notify userspace of changes to blank status <Naseer Ahmed> 4 weeks ago
+8486198 : mdss: Add newline to VSYNC timestamp <Naseer Ahmed> 4 weeks ago
+b432185 : msm: mdss: Program unpack pattern for pipes with solidfill <Aravind Venkateswaran> 3 weeks ago
+c9dce19 : misc: qfpfuse: Fix overflow condition <Venkatesh Yadav Abbarapu> 7 weeks ago
+c9f0ea7 : cpufreq: interactive: Don't reset sampling down factor at max freq <Patrick Cain> 3 months ago
+6f3e13c : cpufreq: cpu-boost: Re-issue boosts above minimum frequency <Patrick Cain> 4 weeks ago
+e1c260d : arm: arch_timer: set memory mapped timer interrupt as IRQF_TIMER <Mahesh Sivasubramanian> 5 weeks ago
+d99fe45 : arm: dts: msm: update SPM sequences for krait v2.x <Venkat Devarasetty> 5 months ago
+65d74e7 : msm: spm: Update msm_spm_turn_on_cpu_rail() to use new SAW2 base address <Praveen Chidambaram> 6 months ago
+96a2f70 : msm: spm: set pc mode bit for SAW2_3.0 <Venkat Devarasetty> 5 months ago
+955ff80 : msm: spm-v2: Use proper register offsets for SAW2_v3.0 <Murali Nalajala> 6 months ago
+8dcbc93 : msm: spm-v2: Flush the PMIC_DATA registers <Archana Sathyakumar> 7 months ago
+daefbab : msm: spm-v2: Store voltage levels into PMIC_DATA3 <Mahesh Sivasubramanian> 10 months ago
+47711e1 : msm: lpm_levels: fix incorrect mode select with next event time <Anil kumar mamidala> 5 weeks ago
+b1ae894 : PM / devfreq: Check for GPU busy time before sending the sample <Suman Tatiraju> 2 weeks ago
+05197ff : cma: Drop the right mutex <Laura Abbott> 7 days ago
+7099c85 : ASoC: msm: qdsp6v2: Remove cmd_state from ASM header function <Damir Didjusto> 4 weeks ago
+4b78a91 : ASoC: msm: Reset the stream open flag after CMD_CLOSE is sent to DSP <Krishnankutty Kolathappilly> 9 weeks ago
+1aed96d : PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs <Saravana Kannan> 6 weeks ago
+e8a143c : ASoC: msm: Add check for NULL pointer and buffer overflow <Aravind Kumar> 13 days ago
+087d814 : ASoC: msm: Do not set volume to zero during session open <Phani Kumar Uppalapati> 11 months ago
+efe4d4f : cpufreq: interactive: Remove unnecessary cpu_online() check <Viresh Kumar> 11 months ago
+c9eedeb : qcom-cpufreq: Move the enabling of the CPU/L2 clocks to CPU_STARTING <Vikram Mulukutla> 3 weeks ago
+8a5fcc5 : msm: ipc: Migrate to wakeup sources from wake locks <Karthikeyan Ramasubramanian> 4 months ago
+c5b0de7 : ion: fix remaining instances of sg_dma_len <Mitchel Humpherys> 12 days ago
+cc3fb13 : ion: cma_secure_heap: validate buffer length <Mitchel Humpherys> 12 days ago
+781868c : ion: secure_buffer: fix iteration of sg_table <Mitchel Humpherys> 12 days ago
+e6a2b7c : staging: ion: msm: Only parse available dt nodes <Olav Haugan> 3 weeks ago
+f2e6a41 : dt: introduce for_each_available_child_of_node, of_get_next_available_child <Timur Tabi> 1 year, 8 months ago
+f58aa71 : cma: Make locking finer grained <Laura Abbott> 3 weeks ago
+0c342f3 : msm8974: Update Samsung DT with new memory layout <Steve Kondik> 13 days ago
+e77bf1a : iommu: msm: always use 32-bit physical addresses <Mitchel Humpherys> 8 weeks ago
+bf67ef0 : msm: iommu: Set reserved bits for IOMMU hardware <Laura Abbott> 7 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+6292864 : msm: vidc: detect mbaff information from firmware <Arun Menon> 5 weeks ago
+e6464d5 : msm: vidc: Query the core on VIDIOC_G_FMT <Deva Ramasubramanian> 6 weeks ago
+61a320f : msm: vidc: Add description of LTR Extradata <Deva Ramasubramanian> 6 weeks ago
+e3ba3ef : msm: vidc: Add min resolution check for video session <Arun Menon> 9 weeks ago
+8d347a3 : msm: vidc: Free smem client after moving core to UNINIT <Deva Ramasubramanian> 7 weeks ago
+1df4853 : msm: vidc: Check if buffers are mapped before validating buffer_info <Deva Ramasubramanian> 9 weeks ago
+d3c2942 : msm: vidc: fix issues raised by static analyzer <Arun Menon> 4 months ago
+aa84425 : msm: vidc: Provide qmenu for V4L2_CID_MPEG_VIDC_VIDEO_INTRA_REFRESH_MODE <Deva Ramasubramanian> 5 months ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+b634aa6 : ... <h0rn3t> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+11b0067 : SoundSettings: Assigning a null to an unnecessary variable <fuzz> 3 days ago
+ 
+**** https://github.com/VanirAOSP/system_extras ****
+ce52b56 : ext4_utils: don't leave bad image file in case of error <JP Abgrall> 8 weeks ago
+513d66f : Set s_flags to 2 to prevent a write on first mount. <Geremy Condra> 8 weeks ago
+6339391 : make_ext4fs: fix block allocation to be best-fit <Colin Cross> 3 months ago
+ 
+**** https://github.com/VanirAOSP/system_vold ****
+054d2fd : Add missing head sys/types.h to Volume.h  Fix compile error of build with C++ <sndnvaps> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_lge ****
+75aa712 : Revert "gee: update graphics blobs to march QDevNet release" <Jake Weinstein> 21 hours ago
+ 

@@ -1,0 +1,204 @@
+
+**** https://github.com/VanirAOSP/build ****
+80f2a27 : Fix Tunas kernel and likely any others using a custom gcc compiler <DHOMD> 4 hours ago
+d2d11e3 : Build: now with arch-dependent STRIPPERS <nuclearmistake> 12 hours ago
+22e7a77 : Store our best guess at TARGET_ARCH_VARIANT_CPU if it is not defined <nuclearmistake> 24 hours ago
+84148b0 : build: no more generic kernel toolchains <bart452> 2 days ago
+f103c2f : Use cm's prebuilt ccache, which is a higher version than most distro's ccache package. <nuclearmistake> 25 hours ago
+ 
+**** https://github.com/xboxfanj/android_device_lge_gee-common ****
+cb013f7 : O3 is set by build and doesn't belong in device <Jake W> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+f28fb96 : omap4-common: camera: reenable DCC <Michael Gernoth> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2-common ****
+053b652 : d2: prevent boot led from overriding charging led <ajrty33> 10 hours ago
+757670f : d2: enable pulsing led while booting <Alexander Martinz> 32 hours ago
+ 
+**** https://github.com/MoKee/android_device_samsung_d710-common ****
+a954d89 : d710-common: Optimize bootanimation <C457> 2 days ago
+0fdf9c3 : media_codecs: Don't try to use absent VP8 decoder <Ricardo Cerqueira> 10 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jf-common ****
+fb38ae7 : jf: enable pulsing led while booting <Alexander Martinz> 7 weeks ago
+bea7968 : jf-common.mk: remove unused ramdisk files <dcd> 7 days ago
+96eb43c : Revert "jf: fix init sequence for dsp" <dcd> 7 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_smdk4412-common ****
+ad3d2a2 : Proper battery paths <David Ferguson> 3 months ago
+ 
+**** https://github.com/CyanogenMod/AndroidAsync ****
+c6fbaaf : Change HashList behavior. <Koushik Dutta> 27 hours ago
+ca97fa6 : Update README.md <Koushik Dutta> 35 hours ago
+b852f7f : Remove Handler usage from AndroidAsync. <Koushik Dutta> 2 days ago
+cec537c : Created utility method to close Closeables quietly. <Heath Borders> 4 weeks ago
+501b813 : Fixed resource leaks. <Heath Borders> 4 weeks ago
+ 
+**** https://github.com/CyanogenMod/ion ****
+30eeca8 : v122 <Koushik Dutta> 9 hours ago
+ad63e90 : Only allow deepZoom for API level >= 10. <Koushik Dutta> 9 hours ago
+90e3db7 : Actually enable deepZoom on the sample... <Koushik Dutta> 26 hours ago
+07754cf : cleanup deepzoom sample <Koushik Dutta> 26 hours ago
+84bd3ae : deepzoom sample <Koushik Dutta> 26 hours ago
+6c86c26 : Performance fixes around bitmap load cancellations. <Koushik Dutta> 27 hours ago
+94125e2 : Remove Handler usage from AndroidAsync. <Koushik Dutta> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+0f4d10e : camera: Remove deprecated HTC camera support code <Ethan Chen> 2 days ago
+e680088 : camera: Add required symbols for Oppo devices <Tom Marshall> 4 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+3558d46 : [1/3] Base: Battery Saver mode <Yanuar Harry> 5 days ago
+26804fd : Revert "[1/3]TeloRadio" <Dan Trifan> 4 days ago
+695b45c : allow forcing HighEndGfx mode <Andrew Sutherland> 2 months ago
+64a04d8 : systemui: improve DessertCaseDream immersive mode exit <Jorge Ruesga> 3 days ago
+8bcce1a : qs: sync volume tile icon <Jorge Ruesga> 4 days ago
+2efb776 : BroadcastQueue: fix class typo of next receiver <Leavitt Zhang> 2 weeks ago
+27ccc88 : framework/base: Add EdgeGesture service. <Kyrylo Mikos> 3 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_m7 ****
+c68d02c : ARM: mm: implement LoUIS API for cache maintenance ops <Lorenzo Pieralisi> 1 year, 5 months ago
+0171e80 : deadline: Allow 0ms deadline latency, increase the read speed Change a timer compare from after to after-equals, thus allowing 0 timeout and making deadline schedule FIFO. <xiaobing tu> 1 year, 2 months ago
+b8cc061 : reduced the wakelock time of RX packet and fix country checking <flar2> 6 weeks ago
+5268c31 : Implement kexec-hardboot <Vojtech Bocek> 5 months ago
+11f1e13 : freezer: shorten freezer sleep time using exponential backoff <Bryan Maltais> 3 days ago
+4d8c9b7 : add some more prebuilts to the updater script to deal with CMs bullshit common kernel changes <buckmarble> 2 weeks ago
+50077be : sched: Micro-optimize the smart wake-affine logic <Peter Zijlstra> 7 months ago
+30ef098 : sched: Implement smarter wake-affine logic <Michael Wang> 7 months ago
+44c9166 : sched: Fix select_idle_sibling() bouncing cow syndrome <Mike Galbraith> 1 year ago
+ee1c1be : DRIVERS: SLIMBUS: initial overclocking of slimbus .Increase root freq from 11 (24.526MHz) to 31 max (27+MHz) which is the largest it will take .Increase clock gear from 7 to 10 (max again) <poondog> 6 weeks ago
+0d078a1 : ARM: mm: update __v7_setup() to the new LoUIS cache maintenance API <Santosh Shilimkar> 1 year, 5 months ago
+91e3881 : writeback: fix occasional slow sync(1) <Jan Kara> 5 months ago
+779a246 : readahead: make context readahead more conservative <Fengguang Wu> 5 months ago
+0a4bacb : bdi: allow block devices to say that they require stable page writes <Darrick J. Wong> 12 months ago
+7a6a9c8 : writeback: increase bdi_min_ratio to 5 in light of the latest writeback commit. <Francisco Franco> 8 months ago
+84b54d3 : writeback: I believe these defines were calculated with HZ=1000 in mind. Since our devices are HZ=100 I hardcoded the values on this constants. I'm not 100% sure if this code was made for HZ with 1000 but I couldn't track it to understand clearly. Although I didn't see any drawback of using this as it is now. If anyone knows the answer please chime in. <Francisco Franco> 8 months ago
+26906ef : cpufreq: ondemand:kernel NULL pointer dereference at dbs_check_cpu <Swetha Chikkaboraiah> 3 months ago
+285a4ec : cpufreq: ondemand: Fix locking in store_powersave_bias <Matt Wagantall> 9 months ago
+1f12c46 : cpufreq: ondemand:Fix NULL check for dbs_info->cur_policy <Swetha Chikkaboraiah> 3 months ago
+f516590 : cpufreq: Fix policy getting stuck when user & kernel min/max don't overlap <Saravana Kannan> 8 weeks ago
+5723879 : msm: msm_fb: Update panel info in case of resolution change. In case of resolution change, panel_info and mfd are updated with latest resolution. <raghavendra ambadas> 3 months ago
+d9f44a1 : Revert "[ARM] msm: iommu_domains: replace vmalloc with kmalloc" <Srinivasarao P> 10 weeks ago
+6f0abdb : video: msm: Restore overmapping changes <Steve Kondik> 5 weeks ago
+a605076 : misc: update from HTC One Google Edition source <Ethan Chen> 5 weeks ago
+4ca9c7d : cpufreq: Disable cpu-boost by default <Rohit Gupta> 10 weeks ago
+9944a51 : cpufreq: Add Input Boost feature to the cpu-boost driver <Rohit Gupta> 3 months ago
+ 
+**** cm	http://github.com/CyanogenMod/android_kernel_lge_hammerhead
+https://github.com/jimsth/vanir_hammerhead ****
+d99958d : version 1.0.4 <Dan Trifan> 18 hours ago
+5324d61 : msm: bam_dmux: increase min/max sleep usecs. <franciscofranco> 2 days ago
+9afc37e : ARM: mm: update __v7_setup() to the new LoUIS cache maintenance API <Santosh Shilimkar> 1 year, 5 months ago
+d953e10 : ARM: kernel: update __cpu_disable to use cache LoUIS maintenance API <Lorenzo Pieralisi> 1 year, 5 months ago
+0009b12 : qseecom: Check input buffer from IOCTL <Hariprasad Dhalinarasimha> 3 months ago
+b27fded : qseecom: Fix issues with qssecom_remove/exit APIs <AnilKumar Chimata> 4 months ago
+73d46e6 : qseecom: Fix error handling path in receive_req() <AnilKumar Chimata> 7 months ago
+8f8424d : qseecom: Copy userspace buffer into kernel space before dereferencing <Hariprasad Dhalinarasimha> 5 months ago
+85038e06 : qseecom:  Check for case where listener service is not found <Zhen Kong> 4 months ago
+c629d2a : qseecom: Remove debug  messages <Zhen Kong> 4 months ago
+25f3e72 : qseecom:  Validate inputs from user space <Mona Hossain> 4 months ago
+9148a33 : qseecom: Add new IOCTLs to support secure UI feature <Hariprasad Dhalinarasimha> 10 months ago
+7f919fe : qseecom: Add frequency scaling in send_service_cmd() <AnilKumar Chimata> 6 months ago
+8073b3d : qseecom: Check for invalid registration of secapp region <Mona Hossain> 6 months ago
+ec0f602 : qseecom: Fix QSEECOM_IOCTL_UNLOAD_EXTERNAL_ELF_REQ kernel crash <AnilKumar Chimata> 7 months ago
+97376d1 : qseecom: Rename & unifiy some enum definitions. <Hariprasad Dhalinarasimha> 7 months ago
+df466b3 : qseecom: Add NULL pointer check in qseecom_ioctl <AnilKumar Chimata> 7 months ago
+e36c03a : msm: mdss: Disable solid fill on pipe remains <erik96> 3 days ago
+ca7467d : msm: mdss: Modify SMP requirement for BWC decompression <Sree Sesha Aravind Vadrevu> 3 months ago
+4d95461c : msm: mdss: Use MDP_SOLID_FILL to enable color on pipe <Mayank Chopra> 8 weeks ago
+8c7f394 : ion: use PAGE_KERNEL instead of pgprot_kernel <Larry Bassel> 3 months ago
+ff9147a : ion: use iounmap instead of __arm_iounmap <Larry Bassel> 3 months ago
+d8f8067 : gpu: ion: system_heap: add support for 2MB allocations <Mitchel Humpherys> 3 months ago
+af99155 : mm: fix anon vma naming <Colin Cross> 3 months ago
+10dd1bb : Revert "mdss: use a nonthreaded interrupt" <Steve Kondik> 3 days ago
+534df53 : msm: mdss: On sharing dma pipe increment pipe ref_cnt <Justin Philip> 6 weeks ago
+c5addbd : mm/page-writeback.c: do not count anon pages as dirtyable memory <Johannes Weiner> 13 days ago
+488a423 : mm/page-writeback.c: fix dirty_balance_reserve subtraction from dirtyable memory <Johannes Weiner> 13 days ago
+5351b89 : msm: mdss: Reset panel to apply RGB gamma data <myfluxi> 12 days ago
+3a4fd5f : SELinux: Fix kernel BUG on empty security contexts. <Stephen Smalley> 12 days ago
+83d9e66 : SELinux: Fix possible NULL pointer dereference in selinux_inode_permission() <Steven Rostedt> 5 weeks ago
+c8667c8 : msm: Fix high load average from uninterruptible waits <Steve Kondik> 8 days ago
+17943f3 : mm/kmemleak.c: remove obsolete simple_strtoul <Abhijit Pawar> 1 year, 2 months ago
+472badd : kmemleak: use rbtree instead of prio tree <Michel Lespinasse> 1 year, 4 months ago
+d60ce9f : kmemleak: Replace list_for_each_continue_rcu with new interface <Michael Wang> 1 year, 6 months ago
+83af50f : msm: kgsl: Use GPU to switch pagetables when current one is default <Shubhraprakash Das> 3 months ago
+75cb6f1 : msm: kgsl: Wake gpu up on the max freq when using the performance governor <Vladimir Razgulin> 3 months ago
+3b8ccc2 : msm: kgsl: Changing to kref_get_unless_zero for process refcount <Shrenuj Bansal> 9 weeks ago
+a2bb941 : msm: kgsl: The memory entry pending flag should be guarded <Shubhraprakash Das> 10 weeks ago
+9c041aa : mm/pagewalk.c: walk_page_range should avoid VM_PFNMAP areas <Cliff Wickman> 9 months ago
+488991c : swap: avoid read_swap_cache_async() race to deadlock while waiting on discard I/O completion <Rafael Aquini> 8 months ago
+fe407a9 : mm, memcg: give exiting processes access to memory reserves <David Rientjes> 5 months ago
+afa3454 : mm, show_mem: suppress page counts in non-blockable contexts <David Rientjes> 10 months ago
+a125cdf : mm/mmap: check for RLIMIT_AS before unmapping <Cyril Hrubis> 10 months ago
+ecae219d : mm: do not grow the stack vma just because of an overrun on preceding vma <Linus Torvalds> 12 months ago
+226bfc2 : writeback: fix negative bdi max pause <Fengguang Wu> 4 months ago
+7c98b8e : crypto: msm: Handle error case <Zhen Kong> 6 months ago
+f211e60 : crypto: msm: qce50 ota crypto support <Zhen Kong> 4 months ago
+6efdf8e : crypto: msm: Remove invalid check in qcedev driver <AnilKumar Chimata> 4 months ago
+22708bb : crypto: msm: Fix issues related to non-zero byteoffset input <AnilKumar Chimata> 4 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+c3c5976 : Revert "HACK: usb: gadget: Fix enumeration on boot" <Dave Daynard> 14 hours ago
+8c1ec44 : Revert "usb: hsic: suspend hsic until really activated by the gadget driver" <Dave Daynard> 14 hours ago
+f06251a : remove Bayer sensor <Dave Daynard> 23 hours ago
+2cf991c : Bump nom voltage for MSM8260A <lbdroid> 6 weeks ago
+16d2af5 : match modem watchdog timeout to stock ML1 kernel <Dave Daynard> 24 hours ago
+017d1b5 : Apexq: import touchscreen driver change from d2 ML1 <Dave Daynard> 24 hours ago
+55c02ab : board-mms-tsp: fix derped ifdefs <Dan Pasanen> 24 hours ago
+a35ec7c : d2: spice up the pulse <ajrty33> 24 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+fc2eebd : Revert "msm: mdss: delay freeing buffers for additional vsync" <Dan Pasanen> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+5716bf6 : Fix sync <DHOMD> 26 minutes ago
+fab8f83 : Revert "manifest: add newest libjpeg-turbo from Linaro" <nuclearmistake> 2 hours ago
+85ef708 : Test using our own Prebuilt/misc to take advantage of a newer ccache <DHOMD> 5 hours ago
+0590899 : D710: Use a kernel designed for Vanir.  Thank You mtb3000gt <DHOMD> 6 hours ago
+800b2e2 : Revert "Revert "manifest: Track [cm's] prebuilts/misc"" <nuclearmistake> 14 hours ago
+712e68f : Revert "manifest: Track [cm's] prebuilts/misc" <nuclearmistake> 22 hours ago
+62f3b8d : manifest: bring in cpu specific optimized toolchains <bart452> 2 days ago
+5d3f398 : ALL YOU G2 ARE BELONG TO US <nuclearmistake> 25 hours ago
+8763346 : manifest: Track [cm's] prebuilts/misc <Michael Bestas> 6 days ago
+bfbbc39 : manifest: add newest libjpeg-turbo from Linaro <Jake Weinstein> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Browser ****
+d84cb1c : browser: properly handle get center tab <Jorge Ruesga> 4 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DSPManager ****
+8d17eca : Add an explicit license <Ricardo Cerqueira> 8 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+b6308fb : Mms: Allow text input field to expand up to 6 lines <namagi> 5 days ago
+ 
+**** https://github.com/omnirom/android_packages_apps_OmniSwitch ****
+f06ab49 : OmniSwitch: simplify and cleanup <maxwen> 7 hours ago
+ 
+**** https://github.com/horn3t/PerformanceControl ****
+3597c70 : ... <h0rn3t> 6 hours ago
+cf68f40 : added cpu info in cpu tab menu <h0rn3t> 6 hours ago
+e11a780 : change oom presets ui and add default values <h0rn3t> 10 hours ago
+3b5cb21 : ... <h0rn3t> 28 hours ago
+c6f1e3f : ... <h0rn3t> 28 hours ago
+e1a8ab0 : added hotplug control <h0rn3t> 28 hours ago
+3e70d17 : change get su permission <h0rn3t> 28 hours ago
+082d0fe : added mem info in memory tab menu <h0rn3t> 28 hours ago
+5ed734a : remove general info tab <h0rn3t> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+2c8abf9 : [3/3] Settings: Battery Saver mode <Yanuar Harry> 4 weeks ago
+e442c65 : Revert "[2/3]TeloRadio" <Dan Trifan> 4 days ago
+76d61a5 : Kill CM performance_settings some more <nuclearmistake> 25 hours ago
+888e103 : Revert "add option to force high-end graphics on low memory devices" <nuclearmistake> 25 hours ago
+ae175cf : add option to force high-end graphics on low memory devices <Konsta> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+714fa4c : [2/3] Settings: Battery Saver mode <Dan Trifan> 3 days ago
+7987538 : Revert "[3/3]TeloRadio" <Dan Trifan> 3 days ago
+cad6c6a : Revert "TeloRadio: optimizations" <Dan Trifan> 4 days ago
+ 
+**** https://github.com/VanirAOSP/system_media ****
+13ba993 : audio_route: fix crash with unsupported control types <Eric Laurent> 8 weeks ago
+e578ca5 : Revert "audio_route: fix possible segfault" <elektroschmock> 7 hours ago
+ 

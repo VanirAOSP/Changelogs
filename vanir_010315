@@ -1,0 +1,180 @@
+
+**** https://github.com/VanirAOSP/bootable_recovery_TWRP ****
+d83c9ea : Fix GUIAction::operation_start <Ethan Yonker> 19 hours ago
+df7abac : Do not toggle USB ID during MTP startup if not needed <Ethan Yonker> 5 days ago
+6bea38a : gui: remove dead build flag TWRP_SIMULATE_ACTIONS <that> 6 days ago
+3f7b1ac : gui: Move action functions to function pointer map. <that> 4 days ago
+ 
+**** https://github.com/VanirAOSP/build ****
+d1229d4 : build: qcom: Set the correct project path for device-specific cameras <Ricardo Cerqueira> 2 days ago
+5f7e87e : Revert "Disable -mcpu=cortex-a15 flag for krait" <sudosurootdev> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_dlx ****
+95fd5de : dlx: Run charging services in healthd domain <Matt Mower> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_jewel ****
+8759249 : jewel: Enable multi-user support <Dušan Šušić> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+8f223b4 : m8: add chargeled service for recovery and offmode <Dan Pasanen> 23 hours ago
+3061ecd : m8: ril: Recognize unsols 5757, 4259 <Matt Mower> 3 weeks ago
+7312c43 : m8: libril: Shut up already <Jurica Vukadin> 7 weeks ago
+d7975e0 : m8: Update libril for lollipop <Ethan Chen> 7 weeks ago
+b62c007 : m8: enable persist.radio.apm_sim_not_pwdn <Dan Pasanen> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+c9b7d49 : Remove unused Audio Controls & Switches <sudosurootdev> 21 hours ago
+205a2bc : Remove -mtune & -mcpu flags, leave it up to build, especially now that I've fixed it so krait device can get some CPU optimized CFLAGS & CLANG FLAGS! <sudosurootdev> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g3-common ****
+432b0ef : g3: enable persist.radio.apm_sim_not_pwdn <Dan Pasanen> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_moto_shamu ****
+4035ed8 : Revert "Make sure to build previously-prebuilt libs (tinycompress, audioroute, mm-qcamera, and rmnetctl)" <nuclearmistake> 2 hours ago
+45c8125 : Revert "Show APN settings for cdma carriers" <nuclearmistake> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_moto_msm8960 ****
+8712b76 : init: Use performance profile during boot <dhacker29> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+5842ca0 : gps: Update GPS configuration <Steve Kondik> 3 hours ago
+1d3e805 : msm8974: Update cpufreq tunable name <Steve Kondik> 9 hours ago
+c8fc8e4 : msm8974: Remove deprecated QRNGD/QRNGP <Michael Bestas> 2 days ago
+7b93405 : msm8974: Remove duplicate packages <Michael Bestas> 2 days ago
+b3b53e6 : msm8974: Enable hwdep audio calibration interface <Steve Kondik> 18 hours ago
+2d43ca1 : msm8974: Update GPS configuration <Steve Kondik> 19 hours ago
+f47a582 : msm8974: Update WiFi configuration for new release <Steve Kondik> 3 days ago
+3978a51 : msm8974: Enable new proximity sensor code <Steve Kondik> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_qcom_common ****
+68812e9 : power-8974: Remove unnecessary hint <Steve Kondik> 7 hours ago
+a3cfade : power-8974: Increase the boost a bit <Steve Kondik> 9 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2-common ****
+a9c26f7 : d2: disable lockscreen rotation <Dan Pasanen> 14 hours ago
+98adf6c : Revert "Samsung calldetail fixes" <Jon Mooney> 26 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_hlte-common ****
+43431f6 : move stylus hotspot to center (thanks lessaj) <fattire> 12 days ago
+acc5730 : A new stylus 'arrow'.  I made it myself in gimp and very proud of it. <fattire> 13 days ago
+ce64779 : hlte: remove qc parser <repo Shareef Ali> 7 hours ago
+f1ff94c : hlte-common: use config based tcp buffer sizes <christer12> 15 hours ago
+754c91e : hlte: Enable AUDIO_FEATURE_ENABLED_HWDEP_CAL <repo Shareef Ali> 16 hours ago
+6cf3971 : hlte-common: add missing NFC blobs <christer12> 27 hours ago
+dc74645 : hlte-common: Fix rild denials <christer12> 2 days ago
+8261d56 : hlte-common: init cleanup <christer12> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jf-common ****
+25ab493 : Revert "jf: Samsung calldetail fixes" <dcd> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8974-common ****
+b7ff78d : msm8974-common: kang bacon's media-config.xml <repo Shareef Ali> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/external_sepolicy ****
+43a9fce : Let recovery be an exception to some datafile neverallow rules <Ricardo Cerqueira> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+3e8ccf0 : power: Disable keyboard/button lights while dozing/dreaming <Steve Kondik> 3 hours ago
+aa7f023 : perf: Boost during animations <Steve Kondik> 30 hours ago
+cc8385b : Keyguard: allow keyguard to be dismissed via intent <Roman Birg> 16 hours ago
+5a2643c : Buttons: set HOME wake key defaults as disabled [2/2] <jrior001> 3 days ago
+fcae8f1 : ResolverActivity: fix null pointer exception <Evisceration> 2 days ago
+d30a0e6 : PowerManagerService: Fix arm64 build <Joshua> 2 days ago
+8d46c75 : Squashed commit of center+right clock mods w/ AM+PM size, etc. <nuclearmistake> 5 days ago
+89c10fb : PackageManager: Restrict system packages to protected storage <Ricardo Cerqueira> 3 years, 8 months ago
+848dbe4 : [ActivityManager] Use synchronized to protect object <mark_chen> 3 weeks ago
+6321b1c : [ActivityManager] Reset ActivityRecord's waitingVisible <louis_chang> 2 weeks ago
+857bece : Layout the config-changed window if it has surface <tiger_huang> 3 weeks ago
+865a7f8 : [ActivityManager] fix NPE in ActivityStack.resetTargetTaskIfNeededLocked. <Mark Lu> 4 weeks ago
+c3cc261 : Prevent ANR when broadcast receiver is killed <Kenji Sugimoto> 6 months ago
+bcd744e : Correct check of is user running <Sergii Skorokhodov> 8 weeks ago
+ffb46c8 : [ActivityManager] Fix race condition in pss collection <louis_chang> 5 weeks ago
+fa0fb2f : [ActivityManager] Invalidate last screenshot when activity relaunched <louis_chang> 5 weeks ago
+fe1816e : bug fix possible NPE while startProcessLocked() <younghwan1.kim> 5 weeks ago
+7988590 : Avoid capture all black screenshot bitmap <tingna_sung> 2 months ago
+80c461f : [ActivityManager] Prevent provider from been created twice. <riddle_hsu> 7 weeks ago
+3a68918 : Fix racing condition of mTouchExcludeRegion <tingna_sung> 2 months ago
+2854657 : Fix pointer index out of range exception <tingna_sung> 2 months ago
+14b72d8 : Measure absolute value of pointer motion distance <tingna_sung> 2 months ago
+c93c987 : Reset killedByAm flag at attachApplicationLocked <Kazuki Nakayama> 7 months ago
+0db4348 : [ActivityManager] Fix NPE when start activity <louis_chang> 5 months ago
+43505b6 : ANR caused by incorrect cleanup in BroadcastQueue. <Guobin Zhang> 10 months ago
+7ad2d53 : APK still has privileged flag after being moved from "/system/priv-app" <Akira Numata> 6 weeks ago
+6d91b50 : Default icon is shown after uninstalling updated priv-app <Akira Numata> 10 months ago
+58a494b : Fix Presentation window is removed on stack change <tingna_sung> 3 months ago
+173ce49 : Sync focus stack frame and layer with focus app. <tingna_sung> 2 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+8af6365 : Set default SMS outgoing check interval to 15 minutes <Raj Yengisetty> 4 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio ****
+4f4de4b : hal: Make use of hwdep calibration optional <Steve Kondik> 18 hours ago
+8ced010 : hal: codec calibration data using hwdep nodes <Pavan Chikkala> 2 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_samsung ****
+d973a7b : macloader: add new murata vendor ID <MarcKe> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_asus_grouper ****
+5213658 : cyanogenmod_grouper_defconfig: Sync with tegra3_android_defconfig <Thomas Wendt> 12 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_msm8974 ****
+2ea3f5d : Patch 3.4.36 <varchild> 17 hours ago
+a4aa8ef : Adding in Synaptic Wake gestures drivers: synaptics: Add swipe gestures and double-tap to wake <flar2> 8 months ago
+0e5e632 : Patch 3.4.35 <varchild> 2 days ago
+1060c44 : Patch 3.4.34 <varchild> 2 days ago
+a1c1d7f : Patch 3.4.33 <varchild> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+c400777 : cpufreq: interactive: Add max_freq_hysteresis feature <Junjie Wu> 4 months ago
+309aa02 :  SoC: msm: Add Buffer overflow check <Mohammad Johny Shaik> 5 weeks ago
+b42aa59 : input: touchscreen: Update TP firmware to 14001222 <Ricardo Cerqueira> 2 days ago
+3bb6358b : asoc: msm: Roll back Listen driver <Steve Kondik> 17 hours ago
+803b684 : prima: Import release 3.8.20.24 <Steve Kondik> 3 days ago
+de94f9e : ASoC: wcd9320: use hwdep nodes to get calibration <Pavan Chikkala> 2 months ago
+93aec66 : ASoC: wcd9xxx: use hwdep node for codec calibration <Anish Kumar> 3 months ago
+ad51278 : msm8974-oppo: Enable additional display features for Sharp panel <Steve Kondik> 19 hours ago
+81a997c : video: mdss: Fix SRE threshold code <Steve Kondik> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+61be82c : ASoC: wcd9320: use hwdep nodes to get calibration <Pavan Chikkala> 2 months ago
+4cbbf70 : ASoC: wcd9320: Fix for VI feedback underflow errors <Gopikrishnaiah Anandan> 9 months ago
+0f598fe : ASoC: wcd9320: Fix DAPM timeout when accesing MAD calibration <Venkat Sudhir> 10 months ago
+fdaa11e : ASoC: wcd9320: Fix micbias setting for MAD <Bhalchandra Gajare> 6 months ago
+f4be952 : ASoC: wcd9320: Handle the port disconnect correctly <Anish Kumar> 5 months ago
+bedd319 : ASoC: wcd9320: Add ANC loopback path and cache HPF bypass control <Jay Wang> 8 months ago
+2d79bdf : ASoC: wcd9320: Check denominator for zero before division <Phani Kumar Uppalapati> 6 months ago
+0eb1dd8 : ASoC: wcd9320: Add HD2 tuning coefficients for HPH path <Phani Kumar Uppalapati> 10 months ago
+6dc9b04 : ASoC: wcd9xxx: use hwdep node for codec calibration <Anish Kumar> 3 months ago
+298c5f7 : msm: Fix for audio loss during WLAN & LTE call handover <Karthik Reddy Katta> 8 months ago
+33708d6 : msm: Allow native driver to communicate with APR <Vicky Sehrawat> 11 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+2b227e7 : optipng new images <nuclearmistake> 2 hours ago
+6d48743 : calculator: integrate graphing <emancebo> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+f1a4a45 : Add a class from CM stats that is used for performance settings <nuclearmistake> 23 hours ago
+d0bd36f : [WIP] Status bar clock mods (2/2) <nuclearmistake> 2 years, 4 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_VanirUpdater ****
+94274e3 : Give VanirUpdater android.permission.RECOVERY <nuclearmistake> 2 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_motorola ****
+3f14438 : Add a bunch of possibly-data-related deodexed APKS from a stock dump <nuclearmistake> 41 minutes ago
+6c2235a : Revert "Shamu: Build librmnetctl from source" <dhacker29> 3 days ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_oppo ****
+21881b9 : msm8974: Update blobs <Steve Kondik> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+e1bf298 : hlte: move com.qualcomm.location to correct path <christer12> 3 days ago
+d5e15d3 : hlte upgrade NJ2 <christer12> 3 days ago
+0ddeb9b : hlte: add missing thermal engine blob <repo Shareef Ali> 3 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+2a8a6d1 : Full reconcile with Muppets Shinano has taint <DHOMD> 2 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+c9b2b57 : cm: sepolicy: fix performance settings <Pawit Pornkitprasan> 11 hours ago
+94721a5 : selinux: Allow recovery to do recursive deletes <Ricardo Cerqueira> 12 hours ago
+ 

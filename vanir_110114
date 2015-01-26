@@ -1,0 +1,125 @@
+
+**** https://github.com/VanirAOSP/motorola_msm8226-common ****
+f6a4981 : msm8226-common: don't build time service client <Konsta> 3 days ago
+6cac297 : msm8226-common: Re-add all FFMPEG decoders <Konsta> 7 days ago
+76ac09c : msm8226-common: bluetooth: bring build config in line with CAF <Konsta> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+c9e5432 : Revert "msm8974: Update WCNSS configuration" <Ricardo Cerqueira> 27 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_klte ****
+777f263 : klte: update build fingerprints <Matt Filetto> 7 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_blue-common ****
+3fb747f : releasetools: use set_metadata instead of set_perm <Chirayu Desai> 7 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_huashan ****
+a72a723 : huashan: set readahead during early-init <Ultrax5> 6 weeks ago
+4c736ca : huashan: enable CM performance profiles in device overlay <Ultrax5> 6 weeks ago
+2523912 : huashan: fixup remote submix input device <Ultrax5> 6 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_rhine-common ****
+64753d6 : releasetools: use set_metadata instead of set_perm <Chirayu Desai> 7 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_sirius ****
+87ca391 : releasetools: use set_metadata instead of set_perm <Chirayu Desai> 7 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+69d2a49 : FB: DoubleTab2Sleep stopped working propperly after a boot or sometime when you changed something on statusbar or quicksettings, DT2S stopped working You have to uncheck and then check the checkbox for it in settings to make it work again This is because the code would only be executed when the setting actually has changed (OnChange) but not on boot or on RebuildStatusBar <MartinRo> 3 days ago
+741bd6f : Fix NPE on tablets for notification navbar action <Dave> 5 hours ago
+a50341d : ActiveDisplay: revert to keyguard if all notifications are dismissed <PrimeDirective> 9 days ago
+7f4ecfc : ActiveDisplay: don't get call status while checking for valid notifications <PrimeDirective> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_google_msm ****
+767c413 : cyanogen_mako_defconfig: disable CONFIG_IKCONFIG_PROC <Iliyan Malchev> 1 year, 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_google_msm ****
+767c413 : cyanogen_mako_defconfig: disable CONFIG_IKCONFIG_PROC <Iliyan Malchev> 1 year, 5 months ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+cb9f028 : workqueue: fix spurious CPU locality WARN from process_one_work() <Tejun Heo> 2 years, 3 months ago
+c72f325 : workqueue: convert BUG_ON()s in __queue_delayed_work() to WARN_ON_ONCE()s <Tejun Heo> 1 year, 11 months ago
+1fb8492 : workqueue: exit rescuer_thread() as TASK_RUNNING <Mike Galbraith> 1 year, 11 months ago
+a856a67 : workqueue: add missing smp_wmb() in process_one_work() <Tejun Heo> 2 years, 3 months ago
+a787a0b : workqueue: reimplement work_on_cpu() using system_wq <Tejun Heo> 2 years, 1 month ago
+25527f8 : workqueue: use percpu allocator for cwq on UP <Lai Jiangshan> 2 years, 8 months ago
+5856486 : Block: use a freezable workqueue for disk-event polling <Alan Stern> 2 years, 8 months ago
+a52799d : workqueue: make alloc_workqueue() take printf fmt and args for name <Tejun Heo> 2 years, 10 months ago
+56355b4 : Upgrade to BFQv7r6 released 19-Oct-2014 IMPROVEMENT: Introduced a new mechanism that helps get the job done more quickly with services and applications that create or reactivate many parallel I/O-bound processes. This is the case, for example, with systemd at boot, or with commands like git grep. CODE IMPROVEMENTS: Small code cleanups and improvements . Change-Id: I96b0553b8443af930884c292d048ccfeb13b51e2 Signed-off-by: demetris <ierokipides.dem@gmail.com> <demetris> 7 days ago
+70de48f : Revert "Fix error: implicit declaration of function 'get_cpu_idle_time_us'" <demetris> 12 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960-common ****
+93ecbd4 : Increase qwerty keys debounce time from 15 to 20ms <nadlabak> 5 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960dt-common ****
+e6bce93 : crypto: msm: check potential integer overflow <William Clark> 6 weeks ago
+bb4a05a : Linux 3.4.104 <Zefan Li> 5 weeks ago
+618dea4 : alpha: add io{read,write}{16,32}be functions <Michael Cree> 2 years, 11 months ago
+3a8f613 : ext2: Fix fs corruption in ext2_get_xip_mem() <Jan Kara> 12 months ago
+f79bb94 : alpha: Fix fall-out from disintegrating asm/system.h <Michael Cree> 2 years, 2 months ago
+92a6e26 : UniCore32-bugfix: fix mismatch return value of __xchg_bad_pointer <Guan Xuetao> 2 years, 5 months ago
+4e36063 : UniCore32-bugfix: Remove definitions in asm/bug.h to solve difference between native and cross compiler <Guan Xuetao> 2 years, 5 months ago
+62cdcce : unicore32: select generic atomic64_t support <Fengguang Wu> 2 years, 1 month ago
+82a938ab : 8250_pci: fix warnings in backport of Broadcom TruManage support <Paul Gortmaker> 10 weeks ago
+69db2d4 : slab/mempolicy: always use local policy from interrupt context <Andi Kleen> 2 years, 5 months ago
+ab22539 : openrisc: add missing header inclusion <Stefan Kristiansson> 1 year, 8 months ago
+c1bc007 : MIPS: Fix accessing to per-cpu data when flushing the cache <Ralf Baechle> 1 year, 1 month ago
+9a8fa93 : MIPS: perf: Fix build error caused by unused counters_per_cpu_to_total() <Florian Fainelli> 2 years, 3 months ago
+c804743 : USB: serial: fix potential heap buffer overflow <Johan Hovold> 9 weeks ago
+62148f7 : USB: serial: fix potential stack buffer overflow <Johan Hovold> 9 weeks ago
+2f3e285 : ARM: 8129/1: errata: work around Cortex-A15 erratum 830321 using dummy strex <Mark Rutland> 3 months ago
+5624bb3 : ARM: 8128/1: abort: don't clear the exclusive monitors <Mark Rutland> 3 months ago
+e78c127 : HID: picolcd: sanity check report size in raw_event() callback <Jiri Kosina> 9 weeks ago
+e115f02 : HID: magicmouse: sanity check report size in raw_event() callback <Jiri Kosina> 9 weeks ago
+0bfb000 : NFSv4: Fix problems with close in the presence of a delegation <Trond Myklebust> 10 weeks ago
+818ee41 : USB: sisusb: add device id for Magic Control USB video <Stephen Hemminger> 10 weeks ago
+86d165e : HID: logitech-dj: prevent false errors to be shown <Benjamin Tissoires> 2 months ago
+2f2c704 : USB: whiteheat: Added bounds checking for bulk command response <James Forshaw> 10 weeks ago
+1d37c3e : usb: xhci: amd chipset also needs short TX quirk <Huang Rui> 2 months ago
+42494f0 : xhci: Treat not finding the event_seg on COMP_STOP the same as COMP_STOP_INVAL <Hans de Goede> 2 months ago
+d232e2c : USB: ftdi_sio: Added PID for new ekey device <Jaša Bartelj> 3 months ago
+68e9929 : USB: serial: pl2303: add device id for ztek device <Greg KH> 3 months ago
+262548e : USB: ftdi_sio: add Basic Micro ATOM Nano USB2Serial PID <Johan Hovold> 3 months ago
+78aea3a : USB: option: add VIA Telecom CDS7 chipset device id <Brennan Ashton> 3 months ago
+c2aa9b7 : staging: et131x: Fix errors caused by phydev->addr accesses before initialisation <Mark Einon> 3 months ago
+f40751b : xtensa: fix a6 and a7 handling in fast_syscall_xtensa <Max Filippov> 3 months ago
+bcf20fd : xtensa: fix TLBTEMP_BASE_2 region handling in fast_second_level_miss <Max Filippov> 3 months ago
+fb2ae73 : xtensa: fix address checks in dma_{alloc,free}_coherent <Alan Douglas> 3 months ago
+2297927 : xtensa: replace IOCTL code definitions with constants <Max Filippov> 3 months ago
+483320c : ALSA: hda/realtek - Avoid setting wrong COEF on ALC269 & co <Takashi Iwai> 3 months ago
+d06e4b0 : CIFS: Fix wrong directory attributes after rename <Pavel Shilovsky> 3 months ago
+a0e5b9d : md/raid6: avoid data corruption during recovery of double-degraded RAID6 <NeilBrown> 3 months ago
+77e5657 : iommu/amd: Fix cleanup_domain for mass device removal <Joerg Roedel> 3 months ago
+db83744 : pata_scc: propagate return value of scc_wait_after_reset <Arjun Sreedharan> 3 months ago
+f0634a3 : kvm: iommu: fix the third parameter of kvm_iommu_put_pages (CVE-2014-3601) <Michael S. Tsirkin> 2 months ago
+33df36f : MIPS: OCTEON: make get_system_type() thread-safe <Aaro Koskinen> 3 months ago
+5ccd3e2 : isofs: Fix unbounded recursion when processing relocated directories <Jan Kara> 3 months ago
+c945ed6 : HID: logitech: perform bounds checking on device_id early enough <Jiri Kosina> 2 months ago
+dab2f9b : HID: fix a couple of off-by-ones <Jiri Kosina> 2 months ago
+9220628 : ibmveth: Fix endian issues with rx_no_buffer statistic <Anton Blanchard> 2 months ago
+c27d3b5 : ASoC: pxa-ssp: drop SNDRV_PCM_FMTBIT_S24_LE <Daniel Mack> 3 months ago
+b402b72 : stable_kernel_rules: Add pointer to netdev-FAQ for network patches <Dave Chiluk> 4 months ago
+3e222c8 : seq_file: remove "%n" usage from seq_file users <Tetsuo Handa> 12 months ago
+5f35be0 : seq_file: introduce seq_setwidth() and seq_pad() <Tetsuo Handa> 12 months ago
+e2dc9aa : vsprintf: ignore %n again <Kees Cook> 12 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+fea03440 : Revert "prima: Reapply fixes after upgrade to 3.2.2.2" <Ricardo Cerqueira> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+b6783c4 : Dialer: Use global settings name for MSIM <cretin45> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+b29f26a : InCallUI: Use global settings name for MSIM <cretin45> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+ae3b621 : ActiveNotifications: fixes for consistency <PrimeDirective> 5 days ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+997e6a7 : TeleService: Refactor sim name / sim label logic <cretin45> 30 hours ago
+91facac : Telephony: bugfix - let us edit 'My phone number' again <Marcos Marado> 17 hours ago
+ 
+**** https://github.com/cyngn/android_vendor_cyngn ****
+adfedd1 : permissions: Add screencast permissions <Brint E. Kriebel> 7 hours ago
+8ebe6b4 : Add Nextbit release signature to allow-permissions <Brian Chu> 3 days ago
+ 

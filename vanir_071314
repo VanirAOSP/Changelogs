@@ -1,0 +1,93 @@
+
+**** https://github.com/VanirAOSP/device_asus_grouper ****
+4c3a3a9 : Revert "grouper: use a prebuilt clang" <nuclearmistake> 2 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_asus_tf701t ****
+aa81f02 : recovery: sync init <Prashant Somashekar> 15 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+ab9a4ce : g2: cleanup bullshit props and reorganize a bit <bart452> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+d3cbc58 : dedupe soft video codecs <dhacker29> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_oppo_common ****
+d2ab719 : Automatic translation import <Michael Bestas> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+ff1844a : Reconcile wifi w/ elelinux <nuclearmistake> 11 hours ago
+a650ef6 : KLTE: use eur defconfig <nuclearmistake> 11 hours ago
+33b2e2b : some clean up, put back things I took away by mistake at last cleaning <elelinux> 20 hours ago
+ 
+**** https://github.com/VanirAOSP/device_semc_msm7x30-common ****
+7b1eec8 : msm7x30: Don't use retire fence <Michael Bestas> 15 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+1d22f98 : PSB: duplicate includes can DIAF <nuclearmistake> 10 hours ago
+f20dc3b : Fix FragmentTransaction replace() behavior <Eddie Ringle> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_asus_tf701t ****
+ab991ee : defconfig: regen <Prashant Somashekar> 15 hours ago
+e5ebe3f : Linux 3.4.98 <Greg Kroah-Hartman> 4 days ago
+b7720cf : mm: fix crashes from mbind() merging vmas <Hugh Dickins> 3 weeks ago
+a7687e3 : hugetlb: fix copy_hugetlb_page_range() to handle migration/hwpoisoned entry <Naoya Horiguchi> 3 weeks ago
+38119de : powerpc/sysfs: Disable writing to PURR in guest mode <Madhavan Srinivasan> 10 months ago
+8b3693e : ACPI video: ignore BIOS backlight value for HP dm4 <Gustavo Maciel Dias Vieira> 1 year, 4 months ago
+648498e : powerpc/pseries: Duplicate dtl entries sometimes sent to userspace <Anton Blanchard> 8 months ago
+2049c26 : powerpc/pseries/lparcfg: Fix possible overflow are more than 1026 <Chen Gang> 1 year, 3 months ago
+0774dd4 : powerpc: Restore registers on error exit from csum_partial_copy_generic() <Paul E. McKenney> 10 months ago
+3f21ff6 : powerpc: Don't Oops when accessing /proc/powerpc/lparcfg without hypervisor <Benjamin Herrenschmidt> 11 months ago
+2b5f7ff : powerpc/smp: Section mismatch from smp_release_cpus to __initdata spinning_secondaries <Chen Gang> 1 year, 4 months ago
+76bcb05 : powerpc: Fix emulation of illegal instructions on PowerNV platform <Paul Mackerras> 1 year, 1 month ago
+47bbbbe : Staging: bcm: Add two products and remove an existing product. <Kevin McKinney> 1 year, 8 months ago
+ac82ffd : Staging: bcm: Create and initialize new device id in InterfaceInit <Kevin McKinney> 1 year, 10 months ago
+4489de0 : staging: wlags49_h2: buffer overflow setting station name <Dan Carpenter> 9 months ago
+e9e5e51 : staging: comedi: fix a race between do_cmd_ioctl() and read/write <Ian Abbott> 1 year ago
+31c7476 : staging: comedi: das08: Correct AI encoding for das08jr-16-ao <Ian Abbott> 1 year, 10 months ago
+a389f92 : ACPI video: ignore BIOS initial backlight value for HP 1000 <Alex Hung> 1 year, 2 months ago
+fc7615b : ACPI / video: Add "Asus UL30A" to ACPI video detect blacklist <Bastian Triller> 1 year, 2 months ago
+c76e3c8 : ACPI / video: Add "Asus UL30VT" to ACPI video detect blacklist <Lan Tianyu> 1 year, 7 months ago
+38db4a6 : acpi/video_detect: blacklist samsung x360 <Corentin Chary> 2 years, 1 month ago
+4ca3ff4 : sym53c8xx_2: Set DID_REQUEUE return code when aborting squeue <Mikulas Patocka> 3 months ago
+5083d13 : md: flush writes before starting a recovery. <NeilBrown> 12 days ago
+ceaaf59 : tools: ffs-test: fix header values endianess <Michal Nazarewicz> 4 weeks ago
+4918396 : nfsd: fix rare symlink decoding bug <J. Bruce Fields> 3 weeks ago
+53e9249 : KVM: x86: preserve the high 32-bits of the PAT register <Paolo Bonzini> 4 weeks ago
+a96b4ec : KVM: x86: Increase the number of fixed MTRR regs to 10 <Nadav Amit> 4 weeks ago
+3955640 : CIFS: fix mount failure with broken pathnames when smb3 mount with mapchars option <Steve French> 3 weeks ago
+5665aff : b43: fix frequency reported on G-PHY with /new/ firmware <Rafał Miłecki> 4 weeks ago
+c042b82 : ARM: OMAP2+: Fix parser-bug in platform muxing code <David R. Piegdon> 4 weeks ago
+40d60f3 : mac80211: don't check netdev state for debugfs read/write <Arik Nemtsov> 7 weeks ago
+3018936 : Bluetooth: Remove unused hci_le_ltk_reply() <Syam Sidhardhan> 2 years, 3 months ago
+71e4592 : Bluetooth: Fix SSP acceptor just-works confirmation without MITM <Johan Hedberg> 5 weeks ago
+e8a7a74 : drm/vmwgfx: Fix incorrect write to read-only register v2: <Thomas Hellstrom> 12 days ago
+5fdf4ee : drm/radeon/atom: fix dithering on certain panels <Alex Deucher> 7 weeks ago
+d622e35 : drm/radeon: fix typo in radeon_connector_is_dp12_capable() <Alex Deucher> 7 weeks ago
+05ccf5f : drm/radeon: only apply hdmi bpc pll flags when encoder mode is hdmi <Alex Deucher> 3 months ago
+2e390c8 : mtd: pxa3xx_nand: make the driver work on big-endian systems <Thomas Petazzoni> 8 weeks ago
+6f5e987 : rt2x00: fix rfkill regression on rt2500pci <Stanislaw Gruszka> 4 weeks ago
+bef6a03 : rt2x00: disable TKIP on USB <Stanislaw Gruszka> 5 weeks ago
+acd78d3 : usb: gadget: f_fs: fix NULL pointer dereference when there are no strings <Michal Nazarewicz> 4 weeks ago
+1c89c4e : USB: ftdi_sio: fix null deref at port probe <Johan Hovold> 5 weeks ago
+e9f13e7 : usb: option: add/modify Olivetti Olicard modems <Bjørn Mork> 5 weeks ago
+36d0afe : USB: option: add device ID for SpeedUp SU9800 usb 3g modem <Oliver Neukum> 8 weeks ago
+c4be4f6 : USB: add USB_DEVICE_INTERFACE_CLASS macro <Bjørn Mork> 1 year, 8 months ago
+c5c7498 : xhci: Fix runtime suspended xhci from blocking system suspend. <Wang, Yu> 3 weeks ago
+066ce03 : xhci: correct burst count field for isoc transfers on 1.0 xhci hosts <Mathias Nyman> 3 weeks ago
+a99a44e : ibmvscsi: Abort init sequence during error recovery <Brian King> 7 weeks ago
+b8f4521 : Linux 3.4.97 <Greg Kroah-Hartman> 7 days ago
+c19d97c : tracing: Fix syscall_*regfunc() vs copy_process() race <Oleg Nesterov> 3 months ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+c8f4691 : more clean up <elelinux> 14 hours ago
+5b721b7 : remove more stuff <elelinux> 14 hours ago
+04f2033 : revert some changes and clean up <elelinux> 14 hours ago
+60478db : add back ATFWD-daemon <elelinux> 15 hours ago
+00e43b0 : adding more stuff to the test branch <elelinux> 15 hours ago
+73715c7 : Revert "klte: when in doubt: kick it in the face" <nuclearmistake> 12 hours ago
+7cdb674 : klte: when in doubt: kick it in the face <nuclearmistake> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+27e5655 : m4: kill until call audio restored <nuclearmistake> 11 hours ago
+2338609 : disable multithreaded dexopt on all builds? <Brint E. Kriebel> 4 days ago
+ 

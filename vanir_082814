@@ -1,0 +1,137 @@
+
+**** https://github.com/VanirAOSP/build ****
+3ff6b89 : Move TARGET_ENABLE_PREBUILT_CLANG setting TARGET_CLANG_VERSION higher in config.mk <nuclearmistake> 11 hours ago
+966a5b0 : llvm_config: the derp that keeps on derp. <nuclearmistake> 11 hours ago
+90ef7d1 : Correct clang header inclusion <PrimeDirective> 29 hours ago
+466aeb4 : balance endifs <nuclearmistake> 12 hours ago
+cd56b69 : Really fix krait2 bullshit flags. Previous fixed conditional was ALSO true when undefined. <nuclearmistake> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+06afa62 : m8: fixup whatsapp audio <Brinly Taylor> 2 days ago
+8ec041f : m8: Increase the volume step at which the safe volume warning shows <blunden> 13 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+70795ea : g2: enable ZSL on HDR <Bart Monhemius> 2 weeks ago
+ba3ab6a : g2: Speed up scroll response  * Lower the touchslop <Bart Monhemius> 2 weeks ago
+804e839 : g2: disable marquee fading <Bart Monhemius> 2 weeks ago
+12bf801 : g2: use hammerhead gps <bart452> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_moto_msm8960dt ****
+6f4ac7c : msm8960dt: Fix speaker paths for voice calls <Ethan Chen> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+45f44e2 : msm8974: Fix thermal-engine client <Steve Kondik> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+57a4daf : klte: Add cm.dependencies <Ethan Chen> 22 hours ago
+73564f8 : klte: Compile NFC HAL <Ethan Chen> 2 days ago
+ee9d8f7 : klte: Declare NFC chipset to be pn547 <Ethan Chen> 2 days ago
+4b20dd4 : klte: Update proprietary file extraction scripts <Ethan Chen> 2 days ago
+db23b35 : klte: Split proprietary file list <Ethan Chen> 2 days ago
+2a7c75a : klte: Remove Broadcom NFC configs <Ethan Chen> 2 days ago
+fa58109 : klte: Create klte common GSM device tree <Ethan Chen> 2 days ago
+c236915 : klte: add smart cover coords <Roman Birg> 3 days ago
+d6e7271 : klte: Add adsprpcd service entry <elelinux> 9 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8974-common ****
+b8cf03d : msm8974-common: Remove unnecessary flags <Ethan Chen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_sony_nicki ****
+14ea455 : nicki: move prima configuration file from vendor <RonGokhale> 17 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_rhine-common ****
+3648070 : Fix typo, actually set Voice Call properties <Chirayu Desai> 10 hours ago
+64f866c : rhine: Disable audio offload <Ethan Chen> 5 days ago
+06e32cb : rhine: Add Qualcomm audio effects <Ethan Chen> 5 days ago
+30dd600 : rhine: Add msm8974 policy HAL, audiod <Ethan Chen> 5 days ago
+ 
+**** https://github.com/VanirAOSP/external_wpa-supplicant-8 ****
+22c2e6d : read p2p config file name <Narayan Reddy> 9 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+edd7245 : stagefright: Move to 64 available tracks <Scott Mertz> 7 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+6a6a000 : QuickSettings: Use a Bug Report tile icon of proper size <blunden> 28 hours ago
+ec52ab2 : Themes: Fix native crash in libandroidfw <Clark Scheff> 28 hours ago
+8ff8719 : frameworks: add persistent notification when USB OTG is connected <Roman Birg> 7 days ago
+645cc32 : Keyguard: Can't enter PIN code when setting the SIM and PIN lock issue <kaiyiz> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_hardware ****
+c307809 : Hardware: Add high touch sensitivity support <Xiao-Long Chen> 3 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_libhardware-legacy ****
+6c61229 : wifi: get wifi driver fw_path from system property <Om Prakash Singh> 10 months ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_fm ****
+323fdf2 : fmapp2: new launcher icon by LeopardSurd <M1cha> 5 months ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+db4b6b2 : readahead: fix pipeline break caused by block plug <Shaohua Li> 2 years, 7 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+c443a61 : Revert "msm: mdss: handle get buffer failure gracefully" <Steve Kondik> 21 hours ago
+2f8f4df : msm: mdss: Fix memory leaks in overlay kickoff <Ingrid Gallardo> 8 weeks ago
+ad600c2 : msm: mdss: when fb splash logo enabled do not attach iommu <Vineet Bajaj> 2 weeks ago
+5811445 : msm: vidc: Disable clock gating feature <Maheshwar Ajja> 5 weeks ago
+c3ecf7a : video: mdss: Fix another unbalanced clock ctrl <Steve Kondik> 25 hours ago
+e5cd3a6 : msm: mdss: fix screen shifting in some scenarios when split display enabled <Ingrid Gallardo> 4 months ago
+640375b : msm8974: Add TE gpio to gpiomux framework for Oppo boards <Steve Kondik> 26 hours ago
+cf31280 : msm: mdss: Configure TE GPIO using gpiomux framework <Padmanabhan Komanduru> 6 months ago
+c4b52f7 : msm: mdss: fix handling of runtime pm ref counts for fb device <Aravind Venkateswaran> 4 months ago
+dfdaee3 : video: mdss: Fix control of batfet regulator <Steve Kondik> 27 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+82866f0 : staging: android: ram_console: honor dmesg_restrict <Nick Kralevich> 2 years, 6 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_smdk4412 ****
+526d694 : Fix kernel build errors for GT-N7000 <huangyuxuan01> 2 days ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+64223bc : Revert "Revert "klte: partial deunification"" <nuclearmistake> 9 hours ago
+43f168f : Revert "klte: partial deunification" <nuclearmistake> 10 hours ago
+34b19e5 : klte: partial deunification <nuclearmistake> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+1e9b76f : Fix menu button margins. <Danny Baumann> 3 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Contacts ****
+1e305c2 : Contacts: place local contacts in a special local account <Roman Birg> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+06e9f10 : Settings: HighTouchSensitivity support <Xiao-Long Chen> 9 weeks ago
+6aa5b76 : Settings: Fix alignment of print settings icon <Danny Baumann> 2 days ago
+3ec8f18 : Settings: add key to USB Storage Unmount option <Roman Birg> 7 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_ContactsProvider ****
+5cb6488 : ContactProvider: add another check for local accounts <Roman Birg> 2 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_lge ****
+fbc7030 : g2: use hammerhead gps blobs <bart452> 3 days ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_nvidia ****
+035708b : Initial Nvidia shieldtablet binaries <C457> 27 hours ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_oppo ****
+4b53e8a : msm8974: Update blobs <Steve Kondik> 18 hours ago
+9386c45 : msm8974: Update blobs <Steve Kondik> 27 hours ago
+16aa809 : Revert "msm8974: Update blobs" <Steve Kondik> 29 hours ago
+09ebcaa : Revert "msm8974: Update blobs" <Steve Kondik> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+2ca4bd3 : kltevzw <nuclearmistake> 12 hours ago
+0df30fe : klte(,-common,spr): squashed muppets updates/deunification <nuclearmistake> 12 hours ago
+cfc93e0 : remove sensorservice build by the source <elelinux> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+4def266 : rhine: Add Qualcomm audio effect libs <Ethan Chen> 5 days ago
+4755516 : nicki: Move prima configuration file to device tree <RonGokhale> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+fdff04e : Enable incall recording <DHOMD> 13 days ago
+eaae473 : kltevzw is no longer unified <nuclearmistake> 10 hours ago
+741e6de : klte deunification <nuclearmistake> 13 hours ago
+c90097f : vendor: Cleanup configuration for shieldtablet <C457> 22 hours ago
+6620850 : Add APN for Tele2 4G <neatchee> 2 days ago
+ed5bab4 : Add support for nvidia shieldtablet (wifi only) <C457> 4 days ago
+ 

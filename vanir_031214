@@ -1,0 +1,174 @@
+
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+4307194 : g2: update audio from lg kk <bart452> 30 hours ago
+9752c33 : G2: temp undifne custom toolchain for the kernel test <bart452> 5 hours ago
+f1e9a69 : g2: move 99% of the init.rc diff into init.g2.rc <nuclearmistake> 29 hours ago
+2446099 : Revert "g2: finally fix that fcking screen wake bug" <nuclearmistake> 29 hours ago
+ 
+**** https://github.com/xboxfanj/android_device_lge_gee-common ****
+3146e2d : Revert "gee-common: Add Power Modes from CM and CAF" <Jake Weinstein> 5 hours ago
+40ee664 : Revert "ramdisk: turn off retention on core 0, add charger power modes" <Jake Weinstein> 5 hours ago
+ee59676 : conn_init: MAC address fixes from rmcc <Jake W> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+c2d4d4a : overlay: restore Verizon specific eri.xml locally <nadlabak> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_aries-common ****
+3924d4d : aries-common: zRAM: only read one page at a time <Pawit Pornkitprasan> 18 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2lte ****
+e8a497d : d2lte: remove network_mode.xml <ajrty33> 7 hours ago
+15271c9 : d2lte: restore pre-unification VZW home operator numeric <Jon Mooney> 13 hours ago
+49b7d29 : d2lte: Modify 'roamingText3' for Network Extender support. <Jon Mooney> 33 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_hlte ****
+8a0d7ac : hlte: remove network_mode.xml overlay <wilfredlams> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jflte ****
+3f5b76c : jflte: remove network_mode.xml overlay <fitsnugly> 8 hours ago
+0eb5ccb : jflte: restore pre-unification vzw home operator prop <nuclearmistake> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+a88fe98 : msm8960: Unbreak network mode options <Dave Daynard> 8 hours ago
+5b7c23a : Camera Wrapper: Only call cancel_auto_focus when the preview is enabled. <rbox> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+f19ab1f : National roaming for Telfort in the Netherlands <Nikos Kermanidis> 3 hours ago
+6e81fa5 : Revert "Navigation Bar Height: detect and fix impossibly high values" <PrimeDirective> 2 days ago
+c05c14b : Fixed stylus eraser being rejected by palm rejection <FPtje> 3 months ago
+55c8f12 : battery saver mode: updates (1/2) <Dan Trifan> 2 days ago
+7e72027 : VolumePanel: Don't force navigation bar <David96> 11 days ago
+bf6258e : Service: Keep services needing restart. <Liangcai Li> 4 weeks ago
+191ed5f : telephony: disable the use of SMS_EXPECT_MORE by default (1/2) <Pawit Pornkitprasan> 5 months ago
+7d57b5a : PackageManager: Fix reconnection logic in Installer. <mik_os> 7 days ago
+2bf4827 : SystemUI: Update Ringer tile code. <Kiril Mikos> 7 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+51d4aab : telephony: Remove CdmaLteUicc and CDMA fix <Desterly> 9 hours ago
+22b14a5 : telephony: disable the use of SMS_EXPECT_MORE by default (2/2) <Pawit Pornkitprasan> 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960dt-common ****
+cb117bb : msm: ADSPRPC: Add checks for erroneous values <Mitchel Humpherys> 5 months ago
+afaff9d : Fix for Transmitted data rate not in supported rates <Leela Venkata Kiran Kumar Reddy Chirala> 6 months ago
+13ececa : msm: camera: Clear frame stucture before use <Ashok Raj Deenadayalan> 2 weeks ago
+8703528 : wlan: Enhancing vosTraceEnable function. <Katya Nigam> 7 weeks ago
+ed82017 : msm-camera: Assign NULL after freeing memory <Raghu DP> 3 weeks ago
+2606524 : Linux 3.4.82 <Greg Kroah-Hartman> 3 weeks ago
+df1cc7d : genirq: Add missing irq_to_desc export for CONFIG_SPARSE_IRQ=n <Paul Gortmaker> 4 weeks ago
+17ff13b : ring-buffer: Fix first commit on sub-buffer having non-zero delta <Steven Rostedt (Red Hat)> 4 weeks ago
+7db019a : power: max17040: Fix NULL pointer dereference when there is no platform_data <Krzysztof Kozlowski> 6 weeks ago
+d6e20e8 : time: Fix overflow when HZ is smaller than 60 <Mikulas Patocka> 7 weeks ago
+cd6f6b7 : md/raid5: Fix CPU hotplug callback registration <Oleg Nesterov> 5 weeks ago
+5a0d43c : KVM: return an error code in kvm_vm_ioctl_register_coalesced_mmio() <Dan Carpenter> 6 weeks ago
+cc512a4 : IB/qib: Add missing serdes init sequence <Mike Marciniszyn> 4 weeks ago
+c5bdb3a : block: add cond_resched() to potentially long running ioctl discard loop <Jens Axboe> 4 weeks ago
+e7a9561 : Modpost: fixed USB alias generation for ranges including 0x9 and 0xA <Jan Moskyto Matejka> 5 weeks ago
+f0fbd5c : usb: option: blacklist ZTE MF667 net interface <Raymond Wanyoike> 5 weeks ago
+99c30d6 : usb-storage: enable multi-LUN scanning when needed <Alan Stern> 6 weeks ago
+2aac5d8 : usb-storage: restrict bcdDevice range for Super Top in Cypress ATACB <Alan Stern> 6 weeks ago
+6540468 : usb-storage: add unusual-devs entry for BlackBerry 9000 <Alan Stern> 7 weeks ago
+400cbed : USB: ftdi_sio: add Tagsys RFID Reader IDs <Ulrich Hahn> 6 weeks ago
+1c41ee3 : usb: ftdi_sio: add Mindstorms EV3 console adapter <Bjørn Mork> 8 weeks ago
+402d539 : staging:iio:ad799x fix error_free_irq which was freeing an irq that may not have been requested <Hartmut Knaack> 2 months ago
+dce0ea4 : tty: n_gsm: Fix for modems with brk in modem status control <Lars Poeschel> 9 weeks ago
+cc01cae : lockd: send correct lock when granting a delayed lock. <NeilBrown> 5 weeks ago
+e24cfb1 : raw: test against runtime value of max_raw_minors <Paul Bolle> 5 weeks ago
+566d987 : spi: Fix crash with double message finalisation on error handling <Geert Uytterhoeven> 6 weeks ago
+9558f9d : s390: fix kernel crash due to linkage stack instructions <Martin Schwidefsky> 5 weeks ago
+021139f : s390/dump: Fix dump memory detection <Michael Holzheu> 6 weeks ago
+fb11ab5 : mac80211: fix fragmentation code, particularly for encryption <Johannes Berg> 6 weeks ago
+ce5562e : fs/file.c:fdtable: avoid triggering OOMs from alloc_fdmem <Eric W. Biederman> 4 weeks ago
+2af3263 : xen-blkfront: handle backend CLOSED without CLOSING <David Vrabel> 5 weeks ago
+372155c : wlan: Fix VOS Core run out of message wrapper. <Arun Kumar Khandavalli> 5 weeks ago
+e466cfc : wlan: ba invalid lock crash fix <Leo Chang> 7 weeks ago
+ddfea3c : wlan: Fix for netd crash due to improper length updation. <Mahesh A Saptasagar> 4 weeks ago
+c68a41f : wlan:Revision 3.2.7.42 <Pitani Venkata Rajesh Kumar> 3 weeks ago
+6086eed : qseecom: Validate the pointer returned by ion_import_dma_buf <Hariprasad Dhalinarasimha> 3 weeks ago
+cbbc073 : arm: mach-msm: fix integer overflow in DFE ioctls for reg arr rw <Venkatesh Yadav Abbarapu> 4 months ago
+6835e7b : arm: mach-msm: fix integer overflow in DFE_IOCTL_COMMAND <Venkatesh Yadav Abbarapu> 4 months ago
+98b5ee3 : wlan: Do not allow more than one SAP interface at a time <Abhishek Singh> 4 weeks ago
+8140e62 : Revert "msm:camera: Disable/enable VFE write masters properly during overflow" <Katta Santhisindhu> 3 weeks ago
+92573e2 : wlan: Adding panic in WDI timeout if SSR is in progress. <Katya Nigam> 5 weeks ago
+d59ce4a : wlan: DXE master disable problem debug patch <Leo Chang> 3 months ago
+454b268 : wlan:Revision 3.2.7.41 <Pitani Venkata Rajesh Kumar> 3 weeks ago
+3edd27f : wlan: disable 11d scan which is done after driver is loaded <Mihir Shete> 4 weeks ago
+a0ac6fd : kernel: enable internaldb on perf build <Mihir Shete> 3 weeks ago
+46ba1d9 : wlan:Revision 3.2.7.40 <Pitani Venkata Rajesh Kumar> 4 weeks ago
+054ac05 : wlan: Fix for register access in rx low resource timeout <Katya Nigam> 4 weeks ago
+f4a5bbd : [media] media: Init the reserved fields of struct media_link_desc <Deva Ramasubramanian> 7 weeks ago
+faf4cdb : wlan: wrong bitwise operation in get interface mac addr <Abhishek Singh> 5 weeks ago
+42b41e2 : wlan:Retry ReassocReq only in FT_REASSOC_RSP_STATE <Kanchanapally, Vidyullatha> 5 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_omap4-common ****
+ebdab02 : omap4-common: add missing checks for CONFIG_USB_OOBWAKE <Michael Gernoth> 5 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+e6f22a5 : Apexq: update some defconfig parameters for usb <Dave Daynard> 4 weeks ago
+a53decc : staging: alarm-dev: Seperate functions with one blank line <SeongJae Park> 4 months ago
+49622ee : staging/android: Add kerneldoc to one function in alarm-dev.c <Cruz Julian Bishop> 6 months ago
+0c78a75 : drivers: rtc-pm8xxx: Clear alarm register when IRQ is disabled <Dave Daynard> 8 days ago
+b35c4ac : rtc: alarm: have dummy set_power_on_alarm function <Maria Yu> 9 weeks ago
+23fb3e3 : rtc: alarm: init power_on_alarm_lock mutex in alarmtimer_rtc_timer_init <Kumar Gala> 10 weeks ago
+d4b0883 : alarmtimer: Rename alarmtimer_remove to alarmtimer_dequeue <John Stultz> 1 year, 6 months ago
+0c7e983 : USB: hub: Avoid NULL pointer dereference when hub doesn't have any ports <David Linares> 12 months ago
+aafd57b : usb: ehci-msm: enable HCD_OLD_ENUM <Dave Daynard> 24 hours ago
+0c4f537 : Linux 3.4.83 <Greg Kroah-Hartman> 27 hours ago
+176485d : net: asix: add missing flag to struct driver_info <Emil Goode> 4 weeks ago
+20d700b : net: asix: handle packets crossing URB boundaries <Lucas Stach> 2 weeks ago
+172ba81 : rtlwifi: Fix endian error in extracting packet type <Mark Cave-Ayland> 2 weeks ago
+e87845b : iwlwifi: pcie: add SKUs for 6000, 6005 and 6235 series <Emmanuel Grumbach> 2 weeks ago
+60e6911 : iwlwifi: dvm: fix calling ieee80211_chswitch_done() with NULL <Stanislaw Gruszka> 2 weeks ago
+b38b29d : iwlwifi: dvm: don't send BT_CONFIG on devices w/o Bluetooth <Johannes Berg> 2 weeks ago
+a41adef : iwlwifi: always copy first 16 bytes of commands <Johannes Berg> 2 weeks ago
+f2da4ce : iwlwifi: handle DMA mapping failures <Johannes Berg> 2 weeks ago
+af720fc : iwlwifi: don't handle masked interrupt <Emmanuel Grumbach> 2 weeks ago
+8234281 : iwlwifi: protect SRAM debugfs <Johannes Berg> 2 weeks ago
+3ece099 : iwlwifi: fix flow handler debug code <Johannes Berg> 2 weeks ago
+5377624 : ALSA: asihpi: Fix unlocked snd_pcm_stop() call <Takashi Iwai> 8 months ago
+565ca88 : staging: line6: Fix unlocked snd_pcm_stop() call <Takashi Iwai> 8 months ago
+eeb57eb : ASoC: s6000: Fix unlocked snd_pcm_stop() call <Takashi Iwai> 8 months ago
+a0f8b1c : ALSA: pxa2xx: Fix unlocked snd_pcm_stop() call <Takashi Iwai> 8 months ago
+475274c : ALSA: usx2y: Fix unlocked snd_pcm_stop() call <Takashi Iwai> 8 months ago
+0843fce : ALSA: ua101: Fix unlocked snd_pcm_stop() call <Takashi Iwai> 8 months ago
+2f61016 : ALSA: 6fire: Fix unlocked snd_pcm_stop() call <Takashi Iwai> 8 months ago
+593827e : ALSA: atiixp: Fix unlocked snd_pcm_stop() call <Takashi Iwai> 8 months ago
+9e61147 : ASoC: sglt5000: Fix the default value of CHIP_SSS_CTRL <Fabio Estevam> 8 months ago
+d17395a : ASoC: imx-ssi: Fix occasional AC97 reset failure <Sascha Hauer> 1 year ago
+d4d811d : SUNRPC: Prevent an rpc_task wakeup race <Trond Myklebust> 10 months ago
+e8d5ce1 : sunrpc: clarify comments on rpc_make_runnable <Jeff Layton> 1 year, 8 months ago
+b7d2a5e : xen/events: mask events when changing their VCPU binding <David Vrabel> 7 months ago
+6204743 : xen/blkback: Check for insane amounts of request on the ring (v6). <Konrad Rzeszutek Wilk> 1 year, 2 months ago
+23ced59 : xen/io/ring.h: new macro to detect whether there are too many requests on the ring <Jan Beulich> 9 months ago
+f136958 : xen-netback: don't disconnect frontend when seeing oversize packet <Wei Liu> 11 months ago
+9832f4a : xen-netback: coalesce slots in TX path and fix regressions <Wei Liu> 11 months ago
+047140a3 : xen-netback: fix sparse warning <stephen hemminger> 11 months ago
+63f12e8 : xen/smp/spinlock: Fix leakage of the spinlock interrupt line for every CPU online/offline <Konrad Rzeszutek Wilk> 11 months ago
+32ed904 : xen/smp: Fix leakage of timer interrupt line for every CPU online/offline. <Konrad Rzeszutek Wilk> 11 months ago
+79b6a2d : xen/boot: Disable BIOS SMP MP table search. <Konrad Rzeszutek Wilk> 1 year, 6 months ago
+d54ecc0 : saa7134: Fix unlocked snd_pcm_stop() call <Takashi Iwai> 8 months ago
+c28414d : ext4: return ENOMEM if sb_getblk() fails <Theodore Ts'o> 1 year, 2 months ago
+0ef4c88 : block: Don't access request after it might be freed <Roland Dreier> 1 year, 4 months ago
+50e9712 : nbd: correct disconnect behavior <Paul Clements> 8 months ago
+b0f9634 : cifs: adjust sequence number downward after signing NT_CANCEL request <Jeff Layton> 1 year, 2 months ago
+b54e3ac : ext4: fix possible use-after-free with AIO <Jan Kara> 1 year, 1 month ago
+8a4188e : UBIFS: fix double free of ubifs_orphan objects <Adam Thomas> 1 year, 1 month ago
+ebdc12a : ext4/jbd2: don't wait (forever) for stale tid caused by wraparound <Theodore Ts'o> 11 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+675f100 : manifest: switch to a branch without any changes from me. <bart452> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+0074908 : Dialer: un-derp the keypad UI <Vladislav Koldobskiy> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+444c9bd : InCallUI: Cleanup CAF additions <Michael Bestas> 4 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+0dcafdf : fix hdpi derp on size calculation and add value summary to progress bar <PrimeDirective> 21 hours ago
+178e9ba : Revert "Make navbar height+width bounds relative to their dimens in com.android.internal" <PrimeDirective> 2 days ago
+a5b1f99 : battery saver mode: updates (2/2) <Dan Trifan> 2 days ago
+cce5faf : Settings: CS translation - AOSP <Ondrej Zima> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+374f096 : Fix crash in network mode settings <Scott Warner> 3 days ago
+ 

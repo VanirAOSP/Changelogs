@@ -1,0 +1,149 @@
+
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+c71a2af : Revert "Don't return immediately from reboot commands." <Steve Kondik> 16 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_dlx ****
+aaa3642 : overlay: fix usb tethering <aways> 6 hours ago
+ 
+**** https://github.com/xboxfanj/android_device_lge_gee-common ****
+929b08c : gee-common: Enable QRNGD for faster random number generation <Jake Weinstein> 4 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_aries-common ****
+2e08f59 : Revert "AriesParts: ES translations" <Michael Bestas> 5 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2lte ****
+2a5ca93 : d2lte: turn background scan back off <Dave Daynard> 88 minutes ago
+9b5fa8a : Set home operator alpha and numeric cri/mtr/usc <sspencer10> 2 days ago
+92a9a84 : Revert "init_d2lte: remove ro.telephony.default_cdma_sub from r530s" <Dan Pasanen> 11 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jflte ****
+9e39385 : Revert "init_jflte: remove ro.telephony.default_cdma_sub from r970s" <Dan Pasanen> 11 hours ago
+bbbd894 : Fix USB Tethering <aways> 8 days ago
+5be8cdb : jf: Remove modem links scripts <Steve Kondik> 9 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_qcom-common ****
+73e8253 : qcom-common: 8064 updates from NA5 <dcd> 11 days ago
+ 
+**** https://github.com/VanirAOSP/device_sony_yuga ****
+95d386c : cmhw: don't override BOARD_HARDWARE_CLASS <Chirayu Desai> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_keymaster ****
+d29c6e8 : keymaster: Change module name <Steve Kondik> 26 hours ago
+cb714c8 : keymaster: Fall back to legacy shared library location <Steve Kondik> 26 hours ago
+24928cd : keymaster: Enable hardware keymaster on 8x10 <AnilKumar Chimata> 8 weeks ago
+ac9bbb2 : keymaster: Add support for loading keymaste image <Mona Hossain> 9 weeks ago
+8452d9a : keymaster: Fix compiler warnings <AnilKumar Chimata> 3 months ago
+8379ad9 : keymaster: Change shared library path <AnilKumar Chimata> 3 months ago
+295ebb1 : keymaster: Add dependency and remove libkeystore_binder linking <AnilKumar Chimata> 3 months ago
+ea7a657 : Revert "keymaster: Update version of keyamster header" <Mona Hossain> 4 months ago
+467a7b5 : keymaster: Fix license <Mona Hossain> 4 months ago
+7802302 : keymaster: Fix make file and loading keymaster app <Mona Hossain> 4 months ago
+6241f0b : keymaster: Update version of keyamster header <Mona Hossain> 4 months ago
+ 
+**** https://github.com/P880-dev/android_kernel_lge_x3 ****
+212fbcb : Update Wifi Driver from V1.28.19 to V1.61.51 <demetris> 10 days ago
+91d1afe : Update Inversense Sensors <demetris> 10 days ago
+c898031 : Use Asus Cpu speed handling and fix load shaper cpu throttling reported. Again thanks Adam77root <demetris> 6 hours ago
+958ba29 : Bring back some LGE changes and ifdef code <Adam77Root> 3 weeks ago
+a751e8c : x3-reboot: Always use the MAX77663_SCRATCH_REG_BL_UNLOCK register for fastboot <Ricardo Cerqueira> 3 weeks ago
+cecea2f : tun: don't hold network namespace by tun sockets <Stanislav Kinsbursky> 1 year, 11 months ago
+eaad103 : Add support for OUYA Wireless Bluetooth Controller <demetris> 2 weeks ago
+1d58ca5 : gpio_keys: Remove triplicate reporting of wakeups... Wake keys were being triggered 3 times on wake, causing a ON/OFF/ON sequence: The key itself, once when disabling irqwake, and then once more as a gpio event. If one of the events was lost for some reason (like debouncing pauses), we'd end up with "ON/OFF", and the device wouldn't actually turn on. Get rid of the 2 superfluous reports. <Ricardo Cerqueira> 2 weeks ago
+b16e932 : Stop breaking the kernel :p <demetris> 3 weeks ago
+6627661 : lets make the prox. sensor be more sensible <demetris> 3 weeks ago
+bd0b1a5 : Update tegra i2c bus <demetris> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_omap4-common ****
+45a0af3 : omap4-common: disable hotplug cpu-governor <Michael Gernoth> 17 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+dbd630e : sec-battery: let's override the charging mode only for LPM <Dave Daynard> 3 days ago
+4ccd6ed : Prima 3.2.7.42 <Dave Daynard> 2 days ago
+2606524 : Linux 3.4.82 <Greg Kroah-Hartman> 33 hours ago
+df1cc7d : genirq: Add missing irq_to_desc export for CONFIG_SPARSE_IRQ=n <Paul Gortmaker> 13 days ago
+17ff13b : ring-buffer: Fix first commit on sub-buffer having non-zero delta <Steven Rostedt (Red Hat)> 12 days ago
+7db019a : power: max17040: Fix NULL pointer dereference when there is no platform_data <Krzysztof Kozlowski> 4 weeks ago
+d6e20e8 : time: Fix overflow when HZ is smaller than 60 <Mikulas Patocka> 4 weeks ago
+cd6f6b7 : md/raid5: Fix CPU hotplug callback registration <Oleg Nesterov> 3 weeks ago
+5a0d43c : KVM: return an error code in kvm_vm_ioctl_register_coalesced_mmio() <Dan Carpenter> 4 weeks ago
+cc512a4 : IB/qib: Add missing serdes init sequence <Mike Marciniszyn> 11 days ago
+c5bdb3a : block: add cond_resched() to potentially long running ioctl discard loop <Jens Axboe> 11 days ago
+e7a9561 : Modpost: fixed USB alias generation for ranges including 0x9 and 0xA <Jan Moskyto Matejka> 2 weeks ago
+f0fbd5c : usb: option: blacklist ZTE MF667 net interface <Raymond Wanyoike> 2 weeks ago
+99c30d6 : usb-storage: enable multi-LUN scanning when needed <Alan Stern> 4 weeks ago
+2aac5d8 : usb-storage: restrict bcdDevice range for Super Top in Cypress ATACB <Alan Stern> 4 weeks ago
+6540468 : usb-storage: add unusual-devs entry for BlackBerry 9000 <Alan Stern> 5 weeks ago
+400cbed : USB: ftdi_sio: add Tagsys RFID Reader IDs <Ulrich Hahn> 3 weeks ago
+1c41ee3 : usb: ftdi_sio: add Mindstorms EV3 console adapter <Bjørn Mork> 6 weeks ago
+402d539 : staging:iio:ad799x fix error_free_irq which was freeing an irq that may not have been requested <Hartmut Knaack> 8 weeks ago
+dce0ea4 : tty: n_gsm: Fix for modems with brk in modem status control <Lars Poeschel> 7 weeks ago
+cc01cae : lockd: send correct lock when granting a delayed lock. <NeilBrown> 2 weeks ago
+e24cfb1 : raw: test against runtime value of max_raw_minors <Paul Bolle> 3 weeks ago
+566d987 : spi: Fix crash with double message finalisation on error handling <Geert Uytterhoeven> 4 weeks ago
+9558f9d : s390: fix kernel crash due to linkage stack instructions <Martin Schwidefsky> 3 weeks ago
+021139f : s390/dump: Fix dump memory detection <Michael Holzheu> 4 weeks ago
+fb11ab5 : mac80211: fix fragmentation code, particularly for encryption <Johannes Berg> 3 weeks ago
+ce5562e : fs/file.c:fdtable: avoid triggering OOMs from alloc_fdmem <Eric W. Biederman> 13 days ago
+2af3263 : xen-blkfront: handle backend CLOSED without CLOSING <David Vrabel> 3 weeks ago
+dd12c7c : Linux 3.4.81 <Greg Kroah-Hartman> 3 days ago
+478b97d : nfs: tear down caches in nfs_init_writepagecache when allocation fails <Jeff Layton> 1 year, 7 months ago
+26fead6 : lib/vsprintf.c: kptr_restrict: fix pK-error in SysRq show-all-timers(Q) <Dan Rosenberg> 1 year, 7 months ago
+374d3a4 : virtio-blk: Use block layer provided spinlock <Asias He> 1 year, 9 months ago
+ba37c70 : Input: synaptics - handle out of bounds values from the hardware <Seth Forshee> 1 year, 7 months ago
+b249f99 : PM / Hibernate: Hibernate/thaw fixes/improvements <Bojan Smojver> 1 year, 10 months ago
+ec90b61 : KVM: Fix buffer overflow in kvm_set_irq() <Avi Kivity> 1 year, 10 months ago
+230a0c3 : target/file: Re-enable optional fd_buffered_io=1 operation <Nicholas Bellinger> 1 year, 5 months ago
+45a0374 : target/file: Use O_DSYNC by default for FILEIO backends <Nicholas Bellinger> 1 year, 9 months ago
+f744106 : IB/qib: Convert qib_user_sdma_pin_pages() to use get_user_pages_fast() <Jan Kara> 5 months ago
+f5a4c4b : sched/nohz: Fix rq->cpu_load calculations some more <Peter Zijlstra> 1 year, 9 months ago
+e2d51f2 : sched/nohz: Fix rq->cpu_load[] calculations <Peter Zijlstra> 1 year, 10 months ago
+1c2bd0d : ftrace: Have function graph only trace based on global_ops filters <Steven Rostedt> 12 days ago
+2955866 : ftrace: Fix synchronization location disabling and freeing ftrace_ops <Steven Rostedt> 12 days ago
+95bcd16 : ftrace: Synchronize setting function_trace_op with ftrace_trace_function <Steven Rostedt> 12 days ago
+a7333f3 : dm sysfs: fix a module unload race <Mikulas Patocka> 6 weeks ago
+3fea8b0 : mm: setup pageblock_order before it's used by sparsemem <Xishi Qiu> 1 year, 7 months ago
+237597d : mm/page_alloc.c: remove pageblock_default_order() <Andrew Morton> 1 year, 9 months ago
+dbdd2eb : drm/i915: kick any firmware framebuffers before claiming the gtt <Daniel Vetter> 1 year, 8 months ago
+4e0bc3f : ext4: protect group inode free counting with group lock <Tao Ma> 1 year, 9 months ago
+5e23efd : printk: Fix scheduling-while-atomic problem in console_cpu_notify() <Paul E. McKenney> 1 year, 4 months ago
+36f0c45 : x86, hweight: Fix BUG when booting with CONFIG_GCOV_PROFILE_ALL=y <Peter Oberparleiter> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_BluetoothExt ****
+92ea5e2 : Revert "BluetoothExt: Fix for Transifex" <Michael Bestas> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calculator ****
+87e45ea : Revert "Calculator: IW translations" <Marco Brohet> 5 hours ago
+a86a399 : Revert "Calculator: ES translations" <Michael Bestas> 5 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar
+cm2	https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+8213b3d : Revert "Calendar: ES tranlations" <Michael Bestas> 5 hours ago
+920ccf9 : Revert "Calendar: CA translations" <Arnau> 5 hours ago
+c6bf705 : Calendar: Update DE translation <elektroschmock> 6 days ago
+d5196e5 : Calender: Af Translations <isimobile> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DSPManager ****
+dda133a : Revert "DSPManager: Fix apostrophes" <Michael Bestas> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+b9a8d58 : Settings: DE translation <elektroschmock> 9 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Torch ****
+e95f2c1 : Revert "Torch: ES translations" <Michael Bestas> 5 hours ago
+c09c034 : Revert "Torch: RU translation: migrate to Transifex" <Vladislav Koldobskiy> 6 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_SamsungServiceMode ****
+510daa8 : Revert "SamsungServiceMode: ES translations" <Michael Bestas> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+90c3bf6 : Revert "Telephony: ES translations" <Michael Bestas> 5 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_wallpapers_Galaxy4 ****
+430e323 : Revert "Galaxy4: ES translations" <Michael Bestas> 5 hours ago
+ 
+**** https://github.com/CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser ****
+f65e338 : Revert "ThemeChooser: ES translations" <Michael Bestas> 5 hours ago
+ 
+**** https://github.com/CyanogenMod/android_vendor_tmobile_providers_ThemeManager ****
+7ca233c : Revert "ThemeManager: ES translations" <Michael Bestas> 5 hours ago
+ 

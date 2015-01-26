@@ -1,0 +1,113 @@
+
+**** https://github.com/VanirAOSP/device_htc_dlx ****
+38a1293 : dlx: Specify the offset for the bootloader message. <Jurica Vukadin> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m4 ****
+94f22f3 : use kernel/htc/msm8960 <nuclearmistake> 56 minutes ago
+ 
+**** https://github.com/VanirAOSP/device_htc_s4-common ****
+4276264 : s4-common: use offmode charging blobs from m7 <Matt Mower> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_mako ****
+fe663d9 : Use the flo/deb kernel directory <nuclearmistake> 61 minutes ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_falcon ****
+2266b07 : falcon: Rename defconfig <somcom3x> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_hlte-common ****
+907a219 : hlte-common: fix typo on fstab <arter97> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+ed22efe : klte-common: update GPS HAL <Matt Filetto> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_kltevzw ****
+534c8bb : Fix assert for generic twrp: <nuclearmistake> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+80db965 : 6-bar signal icon sytle [1/2] <Paul Mongold> 2 years, 1 month ago
+ 
+**** https://github.com/VanirAOSP/hardware_samsung_slsi_exynos5420 ****
+39d0dab : Test for tomorrow/kernel headers libcamera/android.mk <DHOMD> 19 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8960 ****
+eb10561 : msm: camera: set T6 camera hal version <David Hays> 18 hours ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+6ed54c0 : writeback: fix negative bdi max pause <Fengguang Wu> 11 months ago
+228b625 : Merge branch 'writeback-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/wfg/linux <Linus Torvalds> 2 years, 8 months ago
+372316e : writeback: fix negative bdi max pause <Fengguang Wu> 11 months ago
+2ddf4ea : mm: fix calculation of dirtyable memory <Sonny Rao> 1 year, 9 months ago
+7f2da16 : mm: export dirty_writeback_interval <Artem Bityutskiy> 2 years, 6 months ago
+a9cac90 : mm: use global_dirty_limit in throttle_vm_writeout() <Fengguang Wu> 2 years, 6 months ago
+e05786e : mm: try to distribute dirty pages fairly across zones <Johannes Weiner> 2 years, 8 months ago
+3af2f78 : mm: writeback: cleanups in preparation for per-zone dirty limits <Johannes Weiner> 2 years, 8 months ago
+5921b16 : mm: exclude reserved pages from dirtyable memory <Johannes Weiner> 2 years, 8 months ago
+0f5c0d9 : mm/page-writeback.c: make determine_dirtyable_memory static again <Johannes Weiner> 2 years, 8 months ago
+b72a010 : fs: move code out of buffer.c <Al Viro> 3 years ago
+2141c3e : writeback: balanced_rate cannot exceed write bandwidth <Wu Fengguang> 3 years, 2 months ago
+31f62eb : writeback: do strict bdi dirty_exceeded <Wu Fengguang> 2 years, 10 months ago
+c3fefc5 : writeback: avoid tiny dirty poll intervals <Wu Fengguang> 2 years, 9 months ago
+aa169f0 : writeback: max, min and target dirty pause time <Wu Fengguang> 2 years, 10 months ago
+c9f6d2e : writeback: dirty ratelimit - think time compensation <Wu Fengguang> 3 years, 3 months ago
+a1aa1a6 : writeback: fix dirtied pages accounting on redirty <Wu Fengguang> 3 years, 1 month ago
+e828646 : writeback: fix dirtied pages accounting on sub-page writes <Wu Fengguang> 3 years, 5 months ago
+9a63bff : Fix compile <demetris> 11 hours ago
+5a6562a : writeback: charge leaked page dirties to active tasks <Wu Fengguang> 3 years, 5 months ago
+ca7ad7c : writeback: set max_pause to lowest value on zero bdi_dirty <Wu Fengguang> 2 years, 10 months ago
+dcbb29b : writeback: permit through good bdi even when global dirty exceeded <Wu Fengguang> 2 years, 10 months ago
+7819652 : writeback: comment on the bdi dirty threshold <Wu Fengguang> 2 years, 10 months ago
+a1f0774 : writeback: remove vm_dirties and task->dirties <Wu Fengguang> 3 years ago
+ab19f83 : writeback: hard throttle 1000+ dd on a slow USB stick <Wu Fengguang> 2 years, 10 months ago
+b1b7bcf : mm: Make task in balance_dirty_pages() killable <Jan Kara> 2 years, 10 months ago
+8448d98 : writeback: fix uninitialized task_ratelimit <Wu Fengguang> 2 years, 10 months ago
+e08d344 : mm/page-writeback.c: document bdi_min_ratio <Johannes Weiner> 2 years, 11 months ago
+c01e25c : mm: Map most files to use export.h instead of module.h <Paul Gortmaker> 2 years, 11 months ago
+3d40cb6 : writeback: trace event balance_dirty_pages <Wu Fengguang> 4 years, 1 month ago
+6e35fdc : writeback: trace event bdi_dirty_ratelimit <Wu Fengguang> 3 years, 7 months ago
+d341dbf : writeback: fix ppc compile warnings on do_div(long long, unsigned long) <Wu Fengguang> 2 years, 11 months ago
+90bcdad : writeback: dirty position control - bdi reserve area <Wu Fengguang> 3 years, 1 month ago
+899a75a : writeback: control dirty pause time <Wu Fengguang> 3 years, 3 months ago
+91def9a : writeback: limit max dirty pause time <Wu Fengguang> 3 years, 3 months ago
+c1174dd : writeback: IO-less balance_dirty_pages() <Wu Fengguang> 4 years, 1 month ago
+d1dda4e : writeback: per task dirty rate limit <Wu Fengguang> 3 years, 3 months ago
+62cc95e : writeback: stabilize bdi->dirty_ratelimit <Wu Fengguang> 3 years, 1 month ago
+167a59f : writeback: dirty rate control <Wu Fengguang> 3 years, 3 months ago
+b46887f : writeback: dirty position control <Wu Fengguang> 3 years, 7 months ago
+b367481 : writeback: account per-bdi accumulated dirtied pages <Wu Fengguang> 3 years, 8 months ago
+e020a91 : Fix some more missmerge code <demetris> 12 hours ago
+5ceaca7 : sched: Fix ancient race in do_exit() <Yasunori Goto> 2 years, 8 months ago
+ab266b2 : writeback: charge leaked page dirties to active tasks <Wu Fengguang> 3 years, 5 months ago
+f51ef1d : writeback: fix typo in the writeback_control comment <Andrew Morton> 2 years, 6 months ago
+b496079 : mm: try to distribute dirty pages fairly across zones <Johannes Weiner> 2 years, 8 months ago
+65095c4 : mm/page-writeback.c: make determine_dirtyable_memory static again <Johannes Weiner> 2 years, 8 months ago
+b5d2095 : writeback: move MIN_WRITEBACK_PAGES to fs-writeback.c <Wu Fengguang> 2 years, 8 months ago
+162c226 : writeback: fix dirtied pages accounting on redirty <Wu Fengguang> 3 years, 1 month ago
+6b359cd : writeback: charge leaked page dirties to active tasks <Wu Fengguang> 3 years, 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+fb09140 : HLTE: Android expects SW_LID, not SW_FLIP. <Tony Layher> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+05b9ffd : Get rid of unnecessary explicit kernel source for mako <nuclearmistake> 56 minutes ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+2086925 : Revert "blacklist call recording for US/EU mccs, remove sysprop flag for enabling" <DHOMD> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Gallery2 ****
+a10b88e : Gallery2: Improve strings <Michael Bestas> 7 days ago
+5cf3392 : Reduce logspam in video player <emancebo> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+cfb9e3e : MSIM: Fix fragment class names <Ricardo Cerqueira> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+f4724e1 : 6-bar signal icon sytle [2/2] <Alex Cruz> 4 weeks ago
+e606702 : Settings: Fix AOSP WiFi AP translations <Michael Bestas> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+3c5f3a5 : Telephony: Use correct string for missed video calls notification <Michael Bestas> 7 hours ago
+ 
+**** https://github.com/LegacyXperia/proprietary_vendor_semc
+lx	https://github.com/LegacyXperia/proprietary_vendor_semc ****
+3839e3d : zeus-common: Bring back stock BT firmware <Michael Bestas> 8 hours ago
+ 

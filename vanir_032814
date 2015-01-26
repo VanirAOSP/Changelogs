@@ -1,0 +1,145 @@
+
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+ba6b5e8 : Only init legacy property environment once <Matt Mower> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/build ****
+ab1848a : Make enabling graphite require "true" value, and condense exclusion conditions <nuclearmistake> 14 hours ago
+bfda853 : Add opt-in graphite loop transformation flags <PrimeDirective> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/device_asus_flo ****
+033cc01 : flo: Use the correct Power HAL <Steve Kondik> 21 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_msm8960-common ****
+9985082 : msm8960-common: Select QCOM power HAL <Dan Pasanen> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+569d62c : d80* kernel build broken with working vs980 kernel == use the same working kernel for all. <nuclearmistake> 13 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+a64921a : hammerhead: Remove deprecated flag <Steve Kondik> 21 hours ago
+ 
+**** https://github.com/VanirAOSP/device_qcom_common ****
+66bdbc2 : common-qcom: enable custom module name extension <Giulio Cervera> 6 hours ago
+1fd0069 : common-qcom: Make QC PowerHAL opt-in <Steve Kondik> 8 hours ago
+40ea4d6 : common-qcom: Add PowerHAL <Steve Kondik> 21 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2lte ****
+9664875 : blobs: splitting cdma rilblobs up <Dan Pasanen> 2 days ago
+cfd0932 : d2-common:  Lower max dimensions in media_profiles <Desterly> 4 months ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_hlte ****
+92eed9a : hlte: TARGET_POWERHAL_VARIANT = qcom <Steve Kondik> 6 hours ago
+9738ae1 : power HAL: fix gpio keys input # <Hashcode> 22 hours ago
+10c6dad : hlte: Update a few paths <Steve Kondik> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_i9305 ****
+0cb82f4 : i9305: slight speakerphone boost <markcs> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8660-common ****
+08043cb : msm8660: Use CM PowerHAL on 8660 <Steve Kondik> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+a46ee95 : msm8960: Add fix for stupid preferred preview size bug <Steve Kondik> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_qcom-common ****
+3318b01 : qcom-common: TARGET_POWERHAL_VARIANT = cm <Steve Kondik> 7 hours ago
+afc7cf2 : qcom-common: Don't use CM PowerHAL for all targets <Steve Kondik> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_toro ****
+38099b3 : Revert "Continue to show '4G' for LTE networks on toro." <Michael Limb> 26 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_qcom-common ****
+6bd8fe5 : qcom-common: Select CM power HAL <Ethan Chen> 6 hours ago
+ae2ebad : qcom-common: Use new PowerHAL <Giulio Cervera> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+4ac9563 : core/Keyguard: EL AOSP translation fixes <Michael Bestas> 5 hours ago
+4cf1977 : SystemUI: add indonesian translation <Dede Dindin Qudsy> 10 days ago
+5fdbdf6 : SystemUI: Set untranslatables <Michael Bestas> 15 hours ago
+4c98da0 : core: IT translation <Eddy Witkamp> 29 hours ago
+eed8a49 : frameworks/base: forward port DC-HSPAP support from cm-10 <Daniele Di Conza> 4 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+961d3a0 : Added support for DC-HSPA+ also in opt/telephony <danidicky> 3 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_cm ****
+ac4af6e : power: Require TARGET_POWERHAL_VARIANT = cm <Steve Kondik> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio-caf ****
+72e1758 : 8960: Fix proxy channel count setup <Ricardo Cerqueira> 10 hours ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_fm ****
+e4fe7fd : FM2: PT translations <Kra1o5> 4 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_power ****
+a813a81 : power: Deal with TARGET_POWERHAL_VARIANT <Steve Kondik> 7 hours ago
+4f3e02d : power: Additional guards <Steve Kondik> 8 hours ago
+74db059 : power: This HAL is only for Google devices <Steve Kondik> 20 hours ago
+6a189a3 : power: Make NO_TOUCH_BOOST the default <Steve Kondik> 21 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_google_msm ****
+b557a94 : MDP: correct clock calculation logic for up-scaling scenario <Nirmal Abraham> 3 months ago
+11a5770 : sched,cgroup: Fix up task_groups list <Mike Galbraith> 1 year, 8 months ago
+31ae925 : msm: clock-rpm: Make rpm clocks sleeping clocks <Stephen Boyd> 1 year, 6 months ago
+a763752 : cpufreq: Fix broken uevents for cpufreq governor and cpu devices <myfluxi> 7 days ago
+f1e65c5 : drivers: cpufreq: Send a uevent when governor changes <Steve Kondik> 1 year, 7 months ago
+ce6a425 : rcu: Use smp_hotplug_thread facility for RCUs per-CPU kthread <Paul E. McKenney> 1 year, 8 months ago
+4779669 : rcu: Yield simpler <Thomas Gleixner> 1 year, 8 months ago
+b1346c6 : msm: dma: Refactored driver to avoid queuing of cmds in workq. <Venkatesh Yadav Abbarapu> 8 months ago
+b2e7fa8 : msm: dma: Moving queue_work() function within spinlock <Utsab Bose> 1 year, 4 months ago
+cf4030e : softirq: reduce latencies <Eric Dumazet> 1 year, 3 months ago
+b45ae73 : softirq: Use hotplug thread infrastructure <Thomas Gleixner> 1 year, 8 months ago
+f5eb2b7 : cpufreq: interactive: Fix null pointer dereference in interactive governor <Vijay Ganti> 2 months ago
+ 
+**** cm	http://github.com/CyanogenMod/android_kernel_lge_mako
+https://github.com/mathkid95/linux_lg_kitkat ****
+db925f6 : logger: Add an enable toggle for entry storage; TNX AndreiLux and Dorimanx <Dan Trifan> 7 months ago
+7c845f5 : Remove unnecessary '$' sign from the Vanir build parameters <mathkid95> 24 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+0ae467d : Allow d2dcm access to charging data table <John Kirk> 11 hours ago
+7540d19 : input: mms_ts: Increase touchscreen sensitivity <Luis Cruz> 7 weeks ago
+18a1700 :  (CR) msm_fb: display: reduce turn-on display time. <Limei Wang> 1 year, 4 months ago
+8127c4b : CHROMIUM: mm: Fix calculation of dirtyable memory <Puneet Kumar> 1 year, 5 months ago
+1efa22e : More compiler fixes <Blackburn> 3 weeks ago
+c2e189e : input: touchscreen: d2_fw: Update firmware <Luis Cruz> 8 weeks ago
+a6ccc53 : cpufreq: interactive: delete timers for GOV_START <Shridhar Rasal> 7 months ago
+a775df1 : d2: camera: Finish fixing video enable/disable sequence <Dave Daynard> 30 hours ago
+81e4c14 : ARM: 7735/2: Preserve the user r/w register TPIDRURW on context switch and fork <André Hentschel> 9 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+b37510f : Revert some commits, fixes SoD <Chirayu Desai> 13 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+1bb6e0c : Camera2: Add spinner for post-HDR mode <Ethan Chen> 7 days ago
+12afd76 : camera: Fading capture animation for ZSL mode <Steve Kondik> 7 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+aefd4cd : InCallUI: DA translation <Jacob Overgaard Madsen> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+82dd80f : Settings: EL AOSP translation fixes <Michael Bestas> 5 hours ago
+12ebc11 : Settings: update Privacy Guard help text string <Ricky Salinas> 22 hours ago
+81d681b : Settings: Update IW translations <Arthur Zamarin> 12 hours ago
+0808004 : Settings: EL translations <Michael Bestas> 14 hours ago
+a884410 : Settings: CS translation <Ondrej Zima> 16 hours ago
+4f51a64 : Settings: DA translation <Jacob Overgaard Madsen> 28 hours ago
+6c42595 : Settings: PT-BR Translations <Gustavo> 10 days ago
+f31b90d : Explicitly set defaultValue for statusbar clock <nuclearmistake> 7 weeks ago
+098a4ec : fix 4 bugs with immersivemode listpreference entries <PrimeDirective> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Stk ****
+289c1bf : Stk: DA translation <Jacob Overgaard Madsen> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+27efe9d : Telephony: DA translation <Jacob Overgaard Madsen> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+f93655c : d2: split cdma rilblobs to variants <Dan Pasanen> 6 hours ago
+8139f64 : h: Use NAxx ril release blobs <Shareef Ali> 6 hours ago
+ea1c388 : h: Update blobs to NB6 release <Steve Kondik> 24 hours ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+89c4ec8 : jflte: loosely prevent simultaneous nuclearwinter execution <nuclearmistake> 10 hours ago
+ 

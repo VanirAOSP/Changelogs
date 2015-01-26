@@ -1,0 +1,121 @@
+
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+d3c8d42 : Prohibit mounting/formatting swap partitions in recovery <Steven Luo> 3 weeks ago
+569fe1f : Recovery: swap XY on swipe controls <sbrissen> 6 months ago
+ 
+**** https://github.com/VanirAOSP/build ****
+6aaa18d : [DO NOT MERGE] Fix -Os thumb2 causing video recording FCs on FLO and HH <PrimeDirective> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/device_asus_flo ****
+bf0602e : FLO: add workaround flag for broken video recording <PrimeDirective> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+ac00162 : HH: add workaround flag for broken video recording <PrimeDirective> 22 hours ago
+ 
+**** https://github.com/Team-Exhibit/android_device_samsung_codinalte ****
+4967001 : TARGET_MIN_NUM_FRAME_BUFFERS := 3 <C457> 8 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2lte ****
+34969b2 : d2lte: enable flags for copybit <Dave Daynard> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_hlte ****
+c64eb3d : HLTE: Recovery: Remove custom key mapping. <slayher> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jflte ****
+7724eef : jflte: switch antibanding default to off <Dave Daynard> 5 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_qcom-common ****
+d4512cc : Fix parameters for interactive governor <lbdroid> 32 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_tuna ****
+05348d9 : tuna: remove recovery_keys.c <Michael Limb> 3 days ago
+ 
+**** https://github.com/VanirAOSP/external_skia ****
+bfcc26e : TEMP - Remove new and borked theme engine #2 <DHOMD> 69 minutes ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+94d4082 : TEMP - Remove new and borked theme engine #3 <DHOMD> 67 minutes ago
+edd15d7 : Revert "ConnectivtyService : Execute connectivityCheck in thread pool" <Josh Chasky> 2 weeks ago
+acb6fae : Bluetooth: Add Total track number. <Gaurav Asati> 6 weeks ago
+d951de8 : Bluetooth: pause music player on A2dp service disconnect <Ayan Ghosh> 5 weeks ago
+377e199 : Revert "Stomp on a benefitless, probably problematic, delta that creaped in with ActiveDisplay" <PrimeDirective> 19 hours ago
+bd8bd57 : Revert "hide search assistant arrow from lockscreen when custom lockscreen is enabled" <nuclearmistake> 18 hours ago
+93a7021 : SystemUI: Don't try to translate SIM slot numbers <Vladislav Koldobskiy> 25 hours ago
+cf1a134 : hide search assistant arrow from lockscreen when custom lockscreen is enabled <Les Prock> 2 days ago
+ff3180f : MSIM: Rework statusbar, order signal clusters to match settings <dhacker29> 3 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+78938e1 : TEMP - Remove new and borked theme engine <DHOMD> 81 minutes ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+2dc5493 : Resync bluetooth with caf <Dave Daynard> 2 days ago
+2b9d459 : net: ipv4: current group_info should be put after using. <JP Abgrall> 24 hours ago
+5c5f2e0 : nf: Remove compilation error caused by e254d2c28c880da28626af6d53b7add5f7d6afee <Ruchi Kandoi> 26 hours ago
+6d7647f : staging: prima: squash update from caf <Dave Daynard> 2 days ago
+98572c0 : nf: IDLETIMER: time-stamp and suspend/resume handling. <Ruchi Kandoi> 4 weeks ago
+00118e0 : prctl: adds PR_SET_TIMERSLACK_PID for setting timer slack of an arbitrary thread. <Ruchi Kandoi> 7 days ago
+9660cc5 : Linux 3.4.87 <Greg Kroah-Hartman> 11 days ago
+1436b33 : powernow-k6: reorder frequencies <Mikulas Patocka> 5 months ago
+1acb634 : powernow-k6: correctly initialize default parameters <Mikulas Patocka> 5 months ago
+cccd0fd : powernow-k6: disable cache when changing frequency <Mikulas Patocka> 5 months ago
+c34cad8 : media: saa7164: fix return value check in saa7164_initdev() <Wei Yongjun> 6 months ago
+96ca972 : media: hdpvr: fix iteration over uninitialized lists in hdpvr_probe() <Alexey Khoroshilov> 10 months ago
+092bc21 : media: hdpvr: register the video node at the end of probe <Hans Verkuil> 1 year, 1 month ago
+9ef2f22 : media: dmxdev: remove dvb_ringbuffer_flush() on writer side <Soeren Moch> 11 months ago
+915b4b0 : media: omap_vout: find_vma() needs ->mmap_sem held <Al Viro> 1 year, 4 months ago
+ac871a8 : media: v4l: Reset subdev v4l2_dev field to NULL if registration fails <Laurent Pinchart> 1 year, 5 months ago
+1b8904d : media: gspca_kinect: add Kinect for Windows USB id <Jacob Schloss> 1 year, 5 months ago
+8d4787e : tg3: Add read dma workaround for 5720 <Nithin Sujir> 11 months ago
+9e6f42f : tg3: Skip powering down function 0 on certain serdes devices <Nithin Sujir> 12 months ago
+14a7213 : sb_edac: Avoid overflow errors at memory size calculation <Mauro Carvalho Chehab> 1 year, 7 months ago
+82d16b3 : mmc: mxs-mmc: fix deadlock caused by recursion loop <Lauri Hintsala> 1 year, 9 months ago
+faf1003 : OMAPFB: fix framebuffer console colors <Grazvydas Ignotas> 1 year, 8 months ago
+c81c26f : tg3: Wait for boot code to finish after power on <Nithin Sujir> 11 months ago
+2963280 : tg3: Add New 5719 Read DMA workaround <Michael Chan> 1 year, 9 months ago
+5759171 : hwmon: Prevent some divide by zeros in FAN_TO_REG() <Dan Carpenter> 5 months ago
+e4b2585 : hwmon: (applesmc) Always read until end of data <Henrik Rydberg> 7 months ago
+7aa8c17 : hwmon: (coretemp) Add support for Atom CE4110/4150/4170 <Guenter Roeck> 1 year, 7 months ago
+b428b89 : hwmon: (coretemp) Improve support for TjMax detection on Atom CPUs <Guenter Roeck> 1 year, 10 months ago
+2a3c503 : hwmon: (coretemp) Add support for Atom D2000 and N2000 series CPU models <Guenter Roeck> 1 year, 10 months ago
+b32e4b1 : hwmon: (coretemp) Improve support of recent Atom CPU models <Jean Delvare> 1 year, 10 months ago
+d454e9e : ALSA: hda/realtek - Add support of ALC231 codec <Kailang Yang> 5 months ago
+296d59e : ALSA: pcsp: Fix the order of input device unregistration <Takashi Iwai> 5 months ago
+a8d5c05 : ALSA: hda - hdmi: Fallback to ALSA allocation when selecting CA <Anssi Hannula> 8 months ago
+03017e7 : ALSA: 6fire: make buffers DMA-able (midi) <Torsten Schenk> 9 months ago
+825ca11 : ALSA: 6fire: make buffers DMA-able (pcm) <Torsten Schenk> 9 months ago
+a204372 : ALSA: 6fire: fix DMA issues with URB transfer_buffer usage <Jussi Kivilinna> 9 months ago
+c971052 : ALSA: ak4xx-adda: info leak in ak4xxx_capture_source_info() <Dan Carpenter> 10 months ago
+775a5dd : ALSA: usb: Parse UAC2 extension unit like for UAC1 <Torstein Hegge> 1 year, 1 month ago
+d47b372 : ALSA: usb-audio: skip UAC2 EFFECT_UNIT <Eldad Zack> 1 year, 5 months ago
+ff15138 : ALSA: hda - Add another GPU codec ID to snd-hda <Aaron Plattner> 10 months ago
+6f06d39 : ALSA: hda - Add new GPU codec ID to snd-hda <Aaron Plattner> 1 year, 9 months ago
+ea76e8c : ALSA: hda - Cache the MUX selection for generic HDMI <Takashi Iwai> 10 months ago
+ace6269 : xhci: Limit the spurious wakeup fix only to HP machines <Takashi Iwai> 5 months ago
+630b5e0 : xhci: Fix spurious wakeups after S5 on Haswell <Takashi Iwai> 8 months ago
+e4330c7 : xhci: quirk for extra long delay for S4 <Oliver Neukum> 7 months ago
+da02a12 : usb: hub: Clear Port Reset Change during init/resume <Julius Werner> 6 months ago
+8fd2b47 : ahci: Add Device IDs for Intel Wildcat Point-LP <James Ralston> 6 months ago
+4af001a : xhci: Don't enable/disable RWE on bus suspend/resume. <Sarah Sharp> 9 months ago
+86726b0 : ahci: AHCI-mode SATA patch for Intel Coleto Creek DeviceIDs <Seth Heasley> 10 months ago
+72c84d5 : ahci: Add Device IDs for Intel Wellsburg PCH <James Ralston> 1 year, 2 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+0b30224 : TEMP - Remove new and borked theme engine #4 <DHOMD> 39 minutes ago
+6a6944f : Add fork of EOS's qcom_opt - may eat your cat <nuclearmistake> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+6472d21 : MSIM: Replace SUBs with real operator name. <Quarx2k> 6 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+773b498 : MSIM: Hide latest area info broadcast if not brazilian sim <dhacker29> 29 hours ago
+ea72d47 : MSIM: Ui fixes, replace Subscriptions with real operator names <Quarx2k> 5 days ago
+ 
+**** https://github.com/VanirAOSP/linaro_toolchains_2014 ****
+e231162 : fresh toolchains from april 2014 <bart452> 7 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_htc ****
+d195d54 : m4: update (most of the) blobs from 4.4.2 OTA <Jurica Vukadin> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser ****
+8be9146 : Automatic translation import <Michael Bestas> 3 hours ago
+ 

@@ -1,0 +1,223 @@
+
+**** https://github.com/VanirAOSP/bionic ****
+452fa4e : Fix pthread_detach for already-exited threads. <Elliott Hughes> 3 months ago
+1c9d43c : libc: krait: Fix memmove half-word atomicity <Xin Qi> 4 months ago
+ 
+**** https://github.com/CyanogenMod/android_bootable_recovery ****
+1040240 : fix compiler warnings <philz-cwm6> 4 hours ago
+ 
+**** https://github.com/VanirAOSP/build ****
+30ac897 : fix up ota_from_target_files <nuclearmistake> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/dalvik ****
+480cf04 : Fix boot <nuclearmistake> 2 hours ago
+ 
+**** cm	https://github.com/CyanogenMod/android_device_htc_ville
+https://github.com/EthanJ99/android_device_htc_ville ****
+914cb0d : Update BoardConfig.mk <Ethan Johnson> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+9b8e031 : omap4-common: camera: libexif was renamed to libjhead in 4.4.3 <Michael Gernoth> 2 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2lte ****
+f516e1e : d2lte: allow mpdecision to manage sleep modes <Dave Daynard> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_d710 ****
+e8ea353 : d710: remove duplicate policies <sbrissen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte ****
+4da1994 : Fix keychar layout for S5 for left - set Menu as default. <Daniel Moran (garwynn)> 14 hours ago
+214c6d7 : Fix GSM support (elelinux variant) <Daniel Moran (garwynn)> 27 hours ago
+b58cb83 : Derp <Daniel Moran (garwynn)> 30 hours ago
+4c1d2b6 : Use elelinux method to fix GSM <Daniel Moran (garwynn)> 30 hours ago
+3de6b49 : Revert "Misc fixes as passed to us" (Need to get back to stable where dialer working) <Daniel Moran (garwynn)> 32 hours ago
+04fb776 : Revert "Additional sensors fix (Credit to Chrissi Cool)" We are reverting back to a stable build where dialer isn't broken. <Daniel Moran (garwynn)> 32 hours ago
+d2e5960 : Fix copy of RIL blobs for kltexx.  Should get GSM working. <Daniel Moran (garwynn)> 34 hours ago
+0d0a715 : Revert "Migrate to msm8974-common" <Daniel Moran (garwynn)> 34 hours ago
+9131456 : Migrate to msm8974-common <Daniel Moran (garwynn)> 2 days ago
+45d9060 : Additional sensors fix (Credit to Chrissi Cool) <Daniel Moran (garwynn)> 2 days ago
+2af9eb6 : Re-fix battery capacity (from Tom) <Daniel Moran (garwynn)> 3 days ago
+929d185 : Misc fixes as passed to us <Daniel Moran (garwynn)> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_manta ****
+3ca30c5 : Update fingerprint to 4.4.3 <Scott Warner> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_qcom-common ****
+ad66f01 : lpm.rc init: Fix charger mode and update pm paths. <Christian Ludwig> 3 days ago
+ 
+**** https://github.com/VanirAOSP/external_chromium_org ****
+98cac43 : Revert "Webview: Implement the suspend/resume operation in webview of chromium" <Ricardo Cerqueira> 3 days ago
+f6b376e : Revert "gpu: Refactor GpuMemoryBuffer framework for multi-process support." <Ricardo Cerqueira> 3 days ago
+ 
+**** https://github.com/VanirAOSP/external_skia ****
+ba7b7c4 : TEMPORARY: Disable qc-perf <Ricardo Cerqueira> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+e88dd62 : appops: enforce appop for bluetooth disabled action <Jorge Ruesga> 9 days ago
+cd234b9 : Don't cleanup overlay mapping for non-theme apps <Andy Mast> 26 hours ago
+10d819ca : Clean up ITelephony.aidl <DHOMD> 7 hours ago
+b9c234e : Fix duplicate config_overrideHasPermanentMenuKey in config.xml <DHOMD> 7 hours ago
+a206493 : Squashed deltas from cm 4.4.3 merge <nuclearmistake> 8 hours ago
+655c34a : UsbDebuggingManager : Handle race condition when toggling rapidly <Danesh M> 2 days ago
+ca05469 : Block notification panel carrier label updating unless pertinent <PrimeDirective> 3 weeks ago
+9920488 : Quicksettings:  some code cleanups <PrimeDirective> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_telephony-msim ****
+bf6fb56 : Adjust MccTable.updateMccMncConfiguration to 4.4.3 API <Ricardo Cerqueira> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_google_msm ****
+3e96508 : futex: Make lookup_pi_state more robust <Thomas Gleixner> 3 days ago
+69b937c : futex: Always cleanup owner tid in unlock_pi <Thomas Gleixner> 3 days ago
+2d31876 : futex: Validate atomic acquisition in futex_lock_pi_atomic() <Thomas Gleixner> 3 days ago
+7f1e912 : futex-prevent-requeue-pi-on-same-futex.patch futex: Forbid uaddr == uaddr2 in futex_requeue(..., requeue_pi=1) <Thomas Gleixner> 3 days ago
+618d737 : Revert "seq_file: Allocate memory using vmalloc when kmalloc failed" <Ricardo Cerqueira> 26 hours ago
+a6edd5e : Revert "mako: touch: PLG137 firmware E044 update" <Patrick Tjin> 7 weeks ago
+3f92404 : Revert "mako: touch: add error checking for reading descriptor" <Jongrak Kwon> 3 months ago
+03485a6 : staging: android: ashmem: Avoid deadlock with mmap/shrink <Laura Abbott> 4 months ago
+7a66d17 : sync: signal pt before sync_timeline object gets destroyed <Prakash Kamliya> 8 months ago
+a620018 : sync: Fix a race condition between release_obj and print_obj <Alistair Strachan> 1 year, 2 months ago
+2e4946a : deb: mdm: Implement RESET_CHARM in the ioctl function. <tzuhsuan_chen> 7 months ago
+3a1970b : staging: android: ashmem: Avoid deadlock with mmap/shrink <Laura Abbott> 4 months ago
+27778c7 : Revert "Power: add an API to log wakeup reasons" <Vineeta Srivastava> 3 months ago
+2337938 : Revert "POWER: fix compile warnings in log_wakeup_reason" <Vineeta Srivastava> 3 months ago
+f75fc46 : Revert "POWER: Add an API call to log wake wakeup reason" <Vineeta Srivastava> 3 months ago
+c51d377 : prima: release v3.2.3.18 <Ed Tam> 3 months ago
+e513e6f : prima: release v3.2.3.18 <Ed Tam> 3 months ago
+92869b7 : POWER: Add an API call to log wake wakeup reason <Ruchi Kandoi> 3 months ago
+0d7de06 : POWER: fix compile warnings in log_wakeup_reason <Ruchi Kandoi> 4 months ago
+15be381 : Power: add an API to log wakeup reasons <Ruchi Kandoi> 4 months ago
+2b97ada : fix false disconnect due to a signal sent to the reading process <keunyoung> 4 months ago
+f2db089 : fix false disconnect due to a signal sent to the reading process <keunyoung> 4 months ago
+de04d78 : prima: release v3.2.3.16 <Ed Tam> 4 months ago
+6aec950 : cfg80211: add flags to define country IE processing rules <Mihir Shete> 8 months ago
+ca1e3b0 : mako: touch: add error checking for reading descriptor <Jongrak Kwon> 4 months ago
+c876b3a : SELinux: Fix kernel BUG on empty security contexts. <Stephen Smalley> 4 months ago
+e900ac0 : mako: touch: fix i2c error after firmware upgrade <Jongrak Kwon> 4 months ago
+4b15620 : prima: release v3.2.3.16 <Ed Tam> 4 months ago
+67acf1f : cfg80211: add flags to define country IE processing rules <Mihir Shete> 8 months ago
+154225a : SELinux: Fix kernel BUG on empty security contexts. <Stephen Smalley> 4 months ago
+36eb1e1 : tcp: add a sysctl to config the tcp_default_init_rwnd <JP Abgrall> 4 months ago
+26f062e : SELinux: Fix possible NULL pointer dereference in selinux_inode_permission() <Steven Rostedt> 5 months ago
+035dda8 : SELinux: Fix possible NULL pointer dereference in selinux_inode_permission() <Steven Rostedt> 5 months ago
+9ac8d2e : nf: xt_qtaguid: fix handling for cases where tunnels are used. <JP Abgrall> 6 months ago
+977e7e5 : ping: prevent NULL pointer dereference on write to msg_name <Hannes Frederic Sowa> 7 months ago
+cfe5194 : nf: xt_qtaguid: fix handling for cases where tunnels are used. <JP Abgrall> 6 months ago
+a485048 : ping: prevent NULL pointer dereference on write to msg_name <Hannes Frederic Sowa> 7 months ago
+dbb87f4 : flo_defconfig: enable idletimer netfilter config <Ashish Sharma> 4 months ago
+7508f15 : android: configs: Add CONFIG_NETFILTER_XT_TARGET_IDLETIMER <Ashish Sharma> 5 months ago
+77ef39d : tcp: add a sysctl to config the tcp_default_init_rwnd <JP Abgrall> 4 months ago
+46a4286 : flo_defconfig: canonicalize the defconfig with make savedefconfig <JP Abgrall> 4 months ago
+e2c6ce6 : mako_defconfig: enable IDLETIMER target for netfilters <JP Abgrall> 4 months ago
+a522729 : android: configs: Add CONFIG_NETFILTER_XT_TARGET_IDLETIMER <Ashish Sharma> 5 months ago
+d650d9d : SELinux: include definition of new capabilities <Eric Paris> 1 year, 11 months ago
+37bd288 : SELinux: include definition of new capabilities <Eric Paris> 1 year, 11 months ago
+566be02 : android: configs: Grab the android/configs from kernel/common <JP Abgrall> 5 months ago
+2758f7a : mako_defconfig: canonicalize the defconfig with make savedefconfig <JP Abgrall> 5 months ago
+558d434 : android: configs: Grab the android/configs from kernel/common <JP Abgrall> 5 months ago
+47ffde4 : Fixing bad conflict resolution <Ed Tam> 5 months ago
+ab9ff8d : seq_file: always clear m->count when we free m->buf <Al Viro> 7 months ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-gproj ****
+69a1503 : futex: Make lookup_pi_state more robust <Thomas Gleixner> 3 days ago
+43736c3 : futex: Always cleanup owner tid in unlock_pi <Thomas Gleixner> 3 days ago
+a7afb36 : futex: Validate atomic acquisition in futex_lock_pi_atomic() <Thomas Gleixner> 3 days ago
+c0fc9eb : futex-prevent-requeue-pi-on-same-futex.patch futex: Forbid uaddr == uaddr2 in futex_requeue(..., requeue_pi=1) <Thomas Gleixner> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_lge_v500 ****
+c452e26 : futex: Make lookup_pi_state more robust <Thomas Gleixner> 3 days ago
+5868a8b : futex: Always cleanup owner tid in unlock_pi <Thomas Gleixner> 3 days ago
+c177759 : futex: Validate atomic acquisition in futex_lock_pi_atomic() <Thomas Gleixner> 3 days ago
+854d1db : futex-prevent-requeue-pi-on-same-futex.patch futex: Forbid uaddr == uaddr2 in futex_requeue(..., requeue_pi=1) <Thomas Gleixner> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_omap4-common ****
+214e681 : futex: Make lookup_pi_state more robust <Thomas Gleixner> 3 days ago
+5fada32 : futex: Always cleanup owner tid in unlock_pi <Thomas Gleixner> 3 days ago
+1a13de9 : futex: Validate atomic acquisition in futex_lock_pi_atomic() <Thomas Gleixner> 3 days ago
+65a2c86 : futex-prevent-requeue-pi-on-same-futex.patch futex: Forbid uaddr == uaddr2 in futex_requeue(..., requeue_pi=1) <Thomas Gleixner> 3 days ago
+4304ffe : futex: Add another early deadlock detection check <Thomas Gleixner> 3 weeks ago
+4a7deac : futex: Prevent attaching to kernel threads <Thomas Gleixner> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/kernel_oppo_n1 ****
+50fb9ba : futex: Make lookup_pi_state more robust <Thomas Gleixner> 3 days ago
+faf888d : futex: Always cleanup owner tid in unlock_pi <Thomas Gleixner> 3 days ago
+fea6e94 : futex: Validate atomic acquisition in futex_lock_pi_atomic() <Thomas Gleixner> 3 days ago
+5f655ad : futex-prevent-requeue-pi-on-same-futex.patch futex: Forbid uaddr == uaddr2 in futex_requeue(..., requeue_pi=1) <Thomas Gleixner> 3 days ago
+9b77b70 : futex: Add another early deadlock detection check <Thomas Gleixner> 3 weeks ago
+3c585a2 : futex: Prevent attaching to kernel threads <Thomas Gleixner> 3 weeks ago
+8a4630d : n_tty: Fix n_tty_write crash when echoing in raw mode <Peter Hurley> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+ef7a7b3 : futex: Make lookup_pi_state more robust <Thomas Gleixner> 3 days ago
+86245f3 : futex: Always cleanup owner tid in unlock_pi <Thomas Gleixner> 3 days ago
+c2ee83f : futex: Validate atomic acquisition in futex_lock_pi_atomic() <Thomas Gleixner> 3 days ago
+d499910 : futex-prevent-requeue-pi-on-same-futex.patch futex: Forbid uaddr == uaddr2 in futex_requeue(..., requeue_pi=1) <Thomas Gleixner> 3 days ago
+903a5ca : futex: Add another early deadlock detection check <Thomas Gleixner> 3 weeks ago
+19bf68a : futex: Prevent attaching to kernel threads <Thomas Gleixner> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_manta ****
+d52af31 : mali: Fix VM_MAY% issues for mmap <Bartosz Szatkowski> 3 months ago
+c594549 : SELinux: Fix kernel BUG on empty security contexts. <Stephen Smalley> 4 months ago
+686b8ed : fix false disconnect due to a signal sent to the reading process <keunyoung> 4 months ago
+0a6c4e5 : tcp: add a sysctl to config the tcp_default_init_rwnd <JP Abgrall> 4 months ago
+6917093 : SELinux: Fix possible NULL pointer dereference in selinux_inode_permission() <Steven Rostedt> 5 months ago
+8f9db83 : nf: xt_qtaguid: fix handling for cases where tunnels are used. <JP Abgrall> 6 months ago
+e890ec8 : ping: prevent NULL pointer dereference on write to msg_name <Hannes Frederic Sowa> 7 months ago
+7dff567 : SELinux: include definition of new capabilities <Eric Paris> 1 year, 11 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_mondrianwifi ****
+fbc8744 : futex: Make lookup_pi_state more robust <Thomas Gleixner> 3 days ago
+2ca6295 : futex: Always cleanup owner tid in unlock_pi <Thomas Gleixner> 3 days ago
+5bf3ae9 : futex: Validate atomic acquisition in futex_lock_pi_atomic() <Thomas Gleixner> 3 days ago
+5ad833c : futex-prevent-requeue-pi-on-same-futex.patch futex: Forbid uaddr == uaddr2 in futex_requeue(..., requeue_pi=1) <Thomas Gleixner> 3 days ago
+6644f24 : wlan:update transmit power range <Christopher R. Palmer> 29 hours ago
+45b2de3 : wlan: Get Mac addr from platform driver <Christopher R. Palmer> 29 hours ago
+a463d03 : Partially Revert "mondrianwifi: wcnss: Allow wcnss to override the MAC address" <Christopher R. Palmer> 29 hours ago
+6d3b2c2 : wlan: To get correct link speed while multiple clients are there <Christopher R. Palmer> 30 hours ago
+cc5b2fc : wlan: Revert back changes setting the gLimRspReqd for stats requests <Christopher R. Palmer> 30 hours ago
+ 
+**** https://github.com/LegacyXperia/android_kernel_semc_msm7x30 ****
+64185ab : futex: Make lookup_pi_state more robust <Thomas Gleixner> 3 days ago
+6885cae : futex: Always cleanup owner tid in unlock_pi <Thomas Gleixner> 3 days ago
+581b07c : futex: Validate atomic acquisition in futex_lock_pi_atomic() <Thomas Gleixner> 3 days ago
+c1b372e : futex-prevent-requeue-pi-on-same-futex.patch futex: Forbid uaddr == uaddr2 in futex_requeue(..., requeue_pi=1) <Thomas Gleixner> 3 days ago
+dd4c1b8 : futex: Add another early deadlock detection check <Thomas Gleixner> 3 weeks ago
+35ca33b : futex: Prevent attaching to kernel threads <Thomas Gleixner> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+7d29b8f : futex: Make lookup_pi_state more robust <Thomas Gleixner> 3 days ago
+644d410 : futex: Always cleanup owner tid in unlock_pi <Thomas Gleixner> 3 days ago
+0fff5ad : futex: Validate atomic acquisition in futex_lock_pi_atomic() <Thomas Gleixner> 3 days ago
+bc66c21 : futex-prevent-requeue-pi-on-same-futex.patch futex: Forbid uaddr == uaddr2 in futex_requeue(..., requeue_pi=1) <Thomas Gleixner> 3 days ago
+3996553 : futex: Add another early deadlock detection check <Thomas Gleixner> 3 weeks ago
+47bab5c : futex: Prevent attaching to kernel threads <Thomas Gleixner> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+ca3d917 : vanir chromium openssl <nuclearmistake> 7 hours ago
+30c519c : Revert "Move 4.4.3 to kk443 until it works gud" <nuclearmistake> 8 hours ago
+cdecb52 : hammerhead: switch kernel to kk_mr2 branch <Dan Trifan> 16 hours ago
+36797ba : more undos <nuclearmistake> 3 days ago
+015fb34 : Move 4.4.3 to kk443 until it works gud <nuclearmistake> 3 days ago
+6c789a7 : owwww, my sooouulll... so many FALSDKJAKSJD missing refs lol <nuclearmistake> 3 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+9fa2cf5 : Dialer: Correct geocode resource typo <Ethan Chen> 2 hours ago
+48850c7 : Fixup cachednumberlookupservice <nuclearmistake> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+48bfe11 : data usage chart: move color values to resource file <Dirk Rettschlag> 13 hours ago
+051da1b : Settings: make the toast checkbox actually do something <bart452> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+368577a : Telephony: respect quiet hours vibration settings when ringing <Roman Birg> 2 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+e069007 : Update to KTU84L <Scott Warner> 7 hours ago
+ 
+**** vani	git@github.com:VanirAOSP/vendor_vanir.git
+https://github.com/VanirAOSP/vendor_vanir ****
+69fff0c : disabled packages: Add new GMS updater activity names <Ricardo Cerqueira> 24 hours ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_widevine
+vanir	https://github.com/VanirAOSP/vendor_widevine ****
+60467be : Update to KTU84L <Scott Warner> 7 hours ago
+ 

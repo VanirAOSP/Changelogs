@@ -1,0 +1,247 @@
+
+**** https://github.com/VanirAOSP/build ****
+ecec401 : Deal with CM changing vars (WITH_QC_PERF) for no reason, and still be able to use future changes where they use TARGET_HAVE_QC_PERF without difficulty. <sudosurootdev> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+54daa66 : Revert "g2: disable qcom av enhancements" <Bart Monhemius> 5 weeks ago
+08e52f5 : g2: graphic updates <bart452> 5 days ago
+11ef20e : g2: Make audio not suck anymore. <Steve Kondik> 7 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+b32053e : hammerhead: lcd_kcal: remove control bit <Lorenzo M> 9 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_lge_p880 ****
+8237b56 : Clean perms that are been called from cm common init. <demetris> 10 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_falcon ****
+07a261e : Revert "Revert "falcon: Rename defconfig", breaks build" <nuclearmistake> 8 hours ago
+88190fe : Fix recovery size <nuclearmistake> 8 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_moto_msm8960_jbbl ****
+f4d390b : moto_msm8960_jbbl: Fix vendor inheritance <nadlabak> 24 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+1868b48 : msm8974-common: Sync voice acdb entries with ColorOS <Scott Mertz> 3 days ago
+d955cb6 : msm8974: Add TARGET_HAVE_NEW_GRALLOC flag <Steve Kondik> 5 days ago
+ 
+**** https://github.com/VanirAOSP/device_sony_nicki ****
+de25a34 : nicki: init: replace baseband version with model number <RonGokhale> 3 days ago
+ 
+**** https://github.com/VanirAOSP/external_skia ****
+1c56efb : Revert "Revert "skia: Rename perf flag"" ...USE: http://gerrit.vanir.co:8080/#/c/671/ <sudosurootdev> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+56f1e0f : 6-bar signal icon sytle [1/2] <Paul Mongold> 2 years, 1 month ago
+fec6b70 : LSN: avoid re-concatenation of notifications' mNotifications key <nuclearmistake> 8 hours ago
+66f285d : LSN: double-remove fix: hard derp <nuclearmistake> 9 hours ago
+ab87135 : log when+why remotecontroldisplay gets cleared <nuclearmistake> 10 hours ago
+6f5e55b : base: fix build <bart452> 9 hours ago
+3e92c68 : revert forcepushed commit with deleted github history that didn't go through gerrit <PrimeDirective> 7 days ago
+931a884 : Actions & Utilities: Profile switcher <PrimeDirective> 16 hours ago
+3974c88 : Actions & Utilities: Start screensaver <PrimeDirective> 16 hours ago
+fc1e0bd : LSN: Don't try to add a view that isn't found to the removelist. <nuclearmistake> 18 hours ago
+9799a43 : AndroidRuntime: stfu with the nonconditional ALOGD of useless VM lifecycle information. SRSLY. <nuclearmistake> 19 hours ago
+16438fe : Keyguard: fix chopped keyguard on hdpi MSim devices <Pawit Pornkitprasan> 3 days ago
+ea18bbf : These instances don't need to be on the heap all the time. <Eric McCann> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display-caf-new ****
+1d15b50 : gralloc: Add backwards-compatible gralloc <Steve Kondik> 5 days ago
+6355e46 : display: initialize viewFrame info for external displays <Arun Kumar K.R> 3 months ago
+bd45670 : qdutils : Add mdp revision for 8x39. <Prabhanjan Kandula> 4 months ago
+17c41df : mdp_version: Check define for each version <Naseer Ahmed> 5 months ago
+a4feef5 : display: remove compiler warnings <Shalaj Jain> 3 months ago
+f45e07d : hwc: Set GPU Hint from idlefallback state to GPU <Ramkumar Radhakrishnan> 4 months ago
+40596af : hwc: Avoid partial frame update on secure display <Jeykumar Sankaran> 3 months ago
+1d5c8af : hwc: Add support for secure RGB layer <Ramkumar Radhakrishnan> 8 weeks ago
+b4816d0 : hwc: Simulate composition strategy <Jeykumar Sankaran> 6 months ago
+31c240f : overlay : Rely on 8x16 pipe strategy for 8x39. <Prabhanjan Kandula> 4 months ago
+c497e86 : hwc: Remove external only feature related code <Ramkumar Radhakrishnan> 5 weeks ago
+49b00e2 : hwc : Enable ABC only for non intersecting layers. <Ramakant Singh> 3 months ago
+efcb006 : hwc : Add support for ABC in MDP3 <Ramakant Singh> 5 months ago
+8f56220 : hwc : Add support for single layer Bypass in MDP3 <Ramakant Singh> 6 months ago
+8cfbf27 : hwc: Conditionally compile dirtyRect under QCOM_BSP for copybit <Saurabh Shah> 5 months ago
+aa2c66f : hwc: Handle validateAndSet failures in AD prepare call <Tatenda Chipeperekwa> 5 months ago
+5b9de9d : libqdutils: Readd macro for compatibility <Steve Kondik> 5 days ago
+01527f2 : display: Remove ashmem header includes <Naseer Ahmed> 4 months ago
+62ba83d : gralloc: Fix incorrect handle validation check <Naseer Ahmed> 5 months ago
+354beea : hwc: Fix compiler warning <Jeykumar Sankaran> 4 months ago
+325e2bb : qdutils : Read max mixer width from drivers. <Prabhanjan Kandula> 4 months ago
+c9f1d19 : qdutils: Parse rotator downscale feature <Saurabh Shah> 3 months ago
+90e6d52 : Limit #ROT-SESSIONS to 4 in LayerRotMap and RotMgr <Raj Kamal> 7 weeks ago
+043062f : gralloc: Use ION fd in FB handle <Arun Kumar K.R> 6 months ago
+6fcb5aa : gralloc: fix getYUVPlaneInfo for YV12 format <Arun Kumar K.R> 4 weeks ago
+d2db3ec : hwc/overlay: Implement rotator caching <Raj Kamal> 6 weeks ago
+5895631 : overlay: Add support for rotator downscale <Saurabh Shah> 3 months ago
+6ca6a3a : hwc\overlay: Remove support for foreground override <Saurabh Shah> 5 weeks ago
+ 
+**** https://github.com/xboxfanj/android_kernel_htc_msm8974 ****
+437ce02 : net: guard tcp_set_keepalive() to tcp sockets <Eric Dumazet> 2 years ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+a239e4a : bacon: Update defconfig <Steve Kondik> 2 days ago
+47e6bde : ARM: fix user unalignment prefetch abort <Maria Yu> 3 weeks ago
+54bf744 : msm: mdss: align frame buffer size to PAGE_SIZE <Jeevan Shriram> 2 weeks ago
+206b23a : mm: do not sleep in balance_pgdat if there's no i/o congestion <Zlatko Calusic> 1 year, 9 months ago
+eab7dca : ARM: gic: Bring inline with upstream <Steve Kondik> 3 weeks ago
+920ce41 : cpuidle: check for need_resched() after the idle entry trace event <Syed Rameez Mustafa> 5 weeks ago
+abc48cd : arm/crypto: Add optimized AES and SHA1 routines <David McCullough> 2 years ago
+0ed0fba : devfreq: Backport MSM devfreq features from 3.10 <Saravana Kannan> 7 months ago
+a94ef01 : ARM: bitops: prefetch the destination word for write prior to strex <Will Deacon> 1 year, 3 months ago
+6afd836 : input: touchscreen: synaptics_dsx: Generate the hardware ts on interrupt <Ricardo Cerqueira> 13 days ago
+0827077 : lm3630: Clean up the lm3630 driver <Steve Kondik> 2 weeks ago
+68ac8af : msm: clock-krait-8974: Add support to read SVS PVS bin <Tianyi Gou> 5 months ago
+b02b67a : smp: Fix SMP function call empty cpu mask race <Wang YanQing> 1 year, 8 months ago
+f2e734f : ion: Use dma_free_attrs for freeing secure memory <Laura Abbott> 3 months ago
+2d8204a : sched: Remove get_online_cpus() usage <Kaushal Kumar> 5 months ago
+fbb44b7 : msm: kgsl: Keep the GPU from going into a slumber after a touch event <Jordan Crouse> 3 weeks ago
+b5ccabe : msm: kgsl: Fix gpu idle check <Shubhraprakash Das> 5 months ago
+d8e9ec8 : arm/dts: Scope pic16F setup for Oppo board properly <Steve Kondik> 3 weeks ago
+06b62cb : ASoC: msm: qdsp6v2: update int to size_t <Fred Oh> 9 days ago
+8623581 : ASoC: msm: qdsp6v2: Change client names for ion alloc <Damir Didjusto> 2 weeks ago
+f7f7086 : ASoC: wcd9320: Fix micbias setting for MAD <Bhalchandra Gajare> 2 months ago
+55840a6 : ASoC: msm: q6dspv2: add pause/resume support for audio record <Banajit Goswami> 8 weeks ago
+7adb006 : ASoC: qdsp6v2: update perf mode flag for LL capture cases <Banajit Goswami> 2 months ago
+89574e2 : ASoC: msm: qdsp6v2: Cleanup of compress offload drivers <Damir Didjusto> 8 months ago
+feb2bd3 : ASoC: msm: qdsp6v2: Cleanup of audio drivers <Gopikrishnaiah Anandan> 7 months ago
+f862bf2 : ASoC: msm: qdsp6v2: Add the matrix mixer call during ASM loopback <Damir Didjusto> 4 months ago
+f31b465 : ASoC: msm: qdsp6v2: Fix bit alignment in snd_codec params <Amit Shekhar> 7 weeks ago
+25d1cff : ASoC: msm: audio-effects: improve logging <Dhananjay Kumar> 5 months ago
+78d2c6c : ASoC: msm: qdsp6v2: requeue read buffers in mmap device switch <Banajit Goswami> 7 weeks ago
+9055702 : ASoC: msm: qdsp6v2: check proxy port is open when closing <Aravind Kumar> 7 weeks ago
+830862d : ASoC: dapm: Fix _PRE and _POST events for DAPM performance improvements <Mark Brown> 2 years, 2 months ago
+f539daf : ALSA: snd-usb: add support for DSD DOP stream transport <Daniel Mack> 1 year, 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+8b07214 : leds: leds-pm8xxx: use snprintf for sysfs attribute show method <Himanshu Aggarwal> 1 year, 1 month ago
+43a4f12 : seccomp: Use atomic operations that are present in kernel 3.4. <Robert Sesek> 5 weeks ago
+d128a37 : seccomp: implement SECCOMP_FILTER_FLAG_TSYNC <Kees Cook> 4 months ago
+7b6cde4 : introduce for_each_thread() to replace the buggy while_each_thread() <Oleg Nesterov> 8 months ago
+ad3e892 : seccomp: allow mode setting across threads <Kees Cook> 3 months ago
+dcb0802 : seccomp: introduce writer locking <Kees Cook> 3 months ago
+7bb1f56 : seccomp: split filter prep from check and apply <Kees Cook> 3 months ago
+89b60ba : sched: move no_new_privs into new atomic flags <Kees Cook> 4 months ago
+aa4b172 : ARM: add seccomp syscall <Kees Cook> 3 months ago
+d5d9f86 : seccomp: add "seccomp" syscall <Kees Cook> 3 months ago
+14fac52 : seccomp: split mode setting routines <Kees Cook> 3 months ago
+6c5e6af : seccomp: extract check/assign mode helpers <Kees Cook> 3 months ago
+fab3f25 : seccomp: create internal mode-setting function <Kees Cook> 4 months ago
+92cd3fe : MAINTAINERS: create seccomp entry <Kees Cook> 9 weeks ago
+9f46c35 : CHROMIUM: ARM: r1->r0 for get/set arguments <Will Drewry> 2 years, 5 months ago
+053c866 : CHROMIUM: seccomp: set -ENOSYS if there is no tracer <Will Drewry> 2 years, 5 months ago
+2ddd3d3 : CHROMIUM: ARM: arch/arm: allow a scno of -1 to not cause a SIGILL <Will Drewry> 2 years, 5 months ago
+fb48f88 : CHROMIUM: arch/arm: select HAVE_ARCH_SECCOMP_FILTER <Will Drewry> 2 years, 5 months ago
+bac2222 : CHROMIUM: arch/arm: move secure_computing into trace; respect return code <Will Drewry> 2 years, 5 months ago
+b91688e : CHROMIUM: arch/arm: add asm/syscall.h <Will Drewry> 2 years, 5 months ago
+f7af6c4 : samples/seccomp: fix dependencies on arch macros <Will Drewry> 2 years, 5 months ago
+512f797 : seccomp: fix build warnings when there is no CONFIG_SECCOMP_FILTER <Will Drewry> 2 years, 5 months ago
+b802528 : seccomp: ignore secure_computing return values <Will Drewry> 2 years, 5 months ago
+de10ff9 : seccomp: use a static inline for a function stub <Stephen Rothwell> 2 years, 5 months ago
+8a51c1a : Documentation: prctl/seccomp_filter <Will Drewry> 2 years, 8 months ago
+5cfd736 : Change-Id: I7c9d49079d4e18390c2d520513a4afd55e6eaa3e <Sasha Levitskiy> 1 year, 10 months ago
+30178d6 : ptrace,seccomp: Add PTRACE_SECCOMP support <Will Drewry> 2 years, 7 months ago
+289ca5b : seccomp: Add SECCOMP_RET_TRAP <Will Drewry> 2 years, 7 months ago
+1fc92aa : signal, x86: add SIGSYS info and make it synchronous. <Will Drewry> 2 years, 7 months ago
+b02bc28 : seccomp: add SECCOMP_RET_ERRNO <Will Drewry> 2 years, 7 months ago
+a2634d4 : seccomp: remove duplicated failure logging <Kees Cook> 2 years, 7 months ago
+1ed95ab : seccomp: add system call filtering using BPF <Will Drewry> 2 years, 7 months ago
+02003d7 : arch/x86: add syscall_get_arch to syscall.h <Will Drewry> 2 years, 8 months ago
+6ab5a41 : asm/syscall.h: add syscall_get_arch <Will Drewry> 2 years, 7 months ago
+c27ffc2 : seccomp: kill the seccomp_t typedef <Will Drewry> 2 years, 8 months ago
+c2c0540 : net/compat.c,linux/filter.h: share compat_sock_fprog <Will Drewry> 2 years, 7 months ago
+00aa17a : sk_run_filter: add BPF_S_ANC_SECCOMP_LD_W <Will Drewry> 2 years, 6 months ago
+cf917b23 : Fix execve behavior apparmor for PR_{GET,SET}_NO_NEW_PRIVS <John Johansen> 2 years, 8 months ago
+3531412 : Add PR_{GET,SET}_NO_NEW_PRIVS to prevent execve from granting privs <Andy Lutomirski> 2 years, 8 months ago
+765cd75 : mm: fix prctl_set_vma_anon_name <Colin Cross> 6 weeks ago
+43ad81b : usb: msm_otg: allow peripheral mode switch in more host states <ChandanaKishori Chiluveru> 9 weeks ago
+2cb731e : ext4: Add support for FIDTRIM, a best-effort ioctl for deep discard trim <JP Abgrall> 6 weeks ago
+174c223 : usb: gadget: f_audio_source: Fixed USB Audio Class Interface Descriptor <Anson Jacob> 9 weeks ago
+0ba5af0 : d2: bcmdhd: filter multicast in suspend <Drew Davis> 26 hours ago
+ 
+**** https://github.com/jimsth/vanir_tuna ****
+216390f : version 1.1.2 <Dan Trifan> 17 hours ago
+b01d51e : cpufreq: interactive: remove unused define. <franciscofranco> 11 days ago
+acebdf9 : input: goodbye external vars <franciscofranco> 12 days ago
+6221c7e : sioplus iosched: tweaks based on extensive testing by pkgnex <Boy Petersen> 13 days ago
+7788709 : sioplus iosched: tweaks (adjusting the iosched to recent changes) <Boy Petersen> 4 weeks ago
+d563ef1 : sioplus iosched: update description text <Boy Petersen> 3 weeks ago
+2a666f3 : sioplus iosched: fix wrong batch counting logic <Boy Petersen> 4 weeks ago
+3827b19 : sioplus iosched: change write starvation logic to a sane one <Boy Petersen> 4 weeks ago
+77ac8af : sioplus iosched: change fifo batching logic to a sane one <Boy Petersen> 4 weeks ago
+bd46ba5 : sioplus: relax sync_read_expire, tighten sync_write_expire <Boy Petersen> 8 weeks ago
+7c2e653 : Revert "omap2: overclock ram." <Dan Trifan> 3 days ago
+ca17a0f : tuna: bluetooth: deassert BT_REG and BT_NRST during boot <Dheeraj CVR> 6 days ago
+631d307 : clean up FORCE_SILICON handling <Hashcode> 1 year, 4 months ago
+60cbebd : Add FORCE_SILICON_PERFORMANCE by Hashcode <Ziyann> 2 months ago
+faed2d9 : Select OMAP_RAM_CONSOLE for tuna <Ziyann> 3 months ago
+54e3a64 : defconfig: updates <Dan Trifan> 8 days ago
+ca07545 : fs: dyn_sync_cntrl.c: update after the reorder operations during sys_sync <Dan Trifan> 8 days ago
+d64530f : Move some REQ flags to the common bio/request area <Matthew Wilcox> 3 years, 1 month ago
+9a4e8a5 : cgroup: fix RCU accesses to task->cgroups <Boy Petersen> 7 weeks ago
+a9f070bd : sched/nohz: Fix rq->cpu_load calculations some more <Boy Petersen> 7 weeks ago
+06f0d24 : sched/nohz: Fix rq->cpu_load[] calculations <Boy Petersen> 7 weeks ago
+3c45f57 : sched/rt: Avoid updating RT entry timeout twice within one tick period <Boy Petersen> 7 weeks ago
+2e4c0c5 : mm: slub: Default slub_max_order to 0 <Mel Gorman> 3 years, 4 months ago
+81debd0 : vfs: Create function for iterating over block devices <Jan Kara> 2 years, 3 months ago
+b045ac6 : vfs: Avoid unnecessary WB_SYNC_NONE writeback during sys_sync and reorder sync passes <Jan Kara> 2 years, 3 months ago
+17fffaf : vfs: Remove unnecessary flushing of block devices <Jan Kara> 2 years, 3 months ago
+7ddf692 : vfs: Make sys_sync writeout also block device inodes <Jan Kara> 2 years, 3 months ago
+a9f671d : vfs: Reorder operations during sys_sync <Jan Kara> 2 years, 3 months ago
+a978daf : fs: push i_mutex and filemap_write_and_wait down into ->fsync() handlers <Josef Bacik> 3 years, 2 months ago
+0b6e6ec : vfs: Move noop_backing_dev_info check from sync into writeback <Jan Kara> 2 years, 3 months ago
+f909539 : ARM: 7805/1: mm: change max*pfn to include the physical offset of memory <Santosh Shilimkar> 1 year, 2 months ago
+19eaffa : mm: vmscan: clear kswapd's special reclaim powers before exiting <Johannes Weiner> 4 months ago
+f056757 : ARM: mm: Flush only CPU local cache instead of all cache levels. <Santosh Shilimkar> 2 years, 5 months ago
+3277806 : video: omap2: displays: disable Content Adaptive Brightness by default to workaround known reboot at screen-off issue on first boot Lockscreen when disabled by tweaking apps <osm0sis> 4 months ago
+0480ba7 : mm,vmscan: only evict file pages when we have plenty <Rik van Riel> 1 year, 9 months ago
+37ca818 : mm: memcg: only evict file pages when we have plenty <Johannes Weiner> 1 year, 7 months ago
+2e5794d : ARM: mm: Avoid the use of r8 register in cache flush all/level apis. <R Sricharan> 1 year, 11 months ago
+3b11f10 : ARM: mm: Optimise the v7 Dcache flush all routine. <Marquette Anderson> 2 years, 10 months ago
+c990966 : ARM: mm: Add v7_flush_dcache_by_level() API. <R Sricharan> 2 years, 5 months ago
+2a40b82 : ARM: 6995/2: mm: remove unnecessary cache flush on v6 copypage <Heechul Yun> 3 years, 2 months ago
+1edbe89 : mm/ksm: engage deferred timer by default <Paul Reioux> 3 months ago
+eebcb4d : writeback: Fix occasional slow sync(1) <Jan Kara> 1 year, 2 months ago
+f9ad68e : init: debug: bye bye <franciscofranco> 2 weeks ago
+0051bee : OMAP: Support for Android RAM console <Huzefa Kankroliwala> 2 years, 9 months ago
+5a5c43b : OMAP4: HSOTG: Improved HSOTG USB EYE diagram <Volodymyr Riazantsev> 3 years ago
+f4bb4d9 : OMAP4+: Add ability to store reboot reason <Nishanth Menon> 2 years, 10 months ago
+98d9aed : defconfig: errata changes <Dan Trifan> 6 days ago
+8e9add1 : OMAP4: Update ARM errata options. <Kyle Repinski> 10 weeks ago
+a392d12 : OMAP4: ERRATA: ARM: Fix ARM Errata 743622 <ruchika kharwar> 2 years, 8 months ago
+bd95c87 : OMAP4: ERRATA: ARM: Fix ARM Errata 751472 <ruchika kharwar> 2 years, 8 months ago
+ 
+**** https://github.com/omnirom/android_kernel_sony_msm8930 ****
+ca02ccc : net: guard tcp_set_keepalive() to tcp sockets <Eric Dumazet> 2 years ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+c2edb74 : WLAN subsystem: Sysctl support for key TCP/IP parameters <Ravi Joshi> 1 year, 2 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974pro ****
+03870a7 : WLAN subsystem: Sysctl support for key TCP/IP parameters <Ravi Joshi> 1 year, 2 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+719d97b : Switch to cm's kernel <nuclearmistake> 8 hours ago
+e5bc64c : klte: add usc and track cm's. Other than common, we only have 1 change to these, and it ought to be centralizable. <nuclearmistake> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+9e8901c : 6-bar signal icon sytle [2/2] <Alex Cruz> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/vendor_motorola ****
+1b833bd : moto_msm8960_jbbl: Conform to extract-files.sh script <nadlabak> 23 hours ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_oppo ****
+c1e96cd : msm8974: Update blobs <Steve Kondik> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+c4e38fa : Enable incall recording <DHOMD> 5 weeks ago
+1f53c3d : klimtwifi - G Pro 12.2 <DHOMD> 5 days ago
+66435b0 : Fix huashan: 1280x720 animation <nuclearmistake> 8 hours ago
+113b4b0 : hlteusc: copypasta <nuclearmistake> 9 hours ago
+2bbe631 : Add klteusc <nuclearmistake> 9 hours ago
+fe82987 : add Carrefour Belgium APN <Merudo> 7 days ago
+7722c76 : added Lycamobile, Aero2, and T-Mobile Poland APNs <Merudo> 25 hours ago
+72c5899 : add Virgin Mobile USA apn <Merudo> 6 days ago
+30b01ac : added Boost, Credo & Ting APNs <Merudo> 7 days ago
+ffab257 : added Bmobile Trinidad APN <Merudo> 3 days ago
+9f171a7 : added DJUICE mms APN <Merudo> 3 days ago
+273d79e : add tuBiedronka APNs <Merudo> 6 days ago
+ 
