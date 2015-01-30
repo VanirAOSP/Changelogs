@@ -1,0 +1,172 @@
+
+**** https://github.com/VanirAOSP/bootable_recovery ****
+1fc30d3 : recovery: fix another misspelling of "file_blocks" as "block_size" <Michael Livshin> 11 days ago
+ 
+**** git://git.samba.org/ccache.git ****
+55cfbf2 : Link with -lws2_32 on Windows <Joel Rosdahl> 7 hours ago
+50ede96 : Various fixes in WIN32-specific code <Joel Rosdahl> 7 hours ago
+67ed285 : fix stdout, stderr if compiler failed <leanid> 8 weeks ago
+1f18f0f : fix all jrosdahl commentes on previous patch, and test on windows ndk with clang, g++ <leanid> 8 weeks ago
+971a78d : fix windows build and successfully tested on windows with android NDK <leanid> 2 months ago
+d278618 : Include info on CCACHE_CPP2 in hash <Joel Rosdahl> 5 weeks ago
+16bb86c : Spelling fix <Ville Skyttä> 7 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_asus_tf700t ****
+d17efde : tf700t: set cpu mode after power management and governor settings <Jorge Ruesga> 7 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_apq8064-common ****
+4037d2a : apq8064-common: Address tap2wake SELinux denials <Ethan Chen> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/device_oppo_common ****
+7fa48cc : oppo-common: Make all checkbox's switches. <Adnan Begovic> 10 hours ago
+e140e64 : keyhandler: Fire camera intent on camera gesture <Ethan Chen> 2 days ago
+26c24d0 : oppo-common: Don't attempt to parse a null from FileUtils <Ethan Chen> 7 hours ago
+ef99202 : keyhandler: Add missing copyright header <Michael Bestas> 2 days ago
+85c6875 : keyhandler: Fix code style <Michael Bestas> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+0837305 : add support for 4.4.4 RIL. <Shareef Ali> 9 hours ago
+d0e8eba : Override non-standart data network types. <Ricardo Cerqueira> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_fusion3-common ****
+2152f0e : fusion3: move device specific irsc_util out of common <Georg Veichtlbauer> 17 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_huashan ****
+ed9d475 : huashan: cleanup system.prop <Brinly Taylor> 4 days ago
+639bfb2 : huashan: cleanup huashan.mk(3/3) <Brinly Taylor> 22 hours ago
+dcb961b : huashan: cleanup huashan.mk(2/3) <Brinly Taylor> 22 hours ago
+203028a : huashan: cleanup huashan.mk(1/3) <Brinly Taylor> 22 hours ago
+0b5d7c0 : huashan: don't build torch package <Brinly Taylor> 23 hours ago
+53f744e : huashan: cleanup overlay <Brinly Taylor> 23 hours ago
+a737573 : huashan: cleanup audiopolicy <Brinly Taylor> 23 hours ago
+8f64986 : huashan: cleanup boardconfig.mk <Brinly Taylor> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_pollux ****
+93dbb39 : pollux: add device specific init <Georg Veichtlbauer> 16 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_pollux-common ****
+ff7ac42 : pollux-common: move device init down one level <Georg Veichtlbauer> 17 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_pollux_windy ****
+f3b4469 : windy: revive rmt_storage <Georg Veichtlbauer> 16 hours ago
+40c5011 : pollux_windy: add device specific init <Georg Veichtlbauer> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+4d44522 : Allow custom density setting <Tom Marshall> 1 year, 2 months ago
+e191527 : Add membar to recents options [1/2] <Dave Kessler> 10 days ago
+93b6356 : Recents improvements [1/2] <Dave Kessler> 9 weeks ago
+c46f74b : SystemUI : Add screen timeout tile <Danesh M> 5 days ago
+37ba0e1 : Fix bad exclude region in landscape <tingna_sung> 3 months ago
+04ebe11 : Avoid overwriting EGL14.EGL_NO_SURFACE <Sangkyu Lee> 3 months ago
+814ae6f : [ActivityManager] Fix activity always visible. <riddle_hsu> 5 weeks ago
+ce635e3 : Prevent system server dump stuck by pipe buffer full. <riddle_hsu> 6 months ago
+40e3a8b : [ActivityManager] Distinguish FG or BG receiver finished <riddle_hsu> 4 weeks ago
+08ed844 : [ActivityManager] Fix process record leakage. <riddle_hsu> 7 weeks ago
+0896b98 : [ActivityManager] Prevent application holding AMS lock <riddle_hsu> 5 weeks ago
+889c018 : [ActivityManager] Set appropriate relation of task to home <riddle_hsu> 5 weeks ago
+b7a922f : [ActivityManager] Fix adjust to wrong focused stack <riddle_hsu> 5 weeks ago
+3d1e116 : [AppOps] Fix lost op state when upgrading to L. <riddle_hsu> 9 weeks ago
+d46f12b : Avoid deadlock between ActivityManagerService and ProcessStatsService. <riddle_hsu> 3 months ago
+b98529e : [ActivityManager] Reduce report wrong anr activity <riddle_hsu> 9 weeks ago
+b135f00 : [ActivityManager] Avoid orphan ContentProviderRecord. <riddle_hsu> 3 months ago
+9ebefe1 : [ActivityManager] Fix index out of bounds when updating next pss time. <riddle_hsu> 3 months ago
+676a5b4 : [ActivityManager] Improve task order of getRunningTasks. <riddle_hsu> 3 months ago
+6e4e03e : [ActivityManager] Ensure provider external access count will be released. <riddle_hsu> 3 months ago
+63da282 : Don't enable screen until keyguard is ready <Martin Wallgren> 3 weeks ago
+afb4b1b : Correct the bitmap copy to preserve already drawn area <Digish Pandya> 4 months ago
+20e8d63 : Fix for half blank screen during App resume <Shasidhar Ganiga> 6 days ago
+f845d18 : Prevent calling GL functions with an invalid surface <Sangkyu Lee> 10 weeks ago
+a775f0f : Fast loadInverse() implementation for the common case <Romain Guy> 13 days ago
+0e4c53e : [HWUI] fix texture cache can't be removed for recycled bitmap <arthur_hung> 6 days ago
+ca271ea : SystemUI: clean up Location tile <Roman Birg> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+e0d7c63 : Fix for corruption when numFds or numInts is too large. <Michael Lentine> 3 months ago
+3250a13 : Surface: Ensure synchronisation of copyBlt <Francis Hart> 8 weeks ago
+e7e6006 : Surface: Always consume fence fd in queueBuffer <Francis Hart> 3 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_msm8974 ****
+619bdfd : Patch 3.4.12 - LIKE A BOSS! <varchild> 8 hours ago
+f1c2138 : Patch 3.4.12 - LIKE A BOSS! <varchild> 8 hours ago
+ef8b656 : Revert "dts: added GPU steps for 625Mhz and 650Mhz" <JTrefzger> 8 hours ago
+ef206a4 : Disable magnetic cover event <JTrefzger> 2 days ago
+21972af : mm: Added filesystem dynamic read-ahead (Credits to Chad Gooldman) 5 <JTrefzger> 2 days ago
+0973ce1 : mm: Added filesystem dynamic read-ahead (Credits to Chad Gooldman) 4 <JTrefzger> 2 days ago
+fe31b3e : mm: Added filesystem dynamic read-ahead (Credits to Chad Gooldman) 3 <JTrefzger> 2 days ago
+c7b2d4b : mm: Added filesystem dynamic read-ahead (Credits to Chad Gooldman) 2 <JTrefzger> 2 days ago
+dea5834 : mm: Added filesystem dynamic read-ahead (Credits to Chad Gooldman) 1 <JTrefzger> 2 days ago
+01c6dfe : Patch 3.4.11 <varchild> 28 hours ago
+6f135ae : Patch 3.4.10 <varchild> 2 days ago
+2cfecf6 : Update README.md <varchild> 2 days ago
+203865a : Update README.md <varchild> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+509e6b3 : video: mdss: Fix compilation issue <Steve Kondik> 4 days ago
+db40a34 : msm: mdss: program the correct MDP_STREAM_CTRL/TOTAL parameters <Padmanabhan Komanduru> 3 months ago
+e582b0f : msm: mdss: increase mdp core clock to match panel pixel clock <Adrian Salido-Moreno> 3 months ago
+5e7c72d : msm: mdss: Validate ROI only when partial update is enabled <Jeykumar Sankaran> 3 months ago
+009625b : msm: mdss: validate roi and pipe parameters during partial update <Ujwal Patel> 3 months ago
+8204c27 : msm: mdss: Exempt PP related ioctls from FB ioctl wait idle <Siva Yarravarapu> 3 months ago
+2df382a : msm: mdss: Disable post processing feature if partial update is enabled <Ping Li> 6 months ago
+e354cfa : msm: mdss: Create sysfs node for partial update state <Ping Li> 6 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_trlte ****
+17a8ee5 : Enable pstore/ramoops dump for kernel panics. <Tony Layher> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_apq8064 ****
+6a4527b : prima: don't panic, don't debug <Georg Veichtlbauer> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+8478fc2 : Quick Call: do not show quick call next to profile contact <Raj Yengisetty> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+b5cc4da : add SystemSettingCheckBoxPreference constant helper class <Dave Kessler> 4 weeks ago
+88ca7ba : Use SystemSettingSwitchPreference. <Danny Baumann> 3 months ago
+7adaabe : Introduce SystemSettingsCheckBoxPreference <Danny Baumann> 3 months ago
+d91fc2f : Match default setting in base bottom/right <camcory> 9 days ago
+8102d4d : Add LCD density setting <Tom Marshall> 1 year, 4 months ago
+45aaa1b : Recents improvements [2/2] <Dave Kessler> 4 weeks ago
+3acaea8 : Skip Misc/Overcounted battery stats in builds <myfluxi> 4 days ago
+c29262e : Settings: Add new gesture vector drawable. <Asher Simonds> 9 hours ago
+4862b56 : Settings : Add screen timeout <Danesh M> 5 days ago
+e195fbf : Settings: Fix off-by-one SectionIndexer in PrivacyGuard. <Adnan Begovic> 27 hours ago
+2218200 : Settings: Fix off-by-one SectionIndexer in Expanded Desktop. <Adnan Begovic> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ThemeChooser ****
+feb1890 : Update notification icon to new paint bucket <Clark Scheff> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+13d53a4 : fs_mgr: Allow ext2/3/4 to mount as ext4 <Ethan Chen> 2 days ago
+b08cf09 : android_reboot: execute recovery pre command while rw mounted <Michael Gernoth> 5 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_asus ****
+5f824c6 : Nexus 7 (tilapia) binaries for Android 5.0.2 (LRX22G) <linuxx> 18 hours ago
+ 
+**** https://github.com/DHOMD/commotio ****
+c4759d6 : Bump 77 <DHOMD> 5 hours ago
+861235c : Remove unneeded stuff,... reflect vanir <DHOMD> 5 hours ago
+fb51c38 : Hopefully fix a metric ton of taint in uploads... or missing ones <DHOMD> 8 hours ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_invensense ****
+b813d7e : Nexus 7 (tilapia) binaries for Android 5.0.2 (LRX22G) <linuxx> 18 hours ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_nvidia ****
+0eec0f1 : Tilapia: update blobs for cm12 <linuxx> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+19a8c4a : more files <drcrimzon> 32 hours ago
+352d87f : re-update blobs <drcrimzon> 32 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+be876ea : pollux_windy: revive rmt_storage <Georg Veichtlbauer> 17 hours ago
+d82eda0 : rhine-common: update venus firmware, fix youtube <Konstantin Koslowski> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+1f1ced9 : Remove duplicate Stagefright PRODUCT_PACKAGES <sudosurootdev> 11 hours ago
+1208bef : FROM CM: Remove TMobile themes permission * CM12 theme engine no longer supports this <sudosurootdev> 11 hours ago
+45a454a : FROM CM: Remove deprecated VideoEditor packages <sudosurootdev> 11 hours ago
+ed86377 : Tap & Pay - Give 'learn more' a URL <Abhisek Devkota> 2 days ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_widevine ****
+9335cf3 : Nexus 7 (tilapia) binaries for Android 5.0.2 (LRX22G) <linuxx> 18 hours ago
+ 
