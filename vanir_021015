@@ -1,0 +1,61 @@
+
+**** cm	https://github.com/CyanogenMod/android_kernel_lge_g3
+https://github.com/savoca/furnace-g3
+origin	git@github.com:VanirAOSP/kernel_lge_g3.git ****
+63cdc80 : Vanir spam <DHOMD> 16 hours ago
+fecb354 : Syntax Syntax Syntax!  Fix novo with savoca <DHOMD> 16 hours ago
+6d1180f : crypto: msm: check potential integer overflow <William Clark> 5 months ago
+628e431 : crypto: msm: Make changes to the reaper timer <Zhen Kong> 5 months ago
+8f0df73 : crypto: msm: Don't enable crypto clock in PM resume <Zhen Kong> 7 months ago
+03b8a86 : crypto: msm: change timer operation to fix timer list corruption <Zhen Kong> 7 months ago
+242329f : crypto: msm: Remove bw_reaper_timer while in suspend mode <William Clark> 8 months ago
+eb0c774 : crypto: msm: add suspend/resume callback for qcedev driver <William Clark> 8 months ago
+f65f78d : crypto: msm: Add support for FIPS complience <Dinesh K Garg> 7 months ago
+63bc06c : crypto: msm: Fix SHA-1/256 zero length input data issue <AnilKumar Chimata> 8 months ago
+1d0c531 : crypto: msm: re-work qcrypto driver clk and bus management <Zhen Kong> 10 months ago
+73f6de7 : crypto: msm: add dynamic engine assignment support <Zhen Kong> 10 months ago
+b6ca27b : crypto: msm: fix memory leak during algorithm registration <Zhen Kong> 12 months ago
+7051d5b : crypto: msm: Add support for multiple qcrypto devices <Zhen Kong> 12 months ago
+96c265f : crypto: msm: fix Off-by-one error in computation of length for strlcpy() <Zhen Kong> 11 months ago
+e937ea4 : crypto: msm: enable rfc4309(ccm(aes)) algorithm <Niranjana Vishwanathapura> 12 months ago
+ec530b2 : fuse: hotfix truncate_pagecache() issue <Maxim Patlasov> 1 year, 5 months ago
+3d66ac1 : fuse: readdir: check for slash in names <Miklos Szeredi> 1 year, 5 months ago
+d007db0 : fuse: invalidate inode attributes on xattr modification <Anand Avati> 1 year, 6 months ago
+577729e : fuse: postpone end_page_writeback() in fuse_writepage_locked() <Maxim Patlasov> 1 year, 6 months ago
+f01b79f : fuse: don't WARN when nlink is zero <Miklos Szeredi> 2 years ago
+6eca899 : fuse: fix retrieve length <Miklos Szeredi> 2 years, 5 months ago
+933a460 : fuse: verify all ioctl retry iov elements <Zach Brown> 2 years, 7 months ago
+c87afab6 : fuse: fix stat call on 32 bit platforms <Pavel Shilovsky> 2 years, 9 months ago
+74ee7cd : fat: fix possible overflow for fat_clusters <OGAWA Hirofumi> 1 year, 9 months ago
+581129f : selinux: fix inode security list corruption <Stephen Smalley> 4 months ago
+d0220f5 : selinux: correctly label /proc inodes in use before the policy is loaded <Paul Moore> 11 months ago
+9eb8ffa : SELinux: bigendian problems with filename trans rules <Eric Paris> 12 months ago
+132e63c : selinux: process labeled IPsec TCP SYN-ACK packets properly in selinux_ip_postroute() <Paul Moore> 1 year, 2 months ago
+3273e55 : selinux: look for IPsec labels on both inbound and outbound packets <Paul Moore> 1 year, 2 months ago
+9093a27 : selinux: selinux_setprocattr()->ptrace_parent() needs rcu_read_lock() <Oleg Nesterov> 1 year, 2 months ago
+6fd20ca : selinux: fix broken peer recv check <Chad Hanson> 1 year, 2 months ago
+c496c12 : selinux: handle TCP SYN-ACK packets correctly in selinux_ip_postroute() <Paul Moore> 1 year, 2 months ago
+19e6444 : selinux: handle TCP SYN-ACK packets correctly in selinux_ip_output() <Paul Moore> 1 year, 2 months ago
+38bd2bf : selinux: correct locking in selinux_netlbl_socket_connect) <Paul Moore> 1 year, 5 months ago
+beb3c06 : selinux: use GFP_ATOMIC under spin_lock <Dan Carpenter> 1 year, 11 months ago
+e262cfd : selinux: fix sel_netnode_insert() suspicious rcu dereference <Dave Jones> 2 years, 3 months ago
+dfc51e6 : posix_types.h: Cleanup stale __NFDBITS and related definitions <Josh Boyer> 2 years, 7 months ago
+7be06ca : SELinux: if sel_make_bools errors don't leave inconsistent state <Eric Paris> 2 years, 10 months ago
+4dedca2 : ipv4: try to cache dst_entries which would cause a redirect <Hannes Frederic Sowa> 3 weeks ago
+9c855a9 : firmware: Update synaptics touch firmware <savoca> 7 days ago
+275f639 : ext4: bail out from make_indexed_dir() on first error <Jan Kara> 3 months ago
+2d34652 : ext4: fix oops when loading block bitmap failed <Jan Kara> 3 months ago
+4f643a6 : ext4: fix overflow when updating superblock backups after resize <Jan Kara> 3 months ago
+9fb9e8b : ext4: fix reservation overflow in ext4_da_write_begin <Eric Sandeen> 4 months ago
+26140f1 : ext4: add ext4_iget_normal() which is to be used for dir tree lookups <Theodore Ts'o> 4 months ago
+60dbc66 : ext4: don't orphan or truncate the boot loader inode <Theodore Ts'o> 4 months ago
+d9068bb : ext4: don't check quota format when there are no quota files <Jan Kara> 5 months ago
+8de357b : ext4: check EA value offset when loading <Darrick J. Wong> 5 months ago
+3a0dfc5 : lge_touch_core: add show_lpwg_notify to show low power wake gesture status <Dan Pasanen> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+56905e7 : Use our G3 kernel <DHOMD> 16 hours ago
+ 
+**** https://github.com/DHOMD/commotio ****
+b1d8ab7 : Cleanup <DHOMD> 15 hours ago
+ 

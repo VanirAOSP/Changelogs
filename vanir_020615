@@ -1,0 +1,144 @@
+
+**** https://github.com/VanirAOSP/bionic ****
+7825b05 : 2/2: Allow loading of properties from vendor/overlay/local.prop <Snuzzo> 13 days ago
+ 
+**** https://github.com/VanirAOSP/bootable_recovery_TWRP ****
+0a3a98f : Unify scrollable list code <Ethan Yonker> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/build ****
+9f0557a : VanirBuildLogger: alter handling of errored builds to ensure exit code is accurate <nuclearmistake> 16 hours ago
+ed55920 : VanirBuildLogger: use the PRODUCT_NAME set by lunch, before it's overriden by property overrides <nuclearmistake> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_asus_flo ****
+45afcde : flo: Use 44/48KHz sampling rate for A2DP <fuzz> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_asus_grouper ****
+551a0d8 : Cleanup Obsolete LOCAL_PRELINK_MODULE. <Ying Wang> 16 hours ago
+201e756 : Grouper: enable camera shotcurt on lockscreen <linuxx> 6 days ago
+51fdfee : fstab: Make f2fs the first try for data <dhacker29> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g3-common ****
+c7285d4 : g3-common: increase overall volume levels <AngelBob> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+b88c508 : Revert "hammerhead: Update A2DP policy" <myfluxi> 22 hours ago
+6aa5937 : hammerhead: Update mpdecision sepolicy <myfluxi> 8 weeks ago
+239e930 : hammerhead: Increase speaker and headphones volume <myfluxi> 5 days ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+a3bdbbf : data: setup PTP-interfaces with motorild <Michael Gernoth> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/device_oneplus_bacon ****
+249ed23 : bacon: Tweak backlight for low ambient lighting <Steve Kondik> 27 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+042607f : msm8974: Update init for healthd charger <Michael Bestas> 3 weeks ago
+ff02a50 : ueventd: remove "commented out" node <Evisceration> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+6c17cce : awesome kernel needs better toolchain <Ozzy2403> 10 hours ago
+ 
+**** https://github.com/VanirAOSP/external_bluetooth_bluedroid ****
+0f576b5 : Fix uninitialized error, when using 4.9-linaro for some reason. <sudosurootdev> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_external_ffmpeg ****
+ed22941 : Add configuration for silvermont CPU based on Atom. <Howard M. Harte> 7 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+f70d46f : Remove some temp fix strings <DHOMD> 7 hours ago
+0ebc286 : Don't broadcast before boot is completed. <Danny Baumann> 4 days ago
+946e1a9 : AlarmManager: Reschedule the date changed event if time changed. <yingying> 3 weeks ago
+e011056 : input: Add option to toggle pointer icon when using stylus(2/3) <Steve Kondik> 3 days ago
+a640ce8 : Stylus gestures features (1/2) <Steve Kondik> 4 days ago
+acf9ee8 : SystemUI : Improve nav ring swipe behavior <Danesh M> 10 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+fbceb9f : input: Add option to toggle pointer icon when using stylus(3/3) <Steve Kondik> 4 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+7fea5be : Broadcast icc card state as NOT_READY if card is not initialized <Preeti Ahuja> 7 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8960 ****
+ae436e9 : ipv4: try to cache dst_entries which would cause a redirect <Hannes Frederic Sowa> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/kernel_lge_msm8974 ****
+2843c79 : Update Makefile: ICE Errors without gcc-4.9 default gcc on local machine, so I'll keep all the flags, but remove for Vanir builds. <sudosurootdev> 30 hours ago
+1970db7 : Sound: Sound Control: Bring inline with @neobuddy89 <Zachariah> 6 weeks ago
+687ae77 : Sound: Sound Control: Bring inline with @neobuddy89 <Zachariah> 6 weeks ago
+403b138 : Revert "Sound Control 3.6: Reworked and now inline with @Dorimanx" <Zachariah Kennedy> 2 days ago
+0559791 : Fix Makefile: ccache already used from build <sudosurootdev> 2 days ago
+86a18df : Update <sudosurootdev> 2 days ago
+1400570 : Defconfig: Update for R8 <Zachariah Kennedy> 2 days ago
+6be62b6 : cpufreq: Bacon and IntelliActive: Remote Sched/rt <Zachariah Kennedy> 2 days ago
+dc40d35 : build: Fix some warnings with GCC 4.9 <Pranav Vashi> 8 months ago
+41de3e0 : intelliactive: remove common function <Zachariah Kennedy> 2 days ago
+7ea8813 : cpufreq: intelliactive: Use new sampling time <Pranav Vashi> 9 months ago
+3970bdb : cpufreq: intelliactive: Optimize sync frequency <Pranav Vashi> 9 months ago
+2f706e8 : cpufreq: Tune intelliactive governor <Pranav Vashi> 10 months ago
+8b91800 : intelliactive: make touch boost interface generic <Paul Reioux> 10 months ago
+bb5847e : intelliactive: add upstream patches <Paul Reioux> 11 months ago
+bd5ac21 : intelliactive: fix race condition when unregistering input handlers <Paul Reioux> 12 months ago
+72a5f8c : drivers: cpufreq: Tune intelliactive and interactive <Pranav Vashi> 12 months ago
+0eef480 : cpufreq: intelliactive: initial coding and introduction! <Paul Reioux> 1 year, 1 month ago
+100a716 : cpufreq: bacon: Make window alignment optional <Junjie Wu> 5 months ago
+c7b71f8 : cpufreq: bacon: Add max_freq_hysteresis feature <Junjie Wu> 5 months ago
+4a7afcd : cpufreq: bacon: Clean up custom values <Pranav Vashi> 3 months ago
+2e46bd1 : cpufreq: Add "bacon" governor <Pranav Vashi> 5 months ago
+d526fb1 : msm: kgsl: Elevate the priority of the thread during adreno start <Jordan Crouse> 9 weeks ago
+be9237d : msm: kgsl: Continue if an IB couldn't be dumped in snapshot <Lynus Vaz> 4 months ago
+4f8111f : msm: watchdog-v2: Trace IRQ when watchdog bites <Pranav Vashi> 12 months ago
+aaf8e86 : CPUFREQ: Interactive: fix devision by zero in round_to_nw_start <Dorimanx> 9 days ago
+e5fa60c : cpufreq: interactive: Record hispeed_validated_time in timer function <Junjie Wu> 2 months ago
+8bf2371 : cpufreq: interactive: Exercise hispeed settings at a policy level <Saravana Kannan> 4 months ago
+299456f : cpufreq: interactive: Make window alignment optional <Junjie Wu> 5 months ago
+5272b5b : cpufreq: interactive: Add max_freq_hysteresis feature <Junjie Wu> 5 months ago
+24bd8c0 : cpufreq: interactive: Use del_timer/add_timer_on to rearm timers <Junjie Wu> 6 months ago
+2e30f53 : cpufreq: interactive: Reset last evaluated jiffy in idle callback <Junjie Wu> 6 months ago
+bb0a27f : cpufreq: interactive: Reset <Zachariah Kennedy> 3 days ago
+3023157 : cpufreq: Add smartmax governor <Pranav Vashi> 2 weeks ago
+5f5b968 : mm: core: Disable CRC Signed-off-by: Zachariah Kennedy <zkennedy87@gmail.com> <Zachariah Kennedy> 3 days ago
+adb6546 : Makefile: Optimize and add in Graphite Flags (TESTING) <Zachariah Kennedy> 3 days ago
+f22fb3d : Sound Control 3.6: Reworked and now inline with @Dorimanx <Paul E. McKenney> 1 year, 6 months ago
+84dbca6 : fs/Kconfig: fix warning related to AYSNC_FSYNC patch <Paul Reioux> 1 year, 1 month ago
+d3e5869 : Asynchronous Fsync: initial extraction of Async Fsync from HTC <Paul Reioux> 1 year, 2 months ago
+d14b279 : arm:msm8974: Increase bark/pet time <Chet Kener> 4 months ago
+45e18929 : arm: vfpmodule: Fix warning procfs vfp_bounce reporting failed <myfluxi> 1 year ago
+eb2bb13 : ARM: be strict about FP exceptions in kernel mode <Pranav Vashi> 1 year, 1 month ago
+844ad7b : ARM: move VFP init to an earlier boot stage <Pranav Vashi> 1 year, 1 month ago
+ec29047 : CHROMIUM: mm: Fix calculation of dirtyable memory <Puneet Kumar> 2 years, 3 months ago
+cadd5d3 : rwsem: Implement writer lock-stealing for better scalability <Alex Shi> 2 years ago
+ed317c9 : ARM: 7835/2: fix modular build of xor_blocks() with NEON enabled <Ard Biesheuvel> 1 year, 5 months ago
+c3aca4d : ARM: crypto: add NEON accelerated XOR implementation <Ard Biesheuvel> 1 year, 9 months ago
+cdc5e14 : writeback: increase bdi_min_ratio to 5 in light of the latest writeback commit. <Francisco Franco> 1 year, 8 months ago
+b40217b : writeback: fix writeback cache thrashing <Namjae Jeon> 2 years, 1 month ago
+58b47bd : ARM: mm: update __v7_setup() to the new LoUIS cache maintenance API <Santosh Shilimkar> 1 year, 1 month ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+efed1ce : drivers: lm3630: Dejank the backlight <Steve Kondik> 27 hours ago
+6c24d65 : msm: mdss: spin lock is necessary when reset rdptr_enabled <Kuogee Hsieh> 9 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_hlte ****
+b582336 : ASoC: msm: qdsp6v2: Add the matrix mixer call during ASM loopback <Damir Didjusto> 9 months ago
+1265dff : ASoC: msm: qdsp6v2: requeue read buffers in mmap device switch <Banajit Goswami> 6 months ago
+c6645e9 : ASoC: msm: compr: Ensure drain sequence is executed <Haynes Mathew George> 6 months ago
+71f6162 : ASoC: msm: qdsp6v2: Fix for cmd status overwrite <Haynes Mathew George> 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+2b786f4 : msm: vidc: Suppress false error messages <Deva Ramasubramanian> 1 year, 3 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+f58422e : DeskClock: Handle alarm playback when the uri is not valid <Raj Yengisetty> 10 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+243e3a8 : Settings: Performance: move cpu info refresh off of main thread <Scott Mertz> 6 days ago
+a1ac33e : settings: Fix the custom screen color controls <Steve Kondik> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+b6d4450 : 1/2: Allow loading of properties from vendor/overlay/local.prop <Snuzzo> 13 days ago
+ 
+**** https://github.com/VanirAOSP/system_media ****
+8ac901f : audio_route: Support BYTE type controls <Zhang Chunfeng> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+49996ab : awesome kernel needs apk to get configured <Ozzy2403> 7 hours ago
+ 

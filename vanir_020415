@@ -1,0 +1,282 @@
+
+**** https://github.com/VanirAOSP/bionic ****
+63e1a22 : bionic: Allow alternate factory.prop path <Tom Marshall> 4 days ago
+1c5ee3f : libc: denver: use Cortex-A15 Memchr <Jake Weinstein> 8 weeks ago
+ 
+**** https://github.com/VanirAOSP/build ****
+d4c6cc2 : Fix up j$cores after build log script <DHOMD> 4 hours ago
+ca82fe1 : VanirBuildLogger: accumulate a mysql database of system specs and build times for bacon builds preceded by clean/clobber or novo <nuclearmistake> 11 hours ago
+0d2a882 : build: Add support for Kurdish <Michael Bestas> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_asus_grouper ****
+0d4a4d7 : grouper: Support f2fs on /data and /cache <Thomas Wendt> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_asus_tilapia ****
+d47179e : Tilapia: enable volume keys preferences <linuxx> 6 days ago
+8515246 : Tilapia: support f2fs on /data and /cache <linuxx> 3 days ago
+d44a3fe : Tilapia: fix cmhw <linuxx> 6 days ago
+a149564 : Remove superfluous OpenSSL include paths. <Adam Langley> 4 days ago
+1373777 : Tilapia: enable mms support <linuxx> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+f89c587 : Add readable perms to newly added kernel modules, classes, and to brightness <sudosurootdev> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/device_moto_shamu ****
+4d0dbbd : shamu: Add DisplayColorCalibration cmhw implementation <dhacker29> 3 days ago
+9302767 : shamu: Add vibrator cmhw implementation <dhacker29> 7 months ago
+ca8ed82 : shamu: Add usb charging mode <dhacker29> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jf-common ****
+e8dc0d2 : sepolicy: address macloader and offmode charging denials <Dan Pasanen> 26 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_amami ****
+ab5bb8b : amami: Update volume key node for AOSP kernel <Chirayu Desai> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_honami ****
+fc07658 : honami: Update volume key node for AOSP kernel <Chirayu Desai> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_external_whispersystems_WhisperPush ****
+ef156fd : WhisperPush: Set untranslatable <Michael Bestas> 25 hours ago
+2ec0832 : WhisperPush: Lollipopify the problems dialog. <Adnan Begovic> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+725427a : KeyButtonView: We only need one instance of the audiomanager service <Dave Kessler> 2 days ago
+d5d4a1c : VanirActions: We don't need to use the enums anymore to determind the action <Dave Kessler> 2 days ago
+f840184 : Themes: Clear bag cache when removing overlay assets <d34d> 12 hours ago
+a81a8a0 : Themes: Use mRealPackage, when available, for idmapping <d34d> 13 hours ago
+49537d1 : Themes: Handle case when keyguard is showing during theme change <Clark Scheff> 2 days ago
+39b62b4 : InputDevices: LT translations <Frant1c> 2 days ago
+982919d : Add missing resource <nuclearmistake> 17 hours ago
+66e480d : KeyButtonView: undo a delta <nuclearmistake> 17 hours ago
+b57efee : SystemUI : Navbar ring targets <Danesh M> 7 days ago
+edc541a : frameworks: implement system-wide Torch service <Roman Birg> 7 months ago
+20576fe : Remove pointless notification drawer network info label in MSIM mode. <Danny Baumann> 2 days ago
+e47c6b7 : Revert "SystemUI: Add task manager" <Michael Bestas> 3 days ago
+981f317 : Themes: Let garbage collector free up native instances <Clark Scheff> 7 days ago
+43eee89 : SystemUI: fix unpinning locked apps <Altaf-Mahdi> 3 days ago
+6b6de1d : SystemUI: code clean up and reformat <Shaleen Jain> 9 days ago
+287cd61 : Keyguard: Move CAF string <Michael Bestas> 2 days ago
+d821761 : core: Add support for Kurdish <Michael Bestas> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+8ad11a4 : surfaceflinger: Reduce logging verbosity <Ethan Chen> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_net_ims ****
+9612e33 : IMS : UT Service Capability <Basudev Achary Konderpu> 3 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_gps ****
+63769dc : loc_api: Let it be built <Chirayu Desai> 3 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media ****
+4ca6167 : mm-video-v4l2: venc: measure framerate and bitrate statistics <Maheshwar Ajja> 8 weeks ago
+c4a3f50 : mm-video: Set max encoding resolution to 720p for 8909 <Surajit Podder> 4 weeks ago
+a6a688d : mm-video: Reduce encoder input buffer count in metadata mode <Surajit Podder> 4 weeks ago
+fb44b7d : mm-video: Add support for HEVC profile/level query <Surajit Podder> 4 weeks ago
+1b375c8 : mm-video-v4l2: vidc: vdec: Create new dump file for different resolution <Manikanta Sivapala> 5 weeks ago
+008e7bf : mm-video-v4l2: vidc: vdec: Update stride and scanlines <Praneeth Paladugu> 3 months ago
+83a6ad0 : mm-video-v4l2: vidc: move codec_config buffer counter increment <Pushkaraj Patil> 6 weeks ago
+7e85955 : mm-video-v4l2: vidc: move pending flush sem release in async thread <Deepak Kushwah> 8 weeks ago
+7b68d88 : vidc: venc: Change #define values for h264 main and high profiles <Pushkaraj Patil> 7 weeks ago
+64ad772 : mm-video: Changes to do unmap of the inputs buffers during recording. <Manikanta Sivapala> 7 weeks ago
+1611dcd : mm-video-v4l2: vidc: set client buffer size for output to driver <Arun Menon> 5 months ago
+1f5fc2d : mm-video: Update resolution on port disable during port reconfig <Surajit Podder> 9 weeks ago
+23610fc : mm-video: Compile SW MPEG4 encoder conditionally <Surajit Podder> 9 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_asus_grouper ****
+100eed4 : cyanogenmod_grouper_defconfig: enable f2fs <Thomas Wendt> 2 days ago
+d01b8c0 : f2fs: support for kernel 3.1 <Thomas Wendt> 2 days ago
+0232294 : fs: Add f2fs from Jaegeuk's linux-3.4 branch <Thomas Wendt> 2 days ago
+de0835b : CIFS: remove local xattr definitions <Mimi Zohar> 3 years, 6 months ago
+bd170f0 : xfs: introduce a generic shutdown ioctl <Jaegeuk Kim> 4 weeks ago
+b6fce19 : llist: Add back llist_add_batch() and llist_del_first() prototypes <Stephen Rothwell> 3 years, 4 months ago
+237c74e : llist: Remove cpu_relax() usage in cmpxchg loops <Peter Zijlstra> 3 years, 5 months ago
+43f7349 : llist: Add llist_next() <Peter Zijlstra> 3 years, 5 months ago
+d57e280 : irq_work: Use llist in the struct irq_work logic <Huang Ying> 3 years, 5 months ago
+dc03aee : llist: Return whether list is empty before adding in llist_add() <Huang Ying> 3 years, 5 months ago
+b970288 : llist: Move cpu_relax() to after the cmpxchg() <Huang Ying> 3 years, 5 months ago
+b5d39db : llist: Remove the platform-dependent NMI checks <Ingo Molnar> 3 years, 4 months ago
+7363018 : llist: Make some llist functions inline <Huang Ying> 3 years, 5 months ago
+13d2c91 : security: new security_inode_init_security API adds function callback <Mimi Zohar> 3 years, 8 months ago
+6f79011 : bitops: rename for_each_set_bit_cont() in favor of analogous list.h function <Akinobu Mita> 2 years, 10 months ago
+11c4998 : perf, x86: Implement event scheduler helper functions <Robert Richter> 3 years, 3 months ago
+edc98d1 : perf tools: Use for_each_set_bit() to iterate over feature flags <Robert Richter> 3 years, 2 months ago
+c2b8766 : vfs: new helper - d_make_root() <Al Viro> 3 years, 1 month ago
+1c0e9c4 : vfs: check i_nlink limits in vfs_{mkdir,rename_dir,link} <Al Viro> 3 years ago
+6bee0ef : filesystems: add set_nlink() <Miklos Szeredi> 3 years, 3 months ago
+7656212 : sysfs: count subdirectories <Mikulas Patocka> 3 years, 7 months ago
+60bc4cb : filesystems: add missing nlink wrappers <Miklos Szeredi> 3 years, 3 months ago
+d0b01e5 : ocfs2: remove unnecessary nlink setting <Miklos Szeredi> 3 years, 3 months ago
+fc888d0 : hypfs: remove unnecessary nlink setting <Miklos Szeredi> 3 years, 3 months ago
+01a8a0e : vfs: mnt_drop_write_file() <Al Viro> 3 years, 2 months ago
+a139eba : switch a bunch of places to mnt_want_write_file() <Al Viro> 3 years, 2 months ago
+1a9ace2 : vfs: make do_kern_mount() static <Al Viro> 3 years, 2 months ago
+a2d5b67 : vfs: add generic_file_llseek_size <Andi Kleen> 3 years, 5 months ago
+39c4e34 : vfs: do (nearly) lockless generic_file_llseek <Andi Kleen> 3 years, 5 months ago
+945aece : vfs: export symbol d_find_any_alias() <Sage Weil> 3 years, 1 month ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_msm8974 ****
+45d80f7 : Patch 3.4.24 <varchild> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_lge_g3 ****
+275f639 : ext4: bail out from make_indexed_dir() on first error <Jan Kara> 3 months ago
+2d34652 : ext4: fix oops when loading block bitmap failed <Jan Kara> 3 months ago
+4f643a6 : ext4: fix overflow when updating superblock backups after resize <Jan Kara> 3 months ago
+9fb9e8b : ext4: fix reservation overflow in ext4_da_write_begin <Eric Sandeen> 4 months ago
+26140f1 : ext4: add ext4_iget_normal() which is to be used for dir tree lookups <Theodore Ts'o> 4 months ago
+60dbc66 : ext4: don't orphan or truncate the boot loader inode <Theodore Ts'o> 4 months ago
+d9068bb : ext4: don't check quota format when there are no quota files <Jan Kara> 5 months ago
+8de357b : ext4: check EA value offset when loading <Darrick J. Wong> 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+2889531 : Linux 3.4.106 <Zefan Li> 2 days ago
+e02ae9d : drivers/net, ipv6: Select IPv6 fragment idents for virtio UFO packets <Ben Hutchings> 3 months ago
+fd873bf : Patch for 3.2.x, 3.4.x IP identifier regression <Jeffrey Knockel> 8 weeks ago
+cfa0515 : KVM: x86: Fix far-jump to non-canonical check <Nadav Amit> 3 months ago
+29adeac : x86, tls: Interpret an all-zero struct user_desc as "no segment" <Andy Lutomirski> 12 days ago
+4457498 : x86, tls, ldt: Stop checking lm in LDT_empty <Andy Lutomirski> 12 days ago
+3814999 : x86/tls: Validate TLS entries to protect espfix <Andy Lutomirski> 9 weeks ago
+ea50080 : x86, kvm: Clear paravirt_enabled on KVM guests for espfix32's benefit <Andy Lutomirski> 9 weeks ago
+66cc8f8 : mm: Remove false WARN_ON from pagecache_isize_extended() <Jan Kara> 3 months ago
+cadd269 : firewire: cdev: prevent kernel stack leaking into ioctl arguments <Stefan Richter> 3 months ago
+cd56d39 : x86/asm/traps: Disable tracing and kprobes in fixup_bad_iret and sync_regs <Andy Lutomirski> 2 months ago
+c0cb603 : x86_64, traps: Rework bad_iret <Andy Lutomirski> 2 months ago
+fbe1dd0 : x86_64, traps: Fix the espfix64 #DF fixup and rewrite it in C <Andy Lutomirski> 2 months ago
+db331d4 : x86_64, traps: Stop using IST for #SS <Andy Lutomirski> 2 months ago
+a1e400a : MIPS: oprofile: Fix backtrace on 64-bit kernel <Aaro Koskinen> 4 months ago
+a36f0b5 : of/base: Fix PowerPC address parsing hack <Benjamin Herrenschmidt> 3 months ago
+11c9fc9 : can: esd_usb2: fix memory leak on disconnect <Alexey Khoroshilov> 4 months ago
+79cbdbf : can: dev: avoid calling kfree_skb() from interrupt context <Thomas Körper> 3 months ago
+a2c749a : x86: Require exact match for 'noxsave' command line option <Dave Hansen> 3 months ago
+fdb554d : ASoC: sgtl5000: Fix SMALL_POP bit definition <Fabio Estevam> 3 months ago
+4c753f0 : rt2x00: do not align payload on modern H/W <Stanislaw Gruszka> 3 months ago
+b02eb60 : ASoC: fsi: remove unsupported PAUSE flag <Kuninori Morimoto> 3 months ago
+9aa6623 : srp-target: Retry when QP creation fails with ENOMEM <Bart Van Assche> 4 months ago
+0def102 : libceph: do not crash on large auth tickets <Ilya Dryomov> 3 months ago
+552f4ec : NFSv4: Ensure that we remove NFSv4.0 delegations when state has expired <Trond Myklebust> 4 months ago
+6aaa1e0 : nfs: Fix use of uninitialized variable in nfs_getattr() <Jan Kara> 3 months ago
+bf5dbba : audit: keep inode pinned <Miklos Szeredi> 3 months ago
+3b5d98d : scsi: only re-lock door after EH on devices that were reset <Christoph Hellwig> 3 months ago
+e3412bc : Input: alps - allow up to 2 invalid packets without resetting device <Pali Rohár> 3 months ago
+11246b6 : Input: alps - ignore potential bare packets when device is out of sync <Pali Rohár> 3 months ago
+4dc9a29 : drm/radeon: add missing crtc unlock when setting up the MC <Alex Deucher> 3 months ago
+11e4f1f : macvtap: Fix csum_start when VLAN tags are present <Herbert Xu> 3 months ago
+17ee0a1 : mac80211: fix use-after-free in defragmentation <Johannes Berg> 3 months ago
+14194d6 : block: Fix computation of merged request priority <Jan Kara> 3 months ago
+0ec7236 : mac80211: properly flush delayed scan work on interface removal <Johannes Berg> 4 months ago
+fbbe552 : ahci: Add Device IDs for Intel Sunrise Point PCH <James Ralston> 4 months ago
+c0f73f5 : dm raid: ensure superblock's size matches device's logical block size <Heinz Mauelshagen> 4 months ago
+792a118 : xtensa: re-wire umount syscall to sys_oldumount <Max Filippov> 4 months ago
+0e7638d : dm bufio: change __GFP_IO to __GFP_FS in shrinker callbacks <Mikulas Patocka> 4 months ago
+d7b1b1d : sysfs: driver core: Fix glue dir race condition by gdp_mutex <Yijing Wang> 3 months ago
+0bb9566 : tty/vt: don't set font mappings on vc not supporting this <Imre Deak> 4 months ago
+871518e : tty: Prevent "read/write wait queue active!" log flooding <Peter Hurley> 4 months ago
+26bc3aa : tty: Fix high cpu load if tty is unreleaseable <Peter Hurley> 4 months ago
+741946c : serial: Fix divide-by-zero fault in uart_get_divisor() <Peter Hurley> 4 months ago
+c85f704 : USB: cdc-acm: only raise DTR on transitions from B0 <Johan Hovold> 3 months ago
+adea30f : staging:iio:ade7758: Fix check if channels are enabled in prenable <Lars-Peter Clausen> 3 months ago
+7ef2f8d : ALSA: usb-audio: Fix device_del() sysfs warnings at disconnect <Takashi Iwai> 3 months ago
+547f9e8 : Btrfs: fix kfree on list_head in btrfs_lookup_csums_range error cleanup <Chris Mason> 3 months ago
+0350de0 : of: Fix overflow bug in string property parsing functions <Grant Likely> 3 months ago
+c9db054 : xhci: no switching back on non-ULT Haswell <Oliver Neukum> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_jf ****
+2889531 : Linux 3.4.106 <Zefan Li> 2 days ago
+e02ae9d : drivers/net, ipv6: Select IPv6 fragment idents for virtio UFO packets <Ben Hutchings> 3 months ago
+fd873bf : Patch for 3.2.x, 3.4.x IP identifier regression <Jeffrey Knockel> 8 weeks ago
+cfa0515 : KVM: x86: Fix far-jump to non-canonical check <Nadav Amit> 3 months ago
+29adeac : x86, tls: Interpret an all-zero struct user_desc as "no segment" <Andy Lutomirski> 12 days ago
+4457498 : x86, tls, ldt: Stop checking lm in LDT_empty <Andy Lutomirski> 12 days ago
+3814999 : x86/tls: Validate TLS entries to protect espfix <Andy Lutomirski> 9 weeks ago
+ea50080 : x86, kvm: Clear paravirt_enabled on KVM guests for espfix32's benefit <Andy Lutomirski> 9 weeks ago
+66cc8f8 : mm: Remove false WARN_ON from pagecache_isize_extended() <Jan Kara> 3 months ago
+cadd269 : firewire: cdev: prevent kernel stack leaking into ioctl arguments <Stefan Richter> 3 months ago
+cd56d39 : x86/asm/traps: Disable tracing and kprobes in fixup_bad_iret and sync_regs <Andy Lutomirski> 2 months ago
+c0cb603 : x86_64, traps: Rework bad_iret <Andy Lutomirski> 2 months ago
+fbe1dd0 : x86_64, traps: Fix the espfix64 #DF fixup and rewrite it in C <Andy Lutomirski> 2 months ago
+db331d4 : x86_64, traps: Stop using IST for #SS <Andy Lutomirski> 2 months ago
+a1e400a : MIPS: oprofile: Fix backtrace on 64-bit kernel <Aaro Koskinen> 4 months ago
+a36f0b5 : of/base: Fix PowerPC address parsing hack <Benjamin Herrenschmidt> 3 months ago
+11c9fc9 : can: esd_usb2: fix memory leak on disconnect <Alexey Khoroshilov> 4 months ago
+79cbdbf : can: dev: avoid calling kfree_skb() from interrupt context <Thomas Körper> 3 months ago
+a2c749a : x86: Require exact match for 'noxsave' command line option <Dave Hansen> 3 months ago
+fdb554d : ASoC: sgtl5000: Fix SMALL_POP bit definition <Fabio Estevam> 3 months ago
+4c753f0 : rt2x00: do not align payload on modern H/W <Stanislaw Gruszka> 3 months ago
+b02eb60 : ASoC: fsi: remove unsupported PAUSE flag <Kuninori Morimoto> 3 months ago
+9aa6623 : srp-target: Retry when QP creation fails with ENOMEM <Bart Van Assche> 4 months ago
+0def102 : libceph: do not crash on large auth tickets <Ilya Dryomov> 3 months ago
+552f4ec : NFSv4: Ensure that we remove NFSv4.0 delegations when state has expired <Trond Myklebust> 4 months ago
+6aaa1e0 : nfs: Fix use of uninitialized variable in nfs_getattr() <Jan Kara> 3 months ago
+bf5dbba : audit: keep inode pinned <Miklos Szeredi> 3 months ago
+3b5d98d : scsi: only re-lock door after EH on devices that were reset <Christoph Hellwig> 3 months ago
+e3412bc : Input: alps - allow up to 2 invalid packets without resetting device <Pali Rohár> 3 months ago
+11246b6 : Input: alps - ignore potential bare packets when device is out of sync <Pali Rohár> 3 months ago
+4dc9a29 : drm/radeon: add missing crtc unlock when setting up the MC <Alex Deucher> 3 months ago
+11e4f1f : macvtap: Fix csum_start when VLAN tags are present <Herbert Xu> 3 months ago
+17ee0a1 : mac80211: fix use-after-free in defragmentation <Johannes Berg> 3 months ago
+14194d6 : block: Fix computation of merged request priority <Jan Kara> 3 months ago
+0ec7236 : mac80211: properly flush delayed scan work on interface removal <Johannes Berg> 4 months ago
+fbbe552 : ahci: Add Device IDs for Intel Sunrise Point PCH <James Ralston> 4 months ago
+c0f73f5 : dm raid: ensure superblock's size matches device's logical block size <Heinz Mauelshagen> 4 months ago
+792a118 : xtensa: re-wire umount syscall to sys_oldumount <Max Filippov> 4 months ago
+0e7638d : dm bufio: change __GFP_IO to __GFP_FS in shrinker callbacks <Mikulas Patocka> 4 months ago
+d7b1b1d : sysfs: driver core: Fix glue dir race condition by gdp_mutex <Yijing Wang> 3 months ago
+0bb9566 : tty/vt: don't set font mappings on vc not supporting this <Imre Deak> 4 months ago
+871518e : tty: Prevent "read/write wait queue active!" log flooding <Peter Hurley> 4 months ago
+26bc3aa : tty: Fix high cpu load if tty is unreleaseable <Peter Hurley> 4 months ago
+741946c : serial: Fix divide-by-zero fault in uart_get_divisor() <Peter Hurley> 4 months ago
+c85f704 : USB: cdc-acm: only raise DTR on transitions from B0 <Johan Hovold> 3 months ago
+adea30f : staging:iio:ade7758: Fix check if channels are enabled in prenable <Lars-Peter Clausen> 3 months ago
+7ef2f8d : ALSA: usb-audio: Fix device_del() sysfs warnings at disconnect <Takashi Iwai> 3 months ago
+547f9e8 : Btrfs: fix kfree on list_head in btrfs_lookup_csums_range error cleanup <Chris Mason> 3 months ago
+0350de0 : of: Fix overflow bug in string property parsing functions <Grant Likely> 3 months ago
+c9db054 : xhci: no switching back on non-ULT Haswell <Oliver Neukum> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_trlte ****
+da4f19b : Add wacom firmware for non tmo/att variants The non ATT/TMO variants of trlte have an issue with spen not functioning. In drivers/input/touchscreen/wacom/wacom_i2c.h it specifies the firmware name. The specified firmware for non ATT/TMO devices did not exist.  I pulled the firmware from the stock Sprint/Samsung kernel which resolves the firmware not found error when trying to init the wacom device. <Michael Wilkinson> 5 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Browser ****
+7c8c39a : Expose hardcoded colors <Konsta> 7 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Contacts ****
+9c9d002 : Contacts: Improve contact share popup <Michael Bestas> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+476db27 : ContactsCommon: Improve CAF strings <Michael Bestas> 3 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+d3d67b4 : Dialer: Improve contact share popup <Michael Bestas> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+971c20e : Mms: Fix NPE when composing with no contacts <linus_lee> 29 hours ago
+986e66e : Mms: More string improvements <Michael Bestas> 25 hours ago
+3786aa7 : Mms: implement markAsRead & markAsReadAll <Rescue9> 13 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+92fd735 : Relocate navring up to voodoo <nuclearmistake> 10 hours ago
+03f37ad : Settings: LT translations <Frant1c> 2 days ago
+cb6b88b : Add navbar settings layout for navring <nuclearmistake> 17 hours ago
+b60b9ab : Settings: Remove more unused resources <Michael Bestas> 23 hours ago
+4ca4b7d : Settings: Fix AOSP EL translations <Michael Bestas> 24 hours ago
+bce9e9a : Settings : Nav ring <Danesh M> 7 days ago
+9a0d6b0 : Settings : Add indexable panels <Danesh M> 5 days ago
+e64145d : Duplicate "Lift to wake" added in merge: https://github.com/VanirAOSP/packages_apps_Settings/commit/3ada6768f9b0ac7c8b12e27282ff370441c2385e <sudosurootdev> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_ContactsProvider ****
+5aa8d8a : Contacts: Fix CTS failure in testGroupsTable/testAddToGroup <kaiyiz> 10 months ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_ThemesProvider ****
+c3a7e1e : Reapply status bar and navbar overlays on update <Clark Scheff> 2 days ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+835ceb9 : init: Move install-recovery.sh back to the standard location <Brint E. Kriebel> 31 hours ago
+70d19d8 : fs_mgr: Skip filesystem check unless fs_type matches <Dan Pasanen> 6 days ago
+ee4a7e8 : fs_mgr: Add fs_mgr_get_entry_for_mount_point_after to header <Dan Pasanen> 6 days ago
+e34ce8b : Revert "fs_mgr: skip an fstab entry if we detect a different filesystem type" <Ethan Chen> 6 days ago
+58e1572 : Revert "fs_mgr: Allow ext2/3/4 to mount as ext4" <Ethan Chen> 6 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_asus ****
+fc756fb : deb: Use libacdbdata.so from L preview <Ethan Chen> 29 hours ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_oppo ****
+e281d64 : msm8974: Bugfix <Steve Kondik> 8 hours ago
+ 

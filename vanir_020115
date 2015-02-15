@@ -1,0 +1,132 @@
+
+**** https://github.com/VanirAOSP/build ****
+22bad2d : Remove AOSP from lunch <wSedlacek> 5 weeks ago
+a382e75 : Kill some log spam <deadman96385> 5 weeks ago
+cb397d9 : Performance improvement for whole static libs <Dan Albert> 8 months ago
+ 
+**** https://github.com/VanirAOSP/device_htc_dlx ****
+8e3078d : dlx: Fix hispeed frequency <Steve Kondik> 31 hours ago
+3e95ca7 : dlx: sepolicy: Fix mediaserver denial <Christopher R. Palmer> 3 days ago
+79c44a7 : dlx: sepolicy: Fix denial for thermal-engine -> mpdecision <Christopher R. Palmer> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+1d5d54b : m8: Fix hispeed frequency <Steve Kondik> 32 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g3-common ****
+475e913 : g3-common: cmhw: Don't cache tap-to-wake setting <Scott Mertz> 12 days ago
+1793be4 : g3: Fix hispeed frequency <Steve Kondik> 32 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+8940595 : Revert "common.mk: fix resolution to pick correct bootanimation" <Michael Gernoth> 13 hours ago
+ 
+**** https://github.com/VanirAOSP/device_oneplus_bacon ****
+79372ae : bacon: Revert brightness level changes <Steve Kondik> 28 hours ago
+90e2ed6 : bacon: Workaround for display issue <Steve Kondik> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jf-common ****
+a867337 : init: set cpu_boost values <Dan Pasanen> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_mondrianwifi ****
+cb11060 : mondrianwifi: Work around bootanimations causing boot failures <Christopher R. Palmer> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+0705a66 : init: set cpu_boost values <Dan Pasanen> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_fusion3-common ****
+1b27315 : fusion3: label a non-symlink, remove restorecon <Georg Veichtlbauer> 30 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_shinano-common ****
+606f06d : Remove CMHW CABC control <Chirayu Desai> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_sirius ****
+9695594 : sepolicy: Use the real path for sysfs nodes instead of symlinks <Chirayu Desai> 35 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+134f9f6 : nuplayer: Fix CTS issues in NuPlayer <Steve Kondik> 26 hours ago
+9b7c146 : Wrong format used in seamless check <joakim johansson> 3 days ago
+33a4c90 : Flush the audio sink if NuPlayerRenderer is paused during a flush <Oscar Rydhé> 3 days ago
+3aad113 : RTSP: Continue setupTrack even if the other track creation fails <Santhosh Behara> 13 days ago
+97e2c88 : RTSP: Add NULL check before accessing mHandler <Santhosh Behara> 13 days ago
+e77455d : ATSParser: Don't discard TS packet if payloadstartindicator is set <Santhosh Behara> 2 weeks ago
+3450ac3 : rtsp: improvement for rtsp connection <Li Sun> 3 months ago
+78456cd : Nuplayer: Fix no image or image will be delay issue <Hui (QRD) Yu> 1 year, 1 month ago
+525c59e : nuplayer: Synchronize video and audio decoders configuration <Manikanta Kanamarlapudi> 5 weeks ago
+6efd740 : nuplayer: Fix incorrect audio resume time during seek <Xavier Varricatt> 3 weeks ago
+43e0c55 :  audio: Fix ringtone mute issue <Dhanalakshmi Siddani> 4 weeks ago
+9942a56 : libstagefright: Explicitly disconnect HTTP connection <Surajit Podder> 8 weeks ago
+9e666a5 : libmedia: Fix mismatched state <Steve Kondik> 4 days ago
+4d7023d : Revert "Fix id3 parser crash" <Steve Kondik> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+35bf2a7 : Fix SystemServer Failure from broadcast intent before boot completed Caused by KEYGUARD_SERVICE_STATE_CHANGED added in "Port lock screen toggle tile" https://github.com/VanirAOSP/frameworks_base/commit/db828323cc6d461fdf7b9ffc95a608aa17c41ee1 <sudosurootdev> 3 days ago
+f4b5268 : Add missing <string.h> includes. <Elliott Hughes> 7 days ago
+f3bc496 : Boot up optimization for phoneprocess <Sindhu Kanathur> 3 days ago
+f216ee6 : systemui: Only enable visualizer if a session is active <Steve Kondik> 2 days ago
+65ff6fb : SystemUI/Keyguard: Improve strings <Michael Bestas> 22 hours ago
+12aadbb : IMS: Definition of error code for answered elsewhere <Suresh Kumar Sugguna> 6 weeks ago
+e4598a0 : core: String improvements from cm-11.0 <Michael Bestas> 24 hours ago
+e6b5c01 : Quick Settings: Auto collapse panel (1/2) <Altaf-Mahdi> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+f1a5742 : surfaceflinger: Fix the "Fix the opaque check" <Arne Coucheron> 20 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+bf5f25a : SIMRecords: If there's no EF_SPN record, fallback to EF_PNN <Ricardo Cerqueira> 4 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_msm8974 ****
+dbe3822 : Ptach 3.4.15 <varchild> 2 days ago
+e6e3857 : Patch 3.4.14 <varchild> 3 days ago
+1bf6d43 : Patch 3.4.13 <varchild> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_lge_g3 ****
+3a0dfc5 : lge_touch_core: add show_lpwg_notify to show low power wake gesture status <Dan Pasanen> 10 days ago
+ 
+**** github	https://github.com/jimsth/vanir_hammerhead
+https://github.com/VanirAOSP/kernel_lge_hammerhead ****
+0ad106c : cpufreq: interactive: Honor boosted state in several timer calculations <myfluxi> 7 months ago
+777781e : cpufreq: interactive: Consider changed min limit a frequency boost <myfluxi> 7 months ago
+b3a8191 : cpufreq: interactive: Honor changed minimum frequency <myfluxi> 9 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_oneplus_msm8974 ****
+2329de2 : msm: mdss: reduce vsync waiting time only when it is enabled <Kuogee Hsieh> 10 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+0b934df : cpu-boost: sync with kk_3.5 <Dan Pasanen> 6 months ago
+2d457a9 : cpufreq: cpu-boost: Don't register for cpufreq notifiers too early <Saravana Kannan> 12 months ago
+bb929b3 : cpufreq: cpu-boost: Remove unused waitqueue <myfluxi> 12 months ago
+6055b30 : cpufreq: cpu-boost: Fix queue_delayed_work_on() race with hotplug <Saravana Kannan> 1 year ago
+124d1dd : cpufreq: cpu-boost: Use hotplug thread infrastructure <myfluxi> 12 months ago
+113abf8 : cpufreq: Disable cpu-boost by default <Rohit Gupta> 1 year, 2 months ago
+1b11e94 : cpufreq: Add Input Boost feature to the cpu-boost driver <Rohit Gupta> 1 year, 2 months ago
+4e25382 : cpufreq: Add a sync limit to cpu-boost <Rohit Gupta> 1 year, 2 months ago
+73705e2 : cpufreq: Add cpu-boost driver <Saravana Kannan> 1 year, 7 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+40d15ee : prima: enable buildin wireless driver <Alin Jerpelea> 3 weeks ago
+d79f7aa : prima: Upgrade to version 3.2.3.185 from rhine <Alin Jerpelea> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+f4c9b0b : Calculator: Set untranslatables <Michael Bestas> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+028e39a : InCallUI: Fix untranslatable <Michael Bestas> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+5399430 : Settings: Fix expanded desktop string <Michael Bestas> 19 hours ago
+cb4d3e2 : Profiles: remove unused code <Scott Mertz> 20 hours ago
+8f3f325 : Profiles: add triggers only for connections supported. <Shaleen Jain> 3 days ago
+c967bb9 : Settings: String consistency <kmobs> 4 days ago
+b60b8e3 : Settings: Set untranslatable <Michael Bestas> 27 hours ago
+7257358 : Quick Settings: Auto collapse panel (2/2) <Altaf-Mahdi> 5 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Terminal ****
+bb02e26 : Terminal: Fix build by pointing to the correct string <Michael Bestas> 25 hours ago
+d5b0d9b : Terminal: Convert CheckBoxPreference to SwitchPreference <Michael Bestas> 27 hours ago
+dbc907d : Terminal: Cleanup duplicate strings <Michael Bestas> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+42f46ab : Telephony: Fix string <Michael Bestas> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+229588c : Fix build, dupped files <DHOMD> 5 hours ago
+ 
