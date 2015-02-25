@@ -1,0 +1,201 @@
+
+**** https://github.com/VanirAOSP/bootable_recovery_TWRP ****
+72b90e3 : gui: fix missing icons in fileselector <that> 27 hours ago
+bf1d672 : Theme: Add ability to disable size checking before backup (for compressed backup users with low space). Clean up backup folder and copy only recovery.log for debugging. <bigbiff> 10 days ago
+ba75a0e : gui: don't truncate values to 0 after scaling <that> 10 days ago
+72b90ab : Fix reboot system on watch theme <Ethan Yonker> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/build ****
+bf8ae2a : recovery: Properly populate recovery/root on Darwin <Brian Chu> 13 days ago
+bdafaa8 : Fix Build Logger if an apostrophe rear's it's ugly head <DHOMD> 23 hours ago
+99afa20 : Revert "Revert "build: Handle custom boot images properly"" <Brint E. Kriebel> 2 days ago
+1f00c80 : releasetools: Store and use the dt image file through target files <Brint E. Kriebel> 2 days ago
+0085380 : Revert "build: Handle custom boot images properly" <Brint E. Kriebel> 4 days ago
+fb1efc4 : VanirBuildLogger: FML: some people set the max size on their ccache. wups. <nuclearmistake> 2 days ago
+ 
+**** https://github.com/AlmightyMegadeth00/device_htc_flounder ****
+3c5ff10 : flounder: add ffmpeg codecs <Simon Sickle> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7 ****
+3dcd4bd : m7: Update build.prop entries to Lollipop GPE strings <Jonathon Fitch> 35 hours ago
+c9cac44 : m7: Change product name to the correct HTC One instead of just One <Jonathon Fitch> 35 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+2ac01c6 : m8: Remove redundant flags <Jurica Vukadin> 35 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+30f4626 : Checkout files for new kernel sources <sudosurootdev> 13 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g3-common ****
+d801924 : g3: Remove redundant flags <Jurica Vukadin> 35 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_p880 ****
+ec345e0 : Good fenses make good neighbors. <DHOMD> 9 minutes ago
+93803c7 : p880: Introduce Audio Wrappers <laufersteppenwolf> 6 hours ago
+9f9a9d5 : p880: initialize migration from stock audio blobs to AudioWrappers <streambinder> 6 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_victara ****
+db24ec3 : victara: update android_filesystem_config.h (fixes su) <Christopher R. Palmer> 15 hours ago
+1ecb7fe : victara: Finish removing dolby from audio config <Christopher R. Palmer> 4 days ago
+a3678e0 : victara: Update audio policy based on bacon <Christopher R. Palmer> 8 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_oneplus_bacon ****
+f360323 : Revert "msm8974: Disable DRC mode on speaker" <Steve Kondik> 26 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+e971194 : msm8974: Fix AV sync issues (HACK) <Steve Kondik> 30 hours ago
+9647a1a : msm8974: Allow system server to control SRE <Steve Kondik> 6 days ago
+a8baefe : msm8974: Adjust cpufreq timer rate <Steve Kondik> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_qcom_sepolicy ****
+5f595f2 : msm8610: Compile sensor policy and fix typo <percy-g2> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_jf-common ****
+66ed6b4 : jf: Remove redundant flags <Jurica Vukadin> 35 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+39decdb : klte-common: Work around CDMA ring of death <Matt Filetto> 2 days ago
+db30825 : klte-common: Determine phone type for responseCallList <Matt Filetto> 2 days ago
+f64d270 : klte-common: Remove SIM power hack <Matt Filetto> 2 days ago
+e90860b : klte-common: Revert changes to sdcard/usbdisk fuse services <Matt Filetto> 2 days ago
+b73e83f : klte-common: Removed deprecated Torch config <Matt Filetto> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+e9cd003 : msm8960: Remove redundant flags <Jurica Vukadin> 35 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_trlte-common ****
+0335a67 : fix muted audio when rotated <gekkehenkie11> 24 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_blue-common ****
+dfff047 : blue: remove unused defines, fix perms from 2800 to 1023 <Daniel Hillenbrand> 5 hours ago
+1920b11 : blue: use media user/group for sdcard0 to match vold <Daniel Hillenbrand> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_nicki ****
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/external_bluetooth_bluedroid ****
+a15b69e : bluetooth: Export and re-use our fixed timer <Christopher R. Palmer> 32 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+a672c4f : stagefright: Guard against crash with mismatched codecs <Steve Kondik> 5 hours ago
+9830688 : nuplayer: Enable small buffer hint for PCM offload <Steve Kondik> 5 hours ago
+fc69368 : Roll back a few audiopolicy changes <Steve Kondik> 7 hours ago
+465372d : nuplayer: Fix incorrect audio resume time during seek <Xavier Varricatt> 6 weeks ago
+92ea4f4 : libstagefright: handle error when B-frame is sent to MPEG4Writer <xiaoqiny> 6 weeks ago
+22ea321 : libmediaplayerservice: fix deadlock in dump() <Sidipotu Ashok> 9 weeks ago
+6a9b836 : audio: Fix fast playback of Ringtone for SCO call <Ashish Jain> 4 weeks ago
+9c127eb : httplive: Support embedded images in audio-only playlist <Li Sun> 3 months ago
+2482616 : httplive: Start playback at the actual bandwidth variant <Santhosh Behara> 3 months ago
+bdd4f70 : stagefright: Increase block size for download <Manikanta Kanamarlapudi> 4 weeks ago
+aa8e89b : httplive: Do not delay fetcher when resuming <Apurupa Pattapu> 3 months ago
+bf96786 : stagefright: HLS: Remove LiveDataSource <Leena Winterrowd> 5 months ago
+55822fc : stagefright: httplive: Enable dumping of fetched segments <Leena Winterrowd> 3 months ago
+8262197 : httplive: Dont resume old fetchers if switching down <Apurupa Pattapu> 3 months ago
+dff06b9 : stagefright: HLS: Increase granularity of segment download <Leena Winterrowd> 4 months ago
+f76aacd : stagefright: httplive: Propagate error code from fetchPlaylist <Leena Winterrowd> 3 months ago
+178ca33 : stagefright: httplive: Extend fetchFile to handle buffer offsets <Leena Winterrowd> 3 months ago
+10b8f60 : httplive: Defer switch down if a switch is in progress <Apurupa Pattapu> 3 months ago
+7fe5b80 : stagefright: httplive: Fix switching for HLS live use-cases <Apurupa Pattapu> 3 months ago
+a5c3c2a : httplive: Dont resume if we have almost fetched till stop time <Apurupa Pattapu> 4 months ago
+a554246 : stagefright: httplive: Decouple block size from bandwidth estimate <Leena Winterrowd> 3 months ago
+ffa98d5 : Revert "HLSCustom: Bandwidth switching improvement in HLS" <Steve Kondik> 4 days ago
+6c59194 : httplive: Create a copy of last enqueued metadata <Apurupa Pattapu> 3 months ago
+d111aa8 : NuPlayer: Add support for getFormatMeta for HLS <Alexy Joseph> 3 weeks ago
+c3d6fd0 : libstagefright: Fix offload duration for live streaming <Alexy Joseph> 3 weeks ago
+ad85d74 : libmedia: Avoid timestamp queries for pcm offload <Alexy Joseph> 4 weeks ago
+c62c01e : audio_policy: handle in call sonification for attached outputs of duplicating output <Zhou Song> 2 weeks ago
+fe6db1c : audio_policy: handle incall sound notifications on non primary outputs <kunleiz> 3 weeks ago
+a61fbdb : nuplayer: acquire wakelock during offload pause timeout <Weiyin Jiang> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+46381c3 : Strings improvements <Michael Bestas> 68 minutes ago
+291dedf : Revert "Recents long press: add pluggable implementation" <nuclearmistake> 13 hours ago
+3f91560 : Themes: Use rounded rect for heads up notification <Clark Scheff> 23 hours ago
+0355575 : We use AOSP's setup manager, as far as I know no use for this Revert "ThemeService: Setupwizard has a new package" <DHOMD> 24 hours ago
+281df51 : ThemeService: Setupwizard has a new package <cretin45> 31 hours ago
+02eb5f3 : Recents long press: add pluggable implementation <Nextbit> 4 weeks ago
+fecbb56 : PackageManager: Add and protect configuration APIs for pre-launch checks <Nextbit> 3 weeks ago
+21af494 : Provide non-interactive APIs to BackupManagerService <Nextbit> 5 months ago
+6e06dbf : Support full size application screenshots <Nextbit> 4 weeks ago
+204f04c : Update CONTROL_KEYGUARD to protection to signature|system <Nextbit> 2 weeks ago
+f47bd3a : Update SET_ACTIVITY_WATCHER protection to signature|system <Nextbit> 5 months ago
+e85a568 : Avoid dismissing headsup notifications on swipe up <Sebastiano Poggi> 4 days ago
+6a4fafd : SystemUI: Check if a task's group is null prior to TaskGrouping#isFrontMostTask. <Adnan Begovic> 5 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+5bcb491 : SMSDispatcher: Add option for sending pseudo-multipart SMSes <Mike Kasick> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8960 ****
+87f5b92 : mnt: Prevent pivot_root from creating a loop in the mount tree <Eric W. Biederman> 5 months ago
+f767fca : msm: HTC: zara: Unbreak Bluetooth <Brinly Taylor> 4 days ago
+f276d14 : msm: HTC: zara: regen defconfig <Brinly Taylor> 4 days ago
+40f3891 : msm: HTC: zara: Cleanup defconfig <Brinly Taylor> 3 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_msm8974 ****
+cb2a81a : Patch 3.4.34 <varchild> 23 hours ago
+cb4c62b : Update zen-iosched.c <JennyLikesSka> 2 days ago
+84a53a5 : Update cpufreq_impulse.c <JennyLikesSka> 2 days ago
+f9ed091 : Kconfig and deconfig updates <varchild> 2 days ago
+116eb2f : Prima: update to version 3.2.3.418 - Done in style and with tact... LIKE A BOSS! <varchild> 4 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_lge_g3 ****
+7192ec0 : netlink: fix possible spoofing from non-root processes <Pablo Neira Ayuso> 2 years, 6 months ago
+3730698 : msm: mdss: Replace PGC implementation with PCC for KCAL <savoca> 5 days ago
+aff2bfa : msm: mdss: Add KCAL support for post processing control [v2] <savoca> 6 days ago
+8042e7c : Revert "msm: mdss: Add KCAL support for rgb/lut control" <savoca> 6 days ago
+d093368 : Revert "msm: mdss: Add kcal configuration for 'furnace' boot mode" <savoca> 6 days ago
+f66e03a : Revert "msm: mdss: Add support to enable/disable kcal via sysfs" <savoca> 6 days ago
+a8a4199 : Revert "msm: mdss: Allow access to LG's panel invert feature from kcal" <savoca> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8974 ****
+7a8da8d : msm: mdss: Add support for sending panel off commands in LP mode <Padmanabhan Komanduru> 1 year, 3 months ago
+ea08bf7 : Revert "msm: mdss: Add support for sending panel off commands in LP mode" <Christopher R. Palmer> 3 days ago
+db53f84 : victara: mdss: Fix Makefile <Christopher R. Palmer> 3 days ago
+5028c18 : msm: mdss: only assign mfd pointer in blank event <rayz> 11 months ago
+2abb266 : msm: mdss: Add support to enable esd check through dtsi entry <Shivaraj Shetty> 10 months ago
+4054bbf : victara: mdss: Undo one minor motorola change <Christopher R. Palmer> 3 days ago
+0ad8d79 : msm: mdss: enable MRPS command for short read commands <Padmanabhan Komanduru> 9 months ago
+9f59c6f : mdss: mdp: Fix check to identify if dsi short read <Terence Hampson> 10 months ago
+6f10fa0 : Revert "msm: mdss: Partially revert 1cce9a3a57f, 8 byte DSI reads" <Christopher R. Palmer> 3 days ago
+a6d76d0 : Revert "mdss: dsi: Dump DSI registers on failing to read" <Christopher R. Palmer> 3 days ago
+d450229 : Revert "msm: mdss: Allow for 2 byte long read responses" <Christopher R. Palmer> 3 days ago
+80a019c : msm: mdss: Add support for checking panel status through register read <Shivaraj Shetty> 10 months ago
+360c0fc : Revert "msm: mdss: Fix cmdlist_put when CMD_REQ_COMMIT set" <Christopher R. Palmer> 3 days ago
+49c4e1d : msm: mdss: Allow calib configure ioctl to access MDSS version register <Ping Li> 11 months ago
+b5506b9 : msm: mdss: Add error message when histogram bin collection is incorrect <Benet Clark> 11 months ago
+e5be29b : msm: mdss: Check if histogram has been disabled in collect <Benet Clark> 11 months ago
+a61e7c2 : msm: mdss: Fix locking errors in histogram disable <Benet Clark> 11 months ago
+51054cd : mdss: Start wait for hist ready state past first kickoff <Krishna Chaitanya Parimi> 11 months ago
+e6d0bfe : msm: mdss: Add missing locks in histogram collection for collect enable <Benet Clark> 11 months ago
+f16f5cb : msm: mdss: Move histogram disable complete_all after intr disable <Benet Clark> 11 months ago
+cda1ca2 : msm: mdss: Move histogram completion initialization to pp_init <Benet Clark> 11 months ago
+eb2fcd0 : msm: mdss: Fix locking error in histogram enable <Benet Clark> 11 months ago
+d986551 : msm: mdss: Fix locking errors in histogram setup <Benet Clark> 11 months ago
+87b8984 : msm: mdss: enable under-run interrupt for secondary ctl <Ujwal Patel> 1 year, 1 month ago
+2ab2cdb : msm: mdss: refactor command mode vsync control logic <Adrian Salido-Moreno> 1 year ago
+4efbce9 : msm: mdss: avoid clocks on if panel is not on for command mode <Adrian Salido-Moreno> 12 months ago
+f00a82d : msm: mdss: Fix mdp clock rate assignment when apply fudge is false <Jayant Shekhar> 1 year, 1 month ago
+1575600 : msm: mdss: MDP clock optimization for single layer video playback <Jayant Shekhar> 1 year, 1 month ago
+ffb2568 : victara: mdss: Fix moto's version of ulps idle screen <Christopher R. Palmer> 3 days ago
+f6c229c : victara: mdss: Fix mis-merge <Christopher R. Palmer> 3 days ago
+37048f1 : msm: mdss: release all overlay resources if calling process is unknown <Ujwal Patel> 1 year, 3 months ago
+004de66 : msm: mdss: release all overlay resources on last fb release <Ujwal Patel> 1 year, 3 months ago
+43b5bfb : msm: mdss: Print task name when fb_open fails <Dhaval Patel> 1 year ago
+8747286 : Revert "msm: mdss: use open2 and release2 to fix refcount" <Christopher R. Palmer> 3 days ago
+b23d29f : Revert "fbmem: add open2 and release2 which pass file argument" <Christopher R. Palmer> 3 days ago
+c0773c1 : victara: mdss: Fix mis-merge <Christopher R. Palmer> 3 days ago
+7af8317 : msm: mdss: Program linear GC LUT as default for rounding <Krishna Chaitanya Parimi> 5 months ago
+ac4c82b : msm: mdss: Extend GC programming to writeback mixers in pp <Krishna Chaitanya Parimi> 5 months ago
+7f59efb : diag: Make fixes to diag_switch_logging <Ravi Aravamudhan> 13 days ago
+46def32 : msm: mdss: fix issue in calculating decimated dimensions <Jeevan Shriram> 5 weeks ago
+34964ed : msm: mdss: fix pixel extension validation on decimation <Adrian Salido-Moreno> 4 months ago
+9edf69c : crypto: msm: qcrypto: Close window during suspending for SMP <AnilKumar Chimata> 5 weeks ago
+a6aa06b : crypto: msm: qcrypto: Update suspend resume code <AnilKumar Chimata> 7 weeks ago
+fe54dac : msm: vidc: release sync_lock before waiting on command response <Maheshwar Ajja> 3 weeks ago
+53bd7ec : msm:pproc:Freed the vpe prameters to avoid memleak <Vijaya Kumar T M> 2 weeks ago
+0b82610 : victara: mdss: Remove no_solid_fill board config <Christopher R. Palmer> 6 days ago
+ee25a22 : victara: mdss: Make mdss_mdp_get_split_ctl a common function <Christopher R. Palmer> 6 days ago
+9533ff6 : msm: mdss: fix multiple overlay release sequence <Ujwal Patel> 11 months ago
+b9c919f : msm: mdss: Acquire shared lock after getting frame on wfd <Jayant Shekhar> 10 months ago
+c89c1aa : msm: mdss: refactor pipe list management <Adrian Salido-Moreno> 11 months ago
+ 
