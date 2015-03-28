@@ -1,0 +1,234 @@
+
+**** https://github.com/VanirAOSP/art ****
+4880c1b : libsigchain: Fix OSX compilation <Brian Chu> 2 months ago
+6455e77 : art: Update QC-PERF board flag to TARGET_HAVE_QC_PERF <Steve Kondik> 5 months ago
+46cbd7a : ART: clean up compiler data <Wei Wang> 9 weeks ago
+0037738 : Dump mutator lock for thread suspend timeout <Mathieu Chartier> 6 months ago
+a047ad4 : Fix thread priorities for unstarted threads. <Narayan Kamath> 6 months ago
+ 
+**** https://github.com/VanirAOSP/bionic ****
+ffb44c9 : libc: scorpion: Use cortex-a15 stpcpy <Michael Bestas> 4 days ago
+ 
+**** https://github.com/VanirAOSP/device_asus_grouper ****
+b32792d : grouper: Update fingerprint to 5.1 <Thomas Wendt> 13 days ago
+ac9236c : grouper: update prebuilt kernel <Iliyan Malchev> 3 months ago
+f50852d : Drop sensors block device label. <Robert Craig> 1 year, 1 month ago
+9b1f64f : Remove restorecon /sys entries. <Stephen Smalley> 1 year, 2 months ago
+08b8c0e : Fix mismerge of 5.0/remove obsolete cwm flags <dhacker29> 26 hours ago
+7e2da3d : SELinux: Grant radio related app corresponding SELinux capability to logging baseband log <wayne2_chen> 5 months ago
+7cede54 : Delay GPS startup until /data mounted <Ed Tam> 7 weeks ago
+54d0af7 : grouper: limit h263 hw encoder to qcif and cif. <Ronghua Wu> 8 weeks ago
+126a6e8 : Set PRODUCT_AAPT_PREBUILT_DPI. <Ying Wang> 3 months ago
+afc22a5 : use legacy DRM playback for legacy widevine content <Lajos Molnar> 4 months ago
+41bae23 : Remove journaling from read-only FS to save space <JP Abgrall> 4 months ago
+b0fe227 : Disable journaling to save system.img space. <Ying Wang> 4 months ago
+10d4457 : Give N7 the ethernet feature. <Paul Jensen> 5 months ago
+ 
+**** https://github.com/VanirAOSP/device_moto_shamu ****
+76392d6 : Build libmm-qcamera from source <dhacker29> 24 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_victara ****
+c9677ed : Revert "victara: Add echo-reference mixer paths" <Christopher R. Palmer> 16 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+9a99778 : build: Fix the inclusion check for debug interfaces <Ricardo Cerqueira> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/external_wpa-supplicant-8 ****
+e625554 : Revert "p2p: Add p2p_no_group_iface flag to p2p conf file" <Steve Kondik> 1 year, 2 months ago
+c8ab69d : HTTP: Fix OCSP error path <Subhani Shaik> 5 weeks ago
+548164e : Ensure NULL checks are done before dereferencing pointer. <Subhani Shaik> 5 weeks ago
+23f73bc : hs20-osu-client: Ensure NULL checks are done before dereferencing <Subhani Shaik> 5 weeks ago
+478edba : nl80211: Register eloop after hs20 action frame <Eduardo Abinader> 8 weeks ago
+b40a6db : Android: Add hs20-osu-client as part of compilation <Amarnath Hullur Subramanyam> 8 weeks ago
+684891d : Improve subject_match and domain_suffix_match documentation <Jouni Malinen> 2 months ago
+27bec71 : eap_proxy: UI support to get the SIM information. <Sravanthi Palakonda> 4 months ago
+1e7f47f : Do not trigger the scan during initialization on Android platforms <Sunil Dutt> 3 months ago
+4f34a3e : Reject new SCAN commands if there is a pending request <Jouni Malinen> 3 months ago
+f9fb50d : nl80211: Ignore Connect failure for the previous association <Jithu Jance> 4 months ago
+e71138f : hostapd: Allow ACS to be offloaded to the driver <Peng Xu> 4 months ago
+5347933 : P2P: Check Invitation Response dialog token match for resend case <Sunil Dutt> 4 months ago
+a2d0653 : nl80211: Add driver flag to indicate mesh support <Bob Copeland> 7 months ago
+d8eb605 : hostapd: Change drv_flags from unsigned int to u64 <Yanbo Li> 5 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+d513d5b : av: Fix DirectTrack build on 5.1 <Michael Bestas> 4 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+4909ce0 : SystemUI: update quick tile animations and icons <Roman Birg> 5 hours ago
+b9d1fd1 : systemui: Fix the keyguard issues <Steve Kondik> 3 weeks ago
+c345a41 : Revert "Revert "Improve layout of MSIM SIM PIN/PUK keyguard views."" <Danny Baumann> 15 hours ago
+1bd137d : SystemUI: fix incorrectly sized nav bar icons <Roman Birg> 6 hours ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_chips ****
+16ccce7 : chips: fix NPE errors <Jorge Ruesga> 13 days ago
+f532ce8 : chips: suggested contacts <Jorge Ruesga> 3 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_net_wifi ****
+071d79b : wifi: Kill logspam <Steve Kondik> 25 hours ago
+6e6e35f : wifi: Handle error cases when EAP-SIM info is NULL/Unsupported <Sravanthi Palakonda> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+b73fa0c : Properly handle upgrade scenarios. <Danny Baumann> 13 hours ago
+ 
+**** https://github.com/VanirAOSP/hardware_libhardware-legacy ****
+13bfcc6 : Revert "audio: Add getPresentationPosition for AudioStreamOut" <Michael Bestas> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_wlan ****
+aa0a255 : wifihal: Replace strcpy, vsprintf and handle NULL ptr dereferenc <Naresh Jayaram> 6 weeks ago
+f624f39 : Further Availability Map Structure change <Amarnath Hullur Subramanyam> 2 months ago
+50ed1c8 : Adding support for passing userdata in nan_register_handler <Amarnath Hullur Subramanyam> 3 months ago
+bb93dec : Remove enum vendor_subcmds for Android HAL and use #define <Ahmad Kholaif> 3 months ago
+1c7ab08 : wlan: enable/disable all the interface on driver start and stop <Mahesh A Saptasagar> 10 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_ril ****
+f51f15a : rild: enable tombstone on RIL crash <Julien Vuillaumier> 9 weeks ago
+536ea08 : ril-caf: Add guard makefile <Steve Kondik> 3 months ago
+4f241ca : rild: Don't use the clientId argument with non-qcom hardware <Ricardo Cerqueira> 1 year, 5 months ago
+e3ed78e : libril: allow board to provide libril <Tom Giordano> 3 years, 4 months ago
+5fae5a6 : Enabling RIL_QCOM_VERSION <Ravinder Konka> 9 weeks ago
+0da1526 : Rild: Use division instead of mod to determine array size <Dheeraj Shetty> 9 weeks ago
+be4e23f : Added support for acquiring CAP_BLOCK_SUSPEND capability <Dheeraj Shetty> 10 weeks ago
+30387ea : Modify RIL_Data_Call_Response to include MTU <Sukanya Rajkhowa> 4 months ago
+325c42e : Add RIL_REQUEST_LAST_CALL_FAIL_CAUSE to ril <kaiyiz> 6 months ago
+f908dfd : Add rild support for TSTS Allow client id 3 for third rild in TSTS. <Sreehari Vaddi> 6 months ago
+19938c3 : Remove support for Data_Call_Response_v6 in RIL versions >=10 <Sukanya Rajkhowa> 6 months ago
+8c7dd41 : SEEK: Add support for getAtr <Preeti Ahuja> 7 months ago
+41c1c0b : Support reading data profiles from OMH cards <Naveen Kalla> 3 years, 4 months ago
+81e5d67 : Correcting RIL unsol command order <Ravi Paluri> 8 months ago
+91afb0b : ril: change macro definition to fix duplicate error <Chiou-Hao Hsu> 8 months ago
+e1c9b13 : Add support for cdma dynamic address length. <lrichard> 1 year, 5 months ago
+36d2750 : Use SimRefreshResponse struct in RIL Versions greater than 7. <Rakesh Pallerla> 1 year, 2 months ago
+0ec0bc7 : STK Call Control feature implementation. <Naveen Kalla> 3 years, 4 months ago
+215eed7 : Support Additional SIM Depersonalizations <Rakesh Pallerla> 1 year, 5 months ago
+1f7118f : Telephony: Implementation of IWLAN. <Yashdev Singh> 1 year, 2 months ago
+c6e6872 : Add WRITE_SMS_TO_SIM and UNSOL_SUPP_SVC_NOTIFICATION. <Naveen Kalla> 3 years, 4 months ago
+8f42fc7 : rild: Send extended information records as ByteBuffer <Sukanya Rajkhowa> 4 years, 9 months ago
+6849b13 : Initialize the buffer <Sindhu Kanathur> 1 year, 3 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_msm8974 ****
+a9acf11 : Patch 3.4.48 <varchild> 34 hours ago
+e05cf9a : mm: Fix NULL pointer dereference in madvise(MADV_WILLNEED) support <Kirill A. Shutemov> 1 year, 3 months ago
+5694b4f : vfs: read file_handle only once in handle_to_path <Sasha Levin> 8 weeks ago
+b613229 : Patch 3.4.47 <varchild> 5 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_lge_g3 ****
+7932784 : g3: disable lge panic handling (demigod) <Dan Pasanen> 7 days ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+6792930 : Return a void fuction on Vibe time <demetris> 11 hours ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_oneplus_msm8974
+https://github.com/AlmightyMegadeth00/kernel_oneplus_msm8974 ****
+6273a79 : Krait: use cortex-a15 flags with fall back to -march=armv7-a <Dave Kessler> 23 hours ago
+dbd54d7 : msm: clock: set max cpu/l2 rate from fmax table <Lianwei Wang> 11 months ago
+ce9bf63 : cpufreq: cpu-boost: Dont boost if interrupted by signal <Lianwei Wang> 5 months ago
+52ec45b : sched: fair: fix undefined error <Jake Weinstein> 3 weeks ago
+7c982c6 : cpufreq: cpu-boost: Consider only task load to decide on sync frequency <Girish S Ghongdemath> 12 months ago
+91f79de : cpufreq: cpu-boost: Handle wakeup hints received for foreground tasks <Rohit Gupta> 1 year ago
+d6de66e : sched: Skip load update for idle task <Srivatsa Vaddagiri> 10 months ago
+c331d2f : sched: window-stats: Fix overflow bug <Srivatsa Vaddagiri> 10 months ago
+e6e7442 : sched: Window-based load stat improvements <Srivatsa Vaddagiri> 12 months ago
+b70ca4a : sched: Disable wakeup hints for foreground tasks by default <Rohit Gupta> 11 months ago
+b9b6e99 : sched: Call the notify_on_migrate notifier chain for wakeups as well <Rohit Gupta> 1 year ago
+5fe1fdc : cpufreq: cpu-boost: Introduce scheduler assisted load based syncs <Rohit Gupta> 1 year ago
+a6e25bd : sched: window-based load stats for tasks <Srivatsa Vaddagiri> 1 year, 3 months ago
+1a76296 : sched: Make scheduler aware of cpu frequency state <Srivatsa Vaddagiri> 1 year, 3 months ago
+7398628 : msm: tracing: Fix hang issue on qcom. <Dong-Dong Yang> 2 years ago
+f1b9578 : cpufreq: interactive: don't schedule timer on offline cpu <Lianwei Wang> 1 year, 10 months ago
+aa4feb6 : Cpufreq: interactive: Check actual freq before setting new freq <Puneet Saxena> 1 year, 8 months ago
+1248e6e : sched: cpu_power: enable ARCH_POWER <Vincent Guittot> 2 years, 9 months ago
+1333eee : ARM: convert all "mov.* pc, reg" to "bx reg" for ARMv6+ <Russell King> 9 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+e621065 : msm_zsl: squash of old camera fixes <detule> 1 year, 11 months ago
+6a37b64 : d2: correct iommu domain for camera <Desterly> 4 weeks ago
+4dbfb86 : Revert: M2: bugfix: Fix a kernel bug causing ioctl... <Brian Beloshapka> 3 months ago
+be45f28 : camera/msm_zsl: fix ups after camera update <Dan Pasanen> 3 months ago
+3890191 : camera/msm_zsl: wholesale update from I535VRUDNE1 <Dan Pasanen> 3 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_BluetoothExt ****
+d8bac58 : bluetooth: Disable Wipower services <Steve Kondik> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+f303044 : Add back mCurrentButton reference lost in merge. <Matt Garnes> 7 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+708b6b2 : Automatic translation import <Michael Bestas> 3 weeks ago
+be170a5 : Automatic translation import <Michael Bestas> 4 weeks ago
+d0e8547 : Automatic translation import <Michael Bestas> 5 weeks ago
+455c85b : Camera2: Remove google help preference <Michael Bestas> 6 weeks ago
+8f53249 : Camera2: Add option to set max screen brightness <Michael Bestas> 6 weeks ago
+8f20055 : Automatic translation import <Michael Bestas> 6 weeks ago
+d8aa4be : Fix Power Shutter Exception 1 of 2 <Abhisek Devkota> 1 year, 1 month ago
+4160876 : Camera: Powerkey shutter (2/2) <Danesh M> 7 weeks ago
+4fdf3fe : Camera: Disable Camera Launcher when both Front and Back sensors are not detected <Rajaram Gudivada> 1 year, 7 months ago
+9d7a271 : Camera2: disable 4k snapshot when samsung4k is enabled. <Shareef Ali> 9 weeks ago
+aa9b875 : Camera2: Samsung 4k Camera workaround. <repo Shareef Ali> 3 months ago
+481fdc4 : Camera2: Stop using GPS when going to background <nadlabak> 3 months ago
+560c677 : Camera2: Remove settings preferences only once <Konsta> 4 months ago
+2f52c5b : Camera2: fix video recording for older drivers <Pawit Pornkitprasan> 4 months ago
+b89df00 : Trap CameraAgentFactory RTEs during recycle <Alan Newberger> 6 months ago
+aa27d01 : Trap camera close exceptions on pause <Alan Newberger> 6 months ago
+4f222c4 : Stability: call stopPreview() before switching off video module. <Senpo Hu> 6 months ago
+59331b1 : Stability: add null check for all CameraProxy obj references in VideoModule. <Senpo Hu> 6 months ago
+1889dae : Recreate a OneCameraManager instance for each Activity. <Puneet Lall> 6 months ago
+882402f : Force filmstrip images to generate in JPEG compression format <Alan Newberger> 6 months ago
+891dc7f : Stability: add null check for all CameraProxy obj references in PhotoModule. <Senpo Hu> 6 months ago
+6e73222 : monkey test NPE fix, another null check on mCameraDevice <Spike Sprague> 6 months ago
+a0697c5 : add null check to updateCameraParametersPreferences to apease the monkey <Spike Sprague> 6 months ago
+bdba0dc : portability layer doesn't work well with startPreviewWithCallback() here's a dirty dirty workaround. <Spike Sprague> 6 months ago
+d74c99e : mode switch jank fixes <Spike Sprague> 7 months ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Email ****
+8c50ed4 : email: suggested contacts <Jorge Ruesga> 3 weeks ago
+179416c : Fix crash issue when trying to setup an IMAP/POP3 account <hmh> 8 weeks ago
+b155adc : Automatic translation import <Michael Bestas> 6 weeks ago
+16d4624 : Don't fetch deleted messages from IMAP folder <Daniel Volk> 1 year, 1 month ago
+f11382a : email: start handshake before hostname verification <Jorge Ruesga> 3 months ago
+926cb23 : email: add support for Server Name Indication (SNI) <Jorge Ruesga> 12 months ago
+76fa0d7 : Email: Update the widget preview image <blunden> 4 months ago
+44a064e : DBHelper: Support upgrades from CM11 <Ricardo Cerqueira> 5 months ago
+a2b8e5e : Add MAIL_SERVICE WAKEUP, SEND, MOVE, READ, DELETE MESSAGE actions <Ashwini Munigala> 8 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+bba3643 : Fix SIM indicator display. <Danny Baumann> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+5c155de : Test reconcile, basically remove Device hardware processor info <DHOMD> 50 minutes ago
+f0fc321 : Use vanir drawables for settings headers <Dave Kessler> 4 months ago
+00ee9b4 : Small Vanir fixes <DHOMD> 2 days ago
+b1285e1 : Basic Vanir Reorg for 5.1 <DHOMD> 9 days ago
+daabfa9 : We only cater to Advanced users <DHOMD> 9 days ago
+03279ce : Add back in Vanir Header in Settings <Noah Greene> 1 year, 4 months ago
+2f8aeaf : About device: bring back vanir updater and our format <Dave Kessler> 4 months ago
+f4b0fb5 : [forward port] add call settings to wireless/networks -> more... <PrimeDirective> 10 months ago
+f555a5d : Headers: Personalization -> Voodoo <Dave Kessler> 4 months ago
+47344dc : Forward port Vanir 0.25x & 0.75x animation scales from JB 4.1 <PrimeDirective> 1 year, 4 months ago
+a132889 : Fix modversion <nuclearmistake> 4 months ago
+27994b3 : Re-add SIM color settings. <Danny Baumann> 15 hours ago
+d2fc0a6 : Settings: update QS tile references for 5.1 <Roman Birg> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_UnifiedEmail ****
+adbe7b7 : Revert "optipng -nc -nb -o7" <DHOMD> 11 days ago
+55e9bb9 : UnifiedEmail: Fix build <Kenshin> 12 days ago
+c6af340 : unified email: prefer account display name to sender name <Jorge Ruesga> 3 weeks ago
+cd6ab96 : unified email: suggested contacts <Jorge Ruesga> 3 weeks ago
+0812ca4 : Automatic translation import <Michael Bestas> 4 weeks ago
+244c1b2 : Automatic translation import <Michael Bestas> 5 weeks ago
+45eae36 : Automatic translation import <Michael Bestas> 6 weeks ago
+2a50ddb : UnifiedEmail : Set subject before setFolders <Danesh M> 7 weeks ago
+a050c51 : email: prevent stock email app to unset firstSnippet on mark/unmark as read <Jorge Ruesga> 9 months ago
+b819a14 : SubjectAndFolderView: initialize mSubject to an empty string so BidiFormatter doesn't barf if it was never set <nuclearmistake> 4 months ago
+3841ecd : optipng -nc -nb -o7 <nuclearmistake> 4 months ago
+a38c1f7 : Theming fixes. <Danny Baumann> 4 months ago
+35f853b : Fix the color of the Compose FAB <blunden> 4 months ago
+6a9275b : Change the Email widget to orange <blunden> 4 months ago
+0da9157 : Update the notification icons for Lollipop <blunden> 4 months ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_TelephonyProvider ****
+bc79696 : Properly upgrade DB <Danny Baumann> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+12ffe64 : Make sure to preserve account icon and color. <Danny Baumann> 14 hours ago
+5b2b9c6 : Fix NPE. <Danny Baumann> 17 hours ago
+ 

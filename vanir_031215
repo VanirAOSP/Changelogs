@@ -1,0 +1,145 @@
+
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+6938ede : Ensure adb is accessible when usb config setting is set to charge <sudosurootdev> 2 hours ago
+0434d17 : G2: Fix media/audio cache issues <sudosurootdev> 4 days ago
+0642681 : g2: Enable extended font support <Rashed Abdel-Tawab> 4 months ago
+a5afb25 : g2: overlay: Re-enable performance profiles <Rashed Abdel-Tawab> 3 days ago
+50f1cf1 : g2: overlay: Add support for multicolor notification light <Rashed Abdel-Tawab> 3 days ago
+bc0c33b : g2: media_profiles: Updates from LG's KK release <Domenico Rescigno> 3 days ago
+ea00ebe : g2: audio_policy: Add voip_rx to fix VOIP mic usage <Rashed Abdel-Tawab> 3 days ago
+f3b585a : g2: overlay: Remove bootloader option from reboot menu <Rashed Abdel-Tawab> 3 days ago
+e4e456c : g2: Add PCC calibration interface <Rashed Abdel-Tawab> 5 days ago
+4701aaa : g2-common: Remove deprecated Camera2 and Torch overlays <Rashed Abdel-Tawab> 3 weeks ago
+769765c : g2: storage: Fix USB-OTG compatibility <Rashed Abdel-Tawab> 3 weeks ago
+1e17ca0 : g2: Refactor and cleanup <Rashed Abdel-Tawab> 4 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_victara ****
+7081300 : victara: Fix the size of the recovery partition <Christopher R. Palmer> 5 days ago
+c5796b5 : victara: boot.img: Compress the dt.img using lz4 <Christopher R. Palmer> 7 days ago
+ 
+**** https://github.com/VanirAOSP/device_oppo_common ****
+c304b22 : keyhandler: use DISMISS_KEYGUARD_SECURELY_ACTION to open camera <Roman Birg> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/external_openssl ****
+e46868e : Fix FREAK attack <Dr. Stephen Henson> 5 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+d784584 : Remove more duplicate sounds <Abhisek Devkota> 9 days ago
+c14e0b1 : MediaScanner : Add support for default ringtones per sim <Danesh M> 4 months ago
+5f90642 : Provider: Add multi SIM ringtone support in SettingsProvider <padarshr> 10 months ago
+0e33fa6 : SystemUI: don't display protected lockscreen shortcuts <Roman Birg> 26 hours ago
+8cbdab9 : SystemUI: improve DISMISS_KEYGUARD_SECURELY_ACTION behavior <Roman Birg> 29 hours ago
+93f8947 : SystemUI: disable visualizers during power save mode <Roman Birg> 27 hours ago
+3ba66f5 : keyguard: don't use eq visualized in LowEndGfx devices <Jorge Ruesga> 2 days ago
+45e1cc6 : Themes: Process theme resources after package scanned [1/2] <d34d> 29 hours ago
+980fb96 : services: AssetAtlasService: prevent IndexOutOfBoundsException <Evisceration> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_chips ****
+15785bc : chips: fix NPE errors <Jorge Ruesga> 20 hours ago
+ 
+**** https://github.com/VanirAOSP/kernel_lge_msm8974 ****
+d56cecb : netfilter: conntrack: disable generic tracking for known protocols <Florian Westphal> 6 months ago
+d1266db : eCryptfs: Remove buggy and unnecessary write in file name decode routine <Michael Halcrow> 4 months ago
+df6c574 : netlink: fix possible spoofing from non-root processes <Pablo Neira Ayuso> 2 years, 7 months ago
+a5ef4df : mnt: Prevent pivot_root from creating a loop in the mount tree <Eric W. Biederman> 5 months ago
+ea39974 : mnt: Only change user settable mount flags in remount <Eric W. Biederman> 8 months ago
+01f4759 : msm: mdp: Validate input arguments from user space <raghavendra ambadas> 5 months ago
+3c2bfd5 : Prepare for LGL22 <sudosurootdev> 13 days ago
+210e35d : netfilter: conntrack: disable generic tracking for known protocols <Florian Westphal> 6 months ago
+0d0b862 : eCryptfs: Remove buggy and unnecessary write in file name decode routine <Michael Halcrow> 4 months ago
+f9ccc40 : netlink: fix possible spoofing from non-root processes <Pablo Neira Ayuso> 2 years, 7 months ago
+c00ffdd : netfilter: nf_conntrack_dccp: fix skb_header_pointer API usages <Daniel Borkmann> 1 year, 2 months ago
+dc1ef4d : mnt: Prevent pivot_root from creating a loop in the mount tree <Eric W. Biederman> 5 months ago
+2afd373 : mnt: Only change user settable mount flags in remount <Eric W. Biederman> 8 months ago
+c1932b7 : msm: mdp: Validate input arguments from user space <raghavendra ambadas> 5 months ago
+ceb90e3 : ipv4: try to cache dst_entries which would cause a redirect <Hannes Frederic Sowa> 7 weeks ago
+e11c7f5 : KEYS: close race between key lookup and freeing <Sasha Levin> 2 months ago
+b44c69c : tracing/syscalls: Ignore numbers outside NR_syscalls' range <Rabin Vincent> 4 months ago
+31251cf : tracing/syscalls: Fix perf syscall tracing when syscall_nr == -1 <Will Deacon> 2 years, 7 months ago
+522577e : net: guard tcp_set_keepalive() to tcp sockets <Eric Dumazet> 2 years, 6 months ago
+ 
+**** https://github.com/NamelessRom/android_kernel_samsung_smdk4412 ****
+dd1c7c3 : motor: max77693: disable debug logging <Dheeraj CVR> 28 hours ago
+5fba9c5 : mach-exynos: watchdog: fix overly verbose logging <Dheeraj CVR> 28 hours ago
+88c10ee : mdnie: fix overly verbose debugging <Dheeraj CVR> 28 hours ago
+33edb9a : max77693: fix overbloated debug message <codeworkx> 2 years, 6 months ago
+de97c08 : modem_if: disable printing of IPC-RX/TX messages <codeworkx> 2 years, 6 months ago
+14b7e05 : smdk4412: reboot bootloader boots into download mode <codeworkx> 2 years, 3 months ago
+0a09c4a : drivers: modem_if : Remove some debugging <sakindia123> 1 year, 10 months ago
+6091bb0 : max77693: fix debugging <codeworkx> 2 years, 6 months ago
+ac5b420 : max77686: disable debugging code <codeworkx> 2 years, 6 months ago
+62473c2 : defconfigs: enable CONFIG_CRYPTO_LZ4 for use with zswap <DerTeufel> 8 weeks ago
+b94cf50 : mm/zswap: use lz4 compression if possible <DerTeufel> 8 weeks ago
+c5f4bc1 : lz4: add overrun checks to lz4_uncompress_unknownoutputsize() <Greg Kroah-Hartman> 8 months ago
+d3704bf : lz4: fix another possible overrun <Greg Kroah-Hartman> 9 months ago
+5e8d61d : lz4: ensure length does not wrap <Greg Kroah-Hartman> 9 months ago
+317d1fa : LZ4: compression/decompression signedness mismatch (v2) <Sergey Senozhatsky> 1 year, 7 months ago
+ba6ff22 : lib/lz4/lz4_compress: fix macro usage error <Paul Reioux> 1 year, 7 months ago
+26b38f9 : crypto: Add lz4 Cryptographic API <Chanho Min> 1 year, 7 months ago
+9c35a87 : lib: Add lz4 compressor module <Chanho Min> 1 year, 7 months ago
+247ba0b : arm: Add support for LZ4-compressed kernel <Paul Reioux> 1 year, 7 months ago
+28d4cc4 : lib: Add support for LZ4-compressed kernel <Paul Reioux> 1 year, 7 months ago
+a329627 : decompressor: Add LZ4 decompressor module <Kyungsik Lee> 1 year, 7 months ago
+9bf759d : mm/zsmalloc: adjust order of functions <Ganesh Mahendran> 3 months ago
+3ed7702 : mm/zsmalloc: allocate exactly size of struct zs_pool <Ganesh Mahendran> 3 months ago
+46fee85 : mm/zsmalloc: avoid duplicate assignment of prev_class <Ganesh Mahendran> 3 months ago
+333a553 : mm/zsmalloc: support allocating obj with size of ZS_MAX_ALLOC_SIZE <Mahendran Ganesh> 3 months ago
+b38ea1d : zsmalloc: correct fragile [kmap|kunmap]_atomic use <Minchan Kim> 3 months ago
+50b151b : zsmalloc: fix zs_init cpu notifier error handling <Sergey Senozhatsky> 3 months ago
+8991184 : zsmalloc: merge size_class to reduce fragmentation <Joonsoo Kim> 3 months ago
+9ff1e90 : mm/zswap: delete unnecessary check before calling free_percpu() <Markus Elfring> 3 months ago
+e02b786 : mm/zswap: add __init to some functions in zswap <Mahendran Ganesh> 3 months ago
+0aba0bb : mm/zbud: init user ops only when it is needed <Heesub Shin> 3 months ago
+9df95bb : zbud, zswap: change module author email <Seth Jennings> 4 months ago
+09eeebd : zbud: avoid accessing last unused freelist <Chao Yu> 5 months ago
+e198cd9 : zsmalloc: simplify init_zspage free obj linking <Dan Streetman> 5 months ago
+3acb2a6 : mm/zsmalloc.c: correct comment for fullness group computation <Wang Sheng-Hui> 5 months ago
+f8ec45e : zsmalloc: change return value unit of zs_get_total_size_bytes <Minchan Kim> 5 months ago
+1ad511a : zsmalloc: move pages_allocated to zs_pool <Minchan Kim> 5 months ago
+dc02148 : mm/zswap.c: add __init to zswap_entry_cache_destroy() <Fabian Frederick> 7 months ago
+50b96f0 : mm/zpool: use prefixed module loading <Kees Cook> 7 months ago
+00db3a6 : mm/zpool: zbud/zsmalloc implement zpool <Dan Streetman> 7 months ago
+b3dc74a : mm/Kconfig: ZSWAP, don't select zsmalloc <DerTeufel> 8 weeks ago
+947cf19 : mm/zpool: implement common zpool api to zbud/zsmalloc <Dan Streetman> 7 months ago
+46a2954 : mm/zbud: change zbud_alloc size type to size_t <Dan Streetman> 7 months ago
+de1235b : zsmalloc: fixup trivial zs size classes value in comments <Weijie Yang> 9 months ago
+0dc204e : mm/zswap: NUMA aware allocation for zswap_dstmem <Eric Dumazet> 9 months ago
+5286025 : mm/zswap.c: remove unnecessary parentheses <SeongJae Park> 11 months ago
+ae05938 : mm/zswap: support multiple swap devices <Minchan Kim> 11 months ago
+4334d3b : mm/zswap.c: update zsmalloc in comment to zbud <SeongJae Park> 11 months ago
+3299774 : mm/zswap.c: fix trivial typo and arrange indentation <SeongJae Park> 11 months ago
+cc58e5d : mm, zswap: Fix CPU hotplug callback registration <Srivatsa S. Bhat> 1 year ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Browser ****
+aa65d32 : Browser: fix default bookmarks urls <linuxx> 3 hours ago
+3b1e986 : Delete broken xxhdpi progress drawable. <Danny Baumann> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+e0a097b : Calendar: add feature to select/deselect all events in delete view <Raj Yengisetty> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+0d2ed5a : ContactsCommon: fix FC when deleting SIM contacts after SIM is removed <Raj Yengisetty> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_LockClock ****
+500804d : cLock: Add to launcher <Michael Bestas> 1 year, 2 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+ae6c7d6 : Mms: better vCard parser (getExtraSrc) <Marcos Marado> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+ca33d15 : Regulatory text color: make this readable <Abhisek Devkota> 4 hours ago
+34b7ab1 : Settings: theme mobile network settings from data usage screen <Roman Birg> 24 hours ago
+fb40ed8 : Settings: bring up IME when renaming profile <Roman Birg> 27 hours ago
+22d913f : Settings: fix "Mobile Networks" menu option in DataUsageSummary. <Matt Garnes> 28 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_ThemesProvider ****
+6c29892 : Themes: Process theme resources after package scanned [2/2] <d34d> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+219cd9e : Dialer settings: fix "Additional settings" up arrow inconsistency <Roman Birg> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+bfb6718 : APN: Add Lowi <Kra1o5> 2 days ago
+43cabe8 : APN: Fix Pepephone 4G <Kra1o5> 3 days ago
+b99907b : cm: Add import for prebundled APKs <Ethan Chen> 3 days ago
+ 

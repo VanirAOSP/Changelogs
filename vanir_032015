@@ -1,0 +1,123 @@
+
+**** git://git.samba.org/ccache.git ****
+8deb001 : Introduce logging wrappers for stat/lstat/fstat functions <Joel Rosdahl> 30 hours ago
+a8c9c69 : Harden logging, perror() replaced with fatal(), unlink() failure recorded <Chiaki ISHIKAWA> 2 days ago
+b08463c : Always check the result of stat() system calls <Chiaki ISHIKAWA> 2 days ago
+655b9bb : Log failure of opening file to hash <Chiaki ISHIKAWA> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+892aac4 : makelinks: prefer mba before falling back to a7b* <Dan Pasanen> 4 days ago
+ 
+**** https://github.com/VanirAOSP/motorola_msm8226-common ****
+f86c436 : msm8226-common: Fix boost frequencies <luca020400> 31 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_victara ****
+06460c2 : victara: Change mixer control to set correct BTSCO Sample rate <Christopher R. Palmer> 26 hours ago
+1648e46 : victara: camera: Add 4K video recording support <Christopher R. Palmer> 32 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2-common ****
+51cff4c : fstab: enable 128mb of zRAM <Ethan Chen> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_jflteatt ****
+967ab02 : releasetools: run loki.sh from install/bin/ during install <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_jfltevzw ****
+a8ccf86 : releasetools: run loki.sh from install/bin/ during install <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+b96ce63 : msm8960: set sys.perf.profile=2 during bootup <dcd> 2 hours ago
+424bfeb : msm8960: online all cores while setting cpu governor <dcd> 3 days ago
+646d50d : msm8960: Enable zRAM if available <Ethan Chen> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/external_bash ****
+bbc8b48 : Bash-4.3 patch 33 <Chet Ramey> 9 weeks ago
+c6a8bcd : Bash-4.3 patch 32 <Chet Ramey> 9 weeks ago
+2b8818c : Bash-4.3 patch 31 <Chet Ramey> 9 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_external_f2fs-tools ****
+073e6d0 : f2fs-tools: release 1.4.1 <Jaegeuk Kim> 2 weeks ago
+a27730e : f2fstat: fix option parsing <Michael Lass> 2 weeks ago
+afeae73 : fsck.f2fs: remove corrupted data indices in direct node blocks <Jaegeuk Kim> 3 weeks ago
+aaf9e90 : mkfs.f2fs: avoid memory leak in mkfs <Chao Yu> 6 weeks ago
+5527483 : fsck.f2fs: support large sector size <Chao Yu> 6 weeks ago
+69aebd8 : mkfs.f2fs: support large sector size <Chao Yu> 6 weeks ago
+d8af5fd : f2fs: fix build for android <Dan Pasanen> 5 weeks ago
+946aafb : fsck.f2fs: readahead node blocks to speed up <Jaegeuk Kim> 4 months ago
+2f59274 : dump.f2fs: show checkpoint flag <Jaegeuk Kim> 9 weeks ago
+3a28e66 : fsck.f2fs: fix sit types seamlessly <Jaegeuk Kim> 2 months ago
+864bad2 : fibmap.f2fs: fix the wrong stat info <Chao Yu> 8 weeks ago
+7081cdb : configure: add check for bswap_64 <Yann E. MORIN> 3 months ago
+4046fe4 : configure: also check for byteswap.h <Yann E. MORIN> 3 months ago
+8821997 : parse.f2fs: add a tool to parse IO traces made by runtime f2fs <Jaegeuk Kim> 3 months ago
+3dface3 : dump.f2fs: dump owner of data given block address <Jaegeuk Kim> 3 months ago
+14e7078 : fsck.f2fs: no need to fix SIT type for COLD_DATA <Jaegeuk Kim> 4 months ago
+6c6dd4b : mkfs.f2fs: introduce some macros to simplify coding style <Changman Lee> 4 months ago
+4dca078 : fsck.f2fs: remove unused value <Jaegeuk Kim> 4 months ago
+54b1140 : mkfs.f2fs: fix missing endian conversion <Changman Lee> 4 months ago
+36c7820 : mkfs: use compact mode for data summaries <Changman Lee> 4 months ago
+3a6f730 : fsck.f2fs: add a missing 'fixed' during chk_dentries() <JP Abgrall> 4 months ago
+fab52d7 : fsck.f2fs: avoid false alarm on SIT type fix <Jaegeuk Kim> 4 months ago
+5015286 : fsck.f2fs: remove unneeded return <Jaegeuk Kim> 4 months ago
+988b17a : fsck.f2fs: show orphan inodes when fixing partition <Jaegeuk Kim> 4 months ago
+dcd7bed : mkfs.f2fs: reclaim free space in case of regular file <Changman Lee> 5 months ago
+22971b9 : mkfs.f2fs: give a kernel version for initial format <Jaegeuk Kim> 4 months ago
+5406750 : fsck.f2fs: trigger fsck.f2fs when new change was made <Jaegeuk Kim> 4 months ago
+fa6c04a : fsck.f2fs: fix SIT entry types <Jaegeuk Kim> 5 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+b85fb98 : Clear Theme in System UI <Andy Mast> 31 hours ago
+31fb016 : Themes: Perform mapping when not from overlay <d34d> 4 hours ago
+c67bc8b : third part apps can unlock the phone without password even if the phone has setted the password <longyu.huang> 19 hours ago
+98df5dd : Avoid boot looping when theme provider is unavailable <Andy Mast> 25 hours ago
+6e854a8 : SystemUpdateService: enable service but lock its receivers [1/2] <Gianmarco Reverberi> 4 days ago
+39b9e80 : LongPress on rotation qs ==> rotation settings <nuclearmistake> 15 hours ago
+c55ddb6 : We don't have an entrypoint for lockscreen settings ATM <nuclearmistake> 15 hours ago
+38beb33 : We have mandatory "advanced mode"-like settings turned on, but I don't think we have a direct settings entrypoint for rotation settings... so back to display for now <nuclearmistake> 15 hours ago
+083163a : SystemUI: Fix nav bar transparency when enabling software keys <Raj Yengisetty> 28 hours ago
+9869348 : SystemUI: load current user's qs tiles <Roman Birg> 7 days ago
+2f98e27 : systemui: don't start-stop visualizer directly after a power save event <Jorge Ruesga> 31 hours ago
+617fe6d : GlobalActions: Use circular user avatars <Michael Bestas> 7 weeks ago
+09771c6 : SystemUI: Correct long press intents of some tiles <Michael Bestas> 2 weeks ago
+8c7b965 : improve lock screen wallpaper behavior <Roman Birg> 3 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+5f8247a : IccSmsInterfaceManager: Disable debug logging <Dave Kessler> 6 hours ago
+6b5db6f : IccSmsInterfaceManager: SHUT THE FUCK UP. <Dave Kessler> 6 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8960 ****
+28b8962 : power: pm8921-charger: Add DLXP support <Brinly Taylor> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+bc4b1d9 : Revert "msm: memutils: memcpy, memmove optimization" <Dan Pasanen> 2 hours ago
+4c167cb : Revert "msm: memutils: 8084: memcpy, memmove optimization" <Dan Pasanen> 2 hours ago
+5467680 : msm: memutils: 8084: memcpy, memmove optimization <Hong-Mei Li> 11 months ago
+9cf9ed0 : msm: memutils: memcpy, memmove optimization <Hong-Mei Li> 1 year, 9 months ago
+60a4a7a : d2: enable memory resource controller and swap extension <Dan Pasanen> 2 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_samsung_jf ****
+dd44326 : Revert "smart_mtp_se6e8fa: add gamma control" <Dan Pasanen> 4 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_samsung_klte ****
+1d74e70 : video: mdss: Add missing import to fix build error <Patrick Lower> 2 weeks ago
+0452a79 : video: mdss: Color temperature interface using PCC <Steve Kondik> 6 weeks ago
+379238d : ktoonservativeq: Optimize the boost sequence to allow upscaling during a boost <ktoonsez> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Contacts ****
+e98c8a5 : Contacts: Add checkableimageview to sim import picker <Raj Yengisetty> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Email ****
+9848795 : email: don't block extras database <Jorge Ruesga> 24 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+bbc9619 : rotation entrypoint: fix top-level header id <nuclearmistake> 15 hours ago
+9663a59 : Add missing xmlns settings:... <nuclearmistake> 15 hours ago
+aa9b436 : Allow launching display rotation & lock screen settings externally <Michael Bestas> 2 weeks ago
+bc22844 : Settings: add switches for dashboard items <Roman Birg> 2 months ago
+fbb3335 : Protected Apps: fix behavior for orientation changes <Raj Yengisetty> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_UnifiedEmail ****
+ff335f9 : email: don't assume that onDrawerClose will be called <Jorge Ruesga> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+47e6e63 : Update Telenor HU APN <Abhisek Devkota> 32 hours ago
+ 

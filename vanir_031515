@@ -1,0 +1,301 @@
+
+**** https://github.com/VanirAOSP/device_htc_s4-common ****
+5755d48 : s4-common: SELinux perms for vibration, ums <Matt Mower> 23 hours ago
+21a65ec : s4-common: Enable zRAM if available <Ethan Chen> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+f85b34e : G2: Fix media/audio/video cache issues for good <sudosurootdev> 7 days ago
+fe0c7b8 : Add mobile tcp buffers since there are no defaults in F/B There are WiFi tcp buffers which are good, so no need to change them. <sudosurootdev> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_oppo_common ****
+ba8152c : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_klte ****
+a9ee471 : klte: Update libnfc-nxp.conf <Phillip Berndt> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+6e848af : import live display <Ozzy2403> 3 days ago
+a70a8c2 : more selinux updates <Ozzy2403> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_external_whispersystems_WhisperPush ****
+d3d6568 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+772ca17 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_fm ****
+c862dcb : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8960 ****
+6830384 : msm: HTC: Regenerate defconfig and enable zram/zsmalloc/lz4 <jrior001> 3 days ago
+59e6984 : zram: switch to lz4 as default commpressor <jrior001> 3 days ago
+ddbcd08 : lz4: add overrun checks to lz4_uncompress_unknownoutputsize() <Greg Kroah-Hartman> 9 months ago
+8fa9235 : lz4: fix another possible overrun <Greg Kroah-Hartman> 9 months ago
+75aa507 : lz4: ensure length does not wrap <Greg Kroah-Hartman> 9 months ago
+6441177 : lz4: fix compression/decompression signedness mismatch <Sergey Senozhatsky> 1 year, 6 months ago
+d453a94 : lib/lz4: correct the LZ4 license <Richard Laager> 1 year, 7 months ago
+ef5831e : lib: add lz4 compressor module <Chanho Min> 1 year, 8 months ago
+a57d3d2 : lib: add support for LZ4-compressed kernel <Kyungsik Lee> 1 year, 8 months ago
+5baa8c9 : decompressor: add LZ4 decompressor module <Kyungsik Lee> 1 year, 8 months ago
+6d716e0 : zram: fix incorrect stat with failed_reads <Chao Yu> 7 months ago
+fbb9fea : zram: replace global tb_lock with fine grain lock <Weijie Yang> 3 days ago
+d664d82 : zram: use size_t instead of u16 <Minchan Kim> 7 months ago
+8227d60 : zram: remove unused SECTOR_SIZE define <Sergey Senozhatsky> 7 months ago
+731ec1e : zram: rename struct `table' to `zram_table_entry' <Sergey Senozhatsky> 7 months ago
+151474c : zram: avoid lockdep splat by revalidate_disk <Minchan Kim> 8 months ago
+329ffbe : zram: revalidate disk after capacity change <Minchan Kim> 9 months ago
+04782cd : zram: correct offset usage in zram_bio_discard <Weijie Yang> 9 months ago
+72a00e3 : zram: support REQ_DISCARD <Joonsoo Kim> 11 months ago
+4337911 : zram: use scnprintf() in attrs show() methods <Sergey Senozhatsky> 11 months ago
+7426bad : zram: propagate error to user <Minchan Kim> 11 months ago
+c641a53 : zram: return error-valued pointer from zcomp_create() <Sergey Senozhatsky> 11 months ago
+1e6a50a : zram: move comp allocation out of init_lock <Sergey Senozhatsky> 11 months ago
+9880f60 : zram: add lz4 algorithm backend <Sergey Senozhatsky> 11 months ago
+70e580d : zram: make compression algorithm selection possible <Sergey Senozhatsky> 11 months ago
+cace1d1 : zram: add set_max_streams knob <Sergey Senozhatsky> 11 months ago
+42ef372 : zram: add multi stream functionality <Sergey Senozhatsky> 11 months ago
+a2f5c25 : zram: document failed_reads, failed_writes stats <Sergey Senozhatsky> 11 months ago
+a2143f2 : zram: factor out single stream compression <Sergey Senozhatsky> 11 months ago
+4fe7919 : zram: use zcomp compressing backends <Sergey Senozhatsky> 11 months ago
+bd7c54c : zram: introduce compressing backend abstraction <Sergey Senozhatsky> 11 months ago
+c0dcfa5 : zram: delete zram_init_device() <Sergey Senozhatsky> 11 months ago
+d217ec7 : zram: move zram size warning to documentation <Sergey Senozhatsky> 11 months ago
+c332940 : zram: drop not used table `count' member <Sergey Senozhatsky> 11 months ago
+158bac2 : zram: report failed read and write stats <Sergey Senozhatsky> 11 months ago
+caf8d93 : zram: remove zram stats code duplication <Sergey Senozhatsky> 11 months ago
+47d2499 : zram: use atomic64_t for all zram stats <Sergey Senozhatsky> 11 months ago
+82a73b9 : zram: remove good and bad compress stats <Sergey Senozhatsky> 11 months ago
+1767ce4 : zram: do not pass rw argument to __zram_make_request() <Sergey Senozhatsky> 11 months ago
+c6e308c : zram: drop `init_done' struct zram member <Sergey Senozhatsky> 11 months ago
+efc6c90 : zram: avoid null access when fail to alloc meta <Minchan Kim> 1 year ago
+75d4f0c : zram: remove zram->lock in read path and change it with mutex <Minchan Kim> 1 year, 1 month ago
+6916cc1 : zram: remove workqueue for freeing removed pending slot <Minchan Kim> 1 year, 1 month ago
+3894724 : zram: introduce zram->tb_lock <Minchan Kim> 1 year, 1 month ago
+0be378a : zram: use atomic operation for stat <Minchan Kim> 1 year, 1 month ago
+0e3c8c2b : zram: remove unnecessary free <Minchan Kim> 1 year, 1 month ago
+542801c : zram: delay pending free request in read path <Minchan Kim> 1 year, 1 month ago
+8696652 : zram: fix race between reset and flushing pending work <Minchan Kim> 1 year, 1 month ago
+74f9037 : zram: add copyright <Minchan Kim> 1 year, 1 month ago
+fe5dae6 : zram: promote zram from staging <Minchan Kim> 1 year, 1 month ago
+ 
+**** https://github.com/CyanogenMod/lge-kernel-p880 ****
+f65a6c2 : Cyanogenmod_X3_defconfig: Enable F2FS support. <demetris> 7 hours ago
+beb7008 : f2fs: support for kernel 3.1 <Thomas Wendt> 6 weeks ago
+07f80da : fs: Add f2fs from Jaegeuk's linux-3.4 branch <Thomas Wendt> 6 weeks ago
+60eeab5 : CIFS: remove local xattr definitions <Mimi Zohar> 3 years, 7 months ago
+dbeb319 : xfs: introduce a generic shutdown ioctl <Jaegeuk Kim> 9 weeks ago
+3c801c4 : llist: Add back llist_add_batch() and llist_del_first() prototypes <Stephen Rothwell> 3 years, 5 months ago
+06130fa : llist: Remove cpu_relax() usage in cmpxchg loops <Peter Zijlstra> 3 years, 6 months ago
+60f4e32 : llist: Add llist_next() <Peter Zijlstra> 3 years, 6 months ago
+f1a8847 : irq_work: Use llist in the struct irq_work logic <Huang Ying> 3 years, 6 months ago
+115f127 : llist: Return whether list is empty before adding in llist_add() <Huang Ying> 3 years, 6 months ago
+c95836a : llist: Move cpu_relax() to after the cmpxchg() <Huang Ying> 3 years, 6 months ago
+973aab0 : llist: Remove the platform-dependent NMI checks <Ingo Molnar> 3 years, 5 months ago
+baac3f9 : llist: Make some llist functions inline <Huang Ying> 3 years, 6 months ago
+d85ea1a : security: new security_inode_init_security API adds function callback <Mimi Zohar> 3 years, 9 months ago
+ac2ec4b : bitops: rename for_each_set_bit_cont() in favor of analogous list.h function <Akinobu Mita> 3 years ago
+98e343c : perf, x86: Implement event scheduler helper functions <Robert Richter> 3 years, 4 months ago
+46df0c6 : perf tools: Use for_each_set_bit() to iterate over feature flags <Robert Richter> 3 years, 3 months ago
+bc0566c : vfs: new helper - d_make_root() <Al Viro> 3 years, 2 months ago
+a5aa394 : vfs: check i_nlink limits in vfs_{mkdir,rename_dir,link} <Al Viro> 3 years, 1 month ago
+b1cbf8a : filesystems: add set_nlink() <Miklos Szeredi> 3 years, 5 months ago
+3785be7 : sysfs: count subdirectories <Mikulas Patocka> 3 years, 8 months ago
+02f64f1 : filesystems: add missing nlink wrappers <Miklos Szeredi> 3 years, 5 months ago
+148be7a : ocfs2: remove unnecessary nlink setting <Miklos Szeredi> 3 years, 5 months ago
+2be994f : hypfs: remove unnecessary nlink setting <Miklos Szeredi> 3 years, 5 months ago
+26cf5be : vfs: mnt_drop_write_file() <Al Viro> 3 years, 3 months ago
+4034dd7 : switch a bunch of places to mnt_want_write_file() <Al Viro> 3 years, 4 months ago
+f3de3a8 : vfs: make do_kern_mount() static <Al Viro> 3 years, 3 months ago
+2ef6dc6 : vfs: add generic_file_llseek_size <Andi Kleen> 3 years, 6 months ago
+71390b8 : vfs: do (nearly) lockless generic_file_llseek <Andi Kleen> 3 years, 6 months ago
+a1e85a4 : vfs: export symbol d_find_any_alias() <Sage Weil> 3 years, 2 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_moto_shamu ****
+e68cb3c : shamu_defconfig: enable new kcal driver <dhacker29> 9 days ago
+6c97b924 : msm: mdss: Add pa_v2 support to KCAL <savoca> 3 weeks ago
+210940e : msm: mdss: Replace PGC implementation with PCC for KCAL <savoca> 3 weeks ago
+f2c33d8 : msm: mdss: savoca's KCAL pp control adapted for shamu <imoseyon> 4 weeks ago
+65984b4 : Revert "LCD_KCAL Color Control for shamu" <imoseyon> 4 weeks ago
+eec2459 : qseecom:  Add checks for send_cmd inputs <Mekala Natarajan> 7 weeks ago
+d37cf21 : qseecom: Add boundary checks for offset within message. <Mekala Natarajan> 7 weeks ago
+3afe6da : scripts/dtc/libfdt: add integer overflow checks <vijay kumar> 7 months ago
+c83b4a2 : msm: camera: isp: Validate reg_offset and len parameters <Sreesudhan Ramakrish Ramkumar> 3 months ago
+853751b : msm: camera: ispif: Validate vfe_intf parameter <Suman Mukherjee> 3 months ago
+e9bed23 : msm: mdp: Validate input arguments from user space <raghavendra ambadas> 5 months ago
+e68dfd0 : msm: camera: add check for csid_cid to prevent of overwrite memory <Evgeniy Borisov> 3 months ago
+1731cf4 : net: wireless: bcmdhd: Set static alloc for ioctl buff <Ecco park> 8 weeks ago
+db3f302 : ASoC: msm: qdsp6v2: Fix timestamp query during gapless transition <Haynes Mathew George> 8 weeks ago
+f02d1be : input: atmel_mxt_ts_mmi: Use atomic "suspended" flag <Chris Fries> 8 weeks ago
+d7c892d : input: atmel_mxt_ts_mmi: semaphore based lock <Konstantin Makariev> 8 weeks ago
+fc28864 : shamu_defconfig: enable kernel-mode NEON and CONFIG_CRYPTO_AES_ARM_BS <Iliyan Malchev> 9 weeks ago
+fee1cca : usb: Add support to log usb autopm logging <Ajay Dudani> 9 weeks ago
+7c77c56 : msm: camera_v2: return error for request_frames <Shuzhen Wang> 9 weeks ago
+4cd6b84 : msm: camera: isp: Handle error case for request_frame <Shuzhen Wang> 9 weeks ago
+cd76ba7 : Revert "[media] v4l2: vb2: one more fix for REQBUFS()" <Marek Szyprowski> 3 years, 9 months ago
+b76c72f : ARM: vfpmodule: move init call earlier <Iliyan Malchev> 9 weeks ago
+3bc940c : ARM: pull in <asm/simd.h> from asm-generic <Ard Biesheuvel> 1 year, 6 months ago
+cf36aa3 : crypto: create generic version of ablk_helper <Ard Biesheuvel> 1 year, 6 months ago
+b35d28d : usb: diag_bridge: Reduce Autosuspend delay to 200 ms <Ravi Vembu> 4 months ago
+2c1dd82 : usb: misc: Resume IPC interface on receiving interrupt complete callback <Mekala Natarajan> 9 weeks ago
+2b016c0 : net: wireless: bcmdhd: Fix watchdog bark issue <Ecco park> 10 weeks ago
+44c6bde : net: wireless: bcmdhd: Change cc for Indonesia <Ecco park> 10 weeks ago
+d831b2e : shamu_defconfig: Enable CRYPTO_AES_ARM <Chris Fries> 3 months ago
+530cc0e : ARM: add support for kernel mode NEON <Ard Biesheuvel> 1 year, 10 months ago
+eea0d19 : ARM: 8120/1: crypto: sha512: add ARM NEON implementation <Jussi Kivilinna> 8 months ago
+6fd4f36 : ARM: 8119/1: crypto: sha1: add ARM NEON implementation <Jussi Kivilinna> 8 months ago
+80fedae : ARM: 8118/1: crypto: sha1/make use of common SHA-1 structures <Jussi Kivilinna> 8 months ago
+bece4c1 : crypto: arm-aes - fix encryption of unaligned data <Mikulas Patocka> 8 months ago
+1521d37 : CRYPTO: Fix more AES build errors <Russell King> 1 year, 2 months ago
+bb6bcd1 : ARM: add .gitignore entry for aesbs-core.S <Russell King> 1 year, 5 months ago
+34bfb7b : ARM: add support for bit sliced AES using NEON instructions <Ard Biesheuvel> 1 year, 6 months ago
+07e0908 : ARM: move AES typedefs and function prototypes to separate header <Ard Biesheuvel> 1 year, 6 months ago
+c13b084 : ASoC: qdsp6v2: update perf mode flag for LL capture cases <Banajit Goswami> 8 months ago
+5fe13a6 : shamu: ARM: dts: msm: Disable ufs <Mekala Natarajan> 3 months ago
+3444ff9 : net: wireless: bcmdhd: clear DISCONNECTING status on timeout <Ecco park> 3 months ago
+f6023d2 : Revert "net: wireless: bcmdhd: Enable DHCP and 802.1X logging" <Vineeta Srivastava> 3 months ago
+9d83ba9 : Revert "kgsl: do not vmap/memset to zero-out pages" <Iliyan Malchev> 3 months ago
+4f7f332 : cpuidle: check for need_resched() after the idle entry trace event <Mekala Natarajan> 3 months ago
+0449521 : Revert "cpuidle: check for need_resched() after the idle entry trace event" <Mekala Natarajan> 3 months ago
+76c00d0 : net: wirelss:bcmdhd revert roaming patch <Ecco park> 3 months ago
+7c336fc : net: wireless: bcmdhd: Enable DHCP and 802.1X logging <Ritter Yeh> 3 months ago
+54c3891 : power: mmi-wls: Use Taper current for Charge Complete. <Vidyadhar Gurram> 5 months ago
+6d4583e : power: smb135x: Use Taper current for Charge Complete. <Vidyadhar Gurram> 5 months ago
+5e7502e : power: max17042: Use Taper current for Charge Complete. <Vidyadhar Gurram> 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8226 ****
+a291249 : titan: Select correct sensor drivers <LuK1337> 27 hours ago
+f7a25e7 : msm: MMI: Import falcon/peregrine/titan defconfigs <Ethan Chen> 4 days ago
+51d39fe : mdss: Add MDP_SMP_FORCE_ALLOC mdp flag <Justin Philip> 7 months ago
+35deb00 : msm: mdss: Allow smp change during composition switch <Justin Philip> 10 months ago
+f082ed1 : msm: mdss: fix rotator failures when pixel format changes <Ingrid Gallardo> 7 months ago
+0c5054f : msm: mdss: modify userspace src format during MSMFB_SET on rotator <Sree Sesha Aravind Vadrevu> 9 months ago
+80ce19a : msm: mdss: fix sync fence deadlock when rotator is used <Ujwal Patel> 11 months ago
+e105925 : msm: mdss: add support for rotator in mdss_mdp_mixer_get <Ujwal Patel> 12 months ago
+4c89bef2 : msm: display: Add pipe type selection in overlay request <Vineet Bajaj> 9 months ago
+d65b321 : msm: vidc: MMI firmware does not support extradata <Christopher Palmer> 3 months ago
+4d29c89 : msm: vidc: add new control for limiting i/p buffer size <Manikanta Sivapala> 8 months ago
+5b2ff8e : msm: vidc: Change in input buffer size calculation <Praneeth Paladugu> 1 year, 6 months ago
+5d17aad : msm: vidc: Add support for different errors <Deepak Verma> 1 year, 2 months ago
+62c5bdf : msm: vidc: Add AFD and CC metadata support to extradata <Jayasena Sangaraboina> 1 year, 6 months ago
+386099f : msm: vidc: Expose extradata size to userspace <Deva Ramasubramanian> 10 months ago
+ce60408 : msm: vidc: Amend calculation of buffer sizes in VENUS_BUFFER_SIZE <Deva Ramasubramanian> 11 months ago
+64d0c51 : msm: vidc: Add support for setting initial qp <Ashray Kulkarni> 1 year, 1 month ago
+cb28dae : msm: vidc: Add description of LTR Extradata <Deva Ramasubramanian> 1 year, 1 month ago
+12bc7c1 : msm: vidc: add control to enable Hierarchical P num layers <Arun Menon> 1 year, 2 months ago
+383ae6d : msm: vidc: Add support for MBI extradata <Deva Ramasubramanian> 1 year, 2 months ago
+ff90191 : msm: vidc: Return meaningful information for extra-data plane <Jorge Solano Altamirano> 1 year, 4 months ago
+b1ea28b : msm: vidc: Add support to request frame bits info as extra-data <Jorge Solano Altamirano> 1 year, 4 months ago
+f743f76 : [media] v4l2: Add enums to request frame bits info as extra-data <Jorge Solano Altamirano> 1 year, 4 months ago
+6ca5788 : msm: vidc: Add support to request frame level QP information <Jorge Solano Altamirano> 1 year, 4 months ago
+7dfff3e : [media] v4l2: Add enum for frame level QP extra-data <Jorge Solano Altamirano> 1 year, 4 months ago
+1f2ab00 : msm: vidc: Add generic LTR mode support <Ashray Kulkarni> 1 year, 1 month ago
+9991c3a : msm: vidc: add LTR support for video encoder <Ashray Kulkarni> 1 year, 4 months ago
+a073b8b : ASoC: msm: qdsp6v2: Add a new waitqueue state for mem map/unmap <Damir Didjusto> 9 months ago
+8a778e3 : media: radio: Fix building and loading the IRIS transport <Ricardo Cerqueira> 9 weeks ago
+fd050d3 : ksm: Provide support to use deferred timers for scanner thread <Chintan Pandya> 1 year, 1 month ago
+d66def8 : drivers: platform: msm: qpnp-vibrator: Add sysfs interface for intensity <SpaceKiller> 1 year, 2 months ago
+eac3760 : ALSA: Export audio effects header <dhacker29> 1 year, 2 months ago
+6cc5b624 : Fix sizeof-pointer-memaccess warning with gcc 4.8 <Vineeta Srivastava> 1 year, 3 months ago
+0770ffc : Fix uninitialized div_s64 for gcc 4.9 <Cody Ferber> 7 months ago
+f9a4067 : msm: Fix compiling kernel in place <Kumar Gala> 9 months ago
+a578943 : ASoC: msm: fix in-tree compilation for RTAC <Kumar Gala> 1 year, 7 months ago
+9269967 : msm: smd: fix in-tree compilation <Kumar Gala> 1 year, 7 months ago
+592fadf : lowmemorykiller: Account for highmem during kswapd reclaim <Liam Mark> 1 year ago
+9cbeaa0 : Revert "Implement new IPV6 filter logic" <Ethan Chen> 5 months ago
+f94b493 : Revert "Propagate (CR) - WLAN: Add interface specific filter configuration" <Ethan Chen> 5 months ago
+d3fa6ba : prima: Add make entries for prima <Ethan Chen> 4 days ago
+ce395b2 : Merge Motorola vendor-qcom-opensource-wlan-prima driver <Ethan Chen> 4 days ago
+a2936e36 : Merge Motorola motorola-kernel f2fs driver <Ethan Chen> 3 days ago
+a57c4d1 : fs: Remove dummy f2fs symlinks <Ethan Chen> 4 days ago
+eaa329de : netfilter: nf_conntrack_dccp: fix skb_header_pointer API usages <Daniel Borkmann> 1 year, 2 months ago
+bcc79af : mnt: Prevent pivot_root from creating a loop in the mount tree <Eric W. Biederman> 5 months ago
+3a3112b : mnt: Only change user settable mount flags in remount <Eric W. Biederman> 8 months ago
+ca4e0e7 : eCryptfs: Remove buggy and unnecessary write in file name decode routine <Michael Halcrow> 4 months ago
+3e437a8 : netfilter: conntrack: disable generic tracking for known protocols <Florian Westphal> 6 months ago
+c8a5372 : ipv4: try to cache dst_entries which would cause a redirect <Hannes Frederic Sowa> 7 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_AudioFX ****
+4f0eb65 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+9a70af6 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_BluetoothExt ****
+31c2487 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+461eb69 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+1f28924 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Camera2 ****
+1d98281 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_CellBroadcastReceiver ****
+c3ea6b5 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Contacts ****
+a5a544f : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+f08e8aa : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_DeskClock ****
+01a192a : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+c44882c : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Gallery2 ****
+7911e6b : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+f815c10 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_LockClock ****
+9e90260 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+2dae5c2 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_PhoneCommon ****
+0437e2c : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+433d5ce : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_soundrecorder ****
+8fd4621 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Stk ****
+c50f40a : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Terminal ****
+37622ae : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ThemeChooser ****
+979a19a : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_providers_DownloadProvider ****
+0d7a9c6 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_ThemesProvider ****
+7320de5 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_services_Mms ****
+e6cce3a : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telecomm ****
+4e6de9d : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+98c026a : Fix the build <Michael Bestas> 23 hours ago
+60f23f7 : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_wallpapers_PhotoPhase ****
+e5cfe1e : Automatic translation import <Michael Bestas> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+465e367 : add product.device info PS2: removed backup file <strangerweather> 13 hours ago
+ 

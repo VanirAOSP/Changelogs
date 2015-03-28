@@ -1,0 +1,471 @@
+
+**** https://github.com/VanirAOSP/bionic ****
+0073685 : Fix mismerges. <Danny Baumann> 13 hours ago
+62d9701 : Compilation Fix to build. <Sudhir Sharma> 2 weeks ago
+fcb430b : libc: scorpion: Use cortex-a15 stpcpy <Michael Bestas> 6 days ago
+f785227 : libc: memcpy_base: Disable opt for certain targets <Raghavendra Prasad Nagaraj> 9 weeks ago
+e2194aa : bionic: Allow alternate factory.prop path <Tom Marshall> 8 weeks ago
+0f0be6d : libc: denver: use Cortex-A15 Memchr <Jake Weinstein> 4 months ago
+40115a3 : Implement <pty.h>. <Elliott Hughes> 4 months ago
+07bf4fc : libc: Add memchr for cortex-a53 <Howard M. Harte> 12 months ago
+9e695b8 : libc: Add Scorpion-optimized memcpy and memset <Steve Kondik> 1 year, 8 months ago
+99f72ea : Revert "Remove the MD5 implementation that was only used by toolbox." <Ziyan> 4 months ago
+60a7b89 : krait: use A15 memchr <Jake Weinstein> 4 months ago
+554721b : Replace memcpy with the cortex-strings implementation <Bernhard Rosenkraenzer> 1 year, 1 month ago
+9f7adb4 : Import memchr implementation from cortex-strings for Cortex A15 <Bernhard Rosenkränzer> 1 year, 1 month ago
+a12722e : Replace Cortex A15 strlen implementation with cortex-strings <Bernhard Rosenkraenzer> 1 year, 1 month ago
+aa729cb : bionic: Add flag to restore legacy mmap behavior <Flemmard> 4 months ago
+193c39c : Partial revert "Remove ioprio_get(2) and ioprio_set(2) from LP64." <Ricardo Cerqueira> 5 months ago
+906f26e : Remove duplicate definition of stpcpy.c for emulator. <AUDITYA BHATTARAM> 2 weeks ago
+bcc61c8 : Remove duplicate definition of stpcpy. <Manish Kumar> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_moto_shamu ****
+9e88575 : spn reconciliation <nuclearmistake> 12 hours ago
+e8e85af : reconcile sec_config <nuclearmistake> 12 hours ago
+b338cbd : Mount /persistent <nuclearmistake> 12 hours ago
+dc93fa1 : Update non-forceencrypt fstab <nuclearmistake> 12 hours ago
+06a329c : Update fingerprint to LMY47I <dhacker29> 21 hours ago
+fee125d : Enable config_show_apn_setting_cdma <dhacker29> 21 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_find7-common ****
+9860665 : Fix stereo audio recording for camera <Silas Arentsen> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_qcom-common ****
+c501ab1 : overlay: fix config_tether_apndata defined type <Patrick Lower> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+9b4cd98 : Fix build remove cm_platlogo <DHOMD> 16 minutes ago
+f6a5b0c : Revert "Add CM PlatLogo (1/2)" <DHOMD> 37 minutes ago
+848fe21 : Fix CAF merge fail. <Danny Baumann> 17 hours ago
+db30edf : systemui: Fix ClassCastExceptions <Steve Kondik> 20 hours ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio ****
+9b812d7 : hal: Reduce offload latency and log spam <Alexy Joseph> 3 weeks ago
+d29667b : msm8916: set source on adev_open_input_stream <Scott Mertz> 4 weeks ago
+824e63e : hal: Featureize FLAC offload support <Steve Kondik> 8 months ago
+771df51 : audio: implement backend platform parser <Scott Mertz> 8 weeks ago
+f3676d1 : audio: add fm playback to usecase map <Scott Mertz> 8 weeks ago
+7e49187 : audio: implement additional platform info xml tags <Scott Mertz> 8 weeks ago
+ccf1c14 : audio: Extend platform parser to allow device name aliasing <Ethan Chen> 7 months ago
+bf4410f : hal: Port fixes and features to msm8916 HAL <Steve Kondik> 6 months ago
+b21bc64 : hal: Fix glitch in audio playback during device switch <Ravi Kumar Alamanda> 3 months ago
+2f3f96d : hal: bug fixes for PCM offload <Alexy Joseph> 4 months ago
+bd18ec6 : hal: Fix issues with app type config during device verification <Steve Kondik> 3 months ago
+4b92513 : hal: Support config selection for playback on speaker <Amit Shekhar> 5 months ago
+7ef1f1b : hal: add all compressed formats for app type selection <Alexy Joseph> 4 months ago
+87c9848 : hal: Invert standard build flags <Steve Kondik> 4 months ago
+6c0866d : hal: Squashed collection of fixes <Steve Kondik> 4 months ago
+b47086e : CM12vification <Marcos Marado> 3 months ago
+ad7d7b5 : hal: Fix for acdb id mismatch on device switch <Naresh Tanniru> 2 weeks ago
+7fc39c8 : hal: Update atoi usage to atoll in case of large Numeric values <Ashish Jain> 6 weeks ago
+f47a8a3 : hal/usb: Fix for Klocwork issues <Chaithanya Krishna Bacharaju> 7 weeks ago
+be5508d : hal: Fixes for the issues reported by KlocWork <Chaithanya Krishna Bacharaju> 8 weeks ago
+bd8198f : hal: Performance mode during recording usecase <Dhanalakshmi Siddani> 9 weeks ago
+906f334 : audio: Support for compress offload recovery <Dhanalakshmi Siddani> 2 months ago
+59b64e3 : audio: Fix for clip skip issue during SSR <Dhanalakshmi Siddani> 3 months ago
+61be611 : hal: 8939: add support for 8939 skul device <Meng Wang> 4 months ago
+5a00481 : hal: add checks for calibration buffer allocation failures <Sidipotu Ashok> 3 months ago
+770d6b5 : hal: add checks for calibration buffer allocation failures <Sidipotu Ashok> 3 months ago
+ef3a882 : hal: Add support for 8909 QRD skue <Walter Yang> 4 months ago
+678158a : hal: Fix for FM mute issue on start of FM record <Naresh Tanniru> 4 months ago
+34bdae1 : audio: hal: Add support for pm8916 on msm8909 <Laxminath Kasam> 4 months ago
+68c1310 : hal : set Non SA+ app type for PCM Capture <Preetam Singh Ranawat> 4 months ago
+707fe46 : hal : Fix for SA+ app type selection for PCM Capture usecase <Preetam Singh Ranawat> 4 months ago
+ff5cb95 : hal: use 0 as default return value for out_get_render_position <Mingming Yin> 4 months ago
+b04cb67 : hal: Define a new combo device for AANC and Fluence <Sidipotu Ashok> 5 months ago
+edb6a91 : hal: Update DS2 implementation to support ACDB based license mechanism <Ashish Jain> 5 months ago
+f44af12 : audio: HAL to support for peripheral manager <Dhanalakshmi Siddani> 5 months ago
+7115fd2 : hal : Set the input device for VOIP calls using audio path <Karthik Reddy Katta> 4 months ago
+659affa : hal: Add changes for dolby DS2 <Pradnya Chaphekar> 7 months ago
+dd00598 : hal: use updated acdb_init to pass ds1 license info <Dhananjay Kumar> 8 months ago
+9307535 : hal : Set the input device for VOIP calls using audio path <Karthik Reddy Katta> 4 months ago
+7b4dcbc : hal : Overwrite the APP type for PCM RX and TX path <Preetam Singh Ranawat> 4 months ago
+0d0f624 : hal : Overwrite the APP type for PCM RX and TX path <Preetam Singh Ranawat> 4 months ago
+02c133d : hal: Update DS2 implementation to support ACDB based license mechanism <Ashish Jain> 5 months ago
+9cdd2f3 : hal: use updated acdb_init to pass ds1 license info <Dhananjay Kumar> 8 months ago
+69afea3 : hal: Add changes for dolby DS2 <Pradnya Chaphekar> 7 months ago
+44a72ee : hal: add support for low-latency capture <Sharad Sangle> 5 months ago
+dccff62 : hal: Define a new combo device for AANC and Fluence <Sidipotu Ashok> 5 months ago
+c95fd32 : policy_hal: Update custom policy manager to new base class <Ravi Kumar Alamanda> 5 months ago
+431dcbb : hal: add support for low-latency capture <Sharad Sangle> 5 months ago
+06d6c56 : hal: Add support for 8909 QRD skua/skuc <Walter Yang> 5 months ago
+9c58163 : hal: add new devices for VoIP usecase for 8909 <Naresh Tanniru> 5 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display ****
+9adc065 : msm8226: add missing symlink to common.mk in msm8974 <Dan Pasanen> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display ****
+a106a78 : hwc: Add secure display attribute <Baldev Sahu> 4 months ago
+cb45efb : msm8916 wants venus color formats, too! <Ricardo Cerqueira> 3 months ago
+90951db : CM12vification <Marcos Marado> 3 months ago
+33a0d2c : hwc: Do not enable swaprect when rotation is involved <Dileep Kumar Reddi> 2 weeks ago
+49caea0 : hwc: fix colorSpace value in gralloc_alloc_buffer <Dileep Kumar Reddi> 3 weeks ago
+b87bea3 : Revert "hwc: avoid MDP composition for video with odd parameters" <Dileep Kumar Reddi> 3 weeks ago
+fcc4be9 : hwc: avoid MDP composition for video with odd parameters <Dileep Kumar Reddi> 4 weeks ago
+eab2f39 : hwc: Add null check for copybit context and source handler <Ramakant Singh> 4 weeks ago
+8e2c62f : hwc: Use drop information in caching to avoid flicker <Dileep Kumar Reddi> 4 weeks ago
+9c0c8b0 : hwc: Add 60 progressive framerate to the table <Arun Kumar K.R> 4 months ago
+8e5aedd : hwc: Handle worm hole region for one line <Ramakant Singh> 6 weeks ago
+95f630f : hwc: Handle properly event data string from driver <Praveena Pachipulusu> 8 weeks ago
+f3d3419 : hwc: Try MDP composition eventhough skip layer is present <Raj Kamal> 5 months ago
+e17ba1e : hwc: Release DrawLock before calling invalidate <Raj Kamal> 3 months ago
+fa70022 : hwc: Add binder API to disable screen updates <Naseer Ahmed> 4 months ago
+3590e20 : hwc: Reset ROI and avoid dirtyRect for video case <Dileep Kumar Reddi> 3 months ago
+7081cc7 : hwc: Preserve dynamic partial update on frameworks reboot <Jeykumar Sankaran> 4 months ago
+ecb2e53 : hwc: Fix scaling issue in copybit. <Ramakant Singh> 10 weeks ago
+f59a27f : hwc: Add dynamic fps support for PPP <Ramakant Singh> 3 months ago
+a9ccf91 : hwc: Set min panel refresh rate during idle timeout. <Praveena Pachipulusu> 4 months ago
+80ff234 : hwc: Enable swapRect for overlapping use-cases <Dileep Kumar Reddi> 3 months ago
+b53263d : hwc: Use dirtyRect details in solid fill <Dileep Kumar Reddi> 3 months ago
+7078863 : hwc: Use displayFrame information in caching <Dileep Kumar Reddi> 3 months ago
+ce4720e : gralloc: Allocate cached by default, don't use bitops on SW flags <Saurabh Shah> 3 months ago
+242337b : hwc: fix fence issue in app buffer composition <Ramakant Singh> 3 months ago
+ffc6948 : hwc: Add binder API to control partial update <Jeykumar Sankaran> 8 months ago
+26246ee : gralloc: In lock use writer info from allocation time <Saurabh Shah> 4 months ago
+4fb08d4 : hwc: Handle alpha scaling in mdp3. <Ramakant Singh> 4 months ago
+5a33a0f :  hwc: Address reviewing comments to use shared data structure <Lei Zhou> 3 months ago
+3fb2c98 : hwc: fix crop validation issue in copybit. <Ramakant Singh> 3 months ago
+7c43153 : hwc: Add check for dirtyRect clear call. <Ramakant Singh> 4 months ago
+2e042b7 : ewc: qdcm: Add featurization support for OSS builds <Zohaib Alam> 4 months ago
+5e887fb : hwc: add qdcm service to be loaded in HWC and perform service. <Lei Zhou> 4 months ago
+a5d236a : hwc: Rename app buffer count property <Ramakant Singh> 4 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display ****
+19c4ab9 : libgralloc: Set Alignment to 1M only for Secured buffers. <Praveena Pachipulusu> 10 months ago
+849bbc1 : ovelray: Tolerate the absense of an RGB pipe <Diogo Ferreira> 4 weeks ago
+ee38b72 : hwc/overlay: Get rot dest dimensions instead of manipulating source <Saurabh Shah> 9 months ago
+ab9715f : display: Use direct project pathmap <Ethan Chen> 4 months ago
+ccf6e0a : hwc : Enable partial update if panel supports it. <Prabhanjan Kandula> 11 months ago
+8c25290 : hwc: Bump up version to 1.4 <Saurabh Shah> 8 months ago
+4a3fe14 : liboverlay: Invoke commit before freeing the writeback device <Jeykumar Sankaran> 7 months ago
+3250d5a : hwc: mdpcomp: Free pipeinfo objects every drawing round <Saurabh Shah> 7 months ago
+fd87e69 : hwc: Consider FLIP flags for partial update. <Jeykumar Sankaran> 10 months ago
+017984c : overlay: Add a flag for compilation with new API <Steve Kondik> 9 months ago
+2c26253 : gralloc: Change loglevel of adreno_utils warning <Steve Kondik> 1 year, 2 months ago
+e35e491 : Don't build lights module if vendor supplies it <Steve Kondik> 5 months ago
+523b41f : display: Use project pathmap <Ethan Chen> 5 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media ****
+2113ec9 : CM12vification <Marcos Marado> 3 months ago
+a5e9f64 : mm-video-v4l2: vdec: Add support for describing color format <Praveen Chavan> 5 months ago
+cd5c160 : mm-video-v4l2: venc: update color format in port-def <Praveen Chavan> 3 months ago
+2158f37 : mm-video-v4l2: vdec: Disable switching to surface-mode-format <Praveen Chavan> 5 months ago
+7480373 : mm-video: vidc: Fix KW issues in software encoder OMX component. <Manikanta Sivapala> 7 weeks ago
+9c8f359 : mm-video-v4l2: Fix stride and scan line update <Surajit Podder> 7 weeks ago
+c223a35 : mm-video-vidc: change buffer index logic in EBD <Pushkaraj Patil> 7 weeks ago
+46c0536 : mm-video-v4l2: vidc: vdec: dump extradata payload appropriately <Vikash Garodia> 3 months ago
+6f15d3a : mm-video-v4l2: vidc: vdec: handle codec config ETB's properly <Pushkaraj Patil> 9 weeks ago
+9eaec7b : mm-video: vdec: Fix a faulty NULL access <Deva Ramasubramanian> 5 months ago
+9a03427 : mm-video-v4l2: Fix stride and scan line update <Surajit Podder> 7 weeks ago
+186893b : mm-video: vidc: Fix KW issues in HEVC full-sw decoder component. <Manikanta Sivapala> 7 weeks ago
+a3ed1d4 : mm-video-v4l2: vidc: vdec: Resolve klockworks error <Srinu Gorle> 8 weeks ago
+2490634 : mm-video-vidc: Handle ETB with EOS for NV12 ENCODEABLE format <Pushkaraj Patil> 3 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media ****
+c38861e : media: Avoid collision with FFMPEG plugin <Steve Kondik> 11 months ago
+3dd8f5b : mm-video: venc: Correct a typo in variable name <Deepak Verma> 1 year, 5 months ago
+48e234c : media: Use direct project pathmap <Ethan Chen> 4 months ago
+5547e1a : mm-video: Fix usage of ION APIs in HEVC decoder <Steve Kondik> 5 months ago
+8ebdf42 : mm-video-v4l2: use new API for Ion handles <Mitchel Humpherys> 1 year, 3 months ago
+a47ae2a : mm-core: Kill logspam <Steve Kondik> 9 months ago
+96a37a7 : media: Use project pathmap <Ethan Chen> 5 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media ****
+d27e27c : media: Avoid collision with FFMPEG plugin <Steve Kondik> 11 months ago
+6520202 : media: Use direct project pathmap <Ethan Chen> 4 months ago
+2fac754 : mm-video: venc: Correct a typo in variable name <Deepak Verma> 1 year, 5 months ago
+2df1c73 : media: Use kernel headers <Chirayu Desai> 4 months ago
+23ee3eb : media: Use project pathmap <Ethan Chen> 5 months ago
+15fb17b : mm-video-legacy: vdec: force uncached gralloc buffers <Praveen Chavan> 7 weeks ago
+d3e4bca : mm-video-legacy: vdec: add YUV420SP support in surface-mode <Praveen Chavan> 7 weeks ago
+8dac2f1 : mm-video-legacy: vdec: allocate color-conversion buffers as uncached <Praveen Chavan> 7 weeks ago
+709179c : mm-video-v4l2: vdec: Add support for describing color format <Praveen Chavan> 5 months ago
+5edf3e6 : mm-video-v4l2: vdec: Disable switching to surface-mode-format <Praveen Chavan> 5 months ago
+15e16d9 : mm-video-legacy: vdec: disable frame parsing in component <Praveen Chavan> 9 weeks ago
+65fd197 : mm-video-legacy: vdec: disable frame parsing in component <Praveen Chavan> 9 weeks ago
+dd51ac5 : mm-video-legacy: venc: do not send duplicate EBDs in case of an error <Praveen Chavan> 9 weeks ago
+27e9056 : mm-video-legacy: venc: do not send duplicate EBDs in case of an error <Praveen Chavan> 9 weeks ago
+9262c4f : mm-video-v4l2: venc: update color format in port-def <Praveen Chavan> 3 months ago
+81e3261 : mm-video-v4l2: vdec: Use standard HEVC coding type <Praveen Chavan> 6 months ago
+5aa0323 : mm-core: synchronize OpenMax headers with AOSP counterparts <Praveen Chavan> 9 months ago
+3072d26 : mm-video-legacy: vdec: add YUV420SP output format support <Praveen Chavan> 5 months ago
+5eec611 : mm-video-legacy: vdec: synchronize color-conversion calls <Praveen Chavan> 5 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_dlx ****
+dbc251a : page_alloc: fix a mismerge <Dan Pasanen> 7 days ago
+3e8d9ef : mm: Fix NULL pointer dereference in madvise(MADV_WILLNEED) support <Kirill A. Shutemov> 1 year, 3 months ago
+7c61567 : vfs: read file_handle only once in handle_to_path <Sasha Levin> 8 weeks ago
+1bb63eb : add extra free kbytes tunable <Rik van Riel> 3 years, 7 months ago
+ab75b79 : mm: cma: remove watermark hacks <Marek Szyprowski> 2 years, 3 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_samsung_klte ****
+108f676 : fastcharge: Add some blocking code for functions reducing chargin current and setting some variables for 3rd party apps <ktoonsez> 10 hours ago
+fcc5fb0 : ktoonservativeq: Totally revamped - NEW tunable lockout_changes_when_boosting used to lockout changes to frequency and hotplugging activities during touch/button boost - NEW tunable cpu_load_adder_at_max_gpu_ignore_tb used to ignore gpu cpu load adder during a touch/button boost - Modified all global vars placement so governor can run on all 4 cores instead of controlling them thru proxy - Optimized code adding more sub functions to reduce code - Moved global counters into cpu_dbs_info_s struct so each core keeps there own version - Using new debug_enabled tunable from previous commit added a few more debug lines for keeping track of load and hotplugging activities - All hotplugging activities are mutex protected - Added some more effective boost code upon wakeup - Switched from queue_delayed_work_on to schedule_delayed_work_on queueing routine and schedule is MUCH MUCH more reliable/repeatable <ktoonsez> 22 hours ago
+f8400fd : traps: Disable the constant spam in dmesg from 'undefined instruction' print statement. <ktoonsez> 28 hours ago
+c33579a : Add code to spread cpu governor to all cores.  Commented out right now but working. <ktoonsez> 29 hours ago
+d9eef67 : Fix machine name check for build threads <ktoonsez> 3 days ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+5b2654c : More L51 paths for qcom giblets <nuclearmistake> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Contacts ****
+7fff99a : Display group memberships in a meaningful way. <Danny Baumann> 34 hours ago
+0d4dea3 : Remove SIM icon tinting. <Danny Baumann> 2 days ago
+6f680e5 : Fix merge relicts. <Danny Baumann> 2 days ago
+ed18828 : Don't access mRecentLoaderResults in background <Brian Attwell> 6 weeks ago
+f0a2a8b : Remove viewContactDesription intent label <Brian Attwell> 2 months ago
+181eb0b : Set track drawable to null to remove grey track. <Andrew Lee> 3 months ago
+5d5664c : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+8c188a0 : Reflect framework dimen changes in editor <Brian Attwell> 3 months ago
+d462d3a : Scroll to top of raw_contact on expansion <Brian Attwell> 3 months ago
+099046c : Support editable 3p accounts without nicknames <Brian Attwell> 3 months ago
+02ecc3f : Fix ContactLoader IllegalArgumentException crash <Jay Shrauner> 3 months ago
+7c80120 : bugfix: don't show name in nickname field <Brian Attwell> 4 months ago
+12ac1e6 : Fix ConcurrentModificationException <Jay Shrauner> 4 months ago
+ba4d584 : Switch readonly editor to textviews <Brian Attwell> 4 months ago
+d8164c7 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+5fd8698 : Don't accidentally scroll QC off screen. <Brian Attwell> 4 months ago
+d690dff : Change text colors to reflect their state <Brian Attwell> 4 months ago
+4759343 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+87901e0 : Hide keyboard when exiting search view <Brian Attwell> 4 months ago
+8d0557e : Don't show shortcut menu item for homescreen <Brian Attwell> 4 months ago
+3a7cc76 : Fix NPE in onHandleIntent <Jay Shrauner> 4 months ago
+96cc835 : Fix clipping wrapped Button text <Brian Attwell> 4 months ago
+d241a09 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+47b17c8 : Use delete icon from go/icons <Brian Attwell> 4 months ago
+d391f84 : Catch ActivityNotFoundExceptions in onClick <Jay Shrauner> 4 months ago
+49de62f : Fix NPE in shareContact <Jay Shrauner> 4 months ago
+76c1a51 : Display empty name as "no name" instead of "null" <Jay Shrauner> 4 months ago
+568f4e7 : Fix NPE in getInsertedRawContactId <Jay Shrauner> 4 months ago
+b762780 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+2b24602 : In editor, use Up button instead of Save button <Brian Attwell> 4 months ago
+daa2058 : Collapse extra raw contact editors <Brian Attwell> 4 months ago
+b4154e4 : Don't save contact after deleting it <Brian Attwell> 4 months ago
+7609b7d : Make color tinting less offensive <Brian Attwell> 4 months ago
+884a4ca : Fix NPE in decodedBitmapDrawable <Jay Shrauner> 4 months ago
+82a5a35 : Fix SecurityException crashes in onClick <Jay Shrauner> 4 months ago
+fcfcae3 : Don't crash when sent malformed intent <Jay Shrauner> 4 months ago
+c12a280 : Fix NPE in ContactSaveService <Jay Shrauner> 4 months ago
+29dfdb5 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+fde48de : Don't show search when unsupported <Brian Attwell> 4 months ago
+91370ba : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+b3944dc : Correctly set search string when entering search <Brian Attwell> 4 months ago
+49fd84f : String needed for Hangouts IM field work-around <Brian Attwell> 4 months ago
+6b51952 : Switch from CALL -> CALL_PRIVILEGED <Yorke Lee> 4 months ago
+22720b1 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+3e8fedc : Remove call to deleted method AsyncTask.init(). <Jeff Brown> 4 months ago
+74b5d6c : Fix NPE when cursor is null <Jay Shrauner> 4 months ago
+929a62f : Fix NPE in background thread <Jay Shrauner> 4 months ago
+8c8cafb : Improve content descriptions a bit <Brian Attwell> 4 months ago
+2c47b34 : Revert "Keep landscape quickcontact title on screen" <Brian Attwell> 4 months ago
+cdf0f7a : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+40f86ac : Populate group title. <Danny Baumann> 35 hours ago
+35e7a49 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+28d49d2 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+d6a3092 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+cb067c8 : Add Text-to-Speech annotations to import/export menu phone numbers <Ihab Awad> 4 months ago
+a8b34ea : Add Text-to-Speech annotations for phone number displays (2/3) <Ihab Awad> 4 months ago
+9e66cde : Adding ContactLoader support to suppress contact photo loading. <Tyler Gunn> 4 months ago
+4e3a17e : Fix package manager TransactionTooLargeExceptions <Jay Shrauner> 4 months ago
+9824b1a : Make MaterialPalette parcelable <Yorke Lee> 4 months ago
+2567dbb : Fix NPE in loadInBackground <Jay Shrauner> 4 months ago
+0eaaa2d : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+114c365 : Fix cursor exception in getThumbnailSize <Jay Shrauner> 4 months ago
+4feb303 : Fix cursor exception in changeCursor <Jay Shrauner> 4 months ago
+2f3fd5f : Fix int/long mismatch for import from SIM <Jay Shrauner> 4 months ago
+b0b0a23 : Fix too many variables SQLiteException <Jay Shrauner> 4 months ago
+6879d49 : Don't crash in loader on SecurityExceptions <Jay Shrauner> 4 months ago
+dd20025 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+ff95fe1 : Additional changes to SubscriptionManager API as per API council. <Wink Saville> 4 months ago
+2f7aadd : Make ripple on dark backgrounds more visible <Yorke Lee> 4 months ago
+426b471 : Revert "Additional changes to SubscriptionManager API as per API council." <Wink Saville> 4 months ago
+a63ae79 : Additional changes to SubscriptionManager API as per API council. <Wink Saville> 4 months ago
+bde672b : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+f7d87e2 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+faed337 : Switch from CALL -> CALL_PRIVILEGED <Yorke Lee> 4 months ago
+09a7eef : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+dd7481a : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+6f2673a : Set snippet/data/phonetic textview text alignment to start <Walter Jang> 4 months ago
+f583479 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+f8373b3 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+d6725ae : Un-tint the icon for the select account dialog <Nancy Chen> 4 months ago
+e47a2da : Update SubscriptionManager API as per API council. <Wink Saville> 5 months ago
+6cdaa57 : Update PhoneAccount icon API (2/6) <Ihab Awad> 5 months ago
+90058bf : Import translations. DO NOT MERGE <Geoff Mendal> 5 months ago
+64472aa : String resource edits for ContactsCommon <Nancy Chen> 5 months ago
+c94f8ca : Import translations. DO NOT MERGE <Baligh Uddin> 5 months ago
+0a2ae13 : Fix build break in AOSP Dialer <Yorke Lee> 5 months ago
+8e061b8 : Fix build breakage by adding color to contacts common. <Nancy Chen> 5 months ago
+75b25b5 : Modify Select Account Dialog to align with UI mocks. <Nancy Chen> 5 months ago
+ef6c863 : Remove windowNoDisplay from BackgroundOnlyTheme <Brian Attwell> 5 months ago
+de48a0d : Clean up public API of SubInfoRecord. <Stuart Scott> 5 months ago
+b63b46a : Guard against null messages when constructing telephone ttspans <Walter Jang> 5 months ago
+41a08f4 : Fix NPE in getTargetFileForDisplay <Jay Shrauner> 5 months ago
+95f85c8 : Fix NPE when intent is null <Jay Shrauner> 5 months ago
+c65ea9a : Update edit screen ordering <Brian Attwell> 5 months ago
+9dff772 : Improve analytics <Brian Attwell> 5 months ago
+d4c540b : Set TtsSpans on names and snippets that could be phone numbers <Walter Jang> 5 months ago
+70c9f38 : Making a subclass for InCallUI uses of MaterialColorMapUtils. <Nancy Chen> 5 months ago
+33505e9 : PhoneAccounts include literal icon bitmap (2/4) <Ihab Awad> 5 months ago
+dec173e : Extract default InCallUI colors for display. <Nancy Chen> 5 months ago
+f543d66 : Import translations. DO NOT MERGE <Geoff Mendal> 5 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+49b9b24 : Fix merge relicts. <Danny Baumann> 2 days ago
+c569a95 : Fix parameter naming. <Danny Baumann> 3 days ago
+06d7d08 : Fix voicemail playback position control <Jay Shrauner> 7 weeks ago
+7aaf241 : Fixing issue where carrier name shows up in call log on single sim devices. <Tyler Gunn> 7 weeks ago
+e48124f : Fix crasher due to IndexOutOfBoundsException <Anthony Lee> 9 weeks ago
+1eb16ea : When dialing voicemail, check voicemail number of correct default SIM. <Nancy Chen> 2 months ago
+cf30784 : Launch CircularRevealActivity as singleInstance <Yorke Lee> 2 months ago
+69df004 : Set track drawable to null to remove grey track. <Andrew Lee> 3 months ago
+b377248 : Ensure sim color is shown on multi-sim devices when only one sim installed. <Tyler Gunn> 3 months ago
+d6d3532 : Fixing overlap pane offset when shortcut card disappears. <Tyler Gunn> 3 months ago
+56e1554 : Fix for clear call log dialog not being dismissed <Yorke Lee> 3 months ago
+fa584b6 : Import translations. DO NOT MERGE <Baligh Uddin> 3 months ago
+5020667 : Correctly set visibility of reused shortcut card <Yorke Lee> 3 months ago
+34b83c9 : Handle SQLiteFullExceptions <Jay Shrauner> 3 months ago
+630fa46 : Fix ClassCastException in CallLogFragment <Yorke Lee> 3 months ago
+1d4cd7c : Check for cases before clearing dialog. <Andrew Lee> 3 months ago
+0bbd606 : Improve Talkback for "Speed dial" user interface <Ihab Awad> 3 months ago
+e23b42b : Avoid spurious Talkback notifications <Ihab Awad> 3 months ago
+0458b21 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+5c52bb8 : Fix potential NPE when generating accessibility text. <Tyler Gunn> 4 months ago
+51aa234 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+5ebf6c6 : Use a BroadcastReceiver for Dialpad behavior upon call hangup. <Nancy Chen> 4 months ago
+1e5325f : Add Text-to-Speech annotations for phone number displays (3/3) <Ihab Awad> 4 months ago
+1513fec : Updating "Add Contact" to pre-populate full contact info. <Tyler Gunn> 4 months ago
+9a4c112 : Expand search bar text to vertically fit on small devices. <Nancy Chen> 4 months ago
+39c18f2 : Bypass Dialpad code and allow InCallUI check voicemail number for MSIM. <Nancy Chen> 4 months ago
+0ff9877 : Set content inset end to 0. <Andrew Lee> 4 months ago
+df47edd : NPE fix. <Anthony Lee> 4 months ago
+5b74836 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+48da460 : Set content inset end to 0. <Andrew Lee> 4 months ago
+acfbbad : On MSIM devices, include account from call log in talkback. <Nancy Chen> 4 months ago
+fa93689 : Improve outgoing call UI responsiveness <Yorke Lee> 4 months ago
+ad333c0 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+e80b9c1 : Telecom API updates (2/6) <Ihab Awad> 4 months ago
+910fcbf : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+c57f664 : Fix NPE in markDropArea <Jay Shrauner> 4 months ago
+b9eb630 : Pass string key when updating ringtone. <Andrew Lee> 4 months ago
+867531f : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+f15a283 : Use REDIAL instead of CALL BACK for outgoing calls <Yorke Lee> 4 months ago
+c1cfae5 : Correcting population of search box with voice search results. <Tyler Gunn> 4 months ago
+4dbd3a2 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+8debdd7 : Move ToneGenerator recreation/release to onStart/onStop <Yorke Lee> 4 months ago
+4e97e09 : Switch from CALL -> CALL_PRIVILEGED <Yorke Lee> 4 months ago
+7923397 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+f2a02cd : Add a color for settings button. <Nancy Chen> 4 months ago
+26e8a3e : Remove call to deleted method AsyncTask.init(). <Jeff Brown> 4 months ago
+c155321 : Add string for redial <Yorke Lee> 5 months ago
+b6f9f4a : Fix for empty list view text being obscured <Yorke Lee> 4 months ago
+ede8867 : Move ToneGenerator recreation/release to onStart/onStop <Yorke Lee> 4 months ago
+eee6cc5 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+0666a43 : Import translations. DO NOT MERGE <Geoff Mendal> 8 weeks ago
+775a9e4 : Hide emergency callback number when slot2 SIM is default. <Nancy Chen> 9 weeks ago
+fde1bf3 : Import translations. DO NOT MERGE <Geoff Mendal> 9 weeks ago
+978f6bf : Remove padding from call buttons to fix undesired cropping. <Nancy Chen> 10 weeks ago
+f06f97f : Improve call button accessibility. <Andrew Lee> 2 months ago
+13304bc : Tidy up text alignments for secondary call info. <Andrew Lee> 3 months ago
+3a8eaf2 : [DS] Fix a bug about Sip incoming call screen do not show. <Mick Lin> 3 months ago
+fec0d0b : Fixing Null Pointer exception due to uninitialized view reference. <Tyler Gunn> 3 months ago
+2759ccb : Read enabled/disabled state for InCall buttons. <Andrew Lee> 3 months ago
+211bccf : Ensure sim color is shown on multi-sim devices when only one sim installed. <Tyler Gunn> 3 months ago
+49ca779 : Call duration should be verbalized as hours, minutes, seconds. <Nancy Chen> 3 months ago
+eed7e2d : Announce incoming calls in all cases <Ihab Awad> 3 months ago
+fa359dd : Minor UI tweak <Yorke Lee> 3 months ago
+4b04dbe : Add haptic vibration feedback on in-call buttons. <Santos Cordon> 3 months ago
+adfe810 : Show error dialog and end call for service not supported error <Yorke Lee> 3 months ago
+a37a346 : Revert "Allow back to be pressed while in incoming call screen" <Yorke Lee> 3 months ago
+85e0b44 : Always animate drawables when given animations <Evan Charlton> 3 months ago
+9939a07 : Add phone number annotations for TalkBack <Ihab Awad> 3 months ago
+ae3e5b7 : Revert "Allow back to be pressed while in incoming call screen" <Yorke Lee> 3 months ago
+2396cf4 : Animate drawables if possible <Evan Charlton> 3 months ago
+ddaed91 : Use mInCallActivity if mContext is null. <Andrew Lee> 3 months ago
+c296217 : Support RTL in InCall call card. <Andrew Lee> 3 months ago
+467cf77 : No InCall UI visible after hiding conference manager. <Tyler Gunn> 4 months ago
+948ae08 : Show error dialogs in InCallUI <Yorke Lee> 4 months ago
+1ffab1e : Removing "windowNoTitle" style attribute for InCallScreen. <Tyler Gunn> 4 months ago
+352e869 : Removing "windowNoTitle" style attribute for InCallScreen. <Tyler Gunn> 4 months ago
+9cb3912 : Add some logging to outgoing call flow <Yorke Lee> 4 months ago
+c670713 : Improve outgoing call UI responsiveness <Yorke Lee> 4 months ago
+7ad00e0 : Fixing manage conference accessibility issues. <Tyler Gunn> 4 months ago
+c13806d : Bidi wrap phone number in incoming notification. <Andrew Lee> 4 months ago
+33d381d : Dialer: Set notification category for incoming calls. <John Spurlock> 4 months ago
+9831b73 : Add some more logging in InCallActivity and InCallPresenter <Yorke Lee> 4 months ago
+52c7d98 : Add some more logging in InCallActivity and InCallPresenter <Yorke Lee> 4 months ago
+3212262 : Show HD audio icon. <Andrew Lee> 4 months ago
+576937a : Adding missing touch feedback ripples for swap and hold conference buttons. <Tyler Gunn> 4 months ago
+b65dfcc : Change Log.wtf to Log.w to prevent rare crash. <Nancy Chen> 4 months ago
+8936f6d : Fix build breakage due to http://ag/587241 <Ihab Awad> 4 months ago
+72b380e : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+737f567 : Telecom API updates (3/6) <Ihab Awad> 4 months ago
+e6ff80b : Stop ringer when selecting "respond via text". <Nancy Chen> 4 months ago
+53d468b : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+a44049e : Fix NPE in getCallProviderLabel <Jay Shrauner> 4 months ago
+fdeb4fe : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+b3eb123 : Don't cancel incall notification unnecessarily <Yorke Lee> 4 months ago
+afc38d2 : Check for generic conference for showing notification. <Andrew Lee> 4 months ago
+7255134 : Resize InCallUI for small devices. <Nancy Chen> 4 months ago
+e4f10f3 : Use conference call label for IMS calls. <Andrew Lee> 4 months ago
+eda9b7b : Disable cross-fade in InCallUI <Yorke Lee> 4 months ago
+acff6a0 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+6d68ba1 : Improve setting of contact photos in InCallUI <Yorke Lee> 4 months ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_PhoneCommon ****
+74d8842 : Adapt signature of MSIM updateRingtoneName() method to non-MSIM case. <Danny Baumann> 2 days ago
+895849b : Return default notification uri if none found. <Andrew Lee> 9 weeks ago
+690b2c6 : Enable text-to-speech in dialer edit field (1/2) <Ihab Awad> 4 months ago
+ff0faf8 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+f566284 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+0a39f81 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+aca062f : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+c11bd1b : Use string SharedPreferences key for update ringtone. <Andrew Lee> 4 months ago
+0ec03af : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+7c2619b : Make dialpad dimension values resizeable. <Nancy Chen> 4 months ago
+0830cf6 : Update ILD rate to match redlines <Evan Charlton> 4 months ago
+b8544c3 : Import translations. DO NOT MERGE <Geoff Mendal> 4 months ago
+908d753 : String resource edits for PhoneCommon <Nancy Chen> 5 months ago
+972e873 : Show ILD rate information if present <Evan Charlton> 5 months ago
+3accf86 : Reduce size of dialpad digits by 4 dp <Yorke Lee> 5 months ago
+29be669 : Import translations. DO NOT MERGE <Geoff Mendal> 5 months ago
+9c3c4a4 : Import translations. DO NOT MERGE <Geoff Mendal> 5 months ago
+afecc57 : Use 8dp for fab elevation <Brian Attwell> 6 months ago
+b3ee861 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+7b906e4 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+db330a3 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+da05623 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+fa810ab : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+6409817 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+7d45c70 : Import translations. DO NOT MERGE <Baligh Uddin> 7 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+731baaf : Revert "CM PlatLogo: CyanogenMod version preference (2/2)" <DHOMD> 38 minutes ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+ce9901a : msim: fix CallFeatureSetting.java compile error <Matt Filetto> 18 hours ago
+34a2353 : telephony: Build fix <Steve Kondik> 21 hours ago
+ 
+**** https://github.com/DHOMD/commotio ****
+bdc6db7 : 5.1 + 80 <DHOMD> 2 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_motorola ****
+dccd7b8 : Nexus 6 (Mobile) binaries for Android 5.1.0 (LMY47I) <dhacker29> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+f9db5ad : Updates for 51 <DHOMD> 2 hours ago
+df8c80d : Airtel MMS - Add authtype=1 for PAP <Abhisek Devkota> 2 days ago
+8a16308 : Update Telekom (T-Mobile) HU APN <Tamás Tóth> 3 days ago
+37b8cc3 : SystemUpdateService: enable service but lock its receivers [2/2] <Gianmarco Reverberi> 2 weeks ago
+47e6e63 : Update Telenor HU APN <Abhisek Devkota> 7 days ago
+a12edf0 : Add new Maxis combined APN <Abhisek Devkota> 8 days ago
+e403bc8 : Revert "[NUCLEAR OPTION]: DLX and M8 are dead. recovery_from_boot NEVER returns... I lost 5 hours of nightly compilation time to ONE of them this past round of nightlies." <nuclearmistake> 9 days ago
+7fbb4db : sepolicy: Permissions for userinit <Emerson Pinter> 6 weeks ago
+5fd8ebf : Add USMobile (MVNO) apn <Abhisek Devkota> 10 days ago
+a143022 : apn: Add LG U+ LTE APN <Byun Jae Myeong> 12 days ago
+4a18f07 : Add additional APNs for US Cellular <Howard M. Harte> 12 days ago
+ 
