@@ -1,0 +1,440 @@
+
+**** https://github.com/VanirAOSP/bootable_recovery ****
+5061da7 : bootloader: Silence /misc partition error <Matt Mower> 10 months ago
+ 
+**** https://github.com/VanirAOSP/build ****
+7435a91 : build: Use xxxhdpi recovery resources on 560dpi devices <Steve Kondik> 27 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+755fd7c : Revert g2: Add PCC calibration interface This commit reverts: e4e456c65d2b49ad09191e3efee250ef2cf9134b <sudosurootdev> 29 hours ago
+e003b5b : Fix VoIP <sudosurootdev> 2 days ago
+b578d2f : Fix issue why build keeps failing. I found out it is due to glibc 2.15 Also go back to using linaro-4.9 for kernel toolchain because I have seen a couple odd linking errors in kernel with this 4.10 UBERUTILS <sudosurootdev> 11 days ago
+7ab601c : G2: Fix media/audio/video cache issues for good <sudosurootdev> 4 weeks ago
+ecea27a : Allow mpdecision write sepolicy permission to tmpfs files & socket files. <sudosurootdev> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+c864719 : hammerhead: Update build fingerprint and description to LMY47I <myfluxi> 4 days ago
+061be6e : hammerhead: Add support for 5.1 bootloader (HHZ12f) <Clyde Tan> 2 weeks ago
+6e10b77 : hammerhead: Update build fingerprint and description to LMY47D <myfluxi> 3 weeks ago
+674e3cc : hammerhead: Disable thread boosting <myfluxi> 11 days ago
+ 
+**** https://github.com/VanirAOSP/device_moto_shamu ****
+c53d238 : restorecon outside of a trigger? doubleyou tee heff? <nuclearmistake> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_falcon ****
+53d3145 : Add CDMA LP bootloader to assert <cody ferber> 2 days ago
+3ae4e81 : falcon: Increase zRAM size <Konsta> 3 months ago
+91f063d : falcon_cdma: Fix no SIM detected for falcon_cdma <Meticulus> 2 weeks ago
+899ec19 : falcon: Set secondary network mode <Ethan Chen> 6 days ago
+f0d3057 : Falcon: Add Bootloader Assert <LuK1337> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/motorola_msm8226-common ****
+f86c436 : msm8226-common: Fix boost frequencies <luca020400> 13 days ago
+48aeba9 : msm8226-common: rootdir: fix typo <luca020400> 13 days ago
+19bcc94 : msm8226-common: Enable releasetools <LuK1337> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_omap4-common ****
+a815ec0 : Power HAL: Calculate interactive governor hispeed_freq instead <JooJooBee666> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_qcom-common ****
+d3788fd : Headset button 0 generates KEY_MEDIA input event <nadlabak> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_victara ****
+f89a7a3 : victara: cmactions: Fix some code style errors <Christopher R. Palmer> 2 days ago
+d3a9f03 : victara: cmactions: Move to screen on/off instead of enable/disable <Christopher R. Palmer> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_oneplus_bacon ****
+6359924 : bacon: More hacks to deal with vendor damage <Steve Kondik> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/device_qcom_common ****
+f583378 : power-8610: Remove unnecessary hint <Steve Kondik> 2 weeks ago
+8b1a74a : power-8610: Increase the boost a bit <Steve Kondik> 2 weeks ago
+a16b583 : power-8610: Remove the HMP boost hint <Steve Kondik> 2 weeks ago
+20913b8 : power-8610: Add support for POWER_HINT_LOW_POWER <Steve Kondik> 2 weeks ago
+d3b0b55 : power-8610: Various updates to Power HAL <Steve Kondik> 2 weeks ago
+54173c7 : power-8610: Add support for system performance profiles. <Steve Kondik> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_mondrianwifi ****
+bb70251 : mondrianwifi: init: Set input device permissions by name <Christopher R. Palmer> 13 days ago
+acaedc1 : mondrianwifi: power: Find the right inputs by name <Christopher R. Palmer> 13 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_smdk4412-common ****
+403220a : smdk4412-common: update permissions for sdcard1 <sbrissen> 6 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_smdk4412-qcom-common ****
+f7c887c : smdk4412-qcom: add GPS set privacy <sbrissen> 6 days ago
+3182bdf : smdk4412-qcom: Use gps hal from D2 <sbrissen> 6 days ago
+a378571 : smdk4412-qcom: update RIL <sbrissen> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_t0lte ****
+44cfb16 : t0lte: update fstab noemulatesd <sbrissen> 6 days ago
+38559b9 : t0lte: updates for KK ril <sbrissen> 8 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_huashan ****
+1e3edbd : huashan: fix stupid typo <Brinly Taylor> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+20c6e56 : Revert "PhoneWindowManager: Clean windows during bootup." <Adnan Begovic> 3 hours ago
+19f1de5 : SystemUI: Hide secondary icon and divider on expanded panel. <Adnan Begovic> 24 hours ago
+372cfff : April fools / Revert "PhoneWindowManager: Clean windows during bootup." <DHOMD> 10 hours ago
+29bd7f6 : Themes: Don't add android overlay if target is android <d34d> 9 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_net_ims ****
+ca6cd18 : ims: Bring in line with current release <Steve Kondik> 2 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio ****
+df79479 : alsa_sound: Remove orphaned QCOM_COMPRESSED_AUDIO flag <Ethan Chen> 33 hours ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_media ****
+d27e27c : media: Avoid collision with FFMPEG plugin <Steve Kondik> 11 months ago
+6520202 : media: Use direct project pathmap <Ethan Chen> 4 months ago
+2fac754 : mm-video: venc: Correct a typo in variable name <Deepak Verma> 1 year, 5 months ago
+2df1c73 : media: Use kernel headers <Chirayu Desai> 5 months ago
+23ee3eb : media: Use project pathmap <Ethan Chen> 5 months ago
+15fb17b : mm-video-legacy: vdec: force uncached gralloc buffers <Praveen Chavan> 8 weeks ago
+d3e4bca : mm-video-legacy: vdec: add YUV420SP support in surface-mode <Praveen Chavan> 8 weeks ago
+8dac2f1 : mm-video-legacy: vdec: allocate color-conversion buffers as uncached <Praveen Chavan> 8 weeks ago
+709179c : mm-video-v4l2: vdec: Add support for describing color format <Praveen Chavan> 6 months ago
+5edf3e6 : mm-video-v4l2: vdec: Disable switching to surface-mode-format <Praveen Chavan> 6 months ago
+15e16d9 : mm-video-legacy: vdec: disable frame parsing in component <Praveen Chavan> 10 weeks ago
+65fd197 : mm-video-legacy: vdec: disable frame parsing in component <Praveen Chavan> 10 weeks ago
+dd51ac5 : mm-video-legacy: venc: do not send duplicate EBDs in case of an error <Praveen Chavan> 2 months ago
+27e9056 : mm-video-legacy: venc: do not send duplicate EBDs in case of an error <Praveen Chavan> 2 months ago
+9262c4f : mm-video-v4l2: venc: update color format in port-def <Praveen Chavan> 4 months ago
+1ae9d84 : Revert "Revert "Revert "media: add a flag for ion compatibility""" <nuclearmistake> 3 months ago
+175c063 : Revert "Revert "media: add a flag for ion compatibility"" <nuclearmistake> 3 months ago
+9e2e55a : Revert "media: add a flag for ion compatibility" <nuclearmistake> 3 months ago
+d1e8c3a : media: add a flag for ion compatibility <Nick Reuter> 4 months ago
+81e3261 : mm-video-v4l2: vdec: Use standard HEVC coding type <Praveen Chavan> 6 months ago
+5aa0323 : mm-core: synchronize OpenMax headers with AOSP counterparts <Praveen Chavan> 9 months ago
+443849a : media: Avoid collision with FFMPEG plugin <Steve Kondik> 11 months ago
+9ca8845 : media: Use direct project pathmap <Ethan Chen> 4 months ago
+019941c : mm-video: venc: Correct a typo in variable name <Deepak Verma> 1 year, 5 months ago
+fb6de73 : media: Use kernel headers <Chirayu Desai> 5 months ago
+5c645a8 : media: Use project pathmap <Ethan Chen> 5 months ago
+f19d1ec : mm-video-legacy: vdec: add YUV420SP output format support <Praveen Chavan> 5 months ago
+abf39d2 : mm-video-legacy: vdec: synchronize color-conversion calls <Praveen Chavan> 5 months ago
+3072d26 : mm-video-legacy: vdec: add YUV420SP output format support <Praveen Chavan> 5 months ago
+5eec611 : mm-video-legacy: vdec: synchronize color-conversion calls <Praveen Chavan> 5 months ago
+8f8a54a : mm-video-v4l2: venc: do not send duplicate EBDs in case of an error <Praveen Chavan> 6 months ago
+c4621b8 : mm-video-legacy: vdec: Limit output buffers in secure adaptive mode <Praveen Chavan> 6 months ago
+2278148 : Revert "Revert "mm-video-v4l2: vdec: Retain lock while querying C2D filled length"" <Zhijun He> 6 months ago
+2fc7c73 : Revert "mm-video-v4l2: venc: Correct buffer index selection" <Vineeta Srivastava> 6 months ago
+fe8c0a3 : Revert "mm-video-v4l2: vdec: Retain lock while querying C2D filled length" <Vineeta Srivastava> 6 months ago
+bcb28bd : mm-video-v4l2: vdec: Retain lock while querying C2D filled length <Praveen Chavan> 6 months ago
+df87813 : mm-video-v4l2: venc: Correct buffer index selection <Praveen Chavan> 6 months ago
+a19e2b5 : mm-video-v4l2: vdec: Set correct filled-length for color-converted buffers <Praveen Chavan> 7 months ago
+e5957fd : libc2dcolorconvert: Initialize c2d surface descriptors <Praveen Chavan> 8 months ago
+a64f5a2 : mm-video-legacy: venc: use source stride for color-converting RGB input <Praveen Chavan> 1 year ago
+317f7fd : mm-video: venc: return the correct number of supported color formats <Lajos Molnar> 8 months ago
+375b84d : media: Use msm8084 instead of apq8084 <Vineeta Srivastava> 10 months ago
+e2bf647 : Makefile: rename apq8084 to msm8084 <Vineeta Srivastava> 11 months ago
+6a8a8b7 : mm-core: add omxcore compilation for 8084 <Praveen Chavan> 11 months ago
+9157b7d : mm-video: fix compatibility issues with ion::heap_id_mask <Praveen Chavan> 11 months ago
+a213871 : libc2dcolorconvert: Use exported headers from display <Naveen Ramaraj> 11 months ago
+8767726 : mm-video-v4l2: reconcile to CAF tip <Praveen Chavan> 12 months ago
+073c5e9 : Revert "Revert "Revert "mm-video-v4l2: reconcile to CAF tip""" <Vineeta Srivastava> 11 months ago
+a663017 : Revert "Revert "mm-video-v4l2: reconcile to CAF tip"" <Vineeta Srivastava> 11 months ago
+bd86cc4 : mm-video: refer exported display and graphics headers <Praveen Chavan> 12 months ago
+ 
+**** https://github.com/VanirAOSP/hardware_samsung ****
+6b9cd5f : librilsec-client: Add support for xmm7260 modem <Andreas Schneider> 10 weeks ago
+2947268 : libril: Add support for xmm7260 modem. <Andreas Schneider> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_asus_grouper ****
+5e0fa48 : cyanogenmod_grouper_defconfig: Sync with tegra3_android_defconfig <Thomas Wendt> 3 weeks ago
+f5d7b8b : tegra3_android_defconfig: disable HW crypto engine <Iliyan Malchev> 3 months ago
+a2a15f1 : tegra3_android_defconfig: enable CONFIG_CRYPTO_AES_ARM <Iliyan Malchev> 3 months ago
+db7324a : ARM: 8120/1: crypto: sha512: add ARM NEON implementation <Jussi Kivilinna> 8 months ago
+9e41649 : ARM: 8119/1: crypto: sha1: add ARM NEON implementation <Jussi Kivilinna> 8 months ago
+284f62c : ARM: 8118/1: crypto: sha1/make use of common SHA-1 structures <Jussi Kivilinna> 8 months ago
+8c5d905 : crypto: arm-aes - fix encryption of unaligned data <Mikulas Patocka> 8 months ago
+85ff160 : CRYPTO: Fix more AES build errors <Russell King> 1 year, 3 months ago
+01199e3 : ARM: add .gitignore entry for aesbs-core.S <Russell King> 1 year, 6 months ago
+363d286 : ARM: add support for bit sliced AES using NEON instructions <Ard Biesheuvel> 1 year, 6 months ago
+be8b38f : ARM: move AES typedefs and function prototypes to separate header <Ard Biesheuvel> 1 year, 7 months ago
+aa62fd4 : ARM: 7837/3: fix Thumb-2 bug in AES assembler code <Ard Biesheuvel> 1 year, 6 months ago
+d8f23c7 : ARM: 7723/1: crypto: sha1-armv4-large.S: fix SP handling <Ard Biesheuvel> 1 year, 11 months ago
+674126b : ARM: 7626/1: arm/crypto: Make asm SHA-1 and AES code Thumb-2 compatible <Dave Martin> 2 years, 3 months ago
+8c73ff8 : arm/crypto: Add optimized AES and SHA1 routines <David McCullough> 2 years, 7 months ago
+bfd5c1b : net: ipv6: allow choosing optimistic addresses with use_optimistic <Erik Kline> 4 months ago
+954e7e0 : net/ping: handle protocol mismatching scenario <Jane Zhou> 4 months ago
+9e6ff30 : cgroup: remove synchronize_rcu() from cgroup_attach_{task|proc}() <Devin Kim> 6 months ago
+085ab6c : net: ipv6: Add a sysctl to make optimistic addresses useful candidates <Erik Kline> 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_msm8960 ****
+b0909e7 : msm: HTC: Regenerate defconfigs <jrior001> 2 days ago
+d8a6da9 : arm: Add support for LZ4-compressed kernel <Kyungsik Lee> 1 year, 8 months ago
+c072027 : msm: HTC: zara: Moduleless defconfig <Matt Mower> 32 hours ago
+a8fa520 : msm_vidc: Frame height is not updating for low resolution clip <c_sridur> 10 weeks ago
+a99997a : msm_fb: display: validate input args of mdp4_argc_process_write_req <raghavendra ambadas> 2 weeks ago
+3678c34 : msm: camera: validate user space parameter for max and min value <Vasko Kalanoski> 2 months ago
+f4f7fa2 : msm: rpc: Fix uninitialized union in rpc router close function <FNU Ramendra> 1 year, 8 months ago
+952c760 : msm: rpc: Fix uninitialized union in rpc router code <FNU Ramendra> 1 year, 8 months ago
+63c86b4 : sensors: add the sensors class support <Ananda Kishore> 4 months ago
+90398dd : diag: Make fixes to diag_switch_logging <Ravi Aravamudhan> 7 weeks ago
+9f932d5 : Revert "qseecom: Unload the app upon receiving qseecom_release." <Shreyas Narayan> 7 weeks ago
+5b899fb : Revert "qseecom: Fix issue with incomplete command exiting prematurely" <Shreyas Narayan> 7 weeks ago
+3df7b36 : Revert "qseecom: Fix issues with failure to release client handle" <Shreyas Narayan> 7 weeks ago
+d04ea9b : Revert "qseecom: Add support to handle multiple app load & unload" <Shreyas Narayan> 7 weeks ago
+b0da9a0 : Revert "qseecom: fix an issue related to search app when unloading an app" <Shreyas Narayan> 7 weeks ago
+61098bd : qseecom: Free ion memory even if keymaster app is not unloaded <Zhen Kong> 7 months ago
+bed8759 : qseecom: Save appname in qseecom when loading app by kernel client <Zhen Kong> 5 months ago
+d2b0066 : qseecom: change the number of bytes to compare app names <William Clark> 9 months ago
+7194e64 : qseecom: fix an issue related to search app when unloading an app <Zhen Kong> 9 months ago
+0ae872a : qseecom: Add support to handle multiple app load & unload <Zhen Kong> 11 months ago
+03e5233 : qseecom: Fix issues with failure to release client handle <AnilKumar Chimata> 1 year, 7 months ago
+a9f4bdf : qseecom: Fix issue with incomplete command exiting prematurely <Zhen Kong> 2 years ago
+9c6643b : qseecom: Unload the app upon receiving qseecom_release. <Hariprasad Dhalinarasimha> 1 year, 9 months ago
+600cbf8 : kernel: cgroup: protecting css_set object <Swetha Chikkaboraiah> 7 months ago
+58b0fd0 : msm:pproc:Freed the vpe prameters to avoid memleak <Vijaya Kumar T M> 7 weeks ago
+72cfaf6 : msm:pproc:freed pointer in error case <Vijaya Kumar T M> 7 weeks ago
+fb54aed : ASoc : use hwdep node to get calibration <Shreyas Nagasandra Chandrasekhar> 3 months ago
+0622b8e : wcnss: invoke PIL only after completing intialization <Anand N Sunkad> 6 months ago
+5d60c60 : qseecom: Change pr_warning message to pr_debug <Hariprasad Dhalinarasimha> 1 year, 8 months ago
+6ff0717 : qseecom: fix an issue related to search app when unloading an app <Zhen Kong> 9 months ago
+e680630 : qseecom: Add support to handle multiple app load & unload <Zhen Kong> 11 months ago
+b865646 : qseecom: Fix issues with failure to release client handle <AnilKumar Chimata> 1 year, 7 months ago
+ad89ddc : qseecom: Fix issue with incomplete command exiting prematurely <Zhen Kong> 2 years ago
+bf2745c : qseecom: Unload the app upon receiving qseecom_release. <Hariprasad Dhalinarasimha> 1 year, 9 months ago
+8793b41 : gpu: ion: Delete invalid extra file <Pradosh Das> 10 weeks ago
+f62bed3 : gpu: ion: Delete invalid extra file <Pradosh Das> 10 weeks ago
+3bc60d1 : gpu: ion: add locking to traversal of volatile rb tree <Srinivasarao P> 3 months ago
+e5ff94d : gpu: ion: fix locking issues in debug code <Mitchel Humpherys> 1 year, 5 months ago
+1e2a98e : ion: cma: Add debug heap ops for CMA heap <Srinivasarao P> 3 months ago
+4962e3e : gpu: ion: use a list instead of a tree for heap debug memory map <Srinivasarao P> 3 months ago
+c2dedad : gpu: ion: Refactor locking <Srinivasarao P> 3 months ago
+df85c8e : msm: vidc: Increase the secure buffer size for widewine dash <c_sridur> 4 months ago
+c9402d4 : wcnss: Fix for Static analysis issues <Abhishek Singh> 1 year ago
+ee40e4e : gpu: ion: add locking to traversal of volatile rb tree <Srinivasarao P> 3 months ago
+b365d0d : gpu: ion: fix locking issues in debug code <Mitchel Humpherys> 1 year, 5 months ago
+b620afa : ion: cma: Add debug heap ops for CMA heap <Srinivasarao P> 3 months ago
+d987cbe : gpu: ion: use a list instead of a tree for heap debug memory map <Srinivasarao P> 3 months ago
+d3dcc9e : gpu: ion: Refactor locking <Srinivasarao P> 3 months ago
+15e008a : msm: camera: add check for csid_cid to prevent of overwrite memory <Evgeniy Borisov> 4 months ago
+33fd567 : msm: vidc: Increase the secure buffer size for widewine dash <c_sridur> 4 months ago
+ 
+**** github	https://github.com/jimsth/vanir_hammerhead
+https://github.com/VanirAOSP/kernel_lge_hammerhead ****
+47b35a9 : defconfig: Enable SECCOMP and CRYPTO_AES_ARM <myfluxi> 3 weeks ago
+b827c44 : kgsl: switch back to allocating from highmem <Iliyan Malchev> 8 weeks ago
+e7b6945 : msm: camera: isp: Validate input parameter for vfe_write and vfe_read <Alok Kediya> 4 months ago
+e72dbeb : msm: mdp: Validate input arguments from user space <raghavendra ambadas> 6 months ago
+a1b7562 : scripts/dtc/libfdt: add integer overflow checks <vijay kumar> 8 months ago
+074ab0c : msm: camera: isp: Validate reg_offset and len parameters <Alok Kediya> 4 months ago
+5af7b29 : msm: mdss: Add NULL pointer checks in mdss_mdp_wb_set_secure <Jayant Shekhar> 1 year, 5 months ago
+3a159ec : msm: camera: ispif: Validate vfe_intf parameter <Suman Mukherjee> 4 months ago
+020bdc6 : msm: camera: add check for csid_cid to prevent of overwrite memory <Suman Mukherjee> 4 months ago
+f08b0ea : ASoC: msm: qdsp6v2: Fix timestamp query during gapless transition <Haynes Mathew George> 2 months ago
+f95f972 : fbcmap: prevent memory overflow <Naseer Ahmed> 2 months ago
+e7e8d3d : msm: camera2: cpp: Avoid ion_free with invalid handle <Mansoor Aftab> 2 months ago
+43dadf8 : msm: vidc: Re-enable VP8 4K support <Praveen Chavan> 3 months ago
+3824152 : Revert "[media] v4l2: vb2: one more fix for REQBUFS()" <Marek Szyprowski> 3 years, 10 months ago
+d4a5cc9 : hammerhead_defconfig: Enable CRYPTO_AES_ARM <Chris Fries> 3 months ago
+f2015f3 : ARM: 8120/1: crypto: sha512: add ARM NEON implementation <Jussi Kivilinna> 8 months ago
+f97dedc : ARM: 8119/1: crypto: sha1: add ARM NEON implementation <Jussi Kivilinna> 8 months ago
+e6ce1c0 : ARM: 8118/1: crypto: sha1/make use of common SHA-1 structures <Jussi Kivilinna> 8 months ago
+a191ab8 : crypto: arm-aes - fix encryption of unaligned data <Mikulas Patocka> 8 months ago
+dd0a5cd : CRYPTO: Fix more AES build errors <Russell King> 1 year, 3 months ago
+2da45d7 : ARM: add .gitignore entry for aesbs-core.S <Russell King> 1 year, 6 months ago
+144b0e3 : ARM: add support for bit sliced AES using NEON instructions <Ard Biesheuvel> 1 year, 6 months ago
+6169a27 : ARM: move AES typedefs and function prototypes to separate header <Ard Biesheuvel> 1 year, 7 months ago
+fa3e4a7 : ARM: 7837/3: fix Thumb-2 bug in AES assembler code <Ard Biesheuvel> 1 year, 6 months ago
+3341e10 : ARM: 7723/1: crypto: sha1-armv4-large.S: fix SP handling <Ard Biesheuvel> 1 year, 11 months ago
+7e2e996 : ARM: 7626/1: arm/crypto: Make asm SHA-1 and AES code Thumb-2 compatible <Dave Martin> 2 years, 3 months ago
+2176162 : arm/crypto: Add optimized AES and SHA1 routines <David McCullough> 2 years, 7 months ago
+fc891cc : kgsl: allocate from lowmem <Iliyan Malchev> 3 months ago
+3f02972 : camera: exclude fab code from chip id check for IMX179 <David C. Park> 4 months ago
+da50b0a : ion_iommu_heap: allocate only with order=0 <Iliyan Malchev> 3 months ago
+c10ac21 : msm: qpnp-power-on: print the power off reason <choongryeol.lee> 1 year, 6 months ago
+85a47a9 : sched,cgroup: Fix up task_groups list <Mike Galbraith> 2 years, 8 months ago
+a58b3cb : kgsl: allocate shared memory one page at a time <Iliyan Malchev> 3 months ago
+9f1146f : msm: kgsl: Get rid of KGSL_FLAGS_STARTED <Shubhraprakash Das> 11 months ago
+de4f367 : msm: kgsl: Clear pending transactions from VBIF on hang <Carter Cooper> 4 months ago
+3272c01 : msm: kgsl: Modify which MMU clocks are enabled/disabled <Carter Cooper> 4 months ago
+87427a9 : msm: kgsl: Prevent adreno stop after gpu is power collapsed <Tarun Karra> 6 months ago
+31ac849 : msm: kgsl: Check for mmu pagefault before recovery <Shubhraprakash Das> 11 months ago
+0176fa4 : net: ipv6: allow choosing optimistic addresses with use_optimistic <Erik Kline> 4 months ago
+c951839 : hammerhead_defconfig: enable SLUB_DEBUG and SLABINFO <Iliyan Malchev> 4 months ago
+43194bf : vfs: check if f_count is 0 or negative <Shengzhe Zhao> 9 months ago
+b68c958 : kgsl: do not vmap/memset to zero-out pages <Iliyan Malchev> 4 months ago
+5067c42 : net/ping: handle protocol mismatching scenario <Jane Zhou> 4 months ago
+07c470b : cgroup: remove synchronize_rcu() from cgroup_attach_{task|proc}() <Devin Kim> 6 months ago
+f621c11 : usb: dwc3: gadget: Protect against ep disabling during completion <Devin Kim> 1 year, 1 month ago
+b974223 : net: ipv6: Add a sysctl to make optimistic addresses useful candidates <Erik Kline> 5 months ago
+66f6db1 : net: wireless: bcmdhd: Remove Gscan support for HH <Ashwin> 5 months ago
+e7d73f3 : lowmemorykiller: enhance debug information <Liam Mark> 10 months ago
+08b6237 : mm, oom: make dump_tasks public <Liam Mark> 10 months ago
+926f5d5 : fs/seq_file: Use vmalloc by default for allocations > PAGE_SIZE <Jordan Crouse> 7 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_lge_msm8974 ****
+fb40250 : Revert "msm: mdss: Revert changes for separating out PP flushes from commits" <sudosurootdev> 29 hours ago
+d481529 : Revert "video: mdss: Color temperature interface using PCC" <sudosurootdev> 29 hours ago
+11abe7b : msm: rpc: Fix uninitialized union in rpc router close function <sudosurootdev> 1 year, 8 months ago
+da42715 : msm: rpc: Fix uninitialized union in rpc router code <sudosurootdev> 1 year, 8 months ago
+7190c4b : vfs: read file_handle only once in handle_to_path <sudosurootdev> 9 weeks ago
+aab5afc : mm: Fix NULL pointer dereference in madvise(MADV_WILLNEED) support <sudosurootdev> 1 year, 3 months ago
+2f689da : lowmemorykiller: Do proper NULL checks <sudosurootdev> 7 weeks ago
+1ae1b33 : cgroup: remove synchronize_rcu() from cgroup_attach_{task|proc}() <sudosurootdev> 6 months ago
+c79875b : msm: mdss: avoid clocks on if panel is not on for command mode <sudosurootdev> 5 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_moto_shamu ****
+eec2459 : qseecom:  Add checks for send_cmd inputs <Mekala Natarajan> 9 weeks ago
+d37cf21 : qseecom: Add boundary checks for offset within message. <Mekala Natarajan> 9 weeks ago
+3afe6da : scripts/dtc/libfdt: add integer overflow checks <vijay kumar> 8 months ago
+c83b4a2 : msm: camera: isp: Validate reg_offset and len parameters <Sreesudhan Ramakrish Ramkumar> 4 months ago
+853751b : msm: camera: ispif: Validate vfe_intf parameter <Suman Mukherjee> 4 months ago
+e9bed23 : msm: mdp: Validate input arguments from user space <raghavendra ambadas> 6 months ago
+e68dfd0 : msm: camera: add check for csid_cid to prevent of overwrite memory <Evgeniy Borisov> 4 months ago
+1731cf4 : net: wireless: bcmdhd: Set static alloc for ioctl buff <Ecco park> 2 months ago
+db3f302 : ASoC: msm: qdsp6v2: Fix timestamp query during gapless transition <Haynes Mathew George> 2 months ago
+f02d1be : input: atmel_mxt_ts_mmi: Use atomic "suspended" flag <Chris Fries> 3 months ago
+d7c892d : input: atmel_mxt_ts_mmi: semaphore based lock <Konstantin Makariev> 3 months ago
+fc28864 : shamu_defconfig: enable kernel-mode NEON and CONFIG_CRYPTO_AES_ARM_BS <Iliyan Malchev> 3 months ago
+fee1cca : usb: Add support to log usb autopm logging <Ajay Dudani> 3 months ago
+7c77c56 : msm: camera_v2: return error for request_frames <Shuzhen Wang> 3 months ago
+4cd6b84 : msm: camera: isp: Handle error case for request_frame <Shuzhen Wang> 3 months ago
+cd76ba7 : Revert "[media] v4l2: vb2: one more fix for REQBUFS()" <Marek Szyprowski> 3 years, 10 months ago
+b76c72f : ARM: vfpmodule: move init call earlier <Iliyan Malchev> 3 months ago
+3bc940c : ARM: pull in <asm/simd.h> from asm-generic <Ard Biesheuvel> 1 year, 6 months ago
+cf36aa3 : crypto: create generic version of ablk_helper <Ard Biesheuvel> 1 year, 6 months ago
+b35d28d : usb: diag_bridge: Reduce Autosuspend delay to 200 ms <Ravi Vembu> 4 months ago
+2c1dd82 : usb: misc: Resume IPC interface on receiving interrupt complete callback <Mekala Natarajan> 3 months ago
+2b016c0 : net: wireless: bcmdhd: Fix watchdog bark issue <Ecco park> 3 months ago
+44c6bde : net: wireless: bcmdhd: Change cc for Indonesia <Ecco park> 3 months ago
+d831b2e : shamu_defconfig: Enable CRYPTO_AES_ARM <Chris Fries> 3 months ago
+530cc0e : ARM: add support for kernel mode NEON <Ard Biesheuvel> 1 year, 11 months ago
+eea0d19 : ARM: 8120/1: crypto: sha512: add ARM NEON implementation <Jussi Kivilinna> 8 months ago
+6fd4f36 : ARM: 8119/1: crypto: sha1: add ARM NEON implementation <Jussi Kivilinna> 8 months ago
+80fedae : ARM: 8118/1: crypto: sha1/make use of common SHA-1 structures <Jussi Kivilinna> 8 months ago
+bece4c1 : crypto: arm-aes - fix encryption of unaligned data <Mikulas Patocka> 8 months ago
+1521d37 : CRYPTO: Fix more AES build errors <Russell King> 1 year, 3 months ago
+bb6bcd1 : ARM: add .gitignore entry for aesbs-core.S <Russell King> 1 year, 6 months ago
+34bfb7b : ARM: add support for bit sliced AES using NEON instructions <Ard Biesheuvel> 1 year, 6 months ago
+07e0908 : ARM: move AES typedefs and function prototypes to separate header <Ard Biesheuvel> 1 year, 7 months ago
+c13b084 : ASoC: qdsp6v2: update perf mode flag for LL capture cases <Banajit Goswami> 9 months ago
+5fe13a6 : shamu: ARM: dts: msm: Disable ufs <Mekala Natarajan> 4 months ago
+3444ff9 : net: wireless: bcmdhd: clear DISCONNECTING status on timeout <Ecco park> 3 months ago
+f6023d2 : Revert "net: wireless: bcmdhd: Enable DHCP and 802.1X logging" <Vineeta Srivastava> 3 months ago
+9d83ba9 : Revert "kgsl: do not vmap/memset to zero-out pages" <Iliyan Malchev> 4 months ago
+4f7f332 : cpuidle: check for need_resched() after the idle entry trace event <Mekala Natarajan> 4 months ago
+0449521 : Revert "cpuidle: check for need_resched() after the idle entry trace event" <Mekala Natarajan> 4 months ago
+76c00d0 : net: wirelss:bcmdhd revert roaming patch <Ecco park> 4 months ago
+7c336fc : net: wireless: bcmdhd: Enable DHCP and 802.1X logging <Ritter Yeh> 4 months ago
+54c3891 : power: mmi-wls: Use Taper current for Charge Complete. <Vidyadhar Gurram> 5 months ago
+6d4583e : power: smb135x: Use Taper current for Charge Complete. <Vidyadhar Gurram> 5 months ago
+5e7502e : power: max17042: Use Taper current for Charge Complete. <Vidyadhar Gurram> 5 months ago
+85b9dba : power_supply: Add POWER_SUPPLY_PROP_TAPER_REACHED <Vidyadhar Gurram> 5 months ago
+0ee3047b : arm/dts: Set PM8084 GPIO17 as NO_PULL. <Jiangli Yuan> 4 months ago
+8ac8975 : net: wireless: bcmdhd abort ongoing-scan for disconnection <Ecco park> 4 months ago
+7247ba7 : net: ipv6: allow choosing optimistic addresses with use_optimistic <Erik Kline> 4 months ago
+e2a2033 : kgsl: do not vmap/memset to zero-out pages <Iliyan Malchev> 4 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960dt-common ****
+027c530 : Set the iif for IPv6 packets as well. <Lorenzo Colitti> 4 weeks ago
+745f215 : net: ping: Return EAFNOSUPPORT when appropriate. <Lorenzo Colitti> 4 weeks ago
+3cbf373 : net: ipv6: make "ip -6 route get mark xyz" work. <Lorenzo Colitti> 11 months ago
+2889531 : Linux 3.4.106 <Zefan Li> 8 weeks ago
+e02ae9d : drivers/net, ipv6: Select IPv6 fragment idents for virtio UFO packets <Ben Hutchings> 5 months ago
+fd873bf : Patch for 3.2.x, 3.4.x IP identifier regression <Jeffrey Knockel> 4 months ago
+cfa0515 : KVM: x86: Fix far-jump to non-canonical check <Nadav Amit> 5 months ago
+29adeac : x86, tls: Interpret an all-zero struct user_desc as "no segment" <Andy Lutomirski> 10 weeks ago
+4457498 : x86, tls, ldt: Stop checking lm in LDT_empty <Andy Lutomirski> 10 weeks ago
+3814999 : x86/tls: Validate TLS entries to protect espfix <Andy Lutomirski> 4 months ago
+ea50080 : x86, kvm: Clear paravirt_enabled on KVM guests for espfix32's benefit <Andy Lutomirski> 4 months ago
+66cc8f8 : mm: Remove false WARN_ON from pagecache_isize_extended() <Jan Kara> 5 months ago
+cadd269 : firewire: cdev: prevent kernel stack leaking into ioctl arguments <Stefan Richter> 5 months ago
+cd56d39 : x86/asm/traps: Disable tracing and kprobes in fixup_bad_iret and sync_regs <Andy Lutomirski> 4 months ago
+c0cb603 : x86_64, traps: Rework bad_iret <Andy Lutomirski> 4 months ago
+fbe1dd0 : x86_64, traps: Fix the espfix64 #DF fixup and rewrite it in C <Andy Lutomirski> 4 months ago
+db331d4 : x86_64, traps: Stop using IST for #SS <Andy Lutomirski> 4 months ago
+a1e400a : MIPS: oprofile: Fix backtrace on 64-bit kernel <Aaro Koskinen> 6 months ago
+a36f0b5 : of/base: Fix PowerPC address parsing hack <Benjamin Herrenschmidt> 5 months ago
+11c9fc9 : can: esd_usb2: fix memory leak on disconnect <Alexey Khoroshilov> 6 months ago
+79cbdbf : can: dev: avoid calling kfree_skb() from interrupt context <Thomas Körper> 5 months ago
+a2c749a : x86: Require exact match for 'noxsave' command line option <Dave Hansen> 5 months ago
+fdb554d : ASoC: sgtl5000: Fix SMALL_POP bit definition <Fabio Estevam> 5 months ago
+4c753f0 : rt2x00: do not align payload on modern H/W <Stanislaw Gruszka> 5 months ago
+b02eb60 : ASoC: fsi: remove unsupported PAUSE flag <Kuninori Morimoto> 5 months ago
+9aa6623 : srp-target: Retry when QP creation fails with ENOMEM <Bart Van Assche> 6 months ago
+0def102 : libceph: do not crash on large auth tickets <Ilya Dryomov> 5 months ago
+552f4ec : NFSv4: Ensure that we remove NFSv4.0 delegations when state has expired <Trond Myklebust> 6 months ago
+6aaa1e0 : nfs: Fix use of uninitialized variable in nfs_getattr() <Jan Kara> 5 months ago
+bf5dbba : audit: keep inode pinned <Miklos Szeredi> 5 months ago
+3b5d98d : scsi: only re-lock door after EH on devices that were reset <Christoph Hellwig> 5 months ago
+e3412bc : Input: alps - allow up to 2 invalid packets without resetting device <Pali Rohár> 5 months ago
+11246b6 : Input: alps - ignore potential bare packets when device is out of sync <Pali Rohár> 5 months ago
+4dc9a29 : drm/radeon: add missing crtc unlock when setting up the MC <Alex Deucher> 5 months ago
+11e4f1f : macvtap: Fix csum_start when VLAN tags are present <Herbert Xu> 5 months ago
+17ee0a1 : mac80211: fix use-after-free in defragmentation <Johannes Berg> 5 months ago
+14194d6 : block: Fix computation of merged request priority <Jan Kara> 5 months ago
+0ec7236 : mac80211: properly flush delayed scan work on interface removal <Johannes Berg> 5 months ago
+fbbe552 : ahci: Add Device IDs for Intel Sunrise Point PCH <James Ralston> 6 months ago
+c0f73f5 : dm raid: ensure superblock's size matches device's logical block size <Heinz Mauelshagen> 6 months ago
+792a118 : xtensa: re-wire umount syscall to sys_oldumount <Max Filippov> 6 months ago
+0e7638d : dm bufio: change __GFP_IO to __GFP_FS in shrinker callbacks <Mikulas Patocka> 6 months ago
+d7b1b1d : sysfs: driver core: Fix glue dir race condition by gdp_mutex <Yijing Wang> 5 months ago
+0bb9566 : tty/vt: don't set font mappings on vc not supporting this <Imre Deak> 6 months ago
+871518e : tty: Prevent "read/write wait queue active!" log flooding <Peter Hurley> 6 months ago
+26bc3aa : tty: Fix high cpu load if tty is unreleaseable <Peter Hurley> 6 months ago
+741946c : serial: Fix divide-by-zero fault in uart_get_divisor() <Peter Hurley> 6 months ago
+c85f704 : USB: cdc-acm: only raise DTR on transitions from B0 <Johan Hovold> 5 months ago
+adea30f : staging:iio:ade7758: Fix check if channels are enabled in prenable <Lars-Peter Clausen> 5 months ago
+7ef2f8d : ALSA: usb-audio: Fix device_del() sysfs warnings at disconnect <Takashi Iwai> 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+455979e : sensors: move to sensors_samsung <Dan Pasanen> 24 hours ago
+47ed4a1 : input: do not set sync flag for timestamp events <Kiran Raparthy> 5 weeks ago
+e6773bb : net: ping: Return EAFNOSUPPORT when appropriate. <Lorenzo Colitti> 4 weeks ago
+7716b39f : net: ipv6: make "ip -6 route get mark xyz" work. <Lorenzo Colitti> 11 months ago
+c249a17 : Set the iif for IPv6 packets as well. <Lorenzo Colitti> 4 weeks ago
+a648105 : kbuild: make it possible to specify the module output dir <Rom Lemarchand> 8 weeks ago
+aeddb5e : staging: android: ashmem: add missing include <Rom Lemarchand> 10 weeks ago
+ce195cf : pstore: selinux: add security in-core xattr support for pstore and debugfs <Mark Salyzyn> 3 months ago
+a8fa520 : msm_vidc: Frame height is not updating for low resolution clip <c_sridur> 10 weeks ago
+a99997a : msm_fb: display: validate input args of mdp4_argc_process_write_req <raghavendra ambadas> 2 weeks ago
+3678c34 : msm: camera: validate user space parameter for max and min value <Vasko Kalanoski> 2 months ago
+f4f7fa2 : msm: rpc: Fix uninitialized union in rpc router close function <FNU Ramendra> 1 year, 8 months ago
+952c760 : msm: rpc: Fix uninitialized union in rpc router code <FNU Ramendra> 1 year, 8 months ago
+63c86b4 : sensors: add the sensors class support <Ananda Kishore> 4 months ago
+ 
+**** https://github.com/VanirAOSP/kernel_samsung_jf ****
+8807377 : sensors: move to sensors_samsung <Dan Pasanen> 24 hours ago
+a8fa520 : msm_vidc: Frame height is not updating for low resolution clip <c_sridur> 10 weeks ago
+a99997a : msm_fb: display: validate input args of mdp4_argc_process_write_req <raghavendra ambadas> 2 weeks ago
+3678c34 : msm: camera: validate user space parameter for max and min value <Vasko Kalanoski> 2 months ago
+f4f7fa2 : msm: rpc: Fix uninitialized union in rpc router close function <FNU Ramendra> 1 year, 8 months ago
+952c760 : msm: rpc: Fix uninitialized union in rpc router code <FNU Ramendra> 1 year, 8 months ago
+63c86b4 : sensors: add the sensors class support <Ananda Kishore> 4 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+8559bd1 : Samsung + Oppo updates, rest tomorrow <DHOMD> 82 minutes ago
+5b6f95b : Fix klte path <DHOMD> 2 hours ago
+2fe69ce : Restore 1 muppets repo to 12.0 <DHOMD> 2 hours ago
+b9b4fd6 : Muppets to 12.1 <DHOMD> 2 hours ago
+9b62b47 : Commotio 51 <DHOMD> 2 hours ago
+4c2f555 : Kernels to L51 <DHOMD> 8 hours ago
+090d077 : Didnt we kill off skomer? <DHOMD> 8 hours ago
+98cf9d9 : change to new branch <Ozzy2403> 11 hours ago
+d541eef : we have our own klte like vzw <Ozzy2403> 12 hours ago
+8a9432f : Update default branch and kernel branch default <nuclearmistake> 16 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+3dcbbb1 : Fix dialer name ordering options not being respected on first load. <Danny Baumann> 15 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+9ad27a5 : Settings: Disable contributor cloud for now. <Adnan Begovic> 25 hours ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_invensense ****
+f97a1cb : Nexus 7 (Wi-Fi) binaries for Android 5.1.0 (LMY47D) <dhacker29> 11 days ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_nvidia ****
+b1cf2fe : Nexus 7 (Wi-Fi) binaries for Android 5.1.0 (LMY47D) <dhacker29> 11 days ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_oppo ****
+361c5f5 : msm8974: Update blobs <Steve Kondik> 8 hours ago
+25a8a6f : msm8974: Prerelease blobs for cm-12.1 <Steve Kondik> 4 days ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_widevine ****
+1c4c008 : Nexus 7 (Wi-Fi) binaries for Android 5.1.0 (LMY47D) <dhacker29> 11 days ago
+ 

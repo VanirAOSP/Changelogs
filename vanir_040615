@@ -1,0 +1,324 @@
+
+**** https://github.com/VanirAOSP/bootable_recovery_TWRP ****
+33178f3 : Smaller images --> less issues with recovery size <DHOMD> 2 hours ago
+2252d24 : twrpTar: fix segfault after encrypted backups <that> 3 days ago
+9eadc51 : bootloader: fix crash with empty lines in /cache/recovery/command <that> 11 days ago
+0e9dec8 : 2.8.6.0 <Ethan Yonker> 13 days ago
+bc2bc6b : Fix reboot for some devices <Ethan Yonker> 13 days ago
+202e51b : gui: add DST rules to time zones for USA and Europe <that> 13 days ago
+0fdcbec : Fix TWFunc::Wait_For_Child reporting success when child segfaults <Vojtech Bocek> 2 weeks ago
+78ab0c5 : libtar: fix handling of files bigger than 2 GiB <Vojtech Bocek> 2 weeks ago
+7e1b986 : updater: only include tune2fs support when libtune2fs is available <Ethan Yonker> 3 weeks ago
+1c27331 : Allow multiple overlays <Ethan Yonker> 3 weeks ago
+96bc6dd : Ingore touch events for 0,0 <Ethan Yonker> 3 weeks ago
+27b0aee : Fix non-working "Do Not Install" button on "installsu" page. <codelover> 3 weeks ago
+2a3d4ce : Fix TWRP not mounting /data/media type storage if built with toolbox utils <codelover> 3 weeks ago
+7d66ce5 : toolbox: Include setenforce into tools.h <Andrea Mennillo> 3 weeks ago
+54cf108 : Fix invalid memory access when rendering a ttf glyph with 'left' < 0 <Vojtech Bocek> 3 weeks ago
+a482f25 : Fix deadlock in gr_ttf_measureEx if called before the height is cached <Vojtech Bocek> 3 weeks ago
+e8c3927 : Fix GUIPatternPassword when the pattern crosses already visited dots <Vojtech Bocek> 3 weeks ago
+d86f49d : gui: keyboard: introduce struct Layout and simplify caps handling <that> 3 weeks ago
+e79878b : gui: keyboard: add HitTestKey method, minor simplifications <that> 3 weeks ago
+7cec636 : gui: fix 1920x1200 keyboard "_", ":", "!" and "?" <that> 3 weeks ago
+6db855e : gui: keyboard doesn't need its own action <that> 3 weeks ago
+de72a98 : Revert "Force sync files written by minzip." <Andrew Dodd> 4 weeks ago
+7e11ac5 : Add UI for entering pattern for device decryption <Vojtech Bocek> 5 weeks ago
+30fa335 : Allow touch to use a key code to sync touch events <Ethan Yonker> 4 weeks ago
+4f6a976 : Make TWRP compile for x86-64 CPU target <Ethan Yonker> 4 weeks ago
+989709a : GUI: Add monospace TTF <Matt Mower> 6 weeks ago
+591b920 : Reduce themes to 5 and rely on scaling <Ethan Yonker> 4 weeks ago
+4142408 : Handle sdk version 22 as lollipop <mar-v-in> 4 weeks ago
+92084af : toolbox: Cleanup Makefile <Matt Mower> 7 weeks ago
+05ec1d4 : Mount pstore filesystem while in recovery <Vojtech Bocek> 4 weeks ago
+3041c88 : Properly disable GGL_TEXTURE_2D after using it in minuitwrp <Vojtech Bocek> 5 weeks ago
+db378b6 : Implement gr_line() and gr_render_circle() <Vojtech Bocek> 5 weeks ago
+b2e8f67 : gui: support string resources <that> 5 weeks ago
+0f42506 : gui: allow specifying resource type in element name <that> 5 weeks ago
+74ac606 : gui: type safe resources part 2 <that> 5 weeks ago
+5bf74b2 : Bump up max_map_count value. <Jesse Zhao> 3 months ago
+8002104 : Add O_CREAT option for open <Sungmin Choi> 4 months ago
+a72512c : Add O_CREAT option for open <Sungmin Choi> 4 months ago
+f59b994 : Add basic navigation controls to log viewer. <Patrick Tjin> 4 months ago
+cd055ee : Save kernel logs to /cache/recovery <Patrick Tjin> 4 months ago
+4b54239 : Force write to disk while doing uncrypt <Michael Runge> 5 months ago
+b278c25 : Add support for tune2fs file operations <Michael Runge> 5 months ago
+e5879c3 : Byte swap to support BGRA in recovery mode <Heather Lee Wilson> 5 months ago
+be81e51 : Use more aggressive sync writing to applypatch. <Michael Runge> 5 months ago
+042c3cd : Force sync files written by minzip. <Michael Runge> 5 months ago
+5ddf429 : Log mount/unmount errors to UI <Michael Runge> 5 months ago
+6880241 : unconditionally apply SELinux labels to symlinks <Nick Kralevich> 6 months ago
+168f777 : Allow passing of mount args to mountFn <Michael Runge> 6 months ago
+d4a6342 : Log to UI any metadata setting errors <Michael Runge> 6 months ago
+a9ad032 : Make /cache/recovery/last_log available in recovery <Nick Kralevich> 6 months ago
+ 
+**** https://github.com/VanirAOSP/build ****
+afff9c2 : Hacks <DHOMD> 5 days ago
+647d61c : Neuter Recovery <DHOMD> 2 days ago
+a637ab4 : Generate extra userdata partition if needed <Ethan Chen> 10 months ago
+be6346d : Mysql: no longer needed for logging builds <nuclearmistake> 33 hours ago
+517a0fa : qcom_utils: Add msm8992 and msm8994 <Rashed Abdel-Tawab> 6 weeks ago
+2e6c7c4 : qcom_utils: Add msm8992 and msm8994 <Rashed Abdel-Tawab> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_asus_deb ****
+d066b8c : deb: Fix assert syntax error <Ethan Chen> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_dlx ****
+85424b1 : dlx: init: Switch to using interactive cpufreq governor <Christopher R. Palmer> 3 days ago
+e755c42 : dlx: init: reconfigure interactive / cpu-boost <Christopher R. Palmer> 3 days ago
+401b3a8 : dlx: init: remove start adaptive, we don't define that service <Christopher R. Palmer> 3 days ago
+3cd235d : dlx: init: Move init.post_boot.sh into init.dlx.rc <Christopher R. Palmer> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7-common ****
+170ab66 : m7-common: Switch to using separate A2DP HAL <Ethan Chen> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_e980 ****
+ccff0c0 : Fix /system size <Ricardo Cerqueira> 5 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+785e043 : Fix location crash issues with 5.1 <sudosurootdev> 35 hours ago
+0f896ab : Remove dex2oat tweaks... causes out of memory with 5.1 <sudosurootdev> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_gproj-common ****
+e1959ef : gproj-common: ril: add support for sprint nonstandard SIM <Shareef Ali> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+1f71485 : hammerhead: Fix syntax errors in releasetools script <myfluxi> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_mako ****
+f614635 : mako: Fix assert syntax error <Ethan Chen> 9 hours ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_falcon ****
+8fdb15b : f2fs support for cache and disable zram <Ethan> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/motorola_msm8226-common ****
+59f8de7 : disable zram part 2 <Ethan> 29 hours ago
+d1d9f93 : msm8226-common: move rild.libargs prop to device <luca020400> 2 days ago
+bc6268c : msm8226-common: Audio: Remove pcm offload formats <Divya Narayanan Poojary> 4 months ago
+9cd6f97 : msm8226-common: update README <luca020400> 2 days ago
+baae4a6 : msm8226-common: move props to msm8226-common <luca020400> 3 days ago
+0889cd0 : msm8226-common: Setting dlmalloc as the default allocator <Raghavendra Prasad Nagaraj> 4 months ago
+ 
+**** https://github.com/VanirAOSP/device_motorola_qcom-common ****
+ebd902d : QCOM_COMPRESSED_AUDIO is deprecated, remove it. <Emerson Pinter> 3 days ago
+946b46f : Remove DevicePerformanceSettingsHelper <Emerson Pinter> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_victara ****
+6807beb : victara: cmactions: Move to settings package <Christopher R. Palmer> 15 hours ago
+ 
+**** https://github.com/VanirAOSP/device_qcom_common ****
+2027205 : power: Updates for 8916/8939 <Steve Kondik> 2 days ago
+b0eb8ec : power: introduce 8992-specific handling <Dilip Gudlur> 10 weeks ago
+87416cf : init: Add MSM-specific init extension library for 8992 <Jeykumar Sankaran> 4 months ago
+49446fd : init: qcom: Set LCD density for Dragonboard APQ8094 <Ilia Lin> 6 months ago
+08c7e80 : init: Add MSM-specific init extension library for 8994 <Arun Kumar K.R> 10 months ago
+89b5fbd : power: modify return value for display off hint in 8994 <Dilip Gudlur> 2 months ago
+4204b3b : power: update powerhal to remove deprecated calls <Dilip Gudlur> 4 months ago
+625568b : power: Introduce specific handling for encode use case <Dilip Gudlur> 5 months ago
+f9cefe7 : power: introduce 8994-specific handling <Dilip Gudlur> 5 months ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2-common ****
+f912cd5 : d2: dont include our own wpa_supplicant.conf; update supplicant overlays <dcd> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+4979993 : klte-common: correct permissions for audience ES705 SoC <Matt Filetto> 3 days ago
+6705aa2 : sepolicy: address denails when trying to access audience SoC <Patrick Lower> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_msm8960-common ****
+cdb94af : d2: update wifi parts in init <dcd> 3 days ago
+139fbbb : msm8960: include wpa_supplicant.conf <dcd> 2 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_t0lte ****
+8c4bcbb : t0lte: fix selinux denial for rild <sbrissen> 7 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_huashan ****
+3499cfc : huashan: cleanup package <Brinly Taylor> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_nicki ****
+c5d7191 : nicki: cleanup device tree <RonGokhale> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+fcd2190 : Handle NPE in TelephonyManager <Preeti Ahuja> 3 weeks ago
+6bd11f9 : Bluetooth: Handling Null profile references before connect <Ajay Kumar> 3 weeks ago
+ed7aa2a : Fix FC after starting screen recording <LuK1337> 2 days ago
+21f34c6 : policy: don't allow app switch/recents key to be pressed on lockscreen <Matt Filetto> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+82f2f1c : SurfaceFlinger: Fix null pointer exception <Dan Stoza> 4 weeks ago
+e7fe00a : Fix pointer-to-int and int-to-pointer warnings. <Dan Albert> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_net_ims ****
+a2bec20 : ims: Reflection is only needed for get/setVideoQuality now <dhacker29> 5 days ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_audio ****
+ef33462 : post_proc: add support for virtualizer capability query <Weiyin Jiang> 2 weeks ago
+5889d7d : hal: Fix alignement of of buffer sent to DSP <Amit Shekhar> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_qcom_display ****
+7e07e8c : qdutils: Fix memory leak <Saurabh Shah> 3 weeks ago
+66a10c6 : gralloc: fix getYUVPlaneInfo for YV12 format <Arun Kumar K.R> 8 months ago
+c194f6e : gralloc: Fix NV12 and NV21 stride <Naseer Ahmed> 10 months ago
+57b5245 : gralloc: Report YUV plane info <Naseer Ahmed> 12 months ago
+cc785bf : gralloc: Add support for lock_ycbcr <Naseer Ahmed> 1 year, 11 months ago
+ 
+**** https://github.com/CyanogenMod/android_hardware_qcom_fm ****
+8e9a11a : FM: fixup strings <NBruderman> 8 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_htc_m7 ****
+ceb9ade : cpufreq: interactive: Enable CPU utilization statistics <Steve Kondik> 2 years, 6 months ago
+d11725f : cpufreq: interactive: Honor boosted state in several timer calculations <myfluxi> 9 months ago
+12c9dfb : cpufreq: interactive: Consider changed min limit a frequency boost <myfluxi> 9 months ago
+1afd35b : cpufreq: interactive: Honor changed minimum frequency <myfluxi> 11 months ago
+3d1efe2 : cpufreq: interactive: Record hispeed_validated_time in timer function <Junjie Wu> 4 months ago
+71dd30e : cpufreq: interactive: Exercise hispeed settings at a policy level <Saravana Kannan> 6 months ago
+3d63492 : cpufreq: interactive: Make window alignment optional <Junjie Wu> 7 months ago
+f7c4e1d : cpufreq: interactive: Add max_freq_hysteresis feature <Junjie Wu> 7 months ago
+db0a351 : cpufreq: cpu-boost: Re-issue boosts above minimum frequency <Patrick Cain> 1 year, 1 month ago
+3e84538 : cpufreq: cpu-boost: Resolve deadlock when waking up sync thread <Srivatsa Vaddagiri> 1 year, 4 months ago
+9b7a206 : cpufreq: interactive: Use del_timer/add_timer_on to rearm timers <Junjie Wu> 8 months ago
+ccc1778 : cpufreq: interactive: Round up timer_rate to match jiffy <Junjie Wu> 8 months ago
+d0ba550 : cpufreq: interactive: Reset last evaluated jiffy in idle callback <Junjie Wu> 8 months ago
+b5c7f4600 : cpufreq: interactive: Align timer windows for all CPUs <Junjie Wu> 11 months ago
+d1a5276 : cpufreq: interactive: Squashed cleanup patches <Steve Kondik> 7 months ago
+286ece5 : cpufreq: Move get_cpu_idle_time() to cpufreq.c <Viresh Kumar> 1 year, 11 months ago
+055a07d : cpufreq: interactive: Move definition of cpufreq_gov_interactive downwards <Viresh Kumar> 1 year, 11 months ago
+9d58481 : cpufreq: interactive: Remove unnecessary cpu_online() check <Viresh Kumar> 1 year, 11 months ago
+1488fdd : cpufreq: interactive: Don't reset sampling down factor at max freq <Patrick Cain> 1 year, 3 months ago
+3a7d18b : cpufreq: Sync on thread migration optimizations <Patrick Cain> 1 year, 3 months ago
+479f727 : cpufreq: cpu-boost: Use interruptible wait to not affect load average <Swetha Chikkaboraiah> 10 months ago
+6ee3d1d : cpufreq: cpu-boost: Don't register for cpufreq notifiers too early <Saravana Kannan> 1 year, 2 months ago
+1ad4db8 : Revert "Revert "cpufreq: cpu-boost: Fix deadlock in wake_up of sync threads"" <Christopher R. Palmer> 3 days ago
+7dd65f8 : Revert "cpufreq: cpu-boost: Use hotplug thread infrastructure" <Christopher R. Palmer> 3 days ago
+7962d50 : Revert "cpufreq: Sync on thread migration optimizations" <Christopher R. Palmer> 3 days ago
+da7869b : Revert "cpufreq: interactive: Remove unnecessary cpu_online() check" <Christopher R. Palmer> 3 days ago
+da4c4ee : Revert "cpufreq: interactive: Don't reset sampling down factor at max freq" <Christopher R. Palmer> 3 days ago
+7daab61 : Revert "cpufreq: cpu-boost: Remove unused waitqueue" <Christopher R. Palmer> 3 days ago
+a4dd894 : Revert "cpuboost: Add hotplug boosting" <Christopher R. Palmer> 3 days ago
+9f5b92a : Revert "cpufreq: interactive: Optimize sync_freq implementation" <Christopher R. Palmer> 3 days ago
+7458587 : Revert "cpufreq: interactive: Move definition of cpufreq_gov_interactive downwards" <Christopher R. Palmer> 3 days ago
+a3b65bb : Revert "cpufreq: interactive: fix compiling warnings" <Christopher R. Palmer> 3 days ago
+4dbc1f5 : Revert "cpufreq: interactive: Honor changed minimum frequency" <Christopher R. Palmer> 3 days ago
+b9fbbf1 : Revert "cpufreq: interactive: Revert timer start modification" <Christopher R. Palmer> 3 days ago
+f963d46 : Revert "cpufreq: interactive: restructure CPUFREQ_GOV_LIMITS" <Christopher R. Palmer> 3 days ago
+a4f3bc2 : Revert "cpufreq: interactive: Simplify frequency calculations" <Christopher R. Palmer> 3 days ago
+6c29584 : Revert "cpufreq: interactive: Consider changed min limit a frequency boost" <Christopher R. Palmer> 3 days ago
+8f8ed4f : Revert "cpufreq: interactive: Honor boosted state in several timer calculations" <Christopher R. Palmer> 3 days ago
+0e38758 : Revert "dlx: interactive: Fix compiler warning" <Christopher R. Palmer> 3 days ago
+8b4dd98 : Revert "Revert "cpufreq: interactive: Simplify frequency calculations"" <Christopher R. Palmer> 3 days ago
+a49cd65 : Revert "cpufreq: interactive: Allow go_hispeed to be disabled" <Christopher R. Palmer> 3 days ago
+2c96d344 : Revert "dlx: Reset and patch up interactive/cpu-boost" <Christopher R. Palmer> 15 hours ago
+2689563 : dlx: Reset and patch up interactive/cpu-boost <Christopher R. Palmer> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960-common ****
+d149383 : msm8960_mmi_defconfig: Enable zcache again and allow it to use lz4 <nadlabak> 2 hours ago
+d230d47 : crypto: lz4,lz4hc - fix decompression <KOVACS Krisztian> 8 months ago
+2eb6061 : crypto: add lz4 Cryptographic API <Chanho Min> 1 year, 9 months ago
+bbd29e3 : staging: zsmalloc: add mapping modes <Seth Jennings> 2 years, 9 months ago
+a429622 : zcache: Fix zsmalloc include <Emerson Pinter> 2 days ago
+b3b362f : staging: zsmalloc: zsmalloc: use unsigned long instead of void * <Minchan Kim> 2 years, 10 months ago
+eb0d4f2 : cpufreq: Fix policy getting stuck when user & kernel min/max don't overlap <Saravana Kannan> 1 year, 4 months ago
+24997b2 : cpufreq: cpu-boost: Don't register for cpufreq notifiers too early <Saravana Kannan> 1 year, 2 months ago
+0a38f4a : cpufreq: cpu-boost: Fix deadlock in wake_up of sync threads <Saravana Kannan> 1 year, 2 months ago
+b492fad : cpufreq: cpu-boost: Fix queue_delayed_work_on() race with hotplug <Saravana Kannan> 1 year, 2 months ago
+accc547 : cpufreq: Disable cpu-boost by default <Rohit Gupta> 1 year, 4 months ago
+ca2a75c : cpufreq: Add Input Boost feature to the cpu-boost driver <Rohit Gupta> 1 year, 4 months ago
+ae11018 : cpufreq: Add a sync limit to cpu-boost <Rohit Gupta> 1 year, 4 months ago
+1aa5ed8 : cpufreq: Add cpu-boost driver <Saravana Kannan> 1 year, 9 months ago
+043c7e1 : msm8960_mmi_defconfig: Enable LZ4 for zram, disable zcache <nadlabak> 3 days ago
+fc92546 : lz4: add overrun checks to lz4_uncompress_unknownoutputsize() <Greg Kroah-Hartman> 9 months ago
+04ac891 : lz4: fix another possible overrun <Greg Kroah-Hartman> 10 months ago
+9eb54aa : lz4: ensure length does not wrap <Greg Kroah-Hartman> 10 months ago
+555faff : lz4: fix compression/decompression signedness mismatch <Sergey Senozhatsky> 1 year, 7 months ago
+5b14054 : lib/lz4: correct the LZ4 license <Richard Laager> 1 year, 7 months ago
+8388601 : lib: add lz4 compressor module <Chanho Min> 1 year, 9 months ago
+2f3dac6 : lib: add support for LZ4-compressed kernel <Kyungsik Lee> 1 year, 9 months ago
+7ee655c : decompressor: add LZ4 decompressor module <Kyungsik Lee> 1 year, 9 months ago
+b08a7b4 : zram: fix incorrect stat with failed_reads <Chao Yu> 7 months ago
+600973f : zram: replace global tb_lock with fine grain lock <Weijie Yang> 4 weeks ago
+74affa6 : zram: use size_t instead of u16 <Minchan Kim> 8 months ago
+97f9387 : zram: remove unused SECTOR_SIZE define <Sergey Senozhatsky> 8 months ago
+4117ac9 : zram: rename struct `table' to `zram_table_entry' <Sergey Senozhatsky> 8 months ago
+bb2314c : zram: avoid lockdep splat by revalidate_disk <Minchan Kim> 9 months ago
+355ab6f : zram: revalidate disk after capacity change <Minchan Kim> 9 months ago
+5b5aa6b : zram: correct offset usage in zram_bio_discard <Weijie Yang> 10 months ago
+ffd1049 : zram: support REQ_DISCARD <Joonsoo Kim> 12 months ago
+4028095 : zram: use scnprintf() in attrs show() methods <Sergey Senozhatsky> 12 months ago
+a8b53b0 : zram: propagate error to user <Minchan Kim> 12 months ago
+a79c772 : zram: return error-valued pointer from zcomp_create() <Sergey Senozhatsky> 12 months ago
+caff0da : zram: move comp allocation out of init_lock <Sergey Senozhatsky> 12 months ago
+5da7dd7 : zram: add lz4 algorithm backend <Sergey Senozhatsky> 12 months ago
+115ff6b : zram: make compression algorithm selection possible <Sergey Senozhatsky> 12 months ago
+ea7906f : zram: add set_max_streams knob <Sergey Senozhatsky> 12 months ago
+3f58dd8 : zram: add multi stream functionality <Sergey Senozhatsky> 12 months ago
+7676492 : zram: document failed_reads, failed_writes stats <Sergey Senozhatsky> 12 months ago
+bab42c3 : zram: factor out single stream compression <Sergey Senozhatsky> 12 months ago
+d9a6af3 : zram: use zcomp compressing backends <Sergey Senozhatsky> 12 months ago
+828fae0 : zram: introduce compressing backend abstraction <Sergey Senozhatsky> 12 months ago
+8863552 : zram: delete zram_init_device() <Sergey Senozhatsky> 12 months ago
+2af1760 : zram: move zram size warning to documentation <Sergey Senozhatsky> 12 months ago
+b138efd : zram: drop not used table `count' member <Sergey Senozhatsky> 12 months ago
+f9e523f : zram: report failed read and write stats <Sergey Senozhatsky> 12 months ago
+4cbc8a60 : zram: remove zram stats code duplication <Sergey Senozhatsky> 12 months ago
+65cab7f : zram: use atomic64_t for all zram stats <Sergey Senozhatsky> 12 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8974 ****
+cfed19c : victara: Export stm401.h for cmactions <Christopher R. Palmer> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/kernel_samsung_klte ****
+0e45854 : build: Call run_extras <ktoonsez> 21 hours ago
+bcd5b53 : build: Call run_extras <ktoonsez> 21 hours ago
+119783b : Bring interactive up to latest greatest and remove KT hooks <ktoonsez> 22 hours ago
+c89bc84 : Bring interactive up to latest greatest and remove KT hooks <ktoonsez> 22 hours ago
+eabcf96 : build_master: Modify version number <ktoonsez> 10 days ago
+ 
+**** https://github.com/NamelessRom/android_kernel_samsung_smdk4412 ****
+fc84fe8 : i9300: defconfig: revert CMA configs to default <Dheeraj CVR> 28 hours ago
+fbf890d : defconfig: regenerate defconfigs <Dheeraj CVR> 7 days ago
+34597e7 : drivers: gpu: remove older mali releases <Dheeraj CVR> 7 days ago
+aa24c4d : i9300: enable zRAM <Dheeraj CVR> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+a9b78c4 : our 8226 kernel is old as f*%^ <Ethan> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_BluetoothExt ****
+f640f41 : Squish to cm-12.1 <nuclearmistake> 12 hours ago
+b359c1e : Bluetooth-Wipower: Fix for crash during gatt read request. <Kiran Kelageri> 3 weeks ago
+082564f : Bluetooth-WiPower: Support for PRU alert notifications <Umesh Vats> 6 weeks ago
+ff21c64 : Wipower-Bluetooth: Host Changes for advertisment offloading. <Kiran Kelageri> 8 weeks ago
+efab39f : Bluetooth-WiPower: DUT disconects 10 seconds after connection to iPad. <Umesh Vats> 7 weeks ago
+5ab41c4 : Bluetooth-WiPower: Prevent duplicate power apply commands, send PRU alert                    notifications only in connected state, don't release                    the wake lock when disable charge output is received <Umesh Vats> 3 weeks ago
+4097ede : BluetoothWiPower: PRU Alert notifications(Interface change) <Umesh Vats> 4 weeks ago
+0640cfe : Bluetooth-WiPower: Support for PRU alert notifications <Umesh Vats> 6 weeks ago
+842bfb1 : Bluetooth-WiPower: DUT disconects 10 seconds after connection to iPad <Umesh Vats> 7 weeks ago
+f52babb : Wipower-Bluetooth: Host Changes for advertisment offloading. <Kiran Kelageri> 8 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Browser ****
+de58083 : Browser: fix fixing default bookmarks urls <Konsta> 5 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+e849cd1 : Stop ', NaN' from showing up; instead syntaxexception should be thrown. <Martin Brabham> 3 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_ContactsCommon ****
+38c39f9 : ContactsCommon: fix NPE on importing contact with multiple accounts <Pawit Pornkitprasan> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+9c45e51 : Revert "Dialer: truncate hint text for search box" <Pawit Pornkitprasan> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_input_LatinIME ****
+6d1c8e9 : Rearrange Slavic & Greek morekeys <Michael Bestas> 3 days ago
+ad70be9 : Rearrange morekeys <KhasMek> 1 year, 2 months ago
+80e5153 : Fix suggestions text padding (AOSP Keyboard) <Sergey Zozulya> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telecomm ****
+b8fcaec : Revert "Subscription selection when dialing USSD" <Pawit Pornkitprasan> 2 days ago
+e611ca7 : CallsManager: fix starting call from Contacts app with MSim <Pawit Pornkitprasan> 3 weeks ago
+ 
+**** https://github.com/DHOMD/commotio ****
+1cebc60 : B81 start <DHOMD> 3 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_lge ****
+f841b81 : Reconcile Hammerhead and Hammer HEadcaf <DHOMD> 4 hours ago
+48067e4 : hammerhead: Update blobs to LMY47I <myfluxi> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+0e6bdd9 : Update APNs for Smartfren <Howard M. Harte> 3 days ago
+ 

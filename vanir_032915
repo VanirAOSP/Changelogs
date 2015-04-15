@@ -1,0 +1,239 @@
+
+**** git://git.samba.org/ccache.git ****
+1032c0b : Don't assume that succeeding libc calls don't modify errno <Joel Rosdahl> 10 hours ago
+2f7bb60 : Update copyright years <Joel Rosdahl> 8 days ago
+ 
+**** https://github.com/VanirAOSP/device_asus_tilapia ****
+8bc054b : Tilapia: tethering strings to string-arrays <linuxxxxx> 34 hours ago
+ 
+**** https://github.com/VanirAOSP/device_moto_shamu ****
+70312cb : shamu: Update bloblist <Steve Kondik> 31 hours ago
+05b5384 : proprietary-files: Add mdm_helper_proxy <dhacker29> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2-common ****
+efa9ad5 : Revert "fstab: enable 128mb of zRAM" <Dan Pasanen> 4 days ago
+b4f2cc5 : Update media profiles <Dave Daynard> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_hlte-common ****
+93badd4 : Revert "Camera: Add Enforcing video-snapshot-supported = true" <Shareef Ali> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/external_bluetooth_bluedroid ****
+034c55d : bluetooth: Fix race condition in GKI timer callback <Christopher R. Palmer> 6 weeks ago
+49a3d6a : bluetooth: a2dp: Drop CAF's edr vs. non-edr packet optimization <Christopher R. Palmer> 6 weeks ago
+053983b : bluetooth: a2dp: Fix CAF's broken throttling <Christopher R. Palmer> 2 days ago
+f39c3c1 : Revert "Protect reset of out stream with mutex" <Christopher R. Palmer> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+5d78ef3 : audiopolicy: Don't guard INCALL_MUSIC with MULTI_VOICE <Ethan Chen> 7 hours ago
+88b9122 : media: Fix various issues with QCOM audio flags <Steve Kondik> 26 hours ago
+e48f5fc : libstagefright: support pause/resume for timelapse recording <Kim Zhang> 8 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+6c1a468 : ims: More backwards-compatibility stuff <Steve Kondik> 25 hours ago
+949c646 : livedisplay: Don't depend on automatic brightness <Steve Kondik> 22 hours ago
+0f705b5 : telephony: Add AOSP compatibility methods for IMS <dhacker29> 29 hours ago
+038cb80 : IMS: add ImsConfig api to get volte provisioned value. <Libin.Tang@motorola.com> 4 months ago
+5c7daa8 : Fixes large number of thumbnails leads to low memory <Maunik Shah> 11 months ago
+4822149 : frameworks/base: Fix delay in sending AUDIO_BECOMING_NOISY intent <Amit Shekhar> 11 months ago
+4f741a4 : Assign more reasonable width and height of a window surface <Dohyun Lee> 9 days ago
+66a76e5 : Wait for visible wallpaper drawn before starting app transitions <tiger_huang> 6 weeks ago
+3749426 : Wait for opening apps ready before stopping freezing display <tiger_huang> 6 weeks ago
+5a2f3fd : BlurLayer: Remove unnecessary surface transactions <Steve Kondik> 2 days ago
+4a6db04 : DimLayer : remove unnecessary surface transaction calls <Dohyun Lee> 7 days ago
+b951012 : Layout the window to be displayed if it would be resized <tiger_huang> 9 weeks ago
+b77a7bd : [ActivityManager] Avoid killing unrelated processes. <riddle_hsu> 13 days ago
+1b9a955 : hwui : fix memory leak due to duplicate in shadow cache <Mykola Kondratenko> 2 weeks ago
+43d7b88 : Remove the window whose client process has died or become zombie <tiger_huang> 9 months ago
+1da0b42 : Clear the previous states before setting the new app visibility <tiger_huang> 5 months ago
+b7f2452 : Alarm: add support for power off alarm <huiwan> 2 months ago
+beaabbd : bootanimation_main: Disable boot animation when device is triggered by alarm <Lijuan Gao> 4 months ago
+c11cf41 : frameworks/base : Enable Aggressive trim settings <Kishore Srivenkata Ganesh Bolisetty> 3 months ago
+fb72435 : SystemUI: Fix no LED indication for missed call when screen off <kaiyiz> 8 weeks ago
+bf6b984 : SystemUI: Fix issue with uplink downlink arrows on mobile network signal <Monika Alekhya> 5 weeks ago
+178146b : Perform once GCs on all app process when system ready <Zhibin Wang> 10 weeks ago
+a2cb663 : Revert QC performance manager, we have our own. <Steve Kondik> 2 days ago
+7490510 : telephony: Add compatibility version of registrationDisconnected() <Steve Kondik> 2 days ago
+e42ae2d : aidl: Support for duplicate methods having different arguments <Steve Kondik> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+a6e339b : media/hardware/HardwareAPI.h: make MediaImage 64-bit compatible <Praveen Chavan> 13 days ago
+a8fbcdc : Fix mistake using width instead of height. <Christopher Ferris> 6 days ago
+3407f72 : surfaceflinger: Fix klockwork error. <Jeykumar Sankaran> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_net_ims ****
+1663924 : ims: Use reflection to support different IImsConfigs <Steve Kondik> 23 hours ago
+bc68b84 : Don't blindly return true for getVolteProvisioned <dhacker29> 29 hours ago
+c849026 : ims: Add backwards compatibility for registrationDisconnected <Steve Kondik> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+c291280 : Update GSM/CDMA getState API to consider state of the IMS phone as well. <Etan Cohen> 3 months ago
+41e18a4 : Send SMS over 1x when on eHRPD/LTE and active voice call <Xia Ying> 7 months ago
+991d14a : telephony: Don't test for features known to be unsupported <Steve Kondik> 19 hours ago
+821c90b : telephony: Add backwards compat for registrationDisconected <Steve Kondik> 2 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_lge_msm8974 ****
+3fa7050 : Fix max voltage for purpose of adjustment <sudosurootdev> 4 days ago
+e8c4e8f : msm: rpc: Fix uninitialized union in rpc router close function <sudosurootdev> 1 year, 8 months ago
+18bc194 : msm: rpc: Fix uninitialized union in rpc router code <sudosurootdev> 1 year, 8 months ago
+d68c211 : vfs: read file_handle only once in handle_to_path <sudosurootdev> 9 weeks ago
+36c13c6 : mm: Fix NULL pointer dereference in madvise(MADV_WILLNEED) support <sudosurootdev> 1 year, 3 months ago
+471064a : lowmemorykiller: Do proper NULL checks <sudosurootdev> 7 weeks ago
+82f0b50 : cgroup: remove synchronize_rcu() from cgroup_attach_{task|proc}() <sudosurootdev> 6 months ago
+9ed7ada : msm: mdss: ensure retire fences are signaled during panel off <sudosurootdev> 5 months ago
+9832e19 : msm: mdss: avoid clocks on if panel is not on for command mode <sudosurootdev> 5 months ago
+4653019 : ASoC: msm: Add support for 96KHz/192KHz sample rate playback over HDMI <sudosurootdev> 1 year, 10 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960-common ****
+e119199 : ASoC: msm: Support to configure the code for media button <Phani Kumar Uppalapati> 1 year, 8 months ago
+ 
+**** cm	https://github.com/CyanogenMod/android_kernel_oneplus_msm8974
+https://github.com/AlmightyMegadeth00/kernel_oneplus_msm8974 ****
+a21400b : DEVELOPMENT MOVED TO www.github.com/VanirExodus/kernel_oneplus_msm8974 <Dave Kessler> 3 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+735e201 : leds: leds-pm8xxx fix led_{r,g,b} sysfs entries for notification led <Gavin Li> 3 months ago
+4fa768a : sched: Fix reference to stale task_struct in try_to_wake_up() <Srivatsa Vaddagiri> 4 months ago
+c6986b2 : prctl: make PR_SET_TIMERSLACK_PID pid namespace aware <Micha Kalfon> 3 months ago
+515b83f : net: wireless: bcmdhd: Remove WLAN_CIPHER_SUITE_AES_CMAC advertisement <Dmitry Shmidt> 9 weeks ago
+ce44c25 : msm: gemini: Fix the error irq handling sequence <Sunid Wilson> 1 year, 11 months ago
+f76a268 : msm:camera: Fix overflow issue in ioctl_hw_cmds function <Monika Alekhya> 1 year, 9 months ago
+9348c5c : nick kvfree() from apparmor <Al Viro> 6 months ago
+b64919a : iommu: msm: Handle unmapping of PTE properly <Olav Haugan> 1 year, 9 months ago
+07b09e3 : lib: genalloc: Use 64 bit types for holding allocations <Laura Abbott> 2 years ago
+24da609 : ARM: sched_clock: Load cycle count after epoch stabilizes <Stephen Boyd> 1 year, 9 months ago
+de72bc0 : ARM: smp: Save CPU registers before IPI_CPU_STOP processing <Tingting Yang> 1 year, 8 months ago
+73378a5 : ARM: Flush the caches for non panicking CPUs in case of a kernel panic <Syed Rameez Mustafa> 1 year, 10 months ago
+2455737 : ARM: 7465/1: Handle >4GB memory sizes in device tree and mem=size@start option <Peter Maydell> 2 years, 9 months ago
+28bddd7 : fs/proc/task_mmu.c: add user-space support for resetting mm->hiwater_rss (peak RSS) <Petr Cermak> 6 weeks ago
+7110ed0 : Revert "d2: enable memory resource controller and swap extension" <Dave Daynard> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_mondrianwifi ****
+d084984 : net: ipv6: ping: Use socket mark in routing lookup <Lorenzo Colitti> 1 year, 1 month ago
+0998e43 : net: support marking accepting TCP sockets <Lorenzo Colitti> 1 year ago
+39428f5 : net: add a sysctl to reflect the fwmark on replies <Lorenzo Colitti> 1 year ago
+39f0e7f : net: ipv6: autoconf routes into per-device tables <Lorenzo Colitti> 1 year ago
+99f2727 : net: ipv6: Don't purge default router if accept_ra=2 <Lorenzo Colitti> 2 years, 1 month ago
+a9b7010 : mondrianwifi: mdss: Slap my caf based mdss driver in here <Christopher R. Palmer> 4 days ago
+ 
+**** https://github.com/NamelessRom/android_kernel_samsung_smdk4412 ****
+ecfbd91 : i9300: ksm: enable KSM page checking <Dheeraj CVR> 11 hours ago
+fdf8140 : ksm: Provide support to use deferred timers for scanner thread <Chintan Pandya> 1 year, 1 month ago
+4eb2762 : ksm: check and skip page, if it is already scanned <Pradeep Sawlani> 1 year, 1 month ago
+b1a0bff : i9300: lower UMP static allocated memory <Dheeraj CVR> 12 hours ago
+63d59a4 : i9300: enable KSM and zRAM <Dheeraj CVR> 12 hours ago
+48c0437 : mm: memcontrol: fix build with CONFIG_CGROUP enabled <Dheeraj CVR> 12 hours ago
+a1dec8a : i9300: defconfig: enable CMA memory allocation <Javier Ferrer> 4 days ago
+3c9306a : usb: fix compilation <arter97> 8 weeks ago
+cb8ae03 : mach-exynos: Don't compile unused 4210 objects on 4x12 <andip71> 9 months ago
+7666250 : cpuidle-exynos4: Remove debug logging <andip71> 1 year, 1 month ago
+02b3000 : futex: Make lookup_pi_state more robust <Thomas Gleixner> 10 months ago
+9bf1d54 : futex: Always cleanup owner tid in unlock_pi <Thomas Gleixner> 10 months ago
+469d2c5 : futex: Validate atomic acquisition in futex_lock_pi_atomic() <Thomas Gleixner> 10 months ago
+7e5688e2 : futex: uninitialized warning corrections <Vitaliy Ivanov> 3 years, 9 months ago
+afbfcda : Fix build on Darwin: <hudson@koushik-lion> 4 weeks ago
+73b6e23 : motor: max77693: disable debug logging <Dheeraj CVR> 3 weeks ago
+3f39180 : mach-exynos: watchdog: fix overly verbose logging <Dheeraj CVR> 3 weeks ago
+76da7d2 : max77693: fix overbloated debug message <codeworkx> 2 years, 6 months ago
+4721fd4 : modem_if: disable printing of IPC-RX/TX messages <codeworkx> 2 years, 6 months ago
+30314d8 : smdk4412: reboot bootloader boots into download mode <codeworkx> 2 years, 4 months ago
+91b45af : drivers: modem_if : Remove some debugging <sakindia123> 1 year, 10 months ago
+f690bb6 : max77693: fix debugging <codeworkx> 2 years, 6 months ago
+c27b45b : max77686: disable debugging code <codeworkx> 2 years, 6 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Bluetooth ****
+4e9c263 : Automatic translation import <Michael Bestas> 4 weeks ago
+8a0f46e : Automatic translation import <Michael Bestas> 6 weeks ago
+16bc583 : bluetooth: Tone down the logspam <Christopher R. Palmer> 9 weeks ago
+b85f85b : Automatic translation import <Michael Bestas> 7 weeks ago
+92b511a : New Material icon <Michael Bestas> 8 weeks ago
+9b33598 : Handle change from boolean to int preference <Scott Warner> 9 weeks ago
+a182008 : Bluetooth: Porper update of the tracknumber and initialize with proper value. <Gaurav Asati> 3 months ago
+35c6e72 : MAP: Broadcast intent with FLAG_RECEIVER_FOREGROUND parameter <Hemant Gupta> 3 months ago
+c2519f4 : Bluetooth: Send player settings changed notification <pramod kotreshappa> 3 months ago
+f2ac617 : Bluetooth: GAP: Acquire a wakelock to bring the display up. <Venkata Jagadeesh> 4 months ago
+02bf7ae : PBAP: Add support for handling connection state <Hemant Gupta> 4 months ago
+1e84e28 : Bluetooth-OPP: Update interrupted outbound/inbound shares status after BT turned ON <Juffin Alex Varghese> 4 months ago
+dda47fc : Bluetooth-OPP: Synchronize OPP Database cleanup and Shareupdate threads <Juffin Alex Varghese> 4 months ago
+ff411b7 : [2/3]Bluetooth: add "Accept all files" option for incoming files <Hamster Tian> 11 months ago
+dac5f53 : Bluetooth: Improve CAF strings <Michael Bestas> 3 months ago
+59d51b5 : Bluetooth: Move CAF strings <Michael Bestas> 3 months ago
+7897776 : bluetooth: Materialize dialogs <Diogo Ferreira> 4 months ago
+8836509 : optipng -nc -nb -o7 <nuclearmistake> 4 months ago
+043b8b1 : bluetooth: avrcp - Respond to PDU 0x16 correctly <Scott Mertz> 4 months ago
+f487299 : Bluetooth: fix manifest spacing <Roman Birg> 5 months ago
+5773db1 : Added support for Filter parameter for PBAP function PullPhoneBook <Martin Gerczuk> 3 years, 2 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Contacts ****
+07ef4b7 : QuickContacts: Fix null pointer exception when clicking a contact <Patrick Lower> 2 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+7287dc1 : Revert "Dialer app changes for IMS" <Steve Kondik> 15 hours ago
+414c556 : Give SIM spinner a little more width. <Danny Baumann> 4 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Gallery2 ****
+bbbc910 : Revert OMADRM feature. <Steve Kondik> 28 hours ago
+741973e : gallery: Remove duplicate string <Steve Kondik> 27 hours ago
+283c7dd : Automatic translation import <Michael Bestas> 3 weeks ago
+16d1a6c : Automatic translation import <Michael Bestas> 4 weeks ago
+b67c45a : Automatic translation import <Michael Bestas> 6 weeks ago
+767dcaa : Automatic translation import <Michael Bestas> 7 weeks ago
+3bdaf42 : New Material icon <Michael Bestas> 8 weeks ago
+a1ad934 : Add record time to details view <Flamefire> 6 months ago
+bc5f6cc : Fix crash of gallery on showing details <Flamefire> 7 months ago
+8d797f6 : Reduce logspam in video player <emancebo> 6 months ago
+2995493 : gallery: use inJustDecodeBounds in ImageFilterBorder <Jorge Ruesga> 7 months ago
+55a1c3e : Gallery2 : Store DATE_TAKEN as milliseconds <Danesh M> 1 year, 1 month ago
+d87286f : Camera: Fix out-of-order operations while setting up the editor <Ricardo Cerqueira> 1 year, 1 month ago
+314380d : Camera: Ensure background edition complete on back Key <Suman Mukherjee> 1 year, 3 months ago
+c60e0ed : Gallery : Filter picasa specific options <Danesh Mondegarian> 1 year, 10 months ago
+dbdec5a : Revert "Gallery2: The settings in the gallery is blank." <Michael Bestas> 3 months ago
+8794f08 : Gallery2: Modify AOSP EL translations <Michael Bestas> 1 year, 7 months ago
+8b68b85 : Gallery2: Remove Chinese CAF translations <Michael Bestas> 3 months ago
+81b0ada : Gallery2: Set untranslatable <Michael Bestas> 6 months ago
+0e1f8b7 : Gallery2: Remove unused strings <Michael Bestas> 6 months ago
+5c7a30d : Gallery2: Improve strings <Michael Bestas> 7 months ago
+8b6df94 : Gallery2: move CAF strings to codeaurora_strings <Vladislav Koldobskiy> 3 months ago
+d29332b : Gallery2: Make grids scroll vertically by default <cretin45> 3 months ago
+51aa540 : Gallery : Remove DialogPicker theme in v21 <Danesh M> 3 months ago
+4e95c90 : Gallery2: More material for filtershow <cretin45> 3 months ago
+c831794 : Add clean step after recent changes <dhacker29> 3 months ago
+650712e : Gallery2: Fix filtershow renderscript for lollipop <cretin45> 3 months ago
+2deb6f5 : Gallery2: Materialization <cretin45> 4 months ago
+fe66d39 : Revert "Gallery2: reduce post delay time" <Surajit Podder> 4 months ago
+cdaf28c : Gallery2: reduce post delay time <vivek mehta> 5 months ago
+d1c76bf : Gallery2: Fix wake up the screen, the video does not continue to play. <kaiyiz> 7 days ago
+8c3144c : Gallery2: Don't bundle beautification libraries <Jay Wang> 8 days ago
+67d9770 : Gallery2: Remove wait when notify dirty <kaiyiz> 9 days ago
+1d8eeb0 : Gallery2: Remove the 'Make available offline' <kaiyiz> 10 days ago
+692eabb : Gallery2: Move files to the correct location <Jay Wang> 2 weeks ago
+38478f2 : Modify:Gallery2 for branch Gallery2 <Zhang Zhenzhen> 3 weeks ago
+5e2719d : Gallery2: Add "No faces" strings <mqi> 13 days ago
+6ac840c : Gallery2: Gallery2 resources for beautification feature <Byunghun Jeon> 4 weeks ago
+2317c96 : Gallery2: Set video view visible <kaiyiz> 3 weeks ago
+7e23452 : Gallery2: Pause video when dialog shows <kaiyiz> 3 weeks ago
+665c07e : Gallery2: set the progress bar when we pause the video <kaiyiz> 3 weeks ago
+77bee7a : Gallery2: Pause video when dialog shows <kaiyiz> 3 weeks ago
+93b631a : Gallery2: Menu options list disappears very fast <kaiyiz> 4 weeks ago
+d699b6a : Gallery2: Allow edit if launched from Snapcam <Byunghun Jeon> 5 weeks ago
+81ec818 : Gallery2 - Add support to pass in a playlist along with video to play <Rohit Yengisetty> 6 weeks ago
+b7231bd : Gallery2: Translate image draw to Chinese <kaiyiz> 6 weeks ago
+7290784 : Galler2 : Load onResume on separate thread <Suresh Kamasala> 7 weeks ago
+9b1ab36 : Gallery2: Enable Suspend/Resume <mqi> 7 weeks ago
+b444526 : Gallery2: request thumb if fail to get region decoder <kaiyiz> 7 weeks ago
+6144de8 : Gallery2 : Added support for Oma drm (CD and SD) <Paramananda> 7 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+d9d81bd : Vanir to Mod Version <DHOMD> 9 minutes ago
+d70727e : Revert "Add processor info in device info screen" <DHOMD> 50 minutes ago
+2872794 : Revert "Adding code to invoke feedback for the device." <DHOMD> 52 minutes ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+0e16314 : telephony: Remove top-level IMS settings <Steve Kondik> 20 hours ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+354483f : init: Let a device's init.rc redefine service entries <Ricardo Cerqueira> 6 months ago
+ 
+**** https://github.com/VanirAOSP/vendor_motorola ****
+cd13b2e : reconcile shamu <nuclearmistake> 10 hours ago
+05eb3cd : shamu: Add mdm_helper_proxy <dhacker29> 2 days ago
+ 

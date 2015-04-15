@@ -1,0 +1,181 @@
+
+**** https://github.com/VanirAOSP/bionic ****
+e9eacf4 : squash fix a few bionic strict aliasing violations <Ethan> 2 days ago
+ 
+**** https://github.com/VanirAOSP/build ****
+34406a9 : Hacks <DHOMD> 12 days ago
+62f11a9 : libc bionic can now be removed from the copout list in vanir_config <Ethan> 25 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g2-common ****
+7513241 : Moved /data/tombstones dir creation to system/core. Add enable_ramdumps to on post-fs-data. <sudosurootdev> 2 days ago
+6ddcfa6 : Remove restricted perms from CPU & GPU devices, for people wanting to adjust them with a third-party app. <sudosurootdev> 2 days ago
+ 
+**** https://github.com/VanirAOSP/motorola_msm8226-common ****
+a724ff5 : msm8226-common: Redefine rild service <Konsta> 35 hours ago
+7e6bc74 : msm8226-common: Remove device_perms header <Konsta> 35 hours ago
+99e6d40 : msm8226-common: Update filesystem_config header for 5.1 <Konsta> 35 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_victara ****
+904e92b : Revert "victara: init: rild needs some additional groups for qmi" <Christopher R. Palmer> 16 hours ago
+bfbba8a : victara: cmactions: Only launch the secure camera when needed <Christopher R. Palmer> 25 hours ago
+30ff61b : victara: init: Cleanup the go_hispeed_load <Christopher R. Palmer> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_find7-common ****
+df1d489 : find7-common: Use bacon's autobrightness levels <Michael Bestas> 11 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_samsung_d2-common ****
+a4c8a5c : d2-common: update device permissions <Dave Daynard> 26 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_manta ****
+91dfbbc : Update fingerprint to LMY47D <Sam Mortimer> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_huashan ****
+e80cef0 : huashan: add charge only option <Mrcl1450> 35 hours ago
+677d519 : huashan: cleanup Auto-Brightness values <Brinly Taylor> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_shinano-common ****
+824b10c : remove mdp prop <Giulio Cervera> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+d7d5573 : libstagefright: add missing TI color format case <Ziyan> 31 hours ago
+9a37bd5 : NuPlayer : Fix incorrect timestamp update for offload playback <Dhanalakshmi Siddani> 4 months ago
+8dd3cd0 : nuplayer: Has video hint for offload <Haynes Mathew George> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+0a94e05 : Wifi: Check configKey for ScanResult while visibility is set <Nalla Kartheek> 3 weeks ago
+93e0371 : Wifi: Maintain configKey generation logic same in all APIs <Nalla Kartheek> 3 weeks ago
+de77639 : fix checkapi <Scott Mertz> 13 hours ago
+ 
+**** https://github.com/CyanogenMod/android_frameworks_opt_net_wifi ****
+f798334 : Wifi: Do not enable saved networks in ConnectedState <Nalla Kartheek> 4 weeks ago
+2caaed6 : Wifi: Filter the scan results based on the configured band <Nalla Kartheek> 8 weeks ago
+1e45f2f : wifi: Handle the NULL check for the STATUS command <c_rrajiv> 3 weeks ago
+3fbc07d : Wifi: Exit the monitor thread when killSupplicant is issued. <Hu Wang> 3 weeks ago
+ 
+**** https://github.com/VanirAOSP/hardware_samsung ****
+d0b8416 : libril: rewrite preferred network type <Daniel Hillenbrand> 2 days ago
+bd82ef1 : libril: move samsung specific into seperate table, update to v11 <Howard Su> 2 days ago
+ 
+**** https://github.com/VanirAOSP/kernel_htc_msm8974 ****
+b4a93be : msm8974: remove KCAL <Dan Pasanen> 4 days ago
+b3046cc : netfilter: nf_conntrack: reserve two bytes for nf_ct_ext->len <Andrey Vagin> 1 year, 1 month ago
+cbd638e : ipv6: Don't reduce hop limit for an interface <D.S. Ljungmark> 3 weeks ago
+5ed020b : Patch 3.4.54 <varchild> 6 hours ago
+97c4404 : Patch 3.4.53 <varchild> 5 days ago
+44255fc : Patch 3.4.52 <varchild> 6 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960-common ****
+36daff1 : defconfig: Use -O2 not -Os <Emerson Pinter> 3 days ago
+14450f9 : block: bfq: Fix warnings treated as errors when using -O2 <nadlabak> 28 hours ago
+7f650d3 : lib: lz4: Set ARM_EFFICIENT_UNALIGNED_ACCESS <Shashank Shekhar> 4 months ago
+f8c61be : zsmalloc: merge size_class to reduce fragmentation <Joonsoo Kim> 4 months ago
+996e9da : zsmalloc: simplify init_zspage free obj linking <Dan Streetman> 6 months ago
+ee2cb5f : zcache: Use zs_get_total_size_pages <nadlabak> 5 days ago
+6923a81 : zsmalloc: change return value unit of zs_get_total_size_bytes <Minchan Kim> 6 months ago
+24b723a : zsmalloc: move pages_allocated to zs_pool <Minchan Kim> 6 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960dt-common ****
+f541c14 : mm/zsmalloc: allocate exactly size of struct zs_pool <Ganesh Mahendran> 4 months ago
+838dd44 : zsmalloc: correct fragile [kmap|kunmap]_atomic use <Minchan Kim> 4 months ago
+24496cf : zsmalloc: merge size_class to reduce fragmentation <Joonsoo Kim> 4 months ago
+4112bb2 : zsmalloc: simplify init_zspage free obj linking <Dan Streetman> 6 months ago
+d47f7e1 : zsmalloc: comments <Emerson Pinter> 11 hours ago
+f094c2a : zcache: Use zs_get_total_size_pages <nadlabak> 5 days ago
+44f2e86 : zsmalloc: change return value unit of zs_get_total_size_bytes <Minchan Kim> 6 months ago
+690e815 : zsmalloc: move pages_allocated to zs_pool <Minchan Kim> 6 months ago
+9fda879 : defconfig: Use -O2 not -Os <Emerson Pinter> 3 days ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8974 ****
+c8bae0b : Revert "prima: Update to LA.BF.1.1.1_rb1.17" <Christopher R. Palmer> 17 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+42caad2 : msm: mdss: Add clock support for ULPS mode for DSI <Aravind Venkateswaran> 1 year, 4 months ago
+f303f40 : sony: dts: update pm8941 to 23.1.A.0.690 <Giulio Cervera> 33 hours ago
+663ac61 : ARM:dtsi: add rpm_master_stats support for msm8974pro <Anil kumar mamidala> 1 year, 3 months ago
+4642d1d : ARM: dts: msm: BIMC for 8974 class devices <Neil Leeder> 1 year ago
+ebdb4a0 : ARM: dts: msm: Add GPIO strength parameter for power manager entry <Anand N Sunkad> 4 months ago
+bddda99 : ARM: dts: msm: Add power manager entry for wcnss <Hardik Kantilal Patel> 5 months ago
+74475ff : ARM: dts: msm: BIMC for 8226 class devices <Neil Leeder> 1 year ago
+aa71df7 : ARM: dts: msm: add blink support for GPLED <Abinaya P> 6 months ago
+09574a2 : pm: log time taken for device wakeup <Giulio Cervera> 2 days ago
+78ad334 : avtimer: msm: allow driver to register to SSR framework <Laxminath Kasam> 7 months ago
+93658a5 : target/rd: Refactor rd_build_device_space + rd_release_device_space <Nicholas Bellinger> 1 year, 3 months ago
+d84f9e0 : spmi-pmic-arb: improve error reporting <Gilad Avidov> 11 months ago
+210f48b : spmi: qpnp-int: clear the latched status when unmasking an interrupt <David Collins> 1 year, 5 months ago
+cc5aefe : spmi: qpnp-int: use edge flow handler for edge interrupts <Abhijeet Dharmapurikar> 1 year, 5 months ago
+00d4efb : spmi: qpnp-int: add irq_ack() callback and use it inside irq_mask_ack() <David Collins> 1 year, 5 months ago
+bc58059 : spi_qsd: Initialize wait queue <Sana Venkat Raju> 9 months ago
+e988df3 : spi_qsd: Fix bug in multi-xfer bam mode transaction <Alok Chauhan> 1 year, 1 month ago
+ec88f01 : spi_qsd: Add support for multiple BAM descriptors <Alok Chauhan> 1 year, 8 months ago
+31928f7 : spi_qsd: Add core message queue feature <Alok Chauhan> 1 year, 7 months ago
+d0106f4 : updated slimbus driver from 23.1.A.0.690 <Eric Holmberg> 6 months ago
+cfbde3e : ngd_slim: Register with QMI service in the slave-notification thread <Sagar Dharia> 10 months ago
+64ae86b : slim_msm: support non-blocking writes from slimbus MSM controller <Sagar Dharia> 1 year ago
+3374416 : slimbus: Use physical address type where physical address is used <Sagar Dharia> 1 year, 2 months ago
+ab7ecc9 : slimbus: Enable clients to send user messages to devices. <Sagar Dharia> 1 year, 2 months ago
+6916500 : rtc: alarm: set power_on_alarm again when calling alarm_resume <Mao Jinlong> 8 months ago
+a9adddb : updated qpnp-charger driver from 23.1.A.0.690 <Giulio Cervera> 2 days ago
+24e6c699b : pwm: qpnp: correct LUT mode LPG disable steps <Prasad Sodagudi> 10 months ago
+930856c : msm: qpnp-power-on: print the power off reason <Xiaozhe Shi> 1 year, 6 months ago
+c8edc96 : platform: qpnp-power-on: choose correct s2 control registers <Abinaya P> 11 months ago
+7c3f715 : platform: msm: fix s3 source macros <Mohan Pallaka> 1 year ago
+3c45c45 : updated battery data from 23.1.A.0.690 <Giulio Cervera> 2 days ago
+05a549e : power: batterydata-lib: fix out of bound errors <Xiaozhe Shi> 1 year, 1 month ago
+4748d1f : soc: qcom: bam_dmux: Reset SSR flags in bam_init <Arun Kumar Neelakantam> 3 months ago
+0be6d10 : msm: ipc_logging: add client version support <Eric Holmberg> 6 months ago
+28ea7b7 : ARM: dts: msm: Add flash_wa regulator support for msm8226 flash <Chunmei Cai> 8 months ago
+b02a57f : ARM: dts: msm: Add flash_wa regulator support for msm8974 flash <Chunmei Cai> 7 months ago
+b9f96eb : leds: leds-qpnp: add blink functionality support for GPLEDs <Abinaya P> 6 months ago
+08e7ab6 : leds: leds-qpnp: add workaround for controlling GPLED output <Subbaraman Narayanamurthy> 7 months ago
+7c783c1 : leds: leds-qpnp: check if flash_wa regulator is obtained before enabling <Abinaya P> 7 months ago
+283b51e : leds: leds-qpnp: check if flash_wa regulator is obtained before enabling it <Abinaya P> 8 months ago
+a87f80c : leds: leds-qpnp: allocate ordered work queue for led <Mao Li> 9 months ago
+889c7cf : leds: leds-qpnp: make blink functionality synchronous <Abinaya P> 9 months ago
+272467e : leds: leds-qpnp: Add flash_wa regulator support in flash led driver <Chunmei Cai> 8 months ago
+8d7e4e5 : leds: leds-qpnp: provide pwm period when leds are set to LPG mode in DT <Abinaya P> 11 months ago
+52c92ec : leds: leds-qpnp: use the proper pwm period in LPG mode <Xu Kai> 11 months ago
+cf5ab90 : leds: leds-qpnp: remove the usage of mutex_destroy for static mutex <Abinaya P> 12 months ago
+2f03442 : leds: leds-qpnp: use a single global mutex for flash led <Abinaya P> 1 year ago
+4121f6d : ARM: dts: msm: Remove redundant IADC channel parameters <Dipen Parmar> 9 months ago
+517c093 : hwmon: qpnp-current: Fix parameter configuration for IADC <Dipen Parmar> 9 months ago
+05c0ea7 : hwmon: qpnp-adc-voltage: Update default scaling API <Dipen Parmar> 11 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+b7dbc0e : jfltexx by vanir by popular demand <DHOMD> 3 hours ago
+c5cd0e8 : Update auidance to 12.1 <DHOMD> 3 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+4b33fba : Use unicode character for ellipsis <Michael Bestas> 3 hours ago
+40ef12f : Fix invalid subId on sending MMS <Patrick Lower> 6 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+4fed59a : Keep developer settings visable, unless user build. <sudosurootdev> 2 days ago
+7857b28 : Remove CM recovery update from Development Settings <sudosurootdev> 2 days ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+1fa1756 : ensure /data/tombstones exists on all Android devices <Nick Kralevich> 2 months ago
+ 
+**** https://github.com/VanirAOSP/vendor_asus ****
+d6de5e7 : Nexus 7 (tilapia) binaries for Android 5.1.0 (LMY47D) <linuxxxxx> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_htc ****
+7467d21 : m8: Restore non-pnpmgr mpdecision <Jurica Vukadin> 10 hours ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_invensense ****
+d7d684f : Nexus 7 (tilapia) binaries for Android 5.1.0 (LMY47D) <linuxxxxx> 31 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_lge ****
+d604ae8 : hammerheadcaf: Update mpdecision, use libqti-perfd-client <myfluxi> 2 days ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_oppo ****
+c51fb97 : find7: Update blobs <Michael Bestas> 12 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_samsung ****
+32b1b22 : manta: updates blobs to LMY47D <Sam Mortimer> 2 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+3d19e3e : APNs: Remove leading whitespace for a couple mmsc <Matt Mower> 3 days ago
+ 
+**** https://github.com/TheMuppets/proprietary_vendor_widevine ****
+c04ba24 : manta: update libdrmdecrypt.so for LMY47D <Sam Mortimer> 2 days ago
+ 
