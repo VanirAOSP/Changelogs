@@ -1,0 +1,115 @@
+
+**** git://git.samba.org/ccache.git ****
+449a42d : Mention next unreleased version in NEWS <Joel Rosdahl> 7 hours ago
+7366fc3 : Remove signal-unsafe code from signal handler <Joel Rosdahl> 7 hours ago
+74f4381 : Fix build error when compiling ccache with recent clang versions <Joel Rosdahl> 7 hours ago
+ 
+**** https://github.com/VanirAOSP/device_htc_flounder ****
+78c2d84 : flounder: OTG fixes <HashBang> 6 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_vs985 ****
+ed3f0b0 : Revert "Revert "vs985: force getting eri from xml"" <Dan Pasanen> 6 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_klte-common ****
+ebce37f : Add VoLte from Shamu <DHOMD> 3 hours ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_kona-common ****
+e6b6d00 : kona-common: update SELinux and fix RIL <RGIB> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_mondrianwifi ****
+2e3104a : mondrianwifi: charger: Show battery percentage <Christopher R. Palmer> 5 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_shinano-common ****
+899b01e : shinano-common: Stop using prebuilt audio <Ethan Chen> 12 days ago
+ 
+**** https://github.com/VanirAOSP/external_busybox ****
+e04727a : Android: simplify BUSYBOX_CROSS_COMPILER_PREFIX <Chih-Wei Huang> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+d6e4228 : doze: Make delay and duration of intent triggered dozes configurable <Christopher R. Palmer> 2 days ago
+2c2aab7 : Themes: Translate before rotating composed icons <d34d> 6 hours ago
+04ef5b5 : TorchService: improve state management <Roman Birg> 3 days ago
+0f4bcc4 : Re-add dump() method to TorchService. <Danny Baumann> 3 weeks ago
+c7ad9bf : frameworks: add ongoing notification while collecting bug report <Roman Birg> 9 months ago
+50436e8 : Themes: Add randomization to composed icon rotation <d34d> 32 hours ago
+f89dbff : Themes: Pass ComposedIconInfo into createIconBitmap <d34d> 32 hours ago
+d63f5d5 : SysUI: Add lockscreen visualizer for MSIM devices <proDOOMman> 4 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+b33a41c : Revert "Revert "Telephony: DcTracker: Fix CDMA APN Data issues."" <DHOMD> 2 days ago
+d61a188 : CdmaLteServiceStateTracker: allow forcing reading eri from xml <Dan Pasanen> 4 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_apq8064 ****
+2082648 : msm: kgsl: Fix policy sysfs implementation <myfluxi> 2 years ago
+ad8d166 : Revert "kgsl_pwrscale: Rework policy sysfs implementation" <Georg Veichtlbauer> 12 hours ago
+3db77a2 : kgsl_pwrscale: Revive msm and conservative governors <Georg Veichtlbauer> 16 hours ago
+e59b3c0 : kgsl_pwrscale: Rework policy sysfs implementation <Andrew Dodd> 2 years ago
+24a565e : cpufreq: Save user policy min/max instead of policy min/max during hotplug <Saravana Kannan> 1 year, 8 months ago
+0200c46 : cpufreq: interactive: turn boost_pulse off on boost off <Ruchi Kandoi> 1 year, 1 month ago
+9d707fd : cpufreq: interactive: restructure CPUFREQ_GOV_LIMITS <Badhri Jagan Sridharan> 1 year, 1 month ago
+15173e5 : cpufreq: interactive: fix compiling warnings <Chih-Wei Huang> 1 year, 4 months ago
+661e25a : cpufreq: interactive: Optimize sync_freq implementation <myfluxi> 1 year ago
+a7f4a72 : cpufreq: cpu-boost: Readd missing bits <myfluxi> 1 year, 1 month ago
+613ff5b : cpufreq: cpu-boost: Re-issue boosts above minimum frequency <Patrick Cain> 1 year, 2 months ago
+df19730 : cpufreq: interactive: Remove unnecessary cpu_online() check <Viresh Kumar> 1 year, 11 months ago
+56915d2 : cpufreq: interactive: Don't reset sampling down factor at max freq <Patrick Cain> 1 year, 4 months ago
+a6ce141 : cpufreq: Sync on thread migration optimizations <Patrick Cain> 1 year, 4 months ago
+5404113 : cpufreq: interactive: delete timers for GOV_START <Shridhar Rasal> 1 year, 8 months ago
+7f286b7 : cpufreq: interactive: Fix null pointer dereference in interactive governor <Vijay Ganti> 1 year, 3 months ago
+823e21e : cpufreq: cpu-boost: Remove unused waitqueue <myfluxi> 1 year, 3 months ago
+0c1a44b : cpufreq: cpu-boost: Fix queue_delayed_work_on() race with hotplug <Saravana Kannan> 1 year, 3 months ago
+bbdd0c5 : cpufreq: cpu-boost: Use hotplug thread infrastructure <myfluxi> 1 year, 3 months ago
+739e460 : cpufreq: interactive: Use default min_sample_time if SDF is zero <Rohit Gupta> 1 year, 4 months ago
+e16f87b : cpufreq: interactive: Modifying sync_freq implementation <Rohit Gupta> 1 year, 4 months ago
+6bb68f3 : cpufreq: interactive: Remove trace event from idle_start handler <Rohit Gupta> 1 year, 5 months ago
+bc82c20 : cpufreq: interactive: Reset floor_validate_time if busy at max for 100ms <Rohit Gupta> 1 year, 5 months ago
+c995f31 : cpufreq: interactive: sync freq feature for interactive governor <Rohit Gupta> 1 year, 6 months ago
+30ffafb : cpufreq: interactive: Allow 1 ms error in above_hispeed_delay comparisons <Rohit Gupta> 1 year, 5 months ago
+542b9bb : cpufreq: Disable cpu-boost by default <Rohit Gupta> 1 year, 5 months ago
+4f5a1b5 : cpufreq: Add Input Boost feature to the cpu-boost driver <Rohit Gupta> 1 year, 5 months ago
+c07c884 : cpufreq: Add a sync limit to cpu-boost <Rohit Gupta> 1 year, 5 months ago
+38aa2d8 : cpufreq: Add cpu-boost driver <Saravana Kannan> 1 year, 10 months ago
+01fee6f : cpufreq: interactive: Add a sampling_down_factor for max frequencies <Rohit Gupta> 1 year, 6 months ago
+bfae674 : cpufreq: interactive: fix show_target_loads and show_above_hispeed_delay <Minsung Kim> 1 year, 8 months ago
+ea2a1c6 : cpufreq: interactive: Sync with latest from Google <Steve Kondik> 1 year, 8 months ago
+713aac2 : cpufreq: fix sleeping in atomic context when realloc freq_table for all_time_in_state <Minsung Kim> 10 months ago
+9fe97f1 : cpufreq: Persist cpufreq time in state data across hotplug <Ruchi Kandoi> 1 year, 1 month ago
+c49ef61 : cpufreq: ondemand: Remove unnecessary synchronization attempt <Srivatsa Vaddagiri> 1 year, 5 months ago
+9fb884a : cpufreq: Fix broken uevents for cpufreq governor and cpu devices <myfluxi> 1 year, 1 month ago
+2589bf1 : drivers: cpufreq: Send a uevent when governor changes <Steve Kondik> 2 years, 7 months ago
+e41ed23 : cpufreq: ondemand: Remove unused waitqueue <myfluxi> 1 year, 3 months ago
+1fd7c80 : cpufreq: ondemand: Use hotplug thread infrastructure <myfluxi> 1 year, 3 months ago
+ 
+**** https://github.com/VanirAOSP/platform_manifest ****
+5328467 : add profiles app <nuclearmistake> 14 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Dialer ****
+c2b9149 : Dialer: Whitelist few EU countries for call recording <NBruderman> 8 weeks ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+952b0d9 : Settings: use ActivityManager method for requesting bug report <Roman Birg> 9 months ago
+a0a6de5 : Settings: fix button back light restore logic <Roman Birg> 8 hours ago
+010a539 : Revert "Settings: use correct default value for backlight brightness" <Nir Bruderman> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Stk ****
+21fa071 : STK: use single icon as per latest AOSP 5.1 <Pawit Pornkitprasan> 4 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_TvSettings ****
+eaffa73 : About: Change the intent to call CMUpdater with Leanback theme (2/2) <dhacker29> 24 hours ago
+57b15c9 : Ues more descriptive strings for add accessory page <dhacker29> 2 days ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+35493c4 : Disable backlight when blanking panel. <Danny Baumann> 7 days ago
+ 
+**** https://github.com/DHOMD/commotio ****
+0d601ce : Profiles <DHOMD> 3 hours ago
+69452a4 : 83 <DHOMD> 3 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+75a05ae : Revert "Revert "shinano: Use open source audio HAL"" <Chirayu Desai> 5 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+f49b454 : build profiles trustagent <nuclearmistake> 13 hours ago
+2df6dbc : overlay: Remove the default battery style and set it in frameworks <dhacker29> 3 days ago
+c2e356f : Increment Vanir Version to 5.1.1 <sudosurootdev> 6 days ago
+ 

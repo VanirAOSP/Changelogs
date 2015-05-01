@@ -1,0 +1,238 @@
+
+**** https://github.com/VanirAOSP/art ****
+f25a226 : ART: prevent patchoat from symlinking with dummy files <Yevgeny Rouban> 5 weeks ago
+87833d8 : ART: patchoat gets gzip support for compressed odex files <Yevgeny Rouban> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/bootable_recovery_TWRP ****
+de50c5f : Add option to use new heap_id_mask instead of old heap_mask Use TW_NEW_ION_HEAP := true to use it <Kra1o5> 30 hours ago
+ 
+**** https://github.com/VanirAOSP/build ****
+941b34b : Hacks <DHOMD> 3 weeks ago
+67437a3 : build: Add option to compress precompiled odex with gzip <Yevgeny Rouban> 4 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m8 ****
+0cb4f5f : m8: Add barometer to the feature list <Jurica Vukadin> 28 hours ago
+ 
+**** https://github.com/VanirAOSP/motorola_msm8226-common ****
+6db354a : msm8226-common: Remove density from PRODUCT_AAPT_CONFIG <Adam Lesinski> 5 months ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_qcom-common ****
+64b9bea : qcom-common: remove e2fsck <Christer> 29 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_fusion3-common ****
+f57cba8 : fusion3: Remove duplicate libgsl.so <Georg Veichtlbauer> 11 hours ago
+921c198 : Clean-up and and update init script <Georg Veichtlbauer> 17 hours ago
+ 
+**** https://github.com/VanirAOSP/device_sony_nicki ****
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 12 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_rhine-common ****
+78b17fb : rhine: update kernel command line <Giulio Cervera> 11 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_sony_shinano-common ****
+f23d616 : shinano: enable logo workaround <Giulio Cervera> 5 days ago
+87a529c : shinano: update kernel command line <Giulio Cervera> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_external_google ****
+b9d3342 : Fix build <Utkarsh Gupta> 18 hours ago
+66f867f : google: Update to v3 analytics. <Adnan Begovic> 23 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+ac0a841 : ConnectivityService: add persist.radio.noril <Dan Pasanen> 5 weeks ago
+1c09ba6 : Framework: CS translation <Ondrej Zima> 3 days ago
+c058047 : SystemUI: improve visualier tile state management <Roman Birg> 2 days ago
+2038e68 : Show Optimizing app dialog on first boot <Paul Bouman> 3 months ago
+c1daf3d : Option to use volume keys to control media volume anytime (2/2) <Pawit Pornkitprasan> 2 years ago
+5acc23d : QS: Add heads up tile (1/2) <Michael Bestas> 3 days ago
+fa0b6b2 : frameworks: prepare for Profiles trust agent <Roman Birg> 4 days ago
+7f1bf5c : Allow custom density setting <Tom Marshall> 1 year, 5 months ago
+596bc39 : Frameworks: Allow/Prevent notification light in Zen mode (1 of 2) <DvTonder> 4 weeks ago
+555b175 : Themes: Add palettized icon background support <d34d> 11 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_native ****
+f22a457 : installd: Add gzipped odex support <Richard Uhler> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+ed68de0 : Don't use invalid phone IDs as index. <Danny Baumann> 35 hours ago
+2e374b8 : SubscriptionController: getPhoneId() should never return negative values <Ricardo Cerqueira> 26 hours ago
+1d86be6 : IMS phone instantiation: add polling on base phone creation <Etan Cohen> 8 weeks ago
+ 
+**** github	https://github.com/jimsth/vanir_hammerhead
+https://github.com/VanirAOSP/kernel_lge_hammerhead ****
+efa61ed : cpufreq: cpu-boost: Resolve deadlock when waking up sync thread <Swetha Chikkaboraiah> 3 weeks ago
+10920c7 : net: llc: use correct size for sysctl timeout entries <Sasha Levin> 3 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960dt-common ****
+547145b : cpufreq: Always allow update of user policy <Naveen Ramaraj> 7 months ago
+aa05eca : cpufreq: Save user policy min/max instead of policy min/max during hotplug <Saravana Kannan> 1 year, 8 months ago
+3296bc6 : msm: cpufreq: Only apply driver limits for scaling_min/max_freq writes <Deepak Katragadda> 1 year, 10 months ago
+7ce8963 : cpufreq: Retain only online cpus in managed_policy->cpus <Srivatsa Vaddagiri> 2 years, 2 months ago
+c6aef65 : drivers: cpufreq: Send a uevent when governor changes <Steve Kondik> 2 years, 7 months ago
+0294705 : cpufreq: interactive: Honor boosted state in several timer calculations <myfluxi> 9 months ago
+bfcc0fb : cpufreq: interactive: Consider changed min limit a frequency boost <myfluxi> 9 months ago
+b4593ee : cpufreq: interactive: Honor changed minimum frequency <myfluxi> 12 months ago
+93a737f : cpufreq: interactive: Exercise hispeed settings at a policy level <Saravana Kannan> 6 months ago
+0963648 : cpufreq: interactive: Make window alignment optional <Junjie Wu> 8 months ago
+2777bbe : cpufreq: interactive: Add max_freq_hysteresis feature <Junjie Wu> 8 months ago
+2e459f8 : cpufreq: interactive: Use del_timer/add_timer_on to rearm timers <Junjie Wu> 8 months ago
+cbc491d : cpufreq: interactive: Round up timer_rate to match jiffy <Junjie Wu> 8 months ago
+ae9bbeb : cpufreq: interactive: Reset last evaluated jiffy in idle callback <Junjie Wu> 8 months ago
+3eceae3 : cpufreq: interactive: Align timer windows for all CPUs <Junjie Wu> 12 months ago
+099c68b : cpufreq: interactive: Squashed cleanup patches <Steve Kondik> 8 months ago
+ea3b4db : cpufreq: Move get_cpu_idle_time() to cpufreq.c <Viresh Kumar> 1 year, 11 months ago
+f992d27 : cpufreq: interactive: Move definition of cpufreq_gov_interactive downwards <Viresh Kumar> 1 year, 11 months ago
+22a1775 : cpufreq: interactive: Remove unnecessary cpu_online() check <Viresh Kumar> 1 year, 11 months ago
+ff9c2d5 : cpufreq: interactive: Don't reset sampling down factor at max freq <Patrick Cain> 1 year, 3 months ago
+209c0e1 : cpufreq: Sync on thread migration optimizations <Patrick Cain> 1 year, 3 months ago
+6794f5c : cpufreq: interactive: delete timers for GOV_START <Shridhar Rasal> 1 year, 7 months ago
+f7edbef : cpufreq: interactive: Fix null pointer dereference in interactive governor <Vijay Ganti> 1 year, 3 months ago
+ebce3f1 : cpufreq: interactive: Use default min_sample_time if SDF is zero <Rohit Gupta> 1 year, 4 months ago
+88bcc41 : cpufreq: interactive: Modifying sync_freq implementation <Rohit Gupta> 1 year, 4 months ago
+cad13bc : cpufreq: interactive: Remove trace event from idle_start handler <Rohit Gupta> 1 year, 4 months ago
+97f6936 : cpufreq: interactive: Reset floor_validate_time if busy at max for 100ms <Rohit Gupta> 1 year, 5 months ago
+339cc52 : cpufreq: interactive: sync freq feature for interactive governor <Rohit Gupta> 1 year, 6 months ago
+71a27cf : cpufreq: interactive: Allow 1 ms error in above_hispeed_delay comparisons <Rohit Gupta> 1 year, 5 months ago
+a01726b : cpufreq: interactive: Add a sampling_down_factor for max frequencies <Rohit Gupta> 1 year, 6 months ago
+7dee340 : cpufreq: interactive: fix show_target_loads and show_above_hispeed_delay <Minsung Kim> 1 year, 8 months ago
+a051b96 : cpufreq: interactive: resched timer if max freq raised <Lianwei Wang> 2 years ago
+900b49f : cpufreq: interactive: fix race on cpufreq TRANSITION notifier <Lianwei Wang> 1 year, 11 months ago
+e05dc4f : cpufreq: interactive: avoid underflow on active time calculation <Minsung Kim> 2 years ago
+e43a3c1 : cpufreq: interactive: reduce chance of zero time delta on load eval <Todd Poynor> 2 years, 1 month ago
+af6b1e2 : cpufreq: interactive: handle errors from cpufreq_frequency_table_target <Todd Poynor> 2 years ago
+45a5d11 : cpufreq: interactive: fix uninitialized spinlock <Minsung Kim> 2 years ago
+a00cf02 : cpufreq: interactive: base above_hispeed_delay on target freq, not current <Todd Poynor> 2 years, 1 month ago
+612a5b4 : cpufreq: interactive: fix crash on error paths in get_tokenized_data <Todd Poynor> 2 years, 1 month ago
+c496c4f : cpufreq: interactive: add io_is_busy interface <Lianwei Wang> 2 years, 2 months ago
+ca2df17 : cpufreq: interactive: allow arbitrary speed / delay mappings <Minsung Kim> 2 years, 2 months ago
+754f3a2 : cpufreq: interactive: fix race on governor start/stop <Lianwei Wang> 2 years, 4 months ago
+3b05167 : cpufreq: interactive: fix deadlock on spinlock in timer <Todd Poynor> 2 years, 4 months ago
+10c51e5 : cpufreq: interactive: don't handle transition notification if not enabled <Todd Poynor> 2 years, 4 months ago
+e2e997f : cpufreq: interactive: init default values at compile time <Todd Poynor> 2 years, 4 months ago
+1b473a3 : cpufreq: interactive: default go_hispeed_load 99%, doc updates <Todd Poynor> 2 years, 4 months ago
+05b4828 : cpufreq: interactive: fix race on timer restart on governor start <Todd Poynor> 2 years, 4 months ago
+a38d472 : cpufreq: interactive: fix racy timer stopping <Todd Poynor> 2 years, 4 months ago
+c140f19 : cpufreq: interactive: fix boosting logic <Todd Poynor> 2 years, 4 months ago
+8a6757e : cpufreq: interactive: add timer slack to limit idle at speed > min <Todd Poynor> 2 years, 4 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+8f1ccae : Revert "Revert "d2: enable memory resource controller and swap extension"" <Dave Daynard> 6 days ago
+e2cd219 : msm8960: enable LZ4 for ZRAM <Dave Daynard> 18 hours ago
+29c2327 : zsmalloc: enable by default for ARM <Dave Daynard> 19 hours ago
+d94bc83 : staging: zcache: fix spelling of comment <Marcus Karlsson> 2 years, 8 months ago
+db0dbbb : staging: zcache: Fix compile errors with newer zsmalloc <Dave Daynard> 19 hours ago
+b8b0b18 : zram: switch to lz4 as default commpressor <jrior001> 6 weeks ago
+dc3ebd6 : zram: fix incorrect stat with failed_reads <Chao Yu> 8 months ago
+b5db911 : zram: replace global tb_lock with fine grain lock <Weijie Yang> 6 weeks ago
+dd28f49 : zram: use size_t instead of u16 <Minchan Kim> 9 months ago
+a1b75c5 : zram: remove unused SECTOR_SIZE define <Sergey Senozhatsky> 9 months ago
+b5fd66c : zram: rename struct `table' to `zram_table_entry' <Sergey Senozhatsky> 9 months ago
+ca59a22 : zram: avoid lockdep splat by revalidate_disk <Minchan Kim> 9 months ago
+b28417d : zram: revalidate disk after capacity change <Minchan Kim> 10 months ago
+637193e : zram: correct offset usage in zram_bio_discard <Weijie Yang> 11 months ago
+b71c0f2 : zram: support REQ_DISCARD <Joonsoo Kim> 1 year, 1 month ago
+5a93644 : zram: use scnprintf() in attrs show() methods <Sergey Senozhatsky> 1 year, 1 month ago
+5cff989 : zram: propagate error to user <Minchan Kim> 1 year, 1 month ago
+9ff15f0 : zram: return error-valued pointer from zcomp_create() <Sergey Senozhatsky> 1 year, 1 month ago
+b431880 : zram: move comp allocation out of init_lock <Sergey Senozhatsky> 1 year, 1 month ago
+dc0d87c : zram: add lz4 algorithm backend <Sergey Senozhatsky> 1 year, 1 month ago
+696cfd3 : zram: make compression algorithm selection possible <Sergey Senozhatsky> 1 year, 1 month ago
+60859a4 : zram: add set_max_streams knob <Sergey Senozhatsky> 1 year, 1 month ago
+ec9a83e : zram: add multi stream functionality <Sergey Senozhatsky> 1 year, 1 month ago
+2c85732 : zram: document failed_reads, failed_writes stats <Sergey Senozhatsky> 1 year, 1 month ago
+666b1ab : zram: factor out single stream compression <Sergey Senozhatsky> 1 year, 1 month ago
+04360c2 : zram: use zcomp compressing backends <Sergey Senozhatsky> 1 year, 1 month ago
+d08807c : zram: introduce compressing backend abstraction <Sergey Senozhatsky> 1 year, 1 month ago
+6ab583f : zram: delete zram_init_device() <Sergey Senozhatsky> 1 year, 1 month ago
+051d6d9 : zram: move zram size warning to documentation <Sergey Senozhatsky> 1 year, 1 month ago
+17fc19d : zram: drop not used table `count' member <Sergey Senozhatsky> 1 year, 1 month ago
+79b26a6 : zram: report failed read and write stats <Sergey Senozhatsky> 1 year, 1 month ago
+81142e7 : zram: remove zram stats code duplication <Sergey Senozhatsky> 1 year, 1 month ago
+5134f20 : zram: use atomic64_t for all zram stats <Sergey Senozhatsky> 1 year, 1 month ago
+d2849d9 : zram: remove good and bad compress stats <Sergey Senozhatsky> 1 year, 1 month ago
+ef49da1 : zram: do not pass rw argument to __zram_make_request() <Sergey Senozhatsky> 1 year, 1 month ago
+b947aa1 : zram: drop `init_done' struct zram member <Sergey Senozhatsky> 1 year, 1 month ago
+f207ca6 : zram: avoid null access when fail to alloc meta <Minchan Kim> 1 year, 2 months ago
+132f4d4 : zram: remove zram->lock in read path and change it with mutex <Minchan Kim> 1 year, 3 months ago
+e677deb : zram: remove workqueue for freeing removed pending slot <Minchan Kim> 1 year, 3 months ago
+1446bec3 : zram: introduce zram->tb_lock <Minchan Kim> 1 year, 3 months ago
+cee6995 : zram: use atomic operation for stat <Minchan Kim> 1 year, 3 months ago
+23959d6 : zram: remove unnecessary free <Minchan Kim> 1 year, 3 months ago
+b1674f5 : zram: delay pending free request in read path <Minchan Kim> 1 year, 3 months ago
+8c13e0b : zram: fix race between reset and flushing pending work <Minchan Kim> 1 year, 3 months ago
+7ccb167 : zram: add copyright <Minchan Kim> 1 year, 3 months ago
+a089ebb : zram: promote zram from staging <Minchan Kim> 1 year, 3 months ago
+c6053d7 : zsmalloc: add copyright <Minchan Kim> 1 year, 3 months ago
+82f1512 : zsmalloc: move it under mm <Minchan Kim> 1 year, 3 months ago
+20f304d : Staging: zram: Fix memory leak by refcount mismatch <Rashika Kheria> 1 year, 5 months ago
+aa1b16e : Staging: zram: Fix access of NULL pointer <Rashika Kheria> 1 year, 6 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_apq8064 ****
+6be8c6c : cpufreq: Fix input handler crash <David Ng> 3 years, 9 months ago
+d5437ac : cpufreq: Check all online CPUs on input event <Brian Steuer> 3 years, 11 months ago
+ce862d4 : cpufreq: Use separate workqueue for input handler <Brian Steuer> 3 years, 11 months ago
+f1b3d0e : cpufreq: Make sure input handler always runs on cpu0 <Brian Steuer> 4 years, 6 months ago
+2818500 : Cpufreq: Added input event hook to ramp up cpu frequency <Tero Kristo> 6 years ago
+6e311e0 : tracing/sched: Add trace events to track cpu hotplug. <Arun Bharadwaj> 1 year, 10 months ago
+534d204 : sched: provide per cpu-cgroup option to notify on migrations <Mekala Natarajan> 1 year, 11 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+61028e8 : rhine: update panel dt <Giulio Cervera> 10 days ago
+a51a34d : driver: video: fix rhine bootlogo <Giulio Cervera> 10 days ago
+1abe7f8 : driver: logo: remove hardcoded workaround <Giulio Cervera> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_AudioFX ****
+78f4efe : Bring AudioFX to Leanback Launcher <Brian Jolly> 31 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Email ****
+ce6d98e : email: fix eas autodiscover <Jorge Ruesga> 5 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Exchange ****
+8d5fbea : exchange: fix eas autodiscover <Jorge Ruesga> 5 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_InCallUI ****
+c7f4101 : InCallUI: show legal warning on first call record <Roman Birg> 9 days ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Mms ****
+a479ce2 : Hide "Insert smiley" if emoticons are disabled <Vladislav Koldobskiy> 11 months ago
+c52d75c : Revert "Remove smiley support" <Matthieu Baerts> 1 year ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+f302629 : Option to use volume keys to control media volume anytime (1/2) <Pawit Pornkitprasan> 2 years ago
+f84af76 : QS: Add heads up tile (2/2) <Michael Bestas> 3 days ago
+b6ff0b2 : Allow launching notification manager settings externally <Michael Bestas> 3 days ago
+9d5411b : Add toggle for heads up notifications <Michael Bestas> 3 days ago
+804fefa : Add LCD density setting <Tom Marshall> 1 year, 7 months ago
+306c3dd : Settings: allow more than one trust agent <Roman Birg> 4 days ago
+9e9cce3 : Settings: Move CMStats under Privacy settings. <Adnan Begovic> 8 hours ago
+4537f16 : Revert "Settings: Anonymous Statistics (CMStats)" <nuclearmistake> 14 hours ago
+19a8f0b : Revert "Settings: Update Anonymous Stats Implementation." <nuclearmistake> 14 hours ago
+9bc035f : Revert "ReportingService: Fix service startup" <nuclearmistake> 14 hours ago
+e2b4bd7 : Revert "Use SSL for submitting stats" <nuclearmistake> 14 hours ago
+3abd07c : Revert "Settings: Migrate stats opt out to global settings." <nuclearmistake> 14 hours ago
+264890a : Revert "Settings: Map to new Secure Setting for Stats Collection." <nuclearmistake> 14 hours ago
+6fc08e6 : Settings: Allow/Prevent notification light in Zen mode (2 of 2) <DvTonder> 2 days ago
+1d6bc06 : Settings: Rebase against GoogleAnalyticsV3. <Adnan Begovic> 22 hours ago
+8dd98da : Settings: Map to new Secure Setting for Stats Collection. <Adnan Begovic> 27 hours ago
+2b6dd0c : Settings: Migrate stats opt out to global settings. <Adnan> 9 months ago
+baa6347 : Use SSL for submitting stats <Chris Soyars> 1 year, 1 month ago
+690c2ec : ReportingService: Fix service startup <Ricardo Cerqueira> 1 year, 4 months ago
+5c60a49 : Settings: Update Anonymous Stats Implementation. <Adnan Begovic> 27 hours ago
+acc6dea : Settings: Anonymous Statistics (CMStats) <Danesh Mondegarian> 3 years, 3 months ago
+1b2b1c5 : Settings: pass intent extra EXTRA_REQUIRE_PASSWORD after selecting pattern size <Raj Yengisetty> 27 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_TvSettings ****
+1b420c2 : AddAccessory: Add a public constructor for AddAccessoryContentFragment <dhacker29> 19 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_providers_ThemesProvider ****
+d1c089d : Don't assume all default components come from one package <d34d> 33 hours ago
+ 
+**** https://github.com/VanirAOSP/packages_services_Telephony ****
+632bedf : Set the capability to speed up audio setup for IMS MT call <Dong Zhou> 6 weeks ago
+ 
+**** https://github.com/VanirAOSP/system_core ****
+01e3a95 : System/core: Use memmove <Andreas Gampe> 5 months ago
+ 
+**** https://github.com/VanirAOSP/vendor_sony ****
+01c5b87 : fusion3: Remove duplicate libgsl.so <Joe Wooster> 16 hours ago
+ff9a934 : fusion3: update mpdecision <Georg Veichtlbauer> 16 hours ago
+ 

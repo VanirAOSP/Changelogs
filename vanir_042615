@@ -1,0 +1,155 @@
+
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+2b1e6c8 : mm-camera-interface: Retry in case of timeouts <Mansoor Aftab> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_samsung_qcom-common ****
+e8b4b93 : qcom-common: Remove obsolete system properties <Arne Coucheron> 18 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+0e03875 : audiopolicy: Apply FM volume control parameter for MTK hardware too <Ricardo Cerqueira> 22 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+0facf97 : SettingsProvider: Make the default battery style Circle <dhacker29> 2 days ago
+ 
+**** https://github.com/VanirAOSP/frameworks_opt_telephony ****
+a1992dc : Revert "Revert "Telephony: DcTracker: Fix CDMA APN Data issues."" <DHOMD> 31 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_d2 ****
+2df0f3f : ARM: Add support for 64 bit register reads/writes <Olav Haugan> 2 years, 2 months ago
+b6edb6c : ARM: define no log variants of readl_relaxed / writel_relaxed <Viswanath Kraleti> 2 years, 6 months ago
+03c9d10 : usb: mtp: avoid kernel crash on null mtp cdev <Hashcode> 4 months ago
+43e2993 : usb: missing define from samsung stock <Dave Daynard> 8 days ago
+42fd5c1 : msm: kgsl: Mark mmapped objects with VM_DONTCOPY <Jordan Crouse> 9 months ago
+df71f1b : msm: kgsl: Don't set VM_IO on mmap()ed GPU memory objects <Jordan Crouse> 12 months ago
+cb88103 : msm: kgsl: Use a constant mask for the memops vmflags <Jordan Crouse> 1 year, 1 month ago
+f5db38a : msm: kgsl: Clean-up gpuaddr allocated from kgsl gen_pool <Anshuman Dani> 1 year, 4 months ago
+6e87e39 : gpu: ion: Do not write buffer size if IOMMU map fails <Susheel Khiani> 1 year, 7 months ago
+6fac357 : msm: kgsl: fix alignment of mappings <Jordan Crouse> 11 months ago
+4b6f3ae : net: rps: fix cpu unplug <Eric Dumazet> 3 months ago
+27a7f01 : mm: vmscan: lock page on swap error in pageout <Vinayak Menon> 5 months ago
+a184782 : mm: Increase number of GFP masks <Naveen Ramaraj> 7 months ago
+e005900 : mm, oom: make dump_tasks public <Liam Mark> 11 months ago
+5691ff9 : Effectively revert "gpu: ion: replace __GFP_ZERO with manual zero'ing" <Iliyan Malchev> 5 months ago
+1724eac : kgsl: do not vmap/memset to zero-out pages <Iliyan Malchev> 5 months ago
+3000a42 : m2: update defconfig <Dave Daynard> 9 months ago
+3e64c48 : Bluetooth: SNIFF: Avoid sniff while SCO to address IOT issues <Mallikarjuna GB> 2 years, 2 months ago
+b9dba2d : Bluetooth: implement S3 Profile <Ashish Kumar Sharma> 4 years, 9 months ago
+6c19f9d : net: fix uninitialized variable usage <Chris Fries> 2 years, 1 month ago
+0e828a3 : Bluetooth : Recover BT, if hardware error event is received from the SOC <Nitin Shivpure> 2 years, 1 month ago
+e860271 : Bluetooth: Remove wake_locks added for BT idle timer <Sumit Bajpai> 2 years, 1 month ago
+01e5669 : Bluetooth:  Avoid queing power_on/off when during initial setup <Bhasker Neti> 2 years, 2 months ago
+c7fc0a1 : otg <Dave Daynard> 10 months ago
+90334c6 : platform: msm: fix PFT when using direct-io <Amir Samuelov> 10 months ago
+ef54b41 : dm: dm-req-crypt: add support for Per-File-Encryption <Amir Samuelov> 10 months ago
+7bddfc0 : Setting correct HW crypto driver instance for FDE <Dinesh K Garg> 12 months ago
+ead9df8 : dm: Clean up dm-req-crypt <Dinesh K Garg> 1 year, 2 months ago
+9a12c45 : dm: Adding support of AES 256 bits in dm-req-crypt <Dinesh K Garg> 1 year, 2 months ago
+be68562 : dm: updating crypto algorithm used by dm-req-crypt <Dinesh K Garg> 1 year, 3 months ago
+6be0563 : msm: cleanup and minor fixes for PFT driver <Amir Samuelov> 11 months ago
+8ab6890 : platform: msm: fix PFT char device major number <Amir Samuelov> 11 months ago
+ce58d4f : platform: msm: pft: fix close all encrypted files <Amir Samuelov> 11 months ago
+adf7b99 : platform: msm: add Per-File-Tagger (PFT) driver <Amir Samuelov> 11 months ago
+8c2c1bd : kernel/lib: add additional debug capabilites for data corruption <Syed Rameez Mustafa> 1 year, 9 months ago
+dd61e5d : msm_serial: Do not configure UART IRQ as wakeup interrupt <Saket Saurabh> 2 years, 2 months ago
+6b466ee : drivers: msm_serial_hs: increase rx buffer size <Dave Daynard> 10 months ago
+882f0c4 : msm_serial_hs: Programming Auto RFR Ctrl bit <Dilip Kota> 1 year, 6 months ago
+10e44c7 : msm_seial_hs:Removing call to Spin unlock twice <Dilip Kota> 1 year, 8 months ago
+f7c709f : m2: import Samsung OTG changes from ND8 release <Dave Daynard> 10 months ago
+996643e : rcu: Add a module parameter to force use of expedited RCU primitives <Antti P Miettinen> 2 years, 7 months ago
+ce08a4c : block: row: Fix crash when adding a new field in bio struct <Tanya Brokhman> 10 months ago
+f48b376 : security: selinux: Add Per-File-Encryption hooks <Amir Samuelov> 11 months ago
+61d8774 : Request based dm-crypt <Dinesh K Garg> 1 year, 3 months ago
+102d43f : block: do not notify urgent request, when flush with data in flight <Tatyana Brokhman> 1 year, 3 months ago
+1de264e : Revert "block: Add URGENT request notification support to CFQ scheduler" <Tatyana Brokhman> 1 year, 8 months ago
+fb62a58 : block: Add URGENT request notification support to CFQ scheduler <Tatyana Brokhman> 1 year, 10 months ago
+9ed4cbe : blkpm: avoid sleep when holding queue lock <Aaron Lu> 1 year, 11 months ago
+54dd94d : block: implement runtime pm strategy <Lin Ming> 2 years, 1 month ago
+1a3e263 : block: add a flag to identify PM request <Lin Ming> 2 years, 1 month ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_apq8064 ****
+725b36e : cpufreq: Fix policy getting stuck when user & kernel min/max don't overlap <Saravana Kannan> 1 year, 4 months ago
+0b27774 : stop_machine: Mark per cpu stopper enabled early <Thomas Gleixner> 2 years, 2 months ago
+410dac8 : stop_machine: Use smpboot threads <Thomas Gleixner> 2 years, 3 months ago
+e5dae3a : stop_machine: Store task reference in a separate per cpu variable <Thomas Gleixner> 2 years, 3 months ago
+70d5ab9 : kthread: Prevent unpark race which puts threads on the wrong cpu <Thomas Gleixner> 2 years, 1 month ago
+f45f6af : smpboot: Allow selfparking per cpu threads <Thomas Gleixner> 2 years, 3 months ago
+7a98272 : hotplug: Fix UP bug in smpboot hotplug code <Paul E. McKenney> 2 years, 10 months ago
+97d7bb4 : smpboot: Provide infrastructure for percpu hotplug threads <Thomas Gleixner> 2 years, 9 months ago
+c4e5cce : kthread: Implement park/unpark facility <Thomas Gleixner> 2 years, 9 months ago
+de5d9e3 : kthread_worker: reimplement flush_kthread_work() to allow freeing the work item being executed <Tejun Heo> 2 years, 9 months ago
+f0c332a : kthread_worker: reorganize to prepare for flush_kthread_work() reimplementation <Tejun Heo> 2 years, 9 months ago
+4627fe7 : smpboot, idle: Fix comment mismatch over idle_threads_init() <Srivatsa S. Bhat> 2 years, 11 months ago
+6cbee30 : smpboot, idle: Optimize calls to smp_processor_id() in idle_threads_init() <Srivatsa S. Bhat> 2 years, 11 months ago
+58d1d7e : smp, idle: Allocate idle thread for each possible cpu during boot <Suresh Siddha> 3 years ago
+372206f : smp: Provide generic idle thread allocation <Thomas Gleixner> 3 years ago
+661463a : smp: Add generic smpboot facility <Thomas Gleixner> 3 years ago
+397caa3 : cpufreq: Adding traces to the cpufreq <Rohit Gupta> 2 years ago
+f367bea : trace: power: Adding trace events for cpufreq <Rohit Gupta> 1 year, 8 months ago
+ff97933 : cpufreq: ondemand: fix timer-related list corruption in store_powersave_bias() <Osvaldo Banuelos> 1 year, 5 months ago
+9330444 : cpufreq: ondemand: Fix hotplug deadlock with store_powersave_bias <Matt Wagantall> 1 year, 8 months ago
+04814d9 : cpufreq: ondemand: Fix update_sampling_rate race with hotplug <Rohit Gupta> 1 year, 9 months ago
+f670324 : cpufreq: ondemand: add input_boost interface <Dilip Gudlur> 1 year, 10 months ago
+156d1a2 : cpufreq: Avoid using smp_processor_id() in preemptible context <Stephen Boyd> 2 years, 6 months ago
+d48f236 : msm: cpufreq: Only apply driver limits for scaling_min/max_freq writes <Deepak Katragadda> 1 year, 10 months ago
+948de28 : cpufreq: ondemand: Boost CPU frequency only for touch input <Tingwei Zhang> 1 year, 10 months ago
+7a573b5 : cpufreq: ondemand: Disable freq sync feature in store_powersave_bias <Rohit Gupta> 1 year, 10 months ago
+d505b14 : cpufreq: ondemand: change freq sync code to use per-CPU kthreads <Ajay Dudani> 1 year, 11 months ago
+75be7fa : cpufreq: Use dedicated high-priority workqueues <Ajay Dudani> 1 year, 11 months ago
+8bdbba4 : cpufreq: Create DVFS stress test function. <singhome_lee> 2 years, 3 months ago
+5366648 : msm: Synchronize CPU frequency on thread migration <Mekala Natarajan> 1 year, 11 months ago
+82aa7ed : msm: cpufreq: Implement suspend/resume for cpufreq driver <Anji Jonnala> 2 years, 4 months ago
+c8c13d9 : msm: cpufreq: Fix the race between dbs_refresh and hotplug. <Krishna Vanka> 2 years, 11 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_sony_msm8974 ****
+538090b : driver: lp855x: udpate to 23.1.A.0.690 <Giulio Cervera> 14 hours ago
+9624b0b : driver: clearpad: suspend/resume rework <Giulio Cervera> 4 weeks ago
+9602ada : input: sensors: fix mma8x5x interrupt mode output rate issue <Bingzhe Cai> 1 year, 2 months ago
+6f230ff : t-base-300: First release of t-base-300 Kernel Module. <Oana Medvesan> 1 year, 4 months ago
+6e8792e : UBI: Fix PEB leak in wear_leveling_worker() <Richard Weinberger> 1 year, 2 months ago
+7dee503 : UBI: do not abort init when ubi.mtd devices cannot be found <Mike Frysinger> 1 year, 2 months ago
+0930906 : i2c-qup: don't ignore the last byte of a message <Kiran Gunda> 6 months ago
+a4bfb00 : i2c_qup: Fix for unhandled IRQ <Sana Venkat Raju> 11 months ago
+2ee6a70 : power: qpnp-bms: Improve logic for storing FCC learnt data <Zhenhua Huang> 7 months ago
+1a758e1 : power: qpnp-bms: always limit soc to [0, 100] <Xiaozhe Shi> 9 months ago
+c707758 : power: qpnp-bms: add a delay for timing requirement <Xiaozhe Shi> 8 months ago
+aa3ec2d : msm_rmnet_sdio: Fix potential memory corruption <Subash Abhinov Kasiviswanathan> 7 months ago
+2e67806 : msm_rmnet: Fix potential memory corruption <Subash Abhinov Kasiviswanathan> 7 months ago
+fd261b8 : avtimer: avoid timer query from clients during SSR <Laxminath Kasam> 8 months ago
+e1e544d : avtimer: msm: fix to avoid timejump in avtimer <Laxminath Kasam> 7 months ago
+c93d46a : USB: ccid_bridge: Provide bulk message write/read stats via debugfs <Pavankumar Kondeti> 12 months ago
+5f3d2af : USB: ccid_bridge: Don't kill URB in release after device is disconnected <Pavankumar Kondeti> 1 year ago
+0c0387f : USB: ccid_bridge: Add module param for bulk message timeout <Pavankumar Kondeti> 1 year ago
+b4c939d : msm: thermal: Optimize locking in thermal frequency mitigation thread <Shiju Mathew> 5 months ago
+4ce546f : msm: thermal: Add thermal reset feature to KTM <Ram Chandrasekar> 1 year, 3 months ago
+f4eb71d : msm: thermal: Update debug/error logs to be more informative <Ram Chandrasekar> 1 year, 3 months ago
+8d317cc : msm: thermal: Add support for cpu temp limit recommendation for SoC <Manaf Meethalavalappu Pallikunhi> 11 months ago
+c8a3d40 : msm: thermal: Remove D tasks in kernel thermal monitor <Shiju Mathew> 12 months ago
+16836a5 : crypto: msm: Add device wakeup initialization for qcrypto driver <Zhen Kong> 4 months ago
+17a0ace : crypto: msm: check potential integer overflow <William Clark> 7 months ago
+b2556bc : crypto: msm: Make changes to the reaper timer <Zhen Kong> 8 months ago
+7962c48 : crypto: msm: Don't enable crypto clock in PM resume <Zhen Kong> 10 months ago
+50e1b48 : crypto: msm: change timer operation to fix timer list corruption <Zhen Kong> 9 months ago
+b7bac37 : crypto: msm: Remove bw_reaper_timer while in suspend mode <William Clark> 10 months ago
+93a11d3 : crypto: msm: Add support for FIPS complience <Dinesh K Garg> 10 months ago
+ff81926 : crypto: msm: Fix SHA-1/256 zero length input data issue <AnilKumar Chimata> 10 months ago
+39d9ed2 : crypto: msm: re-work qcrypto driver clk and bus management <Zhen Kong> 1 year ago
+208f41b : crypto: msm: add dynamic engine assignment support <Zhen Kong> 1 year, 1 month ago
+c9d6bd0 : crypto: msm: fix memory leak during algorithm registration <Zhen Kong> 1 year, 2 months ago
+5593910 : crypto: msm: Add support for multiple qcrypto devices <Zhen Kong> 1 year, 2 months ago
+4853d7a : crypto: msm: enable rfc4309(ccm(aes)) algorithm <Niranjana Vishwanathapura> 1 year, 2 months ago
+3ba5eee : tick-broadcast: stubs when CLOCKEVENTS_BROADCAST is not defined <Mahesh Sivasubramanian> 1 year, 4 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+9b1236b : Add link to Privacy Guard from app info screen <Lars Greiss> 2 days ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_TvSettings ****
+bb15ca7 : Add preference for enabling root access <dhacker29> 20 hours ago
+ 
+**** https://github.com/VanirAOSP/system_extras ****
+972c9f1 : ext4_utils: Fix bad merge of EMMC wipe suppression <Andrew Dodd> 2 years, 9 months ago
+31fe061 : ext4_utils: Fix build <Arne Coucheron> 23 hours ago
+440188e : ext4_utils: add BoardConfig define to suppress EMMC-corrupting wipe command <David Ferguson> 2 years, 11 months ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+9779e6e : Increment Vanir Version to 5.1.1 <sudosurootdev> 4 days ago
+ 

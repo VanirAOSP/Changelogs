@@ -1,0 +1,131 @@
+
+**** https://github.com/CyanogenMod/android_device_htc_evita ****
+0d7e56e : evita: support for F2FS on data and cache <jrior001> 5 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_jewel ****
+b56d1d9 : jewel: support for F2FS on data and cache <jrior001> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_htc_m7-common ****
+461ed51 : m7-common: Support f2fs on data and cache <Matt Mower> 11 days ago
+ 
+**** https://github.com/CyanogenMod/android_device_htc_ville ****
+1e643c7 : ville: support for F2FS on data and cache <jrior001> 5 weeks ago
+ 
+**** https://github.com/VanirAOSP/device_lge_g3-common ****
+7495768 : g3: build libxml2 <Dan Pasanen> 22 hours ago
+3558d47 : ril: remove ril hacks for ril version >= 10 <Dan Pasanen> 3 days ago
+8f5003d : Revert "ril: add support for sprint nonstandard SIM" <Dan Pasanen> 3 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_hammerhead ****
+58a4a91 : power: fix wrong power_ext.c path <LorDClockaN> 6 hours ago
+e18d9f2 : hammerhead: Disable hispeed_freq while screen is off <myfluxi> 6 days ago
+0136246 : hammerhead: Remove original power HAL <myfluxi> 8 days ago
+ 
+**** https://github.com/VanirAOSP/device_lge_mako ****
+703ade6 : update to LMY47O fingerprint and description <Henning Nielsen Lund> 4 hours ago
+ 
+**** https://github.com/VanirAOSP/device_lge_vs985 ****
+640f58b : props: update radio blobs for lollipop ril <Dan Pasanen> 22 hours ago
+d5a32e8 : Revert "vs985: force getting eri from xml" <Dan Pasanen> 20 hours ago
+ 
+**** https://github.com/CyanogenMod/android_device_motorola_victara ****
+168d4ae : victara: remove duplicated config_geofenceServicesProvider <Hernán Castañon Álvarez> 2 weeks ago
+ 
+**** https://github.com/CyanogenMod/android_device_oppo_msm8974-common ****
+629f9e2 : msm8974: Kill notify_on_migrate <Steve Kondik> 19 hours ago
+ 
+**** https://github.com/VanirAOSP/frameworks_av ****
+4b1ddb2 : AudioTrack: initialize mUseSmallBuf in AudioTrack constructor <Mingming Yin> 8 days ago
+1bdd258 : audio: Fix for Sound from handset leaks to speaker <Apoorv Raghuvanshi> 2 weeks ago
+c5079e3 : stagefright: http: Skip invalid bandwidth measurements <Leena Winterrowd> 3 months ago
+ac84c27 : nuplayer: Stop resume profiling after frame render <Shalaj Jain> 13 days ago
+72068fe : NuPlayer: Process time discontinuity separately for audio & video <Leena Winterrowd> 2 weeks ago
+66d0234 : nuplayer: Add cached lookup of track duration <Steve Kondik> 3 months ago
+9d18eef : nuplayer: Fix statistics profiling with buffering events <Surajit Podder> 2 weeks ago
+ 
+**** https://github.com/VanirAOSP/frameworks_base ****
+3b1a3a7 : SystemUI: add USB Tether tile <BestPig> 2 months ago
+23af341 : Allow screen unpinning on devices without navbar <Utkarsh Gupta> 12 days ago
+516e653 : [ActivityManager] Avoid NullPointerException if no crash info <louis_chang> 8 days ago
+a6a4db1 : Prevent unexpected rotation while going back to keyguard <tiger_huang> 7 weeks ago
+a9d1808 : Add a timeout state to frozen windows <Craig Mautner> 6 weeks ago
+672dca7 : third part apps can disable the secret lockscreen <longyu.huang> 3 weeks ago
+43d593f : Fixing memory leak in RenderBufferCache <Samsung> 7 months ago
+68729ff : Find wall clock RTC through sysfs <Greg Hackmann> 1 year, 2 months ago
+ 
+**** https://github.com/VanirAOSP/frameworks_support ****
+f3fe6a1 : CMSupport: Sync MAX_ITEMS constant <Jorge Ruesga> 1 year, 7 months ago
+949a989 : CmSupport : Live folder empty content <Danesh M> 1 year, 7 months ago
+f54dfdd : CmSupport : LiveFolder <Danesh Mondegarian> 1 year, 8 months ago
+7af46d6 : Support : Add cm support library <Danesh M> 1 year, 8 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960-common ****
+4373f0f : mm/zsmalloc: allocate exactly size of struct zs_pool <Ganesh Mahendran> 4 months ago
+506585e9 : zsmalloc: correct fragile [kmap|kunmap]_atomic use <Minchan Kim> 4 months ago
+e40e0d4 : leds-pm8xxx-rgb: Preserve brightness on blinking disable <nadlabak> 29 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8960dt-common ****
+89ee343 : cpufreq: Fix policy getting stuck when user & kernel min/max don't overlap <Saravana Kannan> 1 year, 4 months ago
+7ff5adb : cpufreq: cpu-boost: config cpu_boost separately <Lianwei Wang> 6 months ago
+aa75d40 : cpufreq: cpu-boost: Dont boost if interrupted by signal <Lianwei Wang> 6 months ago
+7b992b7 : cpufreq: cpu-boost: Use interruptible wait to not affect load average <Swetha Chikkaboraiah> 10 months ago
+b8a293f : cpufreq: cpu-boost: Don't register for cpufreq notifiers too early <Saravana Kannan> 1 year, 2 months ago
+0a90c9a : cpufreq: cpu-boost: Fix deadlock in wake_up of sync threads <Saravana Kannan> 1 year, 3 months ago
+ec20041 : cpufreq: cpu-boost: Fix queue_delayed_work_on() race with hotplug <Saravana Kannan> 1 year, 3 months ago
+52b825a : cpufreq: Disable cpu-boost by default <Rohit Gupta> 1 year, 4 months ago
+be37e3a : cpufreq: Add Input Boost feature to the cpu-boost driver <Rohit Gupta> 1 year, 5 months ago
+6c3acb7 : cpufreq: Add a sync limit to cpu-boost <Rohit Gupta> 1 year, 5 months ago
+7f6795a : cpufreq: Add cpu-boost driver <Saravana Kannan> 1 year, 9 months ago
+cf425f9 : leds-pm8xxx-rgb: Preserve brightness on blinking disable <nadlabak> 29 hours ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_motorola_msm8974 ****
+322c7b0 : ipv6: Don't reduce hop limit for an interface <D.S. Ljungmark> 3 weeks ago
+6c6794b : mm: Fix NULL pointer dereference in madvise(MADV_WILLNEED) support <Kirill A. Shutemov> 1 year, 4 months ago
+0685778 : vfs: read file_handle only once in handle_to_path <Sasha Levin> 3 months ago
+fc5b1a0 : tracing/syscalls: Ignore numbers outside NR_syscalls' range <Rabin Vincent> 6 months ago
+b9366b8 : tracing/syscalls: Fix perf syscall tracing when syscall_nr == -1 <Will Deacon> 2 years, 8 months ago
+ 
+**** https://github.com/CyanogenMod/android_kernel_samsung_mondrianwifi ****
+f9e6961 : Mondrianwifi: Fix compilation error with mdss_mdp_trace.h <Josue Rivera> 23 hours ago
+fc64b48 : ipv6: Don't reduce hop limit for an interface <D.S. Ljungmark> 3 weeks ago
+b1e8b14 : mm: Fix NULL pointer dereference in madvise(MADV_WILLNEED) support <Kirill A. Shutemov> 1 year, 4 months ago
+1815f1e : vfs: read file_handle only once in handle_to_path <Sasha Levin> 3 months ago
+7ddf371 : mnt: Prevent pivot_root from creating a loop in the mount tree <Eric W. Biederman> 6 months ago
+4e1bfe0 : mnt: Only change user settable mount flags in remount <Eric W. Biederman> 9 months ago
+a82a605 : netfilter: conntrack: disable generic tracking for known protocols <Florian Westphal> 7 months ago
+5443a78 : nf: xt_qtaguid: fix handling for cases where tunnels are used. <JP Abgrall> 1 year, 4 months ago
+f631ea9 : netfilter: xt_qtaguid: Protect iface list access with necessary lock <Michael Bohan> 1 year, 9 months ago
+ecb63da : netfilter: nf_conntrack: decrement global counter after object release <Pablo Neira Ayuso> 1 year, 5 months ago
+1c58e8c : eCryptfs: Remove buggy and unnecessary write in file name decode routine <Michael Halcrow> 5 months ago
+f29ccaa : ipv4: try to cache dst_entries which would cause a redirect <Hannes Frederic Sowa> 3 months ago
+4ef5c09 : tracing: Have tracing_off() actually turn tracing off <Steven Rostedt> 2 years, 10 months ago
+7c0d2b5 : tracing/syscalls: Ignore numbers outside NR_syscalls' range <Rabin Vincent> 6 months ago
+1414261 : tracing/syscalls: Allow archs to ignore tracing compat syscalls <Steven Rostedt> 2 years, 2 months ago
+975261a : tracing/syscalls: Fix perf syscall tracing when syscall_nr == -1 <Will Deacon> 2 years, 8 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Calculator ****
+d5ec5ce : Calculator: fix color lookups in GraphView <Roman Birg> 2 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Calendar ****
+ebccbe9 : Calendar: do not auto save events when importing <Raj Yengisetty> 24 hours ago
+ 
+**** https://github.com/CyanogenMod/android_packages_apps_Exchange ****
+98f7ac8 : exchange: fix typo in switch case flow <Jorge Ruesga> 27 hours ago
+94dcbef : Display model name on exchange server and exclude illegal characters <Jonas Knutsson> 1 year, 5 months ago
+ 
+**** https://github.com/VanirAOSP/packages_apps_Settings ****
+aebef5b : Settings: Restore proper ringtone for msim <cretin45> 7 days ago
+869ef82 : Remove duplicate strings <heydabop> 3 weeks ago
+bb1da16 : Settings: fix volume link notification preference <Roman Birg> 31 hours ago
+16c9f62 : Settings: add USB Tether tile <BestPig> 2 months ago
+ 
+**** https://github.com/VanirAOSP/vendor_lge ****
+036bc9c : vs985: update rilblobs from V23A <Dan Pasanen> 3 days ago
+ 
+**** https://github.com/VanirAOSP/vendor_motorola ****
+e5acdb7 : msm8226-common: Build libqsap_sdk from source <LuK1337> 12 hours ago
+ 
+**** https://github.com/VanirAOSP/vendor_vanir ****
+2787b83 : Remove SPN configurations for Japan <black> 9 hours ago
+c635b75 : cm: add FreedomPop APN <dcd> 6 days ago
+ 
