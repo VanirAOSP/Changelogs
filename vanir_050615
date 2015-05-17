@@ -1,0 +1,157 @@
+
+**** cm:android_device_asus_fugu ****
+21ec046 : fstab: Fix apps2sd <dhacker29> 19 hours ago
+c6de786 : AppDrawer: sort apps by name <Dan Pasanen> 28 hours ago
+ 
+**** vanir:device_motorola_omap4-common ****
+ab7f149 : motorild: Force CPU1 online on ring if it was offline. <JooJooBee666> 27 hours ago
+ 
+**** github:AndroidNoob69/android_device_sony_huashan ****
+86964a5 : Remove BOARD_HAS_RIL_LEGACY_PAP <Mrcl1450> 32 hours ago
+c665265 : fstab: remove discard for f2fs <Mrcl1450> 32 hours ago
+913b6c6 : Update ril to 5.1 <Mrcl1450> 2 days ago
+ 
+**** vanir:device_sony_nicki ****
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 6 days ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 6 days ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 6 days ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 3 weeks ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 4 weeks ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 4 weeks ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 5 weeks ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 5 weeks ago
+24d510c : nicki: Enable zram device <RonGokhale> 5 weeks ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 5 weeks ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 6 weeks ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 6 weeks ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 8 weeks ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 8 weeks ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 9 weeks ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 10 weeks ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 10 weeks ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 10 weeks ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 2 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 7 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 4 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 4 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 4 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 4 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 4 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 3 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 4 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 4 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 5 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 4 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 4 months ago
+c4b4a39 : nicki: update fstab <RonGokhale> 4 months ago
+1bd9501 : nicki: add charging and mass storage mode <RonGokhale> 4 months ago
+7bbf4d5 : nicki: sync prima INI file with LA.AF.1.1_rb1.8 <RonGokhale> 4 months ago
+610fa38 : build: Avoid poisoning the host binaries with bad ABIs <Ricardo Cerqueira> 5 months ago
+b95e5f6 : nicki: cleanup overlay <RonGokhale> 4 months ago
+fb35414 : nicki: Change accept_mac and deny_mac file paths. <Neelansh Mittal> 5 months ago
+150146a : nicki: Update hardware key config <RonGokhale> 4 months ago
+d141082 : nicki: Fix manual network selection <RonGokhale> 4 months ago
+3fe6c45 : nicki: remove af resampler <RonGokhale> 5 months ago
+7be94c4 : nicki: update sepolicy <RonGokhale> 5 months ago
+2a8af66 : nicki: Remove obslete flags <Arnav Gosain> 6 months ago
+8671b38 : nicki: import qcom common sepolicy <RonGokhale> 5 months ago
+dea6964 : nicki: cleanup <RonGokhale> 5 months ago
+0f338f9 : nicki: enable multiColor battery led <RonGokhale> 5 months ago
+3d9ad0c : nicki: update keylayouts for lp <RonGokhale> 5 months ago
+617bfcb : nicki: Enable Minikin text layout engine <RonGokhale> 5 months ago
+0353197 : nicki: restorecon /persist <RonGokhale> 6 months ago
+21c3e51 : nicki: Enable tty <RonGokhale> 6 months ago
+4e1f735 : nicki: don't enable ds for m dual for now <RonGokhale> 6 months ago
+ 
+**** vanir:frameworks_base ****
+8536e71 : PowerManagerService: Honor config_dreamsActivatedOnSleepByDefault <dhacker29> 4 days ago
+ 
+**** cm:android_kernel_lge_v500 ****
+d1a957f : v500: Enable CRYPTO_AES_ARM <Ricardo Cerqueira> 3 days ago
+7ab757a : ipv4: Missing sk_nulls_node_init() in ping_unhash(). <David S. Miller> 3 days ago
+482bd7f : eCryptfs: Remove buggy and unnecessary write in file name decode routine <Michael Halcrow> 3 months ago
+c6f95c7 : netfilter: conntrack: disable generic tracking for known protocols <Florian Westphal> 3 months ago
+202e5c5 : msm: smd_pkt: Avoid prematurely stashing driver info <Naveen Ramaraj> 3 months ago
+1a7e4a6 : ipv4: try to cache dst_entries which would cause a redirect <Hannes Frederic Sowa> 3 months ago
+6de43d8 : scripts/dtc/libfdt: add integer overflow checks <vijay kumar> 9 months ago
+a5c6b2e : msm: camera: add check for csid_cid to prevent of overwrite memory <Suman Mukherjee> 5 months ago
+6c887b1 : msm: rotator: Add proper checks for enabling Fast YUV <Naseer Ahmed> 3 months ago
+1886b49 : msm_vidc: Update frame-height along with buffer-size after reconfig <Praveen Chavan> 3 months ago
+30c79e3 : ipv6: clean up anycast when an interface is destroyed <Sabrina Dubroca> 8 months ago
+e4ff8b4 : msm: mdp: Validate input arguments from user space <Naseer Ahmed> 4 months ago
+e65877e : ARM: 8120/1: crypto: sha512: add ARM NEON implementation <Jussi Kivilinna> 9 months ago
+e4b93da : ARM: 8119/1: crypto: sha1: add ARM NEON implementation <Jussi Kivilinna> 9 months ago
+1b0bf7d : ARM: 8118/1: crypto: sha1/make use of common SHA-1 structures <Jussi Kivilinna> 9 months ago
+3c6a275 : crypto: arm-aes - fix encryption of unaligned data <Mikulas Patocka> 10 months ago
+6e27567 : CRYPTO: Fix more AES build errors <Russell King> 1 year, 4 months ago
+63d3320 : ARM: add .gitignore entry for aesbs-core.S <Russell King> 1 year, 7 months ago
+cb016d2 : ARM: add support for bit sliced AES using NEON instructions <Ard Biesheuvel> 1 year, 8 months ago
+35d5213 : ARM: move AES typedefs and function prototypes to separate header <Ard Biesheuvel> 1 year, 8 months ago
+0ac6ca6 : ARM: 7837/3: fix Thumb-2 bug in AES assembler code <Ard Biesheuvel> 1 year, 7 months ago
+e3955ce : ARM: 7723/1: crypto: sha1-armv4-large.S: fix SP handling <Ard Biesheuvel> 2 years ago
+52fcdf8 : ARM: 7626/1: arm/crypto: Make asm SHA-1 and AES code Thumb-2 compatible <Dave Martin> 2 years, 4 months ago
+523f299 : arm/crypto: Add optimized AES and SHA1 routines <David McCullough> 2 years, 8 months ago
+5d1df77 : KEYS: close race between key lookup and freeing <Sasha Levin> 4 months ago
+e904938 : msm: kgsl: Get rid of KGSL_FLAGS_STARTED <Shubhraprakash Das> 1 year ago
+8ff9c6a : msm: kgsl: Clear pending transactions from VBIF on hang <Carter Cooper> 5 months ago
+d40a2a6 : msm: kgsl: Modify which MMU clocks are enabled/disabled <Carter Cooper> 5 months ago
+5f6b117 : msm: kgsl: Prevent adreno stop after gpu is power collapsed <Tarun Karra> 8 months ago
+49d047e : msm: kgsl: Check for mmu pagefault before recovery <Shubhraprakash Das> 1 year ago
+981fd4b : msm: kgsl: Fix IOMMU version naming for old driver <Carter Cooper> 7 months ago
+ec28176 : net: ipv6: allow choosing optimistic addresses with use_optimistic <Erik Kline> 5 months ago
+08cee8a : vfs: check if f_count is 0 or negative <Shengzhe Zhao> 11 months ago
+0ec9700 : Rotator getting stuck leading to fence timeout <Naseer Ahmed> 5 months ago
+3120eac : msm: rotator: Wait for the pending commits in finish IOCTL <Naseer Ahmed> 5 months ago
+a984aea : net/ping: handle protocol mismatching scenario <Jane Zhou> 5 months ago
+2205e12 : usb: dwc3: gadget: Protect against ep disabling during completion <Devin Kim> 1 year, 2 months ago
+a9bdf56 : cgroup: remove synchronize_rcu() from cgroup_attach_{task|proc}() <Devin Kim> 7 months ago
+fe54af6 : net: ipv6: Add a sysctl to make optimistic addresses useful candidates <Erik Kline> 6 months ago
+747aa0e : lowmemorykiller: Account for highmem during kswapd reclaim <Liam Mark> 1 year, 2 months ago
+743a8f6 : android/lowmemorykiller: Account for total_swapcache_pages <Liam Mark> 1 year, 8 months ago
+e6420ac : lowmemorykiller: enhance debug information <Liam Mark> 11 months ago
+03f420d : mm, oom: make dump_tasks public <Liam Mark> 11 months ago
+a3acb07 : fs/seq_file: Use vmalloc by default for allocations > PAGE_SIZE <Jordan Crouse> 8 months ago
+ca6a342 : fs/seq_file: fallback to vmalloc allocation <Heiko Carstens> 8 months ago
+f5ff290 : lowmemorykiller: make default lowmemorykiller debug message useful <Colin Cross> 6 months ago
+ 
+**** github:cannondalev2000/kernel_motorola_msm8226 ****
+83aafa7 : msm: adreno: nice job QCOM, this is supposed to be -7 not 7 <franciscofranco> 4 months ago
+bbbc519 : writeback: increase bdi_min_ratio to 5 in light of the latest writeback commit. <Francisco Franco> 1 year, 11 months ago
+c1abdd9 : sched: LOAD_FREQ (4*HZ+61) avoids loadavg Moire. From http://ripke.com/loadavg/moire <franciscofranco> 1 year, 5 months ago
+080e5e0 : audit: Imma let you finish, but shut up <franciscofranco> 7 months ago
+3ba9d0f : selinux: just shut up <franciscofranco> 7 months ago
+7d56fc3 : InSaNiTy is back! <Ethan> 4 weeks ago
+00fa030 : enable frandom <Ethan> 5 weeks ago
+4bd2d52 : turn down optimizations for now so that everything plays nice <Ethan> 5 weeks ago
+84fe565 : remove lto for now <Ethan> 5 weeks ago
+1358b4b : change a few flags around <Ethan> 5 weeks ago
+83f389e : disable zRam <Ethan> 5 weeks ago
+caa1e80 : make file changes. lots of them <Ethan> 5 weeks ago
+cf49b3e : well we liked this on the g2 lets try it here <Ethan> 5 weeks ago
+9e54288 : make it liquid <Ethan> 5 weeks ago
+f6f6a7a : Import the fallowing commits <Ethan> 5 weeks ago
+3d51453 : optimize slub a little bit <Ethan> 5 weeks ago
+3ebc2b8 : ugh this is anoying in logcats at boot time -.- lets fix it <Ethan> 5 weeks ago
+c06ebee : optimize is just a little bit <Ethan> 5 weeks ago
+47ee266 : reclaim some ram for the system <Ethan> 6 weeks ago
+e7efcb3 : clean up defconfigs, remove wrapper and debugging <Ethan> 6 weeks ago
+cf79f43 : vfp: hardfloat <Dennis Rassmann> 1 year, 5 months ago
+d246b2b : Port kexec hardboot to falcon :P multi rom is next <Ethan> 6 weeks ago
+27fe9b0 : import frandom <Ethan> 6 weeks ago
+9301276 : fix build errors with linaro <Ethan> 6 weeks ago
+11fc5e4 : add lcd notifier <Ethan> 6 weeks ago
+0c0d1cf : raise thermal limits. msm8226 doesnt put out enough heat to need thermal at all but it kills sytem without it <Ethan> 8 months ago
+a6a96f5 : bus overclock <Ethan> 6 weeks ago
+ 
+**** vanir:platform_manifest ****
+3b36090 : restore indecent xposure <nuclearmistake> 8 weeks ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+44759f5 : ContactsCommon : Remove pending request for get contact bitmaps <Danesh M> 13 days ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+ef79453 : Gallery2: Use a slimmed down manifest on .inc builds <cretin45> 6 days ago
+ 
+**** vanir:packages_apps_VanirUpdater ****
+7fe69ab : UpdateSettingsTv: from CM w/ mods for compatibility... compiles... not sure if it works yet though... will test tonight <nuclearmistake> 11 hours ago
+ 

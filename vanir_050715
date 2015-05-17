@@ -1,0 +1,153 @@
+
+**** vanir:bootable_recovery ****
+2ad7d2c : sr: Fix "no command" showing by default <Tom Marshall> 28 hours ago
+ 
+**** vanir:device_htc_dlx ****
+2a3d224 : dlx: Fix apps2sd to usb storage <Christopher R. Palmer> 12 hours ago
+ 
+**** vanir:device_lge_hammerhead ****
+19d880d : hammerhead: Fix apps2d to usb storage <Christopher R. Palmer> 12 hours ago
+ 
+**** cm:android_device_motorola_victara ****
+71b44de : victara: Fix apps2sd to usb storage <Christopher R. Palmer> 12 hours ago
+ 
+**** vanir:device_samsung_mondrianwifi ****
+2b5cc9c : mondrianwifi: Fix fstab definition of usb storage <Christopher R. Palmer> 12 hours ago
+92a9a41 : mondrianwifi: Add f2fs support <Christopher R. Palmer> 2 days ago
+ 
+**** github:AndroidNoob69/android_device_sony_huashan ****
+c32a9be : huashan: remove deprecated mass storage mode <Mrcl1450> 11 hours ago
+e70d844 : huashan: Fix apps2sd to usb storage <Mrcl1450> 11 hours ago
+647d22e : Add WCNSS config ini for new WiFi driver <Mrcl1450> 2 days ago
+cfc4bdb : Update init.qcom.rc <Mrcl1450> 2 days ago
+56195d0 : uevent: add perms for rfkill and wcnss_ctrl for wcnss wifi <Mrcl1450> 2 days ago
+ 
+**** vanir:device_sony_nicki ****
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 7 days ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 7 days ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 7 days ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 4 weeks ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 4 weeks ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 4 weeks ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 5 weeks ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 5 weeks ago
+24d510c : nicki: Enable zram device <RonGokhale> 6 weeks ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 6 weeks ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 6 weeks ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 6 weeks ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 8 weeks ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 9 weeks ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 9 weeks ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 10 weeks ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 10 weeks ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 10 weeks ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 2 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 7 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 4 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 4 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 4 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 4 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 4 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 3 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 4 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 4 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 5 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 4 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 4 months ago
+c4b4a39 : nicki: update fstab <RonGokhale> 4 months ago
+1bd9501 : nicki: add charging and mass storage mode <RonGokhale> 4 months ago
+7bbf4d5 : nicki: sync prima INI file with LA.AF.1.1_rb1.8 <RonGokhale> 4 months ago
+610fa38 : build: Avoid poisoning the host binaries with bad ABIs <Ricardo Cerqueira> 5 months ago
+b95e5f6 : nicki: cleanup overlay <RonGokhale> 4 months ago
+fb35414 : nicki: Change accept_mac and deny_mac file paths. <Neelansh Mittal> 6 months ago
+150146a : nicki: Update hardware key config <RonGokhale> 4 months ago
+d141082 : nicki: Fix manual network selection <RonGokhale> 4 months ago
+3fe6c45 : nicki: remove af resampler <RonGokhale> 5 months ago
+7be94c4 : nicki: update sepolicy <RonGokhale> 5 months ago
+2a8af66 : nicki: Remove obslete flags <Arnav Gosain> 6 months ago
+8671b38 : nicki: import qcom common sepolicy <RonGokhale> 5 months ago
+dea6964 : nicki: cleanup <RonGokhale> 5 months ago
+0f338f9 : nicki: enable multiColor battery led <RonGokhale> 5 months ago
+3d9ad0c : nicki: update keylayouts for lp <RonGokhale> 5 months ago
+617bfcb : nicki: Enable Minikin text layout engine <RonGokhale> 6 months ago
+0353197 : nicki: restorecon /persist <RonGokhale> 6 months ago
+21c3e51 : nicki: Enable tty <RonGokhale> 6 months ago
+4e1f735 : nicki: don't enable ds for m dual for now <RonGokhale> 6 months ago
+ 
+**** vanir:frameworks_base ****
+29261cc : frameworks: fix setting up linked notification stream on boot <Roman Birg> 2 hours ago
+0d9fa43 : Themes: Make parse() method in FontListParser public <d34d> 2 days ago
+ 
+**** vanir:hardware_qcom_display ****
+4d0417d : hwc: Avoid redoing GPU comp under certain conditions <Raj Kamal> 7 weeks ago
+8db4dfe : hwc: vds: isActive need to be set for wfd using vds solution <Baldev Kumar Sahu> 4 weeks ago
+ 
+**** vanir:hardware_qcom_media ****
+f1cb445 : mm-video-v4l2: vidc: vdec: handle flush while codec config ETB for hevc decoder <Balamurugan Alagarsamy> 2 weeks ago
+ 
+**** cm:android_kernel_sony_msm8974 ****
+0e4e7de : sony: rebuild defconfig <Giulio Cervera> 2 days ago
+fab2d75 : crypto: add crypto_[un]register_shashes for [un]registering multiple shash entries at once <Jussi Kivilinna> 2 years, 10 months ago
+3c28f83 : crypto: user - fix info leaks in report API <Mathias Krause> 2 years, 3 months ago
+da81762 : crypto: sha512 - Expose generic sha512 routine to be callable from other modules <Tim Chen> 2 years, 1 month ago
+b9fc7a6 : crypto: sha256 - Expose SHA256 generic routine to be callable externally. <Tim Chen> 2 years, 1 month ago
+573319f : ARM: pull in <asm/simd.h> from asm-generic <Ard Biesheuvel> 1 year, 8 months ago
+1b9b363 : crypto: create generic version of ablk_helper <Ard Biesheuvel> 1 year, 8 months ago
+8342a8e : ARM: 7483/1: vfp: only advertise VFPv4 in hwcaps if CONFIG_VFPv3 is enabled <Will Deacon> 2 years, 9 months ago
+c89b082 : ARM: 7566/1: vfp: fix save and restore when running on pre-VFPv3 and CONFIG_VFPv3 set <Paul Walmsley> 2 years, 6 months ago
+21767ea : ARM: vfp: fix saving d16-d31 vfp registers on v6+ kernels <Russell King> 2 years, 7 months ago
+cbc6d94 : ARM: VFP: fix emulation of second VFP instruction <Russell King> 2 years, 2 months ago
+65c162a : ARM: move VFP init to an earlier boot stage <Ard Biesheuvel> 2 years ago
+ccbdc64 : ARM: add support for kernel mode NEON <Ard Biesheuvel> 2 years ago
+bab4837 : Revert "arm: VFP: Report bounce statistics using procfs" <Steve Kondik> 4 months ago
+2c6750e : ARM: 8120/1: crypto: sha512: add ARM NEON implementation <Jussi Kivilinna> 9 months ago
+82dfced : ARM: 8119/1: crypto: sha1: add ARM NEON implementation <Jussi Kivilinna> 9 months ago
+bf6c94b : ARM: 8118/1: crypto: sha1/make use of common SHA-1 structures <Jussi Kivilinna> 9 months ago
+3b7bad3 : crypto: arm-aes - fix encryption of unaligned data <Mikulas Patocka> 10 months ago
+a266820 : CRYPTO: Fix more AES build errors <Russell King> 1 year, 4 months ago
+8815777 : ARM: add .gitignore entry for aesbs-core.S <Russell King> 1 year, 7 months ago
+9800d54 : ARM: add support for bit sliced AES using NEON instructions <Ard Biesheuvel> 1 year, 8 months ago
+1bbf83c : ARM: move AES typedefs and function prototypes to separate header <Ard Biesheuvel> 1 year, 8 months ago
+40ce5a3 : ARM: 7837/3: fix Thumb-2 bug in AES assembler code <Ard Biesheuvel> 1 year, 8 months ago
+a95cd8d : ARM: 7723/1: crypto: sha1-armv4-large.S: fix SP handling <Ard Biesheuvel> 2 years ago
+39f743e : ARM: 7626/1: arm/crypto: Make asm SHA-1 and AES code Thumb-2 compatible <Dave Martin> 2 years, 4 months ago
+21533b0 : arm/crypto: Add optimized AES and SHA1 routines <David McCullough> 2 years, 8 months ago
+06183d7 : Revert "arm/crypto: Add optimized AES and SHA1 routines" <Giulio Cervera> 2 months ago
+eb30e02 : crypto: msm: qcrypto: Close window during suspending for SMP <AnilKumar Chimata> 4 months ago
+18ed1d7 : crypto: msm: qcrypto: Update suspend resume code <AnilKumar Chimata> 4 months ago
+091f71d : crypto: msm: change dev_err messages to dev_warn for reaper worker <Zhen Kong> 4 months ago
+ 
+**** vanir:platform_manifest ****
+ddb1536 : shield tablet: No kernel. gtfo <nuclearmistake> 21 hours ago
+ 
+**** cm:android_packages_apps_CellBroadcastReceiver ****
+fac61c4 : Expose hardcoded styles from manifest for theming <Nicholas Chum> 5 days ago
+ 
+**** cm:android_packages_apps_HTMLViewer ****
+bdb540d : HTMLViewer: Added custom viewer for legalese <cretin45> 2 days ago
+ 
+**** vanir:packages_apps_InCallUI ****
+ef64fd0 : Allow hiding volume boost feature with overlay. <Matt Garnes> 6 weeks ago
+ 
+**** cm:android_packages_apps_Terminal ****
+4493551 : Allow terminal app to show in LeanBack (1/2) <dhacker29> 8 days ago
+ 
+**** vanir:packages_apps_ThemeChooser ****
+93bd896 : Revert "Use android.graphics.FontListParser" <d34d> 41 minutes ago
+bdc0572 : Use android.graphics.FontListParser <d34d> 2 days ago
+ 
+**** vanir:packages_apps_VanirUpdater ****
+e8ebe38 : Add missing sysinfo string <nuclearmistake> 14 hours ago
+ 
+**** cm:android_packages_providers_TelephonyProvider ****
+d8f349b : TelephonyProvider: Handle upgrade from 11 -> 12.1. <Adnan Begovic> 3 days ago
+ 
+**** cm:android_packages_providers_ThemesProvider ****
+350f6f9 : Re-apply launcher icon packs on update <d34d> 32 hours ago
+ 
+**** vanir:vendor_vanir ****
+21dc7b0 : tomato's kernel has no cm-12.1 branch... until it does, lunching it breaks sync. <nuclearmistake> 14 hours ago
+c0c617f : vanirflash: cwm-compat mode: Check zip exists <nuclearmistake> 14 hours ago
+3e8ad42 : vanirflash: if /sdcard/TWRP does not exist, flash with a CWM-compatibile single-zip /cache/recovery/command method <nuclearmistake> 14 hours ago
+4df0585 : shield: hasn't had a kernel since it was resurrected... although... resurrection usually entails having been alive before dying. <nuclearmistake> 21 hours ago
+ 
