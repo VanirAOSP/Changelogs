@@ -1,0 +1,152 @@
+
+**** vanir:bionic ****
+8b8e5d3 : libc : memcpy : allow to disable opt for some targets <Varun Chitre> 2 weeks ago
+ 
+**** vanir:bootable_recovery_TWRP ****
+0eb2aab : avoid possible dead loop for invalid utf8 <Xuefer> 7 weeks ago
+ 
+**** samba:ccache.git ****
+94085e8 : Avoid calling exit() inside an exit handler <Joel Rosdahl> 31 hours ago
+ 
+**** cm:android_device_cyanogen_msm8939-common ****
+103dfdb : msm8939: Add p2p_no_group_iface flag <Ricardo Cerqueira> 9 hours ago
+ 
+**** vanir:device_htc_dlx ****
+239442a : init: remove bugreport service <Dan Pasanen> 3 days ago
+ 
+**** vanir:device_lge_g3-common ****
+c4480ac : init: remove bugreport service <Dan Pasanen> 3 days ago
+ 
+**** vanir:device_lge_p880 ****
+784175c : Skip GPS SuplServer init. <sudosurootdev> 10 days ago
+ 
+**** cm:android_device_lge_v500 ****
+4c7dcf1 : Fix more bluetooth_loader selinux denials <syphyr> 6 days ago
+ 
+**** vanir:device_moto_shamu ****
+809c11a : Disable dexpreopt only on affected apk's <dhacker29> 2 days ago
+436dfe4 : Revert "Don't dexpreopt prebuilts as some of them don't play nice" <dhacker29> 2 days ago
+ 
+**** vanir:device_samsung_jf-common ****
+0109b10 : init: remove bugreport service <Dan Pasanen> 3 days ago
+ 
+**** vanir:device_sony_nicki ****
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 10 months ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 13 days ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 5 weeks ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 5 weeks ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 5 weeks ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 8 weeks ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 8 weeks ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 8 weeks ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 9 weeks ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 9 weeks ago
+24d510c : nicki: Enable zram device <RonGokhale> 10 weeks ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 10 weeks ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 10 weeks ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 10 weeks ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 3 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 3 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 3 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 3 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 3 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 3 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 3 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 8 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 5 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 5 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 5 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 5 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 5 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 4 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 4 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 5 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 6 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 5 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 5 months ago
+c4b4a39 : nicki: update fstab <RonGokhale> 5 months ago
+1bd9501 : nicki: add charging and mass storage mode <RonGokhale> 5 months ago
+7bbf4d5 : nicki: sync prima INI file with LA.AF.1.1_rb1.8 <RonGokhale> 5 months ago
+610fa38 : build: Avoid poisoning the host binaries with bad ABIs <Ricardo Cerqueira> 6 months ago
+b95e5f6 : nicki: cleanup overlay <RonGokhale> 5 months ago
+fb35414 : nicki: Change accept_mac and deny_mac file paths. <Neelansh Mittal> 6 months ago
+150146a : nicki: Update hardware key config <RonGokhale> 5 months ago
+d141082 : nicki: Fix manual network selection <RonGokhale> 5 months ago
+3fe6c45 : nicki: remove af resampler <RonGokhale> 6 months ago
+7be94c4 : nicki: update sepolicy <RonGokhale> 6 months ago
+2a8af66 : nicki: Remove obslete flags <Arnav Gosain> 7 months ago
+8671b38 : nicki: import qcom common sepolicy <RonGokhale> 6 months ago
+dea6964 : nicki: cleanup <RonGokhale> 6 months ago
+0f338f9 : nicki: enable multiColor battery led <RonGokhale> 6 months ago
+3d9ad0c : nicki: update keylayouts for lp <RonGokhale> 6 months ago
+617bfcb : nicki: Enable Minikin text layout engine <RonGokhale> 6 months ago
+0353197 : nicki: restorecon /persist <RonGokhale> 7 months ago
+ 
+**** cm:android_external_dhcpcd ****
+3ad41a3 : dhcpcd: Send proper DUID <Tom Marshall> 28 hours ago
+ 
+**** vanir:frameworks_base ****
+f4de2c8 : Hack for old devices needing Gps Init Fix. P880 & Janice <sudosurootdev> 10 days ago
+d7493d3 : Drop protection level of certain SMS-related system permissions <Chris Sarbora> 6 days ago
+1fe36a5 : Code Cleanup: No longer required as AOSP commit supersedes this <Aditya Pandey> 13 days ago
+17ca5ac : SystemUI: use smaller padding for battery <LuK1337> 3 days ago
+fe342dc : VolumePanel: volume bar disorderly jump when drag it. <guotao.deng> 3 days ago
+8559194 : MultiSelectListPreference.java should deal with onRestoreInstanceState method <longping.zou> 2 days ago
+ 
+**** cm:android_kernel_google_msm ****
+8cfdcaa : cpufreq: interactive: Round up timer_rate to match jiffy <Junjie Wu> 10 months ago
+ 
+**** cm:android_kernel_motorola_msm8960-common ****
+0053b4d : fs: take i_mutex during prepare_binprm for set[ug]id executables <Jann Horn> 7 weeks ago
+eda6bde : f2fs: fix wrong error hanlder in f2fs_follow_link <Jaegeuk Kim> 6 weeks ago
+1551a30 : Revert "f2fs: enhance multi-threads performance" <Jaegeuk Kim> 6 weeks ago
+23438ac : f2fs: bring up to date with Jaegeuk's branch <dcd> 10 days ago
+028a20e : f2fs: update from git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git <Jaegeuk Kim> 4 months ago
+98bb7b4 : radix-tree: fix contiguous iterator <Konstantin Khlebnikov> 3 years ago
+d972246 : radix-tree: rewrite gang lookup using iterator <Konstantin Khlebnikov> 3 years, 2 months ago
+09ed885 : radix-tree: introduce bit-optimized iterator <Konstantin Khlebnikov> 3 years, 2 months ago
+ba722f5 : radix_tree: remove radix_tree_indirect_to_ptr() <Xiao Guangrong> 3 years, 5 months ago
+e0346de : radix_tree: take radix_tree_path off stack <Hugh Dickins> 3 years, 5 months ago
+595e681 : radix_tree: clean away saw_unset_tag leftovers <Hugh Dickins> 3 years, 7 months ago
+4b70aa1 : tmpfs radix_tree: locate_item to speed up swapoff <Hugh Dickins> 3 years, 10 months ago
+19bcf70 : radix_tree: exceptional entries and indices <Hugh Dickins> 3 years, 10 months ago
+ 
+**** vanir:packages_apps_Calculator ****
+054a57b : Calculator: Fix issue with overflowing text <Stephen Bird> 3 days ago
+ 
+**** vanir:packages_apps_Camera2 ****
+a1cdd29 : Fix storage location NPE <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_Contacts ****
+2751aca : Contacts:remove memory status from overflow in search mode <naman14> 2 weeks ago
+ 
+**** vanir:packages_apps_Dialer ****
+d7e581a : Enable Call Recording for the United Kingdom <Kryten2k35> 10 days ago
+b675a6a : Remove some dead code. <Danny Baumann> 2 days ago
+ 
+**** vanir:packages_apps_Settings ****
+0415a80 : PrivacyGuard: restore ListView position on resume, for real <Gianmarco Reverberi> 2 days ago
+9849f6f : Fix up increasing ring tone volume preview behaviour. <Danny Baumann> 7 days ago
+1d81754 : Settings: remove mobile networks menu if ro.radio.noril is set <Dan Pasanen> 5 weeks ago
+ 
+**** vanir:system_core ****
+346e202 : liblog: add Amazon logging functions for prebuilt compatibility <cpasjuste> 4 hours ago
+ 
+**** cm:cm_platform_sdk ****
+273f2db : CMSDK: Add check-api generated texts. <Adnan Begovic> 7 days ago
+62c951e : CMSDK: Setup initial check-api mechanism. <Adnan Begovic> 7 days ago
+ 
+**** vanir:vendor_vanir ****
+9d64dc5 : init: stop ril daemons if ro.radio.noril is set <Dan Pasanen> 5 weeks ago
+b47dacb : Update Ting GSM APNs <Matt Mower> 9 days ago
+b7001a9 : add MetroPCS's IPv6 APN <c457> 9 days ago
+2ef1827 : Vanirify TV configs <nuclearmistake> 29 hours ago
+02cff09 : Deprecate epc.tmobile.com APN <Abhisek Devkota> 2 weeks ago
+4294e5c : APNs: Correct MMSC for HoT Austria <Phil Eichinger> 2 weeks ago
+fa84b5f : apns: Removed APN configuration for Noverca. <Zyg0te> 12 days ago
+901522e : config: Create TV targets (full and mini) <Brandon McAnsh> 9 days ago
+577ed5f : Temp fix for Bouygues telecom issues <Evan Widger> 3 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_yu ****
+481ff77 : tomato: Update IMX214 camera libraries <Ethan Chen> 10 hours ago
+ 

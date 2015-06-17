@@ -1,0 +1,449 @@
+
+**** vanir:bootable_recovery_TWRP ****
+c7b631b : gui: set tw_file to the currently flashed file name without path <that> 2 days ago
+74db84e : Fix double free crash during encrypted backups <Ethan Yonker> 2 days ago
+5267a21 : gui: move retainaspect handling to the resource ctors <that> 4 weeks ago
+a29361a : Don't try to read temparature file if TW_NO_CPU_TEMP is set to true. Otherwise, recovery log gets filled up with "I:Cannot find file /sys/class/thermal/thermal_zone0/temp" <Agontuk> 6 weeks ago
+d6966f4 : Fix unable to uncheck the mount read only check box <Ethan Yonker> 4 days ago
+ 
+**** vanir:build ****
+f487929 : build: avoid recovery patch if device setup can't do it correctly <Hashcode> 2 days ago
+ab74d2e : auto-ccache compilation: check for automake OR autoconf, and don't try to use apt-get to install OSes without it <nuclearmistake> 4 days ago
+83fd115 : update ccache checker <Ozzy2403> 4 days ago
+ 
+**** samba:ccache.git ****
+0220de9 : Support external zlib in nonstandard directory <Joel Rosdahl> 2 days ago
+f9fd102 : test: drop perl requirement <Mike Frysinger> 3 weeks ago
+ 
+**** cm:android_device_asus_fugu ****
+af08503 : fugu: Use TV configuration instead of full_tab_wifionly <Brandon McAnsh> 8 days ago
+ 
+**** vanir:device_htc_dlx ****
+76979c9 : dlx: Fix USB ethernet support <Michael Bestas> 4 days ago
+ 
+**** vanir:device_htc_m8 ****
+7158dc5 : overlay: always enable apn settings for cdma <Dan Pasanen> 3 weeks ago
+ 
+**** vanir:device_lge_g3-common ****
+7754f5a : Revert "g3: Remove TARGET_USES_C2D_COMPOSITION" <forumber> 4 days ago
+a724c92 : init: enable tap to wake on boot <Dan Pasanen> 2 days ago
+cb553e1 : cmhw: TapToWake: Don't attempt to parse a null from FileUtils <Ethan Chen> 4 months ago
+75e4cce : cmhw: TapToWake: detect if node exists to determine if supported <Dan Pasanen> 2 days ago
+e0fc12f : wcnss: update configs and firmware from V23C <Dan Pasanen> 6 weeks ago
+ 
+**** vanir:device_lge_gproj-common ****
+9ea034c : Fixed SELinux permissions <Jan Jasper de Kroon> 3 days ago
+ 
+**** vanir:device_moto_shamu ****
+6bb4667 : IMSEnabler: Application to toggle the Enhanced 4G LTE Mode setting <dhacker29> 4 days ago
+f6b6495 : Don't dexpreopt prebuilts as some of them don't play nice <dhacker29> 4 days ago
+ 
+**** vanir:motorola_msm8226-common ****
+23d3909 : msm8226-common: Allow user to eject his external SD <LuK1337> 4 days ago
+10b1719 : msm8226-common: config: update thermal config <luca020400> 2 days ago
+ 
+**** vanir:device_motorola_omap4-common ****
+11c0ee1 : omap4-common: bring back MotoDoze <Michael Gernoth> 4 days ago
+ 
+**** vanir:device_motorola_qcom-common ****
+e05b81a : Automatic translation import <Michael Bestas> 4 days ago
+ 
+**** cm:android_device_motorola_victara ****
+669648a : victara: cmactions: Add back button to action bar <luca020400> 3 days ago
+7e3386b : victara: cmactions: Clean up the ambient display disabling <Christopher R. Palmer> 3 days ago
+d26901b : victara: Add ethernet permission <Christopher R. Palmer> 3 days ago
+74272c9 : Automatic translation import <Michael Bestas> 4 days ago
+ca84de8 : cmactions: Update strings for crowdin <Michael Bestas> 4 days ago
+c9005c9 : victara: Fix USB ethernet support <Michael Bestas> 4 days ago
+ 
+**** vanir:device_oneplus_bacon ****
+7c75e34 : bacon: disable Mifare Reader to fix freeze after scanning MClassic <Hamster Tian> 10 days ago
+ 
+**** vanir:device_oppo_common ****
+41be370 : KeyHandler: never dexopt it <Roman Birg> 27 hours ago
+72e188d : Automatic translation import <Michael Bestas> 4 days ago
+ 
+**** cm:android_device_oppo_msm8974-common ****
+741385d : msm8974: Update WiFi configuration <Steve Kondik> 6 days ago
+fd8e8bb : msm8974-common: Fix USB ethernet support <Michael Bestas> 4 days ago
+ 
+**** cm:android_device_qcom_sepolicy ****
+6c42f4e : Revert "sepolicy: Update BCL sysfs nodes in file context" <DHOMD> 23 hours ago
+2d2760e : sepolicy: Update BCL sysfs nodes in file context <Shiju Mathew> 9 weeks ago
+ 
+**** cm:android_device_samsung_jflteatt ****
+086907a : jflteatt: overlay all valid network types <Bryson Gibbons> 5 days ago
+ 
+**** vanir:device_samsung_mondrianwifi ****
+7f6db57 : mondrianwifi: Fix USB ethernet support <Michael Bestas> 4 days ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+e017aed : msm8960-common: Use Serrano's media_codecs <Dave Daynard> 5 days ago
+ 
+**** vanir:device_samsung_qcom-common ****
+72b7d56 : Automatic translation import <Michael Bestas> 4 days ago
+ 
+**** github:AndroidNoob69/android_device_sony_huashan ****
+d4f6d8b : Revert "Cleanup power modes" <Mrcl1450> 35 hours ago
+7a906a0 : Cleanup power modes <Mrcl1450> 2 days ago
+57c9032 : Revert "Remove legacy mmap" <Marcelo Reis> 2 days ago
+bfbbbcf : Boot LEDs - Improved sequence <Adrian DC> 2 days ago
+98d984c : Update init.rc <Mrcl1450> 3 days ago
+3e55144 : Stop taimport on boot complete <Mrcl1450> 3 days ago
+6ef1ed8 : Remove bugreport service <Mrcl1450> 3 days ago
+307e214 : Cleanup <Mrcl1450> 3 days ago
+7449b63 : Boot LEDs - Reorganized for charging light + Blue recovery <Adrian DC> 3 days ago
+f88e255 : Update audio_policy.config <Mrcl1450> 3 days ago
+021d656 : Change the way lights boot <Firdaus Amin> 3 days ago
+7225b25 : Add CameraNext libs to the build <Mrcl1450> 3 days ago
+6c011c9 : Update sepolicies <Mrcl1450> 3 days ago
+a60b984 : Delete qcom-common sepolicies <Mrcl1450> 3 days ago
+f8b78bc : Revert Audio <Mrcl1450> 3 days ago
+cd56dda : Update HighTouchSensitivity.java <leskal> 4 days ago
+a6e3b04 : Update init.target.rc <leskal> 4 days ago
+eb231db : Update init.target.rc <leskal> 4 days ago
+4104443 : Update HighTouchSensitivity.java <leskal> 4 days ago
+4f36b61 : According to Ultrax5/android_device_sony_huashan <leskal> 4 days ago
+38d5c4e : Add CameraNext libs <Mrcl1450> 4 days ago
+3275e94 : Remove legacy mmap <Dhruv Paranjape> 5 days ago
+30267ec : Revert "Revert "Remove logwrapper"" <Mrcl1450> 6 days ago
+53819f5 : Revert "Add TriLed paths" <Mrcl1450> 6 days ago
+3f516ec : Revert "Set Liblights permissions" <Mrcl1450> 6 days ago
+5547579 : Revert "Governors Cleanup" <Mrcl1450> 6 days ago
+cf7ba53 : Revert "Update init.rc" <Mrcl1450> 6 days ago
+e1cf961 : Revert "Remove logwrapper" <Mrcl1450> 6 days ago
+1ab02c3 : Revert "Cleanup init.rc" <Mrcl1450> 6 days ago
+7160689 : Revert "Cleanup" <Mrcl1450> 6 days ago
+ 
+**** vanir:device_sony_nicki ****
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 10 months ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 12 days ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 5 weeks ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 5 weeks ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 5 weeks ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 7 weeks ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 8 weeks ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 8 weeks ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 9 weeks ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 9 weeks ago
+24d510c : nicki: Enable zram device <RonGokhale> 9 weeks ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 9 weeks ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 10 weeks ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 10 weeks ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 3 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 3 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 3 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 3 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 3 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 3 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 3 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 8 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 5 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 5 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 5 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 5 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 5 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 4 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 4 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 4 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 6 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 5 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 5 months ago
+c4b4a39 : nicki: update fstab <RonGokhale> 5 months ago
+1bd9501 : nicki: add charging and mass storage mode <RonGokhale> 5 months ago
+7bbf4d5 : nicki: sync prima INI file with LA.AF.1.1_rb1.8 <RonGokhale> 5 months ago
+610fa38 : build: Avoid poisoning the host binaries with bad ABIs <Ricardo Cerqueira> 6 months ago
+b95e5f6 : nicki: cleanup overlay <RonGokhale> 5 months ago
+fb35414 : nicki: Change accept_mac and deny_mac file paths. <Neelansh Mittal> 6 months ago
+150146a : nicki: Update hardware key config <RonGokhale> 5 months ago
+d141082 : nicki: Fix manual network selection <RonGokhale> 5 months ago
+3fe6c45 : nicki: remove af resampler <RonGokhale> 6 months ago
+7be94c4 : nicki: update sepolicy <RonGokhale> 6 months ago
+2a8af66 : nicki: Remove obslete flags <Arnav Gosain> 7 months ago
+8671b38 : nicki: import qcom common sepolicy <RonGokhale> 6 months ago
+dea6964 : nicki: cleanup <RonGokhale> 6 months ago
+0f338f9 : nicki: enable multiColor battery led <RonGokhale> 6 months ago
+3d9ad0c : nicki: update keylayouts for lp <RonGokhale> 6 months ago
+617bfcb : nicki: Enable Minikin text layout engine <RonGokhale> 6 months ago
+0353197 : nicki: restorecon /persist <RonGokhale> 7 months ago
+ 
+**** cm:android_device_sony_rhine-common ****
+3357e6d : start taimport once <Giulio Cervera> 3 days ago
+88e2b2e : init: Stop taimport when bootanimation exits <Chirayu Desai> 3 days ago
+ 
+**** cm:android_device_sony_shinano-common ****
+5c22024 : start taimport once <Giulio Cervera> 3 days ago
+d2caf34 : init: Stop taimport when bootanimation exits <Chirayu Desai> 3 days ago
+ 
+**** vanir:device_yu_tomato ****
+b6e7d08 : tomato: Add 32-bit variants of thermal libs <Ethan Chen> 6 days ago
+97a81f2 : Improve thermal engine configuration <Chirayu Desai> 9 days ago
+ 
+**** vanir:external_bluetooth_bluedroid ****
+92362be : bluetooth: a2dp: Buffer sufficient data to keep devices happy <Christopher R. Palmer> 7 days ago
+ 
+**** cm:android_external_stagefright-plugins ****
+ffed52f : FFmpegExtractor: mark HEVC as supported <Ethan Chen> 5 days ago
+ 
+**** vanir:frameworks_base ****
+5d93ed8 : Observer DEV_FORCE_SHOW_NAVBAR in LockTaskNotify <d34d> 30 hours ago
+aab323e : VolumePanel: better handling of updating sliders in expanded view <William C. Garrison III> 8 days ago
+faa430b : VolumePanel: show hint for unlinked notification slider too <William C. Garrison III> 8 days ago
+ecda406 : Introduce Theme Versioning [1/2] <Andy Mast> 8 days ago
+1c16b02 : frameworks/base: enable localization of Chinese operator's PLMN <Hamster Tian> 10 days ago
+89e7035 : Sync status bar signal cluster code with AOSP. <Danny Baumann> 6 weeks ago
+a44d9bc : fingerprint: register correct function for nativeEnrollCancel <Scott Mertz> 3 days ago
+0e16053 : fingerprint: detach java vm in HAL callback <Scott Mertz> 3 days ago
+1bfe029 : Large first row: really fix for 3 and 4 column cases <nuclearmistake> 3 days ago
+0a1b3de : Fix the 3rd big-tile's menu in four-column mode <nuclearmistake> 3 days ago
+8d1b0b7 : Fix large first row with four-column mode (3 -- will probably textwrap gross, but looks sick in the settings view) <nuclearmistake> 3 days ago
+9f6c851 : Four-column QS: remove 2 unused variables and fix larger first row <nuclearmistake> 4 days ago
+2601a41 : Fix-up whitespace and unused import from four-QS row commit, which is about to get revised to maintain tile aspect ratio <nuclearmistake> 4 days ago
+4015296 : Profiles: Setup uuid's for the defaults <Brandon McAnsh> 8 days ago
+76fb380 : Automatic translation import <Michael Bestas> 4 days ago
+3cefeaf : Profiles: Setup uuid's for the defaults <Brandon McAnsh> 8 days ago
+a9a09e8 : [1/2] QS: Option to show four tiles per row <sudosurootdev> 4 months ago
+ 
+**** vanir:frameworks_native ****
+9f76295 : Add dalvik heap override for xxxhdpi phone <bmc08gt> 3 months ago
+404f4eb : Add HWUI overrides for xxxhdpi phone <bmc08gt> 3 months ago
+ 
+**** vanir:frameworks_opt_telephony ****
+61cf25a : Revert "Set default SMS outgoing check interval to 15 minutes" <Michael Bestas> 4 days ago
+ 
+**** cm:android_hardware_qcom_fm ****
+db747fc : Automatic translation import <Michael Bestas> 4 days ago
+ 
+**** cm:android_kernel_htc_m7 ****
+126c619 : fs: take i_mutex during prepare_binprm for set[ug]id executables <Jann Horn> 7 weeks ago
+ 
+**** vanir:kernel_htc_msm8974 ****
+d400d48 : Patch 3.4.107 <varchild> 2 days ago
+0ad3196 : Patch 3.4.106 <varchild> 3 days ago
+55a7cb0 : Patch 3.4.105 <varchild> 6 days ago
+0730c02 : Patch 3.4.104 <varchild> 6 days ago
+7f992ca : Patch 3.4.103 <varchild> 6 days ago
+537b8d3 : Patch 3.4.102 <varchild> 6 days ago
+bd08629 : Patch 3.4.101 <varchild> 7 days ago
+e9c5a51 : Patch 3.4.100 <varchild> 7 days ago
+1843a55 : Patch 3.4.99 <varchild> 7 days ago
+31e1138 : Patch 3.4.98 <varchild> 7 days ago
+88dcd68 : Patch 3.4.97 <varchild> 8 days ago
+5829848 : Patch 3.4.96 <varchild> 8 days ago
+fcc3970 : Patch 3.4.95 <varchild> 8 days ago
+449c5df : Patch 3.4.94 <varchild> 8 days ago
+1252158 : Patch 3.4.93 <varchild> 9 days ago
+ea9441b : Patch 3.4.92 <varchild> 9 days ago
+2f385bf : Patch 3.4.91 <varchild> 9 days ago
+df67c24 : Patch 3.4.90 <varchild> 9 days ago
+c8acc85 : Patch 3.4.89 <varchild> 9 days ago
+37f4679 : Patch 3.4.88 <varchild> 9 days ago
+96e12c7 : Patch 3.4.87 <varchild> 10 days ago
+e7e43c7 : Patch 3.4.86 <varchild> 10 days ago
+d6b4111 : Patch 3.4.85 <varchild> 10 days ago
+2fee039 : Patch 3.4.84 <varchild> 10 days ago
+2dac16c : Patch 3.4.83 <varchild> 10 days ago
+d3880c3 : Patch 3.4.82 <varchild> 10 days ago
+7434ca3 : Patch 3.4.80 <varchild> 11 days ago
+8798cd7 : Patch 3.4.79 <varchild> 12 days ago
+baed6de : Patch 3.4.78 <varchild> 12 days ago
+3e512c4 : Patch 3.4.77 <varchild> 12 days ago
+c0094f6 : Patch 3.4.76 <varchild> 12 days ago
+5e38245 : Patch 3.4.75 <varchild> 12 days ago
+b275b1bb : Patch 3.4.74 <varchild> 12 days ago
+3f5f139 : Patch 3.4.73 <varchild> 13 days ago
+bf8cc9d : Patch 3.4.72 <varchild> 2 weeks ago
+20c95fc : Patch 3.4.71 <varchild> 2 weeks ago
+7fa79c1 : Patch 3.4.70 <varchild> 2 weeks ago
+50717d5 : Patch 3.4.69 <varchild> 2 weeks ago
+864765c : Patch 3.4.68 <varchild> 2 weeks ago
+b427f2f : Patch 3.4.67 <varchild> 2 weeks ago
+f3754c4 : Patch 3.4.66 <varchild> 2 weeks ago
+ 
+**** vanir:kernel_lge_g3 ****
+e1a63ef : g3: use Motorola's lmk optimizations and regen defconfigs <r3pwn (Greg Willard)> 4 weeks ago
+a6c715c : lmk: wrap the lmk code with config <Hong-Mei Li> 3 months ago
+71f4b9b : drivers:lmk: Fix double delete issue <Hong-Mei Li> 3 months ago
+99f33f2 : staging:android:lmk: read rb tree root with spinlock <Yi-wei Zhao> 4 months ago
+7553d34 : drivers:lmk: implement task's adj rbtree <Yi-wei Zhao> 5 months ago
+05ff944 : fs: support task's adj rbtree <Yi-wei Zhao> 5 months ago
+7c4ef7d : kernel: support task's adj rbtree <Yi-wei Zhao> 5 months ago
+9ee43a6 : initrd: fix lz4 decompress with initrd <Yinghai Lu> 10 months ago
+d720d61 : initramfs: support initramfs that is bigger than 2GiB <Yinghai Lu> 10 months ago
+65454ba : lib/decompress.c add __init to decompress_method and data <Hein Tibosch> 2 years, 8 months ago
+7466853 : input: touchscreen: update from D850 V20F <Dan Pasanen> 2 days ago
+fd1ec6f : bq24296: updates from D850 V20F <Dan Pasanen> 2 days ago
+d6351e9 : fs: take i_mutex during prepare_binprm for set[ug]id executables <Jann Horn> 7 weeks ago
+ce83751 : Revert "max14688: send SW_LINEOUT_INSERT for aux" <Chris Pritchard> 4 days ago
+ 
+**** vanir:kernel_moto_shamu ****
+03a4b54 : f2fs: fix a deadlock for summary page lock vs. sentry_lock <Jaegeuk Kim> 6 days ago
+c3f581f : f2fs crypto: clean up error handling in f2fs_fname_setup_filename <Jaegeuk Kim> 6 days ago
+bca4ae5 : f2fs: support 3.10 <Jaegeuk Kim> 5 days ago
+342051f : f2fs crypto: avoid f2fs_inherit_context for symlink <Jaegeuk Kim> 7 days ago
+e7724d5 : f2fs crypto: introduce a mempool for bounce pages <Jaegeuk Kim> 2 weeks ago
+c6192e4 : f2fs crypto: do not set encryption policy for non-directory by ioctl <Chao Yu> 8 days ago
+0c79097 : f2fs crypto: allow setting encryption policy once <Chao Yu> 10 days ago
+ff77059 : f2fs crypto: check context consistent for rename2 <Chao Yu> 10 days ago
+d3b0c7b : f2fs: avoid duplicated code by reusing f2fs_read_end_io <Chao Yu> 10 days ago
+0895e48 : f2fs crypto: use per-inode tfm structure <Jaegeuk Kim> 2 weeks ago
+6b5f90e : f2fs: recovering broken superblock during mount <hujianyang> 2 weeks ago
+e65b94e : f2fs crypto: check encryption for tmpfile <Jaegeuk Kim> 2 weeks ago
+97b7bb1 : f2fs: support RENAME_WHITEOUT <Jaegeuk Kim> 5 days ago
+bfc5d24 : f2fs: introduce update_meta_page <Chao Yu> 2 weeks ago
+c0e0385 : f2fs crypto: zero next free dnode block <Chao Yu> 2 weeks ago
+ad0534b : f2fs crypto: split f2fs_crypto_init/exit with two parts <Jaegeuk Kim> 3 weeks ago
+d9f9faa : f2fs crypto: fix incorrect release for crypto ctx <Chao Yu> 3 weeks ago
+efc19d7 : f2fs crypto: fix to release buffer for fname crypto <Chao Yu> 3 weeks ago
+effecd9 : f2fs crypto: shrink size of the f2fs_crypto_ctx structure <Jaegeuk Kim> 3 weeks ago
+08cc4a1 : f2fs crypto: get rid of ci_mode from struct f2fs_crypt_info <Jaegeuk Kim> 3 weeks ago
+6fbf810 : f2fs crypto: use slab caches <Jaegeuk Kim> 3 weeks ago
+c8732fe : f2fs: truncate data blocks for orphan inode <Jaegeuk Kim> 3 weeks ago
+06ae5a0 : f2fs: cleanup a confusing indent <Dan Carpenter> 3 weeks ago
+66b3fd9 : f2fs: fix building on 32-bit architectures <Arnd Bergmann> 3 weeks ago
+31612cd : f2fs: avoid buggy functions <Jaegeuk Kim> 2 weeks ago
+e42da02 : f2fs: add compat_ioctl to provide backward compatability <hujianyang> 3 weeks ago
+a84e545 : f2fs: do not issue next dnode discard redundantly <Jaegeuk Kim> 3 weeks ago
+51425d4 : f2fs: disable the discard option when device does not support <Jaegeuk Kim> 3 weeks ago
+25e1664 : f2fs: add default mount options to remount <Yunlei He> 4 weeks ago
+68b3552 : f2fs crypto: remove checking key context during lookup <Jaegeuk Kim> 4 weeks ago
+dc1000b : f2fs crypto: fix missing key when reading a page <Jaegeuk Kim> 4 weeks ago
+35a53d2 : f2fs crypto: add symlink encryption <Jaegeuk Kim> 5 weeks ago
+60d3b65 : f2fs crypto: add filename encryption for roll-forward recovery <Jaegeuk Kim> 5 weeks ago
+9dfc873 : f2fs crypto: add filename encryption for f2fs_lookup <Jaegeuk Kim> 5 weeks ago
+d2472a7 : f2fs crypto: add filename encryption for f2fs_readdir <Jaegeuk Kim> 5 weeks ago
+a217014 : f2fs crypto: add filename encryption for f2fs_add_link <Jaegeuk Kim> 5 weeks ago
+ca92f96 : f2fs crypto: add encryption support in read/write paths <Jaegeuk Kim> 6 weeks ago
+ebfb7de : f2fs crypto: activate encryption support for fs APIs <Jaegeuk Kim> 5 days ago
+4210ae3 : f2fs crypto: filename encryption facilities <Jaegeuk Kim> 6 weeks ago
+069b576 : f2fs crypto: add encryption key management facilities <Jaegeuk Kim> 6 weeks ago
+b82508e : f2fs crypto: add f2fs encryption facilities <Jaegeuk Kim> 6 weeks ago
+58c6829 : f2fs crypto: add encryption policy and password salt support <Jaegeuk Kim> 5 days ago
+f55de16 : f2fs crypto: add encryption xattr support <Jaegeuk Kim> 8 weeks ago
+3dfd7ff : f2fs crypto: add f2fs encryption Kconfig <Jaegeuk Kim> 8 weeks ago
+ebaeb91 : f2fs crypto: declare some definitions for f2fs encryption feature <Jaegeuk Kim> 6 weeks ago
+9b06a1d : f2fs: report unwritten area in f2fs_fiemap <Jaegeuk Kim> 4 weeks ago
+9c5d97c : f2fs: avoid value overflow in showing current status <Jaegeuk Kim> 4 weeks ago
+9e854dc : f2fs: support FALLOC_FL_ZERO_RANGE <Chao Yu> 4 weeks ago
+093e6b1 : f2fs: support FALLOC_FL_COLLAPSE_RANGE <Chao Yu> 4 weeks ago
+af90290 : f2fs: introduce f2fs_replace_block() for reuse <Chao Yu> 4 weeks ago
+ 
+**** cm:android_kernel_motorola_msm8960dt-common ****
+8297fb0 : Revert "net/unix: sk_socket can disappear when state is unlocked" <Emerson Pinter> 4 days ago
+75b8128 : neigh: Better handling of transition to NUD_PROBE state <Erik Kline> 2 weeks ago
+bbac8f7 : net/unix: sk_socket can disappear when state is unlocked <Mark Salyzyn> 13 days ago
+f9cd4d3 : esoc: Add external soc control framework <Hanumant Singh> 1 year, 7 months ago
+d428ebd : msm: msm_fb: wait for VSYNC instead of DMA_P for LCDC <Justin Philip> 3 weeks ago
+b5e0ff0 : usb: ks_bridge: Ignore completion error in RX path <ChandanaKishori Chiluveru> 4 weeks ago
+f5b0661 : cfg80211: add space after the b/w in db.txt <Mihir Shete> 3 months ago
+1821806 : mmc: Allow forward compatibility for eMMC <Romain Izard> 11 months ago
+96682af : selinux: enable genfscon labeling for sysfs and pstore files <Stephen Smalley> 2 weeks ago
+ 
+**** cm:android_kernel_motorola_msm8974 ****
+0e0e225 : wlan: Ini param to allow back ground scan in TDLS. <Agarwal Ashish> 6 months ago
+d04183d : wlan: Set peer staId for management frame. <Sushant Kaushik> 6 weeks ago
+33691e7 : scm-mpu: Add additional memory protection options <Patrick Daly> 4 months ago
+7075f5a : msm: mdss: Unmap only when buffer was mapped <Jayant Shekhar> 5 months ago
+ 
+**** cm:android_kernel_oneplus_msm8974 ****
+c510481 : synaptics: Fix find7 compilation <Michael Bestas> 2 days ago
+75064c3 : synaptics: Use per-panel firmware loading <Ethan Chen> 6 days ago
+ 
+**** cm:android_kernel_samsung_d2 ****
+d2e8219 : fs: take i_mutex during prepare_binprm for set[ug]id executables <Jann Horn> 7 weeks ago
+ 
+**** vanir:kernel_samsung_jf ****
+f464749 : Update jactive defconfig <Spegelius> 13 days ago
+fcb3aa5 : jf: f2fs: bring up to date with Jaegeuk's branch <dcd> 9 days ago
+0c5a402 : fs: take i_mutex during prepare_binprm for set[ug]id executables <Jann Horn> 7 weeks ago
+ 
+**** vanir:platform_manifest ****
+580bb76 : Remove external/srec <Michael Bestas> 12 days ago
+ 
+**** cm:android_packages_apps_Calendar ****
+90e7fbe : Automatic translation import <Michael Bestas> 4 days ago
+ 
+**** vanir:packages_apps_Camera2 ****
+38a8b2d : Automatic translation import <Michael Bestas> 4 days ago
+d981627 : Add Storage preference (1/2) <dcalandria> 6 weeks ago
+ 
+**** vanir:packages_apps_Contacts ****
+ddbe222 : Automatic translation import <Michael Bestas> 4 days ago
+ 
+**** vanir:packages_apps_DeskClock ****
+4b5976d : Automatic translation import <Michael Bestas> 4 days ago
+ 
+**** vanir:packages_apps_Dialer ****
+22335cd : [2/2] Dialer: SmartMute <linuxxxxx> 6 weeks ago
+c9b91d0 : Dialer: Ensure device ids not null <Danesh M> 2 days ago
+452508c : Automatic translation import <Michael Bestas> 4 days ago
+34d3535 : Update blacklist strings <Michael Bestas> 4 days ago
+ 
+**** cm:android_packages_apps_Email ****
+b80c3bd : email: fix NPE <Jorge Ruesga> 8 hours ago
+7632c13 : Automatic translation import <Michael Bestas> 4 days ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+97739e1 : Gallery2: Fix crash when Bluetooth service is disabled <root> 4 days ago
+a33834e : Add Storage preference (2/2) <Scott Warner> 6 weeks ago
+ 
+**** vanir:packages_apps_InCallUI ****
+faf5a34 : [1/2] InCallUI: SmartMute <Danny Baumann> 6 weeks ago
+9cd8afb : Fix: The EndCallButton overlaps the digital key 0 after switch system language during an active call <Chengzhi.Hou> 10 days ago
+affe211 : Automatic translation import <Michael Bestas> 4 days ago
+ 
+**** vanir:packages_apps_LockClock ****
+eb16c77 : Automatic translation import <Michael Bestas> 4 days ago
+ 
+**** vanir:packages_apps_Mms ****
+5db195d : Add UAProf URL to carrier-specific configs <Sultanxda> 3 days ago
+f8cb438 : Create the contact photo manager as service. <Danny Baumann> 6 days ago
+f6f583d : Automatic translation import <Michael Bestas> 4 days ago
+ 
+**** vanir:packages_apps_Settings ****
+a37c9de : the status of brightness not refresh in power control widget after manual adjustment of brightnes <longyu.huang> 12 days ago
+fd9ce1c : Settings: Fix preferred install location dialog will dismiss after rotating screen <yong.zou> 7 days ago
+75bc4ab : Profiles: Get Default profile with its UUID instead of name <Brandon McAnsh> 12 days ago
+60a3f39 : Settings: Fix setting app install location as "Removable SD card" without SD card inserted <yong.zou> 4 days ago
+e8f736c : Integrate mobile network settings into SIM settings for MSIM. <Danny Baumann> 3 weeks ago
+9563800 : Remove 'Show empty SIMs' option. <Danny Baumann> 6 days ago
+b7fcb26 : Settings: fix an issue where text is not showing up on first instance. <Shareef Ali> 10 weeks ago
+6f96f2e : Cleanup SMS limits <Michael Bestas> 4 days ago
+0629b4b : Automatic translation import <Michael Bestas> 4 days ago
+0472668 : Four-column QS: don't getInt a value that can't change during the DraggableGridView's lifecycle 9000 times <nuclearmistake> 4 days ago
+98c0a4f : The four tile change should not have replaced an existing QS option. <nuclearmistake> 4 days ago
+06b1265 : Settings:Not responding In-app search function <longping.zou> 8 days ago
+b99e3fe : profiles: respect lockscreen policies <Jorge Ruesga> 7 days ago
+fa585d8 : [2/2] QS: Option to show four tiles per row <sudosurootdev> 4 months ago
+c384f71 : Add button in "hidden" settings to flip "VoLTE Provisioned" flag <Pavel Zhamaitsiak> 4 months ago
+ 
+**** vanir:packages_apps_ThemeChooser ****
+fc620fe : Automatic translation import <Michael Bestas> 4 days ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+0a11aaa : Automatic translation import <Michael Bestas> 4 days ago
+ 
+**** vanir:packages_input_LatinIME ****
+2aa2853 : Automatic translation import <Michael Bestas> 4 days ago
+ 
+**** vanir:packages_services_Telecomm ****
+df433bc : Automatic translation import <Michael Bestas> 4 days ago
+e9f0ec6 : Show multi-line notification if there's more than 1 missed call. <Danny Baumann> 6 days ago
+ 
+**** vanir:packages_services_Telephony ****
+05600e6 : TeleService: pass sub ID to APN setting <Lin Ma> 9 weeks ago
+109a0bf : Telephony: Bye bye Holo USSD dialog <AragaoAnderson> 6 weeks ago
+c84a7ba : Restyle USSD AlertDialog. <Andrew Lee> 4 months ago
+7c15f71 : Update activity title if called in MSIM case. <Danny Baumann> 3 weeks ago
+b587068 : Automatic translation import <Michael Bestas> 4 days ago
+ 
+**** cm:cm_platform_sdk ****
+25410f2 : Introduce Theme Versioning [2/2] <Andy Mast> 6 days ago
+cbc19f5 : Automatic translation import <Michael Bestas> 4 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oppo ****
+975ee02 : msm8974-common: Update rmt_storage <Ricardo Cerqueira> 2 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_yu ****
+7f58385 : tomato: Add 32-bit libthermalclient <Ethan Chen> 31 hours ago
+ 
