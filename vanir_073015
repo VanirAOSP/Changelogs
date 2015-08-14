@@ -1,0 +1,168 @@
+
+**** vanir:build ****
+ffd4aeb : hacks <DHOMD> 56 minutes ago
+f3d5f2c : kernel_config: infer TARGET_KERNEL_USE_AOSP_TOOLCHAIN based on TARGET_KERNEL_TOOLCHAIN_VERSION if it is not explicitly set to true <nuclearmistake> 2 days ago
+68d62a7 : build: Allow packaging of factory image files into target files <Brint E. Kriebel> 7 days ago
+8356ec9 : misc_info: Add factory script location to misc_info when available <Brint E. Kriebel> 8 days ago
+ 
+**** cm:android_device_cyanogen_msm8939-common ****
+c14cf60 : overlay: Move screen brightness configuration to devices <Chirayu Desai> 13 hours ago
+ 
+**** vanir:device_htc_dlx ****
+8bf4e56 : dlx: Add a fancy custom ril to set mQANElements <Christopher R. Palmer> 4 days ago
+ 
+**** vanir:device_htc_msm8960-common ****
+c08f0bd : msm8960: Remove SIP+VoIP Permissions, already has set in vendor <José Adolfo Galdámez> 2 days ago
+ 
+**** vanir:device_moto_shamu ****
+ba0c891 : Compile kernel with our old-ass a15 linaro 4.9 <nuclearmistake> 2 days ago
+ 
+**** vanir:motorola_msm8226-common ****
+e62be26 : msm8226-common: Misc makefile cleanup <Konsta> 2 days ago
+e709f92 : msm8226-common: Remove duplicate kernel cmdline parameter <Konsta> 4 weeks ago
+77b7f51 : msm8226-common: Remove CRDA <Konsta> 3 days ago
+ 
+**** vanir:device_samsung_klte ****
+30dc7fc : init: Update kltetmo (SM-G900T) fingerprint to 5.1.1 <Brandon McAnsh> 35 hours ago
+ 
+**** vanir:device_samsung_klte-common ****
+9a2b361 : klte-common: camera: Set preview-format for 4k video recording <Brandon McAnsh> 34 hours ago
+245350b : klte: Update h264 codec VideoEncoderCap <Brandon McAnsh> 2 days ago
+5a665bb : klte-common: add 1080p recording to front camera <Patrick Lower> 2 days ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+a9c5661 : fix merge derp: actually use le codecs <Dave Daynard> 23 hours ago
+ 
+**** vanir:device_sony_fusion3-common ****
+abdf2b3 : charger: configure led sysfs <Georg Veichtlbauer> 29 hours ago
+e05b4d9 : Fix permissions for IR blaster <sssemil> 3 months ago
+ 
+**** cm:android_device_sony_huashan ****
+9c8db25 : huashan: Update init.rc services and permissions <Mrcl1450> 30 hours ago
+d08cbae : huashan: call perfd before msm8960-common <RonGokhale> 31 hours ago
+ 
+**** vanir:device_sony_nicki ****
+d524f8b : nicki: Supress User space faults <Samir Mehta> 8 months ago
+d77094f : nicki: show app install location option <RonGokhale> 2 weeks ago
+af9c6f1 : nicki: update wlan configs <RonGokhale> 6 weeks ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 4 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 4 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 6 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 8 weeks ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 8 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 8 weeks ago
+915d977 : nicki: use new perfd-client <RonGokhale> 8 weeks ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 8 weeks ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 12 months ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 10 weeks ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 3 months ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 3 months ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 3 months ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 4 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 4 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 4 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 4 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 4 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 4 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 4 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 4 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 4 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 5 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 5 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 5 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 5 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 5 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 5 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 5 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 10 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 7 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 7 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 7 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 7 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 7 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 6 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 6 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 6 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 8 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 7 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 7 months ago
+c4b4a39 : nicki: update fstab <RonGokhale> 7 months ago
+1bd9501 : nicki: add charging and mass storage mode <RonGokhale> 7 months ago
+7bbf4d5 : nicki: sync prima INI file with LA.AF.1.1_rb1.8 <RonGokhale> 7 months ago
+610fa38 : build: Avoid poisoning the host binaries with bad ABIs <Ricardo Cerqueira> 8 months ago
+b95e5f6 : nicki: cleanup overlay <RonGokhale> 7 months ago
+fb35414 : nicki: Change accept_mac and deny_mac file paths. <Neelansh Mittal> 8 months ago
+ 
+**** vanir:external_bluetooth_bluedroid ****
+3ccce52 : Bluetooth losing HF connection to car-kit after 5 seconds <Markus Schmidt> 2 years, 7 months ago
+ 
+**** cm:android_external_icu ****
+0a41d95 : Revert "icu: add Kiev summer time zone translation" <Roman Birg> 35 hours ago
+ 
+**** vanir:frameworks_av ****
+efbf145 : audiopolicy: Make sense of concurrency properties <Ethan Chen> 3 weeks ago
+ 
+**** vanir:frameworks_base ****
+9d5132c : policy: Remove references of Profiles in android.policy. <Adnan Begovic> 26 hours ago
+bc8153c : Duplicate Alarm: Fermium == Argon <Abhisek Devkota> 33 hours ago
+c16d6d8 : Remove duplicate alarm <Abhisek Devkota> 2 days ago
+ 
+**** vanir:frameworks_native ****
+120de7f : fix build for STE-Devices <Ozzy2403> 9 hours ago
+5bd754c : STE-patch <Ozzy2403> 6 weeks ago
+ 
+**** vanir:frameworks_opt_telephony ****
+e257295 : telephony: read IMSI from CSIM if available in CDMALTEPhone <emancebo> 3 months ago
+ 
+**** cm:android_hardware_sony_DASH ****
+920fcbb : sensors: L3GD20: Use AOSP software sensors core <AdrianDC> 4 days ago
+ 
+**** cm:android_kernel_cyanogen_msm8916 ****
+f664a9b : fs: xcomp: ext4: Fix fallocate <Tom Marshall> 2 days ago
+ 
+**** vanir:kernel_moto_shamu ****
+e797727 : Fix undefined behavior in cpufreq_interactive: ret assigned twice in same statement <nuclearmistake> 2 days ago
+ 
+**** cm:android_kernel_motorola_msm8226 ****
+33465c5 : msm8226: defconfig: Enable linux regulatory feature <LuK1337> 6 hours ago
+d098f73 : wlan: remove CONFIG prefix from CONFIG_ENABLE_LINUX_REG flag <Anand N Sunkad> 8 months ago
+d799018 : ASoC: wcd9306: Wait for enough time for Line PAs to get settled <Shreyas Nagasandra Chandrasekhar> 7 months ago
+ 
+**** cm:android_kernel_motorola_msm8974 ****
+4ea917b : qcacld-2.0: Check input parameters before allocating diag buffer <Bhargav Shah> 5 weeks ago
+824e17d : wlan: Fix memory leak errors in HDD & WDA <Hema Aparna Medicharla> 5 months ago
+66a1878 : wlan: Logging Improvements in WDA . <Deepthi Gowri> 7 months ago
+d42701c : wlan: Fix NULL pointer dereference in hdd_set_tdls_scan_type <Hema Aparna Medicharla> 6 months ago
+487486b : wlan: Fix Static analysis error. <Abhishek Singh> 8 weeks ago
+eb26711 : wlan: Properly initialize abort scan completion variable. <c_hpothu> 7 months ago
+ 
+**** vanir:platform_manifest ****
+0641590 : Revert "shamu: Use despair's cfs kernel" <nuclearmistake> 26 hours ago
+eeec37e : shamu: Use despair's cfs kernel <nuclearmistake> 2 days ago
+ 
+**** vanir:packages_apps_Calculator ****
+8253dcf : Calculator: do not allow multiple decimal points in a number <Raj Yengisetty> 28 hours ago
+ 
+**** vanir:packages_apps_Mms ****
+96ef304 : Drafts: Fix instance where body of the message is lost. <Stephen Bird> 28 hours ago
+b2f84fd : Delete vcard mms on error <d34d> 29 hours ago
+7ee29ed : Add Subject: Fix subject crash <Stephen Bird> 2 days ago
+f844bc6 : ComposeMessage: Improve performance with large groups <Stephen Bird> 9 days ago
+ 
+**** vanir:packages_apps_Settings ****
+1d2d8d4 : Settings: Strip out profiles global actions menu items. <Adnan Begovic> 9 hours ago
+9c2c01b : Settings: fix a few color picker inconsistentcies <Roman Birg> 4 hours ago
+bee2fdd : Don't allow deleting last remaining fingerprint <d34d> 4 hours ago
+54f4854 : Settings: don't crash when dismissing FRP <Roman Birg> 10 hours ago
+1f6f287 : Settings: make FRP wipe dialog not cancelable <Roman Birg> 26 hours ago
+ 
+**** vanir:system_core ****
+d2d26ff : healthd: Add secondary backlight path support <Mrcl1450> 9 hours ago
+6bdcd25 : STE-patch <Ozzy2403> 6 weeks ago
+ 
+**** cm:cm_platform_sdk ****
+b8614dc : cmsdk: Fix Profile parceling for custom objects. <Adnan Begovic> 82 minutes ago
+ 
+**** vanir:vendor_vanir ****
+d6aaed2 : changelogger: Handle the repo default merge branch being prefixed by refs/heads/ <nuclearmistake> 15 hours ago
+ 

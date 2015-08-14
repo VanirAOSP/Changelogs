@@ -1,0 +1,524 @@
+
+**** vanir:bootable_recovery_TWRP ****
+f2786d3 : 2.8.7.0 <Ethan Yonker> 3 days ago
+e926074 : Cleanup device_id retrieval <Matt Mower> 4 months ago
+f256b72 : [WIP] gui: software drawn keyboard (code only) <that> 4 weeks ago
+ 
+**** vanir:device_asus_deb ****
+9591894 : deb: Delete duplicate on init flag <Elektroschmock> 2 days ago
+ 
+**** vanir:device_asus_flo ****
+72d3181 : flo: Delete duplicate on init flag <Elektroschmock> 2 days ago
+ 
+**** cm:android_device_asus_fugu ****
+5369c31 : fugu: Don't copy FFMPEG config anymore <Steve Kondik> 3 days ago
+ 
+**** cm:android_device_cyanogen_msm8939-common ****
+2d00697 : msm8939: Enable USB OTG settings <Ethan Chen> 26 hours ago
+1ae1f7b : msm8939: Check for yl_btmac before use <Ethan Chen> 5 days ago
+ 
+**** vanir:device_lge_d800 ****
+5912b02 : CAF builds <sudosurootdev> 2 days ago
+ 
+**** vanir:device_lge_d801 ****
+6261478 : Fix naming of defconfig <sudosurootdev> 29 hours ago
+cf9f1b2 : CAF <sudosurootdev> 29 hours ago
+ 
+**** vanir:device_lge_d802 ****
+d1aec2b : CAF <sudosurootdev> 2 days ago
+ 
+**** vanir:device_lge_g2-common ****
+cadaf3c : g2: Don't need to copy FFMPEG config anymore <Steve Kondik> 5 days ago
+ae81c94 : Start new G2 CAF Kernel builds <sudosurootdev> 2 days ago
+dd3aa00 : g2: audio: Fix audio policy <sudosurootdev> 6 days ago
+ebab895 : releasetools: Fix boot image flash in update script <Zdrowy Gosciu> 4 weeks ago
+4dc7992 : releasetools: Replace loki with bump and merge panel detection script <Rashed Abdel-Tawab> 5 months ago
+9fee3ef : Cleanup Mixer Paths <Varun Date> 7 days ago
+ace1203 : g2: build libqcompostprocbundle <Drgravy> 10 days ago
+c90b056 : README: Make it look nice. Based on @cyanogenmod readme layout. <Daniel Stuart> 11 days ago
+3268fde : Configs: media_profile: Increases the 4k bitrate (thx: xdabbeb) <Daniel Stuart> 11 days ago
+10d13d2 : g2: Shut up sensors <Zdrowy Gosciu> 2 weeks ago
+1d9df7f : g2: bluesleep permissions <Drgravy> 13 days ago
+4eb91c3 : g2: Enable F2FS <Rashed Abdel-Tawab> 2 weeks ago
+8ca48b4 : g2: audio: Import effects from hammerhead-caf <Rashed Abdel-Tawab> 3 weeks ago
+3328d33 : g2: Build audio daemon <Rashed Abdel-Tawab> 3 weeks ago
+1b80a20 : g2: init: Set the correct baseband <Zdrowy Gosciu> 3 weeks ago
+b9bb5a9 : init: set baseband version by grep'ing the modem partition <Dan Pasanen> 8 months ago
+38788e3 : g2: init: Stupid LG sensors <Rashed Abdel-Tawab> 3 weeks ago
+11ed368 : g2: init: Add Qualcomm boot script <Rashed Abdel-Tawab> 3 weeks ago
+8c99acb : g2: Go back to permissive mode (for now) <Rashed Abdel-Tawab> 3 weeks ago
+0fa360b : g2: sepolicy: Redo some sensor shit <Rashed Abdel-Tawab> 3 weeks ago
+718093f : g2: init: Kill secure touch crap <Rashed Abdel-Tawab> 3 weeks ago
+b992778 : Revert "g2: init: Add boot script to set baseband" <Rashed Abdel-Tawab> 3 weeks ago
+fa9629c : g2: Rename kernel path and set selinux enforcing <Rashed Abdel-Tawab> 3 weeks ago
+06d51c5 : g2: Audio effects overhaul (aka fix it) <Rashed Abdel-Tawab> 3 weeks ago
+62fc8fb : Revert "g2: Actually build NFC package... derp" <Rashed Abdel-Tawab> 3 weeks ago
+d81236a : Set Debug to 1 to fix Reboots Caused by GPS <Varun Date> 3 weeks ago
+cf3e5ad : g2: init: Add loc_launcher service <Rashed Abdel-Tawab> 3 weeks ago
+b6425af : g2: init: Add boot script to set baseband <Rashed Abdel-Tawab> 3 weeks ago
+9e00c6f : g2: Recommonize gps.conf <Rashed Abdel-Tawab> 4 weeks ago
+46cb3d9 : init.g2.rc: Fix missing usbdisk0 in symlink and export <Zdrowy Gosciu> 4 weeks ago
+071a341 : fix usb-otg <Drgravy> 4 weeks ago
+b67842a : Fix random reboot by disabling wifi hal <Erwan Leboucher> 4 weeks ago
+e86838f : g2: Add more touch configurations <Rashed Abdel-Tawab> 5 weeks ago
+c14bd52 : camera: advertize yuv420sp to framework for 4k <Tony Layher> 8 weeks ago
+07b43dc : camera: set lge-camera parameter for 4k <Dan Pasanen> 5 months ago
+d7e9f6f : camera: force nv12-venus preview mode for 4k <Diego Porto> 8 weeks ago
+55d1034 : camera: add 3840x2160 video size <Tony Layher> 5 months ago
+3af2ef8 : media_profiles: fix 4k recording profile <Diego Porto> 7 months ago
+f616422 : g2: remove TARGET_CPU_SMP flag <Brinly Taylor> 8 weeks ago
+9ec3d65 : g2: gps: Update HALs from oppo msm8974 <Rashed Abdel-Tawab> 5 weeks ago
+5ff3999 : g2: Correct USB-OTG paths <Rashed Abdel-Tawab> 5 weeks ago
+08cc42d : g2: init: Remove useless tap to wake junk <Rashed Abdel-Tawab> 5 weeks ago
+8d00cfe : Revert "cmhw: Correct tap to wake setting value" <Rashed Abdel-Tawab> 5 weeks ago
+7a1e951 : g2: Update thermal configuration <Rashed Abdel-Tawab> 5 weeks ago
+c848991 : g2: Add more GPS configs <Rashed Abdel-Tawab> 5 weeks ago
+6a648e3 : g2: Build GPS libraries from source <Rashed Abdel-Tawab> 5 weeks ago
+6abbb83 : g2: Actually build NFC package... derp <Rashed Abdel-Tawab> 6 weeks ago
+9472f47 : Revert "g2: Don't build libloc_adapter (for now)" <Rashed Abdel-Tawab> 6 weeks ago
+119829d : g2: Add flag to enable LG RIL binder compatability <Rashed Abdel-Tawab> 8 weeks ago
+6250f0c : g2: selinux: Correct some denials. <JackpotClavin> 8 weeks ago
+ 
+**** vanir:device_lge_ls980 ****
+7241a36 : CAF <sudosurootdev> 2 days ago
+ 
+**** vanir:device_lge_vs980 ****
+7ade1c9 : CAF <sudosurootdev> 2 days ago
+ 
+**** vanir:device_motorola_falcon ****
+ec86140 : falcon: Set userdata size for encryption <Ethan Chen> 4 days ago
+ 
+**** vanir:motorola_msm8226-common ****
+349df6b : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:device_motorola_omap4-common ****
+70a85c9 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:device_motorola_qcom-common ****
+68b3013 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** cm:android_device_motorola_victara ****
+beda955 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:device_oppo_common ****
+919396d : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:device_samsung_jf-common ****
+b58d062 : Revert "jf-common: disable LOGD" <Dan Pasanen> 8 hours ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+b3117a0 : msm8960-common: Enable call recording <Dave Daynard> 2 weeks ago
+01dac49 : msm8960-common: Target does use logd <Dave Daynard> 3 days ago
+6d0d9fb : msm8960-common: update init <Dave Daynard> 3 days ago
+ 
+**** vanir:device_samsung_qcom-common ****
+368f47b : Automatic translation import <Michael Bestas> 26 hours ago
+3de50d3 : qcom-common: doze: add proximity wake <Dave Daynard> 4 weeks ago
+ 
+**** cm:android_device_sony_amami ****
+08b53ba : amami: update fingerprint to latest lollipop release <David Viteri> 5 days ago
+ 
+**** vanir:device_sony_nicki ****
+af9c6f1 : nicki: update wlan configs <RonGokhale> 2 days ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 10 weeks ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 3 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 5 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 2 weeks ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 7 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 3 weeks ago
+915d977 : nicki: use new perfd-client <RonGokhale> 3 weeks ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 3 weeks ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 11 months ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 5 weeks ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 8 weeks ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 8 weeks ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 8 weeks ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 2 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 3 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 3 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 3 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 3 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 3 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 3 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 3 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 3 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 4 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 4 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 4 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 4 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 4 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 4 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 4 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 9 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 5 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 5 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 6 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 6 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 6 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 5 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 5 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 5 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 6 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 5 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 5 months ago
+c4b4a39 : nicki: update fstab <RonGokhale> 5 months ago
+1bd9501 : nicki: add charging and mass storage mode <RonGokhale> 6 months ago
+7bbf4d5 : nicki: sync prima INI file with LA.AF.1.1_rb1.8 <RonGokhale> 6 months ago
+610fa38 : build: Avoid poisoning the host binaries with bad ABIs <Ricardo Cerqueira> 6 months ago
+b95e5f6 : nicki: cleanup overlay <RonGokhale> 6 months ago
+fb35414 : nicki: Change accept_mac and deny_mac file paths. <Neelansh Mittal> 7 months ago
+150146a : nicki: Update hardware key config <RonGokhale> 6 months ago
+d141082 : nicki: Fix manual network selection <RonGokhale> 6 months ago
+ 
+**** cm:android_device_sony_taoshan ****
+e04d1b4 : taoshan : enable multi color notification leds <Varun Chitre> 3 weeks ago
+ 
+**** vanir:device_yu_tomato ****
+4b56bda : Make Bluetooth Name Generic <Pat Erley> 4 weeks ago
+ 
+**** cm:android_external_ffmpeg ****
+74773c1 : ffmpeg: Readd missing X86 fixups <Steve Kondik> 3 days ago
+ 
+**** cm:android_external_stagefright-plugins ****
+e5f8759 : ffmpeg: Remove a couple of codecs we don't need <Steve Kondik> 4 hours ago
+ 
+**** cm:android_external_whispersystems_WhisperPush ****
+34eeeb6 : Automatic translation import <Michael Bestas> 26 hours ago
+5d1d882 : Do not launchGcmRegistration if never registered <tobitege> 10 days ago
+ 
+**** vanir:frameworks_av ****
+775c557 : stagefright: ffmpeg: Slightly raise the threshold for the ffmpeg scanner <Ricardo Cerqueira> 28 hours ago
+ 
+**** vanir:frameworks_base ****
+0e734d1 : core: Protect against system server take down on empty tile order. <Adnan Begovic> 5 hours ago
+a6b40de : Automatic translation import <Michael Bestas> 26 hours ago
+4cd97f7 : Default time format is hard coded to 24 <wangjing> 2 months ago
+f166866 : Revert "Determine default 12/24 hour time format setting from locale." <Kra1o5> 9 days ago
+462c9b9 : base: zenmode: add 90 minutes downtime <jrizzoli> 5 days ago
+1cba30a : wifi: Allow Settings to retrieve country code (2/3) <Andrew Dodd> 2 years, 9 months ago
+25ea5bb : base: wifi priorities <Jorge Ruesga> 2 weeks ago
+6a5a1d8 : Profiles: fix mute ring mode not applying <Roman Birg> 30 hours ago
+7fa62bb : themes: Load icon packs outside the big lock <Steve Kondik> 3 days ago
+74f5478 : Fix up disableable SU tile <nuclearmistake> 34 hours ago
+c108038 : Improve dynamic tile strings <Michael Bestas> 2 days ago
+dc2db5a : base: dynamic tiles <Jorge Ruesga> 13 days ago
+1fc5382 : qs: use external resource package for custom tiles <Jorge Ruesga> 12 days ago
+5d1a70a : KillProcessGroup on background thread <jinchul.kim> 13 days ago
+d65899f : Revert "Kill process asynchronously on updateOomAdjLocked." <Steve Kondik> 3 days ago
+3e56e26 : Fix overflow/underflow problem in comparison <Charles Tsai> 5 weeks ago
+0bb5525 : Fix bug regarding the comparator sorts Alarms into increasing time order. <jinho.park> 4 weeks ago
+d109477 : am: Fix delayed GC merge damage, again <Steve Kondik> 4 days ago
+ 
+**** cm:android_frameworks_opt_chips ****
+ca3c8d1 : Apply anti-aliasing when drawing chips. <Matt Garnes> 23 hours ago
+ 
+**** vanir:frameworks_opt_net_wifi ****
+e5efc13 : wifi: wifi priorities <Jorge Ruesga> 2 weeks ago
+a967bee : wifi: Allow Settings to retrieve country code (1/3) <Jorge Ruesga> 3 weeks ago
+ 
+**** vanir:hardware_qcom_display ****
+8c77071 : hwc: Bump up version to 1.4 <Saurabh Shah> 11 months ago
+ 
+**** cm:android_hardware_qcom_fm ****
+8a1eda5 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:hardware_qcom_media ****
+67e32bd : mm-video-v4l2: vdec: Add support for describing color format <Manikanta Sivapala> 3 months ago
+23f0c38 : mm-video-v4l2: vdec: change prefered color format default order <Balamurugan Alagarsamy> 3 months ago
+42392f8 : mm-video-v4l2: swvenc_mpeg4: fix CTS failure on MR1 <Manikanta Sivapala> 3 months ago
+085f230 : mm-video-v4l2: swvenc_mpeg4: update color format in port-def <Surajit Podder> 3 months ago
+5ea327a : mm-video: vidc: Adjust timestamp if actual ts < previous ts <Deva Ramasubramanian> 7 months ago
+fff27a1 : mm-video-v4l2: vidc: venc: make buffer index data type consistence <Abdulla Anam> 5 months ago
+ 
+**** vanir:hardware_samsung ****
+50db0ed : exynos: multimedia: fix resubmitting CSD for NuPlayer <Dheeraj CVR> 3 weeks ago
+ 
+**** cm:android_kernel_cyanogen_msm8916 ****
+0eb83cd : msm: vidc: Fix FPS calculation for 32-bit <Ethan Chen> 5 hours ago
+4c148f6 : arm: dts: lettuce: Enable power-off alarm <Ricardo Cerqueira> 7 days ago
+7cc564a : input: ap3426: Always clear all interrupts in the ALS+PS interrupt handler. <Pete Delaney> 6 days ago
+5772a7f : PSTORE: turn on ramoops support <Erica Chang> 6 days ago
+45b64aa : input: gsl_ts: Ensure we aren't dozing after resume <Chirayu Desai> 2 weeks ago
+1049ba5 : msm_venc: fix parameters for do_div <Pat Erley> 3 weeks ago
+ed6c865 : ARM dts: Rendang: changed ap3426 proximity thresholds <Erica Chang> 3 weeks ago
+a70d161 : rendang: allow overflow with compass sensor mmc3416x <Edward Wang> 5 weeks ago
+eea1b30 : rendang: improve kernel performance to pass webgl test <Edward Wang> 6 weeks ago
+60ac2b5 : input: sensors: mmc3416x: Expose file ops to compass HAL <Edward Wang> 8 weeks ago
+16f603c : rendang: Fix compilation <Edward Wang> 5 weeks ago
+00f1fa9 : rendang: Regenerate defconfig <Ethan Chen> 3 months ago
+eb98abc : drivers: haier: Standardize vendor platform config <Ethan Chen> 3 months ago
+119d3d6 : ARM: dts: g36c1h: Standardize device tree inheritance <Ethan Chen> 3 months ago
+065847b : rendang: Add debug kernel config, disable diag for non-debug config <Ethan Chen> 3 months ago
+f06aef9 : ARM: dts: g36c1h: change menu key to app select <Erica Chang> 3 months ago
+0f10257 : rendang: preserve memory, do not enter download mode on kernel panic <Howard M. Harte> 4 months ago
+2e4564b : ARM: dts: g36c1h: Update ramoops parameters <Tom Marshall> 4 months ago
+d9d963f : ARM: dts: g36c1h: Add ramoops buffer <Tom Marshall> 4 months ago
+c68c406 : rendang: cts: remove support for /proc/config.gz <Howard M. Harte> 4 months ago
+8ccf38f : rendang: more config changes <Marcos Marado> 4 months ago
+3610ed2 : drivers: smartfren: Fix config menu <Ethan Chen> 4 months ago
+2258f57 : rendang: Update defconfig <Ethan Chen> 4 months ago
+4a52d73d : ARM: dts: rendang: Remove unused sensor config <Ethan Chen> 4 months ago
+78fdd86 : Turning off DEBUG stuff <Marcos Marado> 4 months ago
+b54d1c7 : enable CPU_BOOST <Marcos Marado> 4 months ago
+8a303e1 : drivers: charger: Change adcmap_btm_threshold table <Lin Ma> 4 months ago
+0be6326 : config: Comment out unused sensor drivers <Lin Ma> 4 months ago
+e613455 : rendang: Build IRIS transport as built-in <Ricardo Cerqueira> 8 months ago
+022462b : driver: input: sensors: Add motion sensor driver <Lin Ma> 4 months ago
+55ca29b : ARM: dts: g36c1h: rename sound card name to "msm8x16-skui-snd-card" <Lin Ma> 5 months ago
+f4068da : rendang: enable wlan kernel configs <Lin Ma> 5 months ago
+2b18c86 : drivers: haier: Add Haier product support <Lin Ma> 5 months ago
+1a1d139 : ARM: dts: g36c1h: Add device tree files for rendang <Lin Ma> 5 months ago
+ 
+**** cm:android_kernel_google_msm ****
+0267962 : flo: enable CONFIG_HIDRAW <Dave Daynard> 6 months ago
+e089c0d : Enables CONFIG_NLS_UTF8 for flo target. <Stefan Haller> 8 months ago
+4094dfa : Revert "msm8974: fs: Transparent compression support" <Dustin Langenderfer> 3 days ago
+ 
+**** cm:android_kernel_htc_m7 ****
+f138bdd : dlx: disable logger <Dave Daynard> 2 days ago
+10b0e03 : workqueue: make all workqueues non-reentrant <Tejun Heo> 2 years, 10 months ago
+fec5251 : block: disable entropy contributions for nonrot devices <Mike Snitzer> 9 months ago
+ 
+**** vanir:kernel_htc_msm8974 ****
+d74ff4d : Compile fixes <varchild> 8 hours ago
+3c16c64 : Update defconfig with changes and what not. <varchild> 21 hours ago
+568efe3 : workqueue: make all workqueues non-reentrant <Tejun Heo> 2 years, 10 months ago
+da3e508 : block: disable entropy contributions for nonrot devices <Mike Snitzer> 9 months ago
+913f4e5 : mdss: don't log every single brightness change <Dan Pasanen> 3 days ago
+ba5f27c : rtc: alarm: set power_on_alarm again when calling alarm_resume <Mao Jinlong> 10 months ago
+14c4462 : adreno_idler: fix typos :) <arter97> 10 days ago
+a6b88b3 : adreno_idler: fix-up some comments <arter97> 10 days ago
+703588a : msm_adreno_tz: fix-up tz_suspend <arter97> 11 days ago
+8e86bf5 : adreno_idler: fix-up type definitions <arter97> 12 days ago
+200a8e1 : adreno_idler: remove frequency bump <arter97> 12 days ago
+d9f5bcf : adreno_idler: switch to count based instead of time based <arter97> 12 days ago
+26e5f25 : Introduce Adreno idler for devfreq-based Adreno devices <arter97> 13 days ago
+b807d2b : msm_adreno_tz: be aware of suspended state <arter97> 13 days ago
+7dd3a1c : msm: kgsl: Elevate the priority of the thread during adreno start <Jordan Crouse> 7 months ago
+a79dc3a : msm: kgsl: Bump the GPU frequency for long blocks of processing <Lucille Sylvester> 7 months ago
+4ca45fc : msm: kgsl: set the correct max_state <Suman Tatiraju> 1 year, 1 month ago
+b271f7a : PM: devfreq: Fix show available freqs <myfluxi> 1 year, 6 months ago
+bc51cbb : powersuspend: add power_suspended boolean for global access <arter97> 2 weeks ago
+ae4b9e1 : fs: take i_mutex during prepare_binprm for set[ug]id executables <Jann Horn> 9 weeks ago
+ 
+**** vanir:kernel_lge_g3 ****
+3ce0029 : g3: disable logger <Dave Daynard> 2 days ago
+a195bcd : workqueue: make all workqueues non-reentrant <Tejun Heo> 2 years, 10 months ago
+9544c6c : block: disable entropy contributions for nonrot devices <Mike Snitzer> 9 months ago
+723adee : g3: enable powersuspend and adreno idler <Dan Pasanen> 9 days ago
+51ad0ab : adreno_idler: fix typos :) <arter97> 10 days ago
+80d83de : adreno_idler: fix-up some comments <arter97> 10 days ago
+2ce4aa7 : msm_adreno_tz: fix-up tz_suspend <arter97> 11 days ago
+cd89ac7 : adreno_idler: fix-up type definitions <arter97> 12 days ago
+c14acfb : adreno_idler: remove frequency bump <arter97> 12 days ago
+606be28 : adreno_idler: switch to count based instead of time based <arter97> 12 days ago
+efab326 : Introduce Adreno idler for devfreq-based Adreno devices <arter97> 13 days ago
+2a4e7f5 : msm_adreno_tz: be aware of suspended state <arter97> 13 days ago
+c855d41 : msm: kgsl: Fix nice level for higher priority GPU start thread <myfluxi> 1 year, 1 month ago
+f2ec172 : msm: kgsl: Add hang interrupt and change HW fault generation <Shubhraprakash Das> 1 year, 5 months ago
+b9d844d : msm: kgsl: Elevate the priority of the thread during adreno start <Jordan Crouse> 7 months ago
+5ff2942 : msm: kgsl: Bump the GPU frequency for long blocks of processing <Lucille Sylvester> 7 months ago
+a0311bc : msm: kgsl: set the correct max_state <Suman Tatiraju> 1 year, 1 month ago
+a5b72f4 : PM: devfreq: Fix show available freqs <myfluxi> 1 year, 6 months ago
+e4a52ce : PM / devfreq: Check for GPU busy time before sending the sample <Suman Tatiraju> 1 year, 3 months ago
+942d57e : PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs <Saravana Kannan> 1 year, 4 months ago
+68d7c5a : PM: devfreq: Use high priority workqueue <myfluxi> 1 year, 5 months ago
+ffe2bd9 : powersuspend: add power_suspended boolean for global access <arter97> 2 weeks ago
+b9813bc : kernel/power/powersuspend: cumulative update to version 1.5 <yank555-lu> 1 year ago
+7b38cd5 : powersuspend: active from panel, inactive from autosleep <arter97> 1 year, 1 month ago
+bfd3bbb : powersuspend: default to display hooks <arter97> 1 year, 1 month ago
+13b9e4c : powersuspend: minor typo fix <arter97> 1 year, 1 month ago
+3eaaea1 : powersuspend: add LCD screen on/off hooks (Yank555.lu) <yank555-lu> 1 year, 2 months ago
+7b0461f : Revert "kernel/power/powersuspend: default to userspace for now" <arter97> 1 year, 4 months ago
+4e89925 : kernel/power/powersuspend: default to userspace for now <Paul Reioux> 1 year, 7 months ago
+1d66b9c : kernel/power/powersuspend: add back userpace control w/ default kernel control <yank555-lu> 1 year, 7 months ago
+87c7fca : kernel/power/powersuspend: remove userspace dependency from powersuspend <yank555-lu> 1 year, 7 months ago
+f944ff5 : powersuspend: fix logci derps :p <Paul Reioux> 1 year, 8 months ago
+4264a51 : kernel/power/powersuspend: new PM kernel driver for Android w/o early_suspend <Paul Reioux> 1 year, 8 months ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+8758aa3 : Fix include syntax for header includes <sudosurootdev> 3 days ago
+5c056b8 : msm: kgsl: Report correct GPU frequency in sysfs <myfluxi> 1 year, 6 months ago
+1c77a87 : msm: isp: handle duplicate frameid. <Alok Kediya> 3 months ago
+78114be : msm: kgsl: set the correct max_state <Suman Tatiraju> 1 year, 1 month ago
+d7e6d52 : msm: kgsl: Fix the busy counter initialization sequence <Lucille Sylvester> 7 months ago
+ca09e9a : ASoC: Avoid wrong map/unmap of ocmem <Pavan Chikkala> 7 months ago
+9155b24 : msm: camera: isp: protect driver from using invalid bufq <Petar Sivenov> 3 months ago
+f155a16 : msm: vidc: removed the async v4l2 event for session unsupported <Jia Meng> 11 months ago
+82f540c : msm: vidc: kill unsupported sessions <Maheshwar Ajja> 5 months ago
+87882ef : msm: vidc: Fix session error handling <Shalaj Jain> 8 months ago
+c064d9a : msm: mdss: update max fence wait timeout for all acquire fence <Jeevan Shriram> 5 months ago
+1a64046 : msm: mdss: fix ret value during error case <Dhaval Patel> 3 months ago
+6fd2402 : ARM: fix missing syscall trace exit <Russell King> 6 weeks ago
+4042424 : msm: mdss: Adjust fence timeouts <Naseer Ahmed> 9 months ago
+5aa79dd : mdss: dsi: fix potential race conditions in mdp busy wait <Adrian Salido-Moreno> 3 months ago
+2ca6a50 : video: mdss_mdp_pp: Check mutex state prior blindly locking it <Krishna Chaitanya Parimi> 3 months ago
+9f0fbe2 : msm: mdss: Replace msleep() with usleep() <Bang Nguyen> 1 year ago
+935a160 : msm: mdss: fix potential crash when sending backlight DCS commands <Aravind Venkateswaran> 5 months ago
+c51e265 : msm: mdss: Remove redundant clock operations <myfluxi> 5 months ago
+95679ad : mdss: Change kickoff timeout to 300ms <Naseer Ahmed> 10 months ago
+14f98c5 : tspdrv: Fix vibrator bug <Rashed Abdel-Tawab> 4 days ago
+82ade8c : Bluetooth: Fix invalid length check in l2cap_information_rsp() <Jaganath Kanakkassery> 2 years ago
+bb8e3b2 : Bluetooth: Fix missing length checks for L2CAP signalling PDUs <Johan Hedberg> 2 years, 1 month ago
+39a8021 : Bluetooth: Fix crash in l2cap_build_cmd() with small MTU <Anderson Lizardo> 2 years, 1 month ago
+a796b27 : Bluetooth: Cancel power_on and power_off work <Pranav Vashi> 12 months ago
+9fbb584 : Bluetooth: Prevent Bluetooth L2CAP Remote Heap Memory Corruption <Pranav Vashi> 1 year, 4 months ago
+5c29a41 : Try building l22 with CAF kernel <sudosurootdev> 4 days ago
+34a937c : Fix cpufreq_interactive.c: operation on 'ret' may be undefined <sudosurootdev> 4 months ago
+46fc531 : Use shortened non-cm defconfigs <sudosurootdev> 8 days ago
+8295264 : arm: dts: msm: update SPM sequences for krait v2.x <Venkat Devarasetty> 1 year, 8 months ago
+95a6f95 : bluesleep: Reduce bluesleep wakelock timeout <Prashant Malani> 1 year, 1 month ago
+661bcf8 : PM: Fix a bug in dpm_suspend_late() <Azhar Shaikh> 8 months ago
+568a125c : msm: QCT Debug code for modem stuck issue <secheol.pyo> 2 years, 2 months ago
+9bd9418 : bluetooth: Correctly cast ltk <Daniel Stuart> 2 weeks ago
+c5b46c5 : g2_defconfig: Enable F2FS <Rashed Abdel-Tawab> 2 weeks ago
+494ffd8 : g2_defconfig: Enable misc and network filesystems <Rashed Abdel-Tawab> 2 weeks ago
+982b92a : msm: mdss: kcal_v2: Use old mdss ctrl_on check <savoca> 2 months ago
+c26b8ef : g2_defconfig: Enable KCAL <Rashed Abdel-Tawab> 2 weeks ago
+b68517d : f2fs: Initial import from kernel.org <Jaegeuk Kim> 2 weeks ago
+989ae9b : ARM: dts: msm: update the DSI PHY lane configuration settings <Aarushi Girdhar> 3 months ago
+2687878 : ARM: dts: msm: i2c: change  clock rate to 19.2 MHz <Sana Venkat Raju> 1 year, 9 months ago
+51c45e3 : arm:msm:watchdog: skip watchdog petting in panic <Yi-wei Zhao> 1 year, 3 months ago
+b13af1f : msm:mmi:watchdog: add panic_wdt_set() <Yi-wei Zhao> 1 year, 3 months ago
+08e8b33 : arm: msm: watchdogv2: export pet_watchdog interface <Hong-Mei Li> 2 years ago
+24042b8 : soc: qcom: watchdog_v2: Save the watchdog data and state <Subbaraman Narayanamurthy> 1 year, 2 months ago
+423ef29 : msm: msm_watchdog_v2: Base address should be long <Dorimanx> 3 weeks ago
+ecfda28 : msm: msm_watchdog_v2: Use high priority work queue <Mitchel Humpherys> 2 years, 6 months ago
+7dc05d0 : msm: watchdog-v2: handle error condition when getting resource <Aparna Das> 1 year, 5 months ago
+d332a81 : arm:msm:mm_watchdog: add trigger_watchdog_reset() <Yi-wei Zhao> 2 years, 5 months ago
+903f3e8 : arm:msm:mmi_watchdog: add touch_hw_watchdog() <Yi-wei Zhao> 2 years, 6 months ago
+ 
+**** cm:android_kernel_motorola_msm8974 ****
+e357f33 : msm: kgsl: set the correct max_state <Suman Tatiraju> 1 year, 1 month ago
+cb3c6c2 : PM / devfreq: Check for GPU busy time before sending the sample <Suman Tatiraju> 1 year, 3 months ago
+1380c73 : PM: devfreq: Use high priority workqueue <myfluxi> 1 year, 5 months ago
+25ebcd7 : PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs <Saravana Kannan> 1 year, 4 months ago
+931a018 : msm: kgsl: Bump the GPU frequency for long blocks of processing <Lucille Sylvester> 7 months ago
+5a4c2c4 : msm: kgsl: Report correct GPU frequency in sysfs <myfluxi> 1 year, 6 months ago
+7bf453d : arm/dts: Victara: decrease reddish color at low brightness <Shiyong Li> 8 months ago
+ 
+**** cm:android_kernel_samsung_d2 ****
+bdf8ac0 : fs: fix merge derp <Dave Daynard> 3 days ago
+8e7f9e7 : No modem ramdumps for me <Dave Daynard> 3 days ago
+13a3109 : disable logger <Dave Daynard> 4 weeks ago
+f28d004 : neigh: Better handling of transition to NUD_PROBE state <Erik Kline> 5 weeks ago
+53f409f : New Build Breakage in branch: kernel-m-dev-tegra-flounder-3.10 @ 1960706 <Mark Salyzyn> 4 weeks ago
+dcc2142 : net/unix: sk_socket can disappear when state is unlocked <Mark Salyzyn> 5 weeks ago
+fc6481b : selinux: enable genfscon labeling for sysfs and pstore files <Stephen Smalley> 5 weeks ago
+3240025 : clean up remains of zsmalloc <Dave Daynard> 3 days ago
+676c2b2 : workqueue: make all workqueues non-reentrant <Tejun Heo> 2 years, 10 months ago
+9dbbbe0 : block: disable entropy contributions for nonrot devices <Mike Snitzer> 9 months ago
+ 
+**** vanir:kernel_samsung_jf ****
+f4fa0f3 : jactive: Update defconfig <Spegelius> 9 hours ago
+1541b49 : jf: disable logger <Dave Daynard> 2 days ago
+e9f4f19 : workqueue: make all workqueues non-reentrant <Tejun Heo> 2 years, 10 months ago
+725895e : block: disable entropy contributions for nonrot devices <Mike Snitzer> 9 months ago
+c8cb252 : bluetooth/msm_serial: we're just here for the kangbang <Dan Pasanen> 7 days ago
+ 
+**** vanir:platform_manifest ****
+8bc2c33 : herpderp <nuclearmistake> 12 hours ago
+d2cb491 : manifest: remove final > extra <José Adolfo Galdámez> 20 hours ago
+c0f527a : Add cmsdk prebuilts repo. <Adnan Begovic> 28 hours ago
+0d44aa0 : Remove D803 and add f320 G2 variant device & for kernel. <sudosurootdev> 2 days ago
+ 
+**** cm:android_packages_apps_AudioFX ****
+4804487 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:packages_apps_BluetoothExt ****
+5166471 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** cm:android_packages_apps_Calendar ****
+0ddae60 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:packages_apps_Camera2 ****
+9fe4127 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:packages_apps_Contacts ****
+420be57 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+306c803 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:packages_apps_DeskClock ****
+3fec825 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:packages_apps_Dialer ****
+265e145 : Automatic translation import <Michael Bestas> 26 hours ago
+3571f5d : dialer: better smart call string <jrizzoli> 5 days ago
+ 
+**** cm:android_packages_apps_Email ****
+eeea1e1 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+9c02ac4 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:packages_apps_InCallUI ****
+a3d7205 : Automatic translation import <Michael Bestas> 26 hours ago
+a7cbcc8 : Show waiting state in call title also for MSIM. <Danny Baumann> 8 days ago
+ 
+**** vanir:packages_apps_LockClock ****
+c71fdd2 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:packages_apps_Mms ****
+ac26093 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** cm:android_packages_apps_PhoneCommon ****
+d8b2750 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:packages_apps_Settings ****
+d0bc382 : Remove stray file <Utkarsh Gupta> 19 hours ago
+8e6a1c3 : Automatic translation import <Michael Bestas> 26 hours ago
+25f5a16 : wifi: Allow configuration of country code for wifi (3/3) <Andrew Dodd> 2 years, 9 months ago
+f1e81f5 : settings: wifi priorities <Jorge Ruesga> 3 weeks ago
+a83dfba : settings: dynamic tiles <Jorge Ruesga> 10 days ago
+ 
+**** vanir:packages_apps_ThemeChooser ****
+d72c46d : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+0068c4a : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:packages_apps_VanirUpdater ****
+7821d15 : CMUpdater: Use ScreenType util to detect device type <Michael Bestas> 5 months ago
+ 
+**** vanir:packages_input_LatinIME ****
+fa184cb : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** cm:android_packages_services_Mms ****
+9193b7e : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:packages_services_Telecomm ****
+b537713 : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:packages_services_Telephony ****
+0e1355e : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** cm:android_packages_wallpapers_PhotoPhase ****
+335829c : Automatic translation import <Michael Bestas> 26 hours ago
+ 
+**** vanir:vendor_asus ****
+bd6cfaa : flo: Update proprietary libraries <Ethan Chen> 29 hours ago
+1f78749 : deb: Update proprietary libraries <Ethan Chen> 29 hours ago
+ 
+**** cm:cm_platform_sdk ****
+f1f9f25 : CMSDK: Only target specific packages for checkapi. <Adnan Begovic> 20 hours ago
+3ca85b3 : CMSDK: Add SINCE API level for docs. <Adnan Begovic> 24 hours ago
+c8b2fba : Automatic translation import <Michael Bestas> 26 hours ago
+635f8f1 : cmsdk: notify new listeners all registered custom tiles <Jorge Ruesga> 10 days ago
+08a3470 : cmsdk: customtiles: allow load resources from external packages <Jorge Ruesga> 12 days ago
+ 
+**** vanir:vendor_htc ****
+03c01b9 : Vigor <DHOMD> 9 days ago
+601de0f : m8: ship wcnss firmware <Dan Pasanen> 8 days ago
+ 
+**** vanir:vendor_lge ****
+d61283d : Switch to CAF build and kernel for G2. Remove D803 for now & add f320 G2 variant <sudosurootdev> 3 days ago
+ 
+**** vanir:vendor_vanir ****
+aa3842b : vendor/cm: Point to proper prebuilts/cmsdk directories. <Adnan Begovic> 26 hours ago
+9bfa749 : Remove D803 unless a Lollipop modem is released. Add f320 G2 variant <sudosurootdev> 2 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_yu ****
+4a4aa1f : lettuce: Update Prebuilts <Pat Erley> 22 hours ago
+ 

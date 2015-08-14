@@ -1,0 +1,100 @@
+
+**** vanir:build ****
+1f07374 : Hacks <DHOMD> 3 months ago
+435b17f : Revert "build: use common factory script and input more parameters" <Edward Wang> 33 hours ago
+ 
+**** vanir:device_sony_nicki ****
+af9c6f1 : nicki: update wlan configs <RonGokhale> 9 days ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 3 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 3 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 5 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 4 weeks ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 7 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 4 weeks ago
+915d977 : nicki: use new perfd-client <RonGokhale> 4 weeks ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 4 weeks ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 11 months ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 6 weeks ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 9 weeks ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 9 weeks ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 9 weeks ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 3 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 3 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 3 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 3 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 3 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 3 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 3 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 3 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 3 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 4 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 4 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 4 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 4 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 4 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 4 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 4 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 9 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 6 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 6 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 6 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 6 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 6 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 5 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 5 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 5 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 7 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 6 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 6 months ago
+c4b4a39 : nicki: update fstab <RonGokhale> 6 months ago
+1bd9501 : nicki: add charging and mass storage mode <RonGokhale> 6 months ago
+7bbf4d5 : nicki: sync prima INI file with LA.AF.1.1_rb1.8 <RonGokhale> 6 months ago
+610fa38 : build: Avoid poisoning the host binaries with bad ABIs <Ricardo Cerqueira> 7 months ago
+b95e5f6 : nicki: cleanup overlay <RonGokhale> 6 months ago
+fb35414 : nicki: Change accept_mac and deny_mac file paths. <Neelansh Mittal> 7 months ago
+150146a : nicki: Update hardware key config <RonGokhale> 6 months ago
+d141082 : nicki: Fix manual network selection <RonGokhale> 6 months ago
+ 
+**** vanir:device_yu_tomato ****
+05ba56c : Remove density from PRODUCT_AAPT_CONFIG <Adam Lesinski> 8 months ago
+ 
+**** vanir:external_sepolicy ****
+126d57e : sepolicy: Remove profiles from context, moved to cm <Adnan Begovic> 5 days ago
+ 
+**** cm:android_external_whispersystems_WhisperPush ****
+ba78f1e : WhisperPush: service for WPv2 update to interrogate/disable v1 <Wilhelm Fitzpatrick> 5 days ago
+ 
+**** vanir:frameworks_av ****
+5dd0f80 : libstagefright: back off exynos4_enhancements HWC_HWOVERLAY usage <Caio Schnepper> 3 weeks ago
+ 
+**** vanir:frameworks_base ****
+dc4e37b : Don't inflate new phone states on callbacks. <Danny Baumann> 2 days ago
+aa8ad23 : Clear callback handler queue when unregistering a phone state listener. <Danny Baumann> 2 days ago
+ 
+**** cm:android_kernel_cyanogen_msm8916 ****
+072097b : input: ap3426: Report two different lux values on enabling ALS <Chirayu Desai> 4 days ago
+84021cd : input: ap3426: Added mutex and enabled poll delay to be set. <Pete Delaney> 21 hours ago
+e88c06d : input: ap3426: Made Debug logs more useful. <Pete Delaney> 23 hours ago
+6c36ad8 : input: ap3426: Collect more accurate estimate for PS calibration register. <Pete Delaney> 8 days ago
+a62c839 : input: ap3426: Only enable PS interrupts while PS is enabled. <Pete Delaney> 24 hours ago
+51a419b : input: ap3426: Simplify the Interrupt Thread ISR code. <Pete Delaney> 5 days ago
+cdf1ef7 : misc: Reduce YL logspam <Tom Marshall> 5 days ago
+7064203 : ARM: dts: g36c1h: Update rendang battery parameters <Lin Ma> 7 days ago
+a7167e9 : input: gsl_ts: Use a timer and jiffies instead of getimeofday() <Chirayu Desai> 4 weeks ago
+3ec68c7 : fs: xcomp: Fix several stability issues <Tom Marshall> 4 days ago
+ 
+**** cm:android_kernel_samsung_d2 ****
+33af5e6 : defconfig: Change from LZO to XZ compression. <Donald Hoskins> 16 hours ago
+630c828 : mmc: core: invoke low power mode if card is not present <Asutosh Das> 1 year, 2 months ago
+72a06fc : mmc: core: enhance card removal judgement for slow removal <Kevin Liu> 2 years, 4 months ago
+8092b8a : ARM: 7493/1: use generic unaligned.h <Rob Herring> 2 years, 10 months ago
+ 
+**** cm:android_kernel_sony_msm8974 ****
+c1d30e5 : shinano: suppress mice emulation <David Viteri> 3 days ago
+ 
+**** vanir:packages_apps_DeskClock ****
+5419fe6 : DeskClock: Refactor to point at Profiles in CMSDK. <Adnan Begovic> 5 days ago
+ 
+**** vanir:vendor_vanir ****
+b2b23c0 : vendor/cm: overlay start for ProfileService in external framework. <Adnan Begovic> 5 days ago
+ 

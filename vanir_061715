@@ -1,0 +1,359 @@
+
+**** vanir:bootable_recovery ****
+2387b7c : sr: Fix log text color <Michael Bestas> 9 weeks ago
+ 
+**** vanir:build ****
+eff5322 : Hacks <DHOMD> 3 months ago
+d944132 : envsetup: repolastsync <Matt Mower> 1 year, 6 months ago
+ 
+**** cm:android_device_cyanogen_msm8939-common ****
+0ee11d8 : msm8939: Remove default value in overlay <Ethan Chen> 31 hours ago
+ 
+**** vanir:device_htc_dlx ****
+c2bb1e4 : tfa9887: Complete variable renaming <Ethan Chen> 2 days ago
+e8ee94b : tfa9887: Reduce log verbosity <Ethan Chen> 2 days ago
+cab52c2 : dlx: add amp configs <Dan Pasanen> 3 days ago
+c5ae806 : dlx: Refactor TFA9887 amplifier code <Scott Mertz> 9 days ago
+7ea29e2 : dlx: Don't track input device modes <Ethan Chen> 4 days ago
+2ad9324 : dlx: Clean up variable naming <Ethan Chen> 4 days ago
+1634bb7 : dlx: Convert libaudioamp to audio_amplifier HAL <Ethan Chen> 10 days ago
+d9382ab : dlx: tfa9887: Fix both speakers playing right channel <ruku1994> 1 year, 5 months ago
+cba669b : dlx: tfa9887: Fix race in checking whether or not to reconfigure <Christopher R. Palmer> 1 year, 6 months ago
+ 
+**** vanir:device_htc_m7-common ****
+96c0857 : m7-common: Complete variable renaming <Ethan Chen> 2 days ago
+d235334 : m7-common: Refactor TFA9887 amplifier code <Scott Mertz> 9 days ago
+ 
+**** vanir:device_htc_m8 ****
+0be4a1d : tfa9887: add htc register init <Dan Pasanen> 3 days ago
+9c6d772 : tfa9887: Reduce log verbosity <Ethan Chen> 2 days ago
+9b7c15d : m8: correct headphone amplifier values <Jake Weinstein> 2 days ago
+2ed867a : m8: Don't track input device modes <Ethan Chen> 4 days ago
+4a78881 : m8: Clean up variable naming <Ethan Chen> 4 days ago
+061275e : m8: build audio amplifier hal <Dan Pasanen> 4 days ago
+e02f47c : tfa9887: set correct configs and add drc <Richard Ross> 4 days ago
+c9ab129 : tfa9887: fix cold start initialization sequence <Richard Ross> 4 days ago
+ae85dd8 : m8: Refactor TFA9887 amplifier code <Scott Mertz> 9 days ago
+ 
+**** vanir:device_qcom_sepolicy ****
+927a356 : update from caf LA.AF.1.1_rb1.18 <Ozzy2403> 8 days ago
+bf4e775 : common: Fixup healthd's ability to deal with poweroff alarms <Ricardo Cerqueira> 33 hours ago
+5746509 : WFD: Revert SELinux changes for wfd running in its own service/domain <Manu Prasad> 5 months ago
+ 
+**** vanir:device_samsung_golden ****
+72b2ce3 : Golden: TWRP: fix the logspam not finding temparature file <Andreas Blaesius> 11 days ago
+7e165ff : golden: add missing kernel header <Andreas Blaesius> 3 weeks ago
+23eaca8 : golden: add STE specific changes for graphics header <Andreas Blaesius> 3 weeks ago
+ff074f7 : restore default graphics.h <Andreas Blaesius> 3 weeks ago
+ff6744b : Revert "golden: Get rid of ctrl_interface=/data/misc/wifi/sockets" <Andreas Blaesius> 3 weeks ago
+b6e2911 : fstab: Update external SD card entry <JustArchi> 5 months ago
+a3eb111 : golden: Force bsdiff for recovery_from_boot.p if not using GZIP <Andreas Blaesius> 4 weeks ago
+9f57df7 : golden: fix compilation because of sepolicy <Andreas Blaesius> 4 weeks ago
+61fa514 : golden: add config for Hardware Key Rebinding <Andreas Blaesius> 5 weeks ago
+fc8a1b8 : golden: update twrp.fstab <Andreas Blaesius> 4 weeks ago
+55f2354 : golden: exclude MTP from TWRP <Andreas Blaesius> 5 weeks ago
+531ac38 : golden: add back twrp-graphics.c <Andreas Blaesius> 5 weeks ago
+3863557 : golden: add twrp.fstab back to recovery ramdisk <Andreas Blaesius> 5 weeks ago
+4637dc6 : golden: lzma compressed recovery ramdisk <Andreas Blaesius> 5 weeks ago
+9b9109a : Revert "golden: use custom charger *png for charging-animation" <Andreas Blaesius> 5 weeks ago
+2495610 : golden: remove deprecated graphics.c <Andreas Blaesius> 5 weeks ago
+71b9976 : golden: enable BOARD_HAVE_PRE_KITKAT_AUDIO_POLICY_BLOB <Andreas Blaesius> 5 weeks ago
+9027433 : golden: open recent apps view in SystemUI when long pressing the home button <Andreas Blaesius> 5 weeks ago
+2f9edf9 : golden: remove unused HardwareKeys overlay <Andreas Blaesius> 5 weeks ago
+861e5b3 : golden: fix RIL case statement <Andreas Blaesius> 5 weeks ago
+b3ec800 : golden: re-enable ffmpeg codec support <Andreas Blaesius> 5 months ago
+8c064df : golden: move selinux -> sepolicy <Andreas Blaesius> 5 weeks ago
+b29c6d8 : Golden: enalbe non-PIE binary support <Andreas Blaesius> 5 weeks ago
+fde11b2 : Revert "Golden: Enable app moving support" <andi34> 1 year, 1 month ago
+dcab9b4 : Revert "golden: Use kernel exFAT filesystem" <Andreas Blaesius> 5 weeks ago
+b242279 : Golden: don't build Torch <Andreas Blaesius> 5 weeks ago
+bcaed2b : Golden: Remove not existing Gallery2 overlay <Andreas Blaesius> 5 weeks ago
+2cd854d : Golden: update init.environ.rc <Andreas Blaesius> 5 weeks ago
+2069815 : golden: Fix permission for cpufreq <Stefan Berger> 3 months ago
+1c44463 : golden: camera: Add DurationTimer for vendor compatibility <Christopher R. Palmer> 7 months ago
+00767e2 : golden: Include CameraParametersExtra.h <c457> 7 months ago
+44a3b21 : init: fix external sdcard <Meticulus> 5 months ago
+eaae854 : Add BOARD_CANT_REALLOCATE_OMX_BUFFERS cflag <Stefan Berger> 5 months ago
+b1fa75b : golden: Add ADD_LEGACY_ACQUIRE_BUFFER_SYMBOL <c457> 6 months ago
+14652f9 : Fix in-call audio <Stefan Berger> 6 months ago
+2b550b9 : golden: Use legacy_audiopolicy for PRE_KITKAT audio blobs <Stefan Berger> 6 months ago
+8b453ca : golden: add ril-daemon service to init.rc <Stefan Berger> 6 months ago
+9da7e86 : Enable RIL_init fix for samsung proprietary RIL lib (libsec-ril.so) <Stefan Berger> 7 months ago
+abaabce : ril: fixup <Meticulus> 7 months ago
+0398ce9 : golden: Add AUDIO_PARAMETER_HW_AV_SYNC to audio.h <Stefan Berger> 3 months ago
+628c9b6 : Golden: update GPS header <Stefan Berger> 7 months ago
+03eec4e : Golden: update graphics header <Stefan Berger> 7 months ago
+959bb31 : golden: update audio header <Stefan Berger> 7 months ago
+4d6a507 : Update PRODUCT_PACKAGES for Wi-Fi Lollipop no longer includes these as default. <Stefan Berger> 7 months ago
+afeca7f : Golden: update TWRP build flags <Andreas Blaesius> 5 weeks ago
+9b0210c : Remove density from PRODUCT_AAPT_CONFIG <Adam Lesinski> 7 months ago
+c8dd77e : Golden: update media_codecs.xml <Andreas Blaesius> 7 months ago
+3762a38 : Golden: Update fstab for L <Andreas Blaesius> 5 weeks ago
+12dfaee : force builder to have vendor repos to compile <Lars Greiss> 6 months ago
+7f3cb06 : golden: Get rid of ctrl_interface=/data/misc/wifi/sockets <Dmitry Shmidt> 4 months ago
+ 
+**** cm:android_device_samsung_hlte-common ****
+c8c2c37 :  hlte : fix e911 issue, match data structure that Samsung message interface want. <Shareef Ali> 2 days ago
+ 
+**** cm:android_device_samsung_trlte-common ****
+d5970ef : fix parsing problem in gps.conf <gekkehenkie11> 24 hours ago
+ea9edf1 : add izat.conf for gps <gekkehenkie11> 5 days ago
+ 
+**** vanir:device_sony_nicki ****
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 11 days ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 7 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 12 days ago
+915d977 : nicki: use new perfd-client <RonGokhale> 12 days ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 12 days ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 10 months ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 4 weeks ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 7 weeks ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 7 weeks ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 7 weeks ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 9 weeks ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 2 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 2 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 2 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 3 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 3 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 3 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 3 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 3 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 3 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 3 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 4 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 4 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 4 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 4 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 4 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 9 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 5 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 5 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 5 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 6 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 6 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 4 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 5 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 5 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 6 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 5 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 5 months ago
+c4b4a39 : nicki: update fstab <RonGokhale> 5 months ago
+1bd9501 : nicki: add charging and mass storage mode <RonGokhale> 5 months ago
+7bbf4d5 : nicki: sync prima INI file with LA.AF.1.1_rb1.8 <RonGokhale> 5 months ago
+610fa38 : build: Avoid poisoning the host binaries with bad ABIs <Ricardo Cerqueira> 6 months ago
+b95e5f6 : nicki: cleanup overlay <RonGokhale> 6 months ago
+fb35414 : nicki: Change accept_mac and deny_mac file paths. <Neelansh Mittal> 7 months ago
+150146a : nicki: Update hardware key config <RonGokhale> 6 months ago
+d141082 : nicki: Fix manual network selection <RonGokhale> 6 months ago
+3fe6c45 : nicki: remove af resampler <RonGokhale> 6 months ago
+7be94c4 : nicki: update sepolicy <RonGokhale> 7 months ago
+2a8af66 : nicki: Remove obslete flags <Arnav Gosain> 7 months ago
+8671b38 : nicki: import qcom common sepolicy <RonGokhale> 7 months ago
+ 
+**** cm:android_device_sony_togari ****
+83ff7dd : fix incorrectly sized nav bar icons <Giulio Cervera> 26 hours ago
+ 
+**** cm:android_external_lzma ****
+9382c0a : xz: Enable crc64 support <Steve Kondik> 7 days ago
+ 
+**** vanir:external_sepolicy ****
+f207533 : Revert "WFD : Adding policy exceptions in app domain for wfd" <Manu Prasad> 5 months ago
+1d7bc1d : domain: Restore original neverallow rules for shipping builds <Ricardo Cerqueira> 2 days ago
+ 
+**** vanir:frameworks_base ****
+4409419 : Call recording encoder/format choice 3/3 <Kryten2k35> 9 months ago
+77a20f8 : Show reboot dialog using themed resources <d34d> 2 days ago
+526fa6d : Get themed resources in KeyButtonView <d34d> 6 days ago
+279e385 : SystemUI: hide blur when showing keyguard media <Roman Birg> 2 days ago
+15fd4f9 : Properly animate SIM PIN entry screen transition. <jie.liu> 3 weeks ago
+53445ef : Revert "fix bug about view cache in RemoteViews" <Steve Kondik> 3 days ago
+0b7175c : Handle case where profiles.xml was partially saved <d34d> 2 days ago
+9f38789 : SystemUI: Expose values in status bar expanded header <Dave Kover> 2 days ago
+ceaeeb0 : Explicitly declare which permissions can be granted via signature <Roman Birg> 7 days ago
+7039e3b : Allow permissions to be granted via whitelisted signatures <Roman Birg> 7 days ago
+2b0b733 : Density scaling: return device's default density <Roman Birg> 7 days ago
+29b8274 : SystemUI: don't reinflate search view on rotate <Roman Birg> 2 days ago
+9173974 : Revert "Fixes large number of thumbnails leads to low memory" <Chirayu Desai> 3 weeks ago
+658a918 : Enable ticker when heads up notifications are disabled <Michael Bestas> 8 weeks ago
+ 
+**** vanir:frameworks_opt_telephony ****
+6060db7 : SystemUI can not receive intent <jie.liu> 7 days ago
+ 
+**** vanir:frameworks_opt_telephony ****
+6060db7 : SystemUI can not receive intent <jie.liu> 7 days ago
+993931d : Telephony: DDS switch oemhook message sent twice <Beena More> 4 weeks ago
+76bcb1b : Fix duplicate events received in DcTracker. <Muhammed Siju> 6 weeks ago
+d41cf16 : Check for DDS validity <Sukanya Rajkhowa> 3 months ago
+7c8b934 : Reject network request when DDS is invalid <Sukanya Rajkhowa> 7 weeks ago
+b9b9458 : Telephony: On demand DDS switch uses preferred sub <Susheel nyamala> 3 months ago
+b760973 : Ignore DdsRequest for non DDS network factory <Sukanya Rajkhowa> 2 months ago
+d9097e7 : Fix DDS switch issue from GSM to CDMA. <Muhammed Siju> 3 months ago
+ba13040 : Fix issue that DDS can not get back to primary sub and network mode shows incorrect in settings. <Hu Chunming> 4 months ago
+2043011 : Fix the build <Lokesh Chamane> 8 days ago
+efddb3b : msim: order getSubInfo list by slot ID <emancebo> 3 weeks ago
+29048d5 : Revert "SubscriptionController: getPhoneId() should never return negative values" <Ricardo Cerqueira> 8 days ago
+b7c44b3 : MSIM: Change default fallback subId value <Sandeep Gutta> 3 months ago
+303c9cd : Fix ACTION_DEFAULT_SUBSCRIPTION_CHANGED is not sent after power on <Mengjun Leng> 3 months ago
+f1d2b82 : Telephony: Actually abort flex mapping if subs are null. <Adnan> 2 months ago
+61cf25a : Revert "Set default SMS outgoing check interval to 15 minutes" <Michael Bestas> 3 weeks ago
+18ba6a1 : RIL: Fix datacall parcel reading <Ricardo Cerqueira> 3 weeks ago
+811c351 : Revert "SMSUsageMonitor: read limit values from Settings.Secure" <Michael Bestas> 3 weeks ago
+3f96311 : telephony: extend the user notification toggle for restricted mobile access <Varun Chitre> 4 weeks ago
+5c05255 : Make mImsPhone static. DO NOT MERGE ANYWHERE <Pavel Zhamaitsiak> 2 months ago
+3d39ef3 : Make mImsPhone static. DO NOT MERGE ANYWHERE <Pavel Zhamaitsiak> 2 months ago
+2d1f7da : Don't needlessly disable data. <Danny Baumann> 5 weeks ago
+fe85370 : Don't clear invalid defaults before SIM info of all SIMs is populated. <Danny Baumann> 5 weeks ago
+2d7101c : telephony: Release pending network requests when releasing a request <Christopher R. Palmer> 5 weeks ago
+e4a56f5 : RIL : allow RILReceiver to be overridden <Varun Chitre> 5 weeks ago
+bde95c7 : Revert "Revert "Revert "Telephony: DcTracker: Fix CDMA APN Data issues.""" <DHOMD> 5 weeks ago
+2b50344 : Remove useless debug spam. <Danny Baumann> 6 weeks ago
+ 
+**** vanir:hardware_qcom_audio ****
+c89f5bc : audio: Only allow non-legacy HAL <Ethan Chen> 7 months ago
+ 
+**** vanir:hardware_qcom_audio ****
+7a4cab3 : hal: update input source type during open input stream <Vidyakumar Athota> 3 months ago
+43db9f9 : hal: Prevent de-routing in case the usecase doesn't share codec backend <Avinash Vaish> 3 months ago
+397bd23 : hal: Fix ANR if In-Call recording is started at end of voice call <Venkata Narendra Kumar Gutta> 3 months ago
+813eb28 : hal: Update pcm_open flag for VOIP <Pavan Chikkala> 4 months ago
+6be0bd5 : audio: Modified atoi to atoll to convert large Numeric values <Pavan Chikkala> 5 months ago
+ 
+**** cm:android_kernel_htc_m7 ****
+c55159d : fs: namespace: fix possible uninitialized variable warnings <Dan Pasanen> 10 days ago
+6052345 : dlx: don't optimize for size <Dan Pasanen> 10 days ago
+ 
+**** cm:lge-kernel-p880 ****
+4207d57 : Fix kernel compile <demetris> 25 hours ago
+77c94a7 : P880:enable memory pressure levels <demetris> 26 hours ago
+b35804d : memcg: add memory.pressure_level events <Anton Vorontsov> 2 years, 2 months ago
+a5f44b8 : vmscan: fix initial shrinker size handling <Konstantin Khlebnikov> 3 years, 6 months ago
+5f94e6d : mm/hugetlb: fix warning in alloc_huge_page/dequeue_huge_page_vma <Konstantin Khlebnikov> 3 years, 2 months ago
+2ecc38c : cpuset: mm: reduce large amounts of memory barrier related damage v3 <Mel Gorman> 3 years, 3 months ago
+af55a98 : cpusets: stall when updating mems_allowed for mempolicy or disjoint nodemask <David Rientjes> 3 years, 6 months ago
+d508369 : mm: vmscan: convert global reclaim to per-memcg LRU lists <Johannes Weiner> 3 years, 5 months ago
+a945d04 : mm: test PageSwapBacked in lumpy reclaim <Hugh Dickins> 3 years, 5 months ago
+8874af2 : mm/vmscan.c: consider swap space when deciding whether to continue reclaim <Minchan Kim> 3 years, 5 months ago
+f43f970 : vmscan: activate executable pages after first usage <Konstantin Khlebnikov> 3 years, 5 months ago
+3c25f6f : vmscan: promote shared file mapped pages <Konstantin Khlebnikov> 3 years, 5 months ago
+c767ec0 : mm: vmscan: check if reclaim should really abort even if compaction_ready() is true for one zone <Mel Gorman> 3 years, 5 months ago
+be2101b : mm: vmscan: do not OOM if aborting reclaim to start compaction <Mel Gorman> 3 years, 5 months ago
+3bf78ad : mm: vmscan: when reclaiming for compaction, ensure there are sufficient free pages available <Mel Gorman> 3 years, 5 months ago
+7c7a410 : mm: compaction: introduce sync-light migration for use by compaction <Mel Gorman> 3 years, 5 months ago
+73ffc09 : kswapd: assign new_order and new_classzone_idx after wakeup in sleeping <Alex Shi> 3 years, 8 months ago
+9f3802b : kswapd: avoid unnecessary rebalance after an unsuccessful balancing <Alex Shi> 3 years, 8 months ago
+75d1bb6 : mm: page allocator: do not call direct reclaim for THP allocations while compaction is deferred <Mel Gorman> 3 years, 5 months ago
+fdb2826 : mm: compaction: determine if dirty pages can be migrated without blocking within ->migratepage <Mel Gorman> 3 years, 5 months ago
+4cdb24c : mm: migration: clean up unmap_and_move() <Minchan Kim> 3 years, 8 months ago
+6d78948 : vmscan: abort reclaim/compaction if compaction can proceed <Mel Gorman> 3 years, 8 months ago
+db62f83 : cpu_input_boost: make it "enableable" <linuxxxxx> 6 weeks ago
+10d63aa : cpu_input_boost: Minor clean-up of loop inside main fn <Sultanxda> 10 weeks ago
+fc06b48 : cpu_input_boost: Add back 150ms min interval between boost requests <Sultanxda> 10 weeks ago
+88aabcb : cpu_input_boost: Minor clean-up <Sultanxda> 3 months ago
+cf22a76 : cpu_input_boost: Set boost_running to false if there is no boost <Sultanxda> 3 months ago
+2b01937 : cpu_input_boost: Reduce overhead and prevent races <Sultanxda> 3 months ago
+6d5382f : cpu_input_boost: Remove useless guard during init <Sultanxda> 3 months ago
+8fd27fc : cpu_input_boost: Clean up suspend routine <Sultanxda> 3 months ago
+094ad73 : cpu_input_boost: Add on/off switch <Sultanxda> 3 months ago
+e48f43a : cpu_input_boost: Automagically calculate boost duration <Sultanxda> 3 months ago
+2a1f524 : cpu_input_boost: Automagically calculate boost freq to be used <Sultanxda> 3 months ago
+e8fcfe6 : cpu_input_boost: Unboost all CPUs in a single call <Sultanxda> 3 months ago
+f6c98ae : cpu_input_boost: Add power-saving algorithm to selectively boost CPUs <Sultanxda> 3 months ago
+7019aa4 : cpufreq: Add CPU Input Boost driver <Sultanxda> 3 months ago
+0e72948 : ipv4: Missing sk_nulls_node_init() in ping_unhash(). <David S. Miller> 6 weeks ago
+4e8a6b7 : Merge remote-tracking branch 'aosp/android-tegra3-grouper-3.1-lollipop-mr1' into staging/cm-12.1 <dhacker29> 3 months ago
+ 
+**** cm:android_kernel_motorola_msm8960-common ****
+0b7b2ac : binder: NULL pointer reference <Paresh Nakhe> 1 year, 2 months ago
+73d875c : [PATCH] Staging: android: binder: More offset validation. <Arve Hjonnevag> 1 year, 3 months ago
+ec99aca : staging: binder: add vm_fault handler <Vinayak Menon> 1 year ago
+6a97ca4 : Staging: android: binder: Allow using highmem for binder buffers <Arve Hjønnevåg> 2 years, 8 months ago
+1d890cb : Staging: android: binder: Fix memory leak on thread/process exit <Arve Hjønnevåg> 2 years, 8 months ago
+376fd3a : Staging: android: binder: Add some tracepoints <Arve Hjønnevåg> 3 years, 1 month ago
+0bdaa77 : Staging: android: binder: Add some missing binder_stat_br calls <Arve Hjønnevåg> 3 years, 1 month ago
+b5fc4c3 : Staging: android: binder: Fix use-after-free bug <Arve Hjønnevåg> 3 years, 3 months ago
+a3e39b1 : Staging:android: Change type for binder_debug_no_lock switch to bool <Zhengwang Ruan> 3 years, 3 months ago
+15e9878 : fs: Remove missed ->fds_bits from cessation use of fd_set structs internally <David Howells> 3 years, 4 months ago
+7c19eef : Wrap accesses to the fd_sets in struct fdtable <David Howells> 3 years, 4 months ago
+54bac0c : drivers:staging:android Typos: fix some comments that have typos in them. <Justin P. Mattock> 3 years, 5 months ago
+863a8cd : Staging: android: binder: Fix crashes when sharing a binder file between processes <Arve Hjønnevåg> 3 years, 5 months ago
+be5b2ba : Staging: android: binder: Don't call dump_stack in binder_vma_open <Arve Hjønnevåg> 3 years, 5 months ago
+3789be8 : PM / QoS: Set cpu_dma_pm_qos->name <Dominik Brodowski> 3 years, 7 months ago
+3ffcc15 : PM / QoS: Remove redundant check <Guennadi Liakhovetski> 3 years, 7 months ago
+ 
+**** cm:android_kernel_motorola_msm8974 ****
+96b6f86 : victara: defconfig: Update based on google's recommendations <Christopher R. Palmer> 4 days ago
+9118c3f : victara: Optimize kernel configuration <Chenxi Mao> 5 days ago
+4e6ec3a : victara: spi_config is used outside of CONFIG_KS8851 <Chenxi Mao> 4 days ago
+ 
+**** cm:android_kernel_oneplus_msm8974 ****
+2db2aab : staging: alarm-dev: information leak in alarm_ioctl() <Dan Carpenter> 2 years ago
+a4121ae : Revert "alarmtimer: set power off alarm to be triggered on time" <Ricardo Cerqueira> 23 hours ago
+72e1b7d : alarm : Fix the race conditions in alarm-dev.c <Mao Jinlong> 1 year, 2 months ago
+d980dd0 : rtc: alarm: init power_on_alarm_lock mutex in alarmtimer_rtc_timer_init <Kumar Gala> 1 year, 5 months ago
+6df9a3e : qpnp-rtc: clear alarm register when rtc irq is disabled <Matthew Qin> 1 year, 6 months ago
+f30e415 : rtc: alarm: Add power-on alarm feature <Matthew Qin> 1 year, 6 months ago
+3df0bd9 : staging: alarm-dev: Refactor alarm-dev ioctl code in prep for compat_ioctl <John Stultz> 2 years, 5 months ago
+3f5099a : staging: alarm-dev: Drop pre Android 1.0 _OLD ioctls <John Stultz> 2 years, 5 months ago
+ 
+**** cm:android_kernel_samsung_d2 ****
+35c8d87 : esoc: Add external soc control framework <Hanumant Singh> 1 year, 7 months ago
+8b95b90 : msm: msm_fb: wait for VSYNC instead of DMA_P for LCDC <Justin Philip> 5 weeks ago
+901de8c : ipv4: Missing sk_nulls_node_init() in ping_unhash(). <David S. Miller> 7 weeks ago
+76c1b77 : usb: ks_bridge: Ignore completion error in RX path <ChandanaKishori Chiluveru> 6 weeks ago
+8dd4261 : cfg80211: add space after the b/w in db.txt <Mihir Shete> 4 months ago
+0ca9839 : prima: memset the command buffer in GetCommandBuffer routine <Masti, Narayanraddi> 8 weeks ago
+fbe993e : mmc: Allow forward compatibility for eMMC <Romain Izard> 12 months ago
+ 
+**** vanir:platform_manifest ****
+73d63e0 : Always a derp <DHOMD> 35 minutes ago
+9a534c3 : Vanir's Golden Fork <DHOMD> 35 minutes ago
+099e3c6 : Restore hack branch for spr uses on certain devices <DHOMD> 3 hours ago
+cc119c8 : Party Foul! <DHOMD> 3 hours ago
+50ef49e : needs STE-Patch <Ozzy2403> 30 hours ago
+faf0e17 : Switch to [cm's] fork of external/lzma <Steve Kondik> 7 days ago
+4348b41 : revive golden <Ozzy2403> 31 hours ago
+ 
+**** vanir:packages_apps_Camera2 ****
+508637a : Camera2: Fix Undo button behaviour <NBruderman> 7 days ago
+ 
+**** vanir:packages_apps_Dialer ****
+f81b428 : Call recording encoder/format choice 1/3 <Kryten2k35> 9 months ago
+ 
+**** cm:android_packages_apps_Email ****
+37466e2 : Improve debug logging. <Danny Baumann> 17 hours ago
+ 
+**** vanir:packages_apps_Mms ****
+f901e38 : Expose message link text color <Nicholas Chum> 3 weeks ago
+ 
+**** vanir:packages_apps_Settings ****
+03c1704 : Don't clear cache on null UiDetailProvider <d34d> 30 hours ago
+d866828 : BatteryLight: Reset all settings back to default <d34d> 2 days ago
+34a4f63 : Settings: Fix HighTouchSensitivity & TouchscreenHovering <AdrianDC> 6 days ago
+ 
+**** vanir:packages_apps_ThemeChooser ****
+86a960a : Add CleanSpec.mk to fix the build errors after UI update <dhacker29> 12 days ago
+ 
+**** vanir:packages_input_LatinIME ****
+589267d : Add support for Bépo keyboard layout <Julien "_FrnchFrgg_" RIVAUD> 11 days ago
+ 
+**** vanir:packages_providers_DownloadProvider ****
+4359b2e : DownloadManager : Only remove stale id if download is not deleted <Danesh Mondegarian> 8 weeks ago
+f326c62 : DownloadManager: allow ACCESS_ALL_DOWNLOADS to be granted via whitelist <Roman Birg> 5 days ago
+ 
+**** vanir:packages_services_Telephony ****
+73453a8 : Call recording encoder/format choice 2/3 <Kryten2k35> 9 months ago
+ 
+**** vanir:system_core ****
+cd24260 : Provide better advice on using gdb with debuggerd on crashed applications. <Pete Delaney> 13 days ago
+ 
+**** vanir:vendor_lge ****
+ac9f9fe : g3: update wcnss firmware from V23C <Dan Pasanen> 8 weeks ago
+ 
+**** vanir:vendor_samsung ****
+1cb49d8 : revive golden <Ozzy2403> 31 hours ago
+ 
+**** vanir:vendor_vanir ****
+4b463e1 : Revert "cm: Add import for prebundled APKs" <Ethan Chen> 27 hours ago
+bc38fb0 : revive golden <Ozzy2403> 31 hours ago
+ 

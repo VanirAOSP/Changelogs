@@ -1,0 +1,368 @@
+
+**** vanir:bionic ****
+f8ae373 : Silence text relocations nagging <Ozzy2403> 3 days ago
+ 
+**** vanir:bootable_recovery_TWRP ****
+f846cac : Fix mass storage in recovery <ramsudharsan> 2 months ago
+bfce504 : fix settingsstorage mark <Xuefer> 10 weeks ago
+6511c4d : Allow ORS set command to work with spaces in the value <Ethan Yonker> 3 days ago
+28a85d2 : Make sure that adbd restarts after sideload <Dees Troy> 8 weeks ago
+7969913 : framebuffer: s6 edge takes a little lomger to initialize fb0 <jenkins> 6 weeks ago
+a163f15 : add magic property.* value for accessing system property variables <Xuefer> 3 months ago
+26ffa86 : minuitwrp: fix crash when taking a screenshot. <xiaolu> 4 weeks ago
+9416f4f : partition: recreate tw_internal_path(/data/media/0), after wipe media from data or format /data. <xiaolu> 2 weeks ago
+e1abe61 : Fix ORS scripts displaying an error after completing <Ethan Yonker> 11 days ago
+ 
+**** vanir:build ****
+dd623d4 : Hacks <DHOMD> 3 months ago
+a328859 : Revert "Revert "patch for older devices"" <Ozzy2403> 15 hours ago
+4c1c780 : update success message <Ozzy2403> 2 days ago
+1a5ebe0 : Revert "patch for older devices" <Eric McCann> 2 days ago
+c0e6611 : patch for older devices <Andreas Blaesius> 5 weeks ago
+2283792 : minnow_max: search for cm.mk in additional directories <Howard M. Harte> 4 weeks ago
+17e0148 : debug update <Ozzy2403> 3 weeks ago
+ 
+**** vanir:device_asus_deb ****
+1c46d73 : deb: Get rid of notify_on_migrate <Zhao Wei Liew> 10 days ago
+ 
+**** vanir:device_asus_flo ****
+755cd0a : flo: Get rid of notify_on_migrate <Zhao Wei Liew> 11 days ago
+72ed758 : Revert "Deb: Add policy for radio share pref" <Abhisek Devkota> 28 hours ago
+bafdfa5 : deb/flo: don't need to copy FFMPEG config anymore <Steve Kondik> 32 hours ago
+ 
+**** cm:android_device_cyanogen_msm8939-common ****
+55c2b54 : msm8939: Don't copy FFMPEG config anymore <Steve Kondik> 33 hours ago
+e9df065 : msm8939: Set rild.libpath in system.prop instead of at runtime <Tom Marshall> 2 days ago
+beddb97 : Revert "Revert "msm8939: Disable dexpreopt for now"" <Ethan Chen> 2 days ago
+ 
+**** vanir:device_htc_dlx ****
+238d179 : tfa9887: Switch TFA speaker mode on stream start <Ethan Chen> 5 days ago
+ 
+**** vanir:device_htc_m7-common ****
+736eaa4 : Revert "m7-common: SELinux permissions for radio" <Abhisek Devkota> 28 hours ago
+8379914 : m7-common: Reduce log verbosity <Ethan Chen> 5 days ago
+a05be43 : m7-common: Switch TFA speaker mode on stream start <Ethan Chen> 5 days ago
+ 
+**** vanir:device_htc_m8 ****
+a9d8d0e : blobs: ship wcnss firmware rather than using what's on the device <Dan Pasanen> 5 days ago
+8a0e268 : m8: Don't need to copy FFMPEG config anymore <Steve Kondik> 2 days ago
+5a0e30c : tfa9887: Switch TFA speaker mode on stream start <Ethan Chen> 4 days ago
+ 
+**** vanir:device_htc_msm8960-common ****
+c5901b1 : msm8960: Don't need to copy FFMPEG config anymore <Steve Kondik> 2 days ago
+ 
+**** vanir:device_htc_s4-common ****
+a962ae7 : Revert "s4-common: SELinux permissions for radio" <Abhisek Devkota> 28 hours ago
+ 
+**** vanir:device_lge_e980 ****
+f76166b : Fix Typo in device.mk <nerdyblonde> 2 days ago
+ 
+**** vanir:device_lge_g3-common ****
+225613c : g3: Don't need to copy FFMPEG config anymore <Steve Kondik> 2 days ago
+ 
+**** vanir:device_lge_gproj-common ****
+77ea4b4 : Remove krait optimizations <Jan Jasper de Kroon> 10 days ago
+c933b1f : Remove obsolete dalvik.gc.type-presice <Jan Jasper de Kroon> 11 days ago
+ 
+**** vanir:device_lge_hammerhead ****
+51ef321 : hammerhead: init: Remove bugreport service <myfluxi> 32 hours ago
+3415d5b : msm8974: Don't need to copy FFMPEG config anymore <Steve Kondik> 2 days ago
+ 
+**** vanir:device_moto_shamu ****
+aff5405 : shamu: don't need to copy FFMPEG config anymore <Steve Kondik> 32 hours ago
+ 
+**** vanir:motorola_msm8226-common ****
+c69fc2f : msm8226-common: Don't stop RIL daemon on decrypt <LuK1337> 27 hours ago
+b395fe0 : msm8226-common: Allow vold permissions for encryption <Ethan Chen> 2 days ago
+f0c1bf8 : msm8226: Don't copy FFMPEG config anymore <Steve Kondik> 33 hours ago
+92af7c4 : msm8226-common: Disable QCOM hardware encryption <LuK1337> 2 days ago
+614a406 : msm8226-common: Move sensord to class main <LuK1337> 2 days ago
+6cdd5dc : msm8226-common: Remove config_bluetooth service <LuK1337> 2 days ago
+ 
+**** vanir:device_motorola_omap4-common ****
+62f6730 : omap4-common: fix random gralloc-symlink breakage <Michael Gernoth> 2 days ago
+ 
+**** cm:android_device_oppo_msm8974-common ****
+597cbc2 : msm8974: Don't need to copy FFMPEG config anymore <Steve Kondik> 2 days ago
+ 
+**** vanir:device_qcom_sepolicy ****
+f95decc : selinux: Peripheral manager: Allow system server to talk to per_mgr <Ameya Thakur> 4 months ago
+310f839 : sepolicy: Update policy for peripheral manager <Ameya Thakur> 6 months ago
+ca54507 : sepolicy: Update sepolicy for qseecom rpmb component <Krishna Konda> 5 months ago
+92f86ac : sepolicy: Add support for pm-proxy executable <Ameya Thakur> 7 months ago
+622a951 : sepolicy: Allow write to S3D node <Naseer Ahmed> 5 months ago
+0f5394a : SEAndroid: Add access to res_info sysfs node <Tatenda Chipeperekwa> 7 months ago
+04946f0 : Seandroid: Add policy for energy-awareness. <Avijit Kanti Das> 6 months ago
+ 
+**** vanir:device_samsung_golden ****
+002e06b : update for moving u8500 hardware to andis repo <Ozzy2403> 2 days ago
+c93b20d : initial L-commit <Ozzy2403> 3 days ago
+ 
+**** vanir:device_samsung_jf-common ****
+caeef94 : jf: Don't need to copy FFMPEG config anymore <Steve Kondik> 2 days ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+9668ecc : msm8960: Don't need to copy FFMPEG config anymore <Steve Kondik> 2 days ago
+ 
+**** vanir:device_sony_nicki ****
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 2 weeks ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 7 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 2 weeks ago
+915d977 : nicki: use new perfd-client <RonGokhale> 2 weeks ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 2 weeks ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 11 months ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 4 weeks ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 7 weeks ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 7 weeks ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 7 weeks ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 10 weeks ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 3 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 3 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 3 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 3 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 3 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 3 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 3 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 3 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 3 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 3 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 4 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 4 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 4 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 4 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 4 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 9 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 5 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 5 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 6 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 6 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 6 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 4 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 5 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 5 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 6 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 5 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 5 months ago
+c4b4a39 : nicki: update fstab <RonGokhale> 5 months ago
+1bd9501 : nicki: add charging and mass storage mode <RonGokhale> 5 months ago
+7bbf4d5 : nicki: sync prima INI file with LA.AF.1.1_rb1.8 <RonGokhale> 6 months ago
+610fa38 : build: Avoid poisoning the host binaries with bad ABIs <Ricardo Cerqueira> 6 months ago
+b95e5f6 : nicki: cleanup overlay <RonGokhale> 6 months ago
+fb35414 : nicki: Change accept_mac and deny_mac file paths. <Neelansh Mittal> 7 months ago
+150146a : nicki: Update hardware key config <RonGokhale> 6 months ago
+d141082 : nicki: Fix manual network selection <RonGokhale> 6 months ago
+3fe6c45 : nicki: remove af resampler <RonGokhale> 6 months ago
+7be94c4 : nicki: update sepolicy <RonGokhale> 7 months ago
+2a8af66 : nicki: Remove obslete flags <Arnav Gosain> 7 months ago
+8671b38 : nicki: import qcom common sepolicy <RonGokhale> 7 months ago
+ 
+**** cm:android_external_ffmpeg ****
+796cb40 : ffmpeg: Regenerate configurations for FFMPEG 2.7 <Steve Kondik> 7 days ago
+2335923 : ffmpeg: Add script to regenerate the configs <Steve Kondik> 7 days ago
+d7a1c6c : ffmpeg: Update Android build configuration <Steve Kondik> 6 weeks ago
+6949e0a : x86: Use yasm from prebuilts and don't depend on host install <dhacker29> 3 months ago
+81ab6be : Add configuration for silvermont CPU based on Atom. <Howard M. Harte> 5 months ago
+e5b00a5 : Clean up some build-time warnings <Ricardo Cerqueira> 5 months ago
+8e4b83f : Get ffmpeg building for emulatorx86 <Chris Sarbora> 5 months ago
+90392b9 : ffmpeg: Fix variable collisions <Steve Kondik> 6 months ago
+f52b9bf : build: Use ARM mode for arm32 builds <Ricardo Cerqueira> 6 months ago
+67d3d8b : Fixup armv8-a building, and make multiarch builds work <Ricardo Cerqueira> 6 months ago
+f6ac7cc : avutil: Use _SC_NPROCESSORS_CONF <Steve Kondik> 6 months ago
+43b5192 : Update Android build for FFMPEG 2.5 <Steve Kondik> 6 months ago
+f605d2a : Android porting for ffmpeg 2.1 release <Chih-Wei Huang> 1 year, 8 months ago
+259bb25 : configure: Disable VSX on unspecified / generic CPUs <Michael Niedermayer> 9 days ago
+665b670 : avformat: Fix bug in parse_rps for HEVC. <Deliang Fu> 11 days ago
+1051c15 : takdec: ensure chan2 is a valid channel index <Andreas Cadhalpun> 11 days ago
+5a0862a : avcodec/h264_slice: Use AVFrame diemensions for grayscale handling <Michael Niedermayer> 11 days ago
+6e94e77 : avdevice/lavfi: do not rescale AV_NOPTS_VALUE in lavfi_read_packet() <Michael Niedermayer> 11 days ago
+f5bb7b9 : MAINTAINERS: add 2.7 <Michael Niedermayer> 11 days ago
+0e92091 : Update for 2.7 <Michael Niedermayer> 11 days ago
+90932a9 : add RELEASE_NOTES, based on previous <Michael Niedermayer> 11 days ago
+58995f6 : sonic: set avctx->channels in sonic_decode_init <Andreas Cadhalpun> 11 days ago
+3a99f6e : Changelog: Add 2.7 entry <Michael Niedermayer> 11 days ago
+a5f44bc : doc/APIchanges: fill in missing stuff <Michael Niedermayer> 11 days ago
+6ddb109 : doc/APIchanges: Add 2.7 separator <Michael Niedermayer> 11 days ago
+83307a3 : libavutil/channel_layout: Correctly return layout when channel specification ends with a trailing 'c'. <Simon Thelen> 12 days ago
+34ae98a : lavf/webm_chunk: Remove AVFMT_ALLOW_FLUSH <Vignesh Venkatasubramanian> 11 days ago
+0916938 : avcodec/jpeg2000dec: Fix gain regression with gray16 <Michael Niedermayer> 11 days ago
+6bf8d9e : fate: Force jpeg2000 decoder for dcinema <Michael Niedermayer> 11 days ago
+adbe1d7 : avcodec/libopenjpegdec: Mark as experimental if <= 1.3 <Michael Niedermayer> 12 days ago
+dbbb31e : avcodec/jpeg2000: remove unused variable <Michael Niedermayer> 11 days ago
+32b1131 : avformat/oggenc: Fix return code in case of flushing <Michael Niedermayer> 11 days ago
+4b082bc : doc/muxers: document new break_non_keyframes option <Rodger Combs> 12 days ago
+44327cb : avcodec/jpeg2000: Disable special case for JPEG2000_QSTY_SI <Michael Niedermayer> 11 days ago
+45db921 : avcodec/jpeg2000dec: Add placeholder for PLT parsing <Michael Niedermayer> 12 days ago
+b6ee191 : avcodec/jpeg2000dec: Handle Psot = 0 <Michael Niedermayer> 12 days ago
+b14086c : mkv: Correctly report the latest packet had been flushed <Luca Barbato> 12 days ago
+e60b018 : lavf/segment: add an option to allow breaking on non-keyframes <Rodger Combs> 12 days ago
+b380337 : mpjpegdec: don't try to alloc an AVIOContext when probe is guaranteed to fail <James Almer> 12 days ago
+2109217 : imc: add required padding for GetBitContext buffer <Janne Grunau> 13 days ago
+09447f2 : ac3_parser: add required padding for GetBitContext buffer <Janne Grunau> 13 days ago
+fb14730 : aac_parser: add required padding for GetBitContext buffer <Janne Grunau> 13 days ago
+e100966 : avcodec/x86/h264_weight: handle weight1=128 <Michael Niedermayer> 12 days ago
+7c9fcdf : avcodec/jpeg2000dec: Fix some 5/3 bitexactness issues <Michael Niedermayer> 12 days ago
+ecefce4 : lavf/tls_securetransport: fix SNI support when not verifying <Rodger Combs> 12 days ago
+074159e : avcodec/jpeg2000dec: Fix subsampled decoding <Michael Niedermayer> 12 days ago
+12ba1b2 : avcodec/jpeg2000dec: Check that coords match before applying ICT <Michael Niedermayer> 12 days ago
+028c59c : avcodec/jpeg2000dec: Fix high bit depth branch sample shift <Michael Niedermayer> 12 days ago
+6fdbaa2 : vp8: change mv_{min,max}.{x,y} type to int <Andreas Cadhalpun> 12 days ago
+1382add : mpjpegdec: don't try to alloc an AVIOContext when probe is guaranteed to fail <James Almer> 12 days ago
+ 
+**** cm:android_external_stagefright-plugins ****
+ee5d283 : stagefright-plugins: Minor fix for FFMPEG 2.7 <Steve Kondik> 4 days ago
+1e35faa : stagefright-plugins: Convert tabs to spaces <Steve Kondik> 3 days ago
+f50a061 : stagefright-plugins: Refactoring the extractor <Steve Kondik> 4 days ago
+1778caf : stagefright-plugins: Clean up makefiles <Steve Kondik> 3 days ago
+56bdc69 : stagefright-plugins: Move and update codec XML <Steve Kondik> 4 days ago
+86506b6 : stagefright-plugins: Refactor the decoders <Steve Kondik> 9 days ago
+ 
+**** cm:android_external_whispersystems_curve25519-java ****
+e9e7df8 : curve25519: prevent dex2oat method verify failure <Wilhelm Fitzpatrick> 2 weeks ago
+ 
+**** vanir:frameworks_av ****
+8a85fea : nuplayer: Fix incorrect audio resume time during seek <Xavier Varricatt> 5 months ago
+4f6010d : stagefright: Fix issues with software decoders <Steve Kondik> 4 weeks ago
+96e0621 : Nuplayer: During flush operation flush audiosink <Yogesh Solanke> 2 months ago
+4f9390d : audiooutput: Serialize access to AudioOutput <Haynes Mathew George> 3 weeks ago
+ 
+**** vanir:frameworks_base ****
+72624de : SystemUI: fix navbar dpad arrow keys regression <Roman Birg> 26 hours ago
+4a9b471 : themes: Fix strictmode warnings <Steve Kondik> 3 weeks ago
+df6bcfe : AudioService: don't launch music player while in call <Roman Birg> 2 days ago
+6525773 : Close cursor after getting supported components. <d34d> 2 days ago
+0365da6 : SettingsProvider: turn off mobile data roaming by default <emancebo> 2 days ago
+7ad154e : PackageManagerService: Don't attempt to dexopt platform-res. <Adnan Begovic> 3 days ago
+ 
+**** vanir:frameworks_opt_telephony ****
+b579636 : Telephony : Ensure private numbers are blocked if block unknown numbers is enabled <Danesh M> 3 days ago
+ 
+**** vanir:hardware_qcom_display ****
+3616da7 : Revert "hwc: Skip load based composition for video playback." <Steve Kondik> 3 weeks ago
+ 
+**** vanir:hardware_samsung ****
+eb3d7e1 : sync with andis repo based on team canijica <Ozzy2403> 2 days ago
+ 
+**** vanir:kernel_lge_hammerhead ****
+a54b4ce : cpufreq: interactive: Replace strict_strtoul with kstrtoul <Elektroschmock> 9 days ago
+ 
+**** cm:android_kernel_oneplus_msm8974 ****
+00850d1 : ARM: dts: A0001 Truly panel: Fix Mura <Pat Erley> 2 days ago
+ 
+**** cm:android_kernel_samsung_d2 ****
+cf1b3da : Linux 3.4.108 <Zefan Li> 2 days ago
+366df57 : xen: netback: read hotplug script once at start of day. <Ian Campbell> 3 weeks ago
+e0483eb : slub: refactoring unfreeze_partials() <Joonsoo Kim> 3 years ago
+cb99048 : xen-pciback: Add name prefix to global 'permissive' variable <Ben Hutchings> 10 weeks ago
+c905f0a : writeback: use |1 instead of +1 to protect against div by zero <Tejun Heo> 9 weeks ago
+397c649 : IB/core: don't disallow registering region starting at 0x0 <Yann Droneaud> 10 weeks ago
+b383c48 : cdc-acm: prevent infinite loop when parsing CDC headers. <Quentin Casasnovas> 10 weeks ago
+981889f : don't bugger nd->seq on set_root_rcu() from follow_dotdot_rcu() <Al Viro> 9 months ago
+bded67c : PCI: Convert pcibios_resource_to_bus() to take a pci_bus, not a pci_dev <Yinghai Lu> 1 year, 6 months ago
+edf7623 : config: Enable NEED_DMA_MAP_STATE by default when SWIOTLB is selected <Konrad Rzeszutek Wilk> 9 weeks ago
+db5a010 : perf tools: Fix build with perl 5.18 <Kirill A. Shutemov> 2 years ago
+9f03e83 : UBI: fix soft lockup in ubi_check_volume() <hujianyang> 6 months ago
+a5822a0 : autofs4: check dev ioctl size before allocating <Sasha Levin> 1 year, 2 months ago
+4dd86a6 : ipvs: uninitialized data with IP_VS_IPV6 <Dan Carpenter> 7 months ago
+812fbfa : net: make skb_gso_segment error handling more robust <Florian Westphal> 8 months ago
+4e237a3 : openvswitch: Check currect return value from skb_gso_segment() <Pravin B Shelar> 2 years, 11 months ago
+e661bb1 : fs: take i_mutex during prepare_binprm for set[ug]id executables <Jann Horn> 9 weeks ago
+fcafa22 : hpsa: fix memory leak in kdump hard reset <Tomas Henzl> 5 months ago
+52f7060 : hpsa: turn off interrupts when kdump starts <Tomas Henzl> 5 months ago
+5541179 : hpsa: add missing pci_set_master in kdump path <Tomas Henzl> 9 months ago
+7de2f4c : hpsa: refine the pci enable/disable handling <Tomas Henzl> 10 months ago
+54561a5 : IB/core: Avoid leakage from kernel to user space <Eli Cohen> 9 months ago
+6221195 : spi: spidev: fix possible arithmetic overflow for multi-transfer message <Ian Abbott> 3 months ago
+a743477 : sb_edac: Fix erroneous bytes->gigabytes conversion <Jim Snow> 7 months ago
+5f842c0 : powerpc/mpc85xx: Add ranges to etsec2 nodes <Scott Wood> 6 months ago
+bff9edd : splice: Apply generic position and size checks to each write <Ben Hutchings> 4 months ago
+b674b0a : Fix lockup related to stop_machine being stuck in __do_softirq. <Ben Greear> 2 years ago
+8c9c6ff : softirq: reduce latencies <Eric Dumazet> 2 years, 5 months ago
+b9909d5 : x86/reboot: Fix a warning message triggered by stop_other_cpus() <Feng Tang> 3 years, 1 month ago
+3f371d0 : ALSA: usb - Creative USB X-Fi Pro SB1095 volume knob support <Dmitry M. Fedin> 2 months ago
+dfd04b4 : ocfs2: _really_ sync the right range <Al Viro> 2 months ago
+419d4c9 : Defer processing of REQ_PREEMPT requests for blocked devices <Bart Van Assche> 4 months ago
+9796d87 : be2iscsi: Fix kernel panic when device initialization fails <John Soni Jose> 4 months ago
+ffaa96c : IB/uverbs: Prevent integer overflow in ib_umem_get address arithmetic <Shachar Raindel> 3 months ago
+ffabd89 : mac80211: fix RX A-MPDU session reorder timer deletion <Johannes Berg> 3 months ago
+8b2ec3c : x86/reboot: Add ASRock Q1900DC-ITX mainboard reboot quirk <Stefan Lippers-Hollmann> 3 months ago
+89d9570 : radeon: Do not directly dereference pointers to BIOS area. <David Miller> 3 months ago
+6ada5dd : USB: ftdi_sio: Use jtag quirk for SNAP Connect E10 <Doug Goldstein> 3 months ago
+f10c969 : net: use for_each_netdev_safe() in rtnl_group_changelink() <WANG Cong> 3 months ago
+549c560 : usb: xhci: apply XHCI_AVOID_BEI quirk to all Intel xHCI controllers <Lu Baolu> 3 months ago
+5950079 : usb: xhci: handle Config Error Change (CEC) in xhci driver <Lu Baolu> 3 months ago
+266bab3 : cifs: fix use-after-free bug in find_writable_file <David Disseldorp> 3 months ago
+9117c3b : USB: ftdi_sio: Added custom PID for Synapse Wireless product <Doug Goldstein> 3 months ago
+4843d63 : ALSA: hda - Add one more node in the EAPD supporting candidate list <Hui Wang> 3 months ago
+1346295 : hfsplus: fix B-tree corruption after insertion at position 0 <Sergei Antonov> 3 months ago
+d4cd899 : selinux: fix sel_write_enforce broken return value <Joe Perches> 3 months ago
+e65b00a : writeback: fix possible underflow in write bandwidth calculation <Tejun Heo> 3 months ago
+36cddae : sched: Fix RLIMIT_RTTIME when PI-boosting to RT <Brian Silverman> 4 months ago
+7afc45b : perf: Fix irq_work 'tail' recursion <Peter Zijlstra> 4 months ago
+e5b3d85 : net: ethernet: pcnet32: Setup the SRAM and NOUFLO on Am79C97{3, 5} <Markos Chandras> 3 months ago
+ 
+**** vanir:platform_manifest ****
+73026aa : Add Android Support Library prebuilts <Abhisek Devkota> 26 hours ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+030c315 : Bluetooth: request audio focus on incoming call <Roman Birg> 3 days ago
+ 
+**** vanir:packages_apps_Browser ****
+fa6c57f : Browser: add duckduckgo search engine to DE locale <Mrcl1450> 2 days ago
+ 
+**** vanir:packages_apps_Calculator ****
+57ceb53 : Calculator: allow for deletion when selector is next to a separator <Raj Yengisetty> 3 months ago
+ 
+**** cm:android_packages_apps_CellBroadcastReceiver ****
+c1d075e : Remove per-SIM CB configuration. <Danny Baumann> 3 weeks ago
+ 
+**** vanir:packages_apps_Contacts ****
+0b4714e : Fix local account name display for groups. <Matt Garnes> 3 days ago
+63eb42f : Contacts : Change 'up' actionbar indicator to a check mark in add/edit contacts <Rohit Yengisetty> 4 days ago
+902c329 : Remove arbitrary set visibility call <Martin Brabham> 3 days ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+fb208f5 : Add local phone account as a writable AccountTypes. <Matt Garnes> 5 days ago
+ 
+**** vanir:packages_apps_DeskClock ****
+55fd70a : DeskClock: fix behavior with alarms when device is off <Raj Yengisetty> 4 days ago
+ 
+**** vanir:packages_apps_Dialer ****
+0c4d805 : Ensure the smart dial name matcher is initialized in onStart(). <Danny Baumann> 2 weeks ago
+ 
+**** cm:android_packages_apps_Email ****
+2f399ed : Don't cancel PendingIntents used for AlarmManager. <Danny Baumann> 4 days ago
+b12754d : Optimize connection loss and re-gain behaviour. <Danny Baumann> 4 days ago
+8fc4de4 : Refine thread handling. <Danny Baumann> 4 days ago
+a2383f8 : Properly unregister alarm manager callbacks. <Danny Baumann> 4 days ago
+e2edd7c : Use AlarmManager to schedule an IDLE connection restart. <Danny Baumann> 4 days ago
+0ddd7f3 : Don't auto-register IDLE when gaining connection. <Danny Baumann> 4 days ago
+aa3af2e : Do less work on IDLE refresh. <Danny Baumann> 11 days ago
+ 
+**** vanir:packages_apps_InCallUI ****
+c0cad1e : InCallUi: Mitigate redial/recent call double tap state loss. <Adnan Begovic> 4 days ago
+ 
+**** vanir:packages_apps_Settings ****
+c3c36c2 : Avoid SElinux denial accessing SIM card lock <Hemanth kumar B> 5 months ago
+4646bac : Avoid SElinux denial accessing IMEI information <Raju Yadav> 7 weeks ago
+9c1236d : SecuritySettings: Assert the instance of KeyStore before use <Brandon McAnsh> 2 weeks ago
+ef0c7e7 : Settings: persist profile dialogs while rotationg screen <Roman Birg> 5 days ago
+db4845a : Settings: Ensure fragment is visible before updating footer <cretin45> 4 days ago
+616453b : Settings: Disable mobile network settings if sub is invalid/unusable. <Adnan Begovic> 3 days ago
+ 
+**** vanir:packages_services_Telecomm ****
+2be100b : Telecom : Remove null check for blacklist <Danesh M> 3 days ago
+6e7ab5e : Telecom: don't set incall state when call was disconnected <Roman Birg> 4 days ago
+ 
+**** vanir:packages_services_Telephony ****
+7979140 : Telephony: Add roaming mode options to mobile network settings <Lin Ma> 9 weeks ago
+ 
+**** commotio:commotio ****
+768acef : Bump and some old mods that I forgot to save <DHOMD> 2 days ago
+ 
+**** vanir:vendor_sony ****
+24239ee : Reconile with Mrcl1450/proprietary_vendor_sony Required to fix build on huashan <AndroidNoob69> 2 days ago
+ 
+**** vanir:vendor_vanir ****
+281a9e9 : Support downloading from Maven <Chris Sarbora> 3 days ago
+f941222 : cm: Update stagefright-plugins depdendencies <Steve Kondik> 3 days ago
+ 

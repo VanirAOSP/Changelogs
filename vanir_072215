@@ -1,0 +1,185 @@
+
+**** vanir:bootable_recovery_TWRP ****
+ffc9174 : Really fix background color on 480x800 theme <Ethan Yonker> 12 hours ago
+ 
+**** vanir:build ****
+8fce60d : Revert "vanirbuildlogger: get rid of bacon intermediate" <DHOMD> 2 hours ago
+19293c6 : make version check - make compilation much faster for some builders (who have gnu make >3.81) <nuclearmistake> 26 hours ago
+ 
+**** vanir:device_lge_g3-common ****
+e47211a : Add Compiler Optimization flags <sudosurootdev> 3 weeks ago
+0f820aa : Use linaro-4.9 for kernel <sudosurootdev> 4 weeks ago
+26656a6 : Change f400 to f400k <sudosurootdev> 2 days ago
+ 
+**** vanir:device_lge_hammerhead ****
+394ce51 : hammerhead: Remove unused chown calls <myfluxi> 8 hours ago
+ 
+**** vanir:device_lge_p880 ****
+85077c3 : Remove ffmpeg, no longer required and calling it breaks build. <demetris> 28 hours ago
+ 
+**** cm:android_device_motorola_condor ****
+e14ee3c : Condor : Update CM Performance Profiles <luca020400> 20 hours ago
+ 
+**** vanir:motorola_msm8226-common ****
+c5ec668 : msm8226-common: Enable 12k and 24k sampling rates in offload path <myfluxi> 4 months ago
+ed288d9 : msm8226-common: Enable new sample rate representation <myfluxi> 4 months ago
+d99b8a3 : msm8226-common: config: remove NFC <Thecrazyskull> 28 hours ago
+ 
+**** vanir:device_samsung_golden ****
+ab29514 : blobs are sent to vendor <Ozzy2403> 16 hours ago
+c23bf1f : more global flags and gps fix <Ozzy2403> 2 days ago
+26ed6ad : bring in sync with novas cm tree <Ozzy2403> 2 days ago
+ 
+**** cm:android_device_samsung_trlte-common ****
+eecce61 : trlte-common: change io scheduler to fiops <Michael Wawrzyniak> 2 days ago
+ 
+**** vanir:device_sony_fusion3-common ****
+79f1bd9 : init: create dirs for qcoms perfd <Georg Veichtlbauer> 14 hours ago
+9a38a78 : leds: allow multi color configuration, change pulse duration <Georg Veichtlbauer> 17 hours ago
+33babee : LP config update <Georg Veichtlbauer> 2 days ago
+ 
+**** cm:android_device_sony_huashan ****
+47ae1b4 : Revert "huashan: Enable FM transmitter" <Brin Taylor> 5 hours ago
+e1aeca5 : huashan: Cleanup overlay <Mrcl1450> 7 hours ago
+cfe31c5 : huashan: Enable FM transmitter <Mrcl1450> 8 hours ago
+ 
+**** vanir:device_sony_nicki ****
+d524f8b : nicki: Supress User space faults <Samir Mehta> 7 months ago
+d77094f : nicki: show app install location option <RonGokhale> 8 days ago
+af9c6f1 : nicki: update wlan configs <RonGokhale> 4 weeks ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 3 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 4 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 6 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 7 weeks ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 8 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 7 weeks ago
+915d977 : nicki: use new perfd-client <RonGokhale> 7 weeks ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 7 weeks ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 12 months ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 9 weeks ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 3 months ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 3 months ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 3 months ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 3 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 4 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 4 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 4 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 4 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 4 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 4 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 4 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 4 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 5 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 5 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 5 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 5 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 5 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 5 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 5 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 10 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 6 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 6 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 7 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 7 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 7 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 6 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 6 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 6 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 7 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 6 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 6 months ago
+c4b4a39 : nicki: update fstab <RonGokhale> 6 months ago
+1bd9501 : nicki: add charging and mass storage mode <RonGokhale> 6 months ago
+7bbf4d5 : nicki: sync prima INI file with LA.AF.1.1_rb1.8 <RonGokhale> 7 months ago
+610fa38 : build: Avoid poisoning the host binaries with bad ABIs <Ricardo Cerqueira> 7 months ago
+b95e5f6 : nicki: cleanup overlay <RonGokhale> 7 months ago
+fb35414 : nicki: Change accept_mac and deny_mac file paths. <Neelansh Mittal> 8 months ago
+ 
+**** cm:android_device_sony_pollux-common ****
+d008d36 : config: improve auto brightness values <Georg Veichtlbauer> 2 days ago
+ 
+**** vanir:device_sony_yuga ****
+29b077f : yuga: Improve brightness values <Joe Wooster> 7 months ago
+ 
+**** vanir:device_yu_tomato ****
+d23d593 : proprietaries: Remove adreno 200 from the lists <Ricardo Cerqueira> 27 hours ago
+ 
+**** vanir:frameworks_av ****
+ee79535 : STE-Patch <Ozzy2403> 5 weeks ago
+fe6ed20 : cameraservice: Resolve message vs start/stop preview races <Ricardo Cerqueira> 2 days ago
+ 
+**** vanir:frameworks_base ****
+fd1b856 : Guard in short-circuit evaluations for stringSplit methods. <Mohammed Irfan> 2 days ago
+ 
+**** vanir:hardware_qcom_audio ****
+aac6549 : compress offload: use new sample rate representation. <Eric Laurent> 9 months ago
+ 
+**** cm:android_kernel_asus_grouper ****
+eec365f : fs: take i_mutex during prepare_binprm for set[ug]id executables <Jann Horn> 13 days ago
+db1de39 : net: llc: use correct size for sysctl timeout entries <Sasha Levin> 13 days ago
+d275ec1 : netfilter: nf_conntrack: reserve two bytes for nf_ct_ext->len <Andrey Vagin> 13 days ago
+053a7bb : A local route may have a lower hop_limit set than global routes do. <D.S. Ljungmark> 13 days ago
+687d3f5 : vfs: read file_handle only once in handle_to_path <Sasha Levin> 13 days ago
+692f45a : udp: fix behavior of wrong checksums <Eric Dumazet> 13 days ago
+71eb0eb : netfilter: nf_conntrack_dccp: fix skb_header_pointer API usages <Daniel Borkmann> 13 days ago
+71eadcb : netfilter: conntrack: disable generic tracking for known protocols <Florian Westphal> 13 days ago
+ea07bf8 : eCryptfs: Remove buggy and unnecessary write in file name decode routine <Michael Halcrow> 2 weeks ago
+826514e : ipv4: try to cache dst_entries which would cause a redirect <Hannes Frederic Sowa> 2 weeks ago
+ 
+**** cm:android_kernel_cyanogen_msm8916 ****
+71f4165 : sound: soc: arizona: Work around for lettuce mp3/aac offload <Pat Erley> 6 days ago
+ 
+**** cm:android_kernel_motorola_msm8226 ****
+ca921c75 : ALSA: compress: add num_sample_rates in snd_codec_desc <Eric Laurent> 1 year, 6 months ago
+3414db1 : ALSA: compress: update struct snd_codec_desc for sample rate <Eric Laurent> 1 year, 6 months ago
+bed0765 : ALSA: compress: update comment for sample rate in snd_codec <Eric Laurent> 1 year, 6 months ago
+86f002d : ALSA: compress: remove the sample rate check <Vinod Koul> 1 year, 7 months ago
+02bb4d5 : Revert "Revert "ALSA: compress: change the way sample rates are sent to kernel"" <LuK1337> 29 hours ago
+ 
+**** cm:android_kernel_samsung_trlte ****
+5f57b7a : FIOPS: forward port for use on 3.10 Linux <Paul Reioux> 2 days ago
+16d8a29 : Revert "Revert "block: fiops ioscheduler core"" <Michael Wawrzyniak> 2 days ago
+ 
+**** cm:android_kernel_sony_apq8064 ****
+5baed1b : mmc: update header <Georg Veichtlbauer> 28 hours ago
+ 
+**** vanir:platform_manifest ****
+4d296c5 : track f400 so we can CP ahead of cm's repo <nuclearmistake> 15 hours ago
+91facb4 : fix f400 sync <nuclearmistake> 15 hours ago
+e552392 : Add LG G3 f400 from CM using name f400k since they name everything else f400k <sudosurootdev> 2 days ago
+759a265 : change to novas cm kernel <Ozzy2403> 2 days ago
+ 
+**** vanir:packages_apps_Settings ****
+698a3a9 : Check for null activity before calling getSetupBar <d34d> 26 hours ago
+9ec75f3 : Revert "Settings : Add contributors word cloud" <Danesh M> 27 hours ago
+fbed891 : Don't include all resource densities <Ricardo Cerqueira> 28 hours ago
+ 
+**** cm:android_packages_apps_Stk ****
+55c1a04 : Fix the SIM1 launcher <Chirayu Desai> 14 hours ago
+ 
+**** cm:android_packages_providers_ThemesProvider ****
+2e004d0 : Avoid OOME when generating many wallpaper previews <d34d> 5 days ago
+ 
+**** vanir:packages_services_Telephony ****
+d2ea6d8 : telephony: fix APN msim issue where both sims show the same APNs <emancebo> 8 hours ago
+ 
+**** cm:android_prebuilts_cmsdk ****
+0f1f24a : cmsdk: @hide PARCELEABLE_VERSION. <Adnan Begovic> 27 hours ago
+bb7498f : prebuilts/cmsdk: Update api level 1 for hotfix. <Adnan Begovic> 29 hours ago
+ 
+**** vanir:system_vold ****
+e8ac892 : Change lseek to lseek64 <Björn Landström> 6 months ago
+ 
+**** cm:cm_platform_sdk ****
+f68c6c7 : cmsdk: Hide PARCELABLE_VERSION constant which varies between releases. <Adnan Begovic> 27 hours ago
+ 
+**** vanir:vendor_samsung ****
+c5ab0ca : send blobs to vendor <Ozzy2403> 10 hours ago
+ 
+**** vanir:vendor_vanir ****
+937cca7 : Unify f400 <nuclearmistake> 14 hours ago
+bdbf363 : Use CM f400k from their f400 repo <sudosurootdev> 5 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_yu ****
+2499ed1 : tomato: Remove adreno 200 blobs <Ricardo Cerqueira> 27 hours ago
+ 

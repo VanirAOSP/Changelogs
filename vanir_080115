@@ -1,0 +1,146 @@
+
+**** vanir:build ****
+81ca96a : hacks <DHOMD> 2 days ago
+f50e3fb : otatools: Only build f2fs tools on Linux <Brint E. Kriebel> 34 hours ago
+ 
+**** cm:android_device_oppo_msm8974-common ****
+dab6ba3 : msm8974: Adjust DRC and AIG for camcorder input <Steve Kondik> 8 days ago
+ 
+**** vanir:device_sony_nicki ****
+c6b08da : nicki: inherit msm8960-common at the end <RonGokhale> 2 days ago
+7130c91 : nicki: enable charger suspend <RonGokhale> 2 days ago
+d524f8b : nicki: Supress User space faults <Samir Mehta> 8 months ago
+d77094f : nicki: show app install location option <RonGokhale> 3 weeks ago
+af9c6f1 : nicki: update wlan configs <RonGokhale> 6 weeks ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 4 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 4 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 6 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 8 weeks ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 8 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 8 weeks ago
+915d977 : nicki: use new perfd-client <RonGokhale> 8 weeks ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 8 weeks ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 12 months ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 2 months ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 3 months ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 3 months ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 3 months ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 4 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 4 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 4 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 4 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 4 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 4 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 4 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 4 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 4 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 5 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 5 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 5 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 5 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 5 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 5 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 5 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 10 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 7 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 7 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 7 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 7 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 7 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 6 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 6 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 6 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 8 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 7 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 7 months ago
+c4b4a39 : nicki: update fstab <RonGokhale> 7 months ago
+1bd9501 : nicki: add charging and mass storage mode <RonGokhale> 7 months ago
+7bbf4d5 : nicki: sync prima INI file with LA.AF.1.1_rb1.8 <RonGokhale> 7 months ago
+610fa38 : build: Avoid poisoning the host binaries with bad ABIs <Ricardo Cerqueira> 8 months ago
+ 
+**** vanir:device_yu_tomato ****
+dcc0683 : overlay: Enable notification LED without pulsing <Chirayu Desai> 4 days ago
+df784cb : lights: blink the best we can, and no more <Ricardo Cerqueira> 2 days ago
+0baa50f : init: Set owner for the RGB LED nodes <Chirayu Desai> 2 days ago
+ 
+**** vanir:frameworks_av ****
+56c7950 : nuplayer: Fix incorrect state handling while shutting down a decoder <Haynes Mathew George> 3 months ago
+49a2379 : libstagefright: Fix crash in convertMetaDataToMessage <Shivaprasad Hongal> 5 weeks ago
+a588850 : audiopolicy: Fix for isStateInCall() do not return proper status <kunleiz> 6 weeks ago
+09fade8 : httplive: Adjust seek time to last video IDR time <Apurupa Pattapu> 3 months ago
+5bdf394 : httplive: Check for NULL playlist in postPrepared <Apurupa Pattapu> 8 weeks ago
+e914a34 : httplive: Check for bandwidth switch only for variant playlists <Apurupa Pattapu> 7 months ago
+086daa6 : libstagefright: use SW AAC encoder for HE-AAC format <Mingming Yin> 8 weeks ago
+aa31cfa : libmedia: Enable TrackOffload for more usecases <Alexy Joseph> 3 weeks ago
+e47a66b : libmedia: AudioTrack offload only for STREAM_MUSIC <Alexy Joseph> 3 months ago
+ 
+**** vanir:frameworks_base ****
+f98f28b : SystemUI: update to use new Profiles LockSettings obj <Roman Birg> 4 days ago
+09a380b : Revert "Revert "policy: Remove references of Profiles in android.policy."" <nuclearmistake> 29 hours ago
+ 
+**** vanir:frameworks_native ****
+c184010 : sf: Restrict GPU tile render feature to MAX_LAYER_COUNT <radhakrishna> 4 weeks ago
+0fe18ff : SF: Enable context priority <Saurabh Shah> 4 months ago
+ 
+**** vanir:kernel_lge_g3 ****
+e59e997 : Revert "kernel/power/powersuspend: new PM kernel driver for Android w/o early_suspend" <Dan Pasanen> 26 hours ago
+c38f16c : Revert "powersuspend: fix logci derps :p" <Dan Pasanen> 26 hours ago
+7314eed : Revert "kernel/power/powersuspend: remove userspace dependency from powersuspend" <Dan Pasanen> 26 hours ago
+4c138b8 : Revert "kernel/power/powersuspend: add back userpace control w/ default kernel control" <Dan Pasanen> 26 hours ago
+1fdd0e8 : Revert "kernel/power/powersuspend: default to userspace for now" <Dan Pasanen> 26 hours ago
+534bbad : Revert "Revert "kernel/power/powersuspend: default to userspace for now"" <Dan Pasanen> 26 hours ago
+2428086 : Revert "powersuspend: add LCD screen on/off hooks (Yank555.lu)" <Dan Pasanen> 26 hours ago
+4d2974b : Revert "powersuspend: minor typo fix" <Dan Pasanen> 26 hours ago
+f485fec : Revert "powersuspend: default to display hooks" <Dan Pasanen> 26 hours ago
+55af301 : Revert "powersuspend: active from panel, inactive from autosleep" <Dan Pasanen> 26 hours ago
+d838123 : Revert "kernel/power/powersuspend: cumulative update to version 1.5" <Dan Pasanen> 26 hours ago
+f5254a0 : Revert "powersuspend: add power_suspended boolean for global access" <Dan Pasanen> 26 hours ago
+8c8c8c1 : Revert "PM: devfreq: Use high priority workqueue" <Dan Pasanen> 26 hours ago
+c40f884 : Revert "PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs" <Dan Pasanen> 26 hours ago
+f90d61a : Revert "PM / devfreq: Check for GPU busy time before sending the sample" <Dan Pasanen> 26 hours ago
+3d90913 : Revert "PM: devfreq: Fix show available freqs" <Dan Pasanen> 26 hours ago
+ec29e98 : Revert "msm: kgsl: set the correct max_state" <Dan Pasanen> 26 hours ago
+65f0134 : Revert "msm: kgsl: Bump the GPU frequency for long blocks of processing" <Dan Pasanen> 26 hours ago
+9958ffd : Revert "msm: kgsl: Elevate the priority of the thread during adreno start" <Dan Pasanen> 26 hours ago
+7195234 : Revert "msm: kgsl: Add hang interrupt and change HW fault generation" <Dan Pasanen> 26 hours ago
+1cc68d1 : Revert "msm: kgsl: Fix nice level for higher priority GPU start thread" <Dan Pasanen> 26 hours ago
+d05e73a : Revert "msm_adreno_tz: be aware of suspended state" <Dan Pasanen> 26 hours ago
+b487d89 : Revert "Introduce Adreno idler for devfreq-based Adreno devices" <Dan Pasanen> 26 hours ago
+9f776ac : Revert "adreno_idler: switch to count based instead of time based" <Dan Pasanen> 26 hours ago
+e040b64 : Revert "adreno_idler: remove frequency bump" <Dan Pasanen> 26 hours ago
+c8aca16 : Revert "adreno_idler: fix-up type definitions" <Dan Pasanen> 26 hours ago
+762cddd : Revert "msm_adreno_tz: fix-up tz_suspend" <Dan Pasanen> 26 hours ago
+7df1cf3 : Revert "adreno_idler: fix-up some comments" <Dan Pasanen> 26 hours ago
+5a8f3f6 : Revert "adreno_idler: fix typos :)" <Dan Pasanen> 26 hours ago
+136ca97e : Revert "g3: enable powersuspend and adreno idler" <Dan Pasanen> 26 hours ago
+ 
+**** cm:android_kernel_oneplus_msm8974 ****
+cc84a0f : bacon: Update defconfig <Steve Kondik> 10 hours ago
+d111753 : Revert "Revert "Revert "mm: add cma pcp list""" <Steve Kondik> 35 hours ago
+ 
+**** cm:android_kernel_sony_apq8064 ****
+e09347c : defconfigs: enable row io scheduler and make it the default <Georg Veichtlbauer> 9 hours ago
+a713ff6 : block: row: Fix crash when adding a new field in bio struct <Tanya Brokhman> 1 year, 1 month ago
+6718cb9 : block: Adding ROW scheduling algorithm <Tatyana Brokhman> 2 years, 10 months ago
+ 
+**** vanir:platform_manifest ****
+8862202 : Royal decree: no repos shall ever be tracked from a GitHub user whose name is a combination of a transformer and a british secret agent <nuclearmistake> 28 hours ago
+ 
+**** cm:android_packages_apps_Profiles ****
+4eeed27 : Profiles Trust: respect DPM; use new LockSettings <Roman Birg> 4 days ago
+ 
+**** vanir:packages_apps_Settings ****
+4bf4642 : Settings: use new LockSettings <Roman Birg> 4 days ago
+b111233 : Settings: continue factory reset if user leaves activity <Roman Birg> 30 hours ago
+ 
+**** cm:android_prebuilts_cmsdk ****
+7c8cf6f : prebuilts/cmsdk: Publish new version of future-release cmsdk. <Adnan Begovic> 27 hours ago
+ 
+**** cm:cm_platform_sdk ****
+6b7fd5f : cmsdk: Update current api text files. <Adnan Begovic> 30 hours ago
+fa82ebb : cmsdk: Support deleteIntent and remove tiles when packages change. <Adnan Begovic> 28 hours ago
+e84d656 : Profiles: add LockModeSettings <Roman Birg> 5 days ago
+ 
+**** vanir:vendor_vanir ****
+50fa934 : Clean up MEO/TMN APNs <Marcos Marado> 2 days ago
+ 

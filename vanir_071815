@@ -1,0 +1,217 @@
+
+**** vanir:device_asus_grouper ****
+fde048f : Grouper: Remove ffmpeg, no longer required and calling this breaks builds <Rob> 2 days ago
+ 
+**** vanir:device_htc_m8 ****
+de1bd80 : Revert "m8: disable hce" <Dan Pasanen> 2 days ago
+ 
+**** vanir:device_lge_g3-common ****
+b9f603c : wpa_supplicant: (wcnss variants) disable p2p <Dan Pasanen> 27 hours ago
+8de635c : Revert "media_profiles: fix 4k recording profile" <Dan Pasanen> 2 days ago
+ 
+**** vanir:device_moto_shamu ****
+1c81e32 : Corrected the boot animation screen dimention parameters <Zyg0te> 2 days ago
+ 
+**** vanir:motorola_msm8226-common ****
+488e7a1 : msm8226-common: Set correct titan/thea sensor permissions <LuK1337> 4 weeks ago
+ab304b1 : msm8226-common: overlay: remove Bluetooth <luca020400> 3 days ago
+d50bc85 : msm8226-common: add titan/thea modem symlinks <luca020400> 2 days ago
+ 
+**** cm:android_device_motorola_victara ****
+6979c08 : victara: audio: Disable compress offload for (effectively all?) usecases <Christopher R. Palmer> 2 days ago
+9460d6e : victara: audio: Fix typo in audio_policy.conf <Christopher R. Palmer> 2 days ago
+a2f2499 : victara: Remove extra unneeded file <Christopher R. Palmer> 3 weeks ago
+ 
+**** cm:android_device_sony_huashan ****
+259d7b7 : huashan: Remove bugreport service <Mrcl1450> 21 hours ago
+1aabe97 : huashan: Enable FIOPS by default <Steve Kondik> 2 days ago
+0033821 : huashan: Build sensors from source <Mrcl1450> 5 weeks ago
+91c37d0 : huashan: Update proprietary files <Mrcl1450> 11 days ago
+abeddbd : huashan: Fix call issues <Mrcl1450> 6 weeks ago
+5af3b30 : huashan: Low memory killer tunables <Mrcl1450> 3 weeks ago
+cf7213a : huashan: Fix headset button keycode <Mrcl1450> 3 weeks ago
+92ef7f0 : huashan: enable glove mode <Brin Taylor> 6 days ago
+3439238 : huashan: update libril to 5.1 <Mrcl1450> 8 weeks ago
+a39d006 : huashan:reduce brightness to 1 <FirdausAmin> 3 months ago
+dbaff7e : huashan: Enable call noise suppression <Mrcl1450> 6 weeks ago
+59b6924 : huashan: Fix bad cpu freq behavior <Mrcl1450> 6 weeks ago
+1039c55 : huashan: Cleanup mpdecision <Mrcl1450> 6 weeks ago
+3395339 : huashan: Bring back boot leds to work <Mrcl1450> 6 weeks ago
+d10924b : huashan: Enable SELinux properly <Brinly Taylor> 3 months ago
+369adb8 : huashan: Fix selinux denials <Mrcl1450> 8 weeks ago
+703aebd : storage: Fix apps2sd <Mrcl1450> 8 weeks ago
+81940eb : huashan: Cleanup init <Brin Taylor> 8 weeks ago
+4ef8ef1 : huashan: build FM radio packages <Mrcl1450> 8 weeks ago
+95890f8 : huashan: Enable multicolor notification led <Mrcl1450> 8 weeks ago
+ede3a50 : huashan: Remove density from PRODUCT_AAPT_CONFIG <Mrcl1450> 8 weeks ago
+9fa9d35 : move libril down one level from sony_msm8960-common <Georg Veichtlbauer> 3 months ago
+fc90760 : huashan: support for F2FS on data and cache <Mrcl1450> 3 months ago
+ba2255c : huashan: Increase volume <Mrcl1450> 3 months ago
+3539029 : huashan: force sepolicy common repo <Brinly Taylor> 3 months ago
+e80cef0 : huashan: add charge only option <Mrcl1450> 3 months ago
+677d519 : huashan: cleanup Auto-Brightness values <Brinly Taylor> 3 months ago
+04bee36 : Add USB Mass Storage <Mrcl1450> 3 months ago
+ 
+**** vanir:device_sony_nicki ****
+d524f8b : nicki: Supress User space faults <Samir Mehta> 7 months ago
+d77094f : nicki: show app install location option <RonGokhale> 3 days ago
+af9c6f1 : nicki: update wlan configs <RonGokhale> 4 weeks ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 3 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 4 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 6 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 6 weeks ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 8 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 6 weeks ago
+915d977 : nicki: use new perfd-client <RonGokhale> 6 weeks ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 6 weeks ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 11 months ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 8 weeks ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 3 months ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 3 months ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 3 months ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 3 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 3 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 3 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 4 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 4 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 4 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 4 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 4 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 4 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 4 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 4 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 5 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 5 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 5 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 5 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 5 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 10 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 6 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 6 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 6 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 7 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 7 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 5 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 6 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 6 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 7 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 6 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 6 months ago
+c4b4a39 : nicki: update fstab <RonGokhale> 6 months ago
+1bd9501 : nicki: add charging and mass storage mode <RonGokhale> 6 months ago
+7bbf4d5 : nicki: sync prima INI file with LA.AF.1.1_rb1.8 <RonGokhale> 6 months ago
+610fa38 : build: Avoid poisoning the host binaries with bad ABIs <Ricardo Cerqueira> 7 months ago
+b95e5f6 : nicki: cleanup overlay <RonGokhale> 7 months ago
+fb35414 : nicki: Change accept_mac and deny_mac file paths. <Neelansh Mittal> 8 months ago
+ 
+**** vanir:device_yu_tomato ****
+24f45db : Enable A53 erratum workaround <Chirayu Desai> 2 days ago
+ 
+**** cm:android_external_icu ****
+36dc0a7 : icu: add Kiev summer time zone translation <Roman Birg> 3 days ago
+ 
+**** vanir:frameworks_av ****
+6df479e : Any devices broken by changing MAX_CAMERAS to a reasonable number (someone changed it to four) need FEWER CAMERAS. The maintainers of those devices need to handle it in their boardconfig. <nuclearmistake> 2 days ago
+9d665ab : camera: add ability for a device to specify MAX_CAMERAS <Dan Pasanen> 1 year, 3 months ago
+ 
+**** vanir:frameworks_base ****
+1d206df : SettingsProvider: Update action for Profile picker. <Adnan Begovic> 2 days ago
+ 
+**** cm:android_hardware_sony_DASH ****
+bb2c1b5 : libs: akm8963: Align with upstream <Michael Bestas> 5 weeks ago
+9669e3d : sensors: Fix missing sensors_compass_API <Mrcl1450> 5 weeks ago
+ 
+**** cm:android_kernel_cyanogen_msm8916 ****
+7a12826 : rendang: Use CM variant of AP3426 driver <Ethan Chen> 2 days ago
+d6a6fa3 : lettuce: Use CM variant of AP3426 driver <Ethan Chen> 2 days ago
+326c0ac : input: sensors: Resurrect CM variant of AP3426 <Ethan Chen> 2 days ago
+7727acf : input: sensors: add support to schedule data poll on idle CPU <Ananda Kishore> 3 months ago
+de803fa : input: sensors: support continuous mode read for akm8963 <Ananda Kishore> 3 months ago
+29ea0957 : input: sensors: send boot time alone with sensor events <Bingzhe Cai> 3 months ago
+13c0030 : input: sensors: change sensors classdev device's parent to input devices <Oliver Wang> 4 months ago
+1f9a295 : input: sensors: fix an error handle when enable sensor <Daqing Chen> 4 months ago
+136d81d : input: sensors: disable batching for gyro on mpu6050. <Kiran Raparthy> 4 months ago
+c436126 : input: misc: add support for virtual mouse <Mohan Pallaka> 4 months ago
+517c23b : input: sensors: add mpu6050 accel sensor calibration <Daqing Chen> 5 months ago
+4067731 : input: sensors: modify bma2x2 sensor calibration interface <Daqing Chen> 5 months ago
+25067af : input: sensors: remove default reading of pin controls for bma2x2 <Ananda Kishore> 5 months ago
+8b31988 : input: sensors: remove override of sensor poll delay <Prakash Gupta> 5 months ago
+f849575 : input: sensors: add lis3dh accelerometer calibrate feature <Daqing Chen> 6 months ago
+2e1ad8d : input: sensors: configure pinctrl and interrupt for bma2x2 <Bingzhe Cai> 6 months ago
+feff247 : input: sensors: calibrate LTR553 for msm8909 SKUE <Oliver Wang> 5 months ago
+4d1a4c9 : input: sensors: add sensors max delay time <Daqing Chen> 6 months ago
+184bd71 : input: sensors: optimize ltr553 sensor power consumption <Oliver Wang> 6 months ago
+eee5863 : input: sensors: correct ALPS sensor reporting mode flags <Oliver Wang> 6 months ago
+6c97ba3 : input: sensors: fix a logic error for apds9930 <Daqing Chen> 5 months ago
+9e14c4c : input: sensors: Optimize apds9930 proximity calibrate time <Daqing Chen> 5 months ago
+8cded06 : input: sensors: report accurate timestamp on apds993x driver <Bingzhe Cai> 6 months ago
+b1692a7 : input: sensors: set flags for apds9930 <Prakash Gupta> 6 months ago
+b3fab89 : input: sensors: update poll delay threshold for apds9930 <Prakash Gupta> 8 months ago
+e2601b9 : input: sensors: fix ap3426 factory calibration issues <Oliver Wang> 6 months ago
+12f823e : input: sensors: optimize LTR553 factory calibration time <Oliver Wang> 6 months ago
+a3141c1 : input: sensors: modify bma2x2 minimum delay time <Daqing Chen> 6 months ago
+e3ba2de : input: sensors: add LTR553 auto gain switch feature <Oliver Wang> 6 months ago
+47c8c7c : input: sensors: MPU6050 batching data is not correct <Bingzhe Cai> 6 months ago
+b284a6b : input: sensors: fix batching can't be disabled issue <Oliver Wang> 8 months ago
+3e58d07 : input: sensors: create dedicate workqueue for sensors <Bingzhe Cai> 6 months ago
+2f90ccd : input: sensors: add ap3426 queue_work return value check <Oliver Wang> 6 months ago
+6349817 : input: sensors: add self test support for akm09911 <Oliver Wang> 6 months ago
+88eb438 : input: sensors: disable light sensor after suspend <Oliver Wang> 6 months ago
+d6dc2ab : input: sensors: use 16 bits output for lis3dh driver <Daqing Chen> 7 months ago
+576b1cb : input: sensors: add auto gain switch feature for AP3426 <Oliver Wang> 7 months ago
+a9fc6ee : input: sensors: fix ap3426 may prevent SoC from sleep <Oliver Wang> 7 months ago
+4538600 : input: sensors: fix bma2x2 sensor calibration handle <Daqing Chen> 8 months ago
+85bcd5b : input: sensors: add ltr553 sensor Kconfig and Makefile <Daqing Chen> 7 months ago
+764ef52 : input: sensors: modify resolution for sensor mpu6050 <Daqing Chen> 7 months ago
+f1ce199 : input: sensors: modify resolution for bma2x2 supported sensors <Daqing Chen> 7 months ago
+be133c7 : input: sensors: add lite-on ltr553 ALPS sensor driver <Oliver Wang> 9 months ago
+83d5a51 : input: sensors: fix MPU6050 mutex deadlock <Bingzhe Cai> 7 months ago
+a7b0943 : input: sensors: use new timestamp mechanism on BMA2x2 driver <Bingzhe Cai> 7 months ago
+45e7353 : input: sensors: change BMA2x2 minimum and maximum polling rate <Bingzhe Cai> 7 months ago
+f1576b2 : input: sensors: power off ap3426 regulators when probe failes <Oliver Wang> 7 months ago
+48bd318 : input: sensors: fix incorrect use of input_free_device() <Bingzhe Cai> 7 months ago
+297726f : input: sensors: add MPU6050 batching support <Bingzhe Cai> 9 months ago
+0412bd4 : input: sensors: add AP3426 factory calibration feature <Oliver Wang> 8 months ago
+ 
+**** cm:android_kernel_oneplus_msm8974 ****
+97351d7 : video: mdss: Cache LiveDisplay RGB settings when display off <Steve Kondik> 2 days ago
+ 
+**** cm:android_kernel_samsung_trlte ****
+9ccc253 : block: fiops ioscheduler core <Shaohua Li> 6 days ago
+4daa251 : udp: fix behavior of wrong checksums <Eric Dumazet> 7 weeks ago
+ 
+**** vanir:platform_manifest ****
+d7272a4 : CM seems to be selectively merging mrc's changes... and disabling selinux in the kernel smells weird. <nuclearmistake> 2 days ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+49ff098 : ContactPhotoManager - Add ability to fetch contact bitmap based on photo id <Rohit Yengisetty> 11 days ago
+ 
+**** vanir:packages_apps_Mms ****
+d655920 : Mms : Ensure text mode supports multiple content-types <Danesh M> 3 days ago
+ 
+**** vanir:packages_apps_Settings ****
+929f527 : Setup: Call setUseFingerprint() when enrollment finished <d34d> 22 hours ago
+7631a86 : Settings: fix reversed name/id fields in metrics <Roman Birg> 21 hours ago
+8f5c0e5 : Remove hardcoded textAppearance for better theme support. <Dave Kover> 2 days ago
+ 
+**** vanir:packages_apps_ThemeChooser ****
+255d0cf : Update iconography. <Dave Kover> 3 days ago
+ 
+**** cm:android_prebuilts_cmsdk ****
+6ead612 : cmsdk: Update for future* cmsdk changes. <Adnan Begovic> 19 hours ago
+ 
+**** cm:cm_platform_sdk ****
+02e761f : cmsdk: Fix javadoc comment for CM_VERSION_CODES. <Adnan Begovic> 19 hours ago
+ce52da6 : cmsdk: Update api files for intent action change. <Adnan Begovic> 19 hours ago
+af4e7b4 : cmsdk: Update PROFILE_PICKER intent action. <Adnan Begovic> 2 days ago
+c67a9eb : cmsdk: Clean up constant linking for javadoc. <Adnan Begovic> 2 days ago
+06fc449 : cmsdk: Return UNKNOWN for impossible sdk ints. <Adnan Begovic> 2 days ago
+ 
+**** vanir:vendor_sony ****
+7c60f74 : Squish to themuppet's huashan with mrc's changes pulled in <nuclearmistake> 2 days ago
+ 
+**** vanir:vendor_vanir ****
+8a9e4d4 : Hack in support for the old version of Maven that Ubuntu apparently ships with <Chris Sarbora> 2 days ago
+93065cf : rendang: Remove unwanted APNs <Lin Ma> 2 days ago
+779f2aa : In light of a recent increse in f0@'s given by cm, let's see if their huashan device tree+blobs work without derping up  a dozen repos with excessive device specificity... like mrc's tree required <nuclearmistake> 2 days ago
+ 
