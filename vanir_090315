@@ -1,0 +1,166 @@
+
+**** cm:android_device_cyanogen_msm8916-common ****
+959365a : msm8916: Enable adaptive LMK support <Steve Kondik> 4 weeks ago
+ 
+**** vanir:device_qcom_common ****
+e9f23d7 : power: Updates for msm8916/msm8939 <Steve Kondik> 15 hours ago
+ 
+**** vanir:device_samsung_mondrianwifi ****
+19ed7e5 : mondrianwifi: audio: Nuke offloading <Christopher R. Palmer> 2 days ago
+0abbd8a : mondrianwifi: audio: Fix installation of audio_effects.conf <Christopher R. Palmer> 2 days ago
+94c114f : mondrianwifi: audio: Kang audio_effects from hlte-common <Christopher R. Palmer> 2 days ago
+ 
+**** cm:android_device_sony_msm8974-common ****
+47ad4d4 : msm8974: enable USB OTG Settings <David Viteri> 26 hours ago
+ 
+**** vanir:device_sony_nicki ****
+f58715e : nicki: use LA.AF.1.1 media codec <RonGokhale> 10 days ago
+7b5282e : nicki: use low end google media codec <RonGokhale> 10 days ago
+070a3e3 : nicki: decouple from 8960-common <RonGokhale> 13 days ago
+3dbfbfc : nicki: overlay: remove duplicate <RonGokhale> 2 months ago
+c6b08da : nicki: inherit msm8960-common at the end <RonGokhale> 5 weeks ago
+7130c91 : nicki: enable charger suspend <RonGokhale> 5 weeks ago
+d524f8b : nicki: Supress User space faults <Samir Mehta> 9 months ago
+d77094f : nicki: show app install location option <RonGokhale> 7 weeks ago
+af9c6f1 : nicki: update wlan configs <RonGokhale> 2 months ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 5 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 5 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 8 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 3 months ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 9 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 3 months ago
+915d977 : nicki: use new perfd-client <RonGokhale> 3 months ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 3 months ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 1 year, 1 month ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 3 months ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 4 months ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 4 months ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 4 months ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 5 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 5 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 5 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 5 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 5 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 5 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 5 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 5 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 5 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 6 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 6 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 6 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 6 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 6 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 6 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 6 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 11 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 8 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 8 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 8 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 8 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 8 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 7 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 8 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 8 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 9 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 8 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 8 months ago
+ 
+**** vanir:device_yu_tomato ****
+da56803 : tomato: Fix init :( <Steve Kondik> 18 hours ago
+3050cfa : tomato: Fix button lights <Steve Kondik> 17 hours ago
+ 
+**** vanir:frameworks_base ****
+eafee42 : systemui: wait for animation end before take a screenshoot <Jorge Ruesga> 26 hours ago
+af34189 : Spam: Close writable DB after use <d34d> 8 hours ago
+777ba8a : zygote: fix memory leak when fork process <Mykola Kondratenko> 5 weeks ago
+76133b7 : Fingerprint: don't start auth if not showing <d34d> 27 hours ago
+59a9055 : Allow default system profile state to be overlayed <Roman Birg> 35 hours ago
+e1b61c1 : Keyguard: Remove bouncer when re-registering status bar <d34d> 27 hours ago
+ 
+**** vanir:kernel_samsung_jf ****
+d298f7e : jf: f2fs: bring up to date with Jaegeuk's branch <Jaegeuk Kim> 20 hours ago
+ 
+**** vanir:kernel_samsung_klte ****
+7acfd53 : bluetooth: bluesleep: Update from Samsung SM-G900F release <Regi24> 10 days ago
+bdad884 : net: guard tcp_set_keepalive() to tcp sockets <Eric Dumazet> 2 years, 11 months ago
+8cfba1b : tracing/syscalls: Fix perf syscall tracing when syscall_nr == -1 <Will Deacon> 3 years, 1 month ago
+0a7c29d : tracing/syscalls: Ignore numbers outside NR_syscalls range <Rabin Vincent> 10 months ago
+9aa22ac : KEYS: close race between key lookup and freeing <Sasha Levin> 8 months ago
+05ae6e8 : eCryptfs: Remove buggy and unnecessary write in file name decode routine <Michael Halcrow> 9 months ago
+96bb9cb : netfilter: conntrack: disable generic tracking for known protocols <Florian Westphal> 11 months ago
+1c538bb : mnt: Only change user settable mount flags in remount <Eric W. Biederman> 1 year, 1 month ago
+16c480d : mnt: Prevent pivot_root from creating a loop in the mount tree <Eric W. Biederman> 11 months ago
+bfa4cb0 : netfilter: nf_conntrack_dccp: fix skb_header_pointer API usages <Daniel Borkmann> 1 year, 8 months ago
+03d270b : vfs: read file_handle only once in handle_to_path <Sasha Levin> 7 months ago
+7743e61 : mm: Fix NULL pointer dereference in madvise(MADV_WILLNEED) support <Kirill A. Shutemov> 1 year, 8 months ago
+82c7e4b : ipv6: Don't reduce hop limit for an interface <D.S. Ljungmark> 5 months ago
+dfd501b : netfilter: nf_conntrack: reserve two bytes for nf_ct_ext->len <Andrey Vagin> 1 year, 5 months ago
+c06795a : net: llc: use correct size for sysctl timeout entries <Sasha Levin> 7 months ago
+b92103d : fs: take i_mutex during prepare_binprm for set[ug]id executables <Jann Horn> 5 months ago
+db30140 : android: drivers: workaround debugfs race in binder <Riley Andrews> 3 months ago
+b0f8223 : msm_serial_hs: Update from Samsung SM-G900F release <Andrea Arcangeli> 10 days ago
+efb9c34 : dualwave: Import from Samsung SM-G900F release <Andrea Arcangeli> 10 days ago
+ 
+**** cm:android_kernel_sony_apq8064 ****
+242e03e : msm: mpdecision: update dcvs algo params at initialization <Steve Muckle> 2 years, 9 months ago
+ea9da69 : Fix gcc-4.9.0 miscompilation of load_balance() in scheduler <Linus Torvalds> 1 year, 1 month ago
+b0ceb72 : block: Disable add_random <Chester Kener> 1 year, 6 months ago
+2713655 : ARM: 7583/1: decompressor: Enable unaligned memory access for v6 and above <Dave Martin> 2 years, 9 months ago
+cce8a27 : PM / Hibernate: Hibernate/thaw fixes/improvements <Bojan Smojver> 3 years, 4 months ago
+c38285d : selinux: correctly label /proc inodes in use before the policy is loaded <Paul Moore> 1 year, 6 months ago
+3e449cd : prctl: make PR_SET_TIMERSLACK_PID pid namespace aware <Micha Kalfon> 9 months ago
+484f9f7 : msm: smd_pkt: Do not print warning message for closed case <Eric Holmberg> 2 years, 6 months ago
+ed8614c : mnt: Only change user settable mount flags in remount <Eric W. Biederman> 1 year, 1 month ago
+42812af : netfilter: nf_conntrack_dccp: fix skb_header_pointer API usages <Daniel Borkmann> 1 year, 8 months ago
+b8e2317 : vfs: read file_handle only once in handle_to_path <Sasha Levin> 7 months ago
+c93df91 : mm: Fix NULL pointer dereference in madvise(MADV_WILLNEED) support <Kirill A. Shutemov> 1 year, 8 months ago
+844c75c : netfilter: nf_conntrack: reserve two bytes for nf_ct_ext->len <Andrey Vagin> 1 year, 5 months ago
+fd7f8b8 : net: llc: use correct size for sysctl timeout entries <Sasha Levin> 7 months ago
+7032e5f : fs: take i_mutex during prepare_binprm for set[ug]id executables <Jann Horn> 5 months ago
+de4b0df : udp: fix behavior of wrong checksums <Eric Dumazet> 3 months ago
+2669ea7 : cpufreq: interactive: Reschedule timer if min_freq is reduced <Junjie Wu> 5 months ago
+3d1a22b : CHROMIUM: cpufreq: interactive: calculate load before freq change <Derek Basehore> 5 months ago
+453277d : cpufreq: interactive: Rearm governor timer at max freq <Rohit Gupta> 6 months ago
+1a06d31 : CHROMIUM: Replace obsolete strict_strtoul calls. <Bryan Freed> 5 months ago
+d53c959 : CHROMIUM: cpufreq: interactive: validate above_hispeed_delay <Andrew Bresticker> 2 years, 1 month ago
+728ac14 : cpufreq: interactive: Honor boosted state in several timer calculations <myfluxi> 1 year, 2 months ago
+515dfae : cpufreq: interactive: Consider changed min limit a frequency boost <myfluxi> 1 year, 1 month ago
+1c3773a : cpufreq: interactive: Honor changed minimum frequency <myfluxi> 1 year, 4 months ago
+f49f5b8 : cpufreq: interactive: Record hispeed_validated_time in timer function <Junjie Wu> 9 months ago
+a3c10d7 : cpufreq: interactive: Exercise hispeed settings at a policy level <Saravana Kannan> 11 months ago
+19b82de : cpufreq: interactive: Add max_freq_hysteresis feature <Junjie Wu> 1 year ago
+d249774 : cpufreq: interactive: Use del_timer/add_timer_on to rearm timers <Junjie Wu> 1 year, 1 month ago
+d1e9d99 : cpufreq: interactive: Reset last evaluated jiffy in idle callback <Junjie Wu> 1 year, 1 month ago
+b79a380 : cpufreq: interactive: Align timer windows for all CPUs <Junjie Wu> 1 year, 4 months ago
+d8e8e35 : cpufreq: interactive: Squashed cleanup patches <Steve Kondik> 1 year ago
+89a6dd7 : cpufreq: Move get_cpu_idle_time() to cpufreq.c <Viresh Kumar> 2 years, 4 months ago
+df87360 : cpufreq: interactive: Move definition of cpufreq_gov_interactive downwards <Viresh Kumar> 2 years, 4 months ago
+c740a9c7 : cpufreq: interactive: Round up timer_rate to match jiffy <Junjie Wu> 1 year, 1 month ago
+be32f8c : smd_pkt: Add sanity check to avoid unregistering the driver twice <Naveen Ramaraj> 6 months ago
+be23a74 : ipv4: Missing sk_nulls_node_init() in ping_unhash(). <David S. Miller> 4 months ago
+ 
+**** vanir:packages_apps_Mms ****
+f5f16e1 : Fix mms failures due to invalid mmsc url <Susheel nyamala> 4 months ago
+3c75cf9 : Mms: show default app icon for unresolved links <Roman Birg> 33 hours ago
+ 
+**** vanir:packages_apps_Settings ****
+5a2f627 : Protected apps: fixup rotation states <Roman Birg> 2 days ago
+f1bf96d : settings: fix fc for system apps with null applicationInfo <Jorge Ruesga> 2 days ago
+e99decb : Settings: Avoid possible NPE if resolve infos return null. <Adnan Begovic> 28 hours ago
+ 
+**** cm:android_packages_providers_TelephonyProvider ****
+857572a : TelephonyProvider: change default user nw mode to invalid <Roman Birg> 29 hours ago
+ 
+**** vanir:packages_services_Telephony ****
+d529e7a : Network Settings: default user mode to preferred mode <Roman Birg> 29 hours ago
+ 
+**** cm:cm_platform_sdk ****
+26272cd : Add Hotword audio capture constants. <Matt Garnes> 3 days ago
+ 
+**** vanir:vendor_sony ****
+6bce316 : msm8974: updated adreno blob from 23.4.x <Giulio Cervera> 10 hours ago
+ 
+**** vanir:vendor_vanir ****
+1c2aa22 : Update Spain APNs <Kra1o5> 30 hours ago
+2afe55e : Update India APNs to YU list <Abhisek Devkota> 19 hours ago
+ 

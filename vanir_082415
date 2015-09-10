@@ -1,0 +1,546 @@
+
+**** vanir:build ****
+bcfca47 : Change the cache partition size check into warnings. <Tao Bao> 2 weeks ago
+8a26e16 : Revise stash for BBOTAs when needed. <Tao Bao> 7 days ago
+407cfc7 : Free the stash after its use in BBOTA v2. <Tao Bao> 11 days ago
+bb4ab1e : Assert the stash size when generating OTAs. <Tao Bao> 3 months ago
+52ffc46 : Check partition hash before resorting to block_image_verify <Sami Tolvanen> 4 months ago
+8b7a6eb : Calculate max_stashed_blocks correctly for block OTA v3 <Sami Tolvanen> 4 months ago
+e1b7582 : Restrict the verification in block-based incremental OTAs <Tao Bao> 6 months ago
+a195bcf : Do not use block_verify on target-files where feature is missing. <Michael Runge> 6 months ago
+080390f : Fix the error that free_string is not defined. <Jesse Zhao> 6 months ago
+957f1ab : product: Let a device customize its own locales <Ricardo Cerqueira> 9 days ago
+ 
+**** cm:android_device_cyanogen_msm8916-common ****
+7ae4131 : msm8916: Add DisplayModeControl support <Steve Kondik> 3 days ago
+ 
+**** vanir:device_htc_dlx ****
+2f5fa96 : fstab: put f2fs above ext4 <Dan Pasanen> 2 hours ago
+86e0d1d : dlx: Switch modes when enabling speaker <Ethan Chen> 7 weeks ago
+70e8daf : dlx: Power off amps when idle <Ethan Chen> 7 weeks ago
+722b284 : dlx: Use VOIP configs for VOIP <Ethan Chen> 7 weeks ago
+86daba7 : dlx: Allow loading of stock EQ parameters <Ethan Chen> 7 weeks ago
+ 
+**** vanir:device_htc_m8 ****
+bc1c8f1 : init: set m8 variant models <Dan Pasanen> 5 days ago
+84aa60b : m8: Use m8-common repo <Bruno Martins> 13 days ago
+ 
+**** vanir:device_lge_d803 ****
+e473fe5 : d803: Build NfcNci <Rashed Abdel-Tawab> 3 months ago
+db498f9 : d803: Recommonize gps.conf <Rashed Abdel-Tawab> 3 months ago
+9ef59fe : d803: Update nfc-brcm config and commonize generic config <Rashed Abdel-Tawab> 5 months ago
+ecd2de9 : d803: Add variant specific sensor configuration <Rashed Abdel-Tawab> 6 months ago
+cb00812 : Revert "d803: Move storage_list.xml to device repos" <Rashed Abdel-Tawab> 6 months ago
+b45410f : NFC: Add HCE declaration <Ricardo Cerqueira> 7 months ago
+0432fab : d803: Update NFC from lollipop release <Rashed Abdel-Tawab> 7 months ago
+136b0de : d803: Update gps.conf to match lollopop release <Rashed Abdel-Tawab> 7 months ago
+479a66b : d803: Move storage_list.xml to device repos <Rashed Abdel-Tawab> 8 months ago
+f1b7373 : d803: Update proprietary list <Rashed Abdel-Tawab> 8 months ago
+15d1b4b : d803: Add device specific gps.conf <Rashed Abdel-Tawab> 8 months ago
+ce26daf : d803: Oops... Format correctly <Rashed Abdel-Tawab> 9 months ago
+27a460c : d803: Canadian stuff, not unlocked <Rashed Abdel-Tawab> 9 months ago
+0f2cd79 : d803: Update build fingerprint <Rashed Abdel-Tawab> 9 months ago
+396a2d9 : D803: Initial Commit Signed-off-by: renderbroken <zkennedy87@gmail.com> <renderbroken> 9 months ago
+ 
+**** cm:android_device_lge_d850 ****
+ced3cd4 : fstab: put f2fs above ext4 <Dan Pasanen> 2 hours ago
+ 
+**** cm:android_device_lge_d851 ****
+352e72c : fstab: put f2fs above ext4 <Dan Pasanen> 2 hours ago
+ 
+**** cm:android_device_lge_d852 ****
+3af5326 : fstab: put f2fs above ext4 <Dan Pasanen> 2 hours ago
+ 
+**** cm:android_device_lge_d855 ****
+a1b9829 : fstab: put f2fs above ext4 <Dan Pasanen> 2 hours ago
+ 
+**** vanir:device_lge_f400 ****
+53d4c0c : Change F400K into F400 for all F400 variants <Joonhyuk Song> 2 weeks ago
+ 
+**** vanir:device_lge_g2-common ****
+b32152a : Raise speaker volume <sudosurootdev> 26 hours ago
+07ccc97 : g2: system_prop: set lge wifi properties. <Daniel Stuart> 4 days ago
+1897070 : g2: BoardConfigCommon: Remove NO_WIFI_HAL entry. <Rashed Abdel-Tawab> 4 days ago
+c17ad7b : g2: Clear up inherrited e2fsck package <Brinly Taylor> 5 months ago
+0c62589 : g2 init: Remove deprecated include for SD card init script <Zdrowy Gosciu> 3 weeks ago
+ 
+**** vanir:device_lge_g3-common ****
+9a142fb : g3: enable streaming av offload <myfluxi> 2 weeks ago
+83b1522 : g3: Use hardware crypto accelerator for ODE <Steve Kondik> 1 year, 5 months ago
+ 
+**** cm:android_device_lge_ls990 ****
+1ae4967 : fstab: put f2fs above ext4 <Dan Pasanen> 2 hours ago
+ 
+**** vanir:device_lge_p880 ****
+d8a6672 : Enable and set Zram Values with lz4 and 256MB of ram <demetris> 29 hours ago
+ 
+**** vanir:device_lge_vs985 ****
+0d2f749 : fstab: put f2fs above ext4 <Dan Pasanen> 2 hours ago
+ 
+**** cm:android_device_motorola_condor ****
+5a5e999 : audio_policy: Disable aac offloading <Sultan Qasim Khan> 3 days ago
+7a7f2d3 : Condor :Blobs: Use Prebuilt libOmxVdec <Sultan Qasim Khan> 2 days ago
+096af18 : Playback : Use low_end google codecs and add msm8x10 codec capabilities <Ashwin> 3 days ago
+dd28381 : Automatic translation import <Tom Powell> 3 days ago
+ 
+**** vanir:motorola_msm8226-common ****
+d281540 : Automatic translation import <Tom Powell> 3 days ago
+bf6c121 : msm8226-common: Fix audio effects configuration <LuK1337> 4 days ago
+ 
+**** vanir:device_motorola_omap4-common ****
+d1e9baa : Automatic translation import <Tom Powell> 3 days ago
+ 
+**** vanir:device_motorola_qcom-common ****
+f199ce2 : Automatic translation import <Tom Powell> 3 days ago
+ 
+**** cm:android_device_motorola_victara ****
+479d8b1 : init: use ro.boot.cid for variant determination <Dan Pasanen> 9 hours ago
+302aef9 : init: add xt1097 <Dan Pasanen> 32 hours ago
+c897ebb : xt1096: get imsi from sim <Dan Pasanen> 3 days ago
+3f22bbb : xt1096: force eri from xml on cdma <Dan Pasanen> 3 days ago
+80e3f53 : overlay: add verizon-specific eri overlays <Dan Pasanen> 3 days ago
+ba9d322 : Automatic translation import <Tom Powell> 3 days ago
+ 
+**** cm:android_device_oppo_find7 ****
+2d9dd1d : find7: Fix system.prop inclusion <Michael Bestas> 2 days ago
+327ed48 : find7: Remove vendorsetup.sh <Michael Bestas> 2 days ago
+2230506 : find7: Cleanup makefiles <Michael Bestas> 2 days ago
+0e66b5f : find7: Update build fingerprint <Michael Bestas> 3 days ago
+ 
+**** cm:android_device_oppo_find7-common ****
+94642c7 : camera: Modify base.common.version API define <Arne Coucheron> 6 months ago
+f3bbde6 : find7: Move system_prop.mk to system.prop <Michael Bestas> 2 days ago
+ 
+**** cm:android_device_oppo_find7s ****
+63b6ea9 : find7s: Fix system.prop inclusion <Michael Bestas> 2 days ago
+5c927ff : find7s: Remove vendorsetup.sh <Michael Bestas> 2 days ago
+f12e512 : find7s: Cleanup makefiles <Michael Bestas> 2 days ago
+36fbaa0 : find7s: Update build fingerprint <Michael Bestas> 3 days ago
+ 
+**** cm:android_device_oppo_msm8974-common ****
+a0e8957 : msm8974: Remove TARGET_USE_QCOM_BIONIC_OPTIMIZATION <Michael Bestas> 2 days ago
+ 
+**** cm:android_device_samsung_d2-common ****
+4cf2e87 : fstab: put f2fs above ext4 <Dan Pasanen> 2 hours ago
+97e7a0b : d2: specify cache partition size <Dave Daynard> 3 days ago
+f81e87e : d2: Move QC MT call speedup config to Telecomm <Ethan Chen> 7 weeks ago
+2188fe5 : d2: Move tty_enabled from Telephony to Telecomm <Sailesh Nepal> 1 year, 1 month ago
+ee490e0 : d2-common: experimental audio changes <Dave Daynard> 4 weeks ago
+36107c2 : d2:  fix 2g data <Shareef Ali> 3 weeks ago
+ 
+**** cm:android_device_samsung_d2vzw ****
+17dbbdb : d2vzw: Force eri.xml <Dave Daynard> 13 days ago
+ 
+**** vanir:device_samsung_jf-common ****
+ea850fb : fstab: put f2fs above ext4 <Dan Pasanen> 2 hours ago
+8fcf9a8 : jf: add ro.telephony.mms_data_profile=5 <dcd> 2 weeks ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+fce57cf : msm8960-common: enable adaptive LMK <Dave Daynard> 3 days ago
+611ade7 : Revert "msm8960-common: audio: disable unused features" <Arne Coucheron> 3 days ago
+ 
+**** vanir:device_samsung_qcom-common ****
+30449b1 : Automatic translation import <Tom Powell> 3 days ago
+ 
+**** cm:android_device_sony_blue-common ****
+f0cfb51 : blue: decouple from 8960-common <Georg Veichtlbauer> 4 days ago
+ 
+**** cm:android_device_sony_msm8960-common ****
+7527504 : build: exclude taoshan <Georg Veichtlbauer> 17 hours ago
+c9c3c00 : build: exclude huashan <Mrcl1450> 3 hours ago
+235b466 : build: exclude blue <Georg Veichtlbauer> 4 days ago
+ 
+**** vanir:device_sony_nicki ****
+3dbfbfc : nicki: overlay: remove duplicate <RonGokhale> 9 weeks ago
+c6b08da : nicki: inherit msm8960-common at the end <RonGokhale> 4 weeks ago
+7130c91 : nicki: enable charger suspend <RonGokhale> 4 weeks ago
+d524f8b : nicki: Supress User space faults <Samir Mehta> 8 months ago
+d77094f : nicki: show app install location option <RonGokhale> 6 weeks ago
+af9c6f1 : nicki: update wlan configs <RonGokhale> 9 weeks ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 4 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 5 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 7 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 3 months ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 9 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 3 months ago
+915d977 : nicki: use new perfd-client <RonGokhale> 3 months ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 3 months ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 1 year, 1 month ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 3 months ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 4 months ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 4 months ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 4 months ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 4 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 5 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 5 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 5 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 5 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 5 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 5 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 5 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 5 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 6 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 6 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 6 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 6 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 6 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 6 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 6 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 11 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 7 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 7 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 8 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 8 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 8 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 7 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 7 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 7 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 9 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 7 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 7 months ago
+c4b4a39 : nicki: update fstab <RonGokhale> 7 months ago
+1bd9501 : nicki: add charging and mass storage mode <RonGokhale> 8 months ago
+7bbf4d5 : nicki: sync prima INI file with LA.AF.1.1_rb1.8 <RonGokhale> 8 months ago
+ 
+**** cm:android_device_sony_taoshan ****
+70170e5 : taoshan: decouple from 8960-common <Mrcl1450> 3 days ago
+1876731 : taoshan: update audio flags <Varun Chitre> 7 days ago
+a758abd : taoshan: fstab: remove discard flag <Varun Chitre> 2 weeks ago
+d0b8344 : taoshan: set FIOPS as default ioscheduler <Varun Chitre> 3 weeks ago
+dec83bc : taoshan: wlan: enable keep alive <Varun Chitre> 3 weeks ago
+ 
+**** cm:android_device_yu_lettuce ****
+b425f62 : lettuce: Use device specific thermal settings <Pat Erley> 4 days ago
+ 
+**** vanir:device_yu_tomato ****
+114240f : tomato: New thermal tunings <Pat Erley> 4 days ago
+fc5b989 : tomato: Specify TARGET_LOCALES <Ricardo Cerqueira> 4 days ago
+ 
+**** vanir:external_wpa-supplicant-8 ****
+b5ab0d9 : Revert "eap_peer: add more qmi dependencies with qmi proxy" <Scott Mertz> 4 days ago
+2546986 : eap_peer: add more qmi dependencies with qmi proxy <Scott Mertz> 5 days ago
+8ed875d : EAP-pwd server: Fix payload length validation for Commit and Confirm <Jouni Malinen> 4 months ago
+bc6d395 : EAP-pwd server: Fix Total-Length parsing for fragment reassembly <Jouni Malinen> 3 months ago
+2641b9a : EAP-pwd peer: Make sure in_frag_pos is cleared to zero on allocation. <Jouni Malinen> 4 months ago
+7fcbd0b : EAP-pwd peer: Fix asymmetric fragmentation behavior. <Jouni Malinen> 4 months ago
+803f4d7 : EAP-pwd peer: Fix Total-Length parsing for fragment reassembly. <Jouni Malinen> 4 months ago
+2f15885 : EAP-pwd peer: Fix payload length validation for Commit and Confirm. <Jouni Malinen> 4 months ago
+d63bdf8 : AP WMM: Fix integer underflow in WMM Action frame parser. <Jouni Malinen> 4 months ago
+db9f985 : WPS: Check maximum HTTP body length earlier in the process. <Jouni Malinen> 4 months ago
+87a99b6 : WPS: Extra validation step for HTTP reader <Jouni Malinen> 4 months ago
+4586aba : WPS: Fix HTTP chunked transfer encoding parser. <Jouni Malinen> 4 months ago
+17ffbf7 : WPS: Configure the priority for the WPS networks. <Ashwini Patil> 3 months ago
+55dc720 : Advertize cross connection p2p ie's to WLAN AP on a non p2p interface <Sunil Dutt> 4 months ago
+01421cb : P2P: Validate SSID element length before copying it <Jouni Malinen> 5 months ago
+ 
+**** vanir:frameworks_av ****
+9f12d31 : Revert "stagefright: Remove deprecated Exynos platform variant logic" <Ethan Chen> 2 days ago
+57d5b6c : stagefright: Remove deprecated Exynos platform variant logic <Ethan Chen> 10 days ago
+b9abf6c : soundpool: update sample rate when reusing audiotrack <Dhananjay Kumar> 6 months ago
+124daae : soundpool: reuse channel for same sample if available <Dhananjay Kumar> 8 months ago
+07b9698 : mediaplayerservice: reset mBytesWritten in AudioSink flush and stop <Satya Krishna Pindiproli> 5 weeks ago
+eae6ae1 : stagefright: Correct Exynos4 stride alignment <Caio Schnepper> 3 weeks ago
+ 
+**** vanir:frameworks_base ****
+41aa07c : Add the user set network mode to the siminfo table <Chirayu Desai> 5 weeks ago
+602f69d : add config for proximity check on screen on default value <Scott Mertz> 3 days ago
+738ba60 : SystemUI: use new visualizer from Eleven <Utkarsh Gupta> 7 days ago
+cf60acb : Automatic translation import <Tom Powell> 3 days ago
+f0be7d0 : Filter internal account when set device owner <blong> 3 months ago
+b0cc052 : Modify SILENT profile to restrict notification sound <Vinay Verma> 3 weeks ago
+bbc9816 : Fix return to task when single task activity is brought to front <Sashidhar Ganiga> 4 months ago
+93a5d63 : Trim task thumbnail within MAX_RECENT_BITMAPS. <jinchul.kim> 5 months ago
+44c8c5b : Bluetooth: Check for mPanservice before changing tethering state <Nitin Shivpure> 6 months ago
+31651bc : Bluetooth: Fix for crash in multi advertiser <Kiran Kelageri> 5 months ago
+3bd71ab : Keyguard: Adding null check for dateformat <Jack Yoo> 3 months ago
+8f58d28 : Blank area appears between QS and Notification <Shammi Khattar> 3 weeks ago
+42e9282 : Automatic translation import <Tom Powell> 4 days ago
+dfd9665 : Automatic translation import <Tom Powell> 4 days ago
+d287a73 : Automatic translation import <Tom Powell> 4 days ago
+8fcdd2f : Themes: Allow packages to be set as non-themeable <d34d> 4 days ago
+ 
+**** vanir:frameworks_native ****
+e8e1aef : Revert "binder: Remove deprecated Exynos platform variant logic" <Ethan Chen> 2 days ago
+96bc54b : binder: Remove deprecated Exynos platform variant logic <Ethan Chen> 10 days ago
+ 
+**** vanir:frameworks_opt_net_wifi ****
+3814251 : Wifi: set mConnected true before start monitor thread <Hu Wang> 4 months ago
+e7a1c36 : wifi: do not adjust wifi score when WQE is enabled <sanketk> 8 weeks ago
+4cbf095 : Wifi: get rid of the log from Gbk2Utf <Hu Wang> 4 months ago
+d169112 : Wifi:Set framework disconnected state scan interval when P2P connected <Nalla Kartheek> 4 months ago
+268eb61 : WiFi : Enable saved profiles, before PNO is issued <Nalla Kartheek> 3 months ago
+a951636 : WiFi:Configure the priority for the profiles obtained by WPS connection <Nalla Kartheek> 3 months ago
+e113dea : Wifi: Reduce the frequency of scans in disconnected state and display ON <Nalla Kartheek> 6 months ago
+221cd07 : Wifi: Screen state to set/reset mEnableBackgroundScan <Nalla Kartheek> 5 months ago
+9dcfba1 : Wifi: Disable PNO (if enabled) only when the scan is allowed to trigger <Nalla Kartheek> 5 months ago
+53a7b53 : wifi: broadcast bssid change event <Sagar Regmi> 5 months ago
+eaf1111 : Wifi: Do not enable saved networks in ConnectedState <Nalla Kartheek> 5 months ago
+135c664 : Wifi: Filter the scan results based on the configured band <Nalla Kartheek> 6 months ago
+229e3de : wifi: Handle the NULL check for the STATUS command <c_rrajiv> 5 months ago
+819c6d1 : Wifi: Exit the monitor thread when killSupplicant is issued. <Hu Wang> 5 months ago
+ 
+**** vanir:frameworks_opt_telephony ****
+c5c3fbc : Add the user set network mode to the siminfo table <Chirayu Desai> 4 weeks ago
+67c4a99 : Change network mode on data sub change <Chirayu Desai> 9 weeks ago
+ 
+**** cm:android_hardware_qcom_bt ****
+f3fe2e0 : Bluetooth: Fix for BT crashes during preload timeout <pramod kotreshappa> 3 months ago
+340ffaa : Bluetooth: Fix for ANT standalone turn on failure <pramod kotreshappa> 4 months ago
+c606d27 : Bluetooth: Send controller logging VS cmd after wcnss filter init <pramod kotreshappa> 4 months ago
+c6a374a : Bluetooth: Fix to handle invalid VS event during patch download <pramod kotreshappa> 5 months ago
+a0dc758 : Bluetooth: Get FW build label information from VS command <Bhakthavatsala Raghavendra> 5 months ago
+ 
+**** cm:android_hardware_qcom_fm ****
+4d677e9 : Automatic translation import <Tom Powell> 3 days ago
+ 
+**** cm:android_kernel_htc_msm8960 ****
+31fdaf5 : block: row: Remove warning massage from add_request <Tatyana Brokhman> 2 years, 1 month ago
+9ec45a4 : block: row: change hrtimer_cancel to hrtimer_try_to_cancel <Tatyana Brokhman> 2 years, 2 months ago
+113df27 : block: row-iosched idling triggered by readahead pages <Lee Susman> 2 years, 2 months ago
+ 
+**** vanir:kernel_htc_msm8974 ****
+47993c2 : Final tweak for intelli-plug update <varchild> 3 days ago
+c3b4091 : More intelli-plug tweaks and state_notifier import <varchild> 3 days ago
+76dcbbd : More intelli-plug tweaks <varchild> 3 days ago
+4212ea2 : Intelli-plug update <varchild> 3 days ago
+783167b : Stability testing <varchild> 7 days ago
+ 
+**** vanir:kernel_lge_g3 ****
+0277a35 : g3: regen defconfigs <Dan Pasanen> 3 hours ago
+adc638d : dm-req-crypt: check argc before access argv[5] <Amir Samuelov> 1 year ago
+1518a31 : platform: msm: fix PFT when using direct-io <Amir Samuelov> 1 year, 2 months ago
+01c57e5 : msm: cleanup and minor fixes for PFT driver <Amir Samuelov> 1 year, 2 months ago
+370efdd : platform: msm: fix PFT char device major number <Amir Samuelov> 1 year, 3 months ago
+f2c14a9 : platform: msm: pft: fix close all encrypted files <Amir Samuelov> 1 year, 3 months ago
+459b9a2 : platform: msm: add Per-File-Tagger (PFT) driver <Amir Samuelov> 1 year, 3 months ago
+d2eae02 : dm: dm-req-crypt: add support for Per-File-Encryption <Amir Samuelov> 1 year, 2 months ago
+c4d9ff2 : Setting correct HW crypto driver instance for FDE <Dinesh K Garg> 1 year, 3 months ago
+92c0c6f : dm: Clean up dm-req-crypt <Dinesh K Garg> 1 year, 6 months ago
+a8a0240 : dm: Adding support of AES 256 bits in dm-req-crypt <Dinesh K Garg> 1 year, 6 months ago
+8b3cabd : dm: updating crypto algorithm used by dm-req-crypt <Dinesh K Garg> 1 year, 7 months ago
+bb6a2ca : dm: Request based dm-crypt <Dinesh K Garg> 1 year, 8 months ago
+ad29617 : Delete powersuspend and adreno idler <Joonhyuk Song> 2 weeks ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+479ca8b : input: touchscreen: g2: Display touch_gesture value <Zdrowy Gosciu> 11 days ago
+ 
+**** cm:lge-kernel-p880 ****
+059b03c : defconfig: enable SWAP,ZCACHE and LZ4 -Fix Merge issues <demetris> 3 days ago
+94bc212 : mm/zsmalloc: allocate exactly size of struct zs_pool <Ganesh Mahendran> 9 months ago
+5634b79 : zsmalloc: correct fragile [kmap|kunmap]_atomic use <Minchan Kim> 9 months ago
+6939a15 : lib: lz4: Set ARM_EFFICIENT_UNALIGNED_ACCESS <Shashank Shekhar> 9 months ago
+10b03e4 : zsmalloc: merge size_class to reduce fragmentation <Joonsoo Kim> 9 months ago
+799dc25 : zsmalloc: simplify init_zspage free obj linking <Dan Streetman> 11 months ago
+e3af638 : zcache: Use zs_get_total_size_pages <nadlabak> 5 months ago
+32e0b48 : zsmalloc: change return value unit of zs_get_total_size_bytes <Minchan Kim> 11 months ago
+831e78b : zsmalloc: move pages_allocated to zs_pool <Minchan Kim> 11 months ago
+e82370c : crypto: lz4,lz4hc - fix decompression <KOVACS Krisztian> 1 year ago
+e509d30 : crypto: add lz4 Cryptographic API <Chanho Min> 2 years, 2 months ago
+e9c3f05 : staging: zsmalloc: add mapping modes <Seth Jennings> 3 years, 2 months ago
+22d701d : zcache: Fix zsmalloc include <Emerson Pinter> 5 months ago
+a16817d : staging: zsmalloc: zsmalloc: use unsigned long instead of void * <Minchan Kim> 3 years, 3 months ago
+fb93edc : lz4: add overrun checks to lz4_uncompress_unknownoutputsize() <Greg Kroah-Hartman> 1 year, 2 months ago
+cbb6461 : lz4: fix another possible overrun <Greg Kroah-Hartman> 1 year, 2 months ago
+0dc0544 : lz4: ensure length does not wrap <Greg Kroah-Hartman> 1 year, 2 months ago
+ff34162 : lz4: fix compression/decompression signedness mismatch <Sergey Senozhatsky> 1 year, 11 months ago
+180972b : lib/lz4: correct the LZ4 license <Richard Laager> 2 years ago
+d95cb5d : lib: add lz4 compressor module <Chanho Min> 2 years, 2 months ago
+5c0c25f : lib: add support for LZ4-compressed kernel <Kyungsik Lee> 2 years, 2 months ago
+ff5ba6d : decompressor: add LZ4 decompressor module <Kyungsik Lee> 2 years, 2 months ago
+9bd94cf : zram: fix incorrect stat with failed_reads <Chao Yu> 12 months ago
+7086b6e : zram: replace global tb_lock with fine grain lock <Weijie Yang> 6 months ago
+b2cc4f9 : zram: use size_t instead of u16 <Minchan Kim> 1 year, 1 month ago
+47b7e12 : zram: remove unused SECTOR_SIZE define <Sergey Senozhatsky> 1 year, 1 month ago
+b8f6835 : zram: rename struct `table' to `zram_table_entry' <Sergey Senozhatsky> 1 year, 1 month ago
+b81a70b : zram: avoid lockdep splat by revalidate_disk <Minchan Kim> 1 year, 1 month ago
+fcaf611 : zram: revalidate disk after capacity change <Minchan Kim> 1 year, 2 months ago
+31b732c : zram: correct offset usage in zram_bio_discard <Weijie Yang> 1 year, 3 months ago
+09571d5 : zram: support REQ_DISCARD <Joonsoo Kim> 1 year, 5 months ago
+1532ff0 : zram: use scnprintf() in attrs show() methods <Sergey Senozhatsky> 1 year, 5 months ago
+e2d694f : zram: propagate error to user <Minchan Kim> 1 year, 5 months ago
+00a3d9f : zram: return error-valued pointer from zcomp_create() <Sergey Senozhatsky> 1 year, 5 months ago
+7e0c8c5 : zram: move comp allocation out of init_lock <Sergey Senozhatsky> 1 year, 5 months ago
+4bb6bd6 : zram: add lz4 algorithm backend <Sergey Senozhatsky> 1 year, 5 months ago
+8975789 : zram: make compression algorithm selection possible <Sergey Senozhatsky> 1 year, 5 months ago
+b5932ec : zram: add set_max_streams knob <Sergey Senozhatsky> 1 year, 5 months ago
+7f02027 : zram: add multi stream functionality <Sergey Senozhatsky> 1 year, 5 months ago
+bd3bc71 : zram: document failed_reads, failed_writes stats <Sergey Senozhatsky> 1 year, 5 months ago
+d53e970 : zram: factor out single stream compression <Sergey Senozhatsky> 1 year, 5 months ago
+3587d73 : zram: use zcomp compressing backends <Sergey Senozhatsky> 1 year, 5 months ago
+5ff8a34 : zram: introduce compressing backend abstraction <Sergey Senozhatsky> 1 year, 5 months ago
+8a8b383 : zram: delete zram_init_device() <Sergey Senozhatsky> 1 year, 5 months ago
+5ca77ce : zram: move zram size warning to documentation <Sergey Senozhatsky> 1 year, 5 months ago
+f971a43 : zram: drop not used table `count' member <Sergey Senozhatsky> 1 year, 5 months ago
+327dab3 : zram: report failed read and write stats <Sergey Senozhatsky> 1 year, 5 months ago
+7b1539a : zram: remove zram stats code duplication <Sergey Senozhatsky> 1 year, 5 months ago
+3adaabc : zram: use atomic64_t for all zram stats <Sergey Senozhatsky> 1 year, 5 months ago
+77e4e93 : zram: remove good and bad compress stats <Sergey Senozhatsky> 1 year, 5 months ago
+ 
+**** cm:android_kernel_oneplus_msm8974 ****
+b3c4370 : find7: Update defconfig <Steve Kondik> 3 weeks ago
+ 
+**** cm:android_kernel_samsung_d2 ****
+7752cf1 : kernel/hz.bc: ignore. <Rusty Russell> 2 years, 4 months ago
+0e2fb88 : ARM: mm: use inner-shareable barriers for TLB and user cache operations <Will Deacon> 2 years, 3 months ago
+9105adc : ARM: 7873/1: vfp: clear vfp_current_hw_state for dying cpu <Yuanyuan Zhong> 1 year, 10 months ago
+b51dd88 : ARM: 7553/1: proc-v7: Ensure correct instruction set after cpu_reset <Dave Martin> 2 years, 10 months ago
+2480c7f : ARM: 7953/1: mm: ensure TLB invalidation is complete before enabling MMU <Will Deacon> 1 year, 7 months ago
+f1e763e : ARM: 7784/1: mm: ensure SMP alternates assemble to exactly 4 bytes with Thumb-2 <Will Deacon> 2 years, 1 month ago
+3cc96af : ARM: 7691/1: mm: kill unused TLB_CAN_READ_FROM_L1_CACHE and use ALT_SMP instead <Will Deacon> 2 years, 5 months ago
+0209117 : ARM: 7660/1: tlb: add branch predictor maintenance operations <Will Deacon> 2 years, 6 months ago
+286cf93 : ARM: 7678/1: Work around faulty ISAR0 register in some Krait CPUs <Stepan Moskovchenko> 2 years, 5 months ago
+c42e558 : ARM: 7680/1: Detect support for SDIV/UDIV from ISAR0 register <Stephen Boyd> 2 years, 5 months ago
+9954736 : ARM: mm: update __v7_setup() to the new LoUIS cache maintenance API <Santosh Shilimkar> 2 years, 11 months ago
+7f70393 : ARM: 8387/1: arm/mm/dma-mapping.c: Add arm_coherent_dma_mmap <Mike Looijmans> 3 months ago
+49bb6b5 : Revert "Revert "Revert "mm: add cma pcp list""" <Steve Kondik> 3 weeks ago
+f9f6d53 : lowmemorykiller: adapt to vmpressure <Vinayak Menon> 6 months ago
+6623b73 : lowmemorykiller: Do proper NULL checks <Susheel Khiani> 6 months ago
+4f91730 : lowmemorykiller: Run the lowmemory notifier when killing <Laura Abbott> 11 months ago
+98a8975 : lowmemorykiller: Dump out slab state information <Laura Abbott> 11 months ago
+aa0a72e : lowmemorykiller: enhance debug information <Liam Mark> 1 year, 3 months ago
+e2caa74 : lowmemorykiller: use for_each_thread instead of buggy while_each_thread <Vinayak Menon> 3 months ago
+82f06cd : lowmemorykiller: make default lowmemorykiller debug message useful <Colin Cross> 2 years, 4 months ago
+b4539f7 : mm: Add notifier framework for showing memory <Laura Abbott> 11 months ago
+8dc9a8d : mm: vmpressure: allow in-kernel clients to subscribe for events <Vinayak Menon> 6 months ago
+cbacc33 : Revert "Revert "mm: add cma pcp list"" <Liam Mark> 9 weeks ago
+a906d22 : ARM: DMA: ensure that old section mappings are flushed from the TLB <Russell King> 1 year, 1 month ago
+735a6c6 : cma: Increase number of retries for allocation <Susheel Khiani> 6 months ago
+2c1db6a : cma: Add 100ms delay before retrying for CMA allocation <Susheel Khiani> 7 months ago
+ffd959a : dma-contiguous: Re-order the error handling sequence <Chintan Pandya> 8 months ago
+c3c65a1 : cma: Return 0 on error path <Laura Abbott> 1 year, 4 months ago
+43c2681 : cma: Call dma_contiguous_early_fixup after allocation <Laura Abbott> 1 year, 4 months ago
+12c4054 : cma: Delay non-placed memblocks until after all allocations <Laura Abbott> 1 year, 5 months ago
+ce3f4a2 : dma-contiguous: Retrun 'zero' pfn in case of error <Chintan Pandya> 1 year, 4 months ago
+2941c63 : cma: Drop the right mutex <Laura Abbott> 1 year, 5 months ago
+ccebc3c : cma: Make locking finer grained <Laura Abbott> 1 year, 5 months ago
+052729d : cma: use be32_to_cpup for devicetree conversion <Laura Abbott> 1 year, 9 months ago
+8af13fc : cma: Drop alignment requirements for regions not in system <Laura Abbott> 1 year, 7 months ago
+a462cea : drivers: Add dma-removed dma_ops <Laura Abbott> 1 year, 9 months ago
+854e7bd : Revert "arm: Add option to skip buffer zeroing" <Dave Daynard> 6 days ago
+eaf1ac1 : cma: Add support for removed regions <Laura Abbott> 1 year, 9 months ago
+750bd77 : cma: Change to reserve-contiguous-region <Laura Abbott> 1 year, 9 months ago
+29ec2e0 : cma: Add support for status in DT nodes <Laura Abbott> 1 year, 6 months ago
+4873d5b : cma: Make the default CMA region not reserved by default <Laura Abbott> 1 year, 6 months ago
+10a0f5e : cma: print physical addresses correctly <Laura Abbott> 1 year, 11 months ago
+c70d417 : cma: Add support for memory limits <Laura Abbott> 1 year, 11 months ago
+fd8f8e0 : cma: Add support for different size_cells and address_cells <Laura Abbott> 1 year, 11 months ago
+a74a5e6 : ARM: 7430/1: sizes.h: move from asm-generic to <linux/sizes.h> <Alessandro Rubini> 3 years, 2 months ago
+c2bc29a : drivers: Add option to reserve default CMA region <Laura Abbott> 2 years, 2 months ago
+b9ab961 : drivers: cma: Fix wrong CMA selected region size default value <Laurent Pinchart> 2 years, 10 months ago
+927d194 : cma: Increase the default number of regions <Laura Abbott> 1 year, 6 months ago
+d0afc4f : cma: Remove potential deadlock situation <Laura Abbott> 1 year, 6 months ago
+8628f24 : cma: Allow option to use strict memblock_reserved memory <Laura Abbott> 2 years, 4 months ago
+ 
+**** cm:android_kernel_sony_apq8064 ****
+094cdd1 : Enable conservative governor. <Jose Ferreira> 2 days ago
+ 
+**** vanir:platform_manifest ****
+9a63f58 : manifest: move mips prebuilts into notdefault <Arnav Gupta> 3 days ago
+7d70c28 : deeerp <nuclearmistake> 4 days ago
+16ac50a : partially variantize m8 <nuclearmistake> 4 days ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+2637e4b : Automatic translation import <Tom Powell> 4 days ago
+ 
+**** cm:android_packages_apps_Calendar ****
+0a9d9fc : Automatic translation import <Tom Powell> 4 days ago
+ 
+**** vanir:packages_apps_Contacts ****
+5188cfd : Automatic translation import <Tom Powell> 3 days ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+0cd0bf4 : Automatic translation import <Tom Powell> 3 days ago
+ 
+**** vanir:packages_apps_DeskClock ****
+a01047d : Expose FAB elevation value for themes. <Dave Kover> 3 days ago
+58238cf : Automatic translation import <Tom Powell> 3 days ago
+7662235 : Automatic translation import <Tom Powell> 4 days ago
+cc5f632 : Automatic translation import <Tom Powell> 4 days ago
+169fa50 : Automatic translation import <Tom Powell> 4 days ago
+ 
+**** vanir:packages_apps_Dialer ****
+109000d : Automatic translation import <Tom Powell> 3 days ago
+7619a37 : Automatic translation import <Tom Powell> 4 days ago
+ 
+**** cm:android_packages_apps_Email ****
+142a1f8 : Automatic translation import <Tom Powell> 3 days ago
+1874e00 : Automatic translation import <Tom Powell> 4 days ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+52a4634 : Automatic translation import <Tom Powell> 3 days ago
+ 
+**** vanir:packages_apps_InCallUI ****
+ba25da7 : Automatic translation import <Tom Powell> 3 days ago
+23c5ef0 : Automatic translation import <Tom Powell> 4 days ago
+ 
+**** vanir:packages_apps_LockClock ****
+5e1f12d : Automatic translation import <Tom Powell> 3 days ago
+f70169f : Automatic translation import <Tom Powell> 4 days ago
+697c371 : Automatic translation import <Tom Powell> 4 days ago
+b0593c7 : Automatic translation import <Tom Powell> 4 days ago
+ 
+**** vanir:packages_apps_Mms ****
+cf728d8 : Automatic translation import <Tom Powell> 3 days ago
+7d55bcb : Improve QuickMessage string <Michael Bestas> 3 days ago
+a1de05d : Mms: Check whether data is enabled on current subscription <Ethan Chen> 3 days ago
+cf56d78 : Mms: Use system API for setDataEnabled <Ethan Chen> 3 days ago
+2f46b9f : QuickMessage: Make useful on lockscreen <Stephen Bird> 6 days ago
+f4466dc : Automatic translation import <Tom Powell> 4 days ago
+3e5d957 : Automatic translation import <Tom Powell> 4 days ago
+ebcc561 : Automatic translation import <Tom Powell> 4 days ago
+ 
+**** vanir:packages_apps_Settings ****
+c765909 : Settings: obey prevent accidental wakeup default <Scott Mertz> 3 days ago
+11abb37 : settings: LiveDisplay color profiles <Steve Kondik> 5 days ago
+c05f589 : Automatic translation import <Tom Powell> 3 days ago
+663dc2c : Automatic translation import <Tom Powell> 4 days ago
+51a335a : Automatic translation import <Tom Powell> 4 days ago
+b78d9c5 : Automatic translation import <Tom Powell> 4 days ago
+ 
+**** cm:android_packages_apps_Stk ****
+eba68dd : Automatic translation import <Tom Powell> 3 days ago
+ 
+**** cm:android_packages_apps_Terminal ****
+4e4c908 : Automatic translation import <Tom Powell> 3 days ago
+ 
+**** vanir:packages_apps_ThemeChooser ****
+9ecc694 : Automatic translation import <Tom Powell> 3 days ago
+7ca56bf : Automatic translation import <Tom Powell> 4 days ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+54eafdd : Automatic translation import <Tom Powell> 4 days ago
+ 
+**** vanir:packages_providers_DownloadProvider ****
+b6ce267 : Automatic translation import <Tom Powell> 3 days ago
+ 
+**** cm:android_packages_providers_TelephonyProvider ****
+9542f79 : Add the user set network mode to the siminfo table <Chirayu Desai> 5 weeks ago
+ 
+**** cm:android_packages_providers_ThemesProvider ****
+c3469bf : Automatic translation import <Tom Powell> 3 days ago
+ 
+**** vanir:packages_services_Telecomm ****
+54053f3 : Automatic translation import <Tom Powell> 3 days ago
+ 
+**** vanir:packages_services_Telephony ****
+9def8bc : For non-data SIMs, only set user configured mode, not preferred mode. <Chirayu Desai> 9 weeks ago
+0d8d3d5 : Remove network mode handling for other SIM <Chirayu Desai> 9 weeks ago
+a8c1296 : Automatic translation import <Tom Powell> 3 days ago
+5a7b064 : Telephony : Null check cellInfo before calling addAll <Danesh M> 3 days ago
+ 
+**** cm:android_packages_wallpapers_PhotoPhase ****
+3363962 : Automatic translation import <Tom Powell> 3 days ago
+59df4cc : Automatic translation import <Tom Powell> 4 days ago
+ 
+**** cm:cm_platform_sdk ****
+ba4db5a : cmhw: Add makeDefault arg to setDisplayMode <Steve Kondik> 5 days ago
+648c91f : Automatic translation import <Tom Powell> 4 days ago
+b23c181 : Automatic translation import <Tom Powell> 4 days ago
+fd406e9 : Automatic translation import <Tom Powell> 4 days ago
+ 
+**** vanir:vendor_htc ****
+6c24b87 : m8: Create m8-common and split m8 from m8dug <Bruno Martins> 13 days ago
+ 
+**** vanir:vendor_motorola ****
+baa70e3 : Condor : Use Prebuilt libOmxVdec <Ashwin> 2 days ago
+ 

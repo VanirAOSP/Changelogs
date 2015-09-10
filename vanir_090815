@@ -1,0 +1,322 @@
+
+**** vanir:bionic ****
+db3fa6f : cortex-a53: Use cortex-a7/bionic/memset.S instead of cortex-a15/bionic/memset.S <Men_in_black007> 3 days ago
+3225b83 : Remove pushes from memsets (krait/cortex-a9). <Christopher Ferris> 6 weeks ago
+22ee2dc : Replace bx lr with update of pc from the stack. <Christopher Ferris> 9 weeks ago
+2e5e2d0 : Use unified syntax to compile with both llvm and gcc. <Chih-Hung Hsieh> 4 months ago
+02b4462 : Add optimized cortex-a7/cortex-a53 memset/memcpy. <Christopher Ferris> 7 weeks ago
+49bb841 : Revert "Replace memcpy with the cortex-strings implementation" <Steve Kondik> 3 weeks ago
+0196aa9 : Revert "Add optimized cortex-a7/cortex-a53 memset/memcpy." <Steve Kondik> 3 weeks ago
+cbb6fcc : libc: remove bcopy from memmove on 64-bit architectures <Jake Weinstein> 3 weeks ago
+94c894b : Fix lgamma_r/lgammaf_r/lgammal_r for -0. <Elliott Hughes> 12 months ago
+4bb237a : libc: Fix strict-aliasing violations. <Kyle Repinski> 5 months ago
+ 
+**** vanir:build ****
+d7a213b : Add darwin support for f2fs host tools <Keith Mok> 5 days ago
+f28d284 : releasetools: Fix the bug when deleting files. <Tao Bao> 5 days ago
+2eeb136 : releasetools: Fix the bug in symlink deletion. <Tao Bao> 6 days ago
+91f91b8 : build: allow using host flex binary <luca020400> 2 days ago
+8e96ff3 : libc: warn strict <nuclearmistake> 3 days ago
+ 
+**** cm:android_device_cyanogen_msm8916-common ****
+b50f15c : msm8916: Use the trigger to activate low power modes <Steve Kondik> 29 hours ago
+8846d70 : msm8916: Adjust the flags used for mm-parser <Steve Kondik> 3 days ago
+3049b29 : msm8916: Allow perfd to read mediaserver /proc/pid files <Steve Kondik> 3 days ago
+b73e6c0 : msm8916: Add opt-out of common WCNSS configuration <Steve Kondik> 3 days ago
+ 
+**** cm:android_device_cyanogen_msm8939-common ****
+729e1e6 : msm8939: format cache partition if unformatted <Keith Mok> 4 days ago
+ed4eb32 : msm8939-common: Disable earlyprintk <Steve Kondik> 4 days ago
+ 
+**** vanir:device_htc_m7-common ****
+fc45fdf : m7-common: Don't track amplifier output devices <Ethan Chen> 2 days ago
+ 
+**** cm:android_device_htc_m8-common ****
+2b9bed2 : ril: Update wrapper script to consider DSDA variants <Bruno Martins> 5 days ago
+6f0a2d5 : Revert "m8: do not build f2fs on Mac" <Brinly Taylor> 27 hours ago
+ 
+**** vanir:device_lge_g2-common ****
+9fc87ed : g2-common: Add custom audio platform info <Ethan Chen> 3 weeks ago
+d495204 : g2: system_prop: Set correct audio props. <Daniel Stuart> 3 weeks ago
+c58cd45 : Add support for IPV6 in AGPS Interface <Dante Russo> 1 year, 1 month ago
+61030ae : g2: gps: Cleanup and remove useless files <Rashed Abdel-Tawab> 2 weeks ago
+61721f4 : g2: init: Disable notify on migrate <Steve Kondik> 4 weeks ago
+ 
+**** vanir:motorola_msm8226-common ****
+d8c57b5 : msm8226-common: Add LED brightness control support <Gabriele M> 9 days ago
+80ceb04 : msm8226-common: Fix LED notifications <Gabriele M> 3 weeks ago
+de93ab6 : msm8226-common: rootdir: remove default_values <Luca Stefani> 8 days ago
+ 
+**** vanir:device_oneplus_bacon ****
+b0d6e93 : bacon: remove discard android does this automatically <Dan Pasanen> 4 weeks ago
+bacd73a : bacon: Enable 12k and 24k sampling rates in offload path <myfluxi> 6 months ago
+1744cac : bacon: support f2fs /data and /cache <dcd> 8 months ago
+1908ffc : bacon: update fingerprint <Andreas Blaesius> 4 days ago
+ 
+**** cm:android_device_oppo_find7-common ****
+59d217a : find7: remove discard android does this automatically <Dan Pasanen> 4 weeks ago
+2469149 : find7: Don't ask for SIM PIN after leaving APM <jumoog> 4 days ago
+9ce3701 : find7-common: support f2fs /data and /cache <dcd> 8 months ago
+6618663 : find7: Enable 12k and 24k sampling rates in offload path <myfluxi> 6 months ago
+ 
+**** cm:android_device_oppo_msm8974-common ****
+8f2b0d4 : msm8974: Remove TARGET_USES_C2D_COMPOSITION <Sultanxda> 6 months ago
+5f7dd5a : msm8974: Enable BFQ after system is ready <Steve Kondik> 3 days ago
+a7749c7 : msm8974: Enable new sample rate representation <myfluxi> 6 months ago
+0a7b716 : msm8974: Reenable migration notifier <Steve Kondik> 3 days ago
+b8c8d82 : oppo_msm8974-common: support f2fs volumes <dcd> 8 months ago
+ 
+**** vanir:device_qcom_common ****
+fc552c7 : power: Boost improvements <Steve Kondik> 5 days ago
+ 
+**** vanir:device_qcom_sepolicy ****
+a06d6bb : sepolicy: perfd to have access to mediaserver <Howard M. Harte> 4 days ago
+ 
+**** vanir:device_samsung_jf-common ****
+a8e4797 : Revert "jf: camera: dont advertise HDR" <dcd> 7 hours ago
+d496083 : Revert "jf: update audio_policy.conf to LA.AF.1.1_rb1.18" <dcd> 2 days ago
+f1b3362 : jf: update media codecs to LA.AF.1.1_rb1.18 <dcd> 4 weeks ago
+8d38067 : jf: update audio_policy.conf to LA.AF.1.1_rb1.18 <dcd> 4 weeks ago
+0aeb8fe : jf: camera: enable zsl on ffc <dcd> 4 days ago
+d428910 : jf: fstab: cosmetic cleanup <dcd> 2 days ago
+eb5a063 : jf: camera: dont advertise HDR <dcd> 4 days ago
+ 
+**** vanir:device_samsung_klte-common ****
+9cb4ce1 : Revert "Don't ask for SIM PIN after leaving APM" <Ethan Chen> 29 hours ago
+28336af : Don't ask for SIM PIN after leaving APM <jumoog> 4 days ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+99c498a : msm8960: optimize ART <Michael Bestas> 4 months ago
+ 
+**** vanir:device_sony_fusion3-common ****
+1f4302c : overlay: consolidate <Georg Veichtlbauer> 18 hours ago
+ 
+**** vanir:device_sony_nicki ****
+f58715e : nicki: use LA.AF.1.1 media codec <RonGokhale> 2 weeks ago
+7b5282e : nicki: use low end google media codec <RonGokhale> 2 weeks ago
+070a3e3 : nicki: decouple from 8960-common <RonGokhale> 3 weeks ago
+3dbfbfc : nicki: overlay: remove duplicate <RonGokhale> 3 months ago
+c6b08da : nicki: inherit msm8960-common at the end <RonGokhale> 6 weeks ago
+7130c91 : nicki: enable charger suspend <RonGokhale> 6 weeks ago
+d524f8b : nicki: Supress User space faults <Samir Mehta> 9 months ago
+d77094f : nicki: show app install location option <RonGokhale> 8 weeks ago
+af9c6f1 : nicki: update wlan configs <RonGokhale> 3 months ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 5 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 5 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 8 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 3 months ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 9 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 3 months ago
+915d977 : nicki: use new perfd-client <RonGokhale> 3 months ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 3 months ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 1 year, 1 month ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 4 months ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 4 months ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 4 months ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 4 months ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 5 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 5 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 5 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 5 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 5 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 5 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 5 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 5 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 6 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 6 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 6 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 6 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 6 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 6 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 6 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 7 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 11 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 8 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 8 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 8 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 8 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 8 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 7 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 8 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 8 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 9 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 8 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 8 months ago
+ 
+**** cm:android_device_sony_pollux-common ****
+b5d897c : overlay: consolidate <Georg Veichtlbauer> 18 hours ago
+ed8953d : overlay: update sim/sms flags <Georg Veichtlbauer> 18 hours ago
+ 
+**** cm:android_device_sony_taoshan ****
+aa7197a : taoshan: Use healthd for offmode charging <Olivier K> 2 days ago
+9a9bdb3 : taoshan: Enable the log daemon <Olivier K> 3 days ago
+b278ca7 : Fix circular dependency error for make recoveryimage <Ethan Yonker> 3 months ago
+64ee8d1 : init: Set more variant-specific props <Olivier K> 3 days ago
+7a165c1 : init: Use keycheck <Chirayu Desai> 6 months ago
+d1499d8 : init: Disable LED later <Olivier K> 4 days ago
+68d77c6 : move bootrec-device so that it is automatically copied <Chirayu Desai> 10 months ago
+df73dc2 : taoshan: Fix keys <Olivier K> 4 days ago
+ 
+**** vanir:device_sony_yuga ****
+7a22ce3 : overlay: consolidate <Georg Veichtlbauer> 18 hours ago
+ 
+**** vanir:device_yu_tomato ****
+51997fa : lights: Do everything with the lights off when possible <Steve Kondik> 4 days ago
+d973dbb : thermal-engine: Don't hotplug core 0 <Ricardo Cerqueira> 4 days ago
+8d51f47 : tomato: add kernel to roomservice <Pat Erley> 6 days ago
+6ea6657 : tomato: Use $(DEVICE_PATH) instead of hardcoded path <Men_in_black007> 5 days ago
+ 
+**** vanir:external_openvpn ****
+cc28af5 : Reference routing related shared libs <nuclearmistake> 4 days ago
+b919d63 : Add modified netbsd_getpass <nuclearmistake> 4 days ago
+5918e06 : Revert "getpass-less OS compat" <nuclearmistake> 4 days ago
+ 
+**** cm:android_external_stagefright-plugins ****
+dc2a013 : ffmpeg-extractor: Fix deadlock when stopping the reader thread <Christopher R. Palmer> 9 days ago
+ 
+**** vanir:frameworks_av ****
+fd2e17b : mediascanner: handle DATE tag <Jorge Ruesga> 6 weeks ago
+ 
+**** vanir:frameworks_base ****
+cc9ef39 : SpamFilter : Avoid a requery for each item <Danesh M> 5 days ago
+6c93947 : base: start nfc service prior to systemui <Jorge Ruesga> 3 days ago
+4b1e4c6 : SystemUI: unregister visualizer on hide <Roman Birg> 4 days ago
+edbf20e : SystemUI: fix potential divide by 0 exception <Roman Birg> 3 weeks ago
+8b122ee : SystemUI: hide visualizer when keyguard is occluded <Roman Birg> 4 days ago
+b1ef9fa : power: Boost improvements <Steve Kondik> 5 days ago
+aeb953d : Add basic support for VorbisComment DATE tags <Daniel Martí> 8 weeks ago
+19374cc : SystemUI: Fix blinking when reported battery level is 0 <Diogo Ferreira> 5 days ago
+cd82b08 : Revert "Revert "Notifications: Only check for spam if new"" <nuclearmistake> 5 days ago
+1518107 : systemui: left hand navigation ring <Jorge Ruesga> 6 days ago
+5c6f6b1 : systemui: respect navigation rings configuration <Jorge Ruesga> 7 days ago
+66763f1 : Ringtones: Allow excluding from removable storage <d34d> 4 days ago
+ 
+**** vanir:frameworks_native ****
+11e0aba : SurfaceFlinger: Fix integer overflow in Mesh ctor <Dan Stoza> 4 months ago
+94e9c4c : libgui: Clear frame number while freeing slot <Dan Stoza> 4 months ago
+ 
+**** vanir:frameworks_opt_telephony ****
+9319b2d : Telephony: Make sure we're stripping non-digits prior checkDestination. <Adnan Begovic> 4 days ago
+ 
+**** vanir:hardware_qcom_display ****
+26056c1 : hwc: Reserve pipes for video layers first <Saurabh Shah> 5 months ago
+6aa55f2 : hwc: Avoid MDP comp for RGB downscaled layer <radhakrishna> 5 months ago
+59e9973 : hwc: Handle multiple YUV layer use case in low end targets <radhakrishna> 4 months ago
+99271ec : hwc: Avoid updating refresh-rate if already done <Raj Kamal> 8 weeks ago
+a75c025 : hwc: Use GPU to compose for smaller updates <Saurabh Shah> 5 months ago
+e619991 : hwc: Set refresh rate during idlefallback for unhandled cases <Raj Kamal> 3 months ago
+d0707e1 : hwc: Donot rely on previous comp type to trigger idlefallback <Raj Kamal> 3 months ago
+8de2868 : hwc: Roundoff the input fps to nearest standard fps <Raj Kamal> 3 months ago
+15b0492 : hwc: Trigger dynamic refresh-rate change for more usecases <Raj Kamal> 5 months ago
+ 
+**** vanir:hardware_qcom_media ****
+215b75e : mm-video: Calculate average fps to update refresh rate <Surajit Podder> 3 months ago
+dd5bb74 : mm-video-v4l2: handle flush done as buffer_done and not as cmd_done <Ashray Kulkarni> 3 months ago
+4bc8d24 : mm-video-v4l2: vdec: insert timestamps qeued by client in TS queue <Praveen Chavan> 9 months ago
+ 
+**** cm:android_kernel_google_msm ****
+5e331ac : flo: disable android logger <Dave Daynard> 2 days ago
+ 
+**** cm:android_kernel_motorola_msm8960-common ****
+4f7a351 : f2fs: bring up to date with Jaegeuk's branch <Jaegeuk Kim> 4 days ago
+7379266 : mm for fs: add truncate_pagecache_range() <Hugh Dickins> 3 years, 5 months ago
+ 
+**** cm:android_kernel_oneplus_msm8974 ****
+f34005a : cm: Update defconfigs <Steve Kondik> 3 days ago
+0c51f4d : block, bfq: add Early Queue Merge (EQM) to BFQ-v7r8 for 3.4.0 <Mauro Andreolini> 3 months ago
+5731411 : block: introduce the BFQ-v7r8 I/O sched for 3.4 <Paolo Valente> 2 years, 4 months ago
+74bfbe2 : block: cgroups, kconfig, build bits for BFQ-v7r8-3.4 <Arianna Avanzini> 1 year, 7 months ago
+5e67ae4 : ALSA: compress: add num_sample_rates in snd_codec_desc <Eric Laurent> 1 year, 8 months ago
+0a14d1f : ALSA: compress: update struct snd_codec_desc for sample rate <Eric Laurent> 1 year, 8 months ago
+edc34c5 : ALSA: compress: update comment for sample rate in snd_codec <Eric Laurent> 1 year, 8 months ago
+d13f061 : ALSA: compress: remove the sample rate check <Vinod Koul> 1 year, 8 months ago
+1ea88d4 : ALSA: compress: change the way sample rates are sent to kernel <Eric Laurent> 1 year, 8 months ago
+1408cb5 : ARM: 7983/1: atomics: implement a better __atomic_add_unless for v6+ <Will Deacon> 1 year, 7 months ago
+17248c6 : ARM: 7868/1: arm/arm64: remove atomic_clear_mask() in "include/asm/atomic.h" <Chen Gang> 1 year, 10 months ago
+4f737c4 : ARM: 7687/1: atomics: don't use exclusives for atomic64 read/set with LPAE <Will Deacon> 2 years, 5 months ago
+d32ddd2 : ARM: fix warnings about atomic64_read <Russell King> 3 years, 2 months ago
+6407817 : sched: Implement lockless wake-queues <Peter Zijlstra> 4 months ago
+f432891 : futex: Lower the lock contention on the HB lock during wake up <Sebastian Andrzej Siewior> 3 months ago
+a4cfe6d : locking/rtmutex: Implement lockless top-waiter wakeup <Davidlohr Bueso> 4 months ago
+25803b2 : mm: vmpressure: account allocstalls only on higher pressures <Vinayak Menon> 3 weeks ago
+5dc3a27 : mm: vmpressure: scale pressure based on reclaim context <Vinayak Menon> 5 months ago
+1773fbb : lowmemorykiller: avoid false adaptive LMK triggers <Vinayak Menon> 3 weeks ago
+7b7f0a8 : rtmutex: Confine deadlock logic to futex <Thomas Gleixner> 1 year, 4 months ago
+6420c4f : rtmutex: Simplify rtmutex_slowtrylock() <Thomas Gleixner> 1 year, 3 months ago
+0fc08ae : locking/rtmutex: Drop usage of __HAVE_ARCH_CMPXCHG <Sebastian Andrzej Siewior> 7 months ago
+8bec3613 : PM / Wakeup: Use rcu callbacks for better performance <Patrick Daly> 3 months ago
+caada7a : rtmutex: Plug slow unlock race <Thomas Gleixner> 1 year, 3 months ago
+09fbc6c : rtmutex: Handle deadlock detection smarter <Thomas Gleixner> 1 year, 3 months ago
+7102f4a : rtmutex: Detect changes in the pi lock chain <Thomas Gleixner> 1 year, 3 months ago
+0e98000 : rtmutex: Fix deadlock detector for real <Thomas Gleixner> 1 year, 4 months ago
+ce2f0e4 : cpufreq: interactive: don't skip waking up speedchange_task if target_freq > policy->cur <Minsung Kim> 9 months ago
+d0abade : cpufreq: interactive: prevents the frequency to directly raise above the hispeed_freq from a lower frequency. <Ruchi Kandoi> 1 year, 3 months ago
+04318c2 : cpufreq: interactive: Reschedule timer if min_freq is reduced <Junjie Wu> 6 months ago
+c964409 : fs: introduce a generic shutdown ioctl <Jaegeuk Kim> 8 months ago
+f9aae8b : msm8974: add f2fs <Jaegeuk Kim> 7 days ago
+ 
+**** cm:android_kernel_samsung_d2 ****
+6bceda8 : espressovzw: regen defconfig, playing catchup to d2 <jrior001> 3 days ago
+ 
+**** github:Fred6681/android_kernel_samsung_golden ****
+3364dd8 : Added more flags <Fred6681> 2 days ago
+0f61b95 : F_kernel_1.5.2 <Fred6681> 4 days ago
+71b33b5 : re-organize flags optimization <Fred6681> 4 days ago
+6e53d40 : Fix Warning in drivers/usb/storage/transport.c <Fred6681> 4 days ago
+80b7808 : Fix Warning in drivers/usb/core/hub.c <Fred6681> 4 days ago
+59fddec : Fix Warning in drivers/staging/mmio/st_mmio_raw.c <Fred6681> 4 days ago
+a368b2f : Fix Warning in drivers/video/b2r2/b2r2_api.c <Fred6681> 4 days ago
+3040933 : Fix Warning in drivers/sensor/proximity/px3215.c <Fred6681> 4 days ago
+0b35b7e : Fix Warning in drivers/sensor/alps/hscd007_i2c.c <Fred6681> 4 days ago
+599c3e6 : Fix Warning in drivers/regulator/ab8500-debug.c <Fred6681> 4 days ago
+ee97af2 : Fix Warning in drivers/phone_svn/svnet/sipc4.c <Fred6681> 4 days ago
+e8c1855 : Fix Warning in drivers/misc/fsa880.c <Fred6681> 4 days ago
+d1064a1 : Fix Warning in drivers/misc/hwmem/hwmem-main.c <Fred6681> 4 days ago
+c4d7de4 : Fix Warning in drivers/interceptor/linux_route.c <Fred6681> 4 days ago
+3e580b6 : Fix Warning in drivers/input/misc/mpu6050_input.c <Fred6681> 4 days ago
+cee0e9c : Fix Warning in drivers/input/keyboard/nts-touchkey.c <Fred6681> 4 days ago
+e8950d5 : Fix Warning in drivers/gpu/mali/mali400ko/driver/src/devicedrv/mali/linux/mali_osk_pm.c <Fred6681> 4 days ago
+f5d05f8 : Fix Warning in drivers/gpu/mali/mali400ko/driver/src/devicedrv/mali/common/mali_kernel_core.c <Fred6681> 4 days ago
+ 
+**** vanir:kernel_samsung_jf ****
+a727a14 : jf: defconfig: disable ksm <dcd> 3 days ago
+321013d : jf: dont null out sd->v4l2_dev anymore <dcd> 6 days ago
+815eb16 : jf: regen defconfig <dcd> 3 days ago
+ 
+**** vanir:platform_manifest ****
+7f69a3f : Track our own fork of cm's f2fs-tools <nuclearmistake> 13 hours ago
+9666d38 : remove temp pinned manifest with wrong extension (laul wupz) <nuclearmistake> 4 days ago
+9f77060 : Cleanup <DHOMD> 4 days ago
+ 
+**** vanir:packages_apps_Calculator ****
+f6a6522 : Calculator: fix localization for the widget <Yvonne Wong> 5 days ago
+ 
+**** vanir:packages_apps_Mms ****
+86a2db4 : Temp Fix: Localize Smilies in Ukranian <Abhisek Devkota> 6 hours ago
+61c63da : Mms: Don't try to send an SMS to a null destination. <Adnan Begovic> 4 days ago
+ 
+**** vanir:packages_apps_Settings ****
+970f063 : Settings : Update filterSpam to new contract <Danesh M> 3 days ago
+6d1cdbc : settings: remove contributors cloud margin/padding <Jorge Ruesga> 2 days ago
+94a0c9e : Settings: Only show multi-sim card configuration for owners <Diogo Ferreira> 6 days ago
+8530327 : Long press no longer copies to clipboard if there is nothing to copy <James Hiew> 7 days ago
+ 
+**** vanir:packages_services_Telephony ****
+301cb34 : Revert "Network Settings: don't crash on bad lookup" <Roman Birg> 6 days ago
+ 
+**** vanir:system_core ****
+2759938 : Fix build break for multiple definition <Keith Mok> 19 hours ago
+0e9caa6 : Fix build break for multiple definition <Keith Mok> 19 hours ago
+979ef7f : init: Fire a trigger when a class is started/stopped <Steve Kondik> 29 hours ago
+8af7057 : sdcard: Properly handle deleted nodes <Krzysztof Adamski> 1 year, 2 months ago
+4c1fa45 : sdcard: Turn on noatime for fuse mounted sdcard <Johan Redestig> 8 months ago
+ 
+**** vanir:system_extras ****
+122ac16 : Add darwin support for the host tools <Keith Mok> 5 days ago
+ 
+**** commotio:commotio ****
+eda0bbf : Bump <DHOMD> 4 days ago
+ 
+**** vanir:vendor_vanir ****
+e96c168 : cm: Set the IO scheduler based on a system property <Steve Kondik> 26 hours ago
+ 

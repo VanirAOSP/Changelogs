@@ -1,0 +1,127 @@
+
+**** vanir:build ****
+de428e3 : Don't use -Wl,--fix-cortex-a8 for Cortex A7, A9, A15, Krait or Denver <Bernhard Rosenkränzer> 5 months ago
+abd57a2 : Allow -mcpu=cortex-a15 for clang <Bernhard Rosenkränzer> 5 months ago
+5e33ceb : Move definition of -D__ARM_FEATURE_LPAE=1 cflag to top-level. <Ian Rogers> 10 months ago
+8dd9ea1 : Apply correct, optimized mfpu compiler flag for ARMv7-A Cortex CPUs <arter97> 11 months ago
+ba7e53f : build: Enable custom ccache cache dir for Android <Matt Mower> 10 weeks ago
+ 
+**** samba:ccache.git ****
+4cad46e : Prepare for v3.2.3 <Joel Rosdahl> 13 hours ago
+58f9abf : Bail out on --save-temps, an alias for -save-temps <Michael Marineau> 5 weeks ago
+f37d14e : Use correct key for "file info indexes" in --dump-manifest output <Joel Rosdahl> 2 days ago
+6c692f0 : Exit properly from exit handler <Joel Rosdahl> 7 days ago
+ 
+**** cm:android_device_cyanogen_msm8916-common ****
+a527e14 : msm8916: Add LiveDisplay CMHW interface <Steve Kondik> 4 days ago
+ 
+**** vanir:device_lge_g2-common ****
+e274d7b : g2:fix typo in overlay <Wulsic> 7 weeks ago
+9d46efe : g2: Thermal: Sync config files with v39A. It matches thermal configs with thermal-engine binary. <Daniel Stuart> 5 days ago
+470c225 : g2: mixer_paths: Correct values and cleanup <Daniel Stuart> 10 days ago
+e2b81b9 : G2: Overlay: Lower brightness min value. Kernel panel driver already supports it. <Daniel Stuart> 12 days ago
+c40f248 : g2: Remove deprecated egl.cfg <khusika> 7 days ago
+ 
+**** cm:android_device_motorola_condor ****
+23a5865 : Condor:Enable audio new rep,12k&24k offload path <myfluxi> 31 hours ago
+ 
+**** vanir:device_motorola_falcon ****
+003e226 : falcon: Update wlan firmware to allow use of channels 12/13 <Gabriele M> 7 days ago
+ 
+**** cm:android_device_motorola_victara ****
+a12fde3 : victara: audio: Nuke offload, again <Christopher R. Palmer> 16 hours ago
+47c11cf : victara: add vendor init to support other variants <Dan Pasanen> 30 hours ago
+7dd8e2d : overlay: enable apn settings for cdma variants <Dan Pasanen> 3 days ago
+ 
+**** vanir:device_qcom_sepolicy ****
+017e1b4 : Fix Build <sudosurootdev> 20 hours ago
+936bbf2 : sepolicy: allow mm-pp-daemon to set debug property <Krishna Chaitanya Parimi> 7 weeks ago
+ 
+**** vanir:device_sony_nicki ****
+3dbfbfc : nicki: overlay: remove duplicate <RonGokhale> 7 weeks ago
+c6b08da : nicki: inherit msm8960-common at the end <RonGokhale> 2 weeks ago
+7130c91 : nicki: enable charger suspend <RonGokhale> 2 weeks ago
+d524f8b : nicki: Supress User space faults <Samir Mehta> 8 months ago
+d77094f : nicki: show app install location option <RonGokhale> 5 weeks ago
+af9c6f1 : nicki: update wlan configs <RonGokhale> 8 weeks ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 4 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 5 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 7 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 2 months ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 9 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 2 months ago
+915d977 : nicki: use new perfd-client <RonGokhale> 2 months ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 2 months ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 1 year ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 3 months ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 4 months ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 4 months ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 4 months ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 4 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 4 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 4 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 4 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 5 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 5 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 5 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 5 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 5 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 5 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 5 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 6 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 6 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 6 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 6 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 6 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 11 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 7 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 7 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 7 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 8 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 8 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 6 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 7 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 7 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 8 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 7 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 7 months ago
+c4b4a39 : nicki: update fstab <RonGokhale> 7 months ago
+1bd9501 : nicki: add charging and mass storage mode <RonGokhale> 7 months ago
+7bbf4d5 : nicki: sync prima INI file with LA.AF.1.1_rb1.8 <RonGokhale> 7 months ago
+ 
+**** vanir:device_yu_tomato ****
+c8777de : tomato: Remove Yulong color enhance CMHW code <Ethan Chen> 3 days ago
+ 
+**** vanir:frameworks_av ****
+c736699 : stagefright: Add libhwc to exynos include paths <Christopher R. Palmer> 2 days ago
+625c9f1 : stagefright: Add support for Exynos hardware audio decoding <Christopher N. Hesse> 8 days ago
+b874571 : stagefright: Update makefile for Exynos variants. <Ethan Chen> 2 days ago
+ 
+**** vanir:frameworks_base ****
+902185b : Revert "Barrier only messages shouldn't prevent the idle handlers from running" <Roman Birg> 26 hours ago
+ 
+**** vanir:frameworks_native ****
+f5410e9 : binder: Update makefile for Exynos variants <Ethan Chen> 2 days ago
+ 
+**** cm:android_kernel_motorola_msm8960-common ****
+4e02dd0 : android: drivers: workaround debugfs race in binder <Riley Andrews> 3 months ago
+d8f8162 : udp: fix behavior of wrong checksums <Eric Dumazet> 3 months ago
+ 
+**** cm:android_kernel_motorola_msm8960dt-common ****
+fed24f0 : android: drivers: workaround debugfs race in binder <Riley Andrews> 3 months ago
+f355c18 : udp: fix behavior of wrong checksums <Eric Dumazet> 3 months ago
+ 
+**** vanir:packages_apps_Mms ****
+22a4448 : Mms: fix keyboard hiding <Jorge Ruesga> 2 days ago
+ 
+**** vanir:packages_apps_Settings ****
+4f1fad7 : Settings: Match pulse speed to frameworks default <Matt Mower> 2 days ago
+ 
+**** cm:cm_platform_sdk ****
+bf57636 : cmsdk: Rename gradle-sample package namespace. <Adnan Begovic> 2 days ago
+203a9bc : cmsdk: Add gradle sample project. <Adnan Begovic> 2 days ago
+5a51835 : cmsdk: Fix README. (Add period). <Jon Dinneen> 2 days ago
+ 
+**** vanir:vendor_lge ****
+3125819 : Community fix for p880 sound issues <DHOMD> 7 hours ago
+ 

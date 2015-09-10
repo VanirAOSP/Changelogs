@@ -1,0 +1,361 @@
+
+**** vanir:bootable_recovery ****
+2bf0866 : updater: Hoist fsync() to outer loop. <Tao Bao> 5 weeks ago
+ 
+**** vanir:build ****
+338b399 : build: Allow QC platforms to share/customize HAL variants <Anthony King> 7 hours ago
+665e136 : Revert "msm8909 uses the same branches as msm8916" <Ethan Chen> 7 hours ago
+83d403e : ALWAYS_PRUNEL: handle env variable undefinition <nuclearmistake> 13 hours ago
+3427624 : findleaves.py: add an environment variable, ALWAYS_PRUNE, to allow builders to manually exclude any folders that happen to live in their source directory <nuclearmistake> 13 hours ago
+6435ba2 : main.mk: Use a multiple-makefile include in place of a foreach eval <nuclearmistake> 13 hours ago
+5ddd652 : cleanspec.mk: faster leaf finding <nuclearmistake> 13 hours ago
+4ad2485 : msm8909 uses the same branches as msm8916 <Marcos Marado> 14 hours ago
+e703199 : repopick: open changes are either NEW or OPEN, not just OPEN <Tom Powell> 19 hours ago
+7e980a7 : Fix custom URL error. Merged from cm_build_config <Tom Powell> 25 hours ago
+529e3b2 : repopick: handle hardware_ril/ril-caf <Anthony King> 6 weeks ago
+df45e9f : repopick: skip abandoned commits <jrior001> 12 days ago
+ 
+**** vanir:device_asus_deb ****
+04a1968 : deb: fix interactive tunables <Dave Daynard> 24 hours ago
+31024fc : deb: Remove deprecated vendorsetup.sh <Dan Pasanen> 3 weeks ago
+f058571 : deb: Set ideal scheduler parameters <Zhao Wei Liew> 8 weeks ago
+ 
+**** vanir:device_asus_flo ****
+77c1a08 : flo: fix interactive tunables <Dave Daynard> 24 hours ago
+e6fcb29 : flo: Remove deprecated vendorsetup.sh <Dan Pasanen> 3 weeks ago
+795dcd8 : flo/deb: remove deprecated egl.cfg <khusika> 3 weeks ago
+828258b : flo: Set ideal scheduler parameters <Zhao Wei Liew> 8 weeks ago
+ 
+**** cm:android_device_cyanogen_msm8939-common ****
+27031b7 : msm8939: Update system properties <Steve Kondik> 2 days ago
+66f4d34 : msm8939: Changes for kernel update <Steve Kondik> 2 days ago
+ 
+**** vanir:device_lge_d802 ****
+652cc3b : d802: Move kernel dependency to common <Rashed Abdel-Tawab> 4 weeks ago
+e799906 : d802: configs: Remove useless gps.conf <Zdrowy Gosciu> 4 days ago
+ 
+**** vanir:device_lge_hammerhead ****
+42673f1 : Reduce previous change to: "just change kernel toolchain" <nuclearmistake> 27 hours ago
+ 
+**** cm:android_device_motorola_condor ****
+9104b6a : Condor: Add symlinks for the CMNLIB_Images <Ashwin> 31 hours ago
+5370297 : Revert "Condor : zRam: Decrease size" <Percy Gahlot> 2 days ago
+a68a06d : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:motorola_msm8226-common ****
+72a3953 : msm8226-common: nuke doze <luca020400> 3 hours ago
+bf2324c : Automatic translation import <Michael Bestas> 2 days ago
+c230f49 : msm8226-common: don't set LCD brightness during offline charge <fonz93> 2 days ago
+19b5ea8 : msm8226-common: Change configuration for USB charge only mode <Gabriele M> 2 days ago
+ 
+**** vanir:device_motorola_omap4-common ****
+6bd2a7a : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:device_motorola_qcom-common ****
+067ff50 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:android_device_motorola_victara ****
+4f52835 : victara: Completely kill offload support <Christopher R. Palmer> 3 days ago
+5bc8500 : overlay: enable led brightness control <Dan Pasanen> 3 days ago
+1b8b236 : Automatic translation import <Michael Bestas> 2 days ago
+e878631 : victara: proprietary: Add capsense firmware <Christopher R. Palmer> 3 days ago
+ 
+**** vanir:device_oppo_common ****
+1ee72eb : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:android_device_oppo_msm8974-common ****
+39958fb : msm8974: Switch to CFQ <Steve Kondik> 28 hours ago
+65d1771 : Remove curl - now in vendor/cm/common_full.mk <Abhisek Devkota> 34 hours ago
+ 
+**** vanir:device_samsung_golden ****
+c4b68a7 : apn are in vendor <Ozzy2403> 2 days ago
+ 
+**** vanir:device_samsung_jf-common ****
+46d09ae : remove nuclear winter <Ozzy2403> 2 days ago
+ 
+**** vanir:device_samsung_klte-common ****
+92a4ba6 : remove nuclear winter 2/2 <Ozzy2403> 3 days ago
+ 
+**** vanir:device_samsung_qcom-common ****
+34d6794 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:device_sony_nicki ****
+f58715e : nicki: use LA.AF.1.1 media codec <RonGokhale> 9 days ago
+7b5282e : nicki: use low end google media codec <RonGokhale> 9 days ago
+070a3e3 : nicki: decouple from 8960-common <RonGokhale> 12 days ago
+3dbfbfc : nicki: overlay: remove duplicate <RonGokhale> 10 weeks ago
+c6b08da : nicki: inherit msm8960-common at the end <RonGokhale> 5 weeks ago
+7130c91 : nicki: enable charger suspend <RonGokhale> 5 weeks ago
+d524f8b : nicki: Supress User space faults <Samir Mehta> 9 months ago
+d77094f : nicki: show app install location option <RonGokhale> 7 weeks ago
+af9c6f1 : nicki: update wlan configs <RonGokhale> 2 months ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 5 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 5 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 7 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 3 months ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 9 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 3 months ago
+915d977 : nicki: use new perfd-client <RonGokhale> 3 months ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 3 months ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 1 year, 1 month ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 3 months ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 4 months ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 4 months ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 4 months ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 5 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 5 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 5 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 5 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 5 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 5 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 5 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 5 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 5 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 6 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 6 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 6 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 6 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 6 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 6 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 6 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 11 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 8 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 8 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 8 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 8 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 8 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 7 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 7 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 8 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 9 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 8 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 8 months ago
+ 
+**** vanir:device_yu_tomato ****
+a48fe17 : tomato: Bring back the blink! <Steve Kondik> 6 hours ago
+f0f19cd : tomato: Better lights <Steve Kondik> 13 hours ago
+948d087 : tomato: Remove delay in setting lights <Steve Kondik> 22 hours ago
+ 
+**** cm:android_external_whispersystems_WhisperPush ****
+82f94ba : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:frameworks_base ****
+ed93fea : Show infinity for large notification counts <d34d> 5 hours ago
+fa72641 : Let liblights adjust the brightness of LEDs while previewing it <Gabriele M> 2 days ago
+da2b45a : Notifications: Only check for spam if new <d34d> 31 hours ago
+31eb21b : Remove duplicate audio: Tejat is Argon <Abhisek Devkota> 25 hours ago
+3d26159 : Fingerprint: Allow disabling of vibration <d34d> 26 hours ago
+4557053 : SystemUI : Toggle nav item visibility based on IME <Danesh M> 2 months ago
+e61da47 : PackageManager: Move fingerprint feature out of android namespace. <Adnan Begovic> 2 days ago
+1cd9676 : core/SystemUI: Remove zh-rHK CAF translations <Michael Bestas> 30 hours ago
+95757ef : Automatic translation import <Michael Bestas> 2 days ago
+48469b1 : SystemUI: check RecentsConfiguration isn't null before running RecentsTaskLoader <Raj Yengisetty> 33 hours ago
+f5cacbf : ResolverActivity: reduce elevation to make it flat <Hamster Tian> 5 days ago
+24e19bf : base: hide qs tiles with sensitive data <Jorge Ruesga> 3 weeks ago
+ 
+**** vanir:frameworks_native ****
+e676b55 : native: Move fingerprint feature out of android namespace. <Adnan Begovic> 2 days ago
+ 
+**** cm:android_frameworks_opt_chips ****
+f101d20 : Revert "More Chip: use pendingcount instead of counting again" <Danesh M> 5 weeks ago
+ 
+**** cm:android_hardware_qcom_fm ****
+9d2f1c1 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:android_hardware_ti_omap4 ****
+395c41e : camera: add support for espresso <Ziyan> 3 weeks ago
+ 
+**** cm:android_kernel_google_msm ****
+8620fa8 : msm: mpdecision: update dcvs algo params at initialization <Steve Muckle> 2 years, 9 months ago
+7105079 : net: Zeroing the structure ethtool_wolinfo in ethtool_get_wol() <Avijit Kanti Das> 1 year, 4 months ago
+d20b599 : HID: Fix uninitialized variable "size" in hid-wiimote-debug <Simon Que> 2 years, 7 months ago
+aa5adc2 : Fix gcc-4.9.0 miscompilation of load_balance() in scheduler <Linus Torvalds> 1 year, 1 month ago
+c1ac986 : msm: Create shadow files under /sys/kernel/ipv4 <Ravi Joshi> 1 year, 4 months ago
+6d96c28 : WLAN subsystem: Sysctl support for key TCP/IP parameters <Mahesh A Saptasagar> 1 year, 7 months ago
+1892a51 : cfg80211: fix possible circular lock on reg_regdb_search() <Luis R. Rodriguez> 1 year, 4 months ago
+9b322bb : block: Disable add_random <Chester Kener> 1 year, 6 months ago
+d31a166 : ARM: 7583/1: decompressor: Enable unaligned memory access for v6 and above <Dave Martin> 2 years, 9 months ago
+1fa5ff9 : PM / Hibernate: Hibernate/thaw fixes/improvements <Bojan Smojver> 3 years, 4 months ago
+cb9e9fe : flo: disable BlueZ dependencies <Dave Daynard> 8 months ago
+00cb5a1 : selinux: correctly label /proc inodes in use before the policy is loaded <Paul Moore> 1 year, 5 months ago
+e60902a : prctl: make PR_SET_TIMERSLACK_PID pid namespace aware <Micha Kalfon> 8 months ago
+5cbb96c : msm: smd_pkt: Do not print warning message for closed case <Eric Holmberg> 2 years, 6 months ago
+cfaa134 : flo: Speed up boot and enable ARM SHA1 routines <Zhao Wei Liew> 8 weeks ago
+ 
+**** vanir:kernel_htc_msm8974 ****
+ef3f662 : Update Defconfigs <varchild> 3 days ago
+56a7b37 : Revert "mm: Dynamic management of dirty page writebacks [Christopher83] 2" <varchild> 3 days ago
+93f7d7e : Revert "mm: Dynamic management of dirty page writebacks [Christopher83] 4" <varchild> 5 days ago
+d7a31cb : Revert "fs/dcache.c: adaptive vfs_cache_pressure on suspend / resume [dorimanx]" <varchild> 5 days ago
+3067d93 : More tweaking... <varchild> 5 days ago
+321d768 : Testing something... <varchild> 6 days ago
+42c0cdb : Stuff? <varchild> 6 days ago
+5c23409 : drivers: lmk: sync to caf/LA.BF.1.1.1_rb1.26 <Dan Pasanen> 8 days ago
+ad37826 : ARCH: arm: msm: regen eyeul defconfig <Brinly Taylor> 8 days ago
+be8c5fb : mmc: sync to caf/LA.BF.1.1.1_rb1.26, remove htc shit <Dan Pasanen> 10 days ago
+db87b13 : msm8974: strip whitespace <Brinly Taylor> 10 days ago
+17915c4 : msm8974: Add back comments <Brinly Taylor> 10 days ago
+e662967 : drivers:mmc: Add back comments from caf/LA.BF.1.1.1_rb1.26 <Brinly Taylor> 10 days ago
+b34cb72 : Revert "kernel/power/powersuspend: new PM kernel driver for Android w/o early_suspend" <Dan Pasanen> 2 weeks ago
+d18e8f2 : Revert "powersuspend: fix logci derps :p" <Dan Pasanen> 2 weeks ago
+366323d : Revert "kernel/power/powersuspend: remove userspace dependency from powersuspend" <Dan Pasanen> 2 weeks ago
+10a6310 : Revert "kernel/power/powersuspend: add back userpace control w/ default kernel control" <Dan Pasanen> 2 weeks ago
+0747bca : Revert "kernel/power/powersuspend: default to userspace for now" <Dan Pasanen> 2 weeks ago
+ca3c440 : Revert "Revert "kernel/power/powersuspend: default to userspace for now"" <Dan Pasanen> 2 weeks ago
+c406210 : Revert "powersuspend: add LCD screen on/off hooks (Yank555.lu)" <Dan Pasanen> 2 weeks ago
+cd3b797 : Revert "powersuspend: minor typo fix" <Dan Pasanen> 2 weeks ago
+63eb3ff : Revert "powersuspend: default to display hooks" <Dan Pasanen> 2 weeks ago
+fb9e018 : Revert "powersuspend: active from panel, inactive from autosleep" <Dan Pasanen> 2 weeks ago
+a97169d : Revert "kernel/power/powersuspend: cumulative update to version 1.5" <Dan Pasanen> 2 weeks ago
+c2613b4 : Revert "powersuspend: add power_suspended boolean for global access" <Dan Pasanen> 2 weeks ago
+3105929 : Revert "PM: devfreq: Use high priority workqueue" <Dan Pasanen> 2 weeks ago
+c37de6a : Revert "PM / devfreq: Rewrite devfreq_update_status() to fix multiple bugs" <Dan Pasanen> 2 weeks ago
+a58e3d0 : Revert "PM / devfreq: Check for GPU busy time before sending the sample" <Dan Pasanen> 2 weeks ago
+0b30dac : Revert "PM: devfreq: Fix show available freqs" <Dan Pasanen> 2 weeks ago
+4909ab3 : Revert "msm: kgsl: set the correct max_state" <Dan Pasanen> 2 weeks ago
+4645a14 : Revert "msm: kgsl: Bump the GPU frequency for long blocks of processing" <Dan Pasanen> 2 weeks ago
+b22dd18 : Revert "msm: kgsl: Elevate the priority of the thread during adreno start" <Dan Pasanen> 2 weeks ago
+5e943a7 : Revert "msm: kgsl: Fix nice level for higher priority GPU start thread" <Dan Pasanen> 2 weeks ago
+5d680fd : Revert "msm_adreno_tz: be aware of suspended state" <Dan Pasanen> 2 weeks ago
+aad3cd5 : Revert "Introduce Adreno idler for devfreq-based Adreno devices" <Dan Pasanen> 2 weeks ago
+3e4c421 : Revert "adreno_idler: switch to count based instead of time based" <Dan Pasanen> 2 weeks ago
+0637766 : Revert "adreno_idler: remove frequency bump" <Dan Pasanen> 2 weeks ago
+92e68f3 : Revert "adreno_idler: fix-up type definitions" <Dan Pasanen> 2 weeks ago
+91175cf : Revert "msm_adreno_tz: fix-up tz_suspend" <Dan Pasanen> 2 weeks ago
+6a9ce32 : Revert "adreno_idler: fix-up some comments" <Dan Pasanen> 2 weeks ago
+eab6da5 : Revert "adreno_idler: fix typos :)" <Dan Pasanen> 2 weeks ago
+acd376e : a5: Lollipop kernel updates <Brin Taylor> 6 weeks ago
+edbd5f9 :  cpufreq: Add Frequency limiter driver <varchild> 10 days ago
+ 
+**** vanir:kernel_lge_hammerhead ****
+ef010b3 : Revert "Fix build for linaro-4.9 toolchain" <nuclearmistake> 27 hours ago
+ 
+**** vanir:platform_manifest ****
+20bdeee : manifest: Remove separate paths for 8610/8226 HALs <Ethan Chen> 7 hours ago
+ 
+**** cm:android_packages_apps_AudioFX ****
+91d6891 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+67081fd : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_BluetoothExt ****
+8b093e6 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_Calculator ****
+3045e4c : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:android_packages_apps_Calendar ****
+dd1dd45 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_Camera2 ****
+597cd76 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:android_packages_apps_CellBroadcastReceiver ****
+a31f1e2 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_Contacts ****
+30fd65e : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+46669c6 : Automatic translation import <Michael Bestas> 2 days ago
+2199d64 : LookupProvider updates <emancebo> 6 days ago
+ 
+**** vanir:packages_apps_DeskClock ****
+c1b451b : DeskClock: Externalize permissions to CMSDK. <Adnan Begovic> 25 hours ago
+3fc8d67 : DeskClock: Utilize cyanogenmod.permission.MODIFY_PROFILES. <Adnan Begovic> 27 hours ago
+6f61453 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_Dialer ****
+9caca68 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:android_packages_apps_Email ****
+a048f26 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+218cfbb : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_InCallUI ****
+5db0800 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_LockClock ****
+e379cd2 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_Mms ****
+309e658 : REAL_GET_TASKS > GET_TASKS <Abhisek Devkota> 5 hours ago
+a380361 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_Settings ****
+9405ef9 : Settings: Fix a crash caused by null pointer <Lin Ma> 6 hours ago
+ebedae7 : Settings: Utilize cyanogenmod.permission.MODIFY_PROFILES. <Adnan Begovic> 27 hours ago
+91db20a : settings: check bt pan service before use it <Jorge Ruesga> 3 weeks ago
+4720d1b : Automatic translation import <Michael Bestas> 2 days ago
+66ed485 : settings: hide qs tiles with sensitive data <Jorge Ruesga> 2 days ago
+ 
+**** vanir:packages_apps_soundrecorder ****
+27f88f0 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:android_packages_apps_Stk ****
+2ddb566 : REAL_GET_TASKS > GET_TASKS <Abhisek Devkota> 5 hours ago
+6275b32 : Indicate which sub-activity the app name broadcast applies to <Ricardo Cerqueira> 2 days ago
+7b924c0 : Add intent to send STK app name <Paramananda Pradhan> 8 months ago
+3ff329e : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:android_packages_apps_Terminal ****
+48527b3 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_ThemeChooser ****
+4733494 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+b440e37 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_input_LatinIME ****
+a1bc171 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:android_packages_providers_TelephonyProvider ****
+9762ec8 : Revert "MmsProvider : Add ability to get thread information in search" <Danesh M> 2 days ago
+ 
+**** vanir:packages_services_Mms ****
+d55f960 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_services_Telecomm ****
+c7306c2 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_services_Telephony ****
+724fb11 : Automatic translation import <Michael Bestas> 2 days ago
+2f29215 : Network Settings: don't crash on bad lookup <Roman Birg> 2 days ago
+ 
+**** cm:android_packages_wallpapers_PhotoPhase ****
+54a7044 : REAL_GET_TASKS > GET_TASKS <Abhisek Devkota> 5 hours ago
+a556392 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:android_prebuilts_cmsdk ****
+09001ca : prebuilts/cmsdk: Update latest api text file. <Adnan Begovic> 25 hours ago
+ 
+**** cm:cm_platform_sdk ****
+99b8c5d : cmsdk: Update documentation for Boysenberry release. <Adnan Begovic> 8 hours ago
+bc2ea6b : cmsdk: Update documentation for HAF permission. <Adnan Begovic> 24 hours ago
+04569c7 : cmsdk: Update tests for new ALARM permissions. <Adnan Begovic> 25 hours ago
+9971604 : cmsdk: Update cm-api for hasSensitiveData() and new permissions. <Adnan Begovic> 25 hours ago
+7f17704 : cmsdk: Add permissions for ALARMS. <Adnan Begovic> 25 hours ago
+0523911 : cmsdk: Enforce cyanogenmod.permission.MODIFY_PROFILES for profiles. <Adnan Begovic> 27 hours ago
+88bc996 : cmsdk: Fix toast in CMHardwareTest. <Adnan Begovic> 27 hours ago
+c0c27a6 : cmsdk: Add preliminary hardware manager tests. <Adnan Begovic> 28 hours ago
+3a502e9 : cmsdk: Change parceling for DisplayMode. <Adnan Begovic> 28 hours ago
+c5fa7bc : cmsdk: Fix spelling error in CMSettingsProvider makefile. <Adnan Begovic> 28 hours ago
+40a46bd : BugFix: Fix potential NPEs with getService() <BadDaemon> 2 days ago
+6850732 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:vendor_motorola ****
+91f79aa : victara: proprietary: Add capsense firmware <Christopher R. Palmer> 3 days ago
+ 
+**** vanir:vendor_samsung ****
+e99eb5b : mondrianwifi: Kang soundfx libs from hlte-common <Christopher R. Palmer> 15 hours ago
+ 
+**** vanir:vendor_vanir ****
+f28741d : vendor/cm: add curl to build <Luca Stefani> 3 days ago
+4c1d374 : remove nuclear winter <Ozzy2403> 2 days ago
+1354c6c : Add CMSettingsProvider to PRODUCT_PACKAGES.... doesn't seem to do much ATM, but may as well have it for compatibility <nuclearmistake> 27 hours ago
+47fbe58 : remove nuclear winter 1/2 <Ozzy2403> 3 days ago
+ 

@@ -1,0 +1,410 @@
+
+**** vanir:bootable_recovery ****
+6177cf4 : Initialize stashbase even stash_max_blocks = 0 <Jesse Zhao> 6 months ago
+aa2f668 : Support resuming block based OTAs <Sami Tolvanen> 8 months ago
+a91f515 : Fix recovery image text rendering. <Elliott Hughes> 5 months ago
+ 
+**** vanir:build ****
+0cf0a18 : Change transfer list format to include block hashes <Sami Tolvanen> 8 months ago
+01e44ce : Support custom gerrit servers via HTTP or SSH <Tom Powell> 2 weeks ago
+b0747d3 : derp: likely unused during compilation, but now less broken <nuclearmistake> 3 days ago
+b817b6c : build: Enable A53 errata workarounds on targets that need it <Rashed Abdel-Tawab> 6 weeks ago
+4ae8bf5 : Force bsdiff for recovery_from_boot.p if not using GZIP <Andreas Blaesius> 3 months ago
+ 
+**** cm:android_device_cyanogen_msm8916-common ****
+589b201 : msm8916-common: Disable earlyprintk <Steve Kondik> 5 days ago
+4ae83c9 : msm8916: Remove duplicate cmhw files <Michael Bestas> 3 days ago
+ 
+**** vanir:device_htc_flounder ****
+5229b3a : flounder: dont import svelte config on wifi device <Simon Sickle> 4 days ago
+09edee4 : flounder: fix duplicate bugreport service <Simon Sickle> 4 days ago
+4c67d8f : Update flounder to 5.1.1_r13 <Simon Sickle> 5 days ago
+ 
+**** vanir:device_htc_m8 ****
+eb01a18 : m8: Reorganize camerawrapper makefile. <Brinly Taylor> 8 weeks ago
+291621a : m8: typo fix in init <Brinly Taylor> 5 weeks ago
+55db995 : m8: do not build f2fs on Mac <Brinly Taylor> 2 days ago
+ 
+**** vanir:device_lge_d803 ****
+1ca4156 : Use kernel/lge/d803 as kernel source for old kernel <sudosurootdev> 25 hours ago
+ 
+**** vanir:device_lge_g2-common ****
+205d914 : Fix low mic and distortion in VOIP app calls <sudosurootdev> 15 hours ago
+eb90593 : Allow d803 to build without caf build <sudosurootdev> 23 hours ago
+ 
+**** vanir:device_lge_gproj-common ****
+b08f7c5 : cmhw: Switch color calibration to the PCC interface <Ricardo Cerqueira> 5 months ago
+ 
+**** cm:android_device_motorola_condor ****
+1349c17 : Automatic translation import <Tom Powell> 4 hours ago
+9c45892 : Automatic translation import <Michael Bestas> 3 days ago
+ 
+**** vanir:motorola_msm8226-common ****
+b7536d1 : Automatic translation import <Michael Bestas> 3 days ago
+ 
+**** vanir:device_motorola_omap4-common ****
+66b2259 : Automatic translation import <Michael Bestas> 3 days ago
+ 
+**** vanir:device_motorola_qcom-common ****
+a5a2458 : Automatic translation import <Michael Bestas> 3 days ago
+ 
+**** cm:android_device_motorola_victara ****
+34a6465 : Automatic translation import <Tom Powell> 4 hours ago
+d538acd : init: set proper models and fingerprints for variants <Dan Pasanen> 2 days ago
+d03123c : Revert "init: Get rid of ctrl_interface=/data/misc/wifi/sockets" <Christopher R. Palmer> 3 days ago
+e18785d : Automatic translation import <Michael Bestas> 3 days ago
+7ac3f18 : victara: ship widevine firmware <Dan Pasanen> 5 days ago
+ 
+**** vanir:device_oppo_common ****
+3944e85 : Automatic translation import <Michael Bestas> 3 days ago
+ 
+**** vanir:device_qcom_sepolicy ****
+a56e687 : Bluetooth: Update Bluetooth security rules <Sungjun Park> 4 months ago
+ 
+**** vanir:device_samsung_mondrianwifi ****
+7bb4818 : Revert "init: Get rid of ctrl_interface=/data/misc/wifi/sockets" <Christopher R. Palmer> 3 days ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+6d8baf2 : init: remote mc power savings <Dave Daynard> 3 days ago
+ 
+**** vanir:device_samsung_qcom-common ****
+eb956b3 : Automatic translation import <Michael Bestas> 3 days ago
+ 
+**** vanir:device_sony_fusion3-common ****
+359af61 : fstab: make vold happy <Georg Veichtlbauer> 2 weeks ago
+ 
+**** vanir:device_sony_nicki ****
+3dbfbfc : nicki: overlay: remove duplicate <RonGokhale> 8 weeks ago
+c6b08da : nicki: inherit msm8960-common at the end <RonGokhale> 3 weeks ago
+7130c91 : nicki: enable charger suspend <RonGokhale> 3 weeks ago
+d524f8b : nicki: Supress User space faults <Samir Mehta> 8 months ago
+d77094f : nicki: show app install location option <RonGokhale> 5 weeks ago
+af9c6f1 : nicki: update wlan configs <RonGokhale> 9 weeks ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 4 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 5 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 7 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 3 months ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 9 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 3 months ago
+915d977 : nicki: use new perfd-client <RonGokhale> 3 months ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 3 months ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 1 year ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 3 months ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 4 months ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 4 months ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 4 months ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 4 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 5 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 5 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 5 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 5 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 5 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 5 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 5 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 5 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 5 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 6 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 6 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 6 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 6 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 6 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 6 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 11 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 7 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 7 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 8 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 8 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 8 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 7 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 7 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 7 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 8 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 7 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 7 months ago
+c4b4a39 : nicki: update fstab <RonGokhale> 7 months ago
+1bd9501 : nicki: add charging and mass storage mode <RonGokhale> 7 months ago
+7bbf4d5 : nicki: sync prima INI file with LA.AF.1.1_rb1.8 <RonGokhale> 8 months ago
+ 
+**** aosp:platform/external/chromium_org/third_party/freetype ****
+512d7c3 : Update makefiles after merge of Chromium at 39.0.2171.95 <Ben Murdoch> 9 months ago
+8651496 : Update makefiles after merge <Torne (Richard Coles)> 12 months ago
+6e89810 : Update makefiles after merge of Chromium at 37.0.2062.21 <Bo Liu> 1 year, 1 month ago
+ 
+**** aosp:platform/external/freetype ****
+fb6b5b1 : Update to freetype 2.6.0 <Makoto Onuki> 2 months ago
+688537f : Add ftmm.c to FreeType build. <Ben Wagner> 3 months ago
+ 
+**** cm:android_external_icu ****
+7897b51 : Fix potential overflow issue <Zach Riggle> 9 weeks ago
+05eb04f : Cherrypick http://bugs.icu-project.org/trac/changeset/37162. <Elliott Hughes> 4 months ago
+ 
+**** vanir:frameworks_av ****
+555aa15 : stagefright: Exynos4 MPEG4 decoder should set native color format. <rINanDO> 11 days ago
+7d45d73 : audio effects: fix heap overflow <Eric Laurent> 9 weeks ago
+05c1863 : libstagefright: Add support for NV21 color format <Andreas Schneider> 4 days ago
+a5bd4cd : libmedia: Increase framecount in Track Offload <Alexy Joseph> 3 weeks ago
+ 
+**** vanir:frameworks_base ****
+4d36295 : Fingerprint: Don't start fingerprint auth in constructor <d34d> 3 days ago
+e9a7684 : DevicePolicy: Restore backup manager if the device owner is cleared <Ricardo Cerqueira> 4 days ago
+1071e94 : backup: Fix the system server crash fix <myfluxi> 6 days ago
+20907d8 : livedisplay: Fix boot-time race condition <Steve Kondik> 4 days ago
+428793e : cmhw: Move CMHW out of the framework and into CMSDK <Steve Kondik> 5 days ago
+357e226 : cmsdk: Start external services at the right time <Steve Kondik> 4 days ago
+1eb8774 : Fingerprint: Call SecurityCallback.dismiss when recognized <d34d> 2 days ago
+8c84995 : DO NOT MERGE Change to add STK_PERMISSION for stk related commands. <Amit Mahajan> 2 months ago
+d49e8f4 : Prevent system uid component from running in an app process <Wale Ogunwale> 2 months ago
+dd5ddd9 : Fix wrong Hungarian translation <Michael Bestas> 2 days ago
+c5f6e5e : Automatic translation import <Michael Bestas> 3 days ago
+fe4a91e : Revert "Revert "Wait until the Keyguard is drawn to dismiss the boot dialog."" <d34d> 8 days ago
+dd1e0ab : Revamp 'Stay awake' choices <Brandon McAnsh> 8 weeks ago
+7e9570d : SignalStrength: Allow for custom signal buckets in LTE <Ricardo Cerqueira> 6 days ago
+d651329 : base: don't refresh visualizer tile once the tile is destroyed <Jorge Ruesga> 5 days ago
+ 
+**** cm:android_frameworks_opt_hardware ****
+0a2704d : hardware: Add DisplayModeControl API <Steve Kondik> 5 days ago
+ 
+**** vanir:frameworks_opt_telephony ****
+7099af2 : DO NOT MERGE Change to add STK_PERMISSION for stk related commands. <Amit Mahajan> 2 months ago
+ 
+**** vanir:hardware_qcom_audio ****
+db526d2 : hal: Fix voice session setup failure <Venkata Narendra Kumar Gutta> 8 weeks ago
+5fb5911 : hal: allow to get render position for non-offload use cases <Zhou Song> 4 months ago
+5795c09 : hal: ensure EC reference is disabled before enabling <Ravi Kumar Alamanda> 9 months ago
+79ec707 : audio_hal: increase written frames size when HAL is in SSR <Zhou Song> 5 months ago
+ 
+**** vanir:hardware_qcom_audio ****
+ec3df43 : hal: Genericize dual-SIM voice_extn implementation <Bruno Martins> 2 weeks ago
+ 
+**** cm:android_hardware_qcom_bt ****
+9ac0567 : Bluetooth: load btaddr from NV if QCOM_BT_USE_BTNV is set <Scott Mertz> 7 days ago
+ 
+**** vanir:hardware_qcom_display ****
+e6f11ce : hwc: Reset the refresh rate alone to avoid stack corruption. <Praveena Pachipulusu> 3 months ago
+d6f0ece : liblight: Add support for bluetooth LED <Shimrit Malichi> 3 months ago
+9a8905c : hwc: increase app buffers to 3 on 8909_512 increase the app buffers to 3 to improve the performance of the Ux scenarios. <Sanjeev Jakkilinki> 6 months ago
+f02ecc9 : hwc: Avoid fullMDPComp[WithPTOR] on primary when secondary has YUV layer <Raj Kamal> 5 months ago
+ad5bc6c : hwc: Avoid MDPComp in certain conditions. <Raj Kamal> 5 months ago
+d0aa564 : hwc: Do not compose when there is no update in Frame content <Dileep Kumar Reddi> 4 months ago
+53bc638 : hwc: Do not unset pipe for MDP3 targets <Dileep Kumar Reddi> 4 months ago
+dfdcb15 : hwc: Avoid redoing GPU comp under certain conditions <Raj Kamal> 5 months ago
+f77f9c1 : hwc: mark layer as foreground for no blending <Ramakant Singh> 4 months ago
+9c67dd1 : libqdutils: Send ACK to partial update from PP via dynamic link <Nitesh Gupta> 4 months ago
+d4c902f : libqservice: Correct enum declarations w.r.t. dyn_pu node value <Nitesh Gupta> 4 months ago
+931db87 : libqservice: Defer enabling partial update until PP turns off <Nitesh Gupta> 4 months ago
+d1baa10 : Revert "hwc: avoid composition for static screen use-cases" <Gopal G Goberu> 4 months ago
+5ccf154 : hwc: avoid composition for static screen use-cases <Dileep Kumar Reddi> 5 months ago
+1c729b0 : hwc: Do not use ABC when geometry is changing <Dileep Kumar Reddi> 5 months ago
+590d753 : hwc: Support for reading FB format from driver <radhakrishna> 5 months ago
+5c35eca : hwc: Apply Default Mode only after Bootanimation is really completed <Nitesh Gupta> 5 months ago
+bce0731 : hwc: Add NULL check for gralloc private_hnd_t <Ramakant Singh> 5 months ago
+9811170 : hwc: Do not use visible regions when scaling is involved <Dileep Kumar Reddi> 5 months ago
+eec3ef9 : hwc: fix shaking issue due to swap rect in mdp3 <Ramakant Singh> 5 months ago
+ 
+**** cm:android_hardware_qcom_fm ****
+32b71fc : FMRadio : Keep track of scanned frequencies in service <Danesh M> 27 hours ago
+3bcae23 : Automatic translation import <Michael Bestas> 3 days ago
+ 
+**** vanir:kernel_lge_g3 ****
+e492f82 : msm: use of swp{b} is deprecated for ARMv6+ <Pranav Vashi> 1 year, 8 months ago
+3b1cf38 : PM / devfreq: Fix simple_ondemand crashing <myfluxi> 1 year, 8 months ago
+ 
+**** cm:lge-kernel-gproj ****
+e05a3ab : video: mdp4: Color temperature interface using PCC <Steve Kondik> 5 months ago
+b9336ce : lockdep: remove task argument from debug_check_no_locks_held <Colin Cross> 2 years, 3 months ago
+3ad06e8 : freezer: define try_to_freeze_nowarn if CONFIG_FREEZER=n <Ben Jones> 2 years, 9 months ago
+410fa9e : freezer: add new freezable helpers using freezer_do_not_count() <Colin Cross> 2 years, 3 months ago
+0c48212 : freezer: convert freezable helpers to freezer_do_not_count() <Colin Cross> 2 years, 3 months ago
+122ac02 : freezer: convert freezable helpers to static inline where possible <Colin Cross> 2 years, 3 months ago
+a95f8ab : lockdep: check that no locks held at freeze time <Mandeep Singh Baines> 2 years, 3 months ago
+32441f6 : freezer: add unsafe versions of freezable helpers for CIFS <Colin Cross> 2 years, 3 months ago
+7d26af0 : freezer: add unsafe versions of freezable helpers for NFS <Colin Cross> 2 years, 3 months ago
+7e1b705 : freezer: add missing mb's to freezer_count() and freezer_should_skip() <Tejun Heo> 2 years, 10 months ago
+4ec1be5 : HACK: ARM: disable sleeping while atomic warning in do_signal <Colin Cross> 3 years ago
+c00b90b : binder: Remove LGE's debug <Ricardo Cerqueira> 3 days ago
+ 
+**** cm:android_kernel_motorola_msm8226 ****
+b1e69ee3 : staging: prima: Fix non-debug build and switch to it <Gabriele M> 2 days ago
+8ebdcec : msm8226: defconfig: Don't optimize for size <Gabriele M> 4 days ago
+0b014d5 : af_unix: use freezable blocking calls in read <Colin Cross> 2 years, 3 months ago
+a8067ee : sigtimedwait: use freezable blocking call <Colin Cross> 2 years, 3 months ago
+1b38299 : futex: use freezable blocking call <Colin Cross> 2 years, 3 months ago
+8666f48 : nanosleep: use freezable blocking call <Colin Cross> 2 years, 3 months ago
+151c8d8 : select: use freezable blocking call <Colin Cross> 2 years, 3 months ago
+8f2c13f : epoll: use freezable blocking call <Colin Cross> 2 years, 3 months ago
+a963ce3 : binder: use freezable blocking calls <Colin Cross> 2 years, 3 months ago
+4ad7750 : freezer: add new freezable helpers using freezer_do_not_count() <Colin Cross> 2 years, 3 months ago
+d2fca3e : freezer: convert freezable helpers to static inline where possible <Colin Cross> 2 years, 3 months ago
+02cd77e : freezer: convert freezable helpers to freezer_do_not_count() <Colin Cross> 2 years, 3 months ago
+94c1c8b : freezer: skip waking up tasks with PF_FREEZER_SKIP set <Colin Cross> 2 years, 3 months ago
+40469c9 : freezer: shorten freezer sleep time using exponential backoff <Colin Cross> 2 years, 3 months ago
+1d6f09d : lockdep: check that no locks held at freeze time <Mandeep Singh Baines> 2 years, 3 months ago
+a2ebbd6 : lockdep: remove task argument from debug_check_no_locks_held <Colin Cross> 2 years, 3 months ago
+e4fc580 : freezer: add unsafe versions of freezable helpers for CIFS <Colin Cross> 2 years, 3 months ago
+32778e5 : freezer: add unsafe versions of freezable helpers for NFS <Colin Cross> 2 years, 3 months ago
+ccdeb58 : PM / Freezer: Fix small typo "regrigerator" <Sedat Dilek> 3 years ago
+87d7c8a3 : Revert "freezer: comment out might_sleep()" <Gabriele M> 3 days ago
+d90a9ae : PM: Remove legacy code leftovers <Gabriele M> 3 days ago
+ab21c08 : msm8226: defconfig: Use ext4 driver for ext2 and ext3 <Gabriele M> 4 days ago
+ 
+**** cm:android_kernel_motorola_msm8974 ****
+2e5ad67 : msm: use of swp{b} is deprecated for ARMv6+ <Pranav Vashi> 1 year, 8 months ago
+ 
+**** cm:android_kernel_oneplus_msm8974 ****
+aad90d2 : Revert "misc: shineled: Update driver for Find7S" <Michael Bestas> 3 weeks ago
+f0e5994 : bacon: Disable PIC1503_FASTCG <Michael Bestas> 3 weeks ago
+b6623e8 : ARM: dts: oppo: Move shineled to x9007/a0001 <Michael Bestas> 3 weeks ago
+285a59e : msm: oppo: Fix GPIO configuration when not selecting KS8851 <Michael Bestas> 3 weeks ago
+3158d3c : bacon/find7: Disable KS8851 ethernet <Michael Bestas> 3 weeks ago
+97d1d7d : ARM: dts: oppo: Clean up LEDs configuration <Sultanxda> 3 months ago
+8621018 : ARM: dts: oppo: Remove unused devices & cleanup <Michael Bestas> 3 weeks ago
+8d7fae0 : ARM: dts: oppo: Disable spi0 <Sultanxda> 3 months ago
+ 
+**** cm:android_kernel_sony_msm8x60 ****
+989d2ed : Avoid to create duplicate filename for misc devices. <singhome_lee> 2 years, 3 months ago
+f7f0fe8 : random: remove rand_initialize_irq() <Theodore Ts'o> 3 years, 1 month ago
+34f0bed : random: add new get_random_bytes_arch() function <Theodore Ts'o> 3 years, 2 months ago
+fafe576 : random: use the arch-specific rng in xfer_secondary_pool <Theodore Ts'o> 3 years, 2 months ago
+5de99b1 : random: create add_device_randomness() interface <Linus Torvalds> 3 years, 2 months ago
+9760f49 : random: use lockless techniques in the interrupt path <Theodore Ts'o> 3 years, 2 months ago
+04d9e29 : random: make 'add_interrupt_randomness()' do something sane <Theodore Ts'o> 3 years, 2 months ago
+7eb7bec : msm: Remove android_pmem.h from board and devices files <Laura Abbott> 2 years, 5 months ago
+bee3b0e : msm: kgsl: set gpu idle_timeout to 50ms <Fred Fettinger> 2 years, 10 months ago
+7c7ade7 : Power: Changes the permission to read only for sysfs file /sys/kernel/wakeup_reasons/last_resume_reason <Ruchi Kandoi> 1 year, 4 months ago
+626254b : Power: Add guard condition for maximum wakeup reasons <Ruchi Kandoi> 1 year, 5 months ago
+aebef9c : POWER: fix compile warnings in log_wakeup_reason <Ruchi Kandoi> 1 year, 6 months ago
+a2c777f : Power: add an API to log wakeup reasons <Ruchi Kandoi> 1 year, 6 months ago
+d21f682 : PM / QoS: Fix deadlock during PM QoS vote to default value <Sujit Reddy Thumma> 2 years ago
+8724fbc : freezer: shorten freezer sleep time using exponential backoff <Colin Cross> 2 years, 3 months ago
+c611778 : Revert "PM: wakelock: Abort task freezing if a wake lock is held." <Iliyan Malchev> 2 years, 2 months ago
+12fae32 : power: debug: enable debugging msg when CONFIG_PM_DEBUG is set <paris_yeh> 2 years, 9 months ago
+27f782c : huashan: Update defconfig <Mrcl1450> 4 days ago
+7718cd5 : ARM: DMA: Fix Typo <Mrcl1450> 2 years, 7 months ago
+290c7ec : video: mdp: Remove wait for the system <Mrcl1450> 4 days ago
+04a9557 : writeback: Fix occasional slow sync(1) <Jan Kara> 2 years, 1 month ago
+fd47803 : sync: don't block the flusher thread waiting on IO <Dave Chinner> 2 years, 2 months ago
+1c9cba4 : writeback: fix race that cause writeback hung <Junxiao Bi> 1 year, 11 months ago
+bfeef95 : mdp: fix doze support <Dave Daynard> 11 days ago
+88af03b : smd_pkt: Add sanity check to avoid unregistering the driver twice <Naveen Ramaraj> 5 months ago
+0369b85 : msm: smd_pkt: Avoid prematurely stashing driver info <Naveen Ramaraj> 6 months ago
+bb4d8d9 : block: row: Fix crash when adding a new field in bio struct <Tanya Brokhman> 1 year, 2 months ago
+dc08186 : block: Adding ROW scheduling algorithm <Tatyana Brokhman> 2 years, 11 months ago
+ac274f5 : selinux: Report permissive mode in avc: denied messages. <Stephen Smalley> 1 year, 4 months ago
+d5ee7ee : SELinux: Fix possible NULL pointer dereference in selinux_inode_permission() <Steven Rostedt> 1 year, 7 months ago
+7ec33a8 : SELinux: include definition of new capabilities <Eric Paris> 3 years, 1 month ago
+974bab1 : Enable setting security contexts on rootfs inodes. <Stephen Smalley> 2 years, 3 months ago
+3769024 : scripts/dtc/libfdt: add integer overflow checks <vijay kumar> 1 year ago
+e262674 : samples/seccomp: fix dependencies on arch macros <Will Drewry> 3 years, 4 months ago
+8701a0a : Documentation: prctl/seccomp_filter <Will Drewry> 3 years, 7 months ago
+a118f6af : mnt: Only change user settable mount flags in remount <Eric W. Biederman> 1 year, 1 month ago
+8065837 : fs: take i_mutex during prepare_binprm for set[ug]id executables <Jann Horn> 4 months ago
+8391b65 : fs/seq_file: Use vmalloc by default for allocations > PAGE_SIZE <Jordan Crouse> 11 months ago
+f88bb96 : fs/seq_file: fallback to vmalloc allocation <Heiko Carstens> 11 months ago
+f8953f8 : seq_file: always clear m->count when we free m->buf <Devin Kim> 1 year, 7 months ago
+0d027ff : seq_file: always update file->f_pos in seq_lseek() <Devin Kim> 1 year, 7 months ago
+c689a13 : mm: Fix NULL pointer dereference in madvise(MADV_WILLNEED) support <Kirill A. Shutemov> 1 year, 8 months ago
+b9b134e : nick kvfree() from apparmor <Al Viro> 11 months ago
+5d77c52 : mm: compaction: do not accidentally skip pageblocks in the migrate scanner <Mel Gorman> 2 years, 6 months ago
+1aa98c0 : mm/compaction: Break out of loop on !PageBuddy in isolate_freepages_block <Laura Abbott> 1 year, 6 months ago
+3ab3902 : ksm: Provide support to use deferred timers for scanner thread <Chintan Pandya> 1 year, 6 months ago
+b4900e6 : mm: fix anon vma naming <Colin Cross> 1 year, 10 months ago
+7e451a2 : mm: fix calculation of dirtyable memory <Sonny Rao> 2 years, 8 months ago
+625dab8 : mm: make is_vmalloc_addr lockless <Laura Abbott> 1 year, 8 months ago
+0e9018c : mm: change freepage state correctly in __isolate_free_page <Laura Abbott> 1 year, 9 months ago
+ 
+**** vanir:libcore ****
+cb52bc9 : libcore: add a way to clear cached time zone strings <Roman Birg> 7 days ago
+ 
+**** vanir:platform_manifest ****
+2d2822c : Add back D803 w/ old kernel <sudosurootdev> 22 hours ago
+29ca468 : Fixup Freetype project & revision <Abhisek Devkota> 2 days ago
+caffcb5 : Fixup Freetype project & revision <sudosurootdev> 2 days ago
+ 
+**** vanir:packages_apps_Contacts ****
+469ec6c : Automatic translation import <Michael Bestas> 3 days ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+f28f4ef : SelectAccountActivity : Support local phone account <Rohit Yengisetty> 3 weeks ago
+160f4dc : Fix:Shouln't display any contacts after clean all letters in dialer search view. <chengzhi.hou> 4 days ago
+b836c45 : ContactsCommon: Telephony expects sim_index <cretin45> 2 days ago
+ 
+**** vanir:packages_apps_DeskClock ****
+b5cabc4 : Automatic translation import <Michael Bestas> 3 days ago
+ 
+**** cm:android_packages_apps_Exchange ****
+96fbbaa : Fix authentication error notification click handling. <Danny Baumann> 8 days ago
+ 
+**** vanir:packages_apps_InCallUI ****
+d21a74c : Automatic translation import <Michael Bestas> 3 days ago
+ 
+**** vanir:packages_apps_LockClock ****
+118bbb9 : Automatic translation import <Michael Bestas> 3 days ago
+c4b791a : Allow user to change background color/transparency for the widget, for greater compatibility with various wallpapers <Zach Prezkuta> 11 days ago
+ 
+**** vanir:packages_apps_Mms ****
+8817bbe : Fix keyboard hiding and scrolling <Martin Brabham> 28 hours ago
+563c323 : Automatic translation import <Michael Bestas> 3 days ago
+ 
+**** cm:android_packages_apps_Profiles ****
+fc903f8 : ProfileTrustAgent: remove onStart override <Roman Birg> 3 hours ago
+ 
+**** vanir:packages_apps_Settings ****
+2108ce2 : Settings: add Berlin to time zones list <tobitege> 5 weeks ago
+e4fdb38 : Settings: add a way to reset quick settings tiles <Roman Birg> 4 hours ago
+a2325fb : settings: Move CMHW to CMSDK <Steve Kondik> 4 days ago
+fd849be : Revert "settings: contributors cloud" <DHOMD> 2 days ago
+272d3cc : settings: contributors cloud <Jorge Ruesga> 9 days ago
+926c3b0 : Settings: update time zone strings on date change <Roman Birg> 7 days ago
+5a12c65 : Automatic translation import <Michael Bestas> 3 days ago
+22f841d : Development: Add choices to 'Stay Awake' preference <Brandon McAnsh> 9 weeks ago
+c5aecaa : Settings: add a way to not localize zone selections <Roman Birg> 7 days ago
+ 
+**** cm:android_packages_apps_Stk ****
+a560f61 : DO NOT MERGE Change to add STK_PERMISSION for stk related commands. <Amit Mahajan> 2 months ago
+ 
+**** cm:android_packages_apps_Terminal ****
+5e30f8e : Automatic translation import <Michael Bestas> 3 days ago
+ 
+**** vanir:packages_apps_ThemeChooser ****
+180d0f5 : Show an AlertDialog when clicking Get More <Andreas> 7 days ago
+31bf21b : Automatic translation import <Michael Bestas> 3 days ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+bf4cf25 : Automatic translation import <Michael Bestas> 3 days ago
+ 
+**** cm:android_packages_providers_ContactsProvider ****
+f684f82 : Add URI matcher entry for CONTACTS_GROUP <Raj Yengisetty> 2 days ago
+ 
+**** vanir:packages_services_Telecomm ****
+9552ca5 : Telecomm: Avoid NPE when invoking setAudioParameters <Bruno Martins> 7 hours ago
+6eea5e6 : telecom: Move CMHW to CMSDK <Steve Kondik> 4 days ago
+ 
+**** vanir:packages_services_Telephony ****
+1449403 : Telephony: Allow com.android.phone to use CMHW <LuK1337> 26 hours ago
+11cbfa6 : telephony: Don't bypass telephony stack when switching RAT. <Adnan Begovic> 3 days ago
+2fd5ed7 : DO NOT MERGE Change to make STK related intents protected. <Amit Mahajan> 2 months ago
+d846adf : Automatic translation import <Michael Bestas> 3 days ago
+ 
+**** cm:cm_platform_sdk ****
+e18f6d8 : cmsdk: Add initial DisplayMode and AutoContrast support to CMHW <Steve Kondik> 3 days ago
+5ee87cb : cmsdk: Transplant CMHW into CMSDK <Steve Kondik> 4 days ago
+435e2f3 : profiles: Don't bind the keyguard until ActivityManager is up <Steve Kondik> 4 days ago
+8b5a4d9 : Automatic translation import <Michael Bestas> 3 days ago
+ 
+**** vanir:vendor_lge ****
+d98c543 : Add back d803 w/ old kernel <sudosurootdev> 25 hours ago
+095b33c : Community fix for p880 sound issues <DHOMD> 4 days ago
+d67c470 : Fix f400 build by moving to f400k since CM's device repo calls f400k <sudosurootdev> 4 weeks ago
+823fd6b : Update D851 to muppets <sudosurootdev> 8 weeks ago
+3b6812d : us990: Add NFC blob from ls980 <sudosurootdev> 8 weeks ago
+bb5ecc8 : ls990: Add nfc blob from ls80 <Seth Shelnutt> 8 weeks ago
+0003bdb : Add us990 G3 variant <sudosurootdev> 8 weeks ago
+5807c37 : Add LG G3 F400 Variant <sudosurootdev> 8 weeks ago
+ 
+**** vanir:vendor_motorola ****
+f1a2090 : victara: ship widevine firmware <Dan Pasanen> 5 days ago
+ 
+**** vanir:vendor_vanir ****
+dd98ae0 : cm: Moving CMHW to CMSDK <Steve Kondik> 4 days ago
+8c2e8b5 : Add back d803 w/ old kernel <sudosurootdev> 25 hours ago
+ 

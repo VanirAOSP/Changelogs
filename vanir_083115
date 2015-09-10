@@ -1,0 +1,148 @@
+
+**** vanir:build ****
+00cbe08 : Adding msm8909 as a QCOM board platform <Marcos Marado> 2 weeks ago
+24ddce3 : build: kernel: arm64 uses Image.gz as the target <Scott Mertz> 5 weeks ago
+ 
+**** samba:ccache.git ****
+f32a14a : Include strings.h for strcasecmp <Joel Rosdahl> 2 days ago
+a458a8e : Remove unnecessary extra_cppflags, extra_ldflags and all_ldflags variables <Joel Rosdahl> 2 days ago
+737c96f : Improve signal handling <Joel Rosdahl> 2 days ago
+4fdb958 : Wait for compiler subprocess to exit before exiting from a signal <Joel Rosdahl> 2 weeks ago
+1d075b2 : Make conversion-to-bool explicit to avoid warnings on legacy systems <Joel Rosdahl> 2 weeks ago
+f74c761 : Fix regression in recent change related to zlib in nonstandard location <Joel Rosdahl> 2 weeks ago
+ 
+**** cm:android_device_cyanogen_msm8916-common ****
+5098a51 : Use $(VENDOR_PATH) instead of hardcoded path <Marcos Marado> 3 weeks ago
+ 
+**** vanir:device_htc_m7-common ****
+74602df : m7-common: Don't use ttyHSL0 for console <Ethan Chen> 2 days ago
+ 
+**** vanir:device_htc_s4-common ****
+31bde5c : s4-common: Don't use ttyHSL0 for console <Ethan Chen> 2 days ago
+ 
+**** vanir:device_lge_g2-common ****
+e11e14d : g2: system_prop: Remove deprecated loki value <Zdrowy Gosciu> 4 days ago
+4cd32aa : g2: CMHW: TapToWake: Check if touch_gesture exists <Scott Mertz> 4 days ago
+e5eadb4 : g2: CMHW: TapToWake: Read touch_gesture directly from kernel <Scott Mertz> 7 months ago
+ 
+**** vanir:device_lge_hammerhead ****
+8eff87b : mss mdp issues with current vanir kernel... cause screen to stop turning on eventually. going to try cm's <nuclearmistake> 9 hours ago
+ 
+**** cm:android_device_motorola_condor ****
+4bb1622 : Condor : zRam: Decrease size <Ashwin> 35 hours ago
+612efb9 : Condor: art: Disable dex2oat watchdog <Michael Bestas> 4 months ago
+7ed05de : Condor : Update fstab <Ashwin> 3 days ago
+ 
+**** vanir:motorola_msm8226-common ****
+c674aa0 : msm8226-common: configs: fix call recording <Luca Stefani> 29 hours ago
+ 
+**** cm:android_device_motorola_victara ****
+7fb6c52 : init: set cdma subscription to SIM for xt1096 <Dan Pasanen> 29 hours ago
+ 
+**** vanir:device_qcom_common ****
+9cb2917 : Adding init for msm8909 <Marcos Marado> 2 weeks ago
+ 
+**** vanir:device_qcom_sepolicy ****
+188ecce : sepolicy: Add thermal and irqbalancer sockets <Stephen Boyd> 8 months ago
+ 
+**** vanir:device_sony_nicki ****
+f58715e : nicki: use LA.AF.1.1 media codec <RonGokhale> 7 days ago
+7b5282e : nicki: use low end google media codec <RonGokhale> 7 days ago
+070a3e3 : nicki: decouple from 8960-common <RonGokhale> 10 days ago
+3dbfbfc : nicki: overlay: remove duplicate <RonGokhale> 10 weeks ago
+c6b08da : nicki: inherit msm8960-common at the end <RonGokhale> 5 weeks ago
+7130c91 : nicki: enable charger suspend <RonGokhale> 5 weeks ago
+d524f8b : nicki: Supress User space faults <Samir Mehta> 9 months ago
+d77094f : nicki: show app install location option <RonGokhale> 7 weeks ago
+af9c6f1 : nicki: update wlan configs <RonGokhale> 2 months ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 5 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 5 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 7 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 3 months ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 9 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 3 months ago
+915d977 : nicki: use new perfd-client <RonGokhale> 3 months ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 3 months ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 1 year, 1 month ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 3 months ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 4 months ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 4 months ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 4 months ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 5 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 5 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 5 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 5 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 5 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 5 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 5 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 5 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 5 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 6 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 6 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 6 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 6 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 6 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 6 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 6 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 11 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 8 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 8 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 8 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 8 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 8 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 7 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 7 months ago
+4eb5fe1 : nicki: adresses healthd denials <RonGokhale> 7 months ago
+fbb77d0 : nicki: Set bootdevice flag <David Ng> 9 months ago
+17cb7f8 : nicki: address more selinux denials and cleanup <RonGokhale> 8 months ago
+6c60d1d : nicki: update drmdecrypt location <RonGokhale> 8 months ago
+ 
+**** vanir:frameworks_base ****
+a989503 : SettingsProvider: don't set default value for advanced mode <Roman Birg> 4 days ago
+c9215ea : Add support for Samsung extended AGPS <ghepeu> 2 years, 2 months ago
+f275fc4 : Added show volume panel tile to QS <stofstik> 2 weeks ago
+8472912 : LEDs Brightness [2/2]: Lights notifications brightness support <AdrianDC> 13 days ago
+e3c51fe : Lights with Screen On [1/2]: Optional allowment of lights <AdrianDC> 6 weeks ago
+ce30097 : SystemUI: do not load header bar if boot isn't complete <Raj Yengisetty> 2 weeks ago
+ 
+**** cm:android_kernel_motorola_msm8226 ****
+acfe66c : arch: arm: regenerate configs after c65d97f <Luca Stefani> 2 days ago
+c65d97f : defconfig: get rid of nfc <Thecrazyskull> 2 days ago
+ 
+**** cm:android_kernel_oneplus_msm8974 ****
+9cfcb0c : Partially revert "clock-8974: Update from oppo 4.4 source" <Michael Bestas> 13 days ago
+4b3868a : synaptics: Fix find7s HW version checks <maxwen> 8 weeks ago
+75f38d2 : ASoC: msm: qdsp6v2: Correct buffer size alignment while memory map <Phani Kumar Uppalapati> 4 months ago
+d2b228f : ALSA: pcm: Don't leave PREPARED state after draining <Takashi Iwai> 9 months ago
+ 
+**** vanir:packages_apps_Settings ****
+055e70f : Settings: fix up advanced mode logic <Roman Birg> 4 days ago
+4289d16 : Settings: Always enable the per-app pulse light settings <Gabriele M> 12 days ago
+c788562 : Added show volume to tile chooser <stofstik> 2 weeks ago
+d222ae5 : LEDs Brightness [1/2]: Lights notifications brightness support <AdrianDC> 13 days ago
+822fe6d : Lights with Screen On [2/2]: Optional allowment of lights <AdrianDC> 6 weeks ago
+0508802 : Add back high SMS limits <Michael Bestas> 13 days ago
+8fab618 : settings: Animation scale seekbars <Steve Kondik> 1 year, 4 months ago
+ 
+**** cm:android_packages_providers_ThemesProvider ****
+29f1d16 : Specify locale when using String.format() <d34d> 2 hours ago
+ 
+**** cm:android_prebuilts_cmsdk ****
+505e076 : prebuilts/cmsdk: Update api text for CMSettings <Yvonne Wong> 3 hours ago
+8fa9722 : prebuilts/cmsdk: Update api text for Hardware <Yvonne Wong> 7 hours ago
+ 
+**** cm:cm_platform_sdk ****
+95dadd8 : cmsdk: allow custom tiles to set the new qstile's sensitive data flag <Jorge Ruesga> 2 weeks ago
+0eb2999 : Add CMSettingsProvider and CMDatabaseHelper <Yvonne Wong> 11 days ago
+e949433 : cmsdk: Build in the Manifest and R classes for the sdk. <Adnan Begovic> 3 days ago
+a632fbc : cmsdk: Update cm api text files <Yvonne Wong> 3 days ago
+ 
+**** vanir:vendor_sony ****
+76c6e47 : taoshan: update adreno drivers to LA.AF.1.1_rb1.16 <Varun Chitre> 3 months ago
+ 
+**** vanir:vendor_vanir ****
+f23d76f : Fix Movistar APNs <Marcos Marado> 9 hours ago
+1042589 : Fix Airtel APN Selection <Abhisek Devkota> 5 hours ago
+2360abe : Updated APN settings for Latvian operators <Davis Mosenkovs> 27 hours ago
+20f8f55 : Rogers LTE apn fix? <Abhisek Devkota> 4 days ago
+ 
