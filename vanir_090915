@@ -183,3 +183,128 @@ df31d37 : Externally-reported Moderate severity vulnerability in SMS: Apps can b
 **** vanir:hardware_broadcom_wlan ****
 b4d5491 : r15 firmware... does not merge <nuclearmistake> 8 hours ago
  
+**** vanir:kernel_lge_msm8974 ****
+bf3ae60 : restart: fix rebooting to bootloader <Dan Pasanen> 10 days ago
+25a0152 : kernel: Replace timeconst.pl with a bc script <H. Peter Anvin> 2 years, 7 months ago
+ 
+**** cm:android_kernel_samsung_d2 ****
+fab2126 : msm: mdp: maybe just a little less power Scotty? <jrior001> 25 hours ago
+91998c0 : Adjust thermal throttle targets for 1.2ghz max devices <jrior001> 4 days ago
+1ec27ea : acpuclock: provide method to limit CPU to 1.2ghz Max <jrior001> 4 days ago
+be00d04 : block: don't force FIOPS and TEST schedulers <Dave Daynard> 27 hours ago
+be0db9e : PM / Wakeup: Use rcu callbacks for better performance <Patrick Daly> 3 months ago
+4579dc9 : ARM: kernel: update __cpu_disable to use cache LoUIS maintenance API <Lorenzo Pieralisi> 3 years ago
+89c8c68 : ARM: kernel: update cpu_suspend code to use cache LoUIS operations <Lorenzo Pieralisi> 3 years ago
+2f97f85 : ARM: 7919/1: mm: refactor v7 cache cleaning ops to use way/index sequence <Lorenzo Pieralisi> 1 year, 9 months ago
+f3d33ca : ARM: 7752/1: errata: LoUIS bit field in CLIDR register is incorrect <Jon Medhurst> 2 years, 3 months ago
+2eada30 : arm: Add v7_invalidate_l1 to cache-v7.S <Dinh Nguyen> 2 years, 7 months ago
+0e55873 : ARM: 7606/1: cache: flush to LoUU instead of LoUIS on uniprocessor CPUs <Will Deacon> 2 years, 9 months ago
+e87779d : ARM: mm: rename jump labels in v7_flush_dcache_all function <Lorenzo Pieralisi> 3 years ago
+1ece7f4 : ARM: 7408/1: cacheflush: return error to userspace when flushing syscall fails <Will Deacon> 3 years, 4 months ago
+f217887 : msm: smd_pkt: Avoid prematurely stashing driver info <Naveen Ramaraj> 7 months ago
+1c47340 : lib/lz4: Pull out constant tables <Rasmus Villemoes> 7 months ago
+d37a953 : LZ4 : fix the data abort issue <JeHyeon Yeon> 6 months ago
+cfbc969 : Net: usb: upgrade Asix driver to latest sources <Dave Daynard> 4 days ago
+a76d04a : Reduce min capture period size from 320 to 64 <Glenn Kasten> 1 year, 4 months ago
+043b10f : ASoC: msm: Add support for flexible period size and count <Honghao Liu> 8 weeks ago
+56652e8 : Revert "ASoC: msm: Flexible period size for pcm playback" <Dave Daynard> 4 days ago
+c555c54 : msm: mdp: Scotty, moar power! <Dave Daynard> 5 days ago
+4c62973 : d2: f2fs: bring up to date with Jaegeuk's branch <Jaegeuk Kim> 7 days ago
+ea9b575 : sysrq: Emergency Remount R/O in reverse order <Amir Goldstein> 1 year, 1 month ago
+ 
+**** github:Fred6681/android_kernel_samsung_golden ****
+bf54157 : selinux: remove unused|deprecated includes <Humberto Borba> 5 months ago
+975c7e7 : selinux: Report permissive mode in avc: denied messages. <Stephen Smalley> 1 year, 4 months ago
+be4024a : SELinux: check OPEN on truncate calls <Eric Paris> 3 years, 5 months ago
+b0d0919 : SELinux: include definition of new capabilities <Eric Paris> 3 years, 2 months ago
+49af6e8 : lsm_audit: don't specify the audit pre/post callbacks in 'struct common_audit_data' <Linus Torvalds> 3 years, 5 months ago
+ad4a13d : SELinux: do not allocate stack space for AVC data unless needed <Eric Paris> 3 years, 5 months ago
+d29fb82 : SELinux: remove avd from slow_avc_audit() <Eric Paris> 3 years, 5 months ago
+1c0dcb1 : SELinux: remove avd from selinux_audit_data <Eric Paris> 3 years, 5 months ago
+8fd2e18 : LSM: shrink the common_audit_data data union <Eric Paris> 3 years, 5 months ago
+675b54a : LSM: shrink sizeof LSM specific portion of common_audit_data <Eric Paris> 3 years, 5 months ago
+f95c18d : capabilities: remove the task from capable LSM hook entirely <Eric Paris> 3 years, 8 months ago
+1b22325 : security: optimize avc_audit() common path <Linus Torvalds> 3 years, 6 months ago
+f5d3ea4 : get rid of pointless includes of ext2_fs.h <Al Viro> 3 years, 6 months ago
+f5d6df9 : selinuxfs: merge dentry allocation into sel_make_dir() <Al Viro> 3 years, 6 months ago
+2cc13d7 : selinux: inline avc_audit() and avc_has_perm_noaudit() into caller <Linus Torvalds> 3 years, 5 months ago
+5586bfc : selinux: don't inline slow-path code into avc_has_perm_noaudit() <Linus Torvalds> 3 years, 5 months ago
+1b48a2e : SELinux: selinux/xfrm.h needs net/flow.h <David Howells> 3 years, 6 months ago
+cd43ea7 : selinux: Casting (void *) value returned by kmalloc is useless <Thomas Meyer> 3 years, 10 months ago
+8dfdf60 : selinuxfs: remove custom hex_to_bin() <Andy Shevchenko> 3 years, 10 months ago
+5ecce1f : selinux: sparse fix: fix several warnings in the security server code <James Morris> 4 years ago
+a5870d5 : selinux: sparse fix: include selinux.h in exports.c <James Morris> 4 years ago
+1c5f40f : selinux: sparse fix: fix warnings in netlink code <James Morris> 4 years ago
+7bc1d65 : selinux: sparse fix: eliminate warnings for selinuxfs <James Morris> 4 years ago
+d247dcd : selinux: sparse fix: declare selinux_disable() in security.h <James Morris> 4 years, 1 month ago
+98c6304 : selinux: sparse fix: move selinux_complete_init <James Morris> 4 years, 1 month ago
+0769386 : selinux: sparse fix: make selinux_secmark_refcount static <James Morris> 4 years, 1 month ago
+6bdfaeb : doc: Update the email address for Paul Moore in various source files <Paul Moore> 4 years, 1 month ago
+91c2713 : VFS : mount lock scalability for internal mounts <Tim Chen> 4 years, 2 months ago
+b24fb74 : security,rcu: Convert call_rcu(sel_netport_free) to kfree_rcu() <Lai Jiangshan> 4 years, 6 months ago
+74217f7 : security,rcu: Convert call_rcu(sel_netnode_free) to kfree_rcu() <Lai Jiangshan> 4 years, 6 months ago
+921a713 : fs: add missed selinux dependency this entry is required for this driver backport process <Fred6681> 2 days ago
+c9ac1ad : selinux: don't transliterate MAY_NOT_BLOCK to IPERM_FLAG_RCU <Al Viro> 4 years, 3 months ago
+d79d4ac : ->permission() sanitizing: don't pass flags to ->inode_permission() <Al Viro> 4 years, 3 months ago
+e88c177 : Enable setting security contexts on rootfs inodes. <Stephen Smalley> 2 years, 4 months ago
+284b98f : SELinux: Fix possible NULL pointer dereference in selinux_inode_permission() <Steven Rostedt> 1 year, 8 months ago
+ 
+**** vanir:kernel_samsung_jf ****
+eb049d8 : msm: mdp: Scotty, moar power! <Dave Daynard> 5 days ago
+ 
+**** cm:android_kernel_sony_apq8064 ****
+b136dcc : defconfig: make noop the default ioscheduler <Georg Veichtlbauer> 7 days ago
+ 
+**** vanir:platform_manifest ****
+dd75b41 : Hit me one more time <DHOMD> 2 hours ago
+66fa817 : r16 <nuclearmistake> 8 hours ago
+91e8ce2 : r15 <nuclearmistake> 9 hours ago
+ 
+**** vanir:packages_apps_Nfc ****
+f5f5eef : nfc: create a bootstrap service <Jorge Ruesga> 4 days ago
+ 
+**** cm:android_packages_apps_Stk ****
+ea855a3 : DO NOT MERGE Change to add STK_PERMISSION for stk related commands. <Amit Mahajan> 3 months ago
+ 
+**** vanir:packages_services_Mms ****
+02c4df0 : Squashed r13 => r15 changes <nuclearmistake> 9 hours ago
+ 
+**** vanir:packages_services_Telecomm ****
+faf7796 : Squashed r13 => r15 changes <nuclearmistake> 9 hours ago
+ 
+**** vanir:packages_services_Telephony ****
+db69251 : TeleService: Remove HomeAsUp arrow for nested pref screens <cretin45> 5 months ago
+ 
+**** cm:android_prebuilts_cmsdk ****
+c5f124b : prebuilts/cmsdk: Update api level 2 for PersistentStorage. <Adnan Begovic> 3 hours ago
+ 
+**** vanir:system_core ****
+3e09a07 : fs_mgr: When formating ext4 volumes, respect the length parameter <Diogo Ferreira> 3 days ago
+d551b51 : fs_mgr: zram: allow specifying stream count <Sultan Qasim Khan> 3 days ago
+db97552 : Prevent integer overflow when allocating native_handle_t <Adam Lesinski> 5 months ago
+e8c62fb : Prevent integer overflow when allocating native_handle_t <Adam Lesinski> 5 months ago
+ 
+**** vanir:system_extras ****
+e084215 : f2fs_utils: fix block alignment calculation <Edward Wang> 8 hours ago
+ 
+**** vanir:system_security ****
+5c3f7e0 : Fix unchecked length in Blob creation <Chad Brubaker> 6 weeks ago
+bb9f439 : Fix unchecked length in Blob creation <Chad Brubaker> 6 weeks ago
+ 
+**** cm:cm_platform_sdk ****
+9f381bc : cmsdk: Update api text for Persistent Storage API. <Adnan Begovic> 3 hours ago
+7cef6f6 : cmsdk: Add persistent properties API <Steve Kondik> 9 days ago
+087f2b5 : Update API txt files for cyanogenmod.media.MediaRecorder. Update API txt files for PartnerInterface. <Matt Garnes> 6 days ago
+eabd575 : Add Broadcast action and query API for AudioSource.HOTWORD. <Matt Garnes> 4 days ago
+ 
+**** commotio:commotio ****
+f65e0c7 : And google does it yet again <DHOMD> 2 hours ago
+754a0da : Google bumps again <DHOMD> 2 hours ago
+ 
+**** vanir:vendor_vanir ****
+0d012e0 : Google does it one more time LVY48F <DHOMD> 2 hours ago
+f344fca : r15 ==> r16 <nuclearmistake> 8 hours ago
+6812206 : apns: combine internet and mms apns for vzw <Dan Pasanen> 6 weeks ago
+7c1ee4f : Superficial buildid bumps <nuclearmistake> 8 hours ago
+8312e5b : CM SDK: rename SettingsManager to PartnerInterface <Raj Yengisetty> 30 hours ago
+ 

@@ -1,0 +1,233 @@
+
+**** vanir:bootable_recovery ****
+e6fd45c : Track usage of Vector / SortedVector from libutils DO NOT MERGE <Narayan Kamath> 9 weeks ago
+ 
+**** vanir:device_htc_m8 ****
+900ae70 : Revert "m8: Remove custom mkbootimg" <Dan Pasanen> 7 hours ago
+dc69ea1 : m8: Remove custom mkbootimg <Luca Stefani> 5 days ago
+ 
+**** cm:android_device_htc_m8dug ****
+4d75139 : Revert "m8d: Remove custom mkbootimg" <Dan Pasanen> 7 hours ago
+e04248d : m8d: Remove custom mkbootimg <Luca Stefani> 5 days ago
+ 
+**** cm:android_device_htc_msm8974-common ****
+dbded6e : Revert "msm8974: Specify arguments for dtbtool to remove custom mkbootimg" <Dan Pasanen> 7 hours ago
+60edb63 : msm8974: Specify arguments for dtbtool to remove custom mkbootimg <Bruno Martins> 2 days ago
+ 
+**** vanir:device_motorola_falcon ****
+c1c5ba6 : falcon: correct initial mixer path for compress-voip-call <myzb> 8 days ago
+ 
+**** cm:android_device_oppo_msm8974-common ****
+a7cf0de : msm8974: cleanup overlay <Brinly Taylor> 2 days ago
+b01a763 : msm8974: gps: Sync with CAF LA.BF.1.1.1_rb1.26 <Sultanxda> 4 months ago
+2b47150 : msm8974: Remove loc_api that depends on QCPATH <Michael Bestas> 2 days ago
+ 
+**** cm:android_device_sony_msm8960-common ****
+3f30d51 : Include init.usb.configfs.rc into rootdir <Badhri Jagan Sridharan> 10 weeks ago
+ 
+**** vanir:device_sony_nicki ****
+b55d1a3 : nicki: decrease mic volume <Bonoboo> 2 weeks ago
+e5a3de3 : snd_soc_msm_Sitar: enable rear microphone <Sơn Nguyễn (thichthat)> 3 weeks ago
+e2b057c : nicki: switch to interactive governor <RonGokhale> 3 months ago
+ce05b9c : nicki: Switch to BFQ I/O scheduler <RonGokhale> 5 weeks ago
+0743b47 : nicki: Disable CSD client <RonGokhale> 7 weeks ago
+45f6880 : nicki: Enable WCDMA only mode <James Hunt> 8 weeks ago
+2422692 : nicki: update device-specific speolicy after latest changes <RonGokhale> 7 weeks ago
+ba37d2f : nicki: enable proximity wake option <RonGokhale> 8 weeks ago
+c6d47e1 : nicki: remove Qcelp,evrc and amrwbplus encoder/decoder <RonGokhale> 8 weeks ago
+f58715e : nicki: use LA.AF.1.1 media codec <RonGokhale> 2 months ago
+7b5282e : nicki: use low end google media codec <RonGokhale> 2 months ago
+070a3e3 : nicki: decouple from 8960-common <RonGokhale> 2 months ago
+3dbfbfc : nicki: overlay: remove duplicate <RonGokhale> 4 months ago
+c6b08da : nicki: inherit msm8960-common at the end <RonGokhale> 3 months ago
+7130c91 : nicki: enable charger suspend <RonGokhale> 3 months ago
+d524f8b : nicki: Supress User space faults <Samir Mehta> 11 months ago
+d77094f : nicki: show app install location option <RonGokhale> 4 months ago
+af9c6f1 : nicki: update wlan configs <RonGokhale> 5 months ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 7 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 7 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 10 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 5 months ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 11 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 5 months ago
+915d977 : nicki: use new perfd-client <RonGokhale> 5 months ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 5 months ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 1 year, 3 months ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 6 months ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 6 months ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 6 months ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 6 months ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 7 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 7 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 7 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 7 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 7 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 7 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 7 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 7 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 7 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 8 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 8 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 8 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 8 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 8 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 8 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 8 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 1 year, 1 month ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 10 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 10 months ago
+ 
+**** vanir:external_chromium_org ****
+9930898 : g3: build libstlport <Dan Pasanen> 3 days ago
+bc3ec4a : liblge: add RIL_register_socket to resolve symbols <Dan Pasanen> 2 days ago
+f1dfa0a : g3: Use open source thermanager <Adam Farden> 2 days ago
+4230d0b : g3: remove deprecated bionic flag <myfluxi> 35 hours ago
+ccd8ddd : g3: Remove SND_DEVICE_IN_VOICE_REC_HEADSET_MIC since it's no longer supported <Hendrik H> 2 days ago
+9da8e94 : g3: Disable HWDEP_CAL as g3's libacdbloader.so doesn't support this <Hendrik H> 2 days ago
+e8d1b18 : liblge: Add writeString16 for RIL <Arne Coucheron> 3 days ago
+ed10c34 : media_profiles: remove fwvga <Dan Pasanen> 4 weeks ago
+2f7d871 : g3: Add LG RIL symbol via liblge <Rashed Abdel-Tawab> 2 weeks ago
+d222da8 : g3: disable secure discard <Dan Pasanen> 4 days ago
+5d8fc74 : cmdline: remove no-op <Dan Pasanen> 5 days ago
+09405e5 : media_codecs: #baconkang <Dan Pasanen> 5 days ago
+3bd6a1f : g3: enable doze power saving mode <beanstown106> 3 weeks ago
+7c5bf0c : g3: enable custom audio policy <Dan Pasanen> 2 weeks ago
+83d3d7b : g3: update widevine from hammerhead-mra58k <Dan Pasanen> 8 days ago
+1291423 : gps: remove PDK_FEATURE_SET <Dan Pasanen> 2 weeks ago
+2648081 : g3: Support for native tap-to-wake <Steve Kondik> 2 weeks ago
+1c6b17c : g3: Updated external storage configuration <Jeff Sharkey> 7 months ago
+5df1f2c : mkbootimg: updates to fix recovery build <Luca Stefani> 2 weeks ago
+27d8d0d : g3: adding compilation of libextmedia_jni & libqcmediaplayer <Manikanta Sivapala> 3 months ago
+b81bdbf : g3: remove video editor from media_profiles.xml <Chong Zhang> 5 months ago
+6df05f7 : Revert "g3: enable otg storage settings" <Dan Pasanen> 3 weeks ago
+c6e948b : gps: fix the build <Dan Pasanen> 3 weeks ago
+2047894 : charger: updates to fix compile <Dan Pasanen> 3 weeks ago
+2ef3f49 : camera: update camera wrapper for M <Dan Pasanen> 3 weeks ago
+6242d2d : wcnss_lge: include errno.h <Dan Pasanen> 3 weeks ago
+21ee953 : g3: remove BOARD_SEPOLICY_UNION <Dan Pasanen> 4 weeks ago
+ 
+**** aosp:platform/external/eclipse-basebuilder ****
+425cb0d : modify default APN to IPv4v6 according to AT&T Non-virtual apn <YaLi Liu> 3 months ago
+c0b4a21 : Change APNs as request of operators <Sungmin Choi> 4 months ago
+68826b2 : Change APNs as request of operators <Sungmin Choi> 4 months ago
+ 
+**** cm:android_external_libnfc-nxp ****
+18ac4a4 : CDD: Add BASE_OS and SECURITY_PATCH build parameters <Clay Murphy> 4 weeks ago
+6a57666 : CDD: Add android.hardware.type.automotive feature for Automotive <Clay Murphy> 4 weeks ago
+f8c9303 : CDD: Requirement updates for the assistant <Unsuk Jung> 4 weeks ago
+0b2d3c2 : CDD: Add adoptable storage section <Clay Murphy> 4 weeks ago
+894a124 : Standardize use of STRONGLY RECOMMENDED <Glenn Kasten> 4 weeks ago
+2764d6f : CDD: Add devices must be able to decode all formats it can encode to Mulitmedia (formerly change 787297) <Danielle Roberts> 4 weeks ago
+64db04c : Use STRONGLY RECOMMENDED for reporting supported audio features <Glenn Kasten> 4 weeks ago
+239d2c7 : CDD: Clarify TV app requirements for devices with TV input Framework support. <Danielle Roberts> 5 weeks ago
+e0c7946 : CDD: Updates to changelog, TOC fix <Bert McMeen> 4 weeks ago
+f7ac2f2 : Docs: Adding new cover image and current date <Heidi von Markham> 4 weeks ago
+83ceaf2 : CDD: Add Data Deletion section <Bert McMeen> 4 weeks ago
+66ef847 : CDD: Add requirements for the new HiFi sensor feature <Unsuk Jung> 5 weeks ago
+ee7e79a : Fix mis-matched tags <Glenn Kasten> 4 weeks ago
+b5ef8ac : CDD: Add requirements for the Android Keystore System <Unsuk Jung> 5 weeks ago
+5ead64e : CDD: Clarify SELinux CDD requirements. <Unsuk Jung> 4 weeks ago
+d07f7af : CDD: Require rotation vector when accel, gyro, magneto available <Unsuk Jung> 5 weeks ago
+9b2d31a : CDD: Update requirements for new density buckets <Unsuk Jung> 4 weeks ago
+5b08df2 : CDD: Add requirements related to the new fingerprint API <Unsuk Jung> 5 weeks ago
+e3689d0 : Docs: Changelog additions for M version merges as of 10-15-2015 <Bert McMeen> 4 weeks ago
+d229e4b : Docs: Fixing plural carriers ref <Clay Murphy> 5 weeks ago
+a951f23 : Docs: Add summary of 6.0 changes <Clay Murphy> 5 weeks ago
+80b22ba : Docs: Fix for Build Params table <Bert McMeen> 5 weeks ago
+63b2878 : CDD: new section 3.9.2 "Managed Profile Support" <Andy Dyer-smith> 8 weeks ago
+bbe0575 : CDD: Section 5. Multimedia: 60fps on UHD, MPEG-2, and footnotes correction <Danielle Roberts> 5 weeks ago
+41641fb : CDD: Require full-disk encryption to be on by default <Unsuk Jung> 5 weeks ago
+15ecb40 : Docs: Intermim CDD TOC and changelog <Bert McMeen> 5 weeks ago
+73c0077 : Docs: Add 6.0 versions page <Clay Murphy> 5 weeks ago
+be0f08c : CDD: Added Light status bar flag to 3.8.6 Themes <Danielle Roberts> 5 weeks ago
+5870ab8 : Docs: Typo fix, remove slash Bug: 22639850 <Gina Dimino> 5 weeks ago
+20cdbb7 : CDD: Near-ultrasound and mic resampling <Glenn Kasten> 6 weeks ago
+1ab546b : Docs: Add article on Jack. Bug: 22639850 <Gina Dimino> 5 weeks ago
+ad5c4c3 : CDD: Req. when granting dangerous permission for pre-installed apps <Unsuk Jung> 5 weeks ago
+5ad5aba : CDD: Require adb driver support for Windows 10 <Unsuk Jung> 5 weeks ago
+a13d876 : CDD: Require 15-min rotation of BLE RPA <Unsuk Jung> 5 weeks ago
+8bebb3e : Docs: Update CDD master doc with placeholders for SDK version num <Unsuk Jung> 5 weeks ago
+d94638a : CDD: USB mass storage class req for AOAP <Unsuk Jung> 5 weeks ago
+1def5ae : CDD: Add level requirement for H.263 and MPEG-4 codecs <Unsuk Jung> 5 weeks ago
+6f6ac76 : CDD: Reserve the vulkan library name <Unsuk Jung> 5 weeks ago
+816a242 : Docs: Update terms to RECOMMENDED, etc. <Bert McMeen> 5 weeks ago
+aad2519 : CDD: Require user consent UI before allowing USB access to storage <Unsuk Jung> 5 weeks ago
+0f33fa2 : Docs: Adding new page for stylus, updating toc <Heidi von Markham> 8 weeks ago
+7797df8 : Docs: Add Debugging ART garbage collection <Clay Murphy> 6 weeks ago
+bfadf22 : Docs: Adding new file for power mgmt (doze, app standby, exemptions). Update to toc. <Heidi von Markham> 8 weeks ago
+3cf26b5 : Docs: Nav fix, add 2 links, remove word "link" <Bert McMeen> 5 weeks ago
+ceaeee7 : Docs: Adding page for visual voicemail configuration <Danielle Roberts> 6 weeks ago
+536a25d : Docs: Add OEM and SoC vendor dependencies for resource manager <Clay Murphy> 6 weeks ago
+20334fc : Docs: Changes to Storage section for M <Danielle Roberts> 6 weeks ago
+34d4dcb : CDD 
+**** aosp:platform/external/sfntly ****
+ca60962 : Remove large draw_indirect.compute_interop tests <Kalle Raita> 6 weeks ago
+a2d25ce : Fix out-of-bounds buffer access in tese ShaderExecutor <Pyry Haulos> 9 weeks ago
+243bc61 : Remove infeasible M tests. <Kalle Raita> 3 months ago
+498bfb2 : Remove tests infeasible for M. <Kalle Raita> 3 months ago
+ 
+**** vanir:frameworks_av ****
+3868162 : camera: Allow devices to load custom CameraParameter code <Ethan Chen> 6 days ago
+951acde : IAudioFlinger: fix the missing initialization of variable to ensure no info leak when writing them to Parcel. <Wei Jia> 7 weeks ago
+b7903b4 : DO NOT MERGE - IAudioFlinger: always initialize variables to ensure no info leak when writing them to Parcel. <Wei Jia> 8 weeks ago
+114193c : Fix heap data leak vulnerability <Jeff Tinker> 7 weeks ago
+8977f0e : Fix for security vulnerability in media server DO NOT MERGE <Jeff Tinker> 7 weeks ago
+7184a34 : DO NOT MERGE Avoid size_t overflow in base64 decoding once again <Wonsik Kim> 8 weeks ago
+8a9a159 : DO NOT MERGE - IAudioFlinger: clear config before reading it from parcel. <Wei Jia> 8 weeks ago
+c38bb44 : DO NOT MERGE - libstagefright: sanity check size before dereferencing pointer in Utils.cpp <Wei Jia> 9 weeks ago
+7e354f5 : Ogg: avoid size_t overflow in base64 decoding <Wonsik Kim> 9 weeks ago
+db514f5 : Zero out return values in audio binder calls <Robert Shih> 9 weeks ago
+2a5c025 : Zero out return values in media binder calls <Robert Shih> 9 weeks ago
+5b29dd5 : Make IEffect command more robust (second try) <Andy Hung> 9 weeks ago
+66eac8b : Fix timedtext parsing <Marco Nelissen> 10 weeks ago
+218ec63 : IMediaPlayer.cpp: make sure structures are initialized to 0 <Nick Kralevich> 3 months ago
+f692aa2 : libmedia: clear reply data for IEffect command <Andy Hung> 10 weeks ago
+18f6575 : Fail more gracefully on allocation failure <Marco Nelissen> 1 year, 5 months ago
+7ff5fab : stagefright: check IMemory::pointer() before using the allocation <Chong Zhang> 6 months ago
+19d59d1 : DO NOT MERGE: Protect data source access with mutex during disconnect <Robert Shih> 9 weeks ago
+e79ea52 : Revert "DO NOT MERGE: Lock drm plugin API calls globally, not per MediaDrm instance" <Baligh Uddin> 3 months ago
+075552b : DO NOT MERGE: Lock drm plugin API calls globally, not per MediaDrm instance <Jeff Tinker> 7 months ago
+4f725ba : Revert "DO NOT MERGE: Lock drm plugin API calls globally, not per MediaDrm instance" <Baligh Uddin> 3 months ago
+5104178 : DO NOT MERGE - Fix software video decoder buffer size calculation <Marco Nelissen> 5 months ago
+9245d5f : libstagefright: fix overflow in pvdec_api.cpp. <Wei Jia> 3 months ago
+2e1c694 : Revert "Fix compile after rI431aa2b7d30a942350ab6d105451c6b77e2f99d4" <Abhishek Arya> 3 months ago
+649eeb9 : libstagefright: check memory size for overflow before allocation. <Wei Jia> 5 months ago
+5e7815e : DO NOT MERGE: Lock drm plugin API calls globally, not per MediaDrm instance <Jeff Tinker> 7 months ago
+b3cc9b0 : DO NOT MERGE - SoftwareRenderer: sanity check buffer size before copying data. <Wei Jia> 5 months ago
+e37e52e : libstagefright: check overflow before memory allocation in OMXCodec.cpp <Wei Jia> 2 months ago
+0fd9ff7 : Prevent integer issues in ID3::Iterator::findFrame <Joshua J. Drake> 3 months ago
+3f8a389 : DO NOT MERGE Part of fix for libmedia OOB write anywhere <Jeff Tinker> 3 months ago
+0cbede8 : libstagefright: fix overflow in MPEG4Source::parseSampleAuxiliaryInformationOffsets. <Wei Jia> 3 months ago
+6be0261 : Check RTSP payload length <Marco Nelissen> 3 months ago
+53cb6c3 : libstagefright: Fix crash in convertMetaDataToMessage <Wei Jia> 4 months ago
+4a7e92a : libstagefright: fix handling of mSampleTimeEntries and mNumSampleSizes in SampleTable. <Wei Jia> 3 months ago
+c7cf4c1 : DO NOT MERGE - audio flinger: fix fuzz test crash <Eric Laurent> 6 months ago
+8ca0d21 : Sanity check padding/delay values for gapless playback <Marco Nelissen> 3 months ago
+0959f39 : SoftAVCEncoder: fix auto merge error, member names have changed. <Wei Jia> 3 months ago
+520cd7c : MatroskaExtractor: detect infinite loop when parsing NALs <Robert Shih> 4 months ago
+65b1cf3 : Fix for memory corruption in ID3::removeUnsynchronizationV2_4(). Bug: 23227354 <Neel Mehta> 3 months ago
+bbff8c7 : SoftAVCEncoder: fix mismatched type for comparison. <Wei Jia> 3 months ago
+815cc6c : Fix compile failure after rI431aa2b7d30a942350ab6d105451c6b77e2f99d4 <Abhishek Arya> 3 months ago
+73e9dfc : MPEG4Source::fragmentedRead: check range before writing into buffers <Robert Shih> 4 months ago
+e856d51 : Fix compile after rI431aa2b7d30a942350ab6d105451c6b77e2f99d4 <Abhishek Arya> 3 months ago
+57beddd : do not dequeue from native window after we hit fatal error -- DO NOT MERGE <Chong Zhang> 3 months ago
+e88d81b : libstagefright: check remaining data size before parsing it. <Wei Jia> 3 months ago
+53788a1 : SoftAVCEnc: check requested memory size before allocation. <Wei Jia> 3 months ago
+9aa63d1 : Check integer overflow to prevent memory corruption <Jeff Tinker> 3 months ago
+2bd303a : SoftOpus: Fix output buffer capacity. <Vignesh Venkatasubramanian> 5 months ago
+61d9a7e : Check buffer size before using it <Marco Nelissen> 4 months ago
+e15476a : Fix comparison sign warnings. <Dan Albert> 6 months ago
+ 
+**** vanir:frameworks_base ****
+d19d27b : Update boosted audio files 1/2 <Abhisek Devkota> 4 hours ago
+3169f4c : Revert "[DO NOT MERGE] Bump up the timeout for uncrypt to 900s." <Zach Jang> 7 weeks ago
+ 
+**** vanir:frameworks_opt_telephony ****
+c1b6b90 : Fix NOT_RESTRICTED network capability and enforce it. <Paul Jensen> 10 weeks ago
+ 
+**** cm:lge-kernel-p880 ****
+413b3fc : Various Upstream changes from Android-6.0.0_r0.4/r0.5 and kernel-tegra android-tegra-3.10 tags. - Thanks @csk1jw from xda for the bring up. <demetris> 2 hours ago
+ 
+**** github:TheMuppets/proprietary_vendor_oppo ****
+ddc2dcb : find7: Update blobs <Michael Bestas> 2 days ago
+ 

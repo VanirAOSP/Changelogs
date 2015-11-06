@@ -1,0 +1,202 @@
+
+**** vanir:build ****
+bd2ac50 : "LVY48H" <The Android Automerger> 4 weeks ago
+8e9b8d2 : LVY48G <The Android Automerger> 5 weeks ago
+ 
+**** cm:android_device_htc_m8dug ****
+8cdb467 : init: Set lteOnGsmDevice property on m8dug <Bruno Martins> 7 days ago
+aeb4a32 : init: Include more RIL-related stock properties <Bruno Martins> 4 weeks ago
+ 
+**** vanir:device_lge_d800 ****
+bb5efc4 : d800: Don't duplicate APN file copy <Ethan Chen> 21 hours ago
+ 
+**** vanir:device_lge_d801 ****
+352326b : d801: Don't duplicate APN file copy <Ethan Chen> 2 days ago
+ 
+**** vanir:device_lge_d802 ****
+a2fa394 : d802: Don't duplicate APN file copy <Ethan Chen> 21 hours ago
+ 
+**** vanir:device_lge_d803 ****
+bf18fc1 : d803: Don't duplicate APN file copy <Ethan Chen> 21 hours ago
+ 
+**** vanir:device_lge_g2-common ****
+dd65a8a : g2-common: Separate LPM items into separate init script <Ethan Chen> 2 days ago
+a3b402e : g2-common: Clean up init scripts <Ethan Chen> 2 days ago
+bba4abd : g2-common: Remove unused init items <Ethan Chen> 2 days ago
+62c2eb0 : g2-common: Convert init.qcom.sh to set_baseband.sh <Ethan Chen> 2 days ago
+b7e4d6c : g2-common: Reorganize init script makefile <Ethan Chen> 2 days ago
+2c308bc : g2-common: Update media codec profiles <Ethan Chen> 2 days ago
+b8a6308 : g2-common: More proprietary file cleanup <Ethan Chen> 2 days ago
+a8a41d2 : g2-common: Device does not have a barometer <Ethan Chen> 2 days ago
+ 
+**** cm:android_device_motorola_condor ****
+8b283a1 : Condor: Clean up ramdisk <Ashwin> 10 hours ago
+01b3da3 : Condor: Set BFQ IO as default <Ashwin> 11 hours ago
+02b3ba8 : Condor: Move power related init scripts to init.qcom.power.rc <Ashwin> 12 hours ago
+ 
+**** vanir:device_oppo_apq8064-common ****
+40e2890 : Fix find5 build <DHOMD> 8 days ago
+ 
+**** vanir:device_sony_nicki ****
+e2b057c : nicki: switch to interactive governor <RonGokhale> 9 weeks ago
+ce05b9c : nicki: Switch to BFQ I/O scheduler <RonGokhale> 8 days ago
+0743b47 : nicki: Disable CSD client <RonGokhale> 3 weeks ago
+45f6880 : nicki: Enable WCDMA only mode <James Hunt> 4 weeks ago
+2422692 : nicki: update device-specific speolicy after latest changes <RonGokhale> 3 weeks ago
+ba37d2f : nicki: enable proximity wake option <RonGokhale> 4 weeks ago
+c6d47e1 : nicki: remove Qcelp,evrc and amrwbplus encoder/decoder <RonGokhale> 4 weeks ago
+f58715e : nicki: use LA.AF.1.1 media codec <RonGokhale> 6 weeks ago
+7b5282e : nicki: use low end google media codec <RonGokhale> 6 weeks ago
+070a3e3 : nicki: decouple from 8960-common <RonGokhale> 7 weeks ago
+3dbfbfc : nicki: overlay: remove duplicate <RonGokhale> 3 months ago
+c6b08da : nicki: inherit msm8960-common at the end <RonGokhale> 10 weeks ago
+7130c91 : nicki: enable charger suspend <RonGokhale> 10 weeks ago
+d524f8b : nicki: Supress User space faults <Samir Mehta> 10 months ago
+d77094f : nicki: show app install location option <RonGokhale> 3 months ago
+af9c6f1 : nicki: update wlan configs <RonGokhale> 4 months ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 6 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 6 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 9 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 4 months ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 10 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 4 months ago
+915d977 : nicki: use new perfd-client <RonGokhale> 4 months ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 4 months ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 1 year, 2 months ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 5 months ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 5 months ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 5 months ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 5 months ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 6 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 6 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 6 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 6 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 6 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 6 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 6 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 6 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 6 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 7 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 7 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 7 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 7 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 7 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 7 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 8 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 1 year ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 9 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 9 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 9 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 9 months ago
+ 
+**** cm:android_device_yu_lettuce ****
+3bad858 : lettuce: Don't remove diag on user builds <Ethan Chen> 4 hours ago
+ 
+**** vanir:external_skia ****
+2adfe26 : SkScaledBitmapSampler: fix memory overwritten <zoran.jovanovic> 6 months ago
+ 
+**** vanir:external_sonivox ****
+cb21414 : Sonivox: check loopStart/loopLength against one specific wave, not whole wave pool. <Wei Jia> 7 weeks ago
+584ecd1 : Sonivox: fix overflow in Parse_data in eas_mdls.c <Wei Jia> 7 weeks ago
+e311210 : Sonivox: make sure waveIndex is valid in Parse_rgn() in eas_mdls.c. <Wei Jia> 7 weeks ago
+d18e7fb : Check segments and libs <Marco Nelissen> 7 weeks ago
+ 
+**** vanir:external_sqlite ****
+f8ed480 : sqlite: upgrade to SQLite 3.8.6.1 - DO NOT MERGE <Jon Larimer> 6 weeks ago
+ 
+**** vanir:frameworks_av ****
+9299d5d : Revert "camera: Fix inclusion of CameraParametersExtra.h" <Ricardo Cerqueira> 5 hours ago
+7d2e6be : id3: Instead of aborting the parser on a zero-data frame, just skip that frame <Ricardo Cerqueira> 3 weeks ago
+9513029 : DO NOT MERGE - Fix software video decoder buffer size calculation <Marco Nelissen> 4 months ago
+7737a94 : libstagefright: fix overflow in pvdec_api.cpp. <Wei Jia> 7 weeks ago
+7bd4e71 : Revert "Fix compile after rI431aa2b7d30a942350ab6d105451c6b77e2f99d4" <Abhishek Arya> 7 weeks ago
+3021ec3 : libstagefright: check memory size for overflow before allocation. <Wei Jia> 4 months ago
+824a91e : DO NOT MERGE - SoftwareRenderer: sanity check buffer size before copying data. <Wei Jia> 4 months ago
+b284823 : libstagefright: check overflow before memory allocation in OMXCodec.cpp <Wei Jia> 7 weeks ago
+51ffa0b : Prevent integer issues in ID3::Iterator::findFrame <Joshua J. Drake> 8 weeks ago
+b071d94 : DO NOT MERGE Part of fix for libmedia OOB write anywhere <Jeff Tinker> 7 weeks ago
+1cd8e17 : libstagefright: fix overflow in MPEG4Source::parseSampleAuxiliaryInformationOffsets. <Wei Jia> 7 weeks ago
+2a88b64 : Check RTSP payload length <Marco Nelissen> 7 weeks ago
+5b89968 : libstagefright: Fix crash in convertMetaDataToMessage <Wei Jia> 3 months ago
+9915646 : libstagefright: fix handling of mSampleTimeEntries and mNumSampleSizes in SampleTable. <Wei Jia> 7 weeks ago
+749cc1e : DO NOT MERGE - audio flinger: fix fuzz test crash <Eric Laurent> 5 months ago
+af29aba : Sanity check padding/delay values for gapless playback <Marco Nelissen> 7 weeks ago
+3db5231 : SoftAVCEncoder: fix auto merge error, member names have changed. <Wei Jia> 7 weeks ago
+0071d87 : MatroskaExtractor: detect infinite loop when parsing NALs <Robert Shih> 3 months ago
+04140c8 : Fix for memory corruption in ID3::removeUnsynchronizationV2_4(). Bug: 23227354 <Neel Mehta> 8 weeks ago
+7a7100f : SoftAVCEncoder: fix mismatched type for comparison. <Wei Jia> 7 weeks ago
+7e7e3c1 : Fix compile failure after rI431aa2b7d30a942350ab6d105451c6b77e2f99d4 <Abhishek Arya> 7 weeks ago
+c0516d6 : MPEG4Source::fragmentedRead: check range before writing into buffers <Robert Shih> 4 months ago
+0da401c : Fix compile after rI431aa2b7d30a942350ab6d105451c6b77e2f99d4 <Abhishek Arya> 7 weeks ago
+0eef754 : do not dequeue from native window after we hit fatal error -- DO NOT MERGE <Chong Zhang> 8 weeks ago
+f21f423 : libstagefright: check remaining data size before parsing it. <Wei Jia> 7 weeks ago
+53e6c35 : SoftAVCEnc: check requested memory size before allocation. <Wei Jia> 7 weeks ago
+e88d2ac : Check integer overflow to prevent memory corruption <Jeff Tinker> 8 weeks ago
+21c79a5 : SoftOpus: Fix output buffer capacity. <Vignesh Venkatasubramanian> 4 months ago
+e26e1bd : Check buffer size before using it <Marco Nelissen> 3 months ago
+d9ec03a : Fix comparison sign warnings. <Dan Albert> 5 months ago
+8560d9d : ABuffer: reset members when memory allocation fails. <Wei Jia> 3 months ago
+fa7ef6c : Check vector size before accessing <Marco Nelissen> 2 months ago
+f188532 : libstagefright: fix possible overflow in amrwbenc. <Wei Jia> 8 weeks ago
+6637504 : libstagefright: fix possible overflow in ID3. <Wei Jia> 8 weeks ago
+e0c4398 : Fix Ogg album art <Marco Nelissen> 9 weeks ago
+6004bf7 : MPEG4Extractor.cpp: Add check for size == SIZE_MAX <Nick Kralevich> 9 weeks ago
+4d88d40 : Extra sanity checks on sample size and resolution <Marco Nelissen> 9 weeks ago
+bd5a03e : Fix crash on malformed id3 <Marco Nelissen> 9 weeks ago
+e302423 : SampleTable: fix integer overflow checks. <Wei Jia> 4 months ago
+1ad6814 : DO NOT MERGE - IAudioFlinger: add checks on binder calls <Eric Laurent> 6 months ago
+ 
+**** vanir:frameworks_base ****
+a818333 : Revert "ZygoteInit: increase GC threshold amount when preloading to postpone GC" <nuclearmistake> 14 hours ago
+7927a55 : [DO NOT MERGE] Bump up the timeout for uncrypt to 900s. <Tao Bao> 6 weeks ago
+858470b : DO NOT MERGE. Truncate and ellipsize app name if too long for dialog. <Michael Wright> 6 weeks ago
+e172d9c : Allow debugging only for apps forked from zygote <Sebastien Hertz> 8 weeks ago
+ 
+**** vanir:hardware_libhardware ****
+b3e51b1 : remote_submix: Fix resampler and channel conversion <Edward Wang> 28 hours ago
+ 
+**** cm:android_hardware_qcom_fm ****
+0a2360c : Fix camel case <Michael Bestas> 28 hours ago
+ 
+**** vanir:platform_manifest ****
+a149fb9 : Experiment for Oskar <DHOMD> 74 minutes ago
+e2d33f0 : Update Android tag <Abhisek Devkota> 24 hours ago
+88f8875 : 5.1.1_r23 <nuclearmistake> 29 hours ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+014b90e : DO NOT MERGE Fix security vulnerabilities in permission of deleting MMS/SMS <Miao Chou> 3 months ago
+ 
+**** vanir:packages_apps_Settings ****
+fe68c48 : Fix inconsistent battery stats icons <Michael Bestas> 4 days ago
+3ac80da : settings: fuelgauge: Always show screen on time <Christopher R. Palmer> 11 days ago
+ 
+**** aosp:platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9 ****
+ba8d2d6 : Update gold to build #2098274. <Dan Albert> 3 months ago
+ea6be7d : Rebuild with r212222 to fix devirtualization bug in GCC4.9 (darwin) <Andrew Hsieh> 4 months ago
+ 
+**** vanir:system_core ****
+e0a1714 : libutils: fix overflow in String8::allocFromUTF8 <Sergio Giro> 7 weeks ago
+2040543 : libutils: fix overflow in String8::allocFromUTF8 <Sergio Giro> 7 weeks ago
+28a9f03 : libutils: fix overflow in SharedBuffer [DO NOT MERGE] <Sergio Giro> 7 weeks ago
+be20bb0 : Fix compile failure after rIfe1dc0791040150132bea6884f1e6c8d31972d1b <Abhishek Arya> 7 weeks ago
+5490545 : libutils: fix overflow in SharedBuffer [DO NOT MERGE] <Sergio Giro> 7 weeks ago
+d32a1d2 : Fix compile failure after rIfe1dc0791040150132bea6884f1e6c8d31972d1b <Abhishek Arya> 7 weeks ago
+ 
+**** vanir:system_security ****
+3e8ea9a : Properly check for Blob max length <Chad Brubaker> 8 weeks ago
+d4916a0 : Properly check for Blob max length <Chad Brubaker> 8 weeks ago
+ 
+**** cm:cm_platform_sdk ****
+c3cf12b : CMSettings: Remove write check in query method and add values for heads up notification <Yvonne Wong> 5 days ago
+ 
+**** vanir:vendor_lge ****
+4db29c4 : g2-common: More proprietary file cleanup <Ethan Chen> 2 days ago
+0d3f12a : Revert "vs985: update remaining blobs from VS98523C" <Dan Pasanen> 33 hours ago
+ec3ce0c : Bootloops!  -- Revert "vs985: update remaining blobs from VS98523C" <DHOMD> 2 days ago
+ 
+**** vanir:vendor_vanir ****
+0e4349d : LMY48W <nuclearmistake> 15 hours ago
+9435866 : LVY48H <nuclearmistake> 29 hours ago
+d3a3561 : sepolicy: Underp the context for persistent storage <Ricardo Cerqueira> 32 hours ago
+47d0398 : Fix MimeType Case <herriojr> 32 hours ago
+ 

@@ -1,0 +1,214 @@
+
+**** vanir:bootable_recovery_TWRP ****
+8499b08 : Add support for RGBA_8888 pixel format <Kra1o5> 31 hours ago
+ 
+**** vanir:build ****
+a606db3 : build: Generalize kernel DTB path <David Ng> 1 year, 10 months ago
+2f9989d : generate_extra_images: Look for 3.10 dtbs <Stephen Boyd> 2 years, 2 months ago
+ 
+**** vanir:device_htc_flounder ****
+639e247 : flounder: Create /system/etc/firmware at build time <André Pinela> 2 days ago
+ 
+**** vanir:device_lge_g2-common ****
+a128fb1 : g2-common: Update GPS proprietary listing <Ethan Chen> 28 hours ago
+b2ea86f : g2-common: Use QC location services <Ethan Chen> 29 hours ago
+8d4bf8c : g2-common: Reduce NFC logging verbosity <Ethan Chen> 27 hours ago
+15e9b20 : g2-common: Reduce GPS logging verbosity <Ethan Chen> 27 hours ago
+aa0fefc : g2-common: Fix extraction of proprietary APKs <Ethan Chen> 29 hours ago
+ecd13c3 : g2-common: Fix power script trigger <Ethan Chen> 2 days ago
+ 
+**** vanir:motorola_msm8226-common ****
+6c70ad5 : msm8226-common: Custom PowerHAL implementation <Gabriele M> 2 weeks ago
+cd31ca6 : msm8226-common: Rewrite USB configs <Gabriele M> 3 weeks ago
+ 
+**** vanir:device_qcom_sepolicy ****
+06765fd : DPM : sepolicy: allow netdomain access to cnd and dpmd <Ravinder Konka> 7 months ago
+ 
+**** vanir:device_samsung_jf-common ****
+8186f79 : jf: Enable FFMPEG codecs <Zhao Wei Liew> 2 days ago
+ 
+**** vanir:device_sony_nicki ****
+e2b057c : nicki: switch to interactive governor <RonGokhale> 2 months ago
+ce05b9c : nicki: Switch to BFQ I/O scheduler <RonGokhale> 2 weeks ago
+0743b47 : nicki: Disable CSD client <RonGokhale> 4 weeks ago
+45f6880 : nicki: Enable WCDMA only mode <James Hunt> 5 weeks ago
+2422692 : nicki: update device-specific speolicy after latest changes <RonGokhale> 4 weeks ago
+ba37d2f : nicki: enable proximity wake option <RonGokhale> 5 weeks ago
+c6d47e1 : nicki: remove Qcelp,evrc and amrwbplus encoder/decoder <RonGokhale> 5 weeks ago
+f58715e : nicki: use LA.AF.1.1 media codec <RonGokhale> 7 weeks ago
+7b5282e : nicki: use low end google media codec <RonGokhale> 7 weeks ago
+070a3e3 : nicki: decouple from 8960-common <RonGokhale> 8 weeks ago
+3dbfbfc : nicki: overlay: remove duplicate <RonGokhale> 4 months ago
+c6b08da : nicki: inherit msm8960-common at the end <RonGokhale> 3 months ago
+7130c91 : nicki: enable charger suspend <RonGokhale> 3 months ago
+d524f8b : nicki: Supress User space faults <Samir Mehta> 10 months ago
+d77094f : nicki: show app install location option <RonGokhale> 3 months ago
+af9c6f1 : nicki: update wlan configs <RonGokhale> 4 months ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 6 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 7 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 9 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 4 months ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 11 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 4 months ago
+915d977 : nicki: use new perfd-client <RonGokhale> 4 months ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 4 months ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 1 year, 2 months ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 5 months ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 6 months ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 6 months ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 6 months ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 6 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 6 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 6 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 6 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 7 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 7 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 7 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 7 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 7 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 7 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 7 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 8 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 8 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 8 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 8 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 8 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 1 year ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 9 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 9 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 9 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 10 months ago
+ 
+**** cm:android_device_yu_lettuce ****
+2ad738b : sensors: ensure first sample is always reported <Khalid Zubair> 2 days ago
+ 
+**** vanir:frameworks_base ****
+77dccaf : Disable default blending when drawing color rect <Keith Mok> 2 weeks ago
+3c6d95f : Fix rotation tile animation <Jason Monk> 4 months ago
+d57e767 : SystemUI: Update screenshot notification icon to material <Michael Bestas> 8 days ago
+4a939e7 : Fixup normal provider settings <nuclearmistake> 2 days ago
+d64bc48 : Services : Ensure proximity check is taken into consideration <Danesh M> 1 year, 2 months ago
+8f0ec56 : Switch packages and services in frameworks not on the bootclasspath to use CMSettings <Yvonne Wong> 2 weeks ago
+ac13447 : FingerprintService: synchronize access to clients <Roman Birg> 3 days ago
+8640db2 : Fix horrible warning on every systemui startup. <John Spurlock> 4 months ago
+2de0a25 : Fix huge bounce-back in ListView when double-flinging <Vladislav Kaznacheev> 4 months ago
+e744971 : Automatic translation import <Michael Bestas> 3 days ago
+0fc76d9 : Don't accidently clear TRANSPARENT_VERTICAL_NAV <Wilhelm Fitzpatrick> 6 days ago
+b180ab8 : Multiple LEDs [3/3]: Illumination Bars support <AdrianDC> 8 weeks ago
+e292098 : Revert "RotationPolicy: fix rotation toggle logic" <Roman Birg> 5 days ago
+a577b4e : Add volume boosted ringtones (2/2) <Abhisek Devkota> 7 days ago
+13e6a8b : Add live lock screen previews [1/2] <d34d> 7 days ago
+0a9778a : SettingsProvider : load region-specific settings for mobile data <Rohit Yengisetty> 6 days ago
+2aefa86 : PackageManager : Extend prebundled logic <Danesh M> 7 days ago
+9a21f88 : RotationPolicy: fix rotation toggle logic <Roman Birg> 7 days ago
+fb50db6 : Window rotation: fix up sensor logic <Roman Birg> 8 days ago
+7d9fdc3 : BatteryService: Prevent UUC scenarios at 0% <Ricardo Cerqueira> 2 weeks ago
+53e5550 : Fix issue #23116383: Include security patch level in Settings <Dianne Hackborn> 9 weeks ago
+c61b29d : core: Fix AOSP ES typo <Michael Bestas> 9 days ago
+d38fef8 : audio: Add overlay to fix analog docks. <Brian Beloshapka> 2 years, 5 months ago
+c2f03e9 : Add Dock USB Audio Support for Samsung Car / Desk Docks <StevenHarperUK> 2 years, 10 months ago
+f502a9c : AudioService: allow volume control on analog dock <Takazumi Matsumoto> 2 years, 9 months ago
+710fda4 : Live lock screen support [1/2] <d34d> 5 months ago
+bbc8985 : Keyguard: Third party keyguard support <d34d> 4 months ago
+be1fa86 : Add config to show WiFi/data activity indicators <Ethan Chen> 4 weeks ago
+a818333 : Revert "ZygoteInit: increase GC threshold amount when preloading to postpone GC" <nuclearmistake> 9 days ago
+1a4cfdc : core: Update system icon to material <Michael Bestas> 13 days ago
+8da98f4 : Automatic translation import <Michael Bestas> 13 days ago
+565c354 : pm: Update PackageManagerSettingsTests. <Adnan Begovic> 13 days ago
+2775607 : Check for externally installed apps if sdcard ejected <d34d> 13 days ago
+e60e23e : SystemUI: bail out of recents-to-home animation when losing focus <Roman Birg> 13 days ago
+57eb3e6 : bootanim: Display SKU-specific variants if present <Ricardo Cerqueira> 2 weeks ago
+f4e309a6 : Revert "SystemUI: allow devices to disable recents-to-home anim" <Roman Birg> 13 days ago
+a416bf5 : SettingsProvider: Load per SKU default theme. <Adnan Begovic> 2 weeks ago
+747c88e : pm: Create per-mcc prebundled install filter. <Adnan Begovic> 2 weeks ago
+5c45611 : prebundled: Handle prebundled packages per-user. <Adnan Begovic> 4 weeks ago
+451cbca : battery: Add fast charging UI support [3/3] <Christopher R. Palmer> 5 weeks ago
+43ed1aa : SystemUI: allow devices to disable recents-to-home anim <Roman Birg> 2 weeks ago
+23ece02 : SystemUI: Add battery saver tile (1/2) <Michael Bestas> 3 weeks ago
+935ad4c : Disable default blending when drawing color rect <Keith Mok> 2 weeks ago
+cc2d928 : Fix FileManager Interaction <herriojr> 2 weeks ago
+c2394c5 : pm: Fix PackageManagerTests for testGetKeySetByAlias. <Adnan Begovic> 3 weeks ago
+3c4710a : Fixed Possible Resolver Infinite Loop <herriojr> 2 weeks ago
+bfe9a02 : SystemUI: Hide perf profile tile on devices without perf profiles <Michael Bestas> 3 weeks ago
+1f73e25 : PowerManager: change performance profile when disabling battery saver <Roman Birg> 2 weeks ago
+27da6409 : PowerManager: change performance profile when disabling battery saver <Roman Birg> 2 weeks ago
+977e867 : Add System Property for Resolver <herriojr> 2 weeks ago
+ 
+**** vanir:frameworks_opt_telephony ****
+8c08c03 : Fix NPE on SIM hot swap. <Danny Baumann> 15 hours ago
+ 
+**** cm:android_kernel_motorola_msm8974 ****
+234dc62 : usb: gadget: mass_storage: added sysfs entry for cdrom to LUNs <FrozenCow> 2 years, 3 months ago
+a81b1a2 : Revert "usb: gadget: Add sysfs support for configuring cdrom" <FrozenCow> 2 weeks ago
+c873f6f : Revert "Bluetooth: RFCOMM - Fix info leak in ioctl(RFCOMMGETDEVLIST)" <Dan Pasanen> 2 days ago
+58652a3 : Bluetooth: Pick the RSS value from advertising event <Vishwanath K M> 2 years, 8 months ago
+d395e2b : Bluetooth: Avoid re-authentication for secure high connections. <Srinivas Krovvidi> 3 years, 2 months ago
+5f685c8 : Bluetooth: handle TX power level read <Oleg Klementiev> 2 years, 7 months ago
+2c69e61 : Prop (CR): Bluetooth: Add address type for mgmt_ev_device_found <Vishwanath K M> 3 years, 7 months ago
+2219d91 : Bluetooth: SNIFF: Avoid sniff while SCO to address IOT issues <Mallikarjuna GB> 2 years, 8 months ago
+aaf0e27 : Bluetooth: implement S3 Profile <Ashish Kumar Sharma> 5 years ago
+166cee6 : Revert "bluetooth: set optimum current requirement for vdd la" <Dan Pasanen> 2 days ago
+ 
+**** vanir:packages_apps_Settings ****
+de62628 : Revert "Don't allow deleting last remaining fingerprint" <Danny Baumann> 11 days ago
+89e5596 : Improve fingerprint management activity UX. <Danny Baumann> 2 weeks ago
+da5f449 : Settings: use consistent behavior after forgetting networks <Roman Birg> 2 days ago
+bf65f1d : Revert "Settings: clear dialog states when forgetting network" <Roman Birg> 2 days ago
+219aad9 : Switch to use CMSettings for settings not involved in bootclasspath <Yvonne Wong> 2 weeks ago
+d3e6292 : Settings: clear dialog states when forgetting network <Roman Birg> 3 days ago
+c3225ec : Automatic translation import <Michael Bestas> 3 days ago
+821856b : Multiple LEDs [2/3]: Illumination Bars support <AdrianDC> 8 weeks ago
+bb6c9e4 : Settings: Fix RuntimeException in InputMethod Settings <BadDaemon> 12 days ago
+32e310d : Present the security patch date in a human-friendly format <Christopher Tate> 8 weeks ago
+03cbb8b : Fix issue #23116383: Include security patch level in Settings <Dianne Hackborn> 9 weeks ago
+82013f2 : Settings: Fix NPE in PowerMenuActions <BadDaemon> 12 days ago
+fe68c48 : Fix inconsistent battery stats icons <Michael Bestas> 13 days ago
+3ac80da : settings: fuelgauge: Always show screen on time <Christopher R. Palmer> 3 weeks ago
+df43e94 : Automatic translation import <Michael Bestas> 13 days ago
+c64dba8 : Fix AOSP EL battery saver translation <Michael Bestas> 13 days ago
+27fc976 : Increase max. fingerprint name length. <Danny Baumann> 2 weeks ago
+90776c2 : ProfileSettings : Ensure brightness settings only apply on accept <Danesh M> 2 weeks ago
+acdfc53 : APN: Clean up mvno filtering of apn list <d34d> 4 weeks ago
+77e4f7c : Settings: Add battery saver tile (2/2) <Michael Bestas> 3 weeks ago
+3e67d92 : Settings : Filter settings for secondary users <Danesh M> 2 weeks ago
+3b47272 : Settings : Don't show ringtone pref for non voice capable devices <Danesh M> 2 weeks ago
+90fff8f : Settings : Fix profile action offset when changing orientation <Danesh M> 2 weeks ago
+93be83c : Fingerprint: Clear error when enrollment finished <d34d> 2 weeks ago
+fbcc843 : Use Theme.SettingsBase for notification log <LuK1337> 4 weeks ago
+a728856 : ProfileGroupConfig: Use CMSDK profile manager <LuK1337> 2 weeks ago
+9492622 : ApnSettings : Ensure default apn dialog isn't shown twice <Danesh M> 3 weeks ago
+4f4ca3a : Automatic translation import <Michael Bestas> 3 weeks ago
+a02a1d5 : Settings : Save instance state for app group deletes <Danesh M> 3 weeks ago
+2191508 : Settings : Remove duplicate ProtectedApps definition <Danesh M> 3 weeks ago
+db44726 : Settings : Fix blacklist delete number crash <Danesh M> 3 weeks ago
+1795bfe : Revert "Use Theme.Settings for deviceinfo.Status" <Clark Scheff> 3 weeks ago
+aa3b5bb : Use Theme.Settings for deviceinfo.Status <LuK1337> 4 weeks ago
+c85c5c7 : lockscreen: Add option to pass swipe-up-to-unlock (2/2) <eray orçunus> 4 months ago
+4d9c12c : Hide LCD density preference from secondary users <LuK1337> 4 weeks ago
+bcf06e6 : Allow disabling the privacy guard notification (1/2) <Chirayu Desai> 4 weeks ago
+d29d0c0 : Setting: Match brightness override padding to volume override <Jon S> 5 weeks ago
+fb64f25 : APN: Fix typo <Ricardo Cerqueira> 4 weeks ago
+e3b16e9 : Remove 'Pulse if battery low' option if unsupported <Alberto97> 5 weeks ago
+ec7ff49 : Use default subscription's slot ID when showing SIM status <Ethan Chen> 4 weeks ago
+70275d2 : Settings: reset root option selection as necessary <Roman Birg> 5 weeks ago
+2361249 : Settings : Add input checks for blacklist input <Danesh M> 5 weeks ago
+9e6b3e7 : Settings: persist privacy guard dialogs across rotates <Roman Birg> 5 weeks ago
+9aa71cd : Settings: fix rotation for managed service warning dialog <Roman Birg> 5 weeks ago
+ca8a696 : Automatic translation import <Michael Bestas> 5 weeks ago
+970f063 : Settings : Update filterSpam to new contract <Danesh M> 6 weeks ago
+6d1cdbc : settings: remove contributors cloud margin/padding <Jorge Ruesga> 6 weeks ago
+94a0c9e : Settings: Only show multi-sim card configuration for owners <Diogo Ferreira> 6 weeks ago
+8530327 : Long press no longer copies to clipboard if there is nothing to copy <James Hiew> 6 weeks ago
+18cce10 : APN: Filter MVNOs by SPN, GID1 and IMSI <d34d> 7 weeks ago
+ 
+**** cm:cm_platform_sdk ****
+29be6a6 : Improve several permission description Strings. <Matt Garnes> 27 hours ago
+ 
+**** vanir:vendor_lge ****
+65a1170 : g2-common: Update GPS stack <Ethan Chen> 28 hours ago
+ 
+**** github:TheMuppets/proprietary_vendor_oppo ****
+1f95e1c : msm8939: Remove some unused DRM blobs. <Danny Baumann> 14 hours ago
+c0d67b9 : msm8939: Add Widevine library. <Danny Baumann> 15 hours ago
+87e0257 : r7plus, msm8939-common: Update blobs from latest R7 Plus OTA. <Danny Baumann> 3 days ago
+ 

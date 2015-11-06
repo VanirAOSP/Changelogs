@@ -1,0 +1,217 @@
+
+**** cm:android_device_cyanogen_msm8916-common ****
+dfdc944 : ueventd: Give the config partition the same perms as frp <Ricardo Cerqueira> 26 hours ago
+ 
+**** cm:android_device_lge_v500 ****
+dc8b707 : sepolicy: Fixes for kcal <fefifofum> 2 days ago
+bc1ef36 : Revert "cmhw: Switch color calibration to the PCC interface" <fefifofum> 2 days ago
+50a25d9 : Revert "Disable retention on core0" <fefifofum> 2 days ago
+ 
+**** vanir:motorola_msm8226-common ****
+dd01430 : msm8226-common: remove duplicated sepolicy <Luca Stefani> 2 days ago
+c20ae09 : msm8226-common: rootdir: remove duplicated rgb sysfs <Luca Stefani> 2 days ago
+ 
+**** vanir:device_oppo_common ****
+b36ce88 : Fix inclusion of CMHW <Georg Veichtlbauer> 2 days ago
+ 
+**** vanir:device_samsung_mondrianwifi ****
+f79391a : mondrianwifi: Set i/o scheduler to bfq and switch to using props for it <Christopher R. Palmer> 2 days ago
+ 
+**** vanir:device_sony_fusion3-common ****
+2310996 : init: use fs_mgr to userdata if unformatted <Georg Veichtlbauer> 8 days ago
+433f374 : init: tune read_ahead for block device <Georg Veichtlbauer> 5 days ago
+b5182fb : init: split out performance related items <Georg Veichtlbauer> 5 days ago
+ 
+**** vanir:device_sony_nicki ****
+0743b47 : nicki: Disable CSD client <RonGokhale> 4 days ago
+45f6880 : nicki: Enable WCDMA only mode <James Hunt> 10 days ago
+2422692 : nicki: update device-specific speolicy after latest changes <RonGokhale> 6 days ago
+ba37d2f : nicki: enable proximity wake option <RonGokhale> 11 days ago
+c6d47e1 : nicki: remove Qcelp,evrc and amrwbplus encoder/decoder <RonGokhale> 11 days ago
+f58715e : nicki: use LA.AF.1.1 media codec <RonGokhale> 4 weeks ago
+7b5282e : nicki: use low end google media codec <RonGokhale> 4 weeks ago
+070a3e3 : nicki: decouple from 8960-common <RonGokhale> 4 weeks ago
+3dbfbfc : nicki: overlay: remove duplicate <RonGokhale> 3 months ago
+c6b08da : nicki: inherit msm8960-common at the end <RonGokhale> 8 weeks ago
+7130c91 : nicki: enable charger suspend <RonGokhale> 8 weeks ago
+d524f8b : nicki: Supress User space faults <Samir Mehta> 9 months ago
+d77094f : nicki: show app install location option <RonGokhale> 10 weeks ago
+af9c6f1 : nicki: update wlan configs <RonGokhale> 3 months ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 5 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 6 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 8 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 4 months ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 10 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 4 months ago
+915d977 : nicki: use new perfd-client <RonGokhale> 4 months ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 4 months ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 1 year, 1 month ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 4 months ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 5 months ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 5 months ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 5 months ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 5 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 6 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 6 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 6 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 6 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 6 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 6 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 6 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 6 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 7 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 7 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 7 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 7 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 7 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 7 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 7 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 12 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 8 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 8 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 9 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 9 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 9 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 8 months ago
+ 
+**** cm:android_device_sony_rhine-common ****
+6e66f4c : rhine: use default devfreq governor <Giulio Cervera> 28 hours ago
+ 
+**** cm:android_device_sony_taoshan ****
+26e15ba : sepolicy: Remove obsolete policy <Olivier K> 2 days ago
+564463b : init: Move performance-related items to init.qcom.power.rc <Olivier K> 2 days ago
+ 
+**** vanir:external_bluetooth_bluedroid ****
+cd9e008 : Bluetooth: Unlock mutex before destroying the BTIF task <Srinu Jella> 6 months ago
+9f2be75 : BLuetooth: Avoid calling bte disable for the second time <Srinu Jella> 7 months ago
+ 
+**** vanir:frameworks_av ****
+2cdeeb4 : Fix integer overflow in time conversion <Marco Nelissen> 4 days ago
+ 
+**** vanir:frameworks_base ****
+475550b : Make toggling No Interruptions mode via volume buttons possible <eray orçunus> 3 months ago
+4908755 : SystemUI: don't recreate zen controller, handler thread <Roman Birg> 3 days ago
+d427e02 : SystemUi: Don't show cellular data tile on secondary users. <Adnan Begovic> 2 hours ago
+2528351 : SystemUI: improve circle battery <Roman Birg> 10 days ago
+8662a90 : Revert "SettingsProvider: change default battery style to portrait" <Roman Birg> 10 days ago
+4b142f2 : SystemUI: set fingerprint auth properly after occluded change <Roman Birg> 3 days ago
+218c622 : SystemUI: fix crypt keeper race condition <Roman Birg> 3 days ago
+e8aa66a : core: Fix Wi-Fi string <Michael Bestas> 10 hours ago
+ 
+**** vanir:frameworks_native ****
+b5f98d7 : Set explicit ioprio where required <Steve Kondik> 24 hours ago
+ 
+**** vanir:hardware_qcom_display ****
+7313236 : hwc: Set ioprio for vsync thread <Steve Kondik> 24 hours ago
+ 
+**** vanir:hardware_qcom_display ****
+6d8eb85 : hwc: Set ioprio for vsync thread <Steve Kondik> 24 hours ago
+ 
+**** vanir:hardware_qcom_display ****
+2ca9c7a : hwc: Set ioprio for vsync thread <Steve Kondik> 24 hours ago
+ 
+**** vanir:hardware_qcom_display ****
+0088877 : hwc: Set ioprio for vsync thread <Steve Kondik> 24 hours ago
+ 
+**** cm:android_kernel_lge_v500 ****
+e9ba7ed : Revert "video: mdp4: Color temperature interface using PCC" <fefifofum> 2 days ago
+ 
+**** cm:android_kernel_oneplus_msm8974 ****
+06b8e73 : Revert lockless patches <Steve Kondik> 4 hours ago
+1798bcd : mm: vmpressure: fix backport <Dave Daynard> 5 days ago
+ 
+**** cm:android_kernel_samsung_d2 ****
+4a55c0c : Linux 3.4.109 <Zefan Li> 4 days ago
+1c50a0a : udp: fix behavior of wrong checksums <Eric Dumazet> 4 months ago
+aaedb09 : sched: Queue RT tasks to head when prio drops <Thomas Gleixner> 1 year, 7 months ago
+a39bf4a : pipe: iovec: Fix memory corruption when retrying atomic copy as non-atomic <Ben Hutchings> 3 months ago
+bee5f3e : NET: ROSE: Don't dereference NULL neighbour pointer. <Ralf Baechle> 3 months ago
+bd3fa75 : block: fix ext_dev_lock lockdep report <Dan Williams> 3 months ago
+59c4dd5 : bridge: superfluous skb->nfct check in br_nf_dev_queue_xmit <Vasily Averin> 1 year, 5 months ago
+dbccb18 : net: socket: Fix the wrong returns for recvmsg and sendmsg <Junling Zheng> 4 months ago
+e08ca62 : ipmi: fix timeout calculation when bmc is disconnected <Xie XiuQi> 1 year, 8 months ago
+b10e02d : x86, kvm: fix kvm's usage of kernel_fpu_begin/end() <Suresh Siddha> 3 years ago
+ac573c1 : x86, kvm: use kernel_fpu_begin/end() in kvm_load/put_guest_fpu() <Suresh Siddha> 3 years, 1 month ago
+7014d74 : ipv4: Missing sk_nulls_node_init() in ping_unhash(). <David S. Miller> 5 months ago
+842c362 : md: use kzalloc() when bitmap is disabled <Benjamin Randazzo> 8 weeks ago
+97186c0 : udf: Check length of extended attributes and allocation descriptors <Jan Kara> 9 months ago
+ea1e8ee : tracing: Have filter check for balanced ops <Steven Rostedt> 3 months ago
+c0e3f10 : ring-buffer-benchmark: Fix the wrong sched_priority of producer <Wang Long> 3 months ago
+501e81d : bridge: fix multicast router rlist endless loop <Nikolay Aleksandrov> 3 months ago
+4845c53 : bridge: disable softirqs around br_fdb_update to avoid lockup <Nikolay Aleksandrov> 4 months ago
+0b6afbd : bridge: use _bh spinlock variant for br_fdb_update to avoid lockup <Wilson Kok> 4 months ago
+a5c75be : MIPS: Fix enabling of DEBUG_STACKOVERFLOW <James Hogan> 4 months ago
+80de203 : USB: cp210x: add ID for HubZ dual ZigBee and Z-Wave dongle <John D. Blair> 4 months ago
+d2d95a7 : ALSA: usb-audio: add MAYA44 USB+ mixer control names <Clemens Ladisch> 4 months ago
+92ba0b0 : ALSA: hda/realtek - Add a fixup for another Acer Aspire 9420 <Takashi Iwai> 4 months ago
+8140972 : Input: elantech - fix detection of touchpads where the revision matches a known rate <Hans de Goede> 4 months ago
+39af20b : vfs: read file_handle only once in handle_to_path <Sasha Levin> 8 months ago
+67e446d : drm/i915: Don't skip request retirement if the active list is empty <Ville Syrjälä> 4 months ago
+7c035c1 : ozwpan: unchecked signed subtraction leads to DoS <Jason A. Donenfeld> 4 months ago
+556dc6b : ozwpan: divide-by-zero leading to panic <Jason A. Donenfeld> 4 months ago
+088a588 : ozwpan: Use proper check to prevent heap overflow <Jason A. Donenfeld> 4 months ago
+48e8020 : USB: serial: ftdi_sio: Add support for a Motion Tracker Development Board <Patrick Riphagen> 4 months ago
+419985e : target/pscsi: Don't leak scsi_host if hba is VIRTUAL_HOST <Andy Grover> 4 months ago
+19cc68f : d_walk() might skip too much <Al Viro> 4 months ago
+b31dfb2 : fs, omfs: add NULL terminator in the end up the token list <Sasha Levin> 4 months ago
+99672cc : lguest: fix out-by-one error in address checking. <Rusty Russell> 4 months ago
+67ba981 : x86: bpf_jit: fix compilation of large bpf programs <Alexei Starovoitov> 4 months ago
+b12c3f9 : x86/mce: Fix MCE severity messages <Borislav Petkov> 4 months ago
+b816cc9 : ARM: dts: imx27: only map 4 Kbyte for fec registers <Philippe Reynes> 4 months ago
+6121d7f : bridge: fix parsing of MLDv2 reports <Thadeu Lima de Souza Cascardo> 4 months ago
+08878d1 : crypto: s390/ghash - Fix incorrect ghash icv buffer handling. <Harald Freudenberger> 4 months ago
+0b80fa4 : xen/events: don't bind non-percpu VIRQs with percpu chip <David Vrabel> 4 months ago
+c1de4ad : sd: Disable support for 256 byte/sector disks <Mark Hounschell> 4 months ago
+cc81c42 : mmc: atmel-mci: fix bad variable type for clkdiv <Ludovic Desroches> 5 months ago
+f126db0 : ALSA: hda - Add Conexant codecs CX20721, CX20722, CX20723 and CX20724 <David Henningsson> 4 months ago
+232efaf : powerpc: Align TOC to 256 bytes <Anton Blanchard> 4 months ago
+dacca44 : Input: elantech - fix semi-mt protocol for v3 HW <Benjamin Tissoires> 5 months ago
+a9fee8d : ASoC: wm8994: correct BCLK DIV 348 to 384 <Zidan Wang> 4 months ago
+85a5c13 : ASoC: wm8960: fix "RINPUT3" audio route error <Zidan Wang> 4 months ago
+6713867 : KVM: MMU: fix CR4.SMEP=1, CR0.WP=0 with shadow pages <Paolo Bonzini> 6 months ago
+8450ced : mac80211: move WEP tailroom size check <Janusz Dziedzic> 4 months ago
+6c25c76 : ipvs: fix memory leak in ip_vs_ctl.c <Tommi Rantala> 5 months ago
+ 
+**** cm:android_kernel_samsung_mondrianwifi ****
+fc91ed4 : mondrianwifi: defconfig: Enable BFQ cgroup support <Christopher R. Palmer> 2 days ago
+c7524dd : cfq-iosched: fix the setting of IOPS mode on SSDs <Jens Axboe> 3 months ago
+558d5fb : block: Make CFQ default to IOPS mode on SSDs <Tahsin Erdogan> 4 months ago
+ 
+**** cm:android_kernel_sony_apq8064 ****
+2e78be7 : f2fs: update to jaegeuks latest <Georg Veichtlbauer> 3 hours ago
+9667ef8 : msm: camera: fix compiler warning for iommu_fault_handler <Georg Veichtlbauer> 2 days ago
+3bf0c9b : 10.7.A.0.222 <Georg Veichtlbauer> 2 days ago
+ 
+**** vanir:packages_apps_Contacts ****
+4cf2e2c : Contacts: Add contact lookup with attribution to quick contacts <Matt Garnes> 3 months ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+571f584 : ContactsCommon: Add ability to show looked up contacts for quick contacts <Matt Garnes> 3 months ago
+ 
+**** vanir:packages_apps_TvSettings ****
+c3bf17d : Automatic translation import <Michael Bestas> 10 days ago
+68576f9 : Automatic translation import <Michael Bestas> 3 weeks ago
+cb9261d : Automatic translation import <Tom Powell> 5 weeks ago
+5ea63cb : Automatic translation import <Michael Bestas> 5 weeks ago
+394a21f : Automatic translation import <Tom Powell> 6 weeks ago
+ca2a139 : Automatic translation import <Tom Powell> 6 weeks ago
+b1d65d1 : Automatic translation import <Michael Bestas> 7 weeks ago
+c4c493e : Automatic translation import <Michael Bestas> 8 weeks ago
+07727f0 : Automatic translation import <Michael Bestas> 9 weeks ago
+5121874 : Automatic translation import <Michael Bestas> 2 months ago
+4574978 : Automatic translation import <Michael Bestas> 3 months ago
+60e6e26 : Automatic translation import <Michael Bestas> 3 months ago
+64bc3e9 : Automatic translation import <Michael Bestas> 3 months ago
+6dfe00f : Automatic translation import <Michael Bestas> 3 months ago
+810333f : Automatic translation import <Michael Bestas> 4 months ago
+75f1a0c : Automatic translation import <Michael Bestas> 4 months ago
+107e728 : Automatic translation import <Michael Bestas> 4 months ago
+d21dd3a : TvSettings: Improve strings <Michael Bestas> 4 months ago
+ 
+**** vanir:system_core ****
+8df64c7 : cutils: Remove ioprio magic <Steve Kondik> 23 hours ago
+ 
+**** vanir:vendor_vanir ****
+bd31c36 : cm: Clean up cgroups even more! <Steve Kondik> 20 hours ago
+13ea40d : cm: Clean up cgroups <Steve Kondik> 2 days ago
+ 

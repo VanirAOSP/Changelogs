@@ -1,0 +1,188 @@
+
+**** vanir:bootable_recovery ****
+53170a3 : Don't remove existing explicitly stashed blocks <Sami Tolvanen> 5 months ago
+18b30c0 : Always use strerror to report errno in recovery. <Elliott Hughes> 6 months ago
+ 
+**** cm:android_device_cyanogen_msm8916-common ****
+b30d775 : msm8916: Relocate common policy to vendor/cm <Steve Kondik> 2 days ago
+ 
+**** cm:android_device_cyanogen_msm8939-common ****
+21c5cac : msm8939: Relocate common policy to vendor/cm <Ethan Chen> 29 hours ago
+ 
+**** vanir:device_htc_dlx ****
+ed38796 : sepolicy: remove duplicate livedisplay entry <Dan Pasanen> 4 hours ago
+ 
+**** cm:android_device_htc_m8-common ****
+f26a416 : m8-common: Provide global HTC symbols via libc <Matt Mower> 2 days ago
+bb891ea : m8-common: Relocate common policy to vendor/cm <Bruno Martins> 27 hours ago
+ 
+**** vanir:device_htc_msm8960-common ****
+76dadfd : msm8960-common: Provide global HTC symbols via libc <Matt Mower> 2 days ago
+ 
+**** vanir:device_lge_g2-common ****
+ad8516a : lights: fix warnings <Dan Pasanen> 9 weeks ago
+60f44ea : g2: camera: Modify base.common.version API define <Arne Coucheron> 9 days ago
+c212f49 : g2: camera: wrapper: fix lag & cleanup <Michael Bestas> 10 days ago
+2c3ff89 : g2: build ebtables and ethertypes <Dan Pasanen> 2 weeks ago
+ 
+**** vanir:device_lge_g3-common ****
+f2c896e : sepolicy: remove duplicate livedisplay entry <Dan Pasanen> 4 hours ago
+ 
+**** vanir:device_lge_hammerhead ****
+42b70c8 : hammerhead: relocate common policy to vendor/cm <Jorge Ruesga> 5 hours ago
+ 
+**** vanir:device_lge_mako ****
+00adc3d : update to LMY48M fingerprint and description <Jed Hamilton> 2 days ago
+ 
+**** vanir:device_motorola_omap4-common ****
+d43c4ad : omap4-common: set slice_idle to 0 <Michael Gernoth> 12 hours ago
+ 
+**** cm:android_device_motorola_victara ****
+32e2bd9 : sepolicy: remove duplicate livedisplay entry <Dan Pasanen> 4 hours ago
+a988613 : init: set bfq as default scheduler and use prop <Dan Pasanen> 6 days ago
+ 
+**** cm:android_device_oppo_msm8974-common ****
+9ac5f38 : msm8974: Remove display policy items <Steve Kondik> 2 days ago
+ 
+**** vanir:device_qcom_sepolicy ****
+0f009b0 : sepolicy: Include qcom-specific sepolicy from vendor/cm <Steve Kondik> 2 days ago
+ce47ba2 : SEPolicy : Added policy for oma drm <Paramananda Pradhan> 8 months ago
+ 
+**** vanir:device_samsung_jf-common ****
+c7e8adc : sepolicy: remove duplicate livedisplay entry <Dan Pasanen> 4 hours ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+fdbee20 : msm8960-common: Remove duplicate policy for LiveDisplay. <hedwig34> 13 hours ago
+ 
+**** vanir:device_sony_fusion3-common ****
+0f2c6fb : sepolicy: remove redundant system_server policy <Georg Veichtlbauer> 20 hours ago
+ 
+**** cm:android_device_sony_msm8974-common ****
+30f5fe3 : sony: msm8974: relocate common policy to vendor/cm <Giulio Cervera> 18 hours ago
+ 
+**** vanir:device_sony_nicki ****
+45f6880 : nicki: Enable WCDMA only mode <James Hunt> 5 days ago
+2422692 : nicki: update device-specific speolicy after latest changes <RonGokhale> 19 hours ago
+ba37d2f : nicki: enable proximity wake option <RonGokhale> 6 days ago
+c6d47e1 : nicki: remove Qcelp,evrc and amrwbplus encoder/decoder <RonGokhale> 6 days ago
+f58715e : nicki: use LA.AF.1.1 media codec <RonGokhale> 3 weeks ago
+7b5282e : nicki: use low end google media codec <RonGokhale> 3 weeks ago
+070a3e3 : nicki: decouple from 8960-common <RonGokhale> 4 weeks ago
+3dbfbfc : nicki: overlay: remove duplicate <RonGokhale> 3 months ago
+c6b08da : nicki: inherit msm8960-common at the end <RonGokhale> 7 weeks ago
+7130c91 : nicki: enable charger suspend <RonGokhale> 7 weeks ago
+d524f8b : nicki: Supress User space faults <Samir Mehta> 9 months ago
+d77094f : nicki: show app install location option <RonGokhale> 9 weeks ago
+af9c6f1 : nicki: update wlan configs <RonGokhale> 3 months ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 5 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 6 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 8 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 3 months ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 10 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 3 months ago
+915d977 : nicki: use new perfd-client <RonGokhale> 3 months ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 3 months ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 1 year, 1 month ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 4 months ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 5 months ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 5 months ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 5 months ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 5 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 5 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 5 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 6 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 6 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 6 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 6 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 6 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 6 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 6 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 6 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 7 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 7 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 7 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 7 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 7 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 12 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 8 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 8 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 9 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 9 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 9 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 7 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 8 months ago
+ 
+**** vanir:frameworks_av ****
+e299e7c : frameworks/av : Drm media file uses mm-parser sniffer <Paramananda> 7 months ago
+d2612cc : Media: Make media support DRM file's playing <Paramananda> 9 months ago
+ 
+**** vanir:frameworks_base ****
+f72c87c : Fingerprint wakeup: more consistent behavior <Roman Birg> 7 hours ago
+0d2a35e : Allow disabling the privacy guard notification (2/2) <Chirayu Desai> 10 hours ago
+42e4626 : Fixed: Wrong status bar notification layout width. <Danilo Krummrich> 5 months ago
+0214754 : fingerprint wakeup: improve state and error handling <Roman Birg> 2 days ago
+d67c242 : QS: Make WiFi and Bluetooth tile detail view consistent <d34d> 26 hours ago
+85560c7 : Recents: Delay cleanup of remaining tasks when dismissing <d34d> 27 hours ago
+8e4edf8 : Consider using app adj to identify if it is a B-service <Kishore Srivenkata Ganesh Bolisetty> 7 weeks ago
+e5a1f01 : Replacing FloatMath native implementation with calls to Math <Nick Kralevich> 11 months ago
+3530c1f : DocumentsUi : Drm lock icon can be shown on documnets picker view. <Paramananda> 6 months ago
+066cbcf : DocumentsUi : Drm lock icon is added for drm content <Paramananda> 6 months ago
+5fc85fe : frameworks : Introduced new private DRM APIs in graphics library <Paramananda> 6 months ago
+9343282 : frameworks/base : Added support for OmaDrmEngine <Paramananda> 7 months ago
+6527270 : frameworks/base : Remove drm api entries from current.txt <Paramananda Pradhan> 5 months ago
+c2a5c2d : libdrm: Added support for Combined Delivery and Separate Delivery <Paramananda Pradhan> 9 months ago
+515534b : Revert "Remove obsolete OMA-DRM support". <Praveen Chavan> 8 months ago
+ 
+**** cm:android_hardware_broadcom_libbt ****
+6e7b90c : libbt-vendor: Fix wisol string comparison <Ethan Chen> 29 hours ago
+ 
+**** vanir:hardware_qcom_display ****
+1e93f5e : hwcomposer: Add support to specify dynamic FPS when idle <Steve Kondik> 2 days ago
+ 
+**** cm:android_kernel_motorola_msm8226 ****
+32473a7 : msm8226: configs: enable BFQ <luca020400> 11 days ago
+7b24a81 : block, bfq: add Early Queue Merge (EQM) to BFQ-v7r8 for 3.4.0 <Mauro Andreolini> 3 months ago
+f0a871f : block: introduce the BFQ-v7r8 I/O sched for 3.4 <Paolo Valente> 2 years, 4 months ago
+5a49991 : block: cgroups, kconfig, build bits for BFQ-v7r8-3.4 <Arianna Avanzini> 1 year, 8 months ago
+ 
+**** github:Fred6681/android_kernel_samsung_golden ****
+9a1063c : Makefile: add more optimizations -ffast-math with -fno-finite-math-only seem to make a good impact on math performance without affecting its stability <Fred6681> 26 hours ago
+41e5f46 : netfilter: xt_qtaguid: extend iface stat to report protocols <JP Abgrall> 2 years, 8 months ago
+1720e7a : Staging: android: binder: Fix memory leak on thread/process exit <Arve Hjønnevåg> 3 years ago
+7ba142d : sched: Fix memory leakage in build_sched_groups() <Viresh Kumar> 2 years, 3 months ago
+50a518f : ext4: speed up truncate/unlink by not using bforget() unless needed <bsmitty> 1 year, 7 months ago
+c865285 : arm: setup: HACK kernel cmdline for more available RAM <cocafe> 4 months ago
+ 
+**** cm:android_packages_apps_Exchange ****
+d78074b : exchange: delay_sync_on_auth_error <Jorge Ruesga> 9 days ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+b00985f : Gallery2 : Drm file can be set as wallpaper <Paramananda> 6 months ago
+4f3e496 : Gallery2 : Drm lock icon added on Photo widget for drm content <Paramananda> 6 months ago
+f5b491b : Gallery2 : GIF animated drm file can be visible in Gallery app <Paramananda> 6 months ago
+01f5f34 : Gallery2 : Uses internal Drm image decoder api in Gallery app <Paramananda> 6 months ago
+43044da : Gallery2 : Added support for Oma drm (CD and SD) <Paramananda> 7 months ago
+829f9ad : Gallery2: Make Gallery2 support OMADRM feature <Paramananda Pradhan> 9 months ago
+ 
+**** vanir:packages_apps_Settings ****
+bcf06e6 : Allow disabling the privacy guard notification (1/2) <Chirayu Desai> 11 hours ago
+d29d0c0 : Setting: Match brightness override padding to volume override <Jon S> 5 days ago
+fb64f25 : APN: Fix typo <Ricardo Cerqueira> 10 hours ago
+e3b16e9 : Remove 'Pulse if battery low' option if unsupported <Alberto97> 4 days ago
+ec7ff49 : Use default subscription's slot ID when showing SIM status <Ethan Chen> 2 days ago
+ 
+**** vanir:system_core ****
+54521d0 : Revert "Add HTC Logging functions to support newer HTC props." <Matt Mower> 2 days ago
+eeaeeb6 : cutils: Add support for BFQIO cgroups <Steve Kondik> 9 days ago
+ 
+**** cm:cm_platform_sdk ****
+0769cdb : CMResolver: Optimize restart if we know we don't have suggestions. <Adnan Begovic> 2 days ago
+0d5b0b7 : CMSettingsProvider: Update app name <Michael Bestas> 2 days ago
+688a045 : CMResolver: Fix bad equivalancy check by using known boolean. <Adnan Begovic> 2 days ago
+ 
+**** vanir:vendor_vanir ****
+5afdce4 : cm: Create cgroups for BFQIO <Steve Kondik> 9 days ago
+c01aa05 : cm: sepolicy: Create central place for QC-specific policy <Steve Kondik> 2 days ago
+814fb4b : cm: sepolicy: Create standard policy for LiveDisplay <Steve Kondik> 2 days ago
+147aedd : backuptool: Add checks if it makes sense to execute commands <Andreas Schneider> 2 weeks ago
+ 

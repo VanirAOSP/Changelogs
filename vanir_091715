@@ -1,0 +1,196 @@
+
+**** vanir:device_htc_m8 ****
+e174bee : init: Reorganize and include all device specific props <Bruno Martins> 5 days ago
+ 
+**** cm:android_device_htc_m8-common ****
+8bf0ada : props: Move device specific props out of common <Bruno Martins> 5 days ago
+ 
+**** cm:android_device_htc_m8dug ****
+dc18777 : init: Reorganize and include all device specific props <Bruno Martins> 5 days ago
+ 
+**** vanir:device_lge_g2-common ****
+d9923a6 : g2: Relocate common policy to vendor/cm <Steve Kondik> 2 days ago
+ 
+**** vanir:device_lge_g3-common ****
+c03d2bc : Disable audio offload <Davis Mosenkovs> 8 days ago
+ 
+**** cm:android_device_lge_v500 ****
+f16e211 : Sepolicy updates <Abhisek Devkota> 4 hours ago
+ 
+**** vanir:device_motorola_falcon ****
+936401a : falcon: update boost fingerprint <Luca Stefani> 32 hours ago
+ 
+**** vanir:motorola_msm8226-common ****
+3706c0e : msm8226-common: add boost eri overlays <Luca Stefani> 31 hours ago
+931a3fa : msm8226-common: enable BFQ by default <luca020400> 12 days ago
+d6a33b7 : msm8226-common: Relocate common policy to vendor/cm <Steve Kondik> 3 days ago
+ 
+**** cm:android_device_motorola_victara ****
+4a7e9aa : sepolicy: unbreak the world <Dan Pasanen> 25 hours ago
+ 
+**** vanir:device_oneplus_bacon ****
+eff801d : bacon: Update extract file script <Giulio Cervera> 1 year, 3 months ago
+a306652 : bacon: Import msm8974-common items <Ethan Chen> 7 days ago
+ 
+**** cm:android_device_oppo_find7-common ****
+d533a02 : find7: Update camera blobs <Michael Bestas> 4 months ago
+703a5c1 : find7: Set vendor path to find7-common <Michael Bestas> 5 days ago
+2ff8f51 : Move KERNEL_SOURCE define out of msm8974-common <jrior001> 5 days ago
+ 
+**** cm:android_device_oppo_msm8974-common ****
+730364a : msm8974-common: Move camera sensor blobs to devices <Michael Bestas> 9 weeks ago
+2e6c11f : msm8974: Update extract file script <Giulio Cervera> 1 year, 3 months ago
+4685f6e : msm8974: Cleanup after bacon split <Michael Bestas> 5 days ago
+ 
+**** vanir:device_qcom_sepolicy ****
+7fb4882 : Use vendor/vanir/sepolicy/qcom/sepolicy.mk not vendor/cm/... <sudosurootdev> 20 hours ago
+ 
+**** cm:android_device_samsung_hlte-common ****
+98515b8 : Sepolicy vendor/cm updates <Abhisek Devkota> 20 hours ago
+ 
+**** vanir:device_samsung_klte-common ****
+e3112cd : Sepolicy updates <Abhisek Devkota> 4 hours ago
+ 
+**** cm:android_device_samsung_trlte-common ****
+432f6bd : Sepolicy update <Abhisek Devkota> 4 hours ago
+ 
+**** cm:android_device_sony_common ****
+95693f5 : extract_elf_ramdisk: Increase buffer for uncompressed ramdisks <olivieer> 12 months ago
+ 
+**** cm:android_device_sony_msm8974-common ****
+8d4a576 : msm8974-common: use bfq io scheduler <Giulio Cervera> 19 hours ago
+ 
+**** vanir:device_sony_nicki ****
+45f6880 : nicki: Enable WCDMA only mode <James Hunt> 6 days ago
+2422692 : nicki: update device-specific speolicy after latest changes <RonGokhale> 2 days ago
+ba37d2f : nicki: enable proximity wake option <RonGokhale> 7 days ago
+c6d47e1 : nicki: remove Qcelp,evrc and amrwbplus encoder/decoder <RonGokhale> 7 days ago
+f58715e : nicki: use LA.AF.1.1 media codec <RonGokhale> 3 weeks ago
+7b5282e : nicki: use low end google media codec <RonGokhale> 3 weeks ago
+070a3e3 : nicki: decouple from 8960-common <RonGokhale> 4 weeks ago
+3dbfbfc : nicki: overlay: remove duplicate <RonGokhale> 3 months ago
+c6b08da : nicki: inherit msm8960-common at the end <RonGokhale> 7 weeks ago
+7130c91 : nicki: enable charger suspend <RonGokhale> 7 weeks ago
+d524f8b : nicki: Supress User space faults <Samir Mehta> 9 months ago
+d77094f : nicki: show app install location option <RonGokhale> 9 weeks ago
+af9c6f1 : nicki: update wlan configs <RonGokhale> 3 months ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 5 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 6 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 8 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 3 months ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 10 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 3 months ago
+915d977 : nicki: use new perfd-client <RonGokhale> 3 months ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 3 months ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 1 year, 1 month ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 4 months ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 5 months ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 5 months ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 5 months ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 5 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 5 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 5 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 6 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 6 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 6 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 6 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 6 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 6 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 6 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 6 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 7 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 7 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 7 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 7 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 7 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 12 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 8 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 8 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 9 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 9 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 9 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 7 months ago
+fd595b4 : Revert "nicki: disable fm for now" <RonGokhale> 8 months ago
+ 
+**** cm:android_device_sony_rhine-common ****
+59b76ac : rhine: move io scheduler to common <Giulio Cervera> 19 hours ago
+9aa011d : rhine: use f2fs <Giulio Cervera> 19 hours ago
+2bf1749 : rhine: Use fs_mgr to format if unformatted <Giulio Cervera> 19 hours ago
+ 
+**** cm:android_device_sony_shinano-common ****
+6f4edd2 : shinano: move io scheduler to common <Giulio Cervera> 19 hours ago
+7e91818 : shinano: clean ueventd conf <Giulio Cervera> 19 hours ago
+83f2dc9 : shinano: use f2fs <Giulio Cervera> 19 hours ago
+ 
+**** vanir:frameworks_base ****
+a5979d6 : framework: add string for wifi subscription change notification <Roman Birg> 6 days ago
+b179291 : SystemUI: don't show recents if not provisioned <Roman Birg> 28 hours ago
+ 
+**** vanir:frameworks_opt_net_wifi ****
+1948cf6 : Revert of "Revert "wifi: do not adjust wifi score when WQE is enabled"" <Dhiraj Shantilal Patil> 3 weeks ago
+dee3d04 : Revert "Revert "wifi: do not adjust wifi score when WQE is enabled"" <Ashwini Muduganti> 4 weeks ago
+5080392 : Revert "Wifi: Reduce auto join scans when p2p is connected" <Nalla Kartheek> 4 weeks ago
+53a5e83 : Revert "wifi: do not adjust wifi score when WQE is enabled" <Boxiang Pan> 5 weeks ago
+ 
+**** cm:android_kernel_samsung_d2 ****
+1579eb9 : simple_xattr: permit 0-size extended attributes <Hugh Dickins> 1 year, 2 months ago
+f3c2eb7 : cgroup: fix broken file xattrs <Li Zefan> 2 years, 5 months ago
+ef13e56 : mm: vmpressure: fix backport <Dave Daynard> 22 hours ago
+1fba7e9 : sched_rt: Avoid unnecessary dequeue and enqueue of pushable tasks in set_cpus_allowed_rt() <Kirill Tkhai> 3 years, 5 months ago
+9e3f089 : sched/rt: Fix lockdep annotation within find_lock_lowest_rq() <Peter Zijlstra> 3 years, 4 months ago
+afb30b9 : sched: Remove __ARCH_WANT_INTERRUPTS_ON_CTXSW <Peter Zijlstra> 3 years ago
+6082a8f : sched/rt: Add reschedule check to switched_from_rt() <Kirill Tkhai> 2 years, 10 months ago
+4bd75a76 : sched/rt: Do not account zero delta_exec in update_curr_rt() <Kirill Tkhai> 2 years, 8 months ago
+1d12012 : Revert "msm: mdp: Scotty, moar power!" <Dave Daynard> 5 days ago
+141dd54 : Revert "msm: mdp: maybe just a little less power Scotty?" <Dave Daynard> 5 days ago
+ 
+**** cm:android_kernel_sony_apq8064 ****
+a11ddf1 : mdp4: pcc: fix PCC disablement <Dave Daynard> 2 months ago
+7e78825 : video: mdp4: Color temperature interface using PCC <Steve Kondik> 6 months ago
+ 
+**** cm:android_kernel_sony_msm8974 ****
+4912783 : msm: use of swp{b} is deprecated for ARMv6+ <Pranav Vashi> 1 year, 9 months ago
+b988f35 : msm: mdss: Unmap only when buffer was mapped <Jayant Shekhar> 8 months ago
+c69a8e9 : msm: vidc: flush work handler before unloading firmware <Balamurugan Alagarsamy> 2 months ago
+ff60715 : USB: dwc3: msm: Don't disable/enable clocks if in lpm during block reset <Vijayavardhan Vennapusa> 3 months ago
+019574b : msm: mdss: Minimize cases of BL lock in update backlight <Krishna Chaitanya Parimi> 1 year, 3 months ago
+a1d3855 : USB: dwc3: ep0: Use WARN_ON_ONCE to fix message flooding issue <Vijayavardhan Vennapusa> 3 months ago
+d0c5d46 : msm: kgsl: Make global memory statistics atomic <Sunil Khatri> 3 months ago
+26133a1 : ARM: dts: msm: Update adsp heap memory size <Balamurugan Alagarsamy> 3 months ago
+93cf5f5 : msm: ADSPRPC: Initialize hlist node pointers <Jessica Wagantall> 3 months ago
+b1ed6b4 : msm: mdss: cancel AD calc work and destroy workqueue at power off <Krishna Chaitanya Parimi> 5 months ago
+9a822ff : msm: mdss: do not assign ad_calc_bl if AD offsets are absent <Krishna Chaitanya Parimi> 5 months ago
+5384836 : msm: mdss: remove unnecessary lock in checking DSI status <Ray Zhang> 1 year, 1 month ago
+9cbeec4 : spi_qsd: Fix DMA errors <Dan Sneddon> 1 year, 3 months ago
+c49c29d : spi: spi_qsd: Reduce latency for non-shared cores <Dan Sneddon> 9 months ago
+eec2bce : spi: spi_qsd: Add multi-ee support <Dan Sneddon> 1 year, 5 months ago
+900bd7e : msm: kgsl: check for NULL pointer access <Anupam Sakargayan> 4 months ago
+b58eb51 : msm: vidc: removed the async v4l2 event for session unsupported <Jia Meng> 1 year, 1 month ago
+56439ba : rtac: Check active asm clients before removing adm device <Ramjee Singh> 4 months ago
+88c53cb : msm: vidc: Error handling when core is in bad state <Praneeth Paladugu> 1 year ago
+c153cd3 : msm: vidc: replace resurrect_fw with unload_fw <Ashray Kulkarni> 7 months ago
+c3d8acf : scm-mpu: Add additional memory protection options <Patrick Daly> 7 months ago
+47e89b4 : block: fix request_queue->flags initialization <Tejun Heo> 3 years ago
+280fb4d : block: fix synchronization and limit check in blk_alloc_devt() <Tejun Heo> 2 years, 7 months ago
+a5a6322 : block: do not pass disk names as format strings <Kees Cook> 2 years, 2 months ago
+75b5ad5 : block: fix ext_devt_idr handling <Tomas Henzl> 2 years, 7 months ago
+913f6c7 : block: avoid using uninitialized value in from queue_var_store <Arnd Bergmann> 2 years, 5 months ago
+ada96c1 : block: add cond_resched() to potentially long running ioctl discard loop <Jens Axboe> 1 year, 7 months ago
+b4216b2 : scsi: Silence unnecessary warnings about ioctl to partition <Jan Kara> 3 years, 3 months ago
+11e5b34 : sony: msm8974: enable f2fs <Giulio Cervera> 3 days ago
+043ada6 : msm8974: add f2fs <Jaegeuk Kim> 2 weeks ago
+ 
+**** vanir:packages_apps_DeskClock ****
+697a9d6 : Fix wrong icon used in notification bar. <Dave Kover> 4 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+f04f995 : Import blobs from oppo/msm8974-common <Michael Bestas> 6 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oppo ****
+82f7019 : n3: Remove unused camera blobs <Michael Bestas> 5 days ago
+5e39432 : find7: Update camera blobs <Michael Bestas> 4 months ago
+e8d6d20 : Shuffle msm8974 blobs <Michael Bestas> 5 days ago
+ 
+**** vanir:vendor_vanir ****
+cd3a5be : sepolicy? or inception. <nuclearmistake> 15 hours ago
+ 

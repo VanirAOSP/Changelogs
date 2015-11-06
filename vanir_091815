@@ -1,0 +1,204 @@
+
+**** cm:android_device_cyanogen_msm8916-common ****
+baaa15d : init: wcnss_service is oneshot <Ricardo Cerqueira> 15 hours ago
+ 
+**** cm:android_device_cyanogen_msm8939-common ****
+24f1161 : msm8939: wcnss_service is a oneshot <Ethan Chen> 8 hours ago
+ 
+**** vanir:device_htc_m7-common ****
+ee88780 : m7-common: Switch to BFQ <Ethan Chen> 3 days ago
+d585048 : m7-common: Split performance items to init.qcom.power.rc <Ethan Chen> 3 days ago
+a482f9f : m7-common: Use property override to set I/O scheduler <Ethan Chen> 3 days ago
+ 
+**** vanir:device_htc_s4-common ****
+58601ed : s4-common: Switch to BFQ <Ethan Chen> 3 days ago
+3f42645 : s4-common: Split performance items to init.qcom.power.rc <Ethan Chen> 3 days ago
+87c9b15 : s4-common: Use property override to set I/O scheduler <Ethan Chen> 3 days ago
+ 
+**** vanir:device_lge_gproj-common ****
+05a2696 : Update livedisplay sepolicy <Abhisek Devkota> 2 days ago
+ 
+**** vanir:device_lge_hammerhead ****
+6a685eb : hammerhead: Move to cfq I/O scheduler <myfluxi> 2 days ago
+ 
+**** vanir:motorola_msm8226-common ****
+052c0d7 : msm8226-common: fix eri overlay path <luca020400> 2 days ago
+ 
+**** vanir:device_qcom_common ****
+4697ca4 : common: Change the Hi-Speed freq to 800Mhz for camcorder case <vaibhav bhalla> 6 months ago
+ec19782 : power: override encode hint for 8909 <vaibhav bhalla> 7 months ago
+ 
+**** vanir:device_samsung_klte-common ****
+14782c9 : klte-common: Set io scheduler using sys.io.scheduler prop <Ozzy2403> 13 hours ago
+8300a60 : klte-common: Add radish binary <Ozzy2403> 13 hours ago
+8ef3673 : build ebtables and ethertypes <Ozzy2403> 13 hours ago
+1d59abb : liblights: fix warnings <Dan Pasanen> 9 weeks ago
+ 
+**** vanir:device_samsung_mondrianwifi ****
+0dbafd8 : Sepolicy updates <Abhisek Devkota> 28 hours ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+d302c76 : msm8960: factor out power modes <Dave Daynard> 6 days ago
+71a16e0 : msm8960-common: power: Add app launch boost <Dave Daynard> 6 days ago
+33aada4 : msm8960-common: online second core at screen on <Dave Daynard> 6 days ago
+befd66a : Revert "Revert "device: Disable hispeed_freq while screen is off"" <Dave Daynard> 6 days ago
+ 
+**** vanir:device_sony_nicki ****
+0743b47 : nicki: Disable CSD client <RonGokhale> 19 hours ago
+45f6880 : nicki: Enable WCDMA only mode <James Hunt> 7 days ago
+2422692 : nicki: update device-specific speolicy after latest changes <RonGokhale> 3 days ago
+ba37d2f : nicki: enable proximity wake option <RonGokhale> 8 days ago
+c6d47e1 : nicki: remove Qcelp,evrc and amrwbplus encoder/decoder <RonGokhale> 8 days ago
+f58715e : nicki: use LA.AF.1.1 media codec <RonGokhale> 4 weeks ago
+7b5282e : nicki: use low end google media codec <RonGokhale> 4 weeks ago
+070a3e3 : nicki: decouple from 8960-common <RonGokhale> 4 weeks ago
+3dbfbfc : nicki: overlay: remove duplicate <RonGokhale> 3 months ago
+c6b08da : nicki: inherit msm8960-common at the end <RonGokhale> 7 weeks ago
+7130c91 : nicki: enable charger suspend <RonGokhale> 7 weeks ago
+d524f8b : nicki: Supress User space faults <Samir Mehta> 9 months ago
+d77094f : nicki: show app install location option <RonGokhale> 9 weeks ago
+af9c6f1 : nicki: update wlan configs <RonGokhale> 3 months ago
+ec274af : nicki: Add specific devices for direct output <Ramjee Singh> 5 months ago
+20e3436 : nicki: Add specific A2DP devices for direct output <Pavan Chikkala> 6 months ago
+8001e17 : nicki: Add USB_DEVICE_ALL and remove USB ANLG device <Ramjee Singh> 8 months ago
+e06c098 : nicki: cleanup mpdecision sepolicy <RonGokhale> 4 months ago
+ca7a15c : nicki: Software Encryption issue fixed <Samir Mehta> 10 months ago
+7a7e5cf : nicki: update bt blobs <RonGokhale> 4 months ago
+915d977 : nicki: use new perfd-client <RonGokhale> 4 months ago
+37502f9 : Revert "nicki: Enable zram device" <RonGokhale> 4 months ago
+56abdfb : nicki: Add multi SIM support <Chaitanya Saggurthi> 1 year, 1 month ago
+e8a096c : Revert "nicki: Disable logd" <RonGokhale> 4 months ago
+478e78d : nicki: Enable HW aac encoder <RonGokhale> 5 months ago
+3c7d7a8 : nicki: update adreno blobs <RonGokhale> 5 months ago
+7141805 : nicki: disable legacy mmap <RonGokhale> 5 months ago
+15fd43d : nicki: Enable netmgr qos <RonGokhale> 5 months ago
+06156f9 : nicki: re-enable multicolor notification led <RonGokhale> 6 months ago
+e1e48fc : nicki: fix writing to extrnal sdcard when ums enabled <RonGokhale> 6 months ago
+c5d7191 : nicki: cleanup device tree <RonGokhale> 6 months ago
+a38f9d9 : nicki: Use kitkat min-free value <RonGokhale> 6 months ago
+24d510c : nicki: Enable zram device <RonGokhale> 6 months ago
+33de600 : nicki: cmhw: Add display color calibration <RonGokhale> 6 months ago
+055ede7 : nicki: Add vibration intensity control <RonGokhale> 6 months ago
+1da5bf7 : nicki: turn down earpiece volume <RonGokhale> 6 months ago
+b54b77f : remove deprecated egl.cfg <Georg Veichtlbauer> 6 months ago
+dd4fbdf : improve inheritance hierarchy, clean-up & consolidate msm8960-common <Georg Veichtlbauer> 6 months ago
+cbf76b4 : Remove unneeded adreno flag <Georg Veichtlbauer> 7 months ago
+9ea3162 : nicki: Update sepolicies <RonGokhale> 7 months ago
+c7a900e : nicki: Enable usb storage option <RonGokhale> 7 months ago
+d8d4a9a : remove postproc stuff <Giulio Cervera> 7 months ago
+c499701 : Revert "nicki: Restrict external sdcard write permission" <RonGokhale> 7 months ago
+b444e6a : nicki: Restrict external sdcard write permission <Biswajit Paul> 12 months ago
+7d905ca : audio: Update audio_policy.conf with supported AAC profiles <Divya Narayanan Poojary> 8 months ago
+bc500a2 : audio:Changing usb device from ANALOG to USB_IN <Ramjee Singh> 8 months ago
+a5f471b : audio: Enable VOIP_TX <Pavan Chikkala> 9 months ago
+0a3bda1 : audio: Add AUDIO_DEVICE_OUT_USB_ACCESSORY instead of OUT_ALL_USB <Ramjee Singh> 9 months ago
+472b742 : audio:Added fast profile in audio_policy.conf for msm8960 <Ramjee Singh> 9 months ago
+9ca50b6 : remove useless property <Giulio Cervera> 7 months ago
+ 
+**** vanir:frameworks_base ****
+57a2155 : QS: Update visibility of items in Bluetooth/WiFi tiles <d34d> 30 hours ago
+570eb5f : Themes: Set composed icon scale to 1f default <d34d> 2 days ago
+865f39e : Default to Resolver Theme <herriojr> 30 hours ago
+4f7c0f2 : SettingsProvider: move Profile picker activity (1/2) <Roman Birg> 4 weeks ago
+8bfc137 : SystemUI: add missing super viewgroup method calls <Roman Birg> 7 days ago
+29a962a : Fix race condition in panel expansion handling. <Danny Baumann> 15 hours ago
+0df1e42 : base: fix window bounds for left hand navigationbar <Jorge Ruesga> 5 days ago
+55ab726 : Fix animation sequence for upload tasks <Zhao Wei Liew> 5 days ago
+ 
+**** vanir:frameworks_opt_net_wifi ****
+5a4704d : wifi: disable access point on subscription change <Roman Birg> 9 days ago
+ 
+**** vanir:hardware_qcom_display ****
+e9f7b80 : display: Set thread priority using cutils <Steve Kondik> 2 days ago
+ 
+**** vanir:hardware_qcom_display ****
+36acb02 : display: Set thread priority using cutils <Steve Kondik> 2 days ago
+ 
+**** vanir:hardware_qcom_display ****
+a70c883 : display: Set thread priority using cutils <Steve Kondik> 2 days ago
+ 
+**** vanir:hardware_samsung ****
+8409398 : ril: Support new sound manger RIL responses <Andreas Schneider> 3 days ago
+ 
+**** cm:android_kernel_htc_msm8960 ****
+ff093f6 : msm: HTC: Enable BFQ IO scheduler <Ethan Chen> 3 days ago
+d5b3b1e : block, bfq: add Early Queue Merge (EQM) to BFQ-v7r8 for 3.4.0 <Mauro Andreolini> 3 months ago
+fd1eab1 : block: introduce the BFQ-v7r8 I/O sched for 3.4 <Paolo Valente> 2 years, 4 months ago
+940f14a : block: cgroups, kconfig, build bits for BFQ-v7r8-3.4 <Arianna Avanzini> 1 year, 8 months ago
+484f4c6 : msm: HTC: Use noop as default scheduler <Ethan Chen> 3 days ago
+ 
+**** cm:android_kernel_motorola_msm8960-common ****
+9092b71 : block, bfq: add Early Queue Merge (EQM) to BFQ-v7r8 for 3.0.0 <Mauro Andreolini> 3 months ago
+0ba3a55 : block: introduce the BFQ-v7r8 I/O sched for 3.0 <Paolo Valente> 4 years ago
+ef1eb7e : block: cgroups, kconfig, build bits for BFQ-v7r8-3.0 <Paolo Valente> 4 years ago
+26f6775 : block: prepare I/O context code for BFQ-v7r8 for 3.0 <Paolo Valente> 4 years ago
+04de1f7 : Revert "block: prepare I/O context code for BFQ-v5r1 for 3.0" <nadlabak> 4 days ago
+8e257b0 : Revert "block: cgroups, kconfig, build bits for BFQ-v5r1-3.0" <nadlabak> 4 days ago
+0bc64ae : Revert "block: introduce the BFQ-v5r1 I/O sched for 3.0" <nadlabak> 4 days ago
+9f19d4b : Revert "block: bfq: Fix warnings treated as errors when using -O2" <nadlabak> 4 days ago
+ 
+**** cm:android_kernel_samsung_d2 ****
+48d2ff5 : ARM: bitops: prefetch the destination word for write prior to strex <Will Deacon> 2 years, 3 months ago
+005beb3 : ARM: 7983/1: atomics: implement a better __atomic_add_unless for v6+ <Will Deacon> 1 year, 7 months ago
+c579b4c : ARM: 7868/1: arm/arm64: remove atomic_clear_mask() in "include/asm/atomic.h" <Chen Gang> 1 year, 11 months ago
+ca83878 : ARM: 7687/1: atomics: don't use exclusives for atomic64 read/set with LPAE <Will Deacon> 2 years, 6 months ago
+4c6bf43 : ARM: fix warnings about atomic64_read <Russell King> 3 years, 2 months ago
+558b874 : sched: Implement lockless wake-queues <Peter Zijlstra> 5 months ago
+06b7446 : futex: Lower the lock contention on the HB lock during wake up <Sebastian Andrzej Siewior> 3 months ago
+a5bd93c : locking/rtmutex: Implement lockless top-waiter wakeup <Davidlohr Bueso> 4 months ago
+d693772 : mm: vmpressure: account allocstalls only on higher pressures <Vinayak Menon> 4 weeks ago
+2c5f4a7 : mm: vmpressure: scale pressure based on reclaim context <Vinayak Menon> 6 months ago
+4f8aa81 : lowmemorykiller: avoid false adaptive LMK triggers <Vinayak Menon> 4 weeks ago
+c7b31ce : rtmutex: Confine deadlock logic to futex <Thomas Gleixner> 1 year, 4 months ago
+b19ae82 : rtmutex: Simplify rtmutex_slowtrylock() <Thomas Gleixner> 1 year, 3 months ago
+400a97b : locking/rtmutex: Drop usage of __HAVE_ARCH_CMPXCHG <Sebastian Andrzej Siewior> 7 months ago
+ed61593 : sched: window-based load stats improvements <Srivatsa Vaddagiri> 1 year, 6 months ago
+e8466cf : sched: Add min_max_freq and rq->max_possible_freq <Srivatsa Vaddagiri> 1 year, 6 months ago
+3f3f6d8 : sched: move task load based functions <Steve Muckle> 1 year, 4 months ago
+d2a6a39 : sched: Skip load update for idle task <Srivatsa Vaddagiri> 1 year, 4 months ago
+0aa0096 : sched: window-stats: Fix overflow bug <Srivatsa Vaddagiri> 1 year, 4 months ago
+6b46cf9 : sched: Window-based load stat improvements <Srivatsa Vaddagiri> 1 year, 6 months ago
+ccc4a62 : sched: Disable wakeup hints for foreground tasks by default <Rohit Gupta> 1 year, 5 months ago
+06127e0 : sched: Call the notify_on_migrate notifier chain for wakeups as well <Rohit Gupta> 1 year, 6 months ago
+f21b9c1 : cpufreq: cpu-boost: Introduce scheduler assisted load based syncs <Rohit Gupta> 1 year, 6 months ago
+76a57c9 : sched: window-based load stats for tasks <Srivatsa Vaddagiri> 1 year, 8 months ago
+fa8036f : sched: Make scheduler aware of cpu frequency state <Srivatsa Vaddagiri> 1 year, 9 months ago
+a867ea0 : sched: Introduce temporary FAIR_GROUP_SCHED dependency for load-tracking <Paul Turner> 3 years ago
+3c4bbb4 : sched: Make __update_entity_runnable_avg() fast <Paul Turner> 3 years ago
+7fdbd71 : sched: Update_cfs_shares at period edge <Paul Turner> 3 years ago
+f818547 : sched: Refactor update_shares_cpu() -> update_blocked_avgs() <Paul Turner> 3 years ago
+1b11d97 : sched: Replace update_shares weight distribution with per-entity computation <Paul Turner> 3 years ago
+e6d3663 : sched: Maintain runnable averages across throttled periods <Paul Turner> 3 years ago
+ad4bbac : sched: Normalize tg load contributions against runnable time <Paul Turner> 3 years ago
+c8b1e32 : sched: Compute load contribution by a group entity <Paul Turner> 3 years ago
+c9d1067 : sched: Aggregate total task_group load <Paul Turner> 3 years ago
+0cd2764 : sched: Account for blocked load waking back up <Paul Turner> 3 years ago
+d97ab04 : sched: Add an rq migration call-back to sched_class <Paul Turner> 3 years ago
+7ec7edb : sched: Maintain the load contribution of blocked entities <Paul Turner> 3 years ago
+8171c39 : sched: Aggregate load contributed by task entities on parenting cfs_rq <Paul Turner> 3 years ago
+41be29c : sched: Maintain per-rq runnable averages <Ben Segall> 3 years ago
+3e370db : sched: Track the runnable average on a per-task entity basis <Paul Turner> 3 years ago
+186e05a : cpufreq: cpu-boost: Resolve deadlock when waking up sync thread <Srivatsa Vaddagiri> 1 year, 9 months ago
+253e0b4 : cpufreq: cpu-boost: Re-issue boosts above minimum frequency <Patrick Cain> 1 year, 6 months ago
+f6beb98 : Revert "tracing/sched: Track per-cpu rt and non-rt cpu_load." <Dave Daynard> 6 days ago
+2f9124e : mm: change max readahead size to 512KB <Lee Susman> 1 year, 11 months ago
+5b586f6 : cpufreq: interactive: Do not reschedule timer if policy->max changes <Junjie Wu> 5 months ago
+12d44f2 : cpufreq: interactive:call __cpufreq_driver_target() for cur frequency <Hanumath Prasad> 3 months ago
+b0d4582 : cpufreq: interactive: don't skip waking up speedchange_task if target_freq > policy->cur <Minsung Kim> 10 months ago
+10f1567 : cpufreq: interactive: prevents the frequency to directly raise above the hispeed_freq from a lower frequency. <Ruchi Kandoi> 1 year, 3 months ago
+695000c : cpufreq: Protect against hotplug in cpufreq_register_driver() <Junjie Wu> 10 months ago
+0bdfeea : defconfigs: default to noop <Dave Daynard> 6 days ago
+ 
+**** cm:android_kernel_sony_msm8974 ****
+34b7bdd : drivers: pn547: fix missing print param and remove unused label <Giulio Cervera> 13 hours ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+704bff7 : Gallery2 : Delete and Details options are not visible on Camera preview <Paramananda> 5 months ago
+ea87a93 : Gallery2 : Video share option is not working <Paramananda> 5 months ago
+ 
+**** cm:android_packages_apps_Profiles ****
+aa39fbc : Profiles: add profile picker Activity (2/2) <Roman Birg> 4 weeks ago
+ 
+**** vanir:vendor_vanir ****
+15d2818 : cm: Set IOPS mode for CFQ and BFQ automatically <Steve Kondik> 2 days ago
+ 
