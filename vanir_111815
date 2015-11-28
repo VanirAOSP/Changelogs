@@ -1,0 +1,876 @@
+
+**** vanir:bionic ****
+81bc267 : libc: include strrchr for kryo and denver64 <HashBang> 10 days ago
+ 
+**** vanir:bootable_recovery-aosp ****
+a200639 : uncrypt: Support file level encryption. <Tao Bao> 4 months ago
+6e9dda7 : uncrypt: Support file level encryption. <Tao Bao> 4 months ago
+babcffa : Revert "Change init sequence to support file level encryption" <Paul Lawrence> 4 months ago
+90c75b0 : Change init sequence to support file level encryption <Paul Lawrence> 5 months ago
+ 
+**** vanir:build ****
+1166a78 : Hacks <DHOMD> 2 months ago
+e465925 : Reconcile ccache.mk and select.mk w/ cm, compile ccache earlier (envsetup -- only compiled conditionally), and actually use compiled ccache <nuclearmistake> 12 hours ago
+ 
+**** vanir:device_asus_flo ****
+b7e2a8f : Remove an depreciated overlay <DHOMD> 4 hours ago
+ 
+**** cm:CyanogenMod/android_device_htc_m8-common ****
+435e1fd : m8: bring sepolicy in from msm8974-common <Dan Pasanen> 3 days ago
+ 
+**** vanir:device_huawei_angler ****
+b50152d : Enable multi voice sessions to support VoLTE audio <Sam Mortimer> 21 hours ago
+76dabb1 : Enable use of ffmpeg codecs <Sam Mortimer> 4 days ago
+e730819 : Maybe fix volte audio <Sam Mortimer> 21 hours ago
+1290b92 : Ensure cm apns are always used <Sam Mortimer> 27 hours ago
+5f29103 : Enable multicolor LED <Sam Mortimer> 12 days ago
+67033f9 : Add cmhw vibrator intensity control <Sam Mortimer> 4 days ago
+6aa6d52 : Enable cmhw support <Sam Mortimer> 2 days ago
+8959ac0 : Enable use of ffmpeg codecs <Sam Mortimer> 4 days ago
+3e8e0a3 : Define which hardware keys are present <Sam Mortimer> 6 days ago
+ 
+**** vanir:device_lge_bullhead ****
+33d8b41 : Add nfc_extras <Abhisek Devkota> 7 hours ago
+d8470f7 : Enable use of ffmpeg codecs <Sam Mortimer> 4 days ago
+cad97ac : Use TARGET_KEYMASTER_WAIT_FOR_QSEE <Abhisek Devkota> 7 hours ago
+ba2ac91 : FIX ME: Disable forceencrypt <Abhisek Devkota> 13 days ago
+6ef1370 : bullhead: Fix proprietary file listing <Ethan Chen> 27 hours ago
+ 
+**** vanir:device_lge_g2-common ****
+569474e : g2: remove persist.sys.usb.config override <Nick Kralevich> 6 months ago
+c1aeb9d : g2: Grant thermal-engine binder permissions <Ethan Chen> 26 hours ago
+23f9ecb : g2: Allow system server to read from usb sysfs too <Ethan Chen> 34 hours ago
+63d00cb : g2: Update SELinux policy <Ethan Chen> 28 hours ago
+ 
+**** vanir:device_lge_mako ****
+053860b : Disable some items <Abhisek Devkota> 5 weeks ago
+0d2c63f : Remove depreciated overlay <DHOMD> 4 hours ago
+ 
+**** vanir:motorola_msm8226-common ****
+a156c26 : msm8226-common: Start timekeep on early boot <Gabriele M> 7 hours ago
+2a99974 : msm8226-common: Set jemalloc as the default allocator <Luca Stefani> 12 hours ago
+73fe478 : msm8226-common: Use OSS TimeKeep service by Sony <Adam Farden> 9 days ago
+ 
+**** cm:CyanogenMod/android_device_motorola_victara ****
+b01d6b3 : sepolicy: address yet a few more denials <Dan Pasanen> 4 hours ago
+8ceab4d : sepolicy: address a few denials <Dan Pasanen> 5 days ago
+ 
+**** vanir:device_oneplus_bacon ****
+b6dbfd6 : sepolicy: remove persist_block_device <Dan Pasanen> 2 days ago
+7f02289 : bacon: Update GPS configuration <Steve Kondik> 2 days ago
+ 
+**** vanir:device_oneplus_oneplus2 ****
+97773bc : Revert "modules: Add core ctl" <Willi Ye> 3 days ago
+ee91080 : Enable OpenGLES 3.1 <Willi Ye> 3 days ago
+610fd4d : Build libstlport <Willi Ye> 2 weeks ago
+f758e99 : Remove deprecated mkboot.img <Willi Ye> 2 weeks ago
+1b32bad : add media_codecs_performance.xml <Willi Ye> 2 weeks ago
+a784889 : remove persist.sys.usb.config override <Nick Kralevich> 6 months ago
+4f25de6 : USB init from stock <Willi Ye> 2 weeks ago
+1b8b79b : torch_gesture: Use Android M setTorch instead of TorchManager <Keith Mok> 4 weeks ago
+cb9925c : keyhandler: Remove double tap <Willi Ye> 3 weeks ago
+936090b : oneplus2: Support for native tap-to-wake <Steve Kondik> 4 weeks ago
+24babe3 : wifi: Update wcnss files <Willi Ye> 3 weeks ago
+77f8e62 : Remove unsupported overlays <Willi Ye> 6 weeks ago
+0b475de : oneplus2: Fire up all 8 cores on boot <Rashed Abdel-Tawab> 4 months ago
+8a839ac : oneplus2: media_profiles: Checkout from CAF upstream <Rashed Abdel-Tawab> 4 weeks ago
+55a1ee3 : oneplus2: remove video editor from media_profiles.xml <Chong Zhang> 6 months ago
+fe095c5 : oneplus2: media_codecs: Checkout from CAF upstream <Rashed Abdel-Tawab> 5 weeks ago
+f24f850 : audio: remove evrc and qcelp encoders <Fred Oh> 10 weeks ago
+9a105f2 : Remove libOpenCL <Willi Ye> 3 weeks ago
+6e28c20 : oneplus2: Build the BoringSSL compatibility wrapper <Rashed Abdel-Tawab> 5 weeks ago
+ef80850 : oneplus2: Fix the recovery build <Luca Stefani> 4 weeks ago
+07ad93c : Don't build camera hal <Willi Ye> 3 weeks ago
+611be5f : Remove sepolicy completely <Willi Ye> 3 weeks ago
+59e9133 : wcnss: Missing header <Willi Ye> 3 weeks ago
+8d63f7f : gps: Remove unsupported delete constants * Missing headers <Willi Ye> 3 weeks ago
+d177d6f : oneplus2: Define USE_CUSTOM_AUDIO_POLICY <Rashed Abdel-Tawab> 4 weeks ago
+be406c2 : Build init as cpp <Willi Ye> 3 weeks ago
+c2fddce : Setup ownership and permissions on display primary and external nodes. <Naseer Ahmed> 4 months ago
+6b9474e : audio: Add appropriate permission for avtimer driver <Shiv Maliyappanahalli> 9 months ago
+31dd43b : audio: enable compilation of OMX FLAC SW Decoder library <Narsinga Rao Chella> 6 months ago
+1925ae5 : oneplus2: adding compilation of libextmedia_jni & libqcmediaplayer <Manikanta Sivapala> 3 months ago
+e9ab4a1 : oneplus2: Disable deprecated audio features <Rashed Abdel-Tawab> 5 weeks ago
+631ae15 : oneplus2: Updated external storage configuration <Jeff Sharkey> 8 months ago
+62e8aa5 : oneplus2: remove deprecated storage_list.xml <Jeff Sharkey> 8 months ago
+68a5800 : Remove deprecated OTG prop <Willi Ye> 6 weeks ago
+a239dcb : Only run wfdservice when it's enabled <Willi Ye> 3 weeks ago
+1d2845f : Kang sepolicy from oppo msm8939 <Willi Ye> 3 weeks ago
+06addef : keyhandler: Don't vibrate after booting up <Willi Ye> 3 weeks ago
+93db5e8 : Fix gesture haptic feedback setting. <Danny Baumann> 3 weeks ago
+d9f010e : ConfigPanel: add haptic feedback when detecting gestures <Evisceration> 4 months ago
+effe630 : Alphabetize blobs list <Willi Ye> 3 weeks ago
+caea8c2 : Remove unused charger images <Willi Ye> 3 weeks ago
+308c216 : Remove useless camera flags <Willi Ye> 3 weeks ago
+ebc9605 : Reduce gps debug level and move gps files <Willi Ye> 3 weeks ago
+dc2c2f7 : Clean ueventd <Willi Ye> 3 weeks ago
+179e09d : Remove atfwd service <Willi Ye> 3 weeks ago
+06dd612 : Don't start RIDL <Willi Ye> 3 weeks ago
+ba20fa2 : Always use bfq scheduler <Willi Ye> 3 weeks ago
+d4af399 : Add back comments to mixer path and clean up <Willi Ye> 3 weeks ago
+76bdd05 : Missing wifi things <Willi Ye> 4 weeks ago
+8080a59 : Clean up fingerprint blobs <Willi Ye> 5 weeks ago
+ 
+**** vanir:device_qcom_common ****
+783060a : power: enable perf options for power bias <Scott Mertz> 3 weeks ago
+ 
+**** vanir:device_qcom_sepolicy ****
+7e04dd0 : sepolicy: resolve 'init' and 'perfd' access violations <Matt Wagantall> 9 hours ago
+ 
+**** vanir:device_samsung_jf-common ****
+4ff12eb : [WIP] sepolicy: bringup for M <Dan Pasanen> 3 weeks ago
+ 
+**** vanir:device_samsung_klte-common ****
+c3080dd : Revert "klte-common: Stop using custom mkbootimg" <Ethan Chen> 5 hours ago
+323a99e : klte-common: Update SELinux policy <Ethan Chen> 28 hours ago
+ 
+**** vanir:device_samsung_smdk4412-qcom-common ****
+47efff9 : RIL: add acceptCall method <ljzyal> 4 months ago
+b8fd12c : RIL: update parcel reading for responseCallList <Mattia D'Alleva> 2 weeks ago
+97fda16 : RIL: update emergency dial <Mattia D'Alleva> 3 weeks ago
+9c3aebc : ril: update constructors for M <Mattia D'Alleva> 3 weeks ago
+f4b15eb : ril: Add missing instanceId in overloaded methods <Arne Coucheron> 3 weeks ago
+8e37a60 : Kang ril updates from jf <rogersb11> 3 weeks ago
+ 
+**** cm:CyanogenMod/android_external_f2fs-tools ****
+cd59e93 : f2fs-tools: release 1.5.0 <Jaegeuk Kim> 13 days ago
+406831f : fsck.f2fs: support a preen mode <Jaegeuk Kim> 4 weeks ago
+ee5c82f : mkfs.f2fs: support <1% overprovision ratio <Jaegeuk Kim> 8 weeks ago
+1818815 : fsck.f2fs: check sit types for node or data only <Jaegeuk Kim> 8 weeks ago
+8fa1eba : man: fix missing description for overprovision ratio <Jaegeuk Kim> 8 weeks ago
+714e151 : mkfs.f2fs: fix wrong ovp space calculation on large section <Jaegeuk Kim> 8 weeks ago
+e45bfe0 : mkfs.f2fs: don't need to limit MIN_VOLUME SIZE <Jaegeuk Kim> 3 months ago
+cceeb01 : mkfs.f2fs: set overprovision size more precisely <Jaegeuk Kim> 3 months ago
+197e356 : mkfs.f2fs: fix wrong documentation <Jaegeuk Kim> 3 months ago
+7d6b67c : fsck.f2fs: add segment type in sit_dump <Yunlei He> 4 months ago
+2dd3654 : fsck.f2fs: drop extent_info to avoid potential wrong access <Jaegeuk Kim> 5 months ago
+8913b3f : fsck.f2fs: select to update the latest valid summary <Jaegeuk Kim> 5 months ago
+7f5b149 : fsck.f2fs: add hash conversion for encrypted dentries <Jaegeuk Kim> 7 months ago
+0a8be43 : fsck.f2fs: avoid build warning <Jaegeuk Kim> 7 months ago
+568685d : dump.f2fs: show i_advise field in inode <Jaegeuk Kim> 7 months ago
+d650505 : fsck.f2fs: show superblock features and encryption info <Jaegeuk Kim> 7 months ago
+cfb553c : mkfs.f2fs: set encryption feature <Jaegeuk Kim> 7 months ago
+8829070 : fsck.f2fs: show ckeckpoint version info <Jaegeuk Kim> 7 months ago
+dfc3146 : Revert "mkfs.f2fs: 512 UTF-16 characters for label" <Jaegeuk Kim> 8 months ago
+c8d52b6 : fsck.f2fs: fix orphan inode's link count <Jaegeuk Kim> 8 months ago
+41a5f4e : fsck.f2fs: fix missing dentries <Jaegeuk Kim> 8 months ago
+252ec1b : fsck.f2fs: clean up child information <Jaegeuk Kim> 8 months ago
+bbd9495 : fsck.f2fs: fix missing i_links <Jaegeuk Kim> 8 months ago
+3d47578 : fsck.f2fs: count child directories correctly for i_links <Jaegeuk Kim> 8 months ago
+89e4a16 : fsck.f2fs: fix corrupted dentries <Jaegeuk Kim> 8 months ago
+3d94bd9 : fsck.f2fs: fix summary block <Jaegeuk Kim> 8 months ago
+56800db : fsck.f2fs: return summary block pointer and types <Jaegeuk Kim> 8 months ago
+7e5acfb : fsck.f2fs: preserve orphan blocks <Jaegeuk Kim> 8 months ago
+e62048a : fsck.f2fs: skip block count fix when i_links is fixed <Jaegeuk Kim> 8 months ago
+1fee1ba : fsck.f2fs: fix inodes having wrong i_links <Jaegeuk Kim> 8 months ago
+b329b98 : fsck.f2fs: check file types <Jaegeuk Kim> 8 months ago
+777f83e : fsck.f2fs: remove inconsistent named directories <Jaegeuk Kim> 8 months ago
+f2753af : fsck.f2fs: reduce redundant message <Jaegeuk Kim> 8 months ago
+d41753a : mkfs.f2fs: 512 UTF-16 characters for label <Jaegeuk Kim> 8 months ago
+cb7759d : mkfs.f2fs: add quite mode, -q <Jaegeuk Kim> 8 months ago
+04ce1d8 : fsck.f2fs: show total sectors consumed by filesystem <Jaegeuk Kim> 8 months ago
+70900ef : fsck.f2fs: show cp_state for fsck.f2fs <Jaegeuk Kim> 8 months ago
+95916d8 : mkfs.f2fs: show bytes for total_sectors <Jaegeuk Kim> 8 months ago
+ab92a2b : configure: add check for fallocate <Gustavo Zacarias> 8 months ago
+ebf25ff : f2fs-tools: fix build system to make distcheck correctly <Anthony G. Basile> 9 months ago
+ 
+**** cm:CyanogenMod/android_external_toybox ****
+ad39863 : toybox: Regenerate files for Android build <Steve Kondik> 5 hours ago
+716fb9c : Add a new "resize" command <Steve Kondik> 5 hours ago
+ 
+**** vanir:frameworks_av ****
+980a04a : Fix setTorchMode support for the old HAL version <Oleksiy Avramchenko> 9 weeks ago
+ 
+**** vanir:frameworks_base ****
+5a9d201 : SettingsProvider : Add missing platform sdk dependency <Danesh M> 23 hours ago
+177218b : settings: Implicitly use CMSettings for legacy settings <d34d> 33 hours ago
+c4caff6 : settings: Allow accessing CMSettings via settings command <d34d> 3 days ago
+cec65f2 : SettingsBackupAgent : Filter out cm settings on restoration <Danesh M> 2 days ago
+0df7e34 : SystemUI: Fix FC when holding home button down <Danesh M> 2 days ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_audio ****
+7cc4db8 : add line out to device sharing codec backend <Eric Laurent> 11 months ago
+ca8aa5a : hal: updates for DEVICE_OUT_LINE <Eric Laurent> 1 year, 2 months ago
+da3fea8 : hal: Add support for AUDIO_DEVICE_OUT_LINE <Eric Laurent> 1 year, 4 months ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_display ****
+f7edeae : libcopybit: do not use GNU old-style field designators <synergydev> 2 years, 1 month ago
+ 
+**** cmold:android_kernel_google_msm ****
+4997d6e : lowmemorykiller: avoid false adaptive LMK triggers <Vinayak Menon> 3 months ago
+3da4a63 : lowmemorykiller: adapt to vmpressure <Vinayak Menon> 9 months ago
+b572ad0 : lowmemorykiller: Do proper NULL checks <Susheel Khiani> 9 months ago
+5e9082d : lowmemorykiller: Run the lowmemory notifier when killing <Laura Abbott> 1 year, 2 months ago
+88d4d3b : lowmemorykiller: Dump out slab state information <Laura Abbott> 1 year, 2 months ago
+487bbf1 : lowmemorykiller: use for_each_thread instead of buggy while_each_thread <Vinayak Menon> 6 months ago
+4021247 : lowmemorykiller: Don't count swap cache pages twice <Liam Mark> 9 months ago
+52a0e17 : mm: vmpressure: fix backport <Dave Daynard> 9 weeks ago
+5740bfc : mm: vmpressure: account allocstalls only on higher pressures <Vinayak Menon> 3 months ago
+5ee78d5 : mm: vmpressure: scale pressure based on reclaim context <Vinayak Menon> 8 months ago
+ff8d2fa : mm: Add notifier framework for showing memory <Laura Abbott> 1 year, 2 months ago
+7b7c054 : mm: vmpressure: allow in-kernel clients to subscribe for events <Vinayak Menon> 9 months ago
+251afe8 : memcg: add memory.pressure_level events <Anton Vorontsov> 2 years, 7 months ago
+d6b7b4e : wlan: Address buffer overflow due to invalid length <Mahesh A Saptasagar> 3 weeks ago
+40350d5 : net: add length argument to skb_copy_and_csum_datagram_iovec <Sabrina Dubroca> 5 weeks ago
+b2c8a0a : flo: switch to default interactive <Dave Daynard> 4 weeks ago
+5a01493 : flo: enable bridge, turn off devkmem <Dave Daynard> 4 weeks ago
+c843c46 : Mako : update defconfig <Abhisek Devkota> 5 weeks ago
+756eea7 : flo: regenerate defconfig <Dave Daynard> 5 weeks ago
+cec731b : google_msm: Update Defconfig after MM merge <doc HD> 5 weeks ago
+631719c : kernel/hz.bc: ignore. <Rusty Russell> 2 years, 7 months ago
+b55e7a9 : kernel: Replace timeconst.pl with a bc script <H. Peter Anvin> 2 years, 9 months ago
+5b4778c : Revert "Perf: Fix the condition to toggle PMU IRQ when CPUs are hotplugged." <Dave Daynard> 5 weeks ago
+a5a4133 : msm: display: remove warning messages for bandwidth calculation <Naseer Ahmed> 2 years, 2 months ago
+3bcea4e : msm: kgsl: Increase the wait timeout for context detachment <Harshdeep Dhatt> 4 months ago
+ab98584 : ipv6: sysctl to restrict candidate source addresses <Erik Kline> 4 months ago
+edee5ca : prima: release v3.2.3.23 <Thierry Strudel> 4 months ago
+381ca1f : proc: Allow proc_free_inum to be called from any context <Eric W. Biederman> 2 years, 11 months ago
+60e6a98 : proc: Usable inode numbers for the namespace file descriptors. <Eric W. Biederman> 4 years, 5 months ago
+dadd033 : proc: Fix the namespace inode permission checks. <Eric W. Biederman> 4 years, 5 months ago
+75140a9 : proc: Generalize proc inode allocation <Eric W. Biederman> 4 years, 5 months ago
+5fe7ef9 : vfs: Allow unprivileged manipulation of the mount namespace. <Eric W. Biederman> 3 years, 4 months ago
+38d441b : vfs: Only support slave subtrees across different user namespaces <Eric W. Biederman> 3 years, 4 months ago
+6f52736 : vfs: Add a user namespace reference from struct mnt_namespace <Eric W. Biederman> 3 years, 4 months ago
+cd0ed7c : vfs: Add setns support for the mount namespace <Eric W. Biederman> 6 years ago
+5f453c9 : consitify do_mount() arguments <Al Viro> 3 years, 1 month ago
+57e87fa : do_add_mount()/umount -l races <Al Viro> 3 years, 2 months ago
+32d9bbb : fs: introduce inode operation ->update_time <Josef Bacik> 3 years, 8 months ago
+a6e63b0 : VFS: Comment mount following code <David Howells> 3 years, 5 months ago
+4270022 : VFS: Make clone_mnt()/copy_tree()/collect_mounts() return errors <David Howells> 3 years, 5 months ago
+ba25d8c : get rid of magic in proc_namespace.c <Al Viro> 3 years, 5 months ago
+0c0d145 : get rid of ->mnt_longterm <Al Viro> 3 years, 5 months ago
+6855270 : vfs: umount_tree() might be called on subtree that had never made it <Al Viro> 3 years, 6 months ago
+f875ea3 : brlocks/lglocks: API cleanups <Andi Kleen> 3 years, 6 months ago
+3e8176d : brlocks/lglocks: turn into functions <Andi Kleen> 3 years, 6 months ago
+fcb98c4 : lglock: remove online variants of lock <Rusty Russell> 3 years, 6 months ago
+a9c44d5 : Revert "vfs: umount_tree() might be called on subtree that had never made it" <Thierry Strudel> 4 months ago
+0f7aa3c : Revert "get rid of ->mnt_longterm" <Thierry Strudel> 4 months ago
+f06badf : msm_vidc: Fix for DRC in Adative Mode <Shivaprasad Hongal> 5 months ago
+14de53c : arm/configs: flo: add CONFIG_NF, savedefconfig <Patrick Tjin> 4 months ago
+ 
+**** vanir:kernel_lge_hammerhead ****
+aa64de8 : ion: Add ion_user_handle_t to make userspace happy <myfluxi> 5 weeks ago
+7c747e1 : defconfig: make savedefconfig <myfluxi> 6 weeks ago
+e2940b6 : Revert "ASoC: msm: Add 24 bit support to Primary MI2S TX" <myfluxi> 7 weeks ago
+2aa165e : hammerhead: Enable RPM master stats <Naveen Ramaraj> 3 months ago
+492cffa : ARM:dts:msm: Add MSM8974v2 DT support for RPM master stats driver <Naveen Ramaraj> 3 months ago
+895c9b5 : ARM: dts: msm: Add MSM8974v1 DT support for RPM master stats driver <Naveen Ramaraj> 3 months ago
+fff168b : msm: rpm_master_stats: Add DT support for rpm master stat driver <Naveen Ramaraj> 3 months ago
+9635f39 : msm: rpm-master-stat: Modify RPM master stats platform data <Naveen Ramaraj> 3 months ago
+42fe48d : net: wireless: bcmdhd: Added wake dump counters <Ashwin> 4 months ago
+9f27dc0 : wakeup_reason: use vsnprintf instead of snprintf for vargs. <Ruchi Kandoi> 4 months ago
+b6c0298 : msm: vidc: add check for handling release buffer in dynamic buffer mode <Praveen Chavan> 5 months ago
+20dcde6 : uid_cputime: Iterates over all the threads instead of processes. <Ruchi Kandoi> 4 months ago
+4839012 : USB: u_ether: Set complete handler before queueing to endpoint <Naveen Ramaraj> 4 months ago
+e10c25e : msm: kgsl: Increase the wait timeout for context detachment <Harshdeep Dhatt> 4 months ago
+b06845b : ipv6: sysctl to restrict candidate source addresses <Erik Kline> 4 months ago
+70b9045 : msm: vidc: Change in input buffer size calculation <Arun Menon> 2 years, 2 months ago
+0e4450f : net: wireless: bcmdhd: HAL wifi stats interface change <Chilam Ng> 4 months ago
+73f7982 : uid_cputime: fix cputime overflow <Jin Qian> 4 months ago
+c0084a0 : Revert "uid_cputime: fix overflow when printing cputime" <Thierry Strudel> 4 months ago
+aeeff0a : uid_cputime: fix overflow when printing cputime <Jin Qian> 4 months ago
+7886618 : proc: Allow proc_free_inum to be called from any context <Eric W. Biederman> 2 years, 11 months ago
+a4c5c49 : proc: Usable inode numbers for the namespace file descriptors. <Eric W. Biederman> 4 years, 5 months ago
+198fceb : proc: Fix the namespace inode permission checks. <Eric W. Biederman> 4 years, 5 months ago
+40445fb : proc: Generalize proc inode allocation <Eric W. Biederman> 4 years, 5 months ago
+6dcd6ba : vfs: Allow unprivileged manipulation of the mount namespace. <Eric W. Biederman> 3 years, 4 months ago
+2a3094c : vfs: Only support slave subtrees across different user namespaces <Eric W. Biederman> 3 years, 4 months ago
+5e5aa6a : vfs: Add a user namespace reference from struct mnt_namespace <Eric W. Biederman> 3 years, 4 months ago
+85a230f : vfs: Add setns support for the mount namespace <Eric W. Biederman> 6 years ago
+d45b3c9 : consitify do_mount() arguments <Al Viro> 3 years, 1 month ago
+ec40f83 : do_add_mount()/umount -l races <Al Viro> 3 years, 2 months ago
+3b190b2 : fs: introduce inode operation ->update_time <Josef Bacik> 3 years, 8 months ago
+a198fdc : VFS: Comment mount following code <David Howells> 3 years, 5 months ago
+7bb7b82 : VFS: Make clone_mnt()/copy_tree()/collect_mounts() return errors <David Howells> 3 years, 5 months ago
+8e7be23 : get rid of magic in proc_namespace.c <Al Viro> 3 years, 5 months ago
+a7f6f46 : get rid of ->mnt_longterm <Al Viro> 3 years, 5 months ago
+239fe7a : vfs: umount_tree() might be called on subtree that had never made it <Al Viro> 3 years, 6 months ago
+d8388af : brlocks/lglocks: API cleanups <Andi Kleen> 3 years, 6 months ago
+b8d7237 : brlocks/lglocks: turn into functions <Andi Kleen> 3 years, 6 months ago
+4e36b27 : lglock: remove online variants of lock <Rusty Russell> 3 years, 6 months ago
+fa39d99 : Revert "vfs: umount_tree() might be called on subtree that had never made it" <Thierry Strudel> 4 months ago
+1bb9bf4 : Revert "get rid of ->mnt_longterm" <Thierry Strudel> 4 months ago
+79eeca6 : msm: vidc: add support to enable operating rate <Praveen Chavan> 5 months ago
+2e44528 : net: wireless: bcmdhd: changed link stats response to match HAL <Chilam Ng> 4 months ago
+b5bc738 : net: wireless: bcmdhd: Merge fixes for gscan from N6 branch <Ashwin> 4 months ago
+c26731b : net: wireless: bcmdhd: Fix counts for max APs supported for batch gscan <Ashwin> 4 months ago
+e0fd828 : USB: gadget: midi: alloc wMaxPacketSize to buffer length <jude84.kim> 5 months ago
+77ee5ad : arm/configs: add NFLOG to hammerhead_defconfig <Patrick Tjin> 5 months ago
+51a8b44 : cpu_power: Avoids race condition when the task exits. <Ruchi Kandoi> 5 months ago
+42ec528 : uid_cputime: Fixes double accounting race condition on task exit. <Ruchi Kandoi> 5 months ago
+d729dc0 : msm:camera:isp: fix array index bound checks <Patrick Tjin> 5 months ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+dd206c6 : Revert "Add bullshit device tree stubs." <Ethan Chen> 4 days ago
+386bf08 : g2_defconfig: Enable CONFIG_UID_CPUTIME <Rashed Abdel-Tawab> 5 weeks ago
+587071fd : msm: vidc: add driver support to enable operating rate <Ashray Kulkarni> 7 months ago
+1336632 : msm: vidc: Enable session priority support. <Ashray Kulkarni> 7 months ago
+04da7b2 : ALSA: compress: add num_sample_rates in snd_codec_desc <Eric Laurent> 1 year, 10 months ago
+dce791c : ALSA: compress: update struct snd_codec_desc for sample rate <Eric Laurent> 1 year, 10 months ago
+85e469f : ALSA: compress: update comment for sample rate in snd_codec <Eric Laurent> 1 year, 10 months ago
+cd9d4bb : ALSA: compress: remove the sample rate check <Vinod Koul> 1 year, 10 months ago
+32278c9 : ALSA: compress: change the way sample rates are sent to kernel <Eric Laurent> 1 year, 10 months ago
+7957a69 : ASoC: msm: qdsp6v2: Fix invalid num_codecs <Christopher R. Palmer> 10 months ago
+a7b83df : SoC: msm: qdsp6v2: Enable gapless for pcm offload <Chaithanya Krishna Bacharaju> 4 months ago
+bec64ce : ASoC: msm: qdsp6v2: fix incomplete playback issue for non-gapless formats <Dhananjay Kumar> 6 months ago
+c138030 : ASoC: msm: qdsp6v2: add error handling on write done during partial drain <Preetam Singh Ranawat> 6 months ago
+5cceb6e : ASoC: msm: qdsp6v2: Fix timestamp query during gapless transition <Haynes Mathew George> 12 months ago
+5319b4c : ASoC: msm: qdsp6v2: Fix asm bitwidth for next track in gapless mode (fix) <Steve Kondik> 10 months ago
+60c2155 : ASoC: msm: qdsp6v2: Add FLAC in compress offload path <Apurupa Pattapu> 1 year, 6 months ago
+bf6c663 : ASoC: msm: Add support for WMA DSP decode <Manish Dewangan> 2 years, 1 month ago
+9865fe3 : ASoC: Backout LG's HIFI_SOUND garbage <Rashed Abdel-Tawab> 4 weeks ago
+be58859 : ASoC: msm: Add MP2 decode support in compress driver <Dhananjay Kumar> 2 years ago
+9146507 : ASoC: qdsp6: Add MP2 decoder format support <Dhananjay Kumar> 1 year, 11 months ago
+7d7fe83 : ASoC: msm: qdsp6v2: fix callback handling of removing silence cmds <Fred Oh> 10 months ago
+ff7f3d7 : ASoC: msm: Support multi channel volume in compressed driver <Haynes Mathew George> 12 months ago
+06cd475 : ASoC: msm: qdsp6v2: add support for any number of ASM buffers <Banajit Goswami> 10 months ago
+47f03ee : cpu_power: Avoids race condition when the task exits. <Ruchi Kandoi> 5 months ago
+9f3d4b2 : sched: cpufreq: Adds a field cpu_power in the task_struct <Ruchi Kandoi> 7 months ago
+f89d0ac : cpufreq_stats: Adds the fucntionality to load current values for each frequency for all the cores. <Ruchi Kandoi> 7 months ago
+de21637 : cpufreq: prevents NULL pointer reference while all_time_in_state stats is collected. <Ruchi Kandoi> 1 year, 7 months ago
+51ce840 : cpufreq: fix sleeping in atomic context when realloc freq_table for all_time_in_state <Minsung Kim> 1 year, 5 months ago
+f9d74cd : cpufreq: Persist cpufreq time in state data across hotplug <Ruchi Kandoi> 1 year, 8 months ago
+2247aa2 : hashtable: introduce a small and naive hashtable <Sasha Levin> 3 years, 1 month ago
+390d1d7 : uid_cputime: Iterates over all the threads instead of processes. <Ruchi Kandoi> 4 months ago
+efca4f9 : uid_cputime: fix cputime overflow <Jin Qian> 4 months ago
+e854d61 : uid_cputime: Fixes double accounting race condition on task exit. <Ruchi Kandoi> 5 months ago
+6c7181c : uid_cputime: Extends the cputime functionality to report power per uid <Ruchi Kandoi> 7 months ago
+838a6b2 : proc: uid_cputime: fix show_uid_stat permission <Jin Qian> 6 months ago
+264d993 : proc: uid: Changes the thread notifier to profile event notifier. <Ruchi Kandoi> 8 months ago
+27b86eb : proc: uid: Adds accounting for the cputimes per uid. <jinqian> 8 months ago
+6d72554 : proc: Allow proc_free_inum to be called from any context <Eric W. Biederman> 2 years, 11 months ago
+102430f : proc: Usable inode numbers for the namespace file descriptors. <Eric W. Biederman> 4 years, 5 months ago
+a303cee : proc: Fix the namespace inode permission checks. <Eric W. Biederman> 4 years, 5 months ago
+4e9752b : proc: Generalize proc inode allocation <Eric W. Biederman> 4 years, 5 months ago
+231ebb9 : vfs: Allow unprivileged manipulation of the mount namespace. <Eric W. Biederman> 3 years, 4 months ago
+c53c6a8 : vfs: Only support slave subtrees across different user namespaces <Eric W. Biederman> 3 years, 4 months ago
+6e09d9f : vfs: Add a user namespace reference from struct mnt_namespace <Eric W. Biederman> 3 years, 4 months ago
+d120be7 : vfs: Add setns support for the mount namespace <Eric W. Biederman> 6 years ago
+9dac858 : consitify do_mount() arguments <Al Viro> 3 years, 1 month ago
+d529a9b : do_add_mount()/umount -l races <Al Viro> 3 years, 2 months ago
+5ee328c : fs: introduce inode operation ->update_time <Josef Bacik> 3 years, 8 months ago
+fc78fdd : VFS: Comment mount following code <David Howells> 3 years, 5 months ago
+8269e15 : VFS: Make clone_mnt()/copy_tree()/collect_mounts() return errors <David Howells> 3 years, 5 months ago
+ 
+**** vanir:kernel_moto_shamu ****
+86cdbc0 : mdss_mdp_overlay: Change the syfs node from hbm to sre <dhacker29> 11 days ago
+765b475 : msm: vidc: Allow clients to specify/query the colorspace <Praveen Chavan> 6 weeks ago
+7f4ea2b : Indicate in LOCALVERSION that this kernel is patched for MultiROM Manager, which is of benefit to-be-determined <nuclearmistake> 6 months ago
+6b1c92a : Enable kexec-hardboot in shamu_defconfig <Vojtech Bocek> 8 months ago
+47ef0bf : Implement kexec-hardboot <Vojtech Bocek> 9 months ago
+0662da0 : branding <nuclearmistake> 10 months ago
+dc7a30f : Wno a forbidden warning <nuclearmistake> 11 months ago
+9b38586 : video: mdss: Color temperature interface using PCC <Steve Kondik> 9 months ago
+5958ef1 : drv2605: vibe strength control <imoseyon> 10 months ago
+51e3f9b : shamu_defconfig: Enable F2FS_FS_SECURITY F2FS_CHECK_FS <dhacker29> 10 months ago
+ec12ee3 : f2fs: support 3.10 <Jaegeuk Kim> 6 months ago
+c710711 : f2fs: Merge jaegeuk branch to ce604b84c4f5b80e4c987928a218e59a86889a20 <dhacker29> 5 weeks ago
+bbe3eb1 : shamu: Update defconfig <Steve Kondik> 7 weeks ago
+a96d6f5 : shamu_defconfig: regenerate full config <dhacker29> 5 weeks ago
+c99c3c3 : block, bfq: add Early Queue Merge (EQM) to BFQ-v7r8 for 3.10.8+ <Mauro Andreolini> 6 months ago
+6a82acb : block: introduce the BFQ-v7r8 I/O sched for 3.10.8+ <Paolo Valente> 2 years, 6 months ago
+9d38cd4 : block: cgroups, kconfig, build bits for BFQ-v7r8-3.10.8+ <Arianna Avanzini> 1 year, 10 months ago
+60cb80b : fs: take i_mutex during prepare_binprm for set[ug]id executables <Jann Horn> 7 months ago
+c52d466 : net: llc: use correct size for sysctl timeout entries <Sasha Levin> 10 months ago
+eeadb1f : netfilter: nf_conntrack: reserve two bytes for nf_ct_ext->len <Andrey Vagin> 1 year, 8 months ago
+94d1714 : udp: fix behavior of wrong checksums <Eric Dumazet> 6 months ago
+63e174f : ipv6: Don't reduce hop limit for an interface <D.S. Ljungmark> 8 months ago
+ebcc879 : mm: Fix NULL pointer dereference in madvise(MADV_WILLNEED) support <Kirill A. Shutemov> 1 year, 11 months ago
+20f2c22 : vfs: read file_handle only once in handle_to_path <Sasha Levin> 10 months ago
+58172c0 : mnt: Prevent pivot_root from creating a loop in the mount tree <Eric W. Biederman> 1 year, 1 month ago
+c928dc9 : mnt: Only change user settable mount flags in remount <Eric W. Biederman> 1 year, 4 months ago
+5a7938e : netfilter: conntrack: disable generic tracking for known protocols <Florian Westphal> 1 year, 2 months ago
+48cae8c : eCryptfs: Remove buggy and unnecessary write in file name decode routine <Michael Halcrow> 12 months ago
+03d0a2f : ipv4: try to cache dst_entries which would cause a redirect <Hannes Frederic Sowa> 10 months ago
+25d0ce3 : KEYS: close race between key lookup and freeing <Sasha Levin> 11 months ago
+12590ab : tracing/syscalls: Ignore numbers outside NR_syscalls' range <Rabin Vincent> 1 year, 1 month ago
+f43aef0 : ipv4: try to cache dst_entries which would cause a redirect <Hannes Frederic Sowa> 10 months ago
+19478f8 : tools/include: use stdint types for user-space byteshift headers <Yaakov Selkowitz> 2 years, 5 months ago
+e42477a : net: wireless: bcmdhd: Check if FW is up during SAR setup <Ashwin> 3 months ago
+9ead725 : net: wireless: bcmdhd: Fix crash when trying to get FW memdump <Ashwin> 3 months ago
+0da6f12 : net: wireless: bcmdhd: Correctly tag ch144 as DFS <Ashwin> 3 months ago
+be9e7b5 : Fix for wrong sequence call, set_fs <Jerry Lee> 3 months ago
+eacfb74 : net: wireless: bcmdhd: Enable auto recovery on FW hang <Ashwin> 3 months ago
+99d6568 : net: wireless: bcmdhd: Fix compilation for sdio driver <Dmitry Shmidt> 3 months ago
+45835aa : Add a build file and a defconfig for net_test. <Lorenzo Colitti> 3 months ago
+7828344 : Don't call acct_update_power on ARCH=um. <Lorenzo Colitti> 3 months ago
+158ad3f : net: wireless: bcmdhd change the DTIM MAX to 600 <Sasha Levitskiy> 3 months ago
+5317c1f : P2P: GO NOA set fail due to wrong action set <Ecco park> 4 months ago
+5b3730c : wakeup_reason: use vsnprintf instead of snprintf for vargs. <Ruchi Kandoi> 4 months ago
+20620f0 : net: wireless: bcmdhd: fix for PICe DPM timeout error <Insun Song> 4 months ago
+d0d0ed0 : net: wireless: bcmdhd: prioritize 802.1x pkt <Ecco Park> 4 months ago
+7c882a9 : net: wireless: bcmdhd change the DTIM skip policy <Ecco Park> 4 months ago
+52e2431 : arm/dts: shamu: Enable Empty Learning feature. <Ravi Vembu> 4 months ago
+35ef140 : uid_cputime: Iterates over all the threads instead of processes. <Ruchi Kandoi> 4 months ago
+0d57c99 : usb: misc: Do not change autosuspend delay time for DCI <Dheeraj Shetty> 4 months ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+e1f564f : wlan: Address buffer overflow due to invalid length <Mahesh A Saptasagar> 3 weeks ago
+71a69db : ARM: 8160/1: drop warning about return_address not using unwind tables <Uwe Kleine-König> 1 year, 2 months ago
+646fe82 : net: add length argument to skb_copy_and_csum_datagram_iovec <Sabrina Dubroca> 5 weeks ago
+a24e4bb : Slim_ngd: Don't create the device node per SSR <Kiran Gunda> 1 year, 8 months ago
+a9c6a92 : ASoC: msm: qdsp6v2: add support for any number of ASM buffers <Banajit Goswami> 10 months ago
+1a4c122 : tcp_cubic: do not set epoch_start in the future <Eric Dumazet> 9 weeks ago
+7ffcb10 : tcp_cubic: better follow cubic curve after idle period <Eric Dumazet> 2 months ago
+ 
+**** cmold:android_kernel_oneplus_msm8974 ****
+bc9ec6e : Revert "android: binder: enable preempt when calling mmput" <Steve Kondik> 6 hours ago
+0f340c5 : sched: do not use cpu_to_node() to find an offlined cpu's node. <Tang Chen> 2 years, 9 months ago
+2d63c2a : sched: Remove __ARCH_WANT_INTERRUPTS_ON_CTXSW <Peter Zijlstra> 3 years, 2 months ago
+64fd0a0 : android: binder: enable preempt when calling mmput <Patrick Tjin> 6 weeks ago
+2d42f7b : android: binder: Disable preemption while holding the global binder lock. <Riley Andrews> 9 weeks ago
+7dc9fc0 : android: binder: Use wake up hint for synchronous transactions. <Riley Andrews> 3 months ago
+a347686 : wakeup_reason: use vsnprintf instead of snsprintf for vargs. <Ruchi Kandoi> 4 months ago
+eeb214e : arm: mm: Fix build when CONFIG_PID_IN_CONTEXTIDR enabled <Steve Kondik> 2 days ago
+2082ca4 : Revert more upstream backports. <Steve Kondik> 2 days ago
+fa1bee1 : block: introduce the BFQ-v7r8 I/O sched for 3.4 <Steve Kondik> 2 days ago
+2baf375 : perf: Fix more fallout from "perf: Fix race in removing an event" <Steve Kondik> 2 days ago
+f31ea89 : sched: Update rq clock before calling check_preempt_curr() <Frederic Weisbecker> 2 years, 7 months ago
+1123bbc : sched: Make dl_task_time() use task_rq_lock() <Peter Zijlstra> 9 months ago
+5c806d2 : sched: Teach scheduler to understand TASK_ON_RQ_MIGRATING state <Kirill Tkhai> 1 year, 3 months ago
+986b811 : bacon: Enable FiiO HID Quirk <Pat Erley> 2 days ago
+4e01663 : hid: Add driver for FiiO USB DAC <Pat Erley> 3 months ago
+9902850 : msm: kgsl: Add support for KGSL_CMDBATCH_MARKER <Jordan Crouse> 1 year, 6 months ago
+90824de : msm: kgsl: Remove a race condition in the event processing code <Jordan Crouse> 1 year, 8 months ago
+1ab4fec : msm: kgsl: Refactor the GPU event engine <Sunil Khatri> 3 months ago
+ef075fe : msm: kgsl: Allow memory lists along with command submission <Sunil Khatri> 4 months ago
+07955ce : msm: kgsl: Split out the context and command batch flags <Sunil Khatri> 4 months ago
+37260c2 : msm: kgsl: Wake up snoozing threads on marker expiry <Anupam Sakargayan> 9 months ago
+092069a : msm: kgsl: Disable index reg dump during snapshot <Anupam Sakargayan> 12 months ago
+dfab33a : msm: kgsl: Device mutex lock for kgsl_cmdbatch_destroy <Anupam Sakargayan> 12 months ago
+cfe1df2 : msm: kgsl: Continue if an IB couldn't be dumped in snapshot <Lynus Vaz> 1 year, 2 months ago
+19edf2b : msm: kgsl: Change drawctxt mutex to spinlock <Harshdeep Dhatt> 1 year, 1 month ago
+7c4a12f : msm: kgsl: Cleanup to align with upstream <Steve Kondik> 5 days ago
+967e6ec : ARM: 7461/1: topology: Add arch_scale_freq_power function <Vincent Guittot> 3 years, 4 months ago
+439a500 : net: msm_rmnet.h: Fix data type of flow_id in QoS header <Subash Abhinov Kasiviswanathan> 1 year, 6 months ago
+7a58a73 : msm_rmnet_bam: Do not grab non-RMNET BAM channels <Harout Hedeshian> 12 months ago
+9e8aa60 : msm_bam_rmnet: Use Probe Method for Enumerating BAM <Subash Abhinov Kasiviswanathan> 1 year, 5 months ago
+a4d780c : msm_bam_rmnet: Implement extended IOCTL's <Subash Abhinov Kasiviswanathan> 1 year, 5 months ago
+32c0945 : bacon: Update defconfig <Steve Kondik> 7 days ago
+80986f4 : net: rmnet_data: new structure for rmnet ioctls <Harout Hedeshian> 1 year, 9 months ago
+fbb1a30 : perf: fix mismerge <Andrew Bartholomew> 5 days ago
+4dd7d39 : msm: sps: Register SPS IRQ with IRQF_NO_SUSPEND flag <myfluxi> 3 months ago
+0110fd3 : bacon: Regenerate defconfig <Steve Kondik> 8 days ago
+dfa9160 : Revert "tick: Cleanup NOHZ per cpu data on cpu down" <Steve Kondik> 10 days ago
+7115207 : wlan: Address buffer overflow due to invalid length <Mahesh A Saptasagar> 3 weeks ago
+0dee6f3 : soc: qcom: rq_stats: Always show idle time left <Stephen Boyd> 12 months ago
+cd0e83b : soc: qcom: rq_stats: Pass correct cpu id to update_average_load function <Prasad Sodagudi> 12 months ago
+51e9977 : prima: Update to release LA.BF.1.1.3-00210-8x74.0 <Steve Kondik> 12 days ago
+66dce7d : ARM: 7877/1: use built-in byte swap function <Kim Phillips> 2 years ago
+e86e13a : ARM: optimize memset_io()/memcpy_fromio()/memcpy_toio() <Russell King> 7 months ago
+4ee902e : ARM: 8165/1: alignment: don't break misaligned NEON load/store <Robin Murphy> 1 year, 2 months ago
+bcbc997 : ARM: alignment: correctly decode instructions in BE8 mode. <Ben Dooks> 2 years, 4 months ago
+2d9bf43 : Revert "Revert "(SQUASHED) Revert recent kernel-common changes"" <Steve Kondik> 13 days ago
+54b3cbf : msm: camera2: cpp: Append frame buffers to the list <Iliya Varadzhakov> 2 years, 6 months ago
+2cf0bd9 : msm: cpp: Validate frame message before manipulating it <Manish Poddar> 1 year, 4 months ago
+82360ea : msm: cpp: Add dynamic clock setup <Iliya Varadzhakov> 1 year, 9 months ago
+ 
+**** github:Grarak/android_kernel_oneplus_msm8994 ****
+16e2649 : Enable core_ctl module <Ethan Chen> 11 days ago
+af80814 : qcom: core_ctl: Add core control driver <Ethan Chen> 11 days ago
+336b596 : input: synaptics: Send generic power key for double tap <Willi Ye> 3 weeks ago
+2d30634 : ASoC TFA9890: Cancel monitor work without locking mutex <Chris Fries> 1 year, 3 months ago
+bd134c2 : usb: Remove otg switch <Willi Ye> 5 weeks ago
+34619ae : module: Force load core ctl * FU OP <Willi Ye> 5 weeks ago
+0743c15 : Enable modules <Willi Ye> 5 weeks ago
+f19137f : input: fpc1020: Use global nav switch variable <Willi Ye> 6 weeks ago
+cba4fd2 : input: Rewrite disable keys on screen off logic <Willi Ye> 7 weeks ago
+073a9d3 : input: tri-state-key: Add sysfs to change order of slider <Willi Ye> 7 weeks ago
+eda8059 : input: synaptics: Log detected gesture <Willi Ye> 8 weeks ago
+0261df9 : input: synaptics: Return integer for key reverse <Willi Ye> 8 weeks ago
+3ff1db2 : input: synaptics: Create proc file for each gesture <Willi Ye> 8 weeks ago
+c235bc1 : input: synaptics: s3320: Rename input device <Willi Ye> 8 weeks ago
+69a38a2 : input: Turn off hw buttons when display is off <Willi Ye> 8 weeks ago
+25a0278 : input: synaptics: Rename input device <Willi Ye> 8 weeks ago
+e712e1a : tri-state-key: Act as a normal input device <Willi Ye> 8 weeks ago
+d480736 : input: Disable all buttons when turning on navbar <Willi Ye> 9 weeks ago
+e594df8 : qpnp-haptic: Add sysfs interface to control intensity <Willi Ye> 10 weeks ago
+dedd65f : Enable f2fs <Willi Ye> 10 weeks ago
+0fb275d : f2fs: support 3.10 <Jaegeuk Kim> 7 months ago
+49481fa : f2fs: pass checkpoint reason on roll-forward recovery <Jaegeuk Kim> 7 months ago
+aec9b10 : f2fs: avoid abnormal behavior on broken symlink <Jaegeuk Kim> 7 months ago
+b9825ff : f2fs: flush symlink path to avoid broken symlink after POR <Jaegeuk Kim> 7 months ago
+55e8742 : f2fs: change 0 to false for bool type <Taehee Yoo> 7 months ago
+88a2d7d : f2fs: do not recover wrong data index <Jaegeuk Kim> 8 months ago
+8d533ad : f2fs: do not increase link count during recovery <Jaegeuk Kim> 8 months ago
+96ce036 : f2fs: assign parent's i_mode for empty dir <Jaegeuk Kim> 8 months ago
+5099602 : f2fs: add F2FS_INLINE_DOTS to recover missing dot dentries <Jaegeuk Kim> 8 months ago
+81015f1 : f2fs: fix mismatching lock and unlock pages for roll-forward recovery <Jaegeuk Kim> 8 months ago
+0ad4c0e : f2fs: fix sparse warnings <Jaegeuk Kim> 8 months ago
+7f10456 : f2fs: limit b_size of mapped bh in f2fs_map_bh <Chao Yu> 8 months ago
+9fa5a7a : f2fs: persist system.advise into on-disk inode <Chao Yu> 8 months ago
+46ec23b : f2fs: avoid NULL pointer dereference in f2fs_xattr_advise_get <Chao Yu> 8 months ago
+082765a : f2fs: preallocate fallocated blocks for direct IO <Chao Yu> 8 months ago
+7a211cd : f2fs: enable inline data by default <Wanpeng Li> 8 months ago
+c23974e : f2fs: preserve extent info for extent cache <Chao Yu> 8 months ago
+925636c : f2fs: initialize extent tree with on-disk extent info of inode <Chao Yu> 8 months ago
+eabd235 : f2fs: introduce __{find,grab}_extent_tree <Chao Yu> 8 months ago
+cba8eb4 : f2fs: split set_data_blkaddr from f2fs_update_extent_cache <Chao Yu> 8 months ago
+7c95a47 : f2fs: enable fast symlink by utilizing inline data <Wanpeng Li> 8 months ago
+b09db28 : f2fs: add some tracepoints to debug volatile and atomic writes <Jaegeuk Kim> 8 months ago
+86a4757 : f2fs: avoid punch_hole overhead when releasing volatile data <Jaegeuk Kim> 8 months ago
+4f437b5 : f2fs: avoid wrong f2fs_bug_on when truncating inline_data <Jaegeuk Kim> 8 months ago
+093eb0a : f2fs: enhance multi-threads performance <Jaegeuk Kim> 8 months ago
+affdd7e : f2fs: set buffer_new when new blocks are allocated <Jaegeuk Kim> 8 months ago
+150b94b : f2fs: set SBI_NEED_FSCK when encountering exception in recovery <Chao Yu> 8 months ago
+7005012 : f2fs: fix to cover sentry_lock for block allocation <Jaegeuk Kim> 8 months ago
+aca9519 : f2fs: fix to check current blkaddr in __allocate_data_blocks <Chao Yu> 8 months ago
+b1849fc : f2fs: fix to truncate inline data past EOF <Chao Yu> 8 months ago
+ 
+**** cmold:android_kernel_samsung_d2 ****
+3412d4c : selinux: Android kernel compatibility with M userspace <Jeff Vander Stoep> 4 weeks ago
+db36d79 : selinux: extended permissions for ioctls <Jeff Vander Stoep> 4 months ago
+c371f94 : security: add ioctl specific auditing to lsm_audit <Jeff Vander Stoep> 4 months ago
+031c728 : selinux: remove unnecessary pointer reassignment <Jeff Vander Stoep> 9 months ago
+43ece30 : Revert "security: lsm_audit: add ioctl specific auditing" <Jeff Vander Stoep> 4 months ago
+d1a5156 : Revert "SELinux: per-command whitelisting of ioctls" <Jeff Vander Stoep> 4 months ago
+cb403b1 : Revert "SELinux: use deletion-safe iterator to free list" <Jeff Vander Stoep> 4 months ago
+70a3c16f : Revert "SELinux: ss: Fix policy write for ioctl operations" <Jeff Vander Stoep> 4 months ago
+357e6a5 : arm: mm: support ARCH_MMAP_RND_BITS. <dcashman> 7 weeks ago
+9d50e8b : mm: mmap: Add new /proc tunable for mmap_base ASLR. <dcashman> 7 weeks ago
+0601731 : msm_thermal: Fix Merge Derp <Paul Keith> 5 days ago
+f243d9a : f2fs: sync to upstream <Jaegeuk Kim> 6 days ago
+03d717b : wlan: Address buffer overflow due to invalid length <Mahesh A Saptasagar> 3 weeks ago
+ddb4bfe : msm_thermal: poll thermal sensor by id instead of sensor 0 <Paul Keith> 10 days ago
+01e9905 : comanche: Enable Tkey LED <Anthony Cox> 4 weeks ago
+ea8d1de : net: add length argument to skb_copy_and_csum_datagram_iovec <Sabrina Dubroca> 5 weeks ago
+b8e8536 : bcmdhd: disable GAN_LITE_NAT_KEEPALIVE_FILTER <codeworkx> 2 years, 8 months ago
+3edd622 : Linux 3.4.110 <Zefan Li> 4 weeks ago
+0e93547 : Failing to send a CLOSE if file is opened WRONLY and server reboots on a 4.x mount <Olga Kornievskaia> 9 weeks ago
+4a69710b : vfs: Test for and handle paths that are unreachable from their mnt_root <Eric W. Biederman> 3 months ago
+652b4f2 : dcache: Handle escaped paths in prepend_path <Eric W. Biederman> 3 months ago
+7a40332 : IB/qib: Change lkey table allocation to support more MRs <Mike Marciniszyn> 6 weeks ago
+e1ae22a : jbd2: avoid infinite loop when destroying aborted journal <Jan Kara> 4 months ago
+15488de : usb: dwc3: Reset the transfer resource index on SET_INTERFACE <John Youn> 14 years ago
+0ca709a : ARM: Fix incorrect backport of 0b59d8806a31 <Zefan Li> 6 weeks ago
+700af4c : crypto: s390/ghash: Fix incorrect backport of a1cae34e23b1 <Zefan Li> 6 weeks ago
+12fb133 : drm/radeon: partially revert "fix VM_CONTEXT*_PAGE_TABLE_END_ADDR handling" <Christian König> 6 months ago
+bdb2116 : Revert "drm/radeon: Use drm_calloc_ab for CS relocs" <Zefan Li> 6 weeks ago
+a0b1372 : Revert "drm/i915: Don't skip request retirement if the active list is empty" <Jani Nikula> 5 months ago
+22b1c30 : 9p: forgetting to cancel request on interrupted zero-copy RPC <Al Viro> 5 months ago
+8d6a97c : KVM: x86: properly restore LVT0 <Radim Krčmář> 5 months ago
+08c7304 : KVM: x86: make vapics_in_nmi_mode atomic <Radim Krčmář> 5 months ago
+d4ee09b : ACPICA: Tables: Fix an issue that FACS initialization is performed twice <Lv Zheng> 5 months ago
+61b8a50 : fuse: initialize fc->release before calling it <Miklos Szeredi> 5 months ago
+8458a84 : crush: fix a bug in tree bucket decode <Ilya Dryomov> 5 months ago
+d6a9245 : agp/intel: Fix typo in needs_ilk_vtd_wa() <Chris Wilson> 5 months ago
+2d0186e : __bitmap_parselist: fix bug in empty string handling <Chris Metcalf> 5 months ago
+c207c49 : tracing/filter: Do not allow infix to exceed end of string <Steven Rostedt (Red Hat)> 5 months ago
+7ebabd7 : tracing/filter: Do not WARN on operand count going below zero <Steven Rostedt (Red Hat)> 5 months ago
+800e58a : dell-laptop: Fix allocating & freeing SMI buffer page <Pali Rohár> 5 months ago
+019db11 : mm: kmemleak: allow safe memory scanning during kmemleak disabling <Catalin Marinas> 5 months ago
+176a2ea : stmmac: troubleshoot unexpected bits in des0 & des1 <Alexey Brodkin> 5 months ago
+e2b3a18 : bridge: multicast: restore router configuration on port link down/up <Satish Ashok> 5 months ago
+dd7ad96 : watchdog: omap: assert the counter being stopped before reprogramming <Uwe Kleine-König> 7 months ago
+2ba0674 : ext4: don't retry file block mapping on bigalloc fs with non-extent file <Darrick J. Wong> 5 months ago
+52686b9 : packet: avoid out of bounds read in round robin fanout <Willem de Bruijn> 5 months ago
+2fb9a78 : packet: read num_members once in packet_rcv_fanout() <Eric Dumazet> 5 months ago
+b80954b : ext4: call sync_blockdev() before invalidate_bdev() in put_super() <Theodore Ts'o> 5 months ago
+9beee8b : bridge: fix br_stp_set_bridge_priority race conditions <Nikolay Aleksandrov> 5 months ago
+aef2b53 : nfs: increase size of EXCHANGE_ID name string buffer <Jeff Layton> 5 months ago
+ 
+**** cmold:android_kernel_samsung_hlte ****
+f19ec01 : mnt: Prevent pivot_root from creating a loop in the mount tree <Eric W. Biederman> 1 year, 1 month ago
+e6a34c2 : mnt: Only change user settable mount flags in remount <Eric W. Biederman> 1 year, 4 months ago
+4174cb5 : fix mismerge fail.. <Shareef Ali> 4 weeks ago
+b666ef7 : update hlte defconfig <Shareef Ali> 4 weeks ago
+23bf3b2 : cpu_power: Avoids race condition when the task exits. <Ruchi Kandoi> 5 months ago
+ef4dc2e : sched: cpufreq: Adds a field cpu_power in the task_struct <Ruchi Kandoi> 7 months ago
+7fe78c3 : cpufreq_stats: Adds the fucntionality to load current values for each frequency for all the cores. <Ruchi Kandoi> 7 months ago
+b1009d1 : cpufreq: prevents NULL pointer reference while all_time_in_state stats is collected. <Ruchi Kandoi> 1 year, 7 months ago
+4cfe3f1 : cpufreq: fix sleeping in atomic context when realloc freq_table for all_time_in_state <Minsung Kim> 1 year, 5 months ago
+4b8b2de : cpufreq: Persist cpufreq time in state data across hotplug <Ruchi Kandoi> 1 year, 8 months ago
+45de610 : hashtable: introduce a small and naive hashtable <Sasha Levin> 3 years, 1 month ago
+970734e : uid_cputime: Iterates over all the threads instead of processes. <Ruchi Kandoi> 4 months ago
+7f1d556 : uid_cputime: fix cputime overflow <Jin Qian> 4 months ago
+6412b83 : uid_cputime: Fixes double accounting race condition on task exit. <Ruchi Kandoi> 5 months ago
+77804ce : uid_cputime: Extends the cputime functionality to report power per uid <Ruchi Kandoi> 7 months ago
+f57dd01 : proc: uid_cputime: fix show_uid_stat permission <Jin Qian> 6 months ago
+b6e9345 : proc: uid: Changes the thread notifier to profile event notifier. <Ruchi Kandoi> 8 months ago
+567c557 : proc: uid: Adds accounting for the cputimes per uid. <jinqian> 8 months ago
+6fe9605 : proc: Allow proc_free_inum to be called from any context <Eric W. Biederman> 2 years, 11 months ago
+885835b : proc: Usable inode numbers for the namespace file descriptors. <Eric W. Biederman> 4 years, 5 months ago
+87f5c36 : proc: Fix the namespace inode permission checks. <Eric W. Biederman> 4 years, 5 months ago
+57db068 : proc: Generalize proc inode allocation <Eric W. Biederman> 4 years, 5 months ago
+f95d808 : vfs: Allow unprivileged manipulation of the mount namespace. <Eric W. Biederman> 3 years, 4 months ago
+14d1d1a : vfs: Only support slave subtrees across different user namespaces <Eric W. Biederman> 3 years, 4 months ago
+5ad56e0 : vfs: Add a user namespace reference from struct mnt_namespace <Eric W. Biederman> 3 years, 4 months ago
+063566a : vfs: Add setns support for the mount namespace <Eric W. Biederman> 6 years ago
+4e55132 : consitify do_mount() arguments <Al Viro> 3 years, 1 month ago
+c9882e1 : do_add_mount()/umount -l races <Al Viro> 3 years, 2 months ago
+99c47f5 : fs: introduce inode operation ->update_time <Josef Bacik> 3 years, 8 months ago
+c31e40e : VFS: Comment mount following code <David Howells> 3 years, 5 months ago
+4870e7f : VFS: Make clone_mnt()/copy_tree()/collect_mounts() return errors <David Howells> 3 years, 5 months ago
+3eea1ed : get rid of magic in proc_namespace.c <Al Viro> 3 years, 5 months ago
+ae47228 : get rid of ->mnt_longterm <Al Viro> 3 years, 5 months ago
+ecd5cc2 : vfs: umount_tree() might be called on subtree that had never made it <Al Viro> 3 years, 6 months ago
+568cfbe : brlocks/lglocks: API cleanups <Andi Kleen> 3 years, 6 months ago
+aaf10fe : brlocks/lglocks: turn into functions <Andi Kleen> 3 years, 6 months ago
+292847d : lglock: remove online variants of lock <Rusty Russell> 3 years, 6 months ago
+d3ed94d : Revert "vfs: umount_tree() might be called on subtree that had never made it" <Thierry Strudel> 4 months ago
+8070adb : security: lsm_audit: add ioctl specific auditing <Jeff Vander Stoep> 8 months ago
+548265d : pstore: selinux: add security in-core xattr support for pstore and debugfs <Mark Salyzyn> 11 months ago
+77c64bb : Enable setting security contexts on rootfs inodes. <Stephen Smalley> 2 years, 6 months ago
+17471ce : selinux: Report permissive mode in avc: denied messages. <Stephen Smalley> 1 year, 7 months ago
+400a730 : SELinux: ss: Fix policy write for ioctl operations <Jeff Vander Stoep> 7 months ago
+266069f : SELinux: use deletion-safe iterator to free list <Jeff Vander Stoep> 7 months ago
+eda6fee : SELinux: per-command whitelisting of ioctls <Jeff Vander Stoep> 7 months ago
+bbcf892 : SELinux: Update policy version to support constraints info <Richard Haines> 2 years ago
+1f22665 : SELinux: add default_type statements <Eric Paris> 3 years, 8 months ago
+90ae856 : SELinux: allow default source/target selectors for user/role/range <Eric Paris> 3 years, 8 months ago
+2e6f7bf : msm: vidc: kill unsupported sessions <Maheshwar Ajja> 10 months ago
+9a6ff93 : msm: vidc: add driver support to enable operating rate <Ashray Kulkarni> 7 months ago
+ 
+**** vanir:kernel_samsung_jf ****
+9094ed6 : f2fs: sync to upstream <Jaegeuk Kim> 6 days ago
+dae476e : msm_thermal: poll thermal sensor by id instead of sensor 0 <Paul Keith> 10 days ago
+8b980ce : msm: thermal: query sensor 0 instead of the default <franciscofranco> 12 months ago
+1b1759f : msm: thermal: use a simplified thermal driver <franciscofranco> 2 weeks ago
+2aa1e97 : mm, oom: make dump_tasks public <Liam Mark> 1 year, 6 months ago
+2b722d5 : lowmemorykiller: avoid false adaptive LMK triggers <Vinayak Menon> 3 months ago
+b34c61b : lowmemorykiller: adapt to vmpressure <Vinayak Menon> 9 months ago
+5ccf7e4 : lowmemorykiller: Do proper NULL checks <Susheel Khiani> 9 months ago
+519b2c9 : lowmemorykiller: Run the lowmemory notifier when killing <Laura Abbott> 1 year, 2 months ago
+a79c701 : lowmemorykiller: Dump out slab state information <Laura Abbott> 1 year, 2 months ago
+444d085 : lowmemorykiller: enhance debug information <Liam Mark> 1 year, 6 months ago
+2bb440c : lowmemorykiller: use for_each_thread instead of buggy while_each_thread <Vinayak Menon> 6 months ago
+c902f47 : lowmemorykiller: make default lowmemorykiller debug message useful <Colin Cross> 2 years, 7 months ago
+a7d2b21 : lowmemorykiller: Don't count swap cache pages twice <Liam Mark> 9 months ago
+923b39b : android/lowmemorykiller: Account for total_swapcache_pages <Liam Mark> 2 years, 3 months ago
+81db5f9 : lowmemorykiller: Account for highmem during kswapd reclaim <Liam Mark> 1 year, 8 months ago
+64be64f : android/lowmemorykiller: Selectively count free CMA pages <Liam Mark> 2 years, 8 months ago
+05bd593 : android: lowmemorykiller: add lmk parameters tunning code. <seungho1.park> 3 years, 4 months ago
+f2311cc : android/lmk: remove samsung junk <Dan Pasanen> 2 weeks ago
+3354cb8 : mm: vmpressure: account allocstalls only on higher pressures <Vinayak Menon> 3 months ago
+10c7568 : mm: vmpressure: scale pressure based on reclaim context <Vinayak Menon> 8 months ago
+bfb4e69 : mm: Add notifier framework for showing memory <Laura Abbott> 1 year, 2 months ago
+fb1bdd8 : mm: vmpressure: allow in-kernel clients to subscribe for events <Vinayak Menon> 9 months ago
+386d9b2 : memcg: add memory.pressure_level events <Anton Vorontsov> 2 years, 7 months ago
+40ba9fd : nf: IDLETIMER: Adds the uid field in the msg <Ruchi Kandoi> 7 months ago
+93a3f10 : nf: IDLETIMER: time-stamp and suspend/resume handling. <Ruchi Kandoi> 1 year, 8 months ago
+9003e88 : Remove build & conflict errors for commit 1d8c783dff935599870485f76fdfc76ee84799e9 <Ruchi Kandoi> 1 year, 8 months ago
+4218167 : Revert "nf: IDLETIMER: time-stamp and suspend/resume handling." <Ruchi Kandoi> 1 year, 8 months ago
+d427b44 : Revert "nf: Fix PM notifier list corruption" <Ruchi Kandoi> 1 year, 8 months ago
+11ef379 : nf: Fix PM notifier list corruption <Ruchi Kandoi> 1 year, 8 months ago
+76af6b9 : nf: time keeping changed from wall-clock to boot-time <Ruchi Kandoi> 1 year, 8 months ago
+06ffb6d : nf: IDLETIMER: time-stamp and suspend/resume handling. <Ruchi Kandoi> 1 year, 8 months ago
+a480d82 : jactive: Update Defconfig for Flo Adreno Drivers <Paul Keith> 3 weeks ago
+401aae2 : gpu: msm: remove adreno_coresight <Ethan Chen> 2 years ago
+ff80afe : net: add length argument to skb_copy_and_csum_datagram_iovec <Sabrina Dubroca> 5 weeks ago
+66c9be3 : jf: Update Defconfig for Flo Adreno Drivers <Paul Keith> 4 weeks ago
+780aef0 : gpu: msm2: Sync to Upstream <Paul Keith> 4 weeks ago
+7df6163 : gpu: msm2: Sync to Upstream <Paul Keith> 8 weeks ago
+af4e6e3 : gpu: msm2: Sync to upstream <David Hays> 7 months ago
+2500a4d : gpu: msm2: Sync to upstream <Ethan Chen> 1 year ago
+83903e0 : gpu: msm2: Sync to upstream <Steve Kondik> 1 year, 8 months ago
+cf87102 : msm: We are using the msm2 gpu driver, not msm <Christopher R. Palmer> 2 years ago
+b7d87a5 : gpu: msm: Add new Adreno driver <Steve Kondik> 2 years ago
+b4726ae : msm: scm: Add scm_call_atomic3 <Carter Cooper> 2 years, 7 months ago
+f9c3713 : msm: scm-pas: Provide a strongly ordered buffer to the secure world <Mekala Natarajan> 2 years, 2 months ago
+cd1aaf2 : ARM: Add support for 64 bit register reads/writes <Olav Haugan> 2 years, 8 months ago
+80313c2 : iommu/core: pass a user-provided token to fault handlers <Ohad Ben-Cohen> 3 years, 6 months ago
+2ca67af : msm: kgsl: Add separate GPU shader memory mapping <Carter Cooper> 2 years, 5 months ago
+e80ed67 : proc: Allow proc_free_inum to be called from any context <Eric W. Biederman> 2 years, 11 months ago
+701fc79 : proc: Usable inode numbers for the namespace file descriptors. <Eric W. Biederman> 4 years, 5 months ago
+ 
+**** cmold:android_kernel_samsung_mondrianwifi ****
+2ee2bb3 : hashtable: introduce a small and naive hashtable <Sasha Levin> 3 years, 1 month ago
+311fd40 : selinux:  Report permissive mode in avc: denied messages. <Stephen Smalley> 1 year, 7 months ago
+77950b5 : net: add length argument to skb_copy_and_csum_datagram_iovec <Sabrina Dubroca> 5 weeks ago
+7440965 : ARM: 8160/1: drop warning about return_address not using unwind tables <Uwe Kleine-König> 1 year, 2 months ago
+b37f382 : msm_serial_hs:pm: Add timeout for wait_event in msm_hs_shutdown() <Jiangli Yuan> 2 years, 9 months ago
+65cfb48 : msm: vidc: add support to enable operating rate <Praveen Chavan> 5 months ago
+97503cc : msm: vidc: Enable session priority support. <Praveen Chavan> 7 months ago
+95e8fc6 : Bluetooth: Pick the RSS value from advertising event <Vishwanath K M> 2 years, 9 months ago
+c7f7919 : Bluetooth: Avoid re-authentication for secure high connections. <Srinivas Krovvidi> 3 years, 3 months ago
+3c37e76 : Bluetooth: handle TX power level read <Oleg Klementiev> 2 years, 8 months ago
+5f5873d : Prop (CR): Bluetooth: Add address type for mgmt_ev_device_found <Vishwanath K M> 3 years, 8 months ago
+04adf31 : Bluetooth: SNIFF: Avoid sniff while SCO to address IOT issues <Mallikarjuna GB> 2 years, 9 months ago
+49b20e9 : Bluetooth: implement S3 Profile <Ashish Kumar Sharma> 5 years ago
+f274518 : Revert "bluetooth: set optimum current requirement for vdd la" <Dan Pasanen> 5 weeks ago
+c414880 : cpu_power: Avoids race condition when the task exits. <Ruchi Kandoi> 5 months ago
+7a47a33 : sched: cpufreq: Adds a field cpu_power in the task_struct <Ruchi Kandoi> 7 months ago
+fb3aad2 : cpufreq_stats: Adds the fucntionality to load current values for each frequency for all the cores. <Ruchi Kandoi> 7 months ago
+539556d : cpufreq: prevents NULL pointer reference while all_time_in_state stats is collected. <Ruchi Kandoi> 1 year, 7 months ago
+83b1001 : cpufreq: fix sleeping in atomic context when realloc freq_table for all_time_in_state <Minsung Kim> 1 year, 5 months ago
+44d45af : mondrianwifi: enable uid cputime <Dan Pasanen> 5 weeks ago
+824868c : uid_cputime: Iterates over all the threads instead of processes. <Ruchi Kandoi> 4 months ago
+98bac09 : uid_cputime: fix cputime overflow <Jin Qian> 4 months ago
+5ada4e1 : uid_cputime: Fixes double accounting race condition on task exit. <Ruchi Kandoi> 5 months ago
+53ef818 : uid_cputime: Extends the cputime functionality to report power per uid <Ruchi Kandoi> 7 months ago
+463228f : proc: uid_cputime: fix show_uid_stat permission <Jin Qian> 6 months ago
+f3dbe79 : proc: uid: Changes the thread notifier to profile event notifier. <Ruchi Kandoi> 8 months ago
+9cbed82 : proc: uid: Adds accounting for the cputimes per uid. <jinqian> 8 months ago
+2cf3e46 : proc: Allow proc_free_inum to be called from any context <Eric W. Biederman> 2 years, 11 months ago
+3fdc261 : proc: Usable inode numbers for the namespace file descriptors. <Eric W. Biederman> 4 years, 5 months ago
+745aa4f : proc: Fix the namespace inode permission checks. <Eric W. Biederman> 4 years, 5 months ago
+6a5eeb4 : proc: Generalize proc inode allocation <Eric W. Biederman> 4 years, 5 months ago
+4af8676 : vfs: Allow unprivileged manipulation of the mount namespace. <Eric W. Biederman> 3 years, 4 months ago
+382533a : vfs: Only support slave subtrees across different user namespaces <Eric W. Biederman> 3 years, 4 months ago
+6369965 : vfs: Add a user namespace reference from struct mnt_namespace <Eric W. Biederman> 3 years, 4 months ago
+9032d47 : vfs: Add setns support for the mount namespace <Eric W. Biederman> 6 years ago
+b9adae4 : consitify do_mount() arguments <Al Viro> 3 years, 1 month ago
+cd27a38 : do_add_mount()/umount -l races <Al Viro> 3 years, 2 months ago
+fac7eed : VFS: Comment mount following code <David Howells> 3 years, 5 months ago
+d38f773 : VFS: Make clone_mnt()/copy_tree()/collect_mounts() return errors <David Howells> 3 years, 5 months ago
+f7e28a0 : get rid of magic in proc_namespace.c <Al Viro> 3 years, 5 months ago
+d3b885f : get rid of ->mnt_longterm <Al Viro> 3 years, 5 months ago
+60005ac : vfs: umount_tree() might be called on subtree that had never made it <Al Viro> 3 years, 6 months ago
+855e5e1 : brlocks/lglocks: API cleanups <Andi Kleen> 3 years, 6 months ago
+dff7b6d : brlocks/lglocks: turn into functions <Andi Kleen> 3 years, 6 months ago
+f5e285a : lglock: remove online variants of lock <Rusty Russell> 3 years, 6 months ago
+d097947 : Revert "msm: vidc: Add entry to scale buses for True 4k @ 24 fps" <Christopher R. Palmer> 3 weeks ago
+366ec11 : security: lsm_audit: add ioctl specific auditing <Jeff Vander Stoep> 8 months ago
+0428b2e : pstore: selinux: add security in-core xattr support for pstore and debugfs <Mark Salyzyn> 11 months ago
+01c7717 : Enable setting security contexts on rootfs inodes. <Stephen Smalley> 2 years, 6 months ago
+34c1b45 : SELinux: ss: Fix policy write for ioctl operations <Jeff Vander Stoep> 7 months ago
+ 
+**** cmold:android_kernel_samsung_smdk4412 ****
+db17ab9c : 4412: Update the rest of the configs for hardware=smdk4x12 <rogersb11> 7 days ago
+2bcce41 : smdk4210: Add androidboot.hardware=smdk4210 parameters <Caio Schnepper> 7 days ago
+d177fbc : SELinux: per-command whitelisting of ioctls <Jeff Vander Stoep> 7 months ago
+90b542d : selinux: Report permissive mode in avc: denied messages. <Stephen Smalley> 1 year, 7 months ago
+ccec3aa : security: lsm_audit: add ioctl specific auditing <Jeff Vander Stoep> 8 months ago
+6b846b7 : SELinux: remove avd from slow_avc_audit() <Eric Paris> 3 years, 8 months ago
+4ede8c0 : selinux: inline avc_audit() and avc_has_perm_noaudit() into caller <Linus Torvalds> 3 years, 8 months ago
+0829ab0 : selinux: don't inline slow-path code into avc_has_perm_noaudit() <Linus Torvalds> 3 years, 8 months ago
+da56065 : security: optimize avc_audit() common path <Linus Torvalds> 3 years, 8 months ago
+e186fba : SELinux: Update policy version to support constraints info <Richard Haines> 2 years ago
+2e85a7b : SELinux: add default_type statements <Eric Paris> 3 years, 8 months ago
+aa5083a : SELinux: allow default source/target selectors for user/role/range <Eric Paris> 3 years, 8 months ago
+e3c7a35 : selinux: add SOCK_DIAG_BY_FAMILY to the list of netlink message types <Paul Moore> 1 year, 10 months ago
+44b1e87 : selinux/nlmsg: add XFRM_MSG_MAPPING <Nicolas Dichtel> 7 months ago
+d177baa : selinux/nlmsg: add XFRM_MSG_MIGRATE <Nicolas Dichtel> 7 months ago
+7429992 : selinux/nlmsg: add XFRM_MSG_REPORT <Nicolas Dichtel> 7 months ago
+e0dd84a : selinux/nlmsg: add XFRM_MSG_[NEW|GET]SADINFO <Nicolas Dichtel> 7 months ago
+34c7edd : selinux/nlmsg: add XFRM_MSG_GETSPDINFO <Nicolas Dichtel> 7 months ago
+8070bba : selinux/nlmsg: add XFRM_MSG_NEWSPDINFO <Nicolas Dichtel> 7 months ago
+2760e96 : selinux: fix inode security list corruption <Stephen Smalley> 1 year, 1 month ago
+55691fa : pstore: selinux: add security in-core xattr support for pstore and debugfs <Mark Salyzyn> 11 months ago
+e2e56e2 : SELinux: Fix kernel BUG on empty security contexts. <Stephen Smalley> 1 year, 10 months ago
+fe593f7 : SELinux: Fix possible NULL pointer dereference in selinux_inode_permission() <Steven Rostedt> 1 year, 10 months ago
+193be18 : Enable setting security contexts on rootfs inodes. <Stephen Smalley> 2 years, 6 months ago
+dbcebd4 : selinux: use GFP_ATOMIC under spin_lock <Dan Carpenter> 2 years, 8 months ago
+361003a : Add security hooks to binder and implement the hooks for SELinux. <Stephen Smalley> 3 years ago
+8c52c95 : Board smdk4x12: Add androidboot.hardware=smdk4x12 to kernel cmdline <rogersb11> 4 weeks ago
+5dba9dd : Linux 3.0.101 <Greg Kroah-Hartman> 2 years, 1 month ago
+676d438 : ipv6: tcp: fix panic in SYN processing <Eric Dumazet> 4 years ago
+f11d481 : drm/radeon: fix hw contexts for SUMO2 asics <wojciech kapuscinski> 2 years, 2 months ago
+826380d : watchdog: ts72xx_wdt: locking bug in ioctl <Dan Carpenter> 2 years, 3 months ago
+ac00890 : parisc: fix interruption handler to respect pagefault_disable() <Helge Deller> 2 years, 2 months ago
+546a505 : ext4: fix memory leak in xattr <Dave Jones> 2 years, 1 month ago
+0ffc34c : vfs: allow O_PATH file descriptors for fstatfs() <Linus Torvalds> 2 years, 2 months ago
+fa759b5 : random: run random_int_secret_init() run after all late_initcalls <Theodore Ts'o> 2 years, 2 months ago
+dccc509 : Linux 3.0.100 <Greg Kroah-Hartman> 2 years, 1 month ago
+fd819bd : Tools: hv: verify origin of netlink connector message <Olaf Hering> 3 years, 6 months ago
+7b3c1a8 : tg3: fix length overflow in VPD firmware parsing <Kees Cook> 2 years, 8 months ago
+6ac3a55 : ext4: avoid hang when mounting non-journal filesystems with orphan list <Theodore Ts'o> 2 years, 11 months ago
+3609e11 : Btrfs: change how we queue blocks for backref checking <Josef Bacik> 2 years, 4 months ago
+a9f1434 : tile: use a more conservative __my_cpu_offset in CONFIG_PREEMPT <Chris Metcalf> 2 years, 2 months ago
+b8a3fdb : ACPI / IPMI: Fix atomic context requirement of ipmi_msg_handler() <Lv Zheng> 2 years, 2 months ago
+c724d4f : staging: comedi: ni_65xx: (bug fix) confine insn_bits to one subdevice <Ian Abbott> 2 years, 1 month ago
+8e0e253 : p54usb: add USB ID for Corega WLUSB2GTST USB adapter <Christian Lamparter> 2 years, 2 months ago
+d3f0cca : rtlwifi: Align private space in rtl_priv struct <Larry Finger> 2 years, 2 months ago
+6a89ff9 : USB: serial: option: Ignore card reader interface on Huawei E1750 <Michal Malý> 2 years, 2 months ago
+5391cb0 : sparc32: Fix exit flag passed from traced sys_sigreturn <Kirill Tkhai> 2 years, 4 months ago
+ee0ab40 : sparc64: Fix not SRA'ed %o5 in 32-bit traced syscall <Kirill Tkhai> 2 years, 4 months ago
+e6114d1 : sparc64: Fix off by one in trampoline TLB mapping installation loop. <David S. Miller> 2 years, 3 months ago
+ca0bd20 : sparc64: Remove RWSEM export leftovers <Kirill Tkhai> 2 years, 3 months ago
+ 
+**** cmold:android_kernel_sony_apq8064 ****
+07e3e30 : msm: kgsl: Increase the wait timeout for context detachment <Harshdeep Dhatt> 4 months ago
+6070187 : configs: enable CORESIGHT <Georg Veichtlbauer> 5 weeks ago
+12b483b : selinux: Report permissive mode in avc: denied messages. <Stephen Smalley> 1 year, 7 months ago
+ec4d360 : selinux: remove some crap from sony <Georg Veichtlbauer> 5 weeks ago
+38b018d : hashtable: introduce a small and naive hashtable <Sasha Levin> 3 years, 1 month ago
+0195afb : proc: Allow proc_free_inum to be called from any context <Eric W. Biederman> 2 years, 11 months ago
+9153590 : proc: Usable inode numbers for the namespace file descriptors. <Eric W. Biederman> 4 years, 5 months ago
+0e179a8 : proc: Fix the namespace inode permission checks. <Eric W. Biederman> 4 years, 5 months ago
+05eb1e4 : proc: Generalize proc inode allocation <Eric W. Biederman> 4 years, 5 months ago
+1a5cf22 : vfs: Allow unprivileged manipulation of the mount namespace. <Eric W. Biederman> 3 years, 4 months ago
+e7df061 : vfs: Only support slave subtrees across different user namespaces <Eric W. Biederman> 3 years, 4 months ago
+3c0f194 : vfs: Add a user namespace reference from struct mnt_namespace <Eric W. Biederman> 3 years, 4 months ago
+f154b3e : vfs: Add setns support for the mount namespace <Eric W. Biederman> 6 years ago
+1a941ad : consitify do_mount() arguments <Al Viro> 3 years, 1 month ago
+92e5fba : do_add_mount()/umount -l races <Al Viro> 3 years, 2 months ago
+20e3a2b : fs: introduce inode operation ->update_time <Josef Bacik> 3 years, 8 months ago
+39cce16 : VFS: Comment mount following code <David Howells> 3 years, 5 months ago
+078f9c4 : VFS: Make clone_mnt()/copy_tree()/collect_mounts() return errors <David Howells> 3 years, 5 months ago
+a85395b : get rid of magic in proc_namespace.c <Al Viro> 3 years, 5 months ago
+6f19a9e : get rid of ->mnt_longterm <Al Viro> 3 years, 5 months ago
+bc52f82 : vfs: umount_tree() might be called on subtree that had never made it <Al Viro> 3 years, 6 months ago
+f2e936b : brlocks/lglocks: API cleanups <Andi Kleen> 3 years, 6 months ago
+af1d31d : brlocks/lglocks: turn into functions <Andi Kleen> 3 years, 6 months ago
+982c1bc : lglock: remove online variants of lock <Rusty Russell> 3 years, 6 months ago
+98dac3b : Revert "vfs: umount_tree() might be called on subtree that had never made it" <Thierry Strudel> 4 months ago
+a9f0a8f : Revert "get rid of ->mnt_longterm" <Thierry Strudel> 4 months ago
+b298555 : configs: Enable CONFIG_UID_CPUTIME <Georg Veichtlbauer> 5 weeks ago
+a14b290 : uid_cputime: Iterates over all the threads instead of processes. <Ruchi Kandoi> 4 months ago
+9b94dec : uid_cputime: fix cputime overflow <Jin Qian> 4 months ago
+23a3e87 : proc: uid_cputime: fix show_uid_stat permission <Jin Qian> 6 months ago
+7182ccf : proc: uid: Changes the thread notifier to profile event notifier. <Ruchi Kandoi> 8 months ago
+09e889b : proc: uid: Adds accounting for the cputimes per uid. <jinqian> 8 months ago
+c5c583b : security: lsm_audit: add ioctl specific auditing <Jeff Vander Stoep> 8 months ago
+cc6e64b : pstore: selinux: add security in-core xattr support for pstore and debugfs <Mark Salyzyn> 11 months ago
+71a5650 : SELinux: ss: Fix policy write for ioctl operations <Jeff Vander Stoep> 7 months ago
+d6a5137 : SELinux: use deletion-safe iterator to free list <Jeff Vander Stoep> 7 months ago
+f42260e : SELinux: per-command whitelisting of ioctls <Jeff Vander Stoep> 7 months ago
+be10a08 : SELinux: Update policy version to support constraints info <Richard Haines> 2 years ago
+264e71d : SELinux: add default_type statements <Eric Paris> 3 years, 8 months ago
+91be4ee : SELinux: allow default source/target selectors for user/role/range <Eric Paris> 3 years, 8 months ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Camera2 ****
+48f63f9 : Don't attempt to convert degree to orientation enum twice <Ethan Chen> 30 hours ago
+ 
+**** cm:CyanogenMod/android_packages_apps_ContactsCommon ****
+2232b0e : Fix contact JSON record parsing. <Danny Baumann> 5 days ago
+9c990c3 : Add interface for checking spam reporting provider <Martin Brabham> 5 weeks ago
+80ad19b : Shim in mark as spam api <Martin Brabham> 6 weeks ago
+1550374 : ContactsCommon: Move contact uri extra to common location <cretin45> 7 weeks ago
+d4a8328 : ContactsCommon: Don't pass contact id in ContactBuilder <cretin45> 8 weeks ago
+4ecdcb0 : ContactsCommon: Add ability to show looked up contacts for quick contacts <Matt Garnes> 5 months ago
+b474ca6 : LookupProvider updates <emancebo> 3 months ago
+a91eea9 : SelectAccountActivity : Support local phone account <Rohit Yengisetty> 4 months ago
+d00fa35 : string validation: check if the string is empty <Marcos Marado> 4 months ago
+c893e49 : ContactsCommon : Add createStarredPhoneOnlyLoader <Danesh M> 4 months ago
+5d91eb8 : PhoneNumberLookup : have the mk file hold its absolute path for easy inclusion <Rohit Yengisetty> 4 months ago
+3880f85 : Add generic hooks for contact info lookup based on phone number <Rohit Yengisetty> 5 months ago
+f6d720a : ContactPhotoManager - Add ability to fetch contact bitmap based on photo id <Rohit Yengisetty> 4 months ago
+eba831e : CheckableFlipDrawable : Add getter for front drawable <Rohit Yengisetty> 4 months ago
+89ce716 : Add local phone account as a writable AccountTypes. <Matt Garnes> 5 months ago
+d07aa8a : Store all local contacts in only one account. <Matt Garnes> 8 months ago
+e2d42da : contactscommon: ensure preferences are loaded before reload data <Jorge Ruesga> 8 months ago
+7d91688 : ContactsCommon : Remove pending request for get contact bitmaps <Danesh M> 7 months ago
+76c87c9 : ContactsCommon : Only use default requests if one is not provided <Danesh M> 7 months ago
+01c2469 : ContactsCommon : Modify ContactPhotoManager to fetch contacts' bitmaps <Rohit Yengisetty> 7 months ago
+e4d81b6 : [3/3] ContactsCommon: Smart Dialer <linuxxxxx> 7 months ago
+ 
+**** cm:CyanogenMod/android_packages_apps_PhoneCommon ****
+894da44 : Expose layout colors for themes <Bryan Owens> 7 days ago
+ 
+**** commotio:commotio ****
+b651b04 : A sad hack to satisfy wierd AOSP requirements <DHOMD> 34 minutes ago
+dc3fb7f : Fingerprinted <DHOMD> 5 hours ago
+fdf069e : Kill Kill Kill <DHOMD> 5 hours ago
+7540fab : Kang fingerprints <DHOMD> 5 hours ago
+ 
+**** vanir:vendor_lge ****
+1d9eeb0 : Bullhead: remove unneeded items <Abhisek Devkota> 8 hours ago
+512bb9c : bullhead: Initial bullhead <Abhisek Devkota> 29 hours ago
+c92f2eb : g3: remove proprietary libcnefeatureconfig <Joonhyuk Song> 9 days ago
+ 
+**** vanir:vendor_motorola ****
+85db1bc : msm8226-common: remove QC Time Services <luca020400> 4 days ago
+70dff72 : msm8226-common: Update adreno blobs <myfluxi> 11 days ago
+ab1b9a8 : msm8226-common: Get rid of libsysutils_local.so <LuK1337> 5 days ago
+ 
+**** vanir:vendor_samsung ****
+3c46836 : Make sure that klte zips flash on unified twrp <nuclearmistake> 1 year, 2 months ago
+0d5a899 : Reconsile jflte from Muppets <DHOMD> 4 hours ago
+ 
+**** vanir:vendor_vanir ****
+958ef3d : 91 character fix <DHOMD> 26 minutes ago
+f26f0a7 : run-parts: the derp is strong with this one <nuclearmistake> 12 hours ago
+22526f1 : Run it <nuclearmistake> 13 hours ago
+7b3f0d6 : Add a script to automate updating our BUILD_FINGERPRINT, etc. overrides to match those from the associated cm.mk <nuclearmistake> 13 hours ago
+ 
