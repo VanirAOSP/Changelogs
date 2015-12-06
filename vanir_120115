@@ -1,0 +1,421 @@
+
+**** vanir:art ****
+7890e2e : art: Fix whitespace errors added by caf <Christopher R. Palmer> 2 months ago
+ 
+**** vanir:bionic ****
+91d934a : Revert "Revert "linker: Reset the active shim libs each time we do a dlopen"" <Christopher R. Palmer> 17 hours ago
+8110520 : linker: Don't try to walk the g_active_shim_libs when doing dlsym <Christopher R. Palmer> 17 hours ago
+1f3d70b : kernel-header : add alarm type and clock type for power off alarm <Mao Jinlong> 4 weeks ago
+3a2debf : kernel-header : add alarm type and clock type for power off alarm <Mao Jinlong> 4 weeks ago
+fd0140b : Revert "linker: Reset the active shim libs each time we do a dlopen" <Ethan Chen> 22 hours ago
+ad21814 : linker: Reset the active shim libs each time we do a dlopen <Christopher R. Palmer> 3 days ago
+ 
+**** vanir:bootable_recovery ****
+0e70a87 : fstools: Invite sfdisk to the party <Tom Marshall> 6 hours ago
+e023d79 : recovery: Fix mounting f2fs partitions <Tom Marshall> 9 hours ago
+ 
+**** vanir:bootable_recovery_TWRP ****
+7ac17cc : libblkid: remove various no-op variable checks <Dan Pasanen> 3 weeks ago
+0ae529e : fuse_sideload: remove unused variables causing warnings <Dan Pasanen> 3 weeks ago
+8abeee1 : twrp: fix incompatible pointer to integer conversions <Dan Pasanen> 3 weeks ago
+bfb72b0 : Fix broken fsflags support <Ketut Putu Kumajaya> 4 months ago
+00bc702 : Fix mkdosfs 2GB barrier <Dees_Troy> 2 years, 10 months ago
+18794c8 : Update dosfstools <Matt Mower> 3 weeks ago
+13a8f0b : Free some memory allocations <Matt Mower> 9 weeks ago
+ 
+**** vanir:build ****
+3146377 : Hacks <DHOMD> 3 months ago
+ 
+**** cm:CyanogenMod/android_device_cyanogen_msm8939-common ****
+1244c3b : msm8939: Use custom audio policy <Ethan Chen> 8 hours ago
+babe9f9 : msm8939: Remove mm-parser <Ethan Chen> 8 hours ago
+e40e25b : msm8939: Build AOSP FM radio package <Ethan Chen> 32 hours ago
+ 
+**** vanir:device_htc_dlx ****
+379289f : fstab: don't mount devlog <Dan Pasanen> 7 days ago
+159df2f : dlx: Drop all the janky proprietary stuff we don't even use <Steve Kondik> 2 days ago
+ 
+**** vanir:device_htc_flounder ****
+531a53a : flounder/flounder_lte: Enable doze <André Pinela> 35 hours ago
+ 
+**** cm:CyanogenMod/android_device_htc_m8-common ****
+ebab6cb : init: remove preloading libhtc_symbols <Dan Pasanen> 15 hours ago
+ 
+**** vanir:device_htc_msm8960-common ****
+2d0ffd5 : msm8960: cleanup packages <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_htc_msm8974-common ****
+d73f237 : msm8974: properly shim htc logging lib <Dan Pasanen> 15 hours ago
+cde0624 : fstab: remove useless entries <Dan Pasanen> 7 days ago
+0f2b0a1 : msm8974: Drop all the janky proprietary stuff we don't even use <Steve Kondik> 2 days ago
+193a1c0 : msm8974: cleanup packages <Michael Bestas> 2 days ago
+ 
+**** vanir:device_huawei_angler ****
+5743d4c : copy+pasta <nuclearmistake> 2 hours ago
+bea4550 : proprietary-blobs.txt: ES&D. will fix replace /system/app/ims/lib/arm64/* libs with symlinks with a releasetool <nuclearmistake> 2 hours ago
+24ebf3d : One last go at symlinkage with extract-files <nuclearmistake> 2 hours ago
+b724bf2 : Revert "Revert "Revert "Revert "Add explicit symlink creation to extract-files.sh"""" <nuclearmistake> 10 hours ago
+14e1f1e : Revert "Revert "Revert "Add explicit symlink creation to extract-files.sh""" <nuclearmistake> 13 hours ago
+6db1f87 : Revert "Revert "Add explicit symlink creation to extract-files.sh"" <nuclearmistake> 13 hours ago
+657c6b5 : Fix variable reuse derp (not mine) <nuclearmistake> 13 hours ago
+0b189b4 : Revert "Add explicit symlink creation to extract-files.sh" <nuclearmistake> 13 hours ago
+4687aac : Revert "f it. TODO: fix up garbage copy_files line created by symlink handling" <nuclearmistake> 13 hours ago
+f2440fc : Cleanup after yourself, extract-files <nuclearmistake> 13 hours ago
+eb09800 : f it. TODO: fix up garbage copy_files line created by symlink handling <nuclearmistake> 13 hours ago
+91de4ec : Add explicit symlink creation to extract-files.sh <nuclearmistake> 14 hours ago
+bcb40e4 : Fix derped absolute outdir <nuclearmistake> 15 hours ago
+5f97325 : extract files directly from google hosted factory image <Lance R. Vick> 22 hours ago
+f6a7836 : fix ims.apk blob path <Lance R. Vick> 22 hours ago
+4f8fa7b : Factory images = 10,0,1 - aosp = 9,0,1 <nuclearmistake> 24 hours ago
+f94dabe : Enable change from CdmaLteServiceStateTracker: allow forcing reading eri from xml <nuclearmistake> 7 days ago
+6157287 : port target cpu changes from bullhead <nuclearmistake> 7 days ago
+5358ee8 : Add cmhw vibrator intensity control <Sam Mortimer> 2 weeks ago
+788681a : Inform vendor/cm that BFQ is in use <Sam Mortimer> 13 days ago
+875006f : Enable cmhw support <Sam Mortimer> 2 weeks ago
+ 
+**** vanir:device_lge_bullhead ****
+795be85 : match PRODUCT_MODEL with stock build.prop <Jake Whatley> 22 hours ago
+a99c043 : bullhead: enable doze mode <Jake Whatley> 2 weeks ago
+ 
+**** vanir:device_lge_g3-common ****
+c9f1e2c : g3: Drop all the janky proprietary stuff we don't even use <Steve Kondik> 2 days ago
+ebc261d : g3: Remove connectivity as an external dependency <Christopher R. Palmer> 31 hours ago
+be6d898 : g3: cleanup packages <Michael Bestas> 2 days ago
+6b303dc : init: shim boringssl with libqmox_jpegenc instead <Dan Pasanen> 3 days ago
+a9fa238 : g3: thermanager: Disable brightness control <Hendrik Hagendorn> 3 days ago
+ 
+**** vanir:device_moto_shamu ****
+fcf7cf4 : overlay: Fix typo <dhacker29> 3 days ago
+54f41ab : Overlay: Disable *228 regardless of carrier <dhacker29> 3 days ago
+7b0600e : overlay: Disable *228 CDMA provisioning <dhacker29> 3 days ago
+21c5f52 : proprietary-files: Add whitelist_com.android.omadm.service.xml <dhacker29> 3 days ago
+0990cab : Fix Shamu Network Values <beanstown106> 7 months ago
+a9d2379 : proprietary-files: Enable Sprint and Project FI <dhacker29> 3 days ago
+b36d5b3 : sepolicy: Fix up tap2wake <dhacker29> 3 days ago
+ 
+**** vanir:device_motorola_falcon ****
+1256083 : falcon: Add radio version whitelist <Gabriele M> 2 days ago
+ 
+**** vanir:motorola_msm8226-common ****
+f60e382 : msm8226-common: Update overlay <Luca Stefani> 3 days ago
+9b35bb5 : msm8226-common: Drop USB charging mode <Gabriele M> 4 days ago
+19cbc2d : msm8226-common: releasetools: Add radio version assertion <Gabriele M> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_motorola_victara ****
+f032cb4 : victara: Drop all the janky proprietary stuff we don't even use <Steve Kondik> 2 days ago
+5769c34 : victara: Remove connectivity as an external dependency <Christopher R. Palmer> 31 hours ago
+c047887 : victara: cleanup packages <Michael Bestas> 2 days ago
+ 
+**** vanir:device_oneplus_bacon ****
+f7a5f1c : Tainted <DHOMD> 31 hours ago
+082f636 : bacon: Cleanups and updates <Steve Kondik> 3 days ago
+ 
+**** vanir:device_oneplus_oneplus2 ****
+ed2b780 : Clean BoardConfig <Willi Ye> 3 days ago
+4841be6 : oneplus2: Build libcnefeatureconfig from source <Michael Bestas> 3 weeks ago
+ 
+**** vanir:device_oppo_apq8064-common ****
+4fbd52d : apq8064: Remove storage overlay <Christopher N. Hesse> 4 weeks ago
+0239062 : apq8064: Fix icuuc symbols compilation <Christopher N. Hesse> 3 days ago
+4657f24 : apq8064: Actually build all the oppo_symbols <Christopher N. Hesse> 3 days ago
+ 
+**** vanir:device_oppo_common ****
+0960663 : Use ScreenType util from cmsdk <Michael Bestas> 3 days ago
+7cc10d3 : keyhandler: fix race condition in torch gesture <Keith Mok> 8 days ago
+ 
+**** cm:CyanogenMod/android_device_oppo_find7-common ****
+55efa23 : find7: Update bluetooth configuration <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_oppo_msm8974-common ****
+b8d09bf : msm8974: Cleanup packages <Michael Bestas> 2 days ago
+231e104 : msm8974: Cleanups and updates <Steve Kondik> 3 days ago
+2432ebe : msm8974: Stop using zImage-dtb <Michael Bestas> 13 days ago
+ 
+**** vanir:device_qcom_sepolicy ****
+bc61f9b : sepolicy: Label boot/recovery/cache partitions <Michael Bestas> 4 days ago
+ 
+**** cm:CyanogenMod/android_device_samsung_hlte-common ****
+b4e026e : Remove depreciated overlays <DHOMD> 7 hours ago
+ 
+**** vanir:device_samsung_jf-common ****
+0eb6cb7 : jf: remove unused ril props <Dan Pasanen> 32 hours ago
+ff4379e : jf: Drop all the janky proprietary stuff we don't even use <Steve Kondik> 2 days ago
+e47fb89 : jf: set BOARD_HAVE_SAMSUNG_BLUETOOTH <Dheeraj CVR> 2 days ago
+4c9d413 : Revert "bluetooth: disable axi bridge lock" <Dheeraj CVR> 5 days ago
+fab7d3d : Revert "rootdir: Fix LTE doesn't come up on boot" <Dan Pasanen> 6 days ago
+8cdb711 : jf: Remove duplicate USB package <Zhao Wei Liew> 7 days ago
+ 
+**** cm:CyanogenMod/android_device_samsung_jfltespr ****
+89bea86 : jfltespr: Remove connectivity as an external dependency <Christopher R. Palmer> 31 hours ago
+ 
+**** cm:CyanogenMod/android_device_samsung_jflteusc ****
+fc7bb82 : jflteusc: Remove connectivity as an external dependency <Christopher R. Palmer> 31 hours ago
+ 
+**** cm:CyanogenMod/android_device_samsung_jfltevzw ****
+2d9a04f : jfltevzw: Remove connectivity as an external dependency <Christopher R. Palmer> 31 hours ago
+ 
+**** vanir:device_samsung_klte-common ****
+75b1295 : klte-common: Enable legacy body sensor support <Ethan Chen> 3 weeks ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+240362b : msm8960: Drop all the janky proprietary stuff we don't even use <Steve Kondik> 2 days ago
+b647f5a : msm8960: cleanup packages <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_samsung_n5100 ****
+8f2459e : n5100 : update RIL blobs from 4.4.4 <RGIB> 2 weeks ago
+5daf419 : n5100 : remove sdcard references and use logwrapper to log cbd <RGIB> 2 days ago
+ 
+**** vanir:device_samsung_qcom-common ****
+13122e5 : qcom: cleanup packages <Michael Bestas> 2 days ago
+ 
+**** vanir:device_samsung_smdk4412-common ****
+5d3bb5b : smdk4412: depend on stlport <forkbomb> 7 days ago
+819ca52 : smdk4412: remove dependency on busybox <Dan Pasanen> 7 days ago
+234f262 : smdk4412: remove persist.sys.usb.config override <Nick Kralevich> 6 months ago
+5e4d9a1 : Enable BOARD_EGL_NEEDS_HANDLE_VALUE := true <rogersb11> 5 days ago
+ 
+**** vanir:device_samsung_smdk4412-qcom-common ****
+f388137 : Revert "remove Operators, moved to telephony/opts" <sbrissen> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_sony_taoshan ****
+a46cabc : taoshan: Remove obsolete custom RIL class <Olivier K> 4 days ago
+bb787aa : taoshan: Set ro.vold.primary_physical <Michael Bestas> 5 days ago
+2d60f9e : fstab: Mark internal storage as "nonremovable" <Olivier K> 4 days ago
+7506817 : taoshan: Update audio policy for M <Olivier K> 10 days ago
+0bbfa8b : audio: Explicitly enable proxy and usb audio features <Arne Coucheron> 3 weeks ago
+ 
+**** cm:CyanogenMod/android_external_gptfdisk ****
+1c3ad1d : gptfdisk: Switch to static lib for including in fstools <Tom Marshall> 6 hours ago
+ 
+**** cm:CyanogenMod/android_external_nano ****
+b6b3db7 : nano: fix build after upstream merge <Dan Pasanen> 8 days ago
+850cb4f : nano-2.4.3 <Dan Pasanen> 8 days ago
+1e4d729 : nano-2.4.2 <Dan Pasanen> 8 days ago
+b760778 : nano-2.4.1 <Dan Pasanen> 8 days ago
+bae32ee : nano-2.4.0 <Dan Pasanen> 8 days ago
+bf6b5c5 : nano-2.3.6 <Dan Pasanen> 8 days ago
+5ee0261 : nano-2.3.5 <Dan Pasanen> 8 days ago
+7fc7c5c : nano-2.3.4 <Dan Pasanen> 8 days ago
+15dc7d4 : nano-2.3.3 <Dan Pasanen> 8 days ago
+0cdc6a9 : nano-2.3.2 <Dan Pasanen> 8 days ago
+0a4f7e6 : nano-2.3.1 <Dan Pasanen> 8 days ago
+59b3c38 : nano-2.3.0 <Dan Pasanen> 8 days ago
+34184dd : nano-2.2.6 <Dan Pasanen> 8 days ago
+db6a09d : nano-2.2.5 <Dan Pasanen> 8 days ago
+ 
+**** vanir:external_sepolicy ****
+bad6d5a : dominate crond <nuclearmistake> 7 days ago
+ 
+**** cm:CyanogenMod/android_external_tinyalsa ****
+d762c50 : tinyalsa: Add a board config to drop silence_size for blob compat. <Christopher R. Palmer> 4 days ago
+ 
+**** vanir:external_toybox ****
+47d005d : toybox: mount: Support multiple fs-types/mountpoint <Tom Marshall> 8 hours ago
+ 
+**** cm:CyanogenMod/android_external_wpa_supplicant_8 ****
+213afc9 : Fix dependencies <Steve Kondik> 3 days ago
+9d556d3 : Fix TK configuration to the driver in EAPOL-Key 3/4 retry case <Jouni Malinen> 9 weeks ago
+5556b49 : TDLS: Do not send error case of TPK M3 if TX fails <Sunil Dutt> 6 weeks ago
+90b9422 : Remove unnecessary NULL check from LOG_LEVEL handler <Jouni Malinen> 3 months ago
+df10864 : hostapd: Add support to configure debug log level at runtime <Srinivas Dasari> 4 months ago
+be10fca : Move debug level string conversion functions to wpa_debug.c <Jouni Malinen> 4 months ago
+f0fcc75 : TDLS: On a TPK timeout, tear down the link before renewal by the initiator <Pradeep Reddy POTTETI> 7 weeks ago
+dc3738e : eap_proxy: Remove the reference to deprecated qmi_uim_srvc.h <Ashwini Patil> 7 weeks ago
+ 
+**** vanir:frameworks_av ****
+b6cc3eb : stagefright: Fix fallback mechanism to SW decoder <Keith Mok> 7 hours ago
+1de1d15 : stagefright: handleSetSurface: Don't dereference null graphic buffers <Diogo Ferreira> 13 hours ago
+fb3719c : stagefright: Fix cts testGetMaxSupportedInstances <Keith Mok> 10 hours ago
+9ea60c7 : ffmpeg: flac: Assume 16 bits per sample if not set <Diogo Ferreira> 13 hours ago
+aeda337 : Fix for getPosition after seek <Wang Liyong> 3 years, 8 months ago
+8a55244 : Correct the time returned by AudioPlayer::getMediaTime <Bertil Akesson> 2 years ago
+118bc1d : The progress bar of next song is not properly started in offload use case <samaga Prasanna Krishna> 2 years ago
+ee0fd2d : audio: reset vorbis EOS status after a flush <Weiyin Jiang> 3 weeks ago
+bbb702d : GenericSource: acquire lock only for assigning dataSource. <Shivaprasad Hongal> 3 weeks ago
+e4b4124 : GenericSource: Hold an additional reference to dataSource. <Shivaprasad Hongal> 6 weeks ago
+3745361 : GenericSource: Synchronize access to dataSource <Praveen Chavan> 6 weeks ago
+c263222 : stagefright: omx: delay observer death handling <Haynes Mathew George> 4 weeks ago
+d15a8bd : Audio Effects are not processing first buffer <Lucas Gomez Jimenez> 4 months ago
+6cdcb6a : Workaround for busy wait bug <Glenn Kasten> 6 weeks ago
+742132a : MediaCodec: reset size to zero for EOS. <Sidipotu Ashok> 5 weeks ago
+43e8dfa : stagefright: Fix tags in mpeg4 not parsed correctly. <Keith Mok> 4 days ago
+d69ffb9 : libstagefright: Handle MPEG4 DP playback <Leena Winterrowd> 1 year, 3 months ago
+46c4173 : NuPlayerRenderer: always display the first video frame without delay. <Wei Jia> 12 days ago
+efc362f : Fix overflow check so it doesn't reject legitimate files <Marco Nelissen> 3 weeks ago
+dfbec47 : AudioTrack: Handle timestamp queries for Track Offload <Alexy Joseph> 2 weeks ago
+767254c : nuplayer: Perform proper shutdown sequence for offload teardown <Haynes Mathew George> 4 weeks ago
+6ab73dc : nuplayer: don't resume if player is reseting. <Ronghua Wu> 8 weeks ago
+ 
+**** vanir:frameworks_base ****
+3bf3797 : SystemUI: fix building test package <Danesh M> 6 hours ago
+af05108 : Revert "utils: Introduce ScreenType class" <Michael Bestas> 3 days ago
+055bf37 : gesture: fix possible race during initialization <Khalid Zubair> 26 hours ago
+8f56a53 : Revert "[TMP] Revert "Alarm: add support for power off alarm"" <nuclearmistake> 17 hours ago
+2e39256 : [TMP] Revert "Alarm: add support for power off alarm" <nuclearmistake> 22 hours ago
+9b44603 : alarmmanager: Reduce calls to elapsedRealtime() <Steve Kondik> 5 months ago
+ddd6f62 : Bluetooth: Fix for CTS failure <Satish Kodishala> 2 weeks ago
+5b04546 : Alarm: add support for power off alarm <Mao Jinlong> 5 weeks ago
+54face3 : Update A2DP device connection state properly. <Sudharma Damgatla> 4 weeks ago
+32a03fb : Revert "Change the routing path of bluetooth headset connections." <Satish Kodishala> 7 months ago
+7c8c300 : video: Add QHD & 2K profile for recorder <Xavier Varricatt> 5 months ago
+c861407 : frameworks/base: Add checks for 4KUHD and VGA timelapse <Manikanta Kanamarlapudi> 9 weeks ago
+570d204 : Udpate instrumentation code <William Clark> 7 weeks ago
+114b9c6 : MediaHTTPConnection: support Cookie update <Li Sun> 11 months ago
+68c40f3 : SystemUI: fix QS quick pull down <Altaf-Mahdi> 4 weeks ago
+536e68f1 : Themes: Allow SystemUI Tuner Icon to be Tinted <Nicholas Chum> 6 days ago
+3ba963d : Themes: Allow Permission Icons to be fully themed <Nicholas Chum> 8 days ago
+b609711 : QuickSettings: Add long click support for all tiles <Scott Warner> 3 days ago
+e4c0797 : QuickSettings: Improve draggable tiles management <AdrianDC> 3 days ago
+a9cdd4f : libhwui: make surface buffer allocation asynchronous <Thomas Buhot> 9 weeks ago
+3973c59 : libhwui: make setSurface asynchronous <Thomas Buhot> 10 weeks ago
+2f123cd : core: Don't enable qualcomm location overlay by default <Michael Bestas> 4 days ago
+ 
+**** vanir:frameworks_native ****
+1598a30 : Allow legacy sensor HALs to skip required permission checks <Ethan Chen> 3 weeks ago
+ 
+**** cm:CyanogenMod/android_frameworks_opt_net_wifi ****
+214bf2c : wifi: Fix for re-association failure (auto join) <Ravi Joshi> 4 weeks ago
+100946b : wifi: Handle the NULL check for the STATUS command <c_rrajiv> 8 months ago
+ 
+**** vanir:frameworks_opt_telephony ****
+0cfdefd : Telephony: Allow more RIL methods to be overridden <Varun Chitre> 17 hours ago
+b72ea20 : Set default subscriptions when single SIM is available <Ethan Chen> 8 days ago
+03a1f3a : Skip unknown tags instead of aborting when parsing UICC TLV data <Thomas Wendt> 10 months ago
+96104d7 : Implement UICC TLV Data decoding. <Shantur Rathore> 12 months ago
+28e2329 : UiccController: add back registerForOn <Pawit Pornkitprasan> 11 months ago
+efece1f : UiccController: use registerForAvailable only when persist.radio.apm_sim_not_pwdn is enabled <Pawit Pornkitprasan> 11 months ago
+b991900 : Set default subscriptions when single SIM is available <Ethan Chen> 8 days ago
+1477974 : CdmaLteServiceStateTracker: allow forcing reading eri from xml <Dan Pasanen> 11 months ago
+ 
+**** cm:CyanogenMod/android_hardware_broadcom_libbt ****
+97df6c9 : libbt-vendor: add support for Samsung semco <Dheeraj CVR> 13 hours ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_audio ****
+13a1747 : policy_hal: Line up default features with rest of HAL <Ethan Chen> 4 days ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_wlan ****
+9c2dd9e : Validation of GSCAN configuration parameters <Srinivas Dasari> 6 weeks ago
+343a1cd : wifi:Stub out support for SET_AP_WPS_P2P_IE command <Sravanthi Palakonda> 7 months ago
+492704b : wcnss_service: Add non hex characters support in serial no. <Siddharth Bhal> 1 year, 1 month ago
+8634b59 : wcnss_service: Retry qmi client init with port RMNET_0 <Siddharth Bhal> 1 year, 1 month ago
+ 
+**** vanir:hardware_samsung ****
+e48f786 : libgralloc: Fix refresh rate calculation <Caio Schnepper> 2 days ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+64dbf4d : lge_touch: Use KNOCK_ON double tap handling code <Ethan Chen> 9 days ago
+ee5fbe2 : lge_touch: Generate KEY_POWER events for double tap gesture <Ricardo Cerqueira> 9 days ago
+5b50ab6 : lge_touch: Revert all changes to LGE touch driver <Ethan Chen> 9 days ago
+926431e : g2: Clean up kernel configs <Ethan Chen> 10 days ago
+b09bdcb : media: radio: Fix building and loading the IRIS transport <Ricardo Cerqueira> 10 days ago
+01361d1 : mm, oom: make dump_tasks public <Liam Mark> 1 year, 6 months ago
+2f5088e : introduce for_each_thread() to replace the buggy while_each_thread() <Oleg Nesterov> 1 year, 10 months ago
+940baa1 : mm: Add notifier framework for showing memory <Laura Abbott> 1 year, 2 months ago
+cbd8c94 : mm: vmpressure: allow in-kernel clients to subscribe for events <Vinayak Menon> 9 months ago
+0486e68 : memcg: add memory.pressure_level events <Anton Vorontsov> 2 years, 7 months ago
+49a532d : lowmemorykiller: avoid false adaptive LMK triggers <Vinayak Menon> 4 months ago
+d4ecc03 : lowmemorykiller: adapt to vmpressure <Vinayak Menon> 9 months ago
+c956ac4 : lowmemorykiller: Do proper NULL checks <Susheel Khiani> 10 months ago
+7a6a7ac : lowmemorykiller: Run the lowmemory notifier when killing <Laura Abbott> 1 year, 2 months ago
+39a7b34 : lowmemorykiller: Dump out slab state information <Laura Abbott> 1 year, 2 months ago
+6dd1ca2 : lowmemorykiller: enhance debug information <Liam Mark> 1 year, 6 months ago
+da52c7a : lowmemorykiller: use for_each_thread instead of buggy while_each_thread <Vinayak Menon> 7 months ago
+459998d : lowmemorykiller: make default lowmemorykiller debug message useful <Colin Cross> 2 years, 7 months ago
+8c126d1 : lowmemorykiller: Don't count swap cache pages twice <Liam Mark> 9 months ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+18362ef : msm8226: configs: disable CONFIG_SYSVIPC <Greg Hackmann> 13 days ago
+ 
+**** vanir:kernel_samsung_jf ****
+9a8662a : bcmdhd: update bcmdhd from samsung sources <Dheeraj CVR> 5 days ago
+ 
+**** cmold:android_kernel_samsung_smdk4412 ****
+c917c50 : t0lte:Use lzma for compression <rogersb11> 29 hours ago
+86b32bd : n51xx : use LZMA instead of GZIP to reduce recovery size <RGIB> 31 hours ago
+ 
+**** vanir:platform_manifest ****
+7575ead : Osprey otus <DHOMD> 6 hours ago
+e61e2b5 : HLTEtmo follow our own <DHOMD> 7 hours ago
+3b48934 : Remove an unused repo <DHOMD> 31 hours ago
+b45e888 : Revert "Revert "Revert "vendor_qcom_opensource_dataservices""" <DHOMD> 2 days ago
+4109c8e : Some very irregular requirements for LGE's G4 <DHOMD> 2 days ago
+2ad1d2e : G4 by LGE <DHOMD> 2 days ago
+af17b4f : Revert "Revert "vendor_qcom_opensource_dataservices"" <DHOMD> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Contacts ****
+853b759 : Expose the contact list text colors. <Bryan Owens> 3 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_PackageInstaller ****
+45bdbf7 : Themes: Allow PackageInstaller tab Background to be themed <Nicholas Chum> 2 days ago
+ 
+**** vanir:packages_apps_Settings ****
+87ed376 : Settings: update contributors cloud db <Brinly Taylor> 7 hours ago
+e10510b : Revert "settings: contributors cloud" <DHOMD> 7 hours ago
+8d17b9a : settings: contributors cloud <Jorge Ruesga> 4 months ago
+c9503e0 : Use ScreenType util from cmsdk <LorDClockaN> 10 months ago
+afc48d7 : settings: Remove direct usage of CMHardware <Steve Kondik> 3 days ago
+ac36872 : A few Vanir references <DHOMD> 3 days ago
+732cec2 : Settings: Allow launching display rotation settings externally <Michael Bestas> 9 months ago
+ 
+**** vanir:packages_services_Telephony ****
+c2ba6de : Telephony: reload CarrierConfig based on changes to build display version <Dave Daynard> 8 days ago
+ 
+**** vanir:system_core ****
+5692966 : adb: host: Provide better sideload status <Tom Marshall> 12 months ago
+c96c137 : Partially revert "healthd: allow custom charger" <Ethan Chen> 30 hours ago
+1a8d317 : adb: Fix recovery_mode <Tom Marshall> 7 hours ago
+52746ee : healthd: Actually use correct common backlight function <Ethan Chen> 29 hours ago
+78c2848 : healthd: Call common backlight function <Ethan Chen> 30 hours ago
+1705d1c : Revert "healthd: charger: Add backlight control in charging animation" <Ethan Chen> 31 hours ago
+7cad6ee : healthd: charger: Add backlight control in charging animation <Fenglin Wu> 1 year, 3 months ago
+ae15b25 : healthd: Turn screen off before rebooting <Pat Erley> 6 weeks ago
+34dd214 : init: Allow targets to ignore the ro.revision property <Christopher N. Hesse> 3 days ago
+ 
+**** cm:CyanogenMod/cm_platform_sdk ****
+ad00d5b : cmsdk: Add initial cleanspec. <Adnan Begovic> 33 hours ago
+33fecfb : cmsdk: Compile in internal java src files to internal sdk. <Adnan Begovic> 34 hours ago
+bcc94d1 : utils: Introduce ScreenType class <Michael Bestas> 3 days ago
+95bb1d5 : Protected Components: Adding validator. Fixing crash in Trebuchet due to missing validator. <Vineet Patil> 29 hours ago
+a3baf9c : migration: Clean up abstractions. <Adnan Begovic> 2 days ago
+4ae9604 : cmsdk: Reimplement helper methods for secondary telephony service. <Adnan Begovic> 6 days ago
+c221959 : cmsdk: Re-enable multiple profiles functions. <Adnan Begovic> 6 days ago
+ 
+**** commotio:commotio ****
+1fe76c6 : Osprey otus <DHOMD> 4 hours ago
+381c752 : G4... and a bacon commit I will likely roll back <DHOMD> 2 days ago
+ 
+**** vanir:vendor_htc ****
+7ea8e45 : dlx: remove blobs we no longer use <Dan Pasanen> 2 days ago
+ 
+**** vanir:vendor_lge ****
+426d2f4 : bullhead: fix package names <Jake Whatley> 6 hours ago
+205418b : bullhead: jars are prebuilt <Jake Whatley> 6 hours ago
+dc0b0e7 : g3: remove blobs we no longer use <Dan Pasanen> 2 days ago
+4a5ba5d : Consolidated g4 from Muppets <DHOMD> 2 days ago
+ 
+**** vanir:vendor_motorola ****
+571be8a : Add Osprey (Moto G 2015) + otus (Moto E 2015) <DHOMD> 7 hours ago
+bc47e98 : victara: remove blobs we no longer use <Dan Pasanen> 2 days ago
+f84c11a : qcom-common: hex edit libqc-opt for version 55 <dhacker29> 20 hours ago
+cb6aabb : shamu: Add whitelist_com.android.omadm.service.xml <dhacker29> 3 days ago
+cbb68b3 : shamu: Enable Sprint and Project FI <dhacker29> 3 days ago
+ 
+**** vanir:vendor_oneplus ****
+99d5589 : bacon: Update blobs <Steve Kondik> 3 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oppo ****
+69ea186 : msm8974: Update blobs <Steve Kondik> 3 days ago
+ 
+**** vanir:vendor_samsung ****
+320f572 : jf: remove blobs we no longer use <Dan Pasanen> 2 days ago
+326fb1c : n5100 : RIL blobs from 4.4.4 <RGIB> 2 weeks ago
+ 
+**** vanir:vendor_vanir ****
+a67df5f : Vanir inverted is soooo 2013 <DHOMD> 4 hours ago
+f4e8f29 : Trial of new defalt wallpaper <DHOMD> 4 hours ago
+fa5d0a5 : Osprey Otus <DHOMD> 4 hours ago
+fd1fefc : Correct Tele2 Sweden APNs and remove Comviq Sweden. <Per Lycke> 33 hours ago
+60f84d5 : G4 <DHOMD> 2 days ago
+d662c96 : FFS no more CM wallpaper! <DHOMD> 3 days ago
+829c0ed : sepolicy: Allow adb pull of executables without root <Steve Kondik> 3 days ago
+ 
