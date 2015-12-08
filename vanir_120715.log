@@ -1,0 +1,102 @@
+
+**** vanir:art ****
+29bd42b : art: allow devices to disable CAF bailout patches <Simon Shields> 2 days ago
+ 
+**** vanir:build ****
+297f115 : Hacks <DHOMD> 3 months ago
+059dafe : Fix uncompressed ramdisk generation <Jake Whatley> 6 weeks ago
+0bed6ab : earlysquisher: set APKCERTS <nuclearmistake> 8 hours ago
+3c3a51a : check_product: set BUILD_NUMBER for vanir_targets the same way cm does for theirs <nuclearmistake> 26 hours ago
+56041e7 : dopush: Add support for OS X <LuK1337> 6 days ago
+ 
+**** vanir:device_htc_flounder ****
+8cb3309 : Revert "flounder: CM already defines RIL sepolicy" <Luís da Ponte> 20 hours ago
+ae6be83 : Support USB OTG storage in the correct way for M <André Pinela> 2 days ago
+366a9a5 : Storage_list.xml is deprecated <Abhisek Devkota> 2 weeks ago
+ 
+**** cm:CyanogenMod/android_device_htc_m8-common ****
+5676651 : m8: add libdivxdrmdecrypt dependencies <Dan Pasanen> 5 hours ago
+ 
+**** vanir:device_huawei_angler ****
+7a2348d : Enable change from CdmaLteServiceStateTracker: allow forcing reading eri from xml <nuclearmistake> 12 days ago
+ 
+**** vanir:device_lge_g3-common ****
+8a0ddb8 : g3: add libdivxdrmdecrypt dependencies <Dan Pasanen> 5 hours ago
+ 
+**** vanir:device_moto_shamu ****
+53c0833 : sepolicy: Fix for atfwd denial <dhacker29> 6 months ago
+ 
+**** cm:CyanogenMod/android_device_motorola_maserati ****
+9f161ff : maserati: add androidboot.hardware=mapphone_cdma to kernel cmdline <Michael Gernoth> 8 minutes ago
+ 
+**** vanir:device_motorola_msm8226-common ****
+fa4b0c5 : msm8226-common: Refactor PowerHAL <Gabriele M> 3 weeks ago
+d400eb9 : msm8226-common: lights: Fix compiler warnings <Gabriele M> 9 days ago
+cf89ca0 : msm8226-common: PowerHAL: Don't handle low power hints <Gabriele M> 11 days ago
+aed5c37 : msm8226-common: camera: BFC fps range fixup for falcon/peregrine <Gabriele M> 22 hours ago
+ 
+**** cm:CyanogenMod/android_device_motorola_victara ****
+97bc398 : victara: add libdivxdrmdecrypt dependencies <Dan Pasanen> 5 hours ago
+ 
+**** cm:CyanogenMod/android_device_samsung_i605 ****
+21d100a : i605: Enable CDMA options <Ethan Chen> 2 weeks ago
+c4f2a62 : i605: Remove obsolete Mms overlay <Arne Coucheron> 13 days ago
+4940f4b : i605: remove duplicate build flags <Dan Pasanen> 13 days ago
+ 
+**** vanir:device_samsung_jf-common ****
+aed0bb7 : jf: build libdivxdrmdecrypt <Dan Pasanen> 6 hours ago
+4680f98 : jf: Use COMMON_PATH for local directory <Zhao Wei Liew> 12 days ago
+8d004af : jf: Remove mpctl default_values file on boot <Zhao Wei Liew> 12 days ago
+ 
+**** cm:CyanogenMod/android_device_samsung_jflteusc ****
+706ee2a : jflteusc: Use Common R970 Blobs <Paul Keith> 4 weeks ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+e190a60 : msm8960: build libdivxdrmdecrypt <Dan Pasanen> 6 hours ago
+ 
+**** vanir:kernel_samsung_klte ****
+2d0abf3 : kltechn: Import China variant defconfig <ljzyal> 2 hours ago
+5bd9862 : ARM: dts: kltechn: Import China variant entries <ljzyal> 2 hours ago
+ 
+**** vanir:platform_manifest ****
+9940ff2 : tilapia == grouper <nuclearmistake> 6 hours ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Dialer ****
+d713943 : Add people and reverse lookup provider "Auskunft" (AT). <Martin Herndl> 5 months ago
+ca7b74d : Dialer: fix NPE in ReverseLookupService.doLookup <Altaf-Mahdi> 12 months ago
+ 
+**** vanir:packages_apps_Settings ****
+8331303 : Settings: Always enable the per-app pulse light settings <Gabriele M> 4 months ago
+050c08b : Settings: make dashboard icons color consistent <gabriele> 9 hours ago
+b0887a5 : Settings: skip Misc/Overcounted battery stats in builds <myfluxi> 8 hours ago
+3dd3598 : Settings: we do not ship Google Now Launcher wallpapers <jrizzoli> 8 hours ago
+ 
+**** cm:CyanogenMod/android_packages_services_Telecomm ****
+9aaa637 : telecom: Ensure that we always update bluetooth in dsda case <Christopher R. Palmer> 33 hours ago
+ 
+**** vanir:packages_services_Telephony ****
+889c24f : Fix removal of 'all accounts' preference. <Danny Baumann> 8 hours ago
+ 
+**** cm:CyanogenMod/android_system_vold ****
+ee33dd4 : vold: Fix fsck on public volumes <Michael Bestas> 23 hours ago
+ 
+**** vanir:vendor_htc ****
+5bf1542 : m8: add libdivxdrmdecrypt dependencies <Dan Pasanen> 5 hours ago
+ 
+**** vanir:vendor_lge ****
+59081a4 : g3: add back libdivxdrmdecrypt dependencies <Dan Pasanen> 5 hours ago
+ 
+**** vanir:vendor_motorola ****
+f2b5fd1 : victara: add libdivxdrmdecrypt dependencies <Dan Pasanen> 5 hours ago
+ 
+**** vanir:vendor_samsung ****
+71b2f20 : jflteusc: Move to jflter970 <Paul Keith> 4 weeks ago
+9b409f9 : jf: add back libdivxdrmdecrypt dependencies <Dan Pasanen> 6 hours ago
+bb86a40 : msm8960: add back libdivxdrmdecrypt dependencies <Dan Pasanen> 6 hours ago
+ 
+**** vanir:vendor_vanir ****
+fbfc434 : changelogger: pin the manifest in a PINNED_MANIFESTS directory after generating a changelog - the log and pinned manifest have the same name but different extension <nuclearmistake> 2 hours ago
+90c7deb : Revert "Shorten Mondrianwifi to fix 91 character rules" <nuclearmistake> 6 hours ago
+795b910 : Revert "91 character fix" <nuclearmistake> 6 hours ago
+7a2c73d : apns: update for IMS <Roman Birg> 4 days ago
+ 
