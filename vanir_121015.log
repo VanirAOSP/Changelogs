@@ -1,0 +1,373 @@
+
+**** vanir:build ****
+7c9f62e : Hacks <DHOMD> 3 months ago
+ 
+**** cm:CyanogenMod/android_development ****
+23936f4 : idegen: don't use hardcoded out directory <Khalid Zubair> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_cyanogen_msm8916-common ****
+41efa08 : msm8916: Update SELinux policy for btnvtool context <Ethan Chen> 2 days ago
+ 
+**** vanir:device_htc_m8 ****
+c63f886 : bdroid: sync with bacon <Dan Pasanen> 3 days ago
+ 
+**** cm:CyanogenMod/android_device_htc_m8dug ****
+97cd1c1 : bdroid: sync with bacon <Dan Pasanen> 3 days ago
+ 
+**** cm:CyanogenMod/android_device_htc_msm8974-common ****
+8cad6d2 : fstab: don't mount wcnss partition <Dan Pasanen> 2 days ago
+80fa595 : wifi: Bring in M prima changes <Bruno Martins> 4 weeks ago
+ 
+**** vanir:device_huawei_angler ****
+4eccc27 : proprietary-blobs.txt: update for MMB29M <nuclearmistake> 2 days ago
+b1eb151 : InputEventFind moved to vendor/bin. this solution removes it from proprietary blobs. Alternatively, we could update its pull-from location and its file_context to ship it in /system <nuclearmistake> 3 days ago
+1c66096 : angler: update extractor for mmb29m blobs <nuclearmistake> 3 days ago
+3910255 : Fix derped absolute outdir <nuclearmistake> 10 days ago
+a528134 : use /tmp as .tmp confuses brunch <Lance R. Vick> 9 days ago
+909d1f6 : fixed derps from not testing again after var cleanup <Lance R. Vick> 9 days ago
+9a79693 : extract files directly from google hosted factory image <Lance R. Vick> 10 days ago
+12a62c7 : fix ims.apk blob path <Lance R. Vick> 10 days ago
+43eee4c : Enable change from CdmaLteServiceStateTracker: allow forcing reading eri from xml <nuclearmistake> 2 weeks ago
+1c40ff7 : Enable IMSI from Sim <DHOMD> 5 days ago
+aff8603 : Disable modem debugger on userdebug builds... reserve it for eng builds <nuclearmistake> 5 days ago
+a76d5aa : fatten them a bit more to see what happens <nuclearmistake> 5 days ago
+7751ee7 : Increase dex2oat threats because 6P has fat balls <nuclearmistake> 5 days ago
+6195512 : Factory images = 10,0,1 - aosp = 9,0,1 <nuclearmistake> 10 days ago
+1320cac : Maybe fix volte audio <Sam Mortimer> 3 weeks ago
+38e2372 : Enable multicolor LED <Sam Mortimer> 5 weeks ago
+e7f1dc1 : Define which hardware keys are present <Sam Mortimer> 4 weeks ago
+14f93eb : Enable change from CdmaLteServiceStateTracker: allow forcing reading eri from xml <nuclearmistake> 2 weeks ago
+40b2314 : Enable IMSI from Sim <DHOMD> 5 days ago
+ 
+**** vanir:device_lge_g3-common ****
+d5c6647 : Warning!  Service gsiff_daemon needs a SELinux domain defined; please fix! <DHOMD> 62 minutes ago
+ 
+**** vanir:device_motorola_msm8226-common ****
+5b4be4d : msm8226-common: cmhw: Add isSelfManaged for SRE module <Steve Kondik> 3 days ago
+b3c58dd : msm8226-common: do not check fsg, modem and persist <Luca Stefani> 29 hours ago
+bc92df6 : msm8226-common: Remove unneeded vold flags <Luca Stefani> 3 days ago
+0a0768c : msm8226-common: Add ANT+ support <LuK1337> 4 days ago
+1221b50 : msm8226-common: Update sec_config <LuK1337> 32 hours ago
+ 
+**** vanir:device_motorola_omap4-common ****
+8904ade : sepolicy: updates for M <Michael Gernoth> 29 hours ago
+ 
+**** cm:CyanogenMod/android_device_motorola_victara ****
+b7463f0 : cmhw: add isSelfManaged to SunlightEnhancement <Dan Pasanen> 13 hours ago
+ 
+**** vanir:device_oneplus_bacon ****
+b61accf : bacon: Reduce audio latency <Steve Kondik> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_oppo_find7-common ****
+090dd34 : fstab: mount ext4 cache and data with journal_async_commit <Dan Pasanen> 9 days ago
+ 
+**** cm:CyanogenMod/android_device_oppo_msm8974-common ****
+079ec3b : lights: fix battery light not turning off <Alexander Martinz> 9 days ago
+bd9ccab : lights: Cleanup the code <Michael Bestas> 9 days ago
+43205f7 : msm8974: Call btnvtool using a service <Steve Kondik> 3 days ago
+5f2c123 : msm8974: Import changes from 1.5 release <Steve Kondik> 3 days ago
+ 
+**** cm:CyanogenMod/android_device_samsung_d2-common ****
+be02724 : d2RIL: move back to kk blobs <Dan Pasanen> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_samsung_d2att ****
+4cb9688 : Revert "props: commonize libril" <Dan Pasanen> 2 days ago
+ 
+**** vanir:device_samsung_d2spr ****
+8101567 : Revert "props: commonize libril" <Dan Pasanen> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_samsung_d2vzw ****
+58bb0f9 : Revert "props: commonize libril" <Dan Pasanen> 2 days ago
+ 
+**** vanir:device_samsung_t0lte ****
+a9eda4b : Shim library for missing symbols in Samsung blobs <Arne Coucheron> 4 weeks ago
+ 
+**** vanir:external_sepolicy ****
+52ee76f : /bin/sh for crond: This is not the hack you're looking for <nuclearmistake> 2 days ago
+ 
+**** cm:CyanogenMod/android_external_stagefright-plugins ****
+487d143 : stagefright-plugins: Fix video of resolution 320x240 <Keith Mok> 28 hours ago
+f7f46cc : ffmpeg-extractor: Fix sample aspect ratioa issue <Keith Mok> 31 hours ago
+5101cbe : ffmpeg: Fix crash when avio_check is called <Keith Mok> 9 weeks ago
+ 
+**** vanir:frameworks_av ****
+4d1793b : stagefright: Fix videot thumbnail retrival for wmv <Keith Mok> 25 hours ago
+6904c9a : stagefright: Override to use ffmpeg for decoding wmv1 <Keith Mok> 27 hours ago
+7450c3d : libstagefright: Fix for testException <Manikanta Kanamarlapudi> 8 months ago
+c973285 : audiopolicy: Add voip flag to output flag list <Karthik Reddy Katta> 4 weeks ago
+ 
+**** vanir:frameworks_base ****
+958e4d0 : livedisplay: Handle self-managed SRE/SVI implementations <Steve Kondik> 3 days ago
+dbe7222 : Added show volume panel tile to QS <stofstik> 4 months ago
+c7a735c : QSDragPanel : Fix loading of tiles <Danesh M> 26 hours ago
+a119231 : QSBooleanSettingsRow : Add default value attribute <Danesh M> 26 hours ago
+db9cc40 : QS: add Sync tile (1/2) <Altaf-Mahdi> 10 months ago
+2b920de : Toast: Fix toast layout for RTL <d34d> 27 hours ago
+7ea79cf : SystemUI: Enable three icon switching within QS DND tile <Mike xdnax> 7 days ago
+a616e3a : SystemUI: add NFC tile <Roman Birg> 11 months ago
+3187e88 : SystemUI: port compass tile to cm-13.0 <Roman Birg> 11 months ago
+6be220d : QSTiles : Switch to sdk constants <Danesh M> 2 days ago
+bd85853 : SystemUI : Add adb over network tile <Danesh M> 11 months ago
+ 
+**** vanir:frameworks_native ****
+7cacf26 : libbinder: allow devices to disable ashmem size tracking <forkbomb> 8 days ago
+c7d193a : Fix the execution point of onFrameAvailable/onFrameReplaced callbacks <Christian Poetzsch> 4 days ago
+ 
+**** cm:CyanogenMod/android_frameworks_opt_hardware ****
+a949d95 : hardware: Reference internal sdk instead of external. <Adnan Begovic> 10 days ago
+ 
+**** vanir:frameworks_opt_telephony ****
+f44be14 : Also activate default UICC apps once after SIM presence. <Danny Baumann> 3 days ago
+fa7ee16 : UiccController: use registerForAvailable only for persist.radio.apm_sim_not_pwdn <Pawit Pornkitprasan> 12 months ago
+cd35dc0 : Revert "Use radio availability to sync card status instead of radio on" <Ethan Chen> 2 days ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_audio ****
+9d90f41 : msm8974: Clean up PCM offload checks in policy HAL <Steve Kondik> 29 hours ago
+baaa8b9 : hal: Add support for perf lock management (continued) <Ravi Kumar Alamanda> 3 months ago
+86659ab : audio HAL: do not stop capture on overrun <Eric Laurent> 5 months ago
+8c88487 : hal: add support for ull audio playback <Ravi Kumar Alamanda> 6 months ago
+ 
+**** cmold:android_kernel_htc_msm8974 ****
+a4c1227 : md: use kzalloc() when bitmap is disabled <Benjamin Randazzo> 5 months ago
+8af2577 : ipv6: addrconf: validate new MTU before applying it <Marcelo Leitner> 10 months ago
+0f2f7e9 : net: fix iterating over hashtable in tcp_nuke_addr() <Dmitry Torokhov> 5 months ago
+b19fd17 : pagemap: do not leak physical addresses to non-privileged userspace <Kirill A. Shutemov> 9 months ago
+745d49e : __ptrace_may_access() should not deny sub-threads <Mark Grondona> 2 years, 3 months ago
+e545e80 : mm: reorder can_do_mlock to fix audit denial <Jeff Vander Stoep> 9 months ago
+5e6f09f : KEYS: Fix crash when attempt to garbage collect an uninstantiated keyring <David Howells> 8 weeks ago
+825e505 : KEYS: Fix race between key destruction and finding a keyring by name <David Howells> 3 months ago
+345781e : KEYS: Add invalidation support <David Howells> 3 years, 7 months ago
+44650fe : KEYS: Permit in-place link replacement in keyring list <David Howells> 3 years, 7 months ago
+3a7ee43 : KEYS: Perform RCU synchronisation on keys prior to key destruction <David Howells> 3 years, 7 months ago
+db04dcb : KEYS: Fix handling of stored error in a negatively instantiated user key <David Howells> 2 weeks ago
+e26facf : tty/serial: at91: RS485 mode: 0 is valid for delay_rts_after_send <Nicolas Ferre> 7 months ago
+f2a5662 : serial: of-serial: Remove device_type = "serial" registration <Michal Simek> 8 months ago
+1faac14 : serial: xilinx: Use platform_get_irq to get irq description structure <Michal Simek> 8 months ago
+9858555 : Change email address for 8250_pci <Russell King> 9 months ago
+536df0a : serial: samsung: wait for transfer completion before clock disable <Robert Baldyga> 1 year, 1 month ago
+b1d6ea2 : serial: Fix divide-by-zero fault in uart_get_divisor() <Peter Hurley> 1 year, 2 months ago
+f3f0db0 : serial: 8250: Add Quark X1000 to 8250_pci.c <Bryan O'Donoghue> 1 year, 3 months ago
+7b7074c : 8250_pci: fix warnings in backport of Broadcom TruManage support <Paul Gortmaker> 1 year, 4 months ago
+4aa9c2f : sunsab: Fix detection of BREAK on sunsab serial console <Christopher Alexander Tobias Schulze> 1 year, 4 months ago
+3393d02 : tty/serial: Add support for Altera serial port <Ley Foon Tan> 2 years, 9 months ago
+3493504 : 8250/16?50: Add support for Broadcom TruManage redirected serial port <Stephen Hurd> 2 years, 11 months ago
+16402ab : Fix 4 port and add support for 8 port 'Unknown' PCI serial port cards <Scott Ashcroft> 2 years, 9 months ago
+9d7494a : serial: pch_uart: fix tty-kref leak in rx-error path <Johan Hovold> 2 years, 3 months ago
+cf9690d : serial: pch_uart: fix tty-kref leak in dma-rx path <Johan Hovold> 2 years, 3 months ago
+c8259d8 : tty: serial: imx: don't reinit clock in imx_setup_ufcr() <Dirk Behme> 3 years, 3 months ago
+4104f30 : serial: add support for 200 v3 series Titan card <Yegor Yefremov> 2 years ago
+7f5f35e : tty/serial: at91: Handle shutdown more safely <Marek Roszko> 1 year, 11 months ago
+3d45ead : TTY: pmac_zilog, check existence of ports in pmz_console_init() <Geert Uytterhoeven> 2 years, 1 month ago
+5bc6b1b : serial/mxs-auart: increase time to wait for transmitter to become idle <Uwe Kleine-König> 2 years, 5 months ago
+69cbbcf : serial/mxs-auart: fix race condition in interrupt handler <Uwe Kleine-König> 2 years, 5 months ago
+4f1640c : Revert "serial: 8250_pci: add support for another kind of NetMos Technology PCI 9835 Multi-I/O Controller" <Greg Kroah-Hartman> 2 years, 5 months ago
+92f1038 : pch_uart: fix a deadlock when pch_uart as console <Liang Li> 2 years, 11 months ago
+996aedd : serial_core.c: add put_device() after device_find_child() <Federico Vaga> 2 years, 8 months ago
+5f99437 : tty: atmel_serial_probe(): index of atmel_ports[] fix <Pawel Wieczorkiewicz> 2 years, 10 months ago
+a017a3c : sunsu: Fix panic in case of nonexistent port at "console=ttySY" cmdline option <Tkhai Kirill> 2 years, 10 months ago
+af30a17 : tty: serial: fix typo "ARCH_S5P6450" <Paul Bolle> 2 years, 9 months ago
+830bb43 : serial: 8250_pci: add support for another kind of NetMos Technology PCI 9835 Multi-I/O Controller <Wang YanQing> 2 years, 9 months ago
+3288bc3 : tty: 8250_dw: Fix inverted arguments to serial_out in IRQ handler <Maxime Ripard> 2 years, 11 months ago
+2b3e580 : serial:ifx6x60:Delete SPI timer when shut down port <chao bi> 3 years ago
+7b4e35a : Revert "serial: omap: fix software flow control" <Felipe Balbi> 3 years, 2 months ago
+58e2e2b : serial: set correct baud_base for EXSYS EX-41092 Dual 16950 <Flavio Leitner> 3 years, 3 months ago
+eba62e1 : serial: pl011: handle corruption at high clock speeds <Linus Walleij> 3 years, 2 months ago
+c4ec289 : serial: omap: fix software flow control <Vikram Pandita> 3 years, 3 months ago
+18de901 : pch_uart: Add eg20t_port lock field, avoid recursive spinlocks <Darren Hart> 3 years, 6 months ago
+1486e9c : pch_uart: Fix parity setting issue <Tomoya MORINAGA> 3 years, 5 months ago
+d3b9cdc : pch_uart: Fix rx error interrupt setting issue <Tomoya MORINAGA> 3 years, 5 months ago
+87702e0 : pch_uart: Fix missing break for 16 byte fifo <Alan Cox> 3 years, 5 months ago
+828d40b : tty: serial: imx: console write routing is unsafe on SMP <Xinyu Chen> 3 years, 3 months ago
+ 
+**** vanir:kernel_huawei_angler ****
+89e79b2 : Port SYSVIPC removal to cm defconfig <nuclearmistake> 19 hours ago
+dc2cb53 : Set RGB LED brightness for solid indications <Sam Mortimer> 4 weeks ago
+4bddd0b : Set RGB LED brightness for solid indications <Sam Mortimer> 4 weeks ago
+f3b243b : angler: update defconfig <Roman Birg> 29 hours ago
+9741316 : net: wireless: bcmdhd: Disable DNGL event support <Ritter Yeh> 5 weeks ago
+b2f5978 : net: wireless: bcmdhd: Ensure ring memory reading doesn't exceed boundary <Sreenath Sharma> 6 weeks ago
+38d11ab : net: wireless: bcmdhd: reduce control post/complete ring size <Ed Tam> 5 weeks ago
+ba1a6d5 : net: wireless: bcmdhd: Protect sched_scan_req ptr <Ashwin> 5 weeks ago
+c289e59 : net: wireless: bcmdhd: Send results from all PNO scans <Ashwin> 6 weeks ago
+bd10aa4 : net: wireless: bcmdhd: fix for flowring packet drop issue <Insun Song> 6 weeks ago
+0c9f594 : net: wireless: bcmdhd: fix memory corruption issues <Ritter Yeh> 7 weeks ago
+ed09e07 : proc: make oom adjustment files user read-only <Rom Lemarchand> 9 months ago
+87c1e86 : Revert "Grants system server access to /proc/<pid>/oom_adj for Android applications." <Thierry Strudel> 7 weeks ago
+8a9eb47 : uid_cputime: Check for the range while removing range of UIDs. <Ruchi Kandoi> 7 weeks ago
+44d5e30 : Revert "net: wireless: bcmdhd: fix control path synchronization issues on SMP based processor" <Pat Tjin> 7 weeks ago
+f04d672 : angler: charging: Fix the bug of not power off when charger is present <zhen yuan> 7 weeks ago
+4f1a1ab : angler: typec: change the current advertisement to 3A <Wei Li> 8 weeks ago
+7987b62 : ASoC: msm-cpe-lsm: Fix erroneous data channel close <Mekala Natarajan> 7 weeks ago
+96304ae : net: wireless: bcmdhd: Fix to delete buffer only once which is allocated for firmware dump <Gautam> 8 weeks ago
+afbe46b : net: wireless: bcmdhd: post no of rx buffers properly <Jerry Lee> 7 weeks ago
+cadd5c9 : net: wireless: bcmdhd: fix control path synchronization issues on SMP based processor <Ritter Yeh> 9 weeks ago
+345aeb6 : net: wireless: bcmdhd: fix for race condition in flowrings. <Insun Song> 9 weeks ago
+ab1c8f1 : net: wireless: bcmdhd: add a NULL check <Ashwin> 8 weeks ago
+85720f2 : ipc/sem.c: fully initialize sem_array before making it visible <Manfred Spraul> 1 year ago
+4d1b808 : msm: ipc_socket: fix leak of kernel memory to userspace <Patrick Tjin> 8 weeks ago
+f10f4e4 : net: wireless: bcmdhd: remove unnecessary PCIe memory access when BUS down. <Insun Song> 8 weeks ago
+15a311f : ASoC: msm-cpe-lsm: move slimbus channel open to LAB thread <Mekala Natarajan> 8 weeks ago
+005cecb : arm/configs: angler: remove SysV IPC from kernel <Patrick Tjin> 8 weeks ago
+98235fb : net: wireless: bcmdhd: Check the PKTID during RX <Jerry Lee> 9 weeks ago
+9a88833 : checkstack.pl: port to AArch64 <Kyle McMartin> 1 year, 6 months ago
+f4100de : ipv6: inet6_sk() should use sk_fullsock() <Eric Dumazet> 10 weeks ago
+0f9951e : net: add sk_fullsock() helper <Eric Dumazet> 9 months ago
+a3aaf3d : msm: camera2: cpp: Set v4l2_buffer error on micro timeout <Ranjith Kagathi Ananda> 9 weeks ago
+646b15f : msm:camera: Add "flags" to generic memory manager structure <Ranjith Kagathi Ananda> 9 weeks ago
+5bdbf21 : net: wireless: bcmdhd: Ensure buffer posting doesn't exceed maximum value <Sreenath Sharma> 9 weeks ago
+c705d4b : angler: charging: reduce input current for normal charger <zhen yuan> 10 weeks ago
+64ecb35 : net: wireless: bcmdhd: fix for flowring delete pending error <Insun Song> 9 weeks ago
+c8988b2 : net: wireless: bcmdhd: bump up control post/complete ring size <Insun Song> 9 weeks ago
+ 
+**** vanir:kernel_lge_g3 ****
+acf9b55 : md: use kzalloc() when bitmap is disabled <Benjamin Randazzo> 5 months ago
+86e6439 : ipv6: addrconf: validate new MTU before applying it <Marcelo Leitner> 10 months ago
+e552fd1 : net: fix iterating over hashtable in tcp_nuke_addr() <Dmitry Torokhov> 5 months ago
+d5e8b63 : pagemap: do not leak physical addresses to non-privileged userspace <Kirill A. Shutemov> 9 months ago
+e7478d5 : __ptrace_may_access() should not deny sub-threads <Mark Grondona> 2 years, 3 months ago
+9538704 : mm: reorder can_do_mlock to fix audit denial <Jeff Vander Stoep> 9 months ago
+129c0ef : KEYS: Fix crash when attempt to garbage collect an uninstantiated keyring <David Howells> 8 weeks ago
+eb9f2b5 : KEYS: Fix race between key destruction and finding a keyring by name <David Howells> 3 months ago
+1ae8346 : KEYS: Add invalidation support <David Howells> 3 years, 7 months ago
+c9a9c04 : KEYS: Permit in-place link replacement in keyring list <David Howells> 3 years, 7 months ago
+e4554ff : KEYS: Perform RCU synchronisation on keys prior to key destruction <David Howells> 3 years, 7 months ago
+5f7bbfa : KEYS: Fix handling of stored error in a negatively instantiated user key <David Howells> 2 weeks ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+bfe87eb : mm: reorder can_do_mlock to fix audit denial <Jeff Vander Stoep> 9 months ago
+b27f20b : md: use kzalloc() when bitmap is disabled <Benjamin Randazzo> 5 months ago
+cc7b9f3 : KEYS: Fix crash when attempt to garbage collect an uninstantiated keyring <David Howells> 8 weeks ago
+4e78db9 : KEYS: Fix race between key destruction and finding a keyring by name <David Howells> 3 months ago
+7bbd500 : KEYS: Add invalidation support <David Howells> 3 years, 7 months ago
+c29d48d : KEYS: Permit in-place link replacement in keyring list <David Howells> 3 years, 7 months ago
+c3e87af : KEYS: Perform RCU synchronisation on keys prior to key destruction <David Howells> 3 years, 7 months ago
+6211c7d : KEYS: Fix handling of stored error in a negatively instantiated user key <David Howells> 2 weeks ago
+392fd74 : ipv6: addrconf: validate new MTU before applying it <Marcelo Leitner> 10 months ago
+7572fdb : net: fix iterating over hashtable in tcp_nuke_addr() <Dmitry Torokhov> 5 months ago
+a00d9fc : pagemap: do not leak physical addresses to non-privileged userspace <Kirill A. Shutemov> 9 months ago
+5b1f9c1 : __ptrace_may_access() should not deny sub-threads <Mark Grondona> 2 years, 3 months ago
+ 
+**** cmold:android_kernel_motorola_otus ****
+e5b283e : defconfig: enable BFQ for otus and condor <Sultan Qasim Khan> 2 days ago
+4a2a5b1 : block, bfq: add Early Queue Merge (EQM) to BFQ-v7r8 for 3.4.0 <Mauro Andreolini> 6 months ago
+a88f3ee : block: introduce the BFQ-v7r8 I/O sched for 3.4 <Paolo Valente> 2 years, 7 months ago
+d743e61 : block: cgroups, kconfig, build bits for BFQ-v7r8-3.4 <Arianna Avanzini> 1 year, 10 months ago
+ 
+**** cmold:android_kernel_oneplus_msm8974 ****
+6347fba : ASoC: pcm: If pmdown_time is zero then shut down DAPM immediately <Mark Brown> 3 years, 10 months ago
+9026679 : ASoC: Prevent pop_wait overwrite <Misael Lopez Cruz> 3 years ago
+d192c8d : ASoC: dpcm: Allow FE to be opened without valid BE routes. <Liam Girdwood> 3 years, 5 months ago
+39444e9 : ASoC: pcm: Add support for fixup callback <Anish Kumar> 1 year, 3 months ago
+d334b39 : ASoC: msm: qdsp6v2: return 0 when wait_for_timeout succeed <Banajit Goswami> 3 months ago
+b5acbc4 : ASoC: msm: qdsp6v2: make frame info to static array <Fred Oh> 4 months ago
+84a3679 : ASoC: msm: qdsp6v2: move frame info to be per session based <Patrick Lai> 5 months ago
+3db2dc8 : ASoC: msm: qdsp6v2: Initialize ASM no wait spinlock <Ben Romberger> 7 weeks ago
+840759e : ASoC: msm: qdsp6v2: Track no wait commands <Ben Romberger> 9 weeks ago
+aed6fe4 : ASoC: msm: qdsp6v2: reduce debug logs <Fred Oh> 11 months ago
+125c683d : ASoC: msm: qdsp6v2: Restrict capture path to LL mode <Ravi Kumar Alamanda> 10 months ago
+2a9f6d5 : ASoC: wcd9320: Optimize delay after micbias enable <Sudheer Papothi> 10 months ago
+b4f60df : ASoC: msm: qdsp6v2: enlarge PCM platform driver capture period size <Patrick Lai> 11 months ago
+4e60a61 : asoc: msm: Clean up async ops <Steve Kondik> 2 days ago
+6aaba02 : asoc: msm: Clean up async ops <Steve Kondik> 2 days ago
+609e6c4 : usb: dwc3: Do not call WARN_ON_ONCE from interrupt context <Hemant Kumar> 1 year, 1 month ago
+432e2b0 : bacon: Update defconfig <Steve Kondik> 2 days ago
+ 
+**** cmold:android_kernel_samsung_d2 ****
+5459c27 : ipv6: addrconf: validate new MTU before applying it <Marcelo Leitner> 10 months ago
+125f55a : __ptrace_may_access() should not deny sub-threads <Mark Grondona> 2 years, 3 months ago
+5463064 : KEYS: Fix crash when attempt to garbage collect an uninstantiated keyring <David Howells> 8 weeks ago
+7f7fc90 : KEYS: Fix race between key destruction and finding a keyring by name <David Howells> 3 months ago
+8377943 : KEYS: Add invalidation support <David Howells> 3 years, 7 months ago
+ecfdc24 : KEYS: Permit in-place link replacement in keyring list <David Howells> 3 years, 7 months ago
+62d226d : KEYS: Perform RCU synchronisation on keys prior to key destruction <David Howells> 3 years, 7 months ago
+8ebe3f9 : KEYS: Fix handling of stored error in a negatively instantiated user key <David Howells> 2 weeks ago
+ 
+**** vanir:kernel_samsung_jf ****
+a1112fe : md: use kzalloc() when bitmap is disabled <Benjamin Randazzo> 5 months ago
+4ea1a95 : ipv6: addrconf: validate new MTU before applying it <Marcelo Leitner> 10 months ago
+edbeb26 : net: fix iterating over hashtable in tcp_nuke_addr() <Dmitry Torokhov> 5 months ago
+1c8b42b : __ptrace_may_access() should not deny sub-threads <Mark Grondona> 2 years, 3 months ago
+55a4fc4 : mm: reorder can_do_mlock to fix audit denial <Jeff Vander Stoep> 9 months ago
+08fe361 : KEYS: Fix crash when attempt to garbage collect an uninstantiated keyring <David Howells> 8 weeks ago
+c75f519 : KEYS: Fix race between key destruction and finding a keyring by name <David Howells> 3 months ago
+599a3ba : KEYS: Add invalidation support <David Howells> 3 years, 7 months ago
+445a501 : KEYS: Permit in-place link replacement in keyring list <David Howells> 3 years, 7 months ago
+a907c1e : KEYS: Perform RCU synchronisation on keys prior to key destruction <David Howells> 3 years, 7 months ago
+3ef8b1c : KEYS: Fix handling of stored error in a negatively instantiated user key <David Howells> 2 weeks ago
+ 
+**** vanir:kernel_samsung_klte ****
+8c260bf : kltekdi: Add KDDI variant defconfig <scoty755> 28 hours ago
+4050d14 : ARM: dts: msm: Add Japan variant DTS config <scoty755> 28 hours ago
+ 
+**** vanir:platform_manifest ****
+b978789 : Onyx? <DHOMD> 3 hours ago
+c1f4676 : Oneplus2 kernel to CM for now <DHOMD> 3 hours ago
+b14f177 : Fork system/bt, in case bt file share keeps crashing without ethan chen's revert to a caf commit <nuclearmistake> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_AudioFX ****
+8edd63d : AudioFX: Sync with AOSP translations <Michael Bestas> 30 hours ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Dialer ****
+850f49b : Lookup: fix unencrypted HTTP requests by allowing cleartext traffic <Martin Herndl> 4 days ago
+2d9f534 : Lookup: use a more up-to-date user agent <Martin Herndl> 3 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_InCallUI ****
+5da3b19 : InCallUI: Move CAF strings <Michael Bestas> 11 hours ago
+ 
+**** vanir:packages_apps_Settings ****
+45f47d9 : Fix FC on app notications <DHOMD> 30 minutes ago
+643a8bf : Themes: Use SRC_ATOP tintMode for external tile icons <d34d> 27 hours ago
+1a1ee0a : Sanity check to settings menu <DHOMD> 27 hours ago
+cdc1de1 : Fix FC when trying to adjust radio band via *#*#4636#*#* dialer code. <Andrew Xie> 2 years, 10 months ago
+9e4ebaf : Settings : Port over reorganization from 12.1 <Danesh M> 8 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Stk ****
+6fb4106 : Stk: Move CAF strings <Michael Bestas> 1 year, 9 months ago
+4c7c70c : Stk: EL AOSP translation modification <Michael Bestas> 1 year, 9 months ago
+ 
+**** vanir:packages_apps_ThemeChooser ****
+d35a8c1 : Fix duplicate "Get More" buttons in menu <d34d> 26 hours ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Trebuchet ****
+cffa514 : Trebuchet: Use new protected app extras <cretin45> 30 hours ago
+ 
+**** cm:CyanogenMod/android_packages_providers_TelephonyProvider ****
+18ca1ba : Modified notify() to return the Uri being modified so that ContentObservers can be informed of the modified Uri <gkipnis> 3 weeks ago
+ 
+**** cm:CyanogenMod/cm_platform_sdk ****
+ed0f0ce : CMSDK : Ensure getAvailableTiles clones object <Danesh M> 3 hours ago
+55eb818 : CMSDK : Add screen timeout tile <Danesh M> 3 hours ago
+66d189a : CMSDK : Add usb tether tile <Danesh M> 4 hours ago
+b5db07a : CMSDK: Add profiles tile <LuK1337> 8 hours ago
+066a58e : cmsdk: Add helper class for working with colors <Steve Kondik> 10 weeks ago
+968127f : cmsdk: Add CMHW method to check if SRE is self managed <Steve Kondik> 3 days ago
+8719ebf : CMSDK : Add volume tile <Danesh M> 25 hours ago
+5cace15 : CMSDK : Add sync tile <Danesh M> 26 hours ago
+be217ae : CMSDK : Add nfc tile <Danesh M> 29 hours ago
+34ef4e3 : CMSDK : Add compass tile <Danesh M> 2 days ago
+af4d676 : cmsdk: Add QS utility classes. <Adnan Begovic> 2 days ago
+ 
+**** vanir:vendor_htc ****
+706e999 : m8: update wcnss firmware <Dan Pasanen> 2 days ago
+ 
+**** vanir:vendor_huawei ****
+35fd29f : omadm service <AndroidUser00110001> 12 days ago
+9743865 : Proprietary Files: Enable Project Fi and Sprint <AndroidUser00110001> 7 days ago
+bc958f2 : Squish script correction deltas and 6.0.1_r3 regeneration <nuclearmistake> 32 hours ago
+ 
+**** vanir:vendor_oneplus ****
+fb61913 : onyx: Remove redundant modules <Ashwin> 3 weeks ago
+f1422ba : onyx: Nuke com.qualcomm.location for bootup <Ashwin> 3 weeks ago
+77f6be1 : onyx: Update adreno blobs <Ashwin> 3 weeks ago
+e325574 : onyx: Initial blobs <Ashwin> 3 weeks ago
+ 
+**** github:TheMuppets/proprietary_vendor_oppo ****
+eb7171c : msm8974: Update blobs <Steve Kondik> 3 days ago
+ 
+**** vanir:vendor_samsung ****
+203f2fe : Revert "d2: Use rild and libril.so from Galaxy A5 lollipop" <Dan Pasanen> 2 days ago
+ 
+**** vanir:vendor_vanir ****
+9adea76 : crond selinux flailing <nuclearmistake> 2 days ago
+9dadfe5 : Improve matchfingerprints: fix a couple conditionalization derps and don't spam makefile names that have unchanged contents <nuclearmistake> 2 days ago
+ 

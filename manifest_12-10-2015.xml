@@ -15,12 +15,12 @@
   <project name="AICP/kernel_asus_grouper" path="kernel/asus/grouper" remote="github" revision="98b0682d2bde4b22ceff01fa3852f269507d53c3" upstream="mm6.0"/>
   <project name="CyanogenMod/AndroidAsync" path="external/koush/AndroidAsync" revision="58688ac2fa2668bf84c7e38410bd2c9f7a8123ee" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_abi_cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" upstream="cm-13.0"/>
-  <project groups="cts,pdk-cw-fs,pdk-fs" name="CyanogenMod/android_cts" path="cts" revision="7c1f322e4198c10c905ed12355408f33d0a69f70" upstream="cm-13.0"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_development" path="development" revision="c35fae7fa869b6dc3554bdbb1519a9f328363699" upstream="cm-13.0"/>
+  <project groups="cts,pdk-cw-fs,pdk-fs" name="CyanogenMod/android_cts" path="cts" revision="0b4c9492ee12483350785eb5b70ca7e9a8caa095" upstream="cm-13.0"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_development" path="development" revision="23936f4ae0261c36d1ac79c8991e786c5d52b99e" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_device_asus_fugu" path="device/asus/fugu" revision="dad022f46e432adfc253ab898998bc021f928a19" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_device_common" path="device/common" revision="a477cb1ed90e03c03228c36c6941298217bd930d" upstream="cm-13.0"/>
-  <project name="CyanogenMod/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" revision="81ab0bb0f0d6724faaffb6b965369be229ee4565" upstream="cm-13.0"/>
-  <project name="CyanogenMod/android_device_cyanogen_msm8939-common" path="device/cyanogen/msm8939-common" revision="ec87751b508dc7600fb92a0ebab21adb7acacac4" upstream="cm-13.0"/>
+  <project name="CyanogenMod/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" revision="41efa0831f15ff76a825ff1a53e214f089478b3d" upstream="cm-13.0"/>
+  <project name="CyanogenMod/android_device_cyanogen_msm8939-common" path="device/cyanogen/msm8939-common" revision="b05ef9e0d7467a5885640db3a0fa6a2e3d58069f" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_device_generic_arm64" path="device/generic/arm64" revision="39249053f37b7f9633eb406af3dbedfea7bf8b3e" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_device_generic_armv7-a-neon" path="device/generic/armv7-a-neon" revision="0e7af778b59c0ff590e21fcce8cfc9176dc0d13d" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_device_generic_common" path="device/generic/common" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461" upstream="cm-13.0"/>
@@ -30,8 +30,8 @@
   <project name="CyanogenMod/android_device_htc_evita" path="device/htc/evita" revision="aef49c24785b1f43730f647ebc54f45f46c754ea" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_device_htc_jewel" path="device/htc/jewel" revision="f9e39a847044d096d64c8dbdeafad07113cb4a13" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_device_htc_m8-common" path="device/htc/m8-common" revision="5676651e5dcc2fb418d9ab4c4b1ff8391c34390d" upstream="cm-13.0"/>
-  <project name="CyanogenMod/android_device_htc_m8dug" path="device/htc/m8dug" revision="ac80563b5dcace2f256539a7f2f4217635b6c0ac" upstream="cm-13.0"/>
-  <project name="CyanogenMod/android_device_htc_msm8974-common" path="device/htc/msm8974-common" revision="d73f2374b06876840ffac629b2cad644898cbfda" upstream="cm-13.0"/>
+  <project name="CyanogenMod/android_device_htc_m8dug" path="device/htc/m8dug" revision="97cd1c180c2652f752a9a81af6d78c364c1bfde8" upstream="cm-13.0"/>
+  <project name="CyanogenMod/android_device_htc_msm8974-common" path="device/htc/msm8974-common" revision="8cad6d22054fb802cf84cc3fc7b30756f893c37a" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_device_htc_ville" path="device/htc/ville" revision="dc52a7fc15a3c232903a6d00e8ef2e15589ee469" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_device_lge_d850" path="device/lge/d850" revision="b5aeae428e4e4569b6c73f01cd3707f65c00e174" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_device_lge_d851" path="device/lge/d851" revision="6fd95ed1a96232b88fe5e923edd1ea408cb307e0" upstream="cm-13.0"/>
@@ -44,18 +44,18 @@
   <project name="CyanogenMod/android_device_motorola_condor" path="device/motorola/condor" revision="0370e49df6e5abddffd3c70357610f20de0ff542" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_device_motorola_maserati" path="device/motorola/maserati" revision="9f161ffaecbc1aae4169960193cd4f11e4152674" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_device_motorola_osprey" path="device/motorola/osprey" revision="f79d370a2c1143a08fc79dd49421a04b5c3d4d21" upstream="cm-13.0"/>
-  <project name="CyanogenMod/android_device_motorola_otus" path="device/motorola/otus" revision="8f9857b52c4c0da9fb1389314908bd8846bdb558" upstream="cm-13.0"/>
-  <project name="CyanogenMod/android_device_motorola_victara" path="device/motorola/victara" revision="97bc398586431422d7899ae640a9bc14ba886a84" upstream="cm-13.0"/>
+  <project name="CyanogenMod/android_device_motorola_otus" path="device/motorola/otus" revision="2d0a0c4d1f2555a55808999fe0148303a7bcdcb7" upstream="cm-13.0"/>
+  <project name="CyanogenMod/android_device_motorola_victara" path="device/motorola/victara" revision="b7463f0ccfa07bc1a132c5c2e153061215efd4fd" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_device_oppo_find7" path="device/oppo/find7" revision="d2af5d244bd61e4143b24909a38c48ca2beb4b1d" upstream="cm-13.0"/>
-  <project name="CyanogenMod/android_device_oppo_find7-common" path="device/oppo/find7-common" revision="92d46dd0fe9a64fbf2596c7b6d093f62e27c445a" upstream="cm-13.0"/>
+  <project name="CyanogenMod/android_device_oppo_find7-common" path="device/oppo/find7-common" revision="090dd349f1d2a2766bfa0f08fceceb1722e13c72" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_device_oppo_find7s" path="device/oppo/find7s" revision="dd9504dbbdefe64d562d229a6ca05a03cbf9301f" upstream="cm-13.0"/>
-  <project name="CyanogenMod/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" revision="681dc703aa73ce6d88c90bab57cc0765b98c8494" upstream="cm-13.0"/>
+  <project name="CyanogenMod/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" revision="079ec3bc7d6e97fbff104dcb2da57dbeb26e2363" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_device_oppo_n1" path="device/oppo/n1" revision="8ce75e257420dc6cf80da17e48f094a836dab8a2" upstream="cm-13.0"/>
-  <project groups="GS3_device" name="CyanogenMod/android_device_samsung_d2-common" path="device/samsung/d2-common" revision="4bd95739270c3945af38a78a1308df6b482504e3" upstream="cm-13.0"/>
-  <project groups="GS3_device" name="CyanogenMod/android_device_samsung_d2att" path="device/samsung/d2att" revision="3c8029d3f0760d7a35ecb5cb4261a4d12229f4c9" upstream="cm-13.0"/>
-  <project groups="GS3_device" name="CyanogenMod/android_device_samsung_d2vzw" path="device/samsung/d2vzw" revision="d491b36beffbd8a57e236e73d856fac8633677f3" upstream="cm-13.0"/>
+  <project groups="GS3_device" name="CyanogenMod/android_device_samsung_d2-common" path="device/samsung/d2-common" revision="be027245958f7f1bc5901edb61b947c2abf85ef1" upstream="cm-13.0"/>
+  <project groups="GS3_device" name="CyanogenMod/android_device_samsung_d2att" path="device/samsung/d2att" revision="4cb96884098f37fe24b9fcfd9492a3706d3d7c79" upstream="cm-13.0"/>
+  <project groups="GS3_device" name="CyanogenMod/android_device_samsung_d2vzw" path="device/samsung/d2vzw" revision="58bb0f9d4457cf0519294f957d587f6a233a1396" upstream="cm-13.0"/>
   <project groups="hlte_device" name="CyanogenMod/android_device_samsung_hlte" path="device/samsung/hlte" revision="a1583ab2cfb213a42846b7f28e3d14c2f1d6fcc2" upstream="cm-13.0"/>
-  <project groups="hlte_device" name="CyanogenMod/android_device_samsung_hlte-common" path="device/samsung/hlte-common" revision="dd3bad1925317a47e64661b34476ff50e7862eeb" upstream="cm-13.0"/>
+  <project groups="hlte_device" name="CyanogenMod/android_device_samsung_hlte-common" path="device/samsung/hlte-common" revision="169b38046ac184272307af16df4fc1e39a6c448a" upstream="cm-13.0"/>
   <project groups="hlte_device" name="CyanogenMod/android_device_samsung_hltespr" path="device/samsung/hltespr" revision="5545b824e31ad1305d8fb23031bb758d9c79399c" upstream="cm-13.0"/>
   <project groups="device" name="CyanogenMod/android_device_samsung_i605" path="device/samsung/i605" revision="21d100a9c1e67e0bd08458566f8a26127ef3385b" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_device_samsung_jflteatt" path="device/samsung/jflteatt" revision="4a9f7e660fbc5c563a695ea44087506500a65abd" upstream="cm-13.0"/>
@@ -81,7 +81,7 @@
   <project name="CyanogenMod/android_device_sony_taoshan" path="device/sony/taoshan" revision="a46cabca62d6055e431e0064d70f354eb243f8b2" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_device_sony_togari" path="device/sony/togari" revision="412b6a6b1dfa254f54ae87987d8c90190876f533" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_device_yu_lettuce" path="device/yu/lettuce" revision="6bd7580b5d087e8d61856f701b312c68f643d136" upstream="cm-13.0"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_external_android-clat" path="external/android-clat" revision="11ffa2451829c9bcb86f00c1cfff9f3be4b7064c" upstream="cm-13.0"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_external_android-clat" path="external/android-clat" revision="54455ee38fc75efa23fc7b8e57ca1c954380ecbe" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_external_android-mock" path="external/android-mock" revision="430842c5090ed78aae44ba08dd55ee648c852f56" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_android-visualizer" path="external/android-visualizer" revision="38d5cf3f9345faba0d97a32ab37dc97a2f36cf1a" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_external_ant-glob" path="external/ant-glob" revision="0f189400fd2a36bf11bfb058e7f3917eb7ed163a" upstream="cm-13.0"/>
@@ -99,14 +99,14 @@
   <project name="CyanogenMod/android_external_connectivity" path="external/connectivity" revision="9a6a5e7b56f1e67c7e585d75f18eacc54398695d" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_curl" path="external/curl" revision="1e63af5a4f8b28fe02d3ebcc0fa5e9099d4a334a" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_external_dhcpcd" path="external/dhcpcd" revision="a38d6f2b74d5953b3d7726415aef907eb3cde1f9" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_external_dnsmasq" path="external/dnsmasq" revision="f16178371856ff9b9d739e5b7122f1e82ee1d681" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_external_dnsmasq" path="external/dnsmasq" revision="8c1a3f59193843be785f1f3d31ab97b3e6b06c1e" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_external_e2fsprogs" path="external/e2fsprogs" revision="d377698f96e3aa8cedaef5fd10c15de2bc614a7b" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_ebtables" path="external/ebtables" revision="b070104dcb72b99825d645e9e41a5362bd4ff735" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_external_elfutils" path="external/elfutils" revision="84c2ce7fcb4b7d8694f0fcce19b910ae9eb84252" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_exfat" path="external/exfat" revision="b9ffe8e520bb23dfbc57441a0aa505133e70438b" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_external_f2fs-tools" path="external/f2fs-tools" revision="1ccb75a19078093bbddd49d1507fd5bafc688114" upstream="cm-13.0"/>
-  <project name="CyanogenMod/android_external_ffmpeg" path="external/ffmpeg" revision="5d367768e7fe607f9d0709e5a571f438880047f9" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_external_flac" path="external/flac" revision="72a7ede4d73ea48fb2ceeaa56d5ad50997048e5d" upstream="cm-13.0"/>
+  <project name="CyanogenMod/android_external_ffmpeg" path="external/ffmpeg" revision="a4a2a44d6836e2f58d9112bdb384e4f2cfac905d" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_external_flac" path="external/flac" revision="9d7d223465b0012ecca7e2fca9ee1c7b8304ef79" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_external_fsck_msdos" path="external/fsck_msdos" revision="10e42bba874acde198c4c028247790b23b7ab6a3" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_fuse" path="external/fuse" revision="e7068fc9bcd57aa91203fe845085b28c0f5ed561" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_gmock" path="external/gmock" revision="31293b8f01859b67f23f2883485fc2fa11a79e7d" upstream="cm-13.0"/>
@@ -114,26 +114,26 @@
   <project groups="pdk-fs" name="CyanogenMod/android_external_gptfdisk" path="external/gptfdisk" revision="1c3ad1dffdbd52c6ab842a564cd953ff567b7ee5" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_gson" path="external/gson" revision="4bc2ec0628f74bc24c3820951f4ca2c91e516f7a" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_htop" path="external/htop" revision="841159c272ac08b1cd5bdef5167a8ce11383fbb5" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_external_icu" path="external/icu" revision="89053f564096e19dcbc8337b6fdd8a62d64cb608" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_external_icu" path="external/icu" revision="b2f7a8a6492bee3a1d5a93581f27c171ecedd0b1" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_external_iproute2" path="external/iproute2" revision="791d8c99b8cad6b3b41a679e1ae0f236f43d75a3" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_external_iptables" path="external/iptables" revision="e075a20fc1379d617d1e4e7b064ea1d50eac10d6" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_external_jarjar" path="external/jarjar" revision="41c2bca43edfc197c3c67619115b9a70d9227008" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_external_jpeg" path="external/jpeg" revision="56afb4bad3a175fb3150c0b78ec5f9fce03e45b1" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_external_jsr305" path="external/jsr305" revision="ed2d3938efee97e6316b849759dc913cbc831f95" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_external_libavc" path="external/libavc" revision="c67b6e93f45be6dd5d56c7e69ad48aad02c06026" upstream="cm-13.0"/>
-  <project name="CyanogenMod/android_external_libncurses" path="external/libncurses" revision="c1bcd6dd9af6865867a3d6716e4c1a45021a90e5" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_external_libavc" path="external/libavc" revision="9cf14a5109535b374156969683595930977d1ccc" upstream="cm-13.0"/>
+  <project name="CyanogenMod/android_external_libncurses" path="external/libncurses" revision="067ae32f7e4b45bb1cb7ba37d0ffe618905e049f" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_libnetfilter_conntrack" path="external/libnetfilter_conntrack" revision="484024be0704ff670076d6b9f0e1b04865c6c7e2" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_external_libnfc-nci" path="external/libnfc-nci" revision="1409df9d90ea66c26aa9e4ab5384b9f1b707260b" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_external_libnfc-nci" path="external/libnfc-nci" revision="bac4648b6fb7226513a6d7d4986ead007bcfbef5" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_external_libnfc-nxp" path="external/libnfc-nxp" revision="76f8fa7177767cb377f9212e207e3ac16f9b8d48" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_libnfnetlink" path="external/libnfnetlink" revision="80ba60f6a117f73fb4497615511dac44870eacdb" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_libphonenumbergoogle" path="external/libphonenumbergoogle" revision="6d3030c03cc39c4921b77dbf3f4905be41585881" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_external_libpng" path="external/libpng" revision="62fc3c2adc07fcc6adaa3d407b2c9e837091609e" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_external_libpng" path="external/libpng" revision="8e14020e8415bc83d146e223c7ef255657e55fbe" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_external_libselinux" path="external/libselinux" revision="943ed44a46ed95d557bf552b57fe61280a77489c" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_libtar" path="external/libtar" revision="6f1e8f6709505aaf3d7f04f9bb4eb9632b3f6786" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_libtruezip" path="external/libtruezip" revision="45ac3d07b5a4753bd1abc9fa38fd48221312a3d9" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_external_libusb" path="external/libusb" revision="3a36cef7ef847d3839090a7c98eb961a602af55b" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_libusbx" path="external/libusbx" revision="b0b31904b50218c17dad7b9d893d3b6ab7a26bfa" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_external_libvpx" path="external/libvpx" revision="4ec72fb10684276b048d5b3a6ba7a88d43b06411" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_external_libvpx" path="external/libvpx" revision="97350a91ce5d1e677e77bcfd8159aeb7e378015f" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_external_libvterm" path="external/libvterm" revision="6d78f36633063dad0689ca42be1ad8d0313ebfab" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs,libxml2" name="CyanogenMod/android_external_libxml2" path="external/libxml2" revision="16304977ca877f04b55b1f4a0848107f36af26ad" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_libxslt" path="external/libxslt" revision="98f5140c33273d3bd67ca03566f8417406001016" upstream="cm-13.0"/>
@@ -146,7 +146,7 @@
   <project name="CyanogenMod/android_external_nano" path="external/nano" revision="b6b3db7812180de1fa47d3def13cbd71d7f2f3b5" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_external_nist-sip" path="external/nist-sip" revision="b23dbfce7ea84c39cea75b612868a5832cb9af2b" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_ntfs-3g" path="external/ntfs-3g" revision="137b2b77ec6fcaae23ad089a46aa6e5705a945b8" upstream="cm-13.0"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_external_okhttp" path="external/okhttp" revision="6da3ca97aa9a4a019b8512bec869c090c80d55e1" upstream="cm-13.0"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_external_okhttp" path="external/okhttp" revision="d6aee7cb0e277d48ca444aabff5300a720153a90" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_external_openssh" path="external/openssh" revision="cfb649f16fb638fa1c8c7e4cc229ce547dfa14d6" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_p7zip" path="external/p7zip" revision="6bb7e47aa7324bb7e80ab12bf7a1de49884ff208" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_external_pcre" path="external/pcre" revision="0d3d4875d4e672ab52cfd421da9a7fddbbaecda3" upstream="cm-13.0"/>
@@ -154,23 +154,23 @@
   <project name="CyanogenMod/android_external_powertop" path="external/powertop" revision="2e8047abcebf8d12b6ca1d14bb520cf9344086fc" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_protobuf-c" path="external/protobuf-c" revision="f5acb16b4e8b57f5be4083960023982443bddbca" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_rsync" path="external/rsync" revision="a36d905455cc35d7092e8429f468df1f8d922b4e" upstream="cm-13.0"/>
-  <project groups="pdk,qcom_msm8x26" name="CyanogenMod/android_external_skia" path="external/skia" revision="4a2faba55c4e914046952877eb71b65fb63f6d1e" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_external_sonivox" path="external/sonivox" revision="c189da0fbdc91139509b52af40785cd1349503e4" upstream="cm-13.0"/>
+  <project groups="pdk,qcom_msm8x26" name="CyanogenMod/android_external_skia" path="external/skia" revision="9c5e87bd6fdd24613d5b17c5a7b1bb5517a7e962" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_external_sonivox" path="external/sonivox" revision="7de711fdc11b1cf480e144bcee9d61678bca9487" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" revision="3f339d21936ede85b4f1507559c350908ec2ec75" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_external_speex" path="external/speex" revision="ff03110e77ec7fe716c5be11783746f59c814e30" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_external_spongycastle" path="external/spongycastle" revision="fc2a21c6321063531b273385708adc81a8e51a31" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_external_sqlite" path="external/sqlite" revision="d7546c92e722d04a373a6795f2435bb3c42fbd51" upstream="cm-13.0"/>
-  <project name="CyanogenMod/android_external_stagefright-plugins" path="external/stagefright-plugins" revision="fe777d6eab7412cfbc4d0e1d8c64599b1fbe5c9b" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_external_sqlite" path="external/sqlite" revision="24a47a6976128bbfc755523a5e170b4110c0cadc" upstream="cm-13.0"/>
+  <project name="CyanogenMod/android_external_stagefright-plugins" path="external/stagefright-plugins" revision="487d143895ee1d79c55d037a66f739f45a5f46d6" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" revision="176973f0a182bab49f43993aefa34e0d76790ac9" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_external_strace" path="external/strace" revision="a0ef057d0e1e8bfd4a4cb84113668f516ce8ba57" upstream="cm-13.0"/>
   <project groups="pdk,pdk-cw-fs,pdk-fs" name="CyanogenMod/android_external_tcpdump" path="external/tcpdump" revision="b5d6f230d44e96d2ac9cbd7f6bb2862fa88a60c4" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_external_tinyalsa" path="external/tinyalsa" revision="d762c50816527af23c2927df2f1d97948229c770" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_external_tinycompress" path="external/tinycompress" revision="3c9df82b91a86d58ba11be90d6fb555438a6209e" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_external_tinycompress" path="external/tinycompress" revision="7aafdef5659802f01c4036f778687a1f84d40267" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_external_tinyxml2" path="external/tinyxml2" revision="9d9aed466bbe37c993de79de71b6afbf091f99af" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_unrar" path="external/unrar" revision="04f0097904667f822e7476318f30b8f45be64f9a" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_unzip" path="external/unzip" revision="a24c870b9f87ce692bdd352e2dfa4e06fcd266b5" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_vim" path="external/vim" revision="d3985c08268db9bc8ae64de293e27cd4c6eba6f7" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="213afc9b7dcaab6bbdc91fa28aaca5a46f0d2820" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="ef1e5c29e48d2c227efd270f746c831dd255b5b7" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_external_yaffs2" path="external/yaffs2" revision="7b55a9a7cb7c40289d1bb6cd5b39775be524ddc1" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_external_zip" path="external/zip" revision="ac4f560c264cef168d4834f50a51538d3e422739" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_external_zlib" path="external/zlib" revision="17bd251bea62b0440ce26b03ee275e8b6beba44a" upstream="cm-13.0"/>
@@ -179,7 +179,7 @@
   <project groups="pdk" name="CyanogenMod/android_frameworks_compile_slang" path="frameworks/compile/slang" revision="e29831fd37cff02f731617a6e11ca69ee1901992" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_ex" path="frameworks/ex" revision="8d069cf9807027f7b3148589292f8f0544179ebf" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_mff" path="frameworks/mff" revision="b9669b8540a1e5c953374d53b115514335e23c27" upstream="cm-13.0"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_minikin" path="frameworks/minikin" revision="9b9883f253c09a6ff1bdc56648cdec524a583cf3" upstream="cm-13.0"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_minikin" path="frameworks/minikin" revision="4055ec7d38073b5cf93864ba25e6f12cb8720917" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_ml" path="frameworks/ml" revision="e0721529b9662b5ffb6cc7daf5b097720f5eb3e8" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_multidex" path="frameworks/multidex" revision="805db15e4d7baa57062ad08fb03eeac8691475c8" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_frameworks_opt_bitmap" path="frameworks/opt/bitmap" revision="856e2a9d72fe3a79cd7bfa5cf443d13a60495c4b" upstream="cm-13.0"/>
@@ -190,61 +190,61 @@
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_opt_colorpicker" path="frameworks/opt/colorpicker" revision="092656988fa7ead4196a9e0f118db8a898e49091" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_opt_datetimepicker" path="frameworks/opt/datetimepicker" revision="91d41a003359d92d1c8105fc7991eb1160d856a9" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_opt_emoji" path="frameworks/opt/emoji" revision="709f713ebcd62c61defc270d945810efca179621" upstream="cm-13.0"/>
-  <project name="CyanogenMod/android_frameworks_opt_hardware" path="frameworks/opt/hardware" revision="90d3456a5491c3b9f4d7e1e0ea379132de770b13" upstream="cm-13.0"/>
+  <project name="CyanogenMod/android_frameworks_opt_hardware" path="frameworks/opt/hardware" revision="a949d95a82b87ff05e44f19a503e71cb8ef421f6" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" path="frameworks/opt/inputmethodcommon" revision="990fcb1a6dbb5d1204cc8ec86e4bc3f691f4aeeb" upstream="cm-13.0"/>
-  <project groups="pdk-fs" name="CyanogenMod/android_frameworks_opt_net_ethernet" path="frameworks/opt/net/ethernet" revision="1475139bf2c2727bc0dde5cf50cfc3d2278f2542" upstream="cm-13.0"/>
-  <project groups="frameworks_ims,pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_opt_net_ims" path="frameworks/opt/net/ims" revision="0c0529301b645cd83aa6d1c2fc7922d8a2f1c64e" upstream="cm-13.0"/>
+  <project groups="pdk-fs" name="CyanogenMod/android_frameworks_opt_net_ethernet" path="frameworks/opt/net/ethernet" revision="2a21941a046fca9b7a7ff79903bc32523d1c22e5" upstream="cm-13.0"/>
+  <project groups="frameworks_ims,pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_opt_net_ims" path="frameworks/opt/net/ims" revision="d988928fc7e5b7407c547b02f5579ba7e5e87f0f" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_opt_net_voip" path="frameworks/opt/net/voip" revision="7b21ed512efedc31ab4acb93f02efb8f4a1329a2" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" revision="3b56a6aba71e7d666b3f2d6c44389e1187904d73" upstream="cm-13.0"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_opt_photoviewer" path="frameworks/opt/photoviewer" revision="82a3a657df5db3ab139d5533b583690ec2f20e3c" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" revision="3336c57f92a097ba15fbb8ed13022d2bf205bd64" upstream="cm-13.0"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_opt_photoviewer" path="frameworks/opt/photoviewer" revision="af2006cfdd55808afdddda79ab7ef14f4991ee0b" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_opt_setupwizard" path="frameworks/opt/setupwizard" revision="a30259bf61a6676d546dcd4907b515212b4d23fa" upstream="cm-13.0"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_opt_timezonepicker" path="frameworks/opt/timezonepicker" revision="c73869176721d68cb1aa04f7c83ac12e840ceabd" upstream="cm-13.0"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_opt_timezonepicker" path="frameworks/opt/timezonepicker" revision="4e32b238f531d57379a11caa86ec91bb8c283b2a" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_opt_vcard" path="frameworks/opt/vcard" revision="22b057b0863763c2f4634935dd09c15e3f1e11d7" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_frameworks_rs" path="frameworks/rs" revision="9c97680cb9b27131ff6cc848cd367d7246ed5724" upstream="cm-13.0"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_support" path="frameworks/support" revision="adb9b6733987e1c97299f687f7d2614a1fe69e9e" upstream="cm-13.0"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_support" path="frameworks/support" revision="5757d1ccef4fde8f1e8511e7c820f28c3b297042" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_volley" path="frameworks/volley" revision="04c1a6e545336540689b5700291fa7f521a769de" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_webview" path="frameworks/webview" revision="c46ee701577f3baa76bb85a87f729e1a81523b2a" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_frameworks_wilhelm" path="frameworks/wilhelm" revision="7c35dac75c2fc02470620e16c482c366884f6850" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_hardware_akm" path="hardware/akm" revision="85837c2e77e032a834121ec3b9b6128f691d68a8" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" revision="97df6c956ebe97c9cfcc701641e5d66e50bda2db" upstream="cm-13.0"/>
-  <project groups="pdk,broadcom_wlan" name="CyanogenMod/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" revision="c39d0144a4f59667f0b06eb18bd91cb3557c4848" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" revision="419938a2f03fb5220c252dc9c005cb46c62245f5" upstream="cm-13.0"/>
+  <project groups="pdk,broadcom_wlan" name="CyanogenMod/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" revision="8b0fc72a293ded57f3aabd4aefba2540fa92b723" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_hardware_cm" path="hardware/cm" revision="29efe6b33b4421ce1a28f3e4a612c805219faa82" upstream="cm-13.0"/>
-  <project name="CyanogenMod/android_hardware_cyanogen" path="hardware/cyanogen" revision="c1879666dc0aea985ac8f1a2724ef6d85cc15e4a" upstream="cm-13.0"/>
+  <project name="CyanogenMod/android_hardware_cyanogen" path="hardware/cyanogen" revision="1f716ab4d43004ee6226017d90ece57a99662a1f" upstream="cm-13.0"/>
   <project groups="intel" name="CyanogenMod/android_hardware_intel_common_libmix" path="hardware/intel/common/libmix" revision="68e939ffa64c34bef2272cfe6346f43ee84d1611" upstream="cm-13.0"/>
   <project groups="intel" name="CyanogenMod/android_hardware_intel_common_libwsbm" path="hardware/intel/common/libwsbm" revision="ac747113d4f6739b1462ca7fb40f2091691e209b" upstream="cm-13.0"/>
   <project groups="intel" name="CyanogenMod/android_hardware_intel_img_hwcomposer" path="hardware/intel/img/hwcomposer" revision="d1d49956ed8cfe4c2363670a3d019c52a4128f8c" upstream="cm-13.0"/>
   <project groups="intel" name="CyanogenMod/android_hardware_intel_img_psb_video" path="hardware/intel/img/psb_video" revision="cf82d4e3f5d063a5a284662052cbbc6f124f37e3" upstream="cm-13.0"/>
   <project groups="invensense" name="CyanogenMod/android_hardware_invensense" path="hardware/invensense" revision="dfb04fdc823b8406a080764ae01235a3ee1ad06a" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" revision="dffd851fe1038a6cbdb95006a33ad6eb00536c8c" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" revision="c20f2cc6ed871459a6e0b4ebbeaeffb7675290b3" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="39cb5d375654be853ac7cbf696b6c4d0393cd846" upstream="cm-13.0"/>
   <project groups="nvidia_audio" name="CyanogenMod/android_hardware_nvidia_audio" path="hardware/nvidia/audio" revision="3134b055c05e3681c1f71eed23bd0bd8e57ddfa7" upstream="cm-13.0"/>
-  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio/default" revision="001fb3afe18c7aa06f7c435f0a46f802f82f2a40" upstream="cm-13.0"/>
+  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio/default" revision="9f78676f577ac731943299c9860d1c899aa018be" upstream="cm-13.0"/>
   <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/apq8084" revision="a9bf1aa5507d94c89ea3e074d7198e8eb3d1f57b" upstream="cm-13.0-caf-8084"/>
   <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8916" revision="7cc4db8c42611067d6e655f499871a26d5a1c923" upstream="cm-13.0-caf-8916"/>
-  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" revision="a4f8cb19073cf092043fc329a9c1106ec0c9024a" upstream="cm-13.0-caf-8960"/>
-  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" revision="ad1a08a0ea06b3eb0c5dd079275076f0a992027b" upstream="cm-13.0-caf-8974"/>
+  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" revision="b457ca9aa4a9c0fb57d4287844bf32e08b2364e6" upstream="cm-13.0-caf-8960"/>
+  <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" revision="9d90f4159c207e8efa76aed1d78bf84b4e351ac1" upstream="cm-13.0-caf-8974"/>
   <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8994" revision="7e5939758a472d29486ee514177e9768f8ccba0d" upstream="cm-13.0-caf-8994"/>
   <project groups="qcom,qcom_audio" name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" revision="ab6ba9c0911e12f4ea59cd1c8a232b81b3ff714a" upstream="cm-13.0-caf-8996"/>
   <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8660" remote="github" revision="d7fe849324178b37e84efa40828202c6bc333700" upstream="cm-12.1-caf-8660"/>
   <project groups="qcom" name="CyanogenMod/android_hardware_qcom_bt" path="hardware/qcom/bt" revision="6b1e6a67b52644ba0e44d64534c1cd75b62329fa" upstream="cm-13.0"/>
   <project groups="qcom" name="CyanogenMod/android_hardware_qcom_bt" path="hardware/qcom/bt-caf" revision="59979719e55522da01b07f95d4d3e1a82ad43d24" upstream="cm-13.0-caf"/>
-  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_camera" path="hardware/qcom/camera" revision="89f6c94be0d8369022fd8d6353f235e94bb586f1" upstream="cm-13.0"/>
-  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display" revision="0bd8fe85ae1ca5d19f540fd0fabefe1a456f9d13" upstream="cm-13.0"/>
-  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/apq8084" revision="5b27d2d20412960e154fba72357c2eafbcdf01d2" upstream="cm-13.0-caf-8084"/>
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_camera" path="hardware/qcom/camera" revision="0b27895201570937d889c6b1158692c5f917efcd" upstream="cm-13.0"/>
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display" revision="a88abd64f76d828ee90cb29c519512800dd38b79" upstream="cm-13.0"/>
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/apq8084" revision="2d84ec706d3bf3a99dd8cf19248ceefd5e63df84" upstream="cm-13.0-caf-8084"/>
   <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8916" revision="fe70e3831d5d91988872871fab3243134bc75e45" upstream="cm-13.0-caf-8916"/>
-  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8960" revision="f5160f7742a2e902d2125312b94c9235fcdc06ba" upstream="cm-13.0-caf-8960"/>
-  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" revision="952f1d47387cc6f74ed098503a65049fc4a92226" upstream="cm-13.0-caf-8974"/>
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8960" revision="192b634b01e3346b2db653c221009c71cee66d62" upstream="cm-13.0-caf-8960"/>
+  <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" revision="735e8c359dae26dc4518aa8672ff06310e1db43f" upstream="cm-13.0-caf-8974"/>
   <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8994" revision="df5855fe6a31974b17dbc6263afa6be8ec9ffba2" upstream="cm-13.0-caf-8994"/>
   <project groups="pdk,qcom,qcom_display" name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8996" revision="d9715de8baa476d03d912a0cd944c8481dd7e272" upstream="cm-13.0-caf-8996"/>
   <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8660" remote="github" revision="43eb706f20c4e25b571c4e49d8b21b9b25013c93" upstream="cm-12.1-caf-8660"/>
   <project groups="qcom,qcom_fm" name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" revision="ecf9478f2a22b952c0763c94d2f6b527ad4fc302" upstream="cm-13.0"/>
   <project groups="qcom,qcom_gps" name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps" revision="87ced9a4e99669a0e6fd658fa1af39e4edebcf61" upstream="cm-13.0"/>
   <project groups="qcom,qcom_keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" revision="5161822df31b4732bcd4ae482425ea803df6ac36" upstream="cm-13.0"/>
-  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media/default" revision="058375e591218cbec2bd3d44e6b84e8a3aca0b8d" upstream="cm-13.0"/>
-  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/apq8084" revision="f3bcd466986fd0425a7d1bcffd3fe53bc4851b04" upstream="cm-13.0-caf-8084"/>
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media/default" revision="74d7d046aeb29bfd82a568eb5d6f1cb5b1672b53" upstream="cm-13.0"/>
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/apq8084" revision="ef9af05db59d198e76d735fcbb787813bcbf1ad4" upstream="cm-13.0-caf-8084"/>
   <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8916" revision="8afe31f238285e64a05d8be8efc48d671502e928" upstream="cm-13.0-caf-8916"/>
   <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" revision="799cd1d99314a3717f68c75f2bb6f0e785aace8d" upstream="cm-13.0-caf-8960"/>
-  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" revision="f191436178c86ac491f062ac195ae2f539da0e68" upstream="cm-13.0-caf-8974"/>
+  <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" revision="f8524bea5b8636f5c5a77152e3ac008ed051a9e2" upstream="cm-13.0-caf-8974"/>
   <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8994" revision="a8e57df62afe6b9344bb391ace34c52bc656f135" upstream="cm-13.0-caf-8994"/>
   <project groups="qcom" name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996" revision="fb94441e4c21f62001caa7499d3ee2427d205a4b" upstream="cm-13.0-caf-8996"/>
   <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8660" remote="github" revision="1ca4738bea19885ba0b1bfc3aeef84e3226422b7" upstream="cm-12.1-caf-8660"/>
@@ -259,63 +259,63 @@
   <project groups="omap4" name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" revision="b94c6fe6065530b9b10ac3be53a35906e81a155a" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" revision="107d8fce2f9201d4b8845c11b65f24bccbb2a841" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" revision="bcf2967acf1a644a59cb113891ad618b1a4cad5f" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_libcore" path="libcore" revision="eaea8131f5dd68e346bd65334bd6aa14595d41e4" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_libcore" path="libcore" revision="333a40eacb56043cd8fa0e3e1556a0baead1ccf1" upstream="cm-13.0"/>
   <project groups="pdk" name="CyanogenMod/android_libnativehelper" path="libnativehelper" revision="b7a25286026b49f0f7d95b25f2d32c4f47f498ef" upstream="cm-13.0"/>
-  <project name="CyanogenMod/android_packages_apps_AudioFX" path="packages/apps/AudioFX" revision="1fae703d98380d0e1ad4243e098b3967eebdfdd6" upstream="cm-13.0"/>
+  <project name="CyanogenMod/android_packages_apps_AudioFX" path="packages/apps/AudioFX" revision="8edd63db1abd20c45ba4f4d1b6f2de901155ca6b" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="21e2d9d105fc1b25b41cd78134385f35a055e9f4" upstream="cm-13.0"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" revision="02f994010473de3d32b6d7270e8085f41a936c61" upstream="cm-13.0"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" revision="8decd8cc05076276f3432af700f64a0ad3ae9973" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_packages_apps_BluetoothExt" path="packages/apps/BluetoothExt" revision="d875afe23c2e1badb63629d1cffb744b06a3fbb4" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_Browser" path="packages/apps/Browser" revision="8a8ae93a86e19b07e99e50e9b830ba6e5455bb93" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_Calendar" path="packages/apps/Calendar" revision="c567b7943d324f49368e140fb863aab202e19172" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_Camera2" path="packages/apps/Camera2" revision="b4cb58fd8fc8ed4e52a77104b766773e2650e352" upstream="cm-13.0"/>
-  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" revision="4c59e3d6ddd04d2b3b8463fac893410e0ae5023e" upstream="cm-13.0"/>
-  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="738d3bf9f163c01f3714cf32d57daf34bc4f8802" upstream="cm-13.0"/>
+  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_CarrierConfig" path="packages/apps/CarrierConfig" revision="0dbd51a418f54fe71fbf995bc47cb331eb1a596d" upstream="cm-13.0"/>
+  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="8d7293b7b92f1058bc4ae39580e57f40379af5cb" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_apps_CertInstaller" path="packages/apps/CertInstaller" revision="f81bf8c0353db08d8f49b17f2be17d91450ba550" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_Contacts" path="packages/apps/Contacts" revision="1a447e7d1ca75bfcb5d7c53be6bba8d20ae77518" upstream="cm-13.0"/>
-  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" revision="ca42a57c9c8d56a846ae311b581814bc8d324a62" upstream="cm-13.0"/>
-  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_DeskClock" path="packages/apps/DeskClock" revision="b64e46b3425cf37d16bfc826820ed1004734956a" upstream="cm-13.0"/>
-  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_Dialer" path="packages/apps/Dialer" revision="d7139437781c5ccb7d2ae299fbd3a5221db53961" upstream="cm-13.0"/>
-  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_Email" path="packages/apps/Email" revision="44d848684d0b2c04d30de32c8b51939ac6052f2b" upstream="cm-13.0"/>
-  <project name="CyanogenMod/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" revision="43346b2ba0b6c8d1537da7c8a0e1fa6a19870c37" upstream="cm-13.0"/>
-  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_Exchange" path="packages/apps/Exchange" revision="52a0a23ad4f43e299517c42d7deea57bd42b7582" upstream="cm-13.0"/>
+  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" revision="ac133b5cbcde490e8714046810d84f326e29eccd" upstream="cm-13.0"/>
+  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_DeskClock" path="packages/apps/DeskClock" revision="81e6b54aa2dbba531b4a17f512c44d883db63dd4" upstream="cm-13.0"/>
+  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_Dialer" path="packages/apps/Dialer" revision="850f49b6b40602b510ca9b4a582cec85cd6bd178" upstream="cm-13.0"/>
+  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_Email" path="packages/apps/Email" revision="ebf1d238a40d7c47f280e0064979d0a939231567" upstream="cm-13.0"/>
+  <project name="CyanogenMod/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" revision="9000d115a8c23d81711cf4b22e5d6373c32edfad" upstream="cm-13.0"/>
+  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_Exchange" path="packages/apps/Exchange" revision="3adc6794685dd5fc0580216d67e5c29b9f0deb57" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_FMRadio" path="packages/apps/FMRadio" revision="709ed356a081b4ddf5f91bc71d42eb1a8a1e54a7" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="ae4e264b6378730bbe7c09925cc96fe1e7c106c2" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_HTMLViewer" path="packages/apps/HTMLViewer" revision="0476898b43cf50152e058835bbf1d242355ce0d7" upstream="cm-13.0"/>
-  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_InCallUI" path="packages/apps/InCallUI" revision="eecbb411eec420f04b4cf236e8205118ea7de789" upstream="cm-13.0"/>
+  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_InCallUI" path="packages/apps/InCallUI" revision="5da3b19908d7ea5c9aeb3781a1b2c864a6bfbfbb" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_KeyChain" path="packages/apps/KeyChain" revision="9e57771d942bd89da2268b81a81ad427d333246f" upstream="cm-13.0"/>
-  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="67626da1db0622526b460b14e357ff3d9a5917bc" upstream="cm-13.0"/>
-  <project name="CyanogenMod/android_packages_apps_Messaging" path="packages/apps/Messaging" revision="c43a8587b000007e118eb2f12cc3f58617560fe2" upstream="cm-13.0"/>
-  <project groups="apps_nfc,pdk-fs" name="CyanogenMod/android_packages_apps_Nfc" path="packages/apps/Nfc" revision="f4af2626fc801095e917243e22f541bbab8c0680" upstream="cm-13.0"/>
-  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" revision="45bdbf773e69fc6e93436e93e519d4c4f909ff86" upstream="cm-13.0"/>
+  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="09b5462f785b92084bf77d8972ac6955df560dc4" upstream="cm-13.0"/>
+  <project name="CyanogenMod/android_packages_apps_Messaging" path="packages/apps/Messaging" revision="dbcecc682dcde13911e8373056d933762e8aefca" upstream="cm-13.0"/>
+  <project groups="apps_nfc,pdk-fs" name="CyanogenMod/android_packages_apps_Nfc" path="packages/apps/Nfc" revision="3c66d275d0a3648f159ff9e3a00786f27dafea08" upstream="cm-13.0"/>
+  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" revision="79216f2204c27640250f3c4e0de4889e568048c3" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" revision="894da44c0dda437ab2f4c7f9450b5efcefaf862f" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_packages_apps_Profiles" path="packages/apps/Profiles" revision="00524a85c14fae3ca8b3b1e865d339e02a1379c4" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_Provision" path="packages/apps/Provision" revision="78ca0db658fe6253d506916e36319e620476f809" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_packages_apps_Screencast" path="packages/apps/Screencast" revision="baa621b323747f09548b4375bb5fc9c6131717ff" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_SmartCardService" path="packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_SpeechRecorder" path="packages/apps/SpeechRecorder" revision="725f4c8c46d74bae6795f1b0ddd5fd459e06b6f4" upstream="cm-13.0"/>
-  <project groups="apps_stk,pdk-fs" name="CyanogenMod/android_packages_apps_Stk" path="packages/apps/Stk" revision="49e196b52220fa82150b05e978232e539121d992" upstream="cm-13.0"/>
+  <project groups="apps_stk,pdk-fs" name="CyanogenMod/android_packages_apps_Stk" path="packages/apps/Stk" revision="6fb41064a52d1f20ce50decec5b4d26a4a7386c3" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_Tag" path="packages/apps/Tag" revision="75db8c8fa8841de7281e96c14f3a91be71475069" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_Terminal" path="packages/apps/Terminal" revision="114b09911d2d345b68b6d0cc1420c875de016c7f" upstream="cm-13.0"/>
-  <project name="CyanogenMod/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" revision="58c844daa7abf00ff88c13845dd2ff8c554b8af6" upstream="cm-13.0"/>
-  <project groups="generic_fs" name="CyanogenMod/android_packages_apps_TvSettings" path="packages/apps/TvSettings" revision="07b5c8183b4e8d4d83f6d3631f41363ba290860b" upstream="cm-13.0"/>
-  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" revision="71feedb29c5fe67ddad46442977444b218b0171b" upstream="cm-13.0"/>
+  <project name="CyanogenMod/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" revision="cffa51464e9c6c3bbbac52303e24f521b9b823c8" upstream="cm-13.0"/>
+  <project groups="generic_fs" name="CyanogenMod/android_packages_apps_TvSettings" path="packages/apps/TvSettings" revision="2d8f617de78c888ba5c5b5fa7d48b8dda299a189" upstream="cm-13.0"/>
+  <project groups="pdk-fs" name="CyanogenMod/android_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" revision="df36d07a826919a50e1fc0bef22c860b61a4c65d" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_packages_experimental" path="packages/experimental" revision="7b02b6bbaf0b4330ac05fda8cd47f4044ee2740a" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_providers_BookmarkProvider" path="packages/providers/BookmarkProvider" revision="b30541c3876cf8b73cd06091f4861b710b5babe0" upstream="cm-13.0"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_providers_CalendarProvider" path="packages/providers/CalendarProvider" revision="e58cba0e33832c0b121966cec3c03b276e87fdc4" upstream="cm-13.0"/>
-  <project groups="pdk-fs" name="CyanogenMod/android_packages_providers_CallLogProvider" path="packages/providers/CallLogProvider" revision="a172ae826f3e53c637d239a354acd0a0dd9f40be" upstream="cm-13.0"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" revision="74bd5101646680796c322424598df26b66f0caf6" upstream="cm-13.0"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_providers_CalendarProvider" path="packages/providers/CalendarProvider" revision="91c3ad2cb616e6f42aef5225ddef334bbb5c0489" upstream="cm-13.0"/>
+  <project groups="pdk-fs" name="CyanogenMod/android_packages_providers_CallLogProvider" path="packages/providers/CallLogProvider" revision="220d0484aa09719adf92f4c60c502b2ba81b9e37" upstream="cm-13.0"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" revision="7394f186d54d676516bd2766be39ab8182d1614e" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" revision="e78844e2772becb5b5fbec7e6545726ab1c825ae" upstream="cm-13.0"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" revision="bef7d6d0e0df15101e5f06b77eba9b03faae1750" upstream="cm-13.0"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" revision="110fc49fabe7c42989281cdbe1223334ac9f0de1" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider" revision="96d0a80af45923767baf449fc8c735c2f71d64ae" upstream="cm-13.0"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" revision="fa8fd3e5a69e205c172fd21e1725040160537d33" upstream="cm-13.0"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" revision="18ca1ba24230e7b94fb707c407aa35cbf629e54b" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_packages_providers_ThemesProvider" path="packages/providers/ThemesProvider" revision="c4a60a1aacab57d0587b8b7d5c5eedb7a691e69c" upstream="cm-13.0"/>
-  <project groups="pdk-fs" name="CyanogenMod/android_packages_providers_TvProvider" path="packages/providers/TvProvider" revision="40a6095fc5cb48bffd89e980a6bc04a3d46f6fbe" upstream="cm-13.0"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" revision="d372743743840d94a66a590d30084b44dead7e03" upstream="cm-13.0"/>
+  <project groups="pdk-fs" name="CyanogenMod/android_packages_providers_TvProvider" path="packages/providers/TvProvider" revision="3edf32b0129657ef58e8c60d58ad0ead2c0744b6" upstream="cm-13.0"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" revision="e8f32eb2e6cb9f14896d323b7dc2cc83d5df9cac" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_screensavers_Basic" path="packages/screensavers/Basic" revision="dd650a0c66cfa2b9ef87be57d3d7347cfff648c1" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_screensavers_PhotoTable" path="packages/screensavers/PhotoTable" revision="5fd5e2330ce931b1e9959fa0386be893086e3332" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_screensavers_WebView" path="packages/screensavers/WebView" revision="6e0a80f6faed6191acc8ce1b6c79eada09e9e042" upstream="cm-13.0"/>
   <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_services_Mms" path="packages/services/Mms" revision="db5d16dbc2a25835d471aaeceef6baa67ba0c187" upstream="cm-13.0"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_services_Telecomm" path="packages/services/Telecomm" revision="9aaa63710a972ff74a62a31d9d3e92f7eef38355" upstream="cm-13.0"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="CyanogenMod/android_packages_services_Telecomm" path="packages/services/Telecomm" revision="34aa5e2b6896a56c7f6856376aa42d244269cd0e" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_wallpapers_Basic" path="packages/wallpapers/Basic" revision="1ffbbd3b1afd6fbd2eab61dbc15ee07313718131" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_wallpapers_Galaxy4" path="packages/wallpapers/Galaxy4" revision="28737c8198373247141ae4a01432e3d2a7e0b55e" upstream="cm-13.0"/>
   <project groups="pdk-fs" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" path="packages/wallpapers/HoloSpiral" revision="41d26a2124e1cc9e3a97cd48810750f8c9a322de" upstream="cm-13.0"/>
@@ -325,54 +325,56 @@
   <project groups="pdk-fs" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" path="packages/wallpapers/PhaseBeam" revision="ab689350bcde549a55c07947e63d217c87466795" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_packages_wallpapers_PhotoPhase" path="packages/wallpapers/PhotoPhase" revision="7ee94aecb004bed83087569872f7987dd50e55bf" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_prebuilts_cmsdk" path="prebuilts/cmsdk" revision="090c6d27b42fb64729f071c6f199b10db58c7296" upstream="master"/>
-  <project groups="pdk" name="CyanogenMod/android_system_bt" path="system/bt" revision="127a5246ed83109ebbdd5599d367fc4d750d59c7" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_system_extras" path="system/extras" revision="0558daaec300acf120dd65a6a806b7ea6615dce1" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_system_keymaster" path="system/keymaster" revision="18b04441a40a728bf0b7578d89ff7603b7b21f44" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_system_media" path="system/media" revision="8e61c2a8d2039a36a7ff974e2c7b6969557d40b3" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_system_netd" path="system/netd" revision="cfa3aa941bb4eaf66d514a6014ffe2c9b4403f7e" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_system_bt" path="system/bt" revision="98889ada28e200b56a153fbb9976cc9de9408f58" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_system_extras" path="system/extras" revision="476c59b685b6e76486c2622bc7a60c585af8142e" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_system_keymaster" path="system/keymaster" revision="9f57b4677e87c42cb47939c28e3cabeac19e0d67" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_system_media" path="system/media" revision="3b01dda6d0201e63b05db231e7746e1118eb4fae" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_system_netd" path="system/netd" revision="4b3c8226e5ee2c3f20d8aa6ded1053a2acfb51b6" upstream="cm-13.0"/>
   <project groups="qcom" name="CyanogenMod/android_system_qcom" path="system/qcom" revision="fc46d223c635380bcd0a6fd04f719f89f30ba9aa" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_system_security" path="system/security" revision="28e9852ad361927c33a3b76fae95474393be0e96" upstream="cm-13.0"/>
-  <project groups="pdk" name="CyanogenMod/android_system_vold" path="system/vold" revision="ee33dd4220219e1115d4170a240dda8936f3dee0" upstream="cm-13.0"/>
-  <project name="CyanogenMod/android_vendor_qcom_opensource_display-frameworks" path="vendor/qcom/opensource/display-frameworks" revision="679980ee52ea7c76161f477387df70dbab9ce317" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_system_security" path="system/security" revision="09f3036fd2eb2f4a8c29cf9a3519991b413a0904" upstream="cm-13.0"/>
+  <project groups="pdk" name="CyanogenMod/android_system_vold" path="system/vold" revision="b98b428ff879862db6f206abc499257cf89126ce" upstream="cm-13.0"/>
+  <project name="CyanogenMod/android_vendor_qcom_opensource_display-frameworks" path="vendor/qcom/opensource/display-frameworks" revision="e0d967c8aae894874971b37b068cbf5405c391bd" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" revision="070a9ec1127b42da4a4c58bd865ba64b8730d9e3" upstream="cm-13.0"/>
   <project name="CyanogenMod/android_vendor_qcom_opensource_time-services" path="vendor/qcom/opensource/time-services" revision="6efa6a5100fb0401a02f4df40b98c495a240ce33" upstream="cm-13.0"/>
-  <project name="CyanogenMod/cm_platform_sdk" path="vendor/cmsdk" revision="144146eb1773ec8fe6e21b413e74a23f20e33685" upstream="cm-13.0"/>
+  <project name="CyanogenMod/cm_platform_sdk" path="vendor/cmsdk" revision="ed0f0cec77e56a10b60657b3a09ef2d839104182" upstream="cm-13.0"/>
   <project name="CyanogenMod/external_android_support-prebuilt" path="external/android/support-prebuilt" revision="a88269c345c1ab38f101e44884a455c749f641b4" upstream="master"/>
-  <project name="CyanogenMod/ion" path="external/koush/ion" revision="f70d97d674bc6ef430e9e1a62e1701705f38f8c1" upstream="cm-13.0"/>
+  <project name="CyanogenMod/ion" path="external/koush/ion" revision="f7e17a9cdcd2d19fd51c02a14c8ac68d4f5c0372" upstream="cm-13.0"/>
   <project name="CyanogenMod/lge-kernel-p880" path="kernel/lge/p880" revision="413b3fc527c086450f28acbe92893c71e73ad5b6" upstream="cm-12.1"/>
-  <project name="Grarak/android_kernel_oneplus_msm8994" path="kernel/oneplus/msm8994" remote="github" revision="9f49edc63f9db76ebbac833557a74542a3c47cc7" upstream="cm-13.0-exp"/>
   <project name="TheMuppets/proprietary_vendor_audience" path="vendor/audience" remote="github" revision="963c94769faea5c49404ff525286653344f9d78d" upstream="cm-13.0"/>
   <project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="33d8da20787f0ba29afc02befebe76f0395dc9f8" upstream="cm-13.0"/>
   <project name="TheMuppets/proprietary_vendor_invensense" path="vendor/invensense" remote="github" revision="428e3ff319f8e00acdcd86170441936900b6d61b" upstream="cm-13.0"/>
   <project name="TheMuppets/proprietary_vendor_nxp" path="vendor/nxp" remote="github" revision="2e29bced6b0a53434feabe3ffa4773db7ba45222" upstream="cm-13.0"/>
-  <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="b51b50d5f6ce7961a1ed397edb43ce7007dcdd7c" upstream="cm-13.0"/>
+  <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="eb7171cda5a855b92223f8b4503266f6569c5b39" upstream="cm-13.0"/>
   <project name="TheMuppets/proprietary_vendor_widevine" path="vendor/widevine" remote="github" revision="7332d82e2fe30aeefdf6e06931a5b1610fd3ecb4" upstream="cm-13.0"/>
   <project name="TheMuppets/proprietary_vendor_yu" path="vendor/yu" remote="github" revision="f98a778119e25795d5a66f58cc32f06b60cb3369" upstream="cm-12.1"/>
   <project name="android_kernel_google_msm" path="kernel/google/msm" remote="cmold" revision="9f98af56972ea6727d6aa694b882f9ccb3b0e5ba" upstream="cm-13.0"/>
   <project name="android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="cmold" revision="c742cd3a567c2d713b48f4cfed1b519dde1f321a" upstream="cm-13.0"/>
-  <project name="android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="cmold" revision="e2201b20818b6c75648c5f72da4f05e73b7034e6" upstream="cm-13.0"/>
-  <project name="android_kernel_lge_bullhead" path="kernel/lge/bullhead" remote="cmold" revision="784b8b0baa407e213ed23a4cd1a570677b4433d2" upstream="cm-13.0"/>
-  <project name="android_kernel_lge_msm8992" path="kernel/lge/msm8992" remote="cmold" revision="a08ec1cdd33da5608a43e9edb49b2616b577e6e4" upstream="cm-13.0"/>
-  <project name="android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="cmold" revision="5965722697bc14807412f8517fb52a5b6436b163" upstream="cm-13.0"/>
+  <project name="android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="cmold" revision="a4c122781630f0dd5a5e03e89e976ef37e8d0575" upstream="cm-13.0"/>
+  <project name="android_kernel_lge_bullhead" path="kernel/lge/bullhead" remote="cmold" revision="0ed344e954d4d7fb307cfae223cba72d52fd9465" upstream="cm-13.0"/>
+  <project name="android_kernel_lge_msm8992" path="kernel/lge/msm8992" remote="cmold" revision="a19c369c5a712f18127ca05e258d9aade021fca4" upstream="cm-13.0"/>
+  <project name="android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="cmold" revision="bfe87eb81924ec445d9e3bb9c819e69c31fd1c9f" upstream="cm-13.0"/>
   <project name="android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="cmold" revision="2d8aebeab19cdf4ee43dce2b450735b48e12ade7" upstream="cm-13.0"/>
-  <project name="android_kernel_motorola_otus" path="kernel/motorola/otus" remote="cmold" revision="0ac1b0e77d9f0c41533da25ccb59ab3b8ba8ce5e" upstream="cm-13.0"/>
-  <project name="android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="cmold" revision="c1fff03187b3dcb8cf54e40b94b6c5a7442b3a08" upstream="cm-13.0"/>
-  <project name="android_kernel_samsung_d2" path="kernel/samsung/d2" remote="cmold" revision="0b335447b4868db640775ff551ecd65f91302c09" upstream="cm-13.0"/>
+  <project name="android_kernel_motorola_otus" path="kernel/motorola/otus" remote="cmold" revision="e5b283ed30da1521074b4c39560fd4fcee542adc" upstream="cm-13.0"/>
+  <project name="android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="cmold" revision="6347fbaceb4a0b27fb7c83cb19067b751c61ea83" upstream="cm-13.0"/>
+  <project name="android_kernel_oneplus_msm8994" path="kernel/oneplus/msm8994" remote="cmold" revision="798930722f89764bc6135dd3843a09c3cffed474" upstream="cm-13.0"/>
+  <project name="android_kernel_samsung_d2" path="kernel/samsung/d2" remote="cmold" revision="5459c27fb5dbc95e0b2ee103b873eca58cdd835a" upstream="cm-13.0"/>
   <project name="android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="cmold" revision="f19ec0102951dab101f2f1e021e52ea2edc1115f" upstream="cm-13.0"/>
   <project name="android_kernel_samsung_mondrianwifi" path="kernel/samsung/mondrianwifi" remote="cmold" revision="3f665f577584e8b4523fda8f1965219f60a332ba" upstream="cm-13.0"/>
-  <project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="cmold" revision="afabf37012e839802f9f3819f621e16aa4acefd2" upstream="cm-13.0"/>
+  <project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="cmold" revision="546eacec92bfd72fb3bc4fe30a7db84d54c24b26" upstream="cm-13.0"/>
   <project name="android_kernel_sony_apq8064" path="kernel/sony/apq8064" remote="cmold" revision="0f0cdbdf92e99623cf7bc56824a66fe840ba3297" upstream="cm-13.0"/>
-  <project name="art" remote="vanir" revision="29bd42b5eb0382360e3a8cb646ccf4de4b3b1d5a" upstream="m6"/>
-  <project groups="pdk" name="bionic" remote="vanir" revision="25493bf8a8ea3f86778ae82293c960b374f95026" upstream="m6"/>
-  <project groups="pdk" name="bootable_recovery" path="bootable/recovery" remote="vanir" revision="f5f111c86fcb813abec2692dd95484758ed005f2" upstream="m6"/>
+  <project name="art" remote="vanir" revision="186f2804e48804592f3e3fcc97ac6670cf520e05" upstream="m6"/>
+  <project name="ashwinr64/android_device_oneplus_onyx" path="device/oneplus/onyx" remote="github" revision="bf09d1393f2eb290bd12dd3459890110c6c67f5f" upstream="cm-13.0"/>
+  <project name="ashwinr64/android_kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="github" revision="05640c34d78ea3ea9f33a18a36133a494d8081a5" upstream="cm-13.0"/>
+  <project groups="pdk" name="bionic" remote="vanir" revision="834875eeb089f032d673e68a67ab8088e5eb53a3" upstream="m6"/>
+  <project groups="pdk" name="bootable_recovery" path="bootable/recovery" remote="vanir" revision="be1f886326aa1c50206444211b4530edd2007c63" upstream="m6"/>
   <project groups="pdk" name="bootable_recovery-aosp" path="bootable/recovery-aosp" remote="vanir" revision="7c540e6e81c68aa3b5d0b26f7e76ea570f55b946" upstream="m6"/>
   <project groups="pdk" name="bootable_recovery_TWRP" path="bootable/recovery-twrp" remote="vanir" revision="8bf069a468ec30d18001b4860aaf9a9903e1d225" upstream="m6"/>
-  <project groups="pdk" name="build" remote="vanir" revision="297f115b78234ffc341d6ed5f546bdfe19466697" upstream="m6">
+  <project groups="pdk" name="build" remote="vanir" revision="7c9f62e547edba0de7f24aceeb1e308b7b2fdf25" upstream="m6">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <copyfile dest="BUILD_COMMAND_README" src="tools/BUILD_COMMAND_README"/>
   </project>
   <project name="ccache.git" path="ccache" remote="samba" revision="ef98f60b40b5ac10af7b1d020c1d524f1be643be" upstream="master"/>
-  <project groups="vendor" name="commotio" path="vendor/commotio" remote="commotio" revision="19ebfbcc18d96144ac3c87884ae28f1253712514" upstream="6"/>
+  <project groups="vendor" name="commotio" path="vendor/commotio" remote="commotio" revision="f2c542adb182c3e03c0037db55875bd7f51e9619" upstream="6"/>
   <project groups="pdk" name="device/generic/mini-emulator-arm64" remote="aosp" revision="4f30226980039087b0d14de2c4dd0a1f37b9fd95" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="device/generic/mini-emulator-armv7-a-neon" remote="aosp" revision="f41c1e4e10574399c6798d286c22d03471217691" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="device/generic/mini-emulator-mips" remote="aosp" revision="3fdb24de40ca27da9a86f10f31314f2a13259db5" upstream="refs/tags/android-6.0.1_r3"/>
@@ -383,9 +385,9 @@
   <project groups="pdk" name="device/generic/x86_64" remote="aosp" revision="138339be1da9b0f34befe3751b0bae874d7253db" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="device" name="device/google/accessory/arduino" remote="aosp" revision="abc5159a3ca9dbb5c7e364a1eab99901a4440ac5" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="device" name="device/google/accessory/demokit" remote="aosp" revision="7dfe7f89a3b174709c773fe319531006e46440d9" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk" name="device/sample" remote="aosp" revision="5b0b44d08ff8caa2eae4185c9f16864a8d3d6368" upstream="refs/tags/android-6.0.1_r3"/>
-  <project name="device_asus_deb" path="device/asus/deb" remote="vanir" revision="b4a8965a63f45655abcd17af0d9d9a320249babe" upstream="m6"/>
-  <project name="device_asus_flo" path="device/asus/flo" remote="vanir" revision="6375afba188d82d33ab6f4f72d532bb3cbdb270b" upstream="m6"/>
+  <project groups="pdk" name="device/sample" remote="aosp" revision="afdacb6b56cb407fe7dd887341369fffb0a0be7d" upstream="refs/tags/android-6.0.1_r3"/>
+  <project name="device_asus_deb" path="device/asus/deb" remote="vanir" revision="9517638f5cae5bde8fbb8da3f582aab4f3633335" upstream="m6"/>
+  <project name="device_asus_flo" path="device/asus/flo" remote="vanir" revision="91ee4230b59ac263829d1065d767d127f2e17639" upstream="m6"/>
   <project groups="device" name="device_asus_tilapia" path="device/asus/tilapia" remote="vanir" revision="b943234bbc15a82821687b0edeba04a0fbfcd945" upstream="m6"/>
   <project name="device_htc_dlx" path="device/htc/dlx" remote="vanir" revision="f8860d662f46ab4150a3c1f7a615e2ba0c82cb9c" upstream="m6"/>
   <project name="device_htc_flounder" path="device/htc/flounder" remote="vanir" revision="352cd8e816ee8d762ab747cc9486397ec8d29f40" upstream="m6"/>
@@ -394,11 +396,11 @@
   <project name="device_htc_m7-common" path="device/htc/m7-common" remote="vanir" revision="0d5305a01e8afefae62e696543de8a6d9ddae4dc" upstream="m6"/>
   <project name="device_htc_m7spr" path="device/htc/m7spr" remote="vanir" revision="7041b70808de13786d1670b2b075778822c468d2" upstream="m6"/>
   <project name="device_htc_m7vzw" path="device/htc/m7vzw" remote="vanir" revision="565f4fa3780353536641f9c9a2d107ae17c26edb" upstream="m6"/>
-  <project name="device_htc_m8" path="device/htc/m8" remote="vanir" revision="302d06636072bf0437808f19370deee5386a5d57" upstream="m6"/>
+  <project name="device_htc_m8" path="device/htc/m8" remote="vanir" revision="5d2b4572a339711d198c0abe74edc4086f9b5a4a" upstream="m6"/>
   <project name="device_htc_msm8960-common" path="device/htc/msm8960-common" remote="vanir" revision="b2b44330281ab81bd47bf83fa31216016d8e4943" upstream="m6"/>
   <project name="device_htc_s4-common" path="device/htc/s4-common" remote="vanir" revision="f1903439aeffb06fec88b5a79fcd488c32fc1ab4" upstream="m6"/>
-  <project name="device_huawei_angler" path="device/huawei/angler" remote="vanir" revision="7a2348d70ed67455f3639f9f91b6b1f3b21bffbb" upstream="m6"/>
-  <project name="device_lge_bullhead" path="device/lge/bullhead" remote="vanir" revision="59dd5f696fd0420a1e657f2ca8dc8e8d00e4f4c4" upstream="m6"/>
+  <project name="device_huawei_angler" path="device/huawei/angler" remote="vanir" revision="ce06b5cf29c4780bf2cb3ecf526dc75a3d968e1a" upstream="m6"/>
+  <project name="device_lge_bullhead" path="device/lge/bullhead" remote="vanir" revision="b5d6a293fe0e31452f1d304be4c510ef62597da3" upstream="m6"/>
   <project name="device_lge_d800" path="device/lge/d800" remote="vanir" revision="15c39cd5e4b15dbcec3b3a9df5c87494cdeb1dee" upstream="m6"/>
   <project name="device_lge_d801" path="device/lge/d801" remote="vanir" revision="2023952bfe835c9f34db86f73e6bef2cbdb6ea61" upstream="m6"/>
   <project name="device_lge_d802" path="device/lge/d802" remote="vanir" revision="5271d8c716b645d145042246ea21b1c17502cd5c" upstream="m6"/>
@@ -406,30 +408,30 @@
   <project name="device_lge_f320" path="device/lge/f320" remote="vanir" revision="f3884046a2226412b7d1b9644d36bb1d0c24dbf2" upstream="m6"/>
   <project name="device_lge_f400" path="device/lge/f400" remote="vanir" revision="7ab7c877a0b4e83a9872ae844304bab714508f81" upstream="m6"/>
   <project name="device_lge_g2-common" path="device/lge/g2-common" remote="vanir" revision="8671bddff84a4458c1a9aa6d315dc2977663544d" upstream="m6"/>
-  <project name="device_lge_g3-common" path="device/lge/g3-common" remote="vanir" revision="013e68d5a4c01006f0712b9d8b96d04814a052d9" upstream="m6"/>
-  <project name="device_lge_hammerhead" path="device/lge/hammerhead" remote="vanir" revision="67731c0fd36e7af05c2aae81c17c2f96b5fbcefa" upstream="m6"/>
+  <project name="device_lge_g3-common" path="device/lge/g3-common" remote="vanir" revision="d5c66478342d1f609a3ee0b100cdeca44086fcb1" upstream="m6"/>
+  <project name="device_lge_hammerhead" path="device/lge/hammerhead" remote="vanir" revision="06f341b41ff866191c3c831f2d41ffdbe51f861e" upstream="m6"/>
   <project name="device_lge_ls980" path="device/lge/ls980" remote="vanir" revision="b80502cd39bb1da71e9dbbef317437720bf733dd" upstream="m6"/>
   <project name="device_lge_mako" path="device/lge/mako" remote="vanir" revision="06dc07ff85e5bb89f072bea6d884c7bf66a4ecbf" upstream="m6"/>
   <project name="device_lge_vs980" path="device/lge/vs980" remote="vanir" revision="ae638a0e41d97c1994852c0f07dae1d4a3ecbbd0" upstream="m6"/>
   <project name="device_lge_vs985" path="device/lge/vs985" remote="vanir" revision="e9988749bb87e4265a8d3184fcf5e5b6020820f2" upstream="m6"/>
-  <project name="device_moto_shamu" path="device/moto/shamu" remote="vanir" revision="3d082b3913fa24cd74879a3cd62a58c34b4163d3" upstream="m6"/>
+  <project name="device_moto_shamu" path="device/moto/shamu" remote="vanir" revision="a2a54aba771c2ee0dc2418ab4cfffcfafedc7352" upstream="m6"/>
   <project name="device_motorola_falcon" path="device/motorola/falcon" remote="vanir" revision="4052c9007ecd70b0f723936a09a9901b92fd76b9" upstream="m6"/>
-  <project name="device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="vanir" revision="8ed0c93479e9d675df9bc7c3b2cc32fc08174675" upstream="m6"/>
-  <project name="device_motorola_omap4-common" path="device/motorola/omap4-common" remote="vanir" revision="1066fb91f6999b25ae7cb611753352aa09ca7e73" upstream="m6"/>
+  <project name="device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="vanir" revision="4aff540cd5e3dbb88cde62096642f1190c7a74ab" upstream="m6"/>
+  <project name="device_motorola_omap4-common" path="device/motorola/omap4-common" remote="vanir" revision="bd18e3ff890c6b7b162c0714dd035ecc1aedef40" upstream="m6"/>
   <project name="device_motorola_qcom-common" path="device/motorola/qcom-common" remote="vanir" revision="766fee721d5f07967885ed397eb16b564a61e7f4" upstream="m6"/>
-  <project name="device_oneplus_bacon" path="device/oneplus/bacon" remote="vanir" revision="949d0eef02cd25f5937c23faf93fb62ebc579b24" upstream="m6"/>
+  <project name="device_oneplus_bacon" path="device/oneplus/bacon" remote="vanir" revision="96fa0d68908aa011cc1344698d2462ab92601880" upstream="m6"/>
   <project name="device_oneplus_oneplus2" path="device/oneplus/oneplus2" remote="vanir" revision="d881d2647d8ba0f09a5e8f3e06a40447e642665a" upstream="m6"/>
   <project name="device_oppo_apq8064-common" path="device/oppo/apq8064-common" remote="vanir" revision="b5e6bdd7331302d182613ffc505086f5ee493b8d" upstream="m6"/>
   <project name="device_oppo_common" path="device/oppo/common" remote="vanir" revision="683fdf1e89a213fa8e063a0c7667b7a221a9a371" upstream="m6"/>
   <project name="device_oppo_find5" path="device/oppo/find5" remote="vanir" revision="30639c14a5caacfd3649910365ede651ed1d67f3" upstream="m6"/>
   <project name="device_qcom_common" path="device/qcom/common" remote="vanir" revision="884006dd0a8f9617a11ddda55431415034f2bf80" upstream="m6"/>
-  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="vanir" revision="12b0c94f83c883fa25d5f87a720da616f0aac71c" upstream="m6"/>
-  <project groups="GS3_device" name="device_samsung_d2spr" path="device/samsung/d2spr" remote="vanir" revision="b880cce9a4cf2bfa71cd4e37dd40b91c4cf8d080" upstream="m6"/>
+  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="vanir" revision="9139c96ce382ae90da4e34790bc641724a21c6ee" upstream="m6"/>
+  <project groups="GS3_device" name="device_samsung_d2spr" path="device/samsung/d2spr" remote="vanir" revision="6a504dbf6e9ea8b948d5c13d66bf31c243125fe9" upstream="m6"/>
   <project groups="hlte_device" name="device_samsung_hltetmo" path="device/samsung/hltetmo" remote="vanir" revision="e7dd8714d5be00c3e5628540b535b0838def1968" upstream="m6"/>
   <project name="device_samsung_jf-common" path="device/samsung/jf-common" remote="vanir" revision="b7ce76b03108f5b1d5528f1d72ac4b86b0120e2c" upstream="m6"/>
   <project name="device_samsung_jfltexx" path="device/samsung/jfltexx" remote="vanir" revision="57119fe7b413e3c1dd475045e08c16a2d479ddce" upstream="m6"/>
   <project name="device_samsung_klte" path="device/samsung/klte" remote="vanir" revision="7e61e906aaf14f5c329b28848c39b0de6210f839" upstream="m6"/>
-  <project name="device_samsung_klte-common" path="device/samsung/klte-common" remote="vanir" revision="cc4019c9fb8a365092a68018b2e31653523892f7" upstream="m6"/>
+  <project name="device_samsung_klte-common" path="device/samsung/klte-common" remote="vanir" revision="d461de6d9d28141e851983c1209cb95340046354" upstream="m6"/>
   <project name="device_samsung_kltevzw" path="device/samsung/kltevzw" remote="vanir" revision="ffeb02e67e7fc12248ca2437e5c5a514159b8b3d" upstream="m6"/>
   <project name="device_samsung_kona-common" path="device/samsung/kona-common" remote="vanir" revision="e0c94586bb714fb206b90a888604b93da7fe8489" upstream="m6"/>
   <project groups="device" name="device_samsung_manta" path="device/samsung/manta" remote="vanir" revision="c094c301151326f2fe8f671d5c24299ce2b90bc9" upstream="m6"/>
@@ -438,47 +440,47 @@
   <project groups="device" name="device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="vanir" revision="0eeeb9c3e05a3f0afdd5fb9c8b6eb4ec683ac689" upstream="m6"/>
   <project groups="device" name="device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="vanir" revision="a47f03c48c7d0dfc2634734dd3387c5bab0bbdaf" upstream="m6"/>
   <project groups="device" name="device_samsung_qcom-common" path="device/samsung/qcom-common" remote="vanir" revision="5477f26bd2978fc0f79c5b12afbcb139c8b94e60" upstream="m6"/>
-  <project groups="device" name="device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="vanir" revision="41306c702c60f9fa1541c5955ca7af3bf4980b77" upstream="m6"/>
+  <project groups="device" name="device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="vanir" revision="44e6bac93fd78eda575ca2cb417ec27168865c65" upstream="m6"/>
   <project groups="device" name="device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="vanir" revision="f68f53292cdd729be304e660e10299b1a09000d7" upstream="m6"/>
-  <project groups="device" name="device_samsung_t0lte" path="device/samsung/t0lte" remote="vanir" revision="7ab91bb81913fe8a0222e5784006040cc13bfb2c" upstream="m6"/>
+  <project groups="device" name="device_samsung_t0lte" path="device/samsung/t0lte" remote="vanir" revision="c6bef757323c16a716fb0c2629a3356e76fd1aea" upstream="m6"/>
   <project groups="device" name="device_sony_fusion3-common" path="device/sony/fusion3-common" remote="vanir" revision="65f328a2ad5825813059280e877900a5ed02ac3c" upstream="m6"/>
   <project name="device_sony_pollux" path="device/sony/pollux" remote="vanir" revision="546c426d965b56e5e3b06f9630a74922274521d3" upstream="m6"/>
   <project name="device_sony_qcom-common" path="device/sony/qcom-common" remote="vanir" revision="bc1a0f9f24df245d112e752f3e977d62ef007ad4" upstream="m6"/>
   <project name="device_sony_yuga" path="device/sony/yuga" remote="vanir" revision="cdd7c2e42b2b9ac3e92f5abbf1e4eae0fb30b6b7" upstream="m6"/>
   <project name="device_yu_tomato" path="device/yu/tomato" remote="vanir" revision="2b404336cc3a165990ffe4e6bedf769616e14f4a" upstream="m6"/>
   <project name="external_klogripper" path="external/klogripper" remote="vanir" revision="a401bf6773d2d20e79ca1e67584855ea30b00138" upstream="m6"/>
-  <project groups="pdk" name="external_sepolicy" path="external/sepolicy" remote="vanir" revision="bad6d5aa987fd98db598570c5f295e3f640b400b" upstream="m6"/>
+  <project groups="pdk" name="external_sepolicy" path="external/sepolicy" remote="vanir" revision="52ee76f6ba8a7ac77c2d28238d75686cd43a6f0b" upstream="m6"/>
   <project groups="pdk" name="external_toybox" path="external/toybox" remote="vanir" revision="80ab666a9a60f045568445a901c5f2c2d000dfb8" upstream="m6"/>
-  <project groups="pdk" name="frameworks_av" path="frameworks/av" remote="vanir" revision="89fdc5b26a76c89af6b46665510b184cefd5ab0b" upstream="m6"/>
-  <project name="frameworks_base" path="frameworks/base" remote="vanir" revision="47774b39fc8668d6b8e5f43a1340b3f76af38493" upstream="m6"/>
-  <project groups="pdk" name="frameworks_native" path="frameworks/native" remote="vanir" revision="c6d90d36239bde711f71e038060c1d8cae2d17ab" upstream="m6"/>
-  <project groups="pdk" name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="vanir" revision="1c22ac0c3a374811293367548efe65cccf27f05a" upstream="m6"/>
-  <project name="hardware_samsung" path="hardware/samsung" remote="vanir" revision="a80965de548e07a1c48fd184bb9bdb8b328d03bb" upstream="m6"/>
-  <project name="kernel_huawei_angler" path="kernel/huawei/angler" remote="vanir" revision="fb3613b52445eb39c83dff0663d19749d369e5f8" upstream="m6"/>
-  <project name="kernel_lge_g3" path="kernel/lge/g3" remote="vanir" revision="d379572045659626eacf68ee471ff820f23b829b" upstream="m6"/>
-  <project name="kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="vanir" revision="4af195221db828c4c11a6f552287682f460cb6df" upstream="m6"/>
-  <project name="kernel_lge_msm8974" path="kernel/lge/msm8974" remote="vanir" revision="116d6edbe0a815ea78ea0d20baed28a82e8a0356" upstream="m6"/>
-  <project name="kernel_moto_shamu" path="kernel/moto/shamu" remote="vanir" revision="4bd5281bd1c206b5a3a2dcea5dfd927826dc9cef" upstream="m6"/>
-  <project name="kernel_samsung_jf" path="kernel/samsung/jf" remote="vanir" revision="ab1f00d547384f3310efedc8e8e68ed417b97450" upstream="m6"/>
-  <project name="kernel_samsung_klte" path="kernel/samsung/klte" remote="vanir" revision="4004036623e9a6a52d7167a1372803cff6cd23e6" upstream="m6"/>
+  <project groups="pdk" name="frameworks_av" path="frameworks/av" remote="vanir" revision="43b9bb216343322871194f87a136080463470ed3" upstream="m6"/>
+  <project name="frameworks_base" path="frameworks/base" remote="vanir" revision="4be94083638e599bb719b7620d2e64ed3b9f2f46" upstream="m6"/>
+  <project groups="pdk" name="frameworks_native" path="frameworks/native" remote="vanir" revision="52199a5d46054cb20f6ef49b2bbb6749bfc266ac" upstream="m6"/>
+  <project groups="pdk" name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="vanir" revision="0d7cc36aadd99bd97ee00d9ba28f1a8eedb27e7f" upstream="m6"/>
+  <project name="hardware_samsung" path="hardware/samsung" remote="vanir" revision="30124f4bf2b2adcfcde2733ec89222d4317fcae4" upstream="m6"/>
+  <project name="kernel_huawei_angler" path="kernel/huawei/angler" remote="vanir" revision="5d0a29c0fcd8c1dab517fd4d098665f77df93289" upstream="m6"/>
+  <project name="kernel_lge_g3" path="kernel/lge/g3" remote="vanir" revision="3f8e560f4bdfaa9fac1a8e905a3e41c0d0072bc2" upstream="m6"/>
+  <project name="kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="vanir" revision="237f783ba59b19e0478fe6c7bebba46e6d18fde2" upstream="m6"/>
+  <project name="kernel_lge_msm8974" path="kernel/lge/msm8974" remote="vanir" revision="0393ac3369b9efdd5032e9ce8ed6c38039922dcf" upstream="m6"/>
+  <project name="kernel_moto_shamu" path="kernel/moto/shamu" remote="vanir" revision="62dbc821f219e00509fef54103df6fda48046ee5" upstream="m6"/>
+  <project name="kernel_samsung_jf" path="kernel/samsung/jf" remote="vanir" revision="d1bd5790fc9540391f5d43bf11a8c1d7fd934168" upstream="m6"/>
+  <project name="kernel_samsung_klte" path="kernel/samsung/klte" remote="vanir" revision="dcd8e8ee6fe8427ca964e877b2e58d4da73b72f3" upstream="m6"/>
   <project name="lge-kernel-gproj" path="kernel/lge/gproj" remote="cmold" revision="e05a3abe9876278379d15e054d11d609daec268e" upstream="cm-12.1"/>
   <project name="packages_apps_IndecentXposure" path="packages/apps/IndecentXposure" remote="vanir" revision="2eb30d0d46409557775a3b76012893db70c0b1f9" upstream="m6"/>
   <project name="packages_apps_LockClock" path="packages/apps/LockClock" remote="vanir" revision="98b41644d33e8e71d8007f9af9433892163eafb7" upstream="m6"/>
-  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="vanir" revision="89e658b95f9b38d33499f443591236d071b93562" upstream="m6"/>
-  <project name="packages_apps_ThemeChooser" path="packages/apps/ThemeChooser" remote="vanir" revision="6386c8216cc4154d13fe670d2936df657581d8ad" upstream="m6"/>
-  <project name="packages_apps_VanirUpdater" path="packages/apps/VanirUpdater" remote="vanir" revision="ddcde2ef537e9f1ae3953c15c68d62988802bc87" upstream="m6"/>
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="vanir" revision="45f47d9cb5040ee4b34d002a3c61cc140707b0ac" upstream="m6"/>
+  <project name="packages_apps_ThemeChooser" path="packages/apps/ThemeChooser" remote="vanir" revision="2ad438dac236fc0aef35671a6e9814ff1594c69f" upstream="m6"/>
+  <project name="packages_apps_VanirUpdater" path="packages/apps/VanirUpdater" remote="vanir" revision="b03e4db006467bd355509a991e1177357e4ec82b" upstream="m6"/>
   <project name="packages_apps_soundrecorder" path="packages/apps/SoundRecorder" remote="vanir" revision="ee040a26b7c42a7b670f43bef658d61324d24404" upstream="m6"/>
-  <project name="packages_input_LatinIME" path="packages/inputmethods/LatinIME" remote="vanir" revision="f3a4cd837eca2a61f09ab4f09f6cc77d6fda1c7b" upstream="m6"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="packages_services_Telephony" path="packages/services/Telephony" remote="vanir" revision="889c24f26e6b5f108b71b7eb5148cdfbbda4d6ea" upstream="m6"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/dalvik" path="dalvik" remote="aosp" revision="ae03b0076973d5ece5fd300748c29098955afec7" upstream="refs/tags/android-6.0.1_r3"/>
+  <project name="packages_input_LatinIME" path="packages/inputmethods/LatinIME" remote="vanir" revision="e75a278cb4fe33d2cf41b567277e09ef5e64d81f" upstream="m6"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="packages_services_Telephony" path="packages/services/Telephony" remote="vanir" revision="9d73713e5fa4f89d65b93eda9d7c755bd16a2ee6" upstream="m6"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/dalvik" path="dalvik" remote="aosp" revision="f8ed7d3f0ea87b3fc1aa72859386c82d8d9bdbd4" upstream="refs/tags/android-6.0.1_r3"/>
   <project name="platform/developers/build" path="developers/build" remote="aosp" revision="2bea00f1363ed1476e51be6c4df5c43e2b0ba092" upstream="refs/tags/android-6.0.1_r3"/>
-  <project name="platform/developers/samples/android" path="developers/samples/android" remote="aosp" revision="cf8d9876dbe06089b7e99b56542b4f42b4247a9b" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/docs/source.android.com" path="docs/source.android.com" remote="aosp" revision="4b1ec214ee15c85009bc65ceb738e3e1c7f37432" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk" name="platform/external/aac" path="external/aac" remote="aosp" revision="9f42dfb7990a107da23454669459bb5e28d90726" upstream="refs/tags/android-6.0.1_r3"/>
+  <project name="platform/developers/samples/android" path="developers/samples/android" remote="aosp" revision="049d382f23bae257d8cf2dd2303eb2c3a166b932" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/docs/source.android.com" path="docs/source.android.com" remote="aosp" revision="918070543c8989f1088953e525a22176eb00caa0" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk" name="platform/external/aac" path="external/aac" remote="aosp" revision="48b330d303727e1f2671f844a1d541d596f6d5da" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/androidplot" path="external/androidplot" remote="aosp" revision="c66727ebf001607cee14521c35bc852b55fd9845" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/antlr" path="external/antlr" remote="aosp" revision="47997265eeb7d954a32ece693bbe6dab740872dd" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/apache-commons-math" path="external/apache-commons-math" remote="aosp" revision="dee0849a9704d532af0b550146cbafbaa6ee1d19" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/external/apache-harmony" path="external/apache-harmony" remote="aosp" revision="c4604eeb958de631e6cabf6e582baf2b7cee2424" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/external/apache-harmony" path="external/apache-harmony" remote="aosp" revision="f8670f3c29626892e32d30aa00ce8e4b94bd9609" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/apache-xml" path="external/apache-xml" remote="aosp" revision="0b013a482e4f4de9add850e34dbe5119fc390596" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/bison" path="external/bison" remote="aosp" revision="c2418b886165add7f5a31fc5609f0ce2d004a90e" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/blktrace" path="external/blktrace" remote="aosp" revision="d345431f16b8f76f30a58193ff2b26d5853e1109" upstream="refs/tags/android-6.0.1_r3"/>
@@ -486,19 +488,19 @@
   <project groups="pdk" name="platform/external/cblas" path="external/cblas" remote="aosp" revision="0ab3e6274f109964d912c83ecd6abe6a3bf926c6" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/ceres-solver" path="external/ceres-solver" remote="aosp" revision="f7df5f6e4d77fa02a0b31bdfa1badaf678db9df6" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-fs" name="platform/external/chromium-libpac" path="external/chromium-libpac" remote="aosp" revision="c1e2d09f531717e7d0e853a6ea34ac605279ca83" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk" name="platform/external/chromium-trace" path="external/chromium-trace" remote="aosp" revision="959b8363f20f32fcbde3306acf3c925388cce516" upstream="refs/tags/android-6.0.1_r3"/>
-  <project clone-depth="1" groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" remote="aosp" revision="8abcff0aa0b039afb0c82ef86f763af1420111f9" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk" name="platform/external/chromium-trace" path="external/chromium-trace" remote="aosp" revision="0277072fd5a47dfd85a92406f4d5b2bcffff2cd8" upstream="refs/tags/android-6.0.1_r3"/>
+  <project clone-depth="1" groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" remote="aosp" revision="a9031c91c9a428f18bdd9e52429a31484976fc54" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/clang" path="external/clang" remote="aosp" revision="6270ca65199882c73aa9699d8fbeb580870e8d30" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-fs" name="platform/external/cmockery" path="external/cmockery" remote="aosp" revision="77b7379c087dd5e6383aa502e36428adcdd46aab" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk" name="platform/external/compiler-rt" path="external/compiler-rt" remote="aosp" revision="32fedd9bc60b401a52d56ac5d727add544546099" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/external/conscrypt" path="external/conscrypt" remote="aosp" revision="1daaba378d0128386c475421a5c52ac7bcd13518" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk" name="platform/external/compiler-rt" path="external/compiler-rt" remote="aosp" revision="3b1a2d532ed2c4444dbc7557784d6f4dfe15a90c" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/external/conscrypt" path="external/conscrypt" remote="aosp" revision="295b30e7626761619041149bc6801d243063fd12" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-fs" name="platform/external/crcalc" path="external/crcalc" remote="aosp" revision="9666c57ab247046b716e9c1e56f0dcc7d4a1545f" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk-fs" name="platform/external/deqp" path="external/deqp" remote="aosp" revision="5fb13feb37b5d94d9e2462620c7dfa83b6ca8ddc" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk-fs" name="platform/external/deqp" path="external/deqp" remote="aosp" revision="eee8271e04e7b701798aaee445c794f65a984d36" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/dexmaker" path="external/dexmaker" remote="aosp" revision="fec7276299b950a8831ead9a9756d27e0fc60560" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/external/doclava" path="external/doclava" remote="aosp" revision="f8ae1af373c4d80c9ad201aa7dac46da5a75e411" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/external/doclava" path="external/doclava" remote="aosp" revision="274a19e4c4a6dc90d1a71b5f5c54438f343868a5" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-fs" name="platform/external/donuts" path="external/donuts" remote="aosp" revision="005389fb31a67841b5de42f0d25fbfab843e208c" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="drm_gralloc" name="platform/external/drm_gralloc" path="external/drm_gralloc" remote="aosp" revision="47e7aba999eeca7b2db97ca388bc9c42524eec8e" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="drm_hwcomposer" name="platform/external/drm_hwcomposer" path="external/drm_hwcomposer" remote="aosp" revision="639860d6c3e2c61330751985bf2b5c4308fa8804" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="drm_hwcomposer" name="platform/external/drm_hwcomposer" path="external/drm_hwcomposer" remote="aosp" revision="7cd2643b0de900e00e5b0cc0bd6dbbc649840b02" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/droiddriver" path="external/droiddriver" remote="aosp" revision="72a40802f8e7d24a3175e09adc4b44a89df54f38" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/easymock" path="external/easymock" remote="aosp" revision="bb9f1a648bd829540d7be08432e8f3142a076f64" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/eclipse-basebuilder" path="external/eclipse-basebuilder" remote="aosp" revision="076f46888ed346775b8efc564d7694063ef5eea7" upstream="refs/tags/android-6.0.1_r3"/>
@@ -525,13 +527,13 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/guava" path="external/guava" remote="aosp" revision="5b9b416a211d8d2ac2012aaad1b77f79ffe7617c" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/hamcrest" path="external/hamcrest" remote="aosp" revision="9fb9af468ed5e2ecba330348262dae5e04b7d006" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng" remote="aosp" revision="240563d28c19abb7b20e5b91495066f56a804a2b" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk-fs" name="platform/external/hyphenation-patterns" path="external/hyphenation-patterns" remote="aosp" revision="7104a91f415b1001b75909f837f3b54d54671ea3" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk-fs" name="platform/external/hyphenation-patterns" path="external/hyphenation-patterns" remote="aosp" revision="c15709c28e9623c1937038f08af603c492901cbd" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/ipsec-tools" path="external/ipsec-tools" remote="aosp" revision="be69e0250002f998173bedb124c56b68ab6292cd" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/iputils" path="external/iputils" remote="aosp" revision="fdf8e83818340ee2efa54654fb294da919d1a4b1" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/jack" path="external/jack" remote="aosp" revision="5ceb2025ac5d25ed48183ac2d3dac4691fe761fb" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/javasqlite" path="external/javasqlite" remote="aosp" revision="1a0103df03484c022003b17e320746db3473ccd2" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/javassist" path="external/javassist" remote="aosp" revision="9566207cff5871c672fac1f0d4332d93292036d7" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/external/jdiff" path="external/jdiff" remote="aosp" revision="7ac8c27f7b7954bf1d35d8b36c1f3718fc435da7" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/external/jdiff" path="external/jdiff" remote="aosp" revision="0860aaa8b3cd01b42407009ffe4e0697ef0c1356" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/jemalloc" path="external/jemalloc" remote="aosp" revision="486fa41f4ace88a9d1b96831bc36cbd2cfa4957e" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-fs" name="platform/external/jetty" path="external/jetty" remote="aosp" revision="03928aee4356845252ac6b662d5c72c29903813e" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/jhead" path="external/jhead" remote="aosp" revision="5c8f937269957e6651383e988006824781fd021a" upstream="refs/tags/android-6.0.1_r3"/>
@@ -546,13 +548,13 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/libcap-ng" path="external/libcap-ng" remote="aosp" revision="52447887e50b49f33f959077c31232edff6659d8" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/libcxx" path="external/libcxx" remote="aosp" revision="076df933eb2d98152218b874abfa91cba660bcbd" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/libcxxabi" path="external/libcxxabi" remote="aosp" revision="b451069aab57ccfe64c0fc7a18cfc487862fe985" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk" name="platform/external/libdrm" path="external/libdrm" remote="aosp" revision="4927ac1f0981b97908c5dd985dcff1d8c2861427" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk" name="platform/external/libdrm" path="external/libdrm" remote="aosp" revision="93b1c6466800f6b1b1621b12256913d615175d26" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-fs" name="platform/external/libedit" path="external/libedit" remote="aosp" revision="315dded283ebd8627b4968d761b0c29bc241d7a3" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/libexif" path="external/libexif" remote="aosp" revision="fa0c1e7d954230cd29d896e6015314b2f68ad7bd" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/libgsm" path="external/libgsm" remote="aosp" revision="1e26679795597459732408891bedea130b3ee1f1" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk-fs" name="platform/external/libhevc" path="external/libhevc" remote="aosp" revision="dde3d8a3c7638dcc024ce25fdab420703a53f16b" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk-fs" name="platform/external/libhevc" path="external/libhevc" remote="aosp" revision="3f4863f574907e2809d9cb6fffaa776126d2f325" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/liblzf" path="external/liblzf" remote="aosp" revision="6946aa575b0949d045722794850896099d937cbb" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk" name="platform/external/libmpeg2" path="external/libmpeg2" remote="aosp" revision="b34913857dacd4b7f82715c48ae1de9c56ede9e0" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk" name="platform/external/libmpeg2" path="external/libmpeg2" remote="aosp" revision="9c9fd7a0b55e5a2df79b314e9c1c4a8cc10e9a5e" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/libmtp" path="external/libmtp" remote="aosp" revision="e204c41bf49cadc1de460f0cf902008955b356d9" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/libnl" path="external/libnl" remote="aosp" revision="19c48c82efd448e310e8151af749c5f6ec5d321b" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/libogg" path="external/libogg" remote="aosp" revision="e4375ffe5491c4742bec47ae5468a9df5ffc3528" upstream="refs/tags/android-6.0.1_r3"/>
@@ -561,7 +563,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/libphonenumber" path="external/libphonenumber" remote="aosp" revision="52e2840e86facf8cd64e032fb1d8c70d071f653a" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/libseccomp-helper" path="external/libseccomp-helper" remote="aosp" revision="e87019943a8b5a7cd0880910f671c37b240d5754" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/libssh2" path="external/libssh2" remote="aosp" revision="2bb40f2445cab3ba588efb29e1835cdba2b27248" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk" name="platform/external/libunwind" path="external/libunwind" remote="aosp" revision="5e3bc6a32ca5a78a1a66b4dffe94dfdbf829cae5" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk" name="platform/external/libunwind" path="external/libunwind" remote="aosp" revision="338c9755cfe3d009c3dfff7d108e2c3ddaa6f3bb" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/libusb-compat" path="external/libusb-compat" remote="aosp" revision="6d4ab8939e4784b2b6eb63d992cc4d44f953bb41" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/libutf" path="external/libutf" remote="aosp" revision="7469493bff47a84a6041cba80df50bbbe08cd656" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/libvncserver" path="external/libvncserver" remote="aosp" revision="54fc82147d8ea715bf2864246453d325bf546608" upstream="refs/tags/android-6.0.1_r3"/>
@@ -570,11 +572,11 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/littlemock" path="external/littlemock" remote="aosp" revision="a3ea6bf9e6fcf63b69f5635b2ecc1fbd9a9a4dfc" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-fs" name="platform/external/lld" path="external/lld" remote="aosp" revision="26c9bb3b51a7ac4bc45f73d532a03cfd9982043a" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/lldb" path="external/lldb" remote="aosp" revision="cf26fc9c6ac98ee27b605435b06795a37ed61169" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk" name="platform/external/llvm" path="external/llvm" remote="aosp" revision="93cc1f2bebee328f8aceb8d9e07862fe44d6f346" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk" name="platform/external/llvm" path="external/llvm" remote="aosp" revision="039ace80c6746a215b3ea7403e60183f4ce78239" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/ltrace" path="external/ltrace" remote="aosp" revision="09d9b8fca15daeb8f87dbbbc6b82ad83c3495341" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/marisa-trie" path="external/marisa-trie" remote="aosp" revision="629ed059b1e85cd8e4de363d8b3dc53c15c3e08a" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/markdown" path="external/markdown" remote="aosp" revision="6f2e3554ae38cc90518d32e02cb57d05988270a6" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk" name="platform/external/mdnsresponder" path="external/mdnsresponder" remote="aosp" revision="8352d7a311ae3f7838cc9d9ee0d69625f73b89e6" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk" name="platform/external/mdnsresponder" path="external/mdnsresponder" remote="aosp" revision="11b8cee2c468b71a9629ea7f126a4935432977d1" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/mesa3d" path="external/mesa3d" remote="aosp" revision="cfa14c46594a66e3f1b6b50b65b5e9f4fa6302a5" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/messageformat" path="external/messageformat" remote="aosp" revision="a88391404bcb7f994675db3e508697cf96dbaf23" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-fs" name="platform/external/mockftpserver" path="external/mockftpserver" remote="aosp" revision="00dc7bdcf1df9e86789d963984dfc6912a8854c6" upstream="refs/tags/android-6.0.1_r3"/>
@@ -584,13 +586,13 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/mtpd" path="external/mtpd" remote="aosp" revision="acfaed8bf7d1928ecb1e15b56497ba5da885101d" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-fs" name="platform/external/nanohttpd" path="external/nanohttpd" remote="aosp" revision="2aa25f6af65e07f4c1ce167e2de2aaee2f0cffe8" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/nanopb-c" path="external/nanopb-c" remote="aosp" revision="7e7f2e9122af6c7e7e7d4ba205fdf46d50b95eef" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/external/naver-fonts" path="external/naver-fonts" remote="aosp" revision="6810e940e1213a997ebbc1d1a5ab59ba7f4c001e" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/external/naver-fonts" path="external/naver-fonts" remote="aosp" revision="91e6e9f94d1d769a8f742649674149ba98ce7d45" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/netcat" path="external/netcat" remote="aosp" revision="b023a43765b15f0b0fd5b52b7d8021f515c59c23" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/netperf" path="external/netperf" remote="aosp" revision="27ffe986a2933b1ff0eecbcc51a807d130e254ec" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/neven" path="external/neven" remote="aosp" revision="b212725fe71ed9ce8d0adda92fc43030337bd48a" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/nfacct" path="external/nfacct" remote="aosp" revision="6f7aae0264821b44e9fe80fb5596c525d3e2f475" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/nist-pkits" path="external/nist-pkits" remote="aosp" revision="2c243d61d94b93eaef6fd5e0f727c9a2be838338" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk" name="platform/external/noto-fonts" path="external/noto-fonts" remote="aosp" revision="708c75e9916dd4f9aee4cc2dd38da8c1e26d3ad2" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk" name="platform/external/noto-fonts" path="external/noto-fonts" remote="aosp" revision="37d90715389617b739b5ae97193cd614ecbd1117" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/oauth" path="external/oauth" remote="aosp" revision="bc170f58de82000ed6460f111686a850a1890c07" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/objenesis" path="external/objenesis" remote="aosp" revision="2a7655c0d503fcf5989098f65bf89eae78c32e5a" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/opencv" path="external/opencv" remote="aosp" revision="70a06ce5365b0248e0ad39df681d6c934d3618f3" upstream="refs/tags/android-6.0.1_r3"/>
@@ -607,7 +609,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/roboto-fonts" path="external/roboto-fonts" remote="aosp" revision="f5cf79102af594c746627b392b4f98eedd254571" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/safe-iop" path="external/safe-iop" remote="aosp" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/scrypt" path="external/scrypt" remote="aosp" revision="72691396f9fa84fd39cb72d031750e580e648aa3" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk" name="platform/external/selinux" path="external/selinux" remote="aosp" revision="4efa85e51028f2de25b980de9168ceb43488bf73" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk" name="platform/external/selinux" path="external/selinux" remote="aosp" revision="7d48e4a4a2c77a7cbb8f74af34c85563c2c1d81c" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/sfntly" path="external/sfntly" remote="aosp" revision="a01a58c85ae6f0b1fe97e4a383bb7536285264d8" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-fs" name="platform/external/slf4j" path="external/slf4j" remote="aosp" revision="7122d7eba20aeeaf319017b655271889f825f750" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/smali" path="external/smali" remote="aosp" revision="15284127c9ed241f1de20fdd8cdb24cb12cd2119" upstream="refs/tags/android-6.0.1_r3"/>
@@ -618,19 +620,19 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/tagsoup" path="external/tagsoup" remote="aosp" revision="45e8185b55dfaee6d9cfc487708e787b5b7c3770" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/timezonepicker-support" path="external/timezonepicker-support" remote="aosp" revision="99e91a76fd74bad10266623d67cdb98d011f709e" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/tinyxml" path="external/tinyxml" remote="aosp" revision="143125ff631c481d590cae0d7cc9ccfaaca269c7" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk" name="platform/external/tremolo" path="external/tremolo" remote="aosp" revision="9c91d74747d890e1bf5ca3a444ec62838823c083" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk" name="platform/external/tremolo" path="external/tremolo" remote="aosp" revision="33a503e1606e96608a06f7aefa72b6488b5e3b8e" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/v8" path="external/v8" remote="aosp" revision="57a14c9a8621270b0e6c697dce28a9c453ebe55f" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/valgrind" path="external/valgrind" remote="aosp" revision="4e88b3458976a7132fe2b78392ebf9348a42a9f9" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="vboot" name="platform/external/vboot_reference" path="external/vboot_reference" remote="aosp" revision="10ebdb2ed235c5fc70d72ba11c7e7d2caf4b3296" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/vixl" path="external/vixl" remote="aosp" revision="dc661669ef2e2fd18c4e21333d6a12112b520436" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/external/vogar" path="external/vogar" remote="aosp" revision="e40f8ded5b78b68b992938c497309b6dbcd7f462" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk,qcom_msm8x26" name="platform/external/webp" path="external/webp" remote="aosp" revision="9e80ee991168a0a6c2a906dd2c17c5e17df4566e" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk" name="platform/external/webrtc" path="external/webrtc" remote="aosp" revision="c7d448429fa264787d231d20bb1d8e2e273e852b" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk" name="platform/external/webrtc" path="external/webrtc" remote="aosp" revision="e4dce38d3d19cc36b32c33a87f504bdb6dbb76ae" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/xmlwriter" path="external/xmlwriter" remote="aosp" revision="e95d92246ee35273dde2bee8b00485cc14c12be5" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/xmp_toolkit" path="external/xmp_toolkit" remote="aosp" revision="42ea4dc6d1fc2206a7778029070ed9213e3b0fbf" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/zopfli" path="external/zopfli" remote="aosp" revision="bb96afe13a50bfc17259dcf56f44e997923c705c" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/zxing" path="external/zxing" remote="aosp" revision="d2256df36df8778a3743e0a71eab0cc5106b98c9" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/data-binding" path="frameworks/data-binding" remote="aosp" revision="95a7ee2bbc1be91b1fb6bb68cf35e0d9e6ff48e3" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/data-binding" path="frameworks/data-binding" remote="aosp" revision="8b7340d0b2e57d5a3d71135f778b7f90e274a5f3" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-fs" name="platform/frameworks/opt/inputconnectioncommon" path="frameworks/opt/inputconnectioncommon" remote="aosp" revision="3baece9b20fa480da46d860acd7320fd9eee3386" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/widget" path="frameworks/opt/widget" remote="aosp" revision="466e0e0307b3f6aa4f4be3d9419b5996bd389da5" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="intel" name="platform/hardware/intel/audio_media" path="hardware/intel/audio_media" remote="aosp" revision="218f0d6bc9532d0b707ea325fd96998249fe47bf" upstream="refs/tags/android-6.0.1_r3"/>
@@ -638,7 +640,7 @@
   <project groups="intel" name="platform/hardware/intel/common/bd_prov" path="hardware/intel/common/bd_prov" remote="aosp" revision="8af329f2d2b54dfcfa84051d3ce1fae95f79011a" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="intel" name="platform/hardware/intel/common/libstagefrighthw" path="hardware/intel/common/libstagefrighthw" remote="aosp" revision="690809fcb1c7fc7042bd99a7521ad0608b20ba03" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="intel" name="platform/hardware/intel/common/libva" path="hardware/intel/common/libva" remote="aosp" revision="bb5b2001f9093d0c6e50639bc98db15b0418ef43" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="intel" name="platform/hardware/intel/common/omx-components" path="hardware/intel/common/omx-components" remote="aosp" revision="3aa46b0bcd69b855f775a8b1f928776ca0fb35f6" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="intel" name="platform/hardware/intel/common/omx-components" path="hardware/intel/common/omx-components" remote="aosp" revision="a2f2b42ced7efa9231d05389d56268e857f906d9" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="intel" name="platform/hardware/intel/common/utils" path="hardware/intel/common/utils" remote="aosp" revision="b2615f1e02eb59b78a9af088ea40299cd0526ff0" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="intel" name="platform/hardware/intel/common/wrs_omxil_core" path="hardware/intel/common/wrs_omxil_core" remote="aosp" revision="64a9b8fb6b6c6538b1bf1d4b1c9f22ca139093a9" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="intel" name="platform/hardware/intel/img/psb_headers" path="hardware/intel/img/psb_headers" remote="aosp" revision="eecb5f24ecb6e09fe1b27bad76c73e333a83a336" upstream="refs/tags/android-6.0.1_r3"/>
@@ -646,7 +648,7 @@
   <project groups="marvell_bt" name="platform/hardware/marvell/bt" path="hardware/marvell/bt" remote="aosp" revision="3f33d194e8300816b94d1d7b68b1d48c8f903251" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="mediatek,mediatek_wear" name="platform/hardware/mediatek" path="hardware/mediatek" remote="aosp" revision="84eac90753d5c99bc0b05df34c400d1f58c01213" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="qcom_msm8960" name="platform/hardware/qcom/msm8960" path="hardware/qcom/msm8960" remote="aosp" revision="c25a431842a26b5756b58a9d4a42c776e0457ba2" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="qcom_msm8994" name="platform/hardware/qcom/msm8994" path="hardware/qcom/msm8994" remote="aosp" revision="4d56d00417275e8027b6409e48d687e09acc697c" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="qcom_msm8994" name="platform/hardware/qcom/msm8994" path="hardware/qcom/msm8994" remote="aosp" revision="69933adf48c9ce31d716740d0d48c1515894c086" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="qcom_msm8x26" name="platform/hardware/qcom/msm8x26" path="hardware/qcom/msm8x26" remote="aosp" revision="3ddc8d3a5ae1f5e264822c55c06c4e472aa17bc0" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="qcom_msm8x27" name="platform/hardware/qcom/msm8x27" path="hardware/qcom/msm8x27" remote="aosp" revision="8ff5c0057cbdecfa09410c1710ba043e191a2862" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk,qcom_msm8x74" name="platform/hardware/qcom/msm8x74" path="hardware/qcom/msm8x74" remote="aosp" revision="2b96ffd283fd14d7d153b6b66680da98548679fd" upstream="refs/tags/android-6.0.1_r3"/>
@@ -657,10 +659,10 @@
   <project groups="generic_fs" name="platform/ndk" path="ndk" remote="aosp" revision="e6403c6a048bdec5a7fc7c6c0cc149fc5f098f80" upstream="refs/tags/android-6.0.1_r3"/>
   <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" remote="aosp" revision="01e429c08e51291315890de9677151a7e0b6ad35" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/pdk" path="pdk" remote="aosp" revision="708589163e790eb3a7fec09f4832a0f78999bdf3" upstream="refs/tags/android-6.0.1_r3"/>
-  <project name="platform/platform_testing" path="platform_testing" remote="aosp" revision="f235398a7a67028205477b9fd724a68c2db7d61e" upstream="refs/tags/android-6.0.1_r3"/>
+  <project name="platform/platform_testing" path="platform_testing" remote="aosp" revision="79de7db6f3e5402f51d72a5db1e8501e5eb8de84" upstream="refs/tags/android-6.0.1_r3"/>
   <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" remote="aosp" revision="b728a257b2a06f1d18b7349dc2e90bebd013bbd4" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk,darwin" name="platform/prebuilts/clang/darwin-x86/host/3.6" path="prebuilts/clang/darwin-x86/host/3.6" remote="aosp" revision="3c60fb5744ce4fbde988fbc24e38a8d9e5a58e59" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.6" path="prebuilts/clang/linux-x86/host/3.6" remote="aosp" revision="16200abd3662408c9362997950da1a6624b8c9b6" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.6" path="prebuilts/clang/linux-x86/host/3.6" remote="aosp" revision="95af4fa4778f2a58b631388d90c02a877b4d9be3" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-fs" name="platform/prebuilts/devtools" path="prebuilts/devtools" remote="aosp" revision="d7638b6496f75e896badacddb40a9dd018553bfc" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/prebuilts/eclipse" path="prebuilts/eclipse" remote="aosp" revision="cf9f78f8cf41b16edf9f712598a42743d5cea4af" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" remote="aosp" revision="3344adbe898ae092b7bcc7c1f69d89980e39cbf2" upstream="refs/tags/android-6.0.1_r3"/>
@@ -678,32 +680,32 @@
   <project groups="pdk-fs" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="aosp" revision="f691cae2f256d5f72388c0ce9113007a53ad333a" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk,linux,mips" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" remote="aosp" revision="9ceb135814c47cad4858083228fd9615aaaa7c84" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk,linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" remote="aosp" revision="3c6dc0e9c16b4ed1ff43aef82a4bbec739aadcff" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" remote="aosp" revision="d9e4d0c6ef8ced6adeb3373bf59c8bcf504e3db7" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" remote="aosp" revision="e08d97a05c0d35137fa44e4ccb1be899677e7a38" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit" remote="aosp" revision="d32685dba4011664b590b94ad156bc734c2c9bb5" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" remote="aosp" revision="02aa1bb4e079d9fb9b210f39560bfccccf39f36d" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk" name="platform/prebuilts/misc" path="prebuilts/misc" remote="aosp" revision="a0df0f4b2664319539128dee1f36a72872debdbe" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk" name="platform/prebuilts/misc" path="prebuilts/misc" remote="aosp" revision="a2e2cb8e9620c3c926d5a5f22362b9b86ae070f0" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/prebuilts/ndk" path="prebuilts/ndk" remote="aosp" revision="ed603f9b7893442321e50d96bf226c27da1c279a" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="darwin,pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/python/darwin-x86/2.7.5" path="prebuilts/python/darwin-x86/2.7.5" remote="aosp" revision="0b1ee9ec23565fd52a6f20d996a16977d0fa7ead" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="linux,pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" remote="aosp" revision="f63d822b31f41bc1be234ad64a7f09de9221444f" upstream="refs/tags/android-6.0.1_r3"/>
-  <project clone-depth="1" groups="pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp" revision="958a5ddd2f7eccaf025ada539fe5c0a5cf4fbeba" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="ab6f4cb26f6c79ae6651a25a465f4cc26ba2bba0" upstream="refs/tags/android-6.0.1_r3"/>
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp" revision="162077fe89aed155499d7d56383a04d40c92d483" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="a5bb76a8bf43f9a0a0c22c6c68df66d489d17d70" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="b15d7ade80fd69fb2fb7de61abfd9f1afce91c44" upstream="refs/tags/android-6.0.1_r3"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/sdk" path="sdk" remote="aosp" revision="3c9c2be94a1b36a7e01c9011966137badee8b843" upstream="refs/tags/android-6.0.1_r3"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/sdk" path="sdk" remote="aosp" revision="c78d07c6e964f23dc12ba739aff49ff1bf74b323" upstream="refs/tags/android-6.0.1_r3"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" remote="aosp" revision="e547f93b0089f12c78d33b83e5f49fdb0e0c85bc" upstream="refs/tags/android-6.0.1_r3"/>
-  <project name="platform_manifest" path="manifest" remote="vanir" revision="9940ff2e5c6f3582af0bee6b56137b2e060b7d65" upstream="m6"/>
-  <project groups="pdk" name="system_core" path="system/core" remote="vanir" revision="736412345a09b6ae305a3065f202fe6ef1032df7" upstream="m6"/>
+  <project name="platform_manifest" path="manifest" remote="vanir" revision="b9787898979c2df458d911492ee2ba2146b5f8b1" upstream="m6"/>
+  <project groups="pdk" name="system_core" path="system/core" remote="vanir" revision="46e56a65f3a856b903b100a37f2d669436ad338a" upstream="m6"/>
   <project name="system_extras_su" path="system/extras/su" remote="vanir" revision="e7c40996a95e9716ea7c4ca900027704835ded7f" upstream="m6"/>
   <project groups="vendor" name="vendor_asus" path="vendor/asus" remote="vanir" revision="81fa8c8becf6d9178ae9c385242816920290b138" upstream="m6"/>
-  <project name="vendor_htc" path="vendor/htc" remote="vanir" revision="5bf1542fa10214074029b28225a99602ff71d907" upstream="m6"/>
-  <project name="vendor_huawei" path="vendor/huawei" remote="vanir" revision="31a4464cb018159032586ddcc193a812cad24dde" upstream="m6"/>
+  <project name="vendor_htc" path="vendor/htc" remote="vanir" revision="706e999317dae44ae82669d183e99121a970f1a2" upstream="m6"/>
+  <project name="vendor_huawei" path="vendor/huawei" remote="vanir" revision="35fd29f76d7ace6c355ef3311324a9417f4c9e7c" upstream="m6"/>
   <project name="vendor_lge" path="vendor/lge" remote="vanir" revision="59081a474c5b391c14223772f22840bb2c5bf552" upstream="m6"/>
-  <project groups="vendor" name="vendor_motorola" path="vendor/motorola" remote="vanir" revision="f2b5fd14d3258c267fb6988effe3a621e79115bf" upstream="m6"/>
+  <project groups="vendor" name="vendor_motorola" path="vendor/motorola" remote="vanir" revision="88707f1456fd6c22bbb2912c110cd8ceb956ec04" upstream="m6"/>
   <project name="vendor_nvidia" path="vendor/nvidia" remote="vanir" revision="89ce9bd4cea602b5d5af8534ec3828dcd766f117" upstream="m6"/>
-  <project groups="vendor" name="vendor_oneplus" path="vendor/oneplus" remote="vanir" revision="40bcf76246c946347ab216c7cd0fb75a59be7848" upstream="m6"/>
+  <project groups="vendor" name="vendor_oneplus" path="vendor/oneplus" remote="vanir" revision="fb6191360d6d8092ad286ed5d9c00a7b0d5ffd89" upstream="m6"/>
   <project name="vendor_qcom_opt" path="vendor/extra" remote="vanir" revision="24291569527d263ec55ba7749359f6809bd9eb26" upstream="m6"/>
-  <project groups="vendor" name="vendor_samsung" path="vendor/samsung" remote="vanir" revision="71b2f20bed41825c1f03ba4ef6adf054962961f6" upstream="m6"/>
+  <project groups="vendor" name="vendor_samsung" path="vendor/samsung" remote="vanir" revision="203f2fe96bb8095ee19a094581a59dd85254ac45" upstream="m6"/>
   <project groups="vendor" name="vendor_sony" path="vendor/sony" remote="vanir" revision="2529b0592b2e5712131b108bbb2c738c37d6ddf7" upstream="m6"/>
-  <project groups="vendor" name="vendor_vanir" path="vendor/vanir" remote="vanir" revision="fbfc434c59f4fb9e9da5c247647d3df84d05d52b" upstream="m6"/>
+  <project groups="vendor" name="vendor_vanir" path="vendor/vanir" remote="vanir" revision="9adea7627267eaf225fce1e15134568dbdf749f7" upstream="m6"/>
   <project name="vigor/android_device_htc_msm8660-common" path="device/htc/msm8660-common" remote="github" revision="2495568e6563d589b5f1f272fb6576dcceebe941" upstream="cm-12.0"/>
   <project name="vigor/device_htc_vigor" path="device/htc/vigor" remote="github" revision="086af63f3a460b86d6d7136eb953f4b0f04ff5a7" upstream="cm-12.0"/>
   <project name="vigor/vigor_aosp_kernel" path="kernel/htc/vigor-3.0" remote="github" revision="c2a2014bb8b238ebe0140751b81526dfa0312b0f" upstream="cm-12.0"/>

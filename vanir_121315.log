@@ -1,0 +1,191 @@
+
+**** vanir:bionic ****
+6d79500 : bionic: Do not allow LD_SHIM_LIBS for setuid executables <Christopher R. Palmer> 2 days ago
+d45ca0d : Make shim lib load failure non-fatal. <Danny Baumann> 3 days ago
+ 
+**** vanir:build ****
+c87e181 : Hacks <DHOMD> 3 months ago
+e371207 : core: tasks: Use KERNEL_ARCH in dt_image task <luca020400> 33 hours ago
+ 
+**** github:AICP/device_asus_grouper ****
+955f94e : grouper: Fix denial for sensors <Zipsnet> 19 hours ago
+badacac : grouper: Fix OTG <Zipsnet> 27 hours ago
+2e1c39c : grouper: Support legacy paths <Zipsnet> 27 hours ago
+c60a628 : grouper: Remove deprecated OTG property <Zipsnet> 2 days ago
+ 
+**** vanir:device_lge_f400 ****
+6312ca6 : f400: add missing overlay config <Joonhyuk Song> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_lge_g4-common ****
+612cd89 : g4: thermanager: fix battery protection temps <codeworkx> 26 hours ago
+ 
+**** vanir:device_motorola_msm8226-common ****
+2dabae8 : msm8226-common: Specify androidboot.bootdevice <LuK1337> 27 hours ago
+c63755e : msm8226-common: Specify persist.sys.ssr.enable_debug <LuK1337> 28 hours ago
+ 
+**** cm:CyanogenMod/android_device_motorola_osprey ****
+1cd69a2 : cmhw: add isSelfManaged to SunlightEnhancement <Dan Pasanen> 3 days ago
+b8af4bf : osprey: Update SELinux policy for M <Alberto97> 6 weeks ago
+ 
+**** cm:CyanogenMod/android_device_motorola_victara ****
+eee724f : victara: update media_codecs from MPE24.49-18 <Dan Pasanen> 3 days ago
+ 
+**** vanir:device_oneplus_oneplus2 ****
+bf6b9df : Prevent 1+2 from using oppo-common keyhandler +configpanel <DHOMD> 2 months ago
+5c35d5f : Clean RIL props <Willi Ye> 6 hours ago
+2432d97 : Add simactivation RIL feature. <Danny Baumann> 4 weeks ago
+6dfa35d : Track ril header changes. <Danny Baumann> 2 weeks ago
+4077bfb : Update ril.h from M sources. <Danny Baumann> 6 weeks ago
+6721112 : Bring up RIL. <Danny Baumann> 3 months ago
+206b9ea : rootdir: USB init from angler <Willi Ye> 29 hours ago
+fb7cad7 : Missing RIL symbols <Willi Ye> 2 days ago
+2865838 : dtbtool: Recursively search input directory for dtb files <Scott Mertz> 5 days ago
+0e6f4b0 : Move thermal-engine to vendor <Willi Ye> 2 days ago
+11fb1b0 : rootdir: Remove wcnss-server <Willi Ye> 2 days ago
+9d62fd8 : audio: Missing audio files <Willi Ye> 2 days ago
+d29fe5a : sepolicy: Remove for now * Too lazy to fix building <Willi Ye> 3 days ago
+3b75565 : configpanel: catch FileNotFoundException <Keith Mok> 3 weeks ago
+818ca71 : Use ScreenType util from cmsdk <Michael Bestas> 2 weeks ago
+e49168a : oneplus2: Remove CM custom tap-to-wake <Keith Mok> 3 weeks ago
+6aae093 : keyhandler: Update for refactor <Steve Kondik> 5 weeks ago
+13396b9 : oneplus2: Enable proximity check on wake <Keith Mok> 3 weeks ago
+4e4a6f8 : Revert "keyhandler: Remove proximity check" <Willi Ye> 3 days ago
+7992b68 : oneplus2: Tweak power settings <Ethan Chen> 7 days ago
+e6acb0b : Load ssl compat correctly <Willi Ye> 2 days ago
+3e376d7 : Blobs clean up <Willi Ye> 3 days ago
+9bafcf7 : oneplus2: Update audio policy for M <Ethan Chen> 13 days ago
+f71e3d0 : oneplus2: Clean up audio features listing <Ethan Chen> 2 weeks ago
+6106844 : oneplus2: Update media_profiles <Ethan Chen> 2 weeks ago
+14d1b31 : oneplus2: Add camera shim library <Ethan Chen> 13 days ago
+966f4bf : oneplus2: Remove QC FLAC software decoder <Ethan Chen> 9 days ago
+f4f82a7 : oneplus2: Actually remove mm-parser <Ethan Chen> 9 days ago
+4b1e6b6 : Revert "Remove permissive" <Willi Ye> 3 days ago
+45c035c : oneplus2: Build libcnefeatureconfig from source <Michael Bestas> 5 weeks ago
+bd23397 : rootdir: USB init from stock <Willi Ye> 2 weeks ago
+c56ff6b : Don't build fingerprint HAL <Willi Ye> 2 weeks ago
+b44b82b : Disable fp for now <Willi Ye> 3 weeks ago
+b292567 : Remove libOpenCL <Willi Ye> 3 weeks ago
+184bae4 : keyhandler: Remove proximity check <Willi Ye> 4 weeks ago
+220320d : Enable OpenGLES 3.1 <Willi Ye> 4 weeks ago
+e1e4523 : Build libstlport <Willi Ye> 6 weeks ago
+8489964 : remove persist.sys.usb.config override <Nick Kralevich> 6 months ago
+af92777 : torch_gesture: Use Android M setTorch instead of TorchManager <Keith Mok> 8 weeks ago
+53d333a : keyhandler: Remove double tap <Willi Ye> 6 weeks ago
+212968c : oneplus2: Support for native tap-to-wake <Steve Kondik> 8 weeks ago
+2194de2 : wifi: Update wcnss files <Willi Ye> 6 weeks ago
+5225b96 : Remove unsupported overlays <Willi Ye> 9 weeks ago
+25acd6e : oneplus2: Graphic node permissions <Rashed Abdel-Tawab> 5 weeks ago
+9960de8 : oneplus2: Support checking if the keymaster app is loaded <Rashed Abdel-Tawab> 5 months ago
+8b4b18f : oneplus2: Build the BoringSSL compatibility wrapper <Rashed Abdel-Tawab> 9 weeks ago
+5ed9140 : Don't build camera hal <Willi Ye> 6 weeks ago
+076a20f : gps: Remove unsupported delete constants * Missing headers <Willi Ye> 6 weeks ago
+33b1e2c : oneplus2: Define USE_CUSTOM_AUDIO_POLICY <Rashed Abdel-Tawab> 8 weeks ago
+c579fce : Build init as cpp <Willi Ye> 6 weeks ago
+ 
+**** cm:CyanogenMod/android_device_oppo_msm8974-common ****
+0cae3e5 : msm8974: Allow flashing with newer TrustZone version <Michael Bestas> 32 hours ago
+ 
+**** cm:CyanogenMod/android_device_samsung_hlte-common ****
+bb0df10 : Remove depreciated overlays <DHOMD> 12 days ago
+ 
+**** vanir:device_samsung_klte-common ****
+eb354c5 : klte-common: Enable legacy body sensor support <Ethan Chen> 4 weeks ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+7c763e4 : msm8960: publish profiling result in codec xml. <Ronghua Wu> 6 months ago
+ 
+**** vanir:device_samsung_smdk4412-qcom-common ****
+7a50edd : smdk4x12QComRIL: Remove setting mQANElements here, this is handled through super class now <rogersb11> 26 hours ago
+ 
+**** vanir:device_samsung_t0lte ****
+b3e3a40 : Set proper network property <rogersb11> 26 hours ago
+ 
+**** cm:CyanogenMod/android_device_sony_common ****
+e2d9341 : keycheck: Disable implicit function declaration error <Chirayu Desai> 9 hours ago
+ 
+**** vanir:device_sony_fusion3-common ****
+147326f : Update sepolicy to match with qcom/sepolicy <kamarush> 3 weeks ago
+ 
+**** cm:CyanogenMod/android_external_f2fs-tools ****
+fe06482 : f2fs-tools: Cleanup build targets <Michael Bestas> 2 weeks ago
+ 
+**** vanir:frameworks_base ****
+ecb5cdb : Status bar: Add HSPA+ icons <Rashed Abdel-Tawab> 1 year ago
+02b9815 : SystemUI: Revert CAF UI modifications <Michael Bestas> 6 days ago
+ 
+**** vanir:frameworks_native ****
+7d20e20 : Allow legacy sensor HALs to skip required permission checks <Ethan Chen> 4 weeks ago
+ 
+**** vanir:hardware_samsung ****
+b8400a2 : ril: Unify network elements property check <Christopher N. Hesse> 2 days ago
+ 
+**** cmold:android_kernel_htc_msm8974 ****
+17c34b8 : m8/m8dug: disable SYSVIPC <Dan Pasanen> 3 days ago
+ 
+**** vanir:kernel_lge_g3 ****
+74498f7 : g3: disable SYSVIPC <Dan Pasanen> 3 days ago
+7fb55a2 : prima: update from LGVS985 23C <Dan Pasanen> 3 days ago
+ 
+**** cmold:android_kernel_lge_msm8992 ****
+b29309f : Config: Fix H811 dtb image names + SECHASH to stock <DHOMD> 7 days ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+814bdcc : arm/dts: msm8226-moto-common: Add current consumption values <Gabriele M> 11 days ago
+e09c40a : nf: IDLETIMER: Adds the uid field in the msg <Ruchi Kandoi> 8 months ago
+5a84af2 : nf: IDLETIMER: time-stamp and suspend/resume handling. <Ruchi Kandoi> 1 year, 9 months ago
+ 
+**** vanir:kernel_samsung_jf ****
+dabe8fa : jf: disable SYSVIPC <Dan Pasanen> 3 days ago
+ 
+**** cmold:android_kernel_samsung_smdk4412 ****
+764df26 : i9300: enable IDIV emulation <Simon Shields> 6 days ago
+f1117fc : arm/traps: get full DIV instruction in thumb mode <Michael Gernoth> 7 days ago
+cc23179 : arm: add SDIV/UDIV emulation for ARMv7 processors <Vladimir Murzin> 3 years, 3 months ago
+827605e : ARM: 7206/1: Add generic ARM instruction set condition code checks. <Leif Lindholm> 4 years ago
+ 
+**** vanir:platform_manifest ****
+af94a18 : armani by xiaomi <DHOMD> 64 minutes ago
+ 
+**** vanir:packages_apps_Settings ****
+2f4977f : Settings: make (more) dashboard icon color consistent. <gabriele> 26 hours ago
+7861235 : Revert "development: Add setting for updating recovery" <nuclearmistake> 31 hours ago
+c5a4126 : development: Add setting for updating recovery <Brint E. Kriebel> 1 year, 7 months ago
+7591850 : Properly remove NFC payment preference <Michael Bestas> 10 months ago
+2055e59 : Settings: Add back keywords to display settings <Michael Bestas> 34 hours ago
+8f2ca21 : Settings: Remove duplicate strings <Michael Bestas> 35 hours ago
+fa32d96 : Settings: Add back oclick settings <Michael Bestas> 35 hours ago
+3ac9e17 : Settings: Fix more derps after reorganization from 12.1 <AragaoAnderson> 2 days ago
+8658bb8 : Settings: Fix notification settings after reorganization <AragaoAnderson> 2 days ago
+e8eca71 : Settings: Fix Power end call switch <AragaoAnderson> 2 days ago
+ff606ac : DisplaySettings: Remove device dependent prefs properly <LuK1337> 2 days ago
+ 
+**** vanir:packages_apps_soundrecorder ****
+25d0fa6 : SoundRecorder: Remove dependency on android-support-v4 <Michael Bestas> 8 hours ago
+7134128 : SoundRecorder: runtime permissions <jrizzoli> 5 days ago
+0609dc8 : SoundRecorder: much update, so new <jrizzoli> 4 weeks ago
+ 
+**** cm:CyanogenMod/android_packages_apps_TvSettings ****
+d24f3cb : About: Fix build error caused by 07b5c8183b4e8d4d83f6d3631f41363ba290860b <dhacker29> 20 hours ago
+ 
+**** cm:CyanogenMod/android_packages_services_Telecomm ****
+dc68b0c : Telecomm: Fix copyright headers <Michael Bestas> 8 hours ago
+ 
+**** commotio:commotio ****
+a9114f1 : Mondr --> mond + test for onyx <DHOMD> 2 hours ago
+ 
+**** vanir:vendor_htc ****
+5eb7e93 : Revert "m8: add libdivxdrmdecrypt dependencies" <DHOMD> 6 hours ago
+ 
+**** vanir:vendor_oneplus ****
+6b64b85 : oneplus2: Blobs clean up <Willi Ye> 3 days ago
+f08949b : oneplus2: Remove libcnefeatureconfig <Willi Ye> 2 weeks ago
+023d708 : oneplus2: Import blobs from OnePlus2Oxygen_14_OTA_010_all_1511091726 <Willi Ye> 3 weeks ago
+ 
+**** vanir:vendor_sony ****
+1b1b9ca : Taoshan reconcile with Muppets <DHOMD> 7 hours ago
+76d84d3 : fusion3: import drm blobs from razor-mra58k <Georg Veichtlbauer> 4 weeks ago
+4d01c1f : taoshan: Use razor-mra58k drm blobs <Olivier K> 5 weeks ago
+ 
+**** vanir:vendor_vanir ****
+1df1d63 : Add suport for armani <mr-tweaker> 5 hours ago
+ 

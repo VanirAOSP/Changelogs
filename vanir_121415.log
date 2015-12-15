@@ -1,0 +1,154 @@
+
+**** vanir:device_lge_g3-common ****
+d5be5d2 : g3: init: set baseband version by grepping the modem partition <Hendrik Hagendorn> 12 days ago
+8e08b47 : g3: Cleanup init <Hendrik Hagendorn> 5 weeks ago
+ 
+**** vanir:device_motorola_omap4-common ****
+6214713 : libmotou: add libmotou to provide reservedVectorImpl symbols. <Michael Gernoth> 16 hours ago
+a084afe : motoaudiocompat: don't provide shims for reservedVectorImpl symbols <Michael Gernoth> 16 hours ago
+9a51948 : audio/wrapper: wrap all stream functions <Michael Gernoth> 26 hours ago
+06e3af3 : hdmi_audio_hw: update for M <Michael Gernoth> 32 hours ago
+ 
+**** vanir:device_motorola_qcom-common ****
+24c9704 : doze: Use ScreenType util from cmsdk <Michael Bestas> 13 days ago
+ 
+**** vanir:device_oneplus_oneplus2 ****
+d881d26 : Configpanel: use ScreenType util from cmsdk <DHOMD> 11 days ago
+ed2b780 : Clean BoardConfig <Willi Ye> 2 weeks ago
+4841be6 : oneplus2: Build libcnefeatureconfig from source <Michael Bestas> 5 weeks ago
+55ebe2f : rootdir: Remove unused scripts <Willi Ye> 2 weeks ago
+3da51f4 : rootdir: USB init from stock <Willi Ye> 2 weeks ago
+9795f25 : Don't build fingerprint HAL <Willi Ye> 2 weeks ago
+19518a9 : Add cm.dependencies <Abhisek Devkota> 3 weeks ago
+fac086f : Disable fp for now <Willi Ye> 3 weeks ago
+79d9a68 : Remove libOpenCL <Willi Ye> 3 weeks ago
+f2d2c49 : keyhandler: Remove proximity check <Willi Ye> 4 weeks ago
+f950849 : Enable OpenGLES 3.1 <Willi Ye> 4 weeks ago
+5ce800d : Build libstlport <Willi Ye> 6 weeks ago
+fee6bfd : remove persist.sys.usb.config override <Nick Kralevich> 7 months ago
+367f735 : torch_gesture: Use Android M setTorch instead of TorchManager <Keith Mok> 8 weeks ago
+75e523e : keyhandler: Remove double tap <Willi Ye> 6 weeks ago
+8f943d5 : oneplus2: Support for native tap-to-wake <Steve Kondik> 8 weeks ago
+532af57 : wifi: Update wcnss files <Willi Ye> 6 weeks ago
+555c34a : Remove unsupported overlays <Willi Ye> 9 weeks ago
+7f5dc9c : oneplus2: Graphic node permissions <Rashed Abdel-Tawab> 5 weeks ago
+4740003 : oneplus2: Support checking if the keymaster app is loaded <Rashed Abdel-Tawab> 5 months ago
+7dc5b7b : oneplus2: Build the BoringSSL compatibility wrapper <Rashed Abdel-Tawab> 9 weeks ago
+a85a1b4 : Don't build camera hal <Willi Ye> 6 weeks ago
+38ba2eb : wcnss: Missing header <Willi Ye> 6 weeks ago
+479d8a8 : gps: Remove unsupported delete constants * Missing headers <Willi Ye> 6 weeks ago
+fcc0242 : oneplus2: Define USE_CUSTOM_AUDIO_POLICY <Rashed Abdel-Tawab> 8 weeks ago
+401cde7 : Build init as cpp <Willi Ye> 6 weeks ago
+23d2050 : oneplus2: remove video editor from media_profiles.xml <Chong Zhang> 7 months ago
+15e3bad : oneplus2: adding compilation of libextmedia_jni & libqcmediaplayer <Manikanta Sivapala> 4 months ago
+8fa3faf : oneplus2: audio: enable compilation of OMX FLAC SW Decoder library <Narsinga Rao Chella> 7 months ago
+5f01edd : audio: Add appropriate permission for avtimer driver <Shiv Maliyappanahalli> 10 months ago
+635f13f : oneplus2: media_codecs: Checkout from CAF upstream <Rashed Abdel-Tawab> 9 weeks ago
+498bc58 : audio: remove evrc and qcelp encoders <Fred Oh> 3 months ago
+f95d646 : oneplus2: Disable deprecated audio features <Rashed Abdel-Tawab> 8 weeks ago
+2396ab9 : oneplus2: Updated external storage configuration <Jeff Sharkey> 9 months ago
+a0075c6 : oneplus2: remove deprecated storage_list.xml <Jeff Sharkey> 9 months ago
+0adc455 : Remove deprecated OTG prop <Willi Ye> 9 weeks ago
+6a04789 : Missing props <Willi Ye> 3 weeks ago
+2521e5b : Set up low power mode and core_ctl <Willi Ye> 3 weeks ago
+d7ff3c6 : Remove deprecated mkbootimg.mk <Willi Ye> 6 weeks ago
+690efe8 : Exclude non-adreno 4xx firmwares <Alexey> 6 weeks ago
+9688ff0 : Revert "modules: Add core ctl" <Willi Ye> 3 weeks ago
+d9e3b43 : Clean up blobs <Willi Ye> 3 weeks ago
+65f5774 : keyhandler: Remove proximity check <Willi Ye> 4 weeks ago
+57abbb3 : Revert "modules: Add core ctl" <Willi Ye> 4 weeks ago
+ba7c214 : Enable OpenGLES 3.1 <Willi Ye> 4 weeks ago
+278cb7a : Build libstlport <Willi Ye> 6 weeks ago
+e4c2e59 : Remove deprecated mkbootimg.mk <Willi Ye> 6 weeks ago
+0860a1a : remove persist.sys.usb.config override <Nick Kralevich> 7 months ago
+9ff9027 : USB init from stock <Willi Ye> 6 weeks ago
+05032aa : torch_gesture: Use Android M setTorch instead of TorchManager <Keith Mok> 8 weeks ago
+ 
+**** cm:CyanogenMod/android_external_fuse ****
+42f00b6 : libfuse: Fix cast for void* in fuse opts <Matt Mower> 18 hours ago
+ 
+**** cm:CyanogenMod/android_external_stagefright-plugins ****
+75f6d25 : stagefright-plugins: Parse additional FLAC metadata <Steve Kondik> 16 hours ago
+934cbff : stagefright-plugins: Really ignore album art "streams" <Steve Kondik> 21 hours ago
+70cbfe5 : stagefright-plugins: Init port with larger audio buffer size <Steve Kondik> 2 days ago
+ 
+**** vanir:external_toybox ****
+fabff83 : Build a static utility executable <Chirayu Desai> 4 weeks ago
+ 
+**** vanir:frameworks_av ****
+23e9ce4 : nuplayer: PCM offload fixes <Steve Kondik> 14 hours ago
+dc5f0eb : nuplayer: Fix audio EOS notifiy on AudioSink not ready <Xiaoming Yang> 9 months ago
+064bb6a : NuPlayer: Don't maintain timeStamp if state is running <Sharad Sangle> 8 months ago
+71a6763 : NuPlayerDriver: Maintain the timeStamp after seek <Sharad Sangle> 9 months ago
+0145bf6 : stagefright: Additional fixes for extended offload support <Steve Kondik> 16 hours ago
+1512587 : stagefright: Check vendor list for allowed encoders <Steve Kondik> 25 hours ago
+90ef524 : stagefright: Finish "Port AOSP fixes" <Steve Kondik> 28 hours ago
+715a22f : stagefright: Finish support for HEVC muxing <Steve Kondik> 28 hours ago
+0c19cf7 : stagefright: Add support for FLAC offloading <Steve Kondik> 2 days ago
+6dde130 : stagefright: Resurrect PCM offload <Steve Kondik> 5 days ago
+fb97654 : stagefright: Fix a few format strings on 64-bit <Steve Kondik> 32 hours ago
+3d179b5 : stagefright: Fix a few format strings on 64-bit <Steve Kondik> 32 hours ago
+743c7e2 : StagefrightRecorder: Add support for WAVE recording <Michael Bestas> 2 days ago
+ 
+**** vanir:frameworks_base ****
+a938a84 : Cleanup qcom strings <Michael Bestas> 2 weeks ago
+bd273f0 : SystemUI : Port LiveDisplay tile from 12.1 <Danesh M> 6 hours ago
+c055fca : SystemUI: Readd AmbientDisplayTile. <Adnan Begovic> 3 days ago
+1fb9c57 : SystemUI: fix tile pages not filling up <Roman Birg> 8 hours ago
+ 
+**** vanir:frameworks_opt_telephony ****
+b1fdf9a : DcTracker: Fix CDMA data connection <Gabriele M> 6 days ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_display ****
+1a6c62e : gralloc: fall back to old pixel alignment on old blobs <Sultan Qasim Khan> 4 days ago
+ 
+**** github:AICP/kernel_asus_grouper ****
+1a7fc47 : grouper: Enabel ntfs rw and cifs support <Zipsnet> 26 hours ago
+f6679a8 : grouper: Set local version name <Zipsnet> 26 hours ago
+ 
+**** vanir:kernel_huawei_angler ****
+b04725c : video: mdss: LiveDisplay driver <Steve Kondik> 5 months ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+9214c07 : configs: Disable character devices <Tyler Dunn> 3 days ago
+0f07fc6 : g2: disable SYSVIPC <Dan Pasanen> 4 days ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+a1442fd : cma: Add support for memory limits <Laura Abbott> 2 years, 3 months ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Contacts ****
+b568f09 : Contacts: Cleanup strings <Michael Bestas> 33 hours ago
+ 
+**** cm:CyanogenMod/android_packages_apps_ContactsCommon ****
+2f17da1 : ContactsCommon: Improve CAF strings <Michael Bestas> 11 months ago
+23f6138 : ContactsCommon: move CAF strings to cm_strings <Vladislav Koldobskiy> 12 months ago
+ 
+**** cm:CyanogenMod/android_packages_apps_PhoneCommon ****
+5c724e8 : PhoneCommon: Move CAF strings <Michael Bestas> 5 days ago
+ 
+**** vanir:packages_apps_Settings ****
+61bc55b : Settings: Ignore externalIndex if its greater than dash category size. <Adnan Begovic> 3 hours ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Trebuchet ****
+1b0f2b4 : Fix: Restore workspace gradients when returning from Widget drop <Raj Yengisetty> 1 year, 1 month ago
+4da2e29 : Fix: Workspace background gradient <Raj Yengisetty> 1 year, 4 months ago
+ 
+**** cm:CyanogenMod/android_packages_providers_ContactsProvider ****
+4852f70 : Add a richer system around preloading contacts <Rohit Yengisetty> 10 weeks ago
+ 
+**** cm:CyanogenMod/android_system_vold ****
+5b8e453 : vold: Native NTFS kernel driver support <dhacker29> 9 days ago
+ 
+**** cm:CyanogenMod/cm_platform_sdk ****
+be9f6b8 : CMSettingsProvider: Split default load, don't load global for non-owner. <Adnan Begovic> 3 hours ago
+5acf08c : CMSDK : Add live display tile <Danesh M> 6 hours ago
+baf6723 : cmsdk: Add AmbientDisplayTile. <Adnan Begovic> 3 days ago
+ 
+**** vanir:vendor_motorola ****
+ab12965 : omap4: use libmotou.so to provide reservedVectorImpl <Michael Gernoth> 17 hours ago
+ 
+**** vanir:vendor_vanir ****
+cc650ba : Add suport for armani <mr-tweaker> 31 hours ago
+dc68ac4 : Update fingerprints <nuclearmistake> 11 hours ago
+8febe64 : Update flounder <nuclearmistake> 11 hours ago
+ 
