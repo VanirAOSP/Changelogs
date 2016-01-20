@@ -1,0 +1,192 @@
+
+**** cm:CyanogenMod/android_device_google_sprout-common ****
+0175f52 : sprout: ril: fix invalid number error <Varun Chitre> 32 hours ago
+ 
+**** cm:CyanogenMod/android_device_htc_m8-common ****
+9f422cd : overlay: Enable ambient display <Dan Pasanen> 8 days ago
+ 
+**** cm:CyanogenMod/android_device_htc_msm8974-common ****
+9131f05 : init: set perf cores online to 2 <Dan Pasanen> 2 hours ago
+a075263 : Support backward compatibility of new LAST_CALL_FAIL_CAUSE <Sungmin Choi> 6 months ago
+9cb831b : Add an optional vendor_cause string to RIL_REQUEST_LAST_CALL_FAIL_CAUSE's response. This vendor cause string will be passed to Telecom's DisconnectCause, which could help us figure out why we are seeing so many ERROR_UNSPECIFIED. bug:17701976 <Chao Liu> 8 months ago
+b9c1f16 : Modem activity info <Prerepa Viswanadham> 7 months ago
+068e3b0 : RIL: Interface to retrieve power stats info <Sooraj Sasindran> 9 months ago
+a86d014 : init: set caf recommended settings <Dan Pasanen> 7 days ago
+ 
+**** vanir:device_huawei_angler ****
+df3fb35 : Enable multicolor LED <Sam Mortimer> 8 weeks ago
+92f03b2 : Define which hardware keys are present <Sam Mortimer> 7 weeks ago
+ 
+**** vanir:device_lge_g3-common ****
+7da02e7 : init: updates from caf <Dan Pasanen> 7 days ago
+ 
+**** cm:CyanogenMod/android_device_lge_g4-common ****
+517b595 : g4: sepolicy: more external storage related fixes <codeworkx> 7 hours ago
+0caada7 : g4: sepolicy: external storage related fixes <codeworkx> 7 hours ago
+ 
+**** cm:CyanogenMod/android_device_motorola_victara ****
+5c589f8 : cmactions: add extra classname to gesture panel fragment <Dan Pasanen> 30 hours ago
+582347d : cmactions: remove gesture settings summary <Dan Pasanen> 30 hours ago
+d5d29fd : victara: use caf recommended input_boost_ms <Dan Pasanen> 7 days ago
+ 
+**** vanir:device_oneplus_bacon ****
+c146e9b : bacon: Reenable 16-bit PCM offload <Steve Kondik> 15 hours ago
+11ddf7a : bacon: Updates for new baseband release <Steve Kondik> 2 weeks ago
+ 
+**** github:ashwinr64/android_device_oneplus_onyx ****
+2e53c8e : onyx: Fix SDcard mounting <Ashwin Ramesh> 35 hours ago
+ 
+**** cm:CyanogenMod/android_external_stagefright-plugins ****
+644d57a : stagefright-plugins: Fix crash during testDecodeWithEOSOnLastBuffer <Steve Kondik> 83 minutes ago
+61710f5 : stagefright-plugins: Wait for reader shutdown on EOS <Steve Kondik> 2 hours ago
+09f677f : stagefright-plugins: Only do as much sniffing as necessary <Steve Kondik> 31 hours ago
+ 
+**** vanir:frameworks_av ****
+8ca3dfd : nuplayer: Enable PCM offload for any source <Steve Kondik> 16 hours ago
+b19f360 : stagefright: Those who cannot remember history are doomed to repeat it <Steve Kondik> 31 hours ago
+020adf2 : nuplayer: Pass along the sniffed metadata from GenericSource <Steve Kondik> 2 days ago
+4adc183 : stagefright: Remove special handling of FFMPEG extractor <Steve Kondik> 3 days ago
+ 
+**** vanir:frameworks_base ****
+0e9c897 : Themes: Expose hard code color for divider sim pin <Bryan Owens> 3 weeks ago
+255eb8f : Themes: Expose Hard coded colors in Quick Settings Tiles <Bryan Owens> 3 weeks ago
+ 
+**** cmold:android_kernel_htc_msm8974 ****
+b8876d6 : ext4: avoid hang when mounting non-journal filesystems with orphan list <Theodore Ts'o> 3 years ago
+fcf7ede : ext4: make orphan functions be no-op in no-journal mode <Anatol Pomozov> 3 years, 3 months ago
+8d3c776 : dts: dsi-panel-m8: enable ulps <Dan Pasanen> 9 days ago
+ 
+**** cmold:android_kernel_lge_g3 ****
+81704d9 : ext4: make orphan functions be no-op in no-journal mode <Anatol Pomozov> 3 years, 3 months ago
+5f2df0e : drivers: mmc: disable lpm_sup on g3 global if needed <Dan Pasanen> 30 hours ago
+4e487bd : drivers: mmc: add LGE_MMC_BKOPS_ENABLE <Dan Pasanen> 35 hours ago
+2ab0842 : drivers: mmc: add emmc field firmware update <Dan Pasanen> 35 hours ago
+cbc80b9 : drivers: mmc: add LGE_MMC_RESET_IF_HANG <Dan Pasanen> 2 days ago
+2c92b70 : dts: msm8974pro-lge-panel: enable ulps <Dan Pasanen> 9 days ago
+bcbbbfe : power: add lg thermal charger control <Dan Pasanen> 5 days ago
+3b83779 : msm: pft: fix compile <Dan Pasanen> 8 days ago
+9b3ab17 : ext4: don't retry file block mapping on bigalloc fs with non-extent file <Darrick J. Wong> 6 months ago
+6d1c778 : ext4: call sync_blockdev() before invalidate_bdev() in put_super() <Theodore Ts'o> 6 months ago
+7eea4d4 : ext4: fix race between truncate and __ext4_journalled_writepage() <Theodore Ts'o> 7 months ago
+0cd4f44 : ext4: check for zero length extent explicitly <Eryu Guan> 8 months ago
+9d5bf9b : ext4: move check under lock scope to close a race. <Davide Italiano> 8 months ago
+5bee97c : ext4: make fsync to sync parent dir in no-journal for real this time <Lukas Czerner> 9 months ago
+e7e447b : move d_rcu from overlapping d_child to overlapping d_alias <Al Viro> 1 year, 2 months ago
+f31b0cb : debugfs: debugfs_remove_recursive() must not rely on list_empty(d_subdirs) <Oleg Nesterov> 2 years, 5 months ago
+7e4d8d6 : ext4: bail out from make_indexed_dir() on first error <Jan Kara> 1 year, 2 months ago
+36b2a84 : ext4: fix oops when loading block bitmap failed <Jan Kara> 1 year, 2 months ago
+71f8cf4 : ext4: fix overflow when updating superblock backups after resize <Jan Kara> 1 year, 2 months ago
+024471c : ext4: fix reservation overflow in ext4_da_write_begin <Eric Sandeen> 1 year, 3 months ago
+84e95d4 : ext4: add ext4_iget_normal() which is to be used for dir tree lookups <Theodore Ts'o> 1 year, 3 months ago
+b6b6f8a : ext4: don't orphan or truncate the boot loader inode <Theodore Ts'o> 1 year, 3 months ago
+398060f : ext4: don't check quota format when there are no quota files <Jan Kara> 1 year, 3 months ago
+4d5c81d : ext4: check EA value offset when loading <Darrick J. Wong> 1 year, 3 months ago
+eea52588 : ext4: avoid trying to kfree an ERR_PTR pointer <Theodore Ts'o> 1 year, 4 months ago
+16ee337 : ext4: propagate errors up to ext4_find_entry()'s callers <Theodore Ts'o> 1 year, 4 months ago
+cf4f882 : ext4: clarify error count warning messages <Theodore Ts'o> 1 year, 6 months ago
+3dd1242 : ext4: fix wrong assert in ext4_mb_normalize_request() <Maurizio Lombardi> 1 year, 7 months ago
+f41c806 : ext4: use i_size_read in ext4_unaligned_aio() <Theodore Ts'o> 1 year, 9 months ago
+060145a : ext4: atomically set inode->i_flags in ext4_set_inode_flags() <Theodore Ts'o> 1 year, 9 months ago
+1ee657e : ext4: return ENOMEM if sb_getblk() fails <Theodore Ts'o> 3 years ago
+9e1ca19 : ext4: fix possible use-after-free with AIO <Jan Kara> 2 years, 11 months ago
+6b1a54a : ext4/jbd2: don't wait (forever) for stale tid caused by wraparound <Theodore Ts'o> 2 years, 9 months ago
+a4e5bba : ext4: don't leave i_crtime.tv_sec uninitialized <Theodore Ts'o> 1 year, 10 months ago
+b1221d7 : ext4: fix online resize with a non-standard blocks per group setting <Theodore Ts'o> 1 year, 10 months ago
+e9c9857 : ext4: don't try to modify s_flags if the the file system is read-only <Theodore Ts'o> 1 year, 11 months ago
+4f189f6 : ext4: protect group inode free counting with group lock <Tao Ma> 3 years, 7 months ago
+787e078 : ext4: check for overlapping extents in ext4_valid_extent_entries() <Eryu Guan> 2 years, 1 month ago
+c10cc8d : ext4: fix use-after-free in ext4_mb_new_blocks <Junho Ryu> 2 years, 1 month ago
+1474c82 : ext4: avoid bh leak in retry path of ext4_expand_extra_isize_ea() <Theodore Ts'o> 2 years, 2 months ago
+d0a0347 : ext4: avoid hang when mounting non-journal filesystems with orphan list <Theodore Ts'o> 3 years ago
+7a0438f : ext4: fix mount/remount error messages for incompatible mount options <Piotr Sarna> 2 years, 5 months ago
+7c9821db : ext4: make sure group number is bumped after a inode allocation race <Theodore Ts'o> 2 years, 5 months ago
+7a0ab7c : ext4: don't allow ext4_free_blocks() to fail due to ENOMEM <Theodore Ts'o> 2 years, 6 months ago
+2fe4fbf : ext4: fix overflow when counting used blocks on 32-bit architectures <Jan Kara> 2 years, 7 months ago
+dfcd5e0 : ext4: fix data offset overflow in ext4_xattr_fiemap() on 32-bit archs <Jan Kara> 2 years, 7 months ago
+386841d : ext3,ext4: don't mess with dir_file->f_pos in htree_dirblock_to_tree() <Al Viro> 2 years, 6 months ago
+1dc75c3 : ext4: limit group search loop for non-extent files <Lachlan McIlroy> 2 years, 8 months ago
+d9273ab : ext4: add check for inodes_count overflow in new resize ioctl <Theodore Ts'o> 2 years, 8 months ago
+7e0b5d2 : ext4: fix Kconfig documentation for CONFIG_EXT4_DEBUG <Theodore Ts'o> 2 years, 8 months ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+9c37873 : ASoC: tpa6165a2: Lower the headphones amplifier gain <Gabriele M> 2 days ago
+ 
+**** cmold:android_kernel_oneplus_msm8974 ****
+18ab068 : prima: Import release LA.BF.1.1.3_rb1.6 <Steve Kondik> 15 hours ago
+ 
+**** github:ashwinr64/android_kernel_oneplus_onyx ****
+3dd5d64 : onyx: Reset to oneplus camera stack until we get new BSP <Ashwin> 22 hours ago
+2537606 : defconfig: minor regen <Ashwin> 23 hours ago
+f87c8e1 : block, bfq: add Early Queue Merge (EQM) to BFQ-v7r8 for 3.4.0 <Mauro Andreolini> 7 months ago
+76fbb06 : block: introduce the BFQ-v7r8 I/O sched for 3.4 <Paolo Valente> 2 years, 8 months ago
+bc750c9 : block: cgroups, kconfig, build bits for BFQ-v7r8-3.4 <Arianna Avanzini> 1 year, 11 months ago
+ 
+**** cmold:android_kernel_samsung_d2 ****
+abb4747 : ext4: make orphan functions be no-op in no-journal mode <Anatol Pomozov> 3 years, 3 months ago
+ 
+**** vanir:kernel_samsung_jf ****
+2cdea58 : ext4: make orphan functions be no-op in no-journal mode <Anatol Pomozov> 3 years, 3 months ago
+ 
+**** vanir:kernel_samsung_klte ****
+31393d3 : kltekdi: Disable MAX77804K <scoty755> 13 hours ago
+ 
+**** cmold:android_kernel_sony_msm8974 ****
+05b5517 : Added MACH_SONY_LEO_DSDS (Z3 Dual variant) support <Fábio Silva> 7 weeks ago
+57fb2a5 : cpu_power: Avoids race condition when the task exits. <Ruchi Kandoi> 6 months ago
+d813ae96 : sched: cpufreq: Adds a field cpu_power in the task_struct <Ruchi Kandoi> 9 months ago
+7cfe7a3 : cpufreq_stats: Adds the fucntionality to load current values for each frequency for all the cores. <Ruchi Kandoi> 9 months ago
+fb44644 : cpufreq: prevents NULL pointer reference while all_time_in_state stats is collected. <Ruchi Kandoi> 1 year, 9 months ago
+dcd1286 : cpufreq: fix sleeping in atomic context when realloc freq_table for all_time_in_state <Minsung Kim> 1 year, 6 months ago
+c5c157b : cpufreq: Persist cpufreq time in state data across hotplug <Ruchi Kandoi> 1 year, 10 months ago
+2dd9e93 : hashtable: introduce a small and naive hashtable <Sasha Levin> 3 years, 2 months ago
+ac80995 : 8974: Regenerate defconfigs, Enable per-UID cpu time statistics <Chirayu Desai> 7 weeks ago
+55d16c4 : uid_cputime: Iterates over all the threads instead of processes. <Ruchi Kandoi> 5 months ago
+1b93765 : uid_cputime: fix cputime overflow <Jin Qian> 6 months ago
+3ac7002 : uid_cputime: Fixes double accounting race condition on task exit. <Ruchi Kandoi> 6 months ago
+1337c68 : uid_cputime: Extends the cputime functionality to report power per uid <Ruchi Kandoi> 9 months ago
+09e7a64 : proc: uid_cputime: fix show_uid_stat permission <Jin Qian> 8 months ago
+b5fb1a4 : proc: uid: Changes the thread notifier to profile event notifier. <Ruchi Kandoi> 9 months ago
+44e40de : proc: uid: Adds accounting for the cputimes per uid. <jinqian> 10 months ago
+56f2372 : proc: Allow proc_free_inum to be called from any context <Eric W. Biederman> 3 years ago
+e0b4ca8 : proc: Usable inode numbers for the namespace file descriptors. <Eric W. Biederman> 4 years, 7 months ago
+5d683dd : proc: Fix the namespace inode permission checks. <Eric W. Biederman> 4 years, 6 months ago
+6efae83 : proc: Generalize proc inode allocation <Eric W. Biederman> 4 years, 6 months ago
+e74154a : vfs: Allow unprivileged manipulation of the mount namespace. <Eric W. Biederman> 3 years, 5 months ago
+926ea96 : vfs: Only support slave subtrees across different user namespaces <Eric W. Biederman> 3 years, 5 months ago
+490f88f : vfs: Add a user namespace reference from struct mnt_namespace <Eric W. Biederman> 3 years, 5 months ago
+b97dba7 : vfs: Add setns support for the mount namespace <Eric W. Biederman> 6 years ago
+c9e5905 : consitify do_mount() arguments <Al Viro> 3 years, 3 months ago
+1f4b262 : do_add_mount()/umount -l races <Al Viro> 3 years, 3 months ago
+9ba9e590 : fs: introduce inode operation ->update_time <Josef Bacik> 3 years, 9 months ago
+5d6d9be : VFS: Comment mount following code <David Howells> 3 years, 6 months ago
+c48b8d8 : VFS: Make clone_mnt()/copy_tree()/collect_mounts() return errors <David Howells> 3 years, 6 months ago
+3f77af5 : get rid of magic in proc_namespace.c <Al Viro> 3 years, 7 months ago
+57460b0 : get rid of ->mnt_longterm <Al Viro> 3 years, 7 months ago
+727845f : brlocks/lglocks: API cleanups <Andi Kleen> 3 years, 8 months ago
+449b2f0 : brlocks/lglocks: turn into functions <Andi Kleen> 3 years, 8 months ago
+d709907 : lglock: remove online variants of lock <Rusty Russell> 3 years, 8 months ago
+9169d3c : msm: vidc: add support to enable operating rate <Praveen Chavan> 6 months ago
+60c30fb : msm: vidc: Enable session priority support. <Praveen Chavan> 8 months ago
+0b3d73e : security: lsm_audit: add ioctl specific auditing <Jeff Vander Stoep> 9 months ago
+31889f6 : pstore: selinux: add security in-core xattr support for pstore and debugfs <Mark Salyzyn> 12 months ago
+670deae : SELinux: ss: Fix policy write for ioctl operations <Jeff Vander Stoep> 8 months ago
+bdd6c73 : SELinux: use deletion-safe iterator to free list <Jeff Vander Stoep> 8 months ago
+1cfaf44 : SELinux: per-command whitelisting of ioctls <Jeff Vander Stoep> 9 months ago
+3c560e4 : SELinux: Update policy version to support constraints info <Richard Haines> 2 years, 1 month ago
+5cc1507 : SELinux: add default_type statements <Eric Paris> 3 years, 9 months ago
+377ab8c : SELinux: allow default source/target selectors for user/role/range <Eric Paris> 3 years, 9 months ago
+9a3eaec : SELinux: Fix possible NULL pointer dereference in selinux_inode_permission() <Steven Rostedt> 2 years ago
+ 
+**** cm:CyanogenMod/android_packages_apps_CellBroadcastReceiver ****
+dd6bee9 : Themes: Expose hardcoded styles and colors for themes <Bryan Owens> 5 days ago
+ 
+**** vanir:packages_apps_Settings ****
+f1d64bf : Settings: Expose backgroundTint from Single Button Panel <Nicholas Chum> 4 weeks ago
+2c63abc : Settings: Expose Fingerprint Enrollment Checkmark Tint to an XML <Nicholas Chum> 3 weeks ago
+ 
+**** vanir:vendor_lge ****
+d9ef62b : d850/d852: use d855's gps blobs <Dan Pasanen> 8 hours ago
+ 
+**** vanir:vendor_oneplus ****
+0a90620 : bacon: Update blobs <Steve Kondik> 25 hours ago
+ 

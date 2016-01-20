@@ -1,0 +1,633 @@
+
+**** vanir:art ****
+0299788 : art: Disable ART_HOST_CLANG on darwin builds. <Adnan Begovic> 2 days ago
+ 
+**** vanir:bootable_recovery ****
+cd60d87 : recovery: Enable the menu for User builds <Pat Erley> 8 days ago
+ 
+**** vanir:build ****
+825ce55 : Hacks <DHOMD> 4 months ago
+420da62 : qcom: Add dataservices to project pathmap <Ethan Chen> 4 days ago
+d55bce5 : qcom: Fix non-QC target pathmappings <Ethan Chen> 4 days ago
+ 
+**** vanir:device_asus_deb ****
+fdd2491 : Bluetooth: Enable SAP profile support <Pavel Kirpichyov> 9 days ago
+2ce7b8f : deb: Update TCP WIFI buffer size setting <Zhao Wei Liew> 7 days ago
+ce01013 : deb: Increase darkest possible auto-brightness adjustment <Zhao Wei Liew> 7 days ago
+7240757 : deb: Set post_fs_data_done last <Zhao Wei Liew> 6 days ago
+ 
+**** vanir:device_asus_flo ****
+5036a9a : Bluetooth: Enable SAP profile support <Pavel Kirpichyov> 9 days ago
+d98b18d : flo: Disable CABL <Zhao Wei Liew> 4 days ago
+8789ec3 : Custom PowerHAL implementation <Gabriele M> 6 weeks ago
+263e6b5 : flo: Add FFMPEG MPEG4 decoder 360p performance <Zhao Wei Liew> 5 days ago
+d73ef8d : flo: Set post_fs_data_done last <Zhao Wei Liew> 6 days ago
+6bc6295 : flo: Update TCP WIFI buffer size setting <Zhao Wei Liew> 3 weeks ago
+72c0add : flo: Increase darkest possible auto-brightness adjustment <Zhao Wei Liew> 7 days ago
+83fc040 : flo: Enable Cyanogen hardware features <Zhao Wei Liew> 8 days ago
+ 
+**** cm:CyanogenMod/android_device_cyanogen_msm8916-common ****
+13aaa2e : msm8916: Build librmnetctl from source <Ethan Chen> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_cyanogen_msm8939-common ****
+8cf2e47 : msm8939: Build librmnetctl from source <Ethan Chen> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_htc_m8-common ****
+db35bc9 : m8-common: Force NV12 and NV21 pixel alignment <Gabriele M> 31 hours ago
+c61f4ca : overlay: Snap: Restart preview for front and rear cams <Dan Pasanen> 3 days ago
+793b403 : overlay: Snap: Don't use openLegacy() to open cameras <Bruno Martins> 2 days ago
+ 
+**** vanir:device_huawei_angler ****
+ee28130 : Project Fi users: download and install it from the play store. <nuclearmistake> 31 hours ago
+eac5787 : Fix fi and market updates there-of? <nuclearmistake> 33 hours ago
+8f3b82e : Don't dexopt proprietary priv-apps like bullhead doesn't <nuclearmistake> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_lge_d850 ****
+0427ec9 : d850: use LgeLteRIL <Dan Pasanen> 7 days ago
+ 
+**** cm:CyanogenMod/android_device_lge_d851 ****
+1ddf0f7 : d851: use LgeLteRIL <Dan Pasanen> 7 days ago
+ 
+**** cm:CyanogenMod/android_device_lge_d852 ****
+341648c : d852: use LgeLteRIL <Dan Pasanen> 7 days ago
+ 
+**** cm:CyanogenMod/android_device_lge_d855 ****
+21bb5cc : d855: use LgeLteRIL <Dan Pasanen> 7 days ago
+c0ac125 : d855: enable VoLTE support <Hendrik Hagendorn> 13 hours ago
+ 
+**** vanir:device_lge_f400 ****
+edb1ba7 : f400: use LgeLteRIL <Dan Pasanen> 7 days ago
+ 
+**** vanir:device_lge_g3-common ****
+55bc8b9 : init: set screen sharpening after boot anim exits <Dan Pasanen> 7 days ago
+b1fb332 : ril: Fix invalid number error <Varun Chitre> 2 weeks ago
+7431dcb : g3: switch back to thermal-engine <Dan Pasanen> 10 days ago
+ 
+**** cm:CyanogenMod/android_device_lge_ls990 ****
+ec0a653 : ril: rename to LS990RIL and inherit LgeLteRIL <Dan Pasanen> 7 days ago
+ 
+**** vanir:device_lge_vs985 ****
+3d40a12 : ril: rename to VS985RIL and inherit LgeLteRIL <Dan Pasanen> 7 days ago
+ 
+**** vanir:device_motorola_msm8226-common ****
+d96e6bd : msm8226-common: Force NV12 and NV21 pixel alignment <Gabriele M> 31 hours ago
+907aa62 : msm8226-common: camera: Add ISO support (falcon/peregrine) <Gabriele M> 2 days ago
+cd0783f : msm8226-common: camera: Enable additional scene modes <LuK1337> 2 days ago
+097075e : msm8226-common: camera: Enable face detection <Gabriele M> 3 days ago
+d226427 : msm8226-common: Add a bunch of extra camera parameters <Gabriele M> 2 days ago
+ 
+**** vanir:device_motorola_omap4-common ****
+4a69d9d : omap4-common: use Omap4 CMHW for ColorCalibration/LiveDisplay <Michael Gernoth> 6 hours ago
+ca884ed : motoOmap4RIL: more fixes switching to GSM and handle roaming <Michael Gernoth> 35 hours ago
+cdeb9cc : motoOmap4RIL: don't reboot modem when setting preferred network <Michael Gernoth> 34 hours ago
+e71396f : Automatic translation import <Michael Bestas> 2 days ago
+c6dd53f : motoOmap4RIL: more fixes when dynamically switching to GSM <Michael Gernoth> 2 days ago
+965e42b : motoOmap4RIL: set preferred network type earlier <Michael Gernoth> 2 days ago
+ 
+**** vanir:device_motorola_qcom-common ****
+48d5858 : camera: Baconize the wrapper <nadlabak> 2 days ago
+44d8e92 : qcom-common: force audio through analog when docked <Michael Gernoth> 3 days ago
+cc30fb1 : audio: Explicitly enable proxy and usb audio features <Arne Coucheron> 9 weeks ago
+feba5e8 : include: Add custom AudioSystemLegacy.h <Arne Coucheron> 9 weeks ago
+3cc7aaf : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_motorola_victara ****
+aa67283 : victara: Remove liboemcrypto.so as a blob <Christopher R. Palmer> 6 weeks ago
+58dd355 : victara: build kernel with gcc 4.9 <Dan Pasanen> 2 days ago
+3173653 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:device_oneplus_bacon ****
+dc6f779 : bacon: Don't build rmnetcli <Ethan Chen> 6 hours ago
+895ceb2 : bacon: Add missing trailing backslash <Ethan Chen> 6 hours ago
+38a0415 : bacon: LED brightness LibLights control <AdrianDC> 5 months ago
+ 
+**** github:ashwinr64/android_device_oneplus_onyx ****
+8974699 : onyx: Fix the build-barrier for GPS HAL <Ashwin Ramesh> 2 days ago
+ 
+**** vanir:device_oppo_common ****
+f3e63e7 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:device_qcom_common ****
+542ac97 : power: Add support for 8952 <Ethan Chen> 10 days ago
+ 
+**** vanir:device_samsung_jf-common ****
+445abbf : jf: use device-specific data services <Dan Pasanen> 2 days ago
+ 
+**** vanir:device_samsung_qcom-common ****
+82da0a1 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:device_samsung_smdk4412-common ****
+1cd1768 : smdk4412: kill low latency audio <Simon Shields> 13 hours ago
+ 
+**** vanir:device_sony_yuga ****
+e80ea01 : yuga: Use correct partition sizes <Joe Wooster> 6 months ago
+ 
+**** vanir:device_xiaomi_armani ****
+fbe5ec7 : overlay: Snap: Updates <fefifofum> 3 days ago
+f074561 : CameraWrapper: Disable flash and HDR mode in front camera <fefifofum> 3 days ago
+aef3806 : Set LOCAL_PATH in BoardConfig.mk <fefifofum> 3 days ago
+1b89409 : Add camera headers <fefifofum> 3 days ago
+d3baf74 : PowerHAL: Tweak power profiles <fefifofum> 3 days ago
+6b7c496 : Update bdroid_buildcfg.h <fefifofum> 3 days ago
+b2e86d6 : init.armani.rc: Add audiod service <fefifofum> 3 days ago
+5d8e57d : init.armani.rc: Cleanup previous update from caf <fefifofum> 3 days ago
+abef033 : overlay: Set TCP buffer settings <fefifofum> 3 days ago
+8565bc4 : overlay: Snap: Restart preview onPictureTaken <fefifofum> 4 days ago
+e7683d5 : Update sec_config <fefifofum> 4 days ago
+d6f495f : Remove unneeded overlay <Gabriele M> 6 days ago
+6d4afef : Use Snap camera app <fefifofum> 5 days ago
+4071edd : CameraWrapper: Updates in HDR mode <fefifofum> 5 days ago
+d932ba7 : init.armani.rc: Updates from caf <fefifofum> 5 days ago
+a854c6e : Set the correct TARGET_CPU_VARIANT <Adam Farden> 11 days ago
+c0148e4 : Update audio_policy.conf from caf <fefifofum> 6 days ago
+2930d79 : Disable aec and ns audio pre-processing effects <fefifofum> 6 days ago
+cc9a0cc : overlay: remove Bluetooth <fefifofum> 7 days ago
+793dfaf : Update system.prop <fefifofum> 7 days ago
+f087c32 : Support MIDI function <LuK1337> 5 weeks ago
+f667819 : init.armani.rc: Fixes in 'on charger' <fefifofum> 9 days ago
+b233d85 : overlay: Don't set gps parameters <fefifofum> 13 days ago
+eebaf0e : init.armani.rc: Cleanup on charge <fefifofum> 2 weeks ago
+00fdc3c : sepolicy: Address denials for new sensors blobs <fefifofum> 2 weeks ago
+e619346 : sepolicy: Remove gsiff_daemon context <fefifofum> 2 weeks ago
+c8fb45b : Fix issues in off charge <fefifofum> 2 weeks ago
+a2afdfe : armani: Remove un-needed boringssl-compat hack Signed-off-by: TheStrix <parthbhatia98@gmail.com> <TheStrix> 2 weeks ago
+c006d16 : PowerHAL: Add powersave bias profile <Gabriele M> 8 weeks ago
+62c7de2 : gps: Update from motorola_msm8226-common <fefifofum> 2 weeks ago
+652ea8e : overlay: Set minfree in lowmemorykiller <fefifofum> 2 weeks ago
+6975a92 : Custom PowerHAL implementation <fefifofum> 3 weeks ago
+b919a61 : Add missing acdb libs <fefifofum> 3 weeks ago
+3e5c17f : Remove unneeded vold flags <fefifofum> 3 weeks ago
+30799a1 : init: update build fingerprint from latest offcial release v7.1.1.0 <onano> 3 weeks ago
+ 
+**** cm:CyanogenMod/android_external_libpng ****
+75a4e74 : libpng: fix hang during read when inflate fails <Khalid Zubair> 2 days ago
+ 
+**** vanir:frameworks_av ****
+8ad6568 : av: Add support for loading audio_effects_vendor.conf <Steve Kondik> 25 hours ago
+ddf0593 : libstagefright: Support YVU420SemiPlanar camera format <Ethan Chen> 10 days ago
+ 
+**** vanir:frameworks_base ****
+9501c4a : SystemUI: write keyguard enabled setting to CMSettings <Roman Birg> 5 days ago
+7052494 : SystemUI: Make lockscreen visualizer battery friendly <Roman Birg> 6 days ago
+6134c52 : SysUI: Re-add status icons in recreateStatusBar() <d34d> 7 hours ago
+adb285e : SystemUI: Fix CallbackHandler and NetworkControllerBase tests. <Adnan Begovic> 26 hours ago
+2f47c98 : SysUI: Disable window animation when using KeyguardExternalView <d34d> 6 days ago
+9f84cac : SysUI: Handle KgdExtView callbacks on UI thread <d34d> 6 days ago
+8406b5c : SystemUI: Removing padding on mobile signal group. <Adnan Begovic> 27 hours ago
+eb91bd8 : Ringtone: Add support for selection of phone ringtone for SIM-2. <Karthik Reddy Katta> 1 year, 10 months ago
+7d21b54 : SettingsProvider: Disable data roaming by default <Gabriele M> 30 hours ago
+fe976b7 : SystemUi: Reintroduce always_show_roaming config. <Adnan Begovic> 2 days ago
+df5e230 : ThemeService: ManagedProvisioning is a setup package too. <Ricardo Cerqueira> 34 hours ago
+87cbe67 : Revert "SystemUi: Nuke DONT_TRACK label, and introduce CMMetricsLogger constants." <nuclearmistake> 2 days ago
+f20ea48 : SystemUi: Nuke DONT_TRACK label, and introduce CMMetricsLogger constants. <Adnan Begovic> 2 days ago
+dd2be59 : Make WIFI_IDLE_MS default into an overlay <Danesh M> 2 days ago
+50ff24f : Automatic translation import <Michael Bestas> 2 days ago
+2b30269 : Fix drawing of VectorDrawables that are rotated by 90 or 270 degrees. <Danny Baumann> 3 days ago
+e62097f : Increase brightness faster if ambient light is brightening quickly. <Danny Baumann> 10 months ago
+e357576 : Optimize GPS property reloading. <Danny Baumann> 7 months ago
+41ab56e : Align checkbox and description in permission confirmation dialog <Gabriele M> 7 days ago
+ 
+**** cm:CyanogenMod/android_frameworks_opt_net_ims ****
+dfb59ac : Add method to check volte provisioning by phone id <Yvonne Wong> 7 days ago
+ 
+**** cm:CyanogenMod/android_frameworks_opt_net_wifi ****
+53cbe97 : Use def_wifi_idle_ms to fetch WIFI_IDLE_MS defaults <Danesh M> 2 days ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_audio ****
+86d47ef : hal: Support the msm8939-florida-snd-card. <Benjamin Legrand> 5 days ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_audio ****
+b73a764 : audio: Extend platform parser to allow device name aliasing <Ethan Chen> 1 year, 4 months ago
+64387ed : hal: Fix voice call recording <solk2> 1 year, 4 months ago
+91c7d6b : hal: Fix digital USB headset combo device <Steve Kondik> 1 year, 4 months ago
+be6fdfc : hal: Clean up compilation warnings <Steve Kondik> 1 year, 1 month ago
+13ba1b4 : hal: Add support for audio amplifier HAL <Ethan Chen> 2 years, 8 months ago
+381b7a0 : audio: Configure CM default feature set <Steve Kondik> 1 year, 1 month ago
+b25084a : hal: Allow building hardware audio encoders <Arne Coucheron> 12 months ago
+f48de3d : audio: Use project pathmap <Ethan Chen> 3 weeks ago
+1362fc7 : audio: Only allow non-legacy HAL <Ethan Chen> 3 weeks ago
+d7eaf2b : HAL: Identify Track offload session <Alexy Joseph> 8 weeks ago
+12467a1 : hal: Use AUDIO_TX_MONO_COPP topology for incall record usecases <Karthik Reddy Katta> 9 weeks ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_audio ****
+3a44f58 : HAL: Identify the track offload session <Sharad Sangle> 5 weeks ago
+5df33b2 : libaudiopolicymanager: DirectPCM: fix 44.1 clip playing noisy issue <vivek mehta> 7 weeks ago
+b4eabaf : audio: update flags for selection of VoIP direct output <Karthik Reddy Katta> 7 weeks ago
+6d4ef37 : Merge DAX2 changes <Gao Jie> 9 weeks ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_display ****
+fc41c61 : hwc: Fix compile errors after display-frameworks removal <Arne Coucheron> 5 days ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_display ****
+a74edfb : hwc: Remove references to display-frameworks <Ethan Chen> 4 days ago
+c7cce05 : hwc: Fix compile errors after display-frameworks removal <Arne Coucheron> 5 days ago
+b375570 : hwc: Support for QDCM Preference when PU enabled <Nitesh Gupta> 3 weeks ago
+cc1ec84 : hwc: Set ioprio for vsync thread <Steve Kondik> 4 months ago
+7516867 : Don't build lights module if vendor supplies it <Steve Kondik> 1 year, 2 months ago
+730d245 : Revert "hqd: Use MSM_VIDC_TARGET_LIST for Venus color format" <Ethan Chen> 3 weeks ago
+bc1215a : display: Use project pathmap <Ethan Chen> 1 year, 2 months ago
+c324d73 : hwc: Set DefaultMode after bootup completion <Ramakant Singh> 5 weeks ago
+8a6e7c9 : gralloc: Add a private flag for INTERNAL only <Arun Kumar K.R> 4 months ago
+394c830 : hwc: Donot update dynamic-fps when device is not active <Ramakant Singh> 3 months ago
+8f21571 : hwc: Do not wait for MDSS fence for layers with rotation <Dileep Kumar Reddi> 3 months ago
+d2c5ca0 : hwc: Start with ROI set to destination <Arun Kumar K.R> 3 months ago
+9ef4d8c : hwc: Set minfps as part of timeout_handler during idlefallback <Ramakant Singh> 3 months ago
+0d616ba : Revert "hwc: Relax format change restrictions for certain targets" <Dileep Kumar Reddi> 3 months ago
+213ead5 : Default flexible YUV format to NV21 <Tanmaya Godbole> 5 months ago
+ed75fdb : hwc: Reset refresh-rate for few cases as part of timeout handler <Dileep Kumar Reddi> 3 months ago
+56ed396 : gralloc: Add support for PRIV_FLAGS_DISP_CONSUMER <Surajit Podder> 7 months ago
+a2d5295 : hwc: Support ActionSafe on targets with non-scaling RGB pipes. <Sandeep Panda> 4 months ago
+248378d : gralloc: Use adreno_utils api for NV21 and NV12 alignment <Sushil Chauhan> 5 months ago
+037d21d : hwc: Use basePipe for fullscreen and opaque layer <Pullakavi Srinivas> 4 months ago
+77ec4ef : gralloc: Modify check for uncompressed RGB buffers <Naomi Luis> 5 months ago
+449fbe0 : hwc: Use aligned width and height <Dileep Kumar Reddi> 4 months ago
+02dbc50 : Revert "HWC: use aligned width and height for rearranging ROI" <Dileep Kumar Reddi> 4 months ago
+cd7217a : hwc: Support ActionSafe on targets with non-scaling RGB pipes. <Sandeep Panda> 4 months ago
+eed742d : overlay: add tertiary display definition in overlay <Vinu Deokaran> 4 months ago
+a029479 : hwc: Validate display ID in hwc interface <Arun Kumar K.R> 4 months ago
+09441c1 : gralloc: Add missing changes related to RAW16 <Raj Kamal> 5 months ago
+7ea10c5 : hwc: Use basePipe for fullscreen and opaque layer <Pullakavi Srinivas> 4 months ago
+c039f6e : hwc: Use aligned width and height <Dileep Kumar Reddi> 4 months ago
+60cbe72 : Revert "HWC: use aligned width and height for rearranging ROI" <Dileep Kumar Reddi> 4 months ago
+2e918bf : hwc: Avoid idlefallback during video playback <Raj Kamal> 5 months ago
+fbe5a60 : HWC: use aligned width and height for rearranging ROI <Dileep Kumar Reddi> 5 months ago
+597b313 : hwc: Featurize HWC_DISPLAY_SECURE <Raj Kamal> 5 months ago
+eb4d7a6 : hwc: Use HWC_DISPLAY_NO_ATTRIBUTE as terminator. <Prabhanjan Kandula> 5 months ago
+410ba7c : hwc : Normalize source crop before validating scaling limits. <Prabhanjan Kandula> 5 months ago
+95fef31 : hwc: Relax format change restrictions for certain targets <Dileep Kumar Reddi> 5 months ago
+42a1c98 : hwc: Changes for display-hal compilation with QTI_BSP enabled <Ramakant Singh> 6 months ago
+c772eec : hwc: Do not use Borderfill pipe for composition in WFD <Dileep Kumar Reddi> 5 months ago
+e5268fd : hwc/overlay: Pass handle w/h and crop w/h through fb_image field <Arun Kumar K.R> 6 months ago
+5d39f02 : hwc: Log warning instead of mHDMIClient object not available <Dileep Kumar Reddi> 5 months ago
+55b3489 : hwc: Ignore float-conversion for included headers <Naseer Ahmed> 5 months ago
+82fe9c6 : hwc: Do not consider rotation for smart blit <Ramakant Singh> 6 months ago
+dd689ff : hwc: Do not create idle invalidator for MDP3 targets <Dileep Kumar Reddi> 5 months ago
+c58836b : hwc: Align ROI's width and height in both directions <Dileep Kumar Reddi> 6 months ago
+19f2250 : hwc: Fix SF crash due to SIGSEGV error <Raj Kamal> 6 months ago
+598dc49 : hwc: use surfaceDamage to calculate the dirtyrect as per HWC 1.5 <Arun Kumar K.R> 6 months ago
+26959dc : hwc: Fix SF crash due to SIGSEGV error <Raj Kamal> 6 months ago
+5bdafcd : hwc: Do not consider invalid dirty rect for calculation <Ramakant Singh> 6 months ago
+58f6540 : hwc: Align ROI when PingPong Split is enabled <Dileep Kumar Reddi> 6 months ago
+ea846c8 : hwc: bringup HDMI on 8976 <Dileep Kumar Reddi> 6 months ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_display ****
+8c9082a : gralloc: allow forcing old pixel alignment <Sultan Qasim Khan> 32 hours ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_display ****
+9af38ff : Default flexible YUV format to NV21 <Tanmaya Godbole> 5 months ago
+6bda53a : Revert "Change the IMPLEMENTATION_DEFINED preview buffers format". <JinHee Kim> 4 weeks ago
+e236c71 : Revert "Default flexible YUV format to NV21_ZSL". <JinHee Kim> 4 weeks ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_media ****
+62f611d : Fix duplicated OMX.qcom.audio.decoder.aac entry <Keith Mok> 6 weeks ago
+69d6d4b : media: Avoid collision with FFMPEG plugin <Steve Kondik> 3 weeks ago
+610c356 : media: Use project pathmap <Ethan Chen> 3 weeks ago
+dc1b1d4 : mm-video-v4l2: Unmap dropped output buffers <Surajit Podder> 5 weeks ago
+78521c5 : Include kernel header dependency for libOmxVidcCommon <Divya Sharma> 8 weeks ago
+f9c92f0 : mm-video-v4l2: vidc: venc: Fix hybrid HP layer count <Abdulla Anam> 3 months ago
+a5dce41 : mm-video-v4l2: Enable get_param to check downscalar enablement <Surajit Podder> 10 weeks ago
+e7743ae : mm-video-v4l2: venc: Add support to enhance hybrid Hier-p mode <Abdulla Anam> 3 months ago
+75bc6a6 : mm-video-v4l2: vdec:  release buffer when qbuf to driver fails <Manikanta Kanamarlapudi> 3 months ago
+cfeaf87 : mm-video-v4l2: Use client buffer header for FTB <Surajit Podder> 4 months ago
+b6c736d : mm-video-v4l2: Disable intra refresh mode on msm8956/76 <Maheshwar Ajja> 3 months ago
+a54c5d4 : mm-video-v4l2: vdec: fix fps issues in arbitrary mode <Ashray Kulkarni> 4 months ago
+826ba8c : QCMetadata: add a new key for big buffers <Sidipotu Ashok> 3 months ago
+ef3143a : QCMetadata: Add key for setBuffers API support <Manikanta Kanamarlapudi> 7 months ago
+f178e8b : mm-video-v4l2: venc: support all I frame encoding usecase. <Abdulla Anam> 3 months ago
+bcf4fa3 : libstagefrighthw: Add header guard to QComOMXMetadata.h and fix file perms <Deva Ramasubramanian> 4 months ago
+e2d287f : mm-video-v4l2: vdec: streamoff while freeing first output buffer <Balamurugan Alagarsamy> 1 year, 1 month ago
+f0fc3d0 : mm-video: Disable downscalar for non-display usecase <Surajit Podder> 7 months ago
+0997c8a : mm-video: Enable HEVC software encoder OMX component. <Manikanta Sivapala> 4 months ago
+8bb96de : mm-video_v4l2: pass crop nWidth and nHeight in reconfig event. <Abdulla Anam> 4 months ago
+afb1469 : mm-video-v4l2: Fix downscalar issue <Surajit Podder> 4 months ago
+269f6cd : mm-video-v4l2: Fix crash due to divide by zero <Surajit Podder> 4 months ago
+c14558c : mm-video-v4l2: venc: initialize the member variables <Maheshwar Ajja> 4 months ago
+99c2455 : mm-video-v4l2: vdec: Fix closing of file descriptor "0" <Deepak Kushwah> 4 months ago
+b4d0e38 : mm-video-v4l2: venc: limit pixels value in input buffers. <Abdulla Anam> 4 months ago
+1202ebd : mm-video_v4l2: pass crop nWidth and nHeight in reconfig event. <Abdulla Anam> 4 months ago
+1fc82f0 : mm-video: Disable downscalar for non-display usecase <Surajit Podder> 7 months ago
+6ecc67f : mm-core: update vpp related structures and enums. <Abdulla Anam> 4 months ago
+56c0a51 : mm-video-v4l2: vidc: venc: fix CTS issues in vp8 encoder <Maheshwar Ajja> 4 months ago
+1fe6770 : mm-core: update vpp related structures and enums. <Abdulla Anam> 4 months ago
+a9c2410 : mm-video: Set correct color format to driver <Surajit Podder> 6 months ago
+f2fa16b : mm-video-v4l2: vidc: venc: enable low latency mode <Maheshwar Ajja> 5 months ago
+79da148 : mm-video-v4l2: null check before pointer dereference <Abdulla Anam> 5 months ago
+a66ec1f : audio: Fix stale session opening of DSP audio decoder <Naresh Tanniru> 5 months ago
+1171b44 : audio: Fix stale session opening of DSP audio decoder <Naresh Tanniru> 5 months ago
+03f6533 : mm-video-v4l2: change variables used for reconfig height & width <Abdulla Anam> 5 months ago
+6dc2004 : mm-video-v4l2: venc: Disable Bframes incase of UHD recording <Deepak Kushwah> 5 months ago
+f493b73 : audio: Add support for new key kKeyByteMode <Manish Dewangan> 5 months ago
+382b5b7 : mm-video-v4l2: video: add new extensions <Ashray Kulkarni> 8 months ago
+b266f81 : mm-video-v4l2: venc: Add support for low latency mode <Maheshwar Ajja> 5 months ago
+14c22a7 : mm-core: Add Skype extensions <Ashray Kulkarni> 8 months ago
+f85c11c : mm-video-v4l2: Set IDR period for HEVC encoder <Surajit Podder> 5 months ago
+16baeda : Revert "mm-video-v4l2: vidc: venc: Update color conversion decision" <Srinu Gorle> 6 months ago
+fceb6d1 : mm-video-v4l2: video: Add support to enable Maxhierp layer <Deepak Kushwah> 6 months ago
+6e3b671 : Revert "mm-video-v4l2: vidc: venc: Set V4L2_CID_MPEG_VIDC_SET_PERF_LEVEL control" <Deepak Kushwah> 6 months ago
+970b439 : mm-video-v4l2: venc: close message pipes safely <Praveen Chavan> 9 months ago
+5148806 : mm-video-v4l2: venc: report HW overload as insufficientResources <Praveen Chavan> 8 months ago
+39fa84b : mm-video-v4l2: vdec: Handle empty EOS buffer <Praveen Chavan> 7 months ago
+1e92b3c : mm-video-v4l2: venc: update allocation-size check for meta-buffer <Praveen Chavan> 6 months ago
+b716acd : mm-video-v4l2: vidc: add support for setting operating-rate <Praveen Chavan> 9 months ago
+ 
+**** cm:CyanogenMod/android_hardware_ti_omap4 ****
+9ce3921 : add CMHW for ColorCalibration/LiveDisplay <Michael Gernoth> 4 hours ago
+ 
+**** cmold:android_kernel_google_msm ****
+d7e0636 : video: msm: Add more JDI display features <Zhao Wei Liew> 8 days ago
+5a60f88 : msm_fb: Expose CABC controls only to JDI panels <Zhao Wei Liew> 8 days ago
+e4a835d : video: msm: Add support for CABC and SRE for JDI display <Steve Kondik> 10 months ago
+fabbe3d : cpufreq: Check current frequency in device driver <Junjie Wu> 7 months ago
+720c055 :  (CR) msm_fb: display: reduce turn-on display time. <Limei Wang> 3 years, 2 months ago
+9dc14c9 : msm_fb: display: validate input args of mdp4_argc_process_write_req <raghavendra ambadas> 10 months ago
+54e47a3 : UPSTREAM: include/linux/poison.h: fix LIST_POISON{1,2} offset <Vasily Kulikov> 4 months ago
+fdfc151 : UPSTREAM: proc: actually make proc_fd_permission() thread-friendly <Oleg Nesterov> 10 weeks ago
+f582751 : UPSTREAM: proc: make proc_fd_permission() thread-friendly <Oleg Nesterov> 2 years, 4 months ago
+bd24853 : __ptrace_may_access() should not deny sub-threads <Mark Grondona> 2 years, 4 months ago
+ 
+**** cmold:android_kernel_htc_msm8960 ****
+039b120 : msm: HTC: t6: Disable HTC_HEADSET_ONE_WIRE <David Hays> 12 hours ago
+1181743 : m7: HTC_HEADSET_ONE_WIRE panics the kernel with regular headsets <roger_n> 28 hours ago
+ff9fec7 : msm: HTC: t6: Set frame size to 2048 <David Hays> 2 days ago
+ 
+**** github:wyldstallyns/nighthawk_kernel_bullhead ****
+cdc0377 : thermal: disable thermal-engine hotplug and poll instead <flar2> 7 days ago
+4a845b6 : Revert "usb: move hub init and LED blink work to power efficient workqueue" <varchild> 4 days ago
+6ead6d5 : Revert "CHROMIUM: cpufreq: interactive: calculate load before freq change" <varchild> 4 days ago
+f707521 : Compile fix <varchild> 4 days ago
+854ac27 : timer/hrtimer: reprogram remote CPU's timer hardware <Srivatsa Vaddagiri> 11 months ago
+f3f55c7 : irq_work: Implement remote queueing <Frederic Weisbecker> 1 year, 8 months ago
+d53279a : irq_work: Split raised and lazy lists <Frederic Weisbecker> 1 year, 8 months ago
+d81313a : usb: move hub init and LED blink work to power efficient workqueue <Shaibal Dutta> 1 year, 11 months ago
+c8dca49 : usb: don't use PREPARE_DELAYED_WORK <Tejun Heo> 1 year, 10 months ago
+f1d39ec : workqueue: Remove deprecated flush[_delayed]_work_sync() <Jingoo Han> 1 year, 8 months ago
+709e4bf : workqueue: Spelling s/instensive/intensive/ <Geert Uytterhoeven> 1 year, 10 months ago
+691ac64 : workqueue: remove PREPARE_[DELAYED_]WORK() <Tejun Heo> 1 year, 10 months ago
+b112918 : workqueue: Remove deprecated __cancel_delayed_work() <Tan Xiaojun> 1 year, 11 months ago
+7adae43 : workqueue.h: remove loops of single statement macros <Valentin Rothberg> 1 year ago
+79998f1 : workqueue: remove unused WORK_CPU_END <Lai Jiangshan> 1 year, 8 months ago
+abf3cb2 : workqueue: move flush_scheduled_work() to workqueue.h <Lai Jiangshan> 8 months ago
+14c5e98 : workqueue: remove unused work_clear_pending() <Lai Jiangshan> 1 year, 8 months ago
+d56731d : kernel/workqueue.c: pr_warning/pr_warn & printk/pr_info <Fabian Frederick> 1 year, 8 months ago
+6e7814f : workqueue: simplify wq_update_unbound_numa() by jumping to use_dfl_pwq if the target cpumask equals wq's <Daeseok Youn> 1 year, 9 months ago
+32ab56e : workqueue: wake regular worker if need_more_worker() when rescuer leave the pool <Lai Jiangshan> 1 year, 6 months ago
+4c45622 : workqueue: alloc struct worker on its local node <Lai Jiangshan> 1 year, 6 months ago
+cb1ec8c : workqueue: reuse the already calculated pwq in try_to_grab_pending() <Lai Jiangshan> 1 year, 6 months ago
+d709b3e : workqueue: stronger test in process_one_work() <Lai Jiangshan> 1 year, 7 months ago
+f13eadd : workqueue: remove useless WARN_ON_ONCE() <Lai Jiangshan> 1 year, 7 months ago
+d11ce69 : sched: Change autogroup_move_group() to use for_each_thread() <Oleg Nesterov> 1 year, 5 months ago
+d2ed976 : sched: Change thread_group_cputime() to use for_each_thread() <Oleg Nesterov> 1 year, 5 months ago
+1835a76 : sched: s/do_each_thread/for_each_process_thread/ in debug.c <franciscofranco> 9 days ago
+ba197f1 : sched: s/do_each_thread/for_each_process_thread/ in core.c <Oleg Nesterov> 1 year, 5 months ago
+2688f2a : sched: Fix exec_start/task_hot on migrated tasks <franciscofranco> 9 days ago
+a984dac : sched/fair: Avoid integer overflow <Michal Nazarewicz> 2 years, 2 months ago
+629d811 : CHROMIUM: cpufreq: interactive: calculate load before freq change <franciscofranco> 10 days ago
+7b3a5b4 : cpufreq: interactive: remove boost and boostpulse sysfs nodes to prevent 'average joe' mis-usage <franciscofranco> 10 days ago
+60b9416 : sched: Queue RT tasks to head when prio drops <Thomas Gleixner> 1 year, 11 months ago
+ 
+**** cmold:android_kernel_lge_msm8992 ****
+6a091cd : msm: mdss: Configure VIG pipes based on fixed mmbs <Ramkumar Radhakrishnan> 3 months ago
+43a5c70 : msm: mdss: handle blank while mode switch in progress <Adrian Salido-Moreno> 4 months ago
+b6f8a12 : msm: mdss: avoid check for MDP line count during fps update <Padmanabhan Komanduru> 8 months ago
+472c83d : msm: mdss: add panel parameters to debugfs <Xu Yang> 12 months ago
+901411b : msm: mdss: send fb events for both pdata for split DSI cases <Veera Sundaram Sankaran> 5 months ago
+78dff70 : msm: mdss: use the correct variable for continuous splash status <Padmanabhan Komanduru> 8 months ago
+c89f5b6 : mdss: dsi: fix DSI clk rate update during dynamic resolution switch <Anusha Koduru> 8 months ago
+7067d99 : msm: mdss: fix SW TE for dynamic resolution change cases <Veera Sundaram Sankaran> 8 months ago
+f96990e : msm: mdss: add SW TE option for simulator panels <Veera Sundaram Sankaran> 8 months ago
+5bf1536 : msm: mdss: validate current switch state before commit <Adrian Salido-Moreno> 4 months ago
+044a4f5 : mdss: debug: add panel timings to mdp dump <Adrian Salido-Moreno> 9 months ago
+5baba60 : msm: mdss: fb: fix mismatch between current videomode and modelist <Adrian Salido-Moreno> 5 months ago
+35f90c7 : msm: mdss: allow rotator calls on fb without ctl attached <Adrian Salido-Moreno> 5 months ago
+9be4204 : msm: mdss: fb: check for empty timings list when initializing modes <Adrian Salido-Moreno> 5 months ago
+8a6ffb3 : msm: mdss: dsi: fix NULL pointer access while changing resolution <Chandan Uddaraju> 6 months ago
+40b83ae : msm: mdss: exclude cursor from dirty pipe logic <Veera Sundaram Sankaran> 5 months ago
+64a0f89 : msm: mdss: enable panic when pingpong timeout happens <Chandan Uddaraju> 5 months ago
+4983ec1 : sched: remove lg cancun stuff, bring inline with caf <codeworkx> 6 hours ago
+58a201b : sched: initialize frequency domain cpumask <Joonwoo Park> 3 months ago
+2287f19 : sched: Export sched_setscheduler_nocheck() <Junjie Wu> 4 months ago
+7ae6ee0 : sched: disable IRQs in update_min_max_capacity <Steve Muckle> 9 months ago
+9debd51 : sched: fair: Return current CPU if search_cpu(s) is empty <Vikram Mulukutla> 5 months ago
+e0803b5 : sched: prevent task migration while governor queries CPUs' load <Joonwoo Park> 9 months ago
+a5f747e : sched: report loads greater than 100% only during load alert notifications <Srivatsa Vaddagiri> 8 months ago
+cfab9d4 : sched: fix bug in small task CPU selection <Pavankumar Kondeti> 6 months ago
+dd0ec17 : sched: look for least busy and fallback CPU only when it's needed <Joonwoo Park> 8 months ago
+af7cc4c : sched: iterate search CPUs starting from prev_cpu for optimization <Joonwoo Park> 8 months ago
+86aae69 : sched: Optimize the select_best_cpu() "for" loop <Syed Rameez Mustafa> 8 months ago
+548ec3b : sched: Optimize select_best_cpu() to reduce execution time <Syed Rameez Mustafa> 8 months ago
+3ba0595 : cgroup: refactor allow_attach function into common code <Rom Lemarchand> 1 year, 2 months ago
+72b5072 : sched: avoid CPUs with high irq activity for non-small tasks <Joonwoo Park> 12 months ago
+f085be2 : sched: Update max_capacity when an entire cluster is hotplugged <Syed Rameez Mustafa> 11 months ago
+6e60531 : sched: inline function scale_load_to_cpu() <Joonwoo Park> 7 months ago
+ac79056 : cpufreq: interactive: Use sched_get_cpus_busy() to query busy time <Junjie Wu> 8 months ago
+68b9c39 : cpufreq: interactive: Correctly reschedule timer for slack_only case <Junjie Wu> 6 months ago
+ea5b919 : cpufreq: interactive: Add cpuload trace events <Junjie Wu> 9 months ago
+5f070a9 : cpufreq: interactive: Replace per-cpu timer with per-policy timer <Junjie Wu> 9 months ago
+886e9f7 : cpufreq: interactive: Remove first_cpu field <Junjie Wu> 9 months ago
+5d8e8f4 : cpufreq: interactive: Do not reschedule timer if policy->max changes <Junjie Wu> 9 months ago
+15b7bde : msm: kgsl: Add return statement for non-void function <ywen> 6 months ago
+8131896 : msm: kgsl: Fix race condition in snapshot sysfs read <Harshdeep Dhatt> 4 months ago
+ed7b39e : msm: kgsl: Program Secure Block Configuration through CP <Harshdeep Dhatt> 6 months ago
+6e0c368 : msm: kgsl: Zero out the top 32 bits of alwayson reads <Harshdeep Dhatt> 6 months ago
+b98b114 : msm: kgsl: Do not submit detached context switching commands <Sunil Khatri> 6 months ago
+48c09df : msm: kgsl: Return -ENOENT if a context is detached during submit <Jordan Crouse> 6 months ago
+7b53ac1 : msm: kgsl: Do not wake up at turbo <Harshdeep Dhatt> 6 months ago
+8e7a6f6 : msm: kgsl: Replace CP_INTERRUPT with EVENT_WRITE interrupt <Jordan Crouse> 1 year, 1 month ago
+68e9ea7 : msm: kgsl: Don't call del_timer_sync() with spinlock <Harshdeep Dhatt> 5 months ago
+ 
+**** cmold:android_kernel_oneplus_msm8974 ****
+b8903f3 : Revert "msm: Disable crash-to-download-mode" <Matt Wagantall> 24 hours ago
+7a6d191 : defconfig: bacon: update debug config usage <Matt Wagantall> 29 hours ago
+0a368b1 : defconfig: bacon: move select debug features to kerneldebug_config <Matt Wagantall> 26 hours ago
+7b704a4 : defconfig: introduce cyanogenmod_kerneldebug_config <Matt Wagantall> 29 hours ago
+7d013e0 : defconfig: bacon: minimize cyanogenmod_bacon_defconfig <Matt Wagantall> 29 hours ago
+1e1186d : USB: android: Fix a NULL pointer dereference <Pavankumar Kondeti> 2 years, 8 months ago
+ 
+**** cmold:android_kernel_samsung_smdk4412 ****
+f0190e5 : Revert "tick: Cleanup NOHZ per cpu data on cpu down" <andip71> 2 years, 8 months ago
+ 
+**** vanir:platform_manifest ****
+ecc0042 : Revert "Add QC dataservices by default" <nuclearmistake> 2 days ago
+07d26fd : Add QC dataservices by default <Ethan Chen> 4 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_AudioFX ****
+49c1954 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Bluetooth ****
+4885bdd : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_BluetoothExt ****
+9061adc : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Browser ****
+f99d466 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Calendar ****
+2c28b43 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Camera2 ****
+ebd0718 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Contacts ****
+a08be42 : Add contact blocking and unblocking <Rohit Yengisetty> 19 hours ago
+019f467 : Automatic translation import <Michael Bestas> 2 days ago
+64a9c32 : Fix "Copy to .. " overflow menu item title <Rohit Yengisetty> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_ContactsCommon ****
+cf86693 : Add block contact dialog and supporting helper classes <Rohit Yengisetty> 19 hours ago
+bbf7e82 : Refactor contact info lookup <Rohit Yengisetty> 7 days ago
+b5b16f7 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_DeskClock ****
+e6065f8 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Dialer ****
+5a46f31 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Email ****
+34fb128 : email: junk icon <Jorge Ruesga> 3 months ago
+c929853 : email: return default folder name for subfolders <Jorge Ruesga> 3 months ago
+fab6ba7 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Gallery2 ****
+29e8669 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_InCallUI ****
+7107206 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_LockClock ****
+a461a5c : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Messaging ****
+7fc9cfe : Adhere to the revised lookup provider api <Rohit Yengisetty> 19 hours ago
+ 
+**** cm:CyanogenMod/android_packages_apps_PhoneCommon ****
+47f9c4b : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Profiles ****
+a53da5a : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Screencast ****
+eaf1ce6 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_Settings ****
+c971ae3 : Settings: show warning in lock screen settings when disabled by qs <Roman Birg> 5 days ago
+19aa1dc : Settings: Set regulatory information dialog to non-translatable. <Adnan Begovic> 28 hours ago
+8605334 : Settings: Show ringtone per sim for multi sim device <Adnan> 1 year ago
+2c3e40d : Squash commit of SAR and IC Code. <Adnan Begovic> 12 months ago
+70ecab7 : Revert "Settings: Add CMMetricsLogger constants to proper pages." <nuclearmistake> 2 days ago
+35a185c : Settings: Add CMMetricsLogger constants to proper pages. <Adnan Begovic> 2 days ago
+1b1716e : Automatic translation import <Michael Bestas> 2 days ago
+c28091b : Lower minimum vertical range for data usage. <Danny Baumann> 8 days ago
+de3445e : Update vertical axis bounds when resetting network policy. <Danny Baumann> 8 days ago
+5d9dead : Revert "Hide usage graph on app usage details pages." <Danny Baumann> 8 days ago
+b064ddf : Some text are missing in eject sdcard warning <Henrik Baard> 4 weeks ago
+6864747 : Settings: Set default value for 'Volume keys control ringer stream' <Gabriele M> 2 weeks ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Snap ****
+0ad4095 : Snap: Support for HTC's HDR mode <Steve Kondik> 2 years, 1 month ago
+7f73524 : Snap: support more resolutions <Jason Riordan> 2 days ago
+8461f25 : Snap: remove captureUI pngdrawables <jrizzoli> 2 days ago
+358ebe9 : Snap: Add more resolutions <Ethan Chen> 2 days ago
+ 
+**** vanir:packages_apps_soundrecorder ****
+40977bf : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Stk ****
+1f10bf6 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Terminal ****
+ff50b7d : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_ThemeChooser ****
+19981c2 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Trebuchet ****
+fb312de : Trebuchet: Remove app search controller if turned off <cretin45> 3 hours ago
+5b04456 : Trebuchet: Fix some monkey test race condition bugs <cretin45> 3 hours ago
+4eaa0a5 : Trebuchet: Fix resource not found exception when picking a wallpaper <myfluxi> 30 hours ago
+b0c1a0d : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_TvSettings ****
+b9f2f01 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+032f3a2 : Remove mail signatures from notification text. <Danny Baumann> 6 days ago
+7a5f09b : unifiedemail: junk icon <Jorge Ruesga> 3 months ago
+b50cac5 : email: allow move/copy operations to more system folders <Jorge Ruesga> 3 months ago
+a5cb4a5 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_inputmethods_LatinIME ****
+7593ae3 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_providers_DownloadProvider ****
+da87869 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_providers_TelephonyProvider ****
+37604de : TelephonyProvider: Handle database migration from cm-11.0. <Adnan> 1 year, 2 months ago
+ 
+**** cm:CyanogenMod/android_packages_providers_ThemesProvider ****
+3b82b9c : Queries live lock screen preview path <Luis Vidal> 30 hours ago
+c9796fc : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_services_Mms ****
+0b83525 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_services_Telecomm ****
+2ae2624 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:packages_services_Telephony ****
+044982b : Automatic translation import <Michael Bestas> 2 days ago
+de23ef9 : Use correct theme for USSD dialog. <Danny Baumann> 7 days ago
+ 
+**** cm:CyanogenMod/android_packages_wallpapers_Galaxy4 ****
+699976c : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_wallpapers_PhaseBeam ****
+6fe94fd : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_wallpapers_PhotoPhase ****
+1304d69 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** cm:CyanogenMod/android_system_media ****
+c969dad : effects: Add AUDIO_EFFECT_VENDOR_CONFIG_FILE2 <Steve Kondik> 25 hours ago
+ 
+**** vanir:vendor_asus ****
+7a44e46 : deb: update blobs from 6.0.1 (MMB29O) <doc HD> 4 days ago
+0b84b48 : flo: Update blobs <Zhao Wei Liew> 10 days ago
+ 
+**** cm:CyanogenMod/cm_platform_sdk ****
+b9f80b6 : cmsdk: Load notification led customization defaults <Edward Wang> 3 hours ago
+bf9cc6d : cmsdk: add lockscreen internal enabled setting <Roman Birg> 5 days ago
+c7e69de : cmsdk: Introduce internal MetricsLogger class. <Adnan Begovic> 2 days ago
+cc517bf : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** vanir:vendor_huawei ****
+e2361a4 : Project Fi users: download and install it from the play store. <nuclearmistake> 31 hours ago
+ 
+**** vanir:vendor_lge ****
+b83d4cd : g3: bring back thermal-engine <Dan Pasanen> 10 days ago
+3da5542 : Revert "use v20c blobs" <codeworkx> 2 days ago
+7793e8e : Change-Id: I28ca0b38cc13e2613cc8754a05806cb39f3c5a33 <codeworkx> 4 days ago
+ 
+**** vanir:vendor_motorola ****
+806e89e : Remove peregrine.... mismerge <DHOMD> 27 minutes ago
+f0a12fd : victara: Remove liboemcrypto.so as a blob <Christopher R. Palmer> 15 hours ago
+1112938 : falcon peregrine: Rename camera HAL to be wrappable <LuK1337> 3 days ago
+b32bc27 : falcon peregrine titan thea: Hexedit camera HAL for camera model exif <LuK1337> 3 days ago
+a3771a2 : msm8610-common: condor: otus: Decommmonise camera blobs <Ashwin Ramesh> 10 days ago
+985418c : Reset condor --hard to Muppets <DHOMD> 30 minutes ago
+ 
+**** github:TheMuppets/proprietary_vendor_oppo ****
+b86923d : Update proprietary file list. <Danny Baumann> 15 hours ago
+aadc954 : msm8939: Build librmnetctl from source <Michael Bestas> 2 days ago
+ 
+**** vanir:vendor_vanir ****
+c784c4e : fix cricket APN <HashBang> 13 days ago
+2231aa5 : sepolicy: Add perfprofd with set_prop macro <myfluxi> 8 weeks ago
+cdc6234 : make /cache/recovery on post-fs-data <nuclearmistake> 24 hours ago
+bb9fa48 : init: Create directories needed by sshd <Luca Stefani> 4 days ago
+ 
+**** vanir:vendor_xiaomi ****
+aee190e : Updates for both vendors <mr-tweaker> 2 days ago
+ 
