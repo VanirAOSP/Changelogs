@@ -1,9 +1,12 @@
 
 **** vanir:build ****
 24ee120 : Hacks <DHOMD> 6 months ago
-e76f99c : Move generalized updater-script banners to vendor/vanir <nuclearmistake> 4 hours ago
-e75d792 : Generalize installer script helpers <nuclearmistake> 5 hours ago
+e76f99c : Move generalized updater-script banners to vendor/vanir <nuclearmistake> 8 hours ago
+e75d792 : Generalize installer script helpers <nuclearmistake> 9 hours ago
 ba29741 : binary: Generate dummy rule for relocated protobuf headers <Ricardo Cerqueira> 2 days ago
+ 
+**** vanir:device_huawei_angler ****
+ddb8e48 : Attempt to boost headphone output <DHOMD> 3 days ago
  
 **** vanir:device_lge_g3-common ****
 da85834 : g3: add audio effects config and qc libs <Dan Pasanen> 4 weeks ago
@@ -12,19 +15,25 @@ da85834 : g3: add audio effects config and qc libs <Dan Pasanen> 4 weeks ago
 7bd1645 : ls990: Update README to inlcude a little flair <Kelly Craft> 2 days ago
  
 **** vanir:device_motorola_falcon ****
-593119d : falcon: init: Look for metadata block to detect GPE variant <Gabriele M> 8 days ago
+593119d : falcon: init: Look for metadata block to detect GPE variant <Gabriele M> 9 days ago
  
 **** vanir:device_motorola_msm8226-common ****
 4d86bfd : msm8226-common: enable basic dexpreopt <Emilio López> 4 weeks ago
-f27e942 : msm8226-common: sepolicy: Remove no longer needed rules <Gabriele M> 8 days ago
-6f3ae83 : msm8226-common: Set wlan.driver.config prop for softap <Gabriele M> 13 days ago
+f27e942 : msm8226-common: sepolicy: Remove no longer needed rules <Gabriele M> 9 days ago
+6f3ae83 : msm8226-common: Set wlan.driver.config prop for softap <Gabriele M> 2 weeks ago
 b83713c : msm8226-common: Enable proximity check on wake <Gabriele M> 6 days ago
  
 **** vanir:device_oneplus_bacon ****
-95d8144 : bacon: Fix Clear Image bug <Steve Kondik> 20 hours ago
+95d8144 : bacon: Fix Clear Image bug <Steve Kondik> 24 hours ago
+ 
+**** github:Grarak/android_device_oneplus_oneplus2 ****
+28f905b : oneplus2: Remove USB charging mode <Michael Bestas> 4 days ago
  
 **** vanir:device_oppo_common ****
 c9e62f9 : Move gesture haptic feedback to CMSettings <Michael Bestas> 9 days ago
+ 
+**** vanir:device_sony_fusion3-common ****
+bd04bb1 : Update sepolicy to match with qcom/sepolicy <kamarush> 3 months ago
  
 **** cm:CyanogenMod/android_device_sony_msm8974-common ****
 2c9a2fa : Update proprietary files <Fábio Silva> 4 days ago
@@ -32,22 +41,23 @@ c9e62f9 : Move gesture haptic feedback to CMSettings <Michael Bestas> 9 days ago
 879e051 : SELinux: Add policy for macaddrsetup <Chirayu Desai> 8 days ago
  
 **** cm:CyanogenMod/android_device_sony_nicki ****
-ae75ce6 : nicki: Enable drm service <RonGokhale> 10 hours ago
+ae75ce6 : nicki: Enable drm service <RonGokhale> 14 hours ago
 a041c9c : nicki: Add missing widevine lib <RonGokhale> 2 days ago
 f8d73fd : nicki: Switch to open source sensor daemon <RonGokhale> 2 weeks ago
  
 **** cm:CyanogenMod/android_device_sony_rhine-common ****
-ed4ce6f : SELinux: Move macaddrsetup policy to msm8974-common <Chirayu Desai> 8 days ago
+ed4ce6f : SELinux: Move macaddrsetup policy to msm8974-common <Chirayu Desai> 9 days ago
  
 **** cm:CyanogenMod/android_device_sony_shinano-common ****
-10dfd93 : Build and use macaddrsetup <Chirayu Desai> 8 days ago
+10dfd93 : Build and use macaddrsetup <Chirayu Desai> 9 days ago
  
 **** vanir:frameworks_av ****
 6be7e0a : audiopolicy: never create an AudioPolicyServiceClient for itself <Scott Mertz> 2 days ago
  
 **** vanir:frameworks_base ****
+1fc2e9e : telephony: Hack GSM and LTE signal strength <Sultanxda> 5 months ago
 de45e4b : SystemUI: Don't vibrate on touchscreen camera gesture <Michael Bestas> 9 days ago
-e0c77b2 : livedisplay: Factoring out color temperature to RGB conversion algorithm <Steve Kondik> 2 days ago
+e0c77b2 : livedisplay: Factoring out color temperature to RGB conversion algorithm <Steve Kondik> 3 days ago
 2993904 : am: Cancel protected app notification on validation launch. <Adnan Begovic> 5 days ago
  
 **** cm:CyanogenMod/android_hardware_cyanogen ****
@@ -157,7 +167,7 @@ f2fa16b : mm-video-v4l2: vidc: venc: enable low latency mode <Maheshwar Ajja> 7 
 79da148 : mm-video-v4l2: null check before pointer dereference <Abdulla Anam> 6 months ago
 a66ec1f : audio: Fix stale session opening of DSP audio decoder <Naresh Tanniru> 6 months ago
 1171b44 : audio: Fix stale session opening of DSP audio decoder <Naresh Tanniru> 6 months ago
-03f6533 : mm-video-v4l2: change variables used for reconfig height & width <Abdulla Anam> 6 months ago
+03f6533 : mm-video-v4l2: change variables used for reconfig height & width <Abdulla Anam> 7 months ago
 6dc2004 : mm-video-v4l2: venc: Disable Bframes incase of UHD recording <Deepak Kushwah> 7 months ago
 f493b73 : audio: Add support for new key kKeyByteMode <Manish Dewangan> 7 months ago
 382b5b7 : mm-video-v4l2: video: add new extensions <Ashray Kulkarni> 10 months ago
@@ -173,16 +183,68 @@ fceb6d1 : mm-video-v4l2: video: Add support to enable Maxhierp layer <Deepak Kus
 1e92b3c : mm-video-v4l2: venc: update allocation-size check for meta-buffer <Praveen Chavan> 7 months ago
 b716acd : mm-video-v4l2: vidc: add support for setting operating-rate <Praveen Chavan> 10 months ago
  
+**** vanir:kernel_lge_msm8974 ****
+58b837c : g2_defconfig: Disable QCRYPTO and DM_REQ_CRYPT <Rashed Abdel-Tawab> 2 weeks ago
+4427d3d : ASoC: compress: fix the target not going to TCXO shutdown <Aviral Gupta> 1 year, 8 months ago
+83c1aa2 : ASoC: msm: qdsp6v2: Add gapless control to LG controls too <Ethan Chen> 3 weeks ago
+ca82c1a : qseecom: add mutex protection for unloading app in qseecom_release <Zhen Kong> 9 months ago
+f326bc6 : qseecom: Change pr_info messages to pr_debug <AnilKumar Chimata> 11 months ago
+373dcce : spi: spi_qsd: Add multi-ee support <Dan Sneddon> 1 year, 10 months ago
+4424820 : rtac: Check active asm clients before removing adm device <Ramjee Singh> 10 months ago
+2db02ee : spi_qsd: Fix DMA errors <Dan Sneddon> 1 year, 8 months ago
+27af00a : msm: kgsl: check for NULL pointer access <Anupam Sakargayan> 9 months ago
+8ee577e : msm: mdss: Unmap only when buffer was mapped <Jayant Shekhar> 1 year, 1 month ago
+0778e97 : scm-mpu: Add additional memory protection options <Patrick Daly> 1 year, 1 month ago
+5bab339 : msm: mdss: Grouping enable and prepare calls for dsi link clocks <raghavendra ambadas> 10 months ago
+c2196c1 : msm: mdss: Fix Iommu page fault for splash logo enabled feature <raghavendra ambadas> 10 months ago
+1f3f317 : msm: mdss: fix underrun seen with HDMI connected as external <Vineet Bajaj> 1 year, 3 months ago
+bf09c5c : msm: mdss: handle secure display state for MDP <Dhaval Patel> 1 year, 8 months ago
+6becf53 : msm: mdss: add support to parse dynamic refresh rate range <Jeevan Shriram> 1 year, 6 months ago
+08344de : msm: mdss: remove unnecessary lock in checking DSI status <Ray Zhang> 1 year, 6 months ago
+533e5a2 : msm: vidc: replace resurrect_fw with unload_fw <Ashray Kulkarni> 1 year, 1 month ago
+6b68ffc : g2_defconfig: Update crypto features <Greg Wallace> 3 weeks ago
+4b3f103 : ARM: export asm/simd.h <Greg Wallace> 3 weeks ago
+c8811ee : ARM: add support for kernel mode NEON <Paul Reioux> 2 years, 2 months ago
+d106583 : crypto: create generic version of ablk_helper <Ard Biesheuvel> 2 years, 5 months ago
+3d8a018 : crypto: arm/aes update NEON AES module to latest OpenSSL version <Ard Biesheuvel> 1 year ago
+c4a9e5b : ARM: add .gitignore entry for sha256-core.S <myfluxi> 11 months ago
+c800ec8 : arm: crypto: Add optimized SHA-256/224 <Sami Tolvanen> 11 months ago
+bfa3e73 : crypto: sha512 - Expose generic sha512 routine to be callable from other modules <Tim Chen> 2 years, 11 months ago
+5f67c88 : crypto: add crypto_[un]register_shashes for [un]registering multiple shash entries at once <Jussi Kivilinna> 3 years, 8 months ago
+3d52841 : crypto: create generic version of ablk_helper <Ard Biesheuvel> 2 years, 5 months ago
+94cbc6a : ARM: 8120/1: crypto: sha512: add ARM NEON implementation <Jussi Kivilinna> 1 year, 7 months ago
+889a344 : ARM: 8119/1: crypto: sha1: add ARM NEON implementation <Jussi Kivilinna> 1 year, 7 months ago
+0efaa93 : ARM: 8118/1: crypto: sha1/make use of common SHA-1 structures <Jussi Kivilinna> 1 year, 7 months ago
+45794d2 : crypto: arm-aes - fix encryption of unaligned data <Mikulas Patocka> 1 year, 7 months ago
+40da2b0 : CRYPTO: Fix more AES build errors <Russell King> 2 years, 2 months ago
+fcd8ea3 : ARM: add .gitignore entry for aesbs-core.S <Russell King> 2 years, 5 months ago
+9865e28 : ARM: add support for bit sliced AES using NEON instructions <Ard Biesheuvel> 2 years, 5 months ago
+019c921 : ARM: move AES typedefs and function prototypes to separate header <Ard Biesheuvel> 2 years, 5 months ago
+dae120e : ARM: 7837/3: fix Thumb-2 bug in AES assembler code <Ard Biesheuvel> 2 years, 5 months ago
+359efa0 : ARM: 7723/1: crypto: sha1-armv4-large.S: fix SP handling <Ard Biesheuvel> 2 years, 10 months ago
+a6791e6 : ARM: 7626/1: arm/crypto: Make asm SHA-1 and AES code Thumb-2 compatible <Dave Martin> 3 years, 2 months ago
+aab88f9 : arm/crypto: Add optimized AES and SHA1 routines <David McCullough> 3 years, 6 months ago
+769c98b : g2_defconfig: Disable KFIPS <Greg Wallace> 3 weeks ago
+32e05f8 : msm: vidc: Error handling when core is in bad state <Praneeth Paladugu> 1 year, 5 months ago
+04a7718 : msm: mdss: Update ad_bl_level on first set backlight call <Ping Li> 1 year, 1 month ago
+105ff81 : msm: mdss: check for validity of ESD thread before scheduling it <Padmanabhan Komanduru> 1 year, 7 months ago
+9886824 : dt: introduce for_each_available_child_of_node, of_get_next_available_child <Timur Tabi> 3 years, 7 months ago
+43e4ebc : usb: dwc3: Improve erratic errors events handling <Manu Gautam> 10 months ago
+0344ca1 : msm: mdss: Allow DMA pipe sharing only on WB mixer <Sree Sesha Aravind Vadrevu> 2 years, 7 months ago
+24d38cd : msm: mdss: isolate cleanup of pipes within kickoff <Adrian Salido-Moreno> 1 year, 4 months ago
+3cdcc97 : mmc: core: update host->card after getting RCA for SD card <Sahitya Tummala> 11 months ago
+5b4da17 : msm: mdss: add init and deinit calls to notify update ioctl <Krishna Chaitanya Parimi> 1 year, 1 month ago
+ 
 **** github:ashwinr64/android_kernel_oneplus_onyx ****
 d0244d7 : Revert "onyx: Reset to oneplus camera stack until we get new BSP" <Ashwin> 10 days ago
 82d3a86 : prima: import LA.BF.1.1.3-00910-8x74.0 release <Ashwin> 2 weeks ago
  
 **** cmold:android_kernel_sony_msm8x27 ****
-df913da : nicki_defconfig: Disable DSPS <RonGokhale> 12 hours ago
+df913da : nicki_defconfig: Disable DSPS <RonGokhale> 16 hours ago
  
 **** vanir:platform_manifest ****
-f88f3c9 : deeeeeerp <nuclearmistake> 6 hours ago
-e80a2cc : Samsung Galaxy S6 and Note 5 repos <nuclearmistake> 6 hours ago
+f88f3c9 : deeeeeerp <nuclearmistake> 10 hours ago
+e80a2cc : Samsung Galaxy S6 and Note 5 repos <nuclearmistake> 10 hours ago
  
 **** cm:CyanogenMod/android_packages_apps_CellBroadcastReceiver ****
 42a60b2 : Hide CMAS dev options in user builds <Luis Vidal> 5 days ago
@@ -194,14 +256,14 @@ e80a2cc : Samsung Galaxy S6 and Note 5 repos <nuclearmistake> 6 hours ago
 1acee18 : Trebuchet: re-enable rotation by default on tablets <Andreas Blaesius> 5 days ago
  
 **** vanir:vendor_asus ****
-e4ce21e : flo: Update blobs <Zhao Wei Liew> 12 days ago
+e4ce21e : flo: Update blobs <Zhao Wei Liew> 13 days ago
  
 **** cm:CyanogenMod/cm_platform_sdk ****
 73fafc1 : cmsdk: Add touch gesture haptic feedback setting <Michael Bestas> 9 days ago
-6f3c30a : cmsdk: Factoring out color temperature to RGB conversion algorithm <Steve Kondik> 2 days ago
+6f3c30a : cmsdk: Factoring out color temperature to RGB conversion algorithm <Steve Kondik> 3 days ago
  
 **** commotio:commotio ****
-09f22a5 : Nuke is making the magic automatic <DHOMD> 3 minutes ago
+09f22a5 : Nuke is making the magic automatic <DHOMD> 4 hours ago
  
 **** vanir:vendor_lge ****
 d320c13 : g3: add qc sound effects libs <Dan Pasanen> 4 weeks ago
@@ -220,6 +282,6 @@ a87f0e9 : nicki: update widevine blobs <RonGokhale> 2 days ago
 7fa9f6b : nicki: switch to open source sensord <RonGokhale> 2 days ago
  
 **** vanir:vendor_vanir ****
-1798a93 : Relocate updater-script header and footer to installer scripts <nuclearmistake> 5 hours ago
-f012e23 : Move automagic.sh to install/bin <nuclearmistake> 5 hours ago
+1798a93 : Relocate updater-script header and footer to installer scripts <nuclearmistake> 9 hours ago
+f012e23 : Move automagic.sh to install/bin <nuclearmistake> 9 hours ago
  
