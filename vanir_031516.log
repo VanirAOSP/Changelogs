@@ -1,0 +1,380 @@
+
+**** vanir:bootable_recovery ****
+b7fb185 : recovery: Only set relevant sysbar state flags <Tom Marshall> 4 days ago
+ 
+**** vanir:build ****
+037ecaf : Hacks <DHOMD> 6 months ago
+cbf9692 : envsetup: fix mm under zsh <Khalid Zubair> 13 days ago
+ 
+**** cm:CyanogenMod/android_device_cyanogen_msm8916-common ****
+8926974 : msm8916: Remove deprecated usb charging mode <Michael Bestas> 23 hours ago
+185ca47 : msm8916: Remove deprecated code <TheStrix> 4 months ago
+ 
+**** cm:CyanogenMod/android_device_cyanogen_msm8939-common ****
+033b303 : msm8939: Remove obsolete per-cpu sched parameters <Zhao Wei Liew> 7 days ago
+593d571 : msm8939: Remove deprecated usb charging mode <Michael Bestas> 7 hours ago
+ 
+**** vanir:device_htc_m7-common ****
+9e23cb0 : m7-common: fix broken rotation <9Lukas5> 2 days ago
+ 
+**** vanir:device_huawei_angler ****
+593222d : Disable AnglerLayout <Abhisek Devkota> 30 hours ago
+ 
+**** vanir:device_lge_bullhead ****
+e1c08e8 : Disable BullheadLayout <Abhisek Devkota> 30 hours ago
+ 
+**** vanir:device_lge_g3-common ****
+abd59fb : mixer_paths_qcwn: fix speaker-dmic-endfire <Dan Pasanen> 2 days ago
+ 
+**** vanir:device_motorola_omap4-common ****
+6728738 : omap4-common: Use MONOTONIC for rotation sensor timestamp <Arne Coucheron> 8 days ago
+ 
+**** vanir:device_oneplus_bacon ****
+d47a3fd : bacon: Remove debugfs mounting <Steve Kondik> 2 days ago
+ 
+**** vanir:device_samsung_kona-common ****
+8c110ed : kona-common: add macloader type <RGIB> 26 hours ago
+6fd7753 : kona-common: use toybox instead of busybox <RGIB> 2 days ago
+1b964d6 : kona-common : finally fix bluetooth <RGIB> 2 days ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+925721e : Revert "msm8960-common: Switch camera wrapper to CameraParameters2 class" <Dave Daynard> 35 hours ago
+ 
+**** vanir:external_stagefright-plugins ****
+c39d091 : stagefright-plugins: Fix memory leak <Keith Mok> 30 hours ago
+b8759d0 : stagefright-plugins: Fix memory leak <Keith Mok> 32 hours ago
+ 
+**** vanir:external_toybox ****
+b3103a7 : toybox: Fix upstream version parsing <Tom Marshall> 4 days ago
+ 
+**** vanir:frameworks_base ****
+f5994c8 : Prompt permission dialog for status bar weather <Danesh M> 5 days ago
+6b5c6f3 : Move keyDisabled and gamma to service <Danesh M> 4 days ago
+9552ddc : SystemUI: Always unset seperate roaming indicator. <Adnan Begovic> 30 hours ago
+f9a9d50 : InputMethodManager : Move registration to systemReady <Danesh M> 2 days ago
+cf08385 : Should use scan flag, or it will not scan device. <guotao.deng> 2 weeks ago
+ae032eb : SystemUI: Change demo mode time of day. <Dave Kover> 5 weeks ago
+a777a9a : GlobalActions: Set the initial status of airplane mode toggle <Cristoforo Cataldo> 2 years, 1 month ago
+ea229d4 : fix metrics density comparisons <Roman Birg> 4 days ago
+ 
+**** vanir:frameworks_opt_telephony ****
+d414390 : MSIM: RJIL primary card feature <Rakesh Pallerla> 4 months ago
+96c5861 : Telephony: Don't show as roaming if new state isn't in service. <Adnan Begovic> 6 months ago
+ 
+**** vanir:hardware_intel_img_hwcomposer ****
+2248deb : intel: hwcomposer: Only use DRM_PSB_PM_SET if it exists <Christopher R. Palmer> 2 days ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_audio ****
+b73a764 : audio: Extend platform parser to allow device name aliasing <Ethan Chen> 1 year, 6 months ago
+64387ed : hal: Fix voice call recording <solk2> 1 year, 6 months ago
+91c7d6b : hal: Fix digital USB headset combo device <Steve Kondik> 1 year, 6 months ago
+be6fdfc : hal: Clean up compilation warnings <Steve Kondik> 1 year, 3 months ago
+13ba1b4 : hal: Add support for audio amplifier HAL <Ethan Chen> 2 years, 10 months ago
+381b7a0 : audio: Configure CM default feature set <Steve Kondik> 1 year, 3 months ago
+b25084a : hal: Allow building hardware audio encoders <Arne Coucheron> 1 year, 2 months ago
+f48de3d : audio: Use project pathmap <Ethan Chen> 3 months ago
+1362fc7 : audio: Only allow non-legacy HAL <Ethan Chen> 3 months ago
+b5b6d33 : hal: Update format table with AAC ADTS formats. <Ashish Jain> 4 months ago
+102616d : HAL: Identify the track offload session <Sharad Sangle> 3 months ago
+d7eaf2b : HAL: Identify Track offload session <Alexy Joseph> 4 months ago
+8c21ad7 : Merge DAX2 changes <Gao Jie> 4 months ago
+12467a1 : hal: Use AUDIO_TX_MONO_COPP topology for incall record usecases <Karthik Reddy Katta> 4 months ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_audio ****
+0d2d286 : Force voice path when recording audio during call <wangdongdong> 8 days ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_display ****
+a74edfb : hwc: Remove references to display-frameworks <Ethan Chen> 9 weeks ago
+c7cce05 : hwc: Fix compile errors after display-frameworks removal <Arne Coucheron> 10 weeks ago
+b375570 : hwc: Support for QDCM Preference when PU enabled <Nitesh Gupta> 3 months ago
+cc1ec84 : hwc: Set ioprio for vsync thread <Steve Kondik> 6 months ago
+7516867 : Don't build lights module if vendor supplies it <Steve Kondik> 1 year, 4 months ago
+730d245 : Revert "hqd: Use MSM_VIDC_TARGET_LIST for Venus color format" <Ethan Chen> 3 months ago
+bc1215a : display: Use project pathmap <Ethan Chen> 1 year, 4 months ago
+c324d73 : hwc: Set DefaultMode after bootup completion <Ramakant Singh> 3 months ago
+8a6e7c9 : gralloc: Add a private flag for INTERNAL only <Arun Kumar K.R> 6 months ago
+394c830 : hwc: Donot update dynamic-fps when device is not active <Ramakant Singh> 5 months ago
+8f21571 : hwc: Do not wait for MDSS fence for layers with rotation <Dileep Kumar Reddi> 5 months ago
+d2c5ca0 : hwc: Start with ROI set to destination <Arun Kumar K.R> 5 months ago
+9ef4d8c : hwc: Set minfps as part of timeout_handler during idlefallback <Ramakant Singh> 5 months ago
+0d616ba : Revert "hwc: Relax format change restrictions for certain targets" <Dileep Kumar Reddi> 5 months ago
+213ead5 : Default flexible YUV format to NV21 <Tanmaya Godbole> 7 months ago
+ed75fdb : hwc: Reset refresh-rate for few cases as part of timeout handler <Dileep Kumar Reddi> 5 months ago
+56ed396 : gralloc: Add support for PRIV_FLAGS_DISP_CONSUMER <Surajit Podder> 9 months ago
+a2d5295 : hwc: Support ActionSafe on targets with non-scaling RGB pipes. <Sandeep Panda> 6 months ago
+248378d : gralloc: Use adreno_utils api for NV21 and NV12 alignment <Sushil Chauhan> 7 months ago
+037d21d : hwc: Use basePipe for fullscreen and opaque layer <Pullakavi Srinivas> 6 months ago
+77ec4ef : gralloc: Modify check for uncompressed RGB buffers <Naomi Luis> 7 months ago
+449fbe0 : hwc: Use aligned width and height <Dileep Kumar Reddi> 6 months ago
+02dbc50 : Revert "HWC: use aligned width and height for rearranging ROI" <Dileep Kumar Reddi> 6 months ago
+cd7217a : hwc: Support ActionSafe on targets with non-scaling RGB pipes. <Sandeep Panda> 6 months ago
+eed742d : overlay: add tertiary display definition in overlay <Vinu Deokaran> 6 months ago
+a029479 : hwc: Validate display ID in hwc interface <Arun Kumar K.R> 6 months ago
+09441c1 : gralloc: Add missing changes related to RAW16 <Raj Kamal> 8 months ago
+7ea10c5 : hwc: Use basePipe for fullscreen and opaque layer <Pullakavi Srinivas> 6 months ago
+c039f6e : hwc: Use aligned width and height <Dileep Kumar Reddi> 6 months ago
+60cbe72 : Revert "HWC: use aligned width and height for rearranging ROI" <Dileep Kumar Reddi> 6 months ago
+2e918bf : hwc: Avoid idlefallback during video playback <Raj Kamal> 7 months ago
+fbe5a60 : HWC: use aligned width and height for rearranging ROI <Dileep Kumar Reddi> 7 months ago
+597b313 : hwc: Featurize HWC_DISPLAY_SECURE <Raj Kamal> 7 months ago
+eb4d7a6 : hwc: Use HWC_DISPLAY_NO_ATTRIBUTE as terminator. <Prabhanjan Kandula> 7 months ago
+410ba7c : hwc : Normalize source crop before validating scaling limits. <Prabhanjan Kandula> 7 months ago
+95fef31 : hwc: Relax format change restrictions for certain targets <Dileep Kumar Reddi> 7 months ago
+42a1c98 : hwc: Changes for display-hal compilation with QTI_BSP enabled <Ramakant Singh> 8 months ago
+c772eec : hwc: Do not use Borderfill pipe for composition in WFD <Dileep Kumar Reddi> 7 months ago
+e5268fd : hwc/overlay: Pass handle w/h and crop w/h through fb_image field <Arun Kumar K.R> 8 months ago
+5d39f02 : hwc: Log warning instead of mHDMIClient object not available <Dileep Kumar Reddi> 7 months ago
+55b3489 : hwc: Ignore float-conversion for included headers <Naseer Ahmed> 7 months ago
+82fe9c6 : hwc: Do not consider rotation for smart blit <Ramakant Singh> 8 months ago
+dd689ff : hwc: Do not create idle invalidator for MDP3 targets <Dileep Kumar Reddi> 7 months ago
+c58836b : hwc: Align ROI's width and height in both directions <Dileep Kumar Reddi> 8 months ago
+19f2250 : hwc: Fix SF crash due to SIGSEGV error <Raj Kamal> 8 months ago
+598dc49 : hwc: use surfaceDamage to calculate the dirtyrect as per HWC 1.5 <Arun Kumar K.R> 8 months ago
+26959dc : hwc: Fix SF crash due to SIGSEGV error <Raj Kamal> 8 months ago
+5bdafcd : hwc: Do not consider invalid dirty rect for calculation <Ramakant Singh> 8 months ago
+58f6540 : hwc: Align ROI when PingPong Split is enabled <Dileep Kumar Reddi> 8 months ago
+ea846c8 : hwc: bringup HDMI on 8976 <Dileep Kumar Reddi> 8 months ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_display ****
+17f2d38 : Don't build lights module if vendor supplies it <Steve Kondik> 1 year, 4 months ago
+420cc3a : msm8996: remove unused qcom features <Scott Mertz> 3 months ago
+5bdcfa4 : Additional pathmap & build fixes <Scott Mertz> 3 months ago
+e80bb52 : display: Use project pathmap <Ethan Chen> 1 year, 4 months ago
+e04e869 : Remove usage of MASTER_SIDE_CP_TARGET_LIST <Scott Mertz> 3 months ago
+3fd7d00 : Revert "hqd: Use MSM_VIDC_TARGET_LIST for Venus color format" <Scott Mertz> 3 months ago
+99aa8ca : sdm: Fix uninitialized HWLayers object <Saurabh Shah> 3 months ago
+572b2bf : sdm: Do not copy surfaceDamage rects for SKIP layers <Sushil Chauhan> 4 months ago
+074314d : gralloc: Add support for PRIV_FLAGS_DISP_CONSUMER <Surajit Podder> 9 months ago
+8f8f6c7 : sdm : Add support for dynamic BW limit management <Prabhanjan Kandula> 5 months ago
+83a945b : libqdutils: Refer to standard definitions for display types. <Dileep Marchya> 4 months ago
+f29ff14 : sdm: Fix buffer overflow <Manoj Kumar AVM> 4 months ago
+99ef378 : sdm: HWDevice: Set correct HWDisplayMode <Arun Kumar K.R> 4 months ago
+ddca4e7 : sdm: Remove unused function in rect utility <Manoj Kumar AVM> 4 months ago
+8d22bad : sdm: Fix memory leaks. <Dileep Marchya> 4 months ago
+1c3f9a3 : hwc: Handle SBM operation set for all layers <Saurabh Shah> 4 months ago
+b8067a4 : qdMetadata: Use uint32_t instead of bool <Saurabh Shah> 4 months ago
+a0db84b : sdm: hdmi: Set the default grayscale value to RGB888 <Tatenda Chipeperekwa> 5 months ago
+e94e78c : sdm: Add bandwidth and clock members <Sushil Chauhan> 7 months ago
+959863b : sdm: Update HWPanelInfo during primary resolution switch <Sushil Chauhan> 4 months ago
+b8ecfbf : display: Enable clang for all display modules <Naseer Ahmed> 4 months ago
+63e8c95 : sdm: Source crop top needs adjustment for interlaced <Sushil Chauhan> 5 months ago
+f1c8357 : sdm: Remove closing of fd during Sync operations <Manoj Kumar AVM> 5 months ago
+44e2be1 : sdm: Do not process blit configuration for zero app layers. <Dileep Marchya> 5 months ago
+61ef29b : sdm: Add support for single buffer layers <Saurabh Shah> 5 months ago
+a816961 : sdm: Use FB resolution for virtual display <radhakrishna> 5 months ago
+a0394ad : qdMetaData: Remove unused metadata fields. <Arun Kumar K.R> 5 months ago
+50ff0bb : sdm: Panel name retrieval support <Dileep Marchya> 5 months ago
+95f8368 : gralloc/metadata: Add support for single buffer mode <Saurabh Shah> 5 months ago
+d7131e6 : sdm: Add support for UBWC in C2D <radhakrishna> 5 months ago
+67c1f90 : sdm: Allow draw cycle in doze state. <Dileep Marchya> 5 months ago
+5fb6d40 : sdm: Perform GPU target layer validation. <Manoj Kumar AVM> 5 months ago
+226646c : sdm: Populate correct WB index for virtual <radhakrishna> 5 months ago
+3edaf83 : sdm: Read rotator capabilities from driver <radhakrishna> 6 months ago
+492ab99 : sdm: Fix ROI and Split info in SF dumpsys <Sushil Chauhan> 5 months ago
+a9fb396 : sdm: Remove buffer format validation from hwc wrapper. <Ramkumar Radhakrishnan> 5 months ago
+76750f2 : sdm: Add support for YCbCr420 Semiplanar format <Ramkumar Radhakrishnan> 5 months ago
+bddb952 : gralloc: Use only metadata for color space <Saurabh Shah> 6 months ago
+4a31ec4 : sdm: Make premultiplied as default blending <Saurabh Shah> 5 months ago
+e1f01dd : sdm: Flush after first successful commit only. <Dileep Marchya> 5 months ago
+1a7e1f1 : sdm: Add support for IGC. <Dileep Marchya> 6 months ago
+9b99074 : sdm: Fix memory leaks. <Dileep Marchya> 5 months ago
+ec8fe35 : sdm: Fix HDMI & virtual display concurrency. <Dileep Marchya> 5 months ago
+d433464 : sdm: Add interface to consider rotator during scaling validation. <Ramkumar Radhakrishnan> 6 months ago
+a5b764f : sdm: Add support for minimum encryption level settings for HDCP. <Dileep Marchya> 5 months ago
+55fe304 : sdm: Add SPD information for HDMI <Arun Kumar K.R> 5 months ago
+06078aa : sdm: Acquire lock during hwcomposer module open and close <Ramkumar Radhakrishnan> 5 months ago
+d169be9 : sdm: properly close all the fence Fds <Ping Li> 6 months ago
+040a3d0 : sdm: hwc: SetRefreshRate before validate IOCTL <Arun Kumar K.R> 6 months ago
+6e43f57 : sdm: Handle/set dynamic fps appropriately <Arun Kumar K.R> 6 months ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_media ****
+62f611d : Fix duplicated OMX.qcom.audio.decoder.aac entry <Keith Mok> 3 months ago
+69d6d4b : media: Avoid collision with FFMPEG plugin <Steve Kondik> 3 months ago
+610c356 : media: Use project pathmap <Ethan Chen> 3 months ago
+dc1b1d4 : mm-video-v4l2: Unmap dropped output buffers <Surajit Podder> 3 months ago
+78521c5 : Include kernel header dependency for libOmxVidcCommon <Divya Sharma> 4 months ago
+f9c92f0 : mm-video-v4l2: vidc: venc: Fix hybrid HP layer count <Abdulla Anam> 5 months ago
+a5dce41 : mm-video-v4l2: Enable get_param to check downscalar enablement <Surajit Podder> 4 months ago
+e7743ae : mm-video-v4l2: venc: Add support to enhance hybrid Hier-p mode <Abdulla Anam> 5 months ago
+75bc6a6 : mm-video-v4l2: vdec:  release buffer when qbuf to driver fails <Manikanta Kanamarlapudi> 5 months ago
+cfeaf87 : mm-video-v4l2: Use client buffer header for FTB <Surajit Podder> 6 months ago
+b6c736d : mm-video-v4l2: Disable intra refresh mode on msm8956/76 <Maheshwar Ajja> 5 months ago
+a54c5d4 : mm-video-v4l2: vdec: fix fps issues in arbitrary mode <Ashray Kulkarni> 7 months ago
+826ba8c : QCMetadata: add a new key for big buffers <Sidipotu Ashok> 5 months ago
+ef3143a : QCMetadata: Add key for setBuffers API support <Manikanta Kanamarlapudi> 9 months ago
+f178e8b : mm-video-v4l2: venc: support all I frame encoding usecase. <Abdulla Anam> 5 months ago
+bcf4fa3 : libstagefrighthw: Add header guard to QComOMXMetadata.h and fix file perms <Deva Ramasubramanian> 6 months ago
+e2d287f : mm-video-v4l2: vdec: streamoff while freeing first output buffer <Balamurugan Alagarsamy> 1 year, 3 months ago
+f0fc3d0 : mm-video: Disable downscalar for non-display usecase <Surajit Podder> 9 months ago
+0997c8a : mm-video: Enable HEVC software encoder OMX component. <Manikanta Sivapala> 6 months ago
+8bb96de : mm-video_v4l2: pass crop nWidth and nHeight in reconfig event. <Abdulla Anam> 6 months ago
+afb1469 : mm-video-v4l2: Fix downscalar issue <Surajit Podder> 6 months ago
+269f6cd : mm-video-v4l2: Fix crash due to divide by zero <Surajit Podder> 6 months ago
+c14558c : mm-video-v4l2: venc: initialize the member variables <Maheshwar Ajja> 6 months ago
+99c2455 : mm-video-v4l2: vdec: Fix closing of file descriptor "0" <Deepak Kushwah> 6 months ago
+b4d0e38 : mm-video-v4l2: venc: limit pixels value in input buffers. <Abdulla Anam> 6 months ago
+1202ebd : mm-video_v4l2: pass crop nWidth and nHeight in reconfig event. <Abdulla Anam> 6 months ago
+1fc82f0 : mm-video: Disable downscalar for non-display usecase <Surajit Podder> 9 months ago
+6ecc67f : mm-core: update vpp related structures and enums. <Abdulla Anam> 6 months ago
+56c0a51 : mm-video-v4l2: vidc: venc: fix CTS issues in vp8 encoder <Maheshwar Ajja> 6 months ago
+1fe6770 : mm-core: update vpp related structures and enums. <Abdulla Anam> 6 months ago
+a9c2410 : mm-video: Set correct color format to driver <Surajit Podder> 8 months ago
+f2fa16b : mm-video-v4l2: vidc: venc: enable low latency mode <Maheshwar Ajja> 7 months ago
+79da148 : mm-video-v4l2: null check before pointer dereference <Abdulla Anam> 7 months ago
+a66ec1f : audio: Fix stale session opening of DSP audio decoder <Naresh Tanniru> 7 months ago
+1171b44 : audio: Fix stale session opening of DSP audio decoder <Naresh Tanniru> 7 months ago
+03f6533 : mm-video-v4l2: change variables used for reconfig height & width <Abdulla Anam> 7 months ago
+6dc2004 : mm-video-v4l2: venc: Disable Bframes incase of UHD recording <Deepak Kushwah> 7 months ago
+f493b73 : audio: Add support for new key kKeyByteMode <Manish Dewangan> 7 months ago
+382b5b7 : mm-video-v4l2: video: add new extensions <Ashray Kulkarni> 10 months ago
+b266f81 : mm-video-v4l2: venc: Add support for low latency mode <Maheshwar Ajja> 8 months ago
+14c22a7 : mm-core: Add Skype extensions <Ashray Kulkarni> 10 months ago
+f85c11c : mm-video-v4l2: Set IDR period for HEVC encoder <Surajit Podder> 8 months ago
+16baeda : Revert "mm-video-v4l2: vidc: venc: Update color conversion decision" <Srinu Gorle> 8 months ago
+fceb6d1 : mm-video-v4l2: video: Add support to enable Maxhierp layer <Deepak Kushwah> 8 months ago
+6e3b671 : Revert "mm-video-v4l2: vidc: venc: Set V4L2_CID_MPEG_VIDC_SET_PERF_LEVEL control" <Deepak Kushwah> 8 months ago
+970b439 : mm-video-v4l2: venc: close message pipes safely <Praveen Chavan> 11 months ago
+5148806 : mm-video-v4l2: venc: report HW overload as insufficientResources <Praveen Chavan> 10 months ago
+39fa84b : mm-video-v4l2: vdec: Handle empty EOS buffer <Praveen Chavan> 9 months ago
+1e92b3c : mm-video-v4l2: venc: update allocation-size check for meta-buffer <Praveen Chavan> 8 months ago
+b716acd : mm-video-v4l2: vidc: add support for setting operating-rate <Praveen Chavan> 11 months ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_media ****
+347b90c : libc2dcolorconvert: refer c2d header from display <Praveen Chavan> 1 year, 10 months ago
+6316605 : vidc: Fix makefiles <Steve Kondik> 11 months ago
+d84d430 : media: Avoid collision with FFMPEG plugin <Steve Kondik> 1 year, 10 months ago
+8ba01d1 : media: Use project pathmap <Ethan Chen> 1 year, 1 month ago
+be989ef : audio: Add entry for ALAC/APE software component <Preetam Singh Ranawat> 4 months ago
+ab3e6cf : Include kernel header dependency for libOmxVidcCommon <Divya Sharma> 4 months ago
+f5b8f20 : Include kernel header dependency for libOmxVidcCommon <Divya Sharma> 4 months ago
+2266025 : mm-video-v4l2: vidc: Ensure async_message_thread always exits <Arun Menon> 4 months ago
+b0d352b : media : Add Max CSD values for ALAC and APE <Preetam Singh Ranawat> 5 months ago
+a04219f : mm-video-v4l2: vdec: skip enabling extn_user extradata for secure session <Srinu Gorle> 4 months ago
+622d480 : mm-video-v4l2: vidc: Enhance VQZIP checks <Praneeth Paladugu> 7 months ago
+2b5bd8a : mm-video-v4l2: vidc: venc: Fix input extradata issues <Praneeth Paladugu> 4 months ago
+ce13944 : mm-video-v4l2: vidc: vdec: Add UBWC color format support <Srinu Gorle> 4 months ago
+a725170 : mm-video: venc: Initialize m_graphicBufferSize <Deva Ramasubramanian> 4 months ago
+8be933c : mm-video-v4l2: vidc: vdec: Add support for downscalar in component <Srinu Gorle> 10 months ago
+c29ae31 : mm-video-v4l2: vidc: Fix race condition with msg thread fd close <Shalaj Jain> 4 months ago
+6a50516 : mm-video-v4l2: vdec: Fix CTS issue with color coversion <Vinay Kalia> 4 months ago
+ab08584 : mm-core: Add extensions for FRC <Vinay Kalia> 4 months ago
+b12f245 : mm-video-v4l2: Handle async_message_thread error <Arun Menon> 4 months ago
+9952fd8 : mm-core: Add secure component registry entry <Vikash Garodia> 4 months ago
+8d855cc : mm-video: common: update OmxVidcCommon dependency list <Srinu Gorle> 4 months ago
+3c3fe6c : mm-video-v4l2: vdec: Change preferred color format default order <Arun Menon> 4 months ago
+c73daac : mm-video-v4l2: Add registry entry for openmax components. <Vikash Garodia> 4 months ago
+bcb448c : mm-video: swvdec: Add SwVdec registry entries for 8937. <Manikanta Sivapala> 5 months ago
+e592d0a : mm-video: swvdec: Add SwVdec OMX component. <Manikanta Sivapala> 4 months ago
+41cf898 : mm-core: Update the correct instance index for storing VPP handle <Praneeth Paladugu> 4 months ago
+c8827e2 : mm-video-v4l2: vidc: Allocate secure bitstream buffers from CMA <Shalaj Jain> 4 months ago
+cf6d469 : mm-video: vidc: Fully drainbuffers from the driver if batch not complete <Deva Ramasubramanian> 4 months ago
+093280d : mm-core: Unload the component library after the session is done <Praneeth Paladugu> 4 months ago
+45267c8 : Remove msm8937 due to missing HY11 rule <Naveen Kumar> 4 months ago
+fb36868 : mm-video: venc: Revert Venus native support for RGBA8888 <Deva Ramasubramanian> 5 months ago
+1c7b346 : mm-video: swvenc: Add pure virtual functions. <Manikanta Sivapala> 5 months ago
+0ec71b0 : mm-video: Add extensions to enable and configure ROI QP info <Vinay Kalia> 6 months ago
+db88209 : audio: remove duplicate instances of aac decoder <Mingming Yin> 5 months ago
+b04a903 : mm-video-v4l2: vdec: Fix a bug with C2D and DROPPED_FRAME <Vinay Kalia> 5 months ago
+183f501 : mm-video-v4l2: vidc: Add null checks in async_message_process <Arun Menon> 5 months ago
+fbdcaba : mm-video-v4l2: Add support for VP9 secure decoder <Shalaj Jain> 8 months ago
+a935f80 : mm-video: swvenc: Add SwVenc registry entries for 8937. <Manikanta Sivapala> 5 months ago
+f3f1e00 : QCMetadata: add a new key for big buffers <Sidipotu Ashok> 5 months ago
+be1c0e3 : mm-video: vidc: Adjust performance level only after STREAMON <Deva Ramasubramanian> 5 months ago
+6f6f5fb : mm-video-v4l2: vidc: venc: Fix hybrid HP layer count <Ashray Kulkarni> 5 months ago
+144b092 : mm-video: venc: Get rid of PREPARE_BUF on input port <Vinay Kalia> 5 months ago
+431e6b1 : mm-video-v4l2: vdec: fix fps issues in arbitrary mode <Ashray Kulkarni> 7 months ago
+edd1b09 : mm-video-v4l2: vidc: vdec: Put decoder sessions in TURBO <Praneeth Paladugu> 8 months ago
+07a4eca : libc2dcolorconvert: Fix height alignment issue with RGBA formats <Rajesh Sastrula> 5 months ago
+c826460 : mm-video-v4l2: venc: Add support to enhance hybrid Hier-p mode <Ashray Kulkarni> 8 months ago
+c08fc90 : mm-core: Add registry entry for titanium <Srinu Gorle> 5 months ago
+94af4ea : mm-video: Add opaque color format support to MPEG-4 SwVenc. <Manikanta Sivapala> 5 months ago
+f4e1426 : mm-video-v4l2: Do not send error to client once in loaded state <Shalaj Jain> 6 months ago
+bf75c1c : mm-video-v4l2: vdec: Add range check before native_buffer usage <Arun Menon> 6 months ago
+ 
+**** cmold:android_kernel_htc_msm8952 ****
+d306a0a : qseecom: Remove the dead code from driver <AnilKumar Chimata> 6 weeks ago
+83b871a : qseecom: Improve listener processing related to QSEE Reentrancy <Zhen Kong> 7 months ago
+da15458 : qseecom: Improve reentrancy operation for QSEE OS-level scm_call cmds <Zhen Kong> 8 months ago
+0803cde : qseecom: Add re-entrancy changes in qseecom.c <Zhen Kong> 9 months ago
+8baa944 : qseecom: New command IDs for FSM IKE and LTEOTA <Kranthikumar Kurapati> 1 year, 9 months ago
+cf51f67 : qseecom: Update key id strings for full disk encryption <AnilKumar Chimata> 4 months ago
+03f9e38 : qseecom: Load cmnlib64 for 64bit secure apps <AnilKumar Chimata> 4 months ago
+6a97a43 : qseecom: handle HW FDE key operations asynchronously <Dinesh K Garg> 6 months ago
+692700e : qseecom: Do not try to load commonlib when loaded in lk <Zhen Kong> 9 months ago
+355e37d : tty: Fix unsafe ldisc reference via ioctl(TIOCGETD) <Peter Hurley> 9 weeks ago
+530f339 : KEYS: Fix race between read and revoke <David Howells> 3 months ago
+672d3d9 : fuse: break infinite loop in fuse_fill_write_pages() <Roman Gushchin> 5 months ago
+ 
+**** cmold:android_kernel_htc_msm8960 ****
+9935340 : tty: Fix unsafe ldisc reference via ioctl(TIOCGETD) <Peter Hurley> 9 weeks ago
+1b4c14a : KEYS: Fix race between read and revoke <David Howells> 3 months ago
+f11f974 : fuse: break infinite loop in fuse_fill_write_pages() <Roman Gushchin> 5 months ago
+ca8b15d : ext4: make orphan functions be no-op in no-journal mode <Anatol Pomozov> 3 years, 6 months ago
+ 
+**** cmold:android_kernel_htc_msm8994 ****
+5403f24 : tty: Fix unsafe ldisc reference via ioctl(TIOCGETD) <Peter Hurley> 9 weeks ago
+3468bac : KEYS: Fix race between read and revoke <David Howells> 3 months ago
+6d7782f : fuse: break infinite loop in fuse_fill_write_pages() <Roman Gushchin> 5 months ago
+a8b0864 : cpufreq: Correct the data reported in all_time_in_state <Srinivasarao P> 6 weeks ago
+796c4d4 : uid_cputime: Avoids double accounting of process stime, utime and cpu_power in task exit. <Ruchi Kandoi> 9 months ago
+5829479 : sched: cpufreq: Adds a field cpu_power in the task_struct <Ruchi Kandoi> 11 months ago
+7a6944e : cpufreq_stats: Adds the fucntionality to load current values for each frequency for all the cores. <Srinivasarao P> 6 weeks ago
+b0f7191 : cpufreq: Avoid using global variable total_cpus <Ruchi Kandoi> 1 year, 5 months ago
+d24625f : cpufreq: fix sleeping in atomic context when realloc freq_table for all_time_in_state <Minsung Kim> 1 year, 9 months ago
+6d1a9bf : cpufreq: Persist cpufreq time in state data across hotplug <Ruchi Kandoi> 2 years ago
+090d173 : sched: initialize frequency domain cpumask <Joonwoo Park> 5 months ago
+ 
+**** vanir:kernel_huawei_angler ****
+4111fa5 : Sync cyanogenmod_angler_defconfig with make config <Sam Mortimer> 2 days ago
+ 
+**** github:ashwinr64/android_kernel_oneplus_onyx ****
+f717e01 : update F2FS stuff <Ashwin> 19 hours ago
+8d4ffce : Revert "Rebuild Defconfig" <Ashwin> 33 hours ago
+1dc97f4 : f2fs: Catchup with upstream v4.5-rc1-3.4 <engstk> 2 days ago
+ 
+**** vanir:platform_manifest ****
+6f6b19d : cm: Change external/pdfium to CM <Steve Kondik> 3 days ago
+3d2f14a : Revert "Use a V10 engine that compiles" <nuclearmistake> 2 days ago
+ 
+**** vanir:packages_apps_DeskClock ****
+40c215c : Use AppCompat\'s imageButtonStyle attribute am: 3003b28b22 <Justin Klaassen> 4 weeks ago
+ 
+**** vanir:packages_apps_LockClock ****
+fde0e1e : LockClock : Add external facing permission grant activity <Danesh M> 5 days ago
+ 
+**** vanir:packages_apps_Settings ****
+9c35338 : Settings : Add multiuser support for CMHardware <Danesh M> 6 days ago
+ 
+**** cm:CyanogenMod/android_packages_providers_ThemesProvider ****
+1a5f882 : Use correct read/write perms for provider <d34d> 32 hours ago
+ 
+**** vanir:packages_services_Telecomm ****
+939d1cd : Telecomm: Add support to set ring tone for SIM2 <mengsun> 1 year, 5 months ago
+ 
+**** vanir:packages_services_Telephony ****
+e2d5520 : Fix "Fix "multi-sim: fallback on active subId on emergency calls"" <Ricardo Cerqueira> 2 days ago
+ 
+**** vanir:system_core ****
+4d437e4 : init: Fix derp in property name for rebooting to charger hook <Christopher R. Palmer> 2 days ago
+ 
+**** cm:CyanogenMod/cm_platform_sdk ****
+19b267d : Revert "cmhw: Don't hold a static reference to the service" <Adnan Begovic> 2 days ago
+220ab79 : CMSettings : Add display gamma setting <Danesh M> 30 hours ago
+ 
+**** vanir:vendor_motorola ****
+6e645a5 : condor: Add adsp libs for camera <Ícaro Hoff> 4 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oppo ****
+23e7581 : msm8974: New blobs <Pat Erley> 10 days ago
+ 
+**** vanir:vendor_samsung ****
+12cd39d : d2-common: update sensors again <Dave Daynard> 3 days ago
+ 
+**** vanir:vendor_vanir ****
+de70ea7 : Bring back Exchange2 <Abhisek Devkota> 27 hours ago
+a2d89d9 : V10 kernel has no cm-13 branch. SO NOW IT'S ON A TIMEOUT. <nuclearmistake> 2 days ago
+ 
+**** vanir:vendor_xiaomi ****
+b6f7d9d : Merge https://github.com/MrBaNkS/proprietary_vendor_xiaomi into m6 <mr-tweaker> 14 hours ago
+4242e1f : Merge https://github.com/MrBaNkS/android_device_xiaomi_cancro into m6 <mr-tweaker> 2 days ago
+ 
