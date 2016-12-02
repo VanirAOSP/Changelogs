@@ -1,0 +1,327 @@
+
+**** vanir:build ****
+44cb2d4 : Build hacks <DHOMD> 5 weeks ago
+c84c6b6 : core: Remove more color leftovers <Luca Stefani> 31 hours ago
+7a6a13b : core: Remove color leftover <Luca Stefani> 32 hours ago
+ 
+**** vanir:device_asus_deb ****
+e26752d : deb: add kickstart to wakelock group <chrmhoffmann> 3 hours ago
+20a86de : Remove PowerControl widget <Abhisek Devkota> 6 hours ago
+c1df646 : deb: inherit flo's system.prop <Simon Shields> 4 hours ago
+5bbc7ab : deb: use common_mini_tablet <Abhisek Devkota> 21 hours ago
+ 
+**** vanir:device_asus_flo ****
+c38ce57 : Revert "flo: fix hardware/qcom/media paths" <Simon Shields> 2 days ago
+ 
+**** vanir:device_motorola_falcon ****
+05208cd : falcon: Add assert for XT1031 <Gabriele M> 31 hours ago
+ 
+**** vanir:device_motorola_msm8226-common ****
+f0a3269 : msm8226-common: Switch to bullhead WV <Luca Stefani> 27 hours ago
+1210f52 : msm8226-common: fstab: Switch to /dev/block/bootdevice <LuK1337> 27 hours ago
+ 
+**** vanir:device_motorola_msm8916-common ****
+6ea99c7 : msm8916-common: Drop all the shims!! <Alberto97> 4 days ago
+ 
+**** vanir:device_motorola_omap4-common ****
+a119116 : Revert "omap4-common: fix the build" <Michael Gernoth> 32 hours ago
+9c77de5 : omap4-common: fix the build <Michael Gernoth> 33 hours ago
+ 
+**** vanir:device_oneplus_bacon ****
+e29467d : bacon: Add shim for libwvm.so <Arne Coucheron> 9 days ago
+8d86cb1 : bacon: N sepolicy bringup <Simon Shields> 3 days ago
+2a880f7 : bacon: enable platform text relocations <Simon Shields> 2 days ago
+214d46f : bacon: set nfc device location <Simon Shields> 3 days ago
+b7b6d94 : bacon: disable CNE/DPM/QC location <Simon Shields> 9 days ago
+e18c478 : bacon: camera h4xx <Joey Rizzoli> 2 weeks ago
+ 
+**** github:Grarak/android_device_oneplus_oneplus2 ****
+fe83d01 : overlay: Fix fp location <Willi Ye> 30 hours ago
+92e9240 : sepolicy: Address more denials <Willi Ye> 32 hours ago
+cc4f0d4 : Kang overlays from op3 <Willi Ye> 33 hours ago
+ 
+**** vanir:device_samsung_jf-common ****
+3c38189 : jf: Disable blur <Paul Keith> 9 hours ago
+53cb72a : jf: Enable more legacy camera hacks <Zhao Wei Liew> 3 weeks ago
+ 
+**** vanir:device_samsung_klte-common ****
+1d1e063 : klte-common: update mpdecision group <OzzysCmAcc> 2 days ago
+c52ffc1 : klte-common: adress mpdecision denial <OzzysCmAcc> 3 days ago
+ 
+**** cm:CyanogenMod/android_external_fsck_msdos ****
+674d58f : fsck_msdos: Don't use Snapdragon LLVM <Ethan Chen> 4 days ago
+ 
+**** vanir:frameworks_base ****
+72d4dcf : Add back button to navbar tuner <LuK1337> 2 days ago
+8a059b0 : Handle onOptionsItemSelected for TunerActivity <LuK1337> 2 days ago
+ 
+**** vanir:frameworks_opt_net_wifi ****
+a5190f3 : WifiQualifiedNetworkSelector: turn down the logspam <Simon Shields> 35 hours ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_media ****
+c69ed02 : media: Correct symlink for msm8084 <razorloves> 17 hours ago
+88d7385 : media: Undo damage to pathmapping <Ethan Chen> 2 days ago
+ 
+**** cmold:android_kernel_google_msm ****
+82ab4b4 : ion: disable system contig heap <Liam Mark> 5 weeks ago
+ 
+**** cmold:android_kernel_lge_g3 ****
+eb6b05b : ion: disable system contig heap <Liam Mark> 5 weeks ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+d763af2 : ion: disable system contig heap <Liam Mark> 5 weeks ago
+ 
+**** vanir:kernel_moto_shamu ****
+5d38846 : msm: crypto: Fix integer over flow check in qcrypto driver <Biswajit Paul> 3 months ago
+498772e : BACKPORT: perf: Fix race in swevent hash <Peter Zijlstra> 9 weeks ago
+795b350 : msm: vidc: use %pK instead of %p which respects kptr_restrict sysctl. <Yueyao (Nathan) Zhu> 9 weeks ago
+ace75d5 : UPSTREAM: proc: prevent accessing /proc/<PID>/environ until it's ready <Mathias Krause> 6 months ago
+ce07bed : arm/configs: shamu: disable extra SCSI configs <Patrick Tjin> 9 weeks ago
+1fa1ffd : soc: qcom: smp2p: Fix kernel address leak <Karthikeyan Ramasubramanian> 9 weeks ago
+56ce9e4 : ASoC: msm: Add Buffer overflow check <Biswajit Paul> 10 weeks ago
+41a24e8 : Revert "ASoC: msm: Add Buffer overflow check" <Yuan Lin> 8 weeks ago
+4e5d258 : UPSTREAM: af_unix: Guard against other == sk in unix_dgram_sendmsg <Rainer Weikusat> 9 months ago
+5db5a5c : cgroup: prefer %pK to %p <Nick Desaulniers> 9 weeks ago
+a1afb53 : UPSTREAM: block: fix use-after-free in seq file <Vegard Nossum> 4 months ago
+6d1ccff1 : msm: camera: Restructure data handling to be more robust <Biswajit Paul> 9 weeks ago
+8ab6291 : msm: sensor: Avoid potential stack overflow <Biswajit Paul> 3 months ago
+7cce65d : qcedev: Validate Source and Destination addresses <Biswajit Paul> 9 weeks ago
+fb82d9c8 : ion: Disable ION_HEAP_TYPE_SYSTEM_CONTIG <Daniel Rosenberg> 9 weeks ago
+13c14db : ASoC: msm: initialize the params array before using it <vivek mehta> 9 weeks ago
+d4361b5 : qseecom: Change format specifier %p to %pK <Mallikarjuna Reddy Amireddy> 9 weeks ago
+e93d197 : UPSTREAM: HID: core: prevent out-of-bound readings <Benjamin Tissoires> 10 months ago
+e09efe1 : BACKPORT: ALSA: usb-audio: Fix double-free in error paths after snd_usb_add_audio_stream() call <Vladis Dronov> 8 months ago
+46f462c : BACKPORT: ALSA: usb-audio: Minor code cleanup in create_fixed_stream_quirk() <Takashi Iwai> 8 months ago
+f8607b6 : BACKPORT: tty: Prevent ldisc drivers from re-using stale tty fields <Peter Hurley> 12 months ago
+b79a757 : UPSTREAM: tcp: fix use after free in tcp_xmit_retransmit_queue() <Eric Dumazet> 3 months ago
+6035949 : BACKPORT: block: fix use-after-free in sys_ioprio_get() <John Dias> 9 weeks ago
+ede039c : Revert "Fix backend connection to FE upon call disconnection" <Pat Tjin> 9 weeks ago
+31cc862 : Revert "msm: sps: fix kernel panic" <Pat Tjin> 9 weeks ago
+3412839 : msm: sps: fix kernel panic <Wei Wang> 3 months ago
+93b1dd1 : Fix backend connection to FE upon call disconnection <Jean-Michel Trivi> 3 months ago
+d7a9e70 : ANDROID: binder: Clear binder and cookie when setting handle in flat binder struct <Arve Hjønnevåg> 3 months ago
+465d512 : ANDROID: binder: Add strong ref checks <Arve Hjønnevåg> 3 months ago
+b8f4ebd : qseecom: validate the inputs of __qseecom_send_modfd_resp <Biswajit Paul> 4 months ago
+82e433a : msm: mdss: Correct block id check for mdss_mdp_misr_table <Ping Li> 7 months ago
+0fdf005 : msm: crypto: Fix integer overflow check in qcedev driver <Biswajit Paul> 4 months ago
+b136592 : msm: camera: sensor: Fix use after free condition <Biswajit Paul> 4 months ago
+a38a16d : msm: camera: restructure data handling to be more robust <Vasko Kalanoski> 1 year, 9 months ago
+e2925d2 : arm64: dma-mapping: always clear allocated buffers <Marek Szyprowski> 1 year, 7 months ago
+60aa1ae : binder: prevent kptr leak by using %pK format specifier <Nick Desaulniers> 3 months ago
+eaa4a16 : BACKPORT: tcp: make challenge acks less predictable <Eric Dumazet> 4 months ago
+eb37c0c : UPSTREAM: net: Fix use after free in the recvmmsg exit path <Arnaldo Carvalho de Melo> 8 months ago
+26780ea : ASoC: check for null function pointer for dummy device read/write <Yuan Lin> 3 months ago
+9725447 : msm: mdss: Fix to validate data copied from user space <Naseer Ahmed> 3 months ago
+3f3c8a8 : usb: gadget: f_usbnet: zero out CRC padding <Patrick Tjin> 3 months ago
+4c8f287 : staging: android: Change %p to %pK in debug messages <Divya Ponnusamy> 5 months ago
+c7b8609 : net: ipc_router: Bind only a client port as control port <Karthikeyan Ramasubramanian> 9 months ago
+84f0074 : ashmem: Validate ashmem memory with fops pointer <Sunil Khatri> 5 months ago
+0cbeff7e : fs: ext4: disable support for fallocate FALLOC_FL_PUNCH_HOLE <Nick Desaulniers> 4 months ago
+b2da743 : msm: dma: remove dma_test from defconfig <Min Chong> 4 months ago
+4f38ca4 : UPSTREAM: ALSA: control: Fix replacing user controls <Lars-Peter Clausen> 2 years, 5 months ago
+2e71b61 : msm: camera: Fix memory read by adding bounds check <Biswajit Paul> 5 months ago
+b9c6d25 : UPSTREAM: KEYS: close race between key lookup and freeing <Sasha Levin> 4 months ago
+b35d938 : BACKPORT: netfilter: x_tables: validate e->target_offset early <Florian Westphal> 8 months ago
+ 
+**** cmold:android_kernel_oneplus_msm8974 ****
+0b06bb6 : ion: disable system contig heap <Liam Mark> 13 hours ago
+7597d4d : HID: core: prevent out-of-bound readings <Benjamin Tissoires> 10 months ago
+001f7f4 : BACKPORT: tty: Prevent ldisc drivers from re-using stale tty fields <Peter Hurley> 12 months ago
+218183b : msm: crypto: Fix integer over flow check in qcrypto driver <Zhen Kong> 3 months ago
+e379571 : qcedev: Validate Source and Destination addresses <AnilKumar Chimata> 3 months ago
+70058fe : BACKPORT: audit: fix a double fetch in audit_log_single_execve_arg() <Paul Moore> 9 weeks ago
+d20995d : perf: Fix race in swevent hash <Peter Zijlstra> 11 months ago
+1b3b518 : ALSA: usb-audio: Fix double-free in error paths after snd_usb_add_audio_stream() call <Vladis Dronov> 8 months ago
+16b4ae5 : ALSA: usb-audio: Minor code cleanup in create_fixed_stream_quirk() <Takashi Iwai> 8 months ago
+9f8eb04 : af_unix: speedup /proc/net/unix <Eric Dumazet> 4 years, 5 months ago
+33d10f5 : ANDROID: binder: Add strong ref checks <Arve Hjønnevåg> 3 months ago
+89b934d : arm64: dma-mapping: always clear allocated buffers <Marek Szyprowski> 1 year, 7 months ago
+a492e06 : lib/int_sqrt.c: optimize square root algorithm <Davidlohr Bueso> 3 years, 7 months ago
+56546c0 : Fix incorrect conflict resolution in "vfs: Add setns support for the mount namespace" <Daniel Rosenberg> 1 year, 4 months ago
+fd1a048 : sg: Fix double-free when drives detach during SG_IO <Calvin Owens> 1 year, 1 month ago
+2df3e07 : block: fix use-after-free in sys_ioprio_get() <Omar Sandoval> 5 months ago
+2e326fc : block: fix use-after-free in seq file <Vegard Nossum> 4 months ago
+be543ed : Disable "maybe-uninitialized" warning globally <Linus Torvalds> 4 months ago
+697991f : mm: remove gup_flags FOLL_WRITE games from __get_user_pages() <Linus Torvalds> 5 weeks ago
+c0774b4 : KEYS: Fix short sprintf buffer in /proc/keys show function <David Howells> 2 months ago
+c7d6639 : tcp: fix use after free in tcp_xmit_retransmit_queue() <Eric Dumazet> 3 months ago
+16c7c99 : fix infoleak in rtnetlink <kangjie> 7 months ago
+45fbac0 : binder: prevent kptr leak by using %pK format specifier <Nick Desaulniers> 3 months ago
+aa00e7a : ASoC: msm: audio-effects: misc fixes in h/w accelerated effect <Weiyin Jiang> 7 months ago
+6e8ef2d : HID: hiddev: validate num_values for HIDIOCGUSAGES, HIDIOCSUSAGES commands <Scott Bauer> 5 months ago
+e451dfc : mnt: Fail collect_mounts when applied to unmounted mounts <Eric W. Biederman> 1 year, 10 months ago
+8b09440 : BACKPORT: fs: Add TTY PM IOCTLs to compat table <Naveen Kaje> 2 years, 4 months ago
+62d75e8 : msm: camera: Port camera patches to oppo_camera <Diogo Ferreira> 10 weeks ago
+eb9a5c6 : fs: ext4: disable support for fallocate FALLOC_FL_PUNCH_HOLE <Nick Desaulniers> 4 months ago
+7c6652c : spmi: prevent showing the address of spmidev <Biswajit Paul> 5 months ago
+8c17ce1 : msm: camera: Fix memory read by adding bounds check <Biswajit Paul> 5 months ago
+78b7f88 : ASoC: msm: qdsp6v2: check param length for EAC3 format <vivek mehta> 4 months ago
+e8cf912 : msm: ipa: fix potential race condition ioctls <Biswajit Paul> 4 months ago
+35b7df8 : input: synaptics: allocate heap memory for temp buf <Biswajit Paul> 5 months ago
+5ffc7c1 : msm: camera: sensor: Fix use after free condition <VijayaKumar T M> 4 months ago
+beeaff9 : msm: camera: restructure data handling to be more robust <Vasko Kalanoski> 1 year, 9 months ago
+c9b1475 : ASoC: msm-lsm-client: free lsm client data in msm_lsm_close <Vidyakumar Athota> 11 months ago
+9af2502 : msm: crypto: Fix integer over flow check in qcedev driver <Zhen Kong> 4 months ago
+5460b50 : msm: mdss: Correct block id check for mdss_mdp_misr_table <Ping Li> 7 months ago
+a87df24 : wlan: fix buffer overflow in linkspeed ioctl <Manjeet Singh> 7 months ago
+7062cfc : wcnss: Avoid user buffer overloading for write cal data <Anand Kumar> 5 months ago
+e485ca6 : wlan: Remove the support for setwpaie ioctl <SaidiReddy Yenuga> 6 months ago
+65d44c3 : ASoC: check for null function pointer for dummy device read/write <Yuan Lin> 3 months ago
+98eca36 : BACKPORT: Bluetooth: Fix potential NULL dereference in RFCOMM bind callback <Jaganath Kanakkassery> 1 year, 6 months ago
+a23e231 : UPSTREAM: ppp: defer netns reference release for ppp channel <WANG Cong> 4 months ago
+0aef289 : UPSTREAM: net: validate the range we feed to iov_iter_init() in sys_sendto/sys_recvfrom <Al Viro> 1 year, 8 months ago
+1c71657 : UPSTREAM: ipv6: add complete rcu protection around np->opt <Eric Dumazet> 12 months ago
+cdafa15 : UPSTREAM: netfilter: x_tables: make sure e->next_offset covers remaining blob size <Florian Westphal> 8 months ago
+be59db6 : UPSTREAM: netfilter: x_tables: validate e->target_offset early <Florian Westphal> 8 months ago
+fe4c46e : UPSTREAM: KEYS: potential uninitialized variable <Dan Carpenter> 5 months ago
+ 
+**** github:Grarak/android_kernel_oneplus_msm8994 ****
+cdf9b99 : Enable sdcardfs <Willi Ye> 30 hours ago
+ 
+**** cmold:android_kernel_samsung_d2 ****
+b028711 : ion: disable system contig heap <Liam Mark> 5 weeks ago
+ 
+**** cmold:android_kernel_samsung_jf ****
+045d50c : ion: disable system contig heap <Liam Mark> 5 weeks ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+e0bdf66 : Revert "Bluetooth: Fix handling of unexpected SMP PDUs" <OzzysCmAcc> 3 days ago
+8354bf9 : fix kernel/cgroup.c <OzzysCmAcc> 3 days ago
+b3343d8 : ARM: fix scheduling while atomic warning in alignment handling code <Russell King> 3 years, 9 months ago
+39703c7 : ARM: VFP: fix emulation of second VFP instruction <Russell King> 3 years, 9 months ago
+8deb10e : Linux 3.4.35 <Greg Kroah-Hartman> 3 years, 8 months ago
+5fd8176 : usb hid quirks for Masterkit MA901 usb radio <Alexey Klimov> 4 years ago
+5520bc7 : ata_piix: Add Device IDs for Intel Wellsburg PCH <James Ralston> 3 years, 9 months ago
+c616c66 : ata_piix: IDE-mode SATA patch for Intel Avoton DeviceIDs <Seth Heasley> 3 years, 10 months ago
+2135ca4 : perf tools: Fix build with bison 2.3 and older. <Vinson Lee> 3 years, 9 months ago
+8d61984 : staging: comedi: check s->async for poll(), read() and write() <Ian Abbott> 3 years, 9 months ago
+1ba54f8 : staging: comedi: ni_labpc: set up command4 register *after* command3 <Ian Abbott> 3 years, 9 months ago
+62dc914 : staging: comedi: ni_labpc: correct differential channel sequence for AI commands <Ian Abbott> 3 years, 9 months ago
+00296d7 : ACPI: Add DMI entry for Sony VGN-FW41E_H <Joseph Salisbury> 3 years, 9 months ago
+99785c2 : ab8500_btemp: Demote initcall sequence <Rajanikanth H.V> 3 years, 10 months ago
+b4dfd05 : ab8500-chargalg: Only root should have write permission on sysfs file <Lee Jones> 3 years, 10 months ago
+e470d03 : cgroup: fix exit() vs rmdir() race <Li Zefan> 3 years, 10 months ago
+abccda1 : cpuset: fix cpuset_print_task_mems_allowed() vs rename() race <Li Zefan> 3 years, 10 months ago
+a23b7c1 : pstore: Avoid deadlock in panic and emergency-restart path <Seiji Aguchi> 3 years, 10 months ago
+cd1d871 : ath9k_hw: fix calibration issues on chainmask that don't include chain 0 <Felix Fietkau> 3 years, 10 months ago
+e621535 : unbreak automounter support on 64-bit kernel with 32-bit userspace (v2) <Helge Deller> 3 years, 9 months ago
+4068e9c : fuse: don't WARN when nlink is zero <Miklos Szeredi> 3 years, 9 months ago
+5325e3e : vhost: fix length for cross region descriptor <Michael S. Tsirkin> 4 years ago
+d1017eb : svcrpc: make svc_age_temp_xprts enqueue under sv_lock <J. Bruce Fields> 3 years, 9 months ago
+0c4cf55 : nfsd: Fix memleak <majianpeng> 3 years, 10 months ago
+2d96ca0 : ext4: fix free clusters calculation in bigalloc filesystem <Lukas Czerner> 3 years, 9 months ago
+a2b97d4 : ext4: fix xattr block allocation/release with bigalloc <Lukas Czerner> 3 years, 9 months ago
+0f30b7e : ext4: fix race in ext4_mb_add_n_trim() <Niu Yawei> 3 years, 9 months ago
+1829dd8 : ext4: check bh in ext4_read_block_bitmap() <Eryu Guan> 3 years, 10 months ago
+9421851 : media: rc: unlock on error in show_protocols() <Dan Carpenter> 4 years ago
+622f97a : fs: Fix possible use-after-free with AIO <Jan Kara> 3 years, 10 months ago
+98b2ff5 : sysctl: fix null checking in bin_dn_node_address() <Xi Wang> 3 years, 9 months ago
+95b96b5 : firewire: add minor number range check to fw_device_init() <Tejun Heo> 3 years, 9 months ago
+85eceb8 : block: fix synchronization and limit check in blk_alloc_devt() <Tejun Heo> 3 years, 9 months ago
+11387cb : xen/blkback: Don't trust the handle from the frontend. <Konrad Rzeszutek Wilk> 3 years, 10 months ago
+6202655 : xen-blkback: do not leak mode property <Jan Beulich> 3 years, 11 months ago
+c3cea7a : block: fix ext_devt_idr handling <Tomas Henzl> 3 years, 9 months ago
+04bdd9c : ocfs2: ac->ac_allow_chain_relink=0 won't disable group relink <Xiaowei.Hu> 3 years, 9 months ago
+6dcab30 : ocfs2: fix ocfs2_init_security_and_acl() to initialize acl correctly <Jeff Liu> 3 years, 9 months ago
+97ef560 : ocfs2: fix possible use-after-free with AIO <Jan Kara> 3 years, 9 months ago
+be112ab : target: Add missing mapped_lun bounds checking during make_mappedlun setup <Nicholas Bellinger> 3 years, 9 months ago
+23fe6be : target: Fix lookup of dynamic NodeACLs during cached demo-mode operation <Nicholas Bellinger> 3 years, 9 months ago
+d7aafb4 : x86: Make sure we can boot in the case the BDA contains pure garbage <H. Peter Anvin> 3 years, 9 months ago
+0c4a92e : doc, kernel-parameters: Document 'console=hvc<n>' <Konrad Rzeszutek Wilk> 3 years, 9 months ago
+f368230 : doc, xen: Mention 'earlyprintk=xen' in the documentation. <Konrad Rzeszutek Wilk> 3 years, 9 months ago
+9e4cf4e : x86, efi: Make "noefi" really disable EFI runtime serivces <Matt Fleming> 3 years, 9 months ago
+9756aa1 : ftrace: Call ftrace cleanup module notifier after all other notifiers <Steven Rostedt (Red Hat)> 3 years, 9 months ago
+e253fa2 : posix-timer: Don't call idr_find() with out-of-range ID <Tejun Heo> 3 years, 9 months ago
+c983662 : iommu/amd: Initialize device table after dma_ops <Joerg Roedel> 3 years, 9 months ago
+5d1fb56 : quota: autoload the quota_v2 module for QFMT_VFS_V1 quota format <Theodore Ts'o> 3 years, 10 months ago
+73b6994 : ALSA: hda - hdmi: Make jacks phantom, if they're not detectable <David Henningsson> 3 years, 9 months ago
+ 
+**** cmold:android_kernel_samsung_mondrianwifi ****
+2682ff0 : mondrianwifi: Increase the frame warning size <Christopher R. Palmer> 10 days ago
+ 
+**** github:armani-dev/android_kernel_xiaomi_armani ****
+5a890b0 : mm: fix prctl_set_vma_anon_name <Colin Cross> 2 years, 3 months ago
+a0c3392 : fs/dcache.c: Fix the too small buffer for dname <Devin Kim> 2 years, 10 months ago
+74b7a54 : UPSTREAM: proc: actually make proc_fd_permission() thread-friendly <Oleg Nesterov> 1 year ago
+97d32ff : UPSTREAM: proc: make proc_fd_permission() thread-friendly <Oleg Nesterov> 3 years, 2 months ago
+ee8ea03 : UPSTREAM: memcg: Only free spare array when readers are done <Martijn Coenen> 10 months ago
+d3f8431 : slub: fix a possible memory leak <Joonsoo Kim> 4 years, 6 months ago
+e961b6c : slub: fix incorrect return type of get_any_partial() <Joonsoo Kim> 4 years, 10 months ago
+c317c38 : mm: slub: Default slub_max_order to 0 <Mel Gorman> 6 years ago
+34c662e : mm/slub: don't wait for high-order page allocation <Joonsoo Kim> 1 year, 2 months ago
+030c3a2 : mm, oom: base root bonus on current usage <David Rientjes> 2 years, 10 months ago
+2c29066 : msm: vidc: add ion_handle checking before mapping buffers <Praveen Chavan> 10 months ago
+2249fc3 : ANDROID: binder: Clear binder and cookie when setting handle in flat binder struct <Arve Hjønnevåg> 3 months ago
+0abd65e : ARM: perf: reject groups spanning multiple hardware PMUs <Suzuki K. Poulose> 1 year, 8 months ago
+6f1acce : ion: use %pk instead of %p which respects kptr_restrict sysctl <Srinivasarao P> 5 weeks ago
+585b1c6 : SoC: soc: change audio drivers to use %pK <Xiaojun Sang> 5 weeks ago
+75bc2d9 : ASoC: msm: lock read/write when add/free audio ion memory <Walter Yang> 5 weeks ago
+9f18016 : mm: do not sleep in balance_pgdat if there's no i/o congestion <Leon Peng> 10 weeks ago
+99b1b47 : msm: sensor: validate the i2c table index before use <Suman Mukherjee> 8 weeks ago
+7e30261 : ASoC: msm: initialize the params array before using it <Walter Yang> 10 weeks ago
+8ebba24 : ASoC: utils: initialize dummy_codec before use <Meng Wang> 3 months ago
+6717bd1 : msm: sps: Avoid pipe disconnect while IRQ is in progress and viceversa <Rama Krishna Phani A> 9 weeks ago
+e9bd493 : ASoC: check for null function pointer for dummy device read/write <Yuan Lin> 3 months ago
+8f81173 : arm64: dma-mapping: always clear allocated buffers <Marek Szyprowski> 1 year, 7 months ago
+44d5e0d : unix: avoid use-after-free in ep_remove_wait_queue <Rainer Weikusat> 12 months ago
+a3a3677 : qcedev: Validate Source and Destination addresses <AnilKumar Chimata> 3 months ago
+2f99e51 : netfilter: x_tables: validate e->target_offset early <Florian Westphal> 8 months ago
+dc3381c : ASoC: msm: set pointers to NULL after kfree <Walter Yang> 9 weeks ago
+9e3463dd : msm: camera: Restructure data handling to be more robust <Samyukta Mogily> 9 weeks ago
+1e67f75 : msm: sensor: Avoid potential stack overflow <VijayaKumar T M> 3 months ago
+975f2c6 : msm: vidc: replace the remaining %p with %pK <Qiwei Liu> 3 months ago
+1922978 : msm: kgsl: Change %p to %pK in debug messages <Sudeep Yedalapure> 3 months ago
+fa8b295 : msm: camera: restructure data handling to be more robust <Vasko Kalanoski> 1 year, 9 months ago
+2f0ee15 : msm: camera: isp: Fix warning and errors based on static analysis <Suman Mukherjee> 3 months ago
+8d598ed : msm: smp2p2: Fix kernel address leak <Chris Lew> 3 months ago
+0cfd3cf : msm: ipa: fix potential race condition ioctls <Skylar Chang> 4 months ago
+13c406d : msm: vidc: use %pK instead of %p which respects kptr_restrict sysctl <Abdulla Anam> 3 months ago
+19d0904 : msm: camera: sensor: Fix use after free condition <VijayaKumar T M> 4 months ago
+b3bd0d6 : msm: crypto: Fix integer over flow check in qcedev driver <Zhen Kong> 3 months ago
+b35e82c : msm: camera: Assign NULL after freeing memory <Figo Wang> 3 months ago
+fbccd80 : spmi: prevent showing the address of spmidev <Abhijeet Dharmapurikar> 4 months ago
+7dedc9a : msm : dma_test: Initialize newly allocated memory <Srinivasarao P> 4 months ago
+63674dd : qseecom: Change format specifier %p to %pK <Mallikarjuna Reddy Amireddy> 4 months ago
+5c96fae : ion: disable system contig heap <Liam Mark> 5 weeks ago
+1f5ca37 : Fix incorrect conflict resolution in "vfs: Add setns support for the mount namespace" <Daniel Rosenberg> 1 year, 4 months ago
+3c77539 : proc: fix build broken by proc inode per namespace patch <Jin Qian> 1 year, 4 months ago
+81afd96 : BACKPORT: audit: fix a double fetch in audit_log_single_execve_arg() <Paul Moore> 9 weeks ago
+bd03d09 : BACKPORT: tty: Prevent ldisc drivers from re-using stale tty fields <Peter Hurley> 12 months ago
+59fdfe5 : msm: crypto: Fix integer over flow check in qcrypto driver <Zhen Kong> 3 months ago
+a1470f1 : ALSA: usb-audio: Fix double-free in error paths after snd_usb_add_audio_stream() call <Vladis Dronov> 8 months ago
+d4c979b : ALSA: usb-audio: Minor code cleanup in create_fixed_stream_quirk() <Takashi Iwai> 8 months ago
+ 
+**** github:CyanogenMod/android_kernel_xiaomi_cancro ****
+721e873 : ion: disable system contig heap <Liam Mark> 12 hours ago
+ 
+**** vanir:packages_apps_Settings ****
+99f52ca : Settings : Improve app info screen <Danesh M> 10 months ago
+bff49d9 : Settings: add marquee to Device administrators screen <Roman Birg> 1 year, 6 months ago
+fbb687e : Settings: Add Cyanogenmod legal info <Roman Birg> 1 year, 7 months ago
+11a57cb : Settings: Use correct icon for ring volume <Michael Bestas> 9 months ago
+ 
+**** vanir:packages_inputmethods_LatinIME ****
+c356a1d : LatinIME: disable sound on keypress on all devices by default <Dan Pasanen> 28 hours ago
+ 
+**** vanir:system_core ****
+f422f00 : init: Fix possible open file pointer <Michael W> 2 days ago
+422f671 : healthd: dock battery <Jorge Ruesga> 1 year, 5 months ago
+deda0d8 : healthd: Detect power supply type for all charger devices <myfluxi> 1 year, 11 months ago
+dde613d : Revert "healthd: dock battery" <Luca Stefani> 2 days ago
+ 
+**** vanir:vendor_motorola ****
+96f7426 : Hard to Muppets <DHOMD> 4 hours ago
+f5376fb : msm8916-common: Switch to athene DRM blobs <Alberto97> 2 months ago
+256fd65 : shamu: update blobs to NBD91P <Elektroschmock> 3 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+07330b1 : bacon: Disable CNE/DPM/QC location/QC tether <Michael Bestas> 6 days ago
+20ae935 : bacon: update DRM blobs <Simon Shields> 9 days ago
+ee970fa : bacon: regenerate makefiles <Simon Shields> 9 days ago
+dbbc0b4 : bacon: Hack gps blobs for N <Michael Bestas> 8 weeks ago
+ 
+**** vanir:vendor_vanir ****
+5070a08 : qcom_target: Remove unused support for CAF manifests <Ethan Chen> 2 days ago
+4d8c2d3 : qcom_target: Remove unused sony HAL support <Ethan Chen> 2 days ago
+c1ff129 : qcom_target: Restore original AOSP hardware/qcom/media pathmap <Ethan Chen> 2 days ago
+ 

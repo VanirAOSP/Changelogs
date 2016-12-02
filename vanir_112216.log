@@ -1,0 +1,130 @@
+
+**** vanir:build ****
+66d4576 : Build hacks <DHOMD> 6 weeks ago
+ 
+**** vanir:device_huawei_angler ****
+56b24d4 : nbd91k extractor <nuclearmistake> 7 days ago
+d5432a8 : angler: force dex2oat not to use swap file <Thierry Strudel> 3 months ago
+50de07f : Angler: Use XXXHDPI dalvik heap and HWUI <winxuser> 6 weeks ago
+8419d74 : Use multithread decode for boot animation. <Aaron Kling> 6 weeks ago
+f47a275 : Reconcile sepolicy <nuclearmistake> 6 weeks ago
+9a08e2e : Reconcile main overlay <nuclearmistake> 6 weeks ago
+a273afd : Drop f2fs, reconcile init.angler.rc, and drop bugreport <nuclearmistake> 6 weeks ago
+a84a913 : Reoncile device.mk <nuclearmistake> 6 weeks ago
+7b34ff2 : [TEMP] Disable DEXPREOPT <Sam Mortimer> 8 weeks ago
+20c4824 : Add blobs for nougat NBD90X [18] <Sam Mortimer> 8 weeks ago
+32850b2 : Only 1 serving of Gello <DHOMD> 6 weeks ago
+982ec9a : Reconcile with cm a bit <nuclearmistake> 6 weeks ago
+6303497 : Make sure unzip doesn't prompt <nuclearmistake> 7 weeks ago
+c798bb0 : reconcile with cm/cm-14.0 <nuclearmistake> 7 weeks ago
+469749d : nbd90x <nuclearmistake> 7 weeks ago
+6862f1f : f2fs in twrp? or something? <nuclearmistake> 7 weeks ago
+e3ddec3 : Vendor=>system hack <nuclearmistake> 8 weeks ago
+415d35d : blobs: mandatory <Lajos Molnar> 3 months ago
+d0f420d : angler: fix network values * in the factory images network values are set 10,0,1 but AOSP is set 9,0,1 lets fix it <beanstown106> 3 months ago
+bb97d19 : angler: dont build location <Marko Man> 9 weeks ago
+a615976 : Update blobs <nuclearmistake> 8 weeks ago
+e08b17f : extract-files-from-nexus-image.sh: update buildid, sha64, and URL <nuclearmistake> 9 weeks ago
+2720680 : Update fingerprint <nuclearmistake> 9 weeks ago
+d829aa7 : N-style extract-files <nuclearmistake> 9 weeks ago
+18c2ece : Fixup AOSPLinks for *angler* TARGET_PRODUCTS <nuclearmistake> 9 weeks ago
+3cef5e8 : angler: build aosp symlinks regardless of aosp_angler.mk <beanstown106> 3 months ago
+26d692e : use time-services in vendor/qcom/opensource/time-services <nuclearmistake> 9 weeks ago
+06390c3 : Revert "sepolicy denial whackamole" <nuclearmistake> 9 weeks ago
+aceb79c : Remove local cmhw classes <nuclearmistake> 9 weeks ago
+adce4b7 : angler: remove dataservices <Keith Mok> 2 months ago
+4b62f55 : angler: remove TARGET_COMPILE_WITH_MSM_KERNEL <Keith Mok> 2 months ago
+99253bf : angler: don't build loc_api without QCPATH <Keith Mok> 2 months ago
+907884c : media: update media_codecs_performance.xml <Lajos Molnar> 3 months ago
+544220c : Update angler fingerprint to MTC20L <nuclearmistake> 3 months ago
+550747e : Update angler fingerprint to MTC20L <nuclearmistake> 3 months ago
+ed24767 : Update extract-files-from-nexus-images.sh to mtc20l AND handle .zip extensions <nuclearmistake> 3 months ago
+bc8bb44 : Tweak CPU variant <nuclearmistake> 3 months ago
+40d0d92 : angler: flag app that is in playstore as presigned <razorloves> 3 months ago
+ce2bbf0 : media: update media_codecs_performance.xml <Lajos Molnar> 3 months ago
+27a9abb : angler: cpuset: give more small cluster CPUs to the background cpuset <nuclearmistake> 3 months ago
+c91703a : Stop building generic charger images <nuclearmistake> 3 months ago
+acd2c0d : Opt out of CM healthd when building twrp <nuclearmistake> 3 months ago
+17bacfc : Revert "Factory images = 10,0,1 - aosp = 9,0,1" <nuclearmistake> 3 months ago
+1077e56 : Revert "angler: Remove deprecated egl.cfg" <nuclearmistake> 3 months ago
+79c9627 : Revert "shamu: Update TCP performance tuning" <nuclearmistake> 3 months ago
+508db2b : angler: correct naming of blob makefile in aosp_angler.mk <nuclearmistake> 4 months ago
+e193cac : Angler: MTC20F <nuclearmistake> 4 months ago
+91371f7 : Update extract-files-from-nexus-images.sh to mtc20f and change validation to sha256 <nuclearmistake> 4 months ago
+7378cc9 : Angler: MTC20F <nuclearmistake> 4 months ago
+a5b9bea : Disable twrp until bacon works with it <nuclearmistake> 4 months ago
+ 
+**** vanir:device_samsung_jf-common ****
+3eaf9f0 : jf: Update Widevine libraries <Zhao Wei Liew> 2 days ago
+ 
+**** vanir:frameworks_base ****
+5067e48 : Restore Pyxis to fix build <DHOMD> 20 hours ago
+2a0f45e : Restore Pyxis to fix build <DHOMD> 20 hours ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_media ****
+5903725 : mm-video: venc: update metadata-type used for HAL1 based recording <Praveen Chavan> 7 months ago
+ 
+**** vanir:kernel_huawei_angler ****
+1250be3 : Reconcile with CM because because <nuclearmistake> 6 days ago
+1f283d6 : mm: remove gup_flags FOLL_WRITE games from __get_user_pages() <Linus Torvalds> 6 weeks ago
+ad84095 : Manual reconcile aosp defconfig changes <nuclearmistake> 9 weeks ago
+5db70b1 : ashmem: Validate ashmem memory with fops pointer <Sunil Khatri> 5 months ago
+8bac269 : net: ipc_router: Bind only a client port as control port <Karthikeyan Ramasubramanian> 9 months ago
+6e08b00 : ashmem: Validate ashmem memory with fops pointer <Sunil Khatri> 5 months ago
+e462078 : angler: Regen Defconfig <Paul Keith> 5 months ago
+088724b : f2fs: Fixup for Angler Kernel <Paul Keith> 5 months ago
+32ae636 : f2fs: Sync to Upstream <Jaegeuk Kim> 6 months ago
+5f4b241 : cyanogenmod_angler_defconfig: enable SECURITY_PERF_EVENTS_RESTRICT <Mekala Natarajan> 4 months ago
+f10a793 : angler: Regen Defconfig <Paul Keith> 5 months ago
+bdec3e2 : f2fs: Fixup for Angler Kernel <Paul Keith> 5 months ago
+243f752 : f2fs: Sync to Upstream <Jaegeuk Kim> 6 months ago
+c080885 : fs: ext4: disable support for fallocate FALLOC_FL_PUNCH_HOLE <Nick Desaulniers> 4 months ago
+9f9a275 : msm: ipa: fix potential race condition ioctls <Biswajit Paul> 5 months ago
+e76614b : msm: camera: Fix memory read by adding bounds check <Biswajit Paul> 5 months ago
+6cb1c81 : BACKPORT: netfilter: x_tables: validate e->target_offset early <Florian Westphal> 8 months ago
+ca6a813 : UPSTREAM: netfilter: x_tables: make sure e->next_offset covers remaining blob size <Florian Westphal> 8 months ago
+77ce241 : BACKPORT: cdc_ncm: do not call usbnet_link_change from cdc_ncm_bind <Yueyao (Nathan) Zhu> 4 months ago
+0a5929a : BACKPORT: KEYS: potential uninitialized variable <Yueyao (Nathan) Zhu> 4 months ago
+662e9d1 : UPSTREAM: ipv6: Don't reduce hop limit for an interface <D.S. Ljungmark> 1 year, 8 months ago
+5bb7c78 : UPSTREAM: udp: fix behavior of wrong checksums <Eric Dumazet> 1 year, 6 months ago
+a3b998c : UPSTREAM: ppp: take reference on channels netns <Guillaume Nault> 8 months ago
+e62372b : UPSTREAM: netfilter: x_tables: fix unconditional helper <Florian Westphal> 8 months ago
+d15d646 : qcom: ssr: Fix possible overflow when copying firmware name <Srinivasarao P> 6 months ago
+14d3d17 : msm-core: debug: Fix the number of arguments for sysfs nodes <Biswajit Paul> 4 months ago
+b6e74ac : UPSTREAM: KEYS: Fix ASN.1 indefinite length object parsing <David Howells> 9 months ago
+6ff7d6e : BACKPORT: unix: avoid use-after-free in ep_remove_wait_queue <Rainer Weikusat> 1 year ago
+59f8c77 : BACKPORT: ASN.1: Fix non-match detection failure on data overrun <David Howells> 1 year, 4 months ago
+441f25c : ASoC: msm: qdsp6v2: check param length for EAC3 format <vivek mehta> 5 months ago
+914bf37 : spmi: prevent showing the address of spmidev <Biswajit Paul> 5 months ago
+93da96c : net: wireless: bcmdhd: security vulnerability - protect array overflow in PNO <Jerry Lee> 5 months ago
+cd93a57 : UPSTREAM: ASoC: wcd9xxx: Fix unprotected userspace access <Patrick Daly> 5 months ago
+909746b : angler_defconfig: enable SECURITY_PERF_EVENTS_RESTRICT <Mekala Natarajan> 5 months ago
+113d275 : ANDROID: restrict access to perf events <Jeff Vander Stoep> 6 months ago
+0636896 : FROMLIST: security,perf: Allow further restriction of perf_event_open <Jeff Vander Stoep> 6 months ago
+e97ee60 : BACKPORT: perf tools: Document the perf sysctls <Ben Hutchings> 10 months ago
+0f5012b : UPSTREAM: ALSA: timer: Fix leak in events via snd_timer_user_ccallback <Kangjie Lu> 7 months ago
+fcafa92 : UPSTREAM: ALSA: timer: Fix leak in events via snd_timer_user_tinterrupt <Kangjie Lu> 7 months ago
+14b5090 : UPSTREAM: ALSA: timer: Fix leak in SNDRV_TIMER_IOCTL_PARAMS <Kangjie Lu> 7 months ago
+5a3cb74 : UPSTREAM: ALSA: timer: Fix race among timer ioctls <Takashi Iwai> 10 months ago
+f0d3f33 : UPSTREAM: ALSA: compress: fix an integer overflow check <Dan Carpenter> 2 years, 4 months ago
+db73188 : ipv6: add complete rcu protection around np->opt <Eric Dumazet> 12 months ago
+ccfe9ac : UPSTREAM: usbnet: cleanup after bind() in probe() <Oliver Neukum> 9 months ago
+58386cf : sched: Fix information leak in sys_sched_getattr() <Vegard Nossum> 2 years, 9 months ago
+45e033c : net: validate the range we feed to iov_iter_init() in sys_sendto/sys_recvfrom <Al Viro> 1 year, 8 months ago
+bf102ff : fix infoleak in rtnetlink <kangjie> 7 months ago
+f90030b : USB: usbfs: fix potential infoleak in devio <Kangjie Lu> 7 months ago
+973f413 : msm: kgsl: Defer adding the mem entry to a process <Sunil Khatri> 5 months ago
+91478db : perf: arm64: fix RCU usage on pmu resume from low-power <Veena Sambasivan> 6 months ago
+ 
+**** cmold:android_kernel_lge_g3 ****
+11c2f7b : lge_touch_core: Add missing null terminator to id table <Tyler Dunn> 21 hours ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+021541e : lge_touch_core: Add missing null terminator to id table <Tyler Dunn> 21 hours ago
+ 
+**** vanir:vendor_vanir ****
+b4124ce : Set sail <nuclearmistake> 6 hours ago
+7a8fb6e : Clean up 3G config for Vietnamese network <Chau Truong Thinh> 6 days ago
+e956972 : Whitespace <nuclearmistake> 6 hours ago
+b335a8a : Maybe? <nuclearmistake> 6 hours ago
+ 

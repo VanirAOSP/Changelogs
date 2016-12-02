@@ -1,0 +1,598 @@
+
+**** cm:CyanogenMod/android_bootable_recovery ****
+e43aa8e : fstools: Add libselinux dep <Luca Stefani> 3 days ago
+ 
+**** vanir:build ****
+e7f1104 : reconcile some product configs w/ cm <nuclearmistake> 3 days ago
+b508aee : Semicolons: okay in edify, but not in python <nuclearmistake> 3 days ago
+8041d2f : Moar tasks plz thx <nuclearmistake> 3 days ago
+ 
+**** vanir:device_asus_deb ****
+3359c6f : deb: Remove Enhanced NFC feature <Zhao Wei Liew> 17 hours ago
+ 
+**** vanir:device_htc_flounder ****
+990fbd6 : flounder: Remove enhanced NFC feature <Zhao Wei Liew> 2 days ago
+e9c4eaf : flounder: update fingerprint to NRD91N <Hashbang173> 2 days ago
+c8c21c2 : Revert "flounder: add default_wallpaper.jpg" <Hashbang173> 3 months ago
+1a5a232 : flounder: update build fingerprint for NRD90M <Hashbang173> 3 months ago
+d0b8050 : flounder: restore read_ahead/prefetch to default <Rom Lemarchand> 5 months ago
+e132241 : flounder: turn off nvmap page pool <Mark Salyzyn> 5 months ago
+8a1dcc6 : flounder: dm_bufio max_age_seconds set to a day <Mark Salyzyn> 5 months ago
+41d5408 : Use WITH_DEXPREOPT_BOOT_IMG_ONLY <Mohamad Ayyash> 5 months ago
+dcc604e : Disable f2fs flush_merges <Mohamad Ayyash> 5 months ago
+51a876b : media: update metrics after more measurements <Lajos Molnar> 5 months ago
+6a9080b : Pinner configuration for Volantis <Mohamad Ayyash> 5 months ago
+471a26d : media: refine media_codecs_performance.xml <Lajos Molnar> 5 months ago
+393d59e : media: update media_codecs_performance.xml for N <Lajos Molnar> 5 months ago
+24d85e7 : Keep pre-existing sysfs write permissions. <dcashman> 6 months ago
+8b1d21e : Label sysfs usb nodes. <dcashman> 6 months ago
+7df8912 : mediaserver needs tee_device for widevine classic <Marco Nelissen> 6 months ago
+38a0d6d : h264_enc : adding intra refresh as one of the supported feature <Parag Mehendale> 6 months ago
+e3d2438 : Import translations. DO NOT MERGE <Bill Yi> 6 months ago
+e411f84 : Reduce f2fs cache flush I/O and enable live block discard <Mohamad Ayyash> 6 months ago
+82de954 : Import translations. DO NOT MERGE <Baligh Uddin> 6 months ago
+59f649f : Selinux-MediaDRM server : Reduce permissions as /dev/nvmap is not used <Parag Mehendale> 7 months ago
+44670b3 : sound trigger HAL: fix callback locking <Eric Laurent> 6 months ago
+1f83618 : Revert "Revert "mediadrmserver: allow video and gpu device access"" <Jeff Tinker> 7 months ago
+fea2c00 : Revert "mediadrmserver: allow video and gpu device access" <Jeffrey Vander Stoep> 7 months ago
+a4e1df0 : Import translations. DO NOT MERGE <Baligh Uddin> 7 months ago
+f0c7f74 : fstab: Specify discard option when mounting /cache. <Tao Bao> 7 months ago
+52e2203 : init.recovery.flounder.rc: increase VM low water mark <Greg Hackmann> 7 months ago
+313ee03 : Delete /mnt/sdcard symlink <Nick Kralevich> 8 months ago
+2b652c5 : mediadrmserver: allow video and gpu device access <Parag Mehendale> 8 months ago
+662bb47 : flounder: Node group should be drmrpc <Parag Mehendale> 9 months ago
+a327e1b : Update temp limits in thermal HAL impl. <Ruben Brunk> 8 months ago
+f81b257 : Import translations. DO NOT MERGE <Geoff Mendal> 8 months ago
+a5f50b5 : Import translations. DO NOT MERGE <Geoff Mendal> 8 months ago
+5dcfbd8 : Fixed Thermal HAL, added thresholds. <Polina Bondarenko> 9 months ago
+d4ab4ac : mediacodec: allow getpid syscall <Jeff Vander Stoep> 9 months ago
+97e988c : mediacodec: allow getpid syscall <Jeff Vander Stoep> 9 months ago
+adda647 : least privileged policy for audioserver <Andy Hung> 9 months ago
+d5358ce : mediacodec: more device specific syscalls <Jeff Vander Stoep> 9 months ago
+f28b2b3 : mediacodec: more device specific syscalls <Jeff Vander Stoep> 9 months ago
+34488db : mediacodec: add syscalls to seccomp filter <Jeff Vander Stoep> 9 months ago
+e42c31c : mediacodec: add syscalls to seccomp filter <Jeff Vander Stoep> 9 months ago
+0a0f8de : allow mediacodec to read /system/lib dir <Jeff Vander Stoep> 9 months ago
+e7eddc6 : allow mediacodec to read /system/lib dir <Jeff Vander Stoep> 9 months ago
+95e0586 : Turn off excess logging <Joe Onorato> 9 months ago
+71f5d75 : Remove references to deleted dhcpcd.conf <Pierre Imai> 9 months ago
+d4f3aee : mediacodec: grant read access to sysfs_socinfo <Jeff Vander Stoep> 9 months ago
+4c7d9c6 : mediacodec: allow read access to sysfs_gpu <Jeff Vander Stoep> 9 months ago
+5b8f37b : Delete dhcpcd init entries, since dhcpcd is no more. <Lorenzo Colitti> 9 months ago
+b090c66 : Fix inclusion of healthd.h. <Yabin Cui> 9 months ago
+1847550 : Flounder: NFC: Enable HCE-Felica support. <Martijn Coenen> 9 months ago
+ 
+**** vanir:device_htc_m8 ****
+b4fe4e2 : m8: ship prebuilt rild <Dan Pasanen> 3 months ago
+ 
+**** cm:CyanogenMod/android_device_htc_m8-common ****
+3dccabe : m8-common: Switch to shared graphics driver repo <Bruno Martins> 2 days ago
+2ef20a1 : m8-common: Properly update Widevine DRM blobs <Bruno Martins> 3 days ago
+e8b0f68 : m8-common: Temporarily disable blur <STELIX> 4 weeks ago
+ 
+**** cm:CyanogenMod/android_device_htc_m8dug ****
+4149e69 : m8d: Update ril-daemon services <Bruno Martins> 2 days ago
+9603119 : m8d: Ship prebuilt rild <Dan Pasanen> 3 months ago
+ 
+**** cm:CyanogenMod/android_device_htc_msm8974-common ****
+48e2565 : Revert "msm8974-common: Add shim for libwvm.so" <Bruno Martins> 29 hours ago
+24db556 : msm8974: we now provide rild along with libril <Dan Pasanen> 3 months ago
+020968b : msm8974: we do indeed have a misc partition <Dan Pasanen> 3 days ago
+ 
+**** vanir:device_huawei_angler ****
+6babe76 : Reconcile some inconsequential stuff <nuclearmistake> 3 days ago
+ 
+**** cm:CyanogenMod/android_device_lge_d851 ****
+2ed4aea : d851: remove cache filesystem type <bryan2894> 4 days ago
+028e8dc : d851: Remove enhanced NFC feature <bryan2894> 4 days ago
+d209b92 : d851: move to source-built libril <Dan Pasanen> 3 months ago
+ 
+**** cm:CyanogenMod/android_device_lge_d855 ****
+f0aaae1 : d855: add pn547 firmware <Hendrik Hagendorn> 3 days ago
+72c3d55 : Revert "d855: Add misc partition" <Hendrik Hagendorn> 4 days ago
+ 
+**** vanir:device_lge_g3-common ****
+2ce65f1 : g3: set pn547 firmware name <Hendrik Hagendorn> 3 days ago
+ 
+**** cm:CyanogenMod/android_device_lge_g4-common ****
+7bed7a2 : g4: enable bluetooth le peripheral mode <Dan Pasanen> 2 weeks ago
+86fbd27 : g4 : Specify cache partition <Erwan Leboucher> 5 days ago
+396eb85 : g4: add /misc to fstab <Erwan Leboucher> 6 days ago
+ 
+**** cm:CyanogenMod/android_device_lge_h811 ****
+a88cc79 : h811: remove cm nfc Enhanced <Zhao Wei Liew> 4 days ago
+ 
+**** cm:CyanogenMod/android_device_lge_h815 ****
+9127c86 : h815: remove cm nfc Enhanced <Zhao Wei Liew> 4 days ago
+ 
+**** vanir:device_lge_hammerhead ****
+d56161a : hammerhead: Remove enhanced NFC feature <Zhao Wei Liew> 9 days ago
+8f769bb : Sepolicy: Add some policies for camera <zaclimon> 3 months ago
+ 
+**** cm:CyanogenMod/android_device_lge_ls990 ****
+2c96daa : Revert "ls990: add misc partition" <Kelly Craft> 2 days ago
+ 
+**** vanir:device_lge_vs985 ****
+e663e59 : vs985: use pad instead of misc for recovery commands <Dan Pasanen> 5 days ago
+a9369df : vs985: Remove enhanced NFC feature <Zhao Wei Liew> 9 days ago
+4d22296 : vs985: set cache image size <Dan Pasanen> 4 days ago
+ 
+**** vanir:device_moto_shamu ****
+7f068e3 : shamu: Build Gello <Elektroschmock> 3 months ago
+ 
+**** vanir:device_motorola_msm8916-common ****
+3d67d64 : msm8916-common: Add 'misc' entry in fstab.qcom <padarshr> 6 months ago
+7b17aa7 : msm8916-common: Extract firmwares on post installation <Alberto97> 2 weeks ago
+ 
+**** cm:CyanogenMod/android_device_motorola_victara ****
+f159bd9 : victara: Remove enhanced NFC feature <Zhao Wei Liew> 9 days ago
+ 
+**** cm:CyanogenMod/android_device_oneplus_oneplus3 ****
+c808817 : Automatic translation import <clyde@build01> 3 days ago
+45cf23b : Automatic translation import <inky@build01> 4 days ago
+ 
+**** cm:CyanogenMod/android_device_samsung_d2-common ****
+d915f46 : d2: use fota as /misc <Dan Pasanen> 5 days ago
+eacbb30 : d2-common: Remove enhanced NFC feature <Zhao Wei Liew> 9 days ago
+7d069aa : d2: remove duplicate blob <Paul Keith> 4 days ago
+cbb1927 : d2: specify cache partition type <Dan Pasanen> 9 days ago
+ 
+**** cm:CyanogenMod/android_device_samsung_d2vzw ****
+77490d6 : d2vzw: Remove enhanced NFC feature <Zhao Wei Liew> 9 days ago
+ 
+**** vanir:device_samsung_jf-common ****
+34b99b2 : consumerir: Remove device level HAL <Paul Keith> 7 hours ago
+ 
+**** cm:CyanogenMod/android_device_samsung_jfltevzw ****
+f1b394e : jfltevzw: Remove enhanced NFC feature <Zhao Wei Liew> 9 days ago
+ 
+**** vanir:device_samsung_klte ****
+38dfb76 : klte: Remove enhanced NFC feature <Zhao Wei Liew> 2 days ago
+ 
+**** vanir:device_samsung_klte-common ****
+2727bf9 : consumerir: Remove device level HAL <Paul Keith> 9 hours ago
+ 
+**** vanir:device_samsung_kltevzw ****
+ed5be23 : kltevzw: Remove enhanced NFC feature <Zhao Wei Liew> 2 days ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+c13e745 : msm8960: we do indeed have a misc partition <Dan Pasanen> 3 days ago
+ 
+**** vanir:device_sony_fusion3-common ****
+d83a000 : fusion3: Update libril to android-7.1.0_r4 <Chippa-a> 3 weeks ago
+930fdbf : fusion3: Switch to CAF RIL <RonGokhale> 3 weeks ago
+ 
+**** cm:CyanogenMod/android_device_sony_nicki ****
+6b98bf4 : nicki: Label gpuclk as sysfs_thermal file and add perms. <dcashman> 12 months ago
+cf364b5 : nicki: Allow priv_apps to read baseband prop <RonGokhale> 3 days ago
+1fcd26f : nicki: Remove enhanced NFC feature <Zhao Wei Liew> 9 days ago
+ 
+**** vanir:device_sony_pollux ****
+6641490 : pollux: Remove enhanced NFC feature <Zhao Wei Liew> 9 days ago
+ 
+**** cm:CyanogenMod/android_device_sony_pollux_windy ****
+1905dc5 : pollux_windy: Remove enhanced NFC feature <Zhao Wei Liew> 9 days ago
+ 
+**** vanir:device_sony_yuga ****
+ba37c56 : yuga: Remove enhanced NFC feature <Zhao Wei Liew> 9 days ago
+ 
+**** vanir:device_xiaomi_armani ****
+e3ffc40 : armani: Add kernel to cm.dependencies <fefifofum> 9 hours ago
+3e62c0a : Get ready for official support <fefifofum> 6 days ago
+3a16139 : Properly call common graphics vendor <fefifofum> 6 days ago
+83c84d0 : Add 'misc' entry in fstab <padarshr> 6 months ago
+422a7ef : Remove ota prop <fefifofum> 9 days ago
+9e07ca8 : Add proprietary extraction scripts <fefifofum> 9 days ago
+ac55aa2 : Cleanup and update init.armani.usb.rc <fefifofum> 12 days ago
+a0b3d8b : audio: remove startOffsetMs from media_profile <Divya Narayanan Poojary> 3 months ago
+c718310 : Remove filesystem utils <fefifofum> 13 days ago
+51909f7 : Switch to bullhead WideVine <Luca Stefani> 13 days ago
+b8e924b : audio: Remove multichannel output <fefifofum> 13 days ago
+d79fea2 : Revert "Set selinux to permissive for now" <fefifofum> 13 days ago
+68ad1ac : bluetooth: Disable CLOCK_BOOTTIME_ALARM <fefifofum> 13 days ago
+266ef9c : Build with SDCLANG <fefifofum> 13 days ago
+927d4e1 : Add shim for libwvm.so <Arne Coucheron> 3 weeks ago
+c5a1a0f : Remove global flag METADATA_CAMERA_SOURCE <fefifofum> 3 weeks ago
+05c2c29 : Specify we have a cache partition <Luca Stefani> 5 weeks ago
+7cdb1d8 : Move rootdir files up <fefifofum> 4 weeks ago
+cb42a2b : Change path of /system/etc scripts <fefifofum> 4 weeks ago
+b27790a : Fix random bluetooth address <fefifofum> 4 weeks ago
+514319a : CameraWrapper: Increase camera open retries <Gabriele M> 3 months ago
+b4b3e99 : Set selinux to permissive for now <fefifofum> 4 weeks ago
+51f07d2 : Enable legacy HALv1 camera mediaserver hacks <fefifofum> 4 weeks ago
+7650dd0 : overlay: Cleanup after making tty_enabled=true by default <Sanket Padawe> 8 months ago
+5bdf379 : sepolicy: Address qmuxd denial <fefifofum> 4 weeks ago
+d9e6c02 : aapt: Set PRODUCT_AAPT_PREBUILT_DPI <Ying Wang> 2 years ago
+4fcb159 : Switch to common adreno blobs <fefifofum> 6 weeks ago
+9eff41c : overlay: Disable proximity check on wake <fefifofum> 6 weeks ago
+9135652 : Revert "Revert "Use Snap camera app"" <fefifofum> 6 weeks ago
+a15d0e3 : Use MALLOC_SVELTE to optimise for low ram <fefifofum> 6 weeks ago
+73c44e0 : Clean up bluetooth config <Zhao Wei Liew> 7 months ago
+eb3b2b5 : Set Qualcomm Bluetooth SOC ID <Ethan Chen> 8 weeks ago
+1ca203e : Cleanup init.qcom.bt.sh <fefifofum> 7 weeks ago
+745f713 : Revert "Use Snap camera app" <fefifofum> 7 weeks ago
+9e70f71 : Update proprietary-files.txt <fefifofum> 8 weeks ago
+a667966 : sepolicy: Changes for Nougat <fefifofum> 2 months ago
+aaec07c : Enable text relocations <fefifofum> 9 weeks ago
+f77ada3 : Changes in init.armani.rc <fefifofum> 9 weeks ago
+a41d6f2 : Set debugfs mode with mount <Christopher N. Hesse> 3 months ago
+0216414 : camera: Add missing camera parameters <fefifofum> 10 weeks ago
+bd0c4a8 : Revert "Build the kernel with gcc-4.9" <fefifofum> 10 weeks ago
+a0f0859 : Turn on sdcardfs <Steve Kondik> 3 months ago
+cd6f6eb : Temporarily disable blur <fefifofum> 2 months ago
+4150e60 : Update init <fefifofum> 2 months ago
+2367b80 : Remove unneeded CLANG flag <Luca Stefani> 3 months ago
+31f9903 : Disable dlmalloc <LuK1337> 3 months ago
+ef86f5b : Switch to NO_SECURE_DISCARD board flag <Luca Stefani> 3 months ago
+604bdd1 : Remove references to deleted dhcpcd.conf <Pierre Imai> 9 months ago
+56bacb3 : Delete dhcpcd init entries, since dhcpcd is no more. <Lorenzo Colitti> 9 months ago
+9d25b36 : Delete /mnt/sdcard symlink <Nick Kralevich> 8 months ago
+ 
+**** cm:CyanogenMod/android_external_f2fs-tools ****
+d895e39 : f2fs-tools: hack headers to unbreak darwin build <Alexander Martinz> 34 hours ago
+0d18747 : libf2fs_fmt: Add missing src file <Luca Stefani> 2 days ago
+8b3b5f3 : f2fs-tools: Update to 1.7.0 <Luca Stefani> 2 weeks ago
+d8690d2 : f2fs-tools: release 1.7.0 <Jaegeuk Kim> 4 months ago
+c4f756b : fsck: recover symlink with zero i_size <Jaegeuk Kim> 4 months ago
+9bbd950 : fsck.f2fs: clean up duplicated code <Xue Liu> 5 months ago
+0032d10 : f2fs-tools: update the format of output message <Sheng Yong> 5 months ago
+9204a49 : fsck.f2fs: free nat entry cache <Sheng Yong> 5 months ago
+f61616f : fsck.f2fs: fix typo <Sheng Yong> 5 months ago
+d157f4c : fsck.f2fs: correct variable type and name <Sheng Yong> 5 months ago
+97b7f33 : f2fs.fsck: fix endianess <Sheng Yong> 5 months ago
+86468ed : dump.f2fs: show inode->i_dir_level <Sheng Yong> 5 months ago
+0e60221 : mkfs: define DISCARD/SECDISCARD macro <Jaegeuk Kim> 5 months ago
+9ece10f : mkfs/fsck: add host-managed smr feature <Jaegeuk Kim> 6 months ago
+f5fa622 : fsck.f2fs: allow zero link count for orphan inode <Jaegeuk Kim> 6 months ago
+6e58942 : mkfs.f2fs: ZBC device support <Jaegeuk Kim> 6 months ago
+8156c96 : fsck.f2fs: modify sit dump && add nat dump <Yunlei He> 6 months ago
+806bfef : fsck.f2fs: check sector size if formatted from a regular file <Yunlei He> 6 months ago
+dcff698 : fsck.f2fs: reset fsck flag if there is no bug <Jaegeuk Kim> 7 months ago
+9a72d51 : fsck.f2fs: remove duplicated codes in sanity_check_raw_super <Junling Zheng> 7 months ago
+7e2b796 : resize.f2fs: replace the overprovision calculation method <Yunlei He> 7 months ago
+dee1130 : script: add simple test script <Jaegeuk Kim> 12 months ago
+2e43d6d : sload.f2fs: support loading files into partition directly <Jaegeuk Kim> 12 months ago
+53ad224 : resize.f2fs: support to expand partition size <Jaegeuk Kim> 12 months ago
+c2c2b99 : fibmap: pull in sys/sysmacros.h for major/minor <Mike Frysinger> 7 months ago
+01883b1 : fsck.f2fs: check sanity of superblock and fix any misalignment <Jaegeuk Kim> 8 months ago
+95499b1 : fsck.f2fs: nullify the freed ckpt pointer <Jaegeuk Kim> 8 months ago
+e068900 : fsck.f2fs: set fix_on if error is detected <Sheng Yong> 9 months ago
+72b8b87 : fsck.f2fs: check ino in nat entry and node footer <Sheng Yong> 9 months ago
+e0ae56c : fsck.f2fs: cache all nat entries and check each of them <Sheng Yong> 9 months ago
+376c258 : fsck.f2fs: count the number of inodes during building nat_area_bitmap <Sheng Yong> 9 months ago
+2e43334 : fsck.f2fs: introduce -p option to check meta <Sheng Yong> 9 months ago
+ 
+**** vanir:external_libnfc-nci ****
+3a0daa8 : libnfc-nci: set NXP_CHIP_TYPE based on BOARD_NFC_CHIPSET <Hendrik Hagendorn> 3 days ago
+ 
+**** cm:CyanogenMod/android_external_openssh ****
+ab28f54 : forcibly disable roaming support in the client <Keun Soo Yim> 11 months ago
+125dbf4 : Stop relying on global GCE_PLATFORM_SDK_VERSION <Dan Willemsen> 12 months ago
+7d4e474 : makes certain libcrypto implementations cache a /dev/urandom fd in preparation of sandboxing. <Greg Hartman> 1 year ago
+2373f98 : Add metadata needed for vomit. <Greg Hartman> 1 year, 1 month ago
+95194cb : Map unknown users to shell for Android GCE. <Greg Hartman> 1 year, 1 month ago
+3337c70 : Make the sshd directory configurable <Greg Hartman> 1 year, 1 month ago
+0199da8 : Don't chmod /dev/ptmx when allocating a pty on Android. <Greg Hartman> 1 year, 4 months ago
+0c94e12 : remove .gce_x86 suffix from ssh output files (post_install_cmd is not supported in jb-mr1 and before). <Keun Soo Yim> 1 year, 6 months ago
+994dea3 : Use linux/capability.h in jb-mr1 too <Keun Soo Yim> 1 year, 7 months ago
+b66687b : capability used to be under linux, not system <Greg Hartman> 1 year, 7 months ago
+bf4d797 : Revert "Removed an unused header include" <Keun Soo Yim> 1 year, 7 months ago
+b5de6ef : Removed an unused header include <Keun Soo Yim> 1 year, 7 months ago
+ 
+**** vanir:external_toybox ****
+97ad7b2 : toybox: Remove -e from @echo <Luca Stefani> 3 days ago
+aea3b6a : toybox: kill colors <Luca Stefani> 3 days ago
+ 
+**** cm:CyanogenMod/android_external_vim ****
+702ccbe : vim: kill colors <Luca Stefani> 3 days ago
+ 
+**** vanir:frameworks_base ****
+734c357 : Automatic translation import <blinky@build01> 2 days ago
+eaf2112 : sounds: remove last trace of Tejat.ogg <Dan Pasanen> 3 days ago
+6168534 : Remove duplicate audio: Tejat is Argon <Abhisek Devkota> 1 year, 3 months ago
+07bbff9 : Option to use volume keys to control media volume anytime (2/2) <Pawit Pornkitprasan> 3 years, 7 months ago
+5a4179d : Automatic translation import <clyde@build01> 3 days ago
+7e673bd : Automatic translation import <inky@build01> 4 days ago
+4325164 : base: update settings material colors to match systemUI <Joey Rizzoli> 4 days ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_audio ****
+e7d143c : hal: Fix warnings in audio HAL and policy <Alexy Joseph> 10 months ago
+09870a9 : policy_hal: fix improper voice-playback concurrency handling <Dhananjay Kumar> 12 months ago
+2c2f7ef : hal: Add performance lock for playback usecase <Sudheer Papothi> 1 year, 2 months ago
+e7c84b0 : hal: update combo device handling <Ravi Kumar Alamanda> 1 year, 6 months ago
+7cc5363 : hal: Add support for LINE out device <Ravi Kumar Alamanda> 1 year, 1 month ago
+ 
+**** vanir:hardware_samsung ****
+fcb04ea : consumerir: move consumerir_get_num_carrier_freqs before first use <Kevin F. Haggerty> 6 hours ago
+6b7dda7 : Initial consumer IR HAL commit <Christopher N. Hesse> 9 months ago
+987dcca : power: Update DT2W_PATH <ishantvivek> 6 days ago
+ 
+**** cmold:android_kernel_google_msm ****
+c4e35c9 : Revert "video: mdp4: Color temperature interface using PCC" <Simon Shields> 3 days ago
+191b2f2 : Revert "mdp4: pcc: fix PCC disablement" <Simon Shields> 3 days ago
+ 
+**** cmold:android_kernel_htc_msm8960 ****
+8a3c399 : ion: disable system contig heap <Liam Mark> 6 weeks ago
+1b5a72a : ASoC: msm: Increase verbosity of VOIP sample rate errors <Matt Mower> 2 weeks ago
+b774110 : ASoC: msm: Return signed error code <Prashanth Reddy> 3 years, 11 months ago
+dd529d4 : Revert "ASoC: msm: Reduce maximum number of VOIP periods" <Matt Mower> 2 weeks ago
+5ac5e51 : BACKPORT: ASoC: msm: Add support to change bit rate during VoIP call <Narsinga Rao Chella> 2 years, 10 months ago
+6e064c2 : BACKPORT: ASoC: msm: qdsp6v2: Add support for non-pcm VoIP formats <Narsinga Rao Chella> 3 years, 1 month ago
+7aea166 : BACKPORT: ASoC: msm: qdsp6v2: Add support to configure min and max rates <Narsinga Rao Chella> 3 years, 2 months ago
+e58f6ea : HID: core: prevent out-of-bound readings <Benjamin Tissoires> 10 months ago
+df5fe47 : BACKPORT: tty: Prevent ldisc drivers from re-using stale tty fields <Peter Hurley> 1 year ago
+beba3ad : qcedev: Validate Source and Destination addresses <AnilKumar Chimata> 3 months ago
+5e6df0a : BACKPORT: audit: fix a double fetch in audit_log_single_execve_arg() <Paul Moore> 2 months ago
+e0fc597 : perf: Fix race in swevent hash <Peter Zijlstra> 12 months ago
+eb5d2d7 : ALSA: usb-audio: Fix double-free in error paths after snd_usb_add_audio_stream() call <Vladis Dronov> 8 months ago
+0359974 : ALSA: usb-audio: Minor code cleanup in create_fixed_stream_quirk() <Takashi Iwai> 9 months ago
+dd741a4 : sg: Fix double-free when drives detach during SG_IO <Calvin Owens> 1 year, 1 month ago
+f5217c8 : block: fix use-after-free in sys_ioprio_get() <Omar Sandoval> 5 months ago
+9b94230 : block: fix use-after-free in seq file <Vegard Nossum> 4 months ago
+023d31e : proc: fix build broken by proc inode per namespace patch <Jin Qian> 1 year, 4 months ago
+b62986e : Fix incorrect conflict resolution in "vfs: Add setns support for the mount namespace" <Daniel Rosenberg> 1 year, 4 months ago
+ 
+**** cmold:android_kernel_htc_msm8974 ****
+3a88f13 : msm: camera: Validate size param before allocating memory <Deepak Kaushal> 1 year, 8 months ago
+e0b24ad : platform: msm: sensor: Fix out of bounds and null pointer. <Ivan Tiyanov> 2 years, 5 months ago
+9305bd2 : msm: camera: Restructure data handling to be more robust <Samyukta Mogily> 3 months ago
+2a94804 : msm: sensor: Avoid potential stack overflow <VijayaKumar T M> 3 months ago
+650e4f1 : bfq-sched: Forcefully lookup entities when the cache is inconsistent <Diogo Ferreira> 4 days ago
+ 
+**** cmold:android_kernel_lge_g3 ****
+c46b8ec : camera: msm_ios_i2c: remove duplicate define <Dan Pasanen> 20 hours ago
+539de5e : msm: camera: Validate size param before allocating memory <Deepak Kaushal> 1 year, 8 months ago
+3b8d501 : platform: msm: sensor: Fix out of bounds and null pointer. <Ivan Tiyanov> 2 years, 5 months ago
+f66a3a1 : msm: camera: Restructure data handling to be more robust <Samyukta Mogily> 3 months ago
+a3924f1 : msm: sensor: Avoid potential stack overflow <VijayaKumar T M> 3 months ago
+9d02606 : input: fix janky lg power button <Dan Pasanen> 4 days ago
+a99dca3 : bfq-sched: Forcefully lookup entities when the cache is inconsistent <Diogo Ferreira> 4 days ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+4150476 : camera: msm_ios_i2c: remove duplicate define <Dan Pasanen> 20 hours ago
+1c9fdbb : msm: camera: Validate size param before allocating memory <Deepak Kaushal> 1 year, 8 months ago
+1b7aa74 : platform: msm: sensor: Fix out of bounds and null pointer. <Ivan Tiyanov> 2 years, 5 months ago
+59f4996 : msm: camera: Restructure data handling to be more robust <Samyukta Mogily> 3 months ago
+5e4f797 : msm: sensor: Avoid potential stack overflow <VijayaKumar T M> 3 months ago
+ff48bd3 : writeback: fix race that cause writeback hung <Junxiao Bi> 3 years, 3 months ago
+7d3e8a4 : writeback: fix occasional slow sync(1) <Jan Kara> 3 years, 3 months ago
+ec63f4d : sync: don't block the flusher thread waiting on IO <Dave Chinner> 3 years, 5 months ago
+c6fcffa : bfq-sched: Forcefully lookup entities when the cache is inconsistent <Diogo Ferreira> 4 days ago
+ed10de5 : kgsl: allocate shared memory one page at a time <Iliyan Malchev> 1 year, 11 months ago
+ce3cb41 : PM: devfreq: Fix simple_ondemand crashing on startup <myfluxi> 2 years, 10 months ago
+0ca05e4 : PM: devfreq: Fix show available freqs <myfluxi> 2 years, 11 months ago
+49000f1 : lib/int_sqrt.c: Revert "optimize square root algorithm" <Adrian DC> 9 days ago
+61bc5d8 : block: disable entropy contributions for nonrot devices <Mike Snitzer> 2 years, 2 months ago
+ 
+**** cmold:android_kernel_lge_msm8992 ****
+9fdbb8c : bfq-sched: Forcefully lookup entities when the cache is inconsistent <Diogo Ferreira> 4 days ago
+ 
+**** vanir:kernel_moto_shamu ****
+451e02e : usb: gadget: Remove USB_ANDROID_USBNET default choice <Gabriele M> 11 months ago
+ 
+**** cmold:android_kernel_samsung_d2 ****
+11f1eb5 : bfq-sched: Forcefully lookup entities when the cache is inconsistent <Diogo Ferreira> 4 days ago
+ 
+**** cmold:android_kernel_samsung_jf ****
+468983d : bfq-sched: Forcefully lookup entities when the cache is inconsistent <Diogo Ferreira> 4 days ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+45b0022 : Linux 3.4.83 <Greg Kroah-Hartman> 2 years, 9 months ago
+2461879 : net: asix: handle packets crossing URB boundaries <Lucas Stach> 2 years, 9 months ago
+c8a92a5 : rtlwifi: Fix endian error in extracting packet type <Mark Cave-Ayland> 2 years, 9 months ago
+2b56b65 : iwlwifi: pcie: add SKUs for 6000, 6005 and 6235 series <Emmanuel Grumbach> 2 years, 9 months ago
+5414dff : iwlwifi: dvm: fix calling ieee80211_chswitch_done() with NULL <Stanislaw Gruszka> 2 years, 9 months ago
+15d7293 : iwlwifi: dvm: don't send BT_CONFIG on devices w/o Bluetooth <Johannes Berg> 2 years, 9 months ago
+2e52e90 : iwlwifi: always copy first 16 bytes of commands <Johannes Berg> 2 years, 9 months ago
+c38f9bf : iwlwifi: handle DMA mapping failures <Johannes Berg> 2 years, 9 months ago
+3b5b0ab : iwlwifi: don't handle masked interrupt <Emmanuel Grumbach> 2 years, 9 months ago
+33b8a3c : iwlwifi: protect SRAM debugfs <Johannes Berg> 2 years, 9 months ago
+26ff77e : iwlwifi: fix flow handler debug code <Johannes Berg> 2 years, 9 months ago
+dac0813 : ALSA: asihpi: Fix unlocked snd_pcm_stop() call <Takashi Iwai> 3 years, 5 months ago
+7ddd9c4 : staging: line6: Fix unlocked snd_pcm_stop() call <Takashi Iwai> 3 years, 5 months ago
+dda95a5 : ASoC: s6000: Fix unlocked snd_pcm_stop() call <Takashi Iwai> 3 years, 5 months ago
+2c5fb76 : ALSA: pxa2xx: Fix unlocked snd_pcm_stop() call <Takashi Iwai> 3 years, 5 months ago
+d02c1d0 : ALSA: usx2y: Fix unlocked snd_pcm_stop() call <Takashi Iwai> 3 years, 5 months ago
+0663cb0 : ALSA: ua101: Fix unlocked snd_pcm_stop() call <Takashi Iwai> 3 years, 5 months ago
+6dbbd7b : ALSA: 6fire: Fix unlocked snd_pcm_stop() call <Takashi Iwai> 3 years, 5 months ago
+16a9bed : ALSA: atiixp: Fix unlocked snd_pcm_stop() call <Takashi Iwai> 3 years, 5 months ago
+57e377c : ASoC: sglt5000: Fix the default value of CHIP_SSS_CTRL <Fabio Estevam> 3 years, 5 months ago
+26efaed : ASoC: imx-ssi: Fix occasional AC97 reset failure <Sascha Hauer> 3 years, 9 months ago
+4af5199 : SUNRPC: Prevent an rpc_task wakeup race <Trond Myklebust> 3 years, 6 months ago
+c6d7f42 : sunrpc: clarify comments on rpc_make_runnable <Jeff Layton> 4 years, 4 months ago
+0b50b70 : xen/events: mask events when changing their VCPU binding <David Vrabel> 3 years, 3 months ago
+aa3f7b8 : xen/blkback: Check for insane amounts of request on the ring (v6). <Konrad Rzeszutek Wilk> 3 years, 10 months ago
+6557d38 : xen/io/ring.h: new macro to detect whether there are too many requests on the ring <Jan Beulich> 3 years, 5 months ago
+ac30049 : xen-netback: don't disconnect frontend when seeing oversize packet <Wei Liu> 3 years, 7 months ago
+603db6f : xen-netback: coalesce slots in TX path and fix regressions <Wei Liu> 3 years, 7 months ago
+ad55459 : xen-netback: fix sparse warning <stephen hemminger> 3 years, 8 months ago
+b08033d : xen/smp/spinlock: Fix leakage of the spinlock interrupt line for every CPU online/offline <Konrad Rzeszutek Wilk> 3 years, 7 months ago
+31ff798 : xen/smp: Fix leakage of timer interrupt line for every CPU online/offline. <Konrad Rzeszutek Wilk> 3 years, 7 months ago
+20bac0e : xen/boot: Disable BIOS SMP MP table search. <Konrad Rzeszutek Wilk> 4 years, 2 months ago
+f8af2af : saa7134: Fix unlocked snd_pcm_stop() call <Takashi Iwai> 3 years, 5 months ago
+e17d36c : ext4: return ENOMEM if sb_getblk() fails <Theodore Ts'o> 3 years, 10 months ago
+91b956d : block: Don't access request after it might be freed <Roland Dreier> 4 years ago
+7565a7b : nbd: correct disconnect behavior <Paul Clements> 3 years, 5 months ago
+9fa1cd6 : cifs: adjust sequence number downward after signing NT_CANCEL request <Jeff Layton> 3 years, 11 months ago
+f8cfd69 : ext4: fix possible use-after-free with AIO <Jan Kara> 3 years, 10 months ago
+d64bd43 : UBIFS: fix double free of ubifs_orphan objects <Adam Thomas> 3 years, 10 months ago
+56883b9 : ext4/jbd2: don't wait (forever) for stale tid caused by wraparound <Theodore Ts'o> 3 years, 8 months ago
+c19120e : ncpfs: fix rmdir returns Device or resource busy <Dave Chiluk> 3 years, 6 months ago
+a96c1d1 : cifs: don't instantiate new dentries in readdir for inodes that need to be revalidated immediately <Jeff Layton> 3 years, 4 months ago
+3a4255a : libceph: unregister request in __map_request failed and nofail == false <majianpeng> 3 years, 4 months ago
+fc90f52 : fuse: hotfix truncate_pagecache() issue <Maxim Patlasov> 3 years, 3 months ago
+11d1353 : fuse: readdir: check for slash in names <Miklos Szeredi> 3 years, 3 months ago
+4d70a86 : nilfs2: fix issue with race condition of competition between segments for dirty blocks <Vyacheslav Dubeyko> 3 years, 2 months ago
+7c5aa5a : perf tools: Fix cache event name generation <Jiri Olsa> 4 years, 3 months ago
+1770297 : perf tools: Remove extraneous newline when parsing hardware cache events <Arnaldo Carvalho de Melo> 4 years, 3 months ago
+b4e8bca : mm/hotplug: correctly add new zone to all other nodes' zone lists <Jiang Liu> 4 years, 4 months ago
+c0c1d7d : cgroup: fix RCU accesses to task->cgroups <Tejun Heo> 3 years, 5 months ago
+ 
+**** cmold:android_kernel_sony_apq8064 ****
+237aa21 : lib/int_sqrt.c: Revert "optimize square root algorithm" <Adrian DC> 9 days ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+523d4ec : Automatic translation import <clyde@build01> 3 days ago
+bc73bc0 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_Calendar ****
+f0333d7 : Automatic translation import <clyde@build01> 3 days ago
+94365e1 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_Camera2 ****
+566dafc : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_CellBroadcastReceiver ****
+69e754d : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_CertInstaller ****
+07643f0 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_Contacts ****
+31c6ef5 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+b9e413b : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_DeskClock ****
+2cb0615 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_Dialer ****
+dad5de1 : Automatic translation import <clyde@build01> 3 days ago
+d7ad929 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_Email ****
+c70ec44 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_ExactCalculator ****
+677ff23 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+f13eaf7 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_KeyChain ****
+295fa14 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_ManagedProvisioning ****
+3c93754 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_Messaging ****
+96e82e9 : Automatic translation import <blinky@build01> 2 days ago
+e8f5b45 : Automatic translation import <clyde@build01> 3 days ago
+29aaed6 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_Nfc ****
+bdd0352 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_PackageInstaller ****
+3661fe4 : Automatic translation import <inky@build01> 4 days ago
+fd5c73a : Fix PackageInstaller FC when tapping on a downloaded apk notification <Ezio Lacandia Bijelkic> 3 days ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+430d7ca : Automatic translation import <blinky@build01> 2 days ago
+0f4466a : Automatic translation import <clyde@build01> 3 days ago
+8693d70 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_Settings ****
+db364db : Automatic translation import <blinky@build01> 2 days ago
+0b3f772 : Automatic translation import <clyde@build01> 3 days ago
+095321c : Automatic translation import <inky@build01> 4 days ago
+02a6f4d : Settings: skip Misc/Overcounted battery stats in builds <myfluxi> 4 days ago
+ 
+**** vanir:packages_apps_Stk ****
+19af7b3 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_Tag ****
+a491550 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Terminal ****
+1127958 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_TvSettings ****
+e7aa3df : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+2428f11 : Revert "UnifiedEmail: not show "help&feedback" in general settiings if url is null" <Christopher N. Hesse> 27 hours ago
+cc33099 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_inputmethods_LatinIME ****
+5bb754f : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_providers_CalendarProvider ****
+a37b133 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** cm:CyanogenMod/android_packages_providers_CallLogProvider ****
+68557e2 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_providers_ContactsProvider ****
+ac1ff69 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_providers_DownloadProvider ****
+aee1af3 : Automatic translation import <blinky@build01> 2 days ago
+9a8fb27 : Automatic translation import <clyde@build01> 3 days ago
+a74d05d : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_providers_MediaProvider ****
+03030ca : MediaProvider: Add read storage permission <Luca Stefani> 3 days ago
+ba47c2f : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_providers_TelephonyProvider ****
+ec791e8 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_providers_UserDictionaryProvider ****
+0d59b58 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_screensavers_Basic ****
+7d8b698 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_screensavers_PhotoTable ****
+c412483 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_services_Telecomm ****
+9cf0e3b : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_services_Telephony ****
+afa4bfd : Automatic translation import <blinky@build01> 2 days ago
+a312f0c : Automatic translation import <clyde@build01> 3 days ago
+ad17400 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** vanir:packages_wallpapers_LivePicker ****
+566f4a0 : Automatic translation import <inky@build01> 4 days ago
+ 
+**** cm:CyanogenMod/cm_platform_sdk ****
+e8aecd3 : cmsdk: Ensure CMHW feature constants aren't optimized out <Steve Kondik> 4 days ago
+ 
+**** commotio:commotio ****
+93ecdc3 : No themes yet + storage manager <DHOMD> 2 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_google ****
+91a4f5f : Add seed <Abhisek Devkota> 21 hours ago
+713ca4c : Add shamrock <Abhisek Devkota> 21 hours ago
+ 
+**** vanir:vendor_htc ****
+5a12225 : m8-common: Properly update Widevine DRM blobs <Bruno Martins> 2 days ago
+a60e747 : m8d: Ship prebuilt rild <Bruno Martins> 2 days ago
+287ca7d : m8-common: Switch to shared graphics blobs <Bruno Martins> 2 days ago
+fcac40c : m8: provide prebuilt rild <Dan Pasanen> 3 months ago
+ 
+**** vanir:vendor_lge ****
+9baf43e : d851: remove prebuilt ril <bryan2894> 10 days ago
+0bc0c3a : d855: add pn547 firmware <Hendrik Hagendorn> 3 days ago
+1269c85 : hammerhead: update drm blobs <razorloves> 4 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oppo ****
+323a620 : msm8939-common: Update libwvdrmengine.so <Kilian von Pflugk> 4 days ago
+47fbfb7 : msm8939-common: update DRM libs from bullhead <Kilian von Pflugk> 13 days ago
+a70ff28 : msm8939-common-32: switch to common GPU drivers <Kilian von Pflugk> 2 weeks ago
+24cc3bd : msm8939-common-64: switch to common GPU drivers <Kilian von Pflugk> 2 weeks ago
+ 
+**** vanir:vendor_samsung ****
+cc245f7 : d2: Remove duplicate lib <Paul Keith> 4 days ago
+ 
+**** vanir:vendor_vanir ****
+649d6aa : cm: enable hidden storage manager <DHOMD> 2 days ago
+4b29250 : build: Set android jack args to global jack server args if existing <Luca Stefani> 3 days ago
+c3c386f : extract_utils: Use shasum on macOS <Rashed Abdel-Tawab> 3 days ago
+08aef90 : use system ccache for kernel if available <nuclearmistake> 3 days ago
+8a0e7b8 : Update fingerprints <nuclearmistake> 4 days ago
+ 

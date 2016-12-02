@@ -1,0 +1,130 @@
+
+**** vanir:build ****
+f68b2c5 : Build hacks <DHOMD> 7 weeks ago
+ 
+**** cm:CyanogenMod/android_device_htc_hima-common ****
+8cecee9 : Revert "hima: enable blur" <David Hays> 4 weeks ago
+118d525 : hima: data-ipa-cfg-mgr: Merge with upstream LA.BF64.1.2.3_rb1.6 <David Hays> 4 weeks ago
+ 
+**** cm:CyanogenMod/android_device_htc_himaul ****
+941b299 : himaul: Remove enhanced NFC feature <David Hays> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_htc_m8-common ****
+6dd0e30 : sepolicy: Update for N <Bruno Martins> 5 days ago
+ 
+**** cm:CyanogenMod/android_device_htc_msm8974-common ****
+81efd12 : Revert "sepolicy: add and restorecon /data/OTPData.dat" <Dan Pasanen> 35 hours ago
+ 
+**** vanir:device_oneplus_bacon ****
+88a2afc : bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 9 days ago
+ 
+**** cm:CyanogenMod/android_device_samsung_noblelte-common ****
+88cf5da : Camera: Set correct selinux rules <Jan Huijsmans> 9 days ago
+2d32ecb : noblelte: Actually use the /cache partition <Christopher N. Hesse> 11 days ago
+0da6fe1 : noblelte: Enable fancy boot animation flags <Christopher N. Hesse> 11 days ago
+8edbe1b : noblelte: Remove no-op webgl flag <Christopher N. Hesse> 11 days ago
+d9f9b95 : sepolicy: Update rild permissions <Andreas Schneider> 12 days ago
+61229d2 : sepolicy: Let installd cleanup mobicore cache <Andreas Schneider> 12 days ago
+1a67a54 : sepolicy: Update policies for media <Andreas Schneider> 12 days ago
+d805d1d : sepolicy: Allow rild read telephony.db <Andreas Schneider> 12 days ago
+49b0822 : sepolicy: Allow cbd to access the modem <Andreas Schneider> 12 days ago
+c073c74 : sepolicy: Allow uventd to relabel block devices <Andreas Schneider> 12 days ago
+712ea32 : sepolicy: Fix sepolicy for RIL (cpboot-daemon) <SerenityS> 2 weeks ago
+6f87658 : audio: Better handling of ril->client <Andreas Schneider> 2 weeks ago
+e247d76 : audio: Fix bluetooth calls <Andreas Schneider> 2 weeks ago
+bb0d6ed : noblelte: Enable hacks to fix video recording <Christopher N. Hesse> 3 weeks ago
+fd9ed2c : noblelte: Fix gralloc_priv casting <Christopher N. Hesse> 3 weeks ago
+e8b8c9a : noblelte: Allow OMX libraries to load again <Christopher N. Hesse> 7 weeks ago
+bc5d0b0 : noblelte: change permissions for /dev/video6 to enable hw decoding <Menno van Grinsven> 9 weeks ago
+e30ad79 : Set PRODUCT_AAPT_PREBUILT_DPI. <Ying Wang> 2 years ago
+2f8833a : Squashed RIL header update for Nougat 7.1 <Meng Wang> 7 months ago
+118a6aa : gralloc: Adds a new inline method map_usage_to_memtrack. <Ruchi Kandoi> 8 months ago
+0562861 : noblelte: Use AAPT config from flounder <Christopher N. Hesse> 5 weeks ago
+61d775e : noblelte: Remove nonexistant media codecs <Christopher N. Hesse> 4 days ago
+5320e40 : noblelte: Enable FFMPEG codecs <Christopher N. Hesse> 5 weeks ago
+f57caa9 : noblelte: Remove Samsung service mode app <Christopher N. Hesse> 4 days ago
+0a0698a : noblelte: Set default MDNIE mode to cinema <Christopher N. Hesse> 5 weeks ago
+65b1be2 : noblelte: seccomp: Add getdents64 syscall <Christopher N. Hesse> 5 weeks ago
+6e4d1c7 : noblelte: sepolicy: Assign specific labels to block devices <Christopher N. Hesse> 5 weeks ago
+abd2585 : noblelte: Reduce number of surface buffers <Christopher N. Hesse> 6 weeks ago
+fe15934 : noblelte: Configure vsync offset <Christopher N. Hesse> 9 weeks ago
+1ae0588 : noblelte: seccomp: Rework policy <Christopher N. Hesse> 6 weeks ago
+186e6cb : noblelte: Do not force camera API 1 <Christopher N. Hesse> 7 weeks ago
+388a3cd : noblelte: sepolicy: Add domain_deprecated <Christopher N. Hesse> 8 weeks ago
+2c8c0e9 : SlteRIL: More independency from framework <Christopher N. Hesse> 3 months ago
+2b313c3 : noblelte: audio: Fix the BT handsfree fix <Christopher N. Hesse> 8 weeks ago
+4e29ab9 : Apply gellmars bt audio handsfree bugfix <Schischu> 4 months ago
+f27db37 : Camera: Set mscalers devices to group media <Jan Huijsmans> 9 weeks ago
+e38d726 : noblelte: Select H4 Bluetooth HAL <Christopher N. Hesse> 8 weeks ago
+6dc51b6 : seclabel healthd added to service battery_charger. <cwassmuth> 3 months ago
+ceeb852 : noblelte: Switch back to Camera2 <Christopher N. Hesse> 3 months ago
+d6211ff : noblelte: Switch to cmsdk for cmhw utils <Christopher N. Hesse> 3 months ago
+3bd1bb0 : noblelte: Use "real" shadows in recents UI <Christopher N. Hesse> 3 months ago
+6bec6d8 : noblelte: Remove deprecated cflag <Christopher N. Hesse> 3 months ago
+16fcc89 : noblelte: Remove BT dhcpcd references <Christopher N. Hesse> 3 months ago
+e1a4bbc : noblelte: Do not create Samsung playready DRM dirs <Christopher N. Hesse> 3 months ago
+9e2f09f : Squashed RIL header update for Nougat <Sanket Padawe> 11 months ago
+b8e3eab : noblelte: Add seccomp filter for media service <Christopher N. Hesse> 3 months ago
+f79aee6 : noblelte: Add wakelock GID for gps/wifi <Christopher N. Hesse> 3 months ago
+851d119 : noblelte: Set perms on debugfs node <Christopher N. Hesse> 3 months ago
+8354b9a : gps: Squashed header update for Nougat <Lifu Tang> 1 year, 1 month ago
+0f56ccc : noblelte: Switch to TARGET_GLOBAL_CFLAGS <Christopher N. Hesse> 3 months ago
+ 
+**** vanir:device_xiaomi_armani ****
+3216a32 : sepolicy: Fixes to get encryption working <fefifofum> 2 days ago
+bed954d : armani: Switch to /dev/block/bootdevice <LuK1337> 2 weeks ago
+ 
+**** vanir:device_xiaomi_cancro ****
+22e2d49 : cancro: init: set right name for Mi 4LTE <Joey Rizzoli> 6 days ago
+ 
+**** vanir:frameworks_base ****
+e011f21 : Bandaids for building <DHOMD> 5 weeks ago
+ca6e0f9 : sounds: fix typo <Markus Menzel> 15 hours ago
+95d41a4 : Automatic translation import <inky@build01> 28 hours ago
+ 
+**** cmold:android_kernel_motorola_msm8916 ****
+91db5c2 : BACKPORT: mm: avoid setting up anonymous pages into file mapping <Kirill A. Shutemov> 1 year, 5 months ago
+8e71398 : BACKPORT: security: fix typo in security_task_prctl <Jann Horn> 1 year, 2 months ago
+8e692fc : UPSTREAM: staging/android/ion : fix a race condition in the ion driver <EunTaik Lee> 9 months ago
+84761da : BACKPORT: audit: consistently record PIDs with task_tgid_nr() <Paul Moore> 3 months ago
+ 
+**** vanir:platform_manifest ****
+28146b6 : Onyx to CM <DHOMD> 3 hours ago
+83fad2e : Nooop to Amami <DHOMD> 3 hours ago
+da289f3 : Readd amami <DHOMD> 3 hours ago
+beb1c59 : Add some commented out devices <DHOMD> 3 hours ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+68fc042 : Automatic translation import <inky@build01> 28 hours ago
+ 
+**** vanir:packages_apps_Calendar ****
+6af343d : Automatic translation import <inky@build01> 28 hours ago
+ 
+**** vanir:packages_apps_Dialer ****
+948420f : Automatic translation import <inky@build01> 28 hours ago
+ 
+**** vanir:packages_apps_Messaging ****
+ae7e942 : Automatic translation import <inky@build01> 28 hours ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+e05f224 : Automatic translation import <inky@build01> 28 hours ago
+ 
+**** vanir:packages_apps_Settings ****
+36b6fa9 : Automatic translation import <inky@build01> 28 hours ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Terminal ****
+e8527b5 : Automatic translation import <inky@build01> 28 hours ago
+ 
+**** vanir:packages_providers_DownloadProvider ****
+64dbeeb : Automatic translation import <inky@build01> 28 hours ago
+ 
+**** vanir:packages_services_Telephony ****
+ec63610 : Automatic translation import <inky@build01> 28 hours ago
+ 
+**** vanir:vendor_lge ****
+57c7f88 : hammerhead: update blobs from M4B30X factory image <razorloves> 8 weeks ago
+0fae017 : hammerhead: update blobs from MOB31E factory image <razorloves> 3 months ago
+ 
+**** vanir:vendor_sony ****
+421e9e5 : taoshan: Update libacdbloader from deb MOB30X <Adrian DC> 3 days ago
+ 

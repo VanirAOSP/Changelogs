@@ -1,0 +1,157 @@
+
+**** vanir:build ****
+28763f8 : Build hacks II <DHOMD> 3 weeks ago
+ 
+**** cm:CyanogenMod/android_device_lge_g4-common ****
+58151b7 : g4: camera: workaround for cameraserver timing issue <codeworkx> 2 days ago
+41e75c7 : g4: use multithread decode for boot animation. <codeworkx> 3 days ago
+d1f9f76 : Revert "Prop: disable sdcardfs until we fix sdcard" <Erwan Leboucher> 3 days ago
+138027b : Revert "Prop: disable sdcardfs until we fix sdcard" <Daniel Hillenbrand> 3 days ago
+a0a80e3 : Prop: disable sdcardfs until we fix sdcard <Erwan Leboucher> 4 days ago
+ 
+**** vanir:device_motorola_msm8916-common ****
+5bab5e5 : Make config_bt_addr servive oneshot again <namagi> 3 days ago
+458e43e : msm8916: Set Qualcomm Bluetooth SOC ID <Ethan Chen> 5 days ago
+b3c2272 : msm8916: Cleanup init.qcom.bt.sh (Kang msm8974) <Michael Bestas> 4 weeks ago
+ 
+**** vanir:device_samsung_klte ****
+9188bd5 : klte: Update SM-G900F build fingerprint <Kevin F. Haggerty> 5 days ago
+ 
+**** vanir:device_samsung_kltevzw ****
+abf23cf : kltevzw: Update SM-G900V build fingerprint <Kevin F. Haggerty> 5 days ago
+ 
+**** vanir:device_samsung_manta ****
+502d3cf : manta: improve /dev/video selinux labeling <Tetsuo Osaka> 25 hours ago
+19b4b6b : manta: correct labeling of audio device <Tetsuo Osaka> 26 hours ago
+1d28cd1 : manta: switch to jemalloc, we have 2GB ram <Tetsuo Osaka> 4 days ago
+cf1ad2d : manta: Use multithread decode for boot animation. <Aaron Kling> 3 weeks ago
+1d9a2ba : manta: Enable bootanimation optimizations <AdrianDC> 4 months ago
+17ec342 :  manta: fix gps selinux denial <Tetsuo Osaka> 26 hours ago
+4b5e3b4 : manta: fix mediacodec selinux denials <Tetsuo Osaka> 26 hours ago
+11af4be : manta: Fix mobicore Selinux denials <Tetsuo Osaka> 27 hours ago
+3948eb1 : manta: change permissions for /dev/video6 to enable hw decoding <Menno van Grinsven> 5 weeks ago
+908386e : manta: correct device label <Tetsuo Osaka> 27 hours ago
+1b66724 : manta: improve file_context labeling <Tetsuo Osaka> 2 days ago
+9d08171 : manta: BoardConfig: Verify and update partition sizes <Tetsuo Osaka> 8 days ago
+b64ad6f : manta: remove camera for now until a fix comes out if ever Lets face it, most of us do not need the camera on this tablet anyway, right now its using an old hal2 that is not compatible with android N and keeps causing crashes of the exynos camera draining battery, Also this prevents youtube from working. disabling the camera allows us to use everything but the camera for now with no lags until its fixed (again, if ever) <sooti> 11 days ago
+3018dbe : manta: Enable FFMPEG codecs <Christopher N. Hesse> 9 days ago
+b071a53 : Updated external storage configuration. <Jeff Sharkey> 1 year, 7 months ago
+f17fbf8 : Fix "Remove references to deleted dhcpcd" <Scott Warner> 4 days ago
+909bfa1 : manta: remove long-deprecated egl.cfg <Simon Shields> 6 days ago
+81fbc7e : manta: Remove unneeded CLANG flag <Luca Stefani> 2 months ago
+562ef76 : manta: add missing / in device.mk <Tetsuo Osaka> 4 days ago
+5095568 : Remove references to deleted dhcpcd <Pierre Imai> 8 months ago
+40029ac : manta: rewrite init.rc from scratch <Tetsuo Osaka> 9 days ago
+1c70e0c : manta: switch to f2fs for cache <Tetsuo Osaka> 4 days ago
+7e644c8 : manta: boardconfig: specify that we have f2fs userdata <Tetsuo Osaka> 7 days ago
+90111b1 : fstab: update and re-order <Tetsuo Osaka> 11 days ago
+ 
+**** vanir:device_samsung_smdk4412-common ****
+e634898 : smdk4412: camera: fix for clang/N <Simon Shields> 6 weeks ago
+ 
+**** vanir:device_xiaomi_cancro ****
+357c6fa : cancro: derp <Joey Rizzoli> 8 days ago
+e1f1d62 : Cancro: switch to oss healthd <Joey Rizzoli> 2 weeks ago
+ 
+**** vanir:frameworks_base ****
+17bbe95 : return to cm's webview_packages.xml <nuclearmistake> 3 days ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_audio ****
+d40c370 : audiopolicy: Avoid spurious routing in APM::stopSource <Naresh Tanniru> 7 weeks ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_bt ****
+6bd5eef : libbt-vendor: Add kernel header dependency <Michael Bestas> 9 weeks ago
+1da2413 : Bluetooth: load btaddr from NV if QCOM_BT_USE_BTNV is set <Scott Mertz> 1 year, 3 months ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_media ****
+48944ab : mm-video: vidc: Remove hardcoding of BufCountActual <Deva Ramasubramanian> 3 years, 3 months ago
+cd7f057 : mm-video: venc: update color format in port-def <Praveen Chavan> 1 year, 11 months ago
+7551849 : mm-video: venc: Use correct flag for buffer index selection <Leena Winterrowd> 2 years, 1 month ago
+6b836ae : mm-video: venc: update allocation-size check for meta-buffer <Praveen Chavan> 1 year, 3 months ago
+ 
+**** vanir:kernel_huawei_angler ****
+d11a881 : sdcardfs: Flag files as non-mappable <fluxi> 8 days ago
+e9d2a2a : sdcardfs: Truncate packages_gid.list on overflow <Daniel Rosenberg> 4 months ago
+e33ed9a : mm: remove gup_flags FOLL_WRITE games from __get_user_pages() <Linus Torvalds> 3 weeks ago
+2d4505f : tools/include: use stdint types for user-space byteshift headers <Yaakov Selkowitz> 3 years, 4 months ago
+ 
+**** cmold:android_kernel_lge_msm8992 ****
+1c311dc : msm: camera: apply update from v20i release <Erwan> 7 days ago
+228408b : sdcardfs: Move directory unlock before touch <Daniel Rosenberg> 5 weeks ago
+07ee7ec : sdcardfs: fix external storage exporting incorrect uid <alvin_liang> 6 weeks ago
+20a0614 : sdcardfs: Added top to sdcardfs_inode_info <Daniel Rosenberg> 6 months ago
+bccfc13 : sdcardfs: Switch package list to RCU <Daniel Rosenberg> 6 months ago
+219bae8 : sdcardfs: Fix locking for permission fix up <Daniel Rosenberg> 3 months ago
+0b027b3 : sdcardfs: Check for other cases on path lookup <Daniel Rosenberg> 6 months ago
+3c881d4 : sdcardfs: override umask on mkdir and create <Daniel Rosenberg> 7 months ago
+8ecc1ee : Security : we don't want permissive <Erwan Leboucher> 3 days ago
+0b56043 : fs: fix FMODE_NONMAPPABLE flag <codeworkx> 3 days ago
+4aa417f : cleanup remaining parts of lge sdcardfs <Erwan> 3 days ago
+ 
+**** cmold:android_kernel_motorola_msm8916 ****
+946069c : msm: vidc: Set constrained intra refresh property <Arun Menon> 7 months ago
+56237fb : msm: vidc: Add control to set csc coefficients to firmware. <Arun Menon> 11 months ago
+d2a8510 : msm: vidc: Add support for color space information. <Praneeth Paladugu> 5 months ago
+a7bc1f7 : msm: vidc: Add SEI extradata <Vikash Garodia> 6 months ago
+06d6f57 : msm: sps: Register SPS IRQ with IRQF_NO_SUSPEND flag <myfluxi> 1 year, 3 months ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+46db07f : mm: remove gup_flags FOLL_WRITE games from __get_user_pages() <Linus Torvalds> 3 weeks ago
+ 
+**** cmold:android_kernel_sony_apq8064 ****
+9dc9864 : Fix the buffer overflow issue observed in static code analysis. <Kiran Kumar Lokere> 3 years ago
+e5e6e8f : wlan: Deprecate all WAPI ioctls <Girish Gowli> 2 years, 5 months ago
+074e96a : wlan: validate essid length before processing scan req <Arun Khandavalli> 12 months ago
+78c1ab9 : wlan: Remove support for deprecated api get/set countryrev <Srinivas Girigowda> 3 years, 2 months ago
+60dee72 : wlan: EnableStrictRegulatoryForFCC should be False by default. <Agarwal Ashish> 2 years, 3 months ago
+f3b58ed : wlan: Synchronize country code HDD ioctl <Sameer Thalappil> 3 years, 1 month ago
+fec7be0 : wlan: Correcting timeout value for event driver_crda_req. <Madan Mohan Koyyalamudi> 3 years, 3 months ago
+1a6c3e7 : wlan: Resolve excessive logging issue. <c_hpothu> 2 years ago
+dbf161f : WLAN: same p2p MAC address is observed from mutiple devices <kalikinkar dhara> 3 years, 1 month ago
+a2ecd06 : prima: Cleanup credits merging <AdrianDC> 11 months ago
+56bb331 : wlan:Check priviledge permission before processing SET_CHAR_GET_NONE IOCTL <Hanumantha Reddy Pothula> 1 year ago
+7e128d2 : wlan:Check priviledge permission before processing SET_PACKET_FILTER IOCTL <Hanumantha Reddy Pothula> 1 year ago
+4588951 : wlan:Check priviledge permission for SET_VAR_INTS_GETNONE IOCTL <Ratnam Rachuri> 1 year ago
+f2830bb : wlan:Check priviledge permission before processing QCSAP_IOCTL_SETWPSIE <Hanumantha Reddy Pothula> 1 year ago
+be5a4b8 : wlan:Check priviledge permission before processing SET_BAND_CONFIG  IOCTL <Hanumantha Reddy Pothula> 1 year ago
+c76f84b : wlan:Check priviledge permission before processing SET_POWER_PARAMS  IOCTL <Hanumantha Reddy Pothula> 1 year ago
+6e99345 : wlan:Check priviledge permission before processing CLEAR_MCBC_FILTER  IOCTL <Hanumantha Reddy Pothula> 1 year ago
+cb68a20 : wlan:Check priviledge permission for SET_THREE_INT_GET_NONE <Hanumantha Reddy Pothula> 1 year ago
+68ba30f : wlan:Check priviledge permission before processing SET_OEM_DATA_REQ  IOCTL <Hanumantha Reddy Pothula> 1 year ago
+9a3c5be : wlan: ensure permission for WLAN_FTM_PRIV_SET_CHAR_GET_NONE <Hanumantha Reddy Pothula> 1 year ago
+1ca35b1 : wlan: Validate WPA and RSN IE for valid length <Mahesh A Saptasagar> 1 year ago
+6838058 : wlan: Validate ioctls for valid input length <Mahesh A Saptasagar> 1 year ago
+d4e0775 : Don't show empty tag stats for unprivileged uids <Mohamad Ayyash> 4 months ago
+bdbf9f9 : Replace %p with %pK to prevent leaking kernel address <Mohamad Ayyash> 5 months ago
+bbad667 : fix infoleak in rtnetlink <kangjie> 6 months ago
+28da249 : fs: ext4: disable support for fallocate FALLOC_FL_PUNCH_HOLE <Nick Desaulniers> 4 months ago
+e9512df : binder: prevent kptr leak by using %pK format specifier <Nick Desaulniers> 3 months ago
+5596c2b : UPSTREAM: net: Fix use after free in the recvmmsg exit path <Arnaldo Carvalho de Melo> 8 months ago
+8b778de : perf: duplicate deletion of perf event <Srinivasarao P> 8 months ago
+2897373 : msm: perf: Do not allocate new hw_event if event is duplicate. <Veena Sambasivan> 6 months ago
+54d8936 : wcnss: Avoid user buffer overloading for write cal data <Anand Kumar> 5 months ago
+2e34cbf : Input: aiptek - fix crash on detecting device without endpoints <Vladis Dronov> 11 months ago
+fbabf6b : Input: aiptek - adjust error-handling code label <Julia Lawall> 4 years, 6 months ago
+85e15b2 : eCryptfs: initialize payload_len in keystore.c <Simon Que> 3 years, 10 months ago
+d34b374 : KEYS: Fix short sprintf buffer in /proc/keys show function <David Howells> 8 weeks ago
+b9e85d9 : tcp: fix use after free in tcp_xmit_retransmit_queue() <Eric Dumazet> 3 months ago
+ 
+**** cmold:android_kernel_sony_msm8x27 ****
+226d4f7 : fs: ext4: disable support for fallocate FALLOC_FL_PUNCH_HOLE <Nick Desaulniers> 4 months ago
+088272e : binder: prevent kptr leak by using %pK format specifier <Nick Desaulniers> 3 months ago
+ 
+**** github:armani-dev/android_kernel_xiaomi_armani ****
+c283d6d : msm: sensor: validate the i2c table index before use <Suman Mukherjee> 6 weeks ago
+6249fb4 : msm: camera: Restructure data handling to be more robust <Samyukta Mogily> 7 weeks ago
+60aa294 : msm: sensor: Avoid potential stack overflow <VijayaKumar T M> 9 weeks ago
+ec3867c : msm: camera: restructure data handling to be more robust <Vasko Kalanoski> 1 year, 9 months ago
+c98a2a5 : msm: camera: isp: Fix warning and errors based on static analysis <Suman Mukherjee> 9 weeks ago
+b6a1f49 : msm: camera: sensor: Fix use after free condition <VijayaKumar T M> 3 months ago
+23063c0 : msm: camera: Assign NULL after freeing memory <Figo Wang> 3 months ago
+e299ae9 : media: Init the reserved fields of struct media_link_desc <Deva Ramasubramanian> 2 years, 9 months ago
+a67b8c3 : msm: camera: ispif: Validate VFE num input during reset <Suman Mukherjee> 8 months ago
+60cd6c8 : mm, gup: close FOLL MAP_PRIVATE race <Michal Hocko> 3 weeks ago
+ 
+**** vanir:platform_manifest ****
+7b19570 : Bluetoothext and dataservices == desirable <nuclearmistake> 5 days ago
+ 

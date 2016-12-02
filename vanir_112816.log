@@ -1,0 +1,349 @@
+
+**** cm:CyanogenMod/android_bootable_recovery ****
+6a0693f : bootloader_message: allow devices to override <Dan Pasanen> 7 days ago
+ 
+**** vanir:build ****
+2bde6c7 : Build hacks <DHOMD> 7 weeks ago
+ 
+**** cm:CyanogenMod/android_device_htc_hiae-common ****
+815c1fa : hiae: Use legacy camera hacks <Ethan Chen> 17 hours ago
+6a289f1 : hiae: Enable media extensions <Ethan Chen> 19 hours ago
+4f2cae4 : Revert "hiae: HAL3 support is better with Camera2" <Ethan Chen> 22 hours ago
+ 
+**** cm:CyanogenMod/android_device_htc_hiaeuhl ****
+d8e7008 : hiaeuhl: Remove enhanced NFC feature <Ethan Chen> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_htc_hiaeul ****
+10160b1 : hiaeul: Remove enhanced NFC feature <Ethan Chen> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_htc_himawl ****
+ef17aa3 : himawl: Remove enhanced NFC feature <David Hays> 30 hours ago
+ 
+**** vanir:device_htc_m7-common ****
+534a328 : m7-common: use half-res boot ani <Dan Pasanen> 2 months ago
+f6a950e : m7-common: Mount debugfs <David Hays> 11 hours ago
+ 
+**** cm:CyanogenMod/android_device_lge_d851 ****
+6c7633e : d851: use pad instead of misc for recovery commands <Dan Pasanen> 7 days ago
+ 
+**** vanir:device_lge_g3-common ****
+4a71f03 : init: run baseband-sh after boot complete <bryan2894> 10 weeks ago
+ 
+**** cm:CyanogenMod/android_device_lge_ls990 ****
+51c8bf0 : ls990: use pad instead of misc for recovery commands <Kasual> 2 days ago
+aa6dc4f : Revert "ls990: disable cache partition size info to fix cmupdate flashing" <Kasual> 7 days ago
+ 
+**** vanir:device_oneplus_bacon ****
+d20afb8 : bacon: update proprietary-files-qc <Simon Shields> 26 hours ago
+ 
+**** cm:CyanogenMod/android_device_oneplus_oneplus3 ****
+f788cee : oneplus3: Update ril-daemon services <Bruno Martins> 7 days ago
+3ee33e3 : oneplus3: Update services to drop net_raw and net_admin <Bruno Martins> 7 days ago
+ 
+**** vanir:device_samsung_jfltexx ****
+c092948 : jfltexx: Remove enhanced NFC feature <Zhao Wei Liew> 11 days ago
+ 
+**** vanir:device_xiaomi_armani ****
+29b5db2 : armani: Add missing libdrmdecrypt.so <fefifofum> 31 hours ago
+ff2dd01 : armani: We don't use libshims_wvm anymore <fefifofum> 31 hours ago
+ 
+**** vanir:device_xiaomi_cancro ****
+f6b3141 : cancro: remove enhanced NFC feature <Zhao Wei Liew> 6 days ago
+ 
+**** vanir:external_toybox ****
+c3a5a80 : losetup: Fix loop mounting <Gabriele M> 8 days ago
+ 
+**** vanir:frameworks_av ****
+05bc862 : audioflinger: Fix audio for WifiDisplay <myfluxi> 6 days ago
+ 
+**** vanir:frameworks_base ****
+9665f48 : Bandaids for building <DHOMD> 5 weeks ago
+7baa356 : settings: Allow accessing CMSettings via settings command <d34d> 1 year ago
+b4ef577 : SystemUI: make clock and date clickable in statusbar <Marc K> 7 days ago
+50169ee : Make Build.TYPE and Build.FINGERPRINT consistent for apps. <Danny Baumann> 6 days ago
+e16890c : SystemUI: change back button to hide ime button with rotate animation. <Kyrylo Mikos> 2 years, 1 month ago
+5a8b09e : usb: ensure accessory detached sent on re-attach <Khalid Zubair> 7 months ago
+ 
+**** vanir:frameworks_native ****
+208be86 : surfaceflinger: Add support for Exynos BGRA mixer <Christopher N. Hesse> 7 months ago
+ba23a7f : surfaceflinger: Add support for Exynos HWC services <Christopher N. Hesse> 7 months ago
+a7620e3 : Revert "Revert "DispSync: workaround HH hardware vsync issue"" <myfluxi> 7 days ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_audio ****
+89e8341 : Fix potential overflow in Visualizer effect <rago> 3 months ago
+720c3f2 : configs: msm8909: remove duplicate entries <Surendar karka> 12 days ago
+5e8e35a : audio: Add support for unprocessed audio source <Divya Narayanan Poojary> 2 weeks ago
+ecae5c1 : hal: add single session VSID voice call support <Vidyakumar Athota> 1 year, 10 months ago
+3e4e3f6 : msm8939/16: Update sound trigger mixer controls for listen <Divya Narayanan Poojary> 5 weeks ago
+0022e50 : audio: hal: improve logging <Divya Narayanan Poojary> 5 weeks ago
+a565edd : msm8009: Update device mixer controls for SVA <Surendar karka> 6 weeks ago
+2b84287 : msm8009: Update device mixer controls for listen <Surendar karka> 6 weeks ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_audio ****
+5722118 : Revert "hal: fix no sound issue in voice call" <Karthik Reddy Katta> 3 weeks ago
+b2d82a9 : Fix potential overflow in Visualizer effect <rago> 3 months ago
+ae1ba4a : audio: define max mic count for external codec <Divya Narayanan Poojary> 7 weeks ago
+eab28ed : hal: Fix the input device is disabled when VOICE and VOIP are active <kunleiz> 9 months ago
+852fec6 : hal: spk_prot: remove cond_wait for spkr_calib_cancel <Laxminath Kasam> 8 months ago
+f1a2ccf : hal: Restrict SSR recording to channel position representation <Divya Narayanan Poojary> 9 weeks ago
+a604885 : audio: add CHANNEL_INDEX_MASK_6 for surround sound <Divya Narayanan Poojary> 8 weeks ago
+8654a70 : audio: add CHANNEL_INDEX_MASK_6 for surround sound <Divya Narayanan Poojary> 8 weeks ago
+261b7d7 : audio: revert "remove 5.1 channel mask if SSR is not supported" <Divya Narayanan Poojary> 8 weeks ago
+431c72d : hal: fix no sound issue in voice call <kunleiz> 7 months ago
+c00000d : audio: Add support for unprocessed audio source <Ramjee Singh> 3 months ago
+2d96419 : hal: Add support for unprocessed audio source <Ramjee Singh> 3 months ago
+d039407 : hal: Add support for 3 & 4 channel recording <Ramjee Singh> 3 months ago
+ec35203 : audio: Select device based on supported mic count <Ramjee Singh> 3 months ago
+78de672 : hal: Add param for max mic count <Ramjee Singh> 3 months ago
+5780f18 : mixer_paths: Add pcm offload afe loopback mixer control <Ramjee Singh> 3 months ago
+b3216fb : hal: allow VOIP standby to enable correct device for subsequent usecases <Zhou Song> 5 months ago
+e09bd36 : post_proc: reverb: send reverb params to DSP when effect is enabled <Pavan Chikkala> 3 months ago
+c657093 : hal: allow VOIP standby to enable correct device for subsequent usecases <Zhou Song> 5 months ago
+d3d9d24 : DO NOT MERGE Fix AudioEffect reply overflow <Andy Hung> 7 months ago
+aed27e6 : hal: return with error code to avoid tearing down existing recording <Zhou Song> 7 months ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_audio ****
+b9282f8 : hal: Port the dock support to non-legacy 8960 hal <nadlabak> 3 days ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_audio ****
+8af2b9c : Fix potential overflow in Visualizer effect <rago> 3 months ago
+98fb586 : audio: Update the mixer control properly. <Divya Narayanan Poojary> 3 weeks ago
+79b67fc : hal: Restrict SSR recording to channel position representation <Divya Narayanan Poojary> 3 weeks ago
+a6ffa5e : audio: SSR: Adding 3-mic SSR support <Divya Narayanan Poojary> 3 weeks ago
+5582a74 : hal:configs: Add support for 3-mic SSR <Divya Narayanan Poojary> 3 weeks ago
+6496398 : audio: Add support for unprocessed audio source <Divya Narayanan Poojary> 3 weeks ago
+2855745 : audio: add support for max mic count <Divya Narayanan Poojary> 3 weeks ago
+a800fba :  hal: configs: Add support for unprocessed audio source <Divya Narayanan Poojary> 3 weeks ago
+3bcfe70 : hal: Fix closure of hardware dependent node <Venkata Narendra Kumar Gutta> 11 months ago
+1b634ae : audio: config: updated sample rate for direct pcm <Divya Narayanan Poojary> 4 weeks ago
+a869841 : hal: update sink capability for dynamic format support <Ramjee> 4 weeks ago
+4e859c9 : policy_hal : Ensure direct output is not selected again once rejected. <Ramjee> 4 weeks ago
+6c015b3 : audiopolicy: check active direct output before adding DIRECT_PCM flag <Ramjee> 4 weeks ago
+6470564 : DO NOT MERGE Fix AudioEffect reply overflow <Andy Hung> 7 months ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_display ****
+fa21480 : hwc: Use correct calculated dirty region for swaprect <Baldev Sahu> 6 weeks ago
+b98ec28 : gralloc: Modify getYUVPlaneInfo <Kaushik Kanetkar> 1 year, 10 months ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_display ****
+61dcf72 : libmemtrack: Update parsing of kgsl mem file <Harshdeep Dhatt> 10 months ago
+1968db1 : libmemtrack: Update the parsing of flags field <Harshdeep Dhatt> 12 months ago
+20e7a2d : qdutils: Add VT timestamp to the metadata <Naseer Ahmed> 4 months ago
+c58f9cd : HWC: Add Property to Set Dirty Area Threshold <Pullakavi Srinivas> 4 months ago
+4484ee1 : qdMetadata: Fix potential memory leak in copyMetaData <Baldev Sahu> 9 weeks ago
+d8947c9 : gralloc: Fix RAW10 stride <Ranjith Kagathi Ananda> 1 year, 5 months ago
+4490ca5 : gralloc: Handle RAW_OPAQUE formats similar to blob <Naseer Ahmed> 7 months ago
+9946f2b :  hwc: Move mdpHw declaration under DYNAMIC_FPS flag <Baldev Sahu> 3 months ago
+7503a02 : qdMetadata: Add MetaData operation functions <feifanz> 8 months ago
+8d19386 : qdMetadata: Add MetaData operation functions <feifanz> 8 months ago
+e6f5648 : hwc: Give priority to secure layer while allocating VG pipe <Baldev Sahu> 3 months ago
+ba0be34 : hwc: Give priority to secure layer while allocating VG pipe <Baldev Sahu> 3 months ago
+20f7927 : hwc: Isolate DMA state to per Display <Pullakavi Srinivas> 6 months ago
+5028015 : hwc: Avoid switching rotator session between secure and non secure <Baldev Kumar Sahu> 1 year, 6 months ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_display ****
+2a47834 : Revert "libhwcomposer: fix unused variable warning when DYNAMIC_FPS is disabled" <Ethan Chen> 23 hours ago
+19224da : gralloc: Handle RAW_OPAQUE formats similar to blob <Naseer Ahmed> 7 months ago
+ac0f746 :  hwc: Move mdpHw declaration under DYNAMIC_FPS flag <Baldev Sahu> 3 months ago
+f355830 : gralloc: Fix alignments for RAW16 and RAW10 <Arun Kumar K.R> 6 months ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_media ****
+7ee2cd0 : mm-video-v4l2: vdec : handle FBD before port-reconfig <Paras Nagda> 7 days ago
+099dd4d : mm-video-v4l2:Fix errors related to pointer dereferencing. <Vasantha Balla> 8 days ago
+020acd4 : mm-video-v4l2: vdec: Disallow input usebuffer for secure case <Sanjay Singh> 6 weeks ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_media ****
+09f2090 : mm-video-v4l2: vidc: venc: Remove unspported Levels <Praneeth Paladugu> 6 months ago
+7d14aac : mm-video-v4l2: Detect interlace format types correctly. <Kim Zhang> 6 months ago
+6c88d42 : mm-video-v4l2: vdec: Disallow input usebuffer for secure case <Praveen Chavan> 2 months ago
+d510e68 : media: video: Remove idle legacy code <Vikash Garodia> 3 months ago
+4724e04 : mm-video-v4l2: vdec: Fix memory leak in secure wfd usecase <Abdulla Anam> 3 months ago
+1330105 : mm-video: remove hevc sw decoder and encoder files <Manikanta Sivapala> 3 months ago
+630d1a8 : mm-video-v4l2: Use correct size for client extradata <Surajit Podder> 4 months ago
+2af32d8 : mm-video-v4l2: Add support for extradata access <Surajit Podder> 7 months ago
+4fcd761 : mm-video-v4l2: Align extradata offset to 4 <Surajit Podder> 4 months ago
+7e14060 : mm-video-v4l2: vidc: Add support for OMX_IndexConfigAndroidIntraRefresh <Arun Menon> 8 months ago
+97ee0a6 : mm-video-v4l2: vdec: Disallow changing buffer modes/counts on allocated ports <Praveen Chavan> 3 months ago
+ba1b424 : mm-video-v4l2: venc: Disallow changing buffer count/size on allocated port <Praveen Chavan> 3 months ago
+b8cf60a : mm-core: Remove the size and version fields for some vpp structures <Abdulla Anam> 6 months ago
+be80bc7 : mm-core: Define shared params between Video and Camera <Praneeth Paladugu> 4 months ago
+7fb34f7 : mm-video-v4l2: vidc: Fix read/write colorspace from/to gralloc-handle <Praveen Chavan> 4 months ago
+87523c7 : mm-video-v4l2: vdec: Use client defaults if bitstream aspects are unspecified <Praveen Chavan> 4 months ago
+e562711 : mm-video-v4l2: vidc: Color primaries fixes <Praveen Chavan> 4 months ago
+7ded320 : mm-video-v4l2: vidc: Add support for color aspects <Praneeth Paladugu> 4 months ago
+6e0bbac : mm-video-v4l2: vidc: Add support for color space. <Praneeth Paladugu> 6 months ago
+8b857fd : mm-video-v4l2: Avoid memory leak due to loss of fd <Paras Nagda> 4 months ago
+8f637d8 : mm-video-v4l2: set size in omx buffer header <Manikanta Kanamarlapudi> 5 months ago
+6efcf73 : mm-video-v4l2: venc: add checks before accessing heap pointers <Manikanta Kanamarlapudi> 5 months ago
+ead0904 : mm-video-v4l2: venc: fix slice mode max bytes <Srinu Gorle> 5 months ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_media ****
+5befa9f : mm-video-v4l2: vdec: allocate secure buffer as native_handle <Praveen Chavan> 7 months ago
+17ab34d : libstagefrighthw: Remove padding in encoder_nativehandle_buffer_type <Surajit Podder> 6 months ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_media ****
+311b975 : mm-video-v4l2: Use correct size for client extradata <Surajit Podder> 4 months ago
+6a6dda0 : mm-video-v4l2: Add support for extradata access <Surajit Podder> 7 months ago
+4dbdadd : mm-video-v4l2: Align extradata offset to 4 <Surajit Podder> 4 months ago
+156fcfc : mm-video-v4l2: vidc: Add support for OMX_IndexConfigAndroidIntraRefresh <Arun Menon> 8 months ago
+98657f1 : mm-video-v4l2: vdec: Fix memory leak in secure wfd usecase <Abdulla Anam> 3 months ago
+179fe77 : mm-video-v4l2: vdec: Disallow input usebuffer for secure case <Praveen Chavan> 2 months ago
+16fa4eb : mm-video-v4l2: venc: Disallow changing buffer count/size on allocated port <Praveen Chavan> 3 months ago
+3a9c27d : mm-video: remove hevc sw decoder and encoder files <Manikanta Sivapala> 3 months ago
+f164437 : media: video: Remove idle legacy code <Vikash Garodia> 3 months ago
+124f904 : mm-video-v4l2: vdec: Disallow changing buffer modes/counts on allocated ports <Praveen Chavan> 3 months ago
+bb8338f : mm-video-v4l2: vdec: allocate secure buffer as native_handle <Praveen Chavan> 7 months ago
+ff0977c : mm-core: Define shared params between Video and Camera <Praneeth Paladugu> 4 months ago
+ 
+**** cmold:android_kernel_htc_msm8952 ****
+3f9cd85 : idle: add a check for need_resched() after rcu_idle_enter <Pavankumar Kondeti> 10 weeks ago
+3922bf8 : cpuidle: lpm-levels: Fix possible null pointer access <Srinivas Rao L> 3 months ago
+a9539a4 : cpuidle: lpm-levels: Consider cluster history for LPM selection <Srinivas Rao L> 6 months ago
+9c6c6e9 : cpuidle: lpm-levels: Consider history during LPM selection <Srinivas Rao L> 8 months ago
+b32517a : lpm-levels: Use minimum residency values for mode selection <Raju P.L.S.S.S.N> 6 months ago
+e3c3942 : lpm-levels: Use residency instead of power and energy overhead <Archana Sathyakumar> 1 year, 4 months ago
+4f73fa5 : sched: Fix integer overflow in sched_update_nr_prod() <Pavankumar Kondeti> 9 weeks ago
+196f186 : bfq-sched: Forcefully lookup entities when the cache is inconsistent <Diogo Ferreira> 6 days ago
+e630fa0 : staging: android: Change %p to %pK in debug messages <Divya Ponnusamy> 6 months ago
+1eef840 : Replace %p with %pK to prevent leaking kernel address <Mohamad Ayyash> 6 months ago
+8699097 : ion: use %pk instead of %p which respects kptr_restrict sysctl <Srinivasarao P> 8 weeks ago
+5f908c8 : msm: kgsl: Fix overflow in sharedmem cache range operation function <Sudeep Yedalapure> 3 weeks ago
+240ab1d : msm: kgsl: Change %p to %pK in debug messages <Divya Ponnusamy> 3 months ago
+3d79ecb : msm: kgsl: Verify the pointer isn't NULL before using it for kref <Carter Cooper> 1 year, 2 months ago
+cb9cc784 : msm: kgsl: Zero the pointer to the dmabuf sg list before freeing <Jordan Crouse> 1 year, 5 months ago
+d4879b2 : msm: kgsl: Check the address range before mapping to GPU <Sunil Khatri> 7 months ago
+aabf2dc : msm: mdss: fix pp timeout during transition from LP1 to power on <Ingrid Gallardo> 6 weeks ago
+9fe9818 : msm: mdss: extend mutex ovlock for vsync handler <raghavendra ambadas> 4 weeks ago
+86a7253 : msm: mdss: Fix ctl flush bits reset by dspp programming <Jayant Shekhar> 6 weeks ago
+7e31d24 : msm: mdss: Move PP programming aptly for video and cmd modes <Archana Sriram> 3 months ago
+46298cc : msm: mdss: Fix potential NULL pointer dereferences <Jayant Shekhar> 9 months ago
+e70bb7b : msm: mdss: enable tearcheck while entering LP1 state <Sandeep Panda> 3 months ago
+8ea5244 : msm: mdss: Disable histogram interrupt in ISR <Raghavendra Ambadas> 3 months ago
+8802938 : msm: mdss: add support to read current VIC from sysfs node <Sandeep Panda> 1 year, 2 months ago
+9658bae : msm: mdss: hide kernel addresses from unprevileged users <Abhijit Kulkarni> 6 months ago
+b05a340 : msm: mdss: Fix memleak in panel_debug_reg_write <Krishna Srinivas> 6 months ago
+4f6cf88 : msm: mdss: keep tear check enabled in LP1 power state <Ingrid Gallardo> 11 months ago
+b46140b : msm: mdss: restructure tearcheck config <Adrian Salido-Moreno> 1 year, 6 months ago
+e9e88e4 : msm: mdss: reset intf_stopped flag for sctl when exiting LP states <Veera Sundaram Sankaran> 12 months ago
+678ff6c : msm: mdss: Correct the format specifiers in sscanf function <Shalini Krishnamoorthi> 5 months ago
+e23c52a : msm: mdss: configure DSI PHY when resuming from ulps suspend <Sandeep Panda> 3 months ago
+08d6b8d : msm: mdss: dsi: ensure clocks are off when setting their source <Abhinav Kumar> 9 months ago
+dc114bb : msm: mdss: update rotator frame rate in the pipe configuration <Jayant Shekhar> 9 months ago
+38db961 : msm: mdss: Fix memleak in framebuffer register and remove <Krishna Srinivas> 5 months ago
+1350203 : msm: mdss: Fix potential NULL pointer dereferences <Krishna Chaitanya Devarakonda> 8 months ago
+0314df8 : msm: mdss: Fix to validate data copied from user space <Shalini Krishnamoorthi> 4 months ago
+9f05fdd : msm: vidc: Set constrained intra refresh property <Arun Menon> 8 months ago
+8b57812 : msm: vidc: Add control to set csc coefficients to firmware <Arun Menon> 12 months ago
+4157a89 : msm: vidc: Add support for color space information <Praneeth Paladugu> 6 months ago
+964588d : msm: vidc: Add SEI extradata. <Vikash Garodia> 7 months ago
+30eef7e : msm: vidc: use %pK instead of %p which respects kptr_restrict sysctl <Sanjay Singh> 4 months ago
+ 
+**** cmold:android_kernel_htc_msm8960 ****
+885fd32 : net: diag: Add the ability to destroy a socket. <Lorenzo Colitti> 12 months ago
+c97fe24 : selinux: nlmsgtab: add SOCK_DESTROY to the netlink mapping tables <Lorenzo Colitti> 10 months ago
+7156334 : UPSTREAM: selinux: fix bug in conditional rules handling <Stephen Smalley> 1 year ago
+094e232 : selinux: Android kernel compatibility with M userspace <Jeff Vander Stoep> 1 year, 1 month ago
+d81c056 : selinux: extended permissions for ioctls <Jeff Vander Stoep> 1 year, 5 months ago
+e05c4ff : selinux: remove unnecessary pointer reassignment <Jeff Vander Stoep> 1 year, 9 months ago
+5c3bc39 : Revert "SELinux: per-command whitelisting of ioctls" <Jeff Vander Stoep> 1 year, 4 months ago
+009677b : Revert "SELinux: use deletion-safe iterator to free list" <Jeff Vander Stoep> 1 year, 4 months ago
+7ef868d : Revert "SELinux: ss: Fix policy write for ioctl operations" <Jeff Vander Stoep> 1 year, 4 months ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+c258e2d : Revert "vfs: umount_tree() might be called on subtree that had never made it" <Tyler Dunn> 27 hours ago
+06cdcd8 : Revert "msm: rpm-smd: return probe success when standalone flag is defined" <Tyler Dunn> 28 hours ago
+e6de735 : mm: vmscan: fix the page state calculation in too_many_isolated <Vinayak Menon> 1 year, 11 months ago
+29419d9 : vfs: umount_tree() might be called on subtree that had never made it <Al Viro> 1 year, 1 month ago
+29c2568 : msm: rpm-smd: return probe success when standalone flag is defined <Murali Nalajala> 2 years, 4 months ago
+02e0c61 : soc: qcom: rpm: Change driver memory allocation to use GFP_NOFS <Mahesh Sivasubramanian> 12 months ago
+a1991c4 : qcom: rpm-smd: Remove rpm workqueue initialization <Achyuth Sai Vadrav> 1 year ago
+ded4085 : qcom: rpm-smd: Mask the interrupt before sending the sleep set. <Mahesh Sivasubramanian> 2 years, 5 months ago
+e85c5f3 : msm: rpm-smd: skip the smd initialization for standalone <Venkat Devarasetty> 3 years ago
+693f112 : msm: rpm-smd: Read RPM acks before entering system sleep <Archana Sathyakumar> 3 years, 2 months ago
+580326c : msm: rpm-smd: Don't ignore the rpm-standalone property <Stepan Moskovchenko> 3 years, 2 months ago
+9a5a12d : configs: Regen and catch up legacy variants <Greg Wallace> 3 weeks ago
+9ff271d : rpm-smd: Optimize smd data read <Anji Jonnala> 1 year, 4 months ago
+9ea5cea : msm: rpm-smd: Add a check to validate the rpm message length <Anji Jonnala> 1 year, 5 months ago
+8c60fcb : qcom: rpm-smd: Add NULL check for input data variable <Anil Kumar Mamidala> 1 year, 9 months ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+6774c5f : Linux 3.4.92 <Greg Kroah-Hartman> 2 years, 6 months ago
+f6adc2d : futex: Make lookup_pi_state more robust <Thomas Gleixner> 2 years, 6 months ago
+6f428b4 : ath9k: protect tid->sched check <Stanislaw Gruszka> 2 years, 9 months ago
+041b90e : dj: memory scribble in logi_dj <Alan Cox> 4 years, 3 months ago
+75e6f24 : HID: logitech: don't use stack based dj_report structures <Marc Dionne> 4 years, 6 months ago
+69633c5 : PCI/ASPM: Don't touch ASPM if forcibly disabled <Joe Lawrence> 3 years, 10 months ago
+73d7c92 : xen-netfront: reduce gso_max_size to account for max TCP header <Wei Liu> 3 years, 7 months ago
+65a49c3 : net: Add net_ratelimited_function and net_<level>_ratelimited macros <Joe Perches> 4 years, 7 months ago
+0b4d597 : crypto: s390 - Fix aes-xts parameter corruption <Gerald Schaefer> 3 years ago
+ddcc06b : can: sja1000: fix {pre,post}_irq() handling and IRQ handler return value <Oliver Hartkopp> 3 years ago
+8d9cd6f : backlight: atmel-pwm-bl: fix gpio polarity in remove <Johan Hovold> 3 years, 1 month ago
+b44f8b1 : mtd: m25p80: fix allocation size <Brian Norris> 3 years, 4 months ago
+36f5a14 : crypto: s390 - Fix aes-cbc IV corruption <Herbert Xu> 3 years, 1 month ago
+5aa4845 : mac80211: drop spoofed packets in ad-hoc mode <Felix Fietkau> 3 years, 2 months ago
+89eb1af : vgacon.c: add cond reschedule points in vgacon_do_font_op <Marcelo Tosatti> 3 years, 5 months ago
+6da3f97 : b43: ensue that BCMA is "y" when B43 is "y" <Hauke Mehrtens> 3 years, 6 months ago
+b8be8b2 : i2c-piix4: Add AMD CZ SMBus device ID <Shane Huang> 3 years, 6 months ago
+0efb86b : cfg80211: check wdev->netdev in connection work <Johannes Berg> 3 years, 6 months ago
+1d962b6 : random: fix accounting race condition with lockless irq entropy_count update <Jiri Kosina> 3 years, 6 months ago
+f52857d : rapidio/tsi721: Fix interrupt mask when handling MSI <Ben Hutchings> 3 years, 6 months ago
+e963dd9 : rapidio/tsi721: fix bug in MSI interrupt handling <Alexandre Bounine> 3 years, 6 months ago
+1896cda : msi-wmi: Fix memory leak <Maxim Mikityanskiy> 3 years, 11 months ago
+b7aae4d : ixgbe: fix registration order of driver and DCA nofitication <Jakub Kicinski> 3 years, 8 months ago
+9da0c12 : i2c: tegra: check the clk_prepare_enable() return value <Laxman Dewangan> 3 years, 9 months ago
+39867d6 : speakup: lower default software speech rate <Samuel Thibault> 4 years, 3 months ago
+ccdf4b8 : ata_piix: Add Device IDs for Intel Lynx Point-LP PCH <James Ralston> 4 years, 4 months ago
+4ddc127 : drivers/rtc/rtc-pl031.c: restore ST variant functionality <Linus Walleij> 3 years, 10 months ago
+91b00c8 : rt2800usb: Add support for 2001:3c1e (D-Link DWA-125 rev B1) USB Wi-Fi adapter <Maia Kozheva> 4 years ago
+e7ab4b7 : Wireless: rt2x00: Add device id for Sweex LW323 to rt2800usb.c <Jaume Delclòs> 4 years, 1 month ago
+77a7eb9 : wireless: rt2x00: rt{2500,73}usb.c put back duplicate id <Xose Vazquez Perez> 4 years, 8 months ago
+015c151 : drivers/rtc/rtc-pl031.c: fix the missing operation on enable <Haojian Zhuang> 3 years, 10 months ago
+4a10ec1 : drm/radeon: always program the MC on startup <Alex Deucher> 3 years, 4 months ago
+4c09f49 : drm/radeon: fix hdmi mode enable on RS600/RS690/RS740 <Alex Deucher> 3 years, 7 months ago
+abfcd58 : drm/ttm: Fix memory type compatibility check <Thomas Hellstrom> 3 years, 1 month ago
+45a5100 : drm: Pad drm_mode_get_connector to 64-bit boundary <Chris Wilson> 3 years, 1 month ago
+c961613 : drm/radeon: fix panel scaling with eDP and LVDS bridges <Alex Deucher> 3 years, 3 months ago
+c168cbc : drm/i915: try not to lose backlight CBLV precision <Jani Nikula> 3 years, 3 months ago
+e6700c1 : drm/radeon: Another card with wrong primary dac adj <Ondrej Zary> 3 years, 4 months ago
+630cbf2 : drm/i915: ensure single initialization and cleanup of backlight device <Jani Nikula> 3 years, 8 months ago
+104ef47 : drm/i915: Workaround incoherence between fences and LLC across multiple CPUs <Chris Wilson> 3 years, 8 months ago
+01bb4ae : drm/radeon: cleanup properly if mmio mapping fails <Alex Deucher> 3 years, 8 months ago
+766831a : drm/radeon: use frac fb div on RS780/RS880 <Alex Deucher> 3 years, 8 months ago
+b881dcd : DRM/i915: Add QUIRK_INVERT_BRIGHTNESS for NCR machines. <Egbert Eich> 4 years, 2 months ago
+deaa78c : drm/i915: add quirk to invert brightness on Packard Bell NCL20 <Jani Nikula> 3 years, 10 months ago
+dacc773 : drm/i915: add quirk to invert brightness on eMachines e725 <Jani Nikula> 3 years, 10 months ago
+354f81f : drm/i915: add quirk to invert brightness on eMachines G725 <Jani Nikula> 3 years, 10 months ago
+bb802b5 : drm/i915: panel: invert brightness acer aspire 5734z <Carsten Emde> 4 years, 9 months ago
+bd4a060 : drm/i915: panel: invert brightness via quirk <Carsten Emde> 4 years, 9 months ago
+149983b : drm/i915: panel: invert brightness via parameter <Carsten Emde> 4 years, 9 months ago
+e681492 : drm/i915: add missing \n to UTS_RELEASE in the error_state <Jani Nikula> 3 years, 10 months ago
+ 
+**** cmold:android_kernel_sony_msm8x27 ****
+fee83e6 : bfq-sched: Forcefully lookup entities when the cache is inconsistent <Diogo Ferreira> 6 days ago
+ 
+**** vanir:packages_apps_Settings ****
+fc108b7 : Settings: move notification lights settings into notifications options <Joey Rizzoli> 4 days ago
+5c35c05 : Settings: Remove A/B preference if unsupported <Luca Stefani> 2 days ago
+ 
+**** vanir:packages_apps_soundrecorder ****
+d309f7d : SoundRecorder: Add permission for ACCESS_NETWORK_STATE <syphyr> 5 days ago
+de75853 : Automatic translation import <inky@build01> 6 days ago
+ 
+**** commotio:commotio ****
+b5653d2 : Moar tweaking <DHOMD> 2 days ago
+00bc0ec : Drop NFC + small reprg <DHOMD> 2 days ago
+ 
+**** vanir:vendor_htc ****
+f82713c : m8d: disable agps <Dan Pasanen> 4 weeks ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+72fd3d8 : Remove unused file. <J. Joe Feise> 7 days ago
+8c37fe2 : Binary blob to enable full-disk decryption. <J. Joe Feise> 8 days ago
+ 
+**** vanir:vendor_sony ****
+1a2928e : taoshan: Use libchromatix_imx134_default_video.so from 15.3.A.1.17 <Kshitij Gupta> 4 weeks ago
+ 
+**** vanir:vendor_vanir ****
+6757b60 : build: kernel: Remove duplicated targets <Luca Stefani> 5 days ago
+acef729 : Gracefully kill NFC <DHOMD> 2 days ago
+ 

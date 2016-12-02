@@ -1,0 +1,352 @@
+
+**** vanir:build ****
+d9896a0 : Build hacks <DHOMD> 6 weeks ago
+0188b8f : Revert "build: Dex-preopt boot image by default on userdebug" <Dan Pasanen> 34 hours ago
+bd0529d : build: Dex-preopt boot image by default on userdebug <Zhao Wei Liew> 9 days ago
+ 
+**** vanir:device_asus_deb ****
+4e7f621 : Revert "deb: enable multi-window" <chrmhoffmann> 3 days ago
+ 
+**** vanir:device_asus_flo ****
+1b9000b : Revert "flo: build libc with GCC" <Simon Shields> 2 days ago
+9ba9ce5 : flo: Remove enhanced NFC feature <Zhao Wei Liew> 2 days ago
+140ee4d : flo: move default network prop down to deb <Simon Shields> 5 days ago
+ 
+**** vanir:device_htc_m7 ****
+158b199 : m7: Update radio access family list <Matt Mower> 11 days ago
+ 
+**** vanir:device_htc_m7-common ****
+4cc90ff : m7-common: Fix FM audio playback <David Hays> 4 days ago
+f4ba053 : m7: change BOARD_BLUEDROID_VENDOR_CONF to BOARD_CUSTOM_BT_CONFIG <David Hays> 2 days ago
+f4d5900 : m7-common: Cleanup after making tty_enabled = true by default. <Sanket Padawe> 8 months ago
+d9480e5 : bluetooth: Our kernel is missing CLOCK_BOOTTIME_ALARM (alarmtimer) <Chirayu Desai> 3 months ago
+0a4cd46 : m7-common: ril: Update RIL wakelock symantics <Sanket Padawe> 10 months ago
+0415824 : m7-common: Update VibratorHW.java to use new CMSDK FileUtils <WildfireDEV> 10 weeks ago
+9088941 : m7-common: No need to specify kernel toolchain <David Hays> 2 days ago
+9c0c13e : m7-common: Remove unneeded CLANG flag <Luca Stefani> 3 months ago
+ddd1cab : m7-common: Delete /mnt/sdcard symlink <Nick Kralevich> 7 months ago
+d341337 : m7-common: Delete dhcpcd init entries, since dhcpcd is no more. <Lorenzo Colitti> 9 months ago
+f3c9af8 : m7-common: Provide PCM id for VOIP calls <Matt Mower> 7 weeks ago
+a3abb4c : m7-common: Use dual-mic devices for voice speakers <Matt Mower> 9 days ago
+b45f3b2 : m7-common: audio: Update mixers <Arne Coucheron> 9 weeks ago
+d1b5200 : m7-common: audio: Enable voice path for PCM voip <Arne Coucheron> 9 weeks ago
+e0549a0 : m7-common: Update 'handset-mic' device <irii> 9 weeks ago
+31330f7 : m7-common: Use Voice Line acdb id for speaker mic <Matt Mower> 10 weeks ago
+ 
+**** vanir:device_htc_m7vzw ****
+7a32244 : m7vzw: Re-add CDMA subscription type selection <Matt Mower> 7 days ago
+9f72d59 : m7vzw: Update radio access family list <Matt Mower> 11 days ago
+28dbd80 : m7vzw: Restore telephony.lteOnCdmaDevice prop <Matt Mower> 13 days ago
+ 
+**** vanir:device_htc_m8 ****
+179cc4a : m8: Remove enhanced NFC feature <Zhao Wei Liew> 2 days ago
+bf15262 : m8: Clean up makefiles <Bruno Martins> 7 days ago
+ 
+**** cm:CyanogenMod/android_device_htc_m8-common ****
+e27a7e7 : Revert "m8: sepolicy: remove execmod for mm-qcamerad and mediaserver" <Dan Pasanen> 4 days ago
+ 
+**** cm:CyanogenMod/android_device_htc_m8dug ****
+e42b93b : m8d: Remove enhanced NFC feature <Zhao Wei Liew> 2 days ago
+1c9caa3 : m8d: Clean up makefiles <Bruno Martins> 7 days ago
+ 
+**** cm:CyanogenMod/android_device_htc_msm8974-common ****
+b744728 : msm8974-common: Remove duplicate entry for camera shim <Eurofighter_ty> 8 days ago
+ac20e9b : LIBC:Compile with GCC instead of Clang to fix late-connecting ril <pstrangwrzekle> 7 days ago
+ 
+**** vanir:device_huawei_angler ****
+d16196d : angler: Remove enhanced NFC feature <Zhao Wei Liew> 2 days ago
+56b24d4 : nbd91k extractor <nuclearmistake> 4 days ago
+ 
+**** vanir:device_lge_bullhead ****
+1f8d0a9 : bullhead: Remove enhanced NFC feature <Zhao Wei Liew> 2 days ago
+6f0c12a : bullhead: update build fingerprint & description to N5D91L <razorloves> 2 days ago
+ 
+**** vanir:device_lge_g2-common ****
+43e452a : g2: add /misc to fstab <Dan Pasanen> 2 days ago
+ce4fe07 : g2: specify cache partition type <Dan Pasanen> 2 days ago
+946f001 : Revert "g2: sepolicy: remove execmod for mm-qcamerad" <Dan Pasanen> 4 days ago
+ 
+**** vanir:device_lge_g3-common ****
+0a1229e : g3: specify cache partition type <Dan Pasanen> 2 days ago
+ 
+**** vanir:device_lge_hammerhead ****
+9fab82a : hammerhead: update build fingerprint & description to M4B30X <razorloves> 7 weeks ago
+5ec8b80 : hammerhead: update build fingerprint & description to MOB31E <razorloves> 2 months ago
+aad3345 : Move sysfs_thermal definition to global policy. <dcashman> 8 months ago
+81a7893 : Add missing liblog dependency <Dimitry Ivanov> 9 months ago
+c41d05d : camera_device: remove type <William Roberts> 11 months ago
+aa7268d : Label /sys/class/power_supply/battery/capacity. <dcashman> 11 months ago
+7618a7d : Replace MALLOC_IMPL with MALLOC_SVELTE. <Josh Gao> 11 months ago
+507b20c : Use GID "wakelock" to control access to kernel wakelock <Pavlin Radoslavov> 12 months ago
+5511f3f : Migrated dumpstate to C++. <Felipe Leme> 11 months ago
+2988c4b : Label gpuclk as sysfs_thermal file and add perms. <dcashman> 11 months ago
+29a8f55 : perfprofd.te: fix warning <Nick Kralevich> 12 months ago
+d490d95 : releasetools.py: Honor mount options. <Tao Bao> 1 year ago
+af7df6f : Allow mpdecision /proc read access <Nick Kralevich> 1 year ago
+db8194b : selinux: Label misc block device. <Tao Bao> 1 year ago
+f0301ec : Grant all processes the domain_deprecated attribute <Jeff Vander Stoep> 1 year, 1 month ago
+93023eb : Remove TMO & MetroPCS entries for mcc/mnc 310/580 in apn-conf <Sanket Padawe> 1 year, 1 month ago
+f280b67 : radio: remove text relocation support <Nick Kralevich> 1 year, 1 month ago
+0c28a99 : mediaserver: remove text relocation support <Nick Kralevich> 1 year, 1 month ago
+8d3ea2d : Move hammerhead to clang by default. <Chih-Hung Hsieh> 1 year, 2 months ago
+4c5dbbf : Only allow toolbox exec where /system exec was already allowed. <Stephen Smalley> 1 year, 3 months ago
+5a81fdc : HH: Minimally refactor Android.mk <Andreas Gampe> 1 year, 4 months ago
+6c1af60 : hammerhead: Reduce the /system journal size to zero. <Tao Bao> 1 year, 4 months ago
+d0d223e : selinux: label mac address in sysfs <Fyodor Kupolov> 1 year, 4 months ago
+6761296 : hammerhead: fix typo in device.te <Patrick Tjin> 1 year, 5 months ago
+8d6e14f : hammerhead: update sepolicy for diag_logs <Patrick Tjin> 1 year, 5 months ago
+4d4ed9c : hammerhead: remove malformed chown calls <Nick Kralevich> 1 year, 5 months ago
+3371bab : Fix ASan/Clang build. <Evgenii Stepanov> 1 year, 5 months ago
+60f466f : Remove device-specific rtc labeling. <dcashman> 1 year, 6 months ago
+381397f : Update device to use set_prop() macro <William Roberts> 1 year, 6 months ago
+1bc9ef5 : Whitelist device for stlport. <Dan Albert> 1 year, 7 months ago
+ 
+**** vanir:device_lge_vs985 ****
+cbd0873 : vs985: add /misc partition to fstab <Dan Pasanen> 2 days ago
+ 
+**** vanir:device_moto_shamu ****
+dbedb26 : shamu: Remove enhanced NFC feature <Zhao Wei Liew> 2 days ago
+ 
+**** vanir:device_motorola_falcon ****
+564cc83 : Revert "falcon: Add assert for XT1031" <Gabriele M> 5 days ago
+ 
+**** vanir:device_motorola_msm8226-common ****
+29647ee : msm8226-common: Add /misc to fstab <Dan Pasanen> 35 hours ago
+ 
+**** vanir:device_motorola_msm8916-common ****
+8af0f0b : Revert "msm8916-common: Fix libbson dependency" <Alberto97> 14 hours ago
+bd06222 : msm8916-common: Specify we have a cache partition <Luca Stefani> 4 weeks ago
+b35d7ea : msm8916-common: cmactions: Remove inexistent activity <Alberto97> 5 days ago
+974fda5 : msm8916-common: Fix libbson dependency <Alberto97> 3 days ago
+ 
+**** vanir:device_oneplus_bacon ****
+f81aefe : bacon: Remove enhanced NFC feature <Zhao Wei Liew> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_oneplus_oneplus3 ****
+88a3fbe : oneplus3: Remove enhanced NFC feature <Zhao Wei Liew> 2 days ago
+7ad7c40 : op3: Support Taobao fingerprint payment <zhouxin96> 3 months ago
+66b50dc : op3: Clean up extra camera parameters <dianlujitao> 2 days ago
+70d938f : op3: Address additional ifaadaemon denial <dianlujitao> 2 days ago
+13d2210 : op3: seplicy: address new mediaserver/camera denial <dh-harald> 2 days ago
+64d802f : op3: Update CarrierConfig overlay from upstream <dianlujitao> 4 days ago
+7f53caa : op3: remove duplicate LiveDisplay <smoki3> 4 days ago
+8f26d83 : op3: Move adreno firmware to device-specific <dianlujitao> 4 days ago
+ffe7e4c : op3: Additional policy for new camera driver <Steve Kondik> 4 days ago
+4293284 : op3: Unblock alipay <dianlujitao> 4 days ago
+397c2b3 : op3: Update camera driver <Steve Kondik> 4 days ago
+f7b8a55 : op3: Set TARGET_USES_MEDIA_EXTENSIONS <Steve Kondik> 5 days ago
+ 
+**** cm:CyanogenMod/android_device_oppo_find7 ****
+c6644d6 : find7: Remove enhanced NFC feature <Zhao Wei Liew> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_oppo_find7s ****
+5404f81 : find7s: Remove enhanced NFC feature <Zhao Wei Liew> 2 days ago
+ 
+**** vanir:device_qcom_common ****
+4b8412d : qc: Fix makefiles <Steve Kondik> 29 hours ago
+ 
+**** cm:CyanogenMod/android_device_samsung_d2-common ****
+a1d1ab9 : d2: remove unecessary releasetools flag <Dan Pasanen> 8 days ago
+ 
+**** vanir:device_samsung_klte-common ****
+9282801 : klte-common: fstab: Assign unused pad partition to /misc <Arne Coucheron> 26 hours ago
+ 
+**** vanir:device_samsung_kona-common ****
+4ba824a : kona : use MALLOC_SVELTE <RGIB> 7 days ago
+ 
+**** vanir:device_samsung_smdk4412-qcom-common ****
+1d04fce : smdk4412-qcom-common: RIL Update N wakelocks <Aaron Knight> 3 months ago
+ 
+**** cm:CyanogenMod/android_device_sony_nicki ****
+f779a0e : nicki: Remove unused dlb_msd <RonGokhale> 4 days ago
+101fcc5 : nicki: Build NFC firmware <RonGokhale> 4 days ago
+469ead7 : nicki: Reuse hw aac encoder <RonGokhale> 4 days ago
+bcfcd91 : nicki: Enable hacks for legacy camera hal1 <RonGokhale> 4 days ago
+ 
+**** cm:CyanogenMod/android_external_yaffs2 ****
+fd7903a : mkyaffs2image: fix stats for cache image <Sergey Orlov> 6 days ago
+ 
+**** vanir:frameworks_av ****
+c9f3ed9 : OMXNodeInstance: More legacy HAL1 fixes after merge of android-7.1.0_r7 <Dominggoes Isakh> 8 days ago
+ 
+**** vanir:frameworks_base ****
+90dafea : Revert "Revert "zygote: Allow device to append extra whitelisted paths"" <Aaron Kling> 2 days ago
+7727635 : data: sounds: add Timer alarm sound <Alexander Martinz> 9 weeks ago
+09553fa : Fix unpinning on device with Navigation Bar <Dark Eyes> 5 days ago
+7d73d6c : Fix end call by pressing power button <Hikari-no-Tenshi> 3 days ago
+ 
+**** vanir:frameworks_opt_telephony ****
+94ae0fe : GsmCdmaPhone: Return dummy ICCID serial for NV sub <Gabriele M> 5 days ago
+ 
+**** vanir:hardware_qcom_display ****
+eaedadc : display: Don't use gnu-oldstyle field designators <Elektroschmock> 8 weeks ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_media ****
+0124a88 : media: Add missing links <Ethan Chen> 4 days ago
+ 
+**** vanir:hardware_samsung ****
+1c47466 : power: Fix unused argument <Christopher N. Hesse> 33 hours ago
+e143419 : power: Simplify read_panel_brightness() <Christopher N. Hesse> 33 hours ago
+ 
+**** cmold:android_kernel_google_msm ****
+52d9e81d : mdp4: pcc: fix PCC disablement <Dave Daynard> 1 year, 4 months ago
+ecf3da5 : video: mdp4: Color temperature interface using PCC <Steve Kondik> 1 year, 8 months ago
+ 
+**** cmold:android_kernel_htc_msm8974 ****
+76b6c75 : af_unix: speedup /proc/net/unix <Eric Dumazet> 4 years, 5 months ago
+ 
+**** vanir:kernel_huawei_angler ****
+1250be3 : Reconcile with CM because because <nuclearmistake> 3 days ago
+ 
+**** cmold:android_kernel_lge_bullhead ****
+5a3d8a9 : input: synaptics: prevent sysfs races <Andrew Chant> 9 weeks ago
+6b9c864 : input: synaptics: defer sysfs creation during init <Andrew Chant> 9 weeks ago
+94f4b81 : input: synaptics: Add checks of user input data <chengengjia> 3 months ago
+6e5299d : msm: crypto: Fix integer over flow check in qcrypto driver <Biswajit Paul> 3 months ago
+90db558 : UPSTREAM: perf: Fix race in swevent hash <Peter Zijlstra> 11 months ago
+3300b69 : msm: vidc: use %pK instead of %p which respects kptr_restrict sysctl. <Yueyao (Nathan) Zhu> 10 weeks ago
+215b86e : msm: kgsl: Change %p to %pK in debug messages <Biswajit Paul> 3 months ago
+90c34e1 : UPSTREAM: proc: prevent accessing /proc/<PID>/environ until it's ready <Mathias Krause> 7 months ago
+6ccc4c6 : arm64/configs: bullhead: disable extra SCSI configs <Patrick Tjin> 9 weeks ago
+df6242b : soc: qcom: smp2p: Fix kernel address leak <Karthikeyan Ramasubramanian> 10 weeks ago
+e296c23 : msm: msm_bus: fix stack overflow bug <Jianqiang Zhao> 4 months ago
+c7a0123 : misc: qcom: qdsp6v2: initialize wma_config_32 <vivek mehta> 3 months ago
+746a7d5 : msm: camera: cpp: Validate frame message before manipulating it. <Biswajit Paul> 9 weeks ago
+a08f9ac : ASoC: msm: Add Buffer overflow check <Biswajit Paul> 2 months ago
+e1a128e : Revert "Asoc:msm:Added Buffer overflow check" <Yuan Lin> 9 weeks ago
+c390112 : UPSTREAM: af_unix: Guard against other == sk in unix_dgram_sendmsg <Rainer Weikusat> 9 months ago
+3a44dcff : misc: qcom: qdsp6v2: initialize config_32 <vivek mehta> 2 months ago
+4bb59b5 : cgroup: prefer %pK to %p <Nick Desaulniers> 10 weeks ago
+6efbbb9 : UPSTREAM: block: fix use-after-free in seq file <Vegard Nossum> 4 months ago
+810a387 : msm: camera: Restructure data handling to be more robust <Biswajit Paul> 2 months ago
+6d5b06b : msm: sensor: Avoid potential stack overflow <Biswajit Paul> 3 months ago
+9aa7780 : qcedev: Validate Source and Destination addresses <Biswajit Paul> 3 months ago
+aa11a47 : ion: Disable ION_HEAP_TYPE_SYSTEM_CONTIG <Daniel Rosenberg> 2 months ago
+dbee064 : input: synaptics: Validate offset and reg <chengengjia> 3 months ago
+2be1040 : msm-core: debug: Update the number of supported pstates. <Archana Sathyakumar> 3 months ago
+86a732e : ASoC: msm: initialize the params array before using it <vivek mehta> 10 weeks ago
+ce6517e : qseecom: Change format specifier %p to %pK <Mallikarjuna Reddy Amireddy> 4 months ago
+f26a643 : UPSTREAM: HID: core: prevent out-of-bound readings <Benjamin Tissoires> 10 months ago
+c56c177 : BACKPORT: ALSA: usb-audio: Fix double-free in error paths after snd_usb_add_audio_stream() call <Vladis Dronov> 8 months ago
+917dabc : BACKPORT: ALSA: usb-audio: Minor code cleanup in create_fixed_stream_quirk() <Takashi Iwai> 8 months ago
+c69bc1e : BACKPORT: tty: Prevent ldisc drivers from re-using stale tty fields <Peter Hurley> 12 months ago
+f7c90a3 : UPSTREAM: tcp: fix use after free in tcp_xmit_retransmit_queue() <Eric Dumazet> 3 months ago
+abc46c7 : BACKPORT: block: fix use-after-free in sys_ioprio_get() <John Dias> 9 weeks ago
+ 
+**** cmold:android_kernel_lge_g3 ****
+7a2ad14 : af_unix: speedup /proc/net/unix <Eric Dumazet> 4 years, 5 months ago
+ 
+**** cmold:android_kernel_lge_msm8992 ****
+4e06061 : wcnss: Avoid user buffer overloading for write cal data <Anand Kumar> 5 months ago
+cce0db3 : proc: prevent accessing /proc/<PID>/environ until it's ready <Mathias Krause> 7 months ago
+ 
+**** vanir:kernel_moto_shamu ****
+f720134 : shamu: defconfig enable F2FS features <Elektroschmock> 4 days ago
+e8a289d : shamu: Catch up Jaegeuk's stable branch to v4.9-rc1-3.10 <Jaegeuk Kim> 5 days ago
+5c1da8b : f2fs: catch up to v4.4-rc1 <Jaegeuk Kim> 12 months ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+7818ef1 : send debug to trash <OzzysCmAcc> 4 days ago
+e38bffa : workqueue: cond_resched() after processing each work item <Tejun Heo> 3 years, 3 months ago
+39f2578 : fix some functions in workqueue <OzzysCmAcc> 4 days ago
+f3f1eb6 : Linux 3.4.65 <Greg Kroah-Hartman> 3 years, 2 months ago
+eea7b71 : HID: LG: validate HID output report details <Kees Cook> 3 years, 2 months ago
+084e9b2 : mm, memcg: give exiting processes access to memory reserves <David Rientjes> 3 years, 2 months ago
+4daa3de : ALSA: compress: Fix compress device unregister. <Liam Girdwood> 3 years, 2 months ago
+0187c5e : hwmon: (applesmc) Check key count before proceeding <Henrik Rydberg> 3 years, 2 months ago
+9442b9b : drm/radeon: disable tests/benchmarks if accel is disabled <Alex Deucher> 3 years, 2 months ago
+3460b7a : drm/i915/dp: increase i2c-over-aux retry interval on AUX DEFER <Jani Nikula> 3 years, 2 months ago
+7ae49e7 : dm-snapshot: fix performance degradation due to small hash size <Mikulas Patocka> 3 years, 2 months ago
+5c63723 : dm snapshot: workaround for a false positive lockdep warning <Mikulas Patocka> 3 years, 2 months ago
+4891a67 : usb/core/devio.c: Don't reject control message to endpoint with wrong direction bit <Kurt Garloff> 3 years, 2 months ago
+b58e602 : xhci: Fix race between ep halt and URB cancellation <Florian Wolter> 3 years, 3 months ago
+138371f : xhci: Fix oops happening after address device timeout <Mathias Nyman> 3 years, 3 months ago
+4f6df26 : xhci: Ensure a command structure points to the correct trb on the command ring <Mathias Nyman> 3 years, 3 months ago
+4e2f18e : staging: vt6656: [BUG] main_usb.c oops on device_close move flag earlier. <Malcolm Priestley> 3 years, 2 months ago
+2997cc5 : x86, efi: Don't map Boot Services on i386 <Josh Boyer> 3 years, 7 months ago
+ded215e : x86/reboot: Add quirk to make Dell C6100 use reboot=pci automatically <Masoud Sharbiani> 3 years, 2 months ago
+ba4e600 : Linux 3.4.64 <Greg Kroah-Hartman> 3 years, 2 months ago
+7526e6b : kernel-doc: bugfix - multi-line macros <Daniel Santos> 4 years, 2 months ago
+6f3d6bc : sfc: Fix efx_rx_buf_offset() for recycled pages <Ben Hutchings> 3 years, 2 months ago
+72630a1 : perf tools: Handle JITed code in shared memory <Andi Kleen> 3 years, 7 months ago
+40f2540 : fanotify: dont merge permission events <Lino Sanfilippo> 4 years, 8 months ago
+d37e406 : perf: Fix perf_cgroup_switch for sw-events <Peter Zijlstra> 4 years, 2 months ago
+04ca797 : perf: Clarify perf_cpu_context::active_pmu usage by renaming it to ::unique_pmu <Peter Zijlstra> 4 years, 2 months ago
+e7c5720 : cgroup: fail if monitored file and event_control are in different cgroup <Li Zefan> 3 years, 9 months ago
+f3de179 : drm/radeon/atom: workaround vbios bug in transmitter table on rs880 (v2) <Alex Deucher> 3 years, 2 months ago
+5f674e4 : drm/radeon: fix handling of variable sized arrays for router objects <Alex Deucher> 3 years, 3 months ago
+e07b76a : drm/radeon: fix resume on some rs4xx boards (v2) <Alex Deucher> 3 years, 3 months ago
+1dfecd2 : drm/radeon: update line buffer allocation for dce6 <Alex Deucher> 3 years, 3 months ago
+9dc533b : drm/radeon: update line buffer allocation for dce4.1/5 <Alex Deucher> 3 years, 3 months ago
+5af084c : drm/radeon: fix endian bugs in hw i2c atom routines <Alex Deucher> 3 years, 3 months ago
+99b1588 : drm/radeon: fix LCD record parsing <Alex Deucher> 3 years, 3 months ago
+c258d37 : drm/ttm: fix the tt_populated check in ttm_tt_destroy() <Ben Skeggs> 3 years, 2 months ago
+f23d020 : HID: logitech-dj: validate output report details <Kees Cook> 3 years, 2 months ago
+e65142b : sched/fair: Fix small race where child->se.parent,cfs_rq might point to invalid ones <Daisuke Nishimura> 3 years, 2 months ago
+732c898 : rt2800: fix wrong TX power compensation <Stanislaw Gruszka> 3 years, 3 months ago
+fac0633 : net: usb: cdc_ether: Use wwan interface for Telit modules <Fabio Porcedda> 3 years, 2 months ago
+d9a6f66 : Revert "sctp: fix call to SCTP_CMD_PROCESS_SACK in sctp_cmd_interpreter()" <Greg Kroah-Hartman> 3 years, 2 months ago
+9be9fd2 : Linux 3.4.63 <Greg Kroah-Hartman> 3 years, 2 months ago
+73e2134 : fuse: invalidate inode attributes on xattr modification <Anand Avati> 3 years, 3 months ago
+bf2d29b : fuse: postpone end_page_writeback() in fuse_writepage_locked() <Maxim Patlasov> 3 years, 3 months ago
+9fda283 : of: Fix missing memory initialization on FDT unflattening <Grant Likely> 3 years, 3 months ago
+81a83cf : mmc: tmio_mmc_dma: fix PIO fallback on SDHI <Sergei Shtylyov> 3 years, 3 months ago
+1924f14 : drm/edid: add quirk for Medion MD30217PG <Alex Deucher> 3 years, 3 months ago
+6b76d5f : isofs: Refuse RW mount of the filesystem instead of making it RO <Jan Kara> 3 years, 4 months ago
+53b276a : mm/huge_memory.c: fix potential NULL pointer dereference <Libin> 3 years, 2 months ago
+621f014 : memcg: fix multiple large threshold notifications <Greg Thelen> 3 years, 2 months ago
+d5b1fa1 : ocfs2: fix the end cluster offset of FIEMAP <Jie Liu> 3 years, 2 months ago
+ 
+**** cmold:android_kernel_sony_msm8x27 ****
+75cb1f2 : msm: camera: Restructure data handling to be more robust <Trilokesh Rangam> 5 weeks ago
+ 
+**** github:armani-dev/android_kernel_xiaomi_armani ****
+6066626 : af_unix: speedup /proc/net/unix <Eric Dumazet> 4 years, 5 months ago
+ 
+**** vanir:packages_apps_CellBroadcastReceiver ****
+c6e50b4 : cellbroadcastreceiver: Display channel 50 and 60 options by default <Adrian DC> 7 days ago
+ 
+**** vanir:packages_apps_Settings ****
+c62dabd : SimPreferenceDialog: Set onDismiss() listener to finish the activity <LuK1337> 2 days ago
+6e0d4d1 : Settings: use CMHW serial number <Pawit Pornkitprasan> 2 years, 10 months ago
+e64341f : Settings: update About screen device model fields <Roman Birg> 1 year, 7 months ago
+6f3faea : Fix device storage menu when using Adopted Storage <LuK1337> 5 days ago
+5b7779c : Settings: Make proximity wake string more accurate <Zhao Wei Liew> 3 days ago
+bfd65df : Fix NPE when ejecting the portable storage <LuK1337> 5 days ago
+ 
+**** vanir:packages_inputmethods_LatinIME ****
+ed9724f : LainIME: add unicode 9.0 chars <Joey Rizzoli> 3 days ago
+ 
+**** vanir:packages_services_Telecomm ****
+bbf1d24 : telecom: Ensure that we always update bluetooth in dsda case <Christopher R. Palmer> 12 months ago
+ 
+**** vanir:vendor_asus ****
+8434cd4 : flo, deb: hax sensor blob <Ziyan> 2 days ago
+ 
+**** commotio:commotio ****
+b092d83 : Fingerprinted <DHOMD> 27 hours ago
+ 
+**** vanir:vendor_htc ****
+21141d8 : m7-common: Revert libloc_api_v02 (#232) <David Hays> 2 days ago
+ 
+**** vanir:vendor_huawei ****
+4547d69 : angler: NBD91K <nuclearmistake> 4 days ago
+ 
+**** vanir:vendor_lge ****
+1ba74e9 : bullhead: update blobs from N5D91L factory image <razorloves> 2 days ago
+f35c1c3 : hammerheadcaf: Update blobs <myfluxi> 2 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+13a5372 : op3: Update camera driver <Steve Kondik> 4 days ago
+ 
+**** vanir:vendor_sony ****
+0b7cada : nicki: Use msm8909 renderscript adreno blobs <RonGokhale> 4 days ago
+8b2f1c3 : nicki: Remove unused dlb_msd <RonGokhale> 4 days ago
+057c39c : nicki: Build NFC firmware <RonGokhale> 4 days ago
+ 
+**** vanir:vendor_vanir ****
+803bf3f : Fingerprinted <DHOMD> 27 hours ago
+bcc7ddb : cm: Update APNs <Sean hoyt> 3 weeks ago
+540f943 : config: common: Remove obsolete RomManager props <Zhao Wei Liew> 5 days ago
+ff0b587 : Fin'er prin'in' <nuclearmistake> 3 days ago
+ 
