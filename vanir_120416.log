@@ -1,0 +1,523 @@
+
+**** vanir:art ****
+72c7409 : dex2oat: Use CLOCK_MONOTONIC, not REALTIME for a watchdog! <Christopher R. Palmer> 2 days ago
+ 
+**** vanir:bootable_recovery_twrp ****
+bad332a : Copy Kernel Logs <bigbiff bigbiff> 4 months ago
+3fdcda4 : Improve backup & wipe exclusion handling <Ethan Yonker> 4 days ago
+0a8a7ce : Fix adb shell in 7.0 tree <Ethan Yonker> 4 weeks ago
+93ac7a0 : Check if mount point is dir during startup <Ethan Yonker> 4 weeks ago
+79ae093 : MD5 verification sanity <James Christopher Adduono> 6 weeks ago
+9059499 : Fix image flashing: attempt 2 <James Christopher Adduono> 6 weeks ago
+e080c1f : Fix image flashing <Ethan Yonker> 3 months ago
+62ab2a0 : "view recovery logs" will show /tmp/recovery.log <Tianjie Xu> 4 months ago
+53c107f : Add inttypes.h for PRIu64. <Alex Deymo> 4 months ago
+4344d63 : Call update_engine_sideload from recovery. <Alex Deymo> 4 months ago
+e49c0d6 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+da654af : Skip update verification if care_map is not found <Tianjie Xu> 5 months ago
+4bbe0c9 : Fix a typo when comparing the verity mode <Tianjie Xu> 5 months ago
+03ca853 : Touch blocks in care_map in update_verifier <Tianjie Xu> 9 months ago
+27b9fc8 : Skip update-on-boot for bootreason in blacklist <Tianjie Xu> 5 months ago
+6d089a9 : Support landscape layouts. <Elliott Hughes> 5 months ago
+9da04d5 : Fix bootloader_message. <Yabin Cui> 5 months ago
+ccb0ba9 : updater: Fix the broken ReadFileFn. <Tao Bao> 6 months ago
+2f272c0 : Create bootloader_message static library. <Yabin Cui> 5 months ago
+6faf026 : Verify wipe package when wiping A/B device in recovery. <Yabin Cui> 6 months ago
+108ab21 : recovery: Track the name change for wipe_ab. <Tao Bao> 6 months ago
+b083818 : recovery: Add support to brick a device. <Tao Bao> 6 months ago
+01fcbe1 : Disable the meaningless parts of the UI for A/B. <Elliott Hughes> 7 months ago
+a004356 : Import translations. DO NOT MERGE <Bill Yi> 7 months ago
+9f5565b : Import translations. DO NOT MERGE <Baligh Uddin> 7 months ago
+ 
+**** vanir:build ****
+46b1f5f : Build hacks <DHOMD> 8 weeks ago
+74b5119 : Revert "Add PRODUCT_BOOTANIMATION" <Luca Stefani> 8 days ago
+b6bd8ea : build: Conditionally disable ccache for modules with FDO enabled <Gabriele M> 5 days ago
+f246c64 : binary: Append cc/cxx wrapper to sdclang <Luca Stefani> 5 days ago
+ 
+**** vanir:device_asus_deb ****
+164b698 : deb: hax to fix PCC rgb interface <osm0sis> 7 days ago
+ 
+**** vanir:device_asus_flo ****
+9422c84 : flo: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+03136ed : flo: hax to fix PCC rgb interface <osm0sis> 7 days ago
+ 
+**** cm:CyanogenMod/android_device_htc_hiae-common ****
+fa1c34e : hiae: Enable HTC debugging <Ethan Chen> 10 months ago
+ 
+**** vanir:device_htc_m7 ****
+6b709de : m7: Remove enhanced NFC feature <David Hays> 11 days ago
+ 
+**** vanir:device_htc_m7-common ****
+38aea72 : m7-common: Update GPS include for N <David Hays> 4 weeks ago
+32d19f2 : m7-common: Add shim for libwvm.so <Arne Coucheron> 4 weeks ago
+ 
+**** vanir:device_htc_m7spr ****
+654926b : m7spr: Remove enhanced NFC feature <David Hays> 11 days ago
+ 
+**** vanir:device_htc_m7vzw ****
+2db49cb : m7vzw: Remove enhanced NFC feature <David Hays> 11 days ago
+ 
+**** cm:CyanogenMod/android_device_htc_msm8974-common ****
+81baba9 : msm8974-common: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+45fbdf0 : msm8974-common: Fix WCNSS_qcom_cfg.ini symlink <luca020400> 7 months ago
+ 
+**** vanir:device_huawei_angler ****
+437e21f : angler: liblights: LED brightness LibLights control <AdrianDC> 1 year, 3 months ago
+a14c891 : angler: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+0fb6166 : angler: remove unnecessary blobs <Sam Mortimer> 3 weeks ago
+ 
+**** vanir:device_lge_bullhead ****
+54eac05 : Bullhead: Enable Snap Camera <smoki3> 9 months ago
+2695671 : bullhead: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+ 
+**** vanir:device_lge_g2-common ****
+01727e0 : g2: use xhdpi for recovery resources <Dan Pasanen> 8 weeks ago
+dd74607 : Revert "g2-common: Disable flush_merge for f2fs" <Tyler Dunn> 21 hours ago
+518b9a4 : g2-common: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+ 
+**** vanir:device_lge_g3-common ****
+26c8371 : sepolicy: address a couple denials <Dan Pasanen> 5 days ago
+a55b9ca : sepolicy: allow setting baseband props <Dan Pasanen> 11 days ago
+b5f1743 : g3-common: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+4c45f36 : g3: overlay: Reenable mms with mobile data off <Hendrik Hagendorn> 4 days ago
+ 
+**** cm:CyanogenMod/android_device_lge_g4-common ****
+3b31092 : g4: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+56e6941 : nfc: add NFA_PROPRIETARY_CFG for proper Mifare Classic support <Hamster Tian> 5 months ago
+4230fdb : Revert "g4: add /misc to fstab" <Erwan Leboucher> 2 days ago
+4f8ff09 : Revert "Revert "g4 : Specify cache partition"" <Erwan Leboucher> 2 days ago
+5bb0b90 : Revert "g4 : Specify cache partition" <Erwan Leboucher> 2 days ago
+ 
+**** vanir:device_lge_hammerhead ****
+18f5847 : hammerhead: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+ 
+**** vanir:device_moto_shamu ****
+0daae28 : camera: Stop using GNU old-style field designator extension <Elektroschmock> 8 months ago
+5cea11b : shamu: Switch to the unified LED capabilities overlay <Elektroschmock> 10 days ago
+ 
+**** cm:CyanogenMod/android_device_motorola_condor ****
+c5e35e0 : condor: doze: Commonize strings translations <Abhisek Devkota> 11 days ago
+ 
+**** vanir:device_motorola_msm8226-common ****
+2a7980e : msm8226-common: Build with SDCLANG <Steve Kondik> 4 weeks ago
+ea210b6 : msm8226-common: Switch to new led overlay <Luca Stefani> 11 days ago
+c3ce295 : msm8226-common: cmactions: Commonize strings translations <Abhisek Devkota> 11 days ago
+ 
+**** vanir:device_motorola_msm8916-common ****
+7459c1f : msm8916-common: cmactions: Commonize strings translations <Abhisek Devkota> 11 days ago
+ 
+**** vanir:device_motorola_omap4-common ****
+fa3c0d2 : include: cutils: Remove superfluous android_reboot() injection <D. Andrei Măceș> 9 days ago
+fa5f73e : omap4-common: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+a911f31 : omap4-common: doze: Commonize strings translations <Abhisek Devkota> 11 days ago
+ 
+**** cm:CyanogenMod/android_device_motorola_otus ****
+92ed560 : otus: cmactions: Commonize strings translations <Abhisek Devkota> 11 days ago
+ 
+**** cm:CyanogenMod/android_device_motorola_victara ****
+f96e733 : victara: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+fdb9af1 : victara: use hdpi for recovery resources <Dan Pasanen> 8 weeks ago
+cc2364d : victara: disable moto-specific geofence service <Dan Pasanen> 4 days ago
+bb88a54 : victara: disable blur for now <Dan Pasanen> 4 days ago
+e09fcd5 : sepolicy: finish bringup for N <Dan Pasanen> 5 days ago
+2dc665e : victara: cmactions: Commonize strings translations <Abhisek Devkota> 11 days ago
+ 
+**** vanir:device_oneplus_bacon ****
+fee071e : bacon: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+123be30 : bacon: enable SDClang <Steve Kondik> 5 days ago
+1db9ade : bacon: enable sdcardFS <Joey Rizzoli> 5 days ago
+28de43f : bacon: make config_bt_addr service oneshot again <namagi> 5 weeks ago
+ 
+**** cm:CyanogenMod/android_device_oneplus_oneplus3 ****
+3d945ed : oneplus3: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+1cc94d4 : op3: sepolicy: Update for N <myfluxi> 2 days ago
+9afb1ad : oneplus3: doze: Commonize strings translations <Abhisek Devkota> 11 days ago
+609a692 : Derp <dianlujitao> 2 days ago
+e7b9fc2 : op3: Correct hash of org.ifaa.android.manager.jar <dianlujitao> 2 days ago
+7bb7b22 : op3: Make qcacld driver a module <dianlujitao> 10 days ago
+fb49046 : op3: Add vendor changes to wifi configuration <dianlujitao> 11 days ago
+74fda65 : op3: Add wifi configuration from LA.UM.5.5.r1-01600-8x96.0 <dianlujitao> 11 days ago
+ 
+**** vanir:device_oppo_common ****
+debd0cc : Automatic translation import <blinky@build01> 2 days ago
+785e982 : Automatic translation import <inky@build01> 5 days ago
+ 
+**** cm:CyanogenMod/android_device_oppo_find7 ****
+80b588c : find7: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+ 
+**** cm:CyanogenMod/android_device_oppo_msm8974-common ****
+806f76f : msm8974: Remove livedisplay overlay <Michael Bestas> 32 hours ago
+32e1aa0 : msm8974-common: Update libwvdrmengine.so <Michael Bestas> 2 days ago
+dcb51d9 : msm8974: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 2 weeks ago
+ 
+**** cm:CyanogenMod/android_device_oppo_n3 ****
+0bb5e79 : n3: remove enhanced NFC <jrior001> 5 days ago
+0864027 : n3: address n3 specific denials <jrior001> 4 weeks ago
+ 
+**** vanir:device_qcom_sepolicy ****
+cab08e5 : sepolicy: Added thermal engine access to audioserver <Divya Narayanan Poojary> 3 weeks ago
+032f61e : sepolicy: allow writing firmware files in recovery mode. <Sashidhar Ganiga> 9 weeks ago
+593565b : Add SELinux support for factory reset protection <Shaheda Begum> 7 weeks ago
+0daf004 : sepolicy:Add oemfs ruler for carrier switch <jinfaw> 4 weeks ago
+99d36c7 : Merge DAX changes <Gao Jie> 3 months ago
+9de3e5c : sepolicy : Allow mm-pp-daemon access to diag <Nirmal Abraham> 7 weeks ago
+1159fae : Add GOTA sepolicy access for RIDL/RIDL 2.0 <Clarence Wong> 8 weeks ago
+ 
+**** cm:CyanogenMod/android_device_samsung_d2-common ****
+03e8c76 : d2: use hdpi recovery resources to save space <Dan Pasanen> 3 days ago
+da089b9 : d2-common: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+ 
+**** vanir:device_samsung_jf-common ****
+8f8c78b : liblights: Remove device level HAL <Zhao Wei Liew> 2 weeks ago
+b61e08c : jf: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+1c2b079 : jf: Actually extract the graphics libraries <Zhao Wei Liew> 4 days ago
+ 
+**** vanir:device_samsung_klte-common ****
+9e288a3 : liblights: Remove device level HAL <Paul Keith> 3 days ago
+373d03d : klte-common: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+ 
+**** vanir:device_samsung_manta ****
+e5b0264 : manta: Include kernel headers while building audio <Scott Warner> 8 days ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+5d885ac : liblights: Remove device level HAL <Paul Keith> 35 hours ago
+ec79311 : msm8960: disable blur for now <Dan Pasanen> 4 days ago
+c3b5d60 : sepolicy: finish bringup for N <Dan Pasanen> 6 days ago
+ 
+**** vanir:device_samsung_qcom-common ****
+9b28d72 : qcom-common: doze: Commonize strings translations <Abhisek Devkota> 11 days ago
+ 
+**** vanir:device_samsung_smdk4412-common ****
+c3f2737 : smdk4412: destroy surface after detaching context in colorfade <Simon Shields> 3 days ago
+9601c10 : Revert "SMDK4412: Snap it" <Simon Shields> 2 days ago
+07310db : smdk4412: reset nvram/fw paths on wifi hotspot disable <Simon Shields> 2 days ago
+c5e01fc : smdk4412: N sepolicy bringup <Simon Shields> 3 weeks ago
+a7dd296 : smdk4412: remove unneeded netflix hack <Simon Shields> 2 days ago
+ 
+**** vanir:device_sony_fusion3-common ****
+337384b : fusion3: Add shim for illumination_service <Sergey Vlasov> 8 days ago
+4cf3e57 : fusion3: Remove user NFCEE access config <Zhao Wei Liew> 5 days ago
+ 
+**** cm:CyanogenMod/android_device_sony_nicki ****
+e728705 : nicki: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+ 
+**** vanir:device_xiaomi_armani ****
+fbfce20 : armani: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+6f023ce : Bringup for Vanir <mr-tweaker> 3 days ago
+4fbd3a8 : Cleanup <mr-tweaker> 3 days ago
+9570af3 : cmhw: use common DisplayColorCalibration <Dan Pasanen> 6 months ago
+ 
+**** vanir:device_xiaomi_cancro ****
+769e9cd : cancro: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 35 hours ago
+14cd9b1 : Cleanup <mr-tweaker> 3 days ago
+ 
+**** cm:CyanogenMod/android_external_vim ****
+327054d : patch 8.0.0117 Problem:    Parallel make fails. (J. Lewis Muir) Solution:   Make sure the objects directory exists. (closes #1259) <Bram Moolenaar> 3 days ago
+6dbf66a : patch 8.0.0116 Problem:    When reading English help and using CTRl-] the language from             'helplang' is used. Solution:   Make help tag jumps keep the language. (Tatsuki, test by Hirohito             Higashi, closes #1249) <Bram Moolenaar> 3 days ago
+e3af763 : patch 8.0.0115 Problem:    When building with Cygwin libwinpthread isn't found. Solution:   Link winpthread statically. (jmmerz, closes #1255, closes #1256) <Bram Moolenaar> 3 days ago
+b04a98f : patch 8.0.0114 Problem:    Coding style not optimal. Solution:   Add spaces. (Ken Takata) <Bram Moolenaar> 3 days ago
+87f3d20 : patch 8.0.0113 Problem:    MS-Windows: message box to prompt for saving changes may appear on             the wrong monitor. Solution:   Adjust the CenterWindow function. (Ken Takata) <Bram Moolenaar> 3 days ago
+eca626f : patch 8.0.0112 Problem:    Tests 92 and 93 are old style. Solution:   Make test92 and test93 new style. (Hirohito Higashi, closes #1289) <Bram Moolenaar> 3 days ago
+eebd84e : patch 8.0.0111 Problem:    The :history command is not tested. Solution:   Add tests. (Dominique Pelle) <Bram Moolenaar> 3 days ago
+5a030a5 : patch 8.0.0110 Problem:    Drop command doesn't use existing window. Solution:   Check the window width properly. (Hirohito Higashi) <Bram Moolenaar> 3 days ago
+b129a44 : patch 8.0.0109 Problem:    Still checking if memcmp() exists while every system should have             it now. Solution:   Remove vim_memcmp().  (James McCoy, closes #1295) <Bram Moolenaar> 3 days ago
+65e08ee : patch 8.0.0108 Problem:    The channel "drop" option is not tested. Solution:   Add a test. <Bram Moolenaar> 3 days ago
+958dc69 : patch 8.0.0107 Problem:    When reading channel output in a timer, messages may go missing.             (Skywind) Solution:   Add the "drop" option.  Write error messages in the channel log.             Don't have ch_canread() check for the channel being open. <Bram Moolenaar> 3 days ago
+0945eaf : patch 8.0.0106 Problem:    Cannot use a semicolon in 'backupext'. (Jeff) Solution:   Allow for a few more characters when "secure" isn't set. <Bram Moolenaar> 5 days ago
+4b785f6 : patch 8.0.0105 Problem:    When using ch_read() with zero timeout, can't tell the difference             between reading an empty line and nothing available. Solution:   Add ch_canread(). <Bram Moolenaar> 5 days ago
+f422bcc : patch 8.0.0104 Problem:    Value of 'thesaurus' option not checked properly. Solution:   Add P_NDNAME flag. (Daisuke Suzuki) <Bram Moolenaar> 8 days ago
+8a8199e : patch 8.0.0103 Problem:    May not process channel readahead. (skywind) Solution:   If there is readahead don't block on input. <Bram Moolenaar> 8 days ago
+7554da4 : patch 8.0.0102 Problem:    Cannot set 'dictionary' to a path. Solution:   Allow for slash and backslash.  Add a test (partly by Daisuke             Suzuki, closes #1279, closes #1284) <Bram Moolenaar> 9 days ago
+031cb74 : patch 8.0.0101 Problem:    Some options are not strictly checked. Solution:   Add flags for strickter checks. <Bram Moolenaar> 10 days ago
+319afe3 : patch 8.0.0100 Problem:    Options that are a file name may contain non-filename characters. Solution:   Check for more invalid characters. <Bram Moolenaar> 10 days ago
+7309528 : patch 8.0.0099 Problem:    Popup menu always appears above the cursor when it is in the lower             half of the screen. (Matt Gardner) Solution:   Compute the available space better. (Hirohito Higashi,             closes #1241) <Bram Moolenaar> 10 days ago
+58c3587 : patch 8.0.0098 Problem:    Can't build on MS-Windows. Solution:   Add missing parenthesis. <Bram Moolenaar> 10 days ago
+833eb1d : patch 8.0.0097 Problem:    When a channel callback consumes a lot of time Vim becomes             unresponsive. (skywind) Solution:   Bail out of checking channel readahead after 100 msec. <Bram Moolenaar> 10 days ago
+2cab0e1 : patch 8.0.0096 Problem:    When the input or output is not a tty Vim appears to hang. Solution:   Add the --ttyfail argument.  Also add the "ttyin" and "ttyout"             features to be able to check in Vim script. <Bram Moolenaar> 10 days ago
+dff1f76 : vim: Inlcude xxd makefile <Luca Stefani> 10 days ago
+a86f7c8 : vim: Update logcat syntax detection <Luca Stefani> 11 days ago
+5562de2 : syntax: add logcat hilighting <Tanguy Pruvot> 2 years, 5 months ago
+502656a : vim: Update xml plugin for CM <Tanguy Pruvot> 11 days ago
+017aea3 : vim: Add spacehi plugin <Luca Stefani> 11 days ago
+8366908 : vim/syntax: Add android logcat syntax <Luca Stefani> 11 days ago
+d3a0cf0 : vim: Remove vim.sh <Luca Stefani> 11 days ago
+5662caa : vim: Add autogenerated configs <Luca Stefani> 11 days ago
+e5ac4be : vim: Don't ingore generated configs <Luca Stefani> 11 days ago
+902db9b : vim: Import Android makefiles <Luca Stefani> 11 days ago
+182707a : patch 8.0.0095 Problem:    Problems with GTK 3.22.2 fixed in 3.22.4. Solution:   Adjust the #ifdefs. (Kazunobu Kuriyama) <Bram Moolenaar> 13 days ago
+63e4344 : patch 8.0.0094 Problem:    When vimrun.exe is not found the error message is not properly             encoded. Solution:   Use utf-16 and MessageBoxW(). (Ken Takata) <Bram Moolenaar> 2 weeks ago
+dda39ae : patch 8.0.0093 Problem:    Not using multiprocess build feature. Solution:   Enable multiprocess build with MSVC 10. (Ken Takata) <Bram Moolenaar> 2 weeks ago
+ca8b8d6 : patch 8.0.0092 Problem:    C indenting does not support nested namespaces that C++ 17 has. Solution:   Add check that passes double colon inside a name. (Pauli, closes             #1214) <Bram Moolenaar> 2 weeks ago
+9f0e423 : patch 8.0.0091 Problem:    Test_help_complete sometimes fails in MS-Windows console. Solution:   Use getcompletion() instead of feedkeys() and command line             completion. (Hirohito Higashi) <Bram Moolenaar> 2 weeks ago
+6c89686 : patch 8.0.0090 Problem:    Test_help_complete sometimes fails in MS-Windows console. Solution:   Use getcompletion() instead of feedkeys() and command line             completion. (Hirohito Higashi) <Bram Moolenaar> 2 weeks ago
+a859f04 : patch 8.0.0089 Problem:    Various problems with GTK 3.22.2. Solution:   Fix the problems, add #ifdefs. (Kazunobu Kuriyama) <Bram Moolenaar> 2 weeks ago
+cc28e2d : patch 8.0.0088 Problem:    When a test fails in Setup or Teardown the problem is not reported. Solution:   Add a try/catch. (Hirohito Higashi) <Bram Moolenaar> 2 weeks ago
+7df915d : patch 8.0.0087 Problem:    When the channel callback gets job info the job may already have             been deleted. (lifepillar) Solution:   Do not delete the job when the channel is still useful. (ichizok,             closes #1242, closes #1245) <Bram Moolenaar> 2 weeks ago
+c0514bf : Updated runtime files. <Bram Moolenaar> 2 weeks ago
+2256c99 : patch 8.0.0086 Problem:    Cannot add a comment after ":hide". (Norio Takagi) Solution:   Make it work, add a test. (Hirohito Higashi) <Bram Moolenaar> 3 weeks ago
+8a01f96 : patch 8.0.0085 Problem:    Using freed memory with recursive function call. (Dominique Pelle) Solution:   Make a copy of the function name. <Bram Moolenaar> 3 weeks ago
+7618e00 : patch 8.0.0084 Problem:    Using freed memory when adding to a quickfix list. (Domenique             Pelle) Solution:   Clear the directory name. <Bram Moolenaar> 3 weeks ago
+8e63905 : patch 8.0.0083 Problem:    Using freed memory with win_getid(). (Domenique Pelle) Solution:   For the current tab use curwin. <Bram Moolenaar> 3 weeks ago
+3f7d090 : patch 8.0.0082 Problem:    Extension for configure should be ".ac". Solution:   Rename configure.in to configure.ac. (James McCoy, closes #1173) <Bram Moolenaar> 3 weeks ago
+d4db771 : patch 8.0.0081 Problem:    Inconsistent function names. Solution:   Rename do_cscope to ex_cscope.  Clean up comments. <Bram Moolenaar> 3 weeks ago
+b6be3ea : patch 8.0.0080 Problem:    The OS X build fails on Travis. Solution:   Skip the virtual framebuffer on OS X. <Bram Moolenaar> 3 weeks ago
+2b946c9 : patch 8.0.0079 Problem:    Accessing freed memory in quickfix. (Domenique Pelle) Solution:   Do not free the current list when adding to it. <Bram Moolenaar> 3 weeks ago
+ 
+**** vanir:frameworks_base ****
+0f9fb18 : Bandaids for building <DHOMD> 5 weeks ago
+fbdf5da : VibratorService: Track vibrator intensity <Danesh M> 9 months ago
+38ad05c : PhoneWindowManager: Implement press home to answer call <Oleksandr Byelkin> 3 years, 11 months ago
+8793aad : am: Account for time changes when showing recent activities <tao.pei> 6 months ago
+a151134 : Automatic translation import <blinky@build01> 2 days ago
+04b8389 : NotificationManager: Concentrate LED light capabilities in a single location <Ricardo Cerqueira> 4 weeks ago
+3a809a8 : ColorFade: fix EGL crash on exynos4 mali blobs <Dominggoes Isakh> 3 days ago
+26d3f0b : SystemUI: Add VectorDrawable battery styles <d34d> 7 months ago
+5c9705c : Tethering: Turn off wifi hotspot after inactivity(1/3) <bnarasimha> 2 weeks ago
+5a79c7f : PhoneWindowManager: Tap volume buttons to answer call <martincz> 1 year, 8 months ago
+031e19b : StatusBarIconController: Fix battery text scaling <Cory Collins> 2 weeks ago
+2382507 : QS: Show # of clients connected to hotspot <d34d> 2 weeks ago
+0728215 : Automatic translation import <inky@build01> 5 days ago
+ 
+**** vanir:frameworks_opt_net_wifi ****
+ad493b0 : Tethering: Turn off wifi hotspot after inactivity(2/3) <bnarasimha> 2 weeks ago
+ 
+**** cm:CyanogenMod/android_hardware_intel_common_omx-components ****
+6ad0c8d : omx: cleanup zenfone2 old blob support <jrior001> 5 days ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_audio ****
+a85e455 : audio: set voice call volume step by property <keunhui.park> 1 year, 5 months ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_audio ****
+7ca19aa : audio: set voice call volume step by property <keunhui.park> 1 year, 5 months ago
+ 
+**** vanir:hardware_samsung ****
+ae27148 : liblights: Allow devices to override node paths <Christopher N. Hesse> 3 days ago
+1d09298 : macloader: Yet another SEMCO3RD OUI <Kevin F. Haggerty> 5 days ago
+ 
+**** cm:CyanogenMod/android_hardware_ti_omap4 ****
+453e216 : cmhw: Account for devices that don't use manager0 sysfs paths <D. Andrei Măceș> 3 days ago
+ 
+**** cmold:android_kernel_google_msm ****
+80f93fb : Revert "Revert "video: mdp4: Color temperature interface using PCC"" <Simon Shields> 7 days ago
+ 
+**** cmold:android_kernel_htc_msm8952 ****
+fc61a90 : ion: disable system contig heap <Liam Mark> 8 weeks ago
+3eb5437 : proc: prevent accessing /proc/<PID>/environ until it's ready <Mathias Krause> 7 months ago
+6e93542 : HID: core: prevent out-of-bound readings <Benjamin Tissoires> 11 months ago
+cbaa49e : BACKPORT: tty: Prevent ldisc drivers from re-using stale tty fields <Peter Hurley> 1 year ago
+49c96f0 : msm: msm_bus: limit max chars read by sscanf <David Dai> 4 months ago
+f7ed07c : msm: camera: Restructure data handling to be more robust <VijayaKumar T M> 3 months ago
+3c65368 : msm: sensor: Avoid potential stack overflow <VijayaKumar T M> 3 months ago
+0cbc8e7 : msm: crypto: Fix integer over flow check in qce driver <Zhen Kong> 6 weeks ago
+bf3839c : qcedev: Validate Source and Destination addresses <AnilKumar Chimata> 3 months ago
+5bf36aa : BACKPORT: audit: fix a double fetch in audit_log_single_execve_arg() <Paul Moore> 3 months ago
+7644549 : UPSTREAM: perf: Fix race in swevent hash <Peter Zijlstra> 12 months ago
+0827e67 : ALSA: usb-audio: Fix double-free in error paths after snd_usb_add_audio_stream() call <Vladis Dronov> 8 months ago
+98c5cf2 : ALSA: usb-audio: Minor code cleanup in create_fixed_stream_quirk() <Takashi Iwai> 9 months ago
+17c9e6b : ALSA: usb-audio: Fix NULL dereference in create_fixed_stream_quirk() <Takashi Iwai> 9 months ago
+16cb8b7 : ALSA: usb-audio: fix regression for fixed stream quirk <Eldad Zack> 3 years, 5 months ago
+4b8db87 : ALSA: usb-audio: store protocol version in struct audioformat <Clemens Ladisch> 3 years, 10 months ago
+8553830 : sg: Fix double-free when drives detach during SG_IO <Calvin Owens> 1 year, 1 month ago
+46eb633 : block: fix use-after-free in sys_ioprio_get() <Omar Sandoval> 5 months ago
+34a7dba : UPSTREAM: block: fix use-after-free in seq file <Vegard Nossum> 4 months ago
+f864871 : drivers: soc: Add buffer overflow check for svc send request <Josh Kirsch> 7 months ago
+9f3734a : wcnss: Avoid user buffer overloading for write cal data <Anand Kumar> 6 months ago
+ 
+**** cmold:android_kernel_htc_msm8960 ****
+b465058 : msm: kgsl: Defer adding the mem entry to a process <Sunil Khatri> 6 months ago
+b9fb98f : msm: kgsl: Add missing checks for alloc size and sglen <Rajesh Kemisetti> 8 months ago
+82aa4dd : wlan: Remove the support for setwpaie ioctl <SaidiReddy Yenuga> 6 months ago
+38d8fed : Fix the buffer overflow issue observed in static code analysis. <Kiran Kumar Lokere> 3 years, 1 month ago
+5f3f4aa : wlan: Deprecate all WAPI ioctls <Girish Gowli> 2 years, 6 months ago
+d5b224e : wlan: Validate ioctls for valid input length <Mahesh A Saptasagar> 1 year, 1 month ago
+69c6ac5 : wlan: validate essid length before processing scan req <Arun Khandavalli> 1 year, 1 month ago
+78cd0cd : wlan: Remove support for deprecated api get/set countryrev <Srinivas Girigowda> 3 years, 4 months ago
+626c6af : wlan: EnableStrictRegulatoryForFCC should be False by default. <Agarwal Ashish> 2 years, 5 months ago
+d736a8a : wlan: Synchronize country code HDD ioctl <Sameer Thalappil> 3 years, 2 months ago
+76c67e6 : wlan: Correcting timeout value for event driver_crda_req. <Madan Mohan Koyyalamudi> 3 years, 4 months ago
+f74efe0 : wlan: Resolve excessive logging issue. <c_hpothu> 2 years, 1 month ago
+634d799 : WLAN: same p2p MAC address is observed from mutiple devices <kalikinkar dhara> 3 years, 2 months ago
+b19555c : wlan:Check priviledge permission before processing SET_CHAR_GET_NONE IOCTL <Hanumantha Reddy Pothula> 1 year, 1 month ago
+2b3d8ba : wlan:Check priviledge permission before processing SET_PACKET_FILTER IOCTL <Hanumantha Reddy Pothula> 1 year, 1 month ago
+ab019bb : wlan:Check priviledge permission for SET_VAR_INTS_GETNONE IOCTL <Ratnam Rachuri> 1 year, 1 month ago
+1945895 : wlan:Check priviledge permission before processing QCSAP_IOCTL_SETWPSIE <Hanumantha Reddy Pothula> 1 year, 1 month ago
+6330528 : wlan:Check priviledge permission before processing SET_BAND_CONFIG  IOCTL <Hanumantha Reddy Pothula> 1 year, 1 month ago
+30273b3 : wlan:Check priviledge permission before processing SET_POWER_PARAMS  IOCTL <Hanumantha Reddy Pothula> 1 year, 1 month ago
+6e63543 : wlan:Check priviledge permission before processing CLEAR_MCBC_FILTER  IOCTL <Hanumantha Reddy Pothula> 1 year, 1 month ago
+8bb79f9c : wlan:Check priviledge permission for SET_THREE_INT_GET_NONE <Hanumantha Reddy Pothula> 1 year, 1 month ago
+88fb39d : wlan:Check priviledge permission before processing SET_OEM_DATA_REQ  IOCTL <Hanumantha Reddy Pothula> 1 year, 1 month ago
+1ac4bfd : wlan: ensure permission for WLAN_FTM_PRIV_SET_CHAR_GET_NONE <Hanumantha Reddy Pothula> 1 year, 1 month ago
+c20ee70 : wlan: Validate WPA and RSN IE for valid length <Mahesh A Saptasagar> 1 year, 1 month ago
+8a67057 : prima: Logging level changes on wlan HOST <Ratheesh S P> 1 year, 4 months ago
+8848993 : t6: enable sdcardFS <David Hays> 4 days ago
+26df648 : inotify: Fix erroneous update of bit count <Daniel Rosenberg> 9 months ago
+31e1a87 : sdcardfs: fix external storage exporting incorrect uid <alvin_liang> 3 months ago
+1fe5976 : sdcardfs: Flag files as non-mappable <fluxi> 6 weeks ago
+df6d5fd : sdcardfs: Remove stale dentries when reusing an inode. <Daniel Rosenberg> 4 months ago
+af4d4f0 : sdcardfs: Fix issue with d_child move <Daniel Rosenberg> 8 months ago
+8de71c0 : sdcardfs: Added top to sdcardfs_inode_info <Daniel Rosenberg> 7 months ago
+0f7f508 : sdcardfs: Fix locking <Daniel Rosenberg> 7 months ago
+64bb32f : sdcardfs: Check for other cases on path lookup <Daniel Rosenberg> 7 months ago
+440440d : sdcardfs: override umask on mkdir and create <Daniel Rosenberg> 8 months ago
+785d155 : ANDROID: sdcardfs: fix itnull.cocci warnings <Julia Lawall> 6 months ago
+f181b5a : sdcardfs: Truncate packages_gid.list on overflow <Daniel Rosenberg> 5 months ago
+03d1ecc : fuse: Add support for d_canonical_path <Daniel Rosenberg> 8 months ago
+09a3900 : vfs: change d_canonical_path to take two paths <Daniel Rosenberg> 8 months ago
+44d71eb : vfs: add d_canonical_path for stacked filesystem support <Daniel Rosenberg> 10 months ago
+00f3a5f : sdcardfs: remove unneeded __init and __exit <Daniel Rosenberg> 8 months ago
+192a24b : sdcardfs: Remove unused code <Daniel Rosenberg> 8 months ago
+d8554b1 : sdcardfs: Add support for d_canonicalize <Daniel Rosenberg> 10 months ago
+dd096bc : sdcardfs: Bring up to date with Android M permissions: <Daniel Rosenberg> 10 months ago
+4fadefb : sdcardfs: Changed type-cast in packagelist management <Daniel Campello> 1 year, 5 months ago
+d925de2 : sdcardfs: Port to 3.4 <fluxi> 4 months ago
+b7fb16f : get rid of kern_path_parent() <Al Viro> 4 years, 6 months ago
+1d930b2 : Included sdcardfs source code for kernel 3.0 <Daniel Campello> 1 year, 5 months ago
+ 
+**** cmold:android_kernel_oneplus_msm8974 ****
+42b62fd : bacon: enable sdcardFS <Joey Rizzoli> 5 days ago
+66417d0 : sdcardfs: fix external storage exporting incorrect uid <alvin_liang> 5 weeks ago
+6e323f9 : sdcardfs: Flag files as non-mappable <fluxi> 6 weeks ago
+51d7ae1 : sdcardfs: Remove stale dentries when reusing an inode. <Daniel Rosenberg> 4 months ago
+643e3ce : sdcardfs: Fix issue with d_child move <Daniel Rosenberg> 8 months ago
+47ac635 : sdcardfs: Added top to sdcardfs_inode_info <Daniel Rosenberg> 7 months ago
+e938eca : sdcardfs: Fix locking <Daniel Rosenberg> 7 months ago
+ac36d2a : sdcardfs: Check for other cases on path lookup <Daniel Rosenberg> 7 months ago
+79943f8 : sdcardfs: override umask on mkdir and create <Daniel Rosenberg> 8 months ago
+ab5de1f : ANDROID: sdcardfs: fix itnull.cocci warnings <Julia Lawall> 6 months ago
+26b80e1 : sdcardfs: Truncate packages_gid.list on overflow <Daniel Rosenberg> 5 months ago
+742e171 : fuse: Add support for d_canonical_path <Daniel Rosenberg> 8 months ago
+def96e7 : vfs: change d_canonical_path to take two paths <Daniel Rosenberg> 8 months ago
+4982ba4 : sdcardfs: remove unneeded __init and __exit <Daniel Rosenberg> 8 months ago
+60cd78d : sdcardfs: Remove unused code <Daniel Rosenberg> 8 months ago
+30482c3 : inotify: Fix erroneous update of bit count <Daniel Rosenberg> 9 months ago
+45fcdf1 : sdcardfs: Add support for d_canonicalize <Daniel Rosenberg> 10 months ago
+3828027 : vfs: add d_canonical_path for stacked filesystem support <Daniel Rosenberg> 10 months ago
+f49b9a4 : sdcardfs: Bring up to date with Android M permissions: <Daniel Rosenberg> 10 months ago
+f13d9a7 : sdcardfs: Changed type-cast in packagelist management <Daniel Campello> 1 year, 5 months ago
+b547d27 : sdcardfs: Port to 3.4 <fluxi> 4 months ago
+65f3295 : get rid of kern_path_parent() <Al Viro> 4 years, 6 months ago
+20db565 : Included sdcardfs source code for kernel 3.0 <Daniel Campello> 1 year, 5 months ago
+ 
+**** cmold:android_kernel_oppo_msm8974 ****
+42b62fd : bacon: enable sdcardFS <Joey Rizzoli> 5 days ago
+66417d0 : sdcardfs: fix external storage exporting incorrect uid <alvin_liang> 5 weeks ago
+6e323f9 : sdcardfs: Flag files as non-mappable <fluxi> 6 weeks ago
+51d7ae1 : sdcardfs: Remove stale dentries when reusing an inode. <Daniel Rosenberg> 4 months ago
+643e3ce : sdcardfs: Fix issue with d_child move <Daniel Rosenberg> 8 months ago
+47ac635 : sdcardfs: Added top to sdcardfs_inode_info <Daniel Rosenberg> 7 months ago
+e938eca : sdcardfs: Fix locking <Daniel Rosenberg> 7 months ago
+ac36d2a : sdcardfs: Check for other cases on path lookup <Daniel Rosenberg> 7 months ago
+79943f8 : sdcardfs: override umask on mkdir and create <Daniel Rosenberg> 8 months ago
+ab5de1f : ANDROID: sdcardfs: fix itnull.cocci warnings <Julia Lawall> 6 months ago
+26b80e1 : sdcardfs: Truncate packages_gid.list on overflow <Daniel Rosenberg> 5 months ago
+742e171 : fuse: Add support for d_canonical_path <Daniel Rosenberg> 8 months ago
+def96e7 : vfs: change d_canonical_path to take two paths <Daniel Rosenberg> 8 months ago
+4982ba4 : sdcardfs: remove unneeded __init and __exit <Daniel Rosenberg> 8 months ago
+60cd78d : sdcardfs: Remove unused code <Daniel Rosenberg> 8 months ago
+30482c3 : inotify: Fix erroneous update of bit count <Daniel Rosenberg> 9 months ago
+45fcdf1 : sdcardfs: Add support for d_canonicalize <Daniel Rosenberg> 10 months ago
+3828027 : vfs: add d_canonical_path for stacked filesystem support <Daniel Rosenberg> 10 months ago
+f49b9a4 : sdcardfs: Bring up to date with Android M permissions: <Daniel Rosenberg> 10 months ago
+f13d9a7 : sdcardfs: Changed type-cast in packagelist management <Daniel Campello> 1 year, 5 months ago
+b547d27 : sdcardfs: Port to 3.4 <fluxi> 4 months ago
+65f3295 : get rid of kern_path_parent() <Al Viro> 4 years, 6 months ago
+20db565 : Included sdcardfs source code for kernel 3.0 <Daniel Campello> 1 year, 5 months ago
+0b06bb6 : ion: disable system contig heap <Liam Mark> 3 weeks ago
+7597d4d : HID: core: prevent out-of-bound readings <Benjamin Tissoires> 11 months ago
+001f7f4 : BACKPORT: tty: Prevent ldisc drivers from re-using stale tty fields <Peter Hurley> 1 year ago
+218183b : msm: crypto: Fix integer over flow check in qcrypto driver <Zhen Kong> 4 months ago
+e379571 : qcedev: Validate Source and Destination addresses <AnilKumar Chimata> 3 months ago
+70058fe : BACKPORT: audit: fix a double fetch in audit_log_single_execve_arg() <Paul Moore> 3 months ago
+d20995d : perf: Fix race in swevent hash <Peter Zijlstra> 12 months ago
+1b3b518 : ALSA: usb-audio: Fix double-free in error paths after snd_usb_add_audio_stream() call <Vladis Dronov> 8 months ago
+16b4ae5 : ALSA: usb-audio: Minor code cleanup in create_fixed_stream_quirk() <Takashi Iwai> 9 months ago
+9f8eb04 : af_unix: speedup /proc/net/unix <Eric Dumazet> 4 years, 6 months ago
+33d10f5 : ANDROID: binder: Add strong ref checks <Arve Hjønnevåg> 4 months ago
+89b934d : arm64: dma-mapping: always clear allocated buffers <Marek Szyprowski> 1 year, 7 months ago
+a492e06 : lib/int_sqrt.c: optimize square root algorithm <Davidlohr Bueso> 3 years, 7 months ago
+56546c0 : Fix incorrect conflict resolution in "vfs: Add setns support for the mount namespace" <Daniel Rosenberg> 1 year, 5 months ago
+fd1a048 : sg: Fix double-free when drives detach during SG_IO <Calvin Owens> 1 year, 1 month ago
+2df3e07 : block: fix use-after-free in sys_ioprio_get() <Omar Sandoval> 5 months ago
+2e326fc : block: fix use-after-free in seq file <Vegard Nossum> 4 months ago
+be543ed : Disable "maybe-uninitialized" warning globally <Linus Torvalds> 4 months ago
+ 
+**** cmold:android_kernel_samsung_jf ****
+9198bbe : motor: immvibespi: Improve warning and default values <Zhao Wei Liew> 3 days ago
+ 
+**** vanir:platform_manifest ****
+19fe158 : Changers per xiaomi maintainer <DHOMD> 20 minutes ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+ef49a42 : Automatic translation import <blinky@build01> 2 days ago
+ 
+**** vanir:packages_apps_Calendar ****
+550f16a : Automatic translation import <blinky@build01> 2 days ago
+ 
+**** vanir:packages_apps_Contacts ****
+a5bf60d : Automatic translation import <inky@build01> 5 days ago
+ 
+**** vanir:packages_apps_Dialer ****
+259a2f1 : Dialer: fix IllegalStateException in Search call log <Hikari-no-Tenshi> 4 days ago
+ 
+**** vanir:packages_apps_Email ****
+54a22f0 : Email: Use NotificationManager to figure out LED capabilities <Zhao Wei Liew> 4 days ago
+ 
+**** vanir:packages_apps_Settings ****
+4e559c6 : Automatic translation import <blinky@build01> 2 days ago
+4853998 : Tethering: Turn off wifi hotspot after inactivity(3/3) <bnarasimha> 2 weeks ago
+c534d5b : Settings: Use GLIF Theme for missing Settings > Screen lock Activities <Alberto97> 13 days ago
+fc31dc4 : Settings: Use separate icon for flashlight power usage <Michael Bestas> 1 year, 1 month ago
+d23573b : Fix translation import <Scott Warner> 4 days ago
+e7cfb6f : Automatic translation import <inky@build01> 5 days ago
+c02802e : Fix translation import <Scott Warner> 5 days ago
+cb248c2 : fingerpint: Allow devices to configure sensor location <d34d> 5 months ago
+f030c12 : Automatic translation import <inky@build01> 5 days ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+5caab8c : Automatic translation import <blinky@build01> 2 days ago
+8c91a11 : UnifiedEmail: Use NotificationManager to figure out LED capabilities <Zhao Wei Liew> 4 days ago
+ 
+**** vanir:packages_providers_DownloadProvider ****
+c1a4ced : Automatic translation import <blinky@build01> 2 days ago
+ 
+**** vanir:packages_services_Telephony ****
+c13b021 : Automatic translation import <blinky@build01> 2 days ago
+15831d7 : Automatic translation import <inky@build01> 5 days ago
+ 
+**** vanir:system_core ****
+3e7227c : [1/2] init.rc: set DOWNLOAD_CACHE based on prop <Dan Pasanen> 3 weeks ago
+ 
+**** cm:CyanogenMod/cm_platform_sdk ****
+ecde09b : cmsdk: Define a default LED capabilities value <Adrian DC> 30 hours ago
+610916b : cmsdk: Switch to a unified LED capabilities overlay <Zhao Wei Liew> 2 weeks ago
+77b34c3 : CMSDK: Add volume answer call CMSetting <Zhao Wei Liew> 2 weeks ago
+ 
+**** commotio:commotio ****
+d7e7fb2 : Fingerprinted <DHOMD> 4 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oppo ****
+f19a96d : msm8974-common: Update libwvdrmengine.so <Kilian von Pflugk> 12 days ago
+1a4a037 : msm8974: Binary blob to enable full-disk decryption. <J. Joe Feise> 2 weeks ago
+ 
+**** vanir:vendor_vanir ****
+f82bcd0 : bootanimation: final vanirification <nuclearmistake> 2 days ago
+c394f93 : cm: Build bootanimation.zip <Luca Stefani> 3 days ago
+1ad8bf3 : Determine TARGET_SCREEN_* based on current vanir product makrfiles (if necessary) <nuclearmistake> 2 days ago
+9e85dd2 : Vanirified: compiled boot animation <Griffin Millender> 8 weeks ago
+8646bb8 : helper scripts: fix function parsing AND smartstart's auto-stash <nuclearmistake> 2 days ago
+388e31d : [2/2] cm: set cache partition location <Dan Pasanen> 3 weeks ago
+3682df2 : telephony-ext: built and in boot jars in common.mk <nuclearmistake> 5 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_yu ****
+d595b73 : tomato: Fix bad widevine blob merge <Michael Bestas> 30 hours ago
+b648bb7 : lettuce: Import bullhead widevine <Louis Popi> 3 days ago
+82b6ba9 : lettuce: HEX edit GPS blobs <Louis Popi> 3 days ago
+11a65a5 : lettuce: Remove CNE, DPM, QC location <Louis Popi> 3 days ago
+2bb98f4 : jalebi: Import bullhead widevine <Louis Popi> 3 days ago
+9d81827 : jalebi: HEX edit GPS blobs <Louis Popi> 3 months ago
+a9dd8a4 : jalebi: Remove CNE, DPM, QC location <Louis Popi> 3 months ago
+a62dfda : tomato: Import bullhead widevine <Louis Popi> 3 days ago
+15ab316 : tomato: HEX edit GPS blobs <Louis Popi> 3 months ago
+7538f3e : tomato: Remove CNE, DPM, QC location <Louis Popi> 3 months ago
+ 

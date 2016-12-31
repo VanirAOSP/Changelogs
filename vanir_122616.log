@@ -1,0 +1,156 @@
+
+**** vanir:build ****
+416e7aa : Build hacks <DHOMD> 3 months ago
+7c2fdba : build: Ensure that we can always find the CM envsetup script <Zhao Wei Liew> 6 days ago
+99dda0c : build: envsetup: Ensure that we can always run roomservice <Zhao Wei Liew> 6 days ago
+ 
+**** cm:CyanogenMod/android_device_htc_hiae-common ****
+86cd781 : hiae: Use CAF RIL variant <Ethan Chen> 2 days ago
+ 
+**** vanir:device_huawei_angler ****
+f928bc2 : Update IMS paths in init.angler <DHOMD> 13 days ago
+8f46e7d : angler: add missing line continuation slash <razorloves> 35 hours ago
+02734ff : angler: add missing line continuation slash <razorloves> 35 hours ago
+ 
+**** vanir:device_lge_bullhead ****
+3700da8 : bullhead: add missing line continuation slash <razorloves> 35 hours ago
+ 
+**** cm:CyanogenMod/android_device_lge_mako ****
+bcce2b1 : mako: powerhal: dereference data pointer <Simon Shields> 10 days ago
+ 
+**** vanir:device_lge_v20-common ****
+dbe922e : v20-common: Override display resolution <Matt Filetto> 2 days ago
+ 
+**** vanir:device_qcom_common ****
+6b7bb83 : Suboptimal way of fixing Pixie builds <DHOMD> 5 hours ago
+ 
+**** vanir:device_samsung_kona-common ****
+76e1a20 : kona : remove duplicate parameters <RGIB> 3 days ago
+ae43afc : kona : move macloader to boot time <RGIB> 3 days ago
+7f7ed27 : kona : selinux update <RGIB> 3 days ago
+3ce2d99 : kona-common : bluetooth config files already present in smdk4412-common <RGIB> 4 days ago
+1a49f83 : kona-common : restore missing stock parameters <RGIB> 4 days ago
+37f9f13 : kona-common : add ueventd to the build <RGIB> 5 days ago
+154be4f : kona-common : complete commonization for kona devices <RGIB> 5 days ago
+b3d1538 : kona-common : proper file permission <RGIB> 5 days ago
+98eceba : kona-common : remove low power mode <RGIB> 5 days ago
+70c3c73 : kona-common : opensource RIL does not need this shimmed symbol <RGIB> 5 days ago
+b70ebd3 : kona : correct magnetometer values <RGIB> 2 weeks ago
+92076a1 : kona : selinux update <RGIB> 3 weeks ago
+dd8fa5a : kona : fix derp and use string.h <RGIB> 3 weeks ago
+1775ca6 : Revert "Revert "kona : fix for compass"" <Roberto Gibellini> 3 weeks ago
+9c16c7b : Revert "kona : fix for compass" <Roberto Gibellini> 3 weeks ago
+641a359 : kona : fix for compass <RGIB> 3 weeks ago
+5ab7ea5 : kona : fix accelerometer data frequency <RGIB> 4 weeks ago
+8bc8a9d : kona : update codec list <RGIB> 4 weeks ago
+88aabb6 : kona : build libsecril-client for n51x0 <RGIB> 5 weeks ago
+ 
+**** cm:CyanogenMod/android_device_sony_nicki ****
+47881d0 : nicki: Switch to new xml audio policy configuration <RonGokhale> 7 days ago
+ 
+**** vanir:frameworks_base ****
+482754e : [SQUASHED] fwb: Launch default music player on headset connect [1/2] <PMS22> 3 weeks ago
+b3dd46c : Change codeaura to android for CALL_TYPE_CS <DHOMD> 12 days ago
+9d37d58 : [1/2] base: support separate encryption/lockscreen passwords <Daniel Micay> 2 weeks ago
+0c7cf0d : Add wakelock option for flashlight <niks255> 11 months ago
+880aed9 : StatusBarIconView: Enable notification icon count by default <Zhao Wei Liew> 4 days ago
+ba75062 : SettingsProvider: Remove def_notif_count overlay <Zhao Wei Liew> 4 days ago
+ 
+**** vanir:frameworks_native ****
+e98640f : sf: hwc1: Add support for secondary color matrix <Steve Kondik> 9 months ago
+4833e21 : sf: hwc1: Set SF EventThread to SCHED_FIFO in all cases <Zhao Wei Liew> 3 days ago
+ 
+**** vanir:kernel_huawei_angler ****
+f690162 : block: cfq: accept cfq_slice_async, cfq_slice_idle and cfq_group_idle as 0 unless HZ is >= 1000 <Francisco Franco> 11 days ago
+3aca4df : cyanogenmod_angler_defconfig: enable hwbinder domain. <Martijn Coenen> 4 days ago
+619570d : arm64/configs: angler: enable hwbinder domain. <Martijn Coenen> 9 weeks ago
+79b3bb6 : android: binder: use copy_from_user_preempt_disabled <Martijn Coenen> 9 weeks ago
+4eb7474 : android: binder: support for file-descriptor arrays. <Martijn Coenen> 2 months ago
+35c5928 : android: binder: support for scatter-gather. <Martijn Coenen> 3 months ago
+a3745cb : android: binder: add extra size to allocator. <Martijn Coenen> 3 months ago
+7f496f8 : android: binder: refactor binder_transact() <Martijn Coenen> 3 months ago
+ae6c444 : android: binder: support multiple /dev instances. <Martijn Coenen> 3 months ago
+67fb4e3 : android: binder: deal with contexts in debugfs. <Martijn Coenen> 2 months ago
+4c1ae91 : android: binder: support multiple context managers. <Martijn Coenen> 3 months ago
+091694c : android: binder: split flat_binder_object. <Martijn Coenen> 6 months ago
+93b6ee1 : tcp: fix more NULL deref after prequeue changes <Eric Dumazet> 2 years, 1 month ago
+11af5d0 : cpuidle: don't disable cpuidle when entering suspend <Francisco Franco> 3 weeks ago
+df766b4 : net: less interrupt masking in NAPI <Eric Dumazet> 2 years, 2 months ago
+ca8b740 : f2fs: use file pointer for fscrypt_notsupp_process_policy <Jaegeuk Kim> 2 weeks ago
+d1fe4ec : angler: F2FS: Catch up Jaegeuk's stable branch to 4.10-rc1-3.10 <Jaegeuk Kim> 12 days ago
+01e6459 : angler: mdss: HBM: Fix build. <fezzy102> 3 weeks ago
+2b69419 : video: mdss: use world readable/writable hbm node <Francisco Franco> 7 weeks ago
+d2adf1a : msm: mdss: request HS mode when sending HBM cmds <flar2> 1 year ago
+8949a5b : msm: mdss: Allow user space control of HBM <Zac Crosby> 2 years, 9 months ago
+ba96bbe : msm: mdss: Add HBM panel commands <flar2> 1 year ago
+34942a0 : PM / devfreq: Add a governor white list <Sultanxda> 4 months ago
+cf592ff : sched/core: Fix a race between try_to_wake_up() and a woken up task <Balbir Singh> 4 months ago
+0a7a7e7 : fs/sync.c: make sync_file_range(2) use WB_SYNC_NONE writeback <Jan Kara> 1 year, 2 months ago
+d32e40e : angler: Update defconfig after "android-msm-angler-3.10-n-mr1" branch merge <doc HD> 3 weeks ago
+92589bf : power: qpnp-fg: queue work on system_power_efficient_wq <Francisco Franco> 7 weeks ago
+7a6044e : power: bcl: queue work on system_power_efficient_wq <Francisco Franco> 3 months ago
+09cfa39 : power: smbcharger: queue work on system_power_efficient_wq <Francisco Franco> 4 months ago
+a1207fc : drivers: thermal: queue work on system_power_efficient_wq <Francisco Franco> 4 weeks ago
+e715cfc : sched/loadavg: Fix loadavg artifacts on fully idle and on fully loaded systems <Francisco Franco> 5 weeks ago
+2447572 : proc: much faster /proc/vmstat <Francisco Franco> 10 weeks ago
+20b7c73 : vmstat: squash 4 patches from upstream <Francisco Franco> 4 months ago
+713acce : angler: Enable CONFIG_WQ_POWER_EFFICIENT_DEFAULT <Elektroschmock> 5 weeks ago
+eb92ede : block: Reserve only one queue tag for sync IO if only 3 tags are available <Jan Kara> 3 years, 6 months ago
+e36b93b : cfq-iosched: fix the setting of IOPS mode on SSDs <Jens Axboe> 1 year, 7 months ago
+becb626 : block: Make CFQ default to IOPS mode on SSDs <Tahsin Erdogan> 1 year, 7 months ago
+eb5a4ef : workqueues: Introduce new flag WQ_POWER_EFFICIENT for power oriented workqueues <Viresh Kumar> 3 years, 9 months ago
+799b6bd : sched: report loads greater than 100% only during load alert notifications <Srivatsa Vaddagiri> 1 year, 8 months ago
+efa1106 : msm: qdsp6v2: Allow 320K AAC encoding <Steve Kondik> 2 years, 2 months ago
+e2abba2 : arm64: kill off the libgcc dependency <Francisco Franco> 9 weeks ago
+a0b1e91 : qcom: msm-core: uninterruptible wait - you can kiss my XXX goodbye <franciscofranco> 1 year, 1 month ago
+c884788 : msm: Use interruptible wait to not affect load average <franciscofranco> 1 year, 1 month ago
+84b8c1c : qcom: mpm: use interruptible wait to reduce load avg <Francisco Franco> 4 months ago
+8087a38 : angler: Selinux Enforcing <doc HD> 7 weeks ago
+6e4aabb : Duplicate recent angler_defconfig changes to cyanogenmod_angler_defconfig <Sam Mortimer> 7 weeks ago
+740f938 : arch: arm64: force -fno-pic <Greg Hackmann> 2 years, 1 month ago
+b905dfc : Revert "Revert "angler: Set Selinux to Force Permissive [TEMP]"" <doc HD> 7 weeks ago
+c52c865 : sdcardfs: Flag files as non-mappable <fluxi> 9 weeks ago
+91e7ffe : angler: F2FS: d_inode is already defined under include/linux/dcache.h <doc HD> 8 weeks ago
+ 
+**** vanir:kernel_moto_shamu ****
+c568232 : shamu: defconfig: Fix derp <Elektroschmock> 2 days ago
+ 
+**** vanir:platform_manifest ****
+e3870c3 : Follow our own Marlin <DHOMD> 2 hours ago
+993af18 : COntexthub is from AOSP <DHOMD> 6 hours ago
+77bbb19 : It time to play with Pixies <DHOMD> 7 hours ago
+be5dd38 : PME <DHOMD> 25 hours ago
+ 
+**** vanir:packages_apps_CMParts ****
+4514e55 : CMParts: statusbar: Enable notification icon count by default <Zhao Wei Liew> 4 days ago
+ 
+**** vanir:packages_apps_Settings ****
+6fe73cc : Settings: launch default music player on headset connect [2/2] <Danesh M> 4 years ago
+c585070 : [2/2] settings: support setting a separate encryption password <Daniel Micay> 2 weeks ago
+ 
+**** cm:CyanogenMod/android_packages_resources_devicesettings ****
+409f74b : add string for fp reader as home <rahulsnair> 7 days ago
+ 
+**** commotio:commotio ****
+3081f62 : Marlin + sailfish <DHOMD> 2 hours ago
+3ab8706 : Keep Gello dead <DHOMD> 8 hours ago
+160e1a3 : No gello 4 u <DHOMD> 8 hours ago
+e70d35c : Fix up deb + flo <DHOMD> 8 hours ago
+e2ad3bb : PME <DHOMD> 23 hours ago
+0671dae : Kill trilte <DHOMD> 25 hours ago
+ 
+**** vanir:vendor_htc ****
+4739d28 : Add PME from muppets <DHOMD> 25 hours ago
+ 
+**** vanir:vendor_vanir ****
+b519909 : Fix sailfish <DHOMD> 2 hours ago
+7ac452f : Enable Visual voicemail on vzw devices <DHOMD> 5 hours ago
+2ff9c7f : Marlin and Sailfish <DHOMD> 5 hours ago
+d643911 : Remove unused overlay, def_notif_count <DHOMD> 7 hours ago
+731f43c : Speakerproximity is deader than dead <Derek> 8 hours ago
+207e728 : Remove dupped copy files <Derek> 8 hours ago
+a851e43 : Deb + Flox fixup <DHOMD> 8 hours ago
+70f2b3d : Add default-permission support for IMS to telephony.mk <Abhisek Devkota> 7 days ago
+7296f38 : PME <DHOMD> 23 hours ago
+0f7cdea : cm: Remove def_notif_count overlay <Zhao Wei Liew> 4 days ago
+ 

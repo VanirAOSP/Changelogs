@@ -1,0 +1,151 @@
+
+**** vanir:build ****
+a911d18 : Build hacks <DHOMD> 9 weeks ago
+64b6ca0 : NMF26Q <gitbuildkicker> 12 days ago
+f653420 : NMF62 <gitbuildkicker> 12 days ago
+fb73e41 : NMF26P <gitbuildkicker> 2 weeks ago
+ 
+**** cm:CyanogenMod/android_device_htc_hiae-common ****
+27e685e : hiae: Update SELinux policy for upstream changes <Ethan Chen> 2 days ago
+ 
+**** cm:CyanogenMod/android_device_htc_m8-common ****
+a7cf268 : m8-common: Remove no longer needed sepolicy <luca020400> 7 days ago
+ 
+**** cm:CyanogenMod/android_device_htc_msm8974-common ****
+d2bf9c8 : msm8974-common: Add seclabel to bluetooth related services <luca020400> 7 days ago
+ 
+**** vanir:device_huawei_angler ****
+e6014d2 : Update IMS paths in init.angler <DHOMD> 71 minutes ago
+4c25c7c : angler: not bullhead <nuclearmistake> 9 hours ago
+ 
+**** vanir:device_lge_g2-common ****
+7f70ac3 : g2-common: Specify 4 streams and use lz4 compression for zram <Tyler Dunn> 3 days ago
+176f5d6 : Turn on zram for G2 <Todd Kjos> 3 days ago
+ 
+**** github:rahulsnair/android_device_motorola_athene ****
+fb59c4b : athene : update system.prop <rahulsnair> 21 hours ago
+c214a77 : athene: update seplicy & dependency <rahulsnair> 22 hours ago
+ 
+**** vanir:device_oppo_common ****
+fb7a1b2 : oppo-common: configpanel: Commonize strings translations <Abhisek Devkota> 3 weeks ago
+ 
+**** vanir:device_samsung_qcom-common ****
+08178e1 : qcom: doze: Clean up ambient display pref dependencies <Zhao Wei Liew> 9 weeks ago
+ 
+**** vanir:frameworks_base ****
+37a5121 : Store Network Mode selected in subId Table. <Rakesh Pallerla> 2 years, 3 months ago
+ad760e1 : Fix boot loop when upgrading direclty from L to N <Rubin Xu> 3 weeks ago
+ 
+**** vanir:frameworks_opt_telephony ****
+225d8cf : telephony: Respect user nw mode, handle DSDS non-multi-rat. <Adnan Begovic> 12 months ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+514d5bf : mm: use up free swap space before reaching OOM kill <Minchan Kim> 3 years, 10 months ago
+5f906f8 : mm: swap: fix swapcache usage for fast swap devices <Vinayak Menon> 1 year, 1 month ago
+c244b19 : mm: swap: don't delay swap free for fast swap devices <Vinayak Menon> 1 year, 10 months ago
+37af35a : G2: enable zram for G2 variants. <PsychoGame> 3 days ago
+177b13b : Revert some changes to zsmalloc.c <PsychoGame> 3 days ago
+418911f : UPSTREAM: block: disable entropy contributions for nonrot devices <Mike Snitzer> 3 days ago
+15cf756 : UPSTREAM: zram/zcomp: do not zero out zcomp private pages <Sergey Senozhatsky> 11 months ago
+54113a7 : UPSTREAM: zram: pass gfp from zcomp frontend to backend <Minchan Kim> 11 months ago
+3c0bf6a : UPSTREAM: zram: try vmalloc() after kmalloc() <Kyeongdon Kim> 11 months ago
+1019e35 : UPSTREAM: zram/zcomp: use GFP_NOIO to allocate streams <Sergey Senozhatsky> 11 months ago
+24d19421 : UPSTREAM: zram: avoid kunmap_atomic() of a NULL pointer <Weijie Yang> 2 years, 1 month ago
+8e4b0a6 : zram: remove bvec_iters from zram. <Tim Murray> 1 year, 3 months ago
+55a8159 : Rebase zram and zsmalloc from 3.15. <Minchan Kim> 2 years, 10 months ago
+ 
+**** cmold:android_kernel_motorola_msm8610 ****
+5478121 : ASoC: msm: lock read/write when add/free audio ion memory <Walter Yang> 3 months ago
+af1ff83 : ASoC: msm: qdsp6v2: Change audio drivers to use %pK <Ben Romberger> 7 months ago
+bd9605e : msm: camera: Avoid exposing kernel addresses <Azam Sadiq Pasha Kapatrala Syed> 9 months ago
+046ecbf : msm: mdss: hide kernel addresses from unprevileged users <Abhijit Kulkarni> 6 months ago
+2dc4208 : msm: sensor: validate the i2c table index before use <Suman Mukherjee> 3 months ago
+347fde2 : perf: protect group_leader from races that cause ctx double-free <John Dias> 9 weeks ago
+77dde52 : UPSTREAM: staging/android/ion : fix a race condition in the ion driver <Ariel Yin> 9 weeks ago
+eed5ae2 : drivers: video: Add bounds checking in fb_cmap_to_user <Steve Pfetsch> 9 weeks ago
+45ae461 : net: ping: Fix stack buffer overflow in ping_common_sendmsg() <Siqi Lin> 9 weeks ago
+4696443 : usb: gadget: f_mbim: Change %p to %pK in debug messages <Min Chong> 9 weeks ago
+0526a51 : netfilter: Change %p to %pK in debug messages <Min Chong> 9 weeks ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+83d99f5 : Revert "Bluetooth: Fix missing length checks for L2CAP signalling PDUs" <OzzysCmAcc> 2 days ago
+a7b6f5a : Linux 3.4.93 <Greg Kroah-Hartman> 2 years, 6 months ago
+8c19028 : mm: highmem: don't treat PKMAP_ADDR(LAST_PKMAP) as a highmem address <Will Deacon> 4 years, 1 month ago
+19ee121 : tty/serial: Add support for Altera serial port <Ley Foon Tan> 3 years, 9 months ago
+7a78485 : 8250/16?50: Add support for Broadcom TruManage redirected serial port <Stephen Hurd> 3 years, 11 months ago
+afaa240 : Fix 4 port and add support for 8 port 'Unknown' PCI serial port cards <Scott Ashcroft> 3 years, 9 months ago
+bbee995 : tty: Correct tty buffer flush. <Ilya Zykov> 3 years, 9 months ago
+d094676 : serial: pch_uart: fix tty-kref leak in rx-error path <Johan Hovold> 3 years, 3 months ago
+5cf7c13 : serial: pch_uart: fix tty-kref leak in dma-rx path <Johan Hovold> 3 years, 3 months ago
+9082f2e : target/file: Fix 32-bit highmem breakage for SGL -> iovec mapping <Sebastian Andrzej Siewior> 4 years ago
+e6b309c : target: use correct sense code for LUN communication failure <Hannes Reinecke> 4 years ago
+4b08fe8 : target: Fix MAINTENANCE_IN service action CDB checks to use lower 5 bits <Nicholas Bellinger> 4 years, 7 months ago
+78f877e : target/pscsi: fix return value check <Wei Yongjun> 3 years, 2 months ago
+36c0dbc : iscsi-target: Always send a response before terminating iSCSI connection <Roland Dreier> 4 years, 1 month ago
+fdec9e0 : hpsa: gen8plus Smart Array IDs <Mike Miller> 4 years, 3 months ago
+397d386 : mpt2sas: Fix for issue Missing delay not getting set during system bootup <Reddy, Sreekanth> 3 years, 10 months ago
+ee25e35 : mpt2sas: Fix for device scan following host reset could get stuck in a infinite loop <Sreekanth Reddy> 3 years, 10 months ago
+a63e912 : isci: Fix a race condition in the SSP task management path <Jeff Skirvin> 3 years, 5 months ago
+9d84124 : nfsd: check passed socket's net matches NFSd superblock's one <Stanislav Kinsbursky> 2 years, 10 months ago
+2bf37d1 : nfsd: containerize NFSd filesystem <Stanislav Kinsbursky> 3 years, 10 months ago
+17c875a : nfsd: pass proper net to nfsd_destroy() from NFSd kthreads <Stanislav Kinsbursky> 4 years ago
+9bdbacf : nfsd: pass net to __write_ports() and down <Stanislav Kinsbursky> 4 years ago
+5be0572 : nfsd: pass net to nfsd_set_nrthreads() <Stanislav Kinsbursky> 4 years ago
+82eb109 : nfsd: pass net to nfsd_svc() <Stanislav Kinsbursky> 4 years ago
+fc969f2 : nfsd: pass net to nfsd_create_serv() <Stanislav Kinsbursky> 4 years ago
+72f3959 : nfsd: pass net to nfsd_startup() and nfsd_shutdown() <Stanislav Kinsbursky> 4 years ago
+dd1430f : nfsd: pass net to nfsd_init_socks() <Stanislav Kinsbursky> 4 years ago
+65482e9 : virtio: console: add locking around c_ovq operations <Amit Shah> 3 years, 9 months ago
+3b91fbd : virtio: console: rename cvq_lock to c_ivq_lock <Amit Shah> 3 years, 9 months ago
+b8bbb8c : virtio_console: fix uapi header <Michael S. Tsirkin> 3 years, 7 months ago
+e15b092 : virtio-blk: Don't free ida when disk is in use <Alexander Graf> 3 years, 11 months ago
+7ff17e8 : virtio: 9p: correctly pass physical address to userspace for high pages <Will Deacon> 4 years, 2 months ago
+83614b3 : mm: highmem: export kmap_to_page for modules <Will Deacon> 4 years, 2 months ago
+425a397 : mm: add kmap_to_page() <Ben Hutchings> 4 years, 4 months ago
+7c0b438 : virtio-blk: Reset device after blk_cleanup_queue() <Asias He> 4 years, 7 months ago
+4a41d8f : virtio-blk: Call del_gendisk() before disable guest kick <Asias He> 4 years, 7 months ago
+d1fc79d : virtio-blk: Fix hot-unplug race in remove method <Asias He> 4 years, 7 months ago
+5e962dd : virtio_blk: Drop unused request tracking list <Asias He> 4 years, 9 months ago
+676a6f5 : Bluetooth: Add support for BCM20702A0 [0b05, 17cb] <Raphael Kubo da Costa> 3 years, 3 months ago
+ad1b579 : Bluetooth: Add a new PID/VID 0cf3/e005 for AR3012. <Peng Chen> 3 years, 4 months ago
+3eb9e23 : Bluetooth: Add support for Atheros [0cf3:e003] <AceLan Kao> 3 years, 6 months ago
+b20c83e : Bluetooth: Add support for Atheros [0cf3:3121] <AceLan Kao> 3 years, 5 months ago
+90dfab1 : Bluetooth: ath3k: Add support for ID 0x13d3/0x3402 <Sujith Manoharan> 3 years, 5 months ago
+5961fec : Bluetooth: ath3k: Add support for Fujitsu Lifebook UH5x2 [04c5:1330] <Thomas Loo> 3 years, 5 months ago
+7cbc8d0 : Bluetooth: Add support for Mediatek Bluetooth device [0e8d:763f] <Cho, Yu-Chen> 3 years, 6 months ago
+dc37bb5 : Bluetooth: Add support for Foxconn/Hon Hai [0489:e04d] <Noguchi Kazutosi> 3 years, 9 months ago
+0ea2aa3 : Bluetooth: Device 0cf3:3008 should map AR 3012 <Sunguk Lee> 3 years, 9 months ago
+a46b1ff : Bluetooth: Add support for atheros 04ca:3004 device to ath3k <Josh Boyer> 3 years, 10 months ago
+a888e7e : Bluetooth device 04ca:3008 should use ath3k <Sergio Cambra> 3 years, 11 months ago
+64625b6 : Bluetooth: Add support for Foxconn / Hon Hai [0489:e056] <AceLan Kao> 3 years, 11 months ago
+ 
+**** vanir:platform_manifest ****
+e182bba : cm: android-7.1.1_r4 -> android-7.1.1_r6 <Dan Pasanen> 26 hours ago
+ 
+**** vanir:packages_apps_CMParts ****
+bb4d59e : CMParts: Fix Russian auto-power save translation <Zhao Wei Liew> 18 hours ago
+a3dd053 : NotificationLightSettings: removed unused code <Marcos Marado> 8 days ago
+ 
+**** vanir:packages_apps_Settings ****
+0ad4449 : Always show band 0 (Automatic) <Dave Daynard> 3 years ago
+f81f983 : Settings: Fix removal of notification pulse LED preference <Arne Coucheron> 2 days ago
+ 
+**** vanir:packages_services_Telephony ****
+c9c7aa3 : Telephony: add external network selection activity <Roman Birg> 10 months ago
+1219742 : PhoneToggler: persist nw mode change <Roman Birg> 10 months ago
+2eff9b5 : Port network mode toggle from CM12 <Pawit Pornkitprasan> 4 years, 10 months ago
+ 
+**** cm:CyanogenMod/cm_platform_sdk ****
+5be83e5 : Revert "cmsdk: Add device-specific strings" <Zhao Wei Liew> 7 days ago
+ 
+**** vanir:vendor_htc ****
+3cc300f : m7-common: Use QCOM common graphics vendor (#237) <David Hays> 2 days ago
+ 
+**** vanir:vendor_vanir ****
+f4d3052 : cm: build: envsetup: Add mmmap command <Zhao Wei Liew> 4 days ago
+3674a59 : Add permissions & sepolicy for HBM <Michael Bestas> 9 days ago
+4e9355e : repopick: Avoid failing on commits lookup <Adrian DC> 10 days ago
+673c6dc : Add Reliance Jio India IMS volte apn's <Vishnu Vardhan Reddy Naini> 11 days ago
+388a7bb : Fix Reliance Jio India APNs. <Vishnu Vardhan Reddy Naini> 11 days ago
+69bb424 : Add remoteexists helper for eventual roomservice overhaul <nuclearmistake> 16 hours ago
+ 

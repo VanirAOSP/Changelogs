@@ -1,0 +1,177 @@
+
+**** vanir:build ****
+e85fcf6 : Build hacks <DHOMD> 8 weeks ago
+684ba91 : core: allow specifying building ramdisk(s) with lzma <Dan Pasanen> 9 days ago
+ 
+**** cm:CyanogenMod/android_device_cyanogen_msm8916-common ****
+2148026 : msm8916-common: Update sepolicies for 7.x <Michael Bestas> 6 days ago
+e8e03e8 : msm8916: Cleanup init.qcom.bt.sh <Michael Bestas> 9 weeks ago
+c773d7f : msm8916-common: Specify we have a cache partition <Luca Stefani> 7 weeks ago
+9d9c73e : msm8916-common: Enable media extensions <Meninblack007> 7 weeks ago
+c7f13b6 : sec_config: Add security rule for WLPS service <Yuanyuan Liu> 4 months ago
+4011648 : RILD access to new QMI HTTP service <Rafeeqh Shaik> 6 months ago
+242ecc1 : Add permission for rild to access QMI UIMRMT <Naina Nalluri> 2 years, 1 month ago
+278e380 : DPM :QMI_SERVICE_ID 1 is updated with single entry <Ravinder Konka> 9 months ago
+edcbd09 : msm8916: init: Switch to c++ property_get <curiozuk> 2 weeks ago
+f9192df : msm8916: Remove duplicate aggressive TRIM prop <Zhao Wei Liew> 4 weeks ago
+be51c31 : Enable delay service restart <Raghavendra Prasad Nagaraj> 1 year, 1 month ago
+f964980 : msm8916-common: audio: CTS fix for GetMaxSupportedInstances test. <SoumyaManagoli> 4 months ago
+15567ec : msm8916: init: Check boot reason prop when setting alarm_boot prop <Zhao Wei Liew> 4 weeks ago
+3affb1d : msm8916: board: Use VENDOR_PATH define <Zhao Wei Liew> 4 weeks ago
+78844e8 : msm8916: Remove no-op TARGET_KERNEL_ARCH flag <Zhao Wei Liew> 4 weeks ago
+0ac955b : msm8916: Add support for top-app cpuset <Zhao Wei Liew> 8 weeks ago
+702a66b : msm8916: Set Qualcomm Bluetooth SOC ID <Ethan Chen> 6 weeks ago
+bcabc9f : msm8916: init: Set rps mask value to 2 for 8916 <Ravinder Konka> 1 year, 3 months ago
+ 
+**** cm:CyanogenMod/android_device_htc_hiaeuhl ****
+38b24be : hiaeuhl: Add cache partition size <Ethan Chen> 16 hours ago
+ 
+**** vanir:device_lge_d802 ****
+96fd09c : Fixup Mis Merge <DHOMD> 4 hours ago
+ 
+**** cm:CyanogenMod/android_device_motorola_condor ****
+dc732c3 : condor: fstab: Switch to /dev/block/bootdevice <LuK1337> 18 hours ago
+ 
+**** vanir:device_motorola_falcon ****
+d8466f0 : Fix build - remove depreciated global flags <DHOMD> 2 hours ago
+ 
+**** cm:CyanogenMod/android_device_motorola_msm8610-common ****
+06df398 : msm8610-common: update sepolicy <Sultan Qasim Khan> 18 hours ago
+1c96a39 : msm8610-common: Allow rild to write in /data/misc/cutback <LuK1337> 1 year, 1 month ago
+ 
+**** cm:CyanogenMod/android_device_motorola_otus ****
+de9d5fe : otus: fstab: Switch to /dev/block/bootdevice <LuK1337> 18 hours ago
+ 
+**** vanir:device_qcom_sepolicy ****
+28cbfba : Fix sepolicy in Qcom devices <DHOMD> 2 hours ago
+ 
+**** vanir:device_samsung_klte ****
+be3c08f : klte: Remove Korean variants from Unified GSM build <Kevin F. Haggerty> 8 weeks ago
+ 
+**** vanir:device_samsung_klte-common ****
+5ea408a : klte-common: Add kltekor to makefile guards <Kevin F. Haggerty> 13 days ago
+aef5a1c : klte-common: Remove config_enableAutoPowerModes from fw/base overlay <Kevin F. Haggerty> 32 hours ago
+099f6d6 : klte-common: liblights: Define PANEL_MAX_BRIGHTNESS_NODE <Kevin F. Haggerty> 32 hours ago
+ 
+**** vanir:device_samsung_smdk4412-qcom-common ****
+a8dea17 : Revert "smdk4412-qcom : fix GET_CURRENT_CALLS crashes" <Roberto Gibellini> 8 hours ago
+ 
+**** cm:CyanogenMod/android_device_yu_tomato ****
+ad2c806 : tomato: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 3 weeks ago
+cb51f1c : Revert "tomato: Address wcnss SELinux denial" <Darshan Manjrekar> 2 days ago
+2198a0f : QCamera2: Suppress Clang compiler warnings. <Meninblack007> 6 days ago
+6945506 : Camera2: Remove obsoleted files <Shuzhen Wang> 1 year, 9 months ago
+ff8dd3f : QCamera2: Don't close duped native handles. <Suman Mukherjee> 4 months ago
+06613aa : QCamera2:HAL1: Flush pending video frames during stopRecording. <Suman Mukherjee> 6 months ago
+0736136 : QCamera2:HAL1: Close duplicated FD's for media extension. <Suman Mukherjee> 6 months ago
+e292a95 : QCamera2:HAL1: Update native handle for every timestamp callback <Suman Mukherjee> 6 months ago
+75f5933 : tomato: add device out for FM. <Ramjee Singh> 1 year ago
+f2a7ae5 : tomato: Add SCO devices for voip output <Avinash Vaish> 2 years, 1 month ago
+8131689 : tomato: configpanel: Commonize strings translations <Abhisek Devkota> 2 weeks ago
+7ff1293 : tomato: Remove CNE, DPM and QC location provider <Michael Bestas> 3 months ago
+6539999 : tomato: Use bullhead widevine <Louis Popi> 9 days ago
+1375bea : tomato: configpanel: Fix AAPT resources automatic addition <Adrian DC> 12 days ago
+0153c70 : tomato: gps: Hack to build with N <Luca Stefani> 3 months ago
+5096bf7 : camera: Squashed update to LA.BR.1.2.6_rb1.18 <Michael Bestas> 7 weeks ago
+73f8a8f : Revert "camera: Only allow one camera to be open at a time" <Michael Bestas> 5 months ago
+816c0db : camera: Enable denoise by default <Ricardo Cerqueira> 1 year, 5 months ago
+1f42b0d : Automatic translation import <clyde@build01> 3 weeks ago
+bbe2227 : tomato: Use graphics blobs from the shared repo <Zhao Wei Liew> 8 weeks ago
+1755791 : audio: remove startOffsetMs from media_profile <Divya Narayanan Poojary> 4 months ago
+ 
+**** vanir:frameworks_base ****
+3de469c : Automatic translation import <inky@build01> 2 days ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_fm ****
+1817ac7 : Automatic translation import <inky@build01> 2 days ago
+ 
+**** cmold:android_kernel_lge_bullhead ****
+2a1ed4a : bullhead: Add back IPv6 rpfilter support. <razorloves> 12 hours ago
+1531bff : bullhead: regen defconf <razorloves> 30 hours ago
+ 
+**** cmold:android_kernel_motorola_msm8610 ****
+e2614c1 : defconfig: enable NF_MATCH_RPFILTER <Ethan Chen> 3 days ago
+e667889 : packet: fix race condition in packet_set_ring <Philip Pettersson> 10 days ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+2a27dcc : Add kernel defconfig for kltekor <xens0117> 13 days ago
+ 
+**** vanir:platform_manifest ****
+6519c8e : Always a derp doing this <DHOMD> 3 hours ago
+ca633d3 : Add back some old friends <DHOMD> 3 hours ago
+ 
+**** cm:CyanogenMod/android_packages_apps_AudioFX ****
+dcc210f : Automatic translation import <inky@build01> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Browser ****
+fd2c716 : Automatic translation import <inky@build01> 2 days ago
+ 
+**** vanir:packages_apps_CMParts ****
+02d96f3 : CMParts: Improve button settings strings <Zhao Wei Liew> 28 hours ago
+9ecc475 : Automatic translation import <inky@build01> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Exchange ****
+365f615 : Automatic translation import <inky@build01> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_FMRadio ****
+92264a2 : Automatic translation import <inky@build01> 2 days ago
+ 
+**** vanir:packages_apps_LockClock ****
+2edc867 : Automatic translation import <inky@build01> 2 days ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+569b94c : Automatic translation import <inky@build01> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Profiles ****
+5202710 : Automatic translation import <inky@build01> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Screencast ****
+6321459 : Automatic translation import <inky@build01> 2 days ago
+ 
+**** vanir:packages_apps_Settings ****
+273b3bf : Settings: Add toggle for heads up notifications <Michael Bestas> 1 year, 8 months ago
+b307f8f : Automatic translation import <inky@build01> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Snap ****
+7c09c91 : Automatic translation import <inky@build01> 2 days ago
+ 
+**** vanir:packages_apps_ThemeChooser ****
+10c9150 : Automatic translation import <inky@build01> 2 days ago
+ 
+**** vanir:packages_apps_Trebuchet ****
+64eb69b : Automatic translation import <inky@build01> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_providers_DataUsageProvider ****
+b640097 : Automatic translation import <inky@build01> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_providers_ThemesProvider ****
+7b649c5 : Automatic translation import <inky@build01> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_providers_WeatherProvider ****
+f284021 : Automatic translation import <inky@build01> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_services_CMAudioService ****
+0b0ec25 : Automatic translation import <inky@build01> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_services_LiveLockScreenService ****
+c33b19f : Automatic translation import <inky@build01> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_services_ThemeManagerService ****
+a37f4b5 : Automatic translation import <inky@build01> 2 days ago
+ 
+**** cm:CyanogenMod/android_packages_services_WeatherService ****
+e3d8bc3 : Automatic translation import <inky@build01> 2 days ago
+ 
+**** cm:CyanogenMod/cm_platform_sdk ****
+1c5e5e7 : cmsdk: Add GlobalSettingSwitchPreference class <Zhao Wei Liew> 12 hours ago
+41eab0f : cmsdk: Use ConnectivityManager to manage tethering <Ethan Chen> 3 days ago
+bb4cbde : Automatic translation import <inky@build01> 2 days ago
+ 
+**** vanir:vendor_huawei ****
+9f235e1 : Angler squish <nuclearmistake> 2 days ago
+1c4e267 : NMF26F Blobs - also prune unneeded blobs <DHOMD> 4 days ago
+4547d69 : angler: NBD91K <nuclearmistake> 4 weeks ago
+ 
+**** vanir:vendor_vanir ****
+efcfaea : Reconcile vold sepolicy <DHOMD> 2 hours ago
+ 

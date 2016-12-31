@@ -1,0 +1,252 @@
+
+**** vanir:bootable_recovery_twrp ****
+9b1b818 : TWRP Language Update <Miroslav Brzychcy> 5 days ago
+ff2b788 : Change handling of /cache due to AB devices not having cache <Ethan Yonker> 6 days ago
+79f88bd : Support backup/restore of FBE policies <Ethan Yonker> 6 days ago
+bd7492d : Support File Based Encryption <Ethan Yonker> 8 days ago
+1b19016 : Add boot slot support <Ethan Yonker> 10 days ago
+941a899 : Support new AB OTA zips <Ethan Yonker> 11 days ago
+ 
+**** vanir:build ****
+c97360d : Build hacks <DHOMD> 9 weeks ago
+e14cff5 : Fix false positive "\" in unused source file detection logic <nuclearmistake> 30 hours ago
+ 
+**** cm:CyanogenMod/android_build_kati ****
+bc43789 : Do not limit threads upon calling legacy GNU make <Park Ju Hyung> 2 days ago
+e80373b : [AUTHORS] Fix kati instead of glog <Koichi Shiraishi> 2 weeks ago
+d02813b : Add Koichi Shiraishi to AUTHORS/CONTRIBUTORS <Koichi Shiraishi> 2 weeks ago
+df8cd05 : [C++] add +build ignore magic comment for go build <Koichi Shiraishi> 3 months ago
+0a2453a : [go] fix ldflags foramt to add '=' for -X flag <Koichi Shiraishi> 3 months ago
+e99f57f : [go] fix stat.Dev type to uint64 <Koichi Shiraishi> 3 months ago
+2f75ffa : Allow rules to specify custom ninja pools <Dan Willemsen> 6 weeks ago
+cb2ff85 : Fix some possible performance issues found by clang-tidy <Dan Willemsen> 6 weeks ago
+3af7e61 : Update Android.bp to shrink executables <Dan Willemsen> 8 weeks ago
+f09d21d : Fix typo in regen_dump.cc <Dan Willemsen> 8 weeks ago
+439f6f1 : Optimize findleaves regen check <Dan Willemsen> 8 weeks ago
+8543327 : Remove "out" special case handling from FindEmulator <Dan Willemsen> 8 weeks ago
+6e63e0f : Add a tool to export a kati stamp file to other tools <Dan Willemsen> 8 weeks ago
+f06d801 : Implement the `file` function to read and write files <Dan Willemsen> 2 months ago
+d325f59 : Run regen commands sequentially <Dan Willemsen> 2 months ago
+064be22 : Optimize RunCommand by removing /bin/sh wrapper when possible <Dan Willemsen> 3 months ago
+9862c2a : Add simple benchmark for RunCommand <Dan Willemsen> 3 months ago
+f87d49e : Support marking variables as readonly <Dan Willemsen> 3 months ago
+f8dad36 : Fix typo in comment. <Nick Lewycky> 6 months ago
+067e9f1 : Turn CHECK failure that depends on file system state into an error message and include what failed in the error. <Nick Lewycky> 6 months ago
+ 
+**** vanir:device_asus_deb ****
+1552055 : deb: inherit common blobs from flo <Simon Shields> 4 weeks ago
+ 
+**** vanir:device_asus_flo ****
+9e259a7 : flo: commonize blobs with deb <Simon Shields> 4 weeks ago
+ 
+**** cm:CyanogenMod/android_device_htc_hima-common ****
+c4a4070 : hima: Symlink NFC node for backwards compatibility <Ethan Chen> 7 weeks ago
+c79deff : hima: Update Qualcomm data service config <David Hays> 2 days ago
+52bc76c : hima: Mount debugfs <David Hays> 3 weeks ago
+f561e6a : Revert "hima-common: enable doze power saving mode" <David Hays> 3 days ago
+ 
+**** vanir:device_huawei_angler ****
+c9ea9f0 : Revert "Update IMS paths in init.angler" <nuclearmistake> 31 hours ago
+727748a : Revert "Reverse symlink direction" <nuclearmistake> 31 hours ago
+bbab26b : Reverse symlink direction <DHOMD> 34 hours ago
+ 
+**** cm:CyanogenMod/android_device_huawei_kiwi ****
+8ead9da : kiwi: proprietary: Clean up /sbin/ and move rmt_storage to /bin/ <Christopher R. Palmer> 4 days ago
+271fd20 : kiwi: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 5 days ago
+f0ec543 : kiwi: Fix minor syntax errors in init.rc scripts <Christopher R. Palmer> 4 weeks ago
+e59ee68 : kiwi: Add rfs_access and libqmi_oem_main to group wakelock <Christopher R. Palmer> 4 weeks ago
+08c9860 : kiwi: Turn on sdcardfs <Steve Kondik> 3 months ago
+b916ab8 : kiwi: Update sdcard symlinks to match asus-8916's <Christopher R. Palmer> 4 weeks ago
+ 
+**** cm:CyanogenMod/android_device_lge_d855 ****
+69dc313 : d855: use pad instead of misc for recovery commands <Dan Pasanen> 3 weeks ago
+ 
+**** vanir:device_lge_g3-common ****
+585edbd : g3: wcnss: update from D85530c <Hendrik Hagendorn> 6 days ago
+ 
+**** cm:CyanogenMod/android_device_lge_g4-common ****
+0d891b5 : g4: update power profile <codeworkx> 8 hours ago
+533f560 : g4: use media extensions <codeworkx> 5 days ago
+7126e4b : g4: use grow as misc partition <codeworkx> 34 hours ago
+6eb4f44 : g4: sepolicy fixes <codeworkx> 33 hours ago
+ 
+**** cm:CyanogenMod/android_device_lge_ls990 ****
+e33ead9 : nfc: Add libpn544_fw to proprietary-files <Seth Shelnutt> 4 days ago
+96e2ea3 : Add custom pn544 nfc driver <Seth Shelnutt> 5 days ago
+1994b0d : CarrierConfig: Enable world mode <Seth Shelnutt> 2 days ago
+856adbf : ls990: move to source-built libril <Dan Pasanen> 3 months ago
+62c586e : ls990: enable text relocations <Kasual> 3 weeks ago
+ 
+**** github:rahulsnair/android_device_motorola_athene ****
+1a4b72f : update system.prop <jadilson12> 6 days ago
+ 
+**** cm:CyanogenMod/android_device_motorola_victara ****
+edc8739 : cmactions: Protect com.android.systemui.doze.pulse <Gabriele M> 5 weeks ago
+ 
+**** vanir:device_qcom_common ****
+5a54ae4 : extractors: Split 32/64 makefiles <Luca Stefani> 15 hours ago
+ 
+**** cm:CyanogenMod/android_device_samsung_jfltetmo ****
+024e01f : jfltetmo: Remove enhanced NFC feature <Zhao Wei Liew> 4 weeks ago
+c115e9c : jfltetmo: this isn't maguro... <Dan Pasanen> 5 weeks ago
+ 
+**** vanir:device_samsung_klte-common ****
+0c4712a : klte-common: Remove vsync phase offsets <Paul Keith> 32 hours ago
+34292a9 : klte-common: Override consumerir header <Paul Keith> 5 days ago
+06544bf : klte-common: Fix max panel brightness path <Zhao Wei Liew> 7 days ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+149875a : sepolicy: address rild denial <Dan Pasanen> 2 days ago
+ 
+**** vanir:device_samsung_msm8974-common ****
+603779b : msm8974-common: Add vsync phase offsets <Paul Keith> 7 weeks ago
+ 
+**** vanir:device_sony_fusion3-common ****
+a979479 : init: Add tad_static to the readproc group <Olivier Karasangabo> 3 days ago
+657c75a : init: avoid logwrapper calls <Nick Kralevich> 3 years, 2 months ago
+130a749 : fusion3: fstab: Allow recovery to use the misc partition <Adam Farden> 3 months ago
+769e114 : fusion3: init: Fix "Bad address" on write to /dev/wcnss_wlan <Sergey Vlasov> 4 days ago
+f51e414 : camera_device: remove type <William Roberts> 11 months ago
+ 
+**** vanir:device_yu_lettuce ****
+3a86eb8 : lettuce: Update for graphics makefile changes <Michael Bestas> 9 hours ago
+508b2ba : lettuce: Add 32-bit perfd client lib <Zhao Wei Liew> 6 months ago
+39592b6 : lettuce: Add back libcneapiclient <Michael Bestas> 4 days ago
+8765f23 : lettuce: Use graphics blobs from the shared repo <Zhao Wei Liew> 9 weeks ago
+ 
+**** cm:CyanogenMod/android_device_yu_tomato ****
+2b545f7 : tomato: Update for graphics makefile changes <Michael Bestas> 9 hours ago
+08b1068 : tomato: Add 32-bit perfd client lib <Zhao Wei Liew> 6 months ago
+a7f75b0 : tomato: Add back libcneapiclient <Michael Bestas> 4 days ago
+ 
+**** cm:CyanogenMod/android_external_vim ****
+fe38b49 : patch 8.0.0133 Problem:    "2;'(" causes ml_get errors in an empty buffer.  (Dominique Pelle) Solution:   Check the cursor line earlier. <Bram Moolenaar> 4 days ago
+4c8980b : patch 8.0.0132 Problem:    Test fails because of using :finish. Solution:   Change to return. <Bram Moolenaar> 5 days ago
+73b484c : patch 8.0.0131 Problem:    Not enough test coverage for syntax commands. Solution:   Add more tests. (Dominique Pelle) <Bram Moolenaar> 5 days ago
+63de19e : patch 8.0.0130 Problem:    Configure uses "ushort" while the Vim code doesn't. Solution:   Use "unsigned short" instead. (Fredrik Fornwall, closes #1314) <Bram Moolenaar> 6 days ago
+0df3c7f : patch 8.0.0129 Problem:    Parallel make still doesn't work. (Lewis Muir) Solution:   Define OBJ_MAIN. <Bram Moolenaar> 6 days ago
+7089237 : patch 8.0.0128 Problem:    Display test fails on MS-Windows. Solution:   Set 'isprint' to "@". <Bram Moolenaar> 6 days ago
+73fd498 : patch 8.0.0127 Problem:    Cancelling completion still inserts text when formatting is done             for 'textwidth'. (lacygoill) Solution:   Don't format when CTRL-E was typed. (Hirohito Higashi,             closes #1312) <Bram Moolenaar> 6 days ago
+6270660 : patch 8.0.0126 Problem:    Display problem with 'foldcolumn' and a wide character.             (esiegerman) Solution:   Don't use "extra" but an allocated buffer. (Christian Brabandt,             closes #1310) <Bram Moolenaar> 6 days ago
+eaaa9bb : patch 8.0.0125 Problem:    Not enough testing for entering Ex commands. Solution:   Add test for CTRL-\ e {expr}. (Dominique Pelle) <Bram Moolenaar> 6 days ago
+3421566 : patch 8.0.0124 Problem:    Internal error for assert_inrange(1, 1). Solution:   Adjust number of allowed arguments. (Dominique Pelle) <Bram Moolenaar> 12 days ago
+a899e6e : patch 8.0.0123 Problem:    Modern Sun compilers define "__sun" instead of "sun". Solution:   Use __sun. (closes #1296) <Bram Moolenaar> 13 days ago
+3fad98e : patch 8.0.0122 Problem:    Channel test is still flaky on OS X. Solution:   Add a short sleep. <Bram Moolenaar> 13 days ago
+a2477fd : patch 8.0.0121 Problem:    Setting 'cursorline' changes the curswant column. (Daniel Hahler) Solution:   Add the P_RWINONLY flag. (closes #1297) <Bram Moolenaar> 13 days ago
+5643db8 : patch 8.0.0120 Problem:    Channel test is still flaky on OS X. Solution:   Set the drop argument to "never". <Bram Moolenaar> 13 days ago
+21efc36 : patch 8.0.0119 Problem:    No test for using CTRL-R on the command line. Solution:   Add a test. (Dominique Pelle) And some more. <Bram Moolenaar> 13 days ago
+99c5eb4 : Add objects dirstamp to gitignore. <Bram Moolenaar> 13 days ago
+5162822 : patch 8.0.0118 Problem:    "make proto" adds extra function prototype. Solution:   Add #ifdef. <Bram Moolenaar> 2 weeks ago
+cf49790 : Updated runtime files. <Bram Moolenaar> 2 weeks ago
+ 
+**** vanir:frameworks_av ****
+5f72b22 : soundtrigger: fix memory corruption <Sam Mortimer> 6 days ago
+ 
+**** vanir:frameworks_base ****
+c01919f : Automatic translation import <clyde@build01> 2 days ago
+fddb769 : SystemUI: Fix clock seconds option <Hendrik Hagendorn> 2 days ago
+3438f5f : Automatic translation import <blinky@build01> 3 days ago
+ 
+**** vanir:hardware_samsung ****
+6980858 : consumerir: Move CLEAR_VARS below LOCAL_PATH <Paul Keith> 32 hours ago
+464c0c9 : consumerir: Allow devices to override default configs <Paul Keith> 6 days ago
+ 
+**** cmold:android_kernel_htc_msm8952 ****
+24dc4b2 : net: ping: Fix stack buffer overflow in ping_common_sendmsg() <Siqi Lin> 9 weeks ago
+819ad1d : ASoC: msm: lock read/write when add/free audio ion memory <Walter Yang> 3 months ago
+0b70206 : perf: protect group_leader from races that cause ctx double-free <John Dias> 9 weeks ago
+b97a544 : perf: Fix event->ctx locking <Peter Zijlstra> 1 year, 11 months ago
+a375685 : msm: sensor: validate the i2c table index before use <Suman Mukherjee> 3 months ago
+12bb6e9 : UPSTREAM: arm64: make sys_call_table const <Mark Rutland> 1 year, 11 months ago
+7fea8d4 : UPSTREAM: staging/android/ion : fix a race condition in the ion driver <EunTaik Lee> 10 months ago
+a79ca21 : packet: fix race condition in packet_set_ring <Philip Pettersson> 2 weeks ago
+ 
+**** cmold:android_kernel_htc_msm8994 ****
+2af5dee : msm: HTC: hima: enable RPFILTER <David Hays> 8 days ago
+ 
+**** cmold:lge-kernel-mako ****
+8cfc985 : mako: defconfig: Enable NF_MATCH_RPFILTER <razorloves> 26 hours ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+dbe952c : lowmemorykiller: Account for unevictable pages in vmpressure notifier <myfluxi> 8 days ago
+ 
+**** vanir:platform_manifest ****
+0e97369 : Fork libselinux <nuclearmistake> 29 hours ago
+aba7ffb : Follow new maintainer for Moto Titan <DHOMD> 2 days ago
+ 
+**** vanir:packages_apps_CMParts ****
+5624dd1 : Automatic translation import <clyde@build01> 2 days ago
+0453c25 : cosmetic fix: s/drawwable/drawable/g <Marcos Marado> 34 hours ago
+1557239 : Automatic translation import <blinky@build01> 3 days ago
+ 
+**** vanir:packages_apps_Dialer ****
+dfce8a1 : Automatic translation import <clyde@build01> 2 days ago
+ 
+**** vanir:packages_apps_Messaging ****
+abe1a3f : Automatic translation import <clyde@build01> 2 days ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+42419ca : Automatic translation import <clyde@build01> 2 days ago
+9a66046 : Automatic translation import <blinky@build01> 3 days ago
+ 
+**** vanir:packages_apps_Settings ****
+69ceecd : Automatic translation import <clyde@build01> 2 days ago
+e6ca00a : Automatic translation import <blinky@build01> 3 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Snap ****
+ab3398b : Manual translation import <Abhisek Devkota> 2 days ago
+7b90146 : Automatic translation import <blinky@build01> 3 days ago
+ 
+**** vanir:packages_providers_DownloadProvider ****
+26850ac : Automatic translation import <blinky@build01> 3 days ago
+ 
+**** cm:CyanogenMod/android_packages_services_CMAudioService ****
+b26686e : Automatic translation import <blinky@build01> 3 days ago
+ 
+**** vanir:packages_services_Telephony ****
+203efe5 : Automatic translation import <clyde@build01> 2 days ago
+32c24a3 : Automatic translation import <blinky@build01> 3 days ago
+ 
+**** vanir:system_core ****
+d88fae4 : init: don't skip starting a service with no domain if permissive <William Bellavance> 4 months ago
+ 
+**** vanir:system_sepolicy ****
+919e6c5 : fix denials for rootfs:lnk_file <Hashcode> 2 days ago
+ 
+**** vanir:vendor_asus ****
+845ec5f : flo, deb: commonize blobs <Simon Shields> 4 weeks ago
+ 
+**** cm:CyanogenMod/cm_platform_sdk ****
+3fdfa0f : Automatic translation import <clyde@build01> 2 days ago
+ 
+**** vanir:vendor_huawei ****
+a175a64 : kiwi: Kang rmt_storage from asus/msm8916-common <Christopher R. Palmer> 2 days ago
+d528c8f : kiwi: Clean up /sbin/ and move things to /system/bin <Christopher R. Palmer> 4 days ago
+ 
+**** vanir:vendor_lge ****
+cdefad6 : g4: update liboemcrypto from bullhead for widevine <codeworkx> 31 hours ago
+3e30765 : ls990: Add pn544 firmware <Seth Shelnutt> 4 days ago
+65b3935 : ls990: Remove prebuilt ril <Seth Shelnutt> 7 days ago
+ 
+**** vanir:vendor_motorola ****
+af11edf : Add titan from Muppets <DHOMD> 2 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oppo ****
+7afbe69 : msm8939-common: Update qcom binaries include <Luca Stefani> 9 hours ago
+ 
+**** github:TheMuppets/proprietary_vendor_qcom_binaries ****
+4d4d7ec : graphic: Split msm8916 32 and 64 bit makefiles <Luca Stefani> 15 hours ago
+ 
+**** vanir:vendor_vanir ****
+9485c20 : Remove qcom overlay for experiments <DHOMD> 3 hours ago
+21aa997 : Vanir Titan <DHOMD> 2 days ago
+67b505e : Allow rounds icons, WTF not. <DHOMD> 2 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_yu ****
+6dc7250 : jalebi lettuce tomato: Update qcom binaries include <Luca Stefani> 9 hours ago
+7c43605 : tomato: Add 32-bit perfd client lib <Michael Bestas> 4 days ago
+92e420a : lettuce: Add 32-bit perfd client lib <Michael Bestas> 4 days ago
+9a67b84 : tomato: Use graphics blobs from the shared repo <Michael Bestas> 4 days ago
+f9aa0c4 : lettuce: Use graphics blobs from the shared repo <Michael Bestas> 4 days ago
+3f5fe37 : jalebi: Use graphics blobs from the shared repo <Michael Bestas> 4 days ago
+ 

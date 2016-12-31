@@ -1,0 +1,264 @@
+
+**** vanir:bootable_recovery_twrp ****
+f2e3f0c : Change version to 3.0.3 to support the app release <Ethan Yonker> 2 days ago
+abd0874 : Update Ukraine language translation (via jemmini) <Ethan Yonker> 2 days ago
+b4bff5e : Add TWRP app install via TWRP recovery <Ethan Yonker> 3 days ago
+ 
+**** vanir:build ****
+d848c91 : Build hacks <DHOMD> 10 weeks ago
+fe77467 : envsetup: Split cached vars <Luca Stefani> 10 hours ago
+ 
+**** vanir:device_asus_deb ****
+158f85c : deb: cleanup the tree <Simon Shields> 4 weeks ago
+ 
+**** vanir:device_asus_flo ****
+5bdb6f3 : flo: cleanup the tree <Simon Shields> 5 weeks ago
+ 
+**** cm:CyanogenMod/android_device_htc_hima-common ****
+43e52d9 : hima: Add GraphicBuffer shim for camera <Ethan Chen> 7 weeks ago
+49a3e29 : hima: update CameraParameters for N <Nicholas Flintham> 10 days ago
+72523ba : hima: Update libs for Nougat <David Hays> 3 days ago
+ba1746f : hima-common: Use custom libril <Ethan Chen> 3 months ago
+a709543 : hima-common: Fork libril derived from ril-caf <David Hays> 3 months ago
+1e6a9a8 : hima: Build with sdclang <Rashed Abdel-Tawab> 4 days ago
+55e97ef : hima: Mount carrier partition <Ethan Chen> 4 months ago
+ 
+**** vanir:device_htc_m7-common ****
+044585e : Update misc_partition sepolicy to Nougat <DHOMD> 7 days ago
+ 
+**** cm:CyanogenMod/android_device_huawei_kiwi ****
+06796cf : kiwi: Set Qualcomm Bluetooth SOC ID <Ethan Chen> 11 hours ago
+2e79db1 : kiwi: Tone down VM_BMS <Michael W> 4 weeks ago
+2f1f379 : kiwi: Remove ro.cdma.home.operator.numeric <Christopher R. Palmer> 5 days ago
+6e290de : kiwi: overlay: Update radio_access_families to remove cdma <Christopher R. Palmer> 5 days ago
+67f9591 : TEMPORARY: kiwi: Switch to permissive mode <Christopher R. Palmer> 3 months ago
+ 
+**** cm:CyanogenMod/android_device_oneplus_oneplus3 ****
+393c9e7 : op3: Fix enabled typo <Scott Warner> 2 days ago
+ 
+**** vanir:device_oppo_common ****
+72bcb2d : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** vanir:device_samsung_d2spr ****
+ec3b27d : d2spr: Remove enhanced NFC feature <Zhao Wei Liew> 4 weeks ago
+9e6628a : d2spr: remove dupe full_base_telephony.mk inclusion <Dan Pasanen> 6 weeks ago
+a3db0f3 : d2spr: this isn't maguro... <Dan Pasanen> 6 weeks ago
+ 
+**** vanir:device_samsung_smdk4412-common ****
+bd79ca6 : smdk4412: add missing camera firmware file <Simon Shields> 15 hours ago
+ 
+**** vanir:device_sony_fusion3-common ****
+5436fd0 : fusion3: init: Add mpdecision to readproc group <Varun Garg> 5 weeks ago
+ 
+**** vanir:frameworks_base ****
+996f519 : Automatic translation import <pinky@build01> 23 hours ago
+9850ab1 : Incorrect key object in EphemeralIntentResolver.filterResults <You Kim> 4 days ago
+ef1022a : Automatic translation import <clyde@build01> 3 days ago
+ 
+**** cm:CyanogenMod/android_hardware_qcom_fm ****
+f0dda9e : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** vanir:hardware_samsung ****
+cb48f29 : exynos4: Fix libfimc build <Dominggoes Isakh> 33 hours ago
+ 
+**** cm:CyanogenMod/android_hardware_samsung_slsi-cm_exynos7420 ****
+4d93da6 : gralloc: Be helpful in case of validation failures <Christopher N. Hesse> 2 days ago
+ 
+**** vanir:kernel_moto_shamu ****
+84ad341 : shamu: Update defconfig <Elektroschmock> 14 hours ago
+ec074fd : shamu: Update defconfig <Elektroschmock> 4 weeks ago
+0568e35 : Revert "mdss_mdp_overlay: Change the syfs node from hbm to sre" <Elektroschmock> 8 days ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+875a26b : msm8974: Reserve memory for ramconsole <Steve Kondik> 2 years, 11 months ago
+538c5f8 : kernel: time: fix build <OzzysCmAcc> 2 days ago
+1dbaf00 : Linux 3.4.100 <Greg Kroah-Hartman> 2 years, 5 months ago
+2f798a2 : iommu/vt-d: Disable translation if already enabled <Takao Indoh> 3 years, 8 months ago
+94092d2 : PM / sleep: Fix request_firmware() error at resume <Takashi Iwai> 2 years, 5 months ago
+72a726b : alarmtimer: Fix bug where relative alarm timers were treated as absolute <John Stultz> 2 years, 5 months ago
+2d62350 : drm/radeon: avoid leaking edid data <Alex Deucher> 2 years, 5 months ago
+4132475 : mwifiex: fix Tx timeout issue <Amitkumar Karwar> 2 years, 6 months ago
+a5d7965 : perf/x86/intel: ignore CondChgd bit to avoid false NMI handling <HATAYAMA Daisuke> 2 years, 6 months ago
+1a9b0bd : ipv4: fix buffer overflow in ip_options_compile() <Eric Dumazet> 2 years, 5 months ago
+f7f77e1 : dns_resolver: Null-terminate the right string <Ben Hutchings> 2 years, 5 months ago
+270a44a : dns_resolver: assure that dns_query() result is null-terminated <Manuel Schölling> 2 years, 6 months ago
+b37364d : sunvnet: clean up objects created in vnet_new() on vnet_exit() <Sowmini Varadhan> 2 years, 5 months ago
+8eff41e : net: pppoe: use correct channel MTU when using Multilink PPP <Christoph Schulz> 2 years, 5 months ago
+1026bd5 : net: sctp: fix information leaks in ulpevent layer <Daniel Borkmann> 2 years, 5 months ago
+603beb6 : tipc: clear 'next'-pointer of message fragments before reassembly <Jon Paul Maloy> 2 years, 5 months ago
+2f02e30 : be2net: set EQ DB clear-intr bit in be_open() <Suresh Reddy> 2 years, 5 months ago
+6b5aece : appletalk: Fix socket referencing in skb <Andrey Utkin> 2 years, 5 months ago
+fd1dd08 : tcp: fix false undo corner cases <Yuchung Cheng> 2 years, 6 months ago
+0799877 : igmp: fix the problem when mc leave group <dingtianhong> 2 years, 6 months ago
+ca92ccf : 8021q: fix a potential memory leak <Li RongQing> 2 years, 6 months ago
+f4a275b : tcp: fix tcp_match_skb_to_sack() for unaligned SACK at end of an skb <Neal Cardwell> 2 years, 6 months ago
+8f954bb : shmem: fix splicing from a hole while it's punched <Hugh Dickins> 2 years, 5 months ago
+4924f6e : shmem: fix faulting into a hole, not taking i_mutex <Hugh Dickins> 2 years, 5 months ago
+d5f4aad : shmem: fix faulting into a hole while it's punched <Hugh Dickins> 2 years, 6 months ago
+29279fa : crypto: testmgr - update LZO compression test vectors <Markus F.X.J. Oberhumer> 4 years, 2 months ago
+59d7e36 : Linux 3.4.99 <Greg Kroah-Hartman> 2 years, 5 months ago
+c7816cb : ACPI / battery: Retry to get battery information if failed during probing <Lan Tianyu> 2 years, 5 months ago
+ac14fa0 : x86, ioremap: Speed up check for RAM pages <Roland Dreier> 2 years, 8 months ago
+cae6bd2 : rtmutex: Plug slow unlock race <Thomas Gleixner> 2 years, 6 months ago
+eb4f166 : rtmutex: Handle deadlock detection smarter <Thomas Gleixner> 2 years, 7 months ago
+2db6465 : rtmutex: Detect changes in the pi lock chain <Thomas Gleixner> 2 years, 7 months ago
+e23ef1d : rtmutex: Fix deadlock detector for real <Thomas Gleixner> 2 years, 7 months ago
+58f8732 : tracing: Remove ftrace_stop/start() from reading the trace file <Steven Rostedt (Red Hat)> 2 years, 6 months ago
+1285917 : drm/radeon: stop poisoning the GART TLB <Christian König> 2 years, 7 months ago
+fa992f4 : ext4: clarify error count warning messages <Theodore Ts'o> 2 years, 5 months ago
+68126f2 : powerpc/perf: Never program book3s PMCs with values >= 0x80000000 <Anton Blanchard> 2 years, 7 months ago
+51d3078 : hwmon: (adm1029) Ensure the fan_div cache is updated in set_fan_div <Axel Lin> 2 years, 6 months ago
+3ce49a6 : hwmon: (amc6821) Fix permissions for temp2_input <Axel Lin> 2 years, 6 months ago
+b51cec3 : cpuset,mempolicy: fix sleeping function called from invalid context <Gu Zheng> 2 years, 6 months ago
+cf6f031 : USB: ftdi_sio: Add extra PID. <Bert Vermeulen> 2 years, 5 months ago
+fad057d : USB: cp210x: add support for Corsair usb dongle <Andras Kovacs> 2 years, 6 months ago
+719deea : usb: option: Add ID for Telewell TW-LTE 4G v2 <Bernd Wachter> 2 years, 6 months ago
+a96c34f : Linux 3.4.98 <Greg Kroah-Hartman> 2 years, 5 months ago
+8dc9be9 : mm: fix crashes from mbind() merging vmas <Hugh Dickins> 2 years, 6 months ago
+1af2c05 : hugetlb: fix copy_hugetlb_page_range() to handle migration/hwpoisoned entry <Naoya Horiguchi> 2 years, 6 months ago
+f0ac72a : powerpc/sysfs: Disable writing to PURR in guest mode <Madhavan Srinivasan> 3 years, 3 months ago
+6980910 : ACPI video: ignore BIOS backlight value for HP dm4 <Gustavo Maciel Dias Vieira> 3 years, 10 months ago
+ffaab00 : powerpc/pseries: Duplicate dtl entries sometimes sent to userspace <Anton Blanchard> 3 years, 1 month ago
+ab996bb : powerpc/pseries/lparcfg: Fix possible overflow are more than 1026 <Chen Gang> 3 years, 8 months ago
+ 
+**** github:CyanogenMod/android_kernel_xiaomi_cancro ****
+a8769c5 : BACKPORT: ion: fix a race condition in the ion driver <Eun Taik Lee> 6 days ago
+799d4b1 : ASoC: msm: qdsp6v2: Change audio drivers to use %pK <Ben Romberger> 7 months ago
+f0e4118 : usb: gadget: f_mbim: Change %p to %pK in debug messages <Min Chong> 9 weeks ago
+e86a873 : netfilter: Change %p to %pK in debug messages <Min Chong> 9 weeks ago
+70063ca : drivers: video: Add bounds checking in fb_cmap_to_user <Steve Pfetsch> 9 weeks ago
+520db3c : msm: mdss: hide kernel addresses from unprevileged users <Abhijit Kulkarni> 9 hours ago
+76976a9 : net: ping: Fix stack buffer overflow in ping_common_sendmsg() <Siqi Lin> 9 weeks ago
+991bda4 : perf: protect group_leader from races that cause ctx double-free <John Dias> 10 weeks ago
+650da5d : BACKPORT: lockdep: Silence warning if CONFIG_LOCKDEP isn't set <Paul Bolle> 3 years, 11 months ago
+c344230 : BACKPORT: perf: Fix event->ctx locking <Ariel Yin> 10 weeks ago
+458acf9 : BACKPORT: perf: Introduce perf_pmu_migrate_context() <Yan, Zheng> 4 years, 6 months ago
+84ab5ca : BACKPORT: perf: Allow the PMU driver to choose the CPU on which to install events <Yan, Zheng> 4 years, 6 months ago
+e11ab3b : msm: sensor: validate the i2c table index before use <Suman Mukherjee> 3 months ago
+ 
+**** vanir:platform_manifest ****
+3aa1b37 : Revert "Togari +/- GPE" <DHOMD> 4 hours ago
+f348ba9 : Revert "Dupes" <DHOMD> 4 hours ago
+d030b1b : Revert Togari <DHOMD> 4 hours ago
+ff315c4 : FIx Nikki <DHOMD> 4 hours ago
+f31ada8 : Dupes <DHOMD> 4 hours ago
+9b9b201 : Togari +/- GPE <DHOMD> 4 days ago
+7c6e85b : Clark <DHOMD> 4 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_AudioFX ****
+0726d88 : Automatic translation import <pinky@build01> 23 hours ago
+c5a438a : Automatic translation import <clyde@build01> 3 days ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+794758b : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Browser ****
+ebd2f7d : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** vanir:packages_apps_CMParts ****
+13b5289 : Automatic translation import <pinky@build01> 23 hours ago
+40f2173 : Automatic translation import <clyde@build01> 3 days ago
+ 
+**** vanir:packages_apps_Calendar ****
+c0d86c2 : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** vanir:packages_apps_Camera2 ****
+f6e4362 : camera2: Ask for PREVENT_POWER_KEY, not PREVENT_SYSTEM_KEYS permission <Christopher R. Palmer> 28 hours ago
+ 
+**** vanir:packages_apps_CellBroadcastReceiver ****
+3f413e4 : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** vanir:packages_apps_Dialer ****
+2f80083 : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** vanir:packages_apps_LockClock ****
+577bda2 : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** vanir:packages_apps_Messaging ****
+393d94a : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+2fe8914 : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Profiles ****
+5187937 : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Screencast ****
+7e5714a : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** vanir:packages_apps_Settings ****
+1001978 : SimSettings: avoid NPE <Marcos Marado> 3 weeks ago
+bd868c6 : Automatic translation import <pinky@build01> 23 hours ago
+4ab20b5 : Automatic translation import <clyde@build01> 3 days ago
+ 
+**** cm:CyanogenMod/android_packages_apps_Snap ****
+8462b44 : Automatic translation import <pinky@build01> 23 hours ago
+51281be : Automatic translation import <clyde@build01> 3 days ago
+ 
+**** vanir:packages_apps_soundrecorder ****
+45a9e20 : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** vanir:packages_apps_ThemeChooser ****
+2a27b9b : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** vanir:packages_apps_Trebuchet ****
+c9637ec : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** cm:CyanogenMod/android_packages_providers_DataUsageProvider ****
+6a6307d : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** vanir:packages_providers_DownloadProvider ****
+a328ecb : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** cm:CyanogenMod/android_packages_providers_WeatherProvider ****
+1d663e0 : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** cm:CyanogenMod/android_packages_services_CMAudioService ****
+ccdac6b : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** cm:CyanogenMod/android_packages_services_LiveLockScreenService ****
+c1b207e : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** vanir:packages_services_Telecomm ****
+4b2c1a6 : Fix incorrect key in Maps <You Kim> 4 days ago
+ 
+**** vanir:packages_services_Telephony ****
+a5ebfa7 : Automatic translation import <pinky@build01> 23 hours ago
+a934a52 : Automatic translation import <clyde@build01> 3 days ago
+ 
+**** cm:CyanogenMod/android_packages_services_ThemeManagerService ****
+b7255ae : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** cm:CyanogenMod/android_packages_services_WeatherService ****
+8286a31 : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** vanir:system_bt ****
+69d13f7 : Bluetooth: silence logspam <Alexander Martinz> 4 days ago
+ 
+**** cm:CyanogenMod/cm_platform_sdk ****
+1b312ad : Automatic translation import <pinky@build01> 23 hours ago
+ 
+**** commotio:commotio ****
+5bd4126 : VpnDialogs <DHOMD> 3 hours ago
+634a046 : Clark <DHOMD> 3 hours ago
+92c13c1 : Rework abd logging <DHOMD> 3 hours ago
+ 
+**** github:TheMuppets/proprietary_vendor_google ****
+a850d44 : seed: Include 32 bit graphic libs <Arvin Quilao> 3 days ago
+3167e15 : seed: Regenerate makefiles <Arvin Quilao> 3 days ago
+c438f70 : seed: Cleanup proprietary files list <Michael Bestas> 4 days ago
+ 
+**** vanir:vendor_htc ****
+b02289b : hima-common: Update to N libraries <David Hays> 5 days ago
+ 
+**** vanir:vendor_motorola ****
+133dc92 : Clark from the Muppets <DHOMD> 4 hours ago
+ 
+**** vanir:vendor_samsung ****
+313dde5 : galaxys2-common: Use opensource libfimc <Dominggoes Isakh> 33 hours ago
+ 
+**** vanir:vendor_vanir ****
+44a3bbc : Clark <DHOMD> 2 hours ago
+64c5f8d : webview_packages: fix incorrect signatures <Alex Naidis> 5 days ago
+295e8f0 : Fix bootanimation size for devices that abuse PRODUCT_COPY_FILES <nuclearmistake> 2 days ago
+ 
