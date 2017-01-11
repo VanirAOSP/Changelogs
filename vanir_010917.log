@@ -1,0 +1,99 @@
+
+**** vanir:build ****
+20aafbd : Build hacks <DHOMD> 3 months ago
+ 
+**** vanir:device_asus_deb ****
+25c5951 : deb: remove lteOnCdmaDevice from system.prop <Kasual> 9 days ago
+ 
+**** vanir:device_google_marlin ****
+ab53c0a : marlin: Compile GPS HAL from hardware/qcom/gps <Ethan Chen> 21 hours ago
+45ebb85 : marlin: Proprietary camera libraries depend on libion <Ethan Chen> 26 hours ago
+a81f711 : marlin: add proprietary files <Dan Pasanen> 11 days ago
+4eec409 : marlin: copy audio_effects.conf to audio_effects_vendor.conf <Dan Pasanen> 30 hours ago
+79d7b1e : marlin: use msm8996 for power hal name <Dan Pasanen> 3 days ago
+f8373bb : marlin: include ffmpeg codecs <Dan Pasanen> 2 days ago
+ 
+**** cm:LineageOS/android_device_htc_pme ****
+e787f28 : pme: fingerprint: Identify ourselves as the current fpc device version <Christopher R. Palmer> 14 hours ago
+efc6ceb : pme: fingerprint: Load M HAL if loading the current HAL fails <Christopher R. Palmer> 14 hours ago
+41621ec : pme: proprietary: Add M fingerprint blobs <Christopher R. Palmer> 15 hours ago
+ef87325 : pme: Add compatibility for version 2.0 fingerprint enumeration <Christopher R. Palmer> 35 hours ago
+65d7ef9 : pme: Use the fingerprint wrapper HAL <Christopher R. Palmer> 2 days ago
+592ade0 : pme: Add a dummy fingerprint wrapper HAL <Christopher R. Palmer> 2 days ago
+dc9d8ef : pme: Switch to a source built fingerprintd <Christopher R. Palmer> 22 hours ago
+bd8fa8d : Truly fix network name for CDMA devices <Tab Fitts> 5 days ago
+ 
+**** vanir:device_huawei_angler ****
+0f05f29 : I need a quieter lawn mover or a louder phone <DHOMD> 12 days ago
+9c2e5b8 : Update IMS paths in init.angler <DHOMD> 4 weeks ago
+ 
+**** vanir:device_huawei_kiwi ****
+51aa52c : kiwi: Add compatibility for version 2.0 fingerprint enumeration <Christopher R. Palmer> 35 hours ago
+7653b55 : kiwi: Use the fingerprint wrapper HAL <Christopher R. Palmer> 2 days ago
+7a4263a : kiwi: Add a dummy fingerprint wrapper HAL <Christopher R. Palmer> 2 days ago
+7b799db : kiwi: init: Add readproc for signinfolistener <Christopher R. Palmer> 33 hours ago
+5d426c9 : kiwi: Declare that we have a fingerprint sensor <Christopher R. Palmer> 35 hours ago
+52a2597 : kiwi: init: Move all the way to C++, not half way there <Christopher R. Palmer> 3 days ago
+ 
+**** vanir:device_lge_bullhead ****
+62bf29c : bullhead: squash: add extract-files <dcd> 3 months ago
+ 
+**** vanir:device_lge_d803 ****
+63b49c2 : d803: rebrand <Nikola Majkić> 8 hours ago
+ 
+**** vanir:device_moto_shamu ****
+995f275 : shamu: Update fingerprint to N6F26Q <Elektroschmock> 29 hours ago
+1ad2f32 : shamu: add CarrierServices.apk <Elektroschmock> 29 hours ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+232b3ab : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 7 weeks ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+0e511db : allow bootanim sysfs_socinfo:file r_file_perms; <DHOMD> 5 hours ago
+ 
+**** vanir:device_xiaomi_armani ****
+da2fa54 : armani: Rebrand to LineageOS <fefifofum> 11 days ago
+c4c4ec9 : armani: power: update powerhal <hemantbeast> 3 weeks ago
+ 
+**** cm:LineageOS/android_hardware_samsung_slsi-cm_exynos ****
+088184f : hwc: Introduce HWC 1.4 <Christopher N. Hesse> 6 days ago
+ 
+**** cmold:android_kernel_htc_flounder ****
+717090a : gpu: nvgpu: gk20a: wrap debug session as optional <Xia Yang> 9 weeks ago
+78c92d7 : net: wireless: bcmdhd: fix overrun in dhd_pno_set_cfg_gscan <Insun Song> 9 weeks ago
+22a5a2f : input: synaptics_dsx: add update bounds checks. <Andrew Chant> 8 weeks ago
+99a3450 : net: wireless: bcmdhd: fix buffer overrun in wl_cfgvendor_hotlist_cfg <Insun Song> 10 weeks ago
+8353016 : net: wireless: bcmdhd: Fix up the BRCM wifi DHD code <Sudhir Kohalli> 2 months ago
+f6bfb80 : net: wireless: bcmdhd: fix buffer overrun in private command path <Insun Song> 3 months ago
+ab21147 : net: wireless: bcmdhd: fix buffer overrun in anqpo config <Insun Song> 9 weeks ago
+d237fba : nvmap_ioctl_pinop failure to initialize addr field <Peter Pi> 8 weeks ago
+8aa87ee : video: tegra: host: Add submit checks <Mikko Perttunen> 3 months ago
+5d5095d : ALSA: info: Check for integer overflow in snd_info_entry_write() <Siqi Lin> 10 weeks ago
+38b7b94 : perf: don't leave group_entry on sibling list (use-after-free) <John Dias> 9 weeks ago
+2190da5 : media: tegra: nvavp: Fix UAF issue. <Jitendra Kumar> 3 months ago
+e85b751 : video: tegra: nvmap: fix nvmap create handle vulnerability <Krishna Reddy> 9 weeks ago
+e7c1f64 : tegra: information leak in GET_STATUS ioctl command <Peter Pi> 9 weeks ago
+b6dea2e : gpu: nvgpu: fix crash in gk20a_channel_release <Aingara Paramakuru> 2 years, 4 months ago
+11603a5 : video: tegra: host: Protect channel ioctl <Arto Merilainen> 2 years, 3 months ago
+fd89df9 : video: tegra: host: Prevent the race between channel open and close <Gagan Grover> 10 weeks ago
+ca04323 : video: tegra: nvmap: Fix OOB vulnerability <Xia Yang> 9 weeks ago
+4af032a : net: wireless: bcmdhd: Heap over write in dhdmsgbuf_query_ioctl <Ram Sripathi> 9 weeks ago
+ 
+**** vanir:packages_apps_CMParts ****
+9b59f27 : CMStats: use new server-side API <Simon Shields> 12 days ago
+ 
+**** vanir:packages_apps_Settings ****
+06a8fb4 : Sim-Settings: Don't allow empty sim name <Michael W> 4 days ago
+ 
+**** vanir:packages_services_Telephony ****
+ebdfcc3 : Telephony: Number of slot should start with 1 <Michael W> 6 days ago
+ 
+**** vanir:vendor_vanir ****
+c490ed2 : Experimental substratium picker <DHOMD> 11 days ago
+3dbd093 : extract_utils: Introduce variable INITIAL_COPYRIGHT_YEAR <Matt Mower> 2 days ago
+2933a48 : http_prebuilt: Implement archive of artifacts <Brandon McAnsh> 10 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_xiaomi ****
+3a716d4 : ido: Update blobs from latest release <Anik1199> 14 hours ago
+fbba8da : ido: Use graphics blobs from the shared repo <Anik1199> 7 days ago
+ 
