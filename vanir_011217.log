@@ -1,1 +1,169 @@
 
+**** vanir:bootable_recovery_twrp ****
+7dde36d : updater: link libcrypto_utils_static if it exist <sndnvaps> 3 months ago
+1c28904 : libtar: Use relative path for crypto/ext4crypt include <D. Andrei Măceș> 4 weeks ago
+ 
+**** vanir:build ****
+29fc867 : Build hacks <DHOMD> 3 months ago
+9cc8774 : Revert "build: Enable custom ccache cache dir for Android" <Matt Mower> 2 days ago
+ 
+**** vanir:device_htc_m7-common ****
+dd396cb : Revert "m7-common: Enable sdcardFS" <Dan Pasanen> 35 hours ago
+645d4a3 : m7-common: Add selabel to encryptable device <Matt Mower> 21 hours ago
+ 
+**** vanir:device_htc_msm8960-common ****
+f67acf9 : msm8960-common: Use RIL version 10 <Matt Mower> 5 days ago
+5cace5b : msm8960-common: Update libril from ril-caf <Matt Mower> 5 days ago
+f4b7cd8 : msm8960-common: Use caf RIL variant <Matt Mower> 5 days ago
+ 
+**** cm:LineageOS/android_device_htc_pme ****
+864fc32 : pme: Changed gps capabilities to work with Sprint <Tab Fitts> 2 days ago
+e0c700e : pme: Allow sprint devices to use a sprint specific gps.conf <Christopher R. Palmer> 35 hours ago
+ 
+**** vanir:device_htc_s4-common ****
+b0942d4 : Revert "s4-common: use Snap camera app" <Matt Mower> 4 hours ago
+bafcde3 : s4-common: Rebrand to LineageOS <Matt Mower> 25 hours ago
+0859e6c : s4-common: Add selabel to encryptable device <Matt Mower> 21 hours ago
+ 
+**** vanir:device_huawei_angler ****
+885e5fa : I need a quieter lawn mover or a louder phone <DHOMD> 2 weeks ago
+c80a7e0 : Update IMS paths in init.angler <DHOMD> 4 weeks ago
+ 
+**** vanir:device_huawei_kiwi ****
+664063a : kiwi: audio: Disable AUDIO_FEATURE_ENABLED_NEW_SAMPLE_RATE <Christopher R. Palmer> 4 days ago
+44b3217 : kiwi: keylayout: Fix gpio-keys <Christopher R. Palmer> 2 weeks ago
+c85800b : kiwi: Configure adj_max_shift for lmk <Christopher R. Palmer> 28 hours ago
+225f1ed : Revert "TEMPORARY: kiwi: Switch to permissive mode" <Christopher R. Palmer> 3 days ago
+bc7039a : kiwi: sepolicy: Allow ashmem shrinker to work <Christopher R. Palmer> 28 hours ago
+5cfd77e : kiwi: sepolicy: Clean up the file_contexts <Christopher R. Palmer> 2 days ago
+7ce40ad : kiwi: sepolicy: Fix oeminfo denials <Christopher R. Palmer> 3 days ago
+642162d : kiwi: Move services from /sbin/ to /system/bin/ <Christopher R. Palmer> 2 days ago
+bac2cde : kiwi: sepolicy: Allow access to /proc/app_info where needed <Christopher R. Palmer> 2 days ago
+fe398e3 : kiwi: sepolicy: Fix "ro." properties for N <Christopher R. Palmer> 2 days ago
+91210e0 : kiwi: sepolicy: Update SELinux for N <aphisitworachorch> 3 days ago
+ 
+**** vanir:device_motorola_falcon ****
+2378e71 : Revert "falcon: Add a CDMA specific APN list" <Gabriele M> 7 weeks ago
+ 
+**** cm:LineageOS/android_device_motorola_maserati ****
+ab285d6 : maserati: rebrand to lineage <Michael Gernoth> 2 days ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+92207cc : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 8 weeks ago
+ 
+**** vanir:device_qcom_common ****
+f666741 : Revert "extractors: Update msm8996 graphics blobs info" <Dan Pasanen> 11 hours ago
+8db80fa : Revert "extractors: Add msm8996 32bit libmm-disp-apis and libmm-qdcm" <Dan Pasanen> 11 hours ago
+ 
+**** vanir:device_samsung_klte-common ****
+2575fdf : klte-common: Fix file contexts related to our telephony symlink mess <Kevin F. Haggerty> 7 days ago
+ 
+**** vanir:device_samsung_kona-common ****
+831ec8a : reconcile <nuclearmistake> 23 hours ago
+062c385 : kona : allow access to proc/cmdline <Roberto Gibellini> 27 hours ago
+0dc6ff3 : kona : allow text relocations <Roberto Gibellini> 29 hours ago
+ 
+**** vanir:frameworks_base ****
+e9e364a : policy: Long-press power while display is off for torch <beanstown106> 12 months ago
+9c350cf : EasterEgg: We like norse cats <PMS22> 4 weeks ago
+24bb6b4 : Update APIs for building aapt aaot <DHOMD> 9 days ago
+54f4e66 : OMS7-N: ApplicationsState: add filter for Substratum icon overlays [1/2] <Kuba Schenk> 6 weeks ago
+3669db7 : Revert "N-Extras: Add dynamic theme BootAnimation support" <DHOMD> 9 days ago
+6bd9692 : Likely break things to fix substratum builds <DHOMD> 2 weeks ago
+7b6eee5 : OMS: Introduce MODIFY_OVERLAYS permission for user apps <bigrushdog> 4 weeks ago
+6cc4d1a : Themes: Expose QS battery <Abdulwahab Isam> 3 months ago
+e462692 : OMS7-N: ApplicationsState: add filter for Substratum overlays [1/2] <George G> 6 months ago
+bbd2deb : N-Extras: AudioService: Allow system effect sounds to be themed <Nicholas Chum> 6 months ago
+6a2738b : N-Extras: Add dynamic theme fonts support <0xD34D> 7 months ago
+b534cf9 : N-Extras: Add dynamic theme BootAnimation support <0xD34D> 7 months ago
+9ce9735 : SystemUI: Use own drawables for QS expand icon <Ivan Iskandar> 6 weeks ago
+47e1a43 : OMS7 compatible 'Ambient notification inversion' <George G> 9 weeks ago
+2013b46 : Allow prevention of doze notification color inversion <Daniel Koman> 1 year, 9 months ago
+4a80d4b : Notification dynamic colors bool compatible with OMS7 <George G> 9 weeks ago
+2b2e81f : Notifications: Expose a bool to disable dynamic colors <Nicholas Chum> 5 months ago
+7d3d050 : Themes: Expose various QuickSettings text colors <Niklas Schnettler (Sh4dowSoul)> 3 months ago
+9236596 : Allow custom alpha for notification shade bg color <Simao Gomes Viana> 7 weeks ago
+792995a : SystemUI: Expose QS edit item decoration background color <Ivan Iskandar> 4 months ago
+31e5ffc : Themes: Allow Navbar ripple color to be themed <Dave Kover> 9 months ago
+1601c14 : Themes: Allow Permission Icons to be fully themed <Nicholas Chum> 1 year, 2 months ago
+bed0d7d : Themes: Allow Immersive cling colors to be fully themed <Nicholas Chum> 1 year, 2 months ago
+8cde51f : Themes: Expose resolver hardcoded colors <Dave Kover> 5 weeks ago
+5efeadf : OMS7-N: Implement multi-target enable/disable and disable-all [11/11] <Jacob McSwain> 7 months ago
+6a3a327 : OMS7-N: Do not enforce code policy limiting overlay installation [10/11] <Nicholas Chum> 3 months ago
+e67cbde : OMS7-N: Persistence on boot through OverlayManagerServiceImpl [9/11] <Nicholas Chum> 7 months ago
+1999b63 : OMS7-N: Disable Zygote preloaded drawables [8/11] <Josh Guilfoyle> 6 years ago
+2c624ce : OMS7-N: installd: add command 'rmidmap' [7/11] <Mårten Kongstad> 8 months ago
+eae8384 : OMS7-N: Fix memory leak during idmap creation [6/11] <Mårten Kongstad> 8 months ago
+5c865a6 : OMS7-N: idmap: suppress print for padded resources [5/11] <Mårten Kongstad> 11 months ago
+5026094 : OMS7-N: Set EXTRA_REPLACING correctly in ACTION_PACKAGE_ADDED [4/11] <Mårten Kongstad> 9 months ago
+0812daa : OMS7-N: Integrate OverlayManagerService into framework [3/11] <Mårten Kongstad> 8 months ago
+ad4f101 : OMS7-N: Introduce the OverlayManagerService [2/11] <Mårten Kongstad> 1 year, 1 month ago
+a01af2a : OMS7-N: Support tagging resources as OK to overlay [1/11] <Mårten Kongstad> 1 year, 1 month ago
+ 
+**** vanir:frameworks_native ****
+8be0608 : OMS-N: installd: add command 'rmidmap' <Mårten Kongstad> 1 year, 1 month ago
+45fdfdd : OMS7-N: installd: add command 'rmidmap' <Mårten Kongstad> 1 year, 1 month ago
+ 
+**** cmold:android_kernel_huawei_kiwi ****
+794acde : kiwi: lmk: Expose adj_max_shift <Christopher R. Palmer> 28 hours ago
+ 
+**** vanir:platform_manifest ****
+b68bd33 : Fork cmsdk prebuilts <nuclearmistake> 12 hours ago
+ 
+**** vanir:packages_apps_Contacts ****
+e969e04 : Themes: Expose hardcoded layout and styles colors <beanstown106> 1 year, 2 months ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+8287180 : Themes: Expose hardcoded contact tile text colors <bgill55> 2 years ago
+ 
+**** vanir:packages_apps_Dialer ****
+c473e37 : Themes: InCallUI dialpad digits color <George G> 8 weeks ago
+91e510e : Themes: Separate background color from text color <Alex Cruz> 8 months ago
+ 
+**** vanir:packages_apps_Email ****
+592c2e3 : Revert "Add account" <Dan Pasanen> 10 hours ago
+ 
+**** vanir:packages_apps_ExactCalculator ****
+52de819 : Themes: Expose all elevations <Abdulwahab Isam> 4 months ago
+5fb9c66 : Themes: Expose hard coded background in java <Bryan Owens> 1 year ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+45cd17c : Themes: Make dialpad seperator line theme-able <Thyrus11> 1 year, 11 months ago
+ 
+**** vanir:packages_apps_Settings ****
+ac8bd97 : Expose color for external settings icons <Clark Scheff> 3 weeks ago
+8ad6074 : Hide the "show/hide overlays" when no overlay installed <Ivan Iskandar> 4 weeks ago
+0cd5916 : Exclude overlays from the app counter <Ivan Iskandar> 5 weeks ago
+ea40b89 : OMS7-N: Apps: show/hide Substratum icon overlays [2/2] <Kuba Schenk> 6 weeks ago
+6b6b9e8 : OMS7-N: Apps: show/hide Substratum overlays [2/2] <George G> 6 months ago
+63634ad : Settings: Expose LinearColorBar default colors <SpiritCroc> 5 weeks ago
+eb04bde : Settings: Expose storage icon colors <SpiritCroc> 5 weeks ago
+dad0be1 : Settings: Expose gesture settings switchbar <daveyannihilation> 7 weeks ago
+7d1ed0e : Settings: Expose storage summary text <George G> 1 year, 2 months ago
+4bff13c : Settings: Expose condition card colors <daveyannihilation> 4 months ago
+cbfb5d5 : Settings: Expose dashboard category and tile color <Ivan Iskandar> 4 months ago
+ 
+**** cm:LineageOS/android_packages_apps_Snap ****
+69b66d2 : Fix camera controls rotation. <Danny Baumann> 4 days ago
+2876bc5 : Snap: Replace strings <Michael W> 10 hours ago
+acd2288 : Snap: Fix whitespace issues <Michael W> 34 hours ago
+70cf903 : Snap: Fix untranslatable strings <Michael W> 34 hours ago
+ 
+**** vanir:system_sepolicy ****
+74a17c4 : OMS-N: Add service 'overlay' to service_contexts <Mårten Kongstad> 1 year, 7 months ago
+ecce491 : OMS7-N: Add service 'overlay' to service_contexts <Mårten Kongstad> 1 year, 7 months ago
+ 
+**** vanir:vendor_cmsdk ****
+f004aa7 : CMSDK: Add long-press power for torch CMSetting <Zhao Wei Liew> 8 weeks ago
+ 
+**** vanir:vendor_huawei ****
+a83c9bd : kiwi: Move services from /sbin/ to /system/bin/ <Christopher R. Palmer> 2 days ago
+dfb5d18 : kiwi: Use a fingerprint HAL wrapper <Christopher R. Palmer> 4 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_qcom_binaries ****
+dde8fac : Revert "msm8996: graphics: Add 32bit libmm-disp-apis and libmm-qdcm" <Dan Pasanen> 11 hours ago
+4eba500 : Revert "msm8996: graphics: Update from display.lnx.3.0.r9-rel" <Dan Pasanen> 11 hours ago
+ 
+**** vanir:vendor_vanir ****
+ddf77ed : apns: Update H2O Wireless <Matt Mower> 2 days ago
+ 
