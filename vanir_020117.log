@@ -1,4 +1,56 @@
 
+**** vanir:art ****
+1117c3b : Refactor and optimize memory region bit functions <Mathieu Chartier> 7 days ago
+42dcb05 : Avoid accessing the heap without mutator lock in Monitor::Lock. <Hiroshi Yamauchi> 7 days ago
+97db3e0 : ART: Give JIT thread pool workers a peer <Andreas Gampe> 8 days ago
+d0b1cea : ART: Add ThreadPool mode that creates peers <Andreas Gampe> 8 days ago
+e3c3ee3 : Clean up some includes. <Vladimir Marko> 5 months ago
+706a965 : Recognize XOR-based periodic induction. <Aart Bik> 4 months ago
+3eaed2b : dex2oat: fix Watchdog timeout by Clock jump <liulvping> 2 weeks ago
+ba0a1a7 : Enable inlining of throwers. <Yevgeny Rouban> 10 months ago
+1234c0c : Inline and optimize interface calls. <Nicolas Geoffray> 7 months ago
+837fcf3 : Add a new control flow simplifier. <Nicolas Geoffray> 7 months ago
+adeba48 : add missing include <Wolfgang Wiedmeyer> 1 year, 1 month ago
+3e4ff14 : ART: Fix missing include <Andreas Gampe> 11 months ago
+c371206 : A first implementation of a loop optimization framework. <Aart Bik> 5 months ago
+298ef2d : Make static helper methods member functions of OptimizingCompiler class <Wojciech Staszkiewicz> 6 months ago
+ef882cf : Fixes and cleaning for test/458-checker-instruction-simplification. <Alexandre Rames> 7 months ago
+9ac2e36 : Rename current register allocator implementation <Matthew Gharrity> 7 months ago
+7373803 : Refactor SSA deconstruction into its own class <Matthew Gharrity> 7 months ago
+6e18d2c : Minor induction variable analysis changes. <Aart Bik> 5 months ago
+b2f6c36 : Added ability to generate last-value of linear induction. <Aart Bik> 5 months ago
+b71dad2 : Combine offsets in loop-based dynamic BCE. <Aart Bik> 7 months ago
+924725b : Make LinearizeGraph() public (and move it to nodes files) <Aart Bik> 5 months ago
+42986c2 : Create a typedef for HInstruction::GetInputs() return type. <Vladimir Marko> 8 months ago
+815abf8 : Fix arena allocation counting. <Vladimir Marko> 6 weeks ago
+243660c : art: force enable of heap poisoning <mydongistiny> 3 weeks ago
+3e012a9 : ARM64: Clean-up and extend the supported cpu_variant list. <Serban Constantinescu> 3 months ago
+d1fa9d4 : ARM: Update `ArmInstructionSetFeatures` to track ARMv8-A. <Serban Constantinescu> 3 months ago
+0073afc : ARM: Instruction set features clean-up. <Serban Constantinescu> 3 months ago
+a961246 : Remove the unused SMP instruction set feature option. <Serban Constantinescu> 4 months ago
+0eb87c2 : MIPS32: Fix MipsInstructionSetFeatures::FromVariant() <Alexey Frunze> 7 months ago
+af9cc84 : ART: Change InstructionSetFeatures to return unique_ptr <Andreas Gampe> 2 years, 1 month ago
+b8c92b4 : X86/X86_64: Switch to locked add from mfence <Mark Mendell> 1 year ago
+a1d10d7 : ART: Report cputime in dex2oat <Andreas Gampe> 2 years, 7 months ago
+48357a9 : ART: Change return types of field access entrypoints <Andreas Gampe> 7 months ago
+bba6a2b : Use delete/delete[] rather than free/realloc in tracedump <David Sehr> 9 months ago
+c400dc9 : Prune uses library classes even without profile <Mathieu Chartier> 6 months ago
+0663c38 : Fix a race condition on GC timing logger data. <Hiroshi Yamauchi> 5 months ago
+2ebabd5 : Ensure we get a ProfilingInfo object before compiling. <Nicolas Geoffray> 8 months ago
+da646e7 : ART: Print jit memory use only if we have samples <Pavel Vyssotski> 9 months ago
+b4e02e4 : Load devirtualized methods directly in JIT mode <Anton Shamin> 7 months ago
+8dc1f56 : Initialize Heap's collector pointers to null. <Vladimir Marko> 6 months ago
+971bc85 : Tune the GC ergnomics for the read barrier config. <Hiroshi Yamauchi> 7 months ago
+344b297 : Add support for CallKind::kCallOnMainAndSlowPath <Serban Constantinescu> 11 months ago
+d2e82ff : ART: Remove redundant MoveInstructionBefore method <David Brazdil> 8 months ago
+fe93778 : More store/allocation elimination for singletons in case of loops <Mingyao Yang> 4 months ago
+226f84c : Use art::Atomic for CopyObject <Mathieu Chartier> 4 months ago
+4e5e0d4 : Use word copying for CopyObject <Mathieu Chartier> 4 months ago
+7716786 : ARM: Shorter fast-path for read barrier field load. <Vladimir Marko> 7 months ago
+e1048a9 : Fixed NeedsEnvironment() <Yevgeny Rouban> 6 months ago
+0655a49 : Rename kCall to kCallOnMainOnly <Serban Constantinescu> 7 months ago
+3fbf2bf : ART: Remove vestiges of GCC <Andreas Gampe> 5 months ago
+ 
 **** vanir:build ****
 4711c3d : Build hacks <DHOMD> 4 months ago
  
@@ -6,12 +58,12 @@
 3a8466b : Flo: build with SDCLANG <David Marble> 5 weeks ago
  
 **** cm:LineageOS/android_device_cyanogen_msm8916-common ****
-939bb03 : Revert "init: add base includes" <NeoDarkness> 21 hours ago
+939bb03 : Revert "init: add base includes" <NeoDarkness> 23 hours ago
  
 **** vanir:device_google_marlin ****
 01a9769 : marlin: disable our local telephony extensions <Dan Pasanen> 5 weeks ago
 9dc9088 : Revert "marlin: specify device-specific recovery updater libs" <DHOMD> 13 days ago
-cdb6210 : Revert "marlin: enable gesture settings" <Zhao Wei Liew> 11 hours ago
+cdb6210 : Revert "marlin: enable gesture settings" <Zhao Wei Liew> 13 hours ago
  
 **** vanir:device_htc_m7-common ****
 2acba9f : m7-common: HTCQualcommRIL: Let super process unsol IMS_NETWORK_STATE_CHANGED <Matt Mower> 2 days ago
@@ -37,19 +89,19 @@ d781d36 : s4-common: HTCQualcommRIL: Let super process unsol IMS_NETWORK_STATE_C
 **** vanir:device_huawei_angler ****
 72ff2b4 : I need a quieter lawn mover or a louder phone <DHOMD> 5 weeks ago
 64fbd09 : Update IMS paths in init.angler <DHOMD> 7 weeks ago
-0f32d4b : Revert "angler: enable gesture settings" <Zhao Wei Liew> 11 hours ago
+0f32d4b : Revert "angler: enable gesture settings" <Zhao Wei Liew> 13 hours ago
  
 **** vanir:device_lge_bullhead ****
-4d4177f : Revert "bullhead: enable gesture settings" <Zhao Wei Liew> 11 hours ago
+4d4177f : Revert "bullhead: enable gesture settings" <Zhao Wei Liew> 13 hours ago
  
 **** vanir:device_lge_g3-common ****
 61b0a50 : g3: lmk: adjust minfree values after boot <bryan2894> 2 days ago
  
 **** cm:LineageOS/android_device_lge_ls990 ****
-92d3de1 : Set config_switch_phone_on_voice_reg_state_change to false. <Seth Shelnutt> 4 days ago
+92d3de1 : Set config_switch_phone_on_voice_reg_state_change to false. <Seth Shelnutt> 5 days ago
  
 **** vanir:device_moto_shamu ****
-a573ec2 : Revert "shamu: enable gesture settings" <Zhao Wei Liew> 11 hours ago
+a573ec2 : Revert "shamu: enable gesture settings" <Zhao Wei Liew> 13 hours ago
  
 **** vanir:device_motorola_msm8226-common ****
 d59057d : msm8226-common: Fix blobs extraction with no vendor repos <Gabriele M> 2 days ago
@@ -61,16 +113,16 @@ d59057d : msm8226-common: Fix blobs extraction with no vendor repos <Gabriele M>
 9786055 : bacon: Switch to the CMHW touchscreen gestures implementation <Michael Bestas> 8 weeks ago
  
 **** cm:LineageOS/android_device_oneplus_oneplus3 ****
-089de9b : op3: s6e3fa5: add QDCM configuration <Alexander Martinz> 33 hours ago
+089de9b : op3: s6e3fa5: add QDCM configuration <Alexander Martinz> 2 days ago
 047b155 : op3: Update README for 3t <dianlujitao> 6 days ago
 2ba17a8 : op3: Add support for op3t <Willi Ye> 8 weeks ago
-8835354 : op3: Update to N camera blobs <dianlujitao> 22 hours ago
-28240d1 : Revert "op3: Remove obsolete Snap overlay" <dianlujitao> 22 hours ago
-3c02b75 : op3: Support more gestures <dianlujitao> 11 hours ago
+8835354 : op3: Update to N camera blobs <dianlujitao> 24 hours ago
+28240d1 : Revert "op3: Remove obsolete Snap overlay" <dianlujitao> 24 hours ago
+3c02b75 : op3: Support more gestures <dianlujitao> 13 hours ago
 3a8d35f : op3: Switch to the CMHW touchscreen gestures implementation <Michael Bestas> 8 weeks ago
 db2b1ff : op3: Add TrustZone assertion <dianlujitao> 7 days ago
 9d73719 : op3: Enable Wifi calling <dianlujitao> 2 days ago
-db37abe : Revert "op3: Fix installing stock build" <dianlujitao> 33 hours ago
+db37abe : Revert "op3: Fix installing stock build" <dianlujitao> 35 hours ago
 0723eea : ipacm: Fix KW issues <Utkarsh Saxena> 8 weeks ago
 1387022 : ipacm: Fix race condition between nat delete rule and update timestamp <Utkarsh Saxena> 5 months ago
  
@@ -101,7 +153,7 @@ ea090df : fusion3: Remove clearpad_fwloader <Tetsuo Osaka> 3 months ago
 eab3c34 : yuga: remove unused config.sh prebuilts <Tetsuo Osaka> 3 months ago
  
 **** vanir:device_xiaomi_armani ****
-f838242 : armani: Use adc3 for speaker-mic and stereo dmic in camcorder <fefifofum> 3 days ago
+f838242 : armani: Use adc3 for speaker-mic and stereo dmic in camcorder <fefifofum> 4 days ago
 6dad305 : armani: Update mixer paths <fefifofum> 5 days ago
  
 **** vanir:device_yu_lettuce ****
@@ -112,9 +164,56 @@ e0809f2 : lettuce: Add CMHW touchscreen gestures implementation <Michael Bestas>
 399c174 : tomato: Switch to the CMHW touchscreen gestures implementation <Michael Bestas> 8 weeks ago
  
 **** vanir:frameworks_base ****
-538137f : PhoneWindowManager: Support multiple key handlers <Zhao Wei Liew> 2 months ago
-486b178 : SystemUI: Never link nofication volume on non-voice capable devices <LuK1337> 4 days ago
-20ac2ca : core: more descriptive vendor image mismatch message <Dan Pasanen> 6 days ago
+01e8a98 : Fix for reboot due to Volume State not updated in callback <Shasidhar Ganiga> 11 months ago
+13d5ef8 : PhoneWindowManager: Support multiple key handlers <Zhao Wei Liew> 2 months ago
+62fa86b : SystemUI: Never link nofication volume on non-voice capable devices <LuK1337> 4 days ago
+22a9740 : core: more descriptive vendor image mismatch message <Dan Pasanen> 6 days ago
+cf18dd9 : LocalSocketImpl.cpp: Set O_CLOEXEC on received FDs <Nick Kralevich> 6 weeks ago
+a969538 : AppOps: Avoid RuntimeException and log spam <George G> 6 weeks ago
+e3004bb : ActivityManagerNative: Prevent possible soft-reboot <fusionjack> 1 year, 8 months ago
+eb102d6 : Set system server's class loader for wrap.system_server <tony.ys_liu> 7 weeks ago
+c1f4ce8 : send cancel cmd to hal in Lockout mode. <baek.kyoungmin> 7 weeks ago
+8e86809 : Bad token of activity when do the launch work at the app process side <xiaomei.li> 4 months ago
+7987d3a : check whether the ActivityClientRecord of token is null when handleStopActivity <xiaomei.li> 2 months ago
+12624e9 : schedule vsync immediately when requested from the Looper thread <Dohyun Lee> 3 months ago
+219428a : Correct the sync lock for ManagedServices's mServices. <songjinshi> 7 weeks ago
+ab5f32b : Fix issue when start android/com.android.internal.backup.LocalTransportService <sanshan zhang> 3 weeks ago
+8a19add : Skip guestToRemove users when PackageManager initializing user status. <Xiaoguang Dong> 3 months ago
+862b52e : Fix a use-of-uninitialized-value warning. <George Burgess IV> 3 weeks ago
+3a36930 : OBEX : Handle Negative index Exception <Hemant Gupta> 5 weeks ago
+ef644f8 : Add timeout for dumpNativeBacktraceToFile. <songjinshi> 7 weeks ago
+3ee3ff6 : AudioAttributes: setCapturePreset: Handle VOICE_* <nailyk-fr> 4 weeks ago
+ee94a84 : synchronized gRecyclerLock to avoid InputEvent been change while dump <gaoshang> 3 weeks ago
+0aeba69 : Do not turn off voice interaction when close system dialogs reason is assist <gaoshang> 6 months ago
+84d8da2 : Emulator: Fix CTS failure caused by removed MANAGE_USERS permission in Shell <bohu> 4 months ago
+36285d5 : Remove unused variable. <Tao Wu> 3 months ago
+2d4b65c : Fix a bunch of repeated reads of a ro.* property <John Reck> 4 months ago
+08302da : Add make_unique function for jni <Nathan Chancellor> 6 days ago
+58372cf : Resolve deadlock between ActivityManagerService and PowerManagerService <Shibin George> 7 months ago
+0ed1aca : Fix BaseBundle IllegalArgumentException <liangweikang> 7 weeks ago
+25a23775 : Fix memory-leak warnings from the static analyzer <George Burgess IV> 8 days ago
+d06e6cd : Disable touch slop for generated gesture events <Dennis Kempin> 3 months ago
+602d128 : Fix a use-of-uninitialized-value warning. <George Burgess IV> 8 days ago
+0006e3d : DeadZone: add missing call to TypedArray.recycle() <Dave Kessler> 10 months ago
+d5ff081 : telephony: Add state check for LteOnCdma to isGsm and isCdma <Seth Shelnutt> 7 weeks ago
+c5e508b : Avoid deadlock when installing app <Kazuki Nakayama> 4 months ago
+3a04a54 : base: Add handling SQLiteDatabaseCorruptException <muzbit.kim> 2 years, 9 months ago
+57127ac : Catch KeyStoreException for setting profile lock <Ricky Wai> 3 months ago
+9644e65 : Prevent IndexOutOfBoundsException <Evisceration> 2 years, 1 month ago
+24bb2b7 : frameworks: squash of leak & race fixes <liquid0624> 2 years ago
+ddcd109 : fix OutOfBoundsException in DisplayContent.java <liangweikang> 6 weeks ago
+107a7fc : Move service from starting list once onStartCommand get called <Jun Su> 2 years, 11 months ago
+4f83884 : Handle IllegalArgumentException <kaiyiz> 2 years, 6 months ago
+1b00e43 : Deadlock in PackageInstallerSession <Henrik Baard> 2 years ago
+7a58386 : pm: do not verify system apps signatures <Young-Ho Cha> 5 months ago
+d41bfa7 : Fix the bug in replacing a fragment with itself. <Kang Zhang> 3 years, 11 months ago
+2f189ba : Replace usages of ShortNumberUtil with ShortNumberInfo <Paul Duffin> 12 months ago
+201da85 : Fix issue in PhoneNumberUtils.compareLoosely <Jeevaka Badrappan> 3 years, 6 months ago
+aedf2c4 : Fix struct vs. class mismatch in forward definitions <Colin Cross> 4 months ago
+fe7e95d : Fix for google backup and restore <PlayfulGod> 3 years, 2 months ago
+e4b889b : Fix Photosphere/Camera FCs <Jostein Kjønigsen> 3 years, 10 months ago
+a916dfb : Fix race condition in setting notification panel height <Steve Kondik> 1 year, 11 months ago
+f310e5d : Debug: Initialize local to false <Andreas Gampe> 4 months ago
  
 **** vanir:frameworks_native ****
 6a711d2 : gralloc1: Acquire mutex early in release <Pramodh Kumar Mukunda> 10 weeks ago
@@ -149,10 +248,10 @@ d430e03 : ASoC: msm: set pointers to NULL after kfree <Walter Yang> 6 months ago
 3817a89 : msm: kgsl: fix sync file error handling <Jeremy Gebben> 1 year, 11 months ago
  
 **** cmold:android_kernel_oneplus_msm8996 ****
-f27e576 : input: synaptics_s3320: Support all gestures <dianlujitao> 12 hours ago
-3616808 : input: synaptics_s3320: Clean up gesture handling <dianlujitao> 14 hours ago
-eee5f91 : input: synaptics_s3320: Commonize gesture flags <dianlujitao> 20 hours ago
-5bdc89f : Revert "msm: camera: isp: Handle standby mode for B+M" <dianlujitao> 34 hours ago
+f27e576 : input: synaptics_s3320: Support all gestures <dianlujitao> 15 hours ago
+3616808 : input: synaptics_s3320: Clean up gesture handling <dianlujitao> 17 hours ago
+eee5f91 : input: synaptics_s3320: Commonize gesture flags <dianlujitao> 23 hours ago
+5bdc89f : Revert "msm: camera: isp: Handle standby mode for B+M" <dianlujitao> 2 days ago
 2f01a39 : qcacld-2.0: Update to LA.UM.5.5.r1-02800-8x96.0 <dianlujitao> 2 days ago
 1ab7bc4 : sg_write()/bsg_write() is not fit to be called under KERNEL_DS <Al Viro> 7 weeks ago
 b981abe : netlink: Fix dump skb leak/double free <Herbert Xu> 9 months ago
@@ -165,7 +264,7 @@ b981abe : netlink: Fix dump skb leak/double free <Herbert Xu> 9 months ago
 290deb0 : USB: cdc-acm: more sanity checking <Oliver Neukum> 11 months ago
 75cc79d : netfilter: x_tables: check for size overflow <Florian Westphal> 11 months ago
 05489f2 : pipe: limit the per-user amount of pages allocated in pipes <Willy Tarreau> 1 year ago
-7940da7 : ALSA: hrtimer: Fix stall by hrtimer_cancel() <Takashi Iwai> 1 year ago
+7940da7 : ALSA: hrtimer: Fix stall by hrtimer_cancel() <Takashi Iwai> 1 year, 1 month ago
 bd4967e : Input: aiptek - fix crash on detecting device without endpoints <Vladis Dronov> 1 year, 2 months ago
 2eae6da : BACKPORT: mm: avoid setting up anonymous pages into file mapping <Kirill A. Shutemov> 1 year, 7 months ago
 935d8ff : net: llc: use correct size for sysctl timeout entries <Sasha Levin> 2 years ago
@@ -252,8 +351,8 @@ e154b68 : f2fs: make clean inodes when flushing inode page <Jaegeuk Kim> 4 month
 0004317 : f2fs: use BIO_MAX_PAGES for bio allocation <Jaegeuk Kim> 4 months ago
  
 **** vanir:platform_manifest ****
-588bc88 : cm: Remove external/google <Zhao Wei Liew> 33 hours ago
-71e424b : Libra tune ups + follow our xiaomi vendor <DHOMD> 25 hours ago
+588bc88 : cm: Remove external/google <Zhao Wei Liew> 35 hours ago
+71e424b : Libra tune ups + follow our xiaomi vendor <DHOMD> 27 hours ago
  
 **** vanir:packages_apps_CMParts ****
 661ea53 : CMParts: Move status bar tap to sleep pref to Settings <Zhao Wei Liew> 9 days ago
@@ -284,8 +383,8 @@ de91000 : fusion3: remove clearpad_fwloader <tetsuo55> 3 months ago
  
 **** vanir:vendor_vanir ****
 eb26f51 : cm: overlay: Settings: Enable gesture settings <Zhao Wei Liew> 12 days ago
-7b8aaa1 : Add libra, fix peregrine <DHOMD> 24 hours ago
+7b8aaa1 : Add libra, fix peregrine <DHOMD> 26 hours ago
  
 **** vanir:vendor_xiaomi ****
-b48e921 : Add Libra back <DHOMD> 25 hours ago
+b48e921 : Add Libra back <DHOMD> 27 hours ago
  
