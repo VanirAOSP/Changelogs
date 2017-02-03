@@ -1,0 +1,266 @@
+
+**** vanir:art ****
+1ba3e27 : Fix otus/d2***/falcon - Revert "build: Clean up common_build file and improve performance" <DHOMD> 3 hours ago
+ 
+**** vanir:bootable_recovery_twrp ****
+8df3191 : Allow custom bootloader msg offset in block misc <Matt Mower> 2 years, 7 months ago
+6e4114f : gui: Fix Android.mk for TW_CUSTOM_THEME <nkk71> 2 weeks ago
+ 
+**** vanir:build ****
+0be1008 : Build hacks <DHOMD> 4 months ago
+ 
+**** vanir:device_asus_flo ****
+a8e3c9b : flo: disable dex preopt <Simon Shields> 29 hours ago
+ 
+**** vanir:device_google_marlin ****
+fca624c : marlin: disable our local telephony extensions <Dan Pasanen> 5 weeks ago
+ffd6aa7 : Revert "marlin: specify device-specific recovery updater libs" <DHOMD> 2 weeks ago
+ 
+**** vanir:device_huawei_angler ****
+4dc8870 : I need a quieter lawn mover or a louder phone <DHOMD> 5 weeks ago
+542c95d : Update IMS paths in init.angler <DHOMD> 7 weeks ago
+ 
+**** vanir:device_huawei_kiwi ****
+f0cb1d2 : kiwi: Use common CMHW gestures <Michael W> 6 hours ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+ab634c0 : Otus: Fix FM Radio <DHOMD> 2 weeks ago
+ 
+**** vanir:device_oneplus_bacon ****
+7537678 : bacon: kang find7 libAKM8963 <Simon Shields> 3 days ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+e164b16 : fixing a potential race condition <Kevin Tang> 7 weeks ago
+9ee1b85 : fixing a race condition on MsgTask::destroy() <Kevin Tang> 3 months ago
+ae5e60c : update gps.conf <Ruifeng Xu> 2 months ago
+311f4c3 : oneplus3: Don't vibrate for T2W <Ashwin Ramesh> 24 hours ago
+ 
+**** vanir:device_oppo_common ****
+3b923ed : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+c731840 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 2 months ago
+ 
+**** vanir:device_qcom_common ****
+4b057c5 : Suboptimal way of fixing Pixie builds <DHOMD> 5 weeks ago
+b136210 : power: Remove POWER_HINT_AUDIO <Zhao Wei Liew> 25 hours ago
+ 
+**** vanir:device_samsung_klte ****
+4f80ca7 : klte: Update build fingerprints for all SKUs <Kevin F. Haggerty> 19 hours ago
+ 
+**** vanir:device_samsung_klte-common ****
+9c5f6f2 : klte-common: Pin murata, semco* BT firmware files in blob list <Kevin F. Haggerty> 15 hours ago
+ 
+**** cm:LineageOS/android_device_samsung_kltedv ****
+e1f776b : kltedv: Update build fingerprint <Kevin F. Haggerty> 19 hours ago
+ 
+**** cm:LineageOS/android_device_samsung_kltespr ****
+54674c5 : kltespr: Update build fingerprint <Kevin F. Haggerty> 19 hours ago
+ 
+**** vanir:device_samsung_kltevzw ****
+7973ace : kltevzw: Update build fingerprint for SM-G900V <Kevin F. Haggerty> 19 hours ago
+ 
+**** cm:LineageOS/android_device_samsung_noblelte-common ****
+b954f51 : noblelte: Configure audio HAL constants <Christopher N. Hesse> 5 hours ago
+f36d447 : noblelte: Add back DSP offload path <Christopher N. Hesse> 8 hours ago
+3029740 : noblelte: Add new config for audio HAL <Christopher N. Hesse> 10 hours ago
+d945646 : noblelte: Use low latency output by default <Christopher N. Hesse> 10 hours ago
+21f1381 : noblelte: Build the new audio HAL from hardware/samsung <Christopher N. Hesse> 10 hours ago
+1bdfea4 : audio: Remove old HAL <Christopher N. Hesse> 10 hours ago
+b8ac300 : Bootanimation: Set screen dimensions to get one <Jan Huijsmans> 5 days ago
+3f695bf : cmhw: Add MDNIE RGB tuning capabilities <Christopher N. Hesse> 6 days ago
+75cf995 : noblelte: Configure fingerprint overlays <Christopher N. Hesse> 6 days ago
+0a3cecf : noblelte: Remove stlport <Christopher N. Hesse> 10 hours ago
+68a1847 : noblelte: Blob out gralloc <Christopher N. Hesse> 10 hours ago
+6a7c262 : noblelte: Import fingerprint blobs <Christopher N. Hesse> 10 hours ago
+5faafe6 : noblelte: Rename dependencies <Christopher N. Hesse> 10 hours ago
+ 
+**** vanir:frameworks_base ****
+981e89e : Use STREAM_RING on non-voice capable devices <LuK1337> 17 hours ago
+4a68f3b : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:hardware_libhardware ****
+f29cb1f : hardware: power: Remove POWER_HINT_AUDIO <Zhao Wei Liew> 26 hours ago
+4be06d8 : Revert "power: Add support for camera preview in powerHAL" <Zhao Wei Liew> 26 hours ago
+ 
+**** cm:LineageOS/android_hardware_qcom_fm ****
+a02172a : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:hardware_samsung ****
+3b64383 : audio: Disable support for IRQ affinity by default <Andreas Schneider> 3 days ago
+56204f6 : audio: Correctly handle out of memory conditions <Andreas Schneider> 3 days ago
+dc15cec : audio: Make speaker swap on screen rotation optional <Andreas Schneider> 3 days ago
+cdad20d : audio: Remove unused screen_state parameter <Andreas Schneider> 3 days ago
+a2b7732 : audio: Remove tty_mode which we do not support <Andreas Schneider> 3 days ago
+530cf0d : audio: s/handset/earpiece/g <Christopher N. Hesse> 2 days ago
+ce6d5af : audio: Implement get_capture_position() <Christopher N. Hesse> 3 weeks ago
+e6b3a3e : audio: improve read/write timing for streams <Christopher N. Hesse> 4 weeks ago
+b7f3212 : audio: Use C99 initializers in read_frames() <Andreas Schneider> 3 days ago
+cabe5e6 : audio: Fix memory leak when preprocessing is disabled <Andreas Schneider> 4 days ago
+ 
+**** cmold:android_kernel_htc_msm8960 ****
+749f59b : net: usb: rmnet_usb_data: Disable too much logspam <Guang Jian Zeng> 2 years, 11 months ago
+1397cc0 : ANDROID: trace: net: use %pK for kernel pointers <mukesh agrawal> 7 months ago
+ 
+**** cmold:android_kernel_htc_msm8996 ****
+7b772a4 : Import changes from HTC Release 3.18.31-perf-g93828c1 <Christopher R. Palmer> 2 days ago
+baab319 : pme: Fix file permissions (755 -> 644) <Christopher R. Palmer> 31 hours ago
+5789e3c : pme: Restore comments based on HTC Release 3.18.31-perf-g93828c1 <Christopher R. Palmer> 2 days ago
+ 
+**** cmold:android_kernel_motorola_msm8916 ****
+4aac852 : UPSTREAM: kernel.h: define u8, s8, u32, etc. limits <Alex Elder> 4 months ago
+a7008be : ion: Fix permissions on source file <Alex Naidis> 13 days ago
+4a0c810 : BACKPORT: posix_acl: Clear SGID bit when setting file permissions <Jan Kara> 5 months ago
+02d42b8 : qseecom: check buffer size when loading firmware images <Zhen Kong> 4 months ago
+c9a57a9 : msm: sensor: Validationg function pointers before using them <VijayaKumar T M> 2 months ago
+3bbd99a : msm: mdss: Fix potential deferencing of null pointer <Sachin Bhayare> 3 months ago
+b065051 : lowmemorykiller: account for unevictable pages <Tim Murray> 8 days ago
+60c7216 : ext4: fix potential use after free in __ext4_journal_stop <Lukas Czerner> 1 year, 4 months ago
+b8b4e65 : msm: cpp: Fix issue in updating frame info pointer in compact ioctl <VijayaKumar T M> 3 weeks ago
+3361b84 : ASoC: qdsp6v2: fix potential bug of infinite loop <Xiaojun Sang> 3 weeks ago
+6476eb1 : ASoC: msm: q6dspv2: fix potentional information leak <Meng Wang> 3 months ago
+fcc4639 : soc: qcom: pil: Fix kernel pointer leak <Puja Gupta> 2 weeks ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+42480e9 : fix printk: rename printk_sched to printk_deferred <OzzysCmAcc> 2 days ago
+f239a96 : stable_kernel_rules: Add pointer to netdev-FAQ for network patches <Dave Chiluk> 2 years, 7 months ago
+a1f3c37 : Linux 3.4.103 <Greg Kroah-Hartman> 2 years, 6 months ago
+794fe86 : arch/sparc/math-emu/math_32.c: drop stray break operator <Andrey Utkin> 2 years, 6 months ago
+e0a89b0 : sparc64: ldc_connect() should not return EINVAL when handshake is in progress. <Sowmini Varadhan> 2 years, 6 months ago
+7d74956 : sunsab: Fix detection of BREAK on sunsab serial console <Christopher Alexander Tobias Schulze> 2 years, 6 months ago
+58d9180 : bbc-i2c: Fix BBC I2C envctrl on SunBlade 2000 <Christopher Alexander Tobias Schulze> 2 years, 6 months ago
+5c54acc : sparc64: Guard against flushing openfirmware mappings. <David S. Miller> 2 years, 6 months ago
+36ceae0 : sparc64: Do not insert non-valid PTEs into the TSB hash table. <David S. Miller> 2 years, 6 months ago
+c2fc0b7 : sparc64: Add membar to Niagara2 memcpy code. <David S. Miller> 2 years, 9 months ago
+dd0b509 : sparc64: Fix huge TSB mapping on pre-UltraSPARC-III cpus. <David S. Miller> 2 years, 9 months ago
+cc67c32 : sparc64: Don't bark so loudly about 32-bit tasks generating 64-bit fault addresses. <David S. Miller> 2 years, 9 months ago
+b3765ce : sparc64: Fix top-level fault handling bugs. <David S. Miller> 2 years, 9 months ago
+60c1b74 : sparc64: Handle 32-bit tasks properly in compute_effective_address(). <David S. Miller> 2 years, 9 months ago
+2123a86 : sparc64: Make itc_sync_lock raw <Kirill Tkhai> 2 years, 10 months ago
+e3f092ad : sparc64: Fix argument sign extension for compat_sys_futex(). <David S. Miller> 2 years, 9 months ago
+6c8c21c : sctp: fix possible seqlock seadlock in sctp_packet_transmit() <Eric Dumazet> 2 years, 6 months ago
+3e8e6f4 : iovec: make sure the caller actually wants anything in memcpy_fromiovecend <Sasha Levin> 2 years, 6 months ago
+890aaf3 : net: Correctly set segment mac_len in skb_segment(). <Vlad Yasevich> 2 years, 6 months ago
+6b5a943 : macvlan: Initialize vlan_features to turn on offload support. <Vlad Yasevich> 2 years, 6 months ago
+dfa7e1c : net: sctp: inherit auth_capable on INIT collisions <Daniel Borkmann> 2 years, 6 months ago
+6b68c33 : tcp: Fix integer-overflow in TCP vegas <Christoph Paasch> 2 years, 6 months ago
+7712544 : tcp: Fix integer-overflows in TCP veno <Christoph Paasch> 2 years, 6 months ago
+ddccc34 : net: sendmsg: fix NULL pointer dereference <Andrey Ryabinin> 2 years, 6 months ago
+3e0c08a : ip: make IP identifiers less predictable <Eric Dumazet> 2 years, 6 months ago
+0a65303 : inetpeer: get rid of ip_id_count <Eric Dumazet> 2 years, 8 months ago
+7cf8f76 : Linux 3.4.102 <Greg Kroah-Hartman> 2 years, 6 months ago
+0d5634b : ipv6: reallocate addrconf router for ipv6 address when lo device up <Gao feng> 3 years ago
+88172fd : x86/espfix/xen: Fix allocation of pages for paravirt page tables <Boris Ostrovsky> 2 years, 7 months ago
+aeb74d2 : lib/btree.c: fix leak of whole btree nodes <Minfei Huang> 2 years, 8 months ago
+e56c124 : Revert: "net: ip, ipv6: handle gso skbs in forwarding path" <Greg Kroah-Hartman> 2 years, 6 months ago
+533afac : x86_64/entry/xen: Do not invoke espfix64 on Xen <Andy Lutomirski> 2 years, 6 months ago
+d989012 : x86, espfix: Make it possible to disable 16-bit support <H. Peter Anvin> 2 years, 9 months ago
+501cc2b : x86, espfix: Make espfix64 a Kconfig option, fix UML <H. Peter Anvin> 2 years, 9 months ago
+81eab21 : x86, espfix: Fix broken header guard <H. Peter Anvin> 2 years, 9 months ago
+7749c8c : x86, espfix: Move espfix definitions into a separate header file <H. Peter Anvin> 2 years, 9 months ago
+58d9c36 : x86-64, espfix: Don't leak bits 31:16 of %esp returning to 16-bit stack <H. Peter Anvin> 2 years, 9 months ago
+219a2ef : Revert "x86-64, modify_ldt: Make support for 16-bit segments a runtime option" <H. Peter Anvin> 2 years, 8 months ago
+d215899 : timer: Fix lock inversion between hrtimer_bases.lock and scheduler locks <Jan Kara> 2 years, 6 months ago
+cc984d1 : printk: rename printk_sched to printk_deferred <John Stultz> 2 years, 8 months ago
+a3d5705 : mm, thp: do not allow thp faults to avoid cpuset restrictions <David Rientjes> 2 years, 6 months ago
+c4971a3 : scsi: handle flush errors properly <James Bottomley> 2 years, 7 months ago
+22d352f : ARM: 8115/1: LPAE: reduce damage caused by idmap to virtual memory layout <Konstantin Khlebnikov> 2 years, 6 months ago
+17db036 : crypto: af_alg - properly label AF_ALG socket <Milan Broz> 2 years, 6 months ago
+a4b7af0 : Linux 3.4.101 <Greg Kroah-Hartman> 2 years, 6 months ago
+9f5b603 : mm: kmemleak: avoid false negatives on vmalloc'ed objects <Catalin Marinas> 3 years, 3 months ago
+582e907 : introduce SIZE_MAX <Xi Wang> 4 years, 8 months ago
+15efe1d : s390/ptrace: fix PSW mask check <Martin Schwidefsky> 2 years, 7 months ago
+8fcd22f : Fix gcc-4.9.0 miscompilation of load_balance() in scheduler <Linus Torvalds> 2 years, 6 months ago
+3f6c355 : mm: hugetlb: fix copy_hugetlb_page_range() <Naoya Horiguchi> 2 years, 6 months ago
+ 
+**** cm:LineageOS/android_packages_apps_AudioFX ****
+68476c6 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+8fc4ad3 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_CMParts ****
+b101045 : CMParts: Clean up status bar settings class <Zhao Wei Liew> 2 days ago
+23b59db : CMParts: power: Resolve 'automatic optimization' state issues <Zhao Wei Liew> 25 hours ago
+d92491d : CMParts: Update quick QS pull-down entries for RTL layouts <Zhao Wei Liew> 2 days ago
+c42152e : CMParts: Don't update status bar clock summary on RTL <Zhao Wei Liew> 2 days ago
+6cde43d : CMParts: Update quick QS pull-down summary on pref change <Zhao Wei Liew> 2 days ago
+9f19e4a : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Calendar ****
+e7899e8 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_CellBroadcastReceiver ****
+7f56ce1 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Dialer ****
+35acdb7 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_FlipFlap ****
+abf07eb : FlipFlap: Add settings <Michael W> 13 hours ago
+b17f893 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+e457e7e : Gallery2: Fix crash when using locations view <Sam Mortimer> 3 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Gello ****
+794fdd5 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_LockClock ****
+1cfcb29 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Messaging ****
+196421b : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+e935ceb : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Settings ****
+6e59879 : Show proper notification volume icon on non-voice capable devices <LuK1337> 17 hours ago
+950ba49 : SoundSettings: Always initialize mRingOrNotificationPreference <Zhao Wei Liew> 2 days ago
+6b6e626 : Revert "SoundSettings: Prevent NPE due to linked volumes change" <Zhao Wei Liew> 2 days ago
+bd15d44 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Snap ****
+289e677 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_ThemeChooser ****
+ed41164 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Trebuchet ****
+3778f4d : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_providers_DataUsageProvider ****
+be55cf6 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_providers_DownloadProvider ****
+e346efc : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_providers_WeatherProvider ****
+67824b6 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_resources_devicesettings ****
+b857442 : Automatic translation import <Abhisek Devkota> 35 hours ago
+ 
+**** cm:LineageOS/android_packages_services_CMAudioService ****
+9d998c1 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_services_Telephony ****
+335b81f : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_services_ThemeManagerService ****
+149b09d : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_services_WeatherService ****
+dc3564a : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:vendor_cmsdk ****
+ebf0e84 : cmsdk: PerformanceManager: Update POWER_HINT_SET_PROFILE value <Zhao Wei Liew> 24 hours ago
+a789a99 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+5754c08 : bacon: kang find7 libAKM8963 <Simon Shields> 27 hours ago
+73de7b2 : op3: Add op3t adreno firmware <dianlujitao> 8 days ago
+107877c : op3: Update to OxygenOS 4.0.2 blobs <dianlujitao> 8 days ago
+5cdb1ca : op3: Update to N camera blobs <dianlujitao> 12 days ago
+ 
