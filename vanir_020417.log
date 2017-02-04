@@ -1,0 +1,299 @@
+
+**** vanir:bionic ****
+91b06f9 : linker: Allow only specified non-PIE executables <Matt Mower> 10 days ago
+9936a63 : Revert "Revert "Reenable support for non-PIE executables"" <Michael Bestas> 2 years, 2 months ago
+ 
+**** vanir:bootable_recovery_twrp ****
+0c88b84 : Fill uid/gid for screenshots at compile time <Matt Mower> 3 weeks ago
+d4a1118 : GUI: Improve automatic determination of TW_THEME <Matt Mower> 2 weeks ago
+ 
+**** vanir:build ****
+7e85227 : Build hacks <DHOMD> 4 months ago
+ 
+**** cm:LineageOS/android_device_cyanogen_msm8916-common ****
+bfb60b7 : init: disable rfs_access on 8939 <Sahitya Tummala> 6 months ago
+ 
+**** vanir:device_google_marlin ****
+d0434a3 : marlin: disable our local telephony extensions <Dan Pasanen> 5 weeks ago
+e4db38b : Revert "marlin: specify device-specific recovery updater libs" <DHOMD> 2 weeks ago
+ 
+**** cm:LineageOS/android_device_htc_pme ****
+bab82d0 : pme: Don't treat SuperCID as special, let it fall back to EU or unlocked <Christopher R. Palmer> 18 hours ago
+7e57938 : pme: Always provide a valid ro.build.product & ro.product.device <Christopher R. Palmer> 18 hours ago
+52dad77 : pme: Really disable offloading <Christopher R. Palmer> 25 hours ago
+ 
+**** vanir:device_htc_s4-common ****
+32ed67a : s4-common: HTCQualcommRIL: Remove forceCdmaLteNetworkType <Matt Mower> 26 hours ago
+ 
+**** vanir:device_huawei_angler ****
+fc3d9f1 : I need a quieter lawn mover or a louder phone <DHOMD> 5 weeks ago
+33e7fa8 : Update IMS paths in init.angler <DHOMD> 8 weeks ago
+ 
+**** cm:LineageOS/android_device_lge_ls990 ****
+3b5b5bd : ls990: clean up overlay <Kasual> 3 days ago
+ 
+**** cm:LineageOS/android_device_lge_mako ****
+0d76e22 : mako: correct file name in blobs extrator <razorloves> 2 hours ago
+ 
+**** vanir:device_motorola_msm8916-common ****
+0440ca2 : CMActions: Introduce a toggle to enable/disable ambient display <Alberto97> 2 days ago
+ea913c9 : CMActions: Remove extraneous style.xml <Alberto97> 2 days ago
+eba50fd : CMActions: Split Activities <Alberto97> 2 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+ca135cd : Otus: Fix FM Radio <DHOMD> 2 weeks ago
+ 
+**** cm:LineageOS/android_device_motorola_victara ****
+424e76d : victara: use full recovery image <Dan Pasanen> 2 days ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+f3bfb93 : op3: Remove android_packages_resources_devicesettings from dependencies <dianlujitao> 5 hours ago
+ 
+**** vanir:device_oneplus_onyx ****
+f011be8 : onyx: Switch to the CMHW touchscreen gestures implementation <Michael Bestas> 8 weeks ago
+941b817 : onyx: Update modem symlinks <Ashwin Ramesh> 7 days ago
+60d150c : Camera2: Remove obsoleted files <Shuzhen Wang> 1 year, 11 months ago
+52fe398 : Revert "onyx: camera: Switch to closed HAL" <Ashwin Ramesh> 7 days ago
+8c39830 : Revert "onyx: Add GraphicBuffer shim for camera" <Ashwin Ramesh> 7 days ago
+0695984 : onyx: Sync libril with caf <Ashwin Ramesh> 4 weeks ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+d62010e : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 3 months ago
+ 
+**** vanir:device_qcom_common ****
+04908e8 : Suboptimal way of fixing Pixie builds <DHOMD> 6 weeks ago
+ 
+**** vanir:device_samsung_klte-common ****
+da60e64 : klte-common: Quiet "KERNEL IS NOT SEANDROID ENFORCING" boot message <Kevin F. Haggerty> 4 days ago
+ 
+**** cm:LineageOS/android_device_yu_tomato ****
+cbcf492 : Set INITIAL_COPYRIGHT_YEAR <Michael Bestas> 4 hours ago
+9db12b3 : init: disable rfs_access on 8939 <Sahitya Tummala> 6 months ago
+ 
+**** vanir:frameworks_base ****
+135dff4 : revert some fastJni <Sean Lu> 2 days ago
+aee9541 : Breaks fingerprint sensor on N6p - Revert "send cancel cmd to hal in Lockout mode." <DHOMD> 17 minutes ago
+49fcd68 : SeekBarVolumizer: Disable notification volume if RINGER_MODE_VIBRATE <Danesh M> 1 year ago
+604f00c : policy: Long-press power while display is off for torch <beanstown106> 1 year, 1 month ago
+1b73002 : SystemUI: PowerNotification: Add up button to fragment <Zhao Wei Liew> 3 days ago
+01e8a98 : Fix for reboot due to Volume State not updated in callback <Shasidhar Ganiga> 11 months ago
+13d5ef8 : PhoneWindowManager: Support multiple key handlers <Zhao Wei Liew> 3 months ago
+62fa86b : SystemUI: Never link nofication volume on non-voice capable devices <LuK1337> 6 days ago
+22a9740 : core: more descriptive vendor image mismatch message <Dan Pasanen> 9 days ago
+cf18dd9 : LocalSocketImpl.cpp: Set O_CLOEXEC on received FDs <Nick Kralevich> 7 weeks ago
+a969538 : AppOps: Avoid RuntimeException and log spam <George G> 6 weeks ago
+e3004bb : ActivityManagerNative: Prevent possible soft-reboot <fusionjack> 1 year, 8 months ago
+eb102d6 : Set system server's class loader for wrap.system_server <tony.ys_liu> 7 weeks ago
+c1f4ce8 : send cancel cmd to hal in Lockout mode. <baek.kyoungmin> 8 weeks ago
+8e86809 : Bad token of activity when do the launch work at the app process side <xiaomei.li> 4 months ago
+7987d3a : check whether the ActivityClientRecord of token is null when handleStopActivity <xiaomei.li> 2 months ago
+12624e9 : schedule vsync immediately when requested from the Looper thread <Dohyun Lee> 3 months ago
+219428a : Correct the sync lock for ManagedServices's mServices. <songjinshi> 8 weeks ago
+ab5f32b : Fix issue when start android/com.android.internal.backup.LocalTransportService <sanshan zhang> 4 weeks ago
+8a19add : Skip guestToRemove users when PackageManager initializing user status. <Xiaoguang Dong> 3 months ago
+862b52e : Fix a use-of-uninitialized-value warning. <George Burgess IV> 4 weeks ago
+3a36930 : OBEX : Handle Negative index Exception <Hemant Gupta> 6 weeks ago
+ef644f8 : Add timeout for dumpNativeBacktraceToFile. <songjinshi> 7 weeks ago
+3ee3ff6 : AudioAttributes: setCapturePreset: Handle VOICE_* <nailyk-fr> 4 weeks ago
+ee94a84 : synchronized gRecyclerLock to avoid InputEvent been change while dump <gaoshang> 4 weeks ago
+0aeba69 : Do not turn off voice interaction when close system dialogs reason is assist <gaoshang> 6 months ago
+84d8da2 : Emulator: Fix CTS failure caused by removed MANAGE_USERS permission in Shell <bohu> 4 months ago
+36285d5 : Remove unused variable. <Tao Wu> 3 months ago
+2d4b65c : Fix a bunch of repeated reads of a ro.* property <John Reck> 5 months ago
+08302da : Add make_unique function for jni <Nathan Chancellor> 8 days ago
+58372cf : Resolve deadlock between ActivityManagerService and PowerManagerService <Shibin George> 7 months ago
+0ed1aca : Fix BaseBundle IllegalArgumentException <liangweikang> 7 weeks ago
+25a23775 : Fix memory-leak warnings from the static analyzer <George Burgess IV> 11 days ago
+d06e6cd : Disable touch slop for generated gesture events <Dennis Kempin> 3 months ago
+602d128 : Fix a use-of-uninitialized-value warning. <George Burgess IV> 11 days ago
+0006e3d : DeadZone: add missing call to TypedArray.recycle() <Dave Kessler> 10 months ago
+d5ff081 : telephony: Add state check for LteOnCdma to isGsm and isCdma <Seth Shelnutt> 8 weeks ago
+c5e508b : Avoid deadlock when installing app <Kazuki Nakayama> 4 months ago
+3a04a54 : base: Add handling SQLiteDatabaseCorruptException <muzbit.kim> 2 years, 9 months ago
+57127ac : Catch KeyStoreException for setting profile lock <Ricky Wai> 3 months ago
+9644e65 : Prevent IndexOutOfBoundsException <Evisceration> 2 years, 1 month ago
+24bb2b7 : frameworks: squash of leak & race fixes <liquid0624> 2 years ago
+ddcd109 : fix OutOfBoundsException in DisplayContent.java <liangweikang> 7 weeks ago
+107a7fc : Move service from starting list once onStartCommand get called <Jun Su> 2 years, 11 months ago
+4f83884 : Handle IllegalArgumentException <kaiyiz> 2 years, 6 months ago
+1b00e43 : Deadlock in PackageInstallerSession <Henrik Baard> 2 years ago
+7a58386 : pm: do not verify system apps signatures <Young-Ho Cha> 5 months ago
+d41bfa7 : Fix the bug in replacing a fragment with itself. <Kang Zhang> 3 years, 11 months ago
+2f189ba : Replace usages of ShortNumberUtil with ShortNumberInfo <Paul Duffin> 12 months ago
+201da85 : Fix issue in PhoneNumberUtils.compareLoosely <Jeevaka Badrappan> 3 years, 6 months ago
+ 
+**** vanir:frameworks_native ****
+8be0608 : OMS-N: installd: add command 'rmidmap' <Mårten Kongstad> 1 year, 2 months ago
+45fdfdd : OMS7-N: installd: add command 'rmidmap' <Mårten Kongstad> 1 year, 2 months ago
+ 
+**** vanir:hardware_samsung ****
+67a7444 : add a common mkbootimg.mk to quiet "KERNEL IS NOT SEANDROID ENFORCING" warning <Jesse Chan> 3 days ago
+ 
+**** cmold:android_kernel_htc_msm8960 ****
+5a1f507 : net: wireless: bcmdhd_4335_mcc: Enable p2p support bits for p2p device <Dmitry Shmidt> 3 years, 6 months ago
+b82ad3a : net: wireless: bcmdhd_4335_mcc: Fix country checking <Dmitry Shmidt> 3 years, 4 months ago
+ 
+**** cmold:android_kernel_htc_msm8996 ****
+d5162ee : Revert "net: bcmdhd: Be less aggressive about the runtime pm" <Christopher R. Palmer> 2 days ago
+8cf9563 : pme: bcmdhd: Remove always sending keepalive packets <Christopher R. Palmer> 3 days ago
+af0c339 : pme: bcmdhd: Sanity check the HTC driver hang check <Christopher R. Palmer> 3 days ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+142b5c0 : ANDROID: trace: net: use %pK for kernel pointers <mukesh agrawal> 7 months ago
+1750c23 : ANDROID: video: adf: Avoid directly referencing user pointers <Jonathan Hamilton> 5 months ago
+d3c63e8 : sched: Fix integer overflow in sched_update_nr_prod() <Pavankumar Kondeti> 4 months ago
+4b12646 : diag: dci: avoid out of bounds memory access <Nick Desaulniers> 4 months ago
+1c44925 : ion: blacklist %p kptr_restrict <Nick Desaulniers> 4 months ago
+3388e37 : ASoC: msm: q6dspv2: fix potentional information leak <Meng Wang> 3 months ago
+131712f : usb: Avoid exposing kernel addresses <Dennis Cagle> 7 weeks ago
+960a46a : shmem: fix shm fallocate() list corruption <Linus Torvalds> 9 weeks ago
+c60fa7a : blk-mq: update hardware and software queues for sleeping alloc <Jens Axboe> 3 months ago
+ddc8a81 : drivers: video: Add bounds checking in fb_cmap_to_user <Steve Pfetsch> 4 months ago
+adead42 : UPSTREAM: arm64: vdso: Mark vDSO code as read-only <David Brown> 12 months ago
+9a122a8 : UPSTREAM: USB: iowarrior: fix oops with malicious USB descriptors <Badhri Jagan Sridharan> 5 months ago
+e76bfc4 : UPSTREAM: USB: usb_driver_claim_interface: add sanity checking <Badhri Jagan Sridharan> 5 months ago
+2a2263d : UPSTREAM: USB: mct_u232: add sanity checking in probe <Badhri Jagan Sridharan> 5 months ago
+854a7cd : UPSTREAM: USB: cypress_m8: add endpoint sanity check <Badhri Jagan Sridharan> 5 months ago
+c48a066 : UPSTREAM: ppp: defer netns reference release for ppp channel <WANG Cong> 7 months ago
+342a8a5 : Undo unused changes <dianlujitao> 31 hours ago
+8c4139f : int_sqrt: Improve 3x faster integer sqrt. <FlyFrog> 3 years, 5 months ago
+e964168 : Revert "int_sqrt: Improve 3x faster integer sqrt." <dianlujitao> 35 hours ago
+d088c5e : Revert "staging: ion: shrink highmem pages on kswapd" <dianlujitao> 2 days ago
+f52a2c34 : CHROMIUM: arm64: irq: lower the IRQ affinity notification when CPU goes offline <Joseph Lo> 1 year, 7 months ago
+d4be8a5 : int_sqrt: Improve 3x faster integer sqrt. <dianlujitao> 2 days ago
+18416f9 : int_sqrt.c: Correction square root algo with naming <ramgear> 3 years, 5 months ago
+77704d8 : staging: ion: shrink highmem pages on kswapd <Heesub Shin> 2 years, 8 months ago
+31db2b1 : lib/memcopy: use glibc version <Miao Xie> 4 years, 11 months ago
+a2564d5 : lib/string: use glibc version <Miao Xie> 4 years, 11 months ago
+4766cd5 : asm-generic: rwsem: ensure sem->cnt is only accessed via atomic_long_* <Will Deacon> 3 years ago
+6148601 : ARM: optimize memset_io()/memcpy_fromio()/memcpy_toio() <Russell King> 1 year, 9 months ago
+3b4a9dd : ARM: dts: 15801: Correct TP vdd min voltage <dianlujitao> 2 days ago
+ 
+**** cmold:android_kernel_oneplus_onyx ****
+81ce3d6 : drivers: synaptics_s3508: Add support for W & M gestures <Ashwin Ramesh> 2 days ago
+b02a02c : drivers:  synaptics_s3508: Genericize gesture flags <Ashwin Ramesh> 2 days ago
+ 
+**** cmold:android_kernel_oppo_msm8974 ****
+34dce45 : input: synaptics: Support up arrow gesture <Michael Bestas> 9 weeks ago
+f6aabcd : input: synaptics: Make gesture enable flags more generic. <Zhao Wei Liew> 3 months ago
+9abf5fa : input: synaptics: Remove junk comments <Michael Bestas> 9 weeks ago
+83a83c9 : ASoC: wcd9xxx: Fix unprotected userspace access <Patrick Daly> 1 year, 8 months ago
+1a7f8d6 : qseecom: validate the inputs of __qseecom_send_modfd_resp <Zhen Kong> 7 months ago
+1b2042d : msm: sensor: Avoid potential stack overflow <Samyukta Mogily> 5 months ago
+45227b6 : soc: qcom: smp2p: Fix kernel address leak <Karthikeyan Ramasubramanian> 6 months ago
+ebaeee5 : net: ipc_router: fix NULL pointer de-reference issue <Arun Kumar Neelakantam> 5 months ago
+fc35df1 : msm: camera: Restructure data handling to be more robust <VijayaKumar T M> 5 months ago
+d7858ce : msm: crypto: Fix integer over flow check in qcedev driver <Zhen Kong> 6 months ago
+2b91ae5 : ASoC: msm: lock read/write when add/free audio ion memory <Walter Yang> 3 weeks ago
+1463d52 : drivers: soc: Add buffer overflow check for svc send request <Josh Kirsch> 3 weeks ago
+8fb84df : ecryptfs: don't allow mmap when the lower fs doesn't support it <Jeff Mahoney> 7 months ago
+d430e03 : ASoC: msm: set pointers to NULL after kfree <Walter Yang> 6 months ago
+3817a89 : msm: kgsl: fix sync file error handling <Jeremy Gebben> 1 year, 11 months ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+7e15200 : Linux 3.4.104 <Zefan Li> 2 years, 4 months ago
+72981e0 : alpha: add io{read,write}{16,32}be functions <Michael Cree> 5 years ago
+d0e6764 : ext2: Fix fs corruption in ext2_get_xip_mem() <Jan Kara> 3 years, 3 months ago
+7c74f84 : alpha: Fix fall-out from disintegrating asm/system.h <Michael Cree> 4 years, 6 months ago
+3cafd20 : UniCore32-bugfix: fix mismatch return value of __xchg_bad_pointer <Guan Xuetao> 4 years, 8 months ago
+72e055a : UniCore32-bugfix: Remove definitions in asm/bug.h to solve difference between native and cross compiler <Guan Xuetao> 4 years, 8 months ago
+e7bddb7 : unicore32: select generic atomic64_t support <Fengguang Wu> 4 years, 4 months ago
+be413b6 : 8250_pci: fix warnings in backport of Broadcom TruManage support <Paul Gortmaker> 2 years, 5 months ago
+d382c11 : slab/mempolicy: always use local policy from interrupt context <Andi Kleen> 4 years, 8 months ago
+5adc3c4 : openrisc: add missing header inclusion <Stefan Kristiansson> 3 years, 11 months ago
+cc3b278 : MIPS: Fix accessing to per-cpu data when flushing the cache <Ralf Baechle> 3 years, 5 months ago
+783b1de : MIPS: perf: Fix build error caused by unused counters_per_cpu_to_total() <Florian Fainelli> 4 years, 7 months ago
+34ce144 : USB: serial: fix potential heap buffer overflow <Johan Hovold> 2 years, 5 months ago
+e175fa8 : USB: serial: fix potential stack buffer overflow <Johan Hovold> 2 years, 5 months ago
+b435994 : ARM: 8129/1: errata: work around Cortex-A15 erratum 830321 using dummy strex <Mark Rutland> 2 years, 6 months ago
+8038863 : ARM: 8128/1: abort: don't clear the exclusive monitors <Mark Rutland> 2 years, 6 months ago
+cb3f909 : HID: picolcd: sanity check report size in raw_event() callback <Jiri Kosina> 2 years, 5 months ago
+c9b5250 : NFSv4: Fix problems with close in the presence of a delegation <Trond Myklebust> 2 years, 5 months ago
+4a34e3b : USB: sisusb: add device id for Magic Control USB video <Stephen Hemminger> 2 years, 5 months ago
+3275bd8 : HID: logitech-dj: prevent false errors to be shown <Benjamin Tissoires> 2 years, 5 months ago
+732579e : USB: whiteheat: Added bounds checking for bulk command response <James Forshaw> 2 years, 5 months ago
+8aecca3 : usb: xhci: amd chipset also needs short TX quirk <Huang Rui> 2 years, 6 months ago
+8194341 : xhci: Treat not finding the event_seg on COMP_STOP the same as COMP_STOP_INVAL <Hans de Goede> 2 years, 6 months ago
+e584fab : USB: ftdi_sio: Added PID for new ekey device <Jaša Bartelj> 2 years, 6 months ago
+c251cab : USB: serial: pl2303: add device id for ztek device <Greg KH> 2 years, 6 months ago
+d76750e : USB: ftdi_sio: add Basic Micro ATOM Nano USB2Serial PID <Johan Hovold> 2 years, 6 months ago
+ebb874d : USB: option: add VIA Telecom CDS7 chipset device id <Brennan Ashton> 2 years, 6 months ago
+fef1686 : staging: et131x: Fix errors caused by phydev->addr accesses before initialisation <Mark Einon> 2 years, 6 months ago
+ed8c666 : xtensa: fix a6 and a7 handling in fast_syscall_xtensa <Max Filippov> 2 years, 6 months ago
+ff11bee : xtensa: fix TLBTEMP_BASE_2 region handling in fast_second_level_miss <Max Filippov> 2 years, 7 months ago
+39cd1c3 : xtensa: fix address checks in dma_{alloc,free}_coherent <Alan Douglas> 2 years, 6 months ago
+953f6cb : xtensa: replace IOCTL code definitions with constants <Max Filippov> 2 years, 7 months ago
+0b249b2 : ALSA: hda/realtek - Avoid setting wrong COEF on ALC269 & co <Takashi Iwai> 2 years, 6 months ago
+4fb5210 : CIFS: Fix wrong directory attributes after rename <Pavel Shilovsky> 2 years, 6 months ago
+b6b8966 : md/raid6: avoid data corruption during recovery of double-degraded RAID6 <NeilBrown> 2 years, 6 months ago
+7c03b09 : iommu/amd: Fix cleanup_domain for mass device removal <Joerg Roedel> 2 years, 6 months ago
+2a827a5 : pata_scc: propagate return value of scc_wait_after_reset <Arjun Sreedharan> 2 years, 6 months ago
+d7e4a9d : MIPS: OCTEON: make get_system_type() thread-safe <Aaro Koskinen> 2 years, 7 months ago
+811d708 : isofs: Fix unbounded recursion when processing relocated directories <Jan Kara> 2 years, 6 months ago
+c161279 : HID: logitech: perform bounds checking on device_id early enough <Jiri Kosina> 2 years, 6 months ago
+183924e : HID: fix a couple of off-by-ones <Jiri Kosina> 2 years, 6 months ago
+3c42863 : ibmveth: Fix endian issues with rx_no_buffer statistic <Anton Blanchard> 2 years, 6 months ago
+c345168 : ASoC: pxa-ssp: drop SNDRV_PCM_FMTBIT_S24_LE <Daniel Mack> 2 years, 6 months ago
+ 
+**** vanir:packages_apps_CMParts ****
+f1ccf80 : CMParts: Long-press power while display is off for torch <beanstown106> 1 year, 1 month ago
+ 
+**** vanir:packages_apps_Contacts ****
+e969e04 : Themes: Expose hardcoded layout and styles colors <beanstown106> 1 year, 3 months ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+8287180 : Themes: Expose hardcoded contact tile text colors <bgill55> 2 years ago
+ 
+**** vanir:packages_apps_Dialer ****
+c473e37 : Themes: InCallUI dialpad digits color <George G> 3 months ago
+91e510e : Themes: Separate background color from text color <Alex Cruz> 9 months ago
+ 
+**** vanir:packages_apps_ExactCalculator ****
+52de819 : Themes: Expose all elevations <Abdulwahab Isam> 5 months ago
+5fb9c66 : Themes: Expose hard coded background in java <Bryan Owens> 1 year, 1 month ago
+ 
+**** cm:LineageOS/android_packages_apps_FlipFlap ****
+eb6376d : FlipFlap: Allow deactivation <Michael W> 23 hours ago
+ 
+**** vanir:packages_apps_LockClock ****
+f9d9201 : LockClock: change forecast text color to white <razorloves> 20 hours ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+45cd17c : Themes: Make dialpad seperator line theme-able <Thyrus11> 1 year, 11 months ago
+ 
+**** vanir:packages_apps_Settings ****
+4adf255 : Settings: Expose bluetooth pin confirm dialog text colors <SpiritCroc> 13 days ago
+4f4b3b8 : Expose switchbar background color <Ivan Iskandar> 4 weeks ago
+fe84189 : Expose dashboard category padding bottom <Ivan Iskandar> 4 weeks ago
+ac8bd97 : Expose color for external settings icons <Clark Scheff> 6 weeks ago
+8ad6074 : Hide the "show/hide overlays" when no overlay installed <Ivan Iskandar> 7 weeks ago
+0cd5916 : Exclude overlays from the app counter <Ivan Iskandar> 8 weeks ago
+ea40b89 : OMS7-N: Apps: show/hide Substratum icon overlays [2/2] <Kuba Schenk> 9 weeks ago
+6b6b9e8 : OMS7-N: Apps: show/hide Substratum overlays [2/2] <George G> 7 months ago
+63634ad : Settings: Expose LinearColorBar default colors <SpiritCroc> 8 weeks ago
+eb04bde : Settings: Expose storage icon colors <SpiritCroc> 8 weeks ago
+dad0be1 : Settings: Expose gesture settings switchbar <daveyannihilation> 2 months ago
+7d1ed0e : Settings: Expose storage summary text <George G> 1 year, 3 months ago
+4bff13c : Settings: Expose condition card colors <daveyannihilation> 5 months ago
+cbfb5d5 : Settings: Expose dashboard category and tile color <Ivan Iskandar> 5 months ago
+ 
+**** vanir:system_sepolicy ****
+74a17c4 : OMS-N: Add service 'overlay' to service_contexts <Mårten Kongstad> 1 year, 8 months ago
+ecce491 : OMS7-N: Add service 'overlay' to service_contexts <Mårten Kongstad> 1 year, 8 months ago
+ 
+**** vanir:vendor_cmsdk ****
+9526453 : CMSDK: Add long-press power for torch CMSetting <Zhao Wei Liew> 3 months ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+14c63a9 : onyx: Switch to OSS camera HAL <Ashwin Ramesh> 2 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oppo ****
+ee98bc5 : f1f/r5/r7/r7plus/r7sf: Remove rfs_access <Michael Bestas> 3 hours ago
+ 
+**** vanir:vendor_vanir ****
+3ce30e0 : apns: Add SingTel hi!card sim APN <nicknitewolf> 3 days ago
+24b0703 : apns: Update H2O Wireless for LTE <Daniel Marsee> 11 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_yu ****
+93f53df : jalebi/lettuce/tomato: Remove rfs_access <Michael Bestas> 4 hours ago
+ 
