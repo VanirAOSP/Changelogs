@@ -1,0 +1,381 @@
+
+**** vanir:art ****
+1ba3e27 : Fix otus/d2***/falcon - Revert "build: Clean up common_build file and improve performance" <DHOMD> 5 days ago
+1117c3b : Refactor and optimize memory region bit functions <Mathieu Chartier> 13 days ago
+42dcb05 : Avoid accessing the heap without mutator lock in Monitor::Lock. <Hiroshi Yamauchi> 13 days ago
+97db3e0 : ART: Give JIT thread pool workers a peer <Andreas Gampe> 2 weeks ago
+d0b1cea : ART: Add ThreadPool mode that creates peers <Andreas Gampe> 2 weeks ago
+e3c3ee3 : Clean up some includes. <Vladimir Marko> 5 months ago
+706a965 : Recognize XOR-based periodic induction. <Aart Bik> 4 months ago
+3eaed2b : dex2oat: fix Watchdog timeout by Clock jump <liulvping> 3 weeks ago
+ba0a1a7 : Enable inlining of throwers. <Yevgeny Rouban> 11 months ago
+1234c0c : Inline and optimize interface calls. <Nicolas Geoffray> 7 months ago
+837fcf3 : Add a new control flow simplifier. <Nicolas Geoffray> 7 months ago
+adeba48 : add missing include <Wolfgang Wiedmeyer> 1 year, 1 month ago
+3e4ff14 : ART: Fix missing include <Andreas Gampe> 11 months ago
+c371206 : A first implementation of a loop optimization framework. <Aart Bik> 6 months ago
+298ef2d : Make static helper methods member functions of OptimizingCompiler class <Wojciech Staszkiewicz> 7 months ago
+ef882cf : Fixes and cleaning for test/458-checker-instruction-simplification. <Alexandre Rames> 8 months ago
+9ac2e36 : Rename current register allocator implementation <Matthew Gharrity> 7 months ago
+7373803 : Refactor SSA deconstruction into its own class <Matthew Gharrity> 7 months ago
+6e18d2c : Minor induction variable analysis changes. <Aart Bik> 5 months ago
+b2f6c36 : Added ability to generate last-value of linear induction. <Aart Bik> 5 months ago
+b71dad2 : Combine offsets in loop-based dynamic BCE. <Aart Bik> 7 months ago
+924725b : Make LinearizeGraph() public (and move it to nodes files) <Aart Bik> 5 months ago
+42986c2 : Create a typedef for HInstruction::GetInputs() return type. <Vladimir Marko> 8 months ago
+815abf8 : Fix arena allocation counting. <Vladimir Marko> 7 weeks ago
+243660c : art: force enable of heap poisoning <mydongistiny> 4 weeks ago
+3e012a9 : ARM64: Clean-up and extend the supported cpu_variant list. <Serban Constantinescu> 3 months ago
+d1fa9d4 : ARM: Update `ArmInstructionSetFeatures` to track ARMv8-A. <Serban Constantinescu> 4 months ago
+0073afc : ARM: Instruction set features clean-up. <Serban Constantinescu> 4 months ago
+a961246 : Remove the unused SMP instruction set feature option. <Serban Constantinescu> 5 months ago
+0eb87c2 : MIPS32: Fix MipsInstructionSetFeatures::FromVariant() <Alexey Frunze> 7 months ago
+af9cc84 : ART: Change InstructionSetFeatures to return unique_ptr <Andreas Gampe> 2 years, 1 month ago
+b8c92b4 : X86/X86_64: Switch to locked add from mfence <Mark Mendell> 1 year ago
+a1d10d7 : ART: Report cputime in dex2oat <Andreas Gampe> 2 years, 7 months ago
+48357a9 : ART: Change return types of field access entrypoints <Andreas Gampe> 7 months ago
+bba6a2b : Use delete/delete[] rather than free/realloc in tracedump <David Sehr> 9 months ago
+c400dc9 : Prune uses library classes even without profile <Mathieu Chartier> 6 months ago
+0663c38 : Fix a race condition on GC timing logger data. <Hiroshi Yamauchi> 6 months ago
+2ebabd5 : Ensure we get a ProfilingInfo object before compiling. <Nicolas Geoffray> 8 months ago
+da646e7 : ART: Print jit memory use only if we have samples <Pavel Vyssotski> 9 months ago
+b4e02e4 : Load devirtualized methods directly in JIT mode <Anton Shamin> 8 months ago
+8dc1f56 : Initialize Heap's collector pointers to null. <Vladimir Marko> 6 months ago
+971bc85 : Tune the GC ergnomics for the read barrier config. <Hiroshi Yamauchi> 7 months ago
+344b297 : Add support for CallKind::kCallOnMainAndSlowPath <Serban Constantinescu> 11 months ago
+d2e82ff : ART: Remove redundant MoveInstructionBefore method <David Brazdil> 8 months ago
+fe93778 : More store/allocation elimination for singletons in case of loops <Mingyao Yang> 4 months ago
+226f84c : Use art::Atomic for CopyObject <Mathieu Chartier> 4 months ago
+4e5e0d4 : Use word copying for CopyObject <Mathieu Chartier> 4 months ago
+7716786 : ARM: Shorter fast-path for read barrier field load. <Vladimir Marko> 7 months ago
+e1048a9 : Fixed NeedsEnvironment() <Yevgeny Rouban> 7 months ago
+0655a49 : Rename kCall to kCallOnMainOnly <Serban Constantinescu> 7 months ago
+ 
+**** vanir:bionic ****
+dba3df6 : Check for bad packets in getaddrinfo.c's getanswer. <Elliott Hughes> 3 months ago
+ 
+**** vanir:bootable_recovery_twrp ****
+a4d4f31 : Adjust & Improve Chinese translations for zh_CN/TW again <kaneawk> 6 weeks ago
+ 
+**** vanir:build ****
+74492da : Build hacks <DHOMD> 4 months ago
+71f1ec8 : NMF26X <gitbuildkicker> 7 weeks ago
+03feb26 : Update Security String to 2017-02-05 on nyc-dev <Adam Seaton> 9 weeks ago
+6f4f4fa : Update Security String to 2017-02-01 on nyc-dev <Adam Seaton> 9 weeks ago
+8cac1a1 : NMF26W <gitbuildkicker> 7 weeks ago
+ 
+**** vanir:device_google_marlin ****
+558d7c3 : marlin: disable our local telephony extensions <Dan Pasanen> 6 weeks ago
+23ac430 : Revert "marlin: specify device-specific recovery updater libs" <DHOMD> 3 weeks ago
+ 
+**** vanir:device_htc_flounder ****
+f6e37d1 : flounder: update build fingerprint & description to N4F26Q <razorloves> 20 hours ago
+d172f8b : Fix security issue in Visualizer effect <rago> 9 weeks ago
+8c6d352 : Fix security issue in Visualizer effect <rago> 9 weeks ago
+ 
+**** vanir:device_huawei_angler ****
+26b45c2 : Revert "I need a quieter lawn mover or a louder phone" <nuclearmistake> 14 hours ago
+fd86d83 : Revert "Update IMS paths in init.angler" <nuclearmistake> 14 hours ago
+49133e6 : Build build too <DHOMD> 23 hours ago
+aa5f4cc : I need a quieter lawn mover or a louder phone <DHOMD> 6 weeks ago
+4c0247e : Update IMS paths in init.angler <DHOMD> 8 weeks ago
+deec7c5 : fingerprint <DHOMD> 23 hours ago
+6eb4e37 : Update extractor for Feb <DHOMD> 23 hours ago
+ 
+**** vanir:device_motorola_msm8916-common ****
+b9b2a53 : msm8916-common: Fix offline charging flags <Alberto97> 2 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+009e932 : Otus: Fix FM Radio <DHOMD> 3 weeks ago
+ 
+**** cm:LineageOS/android_device_motorola_victara ****
+da957a3 : victara: cmactions: Improve doze denial thresholds <Christopher R. Palmer> 13 hours ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+3387221 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 3 months ago
+ 
+**** vanir:device_qcom_common ****
+8bc1f99 : Suboptimal way of fixing Pixie builds <DHOMD> 6 weeks ago
+ 
+**** aosp:platform/external/libavc ****
+72886b6 : Decoder: Fix in checking for valid profile flags <Harish Mahendrakar> 9 weeks ago
+ 
+**** aosp:platform/external/libgdx ****
+e6da772 : Fix security vulnerability <Jorim Jaggi> 2 months ago
+ 
+**** aosp:platform/external/libhevc ****
+df7b564 : Fixed handling invalid chroma tu size for error clips <Harish Mahendrakar> 3 months ago
+fed7027 : Fixed out of bound reads in stack variables <Harish Mahendrakar> 1 year, 2 months ago
+7546c10 : Fix in Chroma SAO for non-multiple of 8 height <Harish Mahendrakar> 3 months ago
+ 
+**** vanir:frameworks_av ****
+b0bcddb : Fix security vulnerability: potential OOB write in audioserver <rago> 3 months ago
+a155de4 : Effect: Use local cached data for Effect commit <Andy Hung> 3 months ago
+ 
+**** vanir:frameworks_base ****
+8f56e85 : Revert "DO NOT MERGE. Retain DownloadManager Uri grants when clearing." <DHOMD> 20 minutes ago
+aaa49b2 : Revert "DO NOT MERGE: Check provider access for content changes." <DHOMD> 20 minutes ago
+135dff4 : revert some fastJni <Sean Lu> 6 days ago
+aee9541 : Breaks fingerprint sensor on N6p - Revert "send cancel cmd to hal in Lockout mode." <DHOMD> 3 days ago
+01e8a98 : Fix for reboot due to Volume State not updated in callback <Shasidhar Ganiga> 11 months ago
+13d5ef8 : PhoneWindowManager: Support multiple key handlers <Zhao Wei Liew> 3 months ago
+62fa86b : SystemUI: Never link nofication volume on non-voice capable devices <LuK1337> 10 days ago
+22a9740 : core: more descriptive vendor image mismatch message <Dan Pasanen> 12 days ago
+cf18dd9 : LocalSocketImpl.cpp: Set O_CLOEXEC on received FDs <Nick Kralevich> 7 weeks ago
+a969538 : AppOps: Avoid RuntimeException and log spam <George G> 6 weeks ago
+e3004bb : ActivityManagerNative: Prevent possible soft-reboot <fusionjack> 1 year, 8 months ago
+eb102d6 : Set system server's class loader for wrap.system_server <tony.ys_liu> 8 weeks ago
+c1f4ce8 : send cancel cmd to hal in Lockout mode. <baek.kyoungmin> 8 weeks ago
+8e86809 : Bad token of activity when do the launch work at the app process side <xiaomei.li> 4 months ago
+7987d3a : check whether the ActivityClientRecord of token is null when handleStopActivity <xiaomei.li> 3 months ago
+12624e9 : schedule vsync immediately when requested from the Looper thread <Dohyun Lee> 3 months ago
+219428a : Correct the sync lock for ManagedServices's mServices. <songjinshi> 8 weeks ago
+ab5f32b : Fix issue when start android/com.android.internal.backup.LocalTransportService <sanshan zhang> 4 weeks ago
+8a19add : Skip guestToRemove users when PackageManager initializing user status. <Xiaoguang Dong> 3 months ago
+862b52e : Fix a use-of-uninitialized-value warning. <George Burgess IV> 4 weeks ago
+3a36930 : OBEX : Handle Negative index Exception <Hemant Gupta> 6 weeks ago
+ef644f8 : Add timeout for dumpNativeBacktraceToFile. <songjinshi> 8 weeks ago
+3ee3ff6 : AudioAttributes: setCapturePreset: Handle VOICE_* <nailyk-fr> 5 weeks ago
+ee94a84 : synchronized gRecyclerLock to avoid InputEvent been change while dump <gaoshang> 4 weeks ago
+0aeba69 : Do not turn off voice interaction when close system dialogs reason is assist <gaoshang> 6 months ago
+84d8da2 : Emulator: Fix CTS failure caused by removed MANAGE_USERS permission in Shell <bohu> 4 months ago
+36285d5 : Remove unused variable. <Tao Wu> 3 months ago
+2d4b65c : Fix a bunch of repeated reads of a ro.* property <John Reck> 5 months ago
+08302da : Add make_unique function for jni <Nathan Chancellor> 12 days ago
+58372cf : Resolve deadlock between ActivityManagerService and PowerManagerService <Shibin George> 7 months ago
+0ed1aca : Fix BaseBundle IllegalArgumentException <liangweikang> 8 weeks ago
+25a23775 : Fix memory-leak warnings from the static analyzer <George Burgess IV> 2 weeks ago
+d06e6cd : Disable touch slop for generated gesture events <Dennis Kempin> 3 months ago
+602d128 : Fix a use-of-uninitialized-value warning. <George Burgess IV> 2 weeks ago
+0006e3d : DeadZone: add missing call to TypedArray.recycle() <Dave Kessler> 10 months ago
+d5ff081 : telephony: Add state check for LteOnCdma to isGsm and isCdma <Seth Shelnutt> 8 weeks ago
+c5e508b : Avoid deadlock when installing app <Kazuki Nakayama> 4 months ago
+3a04a54 : base: Add handling SQLiteDatabaseCorruptException <muzbit.kim> 2 years, 9 months ago
+57127ac : Catch KeyStoreException for setting profile lock <Ricky Wai> 3 months ago
+9644e65 : Prevent IndexOutOfBoundsException <Evisceration> 2 years, 1 month ago
+24bb2b7 : frameworks: squash of leak & race fixes <liquid0624> 2 years ago
+ddcd109 : fix OutOfBoundsException in DisplayContent.java <liangweikang> 7 weeks ago
+107a7fc : Move service from starting list once onStartCommand get called <Jun Su> 2 years, 11 months ago
+4f83884 : Handle IllegalArgumentException <kaiyiz> 2 years, 6 months ago
+1b00e43 : Deadlock in PackageInstallerSession <Henrik Baard> 2 years ago
+7a58386 : pm: do not verify system apps signatures <Young-Ho Cha> 5 months ago
+d41bfa7 : Fix the bug in replacing a fragment with itself. <Kang Zhang> 3 years, 11 months ago
+2f189ba : Replace usages of ShortNumberUtil with ShortNumberInfo <Paul Duffin> 12 months ago
+201da85 : Fix issue in PhoneNumberUtils.compareLoosely <Jeevaka Badrappan> 3 years, 6 months ago
+aedf2c4 : Fix struct vs. class mismatch in forward definitions <Colin Cross> 4 months ago
+ 
+**** vanir:frameworks_native ****
+8be0608 : OMS-N: installd: add command 'rmidmap' <Mårten Kongstad> 1 year, 2 months ago
+16110b8 : Fix security vulneratibly 31960359 <Fabien Sanglard> 9 weeks ago
+2e16d5f : Fix SF security vulnerability: 32706020 <Fabien Sanglard> 3 months ago
+b4d6b29 : Correct overflow check in Parcel resize code <Christopher Tate> 3 months ago
+45fdfdd : OMS7-N: installd: add command 'rmidmap' <Mårten Kongstad> 1 year, 2 months ago
+ 
+**** vanir:hardware_libhardware ****
+534098c : Fix security vulnerability: potential OOB write in audioserver <rago> 2 months ago
+ 
+**** vanir:hardware_samsung ****
+6e35157 : macloader: Decapitalize wisol MAC addresses <Paul Keith> 4 hours ago
+6d31bae : audio: in_call is a bool type <Andreas Schneider> 5 days ago
+7cc49b4 : audio: Remove unused audio routes <Andreas Schneider> 6 days ago
+a366011 : libsecril-client: Turn off logging by default <Andreas Schneider> 31 hours ago
+560e37a : libsecril-client: Use RLOG <Andreas Schneider> 31 hours ago
+0130b88 : libril: Use RLOG <Andreas Schneider> 31 hours ago
+ 
+**** cmold:android_kernel_htc_flounder ****
+5768ce8 : flounder: regen defconfig for N4F26Q changes <razorloves> 18 hours ago
+37e3bbe : Revert "gpu: nvgpu: gk20a: wrap debug session as optional" <Mark Salyzyn> 9 weeks ago
+eb4422e : gpu: nvgpu: Fix pgsz_idx used in gk20a_vm_alloc_space() <Alex Waterman> 10 weeks ago
+2fde6b7 : synaptics: remove sysfs <Mark Salyzyn> 2 months ago
+fe956f0 : BACKPORT: aio: mark AIO pseudo-fs noexec <Nick Desaulniers> 3 months ago
+8f74ca4 : tegra: remove information leak in syncpt_name_show <Xiaodong Wang> 3 months ago
+2c46670 : gpu: nvgpu: Remove IOCTL FREE_OBJ_CTX <Terje Bergstrom> 3 months ago
+990e7c0 : video: tegra: nvmap: Check if handle holds a buffer before map <Sri Krishna chowdary> 3 months ago
+230f280 : rt5677: protect model_buf and model_len <Mark Salyzyn> 3 months ago
+01599d0 : fs/proc/array.c: make safe access to group_leader <Adrian Salido> 10 weeks ago
+f7e8d07 : net: wireless: bcmdhd: fix use-after-free in _dhd_pno_get_for_batch() <Greg Hackmann> 3 months ago
+c3c4f0a : video: tegra: host: fix create fence error checks <Konsta Holtta> 2 years, 5 months ago
+ 
+**** cmold:android_kernel_htc_msm8960 ****
+d918c75 : ipv4, fib: pass LOOPBACK_IFINDEX instead of 0 to flowi4_iif <Cong Wang> 2 years, 10 months ago
+ebf89ee : netfilter: xt_rpfilter: skip locally generated broadcast/multicast, too <Florian Westphal> 3 years, 10 months ago
+96eeae7 : net: Loopback ifindex is constant now <Pavel Emelyanov> 4 years, 6 months ago
+d195b72 : msm: HTC: m7: Delay before display_on for Renesas <Matt Mower> 3 days ago
+ 
+**** vanir:kernel_huawei_angler ****
+7196b0d : qseecom: remove entry from qseecom_registered_app_list <Mallikarjuna Reddy Amireddy> 3 months ago
+b26367a : net: wireless: bcmdhd: remove PCIe debug IOVAR access <Insun Song> 3 months ago
+e300628 : net: wireless: bcmdhd: fix use-after-free in _dhd_pno_get_for_batch() <Greg Hackmann> 3 months ago
+5a79cc5 : drivers: soc: add size checks and update log messages <Siena Richard> 4 months ago
+bc02d1d : BACKPORT: aio: mark AIO pseudo-fs noexec <Nick Desaulniers> 3 months ago
+5db4167 : fs/proc/array.c: make safe access to group_leader <Adrian Salido> 10 weeks ago
+2615c5f : input: synaptics_dsx: remove update sysfs entries <Andrew Chant> 9 weeks ago
+4b60975 : drivers: soc: Add buffer overflow check for svc send request <Josh Kirsch> 9 months ago
+831da5d : Kconfig: msm: disable ultrasound driver <Nick Desaulniers> 9 weeks ago
+f7262f3 : qcom: scm: remove printing input arguments <Swetha Chikkaboraiah> 3 months ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+5faad5e : isofs: Fix infinite looping over CE entries <Jan Kara> 2 years, 2 months ago
+68856b9 : qcedev: Validate Source and Destination addresses <Biswajit Paul> 5 months ago
+5a2faea : drivers: soc: Add buffer overflow check for svc send request <Josh Kirsch> 3 weeks ago
+4d5bfe9 : msm: sensor: validate the i2c table index before use <Suman Mukherjee> 5 months ago
+ 
+**** cmold:android_kernel_motorola_msm8916 ****
+b6e2493 : netlink: Fix dump skb leak/double free <Herbert Xu> 9 months ago
+e396f55 : netlink: Eliminate kmalloc in netlink dump operation. <Pravin B Shelar> 3 years, 6 months ago
+9c4cfef : msm: ispif: Remove handling of SD_SHUTDOWN <Ranjith Kagathi Ananda> 5 weeks ago
+08036e27 : fs/proc/array.c: make safe access to group_leader <Adrian Salido> 10 weeks ago
+97ff226 : net: ipc_router: fix NULL pointer de-reference issue <Arun Kumar Neelakantam> 5 months ago
+38646ee : BACKPORT: aio: mark AIO pseudo-fs noexec <Nick Desaulniers> 3 months ago
+1af5b73 : drivers: soc: add size checks and update log messages <Siena Richard> 4 months ago
+ada43c8 : qcom: scm: remove printing input arguments <Swetha Chikkaboraiah> 3 months ago
+006379f : qseecom: remove entry from qseecom_registered_app_list <Mallikarjuna Reddy Amireddy> 3 months ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+ea08c7c : drivers: soc: add size checks and update log messages <Siena Richard> 4 months ago
+a4329d8 : qseecom: remove entry from qseecom_registered_app_list <Mallikarjuna Reddy Amireddy> 3 months ago
+b273955 : msm: crypto: Fix integer over flow check in qce driver <Zhen Kong> 4 months ago
+ 
+**** vanir:libcore ****
+4b3f2c6 : Fix URL parser may return wrong host name <Yi Kong> 4 months ago
+ 
+**** vanir:platform_manifest ****
+fb66dee : **If** there is any logic to what AOSP branch is chosen it should be this one <DHOMD> 23 hours ago
+ 
+**** vanir:packages_apps_CMParts ****
+58f50a1 : CMParts: Clean out imports <Michael W> 3 days ago
+ 
+**** vanir:packages_apps_Contacts ****
+e969e04 : Themes: Expose hardcoded layout and styles colors <beanstown106> 1 year, 3 months ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+02b9282 : Themes: Define back arrow tint color for themes <Bryan Owens> 1 year, 2 months ago
+8287180 : Themes: Expose hardcoded contact tile text colors <bgill55> 2 years ago
+ 
+**** vanir:packages_apps_Dialer ****
+c473e37 : Themes: InCallUI dialpad digits color <George G> 3 months ago
+91e510e : Themes: Separate background color from text color <Alex Cruz> 9 months ago
+ 
+**** vanir:packages_apps_ExactCalculator ****
+52de819 : Themes: Expose all elevations <Abdulwahab Isam> 5 months ago
+5fb9c66 : Themes: Expose hard coded background in java <Bryan Owens> 1 year, 1 month ago
+ 
+**** vanir:packages_apps_Messaging ****
+74059eb : resolve merge conflicts of eafd58a to nyc-dev <Tom Taylor> 9 weeks ago
+30ab77f : 32807795  Security Vulnerability - AOSP Messaging App: thirdparty can attach private files from "/data/data/com.android.messaging/" directory to the messaging app. <Tom Taylor> 9 weeks ago
+e9b7e3a : 32322450 Security Vulnerability - heap buffer overflow in libgiftranscode.so <Tom Taylor> 10 weeks ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+45cd17c : Themes: Make dialpad seperator line theme-able <Thyrus11> 2 years ago
+ 
+**** cm:LineageOS/android_packages_apps_Recorder ****
+63a278b : Recorder: add play action to notifications <Joey Rizzoli> 10 hours ago
+27187eb : Recorder: bump support libraries <Joey Rizzoli> 10 hours ago
+d32b39e : Recorder: cleanup <Danny Baumann> 14 hours ago
+7c28074 : Correctly unregister shared preference change listener. <Danny Baumann> 14 hours ago
+a645771 : Recorder: add latest records cards <Joey Rizzoli> 7 days ago
+c3f7f8d : Recorder: fix broken services on activity changes <Joey Rizzoli> 7 days ago
+3843e8d : Recorder: fix mic request for screen recorder <Joey Rizzoli> 8 days ago
+61901ce : Avoid fragment state management issues. <Danny Baumann> 16 hours ago
+ 
+**** vanir:packages_apps_Settings ****
+45bb3d8 : wifi: Allow configuration of country code for wifi <Andrew Dodd> 4 years, 5 months ago
+d9e84da : Set external settings icon tint mode to SRC_ATOP <Ivan Iskandar> 11 days ago
+4adf255 : Settings: Expose bluetooth pin confirm dialog text colors <SpiritCroc> 2 weeks ago
+4f4b3b8 : Expose switchbar background color <Ivan Iskandar> 4 weeks ago
+fe84189 : Expose dashboard category padding bottom <Ivan Iskandar> 4 weeks ago
+ac8bd97 : Expose color for external settings icons <Clark Scheff> 7 weeks ago
+8ad6074 : Hide the "show/hide overlays" when no overlay installed <Ivan Iskandar> 8 weeks ago
+0cd5916 : Exclude overlays from the app counter <Ivan Iskandar> 9 weeks ago
+ea40b89 : OMS7-N: Apps: show/hide Substratum icon overlays [2/2] <Kuba Schenk> 10 weeks ago
+6b6b9e8 : OMS7-N: Apps: show/hide Substratum overlays [2/2] <George G> 7 months ago
+63634ad : Settings: Expose LinearColorBar default colors <SpiritCroc> 9 weeks ago
+eb04bde : Settings: Expose storage icon colors <SpiritCroc> 9 weeks ago
+dad0be1 : Settings: Expose gesture settings switchbar <daveyannihilation> 2 months ago
+7d1ed0e : Settings: Expose storage summary text <George G> 1 year, 3 months ago
+4bff13c : Settings: Expose condition card colors <daveyannihilation> 5 months ago
+cbfb5d5 : Settings: Expose dashboard category and tile color <Ivan Iskandar> 5 months ago
+ 
+**** vanir:packages_apps_Trebuchet ****
+7ef9b3a : Provide stub intent filters for CTS <Tony Mantler> 3 months ago
+abc1728 : Provide stub intent filters for CTS <Tony Mantler> 3 months ago
+56f0b05 : Add activity for android.settings.WEBVIEW_SETTINGS <Tony Mantler> 4 months ago
+5b68fa5 : Import translations. DO NOT MERGE <Bill Yi> 4 months ago
+21ea2ab : Import translations. DO NOT MERGE <Bill Yi> 4 months ago
+746c480 : Import translations. DO NOT MERGE <Bill Yi> 4 months ago
+027d2c9 : Delete "Show CPU usage" <Nick Kralevich> 4 months ago
+18ee525 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+dac8c28 : Make cancel button kill the activity <Tony Mantler> 5 months ago
+25d6b02 : StorageResetActivity now handles the Storage Manager intent. <Daniel Nishi> 5 months ago
+99d44bf : StorageResetActivity now handles the Storage Manager intent. <Daniel Nishi> 5 months ago
+9c843bf : Import translations. DO NOT MERGE <Bill Yi> 6 months ago
+5ac8594 : Fix TVSettings Picker <Dake Gu> 6 months ago
+998c3e2 : Catch ANFE when launching an app <Tony Mantler> 7 months ago
+d1445c3 : Import translations. DO NOT MERGE <Bill Yi> 7 months ago
+fe9520f : An AndroidTV device has no name <Tony Mantler> 7 months ago
+cbe9413 : Color transforms are now color modes. <Michael Wright> 7 months ago
+9e84da3 : Use UM.DISALLOW_OEM_UNLOCK instead of Global.OEM_UNLOCK_DISALLOWED <Mahaver Chopra> 7 months ago
+41de077 : Improve initial unlock delay (2/2) <Jorim Jaggi> 7 months ago
+05343fd : Fix crash when bailing out from BluetoothAccessoryFragment <Tony Mantler> 7 months ago
+3571d10 : Print names of observers causing timeout <Fyodor Kupolov> 8 months ago
+5d8ac64 : Skip connectivity change when not resumed <Tony Mantler> 8 months ago
+41a9790 : Import translations. DO NOT MERGE <Baligh Uddin> 8 months ago
+8ffd7b9 : Import translations. DO NOT MERGE <Bill Yi> 8 months ago
+12b47e6 : Import translations. DO NOT MERGE <Bill Yi> 8 months ago
+08c7986 : Handle exceptions when migrating storage <Tony Mantler> 9 months ago
+c6586d4 : Only unbind from GamepadPairingService if previously bound <Tony Mantler> 9 months ago
+75e7f83 : Fix NPE if callback is called when preference is not present <Tony Mantler> 9 months ago
+c3df0ee : Fix WpsConnectionActivity crash <Powei Feng> 9 months ago
+736544b : Fix handling of app uninstalls in AppManagementFragment <Tony Mantler> 9 months ago
+2cef8a1 : Import translations. DO NOT MERGE <Baligh Uddin> 9 months ago
+7a78049 : Make sure apps are always sorted <Tony Mantler> 9 months ago
+614e991 : Make Restricted Profile creation/deletion more robust <Tony Mantler> 9 months ago
+81463ef : Import translations. DO NOT MERGE <Baligh Uddin> 9 months ago
+b5018e5 : Import translations. DO NOT MERGE <Baligh Uddin> 9 months ago
+4112d90 : Disable OEM unlock setting if global setting disallows it <Steven Ng> 9 months ago
+6a23326 : Don't crash if the package disappears <Svetoslav Ganov> 9 months ago
+9bb9aa7 : Update restricted prefs to launch network as fragment <Tony Mantler> 9 months ago
+89cbf7d : Retain obfuscation during wifi password entry <Powei Feng> 9 months ago
+bbd6f52 : Import translations. DO NOT MERGE <Bill Yi> 9 months ago
+b353a18 : Import translations. DO NOT MERGE <Bill Yi> 9 months ago
+b314a25 : Import translations. DO NOT MERGE <Bill Yi> 9 months ago
+6fdcdc6 : Import translations. DO NOT MERGE <Bill Yi> 9 months ago
+c27ffcb : Disable desktop backup password option <Tony Mantler> 9 months ago
+42b40f3 : Import translations. DO NOT MERGE <Baligh Uddin> 9 months ago
+1197355 : Import translations. DO NOT MERGE <Baligh Uddin> 9 months ago
+4bece26 : Import translations. DO NOT MERGE <Baligh Uddin> 9 months ago
+62a0461 : Give TV a fallback home screen. <Jeff Sharkey> 9 months ago
+8956738 : The legacy DHCP client is gone. Delete the settings. <Lorenzo Colitti> 9 months ago
+f31c25e : Import translations. DO NOT MERGE <Bill Yi> 10 months ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+2073799 : Don't allow file attachment from /data through GET_CONTENT. <Ekin Oguz> 2 months ago
+ 
+**** vanir:system_core ****
+0e7324e : change /data/bugreports to /bugreports <Nick Kralevich> 3 months ago
+ 
+**** vanir:system_sepolicy ****
+e333e2f : Permit dumpstate to run "ip xfrm policy". <Erik Kline> 4 months ago
+74a17c4 : OMS-N: Add service 'overlay' to service_contexts <Mårten Kongstad> 1 year, 8 months ago
+ae46511 : label /bugreports <Nick Kralevich> 3 months ago
+ecce491 : OMS7-N: Add service 'overlay' to service_contexts <Mårten Kongstad> 1 year, 8 months ago
+ 
+**** commotio:commotio ****
+97d48ae : Fingerprinted <DHOMD> 2 hours ago
+23246ba : Finngerprints + bumps <DHOMD> 23 hours ago
+ 
+**** vanir:vendor_htc ****
+5664ff1 : flounder: update blobs from N4F26Q factory image <razorloves> 17 hours ago
+ 
+**** vanir:vendor_huawei ****
+accb531 : N4F26O <DHOMD> 23 hours ago
+ 
+**** vanir:vendor_lge ****
+ec5c42a : g3-common: qsee: D8553C blobs <Hendrik Hagendorn> 6 days ago
+ 
+**** vanir:vendor_motorola ****
+b897688 : msm8226: Fix EXIF data on builds signed with release-keys <Gabriele M> 2 days ago
+ 
+**** vanir:vendor_vanir ****
+fe277e5 : fingerprints <nuclearmistake> 13 hours ago
+ 
