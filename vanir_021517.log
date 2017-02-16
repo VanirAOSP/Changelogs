@@ -1,0 +1,1895 @@
+
+**** vanir:art ****
+1f576a4 : reoncile <nuclearmistake> 14 hours ago
+773e16b : dex2oat: Use CLOCK_MONOTONIC, not REALTIME for a watchdog! <Christopher R. Palmer> 3 months ago
+24ef6fe : Fix build on XCode 8 w/OSX 10.12 SDK <Dan Willemsen> 4 months ago
+23b2245 : ART: Add scorpion to the known cpu variants list <Michael Bestas> 1 year, 4 months ago
+d99a543 : setting RLIMIT to INFINITY. <Maunik Shah> 2 years, 5 months ago
+ 
+**** vanir:bionic ****
+55db114 : linker: Allow only specified non-PIE executables <Matt Mower> 3 weeks ago
+4e0733d : linker: allow text relocations on user builds <Dan Pasanen> 3 weeks ago
+b1190bb : Revert "Revert "Reenable support for non-PIE executables"" <Michael Bestas> 2 years, 3 months ago
+193d94f : Update timezone data to 2016g. <Joachim Sauer> 5 months ago
+773148f : Revert "bionic: Registration of trapping calls during libc initialization" <Arne Coucheron> 4 months ago
+ef9b80e : linker: Make platform text relocations denial optional <Adrian DC> 6 months ago
+c906aa3 : libc: allow forcing compilation with gcc <Simon Shields> 5 months ago
+b8fc6d2 : bionic: Use a more simple strrchr for arm64 <Steve Kondik> 5 months ago
+da6e94f : libc: AArch64: Tune memcpy <Wilco Dijkstra> 1 year, 3 months ago
+2509079 : libc: ARM64: add assembly strrchr <Richard Earnshaw> 2 years, 2 months ago
+f1e3eea : libc: ARM64: improve performance in strlen <Wilco Dijkstra> 2 years, 1 month ago
+89ea5bd : libc: ARM64: optimize memset. <Wilco Dijkstra> 1 year, 7 months ago
+b94d0f0 : libc: ARM64: Optimize memcpy. <Wilco Dijkstra> 1 year, 7 months ago
+361e17a : libc: ARM64: remove bcopy from memset <Jake Weinstein> 1 year, 5 months ago
+67b81d4 : libc: arm: add optimized memchr implementation <Yingshiuan Pan> 1 year, 10 months ago
+e38a0f3 : libc: Add Scorpion-optimized variant <Steve Kondik> 3 years, 6 months ago
+779b7c2 : libc: kryo: Override aosp routines <Luca Stefani> 6 months ago
+7ccfcdc : bionic: Sort and cache hosts file data for fast lookup <Tom Marshall> 8 months ago
+af35f67 : bionic: Teach fnmatch(3) to handle UTF-8 characters in patterns <Tom Marshall> 11 months ago
+8dcee20 : linker: Allow text-relocs for x86 (only) <Christopher R. Palmer> 1 year ago
+435e16a : Don't leak sockets if setsockopt() or fchown() fail. <Erik Kline> 12 months ago
+6ca3704 : linker: Add support for dynamic "shim" libs <Christopher R. Palmer> 1 year, 3 months ago
+49e23c3 : bionic: Let popen fall back to /sbin/sh <Tom Marshall> 1 year, 3 months ago
+f1df5fd : bionic: Add flag to restore legacy mmap behavior <Flemmard> 2 years, 3 months ago
+ 
+**** cm:LineageOS/android_bootable_recovery ****
+34a4e01 : Rename process_key to ProcessKey <115ek> 3 weeks ago
+6d1945e : Fix bldr msg file open mode when offset specified <Matt Mower> 3 days ago
+d234593 : Fixup custom bootloader msg offset in block misc <Matt Mower> 3 weeks ago
+2b0ba18 : Fix compile Wreorder warning <Petr Stefan> 4 weeks ago
+1fa9645 : minui: Skip EV_REL input devices. <Vitalii Kulikov> 4 weeks ago
+3e2ddb3 : recovery: Fix "Wipe data" wrong "System reset" naming <Adrian DC> 5 weeks ago
+cdc9845 : Allow custom bootloader msg offset in block misc <Matt Mower> 2 years, 7 months ago
+9eedff5 : bootloader_message: allow devices to override <Dan Pasanen> 3 months ago
+fa38074 : fstools: Add libselinux dep <Luca Stefani> 3 months ago
+a8473ae : Constrain log text output to bottom quarter of the screen. <Danny Baumann> 3 months ago
+486bbd1 : Remove duplicate draw_background_locked() call. <Danny Baumann> 3 months ago
+3312851 : updater: Allow devices to suppress BLKDISCARD <andi34> 1 year, 9 months ago
+24679ab : sr: Add performance control <Steve Kondik> 2 years, 10 months ago
+5e3867f : sr: Fix all the graphics issues <Steve Kondik> 1 year, 11 months ago
+aa52edf : Convert recovery to use BoringSSL instead of mincrypt. <Mattias Nissler> 11 months ago
+68d23dc : recovery: libverifier: Add fs_mgr header <Brandon McAnsh> 6 months ago
+7661bd5 : sr: Adjust for changes in sideload code <Steve Kondik> 6 months ago
+b3199f5 : recovery: Cleanup touch UI code for N <Steve Kondik> 6 months ago
+97c1a1b : recovery: Add new required libraries and silence warnings <Steve Kondik> 6 months ago
+a95e331 : sr: Remove dialog usage from backup service <Steve Kondik> 6 months ago
+721132e : recovery: Include libc when building libminiunz_static <Rashed Abdel-Tawab> 6 months ago
+85d7131 : recovery: Include libselinux when building libmake_ext4fs_static <Rashed Abdel-Tawab> 6 months ago
+0184cc9 : recovery: Update src files for N <Luca Stefani> 6 months ago
+1b30d65 : ninja-build: don't use $(shell) in other Make constructs [4/4] <Saleem Rashid> 10 months ago
+1c4770e : recovery: Initialize menu_show_start_ to avoid crash <nadlabak> 8 months ago
+a39badf : Mount pstore filesystem while in recovery <Vojtech Bocek> 1 year, 11 months ago
+a7e6836 : recovery: Add wipe system partition option <Michael Bestas> 1 year, 1 month ago
+1cc8eb1 : ui: Also detect KEY_HOME <Michael Bestas> 11 months ago
+d75bd93 : recovery: Only set relevant sysbar state flags <Tom Marshall> 11 months ago
+0500059 : recovery: bu: Make 64-bit clean <Tom Marshall> 1 year ago
+848678f : recovery: Implement sysbar <Tom Marshall> 1 year ago
+78bc1ac : recovery: handle back button when navigating recovery logs <Scott Mertz> 12 months ago
+94ab70c : recovery: Remove empty header line <Tom Marshall> 1 year ago
+1b01184 : recovery: don't override selinux for cache partition <Pat Erley> 1 year ago
+a58088f : recovery: User recovery shouldn't allow mounting system <Pat Erley> 1 year ago
+9b3b646 : sr: Deep rainbow integration <Steve Kondik> 1 year, 6 months ago
+956bf65 : recovery: mount without selinux for update <Pat Erley> 1 year ago
+6418c53 : recovery: rename remount_for_wipe <Pat Erley> 1 year ago
+dac9d5d : recovery: Minimize headers for "Apply update" menus <Tom Marshall> 1 year ago
+f55481c : recovery: Show menu headers <Tom Marshall> 1 year ago
+4f48f60 : minui: accept RGBA and treat it as RGBX <Arnav Gupta> 1 year ago
+57db31e : recovery: Remove insecure wipe from menu on user builds <Pat Erley> 1 year ago
+bd810af : recovery: Fix dependencies <Tom Marshall> 1 year, 2 months ago
+41a4e57 : recovery: Offer to format if data wipe fails <Tom Marshall> 1 year, 1 month ago
+d6f84e8 : recovery: Menu rewrites and cleanups <Tom Marshall> 1 year, 2 months ago
+b6a6125 : recovery: Fix media wipe <Pat Erley> 1 year ago
+fd4ec79 : recovery: Fix mount_for_wipe <Pat Erley> 1 year, 1 month ago
+2435122 : recovery: Fix recursive rm wipe of data <Pat Erley> 1 year, 1 month ago
+3d4bd26 : recovery: Enable the menu for User builds <Pat Erley> 1 year, 1 month ago
+e3211b7 : recovery: fstools: Honor TARGET_USES_EXFAT <Tom Marshall> 1 year, 2 months ago
+ 
+**** vanir:build ****
+db69db2 : Build hacks <DHOMD> 4 months ago
+1945f9e : Update vendor tools path <DHOMD> 4 hours ago
+984ef87 : product_config: duplicated lines <nuclearmistake> 6 hours ago
+73abc07 : Remove duped bacon <nuclearmistake> 13 hours ago
+80693a1 : Drop templates from legacy location <nuclearmistake> 14 hours ago
+ce6209e : remove duplicated OEMIMAGE stuff <nuclearmistake> 14 hours ago
+86153fa : Revert "build_image: Unbreak verity/FEC generation" <Dan Pasanen> 30 hours ago
+9c2a7fd : core: Output full OTA package path to terminal <Matt Mower> 9 days ago
+d3d661f : releasetools: Generate recovery-from-boot.p with bsdiff if necessary <Gabriele M> 7 days ago
+855ea21 : Always copy bootable images in BOOTABLE_IMAGES/ <Gabriele M> 3 weeks ago
+6544629 : Revert "releasetools: Don't extract BOOTABLE_IMAGES when signing target files" <Gabriele M> 3 weeks ago
+7b98ed5 : Move ro.bootimage.build.fingerprint to build.prop <Gabriele M> 3 weeks ago
+3adaa9d : bacon: strip absolute PRODUCT_OUT path from md5sum file <Allen Wild> 6 weeks ago
+e23867f : core: include libf2fs_fmt_host_dyn in otatools <Tom Powell> 3 weeks ago
+e44fa49 : core: Fix unified trees with no TARGET_OTA_ASSERT_DEVICE <Gabriele M> 3 weeks ago
+7c93b44 : ota_from_target_files: Remove device dependent arguments <Gabriele M> 5 weeks ago
+9b1da12 : releasetools: support reading release keys out of some sort of command <Tom Powell> 4 weeks ago
+1f79d0d : releasetools: Add script to sign zips <Gabriele M> 5 weeks ago
+5caf64b : build: Warn about prebuilt apk in PRODUCT_COPY_FILES <Adrian DC> 4 weeks ago
+1183ccd : build: Disable check for blocking prebuilt apk in PRODUCT_COPY_FILES <Arne Coucheron> 4 weeks ago
+7d48599 : build sign_target_files_apks.py: clean tmp on exit <Sam Mortimer> 4 weeks ago
+47de313 : Revert "build: Enable custom ccache cache dir for Android" <Matt Mower> 5 weeks ago
+18ebbb6 : core: move platform-specific helper macros to target makefiles <Dan Pasanen> 6 weeks ago
+c2dcf4b : build: Replace pushd with cd <Luca Stefani> 6 weeks ago
+ec92ea8 : lunch: Use cd - instead of popd <Luca Stefani> 6 weeks ago
+eb5373e : envsetup: Tweak nested executed commands <Matt Mower> 6 weeks ago
+e413053 : envsetup: Combine nested else; if into elif in check_product() <Matt Mower> 6 weeks ago
+0ac9fb6 : build: core: Rebrand CM_VERSION to LINEAGE_VERSION <Zhao Wei Liew> 7 weeks ago
+0967da1 : build: support lineage device trees <Simon Shields> 7 weeks ago
+07ac24c : core: Fix build_{date,number} <Luca Stefani> 6 months ago
+bf779a8 : binary: Allow specifying a path for generated proto headers <Ricardo Cerqueira> 1 year, 1 month ago
+74bec91 : core: finish using PRIVATE_RECOVERY_OUT rather than hard-coding "RECOVERY" <Dan Pasanen> 7 weeks ago
+b82e60e : core: we're now lineage <Dan Pasanen> 8 weeks ago
+cd886e5 : build: Ensure that we can always find the CM envsetup script <Zhao Wei Liew> 8 weeks ago
+937c4a1 : envsetup: Split cached vars <Luca Stefani> 8 weeks ago
+ffac3b7 : core: allow specifying building ramdisk(s) with lzma <Dan Pasanen> 3 months ago
+113cba7 : blockimgdiff: plz don't spam my terminal, thx <Dan Pasanen> 2 months ago
+bde6b51 : build: Conditionally disable ccache for modules with FDO enabled <Gabriele M> 3 months ago
+69d2704 : binary: Append cc/cxx wrapper to sdclang <Luca Stefani> 3 months ago
+a106165 : build: Require devices to opt-in for SDCLANG <Steve Kondik> 3 months ago
+30067d6 : build: Increase diff timeout <AndropaX> 4 months ago
+c23d327 : Fix a race condition while building the recovery patch (needed for msm8226) <Martin Blumenstingl> 12 months ago
+9d6041a : Source CM specific envsetup <Michael Bestas> 6 months ago
+c8d1699 : ninja: increase maximum suffix length <Simon Shields> 4 months ago
+10d256c : Add LOCAL_AIDL_FLAGS <Luis Vidal> 7 months ago
+cf571f4 : We want Browser <Quang Ngô> 5 months ago
+ec9b0e9 : Show complete command with args when ComputePatch fails <SteadyQuad> 5 months ago
+bbc6ec3 : ninja: use host's ninja if it exists <Dan Pasanen> 5 months ago
+a360269 : build: Allow both OpenJDK and OracleJDK by default <Zhao Wei Liew> 6 months ago
+84591e5 : build: use the system's ccache by default <Anthony King> 2 years ago
+ 
+**** vanir:development ****
+1b883b4 : gdbclient: fix gdbclient <processname> invocation <Khalid Zubair> 8 months ago
+21fce74 : idegen: Check if environment variable exists <Mete Polat> 12 months ago
+f96b400 : idegen: don't use hardcoded out directory <Khalid Zubair> 1 year, 2 months ago
+1073931 : gdbclient: Properly locate outdir on CM <Steve Kondik> 1 year, 2 months ago
+2244fdd : Grant dev tools system permission to trigger media-scan service <Allen Shen> 3 years, 2 months ago
+567aa32 : Dev Tools: hide the icon! <Chirayu Desai> 4 years, 6 months ago
+ 
+**** vanir:device_google_marlin ****
+d7fe925 : marlin: disable our local telephony extensions <Dan Pasanen> 7 weeks ago
+80c154b : Revert "marlin: specify device-specific recovery updater libs" <DHOMD> 4 weeks ago
+ 
+**** vanir:device_htc_m7-common ****
+71daf09 : Revert "m7-common: Add charging USB config" <Matt Mower> 4 hours ago
+ 
+**** cm:LineageOS/android_device_htc_pme ****
+d7a4256 : pme: sepolicy: Fix denials due to net_raw removals in qcom/common <Christopher R. Palmer> 13 hours ago
+ 
+**** vanir:device_htc_s4-common ****
+58a28a9 : Revert "s4-common: Add charging USB config" <Matt Mower> 4 hours ago
+ 
+**** vanir:device_huawei_kiwi ****
+a3aa345 : kiwi: Fix denials <Michael W> 6 hours ago
+c20271b : kiwi: Fix selinux denial <Michael W> 12 hours ago
+8f04ec7 : kiwi: disable rfs_access on 8939 <Sahitya Tummala> 4 days ago
+ 
+**** vanir:device_lge_g3-common ****
+2f58012 : g3: move rmt_storage policies to device tree <Hendrik Hagendorn> 10 hours ago
+ 
+**** cm:LineageOS/android_device_motorola_clark ****
+df5a86f : clark: sepolicy: rmt_storage needs net_raw <Desterly> 10 hours ago
+bf4d685 : clark: sepolicy: rfs_access needs net_raw <Dan Pasanen> 14 hours ago
+1ba24a5 : clark: address miscellaneous selinux denials <Dan Pasanen> 8 days ago
+376b3a6 : Revert "clark: disable rfs_access" <Desterly> 23 hours ago
+ 
+**** vanir:device_motorola_falcon ****
+c61b306 : Disable basic dexpreopt <Gabriele M> 13 hours ago
+cf54693 : Switch to open source AKM daemon <Gabriele M> 9 days ago
+ 
+**** vanir:device_motorola_msm8226-common ****
+f88d8d7 : libsensors: akmdfs: Add mininum delay <Gabriele M> 4 days ago
+a21f6f5 : libsensors: akmdfs: Silence compiler warning <Gabriele M> 10 days ago
+f03630a : libsensors: Open some files in write only mode <Gabriele M> 10 days ago
+6a5404b : libsensors: Remove accelerometer max delay <Gabriele M> 10 days ago
+b247c72 : libsensors: akmdfs: Fix constants and convertion factors <Gabriele M> 10 days ago
+9102916 : libsensors: Fix and enfore compass max sampling rate <Gabriele M> 9 days ago
+25c2044 : libsensors: Pass accelerometer delay to akm8963 driver <Gabriele M> 9 days ago
+eaa63a3 : libsensors: akmdfs: Use CLOCK_BOOTTIME <Gabriele M> 9 days ago
+22a68fe : sepolicy: Update rules for OSS AKM daemon <Gabriele M> 9 days ago
+7b60423 : libsensors: Include akmdfs Makefile <Gabriele M> 9 days ago
+f372da7 : libsensors: akmdfs: Rename module to akmd8963 <Gabriele M> 9 days ago
+aa1ecda : libsensors: akmdfs: Use our akm8963.h <Gabriele M> 9 days ago
+d428a18 : libsensors: akmdfs: 8975 to 8963 <Gabriele M> 9 days ago
+bce5978 : libsensors: Import AKM 8975 daemon <Gabriele M> 9 days ago
+4a25731 : msm8226-common: Allow init to write in debugfs <Arne Coucheron> 5 weeks ago
+ceaf2e5 : sepolicy: Add dac_override capability to rmt_storage <Gabriele M> 7 hours ago
+d41940d : Revert "msm8226-common: Build with SDCLANG" <Gabriele M> 14 hours ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+0cf8845 : Otus: Fix FM Radio <DHOMD> 4 weeks ago
+ 
+**** cm:LineageOS/android_device_motorola_peregrine ****
+6022eeb : Switch to open source AKM daemon <Gabriele M> 9 days ago
+ 
+**** cm:LineageOS/android_device_motorola_victara ****
+8776390 : victara: sepolicy: rmt_storage needs dac_override <Dan Pasanen> 14 hours ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+11eb64a : op3: Address some denials <dianlujitao> 15 hours ago
+f33d506 : sepolicy: update rules for dashd <Alexander Martinz> 33 hours ago
+f6858da : op3: Map known display modes for s6e3fa5 panel <dianlujitao> 2 days ago
+1d0b699 : op3: sepolicy: Fix rmt_storage and rfs_access policies <Bruno Martins> 18 hours ago
+068251d : Revert "op3: Include aptX codec support" <Peter Nyilas> 4 hours ago
+d7d5c70 : op3: Fix permission for config partition <dianlujitao> 18 hours ago
+be592ef : op3: Include aptX codec support <dh.harald> 28 hours ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+055841e : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 3 months ago
+ 
+**** vanir:device_qcom_common ****
+97674fc : Suboptimal way of fixing Pixie builds <DHOMD> 7 weeks ago
+cb1c51f : Revert "extractors: Add aptX & aptXHD to confirmed platforms" <Dan Pasanen> 7 hours ago
+8685a57 : cryptfs_hw: Move to vendor/qcom/opensource/cryptfs_hw <Ethan Chen> 3 weeks ago
+ 
+**** vanir:device_qcom_sepolicy ****
+bdf09ba : Rename msmcobalt to msm8998 <Biswajit Paul> 3 months ago
+ccd3f23 : recovery: Allow recovery to set up adb in configfs based builds <Ameya Thakur> 3 months ago
+6741de8 : sepolicy:Add oemfs ruler for carrier switch <jinfaw> 3 months ago
+aca10f8 : Add SELinux support for factory reset protection <Shaheda Begum> 4 months ago
+a5839aa : sepolicy: Added thermal engine access to audioserver <Divya Narayanan Poojary> 3 months ago
+6ca8d88 : sepolicy: allow writing firmware files in recovery mode. <Sashidhar Ganiga> 4 months ago
+6256527 : Add SELinux support for factory reset protection <Shahed Begum> 4 months ago
+284de36 : sepolicy: msmcobalt: add missing line for VR service <Sathish Ambley> 3 months ago
+7e2c81a : Sepolicy:: Policies are added for nqnfcinfo daemon <Rohit Rangwani> 5 months ago
+2df0187 : sepolicy:allow dataservices to set dpm_persist_property <Devi Sandeep Endluri V V> 3 months ago
+ffb2bda : Bluetooth: Adding entry for Bluetooth Logger Process <Gurpreet Ghai> 4 months ago
+2c31fdd : common: Add wcd dsp device node to policy <Bhalchandra Gajare> 3 months ago
+9be77cd : wfd: Add access to gpu device for wfdservice <Deepak Kushwah> 6 months ago
+ddc8335 : sepolicy: msmcobalt: Add policy for VR service <Sathish Ambley> 3 months ago
+7b47a75 : common: Add policy for bluetooth on FFBM <taozhang> 4 months ago
+ce07716 : sepolicy: secure_touch: enable secure touch for qseecomd <Dany Rybnikov> 11 months ago
+50a0560 : device: sepolicy: Fix MDTP device support for msmcobalt. <Amir Kotzer> 4 months ago
+269e947 : Merge DAX changes <Gao Jie> 5 months ago
+288107d : common: Need SELinux policy to set FFBM mode <taozhang> 4 months ago
+4969f0c : sepolicy: Update the rmt_stroage and rfs_access policies <Nikhilesh Reddy> 4 months ago
+4e448b9 : sepolicy: Set the context for the frp partition <Ameya Thakur> 4 months ago
+719da80 : sepolicy: Add support to access sysfs entries <Mohit Aggarwal> 4 months ago
+edbf13e : sepolicy: added policy fixes for FBE to work properly <Andrey Markovytch> 4 months ago
+22cbbd8 : USB: dontaudit init to write to sysfs directory <Biswajit Paul> 5 months ago
+0c22d0a : Add permissions to access bt device node <Satish kumar sugasi> 4 months ago
+3a8c3c2 : sepolicy: per_mgr: Allow services to find peripheral_manager <Divya Narayanan Poojary> 4 months ago
+de562c6 : Add SELinux support for factory reset protection <Shahed Begum> 4 months ago
+4f2efc6 : Add SELinux support for factory reset protection <Shaheda Begum> 4 months ago
+529ab59 : Bluetooth: Add permission for filter. <Kiran Kelageri> 4 months ago
+ec83f6b : sepolicy: allow writing firmware files in recovery mode. <Sashidhar Ganiga> 4 months ago
+7759338 : sepolicy : Allow mm-pp-daemon access to diag <Nirmal Abraham> 4 months ago
+d79aea3 : Add GOTA sepolicy access for RIDL/RIDL 2.0 <Clarence Wong> 4 months ago
+0d3e3d8 : Sepolicy: Allow mediaserver to access media_msm8956_version_prop <Paras Nagda> 5 months ago
+ 
+**** cm:LineageOS/android_external_ant-wireless_ant_native ****
+09d9c5f : ant_native: Fix compilation errors for MSM8992/4 (non CAF) <Ketut Putu Kumajaya> 7 months ago
+09a180b : ant_native: use project pathmap <Scott Mertz> 1 year, 3 months ago
+ 
+**** vanir:external_boringssl ****
+8293da7 : boringssl: Build decrepit source into libcrypto. <Adnan Begovic> 1 year, 4 months ago
+ 
+**** cm:LineageOS/android_external_bzip2 ****
+0820f67 : bzip: Build binaries for the target <Steve Kondik> 1 year, 3 months ago
+ 
+**** cm:LineageOS/android_external_fsck_msdos ****
+0734663 : Revert "fsck_msdos: Don't use Snapdragon LLVM" <Zhao Wei Liew> 3 weeks ago
+ 
+**** cm:LineageOS/android_external_gptfdisk ****
+3688a9f : gptfdisk: Build static executable for minivold in recovery <Tom Marshall> 1 year, 3 months ago
+ 
+**** cm:LineageOS/android_external_icu ****
+9b1e26a : icu: Regenerate ICU data <Michael Bestas> 6 weeks ago
+3641fcb : icu: Fix Kurdish Arabic locale detection <Michael Bestas> 1 year, 10 months ago
+e2c3d35 : icu: Add Asturian ICU files <Marco Brohet> 3 years ago
+ 
+**** cm:LineageOS/android_external_jemalloc ****
+836d536 : Avoid a potential innocuous compiler warning. <Jason Evans> 12 months ago
+5986429 : Allow devices to specify a default decay time <Arne Coucheron> 4 months ago
+ee84af0 : Revert "Fix leak of arenas_cache in tsd cleanup." <Christopher Ferris> 12 months ago
+9f7eb12 : Fix unaligned access in hash data. <Christopher Ferris> 12 months ago
+e9b7d66 : Update generated files for 4.1.0 update. <Christopher Ferris> 12 months ago
+27f4719 : Merge remote-tracking branch 'aosp/upstream-dev' into merge <Christopher Ferris> 12 months ago
+ 
+**** vanir:external_libnfc-nci ****
+3cf6ea3 : libnfc-nci: set NXP_CHIP_TYPE based on BOARD_NFC_CHIPSET <Hendrik Hagendorn> 3 months ago
+e3d4b3c : nfc-nci: Add guard when using NQ NFC <Steve Kondik> 9 months ago
+41b0d30 : libnfc-nci: Fix Ubikey on pn5xx devices <Pat Erley> 1 year, 1 month ago
+7cfe45b : pn547: Don't attempt to downgrade firmware <Ricardo Cerqueira> 2 years, 8 months ago
+df8243e : pn547: Force rewrite of config even if we think it's the same <Ricardo Cerqueira> 1 year, 11 months ago
+6ac3a06 : Rename NXP HAL <Jizhou Liao> 2 years, 7 months ago
+05b62da : Correct corrupted CC value on MIFARE ULC tag <Jizhou Liao> 1 year, 9 months ago
+8cc79bc : Increase maximum AID routing buffer length and entry size. <Jizhou Liao> 1 year, 8 months ago
+839de28 : Increase APDU buffer size to support extended APDU <Jizhou Liao> 1 year, 9 months ago
+c1e88bc : Fix unhandled NCI errors and wrong states <Jizhou Liao> 1 year, 8 months ago
+05880a3 : Increase HCI EVT buffer size <Jizhou Liao> 1 year, 8 months ago
+86a253c : Fix maximum HCP package size <Jizhou Liao> 1 year, 8 months ago
+9a02479 : Code inspection fixes <Jizhou Liao> 1 year, 8 months ago
+d250860 : Changes base on coding conventions rules <Jizhou Liao> 1 year, 9 months ago
+d0b9d07 : Fix board-specific HAL module naming <Shareef Ali> 2 years, 2 months ago
+246d723 : nfc_nci: Allow passing in the HAL suffix as a variable <Steve Kondik> 3 years, 9 months ago
+ 
+**** cm:LineageOS/android_external_okhttp ****
+43d931d : okhttp: Get tcmiface off the boot classpath <Steve Kondik> 1 year, 3 months ago
+ 
+**** cm:LineageOS/android_external_powertop ****
+01b793c : powertop: Build for arm64 too <Steve Kondik> 10 months ago
+5e599eb : powertop: Move to xbin <Steve Kondik> 1 year, 3 months ago
+686a289 : Build with ncurses on CM <Steve Kondik> 1 year, 3 months ago
+92c9a5f : power: array max size limit check for powertop <vanajau> 5 months ago
+ 
+**** vanir:external_skia ****
+7f92e07 : Reconcile <nuclearmistake> 14 hours ago
+b1e6378 : SkBlitter: Optimized NEON blitting asm code <Christopher N. Hesse> 3 months ago
+0c1a334 : skia: Use TARGET_HAVE_QC_PERF to enable QCPERF <Steve Kondik> 6 months ago
+fba0077 : Fix rewinding bug in SkJpegCodec (cherry picked from Skia) <Matt Sarett> 7 months ago
+ea3121e : Fix rewinding bug in SkJpegCodec (cherry picked from Skia) <Matt Sarett> 7 months ago
+ 
+**** cm:LineageOS/android_external_tinyalsa ****
+af4adaa : Compilation fixes <Chirayu Desai> 6 months ago
+f1f190a : Don't obey invalid integer ranges. <Danny Baumann> 1 year ago
+83b3737 : tinyalsa: Add a board config to drop silence_size for blob compat. <Christopher R. Palmer> 1 year, 3 months ago
+08c0cac : tinyalsa: Use kernel headers when available <Christopher R. Palmer> 1 year, 7 months ago
+354b4b0 : tinyalsa: verify mixer control values <Scott Mertz> 1 year, 3 months ago
+95d952b : tinyalsa: fix initializaton of pcm config structure <Shiv Maliyappanahalli> 1 year, 6 months ago
+ 
+**** cm:LineageOS/android_external_tinycompress ****
+439a4ec : tinycompress: Fix compilation on old targets <Steve Kondik> 1 year, 4 months ago
+0820802 : compress: Extend cplay with support to offload path <Yuhao Chen> 2 years, 8 months ago
+fc89e4d : audio: compress error propagation <Naresh Tanniru> 2 years, 8 months ago
+d1eb60d : tinycompress: squash tinycompress fixes <Sidipotu Ashok> 11 months ago
+ 
+**** cm:LineageOS/android_external_tinyxml2 ****
+41e0f65 : tinyxml2: enable tinyxml2 shared library generation <Alex Sarraf> 1 year, 5 months ago
+ 
+**** vanir:external_wpa_supplicant_8 ****
+932d1d2 : wpa_supplicant_conf: Let devices provide their own template <Ricardo Cerqueira> 10 months ago
+f3f7a0e : eap: Don't force reassociation when getting the identity and handshakes are in progress <Ricardo Cerqueira> 11 months ago
+cd1d18c : eap_peer: Make the QMI EAP proxy a standalone lib <Ricardo Cerqueira> 1 year, 7 months ago
+afb3a67 : Update channel information after channel switch <Jouni Malinen> 4 months ago
+d8314bb : Restart PNO/sched_scan on channel list update. <Arik Nemtsov> 4 months ago
+c61abc4 : Share a common helper function for restarting sched_scan. <Jouni Malinen> 4 months ago
+b650b72 : wpa_supplicant: Cancel sched_scan on SELECT_NETWORK initiated scan <Max Stepanov> 4 months ago
+97629c6 : nl80211: Allow TDLS trigger modes to be configured to the host driver <Sunil Dutt> 4 months ago
+f193429 : QCA vendor  command to configure the TDLS behavior in the host driver <Sunil Dutt> 4 months ago
+ca79e23 : Do not exceed scan ssid max size advertised by driver <Roshan Pius> 5 months ago
+9370edb : Do not exceed scan ssid max size advertised by driver <Roshan Pius> 5 months ago
+2886779 : P2P: Check if the pref_freq reported by the driver supports P2P <Sunil Dutt> 4 months ago
+415b29a : EAP-Proxy: Consider EAP-AKA' in SelectedMethod of Status command. <Purushottam Kushwaha> 4 months ago
+24e938e : MBO: Add support to send ANQP request to get cellular preference <vamsi krishna> 5 months ago
+436cbe3 : MBO: Do not add reason_detail in non_pref_chan attr (STA) <vamsi krishna> 5 months ago
+3415824 : WNM: Add testing option to reject BSS Transition Management Request <vamsi krishna> 5 months ago
+d9230fe : MBO: Add support to ignore association disallowed set by AP <vamsi krishna> 5 months ago
+add5e6e : MBO: Remove unused assignment <Jouni Malinen> 7 months ago
+406dcda : MBO: Improve supported operating class generation <Jouni Malinen> 8 months ago
+6ea2744 : MBO: Mark verify_channel() static <Jouni Malinen> 8 months ago
+0e6d801 : Add QCA vendor attributes for measurement frequency for FTM/AOA <Lior David> 5 months ago
+cb3c8e3 : QCA vendor command for antenna diversity feature <lifeng> 5 months ago
+3e2d885 : MBO: Add QCA vendor option to configure driver to ignore assoc disallow <vamsi krishna> 5 months ago
+f9148c1 : Define an attribute QCA_WLAN_VENDOR_ATTR_CONFIG_QPOWER <Sunil Dutt> 6 months ago
+d40fcb5 : Define an attribute QCA_WLAN_VENDOR_ATTR_CONFIG_IFINDEX <Sunil Dutt> 7 months ago
+29b7901 : Define vendor command to support IE based access control <Sunil Dutt> 7 months ago
+53ff624 : Assign QCA vendor attributes for generic commands <Vikram Kandukuri> 7 months ago
+f91be87 : Handle QMI SSR <c_rrajiv> 5 months ago
+ 
+**** vanir:frameworks_av ****
+a583ca8 : reconsmile <nuclearmistake> 14 hours ago
+cd72c75 : libstagefright: Restore AOSP's handling of 24/32-bit wav files <Christopher R. Palmer> 3 weeks ago
+62c1b38 : Revert "Revert "Stagefright: Allow setting high-framerates in CameraSource"" <Michael Bestas> 10 weeks ago
+37493c6 : libaudiopolicyservice: make legacy build with Werror <Xuefer> 4 months ago
+ce528f8 : frameworks/av: Fix video recording breaks <Keith Mok> 10 months ago
+a805d31 : video: Use boot clock for recording start time <Surajit Podder> 12 months ago
+12a55f4 : frameworks/av: Don't override LOCAL_CFLAGS <Bruno Martins> 8 weeks ago
+744ec51 : soundtrigger: fix memory corruption <Sam Mortimer> 10 weeks ago
+9291542 : audioflinger: Fix audio for WifiDisplay <myfluxi> 3 months ago
+41dc4e9 : OMXNodeInstance: More legacy HAL1 fixes after merge of android-7.1.0_r7 <Dominggoes Isakh> 3 months ago
+8392952 : OMXNodeInstance: Fix legacy HAL1 after merge of android-7.1.0_r7 <LuK1337> 3 months ago
+d37f738 : libstagefright: fix camera/encoder for targets that using native handle source <Hikari-no-Tenshi> 3 months ago
+c411b95 : Camera: Support obtaining camera memory from MemoryHeapIon <Ethan Chen> 3 years, 3 months ago
+c5289fd : libstagefright: Support for legacy camera/encoder buffers <Christopher N. Hesse> 4 months ago
+fb6d9d7 : camera/media: Support for legacy camera HALv1 <Simon Shields> 4 months ago
+9f9d0a0 : libstagefright: fix exynos4 camcorder <Pavel> 4 months ago
+00f68f2 : minijail: allow x86 to use a common mediaextractor cm seecomp policy <jrior001> 4 months ago
+578e0d0 : libcameraservice: Don't pass NULL args on setCallbacks call <irii> 5 months ago
+4b26d88 : minijail: Add extended policies for all devices <Steve Kondik> 4 months ago
+e75009a : seccomp: Permit getsockopt <Steve Kondik> 4 months ago
+a17869d : libstagefright: Support YVU420SemiPlanar camera format <Ethan Chen> 1 year, 1 month ago
+581d149 : mediaserver: Fix LOCAL_CFLAGS <Arne Coucheron> 4 months ago
+a8d05a3 : stagefright: omx: Don't signal dataspace change on legacy QCOM <Arne Coucheron> 4 months ago
+bce31c5 : libstagefright: Add support for NV21 color format <Andreas Schneider> 1 year, 6 months ago
+9bc4b4f : Rename dump methods to dumpState <Colin Cross> 5 months ago
+cb5576b : camera: Better fix for janky metadata issue <Steve Kondik> 4 months ago
+b0f6a11 : Revert "Stagefright: update decoding times for recording with batch-input" <Steve Kondik> 5 months ago
+e8c3f49 : Remove incorrect forward declaration <Colin Cross> 5 months ago
+b4f46f1 : IMediaSource: Pack alignment of ReadOption struct <Dan Liang> 5 months ago
+6ae6418 : media: Fix graphic buffer leak. <Chih-Hung Hsieh> 5 months ago
+45d8178c : cameraservice: Resolve message vs start/stop preview races <Ricardo Cerqueira> 1 year, 7 months ago
+5f6ca8a : Stagefright: update decoding times for recording with batch-input <Praveen Chavan> 2 years, 1 month ago
+9599425 : stagefright: Setup B-frames for codecs <Steve Kondik> 5 months ago
+963bbd5 : camera: add ability for a device to specify MAX_CAMERAS <Dan Pasanen> 2 years, 10 months ago
+db869a5 : camera: Workaround for GCC-compiled HAL3 drivers <Steve Kondik> 5 months ago
+ba40069 : omx: Improve debug messages for null buffers <Steve Kondik> 5 months ago
+59d75a9 : avextensions: Fix build for non QCOM <Steve Kondik> 5 months ago
+192ae8d : camera: Allow devices to load custom CameraParameter code <Ethan Chen> 1 year, 4 months ago
+cd4b8e2 : avextensions: Fill in QC feature support (part 1) <Steve Kondik> 5 months ago
+53ef387 : stagefright: Trivial FFMPEG fixes <Steve Kondik> 5 months ago
+25aaba2 : ffmpeg: Avoid QCOM-specific identifier <Steve Kondik> 5 months ago
+aca9c38 : camera: Disable extra HDR frame on QCOM_HARDWARE <Ricardo Cerqueira> 2 years, 9 months ago
+45a0ff6 : camera: Don't segfault if we get a NULL parameter <Steve Kondik> 3 years, 10 months ago
+c778d3f : audiopolicy: fix compiling for legacy audio <Xuefer> 5 months ago
+5ee4e49 : audiopolicy: Handle legacy startOutput on output command thread too <Xuefer> 1 year, 2 months ago
+9df04cd : libstagefright: squash exynos4 support <Simon Shields> 1 year, 2 months ago
+3dd5967 : stagefright: fix finding hardware codec <Sunghyun Kwon> 6 months ago
+fb6c137 : libcameraservice: add missing check for entry count <codeworkx> 5 months ago
+c796ac5 : stagefright: Disable spammy debugging <Steve Kondik> 5 months ago
+fd7d0e3 : stagefright: Explicitly handle ALAC files <Steve Kondik> 8 months ago
+ 
+**** vanir:frameworks_base ****
+5a75242 : setLightsOn spam: DEBUG conditionalization <nuclearmistake> 8 weeks ago
+5637ad0 : Charging indicators for text-only battery view <nuclearmistake> 1 year, 8 months ago
+2154d24 : Notifications with icon==0 ARE FINE WITH US <nuclearmistake> 2 years, 3 months ago
+b3d20a3 : Fix Werror=unused introduced in be5f09c1347c1830e4ccc7c97cc8f87bcf73c975 <nuclearmistake> 9 months ago
+d4207e0 : aapt: suppress string resources build warnings <nuclearmistake> 6 months ago
+a6f20c1 : Revert "base: lineage adb icon" <Joey Rizzoli> 7 weeks ago
+8d572ca : Revert "PlatLogo: Show lineage platlogo when tapping on LineageOS version" <DHOMD> 4 hours ago
+95a3b14 : EasterEgg: We like norse cats <PMS22> 9 weeks ago
+f7d5700 : Show infinity for large notification counts <d34d> 3 days ago
+bc2bc4b : Don't reposition the clock when pulling down the notification bar <Gabriele M> 4 days ago
+4718d8b : SystemUI: Use mContext.getDrawable for battery icon <LuK1337> 5 days ago
+17a247c : SeekBarVolumizer: Disable notification volume if RINGER_MODE_VIBRATE <Danesh M> 1 year, 1 month ago
+9ad9d82 : policy: Long-press power while display is off for torch <beanstown106> 1 year, 1 month ago
+e0a7d2a : SystemUI: PowerNotification: Add up button to fragment <Zhao Wei Liew> 2 weeks ago
+c0758c2 : Use STREAM_RING on non-voice capable devices <LuK1337> 2 weeks ago
+810aceb : core: more descriptive vendor image mismatch message <Dan Pasanen> 3 weeks ago
+17507a4 : SystemUI: Never link nofication volume on non-voice capable devices <LuK1337> 3 weeks ago
+100031e : PhoneWindowManager: Support multiple key handlers <Zhao Wei Liew> 3 months ago
+01828fd : Correctly name LID_STATE_CHANGED broadcast <Ethan Chen> 3 weeks ago
+8b7f677 : Revert "Frameworks: fix living wallpaper exception when reboot" <Sam Mortimer> 3 weeks ago
+94a8ec5 : PhoneWindowManager: add mTopFullscreenOpaqueWindowState null check to fix exception <Sam Mortimer> 4 weeks ago
+60c9851 : SystemUI: Fix the unlock sound played repeatedly <Shufeng Hou> 1 year, 2 months ago
+81336da : policy: don't allow app switch/recents key to be pressed on lockscreen <Matt Filetto> 1 year, 10 months ago
+da755de : Status bar: Add HSPA+ icons <Rashed Abdel-Tawab> 2 years, 3 months ago
+f809f7c : Revert "Support to show long or short name in SystemUI." <Arne Coucheron> 4 weeks ago
+caa7edd : Revert "SystemUI: Fix systemui FC issue" <Arne Coucheron> 4 weeks ago
+55bcdc7 : Revert "SystemUI: Customize StatusBar for China carriers" <Arne Coucheron> 4 weeks ago
+dca06ef : Revert "SystemUI: Provide correct resource type" <Arne Coucheron> 4 weeks ago
+f8dac7d : Revert "Telephony(MSIM): Do not display rat string" <Arne Coucheron> 4 weeks ago
+d0e0e94 : Revert "Add EMBMS icon and roaming icon changes" <Arne Coucheron> 4 weeks ago
+e37944c : Revert "IMS: Show VoWIFI icon based on IMS capabilities." <Arne Coucheron> 4 weeks ago
+869dfc8 : Revert "SystemUi changes submit" <Arne Coucheron> 4 weeks ago
+b29dee3 : Revert "Add support for LTE, LTE+ data icons display." <Arne Coucheron> 4 weeks ago
+1f3d270 : Revert "Display H icon for HSPA RAT's" <Arne Coucheron> 4 weeks ago
+b13b6c6 : Revert "SystemUI: Fix for display datatype icon while in roaming" <Arne Coucheron> 4 weeks ago
+a4be541 : Revert "MSIM: Provide voice pref selection in qucksettings." <Arne Coucheron> 4 weeks ago
+b637db2 : Revert "IMS: Arrange data, VoLTE icons in correct order." <Arne Coucheron> 4 weeks ago
+04922b9 : Revert "Fix 4g plus icon issue in quick settings" <Arne Coucheron> 4 weeks ago
+8504e35 : Revert "Display data RAT icon along with 'R' symbol" <Arne Coucheron> 4 weeks ago
+4818177 : Revert "Fix quick settings cellular tile update issue" <Arne Coucheron> 4 weeks ago
+ce27d42 : Revert "SystemUI: Fix SystemUI Force Close" <Arne Coucheron> 4 weeks ago
+a37b87d : Revert "SystemUI: Change size of H plus icon" <Arne Coucheron> 4 weeks ago
+e018681 : Revert "Remove the overlap on status bar" <Arne Coucheron> 4 weeks ago
+ce9fd56 : Revert "SystemUI: System UI force close when switch font size" <Arne Coucheron> 4 weeks ago
+a5abfec : Revert "The 3G indicator in status bar is too large" <Arne Coucheron> 4 weeks ago
+b391dd7 : Revert "SystemUI: Add Missing 4G+ Icons" <Arne Coucheron> 4 weeks ago
+32a5bb5 : Revert "SystemUI: Support forbidden and greyed data icons" <Arne Coucheron> 4 weeks ago
+df2dae02 : Revert "SystemUI: always hide roaming indicator" <Arne Coucheron> 4 weeks ago
+938330a : Disable lock screen blur by default <Zhao Wei Liew> 3 weeks ago
+28704d9 : Revert "Add overlay option for Settings.System.ACCELEROMETER_ROTATION_ANGLES" <Zhao Wei Liew> 3 weeks ago
+ 
+**** vanir:frameworks_native ****
+267a2e8 : sf: fixes for HWC2 <Dan Pasanen> 31 hours ago
+cd6c007 : Preserve app data if neither ce nor de have xattr user.default <Sam Mortimer> 3 weeks ago
+4ed04ff : gralloc1: Acquire mutex early in release <Pramodh Kumar Mukunda> 3 months ago
+29fa32d : Fix surfaceflinger file descriptor leak <Fabien Sanglard> 4 months ago
+7bf551c : Release resources when repeating dlopen-dlcose. <zhongjie> 11 months ago
+d827c05 : Fix clang static analyzer warnings. <Manoj Gupta> 4 months ago
+b774781 : Conditionally revert "HWC2: Don't set null handle for client layers" <Steve Kondik> 4 months ago
+eb55ebc : surfaceflinger: Add support for Exynos BGRA mixer <Christopher N. Hesse> 10 months ago
+1f20620 : surfaceflinger: Add support for Exynos HWC services <Christopher N. Hesse> 10 months ago
+a3b893d : Revert "Revert "DispSync: workaround HH hardware vsync issue"" <myfluxi> 3 months ago
+9580662 : binder: Squashed commit of MemoryHeapBaseIon <codeworkx> 4 years, 2 months ago
+1d48a61 : libui: gralloc1 getphys implementation for samsung OMX <Simon Shields> 4 months ago
+aa18d87 : input: Adjust priority <Steve Kondik> 4 months ago
+52a4461 : Rename dump methods to dumpState (again) <SM> 4 months ago
+03a25ea : Rename dump methods to dumpState <Colin Cross> 5 months ago
+f63bef3 : appops: update index <Raleigh Matlock> 5 months ago
+fa718c1 : surfaceflinger: fix missing include <Hashbang173> 6 months ago
+e7e73f3 : surfaceflinger: Add missing code in opaque check <Arne Coucheron> 5 months ago
+3dde3a5 : surfaceflinger: Clean up use of QC extended API <Steve Kondik> 1 year, 4 months ago
+daea898 : Support forcing all screenshots into a CPU consumer <Ricardo Cerqueira> 3 years, 4 months ago
+f01ded1 : Bring back support for glReadPixels screenshot path <Pawit Pornkitprasan> 2 years, 3 months ago
+95baecf : libbinder: allow devices to disable ashmem size tracking <Simon Shields> 1 year, 2 months ago
+fad8138 : SurfaceFlinger: Native changes to add blur effect <Steve Kondik> 2 years, 2 months ago
+71f6686 : surfaceflinger: Add support for secondary color matrix <Steve Kondik> 10 months ago
+f5de108 : native: Restore VM memory overrides <Diogo Ferreira> 2 years, 3 months ago
+4c9ba82 : dumpstate: add CM version to output <Scott Mertz> 9 months ago
+ad4c75d : Fixed stylus eraser being rejected by palm rejection <FPtje> 7 months ago
+90be00c : sensor: Allow devices to skip the permission request <Christopher N. Hesse> 1 year, 3 months ago
+402f563 : libgui: Don't assign handle to NULL after free <Caio Schnepper> 1 year, 3 months ago
+4b5d024 : surfaceflinger: Reimplement hwrotation <Ricardo Cerqueira> 4 years, 3 months ago
+75476ce : update app ops <Roman Birg> 1 year, 3 months ago
+8e4f67d : native: dock battery <Jorge Ruesga> 1 year, 8 months ago
+d762f5e : Support WAKE flag in keyboard layouts <nadlabak> 1 year, 10 months ago
+46f60ac : input: Add option to toggle pointer icon when using stylus(3/3) <Steve Kondik> 2 years ago
+2557f27 : Fix for landscape thumbnail images on GLES11RenderEngine <chaochen> 2 years, 3 months ago
+8cc8300 : Forward port 'Swap volume buttons' (2/3) <nadlabak> 2 years, 2 months ago
+10ea40b : inputflinger: disable touch input while using a stylus <Christopher N. Hesse> 2 years, 2 months ago
+ba84974 : Add GESTURE_SENSOR input source <Ethan Chen> 3 years, 4 months ago
+4a0e0e8 : inputflinger: Add gesture sensor support <Steve Kondik> 2 years, 3 months ago
+6b5f39a : RenderEngine: remove warning "using EGL_IMG_context_priority" <Michael Gernoth> 1 year, 4 months ago
+4fb4ab0 : libEGL: allow devices to workaround Google bug 10194508 <Pawit Pornkitprasan> 3 years, 3 months ago
+d7ad71e : Revert "egl: Remove old tuna BGRA vs RGBA workaround." <Ethan Chen> 1 year, 4 months ago
+9619ef1 : exynos4: getphys implementation on buffermanager for samsung omx <Ricardo Cerqueira> 3 years, 3 months ago
+6f4b8d2 : gui: Send layer color over binder <Naseer Ahmed> 3 months ago
+50955cc : SF: Fix a couple of Layer ref count issues <Dan Stoza> 6 months ago
+563d008 : surfaceflinger1: Add support for getHdrCapabilities <Naseer Ahmed> 3 months ago
+7111cea : SF: Fix a couple of Layer ref count issues <Dan Stoza> 6 months ago
+010a6ab : sf1 : Avoid resetting skip flag for dim layer <Prabhanjan Kandula> 4 months ago
+322618c : surfaceflinger: Increase SurfaceFlinger dump buffer size to 16k. <Namit Solanki> 5 months ago
+b66c986 : sf: Fix to allow hwc composition through property <Ramkumar Radhakrishnan> 5 months ago
+ 
+**** vanir:frameworks_opt_chips ****
+e7ada8c : chips: Adjust for N changes <Steve Kondik> 6 months ago
+d906140 : Fix exception that crashes app when <<>> chip is clicked on <Yvonne Wong> 1 year, 6 months ago
+4794012 : Apply anti-aliasing when drawing chips. <Matt Garnes> 1 year, 8 months ago
+3f29699 : chips: fix NPE errors <Jorge Ruesga> 1 year, 11 months ago
+ceccc06 : chips: suggested contacts <Jorge Ruesga> 2 years ago
+15d0cb0 : Chips: Add more logic to dismiss selection dialog <linus_lee> 2 years, 1 month ago
+1e6a1b6 : Chips: Fix some crashes and missing default icon scenario <linus_lee> 2 years, 1 month ago
+9afa113 : Chips: Google Pinyin input method <Uday Kiran jandhyala> 2 years, 3 months ago
+37883c5 : Chips : Fix recipient list picked contact <Danesh M> 2 years, 2 months ago
+f7dcdec : Always trim destination. <Danny Baumann> 2 years, 2 months ago
+6371987 : Chips: Add a view attribute for maximum number of chips parsed <Raj Yengisetty> 1 year, 10 months ago
+c709be9 : Mms: The recipients will be all deleted by mistake <yanglv> 5 months ago
+d5ab0f3 : Mms: The recipients will be all deleted by mistake <yanglv> 5 months ago
+2881980 : Fix IOB exception crash for Mms <xiaohuin> 4 months ago
+de43fdb : Fix couldn't delete all selected recipients <Ruijie Bai> 9 months ago
+0bb674d : Mms: Fix FC when tapping recipient chip in mms. <kaiyiz> 2 years, 2 months ago
+d21f100 : Fix RecipientEntry.ENTRY_TYPE_SIZE to correct value <Ruijie Bai> 9 months ago
+809c590 : Add support for auto completion of group recipients <Ruijie Bai> 10 months ago
+ 
+**** vanir:frameworks_opt_datetimepicker ****
+3b185e9 : Datetimepicker: Fix 'Done' text clipping in DatePickerDialog <Rohit Yengisetty> 2 years ago
+98260f1 : [1/2] DateTimePicker: Add ability to set Month Title layout offset <Rohit Yengisetty> 2 years, 1 month ago
+2e4900a : Datetimepicker: Account for RTL locales when formulating Day labels <Rohit Yengisetty> 2 years, 1 month ago
+d97fe3c : DateTimePicker: Add facilities to customize MonthView's appearance <Rohit Yengisetty> 2 years, 3 months ago
+ 
+**** vanir:frameworks_opt_net_wifi ****
+76c6649 : Reconcile <nuclearmistake> 4 hours ago
+76493b8 : Tethering: Turn off wifi hotspot after inactivity(2/3) <bnarasimha> 3 months ago
+91c17ab : WifiQualifiedNetworkSelector: turn down the logspam <Simon Shields> 3 months ago
+071db16 : wifi: Set the mode at native layer <Ricardo Cerqueira> 3 years, 3 months ago
+2499e09 : WifiController: Update usage of WiFi lock management <Zhao Wei Liew> 4 months ago
+8b20ede : gbk2Utf: fix comparison error <jrior001> 5 months ago
+ce4d0b3 : Kill wpa_supplicant before load driver <Keith Mok> 1 year, 1 month ago
+95b0e98 : wifi: Stop spamming logs <Ethan Chen> 7 months ago
+8ae355a : Null check before accessing AP objects <Ethan Chen> 10 months ago
+6a23117 : wifi: support devices with SoftAp that don't require firmware reload <Michaël Burtin> 4 years, 7 months ago
+42e583f : WifiController: fix high perf lock sometimes not respected <Pawit Pornkitprasan> 3 years, 2 months ago
+7370404 : WiFi: Do not use random MAC address for scan during WPS session <Rajiv Ranjan> 1 year, 7 months ago
+7b84f68 : Wifi: SubSystem Restart for SoftAP + STA concurrency <Nalla Kartheek> 5 months ago
+deceb7f : Inform usr when connect to AP is attempted with incorrect password <c_rrajiv> 5 months ago
+c1332f2 : Wifi: Trigger Selective Scan based on saved profile <c_rrajiv> 6 months ago
+08fbdaa : ANQPFactory: catch all potential parsing errors <Samuel Tan> 7 months ago
+d80f662 : VenueNameElement: fix off-by-one enum bounds check <Samuel Tan> 7 months ago
+78400be : Wifi: Fix CMD_AIRPLANE_TOGGLED handling for STA+SAP concurrency mode <Arif Hussain> 5 months ago
+ 
+**** vanir:frameworks_opt_setupwizard ****
+f012a91 : Fix setupwizard crashes for tablets <Scott Warner> 3 months ago
+ 
+**** vanir:frameworks_opt_telephony ****
+4a9f49f : Revert "IMS: Update VoLTE, VoWifi icons based on IMS capabilities" <Arne Coucheron> 4 weeks ago
+217cc7c : SubscriptionController: Make sure cis are not null <Willi Ye> 7 weeks ago
+dac1081 : Convert multi_rat_capable property into an old RIL feature. <Danny Baumann> 11 months ago
+f3ae0e4 : telephony: Improve compatibility for older DSDS stacks <Christopher R. Palmer> 11 months ago
+4b24aa1 : telephony: Set multi-rat default to true. <Adnan Begovic> 1 year, 1 month ago
+c3dad9e : SubscriptionController: Default to DDS flexmap triggering <Diogo Ferreira> 1 year, 1 month ago
+8eb8b8c : telephony: Override nw mode on creation and when trying to calculate nw type. <Adnan Begovic> 1 year, 1 month ago
+eaf228d : telephony: Respect user nw mode, handle DSDS non-multi-rat. <Adnan Begovic> 1 year, 2 months ago
+3c44ab0 : Fixes and cleanups after 7.1.0/7.1.1 merge <Arne Coucheron> 3 months ago
+663cbef : fix compile error. <Bin Chen> 2 months ago
+f0811bd : Update carrier services on EVENT_NV_READY <Gabriele M> 4 months ago
+409025a : GsmCdmaPhone: Return dummy ICCID serial for NV sub <Gabriele M> 3 months ago
+278f9db : Add dummy SUB record in CDMA NV mode <Chaitanya Saggurthi> 2 years ago
+bd2e2e9 : Send EVENT_NV_READY to GsmCdmaPhone <Gabriele M> 3 months ago
+2718703 : tests: Update SubscriptionInfo parameters to match fwb <LuK1337> 3 months ago
+3fb85e1 : Telephony: fix SMS NPE <Roman Birg> 6 months ago
+74414b8 : Phone App crash: process com.android.phone has stopped. <Sumod Mukkumkal Chandran> 1 year ago
+cd7c37f : Single digit MMI codes cause CTS to fail <Abhishek G> 10 months ago
+b63d2e9 : GsmMmiCode: Fix USSD NPE <Ketut Putu Kumajaya> 1 year ago
+15da3a8 : For NV-based devices like CDMA only devices, ignore ICC Card status change EVENT. <Wei Ying> 3 years, 5 months ago
+3dc8eab : Suppress error pop-ups for single digit dials. <Abhishek Gilra> 1 year ago
+36909ea : MMS: Update apnProfileID for MMS only apn. <Patrick Lower> 1 year, 1 month ago
+f01058c : telephony: Configure additional TCP parameters <Steve Kondik> 1 year, 2 months ago
+47fdfe3 : telephony: Fix NPE when switching data SIM <Steve Kondik> 3 months ago
+0fff85d : Telephony: handle 3rd party sms apps + 'always ask' <Roman Birg> 8 months ago
+02efbec : SubscriptionController: properly detect when MSIM has 1 SIM <Roman Birg> 10 months ago
+51fea2d : telephony: Only set prompt enabled if available subscriptions > 1. <Adnan Begovic> 11 months ago
+5a8306b : telephony: Workaround default sms sub id not being set. <Adnan Begovic> 11 months ago
+1c69bf0 : telephony: Do not set default subscriptions on shutdown <Christian Morlok> 1 year, 1 month ago
+ac2ec37 : Set default subscriptions when single SIM is available <Ethan Chen> 1 year, 3 months ago
+9a665da : Add the user set network mode to the siminfo table <Chirayu Desai> 1 year, 7 months ago
+2b207bd : Forward port Samsung STK support (frameworks/opt/telephony) <Pawit Pornkitprasan> 2 years, 2 months ago
+e7b816d : Remove flag from intent sent from Catservice to StkApp. <Sanket Padawe> 5 months ago
+c521cda : SIMRecords: If there's no EF_SPN record, fallback to EF_PNN <Ricardo Cerqueira> 2 years, 5 months ago
+3255501 : DCT: Tear down MMS+default connections raised by config_enable_mms_with_mobile_data_off <Ricardo Cerqueira> 7 months ago
+3bd93c1 : Telephony: Use regular poll state when radio off for RIL versions < 10 <Arne Coucheron> 5 months ago
+49f9a2c : Revert "RIL: Squash changes to default SIM handling" <Steve Kondik> 5 months ago
+b2568ba : RIL: Squash changes to default SIM handling <LuK1337> 5 months ago
+4eb4091 : RIL: Make RIL subclassable <Ricardo Cerqueira> 4 years, 3 months ago
+3fa8727 : RIL: Squash support for mQANElements <Simon Shields> 6 months ago
+ec9273d : RIL: Squash support for old RIL <Pawit Pornkitprasan> 4 years, 3 months ago
+7a5f2ea : PhoneFactory: fix creating a cdma phone type <Dan Pasanen> 5 months ago
+cb1b10c : RIL: Squash patches for bringing back registerForOn <Ethan Chen> 1 year, 2 months ago
+628c7ee : PhoneFactory: Don't force a preferred mode if the default includes TD-SCDMA <Ricardo Cerqueira> 5 months ago
+bacd534 : Proper supplementary service notification handling (2/5). <Danny Baumann> 2 years, 3 months ago
+611fdb8 : Skip unknown tags instead of aborting when parsing UICC TLV data <Thomas Wendt> 2 years ago
+c503796 : Implement UICC TLV Data decoding. <Shantur Rathore> 2 years, 2 months ago
+282a197 : Add ContentObserver when sms sent limit changed <Keith Mok> 9 months ago
+bbb84d1 : Telephony: Add getLteOnGsmMode() method (2/2) <Ricardo Cerqueira> 4 years, 10 months ago
+ef15249 : IMS: Unregister for data enabled change with default phone <Benergy Meenan Ravuri> 3 months ago
+ 
+**** cm:LineageOS/android_frameworks_opt_vcard ****
+cf49399 : Optimize vcard export performance <Libo Jin> 10 months ago
+8558184 : Performance: Fix importing vcard slowly problem <blong> 1 year, 7 months ago
+2d19c94 : vcard: Add support to generate vcard jar. <Shashank Mittal> 2 years, 11 months ago
+ 
+**** vanir:frameworks_support ****
+0285afe : Factor out preference-in-storage check to overridable method. <Danny Baumann> 6 months ago
+0fb4660 : Roll back to gradle 2.1.2 to fix builds. <Aurimas Liutikas> 8 months ago
+bb9589e : Read clip to padding from attrs <Yigit Boyar> 9 months ago
+e77e26c : Fail focus search if focused view disappears during focus search <Yigit Boyar> 9 months ago
+d431499 : Synchronize reads of static members. <Dan Sandler> 10 months ago
+59bddcd : Fix action mode animation on recreations <Chris Banes> 9 months ago
+653d2c5 : Don't overwrite remote views with null values. <Julia Reynolds> 9 months ago
+0fe6481 : Avoid infinite loop in AppCompatDrawableManager <Yuichi Araki> 9 months ago
+9dd8439 : Update accessibility compat classes for N. <Phil Weaver> 9 months ago
+8dda872 : DO NOT MERGE Remove Pointer Capture API <Michael Wright> 9 months ago
+dfee58a : BrowseFragment: fix NPE when setAdapter in onActivityCreated() <Dake Gu> 9 months ago
+e3fae41 : Shorten LayoutState tag in LinearLayoutManager <Yigit Boyar> 10 months ago
+310ceb4 : Tweak preference adapter changes <Tony Mantler> 10 months ago
+cbe4461 : Fixing NPE issue with GuidanceStylist. <susnata> 10 months ago
+6afd0c1 : Don't handle clicks when the view is torn down <Tony Mantler> 11 months ago
+3611fca : Revert "Add default style attrs for design components" <Chris Banes> 12 months ago
+6d16587 : Revert "Theme OnboardingFragment" <Brian Carlstrom> 12 months ago
+bf453b1 : Revert "Fix typo in the comment" <Brian Carlstrom> 12 months ago
+506bb36 : Revert "RecyclerView Documentation Fixes" <Brian Carlstrom> 12 months ago
+c082c40 : Fix regressed bitwise logic in DrawerLayout <Kirill Grouchnikov> 1 year, 1 month ago
+b9e31ac : Fix build, use SparseArrayCompat <Alan Viverette> 1 year, 3 months ago
+80e9cae : Fix build <Alan Viverette> 1 year, 3 months ago
+1ef0e94 : Fix build, use SparseArrayCompat <Alan Viverette> 1 year, 3 months ago
+571cfd9 : Always return a copy of cached AccessibilityNodeInfos <Alan Viverette> 1 year, 3 months ago
+800370e : Add missing junit-runner dependency <Przemyslaw Szczepaniak> 1 year, 3 months ago
+ 
+**** vanir:hardware_libhardware ****
+a9bb3f7 : hardware: power: Remove POWER_HINT_AUDIO <Zhao Wei Liew> 2 weeks ago
+fcd7a60 : Revert "power: Add support for camera preview in powerHAL" <Zhao Wei Liew> 2 weeks ago
+db6e11d : gralloc1: getphys implementation for samsung OMX <Simon Shields> 4 months ago
+f8b294b : Dim Layer color parameter should only be used for qcom. <Aaron Kling> 5 months ago
+20364c7 : libhardware: Only support tertiary display in QTI_BSP is defined <Abhisek Devkota> 1 year, 4 months ago
+5a7ed55 : Memory leak fix during sensor HAL initialization <Dhruva Krishnamurthy> 6 months ago
+5a06e2a : power: Add support for camera preview in powerHAL <Dilip Gudlur> 1 year, 6 months ago
+1a41080 : audio: add set_parameters for listen hal <Kiran Kandi> 3 years, 4 months ago
+c687b20 : LEDs Brightness: Add the libhardware comment indications <AdrianDC> 1 year, 5 months ago
+9cdfc6b : Multiple LEDs [1/3]: Illumination Bars support <AdrianDC> 1 year, 7 months ago
+cacf58b : remote_submix: Fix resampler and channel conversion <Edward Wang> 1 year, 4 months ago
+452eb8a : lights: Adding keypad alt/shift LED light IDs <Jason Parker> 4 years, 2 months ago
+b94e02d : Add Nfc HAL module ID for NXP NCI PN54x chips <Jizhou Liao> 2 years, 7 months ago
+758d26f : gralloc: added exynos4 specific usage bits <Daniel Hillenbrand> 2 years, 3 months ago
+31c254a : audio: Add audio amplifier HAL <Ethan Chen> 1 year, 8 months ago
+64b9827 : power: Add new power hints <Steve Kondik> 3 years, 4 months ago
+57615f9 : hardware: Enable Soter for Android N <Shivaprasad Hongal> 4 months ago
+494ff16 : audio: add parameter for device shutdown notification <Bala Kishore Pati> 4 months ago
+5ee30d1 : HWC2: Add SKIP_CLIENT_COLOR_TRANSFORM capability <Dan Stoza> 7 months ago
+3035024 : HWC2: Redefine retire fence as present fence <Dan Stoza> 7 months ago
+ 
+**** cm:LineageOS/android_hardware_libhardware_legacy ****
+20cae0c : wifi: Import CID_PATH from samsung_macloader.h <Paul Keith> 6 days ago
+7f1c345 : insmod: Add support for kernels that don't have finit_module <David Marble> 4 months ago
+1ee2d69 : libhardware_legacy: Add MSM specific flags, devices and channels. <Pavan Chikkala> 2 years, 4 months ago
+93400cb : wifi: add a new "loading" state <Michaël Burtin> 5 years ago
+3a0d1fd : wifi: add suport for WIFI_EXT_MODULE <jerpelea> 5 years ago
+919e1f9 : uevent: Allow multiple uevent listeners from the same process <Diogo Ferreira> 2 years, 3 months ago
+4913bd9 : wifi: Add support for AP module args <Steve Kondik> 4 years, 2 months ago
+16133dc : wifi: Choose correct nvram file on samsung hardware <Ricardo Cerqueira> 3 years, 4 months ago
+61a8475 : audio: Make getPresentationPosition pure virtual <Ethan Chen> 1 year, 11 months ago
+7178f1f : wifi: support adding p2p0 when starting wpa_supplicant <Ricardo Cerqueira> 3 years, 4 months ago
+d97e065 : wifi: generalize ensure_config_file_exists() <Dedy Lansky> 1 year, 5 months ago
+021f937 : Nan: Changes to compile hal with Sigma_dut <Amarnath Hullur Subramanyam> 5 months ago
+ 
+**** cm:LineageOS/android_hardware_qcom_bt ****
+1e285c6 : Bluetooth: load btaddr from NV if QCOM_BT_USE_BTNV is set <Scott Mertz> 1 year, 6 months ago
+36fc3b9 : Remove QCOM platform check from top makefile <Ricardo Cerqueira> 2 years, 3 months ago
+3c82726 : libbt: Fix case where SoC type is not set <Steve Kondik> 3 years, 4 months ago
+8fa6f31 : libbt-qcom: Allow building without proprietary bits <Steve Kondik> 2 years, 10 months ago
+0a2eb61 : bt-caf: Add guard makefile <Steve Kondik> 1 year, 4 months ago
+ba61352 : Add kernel build as a dependency of libbt-vendor <Luke Zhang> 3 months ago
+cb1c424 : BT: Modify implementation for command timeout crashdump collection <Manu Viswanadhan> 3 months ago
+e5a8533 : Add ioctl to do power control ops for connectivity chips <Satish kumar sugasi> 4 months ago
+eaa36e0 : Remove tcflush during BT_ON <Luke Zhang> 3 months ago
+7192a6a : FM: move FM power control operations to FMhal service <Satish kumar sugasi> 6 months ago
+c2ef57a : Enable LPM mode by changing BT_VND_OP_LPM_SET_MODE handler <Luke Zhang> 5 months ago
+ae8dc96 : Enable LPM mode by changing BT_VND_OP_LPM_SET_MODE handler <Luke Zhang> 5 months ago
+ 
+**** cm:LineageOS/android_hardware_qcom_fm ****
+63717c4 : jni: Confine the firmware-load skipping to the actual loading <Ricardo Cerqueira> 1 year, 1 month ago
+1d82f7b : Use BOARD_HAVE_QCOM_FM flag <Ethan Chen> 4 weeks ago
+e3730d8 : Revert "Disable libfm_jni" <Michael Bestas> 6 weeks ago
+dc22a45 : Automatic translation import <Michael Bestas> 2 years ago
+747e919 : Convert regional band arrays to string references <Michael Bestas> 9 months ago
+c682cdf : fmapp2: Allow value for the default fm recording duration to be overlayed. <Ankit Gupta> 12 months ago
+fa700ef : fmapp2: String improvements <Michael Bestas> 11 months ago
+4536e31 : Fm : Update India bands <Danesh M> 2 years, 3 months ago
+12c8e01 : FMRadio : Fix headphone icon <Ed Falk> 1 year, 4 months ago
+22400b7 : FMRadio : Fix settings UI bugs <Ed Falk> 1 year, 5 months ago
+ae15236 : FMRadio : Localization of band types <Ed Falk> 1 year, 5 months ago
+2456533 : FMRadio : improved band selection <Ed Falk> 1 year, 5 months ago
+106768b : FMRadio : cleaned up band selection code <Ed Falk> 1 year, 5 months ago
+56f04de : FMRadio : Select band based on country <Ed Falk> 1 year, 5 months ago
+ef1b1a0 : FMRadio : Keep track of scanned frequencies in service <Danesh M> 1 year, 6 months ago
+eec4bcf : FMRadio : Ensure scan state is kept in sync <Danesh M> 1 year, 6 months ago
+13e98e5 : FM: The collect channel disappear when quit FM <lijun.xie> 1 year, 7 months ago
+144ff9a : Fix status text to reflect when FM is enabled. <Martin Brabham> 1 year, 8 months ago
+fcd109a : FM: fix mRadioTextScroller usage in transmitter activity <Hamster Tian> 1 year, 9 months ago
+c24634b : FM: respect hw.fm.internal_antenna <Dhruv Paranjape> 1 year, 9 months ago
+b73000b : FMRadio : Launch station list automatically after scan <Danesh M> 1 year, 10 months ago
+17c9a4a : FM: reenable radio text visibility after station info updated <Edward Wang> 1 year, 10 months ago
+523593c : FM: Store tag num/value in sequence <Edward Wang> 1 year, 10 months ago
+b6b72f3 : FM: always use overlay default country <Edward Wang> 1 year, 10 months ago
+012cf93 : FM: retune last frequency when resume after call <Edward Wang> 1 year, 10 months ago
+9b6d0ee : FM2: one more missing materialization change <linuxx> 1 year, 10 months ago
+526fc45 : FM2: missing materialization changes <linuxxxxx> 1 year, 10 months ago
+65aec56 : fmapp2: materialize <linuxx> 2 years ago
+f36c873 : FM: fixup strings <NBruderman> 1 year, 10 months ago
+495fd49 : New Material icon <Michael Bestas> 1 year, 11 months ago
+c0fa331 : FMRadio: add Indonesia <Raj Yengisetty> 1 year, 11 months ago
+f402fad : FM: Add property to force use internal antenna <Brinly Taylor> 2 years ago
+84c9751 : FM: Cleanup resources <Michael Bestas> 3 years ago
+a0a39a9 : FMRadio : Switch file extension to aac <Danesh M> 2 years, 2 months ago
+2fb7d89 : FMRadio : Call unregister in onPause <Danesh M> 2 years, 3 months ago
+5bfae20 : Scanned frequencies are saved in ascending ordering <Raj Yengisetty> 2 years, 3 months ago
+20091fd : FmRadio : Re-add RDS fields to UI <Danesh M> 2 years, 3 months ago
+51f40a4 : Fm : Make default country an overlay <Danesh M> 2 years, 3 months ago
+13fde9b : Fm : Restore seek arrows <Danesh M> 2 years, 3 months ago
+2013061 : FMRadio : Re-vamp UI <Danesh M> 2 years, 3 months ago
+7603f82 : FM: jni: Fix compile error with TARGET_QCOM_NO_FM_FIRMWARE <Arne Coucheron> 2 years, 3 months ago
+43a5a5c : fmapp2: new launcher icon by LeopardSurd <M1cha> 2 years, 11 months ago
+4d6f9bc : jni: Skip loading FM firmware if requested <Ricardo Cerqueira> 2 years, 3 months ago
+3b0ce7d : FM2: Update notification to use notification builder <Konsta> 3 years, 7 months ago
+281a32d : Break bootclasspath dependency <Ricardo Cerqueira> 3 years, 1 month ago
+1ea749b : Allow library to be used by apps directly <Ricardo Cerqueira> 3 years, 1 month ago
+9667180 : libfm_jni: Confine the firmware-load skipping to the actual loading <Ricardo Cerqueira> 1 year, 1 month ago
+6c2b26a : libfm_jni: Improve and fix FM jni logs <AdrianDC> 1 year, 2 months ago
+beaa9dd : libfm_jni: Add support for internal antenna hardware <AdrianDC> 1 year, 1 month ago
+651ad42 : libfm_jni: Do not come here unless QCOM_HARDWARE is in use <Ricardo Cerqueira> 1 year, 2 months ago
+ 
+**** cm:LineageOS/android_hardware_qcom_wlan ****
+b6b2cae : wcnss-service: Enable and fix -Werror build <Luca Stefani> 5 months ago
+e19808f : Wifi: Quiet some excessive debug output <Ethan Chen> 4 months ago
+bf5cc6c : wifi-hal: stop the UMAC logspam <Altaf-Mahdi> 7 months ago
+80c4862 : wifi-hal: Only try LOWI once <Steve Kondik> 8 months ago
+20c9f66 : wcnss_service: Migrate from QMI to QCCI <Anand N Sunkad> 1 year, 8 months ago
+9affe28 : wcnss_service: Deal with mdm-detect too <Steve Kondik> 1 year, 4 months ago
+be5a1d7 : wcnss_qmi: Allow targets to provide custom libwcnss_qmi <Ethan Chen> 2 years, 3 months ago
+cc862a2 : wcnss_qmi: Generate a fixed random mac address if the NV doesn't provide one <Ricardo Cerqueira> 2 years, 9 months ago
+ca14448 : wcnss: Build and dlopen wcnss_qmi_client as a shared library <Ethan Chen> 2 years, 10 months ago
+17415ba : wcnss-service: Additional format support <Steve Kondik> 2 years, 10 months ago
+e6d0a10 : wlan-caf: Add guard makefile <Steve Kondik> 2 years, 2 months ago
+895577b : WifiHAL: Send stats only if radio and iface stats are available <Srinivas Dasari> 3 months ago
+02b06bd : wifi-hal: Send link stats after all events are received <Peng Xu> 4 months ago
+21dc098 : wcnss_service: refine dynamic nv feature <jge> 3 months ago
+28dbdf2 : wifi-hal: Send link stats after all events are received <Peng Xu> 4 months ago
+63527ee : Wifi-Hal: Changes related to NAN 1.0 for certification <Amarnath Hullur Subramanyam> 6 months ago
+ 
+**** cm:LineageOS/android_hardware_ril ****
+927a52d : ril: Setting ril to v10 or v11 serves no purpose <Matt Mower> 3 weeks ago
+c51edc3 : ril-caf: Only allow GET_CARRIER_RESTRICTIONS for ril versions >= 14 <Christopher R. Palmer> 8 weeks ago
+1d14c87 : Properly parcel v6 RIL_CellInfo GSM cell response. <Danny Baumann> 3 months ago
+6463b1f : Fix RIL_CardStatus_v5 Parceling. <Kyle Repinski> 6 months ago
+5ad9077 : ril-caf: Allow using RIL version 10 <Steve Kondik> 1 year, 9 months ago
+71b26ab : RIL: Fix CellInfo for RIL version < 12 <Gabriele M> 5 months ago
+73ff0d4 : ril: Add support for selecting RIL version 11 <Steve Kondik> 6 months ago
+feef87b : librilutils: Relocate pb-generated objects to their expected path <Ricardo Cerqueira> 1 year, 1 month ago
+7d7a95f : rild: Don't use the clientId argument with non-qcom hardware <Ricardo Cerqueira> 3 years, 4 months ago
+807eb10 : ril-caf: Add guard makefile <Steve Kondik> 2 years, 2 months ago
+3a29d2f : libril: allow board to provide libril <Tom Giordano> 5 years ago
+c863521 : Update documentation to clarify RIL_REQUEST_GET_ACTIVITY_INFO <Nathan Harold> 4 months ago
+f2f1e60 : Replace variable-length arrays on stack with malloc. <Amit Mahajan> 6 months ago
+ 
+**** vanir:hardware_samsung ****
+74c317d : audio: Guard WB_AMR callback <Christopher N. Hesse> 18 hours ago
+e005881 : libsecril-client: Rename SOUND_AUDIO_PATH_HANDSET to EARPIECE <Andreas Schneider> 35 hours ago
+e6286b9 : audio: Rename HANDSET to EARPIECE to follow libsecril-client <Andreas Schneider> 35 hours ago
+86f7ea8 : Revert "audio: Disable voice log by default" <Christopher N. Hesse> 18 hours ago
+f114e2e : audio: Use labs() instead of abs() <Paul Keith> 24 hours ago
+ 
+**** cmold:android_kernel_huawei_kiwi ****
+e846ff0 : UPSTREAM: proc: actually make proc_fd_permission() thread-friendly <Oleg Nesterov> 1 year, 3 months ago
+5708fe3 : UPSTREAM: proc: make proc_fd_permission() thread-friendly <Oleg Nesterov> 3 years, 5 months ago
+ 
+**** cmold:android_kernel_lge_g3 ****
+6d2abee : g3: lge_touch_core: don't log touch coordinates <Hendrik Hagendorn> 6 hours ago
+c379313 : UPSTREAM: proc: actually make proc_fd_permission() thread-friendly <Oleg Nesterov> 1 year, 3 months ago
+fa7e92d : UPSTREAM: proc: make proc_fd_permission() thread-friendly <Oleg Nesterov> 3 years, 5 months ago
+8d1988f : Linux 3.4.113 <Zefan Li> 4 months ago
+887cbce4 : net: Fix use after free in the recvmmsg exit path <Arnaldo Carvalho de Melo> 11 months ago
+1c8544a : mm, gup: close FOLL MAP_PRIVATE race <Michal Hocko> 4 months ago
+86eecef : net/core: revert "net: fix __netdev_update_features return.." and add comment <Nikolay Aleksandrov> 1 year, 3 months ago
+17fd6bb : ser_gigaset: use container_of() instead of detour <Paul Bolle> 12 months ago
+3442883 : ser_gigaset: remove unnecessary kfree() calls from release method <Tilman Schmidt> 1 year, 2 months ago
+658ba62 : xen/pciback: Save the number of MSI-X entries to be copied later. <Konrad Rzeszutek Wilk> 1 year ago
+98c6556 : mm, vmstat: fix wrong WQ sleep when memory reclaim doesn't make any progress <Tetsuo Handa> 1 year ago
+8c095d3 : time: Prevent early expiry of hrtimers[CLOCK_REALTIME] at the leap second edge <John Stultz> 1 year, 8 months ago
+d91a2aa : tcp: make challenge acks less predictable <Eric Dumazet> 7 months ago
+00e9ff5 : Revert "USB: Add OTG PET device to TPL" <Zefan Li> 4 months ago
+7862b8a : Revert "USB: Add device quirk for ASUS T100 Base Station keyboard" <Zefan Li> 4 months ago
+d64519b : Fix incomplete backport of commit 0f792cf949a0 <Zefan Li> 4 months ago
+6883832 : Fix incomplete backport of commit 423f04d63cf4 <Zefan Li> 4 months ago
+af706ac : ipv6: fix handling of blackhole and prohibit routes <Nicolas Dichtel> 4 years, 5 months ago
+a4ea625 : ipv6: don't call fib6_run_gc() until routing is ready <Michal Kubeček> 3 years, 5 months ago
+3b02ae3 : ipv6: update ip6_rt_last_gc every time GC is run <Michal Kubeček> 3 years, 7 months ago
+cc63957 : sctp: Prevent soft lockup when sctp_accept() is called during a timeout event <Karl Heiss> 1 year, 5 months ago
+d78e776 : drm/radeon: fix hotplug race at startup <Dave Airlie> 1 year, 6 months ago
+088be96 : udp: properly support MSG_PEEK with truncated buffers <Eric Dumazet> 1 year, 2 months ago
+538b3c0 : net: Fix skb csum races when peeking <Herbert Xu> 1 year, 7 months ago
+c6192e5 : USB: ti_usb_3410_502: Fix ID table size <Ben Hutchings> 1 year, 2 months ago
+5781d89 : af_unix: fix a fatal race with bit fields <Eric Dumazet> 3 years, 10 months ago
+edd3224 : net: possible use after free in dst_release <Francesco Ruggeri> 1 year, 1 month ago
+626c6e6 : ftrace/scripts: Fix incorrect use of sprintf in recordmcount <Colin Ian King> 1 year, 2 months ago
+42d0b53 : mm/memory_hotplug.c: check for missing sections in test_pages_in_a_zone() <Andrew Banman> 1 year, 2 months ago
+c173fef : ocfs2: fix BUG when calculate new backup super <Joseph Qi> 1 year, 2 months ago
+2c16580 : ipv6/addrlabel: fix ip6addrlbl_get() <Andrey Ryabinin> 1 year, 2 months ago
+5244151 : parisc: Fix syscall restarts <Helge Deller> 1 year, 2 months ago
+87f4dcb : KEYS: Fix race between read and revoke <David Howells> 1 year, 2 months ago
+7a42c72 : USB: fix invalid memory access in hub_activate() <Alan Stern> 1 year, 2 months ago
+681e285 : USB: ipaq.c: fix a timeout loop <Dan Carpenter> 1 year, 2 months ago
+c053c99 : xen/pciback: Don't allow MSI-X ops if PCI_COMMAND_MEMORY is not set. <Konrad Rzeszutek Wilk> 1 year, 3 months ago
+7e8c20a : xen/pciback: For XEN_PCI_OP_disable_msi[|x] only disable if device has MSI(X) enabled. <Konrad Rzeszutek Wilk> 1 year, 11 months ago
+073a5ac : xen/pciback: Do not install an IRQ handler for MSI interrupts. <Konrad Rzeszutek Wilk> 1 year, 3 months ago
+8f805de : xen/pciback: Return error on XEN_PCI_OP_enable_msix when device has MSI or MSI-X enabled <Konrad Rzeszutek Wilk> 1 year, 3 months ago
+d3ec886 : xen/pciback: Return error on XEN_PCI_OP_enable_msi when device has MSI or MSI-X enabled <Konrad Rzeszutek Wilk> 1 year, 11 months ago
+550fe25 : xen/pciback: Save xen_pci_op commands before processing it <Konrad Rzeszutek Wilk> 1 year, 3 months ago
+a7bc1af : xen-blkback: only read request operation from shared ring once <Roger Pau Monné> 1 year, 3 months ago
+f97ed0a : xen-netback: use RING_COPY_REQUEST() throughout <David Vrabel> 1 year, 4 months ago
+ac2ce7e : xen-netback: don't use last request to determine minimum Tx credit <David Vrabel> 1 year, 4 months ago
+ffac746 : xen: Add RING_COPY_REQUEST() <David Vrabel> 1 year, 4 months ago
+334e907 : ftrace/scripts: Have recordmcount copy the object file <Steven Rostedt (Red Hat)> 1 year, 2 months ago
+38b8ae4 : scripts: recordmcount: break hardlinks <Russell King> 1 year, 2 months ago
+1b17302 : spi: fix parent-device reference leak <Johan Hovold> 1 year, 2 months ago
+325c042 : ser_gigaset: fix deallocation of platform device structure <Tilman Schmidt> 1 year, 2 months ago
+eeeeb97 : mISDN: fix a loop count <Dan Carpenter> 1 year, 2 months ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+454a8d5 : misc: lis3dh_mot: Remove delay upper limit <Gabriele M> 9 days ago
+ 
+**** cmold:android_kernel_motorola_msm8992 ****
+abb3cf9 : vfs: Allow filesystems to access their private mount data <Daniel Rosenberg> 4 months ago
+d45fb4d : vfs: Add setattr2 for filesystems with per mount permissions <Daniel Rosenberg> 4 months ago
+e35a152 : vfs: Add permission2 for filesystems with per mount permissions <Daniel Rosenberg> 4 months ago
+73e55d9 : mnt: Add filesystem private data to mount points <Daniel Rosenberg> 4 months ago
+b1c2936 : ANDROID: sdcardfs: Switch strcasecmp for internal call <Daniel Rosenberg> 2 weeks ago
+e6cc65d : ANDROID: sdcardfs: switch to full_name_hash and qstr <Daniel Rosenberg> 3 weeks ago
+b5333db : ANDROID: sdcardfs: Add GID Derivation to sdcardfs <Daniel Rosenberg> 3 weeks ago
+c54c86d : ANDROID: sdcardfs: Remove redundant operation <Daniel Rosenberg> 3 weeks ago
+d48f60e : ANDROID: sdcardfs: add support for user permission isolation <Daniel Rosenberg> 3 weeks ago
+12ed282 : ANDROID: sdcardfs: Refactor configfs interface <Daniel Rosenberg> 4 weeks ago
+41135f0 : ANDROID: sdcardfs: Allow non-owners to touch <Daniel Rosenberg> 4 weeks ago
+a87173f : ANDROID: sdcardfs: Fix locking issue with permision fix up <Daniel Rosenberg> 7 weeks ago
+fa4653d : sdcardfs: Use per mount permissions <Daniel Rosenberg> 4 months ago
+86a3bb7 : sdcardfs: Check for other cases on path lookup <Daniel Rosenberg> 10 months ago
+4ce4eb7 : sdcardfs: Added top to sdcardfs_inode_info <Daniel Rosenberg> 9 months ago
+d76ef4c : sdcardfs: Add gid and mask to private mount data <Daniel Rosenberg> 4 months ago
+a00baca : sdcardfs: User new permission2 functions <Daniel Rosenberg> 4 months ago
+c8aa0d1 : sdcardfs: Move directory unlock before touch <Daniel Rosenberg> 5 months ago
+85dc7bb : sdcardfs: Switch package list to RCU <Daniel Rosenberg> 9 months ago
+56d7040 : sdcardfs: Fix locking for permission fix up <Daniel Rosenberg> 6 months ago
+e995b55 : sdcardfs: override umask on mkdir and create <Daniel Rosenberg> 10 months ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+126fe55 : ARM: dts: 15801: Configure ramoops memory <dianlujitao> 14 hours ago
+2dd34cc : fs/pstore: fix compilation warning <Patrick Tjin> 1 year ago
+320988e : pstore: Fix the ramoops module parameters update <Wang Long> 1 year, 11 months ago
+a0cde85 : fs/pstore: initialize pmsg from device tree <Patrick Tjin> 2 years, 1 month ago
+3ff0650 : fs:pstore:ramoops: config mem from dt <Yi-wei Zhao> 2 years, 11 months ago
+ 
+**** vanir:libcore ****
+e866785 : Modify j.t.DateFormat.set24HourTimePref() to take a Boolean <Neil Fuller> 3 months ago
+0f6dd72 : libcore: add a way to clear cached time zone strings <Roman Birg> 1 year, 6 months ago
+348b54b : sun.security.util: check lengths in DER encoding are non-negative <Sergio Giro> 6 months ago
+feb0cd6 : sun.security.util: check lengths in DER encoding are non-negative <Sergio Giro> 6 months ago
+6fdba7c : Fix DatagramSocket.disconnect() <Neil Fuller> 5 months ago
+dbd63f8 : Fix DatagramSocket.disconnect() <Neil Fuller> 5 months ago
+11bde4e : Fix DatagramSocket.disconnect() <Neil Fuller> 5 months ago
+ 
+**** vanir:platform_manifest ****
+8be6e29 : sync new cryptfs_hw repo <nuclearmistake> 19 hours ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+44474c6 : reconsmile <nuclearmistake> 14 hours ago
+bef53b7 : cleanup unused resource strings <Marie Janssen> 6 weeks ago
+22e6d12 : Automatic translation import <inky@build01> 3 months ago
+d77c6ad : Bluetooth: Move & improve caf strings <Michael Bestas> 1 year, 3 months ago
+fdfd51a : [2/3]Bluetooth: add "Accept all files" option for incoming files <Hamster Tian> 2 years, 10 months ago
+6f63413 : bluetooth: Disable logspam from GattService <Steve Kondik> 4 months ago
+c3175f1 : Kill logspam during battery level events <Steve Kondik> 4 months ago
+519af80 : bluetooth: Tone down the logspam <Christopher R. Palmer> 2 years, 1 month ago
+23725f5 : bluetooth: Broadcast battery status <Gavin Ni> 7 months ago
+54afaf5 : Add epub to the list of filetypes to get and send <Marcos Marado> 7 months ago
+e2c7de9 : Bluetooth: fix opp NPE <Roman Birg> 9 months ago
+d219b0c : Bluetooth: handle opening incoming APK files <Roman Birg> 9 months ago
+146317a : Ensure synchronized access of JNI callback object <Ayan Ghosh> 1 year, 1 month ago
+86f300e : Fix to avoid JNI crashes <Ayan Ghosh> 1 year, 2 months ago
+66fde33 : Bluetooth: Clean duplicated READ_CONTACTS permission <AdrianDC> 1 year, 3 months ago
+2c0ab4f : Bluetooth: The item disappears after open it in Bluetooth received. <tao.pei> 1 year, 11 months ago
+089c94a : Bluetooth: Create Custom Intent to avoid Force close. <Sravan Kumar V> 1 year, 4 months ago
+2c8d1f0 : Bluetooth-OPP:Reduce Looper time to 100 MS . <Sravan Kumar V> 1 year, 5 months ago
+df19307 : Orientation change fix for tranfer history popup. Add entry for mp3 and archived file formats. <Pradeep Panigrahi> 3 years, 2 months ago
+2a0f895 : Compilation fix: N-MR1 merge. <Lalit Kansara> 2 months ago
+8edd1a3 : Enable the native wake lock in BT stack <Luke Zhang> 3 months ago
+eddf6db : A2DP: Fix NPE issue while BT turning off <zhenchao> 3 months ago
+7530a10 : GAP: Check prev discovery state during discovery operations <Venkata Jagadeesh Garaga> 3 months ago
+fac0df8 : Modified playstatus mapping and disallow sending invalid play position for non-playing state <Sagar Verma> 3 months ago
+805c5f0 : Serialize the RC Cleanup events in BT-App context <Sagar Verma> 4 months ago
+7878bcb : Bluetooth: Adapterservice Cleanup and unbind unconditionally <Bandari Ramesh> 4 months ago
+0b876ea : Cancel inquiry while auto-reconnect. <Satheesh Kumar Pallemoni> 3 months ago
+122b084 : GATT: Fix NPE issue while stop LE scan <zhenchao> 3 months ago
+196f47f : Bluetooth: Fix for auto-reconnect failure with certain BT headset <pramod kotreshappa> 2 years, 4 months ago
+31eb20d : MediaPlayer index switch and SetBrowsed Player implementaion modified <Sagar Verma> 4 months ago
+eca744d : Fix setPairingConfirmation permissions issue (1/2) <Ajay Panicker> 5 months ago
+f4e9d98 : HID: Send connection state change broadcast during cleanup <zhenchao> 4 months ago
+1e53f73 : Serialize the RC Cleanup events in BT-App context <Sagar Verma> 4 months ago
+5f99a3b : Fix setPairingConfirmation permissions issue (1/2) <Ajay Panicker> 5 months ago
+cde13b0 : AVRCP: Update proper track number and media number <pramod kotreshappa> 4 months ago
+550fc17 : PBAP: Add filter support for Owner contact. <Sravan Kumar V> 4 months ago
+3a9db00 : Opp : Check interrupted state before create socket <Sravan Kumar V> 4 months ago
+1f8bc18 : Bluetooth-OPP: Increase sdp search time out value <Sravan Kumar V> 4 months ago
+c558c01 : A2DP: Fix the issue that a2dp offload_cap is NULL <zhenchao> 4 months ago
+9241ba0 : Bluetooth: Adapterservice Cleanup and unbind unconditionally <Bandari Ramesh> 4 months ago
+5983b87 : PBAP: Add filter support for Owner contact. <Sravan Kumar V> 4 months ago
+6dcd530 : OPP: Interrupt Update Thread to avoid ANR <Sravan Kumar V> 5 months ago
+2643250 : Bluetooth: Unregister servers for BLE_ON to ON switch <Vic Wei> 5 months ago
+ 
+**** vanir:packages_apps_CMParts ****
+03fb141 : Move status bar settings back to personal category. <Danny Baumann> 3 weeks ago
+10fe26d : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Calendar ****
+f42d5a7 : Calendar: Fix check for things to import <Michael W> 9 days ago
+bc4acc4 : Calendar: Prevent NPE <Michael W> 9 days ago
+da1a744 : Calendar: String improvements <Michael Bestas> 6 weeks ago
+55bd155 : Cleanup CAF additions <Michael Bestas> 7 weeks ago
+734e28b : Automatic translation import <inky@build01> 3 months ago
+6d63a28 : Calendar: Fix non-functional "ADD ACCOUNT" button <michael.yang> 1 year, 10 months ago
+e6f8041 : Calendar: Respond to calendar events share intent <Rohit Yengisetty> 2 years, 1 month ago
+091c457 : Calendar: Add external storage read permission <kaiyiz> 2 years, 10 months ago
+84105c7 : Calendar: Do not show "Map" action if app cannot be resolved <yingying> 3 years, 1 month ago
+e8a7c66 : Calendar: Set the appropriate time for t1 <kaiyiz> 3 years, 1 month ago
+5af7753 : Calendar: Persist cursor focus after locking and unlocking <kaiyiz> 3 years, 7 months ago
+20c647c : Calendar: Ensure prev btn taps directs to prev input field <kaiyiz> 3 years, 7 months ago
+0a7393e : Calendar: Persist selected item state after rotation <kaiyiz> 3 years, 7 months ago
+b6e9784 : Calendar: Fix unit test failure <yingying> 2 years, 10 months ago
+fbec400 : Fix alerts in doze mode <niks255> 10 months ago
+a0b60be : prepareForSave: Dont set time in allday events <Stephen Bird> 1 year, 7 months ago
+8654eac : Calendar: Use FIle.createTempFIle when sharing calendar events <Raj Yengisetty> 1 year, 8 months ago
+08a0b75 : Calendar: Fix recurrence picker switch style <dankoman> 2 years, 1 month ago
+475def1 : Check date string size before trimming it <Stephen Bird> 1 year, 9 months ago
+c39b79d : Fix days that are expected to be 3chars ending up being longer <Stephen Bird> 1 year, 9 months ago
+cf1155b : Calendar: Support ACTION_VIEW instead of ACTION_SEND <Raj Yengisetty> 1 year, 11 months ago
+b77f0cd : Calendar: Do not auto-save events when importing <Raj Yengisetty> 1 year, 10 months ago
+9411aea : Add new Material icon <Michael Bestas> 2 years ago
+2bf436a : Calendar: Add provisions to show/hide Floating Action Button <Rohit Yengisetty> 2 years, 1 month ago
+b9463be : Fix a string for Crowdin <Michael Bestas> 2 years, 1 month ago
+df23b06 : Calendar: Add Lollipop UX <Danesh M> 2 years, 2 months ago
+c952d2c : Calendar: Add ability to import/export from sdcard <Danesh M> 2 years, 2 months ago
+4bd2cc9 : Support sharing calendar events as .vcs files to MMS <Matt Garnes> 2 years, 2 months ago
+98190bd : Calendar: Add a year view <Rohit Yengisetty> 2 years, 3 months ago
+b46ce49 : Calendar: Allow sharing of calendar events through an ics file <Rohit Yengisetty> 2 years, 3 months ago
+9e18931 : Add an option for the default view to show on startup <Veeti Paananen> 3 years, 3 months ago
+e566e71 : Allow configuring the delay for snoozing calendar reminders <Danny Baumann> 4 years, 1 month ago
+ea4c3e2 : Calendar: fix Occurred "com.android.calendar" force close. <pezhan> 4 months ago
+d477e72 : Calendar: Fix failure calendar on M Build on GTS: <dazhan> 12 months ago
+e300a6c : Add toast  when without map app installed. <yongga> 1 year, 1 month ago
+8f617d2 : Calendar: Support delete events function <zhihai liu> 1 year, 3 months ago
+e2cf31a : Optimize the UI of Chinese calendar text in calendar app. <c_shengl> 11 months ago
+c1fb519 : Calendar: Optimize the UI of calendar widget. <pezhan> 11 months ago
+29b4d09 : Calendar: Support display lunar/festival when Language is Chinese <weitan> 10 months ago
+ 
+**** vanir:packages_apps_Camera2 ****
+1eb9ee3 : Automatic translation import <Michael Bestas> 1 year, 2 months ago
+521f456 : Add Storage preference (1/2) <dcalandria> 1 year, 10 months ago
+f1154fa : Fix crash if Exif-Tag buffer-length and component-count are both 0 <tobigun> 1 year, 7 months ago
+68c315b : Camera2: Fix Undo button behaviour <NBruderman> 1 year, 8 months ago
+f969640 : Introduce a 'device plugin' concept. <Danny Baumann> 2 years ago
+99d69da : Camera2: Remove google help preference <Michael Bestas> 2 years ago
+ccad333 : Camera2: Add option to set max screen brightness <Michael Bestas> 2 years ago
+3fb9cb6 : Camera: Powerkey shutter (2/2) <Danesh M> 2 years ago
+05c789c : Camera: Disable Camera Launcher when both Front and Back sensors are not detected <Rajaram Gudivada> 3 years, 5 months ago
+5a5d1b4 : Camera2: Stop using GPS when going to background <nadlabak> 2 years, 2 months ago
+462eaf3 : Camera2: Remove settings preferences only once <Konsta> 2 years, 2 months ago
+af65ec3 : Camera2: fix video recording for older drivers <Pawit Pornkitprasan> 2 years, 3 months ago
+06f6ad4 : Camera2: Only autofocus before a snap if we are actually in "auto" mode. <Steve Kondik> 1 year, 10 months ago
+9553865 : Don't attempt to convert degree to orientation enum twice <Ethan Chen> 1 year, 3 months ago
+ 
+**** vanir:packages_apps_CarrierConfig ****
+1f75d78 : Resolve NZ roaming entry <Abhisek Devkota> 8 months ago
+68d251a : Import national-roaming settings from f/b <Ricardo Cerqueira> 10 months ago
+8550ad4 : Telefonica MMS Max sending limit files Added <jaffersulaiman> 10 months ago
+c39b132 : Enable enabledNotifyWapMMSC for Telefonica Europe carriers <Ricardo Cerqueira> 10 months ago
+c3b0a24 : Set voicemail's notification persistent for O2 UK <Marcos Marado> 1 year, 1 month ago
+cc932f2 : Add carrier config for Smartfren for IMS support RENDANG-525 <Francis Guevarra> 1 year, 1 month ago
+51256ce : Add show apn setting for CT <Sukanya Rajkhowa> 4 months ago
+24d41ea : Telephony: Add volteReplacementRat for CT <Sukanya Rajkhowa> 6 months ago
+55e058f : Add carrier config for operator <Qiang Chen> 5 months ago
+ 
+**** vanir:packages_apps_CellBroadcastReceiver ****
+b692982 : Alert tone does not play for ETWS <Arun Rathi> 7 weeks ago
+3ddeba3 : Automatic translation import <inky@build01> 3 months ago
+102e91e : Cleanup for translations <Abhisek Devkota> 8 months ago
+cb40e1a : cellbroadcastreceiver: Display channel 50 and 60 options by default <Adrian DC> 3 months ago
+249740b : Themes: Expose hardcoded styles and colors for themes <Bryan Owens> 1 year, 2 months ago
+8b8eb32 : Hide CMAS dev options in user builds <Luis Vidal> 12 months ago
+5bb0e27 : Compilation fix: N-MR1 merge. <Lalit Kansara> 2 months ago
+45d4f2b : CellBroadcastReceiver: Operator specific changes. <Manjunatha Prabhu> 5 months ago
+251b555 : CellBroadcastReceiver: Operator specific changes. <Manjunatha Prabhu> 5 months ago
+ 
+**** vanir:packages_apps_CertInstaller ****
+7447a34 : Automatic translation import <inky@build01> 3 months ago
+ 
+**** vanir:packages_apps_Contacts ****
+ffc7ba3 : Improve CAF strings <Danny Baumann> 13 days ago
+9ec2798 : Automatic translation import <inky@build01> 3 months ago
+461c46f : De-holoize contact group activity. <Danny Baumann> 3 months ago
+d8bb574 : Fix NPE when 'merge contacts' encounters unknown names. <Danny Baumann> 3 months ago
+180eb48 : [1/2] Contacts: make shapes great again <Joey Rizzoli> 3 months ago
+d26a7b4 : Fix contact name disappear when update <blong> 3 months ago
+73c4935 : Contacts: Operator specific sim icon customisation. <Prashant Srivastava> 4 months ago
+69efe33 : Contacts: remove the videocall switch button <Fang Yunong> 6 months ago
+2149e35 : Fix can copy sim contacts with number more than 40 <blong> 4 months ago
+c3708db : Fix StaleDataException when add group in message <blong> 4 months ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+6327195 : Improve CAF strings <Danny Baumann> 13 days ago
+c217aad : Enable support for groups in External contacts accounts <pulser> 2 years, 7 months ago
+6cd0027 : Automatic translation import <inky@build01> 3 months ago
+eeaaef9 : [2/2] ContactsCommon: make shapes great again <Joey Rizzoli> 3 months ago
+0438578 : Compilation fix: N-MR1 merge. <Lalit Kansara> 2 months ago
+2010555 : Fix contact name update problem <blong> 3 months ago
+35c0d61 : ContactsCommon: Operator specific sim icon customisation. <Adithya Simha> 4 months ago
+5f6a455 : Contacts: Scroll bar is overlapped with split line in link contact page. <Zhaolei> 4 months ago
+2a66f46 : Fix NullPointerException during import vcard <blong> 4 months ago
+c06fca9 : Fix ServiceConnectionLeaked during import vcard <blong> 4 months ago
+62fc22f : Fix NullPointerException during import vcard <blong> 4 months ago
+54dc242 : ontactsCommon: Check the result for saving video config <Zhu Youhua> 4 months ago
+948ce3f : Fix ServiceConnectionLeaked during import vcard <blong> 4 months ago
+62c32c9 : Fix can export sim contact number more than 40 digits <blong> 4 months ago
+21a450b : Fix exchange account contact name can't modify problem <blong> 4 months ago
+cbdcd5d : ontactsCommon: Check the result for saving video config <Zhu Youhua> 4 months ago
+ 
+**** vanir:packages_apps_DeskClock ****
+85742cd : Automatic translation import <inky@build01> 3 months ago
+66da02c : Provide upgrade path for cm12.1 -> cm13.0 <Pavel Kirpichyov> 2 years, 3 months ago
+65db68f : Make new menu entry to link to cLock widget settings. <Martin Brabham> 1 year, 10 months ago
+c515a5a : DeskClock: Sync default alarm ringtone from SystemSettings <hoffc> 3 months ago
+a92db92 : DeskClock: Fix search menuitem does not work. <hoffc> 4 months ago
+ 
+**** vanir:packages_apps_Dialer ****
+42c8ba7 : Remove merge taint <DHOMD> 4 hours ago
+7831a49 : Improve CAF strings <Danny Baumann> 13 days ago
+9b0ee5b : Dialer: Fix translations <Michael W> 5 weeks ago
+8bc615d : Move CAF strings to cm_strings and fix wrong line breaks. <Arne Coucheron> 5 weeks ago
+130ffb3 : Revert "Dialer: Add serveral simplized chinese strings for IMS call" <Michael Bestas> 7 weeks ago
+267c1fa : Automatic translation import <inky@build01> 3 months ago
+6dd85e9 : Let InCallUI handle proximity sensor for incoming calls [2/2] <Hikari-no-Tenshi> 4 months ago
+5dbc8be : Revert "InCallUI: Add a controller for proximity sensor" <Michael Bestas> 7 weeks ago
+79f00eb : Dialer: fix IllegalStateException in Search call log <Hikari-no-Tenshi> 3 months ago
+d98788d : Clean up volume boost button logic. <Danny Baumann> 3 months ago
+6b07c48 : InCallUI: Use proper sub IDs <Gabriele M> 3 months ago
+3e5694a : Re-add call recording feature. <Danny Baumann> 5 months ago
+168939c : Revert "nCallUI: Add support for call recording" <Danny Baumann> 5 months ago
+8482bb4 : InCallUI: Fix background colour of tabs on DSDA phones <Christopher R. Palmer> 1 year, 2 months ago
+33029f9 : Fix reveal animation for outgoing calls. <Danny Baumann> 1 year, 2 months ago
+b16d70e : Fix AppBarLayout elevation handling. <Danny Baumann> 4 months ago
+c2960d7 : Handle DB upgrade from CM13. <Danny Baumann> 4 months ago
+184935c : Don't use a different call log for MSIM. <Danny Baumann> 5 months ago
+d1d21b0 : Re-add call stats feature. <Danny Baumann> 5 months ago
+765faad : Update SpinnerContent class from CM 13. <Danny Baumann> 5 months ago
+0db0c90 : incallui: remove qti framework dependency for DSDA <jrior001> 4 months ago
+31eaffe : dialer: Remove proprietary SmartDial extension <Steve Kondik> 4 months ago
+eedb190 : Give speed dial entry editor a sane layout. <Danny Baumann> 5 months ago
+5c0ab46 : Re-add dialer lookup. <Xiao-Long Chen> 5 months ago
+0b5a47d : dialer: Hide SIP dial icon <Steve Kondik> 5 months ago
+581591b : InCallUI: Break qti-telephony-framework dependency <Zhao Wei Liew> 5 months ago
+0be6609 : Revert "Dialer: Display 14 digit IMEI(Ignore Check Digit)" <Zhao Wei Liew> 5 months ago
+4ad2d13 : Add back in-call vibration features <Danny Baumann> 5 months ago
+b91591b : Proper supplementary service notification handling (5/5). <Danny Baumann> 5 months ago
+04f69c4 : IMS: Handle connection event to enable merge button <Benergy Meenan Ravuri> 2 months ago
+75d827c : IMS-VT: Modify conditional logic of showing upgrade video icon <Pooja Jain> 3 months ago
+9e4bc37 : IMS-VT: Fix for Call end button overlap <Andalam Parthasarathi> 3 months ago
+bdf9224 : IMS-VT: Modify conditional logic of showing upgrade video icon <Pooja Jain> 3 months ago
+89fe08c : IMS: Grey out merge menu item in more options <Suresh Koleti> 2 months ago
+22760d1 : IMS-VT: Exit full screen mode of in-call UI <Ravi Paluri> 2 months ago
+0cf2447 : IMS-VT: Fix for Call end button overlap <Andalam Parthasarathi> 3 months ago
+79a31bb : IMS: Handle connection event to enable merge button <Benergy Meenan Ravuri> 2 months ago
+28d35b3 : Dialer: Fix the emergence call failure in airplane mode <Yue Liang> 3 months ago
+22292ea : Dialer: Rotate screen, show Speed Dialer Dialog when it exits <Li Wei> 4 months ago
+f59cf89 : IMS: Fix Conference URI button visibility issue. <Suchand Ghosh> 3 months ago
+841ef18 : InCallUI: Add a controller for proximity sensor <Mengjun Leng> 3 months ago
+fa80dda : IMS-VT: Show contact photo view when remote side is on hold. <Muhammed Siju> 3 months ago
+1d6722e : Fix 4g conference call logs are merged together <Mengjun Leng> 3 months ago
+1aa3269 : Dailer: Fix dialer app crash issue <Li Wei> 4 months ago
+ddc7a85 : Launch Emergency Call on Speed Dialing key 9. <Ruthwar Kumar Ambeer> 7 months ago
+4982082 : Dialer: Fix dialer app crash issue due to NPE <Li Wei> 4 months ago
+489b637 : Dialer: Screen does not light when incominging call  in screen standby <Li Wei> 4 months ago
+aa3bd7c : Launch Emergency Call on Speed Dialing key 9. <Ruthwar Kumar Ambeer> 7 months ago
+49c5cf1 : IMS-VT:Process crash during MT_VT call accept scenario <pengfeix> 3 months ago
+49e67a0 : IMS-VT:Process crash during MT_VT call accept scenario <pengfeix> 3 months ago
+ 
+**** vanir:packages_apps_Email ****
+6152f56 : Revert "Add account" <Dan Pasanen> 5 weeks ago
+fc3b45c : Automatic translation import <Michael Bestas> 1 year, 8 months ago
+1f145fb : Email: Use NotificationManager to figure out LED capabilities <Zhao Wei Liew> 3 months ago
+0950e58 : Revert "Email: Supported Email search function" <Danny Baumann> 3 months ago
+4006d20 : Fix DB upgrade from CM13. <Danny Baumann> 4 months ago
+8965090 : email: Fix merge issue <Steve Kondik> 5 months ago
+dad8f24 : Improve notification coalescence algorithm. <Danny Baumann> 1 year, 1 month ago
+951613f : email: junk icon <Jorge Ruesga> 1 year, 4 months ago
+e44e695 : email: return default folder name for subfolders <Jorge Ruesga> 1 year, 4 months ago
+ddbed09 : Email: Clean duplicated WRITE_CONTACTS permission <AdrianDC> 1 year, 3 months ago
+651366b : Email: Fix the ActivityNotFoundException when click "Update now" <wangjing> 1 year, 10 months ago
+5a25e00 : email: Add an ActionBar to the mail app's PreferenceActivity <Jorge Ruesga> 1 year, 4 months ago
+ed6d692 : email: fix empty body update <Jorge Ruesga> 1 year, 4 months ago
+b45a27e : Allow download of compressed attachments. <Danny Baumann> 1 year, 8 months ago
+5a910ea : Don't cancel PendingIntents used for AlarmManager. <Danny Baumann> 1 year, 8 months ago
+53ba588 : Optimize connection loss and re-gain behaviour. <Danny Baumann> 1 year, 8 months ago
+2f619a6 : Refine thread handling. <Danny Baumann> 1 year, 8 months ago
+d662af0 : Properly unregister alarm manager callbacks. <Danny Baumann> 1 year, 8 months ago
+9524850 : Use AlarmManager to schedule an IDLE connection restart. <Danny Baumann> 1 year, 8 months ago
+89c4845 : Don't auto-register IDLE when gaining connection. <Danny Baumann> 1 year, 8 months ago
+6403417 : Do less work on IDLE refresh. <Danny Baumann> 1 year, 8 months ago
+590d79d : Improve debug logging. <Danny Baumann> 1 year, 8 months ago
+33d09b0 : Use an inexact timer for the IDLE refresh. <Danny Baumann> 1 year, 8 months ago
+29e484a : Don't throw a NPE when operating on a destroyed list. <Danny Baumann> 1 year, 8 months ago
+aa9780e : Fix some more argument order issues. <Danny Baumann> 1 year, 8 months ago
+c1a7b25 : Simplify logic. <Danny Baumann> 1 year, 8 months ago
+73a652a : Fix some typos. <Danny Baumann> 1 year, 8 months ago
+95af433 : Don't solely rely on the presence of RECENT for checking for new mail. <Danny Baumann> 1 year, 8 months ago
+f16fa41 : Don't re-sync when refreshing the IDLE connection. <Danny Baumann> 1 year, 8 months ago
+c3bbb3c : Fix crash when attempting to view EML files. <Danny Baumann> 1 year, 8 months ago
+05ed34b : Reset idling flag when cancelling early due to being cancelled. <Danny Baumann> 1 year, 8 months ago
+41be2e5 : Add some debug statements. <Danny Baumann> 1 year, 8 months ago
+8711076 : Assign debug tags to IMAP communication output. <Danny Baumann> 1 year, 8 months ago
+040de68 : Fix argument order. <Danny Baumann> 1 year, 8 months ago
+a5bd1db : Simplify code. <Danny Baumann> 1 year, 8 months ago
+a4b3568 : email: catch the correct exception while closing the buffers <Jorge Ruesga> 1 year, 8 months ago
+3c49a40 : Fix ArrayIndexOutOfBoundsException. <Danny Baumann> 1 year, 8 months ago
+f0bfa39 : email: fix NPE <Jorge Ruesga> 1 year, 8 months ago
+60ed0c8 : EmailTests: fix api change <Scott Mertz> 1 year, 9 months ago
+6991e08 : email: fix tests <Jorge Ruesga> 1 year, 9 months ago
+5df44de : email: fix Exchange sync frequency account setup <Jorge Ruesga> 1 year, 9 months ago
+80d9010 : email: imap push <Jorge Ruesga> 1 year, 10 months ago
+7f56908 : email: fix Account table creation <Jorge Ruesga> 1 year, 10 months ago
+8e31b73 : email: custom notification lights <Jorge Ruesga> 1 year, 10 months ago
+1099eb6 : email: fix eas autodiscover <Jorge Ruesga> 1 year, 10 months ago
+887f115 : Fix NPE in getHierarchicalFolder <tobitege> 1 year, 10 months ago
+b5915a8 : email: finish the settings activity after delete its account <Jorge Ruesga> 1 year, 10 months ago
+bab7ef2 : Update strings for crowdin <Michael Bestas> 1 year, 11 months ago
+bde2458 : email: support per-folder notifications <Jorge Ruesga> 1 year, 10 months ago
+b9a4a73 : email: support for auto-sync multiple IMAP folders <Jorge Ruesga> 1 year, 10 months ago
+ 
+**** vanir:packages_apps_ExactCalculator ****
+5f21017 : Automatic translation import <inky@build01> 3 months ago
+7879e1f : ExactCalculator: fix UI display issue in split-screen mode. <hoffc> 5 months ago
+ 
+**** cm:LineageOS/android_packages_apps_FlipFlap ****
+965d891 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+ec7e4e6 : Gallery2: Fix crash when using locations view <Sam Mortimer> 2 weeks ago
+c9dbf41 : Automatic translation import <inky@build01> 3 months ago
+2916959 : SnapdragonGallery: Fix force closed when streaming opened with gallery <Kedi Xu> 6 months ago
+9b55881 : SnapdragonGallery: optimize SlideShow start speed <Kedi Xu> 6 months ago
+4ce608c : SnapdragonGallery: Fix flicker while launching any video. <shenfe> 6 months ago
+c625e3e : SnapdragonGallery:Fix gallery crash while loading content <Kedi Xu> 6 months ago
+386eafe : SnapdragonGallery: Fix crash when slide up to delete photos <zhuw> 6 months ago
+ec2ab74 : SnapdragonGallary: Fix the interface flash when click widget. <Kedi Xu> 6 months ago
+cb6e5b7 : Gallery2: use even width and height for makeup <Jay Wang> 8 months ago
+a002afd : Gallery: fix white screen after rapid scrolling <Likai Ding> 7 months ago
+1056ce0 : Gallery2: Fix NullPointerException when edit picture. <wqi> 9 months ago
+611367a : Gallery: fix lock/unlock order <Likai Ding> 9 months ago
+70f5ba0 : Gallery2: Fix the picture display error after doing rotate operation. <huiyan> 9 months ago
+c98dcb8 : Gallery2: Fix force closed when print deleted picture. <huiyan> 9 months ago
+bb29ca9 : Gallery: faster texture upload <Likai Ding> 9 months ago
+04cdc16 : Gallery: fix a memory leak <Likai Ding> 10 months ago
+ef5bb20 : Gallery2: Fix force closed when input long size at Export Flattened Image. <huiyan> 10 months ago
+bea587d : Gallery2: Fix picture is different when changes font size <huiyan> 10 months ago
+bd7fe90 : Revert "Gallery2: Set PhotoPage GL root reset when rotate" <huiyan> 10 months ago
+db7ce1a : Gallery: fix error when license expires <Likai Ding> 10 months ago
+e640344 : Gallery2: Fix the image add to the status bar. <huiyan> 11 months ago
+6fe8904 : Gallery2: set module privileged in Android.mk to delete photos on SD card. <Chao Zhang> 10 months ago
+e16711d : Gallery2: fix photo widget has not sync after delete the photo. <Chao Zhang> 10 months ago
+3347578 : Gallery: fix an ANR in slide show <Likai Ding> 10 months ago
+c2ef256 : Gallery: improve timeline loading performance <Likai Ding> 10 months ago
+cbe9232 : Gallery2: Fix NullPointerException when tap one picture/video <huiyan> 11 months ago
+7c82c37 : Gallery2: Remove some functions of crop model in editor interface. <wqi> 11 months ago
+0d1dac1 : Gallery2: Fix crop size changed after rotate phone. <zdi> 11 months ago
+78b1253 : Gallery: improve timeline loading performance <Likai Ding> 11 months ago
+ec13c6b : Gallery2: fix actionbar display abnormal return from photo edit. <Chao Zhang> 11 months ago
+d4e8491 : Gallery2: fix doPrepared() not called when open video from screen off. <Chao Zhang> 11 months ago
+ed62ebd : Gallery2: fix flicker when set sharpness in photo editor. <Chao Zhang> 11 months ago
+2cc9467 : Gallery2: fix display abnormal when rotate screen after set font scale. <Chao Zhang> 11 months ago
+d3d4648 : Gallery2: Add "keyboard" in MovieActivity's configChanges. <zdi> 11 months ago
+99fe545 : Gallery2: Remove setting option and move slideshow button. <wqi> 11 months ago
+f15d015 : Gallery2: Modify the UI of audio effect. <zdi> 12 months ago
+933165f : Gallery2: fix function of back button in top left corner. <wqi> 12 months ago
+0b6f947 : Gallery2: fix ConcurrentModificationException in MediaSet.java. <Chao Zhang> 12 months ago
+0708989 : Gallery2: fix the done button no response. <wqi> 12 months ago
+f0b8204 : Gallery2: fix permission issue <Likai Ding> 1 year ago
+0386caf : Gallery2: fix server timeout prompt not shown if mStreamingType is HTTP. <Chao Zhang> 1 year ago
+249d4dd : Gallery2: Fix null pointer exception when select "Color". <zdi> 1 year ago
+2588f9d : Gallery2: don't start on bootup <Likai Ding> 1 year, 1 month ago
+29ef8b7 : Gallery2: fix ANR in TileImageView.freeTextures(). <Chao Zhang> 1 year, 1 month ago
+df0f863 : Gallery2: Add sub_id on Settings.ACTION_APN_SETTINGS Intent. <zdi> 1 year, 1 month ago
+180c336 : Gallery2: fix display abnormal when openning photo in MMS attachment. <Chao Zhang> 1 year, 1 month ago
+2c225a4 : Gallery: Add mime type to support TS format files. <Chao Zhang> 1 year, 1 month ago
+7373da9 : Gallery2: Fix the superposition of two images issue <kaiyiz> 3 years, 4 months ago
+3134c42 : Gallery2: Auto pause and replay video when audio focus changed. <zdi> 1 year, 1 month ago
+22449ff : Gallery2: fix video play abnormal when screen is locked. <Chao Zhang> 1 year, 1 month ago
+ 
+**** vanir:packages_apps_KeyChain ****
+6d91ab7 : Automatic translation import <inky@build01> 3 months ago
+ 
+**** vanir:packages_apps_ManagedProvisioning ****
+618c813 : Automatic translation import <inky@build01> 3 months ago
+ 
+**** vanir:packages_apps_Messaging ****
+ea55e09 : Messaging: String improvements <Michael Bestas> 6 weeks ago
+0e0742f : Automatic translation import <inky@build01> 3 months ago
+db90ff4 : Messaging: make some more elements use accent instead of primary <Joey Rizzoli> 4 months ago
+5322c25 : Messaging: show snackbar instead of toast when deleting conversation <Joey Rizzoli> 4 months ago
+787a886 : Messaging: Switch to mipmap launcher icons <Dave Kover> 12 months ago
+2e9e30a : MediaPicker: Check for NPE <Ankit Gupta> 8 months ago
+352a400 : Messaging: fix bad recycle on sending two mms in a row <Roman Birg> 6 months ago
+360f4e5 : Use app settings for conversation settings if no custom set <Artem Shvadskiy> 7 months ago
+3bc0283 : Messaging app crashes after a few MMS <tnmy-cyngn> 8 months ago
+2b498c2 : Fixed storage permission issue for attachments Moved some audio library tab related string to cm_strings.xml <Gary Kipnis> 8 months ago
+645ed73 : Added support for video and audio mms attachments <Gary Kipnis> 9 months ago
+6179387 : Add UI/UX capability to attach a saved video to a MMS message <Martin Brabham> 1 year ago
+650d23e : Play an audible notification on receiving a class zero message. Changes ported from http://review.cyanogenmod.org/#/c/125457/ <Arun Valiaparambil> 11 months ago
+7bcb2a5 : Messaging: Implement saved video attachments in MMS <Martin Brabham> 1 year ago
+d017998 : Messaging: bring back accent color <jrizzoli> 12 months ago
+e1d7ec9 : Messaging App is crashing when storage  memory is full <jaffersulaiman> 11 months ago
+b972ad0 : Fix menu item highlight color. <Danny Baumann> 11 months ago
+092f28d : Improve swipe to delete strings <Michael Bestas> 12 months ago
+52186d9 : Messaging: Toggable keyboard emoticons access <AdrianDC> 1 year, 1 month ago
+2aed48c : Messaging: Swipe right to delete conversation <chengzhi.hou> 12 months ago
+499ca5f : MessageQueue: Process pending messages per subscription <Diogo Ferreira> 1 year ago
+de7e290 : Messaging: change Avatar fontFamily to sans-serif-medium <Altaf-Mahdi> 1 year, 2 months ago
+ad167ef : Messaging: Implement option for swipe to delete. <Adnan Begovic> 1 year, 1 month ago
+ 
+**** vanir:packages_apps_Nfc ****
+19fe827 : Automatic translation import <inky@build01> 3 months ago
+dcb2255 : Nfc: read extra properties of Mifare Classic <Hamster Tian> 8 months ago
+f11e218 : Revert "Stop building NXP stack." <Bruno Martins> 1 year, 4 months ago
+ 
+**** vanir:packages_apps_PackageInstaller ****
+4fc0cd7 : Automatic translation import <inky@build01> 3 months ago
+3ee3fea : Fix PackageInstaller FC when tapping on a downloaded apk notification <Ezio Lacandia Bijelkic> 3 months ago
+64d3812 : Disable permission auto enable in case only disable it under group permission <Arthur Shuai> 4 months ago
+df27c81 : Make storage permission only show one configration. <Arthur Shuai> 5 months ago
+e4d1833 : Grant group permissions instead of single permission. <Arthur Shuai> 5 months ago
+b787f07 : Add dialog when revoke one permission <Jiao Yuan> 5 months ago
+2d5c59c : Show every single permission only for platform permission group <Jiao Yuan> 5 months ago
+be2a8bf : PackageInstaller:  Add macro for CTA code <c_jyuan> 8 months ago
+c48dd8c : PackageInstaller:  Enable permission control <Jiao Yuan> 8 months ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+8eada1b : Automatic translation import <inky@build01> 3 months ago
+ 
+**** cm:LineageOS/android_packages_apps_Recorder ****
+7a10f08 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Settings ****
+b1dcf84 : Reconcile Android.mk <nuclearmistake> 2 hours ago
+e8993e2 : Remove moar merge tainnnt <DHOMD> 2 hours ago
+3ee5a49 : Remove a duped preference <DHOMD> 2 hours ago
+9e8f987 : Vanir updator only pls <DHOMD> 2 hours ago
+86e1358 : Remove some dupes in DeviceInfoSettings.java <DHOMD> 2 hours ago
+5f2db50 : Shot in the Dark <DHOMD> 2 hours ago
+13568fe : This is Vanir <DHOMD> 12 hours ago
+976fe78 : Track RemotePreferenceManager API changes. <Danny Baumann> 8 days ago
+2e3d158 : wifi: Allow configuration of country code for wifi <Andrew Dodd> 4 years, 5 months ago
+9bddf84 : Settings: Add status bar tap to sleep pref to gestures <Zhao Wei Liew> 3 weeks ago
+d5cd72a : Settings: Set ADB notification on by default <Arne Coucheron> 6 days ago
+975144a : Revert "SoundSettings: Prevent NPE due to linked volumes change" <Zhao Wei Liew> 2 weeks ago
+9c8f34f : SoundSettings: Always initialize mRingOrNotificationPreference <Zhao Wei Liew> 2 weeks ago
+6bf7312 : Show proper notification volume icon on non-voice capable devices <LuK1337> 2 weeks ago
+a976a95 : Settings: gesture: Add CMParts touchscreen gesture settings <Zhao Wei Liew> 4 weeks ago
+8edbc94 : development: Add setting for updating recovery <Brint E. Kriebel> 2 years, 9 months ago
+969dd16 : Settings: Don't crash in SUW if no talkback service is installed <cretin45> 4 weeks ago
+c44ce22 : Settings: Disable lock screen blur by default <Zhao Wei Liew> 3 weeks ago
+b4a1a11 : Handle SubSettings instance leaks in Index.java <gaochong> 8 weeks ago
+58c35d5 : SoundSettings: Prevent NPE due to linked volumes change <Zhao Wei Liew> 4 weeks ago
+3cbc805 : [3/3] Settings: Add CMParts charging sound settings preference <Sam Mortimer> 3 months ago
+01bd46a : Revert "settings: Remove lock screen blur stuff breaking build" <Zhao Wei Liew> 4 weeks ago
+267356d : Settings: point to lineageos updater <Joey Rizzoli> 4 weeks ago
+9562ff0 : Settings: Launch default music player on headset connect <Danesh M> 4 years, 1 month ago
+0c66e69 : Settings: Add volume link notification switch <Danesh M> 1 year, 2 months ago
+5a3085a : Move notif volume pref on top of increasing ring pref <Zhao Wei Liew> 4 weeks ago
+7b08498 : Settings: per-app cellular data and wifi restrictions <Bruce Wayne> 2 months ago
+43bf713 : Settings: DeviceInfo: Clean up the PlatLogo checks <Zhao Wei Liew> 5 weeks ago
+79bc324 : Settings: Fix translations <Michael W> 5 weeks ago
+0dc2eef : Allow restricted profiles on phones <Luke Dashjr> 5 weeks ago
+c4c65c3 : Settings: Improve hotspot timeout strings <Michael Bestas> 1 year ago
+3957078 : Settings: Cleanups <Arne Coucheron> 5 weeks ago
+3f804d3 : Tethering: Turn off wifi hotspot after inactivity(3/3) <bnarasimha> 3 months ago
+94e4f9b : Revert "Settings: Display 14 digit IMEI(Ignore Check Digit)" <Arne Coucheron> 5 weeks ago
+1659bf0 : Revert "Telephony(MSIM): Support to launch SimSettings from vendor space" <Arne Coucheron> 5 weeks ago
+c6026d4 : Revert "Settings: Fix settings force close in monkey test." <Arne Coucheron> 5 weeks ago
+656c12a : Revert "Implement an menu to start MyAccount" <Arne Coucheron> 5 weeks ago
+7f5d4f5 : Revert "Settings: Fix Diagnostics setting crash issue." <Arne Coucheron> 5 weeks ago
+ca454b0 : Revert "Settings: Modify MODE RJIL to change the font dialog." <Arne Coucheron> 5 weeks ago
+9733b38 : Revert "Settings : Fix settings option list can not show issues" <Arne Coucheron> 5 weeks ago
+a9d1a34 : Revert "Invoke vendor part of the MobileNetworkSettings" <Arne Coucheron> 5 weeks ago
+15234b3 : Revert "Telephony: Fix some wrong references in comments." <Arne Coucheron> 5 weeks ago
+5b15257 : Revert "DataUsageSummary: Invoke vendor part of the MobileNetwiorkSettings" <Arne Coucheron> 5 weeks ago
+c1a2f1e : Revert "TMO: Settings Support for Self Service/MyAccount requirements from TMO" <Arne Coucheron> 5 weeks ago
+7f758e1 : Revert "Settings: porting N code" <Arne Coucheron> 5 weeks ago
+bb57ad9 : Revert "Settings: add enhanced Wi-Fi Calling menu" <Arne Coucheron> 5 weeks ago
+b3e77e2 : Revert "Add switch button in Settings for Wi-Fi Call." <Arne Coucheron> 5 weeks ago
+fc4d6b7 : Revert "Settings: Modify irregular strings on Settings." <Arne Coucheron> 5 weeks ago
+41f86c0 : Revert "Add VoLTE preferred set and query function" <Arne Coucheron> 5 weeks ago
+8466256 : Revert "Settings: SMS provisioning changes" <Arne Coucheron> 5 weeks ago
+ 
+**** cm:LineageOS/android_packages_apps_Snap ****
+b202eb4 : Snap: Replace noisy debug line <Gabriele M> 7 days ago
+808f559 : Snap: VideoModule: Restore check on mPreferenceRead <Gabriele M> 7 days ago
+670944b : Snap: VideoModule: Update flash status on preference change <Gabriele M> 7 days ago
+3ff3328 : Snap: Fix filtering of unsupported HFR/HSR modes <Michael Bestas> 1 year ago
+7cd1d08 : Snap: Fix max brightness and power shutter settings <Gabriele M> 6 days ago
+bb7712e : Snap: Fix NPE when parameters.getSupportedVideoSizes() is null <Michael Bestas> 1 year, 1 month ago
+f894729 : Fix shutter button pressed state tracking issues. <Danny Baumann> 3 weeks ago
+7bfb43e : Snap: store module index <codeworkx> 8 weeks ago
+413e9bd : Fix thumbnail sometimes not being shown initially in video mode. <Danny Baumann> 3 weeks ago
+33c7742 : Snap: VideoModule: properly update focus settings when switching between cameras <Flex1911> 7 days ago
+c2d3695 : Snap: Fix zoom in video mode <Gabriele M> 7 days ago
+21b3a73 : Snap: Remove touch AF/AEC option <Steve Kondik> 3 years, 2 months ago
+48d9685 : Correctly return to film strip after editing a picture. <Danny Baumann> 5 weeks ago
+0e68dec : Snap: CAF strings cleanup second interation <Michael W> 5 weeks ago
+c91c20c : Fix camera controls rotation. <Danny Baumann> 5 weeks ago
+3850dbf : Snap: Replace strings <Michael W> 5 weeks ago
+8188a5e : Snap: Fix whitespace issues <Michael W> 5 weeks ago
+0424766 : Snap: Fix untranslatable strings <Michael W> 5 weeks ago
+d75ba68 : Snap: Remove storage menu if no external storage available <maxwen> 9 months ago
+8dc0828 : Add PREVENT_POWER_KEY to fix Crash when using 'Power Shutter' <Afshin Arani> 6 weeks ago
+0f0e2bf : Snap: make openLegacy an option <codeworkx> 8 weeks ago
+3cc62c4 : Snap: update caf icons <Joey Rizzoli> 9 weeks ago
+6f29e7f : Snap: prevent NPE when checking if controls are visible <Joey Rizzoli> 9 weeks ago
+d17f129 : Always set JPEG quality. <Danny Baumann> 3 months ago
+c071c83 : Initialize focus manager in onResume(). <Danny Baumann> 3 months ago
+e56d6a7 : Modernize look of review controls. <Danny Baumann> 3 months ago
+2bdd1d8 : Clean up module switcher. <Danny Baumann> 3 months ago
+a9d6965 : Stop data loader on activity destroy. <Danny Baumann> 3 months ago
+faba8b3 : Improve RTL layout behaviour. <Danny Baumann> 3 months ago
+117a398 : Use transparent navigation bar. <Danny Baumann> 3 months ago
+4731803 : Use material versions of share/delete/edit icons. <Danny Baumann> 3 months ago
+0576147 : Fix some photo UI layout issues. <Danny Baumann> 3 months ago
+988ea6a : Snap: Fix blatant UI string issues <Zhao Wei Liew> 3 months ago
+392d19a : snap: Panorama fixes <Steve Kondik> 3 months ago
+ebe7e67 : snap: Fix bottom bar layout <Steve Kondik> 3 months ago
+abf4f1b : Snap: Remove obsolete xxhdpi scene mode drawables <Zhao Wei Liew> 3 months ago
+4715f07 : Fix mismatched scene mode arrays. <Danny Baumann> 3 months ago
+3d7fe52 : Snap: Make developer menu more accessible <Michael Bestas> 7 months ago
+f68cfef : Revert "snap: Provide a way to remove Snap from the build" <Zhao Wei Liew> 3 months ago
+4b10396 : snap: Fix reset of camera controls <Steve Kondik> 3 months ago
+dde6d7e : CameraNext: Update focus behavior for panoramas <Jim Wilson> 1 year, 3 months ago
+aa07335 : Make panorama able to go 270 degrees in landscape <Martin Brabham> 1 year, 3 months ago
+28da641 : Grant read URI permission for playback of video capture <Alan Newberger> 10 months ago
+364d1fb : CameraNext: stop updating the pano progress bar on pause <Scott Mertz> 9 months ago
+87ddf08 : CropActivity: notify MediaScanner on save complete <Khalid Zubair> 9 months ago
+031de9d : Fix broken filenames for cropped images <Khalid Zubair> 9 months ago
+65703b2 : Show UI when pano stitch starts and remove cancel condition <Artem Shvadskiy> 9 months ago
+6264a59 : CameraNext: don't crash when pref is not boolean <Keith Mok> 8 months ago
+1d91e53 : CameraNext: Fallback to do copy exif if exif not exist <Keith Mok> 8 months ago
+149fda8 : snap: Fix preview overlays <Steve Kondik> 3 months ago
+ 
+**** vanir:packages_apps_Stk ****
+49416cb : Stk: New launcher icon <Michael Bestas> 1 year, 4 months ago
+0c6a45d : Automatic translation import <inky@build01> 3 months ago
+2bbfe03 : When stk handle session end, finished all of the stk submenu activity. <Yujing Gu> 1 year, 1 month ago
+999766f : Stk: Operator specific sim icon customisation. <Prashant Srivastava> 4 months ago
+ 
+**** vanir:packages_apps_Tag ****
+e116ae2 : Automatic translation import <inky@build01> 3 months ago
+ 
+**** cm:LineageOS/android_packages_apps_Terminal ****
+01c9fbf : Automatic translation import <Michael Bestas> 2 years ago
+2a0ed33 : Terminal: add runtime permissions <jrizzoli> 1 year, 3 months ago
+336c763 : Allow terminal app to show in LeanBack (1/2) <dhacker29> 1 year, 10 months ago
+8b677cb : TerminalKeys: Disable debug <Ricardo Cerqueira> 2 years ago
+0cb3450 : Terminal: Convert CheckBoxPreference to SwitchPreference <Michael Bestas> 2 years, 1 month ago
+9efe5a1 : Terminal: Cleanup duplicate strings <Michael Bestas> 2 years, 1 month ago
+6bfd4c1 : Some cleanup. <Danny Baumann> 2 years, 1 month ago
+bda3e74 : Term: materialize <linuxx> 2 years, 1 month ago
+c74d60b : Properly clear background when changing colors. <Danny Baumann> 2 years, 1 month ago
+53cd426 : Also use set colors for scrollback lines that aren't filled yet. <Danny Baumann> 2 years, 1 month ago
+422d504 : Allow access to external storage <Tom Marshall> 2 years, 1 month ago
+9219b4e : Add application icon <Tom Marshall> 2 years, 2 months ago
+b2ba766 : Add settings for fullscreen, orientation, font size, color <Tom Marshall> 2 years, 2 months ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+30ca771 : Automatic translation import <Michael Bestas> 2 years ago
+58f7c27 : UnifiedEmail: Use NotificationManager to figure out LED capabilities <Zhao Wei Liew> 3 months ago
+f4c209e : Revert "UnifiedEmail: not show "help&feedback" in general settiings if url is null" <Christopher N. Hesse> 3 months ago
+3bad40b : Revert "UnifiedEmail: Supported Email search function" <Danny Baumann> 3 months ago
+50888c1 : Revert "UnifiedEmail: Can't findViewById make NPE." <Michael Bestas> 7 weeks ago
+fc6f9cc : Revert "UnifiedEmail: Database Expression tree is too large cause FC." <Michael Bestas> 7 weeks ago
+e04ba51 : Revert "UnifiedEmail: exit search will crash NPE." <Michael Bestas> 7 weeks ago
+886d525 : Revert "UnifiedEmail: when run monkey will crash by NPE" <Michael Bestas> 7 weeks ago
+e75982b : MimeUtility: ensure streams are always closed <Alexander Martinz> 7 months ago
+b3dfbd5 : Remove mail signatures from notification text. <Danny Baumann> 1 year, 1 month ago
+69981f3 : unifiedemail: junk icon <Jorge Ruesga> 1 year, 4 months ago
+4691786 : email: allow move/copy operations to more system folders <Jorge Ruesga> 1 year, 4 months ago
+1056d27 : Add missing import <Steve Kondik> 1 year, 4 months ago
+a010e1c : Add an ActionBar to the mail app's PreferenceActivity. <Danny Baumann> 1 year, 4 months ago
+5b6f234 : Don't assume that a string isn't empty <Marcos Marado> 1 year, 7 months ago
+15dab97 : Remove obsolete theme. <Danny Baumann> 1 year, 8 months ago
+11f87bf : email: linkify phone numbers <Jorge Ruesga> 1 year, 9 months ago
+91cd4fa : email: do not close the input attachment buffer in Conversion#parseBodyFields <Jorge Ruesga> 1 year, 9 months ago
+e88a181 : unified-email: custom notification lights <Jorge Ruesga> 1 year, 10 months ago
+830a0be : email: linkify urls in plain text emails <Jorge Ruesga> 1 year, 10 months ago
+07f9eb8 : unified-email: respect swipe user setting <Jorge Ruesga> 1 year, 10 months ago
+d9bbf38 : unified-email: check notification support prior to create notification objects <Jorge Ruesga> 1 year, 10 months ago
+630a11d : email: fix recents's suggested contacts query <Jorge Ruesga> 1 year, 11 months ago
+562478d : email: fix back button <Jorge Ruesga> 1 year, 11 months ago
+26ae69c : Improve strings <Michael Bestas> 1 year, 11 months ago
+2c917f8 : UnifiedEmail: Increase max attachment size to 25MB <LorDClockaN> 1 year, 11 months ago
+a46bbf2 : UnifiedEmail: Fix build <Kenshin> 1 year, 11 months ago
+2cc0a17 : unified email: prefer account display name to sender name <Jorge Ruesga> 1 year, 11 months ago
+a887ec0 : unified email: suggested contacts <Jorge Ruesga> 2 years ago
+297ced1 : UnifiedEmail : Set subject before setFolders <Danesh M> 2 years ago
+ceb768a : Update the notification icons for Lollipop <blunden> 2 years, 3 months ago
+e5baf20 : UnifiedEmail: Fix Email NullPointerException in ConversationItemView <weitan> 8 weeks ago
+20ec274 : UnifiedEmail: when run monkey will crash by NPE <shiwan> 3 months ago
+31e0972 : UnifiedEmail: exit search will crash NPE. <shiwan> 3 months ago
+58db9e5 : UnifiedEmail: exit search will crash NPE. <shiwan> 3 months ago
+8b8d124 : UnifiedEmail: Database Expression tree is too large cause FC. <shiwan> 3 months ago
+7fd67cc : UnifiedEmail: Database Expression tree is too large cause FC. <shiwan> 3 months ago
+f9e1283 : UnifiedEmail: Can't findViewById make NPE. <shiwan> 4 months ago
+137e7e4 : UnifiedEmail: avoid Email Force close for null pointer exception <weitan> 4 months ago
+281f491 : UnifiedEmail: Can't findViewById make NPE. <shiwan> 4 months ago
+ 
+**** vanir:packages_apps_WallpaperPicker ****
+10360a6 : WallpaperPicker: bring back cm wallpapers <Joey Rizzoli> 9 days ago
+3e595e6 : WallpaperPicker: materialize delete icon <Joey Rizzoli> 10 days ago
+3210ccd : WallpaperPicker: update icon <Joey Rizzoli> 10 days ago
+e15b638 : WallpaperPicker: bump gradle <Joey Rizzoli> 10 days ago
+ 
+**** vanir:packages_inputmethods_LatinIME ****
+c2de221 : LatinIME: Add Hungarian QWERTY, enable predictive dictionary <dh-harald> 4 weeks ago
+e287239 : Automatic translation import <Michael Bestas> 1 year, 2 months ago
+555c152 : LatinIME: Remove gesture preference if gesture lib is unavailable <Zhao Wei Liew> 3 months ago
+3a8b5fd : LainIME: add unicode 9.0 chars <Joey Rizzoli> 3 months ago
+fee2a62 : LatinIME: disable sound on keypress on all devices by default <Dan Pasanen> 3 months ago
+741cd43 : Fix send button not being centered for non-standard densities. <Danny Baumann> 4 months ago
+9a2d82f : LatinIME: Add shortcuts support <Janet Sun> 6 months ago
+085f323 : InputMethods: set the default value for preference <Ankit Gupta> 8 months ago
+d5085f7 : LatinIME: Disable Hungarian spell checking <Michael Bestas> 11 months ago
+46446c5 : LatinIME: Add Bulgarian, Georgian and Ukrainian wordlists <Michael Bestas> 11 months ago
+9f02e8a : Don't interrupt active gesture input by modifier key presses. <Danny Baumann> 1 year, 1 month ago
+763d240 : Add support for Bépo keyboard layout <Julien "_FrnchFrgg_" RIVAUD> 1 year, 8 months ago
+099798f : make default overlay for "show correction suggestion" <Edward Wang> 1 year, 10 months ago
+efa375e : Rearrange Slavic & Greek morekeys <Michael Bestas> 1 year, 10 months ago
+deeb39b : Rearrange morekeys <KhasMek> 3 years ago
+0b71a98 : LatinIME: Add Luxembourgish keyboard & spellchecking dictionary <Michel Weimerskirch> 2 years, 1 month ago
+82b745c : LatinIME: Add support for Australian English <Michael Bestas> 2 years, 1 month ago
+ad616c9 : LatinIME: Enable Greek spell checking <Michael Bestas> 2 years, 1 month ago
+c0ee908 : LatinIME: Enable spellchecker for additional languages <blunden> 4 years, 2 months ago
+6a644bf : LatinIME: HU enable predictive dictionary and remove unused letters <Tamás Tóth> 2 years, 1 month ago
+1283a0f : LatinIME: Regenerate KeyboardTextsTable <Michael Bestas> 1 year, 2 months ago
+633949e : LatinIME: Apply "Enable more keys for top row on tablets" (f6620308ba) and "Add "more" keys to ALL the keys" (c561f31af9) to slavik layouts. <Kiril Mikos> 4 years, 4 months ago
+020a88c : LatinIME: Add "more" keys to ALL the keys in Greek layouts <Michael Bestas> 2 years, 3 months ago
+a147d02 : Unbreak QWERTZ keyboards <Kim> 1 year, 3 months ago
+b83060a : LatinIME: Only enable gesture mode if gesture lib is available <Tom Marshall> 2 years, 3 months ago
+f22d9df : LatinIME: Add fallback loader for JNI lib <Steve Kondik> 3 years, 2 months ago
+3ae26de : latinime: Add "more" keys to ALL the keys <Steve Kondik> 4 years, 4 months ago
+f1ada2b : Fix tems untranslated in SMS after change system language <youyan> 4 months ago
+a8500bb : Fix long press delete no response in message <youyan> 7 months ago
+62d45ec : LatinIME: Customize features for regional package. <c_yunong> 7 months ago
+ 
+**** vanir:packages_providers_CalendarProvider ****
+302091f : Automatic translation import <inky@build01> 3 months ago
+d5de2d9 : Calendar force close.(once) <c_shengl> 11 months ago
+960c1cf : Optimize the UI of Chinese calendar text in calendar app. <c_shengl> 11 months ago
+ 
+**** cm:LineageOS/android_packages_providers_CallLogProvider ****
+dfc60df : Automatic translation import <inky@build01> 3 months ago
+ 
+**** vanir:packages_providers_ContactsProvider ****
+c881eba : dbhelper: fix schema disaster from pre-cafrebase repo <Dan Pasanen> 27 hours ago
+54846fc : Don't suspend aggregation for new contacts <Gabriele M> 12 months ago
+9ea5526 : dbhelper: ignore 'subscription' column during database upgrade <Dan Pasanen> 9 weeks ago
+7dffeb7 : Automatic translation import <inky@build01> 3 months ago
+5ca6651 : Ignore old CM13 columns in DB migration. <Danny Baumann> 4 months ago
+85fd74e : Fix N-MR1 update issue <blong> 9 weeks ago
+3a42be1 : Compilation fix: N-MR1 merge. <Lalit Kansara> 2 months ago
+2161ddc : Fix acore force close during monkey test <blong> 4 months ago
+ 
+**** vanir:packages_providers_DownloadProvider ****
+6422cd1 : Automatic translation import <inky@build01> 3 months ago
+b7d97db : DownloadProvider: Add support for manual pause/resume <Zhao Wei Liew> 5 months ago
+963a851 : DownloadProvider: Display download speed in notification <Lasse Brudeskar Vikås> 3 years, 1 month ago
+2a87cd6 : Enforce calling identity before clearing. <Jeff Sharkey> 5 months ago
+ 
+**** vanir:packages_providers_MediaProvider ****
+b5fa701 : Automatic translation import <inky@build01> 3 months ago
+575957c : MediaProvider: Add read storage permission <Luca Stefani> 3 months ago
+877bb1d : Screenshots info is not updated when device is plugged in MTP mode <Maunik Shah> 3 years, 6 months ago
+a91c6de : Fix mounting of non-FAT formatted SD cards (2/2) <Michael Bestas> 1 year, 7 months ago
+ 
+**** vanir:packages_providers_TelephonyProvider ****
+d5e1823 : Revert "telephony: Initialize USER_NETWORK_MODE with DEFAULT_NW_MODE" <Arne Coucheron> 7 days ago
+68c7c44 : telephony: Initialize USER_NETWORK_MODE with DEFAULT_NW_MODE <Gabriele M> 4 weeks ago
+985bca9 : Automatic translation import <inky@build01> 3 months ago
+f4f533a : telephony: Fix initial database creation <Steve Kondik> 4 months ago
+8718d9b : Add DB upgrade path for SMS/MMS and telephony provider. <Danny Baumann> 4 months ago
+4c61dd6 : TelephonyProvider: Fix Default APN Preference Overlay on 1st Boot <Aaron Knight> 7 months ago
+e57c616 : telephony: Add support for choosing a default APN <Steve Kondik> 4 years, 9 months ago
+9294b2a : Fix NPE for restoring default APN <Mengjun, Leng> 4 months ago
+3886155 : Fix NPE for restoring default APN <Mengjun, Leng> 4 months ago
+ac2d27c : 30481342: Security Vulnerability - TOCTOU in MmsProvider allows access to files as phone (radio) uid <Andre Furtado> 6 months ago
+ 
+**** vanir:packages_providers_UserDictionaryProvider ****
+c7d7e36 : Automatic translation import <inky@build01> 3 months ago
+ 
+**** vanir:packages_screensavers_PhotoTable ****
+aef0111 : Automatic translation import <inky@build01> 3 months ago
+ 
+**** vanir:packages_services_Telecomm ****
+acbfb3b : CallAudioModeStateMachineTest: fix compilation <Simon Shields> 3 weeks ago
+7bb2f64 : Telecomm: Set MSIM audio params using the proper ID <Gabriele M> 6 weeks ago
+b1aacbe : Telecomm: Fix error due to protected broadcast <Michael W> 6 weeks ago
+8ffe348 : Automatic translation import <inky@build01> 3 months ago
+111e6dd : Fix incorrect key in Maps <You Kim> 9 weeks ago
+506f61a : Telecomm: Add missing CMSDK dependencies in tests <Bin Chen> 2 months ago
+7f9c743 : telecom: Ensure that we always update bluetooth in dsda case <Christopher R. Palmer> 1 year, 2 months ago
+dc59d1c : Telecom: Ues proper sub IDs <Gabriele M> 3 months ago
+7e49696 : Telecomm: Forward port phone_type switch support <ljzyal> 3 months ago
+a1381c5 : Ignore null groupId when restoring default account. <Danny Baumann> 3 months ago
+020f681 : Fix sporadic crashes with MSIM devices and inactive SIMs <Ricardo Cerqueira> 10 months ago
+4134851 : Telecomm: Update icon to Material <Michael Bestas> 2 years, 1 month ago
+3780fd3 : Honor option to allow vibration during priority zen mode. <Danny Baumann> 4 months ago
+d3a0823 : Expose call creation time to link call recordings with recent call log (2/2) <emancebo> 2 years ago
+45c09f1 : Add back increasing ring feature (3/3). <Danny Baumann> 2 years, 3 months ago
+d5eadbe : Add back phone notification LED settings backend (1/2) <Danny Baumann> 2 years, 1 month ago
+b914304 : Telecom: Break qti-telephony-framework dependency <Zhao Wei Liew> 5 months ago
+6db9a2e : Telecomm: Squash changes to default SIM handling <LuK1337> 5 months ago
+09c6f28 : Revert "Phone: Add headset notification when wired headset plugged in" <LuK1337> 5 months ago
+597f5d0 : Proper supplementary service notification handling (3/5) <Danny Baumann> 2 years, 3 months ago
+5bee738 : If activeCall is null return <Sandeep Kunta> 3 months ago
+26efebe : IMS-VT: Fix issue of VT call converting to volte after sim selection <Muhammed Siju> 3 months ago
+c348eae : If activeCall is null return <Sandeep Kunta> 3 months ago
+8cc597b : IMS-VT: Fix issue of VT call converting to volte after sim selection <Muhammed Siju> 3 months ago
+54fb114 : Fix for Audio mute issue <c_nagarw> 3 months ago
+1cacd1c : Fix display contact name in toast while responding call via sms <Shashidhar Vithalrao Kulkarni> 3 months ago
+e98351b : Fix phone crash while unknown call on sub1 <Shashidhar Vithalrao Kulkarni> 4 months ago
+dcd5901 : IMS: Reset postDialDigits for Conference URI call. <Suchand Ghosh> 7 months ago
+7eba4ca : Fix phone crash while unknown call on sub1 <Shashidhar Vithalrao Kulkarni> 4 months ago
+25da2ca : Fix display contact name in toast while responding call via sms <Shashidhar Vithalrao Kulkarni> 4 months ago
+18336d9 : IMS-VT: Fix speaker icon not displayed for back to back VT calls. <Muhammed Siju> 5 months ago
+6bf2f0b : Emergency Call when there is no room left for new Call. <Ruthwar Kumar Ambeer> 5 months ago
+52f3f38 : IMS: Held conference call should not be automatically resumed <Pooja Jain> 5 months ago
+ 
+**** vanir:packages_services_Telephony ****
+aa8becd : Telephony: Fix qtistrings <Kasual> 3 days ago
+83008b2 : Telephony: Fix qtistrings <Michael W> 4 weeks ago
+2980576 : MobileNetworkSettings: Read and write USER_NETWORK_MODE <Gabriele M> 4 weeks ago
+1199aad : Revert "IMS: Add subscription based Voice over Wifi APIs" <Arne Coucheron> 4 weeks ago
+8007e79 : Telephony: Fix translations <Michael W> 5 weeks ago
+9de5886 : Telephony: Further improve network selection <Michael W> 7 weeks ago
+fa0bf83 : Telephony: Improve NetworkSelection <Michael W> 7 weeks ago
+9b52dc4 : Automatic translation import <inky@build01> 3 months ago
+b32ed85 : Telephony: add external network selection activity <Roman Birg> 1 year ago
+28a2bd0 : PhoneToggler: persist nw mode change <Roman Birg> 1 year ago
+bfb3a7e : Port network mode toggle from CM12 <Pawit Pornkitprasan> 5 years ago
+9bbd511 : CallFeatureSettings: Only show video quality if QTI package installed <dhacker29> 1 year, 3 months ago
+99ae75e : Revert "Add support for DSDA" <Gabriele M> 3 months ago
+3ff19ee : Telephony: Redirect to roaming SIM network setting(Dual SIM) <chengzhi.hou> 6 months ago
+f426d9d : EditPhoneNumberPreference: Prevent empty text from being set <Stephen Bird> 7 months ago
+a893d09 : Switch back to Auto selection if Manual fail's <Deepak Kundra> 9 months ago
+4c46509 : PhoneApp Crash: Multiple times due to permission issue <Prabhakara Rao Pediredla> 11 months ago
+e7319f8 : MSIM: Show Enhanced 4G LTE mode option for IMS subscription <Suresh Kumar Sugguna> 1 year, 2 months ago
+05e9475 : Apply correct theme color to USSD progress dialog. <Arvin Quilao> 10 months ago
+3bd8a69 : Fix MSIM voicemail notification icons. <Dave Kover> 12 months ago
+7d77ef5 : Fix CDMA vs. WCDMA typo in cs translations <nadlabak> 1 year, 9 months ago
+39c79f6 : Fix removal of 'all accounts' preference. <Danny Baumann> 1 year, 2 months ago
+cfd1143 : Order SIM accounts properly. <Danny Baumann> 1 year, 2 months ago
+eabed53 : Telephony: Exit call features if our error is unrecoverable. <Adnan Begovic> 2 years ago
+45344f7 : Remove hard-coded CDMA roaming mode restrictions. <Mike Kasick> 5 years ago
+071d31e : Change string "Cellular" to "Mobile" <Marcos Marado> 2 years, 1 month ago
+8bfc056 : Fix multiple apn items issue <Susheel Nyamala> 1 year, 6 months ago
+8daf8cf : Allow MobileNetworkSettings to be invoked for selected SIM. <Danny Baumann> 1 year, 1 month ago
+097d270 : Telephony: reload CarrierConfig based on changes to build display version <Dave Daynard> 1 year, 3 months ago
+e4fadce : Telephony: Break qti-telephony-framework dependency <Zhao Wei Liew> 5 months ago
+0b1be17 : Telephony: Fix translatability of network modes <Michael Bestas> 2 years, 1 month ago
+2902148 : Break MSIM dependency on qti-telephony-framework <Ricardo Cerqueira> 1 year, 3 months ago
+01398c6 : Proper supplementary service notification handling (4/5). <Danny Baumann> 2 years, 3 months ago
+65b6185 : Revert "XDivert changes for MSIM" <Danny Baumann> 1 year, 2 months ago
+929f9c7 : Revert "TeleService: Add support to show call duration when diconnect" <Danny Baumann> 1 year, 3 months ago
+1ddcb80 : Revert "TeleService: Add new feature to vibrate when MO call accepted" <Danny Baumann> 1 year, 3 months ago
+abf85e4 : Revert "TeleService: Add a controller for proximity sensor" <Michael Bestas> 7 weeks ago
+46b18cd : Phone: Enable LTE for GSM LTE phones (part I) <Ricardo Cerqueira> 4 years, 10 months ago
+d3d9575 : Assign mRequest properly <Sandeep Kunta> 2 months ago
+51ebc59 : Add accounts if only sim is present <Sandeep Kunta> 3 months ago
+a76c0bb : Add accounts if only sim is present <Sandeep Kunta> 3 months ago
+c5d7007 : Assign mRequest properly <Sandeep Kunta> 2 months ago
+24a16ba : MSIM: Fix for preferred SIM for voice <Sridhar Kasukurthi> 3 months ago
+d1b5402 : TeleService:Change to fetch res from resource to add chinese strings <Li Wei> 4 months ago
+ccc0370 : Fix carrier config does not update proper configurations <Mengjun Leng> 5 months ago
+a3f29e4 : TeleService: Add a controller for proximity sensor <Zhu Youhua> 1 year, 1 month ago
+1984ae0 : Emergency Call on long pressing key 9 <Ruthwar Kumar Ambeer> 3 months ago
+b09e1cf : Emergency Call on long pressing key 9 <Ruthwar Kumar Ambeer> 3 months ago
+dfe7fec : IMS: Disable filtering out conference host for some carriers <Zhao Fan> 6 months ago
+0555b35 : Support TTY for multi-sim <Mayukh Chatterjee> 3 months ago
+ 
+**** vanir:packages_wallpapers_LivePicker ****
+e7ed207 : Automatic translation import <inky@build01> 3 months ago
+ 
+**** vanir:system_bt ****
+e999a15 : Revert "Bluetooth-Wipower: Enable WiPower feature." <Dan Pasanen> 32 hours ago
+b42beca : HID: Prevent crash by Cancelling SDP during cleanup <Hemant Gupta> 10 weeks ago
+eb78644 : bt: Allowed WBS to be disabled when building with QTI_SW <Christopher R. Palmer> 5 weeks ago
+7899ee9 : Bluetooth: silence logspam <Alexander Martinz> 9 weeks ago
+1aa0575 : bt: Use HCI H4 HAL for BT SOC ATH3K <Hashcode> 3 months ago
+aa4939b : bt: Add wiimote pairing support <Schischu> 2 years, 10 months ago
+733a458 : bt: Fix HCI driver selection logic for Qualcomm Bluetooth <Ethan Chen> 5 months ago
+fd78fb4 : bt: Select H4 HCI driver when QC bluetooth prop is unset <Zhao Wei Liew> 5 months ago
+1d3f1fd : BT: Fix up defines <William Bellavance> 6 months ago
+5f17753 : l2cap: Set transport even if BLE_INCLUDED = FALSE <Shantur Rathore> 12 months ago
+8d45d91 : BT: Fix up device not turning on due to BLE command <William Bellavance> 1 year, 2 months ago
+ddfecd7 : Bluetooth: fix stuttering audio <Cal Archer> 7 months ago
+9f855fa : bt-vendor: Fix sporadic crashes on shutdown <Ricardo Cerqueira> 10 months ago
+e227dca : bluetooth: Check legacy location for NV file <Steve Kondik> 1 year, 1 month ago
+8f297d6 : bt: Enable Bluedroid debugging only on eng. <Aaron Kling> 1 year, 1 month ago
+3b28c57 : btsnoop: Enable snoop logging by default only on eng builds <Arne Coucheron> 1 year, 2 months ago
+1ced9a8 : Bluetooth losing HF connection to car-kit after 5 seconds <Markus Schmidt> 4 years, 2 months ago
+9481725 : bluedroid: Disable the test interface <Steve Kondik> 2 years, 2 months ago
+7c06413 : Add I2S-PCM slave mode for SCO <Steve Kondik> 3 years, 7 months ago
+a1068b6 : bluedroid: Disable BLUETOOTH_QTI_SW by default <Steve Kondik> 2 years, 3 months ago
+4acf843 : bt: Kill some logspam <Christopher R. Palmer> 1 year, 3 months ago
+cf538c4 : A2DP: Disable BT_HOST_IPC_ENABLED and fix build <Arne Coucheron> 5 months ago
+da02f8e : Compilation fix: N-MR1 merge <Lalit Kansara> 2 months ago
+575d9f4 : Fix for issues reported by Static analysis tool. <Satheesh Kumar Pallemoni> 2 months ago
+baa0010 : Start the Tx idle timer before sending out HCI command <Luke Zhang> 3 months ago
+ffe8196 : Bluetooth: Add boot timer permission for bdt <zhenchao> 5 months ago
+fe3534b : Send empty attributes in getelementattribute & getitemattribute rsp. <Sumit Bajpai> 4 months ago
+d993702 : HID: Add Moto Keyboard KZ500 to blacklist <Hemant Gupta> 3 months ago
+4dfc27e : Avrcp: Do not disconnect standalone avrcp connection. <Sumit Bajpai> 3 months ago
+615d5bc : Bluetooth: Add boot timer permission for bdt <zhenchao> 5 months ago
+25dedbb : Bluetooth: Add boot timer permission for bdt <zhenchao> 5 months ago
+850d822 : Bluetooth: Removes bond when user clicks on cancel pairing <zhenchao> 3 months ago
+e0f8992 : Bluetooth: Increase Codec config structure size <Bhakthavatsala Raghavendra> 3 months ago
+f512324 : Fix the command timeout issue with either LPM or TX idle timer <Luke Zhang> 1 year, 3 months ago
+b945f5a : Bluetooth: Added SPP version 1.2 to SDP record. <Matadeen Mishra> 1 year ago
+af705a3 : A2DP: ACK A2dp success to HAL from AV started state. <Sumit Bajpai> 3 months ago
+a1eec84 : Removing unnecessary creation of semaphore as part of stack cleanup <Manu Viswanadhan> 4 months ago
+392d0f7 : GAP: Increase max remote ext feature pages to 3 <Venkata Jagadeesh Garaga> 3 months ago
+300f289 : BT: Modify implementation for command timeout crashdump collection <Manu Viswanadhan> 3 months ago
+b84a0ed : Revert "Register for Service Changed notifications for untrusted devices" <Satomi> 6 months ago
+e4e5434 : AVRCP: Connection failure due to collision. <pramod kotreshappa> 3 months ago
+d9feb08 : GAP: Increase max remote ext feature pages to 3 <Venkata Jagadeesh Garaga> 3 months ago
+4f60190 : Bluetooth: Mazda carkit rejecting abs. vol. notifications <Umesh Vats> 3 months ago
+6a2068f : Set DUT role as slave <Venkateshwarlu Domakonda> 4 months ago
+df34e55 : Bluetooth: Removes bond when user clicks on cancel pairing <zhenchao> 3 months ago
+3f3b517 : Before AG knowing remote's HFP version, don't unset HF indicators. <Satish Kodishala> 3 months ago
+5f7f7f6 : Bluetooth: Negotiate AAC bitrate based on remote capability <Bhakthavatsala Raghavendra> 3 months ago
+6261432 : Bluetooth: AVRCP version black listing enhancement <Umesh Vats> 3 months ago
+51c6aea : Bluetooth: Reset state on suspend recived in the middle of encoder update <Bhakthavatsala Raghavendra> 4 months ago
+c64bc9c : Remove the stale entry of the APTx thread. <Satheesh Kumar Pallemoni> 4 months ago
+ 
+**** vanir:system_core ****
+509d50b : fix zram-related taint <nuclearmistake> 8 hours ago
+dddec45 : debuggerd: Rebrand tombstone header to LineageOS <Harry Youd> 11 days ago
+e16902d : [1/2] init.rc: set DOWNLOAD_CACHE based on prop <Dan Pasanen> 3 months ago
+8408cd7 : init: Allow devices to opt-out of fsck'ing on power off <Christopher R. Palmer> 9 months ago
+b45a451 : healthd: allow custom charger images <Scott Mertz> 1 year, 11 months ago
+54ae382 : init: Fix possible open file pointer <Michael W> 3 months ago
+0546d2f : healthd: dock battery <Jorge Ruesga> 1 year, 8 months ago
+b09002e : healthd: Detect power supply type for all charger devices <myfluxi> 2 years, 2 months ago
+be81c98 : init: Add support for kernels that don't have finit_module <DodoGTA GT> 4 months ago
+bd8d7ba : Use __ with attribute __noreturn__ to avoid colliding with noreturn. <Elliott Hughes> 8 months ago
+0c87693 : libcutils: Fix thread ID on macOS <Christopher N. Hesse> 5 months ago
+aa54d81 : init: Fire a trigger when a class is started/stopped <Steve Kondik> 1 year, 5 months ago
+76eff4d : init: Don't crash the system due to an invalid mkdir argument <Christopher R. Palmer> 5 months ago
+368b980 : sdcard: add FUSE_STACKED_IO <Keith Mok> 5 months ago
+3c05ee0 : adb: Add wait-for-online command <Steve Kondik> 5 months ago
+b7045fc : utils: Threads: Handle empty thread names <Christopher N. Hesse> 6 months ago
+b4e55a3 : cutils: iosched_policy: Access BFQIO cgroup in /dev/bfqio <Zhao Wei Liew> 5 months ago
+2b52eaf : ueventd: Fix bootdevice by-name/by-num link creation <David Ng> 2 years, 3 months ago
+48e8cf4 : fastboot: format f2fs partition instead of just erase <Keith Mok> 1 year, 5 months ago
+a68eec6 : unpackbootimg: stash EFIDroid changes <M1cha> 6 months ago
+0518174 : mkbootimg: add 32K 64K and 128K pagesizes <Michael Bestas> 6 months ago
+8fea6d2 : Switch fs_mgr and adb to libcrypto_utils. <Mattias Nissler> 11 months ago
+c78415f : Add libcrypto_utils. <Mattias Nissler> 11 months ago
+290e66b : adb: improve display of transfer rate. <Josh Gao> 7 months ago
+728acda : Fix clang-tidy performance warnings in syste/core. <Chih-Hung Hsieh> 7 months ago
+e8a462f : adb: add missing newline when printing transfer rate. <Josh Gao> 7 months ago
+c2ab034 : adb: fix output of `sync -l` <Josh Gao> 7 months ago
+44e7a3b : adb: fix fd leak when shell fails to create a thread. <Josh Gao> 8 months ago
+1252fc6 : adb: Check for alternate shell paths <Steve Kondik> 6 months ago
+65b15e3 : Use RECOVERY_PRE_COMMAND before calling __reboot() recovery <atinm> 6 years ago
+4984ad1 : unpackbootimg: turn into a python script <M1cha> 6 months ago
+c5b98b0 : healthd: Fix libhealthd.qcom build <Luca Stefani> 6 months ago
+6a9d3e3 : libsdcard: Add libpackagelistparser as static dependency <Brandon McAnsh> 6 months ago
+a442418 : fix "init: Bring back support for arbitrary chargermode cmdlines" <Luca Stefani> 6 months ago
+7f4b140 : init: vendor_init: Remove duplicated { <Luca Stefani> 6 months ago
+8edce16 : init: Move property_get_bool to c++ <Luca Stefani> 6 months ago
+703348a : mkbootimg: add support for --dt <M1cha> 6 months ago
+52a47e7 : init: Add missing include <Luca Stefani> 6 months ago
+cbbeae2 : healthd: Add DASH charger type <Steve Kondik> 7 months ago
+15886e9 : healthd: Write to blink file to fix LED <Tom Marshall> 8 months ago
+8739666 : debuggerd: add CM version to tombstones <Scott Mertz> 9 months ago
+0559a65 : healthd: Fix NO_CHARGER_LED <Christopher R. Palmer> 10 months ago
+e09c66e : healthd: Allow devices to opt-out of enabling charger LED <Ethan Chen> 10 months ago
+f71e265 : healthd: Rename default QCOM libhealthd library <Ethan Chen> 10 months ago
+51b448c : init: Fix derp in property name for rebooting to charger hook <Christopher R. Palmer> 11 months ago
+d11253f : init: Add a hook to turn a shutdown into a reboot <Christopher R. Palmer> 11 months ago
+e475b98 : init: Add property_get_bool <Christopher R. Palmer> 11 months ago
+1561cba : Add optional target-specific LD_PRELOAD to environment <David Ng> 12 months ago
+5ae57c5 : healthd: use timerfd if dev alarm not exist <Keith Mok> 12 months ago
+076ca9e : fs_mgr: BLKGETSIZE causes memory corruption <Keith Mok> 1 year ago
+ 
+**** vanir:system_extras ****
+b76b440 : extras: Remove su, we have our own <David Marble> 20 hours ago
+668f19a : Switch to BoringSSL for crypto. <Mattias Nissler> 11 months ago
+5289aca : ext4_utils: Fix warning when compiling C++ code <Tom Marshall> 1 year, 2 months ago
+6d392dd : verity: Split the signer arguments correctly <Ricardo Cerqueira> 7 months ago
+4cf4689 : verity: Let the tools ask for a password if needed <Ricardo Cerqueira> 8 months ago
+83e14bc : f2fs_utils: Update for f2fs-tools 1.6.1 <luca020400> 10 months ago
+d5434da : f2fs_utils: Alloc f2fs_journal <luca020400> 10 months ago
+5518593 : Fix memory leak of dirbuf. <Chih-Hung Hsieh> 1 year ago
+e8b756b : fix bug in mkf2fs tool calculation of f2fs filesystem length <lei wang wang> 1 year, 6 months ago
+449782c : bootsignature: includes dt image size for signed boot image <Ankit Gupta> 1 year, 2 months ago
+12af1da : mkimage for OMAP <Koushik Dutta> 6 years ago
+da6232f : f2fs_utils: Add a static libf2fs_sparseblock for minvold <Ricardo Cerqueira> 2 years, 3 months ago
+bc5a34e : ext4_utils: add BoardConfig define to suppress EMMC-corrupting wipe command <David Ferguson> 4 years, 8 months ago
+9c339d7 : Add darwin support for the host tools <Keith Mok> 1 year, 5 months ago
+f7cec4f : extras: remove su, we have our own <Dan Pasanen> 2 years, 3 months ago
+b472be5 : ext4_utils: Yet another MMC discard pain in the ass <Steve Kondik> 3 years, 3 months ago
+410e4a4 : ext4 crypt: enable ICE with FBE encryption <Andrey Markovytch> 4 months ago
+d090620 : Revert "make_ext4fs: write out super blocks at last for block devices". <Lalit Kansara> 7 months ago
+ 
+**** cm:LineageOS/android_system_keymaster ****
+7f2df3c : keymaster: Enable Soter for Android N <Shivaprasad Hongal> 4 months ago
+ 
+**** vanir:system_media ****
+0211728 : audio_route: Add support to set complete byte arrays <Andreas Schneider> 8 days ago
+40a3003 : effects: Add AUDIO_EFFECT_VENDOR_CONFIG_FILE2 <Steve Kondik> 1 year, 1 month ago
+4e5d835 : audio_route: fix unsupported control types in audio_route_update_path <Christian Morlok> 1 year, 3 months ago
+581eee4 : audio: Add helper method for PCM offload formats <Steve Kondik> 1 year, 4 months ago
+4302857 : Fix potential overflow in Visualizer effect <rago> 6 months ago
+4dfef2e : Fix potential overflow in Visualizer effect <rago> 6 months ago
+9b9d8ba : Camera metadata: Check for inconsistent data count <Eino-Ville Talvala> 6 months ago
+fd71fce : Camera: Prevent data size overflow <Chien-Yu Chen> 6 months ago
+ 
+**** vanir:system_netd ****
+2338bab : NetD : Allow passing in interface names for wifi/data app restriction <Danesh M> 12 months ago
+53123e3 : Revert "netd: Trap dns calls" <Steve Kondik> 4 months ago
+500eb87 : SoftapController: Move startSoftap default arg to declaration <Chirayu Desai> 6 months ago
+b03b281 : netd: Don't build the QSAP SDK on Nexii <Steve Kondik> 1 year, 2 months ago
+0f4e969 : Compilation fix: N-MR1 merge. <Lalit Kansara> 2 months ago
+6b48b73 : SoftAp: Try to connect hoastapd on correct interface <Nalla Kartheek> 3 months ago
+b9210a7 : SoftAp: Try to connect hoastapd on correct interface <Nalla Kartheek> 3 months ago
+2f40c43 : SoftAp: Try to connect hoastapd on correct interface <Nalla Kartheek> 4 months ago
+73c406d : Wifi: Fix compilation in case LIBWPA_CLIENT_EXISTS is undefined. <Nalla Kartheek> 5 months ago
+a4c1b66 : Wifi: Fix compilation in case LIBWPA_CLIENT_EXISTS is undefined. <Nalla Kartheek> 5 months ago
+ 
+**** vanir:system_security ****
+d5558cc : keystore: Enable Soter for Android N <Shivaprasad Hongal> 4 months ago
+ 
+**** vanir:system_sepolicy ****
+7c94d69 : Remove duplicate attribute <nuclearmistake> 5 hours ago
+73cda83 : Permit dumpstate to run "ip xfrm policy". <Erik Kline> 5 months ago
+01bfbd8 : domain: Create a dummy domain for qc's rmt and let it access /dev/mem <Ricardo Cerqueira> 2 years, 3 months ago
+a8112fc : fix denials for rootfs:lnk_file <Hashcode> 9 weeks ago
+ab43304 : sepolicy: exclude sdcard_posix/fuseblk from shipping builds <Matthias Yzusqui> 3 months ago
+4504aa3 : Add rules required for TARGET_HAS_LEGACY_CAMERA_HAL1 <LuK1337> 4 months ago
+c7663cd : system: sepolicy: Import fuseblk from vendor/cm <Adrian DC> 3 months ago
+0358881 : sepolicy: allow sdcard access via sdcardfs <Matthias Yzusqui> 4 months ago
+5945b6b : sepolicy: Fix android beam image transfer <Hendrik Hagendorn> 4 months ago
+8cb3c0e : sepolicy: Forward declaration of qti-testscripts domain <Steve Kondik> 4 months ago
+35b06af : sepolicy: Additional userdebug/eng restrictions for 7.1 <Steve Kondik> 4 months ago
+6a3d29c : sepolicy: Allow optional platform text relocations <LuK1337> 5 months ago
+5a3348c : Allow appdomain to read/write files in sdcard_posix <LuK1337> 5 months ago
+770b66f : sepolicy: allow vold to mount ext4 sdcard <Michael Bestas> 2 years, 2 months ago
+bce406f : domain: Restore original neverallow rules for shipping builds <Ricardo Cerqueira> 1 year, 8 months ago
+71396dd : sepolicy: New type sdcard_posix for labeled filesystems <Tom Marshall> 2 years, 2 months ago
+add4f4c : sepolicy: Allow su by apps on userdebug_or_eng <Steve Kondik> 6 months ago
+96f60c2 : sepolicy: Declare QTI attribute <Steve Kondik> 5 months ago
+4dbb696 : sepolicy: We need to declare before referencing <Steve Kondik> 1 year, 4 months ago
+d2ef249 : Compilation fix: N-MR1 merge. <Lalit Kansara> 2 months ago
+fb299e7 : Allow the zygote to stat all files it opens. <Narayan Kamath> 6 months ago
+224fdef : Allow the zygote to stat all files it opens. <Narayan Kamath> 6 months ago
+c06a50d : sepolicy: sepolicy update for qti-test <Swetha Vucha> 5 months ago
+ 
+**** vanir:system_vold ****
+25ea9c3 : vold: Update path to cryptfs_hw <c457> 11 days ago
+ff228f0 : vold: Fix build warning <Steve Kondik> 4 months ago
+71c215b : Switch to BoringSSL crypto. <Mattias Nissler> 11 months ago
+d9bd179 : vold: Don't include cryptfs in minivold <Steve Kondik> 6 months ago
+2ac5953 : vold: Export main function of vdc correctly <Steve Kondik> 6 months ago
+f4fdb80 : vold: Correct base header paths <Rashed Abdel-Tawab> 6 months ago
+885b775 : vold: fs: Fix build errors <Luca Stefani> 6 months ago
+8e05537 : vold: Allow reset after shutdown <Steve Kondik> 7 months ago
+793c54b : vold: Fix tool paths for minivold <Michael Bestas> 1 year, 3 months ago
+8611ccc : vold: skip first disk change when converting MBR to GPT <Scott Mertz> 11 months ago
+e100bc5 : Fix the group permissions of the sdcard root. <Jani Lusikka> 11 months ago
+48984c4 : minivold: Use libblkid for readMetadata <Tom Marshall> 11 months ago
+295ada4 : vold: Mount ext4/f2fs portable storage with sdcard_posix context <Jani Lusikka> 1 year, 1 month ago
+12439de : vold: Honor mount options for f2fs partitions <Michael Bestas> 1 year, 1 month ago
+308273b : Fix mounting ext4 adopted storage <Sam Mortimer> 1 year, 1 month ago
+0115e34 : vold ext4/f2fs: do not use dirsync if we're mounting adopted storage <Sam Mortimer> 1 year, 3 months ago
+036b6ae : cryptfs: Set HW FDE flags when building libvold <myfluxi> 1 year, 1 month ago
+faf0f11 : Also change emulated device id separator from comma to underscore <Sam Mortimer> 1 year, 2 months ago
+6502728 : vold: dont't use commas in device names <morckx> 1 year, 3 months ago
+9087457 : vold: Native NTFS kernel driver support <dhacker29> 1 year, 2 months ago
+c155701 : vold: Fix fsck on public volumes <Michael Bestas> 1 year, 2 months ago
+f38581d : vold: Fix native exfat driver support <Ketut Putu Kumajaya> 1 year, 2 months ago
+6126528 : vold: Native exfat driver support <Ketut Putu Kumajaya> 1 year, 3 months ago
+daac83f : f2fs: Fix kMkfsPath to match location of CM binary <dhacker29> 1 year, 3 months ago
+85e37fd : minivold: Build as static library for linkage into recovery <Tom Marshall> 1 year, 2 months ago
+fc8aef5 : vold: Fix crash on startup <Christopher R. Palmer> 1 year, 3 months ago
+0959fe2 : Don't try to unmount ASEC and FUSE paths in recovery <Tom Marshall> 1 year, 3 months ago
+d46122d : Do not overwrite existing metadata with empty values <Tom Marshall> 1 year, 3 months ago
+fd0f053 : vold: Honor mount options for ext4 partitions <Tom Marshall> 1 year, 3 months ago
+ee2e4ed : vold: Support internal storage partitions <Tom Marshall> 1 year, 3 months ago
+afa8b26 : vold: add support for more filesystems for public storage <Dan Pasanen> 1 year, 4 months ago
+01ca8d0 : vold: minivold for recovery <Tom Marshall> 1 year, 3 months ago
+c8246d9 : vold: Add linkage for fs_mgr changes <Steve Kondik> 1 year, 4 months ago
+f07f78e : cryptfs: fix wrong password set by user during bootup <Brahmaji K> 4 months ago
+ 
+**** cm:LineageOS/android_packages_apps_WundergroundWeatherProvider ****
+2a96249 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_vendor_codeaurora_telephony ****
+db00ef4 : IMS: History Info Extra Key Definition <Omkar Kolangade> 5 months ago
+c7439e0 : IMS-VT: Add API's to Control display of video call related toasts <Suresh Koleti> 5 months ago
+ 
+**** vanir:vendor_huawei ****
+ef99edd : kiwi: disable rfs_access on 8939 <Anik1199> 13 hours ago
+ 
+**** vanir:vendor_motorola ****
+3954a97 : falcon/peregrine: Switch to open source AKM daemon <Gabriele M> 5 hours ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+2276f82 : Revert "oneplus3: add aptX codec support" <dh.harald> 3 hours ago
+050a064 : oneplus3: add aptX codec support <dh-harald> 8 weeks ago
+ 
+**** github:TheMuppets/proprietary_vendor_qcom_binaries ****
+5280d5c : Revert "bluetooth: Add aptX & aptXHD to comfirmed platforms" <Dan Pasanen> 7 hours ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_bluetooth ****
+c42da71 : Automatic translation import <Michael Bestas> 2 years ago
+2856c78 : Disable 'hid' app <LuK1337> 6 months ago
+c744bac : wipower: Only build a4wp if BSP is available <Steve Kondik> 8 months ago
+3e69ee8 : hiddTestApp: disable from launcher <Ankit Gupta> 11 months ago
+b1c5297 : BluetoothExt: Remove unused strings <Michael Bestas> 1 year, 2 months ago
+1d5dea1 : BluetoothExt: Update icon <Michael Bestas> 1 year, 3 months ago
+8279bc7 : BluetoothExt: Clean unknown uses-feature field <AdrianDC> 1 year, 3 months ago
+2029d85 : BluetoothExt: Cleanup CAF strings <Michael Bestas> 2 years, 1 month ago
+1d5f801 : Add Material icon & app label <Michael Bestas> 2 years ago
+19234be : Add makefile guard, this needs proprietary parts now. <Steve Kondik> 2 years, 3 months ago
+71570e4 : Fix for error reported by Static analysis tool <Matadeen Mishra> 3 months ago
+59530cb : Bluetooth: Banned API removed <Umesh Vats> 4 months ago
+01c1ee2 : Bluetooth: Banned API removed <Umesh Vats> 4 months ago
+dd69ffb : DUN: Fix to avoid ANR during stress testing <Nitin Shivpure> 6 months ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_dataservices ****
+f0d6f0e : dataservices: Don't pollute the tree <Steve Kondik> 1 year, 3 months ago
+6ed645b : dataservices: Makefile changes to enable CLANG <Subash Abhinov Kasiviswanathan> 12 months ago
+597482d : datatop: add support to capture ip table stats <Jerome Stanislaus> 12 months ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_dpm ****
+70c2c64 : dpm: Get tcmiface off the boot classpath <Steve Kondik> 1 year, 3 months ago
+e17a0e7 : Enable standard Java Library Linkage. <Sharat Masetty> 11 months ago
+753acbc : Enable JACK support <David Ng> 12 months ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+bffb7e2 : time-services: Add new offset to capture Modem TOD update <Mohit Aggarwal> 10 months ago
+86a2bbd : time-services: Add support for DRM offset <Mohit Aggarwal> 2 years, 3 months ago
+ 
+**** vanir:vendor_vanir ****
+41de560 : Update substratium picker <DHOMD> 3 hours ago
+ 
