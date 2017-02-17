@@ -1,0 +1,123 @@
+
+**** vanir:bootable_recovery_twrp ****
+9cc33c8 : Partition: Remove unused has_data_media variable <Matt Mower> 2 days ago
+0c00571 : GUI: Fix typo in warning message <Matt Mower> 5 days ago
+d821c96 : Symlink file_contexts --> file_contexts.bin <Matt Mower> 2 days ago
+6244806 : Fix bldr msg file open mode when offset specified <Matt Mower> 5 days ago
+ 
+**** vanir:build ****
+b6ca804 : Build hacks <DHOMD> 4 months ago
+11e91d3 : edify: Fix AssertSomeBaseband <Matt Mower> 30 hours ago
+ 
+**** vanir:device_google_marlin ****
+a00e005 : marlin: disable our local telephony extensions <Dan Pasanen> 7 weeks ago
+53d28af : Revert "marlin: specify device-specific recovery updater libs" <DHOMD> 4 weeks ago
+ 
+**** vanir:device_htc_m7-common ****
+1af12fc : m7-common: Switch to new diag USB compositions <Matt Mower> 2 days ago
+893707e : m7-common: Set actual PTP USB PIDs <Matt Mower> 2 days ago
+ 
+**** cm:LineageOS/android_device_htc_m8-common ****
+fa847c0 : sepolicy: Allow init to write in debugfs <Arne Coucheron> 5 weeks ago
+f02dedc : sepolicy: Fix rmt_storage denial <Bruno Martins> 2 days ago
+ 
+**** vanir:device_htc_s4-common ****
+06618cb : s4-common: Align USB compositions with m7 <Matt Mower> 2 days ago
+ 
+**** cm:LineageOS/android_device_lge_g4-common ****
+fca0f69 : Revert "g4: Use hardware disk encryption" <Erwan Leboucher> 25 hours ago
+61aba32 : g4: Use hardware disk encryption <Erwan Leboucher> 3 months ago
+ 
+**** cm:LineageOS/android_device_motorola_athene ****
+af05293 : CMActions: Introduce a toggle to enable/disable ambient display <Alberto97> 2 weeks ago
+ac7381c : CMActions: Remove extraneous style.xml <Alberto97> 2 weeks ago
+083a8b8 : CMActions: Split Activities <Alberto97> 2 weeks ago
+d2874bb : athene: cleanup doze overlay <Vachounet> 22 hours ago
+ed79380 : athene: fix rmt_storage policies <Vachounet> 22 hours ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+63af166 : Otus: Fix FM Radio <DHOMD> 4 weeks ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+81e02e9 : op3: add aptX codec support <dh.harald> 2 days ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+be74082 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 3 months ago
+20d528c : oppo-8974: Allow init to write in debugfs <Arne Coucheron> 5 weeks ago
+59f202a : oppo-8974: sepolicy: rmt_storage needs dac_override <Dan Pasanen> 2 days ago
+ 
+**** vanir:device_qcom_common ****
+445cae6 : Suboptimal way of fixing Pixie builds <DHOMD> 8 weeks ago
+ 
+**** vanir:device_samsung_jf-common ****
+8faaf19 : jf: address some rild denials <Dan Pasanen> 34 hours ago
+ 
+**** vanir:device_samsung_klte-common ****
+22ad6f2 : klte-common: Squahed revert of shared driver repository <Kevin F. Haggerty> 22 hours ago
+14c7887 : klte-common: fix rmt_storage denial <OzzysCmAcc> 2 days ago
+1fd5d95 : klte-common: Add aptx libraries to proprietary files list <Kevin F. Haggerty> 2 days ago
+ 
+**** vanir:frameworks_base ****
+d478262 : Re-add SHOW_SU_INDICATOR setting string <nuclearmistake> 26 hours ago
+321b19d : Reconcile selectively w/ cm and n71-rebase <nuclearmistake> 35 hours ago
+c744102 : Reconcile services <nuclearmistake> 35 hours ago
+a36e064 : reconcile <nuclearmistake> 2 days ago
+ea322a1 : Show infinity for large notification counts <d34d> 4 days ago
+fc18fac : Don't reposition the clock when pulling down the notification bar <Gabriele M> 5 days ago
+de17832 : Automatic translation import <Abhisek Devkota> 6 days ago
+a9dd79b : SystemUI: Use mContext.getDrawable for battery icon <LuK1337> 6 days ago
+dc0c974 : PhoneWindowManager: add mTopFullscreenOpaqueWindowState null check to fix exception <Sam Mortimer> 4 weeks ago
+0934ecd : Fix intermittent slowness in resolver activity towards end of day. <Danny Baumann> 2 weeks ago
+2abed32 : Revert "DO NOT MERGE. Retain DownloadManager Uri grants when clearing." <DHOMD> 10 days ago
+aaa49b2 : Revert "DO NOT MERGE: Check provider access for content changes." <DHOMD> 10 days ago
+dd7a317 : Automatic translation import <Abhisek Devkota> 10 days ago
+7c2b8a3 : SystemUI: Fix the unlock sound played repeatedly <Shufeng Hou> 1 year, 2 months ago
+39087bf : policy: don't allow app switch/recents key to be pressed on lockscreen <Matt Filetto> 1 year, 10 months ago
+96c8347 : Automatic translation import <Abhisek Devkota> 13 days ago
+49fcd68 : SeekBarVolumizer: Disable notification volume if RINGER_MODE_VIBRATE <Danesh M> 1 year, 1 month ago
+604f00c : policy: Long-press power while display is off for torch <beanstown106> 1 year, 1 month ago
+1b73002 : SystemUI: PowerNotification: Add up button to fragment <Zhao Wei Liew> 2 weeks ago
+981e89e : Use STREAM_RING on non-voice capable devices <LuK1337> 2 weeks ago
+4a68f3b : Automatic translation import <Abhisek Devkota> 2 weeks ago
+538137f : PhoneWindowManager: Support multiple key handlers <Zhao Wei Liew> 3 months ago
+486b178 : SystemUI: Never link nofication volume on non-voice capable devices <LuK1337> 3 weeks ago
+20ac2ca : core: more descriptive vendor image mismatch message <Dan Pasanen> 3 weeks ago
+e0c13c8 : Revert "Frameworks: fix living wallpaper exception when reboot" <Sam Mortimer> 3 weeks ago
+d6639cf : Correctly name LID_STATE_CHANGED broadcast <Ethan Chen> 3 weeks ago
+0c0df71 : Automatic translation import <Abhisek Devkota> 3 weeks ago
+33a8a46 : Disable lock screen blur by default <Zhao Wei Liew> 3 weeks ago
+04b2dae : Revert "Add overlay option for Settings.System.ACCELEROMETER_ROTATION_ANGLES" <Zhao Wei Liew> 3 weeks ago
+6b00495 : Fix incorrect FIFO cgroup assignment. <Tim Murray> 8 weeks ago
+7a9053a : Fix window transformation related issue <Qiushi.Han> 4 months ago
+6287815 : Fix a memory leak. <George Burgess IV> 9 weeks ago
+afe0edd : QS - Fix race condition in accessibility <dooyoung.hwang> 8 weeks ago
+4a77672 : Make sure Zygote is running at process priority 0 after VM has started. <Vitalii Tomkiv> 9 months ago
+9fda20d : QS: Fix QuickQS visibility at non-first page <dongwan0605.kim> 6 weeks ago
+5b3cadb : Fix clipping for edit screen of Quick Settings <Akira Oshimi> 9 weeks ago
+02eeda1 : Avoid starving RT anims <John Reck> 3 months ago
+603931d : Allow lid to send a generic COVER_CHANGED broadcast <jrior001> 3 months ago
+2591be6 : Fix clipping for edit screen of Quick Settings <Akira Oshimi> 9 weeks ago
+3b9e5fd : Make sure Zygote is running at process priority 0 after VM has started. <Vitalii Tomkiv> 9 months ago
+f855924 : QS - Fix race condition in accessibility <dooyoung.hwang> 8 weeks ago
+807985e : Fix a memory leak. <George Burgess IV> 9 weeks ago
+0b3cd38 : Fix window transformation related issue <Qiushi.Han> 4 months ago
+c56de41 : Fix incorrect FIFO cgroup assignment. <Tim Murray> 8 weeks ago
+d0f996f : QS: Fix QuickQS visibility at non-first page <dongwan0605.kim> 6 weeks ago
+423b3f3 : Avoid starving RT anims <John Reck> 3 months ago
+3ee3f8a : SystemUI: HotspotTile: Don't reset the number of connected clients <Zhao Wei Liew> 4 weeks ago
+c4093ff : [2/3] Re-introduce custom charging on/off sounds <Sam Mortimer> 3 months ago
+ebd7fff : windowmanager: Add support for blur effects <Steve Kondik> 4 months ago
+f74093d : Revert "PlatLogo: Show lineage platlogo when tapping on LineageOS version" <DHOMD> 4 weeks ago
+ 
+**** vanir:hardware_samsung ****
+8794541 : macloader: Add one more SEMCO3RD half address <Martin Bouchet> 2 days ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+cbbb702 : msm: kgsl: Remove suspicious log output <mh0rst> 10 days ago
+ 
+**** vanir:packages_apps_CMParts ****
+280d420 : CMParts: Add strings for sRGB <dianlujitao> 4 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+dada8d8 : op3: add aptX codec support <dh.harald> 2 days ago
+ 
