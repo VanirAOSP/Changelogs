@@ -1,0 +1,277 @@
+
+**** vanir:bootable_recovery_twrp ****
+9175844 : Add a listxattr tool for listing xattrs <Ethan Yonker> 2 weeks ago
+8d039f7 : libtar: support backing up and restoring new Android user.* xattr <Ethan Yonker> 2 weeks ago
+ 
+**** vanir:build ****
+1a2e0ab : Build hacks <DHOMD> 4 months ago
+c392d92 : dumpvar: Dump RECOVERY_VARIANT if not empty <Paul Keith> 10 days ago
+010ce6f : Add dumpvar for WITH_SU <Abhisek Devkota> 10 days ago
+ 
+**** cm:LineageOS/android_device_cyanogen_msm8916-common ****
+ab5447a : msm8916-common: Allow rmt_storage to use dac_override, net_raw capabilities <LuK1337> 3 days ago
+ 
+**** vanir:device_google_marlin ****
+57fac29 : marlin: disable our local telephony extensions <Dan Pasanen> 7 weeks ago
+a5d4bce : Revert "marlin: specify device-specific recovery updater libs" <DHOMD> 4 weeks ago
+ 
+**** vanir:device_htc_flounder ****
+d55da54 : flounder: add drmservice and facelock properties <razorloves> 5 days ago
+4a1457d : flounder: cleanup inline kernel building <razorloves> 5 days ago
+ 
+**** cm:LineageOS/android_device_htc_pme ****
+f202f21 : pme: Add AptX support <Christopher R. Palmer> 3 days ago
+eb0e826 : pme: audio: Select the right amplifier profile for VOIP + earpiece <Christopher R. Palmer> 2 days ago
+ 
+**** cm:LineageOS/android_device_lge_g4-common ****
+f16bcf0 : g4-common: fix encryption selinux denial <genesixx> 2 days ago
+000c12f : sepolicy: Fix rmt_storage and rfs_access policies <Bruno Martins> 4 days ago
+42dbb92 : g4: Snap: enable support for api 2 <codeworkx> 8 weeks ago
+ 
+**** cm:LineageOS/android_device_motorola_athene ****
+ecb955f : sepolicy : fix rfs_access denial <rahulsnair> 28 hours ago
+52524fb : athene : remove frp prop and fix dev settings crash <rahulsnair> 30 hours ago
+9571a6a : athene: Hide sRGB toggle in developer options <dianlujitao> 33 hours ago
+220e590 : athene: add dac_override capability to rmt_storage <Vachounet> 33 hours ago
+ 
+**** vanir:device_motorola_msm8226-common ****
+eb8e68e : releasetools: Resize /system in case of block based OTA <Gabriele M> 5 days ago
+904f11f : releasetools: Remove unused import and variable <Gabriele M> 5 days ago
+288197f : sepolicy: Fix Bluetooth related denials <Gabriele M> 2 days ago
+ 
+**** vanir:device_motorola_msm8916-common ****
+f878abf : msm8916-common: Disable Factory Reset Protection <rahulsnair> 8 hours ago
+2962725 : msm8916-common: sepolicy: Fix denials after CAF rebase <Alberto97> 8 hours ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+196da3a : Otus: Fix FM Radio <DHOMD> 4 weeks ago
+ 
+**** vanir:device_oneplus_bacon ****
+41445d1 : bacon: fix rmt_storage denial after cafrebase <Joey Rizzoli> 2 days ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+dff37c9 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 3 months ago
+ 
+**** vanir:device_qcom_common ****
+e3f7aad : Suboptimal way of fixing Pixie builds <DHOMD> 8 weeks ago
+ 
+**** vanir:device_qcom_sepolicy ****
+e4fb9ea : Bluetooth: Remove stray characters <Gabriele M> 2 days ago
+ 
+**** vanir:device_samsung_klte-common ****
+5ea0290 : klte-common: Move WiFi NVRAM paths to our own macloader header <OzzysCmAcc> 2 days ago
+ 
+**** vanir:device_xiaomi_cancro ****
+c49df82 : cancro: fix sepolicy after cafrebase <Joey Rizzoli> 2 days ago
+062eaca : cancro: use miui global stable build fingerprint <Joey Rizzoli> 6 days ago
+ 
+**** cm:LineageOS/android_external_e2fsprogs ****
+016c2c7 : e2fsck: Add e2fsck_static <Gabriele M> 5 days ago
+ 
+**** vanir:frameworks_base ****
+1b359e7 : Re-introduce custom charging on/off sounds <Sam Mortimer> 3 months ago
+bf56402 : Automatic translation import <Abhisek Devkota> 2 days ago
+77dd418 : Clean up CAF translations <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_hardware_qcom_fm ****
+d7414fe : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:hardware_samsung ****
+3ac2971 : macloader: Fix default NVRAM param path <Martin Bouchet> 3 days ago
+037d077 : Automatic translation import <Abhisek Devkota> 2 days ago
+dde54c0 : audio: Fix get_snd_device_name() for earpiece <Andreas Schneider> 3 days ago
+130da9f : audio: Cleanup and fix voicecall preparation <Christopher N. Hesse> 3 days ago
+ 
+**** cmold:android_kernel_htc_msm8996 ****
+533eb6c : pme: pci: Remove HTC debugging flags in the Makefile <Christopher R. Palmer> 3 days ago
+c770456 : msm: pcie: change the logging type for dumping PARF registers <Tony Truong> 8 months ago
+91b6761 : msm: pcie: support PCIe MDM9640 with msm-3.18 kernel <Tony Truong> 9 months ago
+cffd558 : msm: pcie: add support to get PCIe port PHY sequence from DT <Tony Truong> 9 months ago
+32e242f : msm: pcie: add support to get PCIe PHY init sequence from DT <Tony Truong> 10 months ago
+f16c476 : msm: pcie: add additional latency for PCIe switch case <Tony Truong> 10 months ago
+711ec31 : msm: pcie: configurable PERST propagation delay <Tony Truong> 11 months ago
+2c64b0a : msm: pcie: change the log type for PCIe Synopsys MSI interrupts <Tony Truong> 12 months ago
+303720a : msm: pcie: enable/disable PCIe AER from debugfs <Tony Truong> 11 months ago
+5850bfe : msm: pcie: correct print/read sequence for interrupt status reg <Tony Truong> 1 year ago
+4e2998d4 : msm: pcie: add support to panic on linkdown <Tony Truong> 1 year, 1 month ago
+cff0acce : msm: pcie: add support to toggle EP wakeirq <Tony Truong> 1 year, 3 months ago
+87d24e7 : msm: pcie: mask the aggregated interrupt status register <Tony Truong> 1 year, 1 month ago
+124bfd5 : msm: pcie: update PCIe PHY clock scheme <Tony Truong> 1 year, 1 month ago
+5290f30 : msm: pcie: update PCIe PHY DUMP sequence for mdmcalifornium <Tony Truong> 1 year, 3 months ago
+366796b : msm: pcie: add support to modify the Cpl timeout for RC <Tony Truong> 1 year, 2 months ago
+fdd1aac : msm: pcie: mask Synopsys MSI for PCIe0 on mdmcalifornium <Tony Truong> 1 year, 3 months ago
+bfb35ef : pme: dts: Import some unused HTC changes <Christopher R. Palmer> 5 days ago
+ 
+**** cmold:android_kernel_lge_g3 ****
+7351d33 : g3: dm-req-crypt: properly close the current device <Hendrik Hagendorn> 3 days ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+4da507d : net: rmnet_data: Change the print format for addresses <guyang> 3 months ago
+cf90257 : lgl22: fix dtb <Greg Wallace> 1 year ago
+75c9774 : lgl22: fix lge touchscreen code <Greg Wallace> 1 year, 2 months ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+87c6fc6 : klte: defconfig: Remove CONFIG_TIMER_STATS <Kevin F. Haggerty> 22 hours ago
+1caee7c : time: Remove CONFIG_TIMER_STATS <Kees Cook> 10 days ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+8a090b9 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_CMParts ****
+a1321a1 : CMParts: Replace variable for setup wizard complete <Paul Keith> 21 hours ago
+42f88dc : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Calendar ****
+2779aa2 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Camera2 ****
+90e6bfb : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_CellBroadcastReceiver ****
+bd333cf : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_CertInstaller ****
+2062efc : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Contacts ****
+794d1a2 : Contacts: Fix quotes <Michael W> 2 days ago
+bb4a291 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+43927a4 : ContactsCommon: Fix derp <Michael W> 2 days ago
+4094368 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_DeskClock ****
+a9eb88b : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Dialer ****
+86242ed : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Email ****
+af5fd12 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_ExactCalculator ****
+d2a6752 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_FlipFlap ****
+aaf85c5 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+987562c : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Gello ****
+dec5cbc : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_KeyChain ****
+25cd354 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_LockClock ****
+dd24750 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_ManagedProvisioning ****
+e3d6ed5 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Messaging ****
+6a0f388 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Nfc ****
+9748287 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_PackageInstaller ****
+6c0e26f : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+f5d7ce4 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Recorder ****
+1b9ae02 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Settings ****
+c0b0c85 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Snap ****
+f098f1a : Snap: CaptureModule: fix preview being invisible on first start <codeworkx> 3 weeks ago
+21bc834 : CaptureModule: Fix UI. <Danny Baumann> 6 weeks ago
+ec6475e : Snap: CaptureModule: re-apply flash setting when disabling manual iso <codeworkx> 8 weeks ago
+f17e127 : Snap: CaptureModule: check if ZSL is supported before using it <codeworkx> 8 weeks ago
+27f8676 : Snap: CaptureModule: enable noise reduction <codeworkx> 3 weeks ago
+5710a02 : Snap: CaptureModule: enable redeye reduction <codeworkx> 3 weeks ago
+b6b13fc : Snap: CaptureModule: enable and fix manual iso control <codeworkx> 3 weeks ago
+ebd135d : Snap: CaptureUI: remove camera2 option <codeworkx> 3 weeks ago
+b8af8f1 : Snap: detect and use Camera2 if available <codeworkx> 3 weeks ago
+198d1f8 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Stk ****
+05fec2e : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Tag ****
+bc4fdb8 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Terminal ****
+476eed2 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+e66a6c4 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_WallpaperPicker ****
+235345a : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_inputmethods_LatinIME ****
+95836eb : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_providers_CalendarProvider ****
+9d234c9 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_providers_CallLogProvider ****
+c09b8a7 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_providers_ContactsProvider ****
+b57ce09 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_providers_DownloadProvider ****
+e3b13c9 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_providers_MediaProvider ****
+8cb59e5 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_providers_TelephonyProvider ****
+4cccef4 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_providers_UserDictionaryProvider ****
+e1a7789 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_resources_devicesettings ****
+b9a3008 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_screensavers_Basic ****
+4e39499 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_screensavers_PhotoTable ****
+f99b33f : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_services_CMAudioService ****
+e953031 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_services_Telecomm ****
+07399be : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_services_Telephony ****
+5163191 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_wallpapers_LivePicker ****
+1717578 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:vendor_cmsdk ****
+797a45a : cmsdk: Deprecate CM_SETUP_WIZARD_COMPLETED <Paul Keith> 21 hours ago
+8f0eb55 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_YahooWeatherProvider ****
+60dd98e : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_WundergroundWeatherProvider ****
+d5ca09b : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_google ****
+1c1b367 : Update camera blobs to NMF26F <Arvin Quilao> 2 months ago
+3477340 : Revert "seed: Use M camera blobs to enable camcorder" <Arvin Quilao> 4 days ago
+ 
