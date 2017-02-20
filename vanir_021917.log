@@ -1,0 +1,165 @@
+
+**** vanir:bootable_recovery_twrp ****
+2dd66f4 : cryptfs: Fix encryption issue due to stack corruption. <nijel8> 19 hours ago
+ 
+**** vanir:build ****
+29ca0db : Build hacks <DHOMD> 4 months ago
+ 
+**** vanir:device_google_marlin ****
+b43daf5 : marlin: disable our local telephony extensions <Dan Pasanen> 7 weeks ago
+29d0ed6 : Revert "marlin: specify device-specific recovery updater libs" <DHOMD> 4 weeks ago
+ 
+**** vanir:device_htc_s4-common ****
+9fb84e5 : s4-common: Update permissions for HDMI SPD nodes <Matt Mower> 8 months ago
+ 
+**** vanir:device_lge_f400 ****
+11f2c47 : f400: update fingerprint and description from 30g <Joonhyuk Song> 2 days ago
+541f875 : f400: use pad instead of misc for recovery commands <Joonhyuk Song> 2 days ago
+ 
+**** cm:LineageOS/android_device_lge_g4-common ****
+bc56e21 : g4: init: service_redefine is no more <codeworkx> 32 hours ago
+74f2d45 : g4: fstab: fix sdcard encryption <codeworkx> 2 hours ago
+e201e48 : g4: use opensource ir hal <codeworkx> 4 days ago
+cba10f4 : g4: fix offmode charging <codeworkx> 3 hours ago
+4c007cf : g4: fix rmt_storage denial <Erwan Leboucher> 3 hours ago
+ 
+**** cm:LineageOS/android_device_lge_h918 ****
+b65fcfc : h918: Use msm8996-common extraction scripts <Matt Filetto> 4 days ago
+f53b904 : h918: actually inherit system.prop <Matt Filetto> 9 hours ago
+32ca582 : h918: define radio access family and remove duplicate overlay <Matt Filetto> 8 days ago
+f23a4c4 : h918: missed a reference to h830 <Matt Filetto> 6 weeks ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+84b1c3b : Otus: Fix FM Radio <DHOMD> 4 weeks ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+dd72c0e : op3: Hide sRGB toggle in developer options <dianlujitao> 3 days ago
+ 
+**** vanir:device_oppo_common ****
+dd71b6f : oppo-common: Replace variable for setup wizard complete <Paul Keith> 2 days ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+f64d55b : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 3 months ago
+ 
+**** vanir:device_qcom_common ****
+441290a : Suboptimal way of fixing Pixie builds <DHOMD> 8 weeks ago
+ 
+**** cm:LineageOS/android_device_samsung_noblelte-common ****
+cd41f1d : noblelte: Use the new NXP audio processing libs <Christopher N. Hesse> 8 hours ago
+84e4236 : noblelte: Update NXP audio processing blobs from N <Christopher N. Hesse> 8 hours ago
+3956ce7 : noblelte: Disable FP HAL for now <Christopher N. Hesse> 8 hours ago
+413eedc : sepolicy: Tackle some denials <Christopher N. Hesse> 2 weeks ago
+e587074 : noblelte: Make room for crypto header in /data <Christopher N. Hesse> 8 hours ago
+821bda4 : noblelte: Add TWRP configs <Christopher N. Hesse> 12 days ago
+b819854 : noblelte: Mount OTA at /misc for boot control block (BCB) <Christopher N. Hesse> 12 days ago
+42dd1b5 : noblelte: Update WideVine blobs from Nougat <Christopher N. Hesse> 12 days ago
+a204bea : noblelte: Update audio header <Christopher N. Hesse> 7 hours ago
+d32ee4d : noblelte: Add PCM voice device for audio HAL <Christopher N. Hesse> 8 hours ago
+4467623 : Revert "noblelte: Add back DSP offload path" <Christopher N. Hesse> 9 hours ago
+ 
+**** vanir:frameworks_base ****
+109de5b : base: instrumentation: fix protected apps intents <Joey Rizzoli> 5 days ago
+ 
+**** vanir:hardware_samsung ****
+dd8a369 : audio: Improve logging in out_set_parameters() <Andreas Schneider> 5 days ago
+49b9dcb : audio: Implement WB_AMR callback correctly <Andreas Schneider> 6 days ago
+ 
+**** cmold:android_kernel_cyanogen_msm8916 ****
+f7f6b56 : perf: Clean up spaces and fix mismerge <Pranav Vashi> 4 weeks ago
+f0fe4c7 : ext4: validate s_first_meta_bg at mount time <Eryu Guan> 3 months ago
+ 
+**** cmold:android_kernel_htc_msm8960 ****
+fd4d69a : jet: Clean up defconfig <Ethan Chen> 4 weeks ago
+ 
+**** cmold:android_kernel_lge_hammerhead ****
+e33068a : BACKPORT: msm: camera: Avoid exposing kernel addresses <Siqi Lin> 4 months ago
+2399c57 : msm: mdss: hide kernel addresses from unprevileged users <Abhijit Kulkarni> 8 months ago
+3940436 : net: ping: Fix stack buffer overflow in ping_common_sendmsg() <Siqi Lin> 4 months ago
+ 
+**** cmold:android_kernel_lge_msm8996 ****
+ae61581 : Revert "DT: update dsi-panel sw47407 commands" <Matt Filetto> 2 weeks ago
+530f46b : elsa: de-commonize panel DTs <Matt Filetto> 14 hours ago
+1407ad4 : dts: sw49407_panel: disable partial update <Matt Filetto> 3 weeks ago
+a2ed7a2 : elsa: disable 2nd screen for now <Matt Filetto> 3 weeks ago
+3644f00 : elsa: update other variant DTs for new bluetooth driver <Matt Filetto> 3 weeks ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+efbc57b : Revert "input: synaptics: s3320: Actually set BTN_TOOL_FINGER keybit" <dianlujitao> 12 hours ago
+2caa44c : ANDROID: sdcardfs: Add missing path_put <Daniel Rosenberg> 3 days ago
+6885fc9 : ANDROID: sdcardfs: Fix incorrect hash <Daniel Rosenberg> 5 days ago
+3fa94a4 : ANDROID: sdcardfs: Switch strcasecmp for internal call <Daniel Rosenberg> 3 weeks ago
+c4e7a8a : ANDROID: sdcardfs: switch to full_name_hash and qstr <Daniel Rosenberg> 3 weeks ago
+d0db670 : ANDROID: sdcardfs: Add GID Derivation to sdcardfs <Daniel Rosenberg> 4 weeks ago
+22e0eb4 : ANDROID: sdcardfs: Remove redundant operation <Daniel Rosenberg> 3 weeks ago
+dbd47e9 : ANDROID: sdcardfs: add support for user permission isolation <Daniel Rosenberg> 4 weeks ago
+b75d08b : ANDROID: sdcardfs: Refactor configfs interface <Daniel Rosenberg> 4 weeks ago
+811caa5 : ANDROID: sdcardfs: Allow non-owners to touch <Daniel Rosenberg> 4 weeks ago
+ 
+**** vanir:platform_manifest ****
+324de76 : Update amami <DHOMD> 47 minutes ago
+8dec70e : Amami <DHOMD> 66 minutes ago
+ 
+**** vanir:packages_apps_CellBroadcastReceiver ****
+af13354 : CellBroadcastReceiver: Fix strings <Michael W> 3 days ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+02b9282 : Themes: Define back arrow tint color for themes <Bryan Owens> 1 year, 2 months ago
+8287180 : Themes: Expose hardcoded contact tile text colors <bgill55> 2 years, 1 month ago
+ 
+**** vanir:packages_apps_Dialer ****
+c473e37 : Themes: InCallUI dialpad digits color <George G> 3 months ago
+91e510e : Themes: Separate background color from text color <Alex Cruz> 10 months ago
+ 
+**** vanir:packages_apps_ExactCalculator ****
+52de819 : Themes: Expose all elevations <Abdulwahab Isam> 5 months ago
+5fb9c66 : Themes: Expose hard coded background in java <Bryan Owens> 1 year, 2 months ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+45cd17c : Themes: Make dialpad seperator line theme-able <Thyrus11> 2 years ago
+ 
+**** cm:LineageOS/android_packages_apps_Recorder ****
+17585c7 : Dismiss notification when corresponding recording is deleted <Gabriele M> 3 days ago
+42faf20 : Fix last recording duration string <Gabriele M> 3 days ago
+ 
+**** vanir:packages_apps_Settings ****
+d9e84da : Set external settings icon tint mode to SRC_ATOP <Ivan Iskandar> 3 weeks ago
+4adf255 : Settings: Expose bluetooth pin confirm dialog text colors <SpiritCroc> 4 weeks ago
+4f4b3b8 : Expose switchbar background color <Ivan Iskandar> 6 weeks ago
+fe84189 : Expose dashboard category padding bottom <Ivan Iskandar> 6 weeks ago
+ac8bd97 : Expose color for external settings icons <Clark Scheff> 8 weeks ago
+8ad6074 : Hide the "show/hide overlays" when no overlay installed <Ivan Iskandar> 10 weeks ago
+0cd5916 : Exclude overlays from the app counter <Ivan Iskandar> 2 months ago
+ea40b89 : OMS7-N: Apps: show/hide Substratum icon overlays [2/2] <Kuba Schenk> 3 months ago
+6b6b9e8 : OMS7-N: Apps: show/hide Substratum overlays [2/2] <George G> 8 months ago
+63634ad : Settings: Expose LinearColorBar default colors <SpiritCroc> 2 months ago
+eb04bde : Settings: Expose storage icon colors <SpiritCroc> 2 months ago
+dad0be1 : Settings: Expose gesture settings switchbar <daveyannihilation> 3 months ago
+7d1ed0e : Settings: Expose storage summary text <George G> 1 year, 4 months ago
+4bff13c : Settings: Expose condition card colors <daveyannihilation> 5 months ago
+cbfb5d5 : Settings: Expose dashboard category and tile color <Ivan Iskandar> 5 months ago
+ 
+**** vanir:vendor_cmsdk ****
+cb1bb04 : Add a proper description for CM_SETUP_WIZARD_COMPLETED deprecation <Zhao Wei Liew> 12 hours ago
+ 
+**** vanir:vendor_htc ****
+dd290d8 : hima-common: Move to trash <scoty755> 3 days ago
+69430b6 : pme: Add AptX support <Christopher R. Palmer> 4 days ago
+ 
+**** vanir:vendor_lge ****
+289afa9 : Revert "g4: switch to common GPU drivers" <genesixx> 3 days ago
+ 
+**** vanir:vendor_motorola ****
+3880c02 : athene : remove slpc hml and motosignature <rahulsnair> 8 hours ago
+9406bef : athene : remove bloats <rahulsnair> 2 days ago
+ 
+**** vanir:vendor_samsung ****
+a6486c5 : noblelte: Update NXP audio processing blobs from N <Christopher N. Hesse> 8 hours ago
+13160a3 : noblelte: Disable FP HAL for now <Christopher N. Hesse> 8 hours ago
+df76dc0 : noblelte: Import Widevine blob from Nougat <Christopher N. Hesse> 8 hours ago
+629963e : noblelte: Hexedit libsec-ril for N <Christopher N. Hesse> 7 days ago
+821f2db : Revert "klte-common: Switch to shared graphics driver repository" <Kevin F. Haggerty> 3 days ago
+f5ae44b : klte-common: Add aptx blobs <Kevin F. Haggerty> 4 days ago
+ 
+**** vanir:vendor_vanir ****
+9d5bcf5 : Tweak substratum kanger more after rebase <DHOMD> 2 hours ago
+ 
