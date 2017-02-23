@@ -43,14 +43,14 @@
   <project name="LineageOS/android_device_motorola_lux" path="device/motorola/lux" revision="88f27cad9c8bf5229563ed4c1d2ddf2611fc8773" upstream="cm-14.1"/>
   <project name="LineageOS/android_device_motorola_maserati" path="device/motorola/maserati" revision="ab285d64d5c3a274a096fcb74f11894761fbdfc8" upstream="cm-14.1"/>
   <project name="LineageOS/android_device_motorola_msm8610-common" path="device/motorola/msm8610-common" revision="a51e7f1ff4165b04cd4386d3ad0976614a4c8991" upstream="cm-14.1"/>
-  <project name="LineageOS/android_device_motorola_otus" path="device/motorola/otus" revision="f58d76263883ebc5583103f1394c02d6d0bd72ee" upstream="cm-14.1"/>
+  <project name="LineageOS/android_device_motorola_otus" path="device/motorola/otus" revision="d96f336d568f18ffef9d22792a08d2a4ef2cb8b4" upstream="cm-14.1"/>
   <project name="LineageOS/android_device_motorola_peregrine" path="device/motorola/peregrine" revision="6022eeba24cbaff269591087d7ecfe220cfe75c7" upstream="cm-14.1"/>
   <project name="LineageOS/android_device_motorola_victara" path="device/motorola/victara" revision="8776390acd1cb235d16212fdce7597a7df63203d" upstream="cm-14.1"/>
   <project name="LineageOS/android_device_oneplus_oneplus3" path="device/oneplus/oneplus3" revision="dd72c0eb055f7a9cfd8fe12ef1091b92982f315c" upstream="cm-14.1"/>
   <project name="LineageOS/android_device_oppo_find7" path="device/oppo/find7" revision="6a87a742ac2cb796bdf16030418753a4a7cc7a1f" upstream="cm-14.1"/>
   <project name="LineageOS/android_device_oppo_find7-common" path="device/oppo/find7-common" revision="69abb23f695d7b1e66b38a96e937d8316fddc9cb" upstream="cm-14.1"/>
   <project name="LineageOS/android_device_oppo_find7s" path="device/oppo/find7s" revision="fe96377ef43ae1eeef460c1d595a6588f8e4d0e1" upstream="cm-14.1"/>
-  <project name="LineageOS/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" revision="20d528c35f19e2b4dec059fd37dd205acba522b3" upstream="cm-14.1"/>
+  <project name="LineageOS/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" revision="33c008907ac0ec229c6e01cac54829101207536e" upstream="cm-14.1"/>
   <project name="LineageOS/android_device_oppo_n3" path="device/oppo/n3" revision="6e4aced8346524f95392783aa5a082eb09efd79e" upstream="cm-14.1"/>
   <project groups="GS3_device" name="LineageOS/android_device_samsung_d2-common" path="device/samsung/d2-common" revision="6ddc5adaa0a6192dcb99eed76932c9c8b1bc3410" upstream="cm-14.1"/>
   <project groups="GS3_device" name="LineageOS/android_device_samsung_d2att" path="device/samsung/d2att" revision="9ea1135c8cc73f92a1f2cce8fa33844df98d9e49" upstream="cm-14.1"/>
@@ -267,7 +267,7 @@
   <project groups="pdk" name="bionic" remote="vanir" revision="e8df81cc0ac96470dfaed2c8cfa41b2795355245" upstream="n71"/>
   <project groups="pdk" name="bootable" remote="vanir" revision="61c0c7fd8b776269a6f88496615e57c3dc4a8a38" upstream="n71"/>
   <project groups="pdk" name="bootable_recovery_twrp" path="bootable/recovery-twrp" remote="vanir" revision="bb1705d5205986e8bba7becc46cc86e623b177a0" upstream="n71"/>
-  <project groups="pdk,tradefed" name="build" remote="vanir" revision="b6afcc1740e297aa3286ac0ea3a15208c7983c31" upstream="n71">
+  <project groups="pdk,tradefed" name="build" remote="vanir" revision="40fc946a3a878abc66256c359bfa27ced49ced8d" upstream="n71">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <copyfile dest="BUILD_COMMAND_README" src="tools/BUILD_COMMAND_README"/>
   </project>
@@ -294,7 +294,7 @@
   <project groups="pdk" name="device/sample" remote="aosp" revision="d2d05dd5bf56e0b3136cbe733da14a479104cda3" upstream="refs/tags/android-7.1.1_r22"/>
   <project name="device_asus_deb" path="device/asus/deb" remote="vanir" revision="6d981a6b740e4b99dd91ea02dde615fcd4e44ff1" upstream="n71"/>
   <project name="device_asus_flo" path="device/asus/flo" remote="vanir" revision="1d79bb77bcb7694ccdd40317f6ab1d939b11feeb" upstream="n71"/>
-  <project name="device_google_marlin" path="device/google/marlin" remote="vanir" revision="635157a4f68d676f9be2d0b628e1f9b69fddb886" upstream="n71"/>
+  <project name="device_google_marlin" path="device/google/marlin" remote="vanir" revision="07baf5acff0d5cfcc0a21bfd245aa21a55186b6e" upstream="n71"/>
   <project name="device_htc_flounder" path="device/htc/flounder" remote="vanir" revision="4711b2b3115350acc8a12cf92082e80c4395fd57" upstream="n71"/>
   <project name="device_htc_m7" path="device/htc/m7" remote="vanir" revision="aefb4b89ea3dd3d7fdb7c9fe24bac52a1d63e6c0" upstream="n71"/>
   <project name="device_htc_m7-common" path="device/htc/m7-common" remote="vanir" revision="5ce11ddad8e56b327e34da7e93e10659c18d7e89" upstream="n71"/>
@@ -328,15 +328,15 @@
   <project name="device_oneplus_bacon" path="device/oneplus/bacon" remote="vanir" revision="41445d19e502ad2c02a75ac6f2194ef48e0adbaa" upstream="n71"/>
   <project name="device_oneplus_onyx" path="device/oneplus/onyx" remote="vanir" revision="647fbad1c38b6e9336916b9a7d182051bec28992" upstream="n71"/>
   <project name="device_oppo_common" path="device/oppo/common" remote="vanir" revision="4963aeb4a77a198ad03d06c4244153e0b7e88f74" upstream="n71"/>
-  <project name="device_qcom_common" path="device/qcom/common" remote="vanir" revision="36a936a010b8b5010ca4497f78105cac99007c3c" upstream="n71"/>
+  <project name="device_qcom_common" path="device/qcom/common" remote="vanir" revision="3c700a271caee09ef083e446f9f6a0fc13ef2743" upstream="n71"/>
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="vanir" revision="4696071844cdc765c418c3f2772c5c16b9a0f31e" upstream="n71"/>
-  <project name="device_samsung_jf-common" path="device/samsung/jf-common" remote="vanir" revision="0877a0b21769c66c412d3038297cca1de1ab4759" upstream="n71"/>
+  <project name="device_samsung_jf-common" path="device/samsung/jf-common" remote="vanir" revision="292aed057a8202361d2d2f841e27809d0a83f350" upstream="n71"/>
   <project name="device_samsung_jfltexx" path="device/samsung/jfltexx" remote="vanir" revision="63471b380a66de96e8c9fb4528f52b174ca9185c" upstream="n71"/>
   <project name="device_samsung_klte" path="device/samsung/klte" remote="vanir" revision="28b88f7e7dc52b57557a411170b0ddbf9f64d8b9" upstream="n71"/>
   <project name="device_samsung_klte-common" path="device/samsung/klte-common" remote="vanir" revision="e8762dd76c5c998c8b6e0714b5fc37f30b264b7c" upstream="n71"/>
   <project name="device_samsung_kltevzw" path="device/samsung/kltevzw" remote="vanir" revision="4a881bdaf75d6076b9cbe3269e2c6d0efa9b1af7" upstream="n71"/>
   <project name="device_samsung_kona-common" path="device/samsung/kona-common" remote="vanir" revision="4817826002a574e572e78b42da9e49bc5a67323f" upstream="n71"/>
-  <project groups="device" name="device_samsung_manta" path="device/samsung/manta" remote="vanir" revision="5cce35c4a4f564f70d1fd9e47d4de094bb140ed1" upstream="n71"/>
+  <project groups="device" name="device_samsung_manta" path="device/samsung/manta" remote="vanir" revision="a0a90fb8759eeb94a5e1a517fd95fbc7e037699b" upstream="n71"/>
   <project groups="mondrianwifi" name="device_samsung_mondrianwifi" path="device/samsung/mondrianwifi" remote="vanir" revision="382b72493866e0bead123ce9c4321e3f264219a5" upstream="n71"/>
   <project name="device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="vanir" revision="48576a8532ac0fb9d4583be1f68b4e0df056a4ca" upstream="n71"/>
   <project groups="device" name="device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="vanir" revision="877956b541339173b62bd40972d909f8f104a7c2" upstream="n71"/>
@@ -401,11 +401,11 @@
   <project groups="pdk-fs" name="packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="vanir" revision="b34b063a51a2cd0ae373a3409c0b0cef96e802a6" upstream="n71"/>
   <project groups="pdk-cw-fs,pdk-fs" name="packages_apps_CertInstaller" path="packages/apps/CertInstaller" remote="vanir" revision="89d51c0f9b42605bbe88a6206b6b0eaa1711fc92" upstream="n71"/>
   <project groups="pdk-fs" name="packages_apps_Contacts" path="packages/apps/Contacts" remote="vanir" revision="fdb7115ce3e0f9069bd7114bf18f2320923551a6" upstream="n71"/>
-  <project groups="pdk-fs" name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="vanir" revision="950e08d4e0f990b6078070bb4c22fcbae23e10b8" upstream="n71"/>
+  <project groups="pdk-fs" name="packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="vanir" revision="a00c2959ef131f580e3548928feb5a7e0cdf9c23" upstream="n71"/>
   <project groups="pdk-fs" name="packages_apps_DeskClock" path="packages/apps/DeskClock" remote="vanir" revision="8e88df53ae5b5f78f713207b26950f61da8c35a4" upstream="n71"/>
-  <project groups="pdk-fs" name="packages_apps_Dialer" path="packages/apps/Dialer" remote="vanir" revision="aa8b85f0c9814c76dbce8dcbafc07bd4a2093d2c" upstream="n71"/>
+  <project groups="pdk-fs" name="packages_apps_Dialer" path="packages/apps/Dialer" remote="vanir" revision="0450d855ff44d20d2a9132f584797f93405be28c" upstream="n71"/>
   <project groups="pdk-fs" name="packages_apps_Email" path="packages/apps/Email" remote="vanir" revision="45504f37daa2786ca1eeb0950b6ddd57ab6b56eb" upstream="n71"/>
-  <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="vanir" revision="136595b245f23487c9d7e323b2a1e55a75c08e84" upstream="n71"/>
+  <project name="packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="vanir" revision="bd4fb251f7fcddb73dafd83a42fa8a3971a83eea" upstream="n71"/>
   <project groups="pdk-fs" name="packages_apps_Gallery2" path="packages/apps/Gallery2" remote="vanir" revision="54251423a830d34bd07537a1b3e583d9429b46bd" upstream="n71"/>
   <project name="packages_apps_IndecentXposure" path="packages/apps/IndecentXposure" remote="vanir" revision="2eb30d0d46409557775a3b76012893db70c0b1f9" upstream="n71"/>
   <project groups="pdk-fs" name="packages_apps_KeyChain" path="packages/apps/KeyChain" remote="vanir" revision="e36f40b2056ef0e9e091a4a25e884d424da5ee70" upstream="n71"/>
@@ -414,7 +414,7 @@
   <project name="packages_apps_Messaging" path="packages/apps/Messaging" remote="vanir" revision="b177722aae0fec59c41bebe0bcac4478adb748ed" upstream="n71"/>
   <project groups="apps_nfc,pdk-fs" name="packages_apps_Nfc" path="packages/apps/Nfc" remote="vanir" revision="6f74a7dd45751abeec2f6ce18be12fe707b6d562" upstream="n71"/>
   <project groups="pdk-fs" name="packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="vanir" revision="3e2b068d87597e42edac8855c420480ecbc175c0" upstream="n71"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="vanir" revision="1584e95182b60357fbdd4de7d75ae1b69bb4219f" upstream="n71"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="vanir" revision="2da3255dab96eb780c12065e979bc83535d8f97a" upstream="n71"/>
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="vanir" revision="1212f151e29565c36da9696a68ae342608d90d5b" upstream="n71"/>
   <project groups="apps_stk,pdk-fs" name="packages_apps_Stk" path="packages/apps/Stk" remote="vanir" revision="d6448d0270d1182fc0ea2e8d09e239934c97aeae" upstream="n71"/>
   <project groups="pdk-fs" name="packages_apps_Tag" path="packages/apps/Tag" remote="vanir" revision="b4e8a2634000032d264acda9a32cff9fabf53233" upstream="n71"/>
