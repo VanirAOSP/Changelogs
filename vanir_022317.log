@@ -1,0 +1,210 @@
+
+**** vanir:bionic ****
+0f6bfb7 : Check for bad packets in getaddrinfo.c's getanswer. <Elliott Hughes> 3 months ago
+ 
+**** cm:LineageOS/android_bootable_recovery ****
+9041a47 : recovery: rebrand for lineage <Asher Simonds> 4 days ago
+ 
+**** vanir:bootable_recovery_twrp ****
+1b3fa22 : logd: add seclabel so that service runs in 7.1 tree builds <Captain Throwback> 2 days ago
+9b4d8dd : Use LOGI/LOGE for non-EVENT_LOGGING events <Matt Mower> 10 days ago
+c0f84e7 : Run language_helper.py from inside languages dir <Matt Mower> 5 days ago
+ff2c6b2 : Update MTP debugging tags <Matt Mower> 9 days ago
+a8e6d83 : Do not unconditionally remove MTP storage on unmount <Matt Mower> 9 days ago
+84830ce : Only change USB mode to mtp when ready for MTP <Matt Mower> 9 days ago
+9ce12ec : build: [FIXUP] Addendum for BusyBox get/setprop & API 24 vs 25 <D. Andrei Măceș> 9 weeks ago
+663ad8e : Fix "ordered comparison between pointer and zero". <MinSeong Kim> 4 months ago
+ 
+**** vanir:build ****
+5ea8c4b : Build hacks <DHOMD> 5 months ago
+45160b1 : build: always copy recovery.img to BOOTABLE_IMAGES. <Flex1911> 2 weeks ago
+72e4bc9 : NOF26W <gitbuildkicker> 6 weeks ago
+e18db36 : NOF26V <gitbuildkicker> 6 weeks ago
+3c17cdf : NOF26U <gitbuildkicker> 9 weeks ago
+e0183ab : Update Security String to 2017-02-05 on nyc-dev <Adam Seaton> 3 months ago
+e789b3b : Update Security String to 2017-02-01 on nyc-dev <Adam Seaton> 3 months ago
+44f3bdf : NOF26T <kuantung> 2 months ago
+ 
+**** vanir:device_google_marlin ****
+4e6935e : marlin: disable our local telephony extensions <Dan Pasanen> 8 weeks ago
+1bc476e : Revert "marlin: specify device-specific recovery updater libs" <DHOMD> 5 weeks ago
+8ca6bce : marlin: audio: Update volume level of volume listener (1007) <jasmine cha> 5 months ago
+f4d0878 : DO NOT MERGE. Remove Spaces in front of APN Types <Naveen Kalla> 3 months ago
+ 
+**** vanir:device_htc_flounder ****
+cd647e3 : Fix security issue in Visualizer effect <rago> 3 months ago
+ 
+**** vanir:device_huawei_angler ****
+f5516d7 : angler: Update blobs lists to add support for Project Fi <Abhisek Devkota> 13 days ago
+ 
+**** vanir:device_motorola_msm8226-common ****
+a41191a : CMActions: Move to Display settings <Gabriele M> 9 hours ago
+ 
+**** vanir:device_motorola_msm8916-common ****
+4ccdcec : Mount debugfs <Cody Ferber> 2 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+4ee7de9 : Otus: Fix FM Radio <DHOMD> 5 weeks ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+a16c509 : op3: Allow users to adjust button brightness <dianlujitao> 23 hours ago
+ 
+**** vanir:device_oneplus_onyx ****
+a495196 : onyx: Address rmt_storage denial <Ashwin Ramesh> 34 hours ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+fd57f13 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 3 months ago
+ 
+**** vanir:device_qcom_common ****
+8f42f84 : Suboptimal way of fixing Pixie builds <DHOMD> 8 weeks ago
+2be2684 : power: Use POWER_HINT_LAUNCH for launch boosts <Zhao Wei Liew> 3 weeks ago
+ 
+**** cm:LineageOS/android_device_samsung_jfltevzw ****
+9426272 : jfltevzw: lineage.mk: Update build fingerprint from GOC1 to GPL1 <Nolen Johnson> 3 days ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+6ee3807 : msm8960: power: Use POWER_HINT_LAUNCH for launch boosts <Zhao Wei Liew> 10 days ago
+ 
+**** vanir:frameworks_av ****
+edc723b : Fix security vulnerability: potential OOB write in audioserver <rago> 3 months ago
+c88e62a : Effect: Use local cached data for Effect commit <Andy Hung> 3 months ago
+ 
+**** vanir:frameworks_base ****
+63ec541 : Fix automatic zen rules. <Danny Baumann> 2 days ago
+4b90cd2 : DocumentsUI: use 'Files' icon and text for icon <Dan Pasanen> 2 days ago
+ef4e77d : Bluetooth: Fix setting app stoped when unpair device <Venkata Jagadeesh Garaga> 4 months ago
+66013c8 : Fix intermittent slowness in resolver activity towards end of day. <Danny Baumann> 3 weeks ago
+751929a : Revert "DO NOT MERGE. Retain DownloadManager Uri grants when clearing." <DHOMD> 2 weeks ago
+b0489c1 : Revert "DO NOT MERGE: Check provider access for content changes." <DHOMD> 2 weeks ago
+87f2d72 : Fix automatic zen rules. <Danny Baumann> 2 days ago
+c639cb6 : Do not write if apply() did not change the file. <Philip P. Moltmann> 2 months ago
+0627670 : Only persist last Shared Preferences state <Philip P. Moltmann> 2 months ago
+70e13cc : [DO NOT MERGE] Fix vulnerability in MemoryIntArray - fix build file <Svet Ganov> 2 months ago
+de5e345 : Fix vulnerability in MemoryIntArray <Svetoslav Ganov> 3 months ago
+36772fc : DO NOT MERGE. Retain DownloadManager Uri grants when clearing. <Jeff Sharkey> 3 months ago
+db57376 : DO NOT MERGE: Check provider access for content changes. <Jeff Sharkey> 3 months ago
+ 
+**** vanir:frameworks_native ****
+31821ff : libEGL: Only enable WORKAROUND_BUG_10194508 with board flag <D. Andrei Măceș> 5 weeks ago
+bfd36c3 : Fix security vulneratibly 31960359 <Fabien Sanglard> 3 months ago
+922ab40 : Fix SF security vulnerability: 32706020 <Fabien Sanglard> 4 months ago
+7c1f953 : Correct overflow check in Parcel resize code <Christopher Tate> 4 months ago
+ 
+**** vanir:hardware_libhardware ****
+a6d7dab : hardware: power: Remove POWER_HINT_LAUNCH_BOOST <Zhao Wei Liew> 3 weeks ago
+8a1906a : Fix security vulnerability: potential OOB write in audioserver <rago> 3 months ago
+ 
+**** cm:LineageOS/android_hardware_qcom_audio ****
+8059aed :     audiopolicy: Update voice concurrency support for 8916 <SoumyaManagoli> 3 weeks ago
+ 
+**** vanir:hardware_qcom_audio ****
+2692d9d : Fix for audio distortion on speaker <rago> 9 weeks ago
+ 
+**** cm:LineageOS/android_hardware_qcom_display ****
+f5fccd5 : hwc: Add src image width and height check in prepare <Baldev Sahu> 2 weeks ago
+b0bf455 : libmemtrack: Fix integer overflow in kgsl function <Archana Sriram> 7 weeks ago
+ 
+**** cm:LineageOS/android_hardware_qcom_media ****
+99eef72 : media-caf msm8974: Fix typo in video decoder error check for debug output <Corinna Vinschen> 34 hours ago
+ 
+**** cm:LineageOS/android_hardware_ti_omap4 ****
+a6fd7f4 : Enable BOARD_EGL_WORKAROUND_BUG_10194508 by default <Ziyan> 1 year, 4 months ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+ecd6f26 : ext4: validate s_first_meta_bg at mount time <Eryu Guan> 3 months ago
+30f21ed : net: ipc_router: fix NULL pointer de-reference issue <Arun Kumar Neelakantam> 5 months ago
+9dba78e : ASoC: msm-lsm-client: free lsm client data in msm_lsm_close <Vidyakumar Athota> 1 year, 2 months ago
+ 
+**** cmold:android_kernel_motorola_msm8916 ****
+829ea28 : ANDROID: sdcardfs: Don't bother deleting freelist <Daniel Rosenberg> 27 hours ago
+9153944 : ANDROID: sdcardfs: Add missing path_put <Daniel Rosenberg> 7 days ago
+ebfdc6a : ANDROID: sdcardfs: Switch strcasecmp for internal call <Daniel Rosenberg> 3 weeks ago
+5d7dae0 : ANDROID: sdcardfs: switch to full_name_hash and qstr <Daniel Rosenberg> 4 weeks ago
+3fc0f13 : ANDROID: sdcardfs: Add GID Derivation to sdcardfs <Daniel Rosenberg> 4 weeks ago
+f69e1d3 : ANDROID: sdcardfs: Remove redundant operation <Daniel Rosenberg> 4 weeks ago
+d4b7250 : ANDROID: sdcardfs: add support for user permission isolation <Daniel Rosenberg> 5 weeks ago
+436ed22 : ANDROID: sdcardfs: Refactor configfs interface <Daniel Rosenberg> 5 weeks ago
+79d4d1b : ANDROID: sdcardfs: Allow non-owners to touch <Daniel Rosenberg> 5 weeks ago
+04dfce7 : wlan: Get debug information when the HAL_START_RSP fails <Arunk Khandavalli> 6 weeks ago
+94bccb1 : wlan: Correct value for bad RSSI in PER based roaming <Kapil Gupta> 3 weeks ago
+15ed5a3 : prima: Avoid overflow of "set_bssid_hotlist" params <Hanumanth Reddy Pothula> 4 weeks ago
+4555193 : wlan: Add support in driver to do sap restart during SSR <Hanumanth Reddy Pothula> 5 weeks ago
+5524456 : prima: Resolve out of bound memory access, while processing setpno <Hanumanth Reddy Pothula> 5 weeks ago
+e089038 : wlan: Add NULL check for tail, probe response and assoc response <c_manjee> 4 weeks ago
+1fdf324 : wlan: Remove the support for iw_set_priv ioctl <SaidiReddy Yenuga> 7 months ago
+b48a316 : wlan: Fix bssid hint logic to keep the AP on head of the list <Abhishek Singh> 4 weeks ago
+8b3befb : wlan: Configure correct max tx power to firmware <Agrawal Ashish> 4 weeks ago
+8299019 : wlan: Allow fastreassoc driver command for connected BSSID <Selvaraj, Sridhar> 5 weeks ago
+b9009bb : prima: Process pno ioctl appropriately <Hanumanth Reddy Pothula> 6 weeks ago
+c77f3b9 : wlan: Prioritize the bssid_hint, if it fails try with other BSS <Abhishek Singh> 7 weeks ago
+cfb2923 : wlan: Use cfg80211_roamed_bss API to indicate the roaming <Abhishek Singh> 3 months ago
+bf1f885 : wlan: Add support for new cfg80211 connect api <Abhishek Singh> 3 months ago
+90f5460 : wlan: Send proper IEs number when sec chan bcn filter is skipped <Abhishek Singh> 7 weeks ago
+ea29bc4 : wlan: Enable DFS channel for a single channel scan <Deepthi Gowri> 4 months ago
+5fce6f9 : wlan: Request FW recovery after three mgmt TX timeout <Sravan Kumar Kairam> 7 weeks ago
+a2fe765 : wlan: Replace time of the day with jiffies during scan reject <Sreelakshmi Konamki> 3 months ago
+b366846 : wlan: Check for config support before sendig carrier off <Kapil Gupta> 8 weeks ago
+c3d407f : wlan: Add configuration option for bad RSSI in PER based roaming <Kapil Gupta> 3 months ago
+1bcee02 : prima: Fix array out-of-bounds & integer underflow in _iw_set_genie <Pothula Hanumantha Reddy> 8 weeks ago
+1198fbb : wlan: Add support for SAP restart in case of lte coex event <Kapil Gupta> 2 months ago
+867acfd : wlan: Remove PTK/GTK debug logs <Sreelakshmi Konamki> 3 months ago
+b77abd0 : wlan: Log IP address of the first Rx packet after wakeup <Sravan Kumar Kairam> 3 months ago
+4fa5ae3 : wlan:Restore DXE power state when InitScanRSp fail <Sravan Kumar Kairam> 1 year, 4 months ago
+9b11d53 : defconfig: Remove CONFIG_TIMER_STATS <Alberto97> 3 days ago
+b57927c : time: Remove CONFIG_TIMER_STATS <Kees Cook> 2 weeks ago
+880b1f1 : ext4: validate s_first_meta_bg at mount time <Eryu Guan> 3 months ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+b630b21 : tmpfs: clear S_ISGID when setting posix ACLs <Gu Zheng> 7 weeks ago
+cbbb516 : ext4: validate s_first_meta_bg at mount time <Eryu Guan> 3 months ago
+2d1b2ec : dccp: fix freeing skb too early for IPV6_RECVPKTINFO <Andrey Konovalov> 7 days ago
+b487ff0 : ANDROID: sdcardfs: Don't bother deleting freelist <Daniel Rosenberg> 27 hours ago
+9ccd349 : removing msm calls to trace_printk <Thierry Strudel> 8 months ago
+38a50dd : input: synaptics: s3320: Don't run baseline after first touch <Sultanxda> 4 months ago
+bc88d58 : input: synaptics: s1302: Clean up PM routines and move them into worker <Sultanxda> 7 months ago
+df21eac : input: synaptics: s3320: Make interrupt handling more robust <Sultanxda> 8 months ago
+ 
+**** vanir:libcore ****
+b065999 : Revert "Remove support for reading mime types from property files." <Dan Pasanen> 35 hours ago
+9430b2e : Fix URL parser may return wrong host name <Yi Kong> 4 months ago
+ 
+**** vanir:platform_manifest ****
+584a470 : derp <nuclearmistake> 14 hours ago
+4a14a21 : derp <nuclearmistake> 14 hours ago
+4b7cb60 : [TEMP] track r21-merged cm repos on invisiblek's github until cm merges the tag <nuclearmistake> 14 hours ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+cbced75 : Remove MANAGE_DOCUMENTS permission as it isn't needed <Ajay Panicker> 3 months ago
+ 
+**** vanir:packages_apps_CMParts ****
+0fe94be : CMParts: Fix email and browser intents <Michael W> 10 days ago
+ 
+**** vanir:packages_apps_Dialer ****
+b00ffce : Use TabLayout for DSDA tabs. <Danny Baumann> 12 days ago
+ 
+**** vanir:packages_apps_LockClock ****
+26ae64d : Build the internal CM SDK as a static library <Zhao Wei Liew> 18 hours ago
+ 
+**** vanir:packages_apps_Messaging ****
+b5ef563 : resolve merge conflicts of eafd58a to nyc-dev <Tom Taylor> 3 months ago
+9879d17 : 32807795  Security Vulnerability - AOSP Messaging App: thirdparty can attach private files from "/data/data/com.android.messaging/" directory to the messaging app. <Tom Taylor> 3 months ago
+47971bc : 32322450 Security Vulnerability - heap buffer overflow in libgiftranscode.so <Tom Taylor> 3 months ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+1de59f7 : Don't allow file attachment from /data through GET_CONTENT. <Ekin Oguz> 3 months ago
+ 
+**** vanir:system_core ****
+8d367d2 : change /data/bugreports to /bugreports <Nick Kralevich> 3 months ago
+ 
+**** vanir:system_sepolicy ****
+ded2ca4 : label /bugreports <Nick Kralevich> 3 months ago
+ 
+**** vanir:vendor_cmsdk ****
+8f33604 : cmsdk: Remove launch boost support <Zhao Wei Liew> 3 weeks ago
+ 
+**** vanir:vendor_vanir ****
+939ac37 : cm: Remove HexoLibre <Paul Keith> 7 hours ago
+2066f89 : build: Pass path into grep instead of using cat <frk> 4 days ago
+f4ba97a : Another round of aptX d802/1+2/libra <DHOMD> 13 hours ago
+a5ad953 : fingerprints <nuclearmistake> 13 hours ago
+ 
