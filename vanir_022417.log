@@ -1,0 +1,75 @@
+
+**** vanir:build ****
+8af8a15 : Build hacks <DHOMD> 5 months ago
+ 
+**** vanir:device_huawei_kiwi ****
+6bc101d : kiwi: Increase min frequency of little cluster <Michael W> 5 hours ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+dd2ac1e : Otus: Fix FM Radio <DHOMD> 5 weeks ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+f070235 : op3: Update sepolicy <dianlujitao> 7 hours ago
+7ffad88 : cnss_diag: Remove the file based logging option <Subhani Shaik> 10 months ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+5748ada : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 3 months ago
+ 
+**** vanir:device_qcom_common ****
+8a9e8f8 : Suboptimal way of fixing Pixie builds <DHOMD> 9 weeks ago
+ 
+**** cmold:android_kernel_cyanogen_msm8916 ****
+97d43ae : time: Remove CONFIG_TIMER_STATS <Kees Cook> 2 weeks ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+dc28ec4 : qcacld-2.0: Update to LA.UM.5.5.r1-03400-8x96.0 <dianlujitao> 30 hours ago
+4ccba75 : Revert "msm: isp: Add support for VFE resolution limit" <dianlujitao> 30 hours ago
+1af0d6b : msm: vidc: Check for sanity of size while mapping buffers <Abdulla Anam> 4 weeks ago
+8567ef3 : mm: cma: check the max limit for cma allocation <Shiraz Hashim> 4 months ago
+2046ec8 : msm: ipa3: Validate IPA and GSI firmwares before loading <Ghanim Fodi> 4 weeks ago
+2ac0054 : input: misc: fix heap overflow issue in hbtp_input.c <Vevek Venkatesan> 9 weeks ago
+7e50889 : msm: camera: avoid race condition while configuring ping pong buffer <Ramesh V> 5 weeks ago
+34c3eeb : soc: qcom: fingerprint: keep QSEE handle in kernel space <Lior Barenboim> 4 months ago
+6154ef0 : QBT1000: check for null pointer before copying command <Lior Barenboim> 4 months ago
+5673cc4 : QBT1000: copy qseecom handle to user when loading/unloading app <Lior Barenboim> 8 months ago
+95076f6 : scsi: ufs: check for err state when polling for doorbell <Venkat Gopalakrishnan> 5 weeks ago
+d5640ac : crypto: ice: Fix NULL pointer exception in ice. <Brahmaji K> 4 months ago
+03e27dd : MMC: core: Check for return value of card init <Vijay Viswanath> 6 weeks ago
+9429e9b : MMC: core: sd: Check for return value of sd_card init <Vijay Viswanath> 4 weeks ago
+aad0070 : msm: kgsl: refcount irq to avoid racing against idle check <Deepak Kumar> 7 weeks ago
+dfbd215 : usb: gadget: Fix ep_flush issue on composition switch <Chandana Kishori Chiluveru> 4 weeks ago
+aa998a3 : qseecom: improve input validatation for qseecom_send_service_cmd <Zhen Kong> 6 weeks ago
+c66fd21 : USB: gadget: midi: Replace snd_card_free with snd_card_free_closed <Manu Gautam> 4 weeks ago
+41aa725 : msm: mdss: fix to handle multi-rect configuration in error cases <Ramakant Singh> 3 months ago
+13b2149 : soc: qcom: pil: Initialize variable to avoid invalid access <Puja Gupta> 3 months ago
+6c41eb7 : soc: qcom: make debugfs support configurable for kryo l2 accessors driver <Kaushal Kumar> 5 weeks ago
+0e59a90 : USB: android: Fix gsmd_setup() error path cleanup on sigkill <Arumuga Durai A> 3 months ago
+c72bac0 : platform: msm: spmi: Fix possible race condition in debugfs <ansharma> 5 weeks ago
+30b85ec : leds: qpnp-flash: Fix possible race condition in debugfs <ansharma> 5 weeks ago
+bc5697f : power: qpnp-fg: Fix possible race condition in FG debugfs <ansharma> 5 weeks ago
+a03cd43 : ecm_ipa: remove redundant code <Gidon Studinski> 5 weeks ago
+52190da : platform: msm: spmi: Add flag to make SPMI debugfs write optional <Fenglin Wu> 5 weeks ago
+d911373 : crypto: msm: check integer overflow on total data len in qcedev.c <Zhen Kong> 5 weeks ago
+fc3c346 : ASoC: msm-lsm-client: cleanup ioctl functions <Bhalchandra Gajare> 2 months ago
+df1985e : seemp: use local stack mem when encoding params <ahmedsh> 7 weeks ago
+d89b150 : Revert "ASoC: wcd_cpe_core: Perform irq cleanup once the bus is up" <Banajit Goswami> 1 year, 2 months ago
+349109a : mfd: wcd9xxx: send down notification to devices before cleaning-up IRQs <Banajit Goswami> 1 year, 2 months ago
+f09a69e : net: rmnet_data: Fix incorrect netlink handling <Conner Huff> 6 weeks ago
+a873a99 : msm: mdss: Fix invalid dma attachment during fb shutdown <Sachin Bhayare> 9 weeks ago
+17b3750 : msm: mdss: Add sanity check for Gamut LUT size <Ping Li> 7 weeks ago
+e22c58e : msm: mdss: Clear compat structures before copying to user <Sravan Kumar D.V.N> 7 weeks ago
+c35a81e : soc: qcom: pil: Fix kernel pointer leak <Puja Gupta> 6 weeks ago
+af03135 : msm: ipa: Prevent multiple header deletion from user space <Ghanim Fodi> 6 weeks ago
+796af26 : ARM: dts: msm: Update APC CPR voltage margins for msm8920 <Tirupathi Reddy> 4 weeks ago
+63a46cf : ASoC: msm: qdsp6v2: Fix out-of-bounds access in put functions <Karthikeyan Mani> 7 weeks ago
+02b1a65 : mfd: wcd9xxx: Add range checking in function wcd9xxx_init_slimslave <Xiaoyu Ye> 9 weeks ago
+5bc15f7 : clk: msm: gcc: Add support for 19.2MHz for MCLK clocks <Odelu Kukatla> 9 weeks ago
+1cf0666 : msm: vidc: Enable WARN_ON based on debug level <Surajit Podder> 5 weeks ago
+02fab88 : usb: replace %p with %pK <Manu Gautam> 4 weeks ago
+56b4fb7 : ASoC: msm: qdsp6v2: DAP: Add check to validate param length <kunleiz> 8 weeks ago
+36719de : ASoC: msm: qdsp6v2: Add range checking in msm_dai_q6_set_channel_map <Xiaoyu Ye> 9 weeks ago
+ede4bb5 : security: switched to stackable model for PFT/PFK module <Andrey Markovytch> 8 weeks ago
+965f76b : drivers: soc: qcom: Add overflow check in ADM driver <Karthik Reddy Katta> 7 weeks ago
+d4800e6 : ASoC: msm: qdsp6v2: DAP: Add check to validate param length <Sharad Sangle> 10 weeks ago
+6c78f46 : USB: gadget: qdss: Fix null pointer dereference <Arumuga Durai A> 6 weeks ago
+ 
