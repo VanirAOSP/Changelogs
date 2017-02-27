@@ -1,0 +1,256 @@
+
+**** vanir:build ****
+4a2cf33 : Build hacks <DHOMD> 5 months ago
+48ea3a4 : build: copy recovery.img to BOOTABLE_IMAGES only when it's actually used <Flex1911> 3 days ago
+ 
+**** vanir:device_google_marlin ****
+c462cbd : marlin: disable our local telephony extensions <Dan Pasanen> 8 weeks ago
+6359df2 : Revert "marlin: specify device-specific recovery updater libs" <DHOMD> 5 weeks ago
+ 
+**** cm:LineageOS/android_device_motorola_athene ****
+df1dcda : sepolicy : fix encryption denial <rahulsnair> 2 days ago
+ 
+**** cm:LineageOS/android_device_motorola_msm8610-common ****
+24ceb6d : sepolicy: define context for MMC RPMB <Sultan Qasim Khan> 3 hours ago
+d06f73e : sepolicy: Add dac_override capability to rmt_storage <Gabriele M> 11 days ago
+ 
+**** vanir:device_motorola_msm8916-common ****
+de3f59e : init: disable rfs_access on 8939 <Sahitya Tummala> 7 months ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+42605a4 : Otus: Fix FM Radio <DHOMD> 5 weeks ago
+cb5171d : otus: Disable Factory Reset Protection <rahulsnair> 9 days ago
+ 
+**** github:Grarak/android_device_oneplus_oneplus2 ****
+d9ca41d : Correct double tap node <Willi Ye> 11 hours ago
+01eab51 : oneplus2: doze: Protect com.android.systemui.doze.pulse <Gabriele M> 8 weeks ago
+4703fc9 : oneplus2: doze: Set different timings for wave and pocket detection <Michael W> 8 weeks ago
+0056df0 : oneplus2: doze: Cleanup <Michael W> 8 weeks ago
+c6f77b3 : oneplus2: Switch to the CMHW touchscreen gestures implementation <Michael Bestas> 3 months ago
+c9dc866 : oneplus2: Add seclabel to bluetooth related services <luca020400> 3 months ago
+e8af11e : Add blur blob <Willi Ye> 35 hours ago
+ee7cf39 : Revert "Use shared graphic blobs" <Willi Ye> 2 days ago
+284940f : Set initial copyright year <Willi Ye> 34 hours ago
+213cd0b : oneplus2: Hide sRGB toggle in developer options <dianlujitao> 11 days ago
+7c0d927 : sepolicy: Address denials <Willi Ye> 35 hours ago
+3a7dc77 : oneplus2: Re-enable blur <Seraph08> 4 weeks ago
+cedbf1d : oneplus2: Don't vibrate for T2W <Ashwin Ramesh> 4 weeks ago
+ 
+**** vanir:device_oppo_common ****
+d0e080d : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+0e68955 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 3 months ago
+ 
+**** vanir:device_qcom_common ****
+8f585d3 : Suboptimal way of fixing Pixie builds <DHOMD> 9 weeks ago
+ 
+**** vanir:device_samsung_klte-common ****
+e347df7 : klte-common: make swap working as it should <OzzysCmAcc> 17 hours ago
+1a6fed4 : klte-common: no need to fail enabling all cpu <OzzysCmAcc> 10 days ago
+8f7265e : klte-common: move ril prop to system_prop <OzzysCmAcc> 3 weeks ago
+ 
+**** vanir:device_samsung_kona-common ****
+55227aa : kona : n5120 : selinux update <RGIB> 9 hours ago
+ 
+**** cm:LineageOS/android_device_samsung_noblelte-common ****
+219ae3a : noblelte: Import CMActions gesture controls from moto 8226 <Christopher N. Hesse> 27 hours ago
+b31a1f7 : noblelte: Use BFQ iosched by default <Christopher N. Hesse> 2 days ago
+317a423 : noblelte: Blob out libcamerametadata <Christopher N. Hesse> 2 days ago
+d38faa6 : noblelte: Declare incall NS capabilities <Christopher N. Hesse> 2 days ago
+ac651c0 : noblelte: Enable auto screen brightness by default <Christopher N. Hesse> 2 days ago
+e828479 : noblelte: Add missing routes for audio HAL <Christopher N. Hesse> 2 days ago
+2e9fa45 : noblelte: Decommonize audio HAL config <Christopher N. Hesse> 2 days ago
+ 
+**** vanir:device_xiaomi_libra ****
+9bf7567 : update fingerprint firmware <AndropaX> 15 hours ago
+d91eab8 : remove camerawrapper <AndropaX> 16 hours ago
+ 
+**** cm:LineageOS/android_device_yu_tomato ****
+e342867 : tomato: Fix Proximity Calibration <shrukul> 34 hours ago
+ 
+**** vanir:frameworks_base ****
+0cdc56c : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_hardware_qcom_audio ****
+727d95e : hal: Update active input stream for Voip when voip input started <kunleiz> 2 years, 6 months ago
+51d45fa : audio: acquire lock for compress voip close input/output stream <Divya Narayanan Poojary> 12 months ago
+fb55c27 : audiopolicy: update correct device for primary output when FM resumed <Zhou Song> 8 months ago
+ 
+**** cm:LineageOS/android_hardware_qcom_display ****
+5e179af : Revert "gralloc: Add a switch to use 16 byte pixel alignment" <Ethan Chen> 3 hours ago
+aca704d : libqservice: Avoid writting Descriptor twice while parcelling <Baldev Sahu> 1 year, 1 month ago
+0c3c156 : hwc: Filter out interlace format from edid string <Baldev Kumar Sahu> 1 year, 1 month ago
+115fb41 : hwc: Use display_defs.h <Arun Kumar K.R> 1 year, 2 months ago
+5d152ca : gralloc: Use adreno_utils api for NV21 and NV12 alignment <Sushil Chauhan> 1 year, 6 months ago
+ 
+**** cm:LineageOS/android_hardware_qcom_media ****
+2f2be71 : mm-core: Fix compilation issue to erratic string constant <Amit Shekhar> 1 year, 6 months ago
+ff895a3 : mm-video-v4l2: handle flush done as buffer_done and not as cmd_done <Ashray Kulkarni> 1 year, 8 months ago
+ce14015 : mm-video-v4l2: vidc: validate omx param/config data <Sanjay Singh> 10 months ago
+1286a50 : mm-video-v4l2: vdec: add safety checks for freeing buffers <Praveen Chavan> 11 months ago
+1d61f7b : mm-video-v4l2: venc: add safety checks for freeing buffers <Praveen Chavan> 11 months ago
+e396622 : mm-video-v4l2: vdec: deprecate unused config OMX_IndexVendorVideoExtraData <Praveen Chavan> 11 months ago
+5b2cece : mm-video-v4l2: Handle async_message_thread error <Arun Menon> 1 year, 4 months ago
+ 
+**** cmold:android_kernel_htc_msm8996 ****
+e2266d5 : cpuidle: don't disable cpuidle when entering suspend <Tim Murray> 5 months ago
+d517033 : pme: Regenerate defconfig after caf merge <Christopher R. Palmer> 2 days ago
+ 
+**** cmold:android_kernel_huawei_kiwi ****
+824cf00 : dccp: fix freeing skb too early for IPV6_RECVPKTINFO <Andrey Konovalov> 2 days ago
+4499cc1 : sctp: avoid BUG_ON on sctp_wait_for_sndbuf <Marcelo Ricardo Leitner> 2 days ago
+1af3556 : time: Remove CONFIG_TIMER_STATS <Kees Cook> 3 weeks ago
+9642348 : ANDROID: sdcardfs: support direct-IO (DIO) operations <Daniel Rosenberg> 2 days ago
+a4e771a : ANDROID: sdcardfs: implement vm_ops->page_mkwrite <Daniel Rosenberg> 2 days ago
+94cc0b3 : Revert "sdcardfs: Flag files as non-mappable" <Michael W> 15 hours ago
+2b65446 : ANDROID: sdcardfs: Don't bother deleting freelist <Daniel Rosenberg> 4 days ago
+90ed325 : ANDROID: sdcardfs: Add missing path_put <Daniel Rosenberg> 10 days ago
+047c45d : ANDROID: sdcardfs: Fix incorrect hash <Daniel Rosenberg> 4 days ago
+361bc2e : ANDROID: sdcardfs: Switch strcasecmp for internal call <Daniel Rosenberg> 4 days ago
+8c19165 : ANDROID: sdcardfs: switch to full_name_hash and qstr <Daniel Rosenberg> 4 days ago
+0329f13 : ANDROID: sdcardfs: Add GID Derivation to sdcardfs <Daniel Rosenberg> 4 days ago
+6c18673 : ANDROID: sdcardfs: Remove redundant operation <Daniel Rosenberg> 4 days ago
+522ee02 : ANDROID: sdcardfs: add support for user permission isolation <Daniel Rosenberg> 4 days ago
+7bc7415f : ANDROID: sdcardfs: Refactor configfs interface <Daniel Rosenberg> 5 weeks ago
+fd201c6 : ANDROID: sdcardfs: Allow non-owners to touch <Daniel Rosenberg> 5 weeks ago
+ 
+**** cmold:android_kernel_lge_msm8992 ****
+f8a8ec0 : msm8992: add h901 support <erwan> 10 hours ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+33044f8 : prima: Avoid overflow of "significant change" params <Jeff Johnson> 3 months ago
+9d805ec : prima: Avoid overflow of "set_bssid_hotlist" params <Hanumanth Reddy Pothula> 4 weeks ago
+4c16388 : dccp: fix freeing skb too early for IPV6_RECVPKTINFO <Andrey Konovalov> 10 days ago
+bae103c : perf/core: Fix concurrent sys_perf_event_open() vs. 'move_group' race <Peter Zijlstra> 7 weeks ago
+85b4e59 : sctp: avoid BUG_ON on sctp_wait_for_sndbuf <Marcelo Ricardo Leitner> 3 weeks ago
+6fba7ff : defconfig: Regenerate moto8226 defconfigs <Gabriele M> 2 days ago
+79e0039 : time: Remove CONFIG_TIMER_STATS <Kees Cook> 3 weeks ago
+ 
+**** cmold:android_kernel_motorola_msm8610 ****
+29824b9 : prima: Avoid overflow of "significant change" params <Jeff Johnson> 3 months ago
+e3bc1a8 : prima: Avoid overflow of "set_bssid_hotlist" params <Hanumanth Reddy Pothula> 4 weeks ago
+c4019bb : dccp: fix freeing skb too early for IPV6_RECVPKTINFO <Andrey Konovalov> 10 days ago
+ca9d75b : perf/core: Fix concurrent sys_perf_event_open() vs. 'move_group' race <Peter Zijlstra> 7 weeks ago
+c22c512 : sctp: avoid BUG_ON on sctp_wait_for_sndbuf <Marcelo Ricardo Leitner> 3 weeks ago
+81e3e0d : defconfig: moto8610: remove CONFIG_TIMER_STATS <Sultan Qasim Khan> 5 hours ago
+8d48903 : time: Remove CONFIG_TIMER_STATS <Kees Cook> 3 weeks ago
+6ccdce9 : misc: lis3dh_mot: Remove delay upper limit <Gabriele M> 3 weeks ago
+405acc2 : msm: kgsl: Change %p to %pK in debug messages <Divya Ponnusamy> 6 months ago
+2493bff : ext4: validate s_first_meta_bg at mount time <Eryu Guan> 3 months ago
+abd7ad9 : defconfig: moto8610: Enable CONFIG_INET_DIAG_DESTROY <Gabriele M> 3 weeks ago
+5d1f69d : net: diag: support v4mapped sockets in inet_diag_find_one_icsk() <Eric Dumazet> 1 year, 1 month ago
+53a7212 : net: tcp: deal with listen sockets properly in tcp_abort. <Lorenzo Colitti> 1 year, 2 months ago
+76f67c9 : net: diag: Support destroying TCP sockets. <Lorenzo Colitti> 1 year, 2 months ago
+7e92efb : net: diag: Support SOCK_DESTROY for inet sockets. <Lorenzo Colitti> 1 year, 2 months ago
+db01cf8 : net: diag: split inet_diag_dump_one_icsk into two <Lorenzo Colitti> 1 year, 2 months ago
+8cec58c : net: diag: Check user namespace when destroying socket <Gabriele M> 3 weeks ago
+bb24287 : userns: make each net (net_ns) belong to a user_ns <Eric W. Biederman> 4 years, 9 months ago
+fe5295b : netns: Deduplicate and fix copy_net_ns when !CONFIG_NET_NS <Eric W. Biederman> 4 years, 9 months ago
+481755b : BACKPORT: aio: mark AIO pseudo-fs noexec <Nick Desaulniers> 3 months ago
+507fb23 : qseecom: remove entry from qseecom_registered_app_list <Mallikarjuna Reddy Amireddy> 3 months ago
+f12a76d : msm: crypto: Fix integer over flow check in qcedev driver <Zhen Kong> 7 months ago
+b7214cd : remove extra definitions of U32_MAX <Alex Elder> 3 years, 1 month ago
+5eecd1a : kernel.h: define u8, s8, u32, etc. limits <Alex Elder> 3 years, 1 month ago
+88d23ba : conditionally define U32_MAX <Alex Elder> 3 years, 1 month ago
+168b598 : qseecom: validate the inputs of __qseecom_send_modfd_resp <Zhen Kong> 7 months ago
+75ad248 : soc: qcom: smp2p: Fix kernel address leak <Karthikeyan Ramasubramanian> 6 months ago
+758740f : net: ipc_router: fix NULL pointer de-reference issue <Arun Kumar Neelakantam> 5 months ago
+d5093ef : mmc: block: Remove stray character <Gabriele M> 3 months ago
+231def6 : ipv4, fib: pass LOOPBACK_IFINDEX instead of 0 to flowi4_iif <Cong Wang> 2 years, 10 months ago
+9dd42e8 : ipv6: clean up anycast when an interface is destroyed <Sabrina Dubroca> 2 years, 6 months ago
+892a4c6 : netfilter: xt_rpfilter: skip locally generated broadcast/multicast, too <Florian Westphal> 3 years, 10 months ago
+92ad65b : net: Loopback ifindex is constant now <Pavel Emelyanov> 4 years, 7 months ago
+f1427e3 : ipv4: Change flowi4_oif and flowi4_iif in ipmr_rt_fib_lookup() <Gabriele M> 3 weeks ago
+219837b : net: Make ifindex generation per-net namespace <Pavel Emelyanov> 4 years, 7 months ago
+969dfdb : veth: Allow to create peer link with given ifindex <Pavel Emelyanov> 4 years, 7 months ago
+4b8e7df : net: Allow to create links with given ifindex <Pavel Emelyanov> 4 years, 7 months ago
+46c81a3 : net: Dont use ifindices in hash fns <Pavel Emelyanov> 4 years, 7 months ago
+470a8e4 : msm: kgsl: fix sync file error handling <Jeremy Gebben> 2 years ago
+1e6c434 : ring-buffer: Prevent overflow of size in ring_buffer_resize() <Steven Rostedt (Red Hat)> 10 months ago
+457f369 : ASoC: msm: set pointers to NULL after kfree <Walter Yang> 7 months ago
+742abae : ALSA: Remove transfer_ack_{begin,end} callbacks from struct snd_pcm_runtime <Lars-Peter Clausen> 1 year, 4 months ago
+e721aa65 : splice: introduce FMODE_SPLICE_READ and FMODE_SPLICE_WRITE <Johannes Thumshirn> 3 months ago
+add7e1a : BACKPORT: perf: Fix event->ctx locking <Ariel Yin> 5 months ago
+3ddab76 : BACKPORT: lockdep: Silence warning if CONFIG_LOCKDEP isn't set <Paul Bolle> 4 years, 1 month ago
+70c9606 : BACKPORT: perf: Introduce perf_pmu_migrate_context() <Yan, Zheng> 4 years, 8 months ago
+6b99e3f : BACKPORT: perf: Allow the PMU driver to choose the CPU on which to install events <Yan, Zheng> 4 years, 8 months ago
+ 
+**** github:Grarak/android_kernel_oneplus_msm8994 ****
+ce63604 : input: synaptics: Enable all gestures <Willi Ye> 23 hours ago
+ 
+**** github:AndropaX/android_kernel_xiaomi_msm8992 ****
+c241220 : Update power from Demon000 <Carlos Solano> 3 weeks ago
+ 
+**** vanir:platform_manifest ****
+e2d65dd : Revert "[TEMP] track r21-merged cm repos on invisiblek's github until cm merges the tag" <DHOMD> 10 hours ago
+ 
+**** vanir:packages_apps_CMParts ****
+dea46f0 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_CellBroadcastReceiver ****
+346b2a3 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Contacts ****
+2fa12d7 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+361996c : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Dialer ****
+d7fbcfc : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_FlipFlap ****
+aa04fce : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Gello ****
+dea8419 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+921e5c5 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Recorder ****
+7a11f99 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Settings ****
+fdc7f94 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Snap ****
+774797c : Focus only when tapping the preview <Gabriele M> 8 days ago
+32d2eda : Allow to re-open Snap from recent menu <Gabriele M> 8 days ago
+0467f54 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_resources_devicesettings ****
+587aaa1 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_services_Telephony ****
+119c51f : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9 ****
+a5d7d4b : Add missing symlink for stripper to the kernel toolchain <Alex Naidis> 6 months ago
+ 
+**** cm:LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9 ****
+991bc74 : Add missing symlink for stripper to the kernel toolchain <Alex Naidis> 6 months ago
+ 
+**** cm:LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9 ****
+815e56d : Add missing symlink for stripper to the kernel toolchain <Alex Naidis> 5 months ago
+ 
+**** cm:LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9 ****
+7280ce2 : Add missing symlink for stripper to the kernel toolchain <Alex Naidis> 6 months ago
+ 
+**** cm:LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9 ****
+48ef1e6 : Add missing -androidkernel-readelf symlink <Kevin F. Haggerty> 5 months ago
+ 
+**** cm:LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9 ****
+b3acfc1 : Add missing symlink for stripper to the kernel toolchain <Alex Naidis> 5 months ago
+ 
+**** vanir:vendor_cmsdk ****
+d9c544a : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:vendor_samsung ****
+9bcc880 : noblelte: Blob out libcamera_metadata <Christopher N. Hesse> 27 hours ago
+974ac0e : nobleltetmo: Remove prebuilt audio HAL <Christopher N. Hesse> 2 days ago
+ 
+**** vanir:vendor_vanir ****
+1d684b0 : Fingerprinted <DHOMD> 10 hours ago
+ 
