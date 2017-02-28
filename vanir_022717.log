@@ -1,0 +1,123 @@
+
+**** vanir:build ****
+50bed19 : Build hacks <DHOMD> 5 months ago
+ 
+**** vanir:device_google_marlin ****
+3294f0d : marlin: disable our local telephony extensions <Dan Pasanen> 9 weeks ago
+27cab19 : Revert "marlin: specify device-specific recovery updater libs" <DHOMD> 6 weeks ago
+ba38594 : marlin: build com.android.ims.rcsmanager <Dan Pasanen> 7 weeks ago
+f81d751 : marlin: add CNEService for IMS <Dan Pasanen> 2 hours ago
+ 
+**** cm:LineageOS/android_device_lge_d852 ****
+88ae2d5 : d852: use pad for recovery commands <Brian J. Murrell> 10 hours ago
+ 
+**** cm:LineageOS/android_device_motorola_athene ****
+ebb04b7 : cnss_diag: Remove the file based logging option <Subhani Shaik> 10 months ago
+7f64aeb : Mount debugfs <Cody Ferber> 6 days ago
+e54d18b : Remove writes to non-existent IPv6 nodes <fluxi> 8 months ago
+ 
+**** cm:LineageOS/android_device_motorola_msm8610-common ****
+8e0d801 : msm8610-common: clean up audio targets <Sultan Qasim Khan> 22 hours ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+1203d4a : Otus: Fix FM Radio <DHOMD> 6 weeks ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+2aabaa8 : Revert "op3: add aptX codec support" <Scott Warner> 10 hours ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+15bea7a : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 3 months ago
+ 
+**** vanir:device_qcom_common ****
+7dc6893 : Suboptimal way of fixing Pixie builds <DHOMD> 9 weeks ago
+ 
+**** vanir:device_samsung_kona-common ****
+5ed48b5 : kona : n5120 : selinux update <RGIB> 9 hours ago
+ 
+**** vanir:device_xiaomi_armani ****
+88b95fa : sepolicy: Address rmt_storage denial <fefifofum> 13 hours ago
+ 
+**** vanir:device_xiaomi_cancro ****
+58dd017 : Revert "cancro: add shared blobs" <Joey Rizzoli> 15 hours ago
+ 
+**** vanir:device_xiaomi_libra ****
+da5d7c2 : move to open source consumerir HAL <M1cha> 8 weeks ago
+ 
+**** vanir:device_yu_lettuce ****
+d019958 : lettuce: Fix a typo on baseband version <Louis Popi> 3 days ago
+ 
+**** vanir:frameworks_opt_net_wifi ****
+59c3951 : Revert "Wifi: provide runtime logging option in WifiP2pService" <Luca Stefani> 14 hours ago
+1cfcdc1 : WiFi: Fix possible NPE <Michael W> 16 hours ago
+ 
+**** cm:LineageOS/android_hardware_qcom_audio ****
+45552c3 : hal: Remove duplicated HFP if branch (mismerge) <Hendrik Hagendorn> 3 weeks ago
+c3b3810 : hal: Update active input stream for Voip when voip input started <kunleiz> 2 years, 6 months ago
+894e49c : Fix potential overflow in Visualizer effect <rago> 6 months ago
+9e1be9d : DO NOT MERGE Fix AudioEffect reply overflow <Andy Hung> 10 months ago
+98180cc : audio: acquire lock for compress voip close input/output stream <Divya Narayanan Poojary> 12 months ago
+ 
+**** cmold:android_kernel_cyanogen_msm8916 ****
+aa94bc0 : staging: prima: Update to LA.BR.1.2.9_rb1.12 <Michael Bestas> 2 days ago
+10db3df : BACKPORT: aio: mark AIO pseudo-fs noexec <Nick Desaulniers> 3 months ago
+4e0de20 : fs/proc/array.c: make safe access to group_leader <Adrian Salido> 3 months ago
+8c08acaf : mm: cma: check the max limit for cma allocation <Shiraz Hashim> 4 months ago
+0f70cc0 : msm: ADSPRPC: Check for buffer overflow condition <Sathish Ambley> 5 weeks ago
+2f1b1a7 : platform: msm: spmi: Fix possible race condition in debugfs <ansharma> 3 weeks ago
+b8c0aad : power: qpnp-fg: Fix possible race condition in FG debugfs <ansharma> 3 weeks ago
+fae1d56 : msm-core: use get_user() API to read userspace data/settings <Mohammed Khajapasha> 8 months ago
+58a0d46 : msm: ipa: Prevent multiple header deletion from user space <Ghanim Fodi> 6 weeks ago
+fb65b24 : input: misc: fix heap overflow issue in hbtp_input.c <Vevek Venkatesan> 10 weeks ago
+65511f0 : ecm_ipa: remove redundant code <Gidon Studinski> 5 weeks ago
+ba93c6d : KEYS: Fix short sprintf buffer in /proc/keys show function <David Howells> 4 months ago
+a842ca9 : qseecom: improve input validatation for qseecom_send_service_cmd <Zhen Kong> 7 weeks ago
+06fab6f : net: rmnet_data: Fix incorrect netlink handling <Conner Huff> 5 weeks ago
+062e07c : spmi: Add flag to make SPMI debugfs write optional <Fenglin Wu> 6 weeks ago
+6fc04ce : crypto: msm: check integer overflow on total data len in qcedev.c <Zhen Kong> 6 weeks ago
+c0fb4db : ASoC: msm: qdsp6v2: DAP: Add check to validate param length <Sharad Sangle> 2 months ago
+1f72a59 : mfd: wcd9xxx: Add range checking in function wcd9xxx_init_slimslave <Xiaoyu Ye> 10 weeks ago
+9226c09 : msm: ADSPRPC: Buffer length to be copied is truncated <Sathish Ambley> 3 months ago
+35ac8a0 : security: switched to stackable model for PFT/PFK module <Andrey Markovytch> 5 weeks ago
+e05c6f4 : ASoC: msm: qdsp6v2: Fix an incorrect string comparison logic <Xiaoyu Ye> 3 months ago
+fc98aee : ASoC: msm: q6dspv2: use correct variable type to store ION buff size <Banajit Goswami> 4 months ago
+47e4af3 : drivers: soc: qcom: Add overflow check in ADM driver <Karthik Reddy Katta> 8 weeks ago
+e6a07e1 : ASoC: msm: qdsp6v2: Add range checking in msm_dai_q6_set_channel_map <Xiaoyu Ye> 2 months ago
+c7c794d : ASoC: qdsp6v2: prevent null pointer dereference for _vol_cmds <Xiaojun Sang> 3 months ago
+115bf9d : ion: Fix use after free during ION_IOC_ALLOC <Daniel Rosenberg> 4 months ago
+74ac777 : msm: vidc: WARN_ON() reveals fuction addresses <Sanjay Singh> 3 months ago
+fe549f7 : ASoC: msm-cpe-lsm: cleanup ioctl functions <Walter Yang> 10 weeks ago
+ 
+**** github:AndropaX/android_kernel_xiaomi_msm8992 ****
+c9363bc : uapi: export lirc.h header <Mauro Carvalho Chehab> 8 months ago
+6a4c0a0 : [media] lirc.h: remove several unused ioctls <Mauro Carvalho Chehab> 8 months ago
+d653d6e : [media] bz#75751: Move internal header file lirc.h to uapi/ <Alec Leamas> 1 year, 4 months ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+d484cab : Automatic translation import <Abhisek Devkota> 3 days ago
+f355923 : Automatic translation import <Abhisek Devkota> 4 days ago
+ 
+**** vanir:packages_apps_CMParts ****
+4677ce6 : CMParts: activate nfc trigger for system profiles <Maxim Becker> 3 weeks ago
+ 
+**** vanir:packages_apps_Calendar ****
+4a2393e : Automatic translation import <Abhisek Devkota> 3 days ago
+9fcf496 : Automatic translation import <Abhisek Devkota> 4 days ago
+ 
+**** vanir:packages_apps_Settings ****
+8632164 : Remove dupped Build date <Derek> 25 minutes ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+0cc8895 : Revert "op3: add aptX codec support" <Scott> 10 hours ago
+e30ea1d : oneplus2: Stop using shared grahpic blobs <Willi Ye> 3 days ago
+56879f9 : oneplus2: Import OnePlus2Oxygen_14_OTA_027_all_1612271635 <Willi Ye> 8 weeks ago
+ 
+**** vanir:vendor_vanir ****
+ddff3cd : M8 aptx <DHOMD> 23 minutes ago
+d82198a : backuptool: Preserve the SELinux context of the files <Gabriele M> 11 hours ago
+ef442b6 : backuptool: Don't rely on the order of the elements in the list <Gabriele M> 29 hours ago
+c6d2281 : backuptool: Preserve symlinks <Gabriele M> 2 days ago
+abd8866 : Use releasekey instead of platform for extra recovery keys <Tom Powell> 3 weeks ago
+ 
+**** vanir:vendor_xiaomi ****
+e9f7af3 : cancro: update adreno blobs <Joey Rizzoli> 16 hours ago
+ 
