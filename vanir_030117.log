@@ -1,0 +1,233 @@
+
+**** vanir:bootable_recovery_twrp ****
+cc19c6f : ADBBU: Cleanup string usage/namespace <Matt Mower> 7 days ago
+ddb63e2 : Timeout for decrypt <Ethan Yonker> 6 weeks ago
+a9dd9f0 : gui: preserve order of gui_print vs gui_msg <that> 6 days ago
+c42cb2e : languages: update chinese translation <kaneawk> 31 hours ago
+9bb12a6 : Update Hungarian localization <Wechy77> 4 days ago
+d1afb52 : twrpDigest: don't crash when zip.md5 file is empty <that> 6 days ago
+ 
+**** vanir:build ****
+bee9c10 : Build hacks <DHOMD> 5 months ago
+ 
+**** vanir:development ****
+132f0a9 : Switch from SHA-1 to SHA-256 for new signing key certs. <Alex Klyubin> 1 year ago
+ 
+**** vanir:device_google_marlin ****
+9f38485 : marlin: disable our local telephony extensions <Dan Pasanen> 9 weeks ago
+ 
+**** vanir:device_lge_g3-common ****
+400f805 : g3: enable init.target.rc <Dave Daynard> 2 days ago
+c84c7fc : g3: Remove RIL shim <Hendrik Hagendorn> 2 days ago
+75ff414 : g3: remove common ril class <Dan Pasanen> 3 months ago
+ 
+**** vanir:device_lge_vs985 ****
+4204387 : Revert "vs985: add 24B back as a valid baseband" <Dave Daynard> 2 days ago
+a59bc9f : Set config_switch_phone_on_voice_reg_state_change to false. <Seth Shelnutt> 5 weeks ago
+d024cfc : ril_shim: add hack for callling RIL_onRequestAck <5x> 3 months ago
+0752af3 : vs985: move RIL and shim down to device <Dave Daynard> 2 days ago
+ 
+**** cm:LineageOS/android_device_motorola_athene ****
+90c9901 : Don't hold a wakelock during offload playback <Gabriele M> 3 days ago
+ 
+**** vanir:device_motorola_falcon ****
+2a742c1 : overlay: Bring back the minimum brightness level <Gabriele M> 34 hours ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+9467b7f : Otus: Fix FM Radio <DHOMD> 6 weeks ago
+ 
+**** cm:LineageOS/android_device_motorola_peregrine ****
+7dccb51 : overlay: Bring back the minimum brightness level <Gabriele M> 34 hours ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+70280c0 : oneplus3: Clean RIL headers <Ashwin Ramesh> 2 days ago
+ 
+**** vanir:device_oneplus_onyx ****
+b8f02cd : onyx: Switch to ham perf blobs <Ashwin Ramesh> 2 days ago
+2f442ae : onyx: ril: Nuke local fork of libril <Ashwin Ramesh> 3 days ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+12b17c1 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 3 months ago
+d821069 : Set INITIAL_COPYRIGHT_YEAR <Michael Bestas> 8 hours ago
+8811c2c : msm8974: Align WCNSS_qcom_cfg.ini with LA.BF.1.1.3_rb1.15 <Michael Bestas> 4 days ago
+ 
+**** vanir:device_qcom_common ****
+2cb4c80 : Suboptimal way of fixing Pixie builds <DHOMD> 9 weeks ago
+ 
+**** cm:LineageOS/android_device_samsung_d2-common ****
+9b345e5 : d2: Add back initlogo.rle <Paul Keith> 24 hours ago
+ 
+**** vanir:device_samsung_jf-common ****
+5e468fc : jf: camera bringup for N <ItsOnlyBinary> 7 weeks ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+149a584 : msm8960: Build tinymix <Paul Keith> 2 days ago
+7a46deb : msm8960: Remove TARGET_NO_INITLOGO <Paul Keith> 2 days ago
+0fe41db : msm8960: Stop dex preopting <Paul Keith> 2 days ago
+ 
+**** vanir:device_xiaomi_armani ****
+9e1e1ac : armani: Disable HumanInteractionClassifier <Gabriele M> 7 days ago
+ 
+**** vanir:frameworks_base ****
+9da666a : Allow 0.75 animation <DHOMD> 30 hours ago
+ce5bd94 : Disable quick pulldown by default <Gabriele M> 4 days ago
+ 
+**** cm:LineageOS/android_hardware_qcom_audio ****
+91d32b4 : hal: limit ADM sample rate at 48kHz for speaker <Ramjee Singh> 3 weeks ago
+57633bb : Fix security vulnerability: Effect command might allow negative indexes <rago> 4 months ago
+776cda1 : Fix security vulnerability: Equalizer command might allow negative indexes <rago> 4 months ago
+b9308d9 : audiopolicy: do not set FM volume during device connection/disconnection <Satya Krishna Pindiproli> 1 year ago
+ 
+**** cm:LineageOS/android_hardware_qcom_audio ****
+610f5f5 : Revert "visualizer: do not apply calibration on audio routed to afe proxy" <Michael Sky> 4 weeks ago
+ 
+**** cm:LineageOS/android_hardware_qcom_display ****
+2e2f18a : gralloc: Add a switch to use 16 byte pixel alignment <Skrilax_CZ> 1 year, 1 month ago
+ 
+**** cm:LineageOS/android_hardware_qcom_display ****
+7e152c6 : libmemtrack: Fix integer overflow in kgsl function <Archana Sriram> 8 weeks ago
+ 
+**** cm:LineageOS/android_hardware_qcom_media ****
+be8de43 : mm-video: venc: Expose OMX_QTIIndexParamIframeSizeType <Deepak Kushwah> 3 months ago
+ 
+**** cmold:android_kernel_cyanogen_msm8916 ****
+5ab6e24 : BACKPORT: tcp: avoid infinite loop in tcp_splice_read() <Eric Dumazet> 4 weeks ago
+8bc11fa : perf/core: Fix concurrent sys_perf_event_open() vs. 'move_group' race <Peter Zijlstra> 7 weeks ago
+066f852 : sctp: avoid BUG_ON on sctp_wait_for_sndbuf <Marcelo Ricardo Leitner> 3 weeks ago
+fecd14a : ipc/shm: Fix shmat mmap nil-page protection <Davidlohr Bueso> 3 weeks ago
+ 
+**** cmold:android_kernel_htc_msm8952 ****
+5f8dd29 : msm: kgsl: Add multiple GPU speed fuse read support <Hareesh Gundu> 5 months ago
+9b22268 : msm: kgsl: Fix incomplete IB2 dump in the snapshot <Hareesh Gundu> 8 weeks ago
+801e63d : msm: kgsl: Increase GPU fault detection threshold value <Archana Sriram> 8 weeks ago
+bddb76a : msm: kgsl: Add support to read the efuse register <Hareesh Gundu> 10 months ago
+f8baec3 : msm: mdss: Fix possible integer overflow <Sravan Kumar D.V.N> 6 weeks ago
+6cf276d : msm: mdss: Fix potential deferencing of null pointer <Sachin Bhayare> 3 months ago
+21fba27 : msm: vidc: Allow clients to suggest I-frame sizes <Deepak Kushwah> 4 months ago
+c932c30 : msm: vidc: WARN_ON() reveals fuction addresses <Sanjay Singh> 3 months ago
+ 
+**** cmold:android_kernel_htc_msm8960 ****
+b34e47b : net/unix: sk_socket can disappear when state is unlocked <Mark Salyzyn> 1 year, 9 months ago
+27631e0 : BACKPORT: signal: allow to send any siginfo to itself <Andrey Vagin> 4 years ago
+4d4c693 : Set the iif for IPv6 packets as well. <Lorenzo Colitti> 2 years ago
+d805fa9 : net: tcp: fix rtable leak in tcp_is_local[6] <liping.zhang> 1 year ago
+06f8bc0 : net: diag: support v4mapped sockets in inet_diag_find_one_icsk() <Eric Dumazet> 1 year, 1 month ago
+af955d9 : net: tcp: deal with listen sockets properly in tcp_abort. <Lorenzo Colitti> 1 year, 2 months ago
+c8096dd : net: diag: Support destroying TCP sockets. <Lorenzo Colitti> 1 year, 3 months ago
+c7222a2 : net: diag: Support SOCK_DESTROY for inet sockets. <Lorenzo Colitti> 1 year, 3 months ago
+d90ec5a : net: diag: split inet_diag_dump_one_icsk into two <Lorenzo Colitti> 1 year, 3 months ago
+a0c0d4a : rfkill: prevent unnecessary event generation <Vitaly Wool> 4 years, 6 months ago
+ 
+**** cmold:lge-kernel-mako ****
+f12528c : dccp: fix freeing skb too early for IPV6_RECVPKTINFO <Andrey Konovalov> 13 days ago
+ 
+**** cmold:android_kernel_oppo_msm8974 ****
+4b5695d : msm: camera: Remove obsolete OPPO changes <Michael Bestas> 4 days ago
+2d92e61 : ppp: Fix kernel panic on disconnect due to CAF mis-merge <Sultanxda> 10 days ago
+f993755 : staging: prima: Update to LA.BF.1.1.3_rb1.15 <Michael Bestas> 3 days ago
+edccade : time: Remove CONFIG_TIMER_STATS <Kees Cook> 3 weeks ago
+ff8164e : BACKPORT: aio: mark AIO pseudo-fs noexec <Nick Desaulniers> 3 months ago
+6efa0d2 : ext4: validate s_first_meta_bg at mount time <Eryu Guan> 3 months ago
+887123d : drivers: soc: add size checks and update log messages <Siena Richard> 5 months ago
+66bdd79 : qseecom: remove entry from qseecom_registered_app_list <Mallikarjuna Reddy Amireddy> 3 months ago
+3466478 : msm: crypto: Fix integer over flow check in qce driver <Zhen Kong> 4 months ago
+804e9ca : spmi: prevent showing the address of spmidev <Abhijeet Dharmapurikar> 9 months ago
+8242064 : Revert "spmi: prevent showing the address of spmidev" <Bharat Pawar> 4 weeks ago
+1e9325f : ALSA: timer: Fix leak in events via snd_timer_user_tinterrupt <Kangjie Lu> 10 months ago
+0d582ec : ALSA: timer: Fix leak in events via snd_timer_user_ccallback <Kangjie Lu> 10 months ago
+07c0212 : msm: camera: ispif: Add missing mutex usage in ioctl <VijayaKumar T M> 4 months ago
+e3f3311 : [PATCH] arm: fix handling of F_OFD_... in oabi_fcntl64() <Al Viro> 1 year, 2 months ago
+a3c5b67 : ALSA: timer: Fix leak in SNDRV_TIMER_IOCTL_PARAMS <Kangjie Lu> 10 months ago
+ca442c2 : ANDROID: binder: Clear binder and cookie when setting handle in flat binder struct <Arve Hjønnevåg> 7 months ago
+f1d2f51 : netfilter: x_tables: validate e->target_offset early <Florian Westphal> 11 months ago
+91d0765 : netfilter: x_tables: make sure e->next_offset covers remaining blob size <Florian Westphal> 11 months ago
+6874131 : UPSTREAM: block: fix use-after-free in seq file <Vegard Nossum> 7 months ago
+9d0cd63 : tcp: fix use after free in tcp_xmit_retransmit_queue() <Eric Dumazet> 7 months ago
+33582d7 : qcrypto: protect potential integer overflow. <Neeraj Soni> 3 months ago
+ac87168 : ASoC: wcd9xxx: Fix unprotected userspace access <Patrick Daly> 1 year, 9 months ago
+b8d54cc : block: fix use-after-free in sys_ioprio_get() <Omar Sandoval> 8 months ago
+531e0ae : HID: core: prevent out-of-bound readings <Benjamin Tissoires> 1 year, 1 month ago
+a9366e0 : ALSA: timer: Fix race among timer ioctls <Takashi Iwai> 1 year, 2 months ago
+91ec8cc : pipe: iovec: Fix memory corruption when retrying atomic copy as non-atomic <Ben Hutchings> 1 year, 9 months ago
+789835b : ALSA: seq: Fix race at timer setup and close <Takashi Iwai> 1 year, 2 months ago
+951440d : ASoC: msm: initialize the params array before using it <Walter Yang> 6 months ago
+7ab3f84 : binder: prevent kptr leak by using %pK format specifier <Nick Desaulniers> 7 months ago
+dfff3fc : tty: Fix unsafe ldisc reference via ioctl(TIOCGETD) <Peter Hurley> 1 year, 2 months ago
+c216a1c : USB: usbfs: fix potential infoleak in devio <Kangjie Lu> 8 months ago
+ac90dc4 : USB: fix invalid memory access in hub_activate() <Alan Stern> 1 year, 2 months ago
+ab6ff8b : ppp: take reference on channels netns <Guillaume Nault> 11 months ago
+1b03354 : netfilter: x_tables: fix unconditional helper <Florian Westphal> 11 months ago
+85b891e : msm: dma_test: Initialize newly allocated memory <Srinivasarao P> 7 months ago
+2e83081 : spmi: prevent showing the address of spmidev <Abhijeet Dharmapurikar> 9 months ago
+af99b4f : msm: sensor: Avoid potential stack overflow <VijayaKumar T M> 5 months ago
+55158d2 : Input: synaptics: check input, prevent sysfs races <Andrew Chant> 6 months ago
+e940acc : msm: kgsl: fix sync file error handling <Jeremy Gebben> 2 years ago
+6192d9c : input: synaptics: Add checks of user input data <chengengjia> 7 months ago
+ad4184d : msm: camera: restructure data handling to be more robust <VijayaKumar T M> 3 months ago
+28179d9 : msm: camera: cpp: Add validation for v4l2 ioctl arguments <VijayaKumar T M> 3 months ago
+af482a2 : msm: camera: Restructure data handling to be more robust <VijayaKumar T M> 4 months ago
+2f8543b : msm: vidc: use %pK instead of %p which respects kptr_restrict sysctl <Sanjay Singh> 7 months ago
+305ac7b : net: Fix use after free in the recvmmsg exit path <Arnaldo Carvalho de Melo> 12 months ago
+961c763 : msm: crypto: Fix integer over flow check in qcrypto driver <Zhen Kong> 7 months ago
+ce53882 : msm: smp2p2: Fix kernel address leak <Chris Lew> 6 months ago
+ad84ae0 : msm: kgsl: Change %p to %pK in debug messages <Divya Ponnusamy> 6 months ago
+bc29bd5 : drivers: soc: Add buffer overflow check for svc send request <Josh Kirsch> 10 months ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+c01c8f0 : AVRCP: Add null pointer check <Gabriele M> 13 days ago
+ 
+**** vanir:packages_apps_CMParts ****
+13d143f : Disable quick pulldown by default <Gabriele M> 4 days ago
+ 
+**** vanir:packages_apps_Contacts ****
+42e238d : Contacts: Fix strings <Michael W> 2 days ago
+ 
+**** vanir:packages_apps_Settings ****
+9a71a95 : Remove another dupped setting <Derek> 2 days ago
+ 
+**** vanir:system_bt ****
+e17d286 : Revert "BT: Modified logging framework for unified logging" <Arne Coucheron> 9 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_google ****
+77b4294 : marlin: add CNEService for IMS <Dan Pasanen> 2 days ago
+ 
+**** cm:LineageOS/android_vendor_nxp-nfc_opensource_Nfc ****
+f4a041b : Revert "NFC: Changes to support NQ3XX chipsets" <Rohit Rangwani> 9 weeks ago
+35625f9 : Revert "NFC: Dynamic config selection based on NQ chip" <Rohit Rangwani> 9 weeks ago
+20b6796 : NFC_NCIHALx_ARFC.7.1.0_N_OpnSrc <nxpandroid> 3 months ago
+5d64ce9 : NFC_NCIHALx_ARFC.7.1.0_N_OpnSrc <nxpandroid> 3 months ago
+41310d7 : NFC: Dynamic config selection based on NQ chip <Gaurav Singhal> 4 months ago
+d923386 : NFC: Fix NQ330 eSE communication issue <Rohit Rangwani> 5 months ago
+89128c4 : NFC: Changes to support NQ3XX chipsets <Rohit Rangwani> 4 months ago
+9fb94cc : NFC: Avoid use of deprecated function 'strncpy' <Gaurav Singhal> 4 months ago
+bcd8a8f : NFC_NCIHALx_AR3C.4.8.0_M_OpnSrc <nxpandroid> 5 months ago
+ 
+**** cm:LineageOS/android_vendor_nxp-nfc_opensource_frameworks ****
+3f18c67 : NFC: Update frameworks to 7.1.0_N <Rohit Rangwani> 3 months ago
+ 
+**** cm:LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci ****
+a5995c7 : Revert "NFC: Changes to support NQ3XX chipsets" <Rohit Rangwani> 9 weeks ago
+66fcc2f : Revert "NFC: Dynamic config selection based on NQ chip" <Rohit Rangwani> 9 weeks ago
+8aa8974 : NFC: Integrate constants and hal modification <Rohit Rangwani> 3 months ago
+f51169b : Delete README.md~ <nxpandroid> 3 months ago
+4cccac0 : NFC_NCIHALx_ARFC.7.1.0_N_OpnSrc <nxpandroid> 3 months ago
+0d95455 : SEAccessKit_AR7.0.3_OpnSrc <nxpandroid> 3 months ago
+3649259 : SEAccessKit_AR7.0.3_OpnSrc <nxpandroid> 3 months ago
+f514f2f : NFC_NCIHALx_ARFC.7.1.0_N_OpnSrc <nxpandroid> 3 months ago
+7a82383 : NFC_NCIHALx_ARFC.7.1.0_N_OpnSrc <nxpandroid> 3 months ago
+70cccc7 : NFC_NCIHALx_ARFC.7.1.0_N_OpnSrc <nxpandroid> 3 months ago
+ab9e456 : NFC: Dynamic config selection based on NQ chip <Gaurav Singhal> 4 months ago
+99cb562 : NFC: Fix NQ330 eSE communication issue <Rohit Rangwani> 5 months ago
+be0dd33 : NFC: Changes to support NQ3XX chipsets <Rohit Rangwani> 4 months ago
+c0fe654 : NFC: Avoid use of deprecated function 'strncpy' <Gaurav Singhal> 4 months ago
+7d7cc5a : SEAccessKit_AR3.6.0_OpnSrc <nxpandroid> 5 months ago
+c5eead1 : NFC_NCIHALx_AR3C.4.8.0_M_OpnSrc <nxpandroid> 5 months ago
+7ba1bb5 : NFC: Enable log for NQ3xx chipsets <Rohit Rangwani> 5 months ago
+9612104 : NFC_NCIHALx_ARC0.7.0.4_N_OpnSrc <nxpandroid> 6 months ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+9b13cf4 : onyx: Switch to ham perf blobs <Ashwin Ramesh> 2 days ago
+ 
+**** vanir:vendor_vanir ****
+cfd0929 : Disable quick pulldown by default <Gabriele M> 3 days ago
+ 
