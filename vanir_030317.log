@@ -1,0 +1,515 @@
+
+**** cm:LineageOS/android_bootable_recovery ****
+c82175b : Fix "ordered comparison between pointer and zero". <MinSeong Kim> 4 months ago
+ 
+**** vanir:build ****
+e1c530b : Build hacks <DHOMD> 5 months ago
+ 
+**** cm:LineageOS/android_device_cyanogen_msm8916-common ****
+2df6e2c : msm8916-common: Enable core_ctl <Louis Popi> 12 days ago
+884a19b : msm8916-common: Use CAF Memory configuration script <Louis Popi> 12 days ago
+ec425a6 : msm8916-common: Commonize WCNSS_qcom_cfg.ini accross platforms <Louis Popi> 8 days ago
+c68a516 : msm8916-common: Always ship ssr script <Louis Popi> 9 days ago
+ 
+**** cm:LineageOS/android_device_htc_m8-common ****
+aa18f13 : m8-common: Import graphics blobs <Bruno Martins> 22 hours ago
+ 
+**** vanir:device_lge_v20-common ****
+3ad2e7c : v20: set screen resolution <Matt Filetto> 10 hours ago
+ 
+**** vanir:device_moto_shamu ****
+2ada9ec : shamu: Simplify powerHAL <Zhao Wei Liew> 2 months ago
+ 
+**** cm:LineageOS/android_device_motorola_clark ****
+3f40014 : clark: fully regenerate audio_platform_info.xml <Dan Pasanen> 2 days ago
+97fbf40 : clark: pull in adreno libs <Dan Pasanen> 29 hours ago
+ 
+**** vanir:device_motorola_falcon ****
+ffc4c47 : Revert "Disable block based OTAs" <Gabriele M> 34 hours ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+8c38620 : Otus: Fix FM Radio <DHOMD> 6 weeks ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+baf86cc : op3: Import adreno blobs <dianlujitao> 2 weeks ago
+ 
+**** vanir:device_oppo_common ****
+55b410d : Automatic translation import <Michael W> 30 hours ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+2fb219d : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 3 months ago
+ 
+**** vanir:device_qcom_common ****
+98608ae : Suboptimal way of fixing Pixie builds <DHOMD> 10 weeks ago
+b8c4151 : Reconcile <nuclearmistake> 23 hours ago
+e16dea2 : common: remove extractors <Dan Pasanen> 31 hours ago
+ 
+**** vanir:device_samsung_jf-common ****
+10ed2e0 : jf: pull in adreno libs <Dan Pasanen> 29 hours ago
+ 
+**** cm:LineageOS/android_device_samsung_noblelte-common ****
+494d74a : noblelte: Update configs from N920CXXU3CQB5 <Christopher N. Hesse> 30 hours ago
+c0b7243 : RIL: Cleanup wideband handling <Christopher N. Hesse> 2 days ago
+9d8faf6 : SlteRIL: Cap cdma/evdo DBMs <Christopher N. Hesse> 2 days ago
+a51738f : RIL: Implement Samsung unsol responses 11011/11012 <Christopher N. Hesse> 2 days ago
+25b35b0 : noblelte: Update blobs from N920CXXU3CQB5 <Christopher N. Hesse> 5 days ago
+7fd2636 : noblelte: chmod -x CMActions <Christopher N. Hesse> 30 hours ago
+ 
+**** cm:LineageOS/android_device_samsung_nobleltetmo ****
+4913d74 : Rename dependencies <Christopher N. Hesse> 34 hours ago
+a5f6f76 : nobleltetmo: Update BT patchfile name <Christopher N. Hesse> 5 days ago
+33987a3 : nobleltetmo: Import audience routes header <Christopher N. Hesse> 6 days ago
+11cb040 : nobleltetmo: Enforce wideband audio config for calls <Christopher N. Hesse> 6 days ago
+3d47c44 : nobleltetmo: Get rid of prebuilt audio driver <Christopher N. Hesse> 6 days ago
+555bd8b : nobleltetmo: Enable Audience EarSmart support <Christopher N. Hesse> 7 days ago
+dd7d6b6 : nobleltetmo: Import audio HAL config header <Christopher N. Hesse> 7 days ago
+ 
+**** vanir:device_yu_lettuce ****
+17ddc4f : lettuce: Pin boot oat and services dex from /data <Sam Mortimer> 9 weeks ago
+cbcc8f1 : lettuce: Add Pinner configuration <Philip Cuadra> 10 months ago
+4864891 : lettuce: Allow emergency calls on sim2 <Louis Popi> 8 days ago
+5211fe7 : lettuce: Import Adreno blobs <Louis Popi> 29 hours ago
+ae9d5f6 : lettuce: Use common memory script <Louis Popi> 12 days ago
+7fa60f2 : lettuce: Use commonized WCNSS config <Louis Popi> 8 days ago
+78ac47e : lettuce: Use bin/netmgrd from ASUS stock rom <LuK1337> 3 days ago
+ 
+**** cm:LineageOS/android_device_yu_tomato ****
+3349f71 : tomato: Add 32-bits adreno blobs <Louis Popi> 7 hours ago
+1dc0fb2 : tomato: Pin boot oat and services dex from /data <Sam Mortimer> 9 weeks ago
+6634b22 : tomato: Add Pinner configuration <Philip Cuadra> 10 months ago
+df95e2a : tomato: Allow emergency calls on sim2 <Louis Popi> 8 days ago
+1b6f982 : tomato: SIM2 can be LTE too <Roman Birg> 8 days ago
+d73358b : tomato: Import Adreno blobs <Louis Popi> 29 hours ago
+e0bb248 : tomato: Use commonized WCNSS config <Louis Popi> 8 days ago
+fe68ecc : tomato: Use bin/netmgrd from ASUS stock rom <LuK1337> 3 days ago
+ 
+**** cm:LineageOS/android_external_nano ****
+6c16f4a : nano: src: Don't set userdata to NULL <Luca Stefani> 23 hours ago
+4d6f248 : nano: Make revision.h a stub <Luca Stefani> 24 hours ago
+b881f6c : nano: Update makefile for new nanorc path <Luca Stefani> 24 hours ago
+398f609 : nano: Add nanorc <Luca Stefani> 2 days ago
+88e50a1 : nano: Add android makefile <Luca Stefani> 2 days ago
+8651670 : nano: Add config.h and revision.h <Luca Stefani> 2 days ago
+b8d4fcb : nano: Fix build under android <Luca Stefani> 2 days ago
+c511262 : nano: Include stdio.h <Rashed Abdel-Tawab> 1 year, 5 months ago
+33a3ca6 : nano: Don't ignore config.h & revision.h <Luca Stefani> 2 days ago
+4474bc0 : po: update translations and regenerate POT file and PO files <Benno Schulenberg> 8 days ago
+926fe5f : bump version numbers and add a news item for the 2.7.5 release <Benno Schulenberg> 8 days ago
+d0c64e8 : syntax: gentoo: match .eblit files too <Mike Frysinger> 9 days ago
+de3260c : justify: reduce the character count when trimming trailing spaces <Benno Schulenberg> 9 days ago
+23c3fd9 : statusbar: display at most three consecutive alert messages <Benno Schulenberg> 10 days ago
+c118397 : tweaks: update some copyright years <Benno Schulenberg> 10 days ago
+cd5d7fa : syntax: gentoo: flag mixed whitespace <Mike Frysinger> 11 days ago
+3ca6c92 : syntax: c++: add override keyword <Mike Frysinger> 11 days ago
+a847d37 : tweaks: split the grafting code off from copy_from_buffer() <David Lawrence Ramsey> 3 weeks ago
+1cb945f : tweaks: rename the functions for moving to and copying from a buffer <David Lawrence Ramsey> 2 weeks ago
+330741b : tweaks: adjust two comments, to be more accurate <Benno Schulenberg> 2 weeks ago
+f773d71 : tweaks: rewrap two lines and fix two typos <David Lawrence Ramsey> 3 weeks ago
+407f2d5 : tweaks: move a comment and rewrap a line <Benno Schulenberg> 2 weeks ago
+61e8b3d : screen: don't hide two-column characters at left edge in softwrap mode <David Lawrence Ramsey> 2 weeks ago
+de36e1c : tweaks: rename a variable, to be more general <Benno Schulenberg> 6 weeks ago
+a8c1dc1 : rcfile: don't accept empty regexes for syntax coloring <Benno Schulenberg> 7 weeks ago
+d60e7d3 : spelling: correctly adjust the length of a single-line region <Benno Schulenberg> 2 weeks ago
+2358bad : painting: properly detect a change in start/end matches <Benno Schulenberg> 2 weeks ago
+efdb543 : tweaks: fix compilation when configured with --enable-tiny <David Lawrence Ramsey> 3 weeks ago
+c24545f : tweaks: always directly do a refresh when the margin changes <David Lawrence Ramsey> 3 weeks ago
+8fbadec : tweaks: adjust whitespace after preceding changes <Benno Schulenberg> 3 weeks ago
+a6605dc : tweaks: rename two variables, to avoid double negatives <Benno Schulenberg> 3 weeks ago
+9ec546d : tweaks: rename a function, and drop an unneeded parameter <Benno Schulenberg> 3 weeks ago
+fccfccc : tweaks: reshuffle an assignment and trim some comments <Benno Schulenberg> 3 weeks ago
+0314880 : tweaks: scrap some debugging stuff <Benno Schulenberg> 3 weeks ago
+3b86c7a : tweaks: discard the now unused multidata-resetting routine <Benno Schulenberg> 3 weeks ago
+7ef5c53 : painting: mark an unpaired start match as CWOULDBE <Benno Schulenberg> 3 weeks ago
+6bd9404 : painting: don't look at the current multidata when coloring a line <Benno Schulenberg> 3 weeks ago
+b3bcc8e : painting: make use of the multidata of the preceding line <Benno Schulenberg> 6 weeks ago
+fb8fdca : tweaks: fiddle with some wordings in the texinfo document <Benno Schulenberg> 3 weeks ago
+7fac9ec : docs: mention the ability to read from stdin <David Lawrence Ramsey> 5 weeks ago
+17f5c05 : tweaks: reduce duplicate code in new_magicline() and move_to_filestruct() <David Lawrence Ramsey> 3 weeks ago
+914af36 : spelling: don't unnecessarily fiddle with the viewport <Benno Schulenberg> 3 weeks ago
+5c3d529 : tweaks: rename a variable and condense an if <Benno Schulenberg> 3 weeks ago
+8f10e36 : replacing: stop searching in a region when edge of buffer is reached <Benno Schulenberg> 3 weeks ago
+b1b9770 : tweaks: rename a variable and adjust some types in edit_scroll() <David Lawrence Ramsey> 7 weeks ago
+7803783 : tweaks: rename a variable in edit_scroll(), to make sense <David Lawrence Ramsey> 9 weeks ago
+83ff644 : tweaks: do a comparison a bit differently in do_output() and do_deletion() <David Lawrence Ramsey> 6 weeks ago
+3e22240 : tweaks: rename mouse_x & mouse_y to mouse_col & mouse_row in do_mouse() <David Lawrence Ramsey> 4 weeks ago
+34e086f : tweaks: rename a variable in edit_redraw(), to make sense <David Lawrence Ramsey> 6 weeks ago
+f2ac201 : tweaks: adjust and correct some comments <David Lawrence Ramsey> 9 weeks ago
+ 
+**** cm:LineageOS/android_external_pigz ****
+a6f3dab : pigz version 2.3.4 <Mark Adler> 5 months ago
+04c6ab1 : Add warning for a zip file entry 4 GiB or larger. <Mark Adler> 5 months ago
+06b5347 : Fix bug in directory traversal. <Mark Adler> 5 months ago
+1a4c404 : Remove return of void in pigz.c. <Mark Adler> 5 months ago
+f77dc7e : Permit named pipes as input, as made by mkfifo() or mknod(). <Mark Adler> 7 months ago
+c7e0af8 : Redefine functions unavailable on MinGW. <Mark Adler> 9 months ago
+7f050dd : Use more common errno values to improve portability. <Mark Adler> 9 months ago
+b327e28 : Add mentions of zopfli to documentation and help. <Mark Adler> 9 months ago
+c3f91d1 : Put libraries at end of load commands for as-needed use case. <Mark Adler> 9 months ago
+e223c89 : Add zlib version for verbose version option. <Mark Adler> 9 months ago
+374d167 : Add an extra sync marker between independent blocks. <Mark Adler> 9 months ago
+b7d1db4 : Add .gitignore. <Mark Adler> 9 months ago
+77ae783 : Fix a bug where invalid LZW data could cause out of bounds access. <Mark Adler> 1 year, 6 months ago
+52ca317 : Avoid use of DEBUG macro -- use PIGZ_DEBUG instead. <Mark Adler> 1 year, 7 months ago
+ebcac2e : Update version number to 2.3.4. <Mark Adler> 2 years, 1 month ago
+ 
+**** vanir:frameworks_base ****
+50ae2ff : Automatic translation import <Michael W> 31 hours ago
+9675315 : base: deuglify single hand hint ui <Joey Rizzoli> 13 days ago
+8b12769 : [1/3] base: single hand for hardware keys <Joey Rizzoli> 13 days ago
+c682bdb : [1/2] base: Add new feature of One-hand UI Mode <Bangbang Huang> 3 months ago
+833d913 : Remove Cid from PrivacyGuard's notification icon <Jane Manchun Wong> 2 days ago
+de252f4 : Clean up CAF translations - second try <Michael W> 24 hours ago
+ 
+**** vanir:frameworks_native ****
+3510b6f : [2/2] native: Add new feature of One-hand UI Mode <Bangbang Huang> 3 months ago
+ 
+**** cm:LineageOS/android_hardware_cyanogen ****
+f6954da : livedisplay: Remove tabs in the makefile <Luca Stefani> 30 hours ago
+2de09c4 : livedisplay: Include test makefile <Luca Stefani> 30 hours ago
+ 
+**** cm:LineageOS/android_hardware_qcom_fm ****
+d206506 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:hardware_samsung ****
+68f8fb6 : Automatic translation import <Michael W> 30 hours ago
+a13e517 : audio: Add error logging to ril_interface <Christopher N. Hesse> 6 days ago
+ 
+**** cmold:android_kernel_cyanogen_msm8916 ****
+2326039 : configs: Enable core control <Louis Popi> 7 days ago
+3495d1d : sched: Keep track of average nr_big_tasks <Srivatsa Vaddagiri> 2 years, 1 month ago
+1ce679e : core_ctl: Manage number of online cores based on system load <Pavankumar Kondeti> 9 months ago
+7a5aaae : configs: Enable SDcard FS <Louis Popi> 7 days ago
+36399d9 : ANDROID: sdcardfs: support direct-IO (DIO) operations <Daniel Rosenberg> 7 days ago
+3a7a8e9 : ANDROID: sdcardfs: implement vm_ops->page_mkwrite <Daniel Rosenberg> 7 days ago
+57d18fa : ANDROID: sdcardfs: Add missing path_put <Daniel Rosenberg> 2 weeks ago
+9899dd2 : ANDROID: sdcardfs: Fix incorrect hash <Daniel Rosenberg> 2 weeks ago
+8cddbf5 : ANDROID: sdcardfs: Switch strcasecmp for internal call <Daniel Rosenberg> 4 weeks ago
+480daa5 : ANDROID: sdcardfs: switch to full_name_hash and qstr <Daniel Rosenberg> 5 weeks ago
+27c0e39 : ANDROID: sdcardfs: Add GID Derivation to sdcardfs <Daniel Rosenberg> 5 weeks ago
+bd88f8c : ANDROID: sdcardfs: Remove redundant operation <Daniel Rosenberg> 5 weeks ago
+7e3c313 : ANDROID: sdcardfs: add support for user permission isolation <Daniel Rosenberg> 6 weeks ago
+5204baf : ANDROID: sdcardfs: Refactor configfs interface <Daniel Rosenberg> 6 weeks ago
+aeeb0a6 : ANDROID: sdcardfs: Allow non-owners to touch <Daniel Rosenberg> 6 weeks ago
+72bdc7b : constify ->actor <Al Viro> 3 years, 9 months ago
+7ad06e7 : introduce ->iterate(), ctx->pos, dir_emit() <Al Viro> 3 years, 10 months ago
+0eaaac5 : introduce iterate_dir() and dir_context <Al Viro> 3 years, 10 months ago
+45152e0 : vfs: Add setattr2 for filesystems with per mount permissions <Daniel Rosenberg> 4 months ago
+c0e365f : vfs: Allow filesystems to access their private mount data <Daniel Rosenberg> 4 months ago
+2de6048 : mnt: Add filesystem private data to mount points <Daniel Rosenberg> 4 months ago
+8ece25a : fuse: Add support for d_canonical_path <Daniel Rosenberg> 11 months ago
+dcca0a4 : ANDROID: sdcardfs: Fix locking issue with permision fix up <Daniel Rosenberg> 9 weeks ago
+e0f58c3 : sdcardfs: Use per mount permissions <Daniel Rosenberg> 4 months ago
+584ea39 : sdcardfs: Add gid and mask to private mount data <Daniel Rosenberg> 4 months ago
+34221fa : sdcardfs: User new permission2 functions <Daniel Rosenberg> 4 months ago
+ab592cd : sdcardfs: Move directory unlock before touch <Daniel Rosenberg> 5 months ago
+a285e84 : sdcardfs: fix external storage exporting incorrect uid <alvin_liang> 6 months ago
+d98528b : sdcardfs: Added top to sdcardfs_inode_info <Daniel Rosenberg> 10 months ago
+29eed99 : sdcardfs: Switch package list to RCU <Daniel Rosenberg> 10 months ago
+901dc1e : sdcardfs: Fix locking for permission fix up <Daniel Rosenberg> 7 months ago
+319b70a : sdcardfs: Check for other cases on path lookup <Daniel Rosenberg> 10 months ago
+547befb : sdcardfs: override umask on mkdir and create <Daniel Rosenberg> 11 months ago
+f08d6f0 : ANDROID: sdcardfs: fix itnull.cocci warnings <Julia Lawall> 9 months ago
+ef4f729 : sdcardfs: Truncate packages_gid.list on overflow <Daniel Rosenberg> 8 months ago
+790cf2a : vfs: Add permission2 for filesystems with per mount permissions <Daniel Rosenberg> 4 months ago
+f0dfc57 : vfs: change d_canonical_path to take two paths <Daniel Rosenberg> 11 months ago
+77f7f4a : inotify: Fix erroneous update of bit count <Daniel Rosenberg> 12 months ago
+ec431cc : vfs: add d_canonical_path for stacked filesystem support <Daniel Rosenberg> 1 year, 1 month ago
+e5cbd34 : sdcardfs: remove unneeded __init and __exit <Daniel Rosenberg> 11 months ago
+d9feb806 : sdcardfs: Remove unused code <Daniel Rosenberg> 11 months ago
+9385a3e : sdcardfs: remove effectless config option <Daniel Rosenberg> 12 months ago
+9d009a0 : sdcardfs: Add support for d_canonicalize <Daniel Rosenberg> 1 year, 1 month ago
+f091526 : sdcardfs: Bring up to date with Android M permissions: <Daniel Rosenberg> 1 year, 1 month ago
+9ce99ae : sdcardfs: Changed type-cast in packagelist management <Daniel Campello> 1 year, 8 months ago
+d97f7e0 : sdcardfs: port to 3.10 <Daniel Campello> 1 year, 8 months ago
+9f23e7f : Initial port of sdcardfs <Daniel Campello> 1 year, 8 months ago
+aea6c75 : configs: Cleanup defconfigs <Louis Popi> 7 days ago
+4c73d24 : pa12200001: Use boot time for event timestamps <Louis Popi> 10 months ago
+473011d : kionix_accel: Switch timestamps to CLOCK_BOOTIME <Louis Popi> 1 year, 4 months ago
+ 
+**** vanir:kernel_google_marlin ****
+367e645 : input: synaptics_dsx: remove update sysfs entries <Andrew Chant> 3 months ago
+1d6d364 : fs/proc/array.c: make safe access to group_leader <Adrian Salido> 3 months ago
+7731794 : input: touchscreen: disable generic update i/f <Andrew Chant> 3 months ago
+123b90a : drivers: soc: add size checks and update log messages <Siena Richard> 5 months ago
+09b679d : qcacld-2.0: wlan host driver upgrade to 4.4.25.027s_1 <Srinivas Girigowda> 3 months ago
+3f9a4ad : qseecom: remove entry from qseecom_registered_app_list <Zhen Kong> 4 months ago
+57ac340 : qcacld-2.0: Avoid overflow of "set_bssid_hotlist" params <Srinivas Girigowda> 3 months ago
+f6080d0 : qcacld-2.0: Avoid overflow of "significant change" params <Srinivas Girigowda> 3 months ago
+4d955f6 : qcacld-2.0: Avoid overflow of roam subcmd params <Srinivas Girigowda> 3 months ago
+a711b71 : qcacld-2.0: Avoid overflow of passpoint network list <Srinivas Girigowda> 4 months ago
+6b526d4 : qcacld-2.0: Validate "set passpoint list" network count <Srinivas Girigowda> 4 months ago
+dd5e9a0 : qcacld-2.0: Avoid overflow of EXTSCAN bucket list <Srinivas Girigowda> 4 months ago
+aa6bff4 : qcacld-2.0: Avoid overflow of EPNO network list <Srinivas Girigowda> 4 months ago
+4a52fdd : qcacld-2.0: Properly parse PNO vendor command <Srinivas Girigowda> 4 months ago
+1706cfc : Kconfig: msm: disable ultrasound driver <Nick Desaulniers> 3 months ago
+d740e72 : input: synaptics_dsx: reallocate buffer under lock. <Andrew Chant> 3 months ago
+689ea15 : BACKPORT: aio: mark AIO pseudo-fs noexec <Jann Horn> 4 months ago
+f630d79 : qcom: scm: remove printing input arguments <Swetha Chikkaboraiah> 3 months ago
+0d37d64 : Android: binder: check set_context_mgr permission on time. <Martijn Coenen> 4 months ago
+c803e69 : UPSTREAM: ring-buffer: Prevent overflow of size in ring_buffer_resize() <Steven Rostedt (Red Hat)> 10 months ago
+2c5c1fd : perf: don't leave group_entry on sibling list (use-after-free) <John Dias> 4 months ago
+1083ab0 : qcacld-2.0: Add check to Validate SSID length <Ecco Park> 4 months ago
+5f15222 : qcacld-2.0: Use heap memory for station_info instead of stack <Ecco Park> 4 months ago
+4dfe6e7 : qcacld-2.0: Fix hdd_ocb_config_new() signature <Srinivas Girigowda> 4 months ago
+bc461d9 : BACKPORT: mm: avoid setting up anonymous pages into file mapping <Kirill A. Shutemov> 1 year, 8 months ago
+11ab3ad : input: synaptics_dsx: add update bounds checks. <Andrew Chant> 4 months ago
+4faa6d2 : ALSA: info: Check for integer overflow in snd_info_entry_write() <Siqi Lin> 4 months ago
+d906945 : input: misc: fix security vulnerability <matt_huang> 4 months ago
+e6f77dc : msm: sensor: Adding mutex for actuator power down operations <Biswajit Paul> 5 months ago
+e9fde86 : ion: Fix use after free during ION_IOC_ALLOC <Daniel Rosenberg> 4 months ago
+bbaed10 : Revert "Revert "Revert "Revert "msm: kgsl: Clear the interrupt immediately"""" <Patrick Tjin> 4 months ago
+d90afe4 : Revert "Revert "Revert "msm: kgsl: Clear the interrupt immediately""" <Patrick Tjin> 4 months ago
+d26bf5f : CHROMIUM: UPSTREAM: mm: remove gup_flags FOLL_WRITE games from __get_user_pages() <Linus Torvalds> 5 months ago
+ca44f39 : net: ping: Fix stack buffer overflow in ping_common_sendmsg() <Qidan He> 5 months ago
+ca9844b : Revert "net: ping: Fix stack buffer overflow in ping_common_sendmsg()" <Pat Tjin> 5 months ago
+7e7cd02 : binder: blacklist %p kptr_restrict <Nick Desaulniers> 5 months ago
+629ed5b : ion: blacklist %p kptr_restrict <Nick Desaulniers> 5 months ago
+1e91b0c : msm: mdss: blacklist %p kptr_restrict <Nick Desaulniers> 5 months ago
+45619ca : ASoC: msm: lock read/write when add/free audio ion memory <Haynes Mathew George> 5 months ago
+f9b53df : BACKPORT: perf: Fix event->ctx locking <John Dias> 5 months ago
+a2b6ee9 : perf: protect group_leader from races that cause ctx double-free <John Dias> 5 months ago
+8a950b2 : input: synaptics_dsx: add bounds checks for firmware id <Min Chong> 5 months ago
+f1ca98f : netfilter: Change %p to %pK in debug messages <Min Chong> 5 months ago
+a4c7c43 : usb: gadget: f_mbim: Change %p to %pK in debug messages <Min Chong> 5 months ago
+51b5da8 : drivers: video: Add bounds checking in fb_cmap_to_user <Steve Pfetsch> 5 months ago
+b99cd46 : UPSTREAM: percpu: fix synchronization between chunk->map_extend_work and chunk destruction <Tejun Heo> 9 months ago
+2777a83 : UPSTREAM: percpu: fix synchronization between synchronous map extension and chunk destruction <Tejun Heo> 9 months ago
+1a7952a : msm: sensor: validate the i2c table index before use <Biswajit Paul> 6 months ago
+5442a0c : net: ping: Fix stack buffer overflow in ping_common_sendmsg() <Siqi Lin> 5 months ago
+3892a11 : UPSTREAM: arm64: make sys_call_table const <Mark Rutland> 2 years, 2 months ago
+ 
+**** cmold:android_kernel_google_msm ****
+c1d8154 : net: avoid signed overflows for SO_{SND|RCV}BUFFORCE <Eric Dumazet> 3 months ago
+f322f61 : net: cleanups in sock_setsockopt() <Eric Dumazet> 4 years, 10 months ago
+ 
+**** cmold:android_kernel_htc_msm8960 ****
+2208878 : Revert "msm: kgsl: fix sync file error handling" <Sean McCreary> 4 days ago
+ 
+**** cmold:android_kernel_motorola_msm8916 ****
+19dd0ad : perf/core: Fix concurrent sys_perf_event_open() vs. 'move_group' race <Peter Zijlstra> 7 weeks ago
+72f6cfb : ANDROID: sdcardfs: support direct-IO (DIO) operations <Daniel Rosenberg> 7 days ago
+cacbf5d : ANDROID: sdcardfs: implement vm_ops->page_mkwrite <Daniel Rosenberg> 7 days ago
+87d533b : tcp: avoid infinite loop in tcp_splice_read() <Eric Dumazet> 4 weeks ago
+8566e21 : ipc/shm: Fix shmat mmap nil-page protection <Davidlohr Bueso> 3 weeks ago
+d37d3fa : net/sched: pedit: make sure that offset is valid <Amir Vadai> 3 months ago
+60cc3cd : mpi: Fix NULL ptr dereference in mpi_powm() [ver #3] <Andrey Ryabinin> 3 months ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+b08a67e : misc: fpc1020: Increase fingerprintd nice value when screen is off <Sultanxda> 2 weeks ago
+29027ae : ANDROID: ext4 crypto: Disables zeroing on truncation when there's no key <Michael Halcrow> 3 weeks ago
+d87f59b : UPSTREAM: udp: properly support MSG_PEEK with truncated buffers <Eric Dumazet> 1 year, 2 months ago
+5e3a593 : UPSTREAM: l2tp: fix racy SOCK_ZAPPED flag check in l2tp_ip{,6}_bind() <Guillaume Nault> 4 months ago
+852c6a4 : ANDROID: mnt: remount should propagate to slaves of slaves <Daniel Rosenberg> 8 weeks ago
+4d1d584 : ANDROID: sdcardfs: support direct-IO (DIO) operations <Daniel Rosenberg> 7 days ago
+1658189 : ANDROID: sdcardfs: implement vm_ops->page_mkwrite <Daniel Rosenberg> 7 days ago
+e30f10f : Revert "sdcardfs: Flag files as non-mappable" <Bruno Martins> 4 days ago
+ 
+**** cmold:android_kernel_xiaomi_msm8956 ****
+fb6c340 : prima: Update to LA.BR.1.3.6_rb1.14 <TheStrix> 2 days ago
+42b0b7e : Revert "Revert "ARM: dts: msm: update memory map for msm8976/8956/8952 for External release"" <Bharat Pawar> 6 months ago
+d417c3c : input: misc: fix heap overflow issue in hbtp_input.c <Vevek Venkatesan> 2 months ago
+39ee7a7 : uio: fix potential use after free issue when accessing debug_buffer <Sahitya Tummala> 4 weeks ago
+6da3981 : crypto: msm: check length before copying to buf in _debug_stats_read <Zhen Kong> 4 weeks ago
+d8ee44e : msm: camera: Validate size param before allocating memory <VijayaKumar T M> 3 weeks ago
+cc5831f : msm: camera: sensor: Validate destination step position <Rajesh Bondugula> 3 weeks ago
+7443381 : BACKPORT: aio: mark AIO pseudo-fs noexec <Nick Desaulniers> 4 months ago
+833bace : fs/proc/array.c: make safe access to group_leader <Adrian Salido> 3 months ago
+eceae94 : leds: qpnp-flash: Fix possible race condition in debugfs <Ankit Sharma> 6 weeks ago
+58c7003 : msm: pm: Add mutex lock for shared data <Raju P.L.S.S.S.N> 4 weeks ago
+b8f7006 : defconfig: disable cp_access <Srinivasarao P> 3 weeks ago
+789b395 : msm: mdss: Fix possible integer overflow <Sravan Kumar D.V.N> 7 weeks ago
+552843b : mm: cma: check the max limit for cma allocation <Shiraz Hashim> 4 months ago
+d1735a0 : msm: ipa: Prevent multiple header deletion from user space <Ghanim Fodi> 7 weeks ago
+202abda : ASoC: msm: qdsp6v2: Fix an incorrect string comparison logic <Xiaoyu Ye> 3 months ago
+c32d2c0 : platform: msm: spmi: Fix possible race condition in debugfs <ansharma> 3 weeks ago
+b463edc : power: qpnp-fg: Fix possible race condition in FG debugfs <ansharma> 3 weeks ago
+2d8121e : ecm_ipa: remove redundant code <Gidon Studinski> 6 weeks ago
+2f37d91 : msm: camera: Add check to ensure task wont hog CPU <VijayaKumar T M> 3 weeks ago
+93615ba : msm: kgsl: Add multiple GPU speed fuse read support <Hareesh Gundu> 5 months ago
+f0724ca : msm: kgsl: Fix incomplete IB2 dump in the snapshot <Hareesh Gundu> 8 weeks ago
+fce62f1 : msm: kgsl: Increase GPU fault detection threshold value <Archana Sriram> 8 weeks ago
+5ffb66e : msm: vidc: Allow clients to suggest I-frame sizes <Deepak Kushwah> 4 months ago
+b9f8ec9 : crypto : ice: Fix NULL pointer exception in ice. <Brahmaji K> 4 months ago
+8a0033c : KEYS: Fix short sprintf buffer in /proc/keys show function <David Howells> 4 months ago
+abbe909 : qseecom: release memory when failed to get fw size <Zhen Kong> 6 weeks ago
+ 
+**** cm:LineageOS/android_packages_apps_AudioFX ****
+15a3618 : Automatic translation import <Michael W> 31 hours ago
+ 
+**** cm:LineageOS/android_packages_apps_Browser ****
+de537b9 : Automatic translation import <Michael W> 31 hours ago
+ 
+**** vanir:packages_apps_CMParts ****
+727f8a8 : Update style to match the one of Settings <Gabriele M> 2 days ago
+ 
+**** vanir:packages_apps_Camera2 ****
+dd44706 : Automatic translation import <Michael W> 31 hours ago
+ 
+**** vanir:packages_apps_CellBroadcastReceiver ****
+1e04c6f : Automatic translation import <Michael W> 31 hours ago
+6360a26 : CellBroadcastReceiver: Match defaults  for channel 60 alerts to bool config <Arne Coucheron> 11 days ago
+ 
+**** vanir:packages_apps_CertInstaller ****
+564b511 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:packages_apps_Contacts ****
+9a50679 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+17e56ce : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:packages_apps_DeskClock ****
+92a9eaa : Automatic translation import <Michael W> 31 hours ago
+ 
+**** vanir:packages_apps_Dialer ****
+6ec92a4 : Dialer: Fix strings <Michael W> 12 hours ago
+8630535 : Automatic translation import <Michael W> 31 hours ago
+ 
+**** vanir:packages_apps_Email ****
+d39fd55 : Automatic translation import <Michael W> 31 hours ago
+ 
+**** vanir:packages_apps_ExactCalculator ****
+fe8750c : Automatic translation import <Michael W> 30 hours ago
+ 
+**** cm:LineageOS/android_packages_apps_Exchange ****
+2571fdd : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+bd422e3 : Automatic translation import <Michael W> 31 hours ago
+ 
+**** cm:LineageOS/android_packages_apps_Gello ****
+03ef482 : Automatic translation import <Michael W> 31 hours ago
+ 
+**** vanir:packages_apps_PackageInstaller ****
+8cb86a7 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+6df0f52 : Automatic translation import <Michael W> 31 hours ago
+ 
+**** cm:LineageOS/android_packages_apps_Profiles ****
+560fabf : Automatic translation import <Michael W> 31 hours ago
+ 
+**** cm:LineageOS/android_packages_apps_Recorder ****
+60000a4 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:packages_apps_Settings ****
+5a79060 : Settings: Add overlay for hiding wifi region code <Danesh M> 1 year, 1 month ago
+ 
+**** cm:LineageOS/android_packages_apps_Snap ****
+cccbfcd : Automatic translation import <Michael W> 31 hours ago
+ 
+**** vanir:packages_apps_Stk ****
+5190806 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:packages_apps_Tag ****
+c8f1f62 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** cm:LineageOS/android_packages_apps_Terminal ****
+b1e9212 : Automatic translation import <Michael W> 31 hours ago
+ 
+**** vanir:packages_apps_Trebuchet ****
+a120fdb : Automatic translation import <Michael W> 31 hours ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+e009b45 : Automatic translation import <Michael W> 31 hours ago
+ 
+**** vanir:packages_apps_WallpaperPicker ****
+cda46d3 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:packages_inputmethods_LatinIME ****
+a876e0f : Automatic translation import <Michael W> 30 hours ago
+ 
+**** cm:LineageOS/android_packages_providers_CallLogProvider ****
+e8ab293 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:packages_providers_ContactsProvider ****
+c591c90 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** cm:LineageOS/android_packages_providers_DataUsageProvider ****
+aae8c60 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:packages_providers_DownloadProvider ****
+2f32c14 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:packages_providers_MediaProvider ****
+d202ca3 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:packages_providers_TelephonyProvider ****
+e683619 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:packages_providers_UserDictionaryProvider ****
+959822e : Automatic translation import <Michael W> 30 hours ago
+ 
+**** cm:LineageOS/android_packages_providers_WeatherProvider ****
+8ea6ba7 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** cm:LineageOS/android_packages_resources_devicesettings ****
+3cc11e1 : Automatic translation import <Michael W> 25 hours ago
+ 
+**** vanir:packages_screensavers_Basic ****
+fa7caf5 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:packages_screensavers_PhotoTable ****
+8da9209 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** cm:LineageOS/android_packages_services_CMAudioService ****
+9a7f56d : Automatic translation import <Michael W> 30 hours ago
+ 
+**** cm:LineageOS/android_packages_services_LiveLockScreenService ****
+a3b52e2 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:packages_services_Telecomm ****
+6b1eac4 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:packages_services_Telephony ****
+82c4e1c : Automatic translation import <Michael W> 30 hours ago
+3a782aa : CallFeatureSettings: Only show call barring option if QTI package installed <Arne Coucheron> 2 weeks ago
+ 
+**** cm:LineageOS/android_packages_services_WeatherService ****
+57658ce : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:packages_wallpapers_LivePicker ****
+aa48c07 : Automatic translation import <Michael W> 30 hours ago
+ 
+**** vanir:vendor_cmsdk ****
+3e2e540 : CMPartsPreference: Update PreferenceScreen theme <Gabriele M> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_YahooWeatherProvider ****
+168a6c2 : Automatic translation import <Michael W> 25 hours ago
+ 
+**** cm:LineageOS/android_packages_apps_WundergroundWeatherProvider ****
+949058a : Automatic translation import <Michael W> 25 hours ago
+ 
+**** vanir:vendor_htc ****
+54548de : m8-common: Import graphics blobs <Bruno Martins> 22 hours ago
+ 
+**** vanir:vendor_motorola ****
+15e7276 : clark: pull in adreno libs and regen makefiles <Dan Pasanen> 29 hours ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+2507535 : op3: Add adreno blobs <dianlujitao> 13 hours ago
+ 
+**** github:TheMuppets/proprietary_vendor_oppo ****
+49a33ec : Revert "msm8939-common-64: switch to common GPU drivers" <Michael Bestas> 28 hours ago
+6fb6375 : Revert "msm8939-common-32: switch to common GPU drivers" <Michael Bestas> 28 hours ago
+ 
+**** vanir:vendor_samsung ****
+6bcb516 : jf: pull in adreno libs and regen makefiles <Dan Pasanen> 29 hours ago
+948ed5a : noblelte: Revert MALI GLES to r7p0 <Christopher N. Hesse> 5 days ago
+f0008dd : noblelte: Revert libsec-ril to M <Christopher N. Hesse> 2 days ago
+f37af4c : noblelte: Update blobs from N920CXXU3CQB5 <Christopher N. Hesse> 5 days ago
+db65282 : d2: hex-edit libsec-ril.so for audioserver <Paul Keith> 4 days ago
+6caad9a : d2-common: Steal bullhead widevine <Luca Stefani> 4 months ago
+ 
+**** github:TheMuppets/proprietary_vendor_yu ****
+3b8a0a2 : lettuce: Add 32-bits Adreno blobs <Louis Popi> 7 hours ago
+05a1a3c : tomato: Add 32-bits Adreno blobs <Louis Popi> 7 hours ago
+13bdcda : jalebi: Import adreno blobs <Louis Popi> 27 hours ago
+83a9414 : lettuce: Import adreno blobs <Louis Popi> 29 hours ago
+2fbe9cb : tomato: Import adreno blobs <Louis Popi> 29 hours ago
+297f277 : lettuce: Update qcrilmsgtunnel.apk <Luca Stefani> 2 days ago
+4243a44 : jalebi: Update qcrilmsgtunnel.apk <Luca Stefani> 2 days ago
+13e2cf5 : tomato: Update qcrilmsgtunnel.apk <Luca Stefani> 2 days ago
+990b18d : lettuce: Use bin/netmgrd from ASUS stock rom <Louis Popi> 2 days ago
+cd10312 : tomato: Use bin/netmgrd from ASUS stock rom <Louis Popi> 2 days ago
+ 
