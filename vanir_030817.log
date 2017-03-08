@@ -1,0 +1,328 @@
+
+**** cm:LineageOS/android_bootable_recovery ****
+262603c : Add a checker for signature boundary in verifier <Tianjie Xu> 3 months ago
+ 
+**** aosp:platform/bootable/recovery ****
+262603c : Add a checker for signature boundary in verifier <Tianjie Xu> 3 months ago
+ 
+**** vanir:bootable_recovery_twrp ****
+3184b2f : file_contexts: remove symlink to binary file and use text version instead <Captain Throwback> 22 hours ago
+201d4b2 : vold_decrypt: Add back missing xml and get rid of compiler warning <nkk71> 2 days ago
+64c5c0a : Add TWRP app install to landscape and watch themes <Ethan Yonker> 2 days ago
+71c6c50 : crypto: Use system's vold for decryption <nkk71> 9 weeks ago
+09e8693 : Fix missing libf2fs.so needed by mkfs.f2fs <TheStrix> 2 weeks ago
+ 
+**** vanir:build ****
+84d1526 : Build hacks <DHOMD> 5 months ago
+b027578 : NOF27B <gitbuildkicker> 5 weeks ago
+857f371 : NOF26Z <gitbuildkicker> 5 weeks ago
+b7d9e44 : NOF26Z <gitbuildkicker> 5 weeks ago
+1f57d14 : NOF26Y <gitbuildkicker> 7 weeks ago
+64979de : NOF26X <gitbuildkicker> 7 weeks ago
+837780a : Updating Security String to 2017-03-05 on nyc-dev <Adam Seaton> 7 weeks ago
+0ed2660 : Updating Security String to 2017-03-01 on nyc-dev <Adam Seaton> 7 weeks ago
+ 
+**** vanir:device_google_marlin ****
+966c867 : marlin: update prop list to pull properly from a system image <Dan Pasanen> 2 days ago
+30f24dd : marlin: update fingerprint to nof27b <Dan Pasanen> 2 days ago
+ 
+**** cm:LineageOS/android_device_google_sailfish ****
+31e01dd : sailfish: update fingerprint <Christian Oder> 2 days ago
+ 
+**** cm:LineageOS/android_device_htc_hima-common ****
+77c9347 : hima-common: import adreno libs <Dan Pasanen> 25 hours ago
+ 
+**** vanir:device_huawei_angler ****
+0d37b1a : Update buildid to N4F26T <nuclearmistake> 28 hours ago
+ 
+**** vanir:device_huawei_kiwi ****
+d5b9b17 : kiwi: wifi: Enable 2.4GHz channel bonding <Michael W> 7 days ago
+ 
+**** vanir:device_lge_v20-common ****
+909fdd9 : v20: Use correct camera and fingerprint blobs <Rashed Abdel-Tawab> 4 days ago
+ 
+**** vanir:device_lge_vs985 ****
+9e246d9 : Revert "Set config_switch_phone_on_voice_reg_state_change to false." <Dave Daynard> 2 days ago
+ 
+**** vanir:device_moto_shamu ****
+38b7c68 : shamu: Update fingerprint to N6F26U <Elektroschmock> 2 days ago
+343b47b : Revert "shamu: fix speakerphone echo problem" <Elektroschmock> 2 days ago
+5846760 : Revert "Revert "Revert "Path fix for backend connection to FE upon call disconnection""" <Eric Laurent> 8 weeks ago
+da83681 : Revert "audio: fix headset + speaker path" <Eric Laurent> 8 weeks ago
+ 
+**** vanir:device_motorola_msm8226-common ****
+41f1b66 : overlay: Enable IP reachability monitor <Gabriele M> 3 days ago
+ 
+**** cm:LineageOS/android_device_motorola_msm8610-common ****
+6ecf763 : otus: camera: Force ZSL to always be on <Sultan Qasim Khan> 2 days ago
+4344218 : msm8610-common: our camera doesn't have a flash <Sultan Qasim Khan> 2 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+a2dc033 : Otus: Fix FM Radio <DHOMD> 7 weeks ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+0d9a1d2 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 4 months ago
+ 
+**** vanir:device_qcom_common ****
+d75503a : Suboptimal way of fixing Pixie builds <DHOMD> 2 months ago
+ 
+**** vanir:device_xiaomi_armani ****
+3fe0985 : armani: Import adreno blobs <fefifofum> 3 days ago
+ 
+**** vanir:external_boringssl ****
+42069ac : Rewrite BN_bn2dec. <David Benjamin> 7 months ago
+ 
+**** aosp:platform/external/libavc ****
+d11c623 : Decoder: Padded gau1_ih264d_top_left_mb_part_indx_mod to avoid an out of bound read <Harish Mahendrakar> 1 year, 3 months ago
+eeebffb : Decoder: Fix in checking first_mb_in_slice <Harish Mahendrakar> 7 weeks ago
+69333b3 : Decoder: Increase memory allocation for weights & offsets for interlaced clips <Harish Mahendrakar> 8 weeks ago
+8a0d898 : Decoder: Fixed DoS in header decode when no PPS is present <Harish Mahendrakar> 7 weeks ago
+aa88176 : Decoder: Initialize ps_cur_slice->u1_mbaff_frame_flag correctly for error cases <Harish Mahendrakar> 3 months ago
+1094045 : Decoder: Fixed an out of bound access while parsing SEI <Harish Mahendrakar> 8 weeks ago
+24d4eb6 : Decoder: Fix in MB count in MBAff error handling <Harish Mahendrakar> 2 months ago
+dacc8b1 : Call ih264d_deblock_display only for valid process calls <Harish Mahendrakar> 2 months ago
+5c7b72a : Decoder: Fixed allocation of ps_dec->ps_nbr_mb_row <Harish Mahendrakar> 3 months ago
+f7edb05 : Decoder: Fixed cur_mb_info initialization in error cases <Harish Mahendrakar> 3 months ago
+9705f81 : Decoder: Fix in error concealment in the case of Mbaff clips <Harish Mahendrakar> 3 months ago
+384eb9e : Decoder: Fix in the case of error in the first MB in frame. <Harish Mahendrakar> 3 months ago
+70cca9e : Decoder: Fix in returning incomplete frame error <Harish Mahendrakar> 3 months ago
+a4391a6 : Decoder: Fix initialization of ps_next_dpb during reference list creation <Harish Mahendrakar> 3 months ago
+e08e31d : Decoder: Fix in checking for valid profile flags <Harish Mahendrakar> 3 months ago
+ 
+**** aosp:platform/external/libgdx ****
+31041cb : Fix buffer overflows <Jorim Jaggi> 9 weeks ago
+49f2149 : Fix security vulnerability <Jorim Jaggi> 3 months ago
+ 
+**** aosp:platform/external/libhevc ****
+078476d : Added check for invalid log2_max_transform_block_size in SPS <Harish Mahendrakar> 8 weeks ago
+f48c012 : Fixed handling invalid chroma tu size for error clips <Harish Mahendrakar> 4 months ago
+dd0f2d3 : Fixed out of bound reads in stack variables <Harish Mahendrakar> 1 year, 3 months ago
+26b6626 : Fix in Chroma SAO for non-multiple of 8 height <Harish Mahendrakar> 3 months ago
+ 
+**** vanir:external_libnfc-nci ****
+7f8c2ef : Fix native crash in nfc_ncif_proc_activate <fang.x.chen> 4 months ago
+ 
+**** aosp:platform/external/libvpx ****
+4add200 : libvpx: Cherry-pick 1961a92 from upstream <Vignesh Venkatasubramanian> 3 months ago
+ 
+**** vanir:external_skia ****
+0dbe06f : DO NOT MERGE Do not create an SkRawCodec with zero dimensions <Leon Scroggins III> 3 months ago
+ 
+**** vanir:frameworks_av ****
+fb3d877 : CameraService: Fix cameraId type of onDeviceStatusChanged <Bin Chen> 1 year ago
+93c6eb9 : stagefright: allow multiple custom OMXPlugins <Jesse Chan> 5 days ago
+a0d2ff1 : avc_utils: skip empty NALs from malformed bistreams <Robert Shih> 6 weeks ago
+b5ab7da : DO NOT MERGE - audioflinger: fix recursive mutex lock in EffectHandle. <Eric Laurent> 3 months ago
+ac18df7 : Don't initialize sync sample parameters until the end <Marco Nelissen> 8 weeks ago
+d5ee6ce : DO NOT MERGE - improve audio effect framwework thread safety <Eric Laurent> 3 months ago
+ 
+**** vanir:frameworks_base ****
+68c2f17 : VolumeDialog: Fix mismerge <Hendrik Hagendorn> 26 hours ago
+6bc7cf9 : Fix issue with saving admins before finishing loading. <Kenny Guy> 7 weeks ago
+1532f81 : resolve merge conflicts of ad4aa1ce7d3d to nyc-mr1-dev <Andrew Scull> 8 weeks ago
+287037f : Fix exploit where can hide the fact that a location was mocked am: a206a0f17e am: d417e54872 am: 3380a77516 am: 0a8978f04b am: 1684e5f344 am: d28eef0cc2 am: 1f458fdc66 am: d82f8a67fc am: 1ac8affd51 am: 56098f81b6 am: 7cec76de0f am: 2da05d0f9e <Tom O'Neill> 3 months ago
+debca09 : [DO NOT MERGE] Prevent crash from early Toast surface destruction. <Svetoslav Ganov> 3 months ago
+1598419 : Add @GuardedBy annotation to PersistentDataBlockService#mIsWritable. <Charles He> 3 months ago
+215a820 : Prevent writing to FRP partition during factory reset. <Charles He> 3 months ago
+ 
+**** aosp:platform/frameworks/ex ****
+f35a659 : resolve merge conflicts of 89cdd4cb to mnc-dev <Chris Craik> 8 weeks ago
+ 
+**** vanir:frameworks_opt_net_wifi ****
+f4396d5 : configparse: do not delete passpoint configuration file <Peter Qiu> 3 months ago
+ 
+**** cm:LineageOS/android_hardware_intel_common_libmix ****
+a8c22a8 : Libmix : Add proper support for LP blobs Asus Zenfone 2 still needs the good old way of setting GrallocMod <sayeed99> 34 hours ago
+ 
+**** cm:LineageOS/android_hardware_intel_common_omx-components ****
+904d128 : omx-ccomponents : Zenfone 2 cannot properly utilize flushmode switch to test HandleFormatchange() directly instead of testing flushmode <sayeed99> 34 hours ago
+ 
+**** cm:LineageOS/android_hardware_intel_img_psb_video ****
+2c744ac : psb_video : remember good old moorefield <sayeed99> 24 hours ago
+ 
+**** cm:LineageOS/android_hardware_qcom_media ****
+14eb24c : Clean code, avoid warnings <Corinna Vinschen> 4 days ago
+5dc3774 : mm-video-v4l12: update stride info for YUV420P and YUV420SP <c_sisanj> 1 year, 5 months ago
+f0b7ad5 : mm-video-v4l2: vdec: fix fps issues in arbitrary mode <Ashray Kulkarni> 1 year, 6 months ago
+c8ff894 : apq8084: Kill logspam <Steve Kondik> 1 year, 5 months ago
+39f5c42 : mm-video: venc: Correct a typo in variable name <Deepak Verma> 3 years, 5 months ago
+5d8cba9 : mm-core: Kill logspam <Steve Kondik> 4 days ago
+3d984fa : mm-video-v4l2: vidc: vdec: handle flush while codec config ETB for hevc decoder <Balamurugan Alagarsamy> 1 year, 11 months ago
+d526b31 : mm-video-v4l2: vdec: Exit if default set format failed for output port also <Balamurugan Alagarsamy> 1 year, 11 months ago
+87210e9 : mm-video: vdec: hevc: Avoid crash while handling extra data <Paras Nagda> 2 years ago
+14561f9 : mm-video-v4l2: vidc: vdec: Update stride and scanlines <Praneeth Paladugu> 2 years, 5 months ago
+7472018 : mm-video-v4l2: vidc: vdec: handle codec config ETB's properly <Pushkaraj Patil> 2 years, 2 months ago
+e9d4e08 : mm-video-v4l2: vdec: insert timestamps qeued by client in TS queue <Praveen Chavan> 2 years, 3 months ago
+330e37f : mm-video-v4l2: vdec: Always send NC VOPS to the driver <c_sridur> 2 years, 1 month ago
+004017b : mm-video-v4l2: vdec: streamoff while freeing first output buffer <Balamurugan Alagarsamy> 2 years, 3 months ago
+8f0cd4d : mm-video: vidc: Adjust timestamp if actual ts < previous ts <Deva Ramasubramanian> 2 years, 3 months ago
+ee8caaa : mm-video-v4l2: vidc: Amend debug log macros <Maheshwar Ajja> 2 years, 3 months ago
+1ea52b2 : mm-video-v4l2: vdec: skip fillbuffer in port reconfiguration <Balamurugan Alagarsamy> 2 years, 3 months ago
+ed01934 : mm-video: vidc: Avoid setting invalid timestamp of eos NAL <Balamurugan Alagarsamy> 2 years, 6 months ago
+839e27b : mm_video: vidc: Update buffer geometry with stride and scanline <Pushkaraj Patil> 2 years, 3 months ago
+c0dbc19 : mm-video-v4l2: vidc: Enforce non-negative timestamp deltas <Leena Winterrowd> 2 years, 7 months ago
+b924473 :  mm-video: vdec: hevc: hybrid: Call request buffer after configure <Balamurugan Alagarsamy> 2 years, 4 months ago
+3e183ef : mm-video-v4l2: vdec: fix invalid stride and scanlines issue <Maheshwar Ajja> 2 years, 5 months ago
+8daba65 : mm-video: vdec: Get updated resolution along with output buffers <Maheshwar Ajja> 2 years, 7 months ago
+264baf9 : mm-video: vdec: Correct video driver's crop parameters handling <Maheshwar Ajja> 2 years, 8 months ago
+6c3734d : mm-video: Release driver buffers correctly <Balamurugan Alagarsamy> 2 years, 4 months ago
+4b79ce3 : mm-video-v4l2: venc: fix static code analyzer issue. <Arun Menon> 2 years, 9 months ago
+4c5e961 : mm-video-v4l2: venc: Add check for overriding level based on LTR count <Ashray Kulkarni> 2 years, 10 months ago
+4c1ee7e : apq8084: mm-video: vidc: Add missing setting of msgcode <Corinna Vinschen> 5 days ago
+bc81f39 : Revert "mm-video: vdec: Set frame rate if computed fps is more than existing fps" <Arun Menon> 2 years, 11 months ago
+a70a451 : mm-video: vidc: disable dynamic buffer mode and adaptive playback <Ravi Kiran Vonteddu> 2 years, 10 months ago
+5ee4641 : mm-video: vidc: Missing release of pending input buffers to client <Sowmya Pandiri> 2 years, 11 months ago
+f15a6f2 : mm-video: vdec: fix multiple downscalar issues <Pushkaraj Patil> 3 years ago
+48e5c7b : media-caf apq8084: Fix typo in video decoder error check for debug output <Corinna Vinschen> 2 weeks ago
+09f054c : mm-video-v4l2: vdec: Request buffer for input port after client reconfigures <Balamurugan Alagarsamy> 2 years, 3 months ago
+2b518d4 : mm-video-v4l2: vdec: Remove DivxDrm Decrypt support <Abdulla Anam> 1 year, 10 months ago
+a0a4751 : mm-video: Remove old video component <Shalaj Jain> 2 years, 8 months ago
+6f63bab : mm-video-v4l2: vdec: allocate secure buffer as native_handle <Praveen Chavan> 11 months ago
+0709eec : omx_venc: Handle output buffer parameter in secure mode <Vikash Garodia> 8 months ago
+64ab009 : libstagefrighthw: Remove padding in encoder_nativehandle_buffer_type <Surajit Podder> 9 months ago
+91560c0 : mm-video-v4l2: venc: update metadata-type used for HAL1 based recording <Praveen Chavan> 11 months ago
+833f262 : DO NOT MERGE mm-video-v4l2: venc: add checks before  accessing heap pointers <Praveen Chavan> 8 months ago
+98fc0bf : DO NOT MERGE Fix wrong nAllocLen <Wonsik Kim> 8 months ago
+90d68f7 : mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states <Praveen Chavan> 11 months ago
+b8fddb8 : mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states <Praveen Chavan> 11 months ago
+974b8f9 : mm-video-v4l2: venc: add safety checks for freeing buffers <Praveen Chavan> 11 months ago
+ac2d333 : mm-video-v4l2: vidc: validate omx param/config data <Praveen Chavan> 11 months ago
+e38e96b : mm-video-v4l2: vdec: add safety checks for freeing buffers <Praveen Chavan> 11 months ago
+97efe7e : Revert "mm-video-v4l2: vidc: venc: Update color conversion decision" <Srinu Gorle> 1 year, 7 months ago
+3e6d314 : mm-video-v4l2: venc: Accept Venus color format in opaque mode <Praveen Chavan> 2 years, 3 months ago
+67dc1b7 : mm-video-v4l2: vidc: venc: Update color conversion decision <Ashray Kulkarni> 2 years, 2 months ago
+ 
+**** vanir:hardware_samsung ****
+d9106e9 : power: Cleanup touchkey handling <Christopher N. Hesse> 5 days ago
+f154b17 : lights: Add a log tag <Christopher N. Hesse> 4 days ago
+209f5de : lights: Cleanup read/write API <Christopher N. Hesse> 4 days ago
+b5b9500 : lights: Remove superfluous log newlines <Christopher N. Hesse> 4 days ago
+ 
+**** cmold:android_kernel_google_msm ****
+880acd2 : net/llc: avoid BUG_ON() in skb_orphan() <Eric Dumazet> 3 weeks ago
+295c49b : sctp: deny peeloff operation on asocs with threads sleeping on it <Marcelo Ricardo Leitner> 13 days ago
+1fcace8 : sctp: avoid BUG_ON on sctp_wait_for_sndbuf <Marcelo Ricardo Leitner> 4 weeks ago
+a2b0679 : ALSA: pcm : Call kill_fasync() in stream lock <Takashi Iwai> 11 months ago
+602366c : ALSA: Remove transfer_ack_{begin,end} callbacks from struct snd_pcm_runtime <Lars-Peter Clausen> 1 year, 5 months ago
+97b270d : ASoC: msm: lock read/write when add/free audio ion memory <Walter Yang> 5 months ago
+939a436 : mac80211: fix fragmentation code, particularly for encryption <Johannes Berg> 3 years, 1 month ago
+ce82f8d : l2tp: fix racy SOCK_ZAPPED flag check in l2tp_ip{,6}_bind() <Guillaume Nault> 4 months ago
+a374828 : msm: kgsl: Change %p to %pK in debug messages <Divya Ponnusamy> 7 months ago
+dae4a6d : ecryptfs: don't allow mmap when the lower fs doesn't support it <Jeff Mahoney> 8 months ago
+e0dd30e : ext4: validate s_first_meta_bg at mount time <Eryu Guan> 3 months ago
+a8c9068 : BACKPORT: aio: mark AIO pseudo-fs noexec <Nick Desaulniers> 4 months ago
+bab8f03 : isofs: Fix infinite looping over CE entries <Jan Kara> 2 years, 3 months ago
+f0dbe03 : mm: avoid setting up anonymous pages into file mapping <Kirill A. Shutemov> 1 year, 8 months ago
+3160f3d : msm: crypto: Fix integer over flow check in qce driver <Zhen Kong> 5 months ago
+ 
+**** cmold:android_kernel_htc_msm8960 ****
+7d516b7 : ville: defconfig: Enable CONFIG_INET_DIAG_DESTROY <Pavel Malyutin> 9 days ago
+ 
+**** cmold:android_kernel_huawei_kiwi ****
+5c275f9 : tcp: avoid infinite loop in tcp_splice_read() <Eric Dumazet> 7 days ago
+a1905f9 : ipc/shm: Fix shmat mmap nil-page protection <Davidlohr Bueso> 7 days ago
+ 
+**** cmold:android_kernel_lge_g3 ****
+499427b : BACKPORT: perf: Allow the PMU driver to choose the CPU on which to install events <Yan, Zheng> 4 years, 9 months ago
+11c2ed3 : msm: mdss: hide kernel addresses from unprevileged users <Abhijit Kulkarni> 9 months ago
+08e1402 : msm: sensor: validate the i2c table index before use <Suman Mukherjee> 6 months ago
+f60d85f : soc: qcom: smp2p: Fix kernel address leak <Karthikeyan Ramasubramanian> 7 months ago
+d01a683 : qseecom: validate the inputs of __qseecom_send_modfd_resp <Zhen Kong> 8 months ago
+55f58e8 : drivers: soc: Add buffer overflow check for svc send request <Josh Kirsch> 8 weeks ago
+6acd0a1 : net: ipc_router: fix NULL pointer de-reference issue <Arun Kumar Neelakantam> 7 days ago
+4a2c2a9 : msm: crypto: Fix integer over flow check in qcedev driver <Zhen Kong> 7 months ago
+2a4708a : qcedev: Validate Source and Destination addresses <Biswajit Paul> 6 months ago
+a55dff6 : ASoC: wcd9xxx: Fix unprotected userspace access <Patrick Daly> 1 year, 9 months ago
+9db14df : wlan: Address buffer overflow due to invalid length <Mahesh A Saptasagar> 1 year, 4 months ago
+1db5432 : ASoC: msm-lsm-client: free lsm client data in msm_lsm_close <Vidyakumar Athota> 1 year, 3 months ago
+77465dc : perf: Fix race in swevent hash <Peter Zijlstra> 1 year, 3 months ago
+11403be : [PATCH] arm: fix handling of F_OFD_... in oabi_fcntl64() <Al Viro> 1 year, 2 months ago
+6d04eb8 : BACKPORT: aio: mark AIO pseudo-fs noexec <Nick Desaulniers> 4 months ago
+7c2802e : ext4: validate s_first_meta_bg at mount time <Eryu Guan> 3 months ago
+0fd226a : ecryptfs: don't allow mmap when the lower fs doesn't support it <Jeff Mahoney> 8 months ago
+bba9332 : msm: kgsl: Cast perfcounter query count to an unsigned int <Sunil Khatri> 1 year, 9 months ago
+d71b50e : nf: IDLETIMER: Adds the uid field in the msg <Ruchi Kandoi> 1 year, 11 months ago
+fd80d99 : nf: IDLETIMER: time-stamp and suspend/resume handling. <Ruchi Kandoi> 2 years, 11 months ago
+ 
+**** cmold:android_kernel_lge_hammerhead ****
+b9a331c : __ptrace_may_access() should not deny sub-threads <Mark Grondona> 3 years, 6 months ago
+ 
+**** vanir:kernel_moto_shamu ****
+6f21928 : Revert "Revert "Revert "Fix backend connection to FE upon call disconnection""" <Eric Laurent> 8 weeks ago
+7913d3d : msm: crypto: fix issues on digest buf and copy_from_user in qcedev.c <Zhen Kong> 4 months ago
+5213c4e : msm: camera: sensor: Validate eeprom_name string length <guyang> 3 months ago
+ab805e7 : msm: cpp: Fix for buffer overflow in cpp. <Krishnankutty Kolathappilly> 4 months ago
+62ea214 : msm: camera: fix bound check of offset to avoid overread overwrite <Krishnankutty Kolathappilly> 4 months ago
+e2cf4d4 : ANDROID: ion: check for kref overflow <Daniel Rosenberg> 3 months ago
+9b7a68e : msm: kgsl: Reserve a context ID slot but don't populate immediately <Steve Pfetsch> 8 weeks ago
+a6f8e71 : net: rmnet_data: Fix incorrect netlink handling <Subash Abhinov Kasiviswanathan> 8 weeks ago
+6dcf933 : UPSTREAM: l2tp: fix racy SOCK_ZAPPED flag check in l2tp_ip{,6}_bind() <Guillaume Nault> 4 months ago
+84844d7 : UPSTREAM: net: avoid signed overflows for SO_{SND|RCV}BUFFORCE <Eric Dumazet> 3 months ago
+c086d7e : UPSTREAM: packet: fix race condition in packet_set_ring <Philip Pettersson> 3 months ago
+113dec7 : msm: ipa: Update IPA rule temp buffer size <Biswajit Paul> 8 weeks ago
+aec115b : net: ipc_router: Register services only on client port <Karthikeyan Ramasubramanian> 3 months ago
+ 
+**** cmold:android_kernel_oppo_msm8974 ****
+f7bd50e : dm-req-crypt: properly close the current device <Hendrik Hagendorn> 3 weeks ago
+ 
+**** cmold:android_kernel_samsung_smdk4412 ****
+d8fd4d5 : t0lte: Enable RPFILTER <Jason Lu> 2 days ago
+ 
+**** vanir:platform_manifest ****
+ad814ba : We use it for AptX binaries, Revert "qcom/binaries is deprecated" <DHOMD> 26 hours ago
+30c5115 : qcom/binaries is deprecated <nuclearmistake> 28 hours ago
+6367526 : manifest: android-7.1.1_r21 -> android-7.1.1_r25 <Dan Pasanen> 2 days ago
+ 
+**** vanir:packages_apps_CertInstaller ****
+5b2771b : WifiInstaller: add permission for access downloaded files <Peter Qiu> 5 weeks ago
+85933f4 : WifiInstaller: remove the installation file <Peter Qiu> 3 months ago
+ 
+**** vanir:packages_apps_DeskClock ****
+03853f7 : DeskClock: fix ringtones stored on /sdcard/Alarms <gismo2004> 3 weeks ago
+ 
+**** cm:LineageOS/android_packages_apps_FlipFlap ****
+32cefb9 : Automatic translation import <Michael W> 6 days ago
+ 
+**** vanir:packages_apps_Messaging ****
+b9afc7b : 32764144 Security Vulnerability - heap buffer overflow in libgiftranscode.so in colorMap->Colors[colorIndex] <Tom Taylor> 8 weeks ago
+1981ec4 : 33388925  Mismatched new vs delete in framesequence library <Tom Taylor> 9 weeks ago
+ 
+**** vanir:packages_apps_PackageInstaller ****
+9f44b89 : Prioritize package installer intent filter <Philip P. Moltmann> 3 months ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+eca1813 : PhoneCommon: Another round of qtistring fixes <Michael W> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Snap ****
+404e429 : Snap: grant android.permission.RECEIVE_BOOT_COMPLETED permisions <Martin Bouchet> 23 hours ago
+ 
+**** github:substratum/masquerade ****
+e9e6979 : Welcome to Theme Interfacer! [1/2] <George G> 4 days ago
+ 
+**** vanir:packages_services_Telephony ****
+22b291e : Telephony: Fix mobile network settings for CDMA without LTE <Gabriele M> 5 months ago
+ 
+**** commotio:commotio ****
+8c8b94c : Fingerprints and 131 bump <DHOMD> 14 hours ago
+ 
+**** vanir:vendor_huawei ****
+382c99d : angler: Update blobs for N4F26T <nuclearmistake> 28 hours ago
+ 
+**** vanir:vendor_lge ****
+d46f911 : I think we need msm8996-common for v20 <DHOMD> 2 days ago
+8b5bc8f : g5/v20/msm8996: Cleanup v20 blobs and decommonize fingerprint blobs <Rashed Abdel-Tawab> 4 days ago
+ 
+**** vanir:vendor_motorola ****
+a089dc8 : msm8916-common: Commonize Adreno 4xx blobs <Alberto97> 6 days ago
+eece5d4 : msm8610-common: move graphics blobs back here <Sultan Qasim Khan> 4 days ago
+6e0ac0d : msm8916-common: Update netmgr blobs from addison (NPN25.137-24-1) <Alberto97> 7 days ago
+413a510 : msm8916-common: Remove rfs_access <Alberto97> 6 days ago
+ 
+**** vanir:vendor_qcom_binaries ****
+f4a72b4 : Remove adreno blobs... but keep the bluetooth <DHOMD> 2 days ago
+ 
+**** vanir:vendor_vanir ****
+d4440f4 : Fix sailfish <nuclearmistake> 28 hours ago
+c4eb188 : Update fingerprints <nuclearmistake> 28 hours ago
+fde8ddc : apns: Add Perfectum <Gabriele M> 5 days ago
+ 
