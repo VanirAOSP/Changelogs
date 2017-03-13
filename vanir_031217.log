@@ -1,0 +1,201 @@
+
+**** vanir:build ****
+328a212 : Build hacks <DHOMD> 5 months ago
+ 
+**** vanir:device_google_marlin ****
+03bab5f : Add a proper barrier and use vendor/caf/telephony <DHOMD> 2 hours ago
+043a815 : Revert "marlin: disable our local telephony extensions" <DHOMD> 3 hours ago
+ 
+**** vanir:device_huawei_kiwi ****
+1c69519 : IPreachability is depreciated <DHOMD> 6 hours ago
+5344c2f : Allow f2fs kernel permitting <DHOMD> 6 hours ago
+ 
+**** vanir:device_motorola_msm8226-common ****
+3ec7f5f : Revert "overlay: Enable IP reachability monitor" <Gabriele M> 13 hours ago
+ 
+**** vanir:device_motorola_omap4-common ****
+7609dfb : omap4-common: remove overlay for ipreachability-monitor <Michael Gernoth> 13 hours ago
+a2b68aa : omap4-common: get rid of custom ota_from_target_files <Michael Gernoth> 9 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+724efd6 : Otus: Fix FM Radio <DHOMD> 7 weeks ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+e437a32 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 4 months ago
+ 
+**** vanir:device_samsung_klte ****
+9edc6f2 : klte: Split GSM and VZW blob lists into seperate files <Kevin F. Haggerty> 9 hours ago
+f3be99c : klte: Use klte-common releasetools extension <Kevin F. Haggerty> 12 days ago
+175ddd7 : klte: Update blob list to hold by-variant QC Framework/RIL blobs <Kevin F. Haggerty> 2 weeks ago
+f97f2dc : klte: README: Update desc to add kltevzw variants <Kevin F. Haggerty> 3 weeks ago
+c5e485d : klte: Add kltevzw to TARGET_OTA_ASSERT_DEVICE guard in BoardConfig.mk <Kevin F. Haggerty> 3 weeks ago
+3ea5d50 : klte: overlay: Import CarrierConfig overlay <Kevin F. Haggerty> 3 weeks ago
+11f0b9f : klte: overlay: Add CDMA tech to config_radio_access_family <Kevin F. Haggerty> 3 weeks ago
+ccc5dda : klte: libinit: Remove vestigal properties <Kevin F. Haggerty> 3 weeks ago
+fcfd7e6 : klte: libinit: Add initial CDMA support <Kevin F. Haggerty> 3 weeks ago
+ 
+**** vanir:device_samsung_klte-common ****
+807302a : klte-common: extract-files: Loop through device blob lists <Kevin F. Haggerty> 9 hours ago
+815710a : klte-common: setup-makefiles: Loop through device blob lists <Kevin F. Haggerty> 9 hours ago
+a27086a : klte-common: Add releasetools extension to install variant blobs <Kevin F. Haggerty> 7 days ago
+020350a : klte-common: sepolicy: Add file_contexts entries for variant blobs <Kevin F. Haggerty> 12 days ago
+ 
+**** cm:LineageOS/android_device_samsung_noblelte-common ****
+e21cc6a : noblelte: Declare separated DT image <Christopher N. Hesse> 24 hours ago
+5e12caa : noblelte: Set NCI HAL module for NFC <Christopher N. Hesse> 1 year, 6 months ago
+ 
+**** vanir:frameworks_base ****
+19b61ba : Revert "Wifi: Introduce a config parameter for IpReachabilityMonitor" <Gabriele M> 3 days ago
+ 
+**** vanir:frameworks_opt_net_wifi ****
+2c25264 : WifiStateMachine: Probe neighbours only when roaming <Gabriele M> 5 days ago
+0c8a819 : WifiStateMachine: Revert IpReachabilityMonitor handling changes <Gabriele M> 5 days ago
+ 
+**** cm:LineageOS/android_hardware_intel_img_psb_video ****
+ce7f070 : psb_video: fix video encoding on clovertrail once again <Flex1911> 32 hours ago
+ 
+**** aosp:platform/hardware/qcom/bootctrl ****
+0a8485b : bootctl: use TARGET_RECOVERY_UPDATER_LIBS macro for linking <Dan Pasanen> 2 months ago
+2aa691b : bootcontrol: Only compile when the A/B feature is enabled <Ameya Thakur> 6 months ago
+2f9e1a0 : bootcontrol: Reduce the number of writes in the set active slot function <Ameya Thakur> 9 months ago
+cc1b52c : bootcontrol: Update a check in set_active_boot_slot <Ameya Thakur> 10 months ago
+369d683 : bootctrl: Fix implementation of get_current_slot <Ameya Thakur> 10 months ago
+c14fff0 : bootctrl: Initial commit for the boot control HAL <Ameya Thakur> 1 year, 1 month ago
+11d0a1a : init empty file <Linux Build Service Account> 12 months ago
+ 
+**** cmold:android_kernel_htc_flounder ****
+03d3ef6 : flounder: regen defconfig for N4F26T changes <razorloves> 2 days ago
+ 
+**** cmold:android_kernel_huawei_kiwi ****
+e3e7680 : fs: Add f2fs <Louis Popi> 3 weeks ago
+ 
+**** cmold:android_kernel_lge_hammerhead ****
+ae24004 : BACKPORT: mm: avoid setting up anonymous pages into file mapping <Yuan Lin> 4 months ago
+2a25596 : ASoC: msm: lock read/write when add/free audio ion memory <Walter Yang> 8 weeks ago
+76c9ae6 : tracing/syscalls: Fix perf syscall tracing when syscall_nr == -1 <Will Deacon> 4 years, 7 months ago
+9d5fd29c : netfilter: nf_conntrack_dccp: fix skb_header_pointer API usages <Daniel Borkmann> 3 years, 2 months ago
+a1cf7c4 : mnt: Only change user settable mount flags in remount <Eric W. Biederman> 2 years, 7 months ago
+9c2e6c0 : net: guard tcp_set_keepalive() to tcp sockets <Eric Dumazet> 4 years, 6 months ago
+6162c63 : ecryptfs: don't allow mmap when the lower fs doesn't support it <Jeff Mahoney> 8 months ago
+ 
+**** cmold:android_kernel_motorola_msm8992 ****
+8291640 : ASoC: check for null function pointer for dummy device read/write, take 2 <Yuan Lin> 5 months ago
+7a3d7ee : ASoC: check for null function pointer for dummy device read/write <Yuan Lin> 7 months ago
+dcd2666 : drivers: video: Add bounds checking in fb_cmap_to_user <Steve Pfetsch> 5 months ago
+0cb73b4 : sctp: deny peeloff operation on asocs with threads sleeping on it <Marcelo Ricardo Leitner> 3 weeks ago
+70b9e01 : net/llc: avoid BUG_ON() in skb_orphan() <Eric Dumazet> 4 weeks ago
+e398d56 : BACKPORT: tcp: avoid infinite loop in tcp_splice_read() <Eric Dumazet> 5 weeks ago
+ab2b82b : dccp: fix freeing skb too early for IPV6_RECVPKTINFO <Andrey Konovalov> 3 weeks ago
+7ff0ad5 : perf/core: Fix concurrent sys_perf_event_open() vs. 'move_group' race <Peter Zijlstra> 9 weeks ago
+882e6aa : perf: Clean up spaces and fix mismerge <Pranav Vashi> 7 weeks ago
+4554746 : sctp: avoid BUG_ON on sctp_wait_for_sndbuf <Marcelo Ricardo Leitner> 5 weeks ago
+e1afb65 : clark: remove CONFIG_TIMER_STATS <chrmhoffmann> 11 hours ago
+6f6c066 : time: Remove CONFIG_TIMER_STATS <Kees Cook> 5 weeks ago
+a21bf7a : ipc/shm: Fix shmat mmap nil-page protection <Davidlohr Bueso> 5 weeks ago
+c77dda2 : BACKPORT: posix_acl: Clear SGID bit when setting file permissions <Jan Kara> 6 months ago
+32a3320 : tty: n_hdlc: get rid of racy n_hdlc.tbuf <Alexander Popov> 11 days ago
+dc3335c : TTY: n_hdlc, fix lockdep false positive <Jiri Slaby> 1 year, 4 months ago
+0f01187 : ion: Fix use after free during ION_IOC_ALLOC <Daniel Rosenberg> 4 months ago
+d549820 : msm: camera: sensor: Validate eeprom_name string length <guyang> 3 months ago
+e9315bf : msm: camera: fix bound check of offset to avoid overread overwrite <Krishnankutty Kolathappilly> 4 months ago
+9b29288 : ANDROID: ion: check for kref overflow <Daniel Rosenberg> 3 months ago
+b69995e : uapi: lsm_params: Add support for listen output format <Bhalchandra Gajare> 1 year, 10 months ago
+177c972 : uapi: lsm_params: Add interface to support module parameters <Bhalchandra Gajare> 2 years, 1 month ago
+253f27d : uapi: lsm_params: Deprecate listen v1.0 related API's <Bhalchandra Gajare> 2 years, 1 month ago
+84630f0 : mpi: Fix NULL ptr dereference in mpi_powm() [ver #3] <Andrey Ryabinin> 4 months ago
+6bc0b68 : ASoC: msm-lsm-client: cleanup ioctl functions <Nick Desaulniers> 9 weeks ago
+1f9f6cd : qdsp6v2: blacklist %p kptr_restrict <Nick Desaulniers> 5 months ago
+4cd8045 : ASoC: msm-lsm-client: free lsm client data in msm_lsm_close <vivek mehta> 7 months ago
+6c21581 : ASoC: msm-lsm-client: Validate size sent from userspace <Bhalchandra Gajare> 1 year, 9 months ago
+117420c : ASoC: msm-lsm-client: Fix null pointer dereference <Bhalchandra Gajare> 1 year, 11 months ago
+16db236 : ASoC: qdsp6v2: Add LSM opendsp support <Bhalchandra Gajare> 2 years, 1 month ago
+0940bf6 : ASoC: msm: Add LSM topology & custom topology <Ben Romberger> 2 years, 3 months ago
+e023901 : ASoC: msm-lsm-client: Fix issue with buffer de-allocation <Bhalchandra Gajare> 2 years, 1 month ago
+a60fcb7 : ASoC: qdsp6v2: Cleanup of lsm drivers <Bhalchandra Gajare> 2 years, 1 month ago
+585fb16 : ASoC: msm-lsm-client: Remove support for listen v1.0 <Bhalchandra Gajare> 2 years, 1 month ago
+2b06300 : msm: vidc: WARN_ON() reveals fuction addresses <Biswajit Paul> 4 months ago
+50ccee5 : UPSTREAM: l2tp: fix racy SOCK_ZAPPED flag check in l2tp_ip{,6}_bind() <Guillaume Nault> 4 months ago
+befb1b1 : msm: ADSPRPC: Buffer length truncated while validation <Biswajit Paul> 3 months ago
+4104690 : msm: ADSPRPC: Buffer length to be copied is truncated <Biswajit Paul> 3 months ago
+1892c72 : net: rmnet_data: Fix incorrect netlink handling <Subash Abhinov Kasiviswanathan> 8 weeks ago
+2a4b2fa : net: ipc_router: Register services only on client port <Karthikeyan Ramasubramanian> 3 months ago
+10af220 : BACKPORT: msm-core: use get_user() API to read userspace data/settings <Yuan Lin> 8 weeks ago
+adc9ce8 : msm: kgsl: Reserve a context ID slot but don't populate immediately <Bulbul Dabi> 10 months ago
+d71a0ec : msm: ipa: Prevent multiple header deletion from user space <Biswajit Paul> 8 weeks ago
+7e5dd5d : msm: ipa: Update IPA rule temp buffer size <Biswajit Paul> 9 weeks ago
+fbb7032 : drivers: soc: add size checks and update log messages <Siena Richard> 5 months ago
+c07539e : Kconfig: msm: disable ultrasound driver <Nick Desaulniers> 3 months ago
+51df478 : fs/proc/array.c: make safe access to group_leader <Adrian Salido> 3 months ago
+457363b : ALSA: info: Check for integer overflow in snd_info_entry_write() <Siqi Lin> 4 months ago
+94dcdda : netlink: Fix dump skb leak/double free <Herbert Xu> 10 months ago
+d490efa : netlink: Eliminate kmalloc in netlink dump operation. <Pravin B Shelar> 3 years, 7 months ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+dbc16c5 : sched: fix duplicated include <OzzysCmAcc> 4 days ago
+7ae4d66 : Linux 3.4.105 <Zefan Li> 2 years, 3 months ago
+5c02bf3 : l2tp: fix race while getting PMTU on PPP pseudo-wire <Guillaume Nault> 2 years, 6 months ago
+d45b10d : ixgbevf: Prevent RX/TX statistics getting reset to zero <Narendra K> 4 years, 8 months ago
+1880868 : net: Do not enable tx-nocache-copy by default <Benjamin Poirier> 3 years, 2 months ago
+76fce03 : ipv6: reuse ip6_frag_id from ip6_ufo_append_data <Hannes Frederic Sowa> 3 years, 1 month ago
+7c50cf4 : rtl8192ce: Fix null dereference in watchdog <Ben Hutchings> 2 years, 11 months ago
+9f66fab : ipv4: disable bh while doing route gc <Marcelo Ricardo Leitner> 2 years, 5 months ago
+ad2f381 : ipv4: avoid parallel route cache gc executions <Marcelo Ricardo Leitner> 2 years, 7 months ago
+e1dbbf9 : ipv4: move route garbage collector to work queue <Marcelo Ricardo Leitner> 2 years, 7 months ago
+f4e4f44 : Fix spurious request sense in error handling <James Bottomley> 3 years ago
+f703fe9 : dm crypt: fix access beyond the end of allocated space <Mikulas Patocka> 2 years, 6 months ago
+c96411b : bluetooth: hci_ldisc: fix deadlock condition <Felipe Balbi> 2 years, 11 months ago
+96852db : perf: Handle compat ioctl <Pawel Moll> 2 years, 9 months ago
+50a5c42 : NFS: fix stable regression <Sergio Gelato> 2 years, 5 months ago
+48418f0 : ext4: avoid trying to kfree an ERR_PTR pointer <Theodore Ts'o> 2 years, 6 months ago
+0475ac7 : ext4: propagate errors up to ext4_find_entry()'s callers <Theodore Ts'o> 2 years, 7 months ago
+ccc37be1 : nl80211: clear skb cb before passing to netlink <Johannes Berg> 2 years, 7 months ago
+65f29f8 : genhd: fix leftover might_sleep() in blk_free_devt() <Jens Axboe> 2 years, 6 months ago
+59eeba0 : init/Kconfig: Hide printk log config if CONFIG_PRINTK=n <Josh Triplett> 2 years, 5 months ago
+7b18b75 : perf: fix perf bug in fork() <Peter Zijlstra> 2 years, 5 months ago
+1da5008 : mm: migrate: Close race between migration completion and mprotect <Mel Gorman> 2 years, 5 months ago
+c13b50b : ARM: 8165/1: alignment: don't break misaligned NEON load/store <Robin Murphy> 2 years, 6 months ago
+6607313 : shmem: fix nlink for rename overwrite directory <Miklos Szeredi> 2 years, 6 months ago
+154745d : ocfs2/dlm: do not get resource spinlock if lockres is new <Joseph Qi> 2 years, 6 months ago
+08aa99d : nilfs2: fix data loss with mmap() <Andreas Rohner> 2 years, 6 months ago
+a7b6c69 : MIPS: mcount: Adjust stack pointer for static trace in MIPS32 <Markos Chandras> 2 years, 6 months ago
+1f9aecf : cpuset: PF_SPREAD_PAGE and PF_SPREAD_SLAB should be atomic flags <Zefan Li> 2 years, 6 months ago
+6611bfe : sched: add macros to define bitops for task atomic flags <Zefan Li> 2 years, 6 months ago
+5610f59 : sched: Fix unreleased llc_shared_mask bit during CPU hotplug <Wanpeng Li> 2 years, 6 months ago
+5c9dc9e : parisc: Only use -mfast-indirect-calls option for 32-bit kernel builds <John David Anglin> 2 years, 6 months ago
+4685795 : Fix nasty 32-bit overflow bug in buffer i/o code. <Anton Altaparmakov> 2 years, 6 months ago
+68ac81f : ALSA: pcm: fix fifo_size frame calculation <Clemens Ladisch> 2 years, 6 months ago
+15fd827 : can: at91_can: add missing prepare and unprepare of the clock <David Dueck> 2 years, 6 months ago
+15b45ec : can: flexcan: put TX mailbox into TX_INACTIVE mode after tx-complete <Marc Kleine-Budde> 2 years, 6 months ago
+2ba8fae : can: flexcan: implement workaround for errata ERR005829 <David Jander> 2 years, 6 months ago
+45008c2 : can: flexcan: correctly initialize mailboxes <David Jander> 2 years, 7 months ago
+7c327aa : can: flexcan: mark TX mailbox as TX_INACTIVE <Marc Kleine-Budde> 2 years, 6 months ago
+dde9f68 : USB: storage: Add quirks for Entrega/Xircom USB to SCSI converters <Mark> 2 years, 6 months ago
+cbd97e6 : USB: storage: Add quirk for Ariston Technologies iConnect USB to SCSI adapter <Mark> 2 years, 6 months ago
+7c2bc9d : USB: storage: Add quirk for Adaptec USBConnect 2000 USB-to-SCSI Adapter <Mark> 2 years, 6 months ago
+94e7324 : libiscsi: fix potential buffer overrun in __iscsi_conn_send_pdu <Mike Christie> 2 years, 6 months ago
+59ca632 : NFSv4: Fix another bug in the close/open_downgrade code <Trond Myklebust> 2 years, 6 months ago
+407e3c0 : iscsi-target: avoid NULL pointer in iscsi_copy_param_list failure <Joern Engel> 2 years, 6 months ago
+57d4f56 : iscsi-target: Fix memory corruption in iscsit_logout_post_handler_diffcid <Nicholas Bellinger> 2 years, 6 months ago
+155e74e : Input: i8042 - add nomux quirk for Avatar AVIU-145A6 <Hans de Goede> 2 years, 6 months ago
+ab681c5 : Input: i8042 - add Fujitsu U574 to no_timeout dmi table <Hans de Goede> 2 years, 6 months ago
+d1aa337 : ASoC: samsung-i2s: Check secondary DAI exists before referencing <Charles Keepax> 2 years, 6 months ago
+97ac95c : perf: Fix a race condition in perf_remove_from_context() <Cong Wang> 2 years, 6 months ago
+5c2f241 : MIPS: ZBOOT: add missing <linux/string.h> include <Aurelien Jarno> 2 years, 8 months ago
+ 
+**** cmold:android_kernel_samsung_smdk4412 ****
+a3e83f2 : proc: actually make proc_fd_permission() thread-friendly <Oleg Nesterov> 1 year, 4 months ago
+6c178ff : proc: make proc_fd_permission() thread-friendly <Oleg Nesterov> 3 years, 6 months ago
+ 
+**** vanir:platform_manifest ****
+d48becb : Revert "Revert " Revert "Test AOPT""" <DHOMD> 2 hours ago
+75f348f : Follow LNG bootctrl <DHOMD> 3 hours ago
+ 
+**** commotio:commotio ****
+b6991b6 : Fixup sailfish <DHOMD> 2 hours ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+145b4fc : Add a barrier for Marlin/Sailfish <DHOMD> 3 hours ago
+ 
+**** vanir:vendor_samsung ****
+27fbffc : klte: Updates for unified build <Kevin F. Haggerty> 12 days ago
+ 
