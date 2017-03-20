@@ -2,6 +2,13 @@
 **** vanir:bionic ****
 08aff0d : linker: Allow devices to force shim libs <Christopher R. Palmer> 3 days ago
  
+**** vanir:build ****
+9bba85e : Build hacks <DHOMD> 5 months ago
+ 
+**** vanir:device_google_marlin ****
+7b76c4d : Add a proper barrier and use vendor/caf/telephony <DHOMD> 7 days ago
+f86d8cc : Revert "marlin: disable our local telephony extensions" <DHOMD> 7 days ago
+ 
 **** vanir:device_htc_s4-common ****
 e5bc319 : s4-common: cleanup unused inits <Pavel Malyutin> 3 days ago
  
@@ -20,6 +27,9 @@ c9f9cac : ls980: rebrand cm->lineage <Dan Pasanen> 4 days ago
 33cdd58 : Revert "omap4-common: libpower: add POWER_HINT_CPU_BOOST and fix locking" <DHOMD> 2 days ago
 6297e48 : Revert "libpower: check if POWER_HINT_CPU_BOOST is defined" <DHOMD> 2 days ago
  
+**** cm:LineageOS/android_device_motorola_otus ****
+f14053d : Otus: Fix FM Radio <DHOMD> 8 weeks ago
+ 
 **** vanir:device_motorola_qcom-common ****
 a7ea1e0 : cm.dependencies -> lineage.dependencies <Sean McCreary> 3 weeks ago
  
@@ -27,6 +37,9 @@ a7ea1e0 : cm.dependencies -> lineage.dependencies <Sean McCreary> 3 weeks ago
 58774d2 : op3: Update to OxygenOS 4.1.0 blobs <dianlujitao> 3 days ago
 76a6b9e : op3: Adjust auto brightness levels <dianlujitao> 5 days ago
 7944926 : op3: Clean up camera shim library <dianlujitao> 4 days ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+440fb35 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 4 months ago
  
 **** vanir:device_samsung_klte-common ****
 b7ad52f : klte-common: proprietary-files: Update Widevine blob list <Kevin F. Haggerty> 4 days ago
@@ -224,7 +237,7 @@ ff3d0d8 : Bluetooth: AIRPLANE_MODE_ON has moved <Michael W> 3 weeks ago
 24227ad : contacts: Add support for import contacts to local phone storage <Jorge Ruesga> 3 years, 1 month ago
  
 **** vanir:packages_apps_ContactsCommon ****
-5297f88 : AccountType: use a pretty phone account icon for local storage account <Dan Pasanen> 3 days ago
+5297f88 : AccountType: use a pretty phone account icon for local storage account <Dan Pasanen> 4 days ago
 f4b1156 : SelectAccountActivity : Support local phone account <Rohit Yengisetty> 1 year, 8 months ago
 49714bf : Add local phone account as a writable AccountTypes. <Matt Garnes> 1 year, 9 months ago
 a6e03ca : Store all local contacts in only one account. <Matt Garnes> 2 years ago
@@ -234,7 +247,7 @@ eef759c : contacts-common: Add support for import contacts to local phone storag
 019704c : Dialer: AIRPLANE_MODE_ON has moved <Michael W> 3 weeks ago
  
 **** vanir:packages_apps_Messaging ****
-8bc6094 : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 5 days ago
+2365136 : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 5 days ago
  
 **** vanir:packages_apps_Settings ****
 95c0f7d : AppOpsDetails: Check app permissions safely <Gabriele M> 4 days ago
@@ -252,6 +265,9 @@ f6c9974 : Telephony: AIRPLANE_MODE_ON has moved <Michael W> 3 weeks ago
 **** github:TheMuppets/proprietary_vendor_oppo ****
 2849286 : msm8974: Regenerate makefiles <Michael Bestas> 2 days ago
 a9449e1 : msm8939: Regenerate makefiles <Michael Bestas> 2 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+bb24019 : Add a barrier for Marlin/Sailfish <DHOMD> 7 days ago
  
 **** vanir:vendor_vanir ****
 5654231 : Fix maserati...again <DHOMD> 29 hours ago
