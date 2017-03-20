@@ -1,0 +1,266 @@
+
+**** vanir:bionic ****
+08aff0d : linker: Allow devices to force shim libs <Christopher R. Palmer> 3 days ago
+ 
+**** vanir:device_htc_s4-common ****
+e5bc319 : s4-common: cleanup unused inits <Pavel Malyutin> 3 days ago
+ 
+**** cm:LineageOS/android_device_lge_d850 ****
+aa86fea : d850: Package libmdmdetect and libperipheral_client <Hendrik Hagendorn> 3 months ago
+49a5bf3 : d850: move to source-built libril <Dan Pasanen> 6 months ago
+2b4a131 : d850: use pad instead of misc for recovery commands <Dan Pasanen> 4 months ago
+713cc2e : d850: set cache partition size <bryan2894> 6 days ago
+c538547 : d850: Add BOARD_HAVE_QCOM_FM flag <ZedTheYeti> 3 weeks ago
+2c4e2e5 : d850: bluetooth: set qualcomm soc <Hendrik Hagendorn> 5 months ago
+ 
+**** vanir:device_lge_ls980 ****
+c9f9cac : ls980: rebrand cm->lineage <Dan Pasanen> 4 days ago
+ 
+**** vanir:device_motorola_omap4-common ****
+33cdd58 : Revert "omap4-common: libpower: add POWER_HINT_CPU_BOOST and fix locking" <DHOMD> 2 days ago
+6297e48 : Revert "libpower: check if POWER_HINT_CPU_BOOST is defined" <DHOMD> 2 days ago
+ 
+**** vanir:device_motorola_qcom-common ****
+a7ea1e0 : cm.dependencies -> lineage.dependencies <Sean McCreary> 3 weeks ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+58774d2 : op3: Update to OxygenOS 4.1.0 blobs <dianlujitao> 3 days ago
+76a6b9e : op3: Adjust auto brightness levels <dianlujitao> 5 days ago
+7944926 : op3: Clean up camera shim library <dianlujitao> 4 days ago
+ 
+**** vanir:device_samsung_klte-common ****
+b7ad52f : klte-common: proprietary-files: Update Widevine blob list <Kevin F. Haggerty> 4 days ago
+ 
+**** vanir:device_samsung_kona-common ****
+75f770b : kona : update codec list <RGIB> 4 months ago
+ 
+**** cm:LineageOS/android_device_samsung_nobleltetmo ****
+ea0f37c : nobleltetmo: Update baseband init script from N <Christopher N. Hesse> 3 days ago
+ 
+**** vanir:device_samsung_smdk4412-common ****
+e099c0d : smdk4412-common: Move config_useWakelockForFlashlight <Paul Keith> 2 days ago
+ 
+**** vanir:device_yu_lettuce ****
+84890ae : lettuce : Update compass properly <Rohit Kumar> 7 months ago
+a1a0046 : QCamera2: Changes to release video duped FD's. <Suman Mukherjee> 3 months ago
+ 
+**** vanir:device_yu_tomato ****
+e480551 : QCamera2: Changes to release video duped FD's. <Suman Mukherjee> 3 months ago
+ 
+**** vanir:frameworks_base ****
+319e8f6 : ThemeSafety: Introduce App Crash Intent <Ivan Iskandar> 11 days ago
+47a42bf : Move wakelock option for flashlight to CameraManager. <Dominggoes Isakh> 3 weeks ago
+ad1ea62 : SingleHandWindow: Allow locking the rotation to 180° <LuK1337> 8 days ago
+80dc171 : Add tile information to ACTION_QS_TILE_PREFERENCES intent <Akira Oshimi> 8 weeks ago
+ 
+**** cm:LineageOS/android_hardware_qcom_audio ****
+3125b2c : msm8974: bring back USECASE_AUDIO_RECORD_FM_VIRTUAL <Sultan Qasim Khan> 3 weeks ago
+ 
+**** vanir:hardware_samsung ****
+81f714d : power: Rework governor path abstraction <Christopher N. Hesse> 7 days ago
+ 
+**** cm:LineageOS/android_hardware_samsung_slsi-cm_exynos7420 ****
+aeacb0c : gralloc: Fix old-style GNU fields <Christopher N. Hesse> 26 hours ago
+3775c8f : gralloc: Remove framebuffer HAL <Christopher N. Hesse> 26 hours ago
+ 
+**** cmold:android_kernel_cyanogen_msm8916 ****
+59944d1 : mpi: Fix NULL ptr dereference in mpi_powm() [ver #3] <Andrey Ryabinin> 4 months ago
+53043bb : qcacld-2.0: Add buf len check in wlan_hdd_cfg80211_testmode <Manjeet Singh> 3 months ago
+74bff10 : ANDROID: ion: check for kref overflow <Ariel Yin> 9 weeks ago
+e242e14 : tty: n_hdlc: get rid of racy n_hdlc.tbuf <Alexander Popov> 3 weeks ago
+6baa1e4 : TTY: n_hdlc, fix lockdep false positive <Jiri Slaby> 1 year, 4 months ago
+071df2f : net/llc: avoid BUG_ON() in skb_orphan() <Eric Dumazet> 5 weeks ago
+73cb51f : sctp: deny peeloff operation on asocs with threads sleeping on it <Marcelo Ricardo Leitner> 4 weeks ago
+ 
+**** cmold:android_kernel_htc_msm8952 ****
+979a1e2 : BACKPORT: aio: mark AIO pseudo-fs noexec <Nick Desaulniers> 4 months ago
+481ac4b : fs/proc/array.c: make safe access to group_leader <Adrian Salido> 4 months ago
+7ff69c6 : msm: pm: Add mutex lock for shared data <Raju P.L.S.S.S.N> 7 weeks ago
+a23f66e : mm: cma: check the max limit for cma allocation <Shiraz Hashim> 5 months ago
+2b50595 : ion: Fix use after free during ION_IOC_ALLOC <Daniel Rosenberg> 5 months ago
+613a30b : soc: qcom: smem: Fix uninitialized usage of a stack variable <Dhoat Harpal> 2 months ago
+9ea8339 : perf: don't leave group_entry on sibling list (use-after-free) <John Dias> 4 months ago
+63406b4 : ring-buffer: Prevent overflow of size in ring_buffer_resize() <Steven Rostedt (Red Hat)> 10 months ago
+5d4d29c : ALSA: info: Check for integer overflow in snd_info_entry_write() <Siqi Lin> 5 months ago
+dcce04a : mm: avoid setting up anonymous pages into file mapping <Kirill A. Shutemov> 1 year, 8 months ago
+ 
+**** cmold:android_kernel_lge_hammerhead ****
+34222c1 : ext4: don't orphan or truncate the boot loader inode <Theodore Ts'o> 2 years, 5 months ago
+3e68036 : ext4: avoid hang when mounting non-journal filesystems with orphan list <Theodore Ts'o> 4 years, 3 months ago
+32013ad : bluetooth: Validate socket address length in sco_sock_bind(). <David S. Miller> 1 year, 3 months ago
+024012d : net: add validation for the socket syscall protocol argument <Hannes Frederic Sowa> 1 year, 3 months ago
+1c6d345 : KEYS: Fix handling of stored error in a negatively instantiated user key <David Howells> 1 year, 4 months ago
+2db3f66 : ipv6: addrconf: validate new MTU before applying it <Marcelo Leitner> 2 years, 1 month ago
+0d2be25 : net: add length argument to skb_copy_and_csum_datagram_iovec <Sabrina Dubroca> 1 year, 5 months ago
+bcbee85 : KEYS: Fix race between read and revoke <David Howells> 1 year, 3 months ago
+b39d427 : Input: aiptek - fix crash on detecting device without endpoints <Vladis Dronov> 1 year, 4 months ago
+169c10f : ext4: make orphan functions be no-op in no-journal mode <Anatol Pomozov> 4 years, 6 months ago
+d9fbd31 : md: use kzalloc() when bitmap is disabled <Benjamin Randazzo> 1 year, 8 months ago
+95a3c73 : mnt: Fail collect_mounts when applied to unmounted mounts <Eric W. Biederman> 9 months ago
+6539332 : fs: take i_mutex during prepare_binprm for set[ug]id executables <Jann Horn> 1 year, 11 months ago
+a51842a : net: llc: use correct size for sysctl timeout entries <Sasha Levin> 2 years, 2 months ago
+159cf92 : isofs: Fix infinite looping over CE entries <Jan Kara> 2 years, 3 months ago
+ 
+**** cmold:android_kernel_motorola_msm8610 ****
+ac5db6e : tun: read vnet_hdr_sz once <Willem de Bruijn> 6 weeks ago
+5a437db : tun: Fix TUN_PKT_STRIP setting <Herbert Xu> 2 years, 5 months ago
+fd45a7b : tcp: fix 0 divide in __tcp_select_window() <Eric Dumazet> 7 weeks ago
+762eacc : ipv6: pointer math error in ip6_tnl_parse_tlv_enc_lim() <Dan Carpenter> 7 weeks ago
+1d1419d : ipv6: fix ip6_tnl_parse_tlv_enc_lim() <Eric Dumazet> 8 weeks ago
+a01c993 : net: socket: fix recvmmsg not returning error from sock_error <Maxime Jayat> 4 weeks ago
+12240f2 : ipv6: handle -EFAULT from skb_copy_bits <Dave Jones> 3 months ago
+95b49b8 : sock: fix sendmmsg for partial sendmsg <Soheil Hassas Yeganeh> 5 months ago
+a70fd8b : net: mangle zero checksum in skb_checksum_help() <Eric Dumazet> 5 months ago
+b93ca77 : net: clear sk_err_soft in sk_clone_lock() <Eric Dumazet> 5 months ago
+71201df : tcp: fix wrong checksum calculation on MTU probing <Douglas Caetano dos Santos> 6 months ago
+45f4b17 : net: avoid sk_forward_alloc overflows <Eric Dumazet> 6 months ago
+eac4d61 : net: fix sk_mem_reclaim_partial() <Eric Dumazet> 1 year, 10 months ago
+fb44131 : tcp: fix overflow in __tcp_retransmit_skb() <Eric Dumazet> 6 months ago
+1621de5 : ipmr/ip6mr: Initialize the last assert time of mfc entries. <Tom Goff> 9 months ago
+f837a98 : net: bridge: fix old ioctl unlocked net device walk <Nikolay Aleksandrov> 11 months ago
+5c7ae4c : lib/vsprintf.c: improve sanity check in vsnprintf() <Rasmus Villemoes> 2 years, 1 month ago
+f8e5548 : Fix missing sanity check in /dev/sg <Al Viro> 4 weeks ago
+7d32eee : packet: Do not call fanout_release from atomic contexts <Anoob Soman> 5 weeks ago
+6f2c5f7 : packet: call fanout_release, while UNREGISTERING a netdev <Anoob Soman> 6 months ago
+4093405 : vfs: fix uninitialized flags in splice_to_pipe() <Miklos Szeredi> 4 weeks ago
+06f5ce5 : ping: fix a null pointer dereference <WANG Cong> 6 weeks ago
+e14c833 : ALSA: seq: Fix race at creating a queue <Takashi Iwai> 6 weeks ago
+9ecefcb : ALSA: seq: Don't handle loop timeout at snd_seq_pool_done() <Takashi Iwai> 6 weeks ago
+6af1ca5 : mm, fs: check for fatal signals in do_generic_file_read() <Michal Hocko> 6 weeks ago
+16c6b70 : ARM: 8643/3: arm/ptrace: Preserve previous registers for short regset write <Dave Martin> 9 weeks ago
+4748598 : sysctl: fix proc_doulongvec_ms_jiffies_minmax() <Eric Dumazet> 8 weeks ago
+fc3e7c9 : crypto: api - Clear CRYPTO_ALG_DEAD bit before registering an alg <Salvatore Benedetto> 9 weeks ago
+563aaf1 : i2c: fix kernel memory disclosure in dev interface <Vlad Tsyrklevich> 10 weeks ago
+8f5dc21 : USB: fix problems with duplicate endpoint addresses <Alan Stern> 3 months ago
+4d741fe : usb: gadget: composite: Test get_alt() presence instead of set_alt() <Krzysztof Opasiak> 3 months ago
+2db53a5 : net, sched: fix soft lockup in tc_classify <Daniel Borkmann> 3 months ago
+b79f621 : scsi: avoid a permanent stop of the scsi device's request queue <Wei Fang> 3 months ago
+9ff0ae7 : block_dev: don't test bdev->bd_contains when it is not stable <NeilBrown> 3 months ago
+7e35e39 : fsnotify: Fix possible use-after-free in inode iteration on umount <Jan Kara> 3 months ago
+b7d88ee : ext4: reject inodes with negative size <Darrick J. Wong> 3 months ago
+31cd5f2 : dm crypt: mark key as invalid until properly loaded <Ondrej Kozina> 5 months ago
+7fe25f0 : ext4: add sanity checking to count_overhead() <Theodore Ts'o> 4 months ago
+64c7c8c : ext4: use more strict checks for inodes_per_block on mount <Theodore Ts'o> 4 months ago
+15483b7 : ext4: fix in-superblock mount options processing <Theodore Ts'o> 4 months ago
+a1b8cc4 : ext4: fix stack memory corruption with 64k block size <Chandan Rajendra> 4 months ago
+e72848c : ext4: fix mballoc breakage with 64k block size <Chandan Rajendra> 4 months ago
+ad47423 : usb: gadget: composite: correctly initialize ep->maxpacket <Felipe Balbi> 6 months ago
+8d6d45e : perf: Do not double free <Peter Zijlstra> 1 year, 1 month ago
+2696c0a : perf: Fix race in swevent hash <Peter Zijlstra> 1 year, 3 months ago
+71edbd4 : fuse: fix clearing suid, sgid for chown() <Miklos Szeredi> 3 months ago
+1f61792 : ext4: sanity check the block and cluster size at mount time <Theodore Ts'o> 4 months ago
+3a36234 : swapfile: fix memory corruption via malformed swapfile <Jann Horn> 4 months ago
+5b6904b : i2c: core: fix NULL pointer dereference under race condition <Vladimir Zapolskiy> 5 months ago
+1385a65 : vt: clear selection before resizing <Scot Doyle> 5 months ago
+ 
+**** vanir:kernel_motorola_msm8952 ****
+e1fb9c3 : UPSTREAM: staging: ion: Fix error handling in ion_buffer_create <Rohit kumar> 1 year, 6 months ago
+9dc5423 : binder: use group leader instead of open thread <Todd Kjos> 2 weeks ago
+a578293 : usb: gadget: f_accessory: Fix for UsbAccessory clean unbind. <Anson Jacob> 7 months ago
+6571175 : crypto: arm - ignore generated SHA2 assembly files <Baruch Siach> 1 year, 8 months ago
+5219283 : UPSTREAM: drivers: android: correct the size of struct binder_uintptr_t for BC_DEAD_BINDER_DONE <Lisa Du> 1 year, 1 month ago
+4fa6b48 : cpufreq: interactive governor drops bits in time calculation <Chris Redpath> 3 years, 9 months ago
+ 
+**** cmold:android_kernel_motorola_msm8992 ****
+daa0096 : packet: fix races in fanout_add() <Eric Dumazet> 5 weeks ago
+85fefc9 : irda: Fix lockdep annotations in hashbin_delete(). <David S. Miller> 4 weeks ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+50e7b4e : qcacld-2.0: Update to LA.UM.5.5.r1-03800-8x96.0 <dianlujitao> 3 days ago
+3a7fdf9 : HID: Remove playstation4 as special driver <Hemant Gupta> 2 weeks ago
+1c51538 : ASoC: msm: acquire lock in ioctl <Yeleswarapu Nagaradhesh> 5 weeks ago
+9d5a0bc : bluetooth: Fix free data pointer routine <Sungjun Park> 8 weeks ago
+1120652 : msm: camera: Add check to ensure task wont hog CPU <VijayaKumar T M> 6 weeks ago
+79f371d : ANDROID: cpu: send KOBJ_ONLINE event when enabling cpus <Thierry Strudel> 4 weeks ago
+f991ded : ARM: dts: msm: Update L1 D/I cache dump ids for msm8917 <Mohammed Khajapasha> 4 weeks ago
+042ec27 : msm: mdss: ensure proper state transition during ULPS exit <Sandeep Panda> 8 weeks ago
+930ccf9 : leds: qpnp-flash: Fix Use-after-free(UAF) for debugfs <Ankit Sharma> 6 weeks ago
+1070e57 : msm: mdss: handle synchronization issues during DSI debugfs read/write <Padmanabhan Komanduru> 8 weeks ago
+891b176 : msm: camera: sensor: Validate destination step position <Rajesh Bondugula> 6 weeks ago
+4b5893db : USB: gadget: Replace %pK with %pM <Arumuga Durai A> 6 weeks ago
+18f49d3 : drivers: soc: add mutex to prevent response being processed twice <Siena Richard> 7 weeks ago
+28bd334 : input: touchscreen: remove msg21xx mstar touch driver <Shantanu Jain> 5 weeks ago
+6435854 : msm: camera: Validate size param before allocating memory <VijayaKumar T M> 5 weeks ago
+49f6701 : misc: qcom: qdsp6v2: Add range check in function aac_in_ioctl_shared <Xiaoyu Ye> 9 weeks ago
+6835769 : msm: camera: cpp: Avoid exposing kernel information to user space <Pratap Nirujogi> 3 months ago
+36a2a76 : ice: fix security issue with validating error in pointer <Andrey Markovytch> 3 months ago
+b0aad6d : msm: ADSPRPC: Buffer length to be copied is truncated <Sathish Ambley> 3 months ago
+e939c4c : usb: gadget: f_uac2: Fix sound card registration failure <Sriharsha Allenki> 4 weeks ago
+2bc3ef6 : ASoC: msm: qdsp6v2: completely deallocate on cal block creation failure <Siena Richard> 8 weeks ago
+9b01816 : ASoC: msm: qdsp6v2: extend validation of virtual address <Siena Richard> 10 weeks ago
+6b3b4f3 : msm: wlan: update regulatory database <Agrawal Ashish> 6 weeks ago
+4b20c7d : msm: camera: Synchronize jpeg ISR and userspace call <Krishnankutty Kolathappilly> 4 months ago
+1ad8a7e : msm: camera: jpegdma: Check for compat config <Gautham Mayyuri> 4 months ago
+dd61d28 : msm: jpeg: DMA V4L2 driver changes <Ashwini Rao> 1 year ago
+fd816e4 : msm: mdss: clear previous DSI_VIDEO_DONE interrupt <Padmanabhan Komanduru> 7 months ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+017f822 : misc: Import SM-G900F kernel source code <OzzysCmAcc> 4 days ago
+423c815 : perf: Do not double free <Peter Zijlstra> 1 year, 1 month ago
+4c9fe6e : splice: Apply generic position and size checks to each write <Ben Hutchings> 2 years, 2 months ago
+afd1c6d : net/llc: avoid BUG_ON() in skb_orphan() <Eric Dumazet> 5 weeks ago
+63d2f8a : net/sock: Add sock_efree() function <Ben Hutchings> 2 weeks ago
+0eadb98 : ipc/shm: Fix shmat mmap nil-page protection <Davidlohr Bueso> 3 weeks ago
+57ddbd9 : tty: n_hdlc: get rid of racy n_hdlc.tbuf <Alexander Popov> 3 weeks ago
+ae43e89 : TTY: n_hdlc, fix lockdep false positive <Jiri Slaby> 1 year, 4 months ago
+51e25c7 : packet: fix races in fanout_add() <Eric Dumazet> 5 weeks ago
+ 
+**** cmold:android_kernel_samsung_smdk4412 ****
+894e4a1 : i9100: enable idletimer <Dominggoes Isakh> 5 days ago
+ 
+**** vanir:platform_manifest ****
+3e92dff : Revert "Squeltch d850 for now" <nuclearmistake> 3 days ago
+ec2a225 : cm: add custom tiles project <Dan Pasanen> 2 weeks ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+d3c06ce : Revert "Introduced Active device for volume updates and volume update in pause state" <Arne Coucheron> 6 weeks ago
+ff3d0d8 : Bluetooth: AIRPLANE_MODE_ON has moved <Michael W> 3 weeks ago
+7e2fa3a : Automatic translation import <Abhisek Devkota> 4 days ago
+ 
+**** vanir:packages_apps_Calendar ****
+3b9a669 : Automatic translation import <Abhisek Devkota> 4 days ago
+ 
+**** vanir:packages_apps_Contacts ****
+24227ad : contacts: Add support for import contacts to local phone storage <Jorge Ruesga> 3 years, 1 month ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+5297f88 : AccountType: use a pretty phone account icon for local storage account <Dan Pasanen> 3 days ago
+f4b1156 : SelectAccountActivity : Support local phone account <Rohit Yengisetty> 1 year, 8 months ago
+49714bf : Add local phone account as a writable AccountTypes. <Matt Garnes> 1 year, 9 months ago
+a6e03ca : Store all local contacts in only one account. <Matt Garnes> 2 years ago
+eef759c : contacts-common: Add support for import contacts to local phone storage <Jorge Ruesga> 3 years, 1 month ago
+ 
+**** vanir:packages_apps_Dialer ****
+019704c : Dialer: AIRPLANE_MODE_ON has moved <Michael W> 3 weeks ago
+ 
+**** vanir:packages_apps_Messaging ****
+8bc6094 : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 5 days ago
+ 
+**** vanir:packages_apps_Settings ****
+95c0f7d : AppOpsDetails: Check app permissions safely <Gabriele M> 4 days ago
+ 
+**** vanir:packages_services_Telephony ****
+f6c9974 : Telephony: AIRPLANE_MODE_ON has moved <Michael W> 3 weeks ago
+ 
+**** commotio:commotio ****
+36e0d34 : Custom tiles ... <DHOMD> 3 days ago
+995f213 : Fingerprint + common change <DHOMD> 3 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+004b16f : op3: Update to OxygenOS 4.1.0 blobs <dianlujitao> 3 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oppo ****
+2849286 : msm8974: Regenerate makefiles <Michael Bestas> 2 days ago
+a9449e1 : msm8939: Regenerate makefiles <Michael Bestas> 2 days ago
+ 
+**** vanir:vendor_vanir ****
+5654231 : Fix maserati...again <DHOMD> 29 hours ago
+d609987 : Update maserati mk file <DHOMD> 30 hours ago
+3d94329 : fingerprints <nuclearmistake> 35 hours ago
+1d80c6a : cm: build custom tiles app <Dan Pasanen> 2 weeks ago
+32f105e : overlay: Disable recovery updates <Gabriele M> 4 days ago
+fe4d668 : apns: Remove proxy for the "TIM WAP" APN <Tommaso Fonda> 7 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_yu ****
+2863b75 : jalebi/lettuce/tomato: Regenerate makefiles <Michael Bestas> 2 days ago
+ 
