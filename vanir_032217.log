@@ -1,0 +1,267 @@
+
+**** vanir:build ****
+d280897 : Build hacks <DHOMD> 5 months ago
+ 
+**** vanir:device_google_marlin ****
+70e42a2 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 10 days ago
+2e997a1 : Revert "marlin: disable our local telephony extensions" <DHOMD> 10 days ago
+ 
+**** cm:LineageOS/android_device_lge_ls990 ****
+e96c22c : ls990: ril cleanup <Kasual> 3 weeks ago
+ 
+**** cm:LineageOS/android_device_motorola_clark ****
+cc3741b : clark: remove extra audio_platform_info.xml entries <Desterly> 2 days ago
+ 
+**** vanir:device_motorola_falcon ****
+58eecc6 : Revert "Switch to open source AKM daemon" <Gabriele M> 8 hours ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+07be7dc : Otus: Fix FM Radio <DHOMD> 9 weeks ago
+ 
+**** cm:LineageOS/android_device_motorola_peregrine ****
+359bb0e : Revert "Switch to open source AKM daemon" <Gabriele M> 8 hours ago
+ 
+**** vanir:device_motorola_qcom-common ****
+1a3cbb3 : qcom-common: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 4 months ago
+29b42df : camera: touch-af-aec needs real preview window <nadlabak> 6 months ago
+ 
+**** vanir:device_oppo_common ****
+a8e0f0b : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+6b1f437 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 4 months ago
+ 
+**** cm:LineageOS/android_device_samsung_d2-common ****
+f218ca1 : d2: Build nfc from source <Paul Keith> 3 days ago
+3e2ac58 : nfc: Make hal usable <Paul Keith> 3 days ago
+1a54d87 : nfc: Add nfc sample hal <Paul Keith> 3 days ago
+86cf6a7 : d2: Update blobs list <Paul Keith> 7 days ago
+ 
+**** vanir:device_samsung_klte-common ****
+d8ff065 : klte-common: Add support for TWRP <Kevin F. Haggerty> 4 months ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+f4fef9f : msm8960: Update blobs list <Paul Keith> 7 days ago
+ 
+**** vanir:device_samsung_smdk4412-common ****
+b24dc9c : smdk4412: set initial copyright year <Simon Shields> 3 days ago
+e4e03bc : smdk4412-common: Add support for t0lteskt and t0ltektt <filiprrs> 4 days ago
+ 
+**** vanir:device_samsung_smdk4412-qcom-common ****
+11b0622 : smdk4412-qcom-common: Add support for t0lteskt and t0ltektt <filiprrs> 4 days ago
+ 
+**** cm:LineageOS/android_device_xiaomi_kenzo ****
+8ee952b : kenzo: Use MIUI Stable build fingerprint <nicknitewolf> 3 weeks ago
+5838779 : kenzo: Move camera props to msm8956-common <TheStrix> 2 days ago
+2758309 : kenzo: Add libc hax for camera <LuK1337> 8 weeks ago
+d45dff9 : kenzo: Move libshims from msm8956-common <TheStrix> 4 days ago
+ 
+**** cm:LineageOS/android_device_xiaomi_msm8956-common ****
+f08b6f0 : msm8956: Add camera props <TheStrix> 2 days ago
+97135dd : msm8956: Let cameraservice close native handles <Bruno Martins> 10 days ago
+c022cd0 : msm8956: Move libshims to device repo <TheStrix> 4 days ago
+bbe588f : msm8956: Hide sRGB toggle in developer options <dianlujitao> 5 weeks ago
+cdc9c4b : msm8956: telephony: Enable conference support for video calls. <Muhammed Siju> 4 months ago
+d6dce20 : msm8956: Change the GLES version string to 3.2 <TheStrix> 3 weeks ago
+723461b : msm8956: Enable WiFi Display <LuK1337> 4 weeks ago
+e85ff2f : msm8956: Fix Wi-Fi Direct/P2P <Rudolf Tammekivi> 9 months ago
+ 
+**** vanir:frameworks_base ****
+a0822a9 : Fix QS crashes  Revert "SystemUI: Introduce custom QS tile management" <DHOMD> 2 hours ago
+0107151 : Automatic translation import <Abhisek Devkota> 6 hours ago
+c814ff5 : Core: Make tethering notifications fully translatable <Michael W> 15 hours ago
+76eae78 : Automatic translation import <Abhisek Devkota> 2 days ago
+ce561af : SystemUI: enable NFC tile <Thecrazyskull> 9 weeks ago
+735eb59 : SystemUI: Add NFC tile <Anas Karbila> 3 months ago
+ 
+**** vanir:frameworks_opt_telephony ****
+c31cf84 : telephony: Fix rebase mismerge breaking SIM detection when encrypted <Arne Coucheron> 4 days ago
+ 
+**** cm:LineageOS/android_hardware_qcom_audio ****
+afa808a : ssr: Fix building with OSS materials <Ricardo Cerqueira> 9 months ago
+ 
+**** cm:LineageOS/android_hardware_qcom_fm ****
+953af70 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:hardware_samsung ****
+51bd12c : audio: add support for bluetooth wideband voice calls <Fevax> 8 days ago
+ 
+**** cm:LineageOS/android_hardware_samsung_slsi-cm_exynos ****
+2d78239 : libdisplay: Set background layer buffer source <Christopher N. Hesse> 3 days ago
+d85571b : libdisplay: Fix buffer source for decon devices <Christopher N. Hesse> 3 days ago
+ 
+**** cmold:android_kernel_huawei_kiwi ****
+445e665 : tty: n_hdlc: Drop redundant error message <Jean Delvare> 2 years, 11 months ago
+e2d8cf3 : tty: n_hdlc: get rid of racy n_hdlc.tbuf <Alexander Popov> 3 weeks ago
+bdd68d4 : TTY: n_hdlc, fix lockdep false positive <Jiri Slaby> 1 year, 4 months ago
+81dfa10 : drivers/tty/n_hdlc.c: replace kmalloc/memset by kzalloc <Fabian Frederick> 2 years, 10 months ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+a631184 : power: oneplus_fastcg: Silence log spam <dianlujitao> 3 days ago
+020458e : misc: Sync with OxygenOS 4.1.0 kernel release <dianlujitao> 5 days ago
+f0963d3 : mdss: livedisplay: Fix memory leaks in mdss_livedisplay_update() <Sultanxda> 3 days ago
+ 
+**** cmold:android_kernel_samsung_smdk4412 ****
+4fde55a : smdk4412 : qcom modem : deselect MSM_SUBSYSTEM_RESTART <RGIB> 2 days ago
+8090ac8 : smdk4412 : qcom modem : do not automatically select MSM_SUBSYSTEM_RESTART <RGIB> 2 days ago
+cca623f : smdk4412: Add support for t0lteskt and t0ltektt <filiprrs> 5 days ago
+ 
+**** cm:LineageOS/android_packages_apps_AudioFX ****
+dc65a0c : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+888a04e : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Browser ****
+4192efb : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_CMParts ****
+52da3c9 : Automatic translation import <Abhisek Devkota> 6 hours ago
+cf97207 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Calendar ****
+1826775 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Camera2 ****
+8ee8d23 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_CellBroadcastReceiver ****
+f76431f : Automatic translation import <Abhisek Devkota> 6 hours ago
+6950f2b : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Contacts ****
+fa2ba7b : Automatic translation import <Abhisek Devkota> 6 hours ago
+e48e0f3 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+89272ca : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_CustomTiles ****
+7e4ebb2 : Automatic translation import <Abhisek Devkota> 6 hours ago
+4f757e8 : Automatic translation import <Abhisek Devkota> 2 days ago
+c934927 : CustomTiles: Add heads up long press action <LuK1337> 2 days ago
+60897d0 : CustomTiles: Add USB tethering long press action <LuK1337> 2 days ago
+ 
+**** vanir:packages_apps_DeskClock ****
+ef9fb84 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Dialer ****
+4770839 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Email ****
+af2af0b : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_FMRadio ****
+588a2ab : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_FlipFlap ****
+99456b3 : Automatic translation import <Abhisek Devkota> 6 hours ago
+71c26e0 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+900fb80 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Gello ****
+18953eb : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_LockClock ****
+09482ca : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Messaging ****
+65dba46 : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 8 days ago
+cecd56f : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Nfc ****
+8bb1879 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_PackageInstaller ****
+6833a11 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+dd36017 : Automatic translation import <Abhisek Devkota> 6 hours ago
+a86d274 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Recorder ****
+14c2858 : Automatic translation import <Abhisek Devkota> 6 hours ago
+110c07c : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Settings ****
+e4ce390 : Automatic translation import <Abhisek Devkota> 6 hours ago
+641dd97 : Fix zen mode allowed event preference summary. <Danny Baumann> 1 year, 3 months ago
+3bea55c : Automatic translation import <Abhisek Devkota> 2 days ago
+d185ec4 : Make Build Date and API Level unselectable <Harry Youd> 4 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Snap ****
+3deda7f : Automatic translation import <Abhisek Devkota> 6 hours ago
+9ee33a5 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Stk ****
+3c27506 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Terminal ****
+5937cbf : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Trebuchet ****
+a536931 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+c2e4f01 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_WallpaperPicker ****
+cfbd067 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_inputmethods_LatinIME ****
+f59371a : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_providers_CalendarProvider ****
+a1aa622 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_providers_ContactsProvider ****
+e93ac19 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_providers_DownloadProvider ****
+a9fa3b2 : Automatic translation import <Abhisek Devkota> 6 hours ago
+ae34e55 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_providers_MediaProvider ****
+4d1a21f : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_resources_devicesettings ****
+8bbb278 : Automatic translation import <Abhisek Devkota> 6 hours ago
+b75c745 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_services_Telecomm ****
+1d870ae : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_services_Telephony ****
+3e9e173 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:vendor_cmsdk ****
+f0a3ce9 : Automatic translation import <Abhisek Devkota> 6 hours ago
+c0378c8 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_YahooWeatherProvider ****
+459f3db : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_WundergroundWeatherProvider ****
+d4703e3 : Automatic translation import <Abhisek Devkota> 6 hours ago
+a940996 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_google ****
+1d68647 : seed: Update blob list <Arvin Quilao> 9 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+958bc42 : Add a barrier for Marlin/Sailfish <DHOMD> 10 days ago
+ 
+**** vanir:vendor_samsung ****
+12470af : d2: Build nfc hal from source <Paul Keith> 3 days ago
+877fa5e : d2: Reorganize and cleanup blobs <Paul Keith> 7 days ago
+8c05a90 : smdk4412/i9300: regenerate makefiles <Simon Shields> 3 days ago
+33e9ac2 : klte-common: Update Widevine blobs <Kevin F. Haggerty> 7 days ago
+ 
+**** vanir:vendor_vanir ****
+718a1ce : apn: Updating TelkomSA from 8ta South Africa APN <isimobile> 3 days ago
+ 
+**** vanir:vendor_xiaomi ****
+d5311d0 : kenzo: Update to MIUI 7.3.16 global dev blobs <TheStrix> 2 days ago
+ 
