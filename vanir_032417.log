@@ -1,0 +1,137 @@
+
+**** cm:LineageOS/android_device_htc_pme ****
+dbd6e2c : pme: enable VR <Christopher R. Palmer> 22 hours ago
+e2288ce : pme: Add libjni_livedisplay <Christopher R. Palmer> 3 days ago
+75232d7 : pme: Disable sdcardfs <Christopher R. Palmer> 30 hours ago
+5fa09d0 : Revert "pme: Allow us to hexedit slim_daemon to inject liblog_htc" <Christopher R. Palmer> 7 days ago
+2ec3d9d : pme: gps: Shim slim_daemon instead of hexediting it <Christopher R. Palmer> 8 days ago
+ 
+**** cm:LineageOS/android_device_motorola_clark ****
+b69614a : clark: update extract utils scripts from template <Hashbang173> 5 days ago
+ 
+**** cm:LineageOS/android_device_motorola_victara ****
+89a86f1 : victara: switch to common extraction scripts <Dan Pasanen> 26 hours ago
+ 
+**** vanir:frameworks_base ****
+d034477 : Prevent NPE in QSTileHost.java - just to see what happens <nuclearmistake> 31 hours ago
+ 
+**** cmold:android_kernel_htc_msm8996 ****
+f8a5710 : mdss: livedisplay: Fix memory leaks in mdss_livedisplay_update() <Sultanxda> 5 days ago
+078b9d9 : video: mdss: LiveDisplay driver <Steve Kondik> 1 year, 8 months ago
+a4183c9 : pme: Update kernel to LA.UM.5.5.r1-03800-8x96.0 <Christopher R. Palmer> 3 days ago
+3a7fdf9 : HID: Remove playstation4 as special driver <Hemant Gupta> 3 weeks ago
+1c51538 : ASoC: msm: acquire lock in ioctl <Yeleswarapu Nagaradhesh> 5 weeks ago
+9d5a0bc : bluetooth: Fix free data pointer routine <Sungjun Park> 9 weeks ago
+1120652 : msm: camera: Add check to ensure task wont hog CPU <VijayaKumar T M> 6 weeks ago
+79f371d : ANDROID: cpu: send KOBJ_ONLINE event when enabling cpus <Thierry Strudel> 5 weeks ago
+f991ded : ARM: dts: msm: Update L1 D/I cache dump ids for msm8917 <Mohammed Khajapasha> 5 weeks ago
+042ec27 : msm: mdss: ensure proper state transition during ULPS exit <Sandeep Panda> 9 weeks ago
+930ccf9 : leds: qpnp-flash: Fix Use-after-free(UAF) for debugfs <Ankit Sharma> 6 weeks ago
+1070e57 : msm: mdss: handle synchronization issues during DSI debugfs read/write <Padmanabhan Komanduru> 8 weeks ago
+891b176 : msm: camera: sensor: Validate destination step position <Rajesh Bondugula> 6 weeks ago
+4b5893db : USB: gadget: Replace %pK with %pM <Arumuga Durai A> 6 weeks ago
+18f49d3 : drivers: soc: add mutex to prevent response being processed twice <Siena Richard> 8 weeks ago
+28bd334 : input: touchscreen: remove msg21xx mstar touch driver <Shantanu Jain> 5 weeks ago
+6435854 : msm: camera: Validate size param before allocating memory <VijayaKumar T M> 6 weeks ago
+49f6701 : misc: qcom: qdsp6v2: Add range check in function aac_in_ioctl_shared <Xiaoyu Ye> 2 months ago
+6835769 : msm: camera: cpp: Avoid exposing kernel information to user space <Pratap Nirujogi> 3 months ago
+36a2a76 : ice: fix security issue with validating error in pointer <Andrey Markovytch> 3 months ago
+b0aad6d : msm: ADSPRPC: Buffer length to be copied is truncated <Sathish Ambley> 3 months ago
+e939c4c : usb: gadget: f_uac2: Fix sound card registration failure <Sriharsha Allenki> 4 weeks ago
+2bc3ef6 : ASoC: msm: qdsp6v2: completely deallocate on cal block creation failure <Siena Richard> 9 weeks ago
+9b01816 : ASoC: msm: qdsp6v2: extend validation of virtual address <Siena Richard> 2 months ago
+6b3b4f3 : msm: wlan: update regulatory database <Agrawal Ashish> 6 weeks ago
+4b20c7d : msm: camera: Synchronize jpeg ISR and userspace call <Krishnankutty Kolathappilly> 4 months ago
+1ad8a7e : msm: camera: jpegdma: Check for compat config <Gautham Mayyuri> 5 months ago
+dd61d28 : msm: jpeg: DMA V4L2 driver changes <Ashwini Rao> 1 year ago
+fd816e4 : msm: mdss: clear previous DSI_VIDEO_DONE interrupt <Padmanabhan Komanduru> 7 months ago
+ 
+**** cmold:android_kernel_motorola_msm8916 ****
+979acff : ANDROID: sdcardfs: Fix incorrect hash <Daniel Rosenberg> 5 weeks ago
+8e915a2 : ANDROID: sdcardfs: Fix style issues in macros <Daniel Rosenberg> 3 days ago
+d58121d : ANDROID: sdcardfs: Use seq_puts over seq_printf <Daniel Rosenberg> 3 days ago
+5d72cf5 : ANDROID: sdcardfs: Use to kstrout <Daniel Rosenberg> 8 days ago
+014bf25 : ANDROID: sdcardfs: Use pr_[...] instead of printk <Daniel Rosenberg> 8 days ago
+a38c374 : ANDROID: sdcardfs: remove unneeded null check <Daniel Rosenberg> 3 days ago
+489c076 : ANDROID: sdcardfs: Fix style issues with comments <Daniel Rosenberg> 8 days ago
+2d40a91 : ANDROID: sdcardfs: Fix formatting <Daniel Rosenberg> 8 days ago
+04e81a8 : ANDROID: sdcardfs: correct order of descriptors <Daniel Rosenberg> 3 days ago
+d8ce982 : ANDROID: sdcardfs: Fix gid issue <Daniel Rosenberg> 11 days ago
+d394adc : ANDROID: sdcardfs: Use tabs instead of spaces in multiuser.h <Daniel Rosenberg> 11 days ago
+0685ad8 : ANDROID: sdcardfs: Remove uninformative prints <Daniel Rosenberg> 2 weeks ago
+7105210 : ANDROID: sdcardfs: move path_put outside of spinlock <Daniel Rosenberg> 2 weeks ago
+a5e5955 : ANDROID: sdcardfs: Use case insensitive hash function <Daniel Rosenberg> 2 weeks ago
+3a3083c : ANDROID: sdcardfs: declare MODULE_ALIAS_FS <Daniel Rosenberg> 2 weeks ago
+d78c925 : ANDROID: sdcardfs: Get the blocksize from the lower fs <Daniel Rosenberg> 2 weeks ago
+31c6815 : ANDROID: sdcardfs: Use d_invalidate instead of drop_recurisve <Daniel Rosenberg> 2 weeks ago
+be450f6 : ANDROID: sdcardfs: Switch to internal case insensitive compare <Daniel Rosenberg> 2 weeks ago
+3f6b485 : ANDROID: sdcardfs: Use spin_lock_nested <Daniel Rosenberg> 2 weeks ago
+3737fb9 : ANDROID: sdcardfs: Replace get/put with d_lock <Daniel Rosenberg> 3 weeks ago
+80f468e : ANDROID: sdcardfs: rate limit warning print <Daniel Rosenberg> 3 weeks ago
+3d669d5 : ANDROID: sdcardfs: Fix case insensitive lookup <Daniel Rosenberg> 3 weeks ago
+8a4846b : msm: mdss: mdss_set_rgb: Print a new line in pr_info <Alberto97> 19 hours ago
+c36799d : power: align wakeup_sources format <yangdongdong> 1 year, 8 months ago
+ 
+**** vanir:kernel_motorola_msm8952 ****
+b608953 : UPSTREAM: block: disable entropy contributions for nonrot devices <Mike Snitzer> 2 years, 6 months ago
+57fbd75 : UPSTREAM: lz4: fix wrong compress buffer size for 64-bits <Bongkyu Kim> 1 year, 2 months ago
+390fd5f : UPSTREAM: zram/zcomp: do not zero out zcomp private pages <Sergey Senozhatsky> 1 year, 2 months ago
+3ad850e : UPSTREAM: zram: pass gfp from zcomp frontend to backend <Minchan Kim> 1 year, 2 months ago
+81991e1 : UPSTREAM: zram: try vmalloc() after kmalloc() <Kyeongdon Kim> 1 year, 2 months ago
+7e5e69a : UPSTREAM: zram/zcomp: use GFP_NOIO to allocate streams <Sergey Senozhatsky> 1 year, 2 months ago
+d0dbc92 : power: align wakeup_sources format <yangdongdong> 1 year, 8 months ago
+f1c7214 : ANDROID: sdcardfs: Fix gid issue <Daniel Rosenberg> 11 days ago
+a0d795b : ANDROID: sdcardfs: Use tabs instead of spaces in multiuser.h <Daniel Rosenberg> 11 days ago
+3431fa7 : ANDROID: sdcardfs: Remove uninformative prints <Daniel Rosenberg> 2 weeks ago
+41da0cb : ANDROID: sdcardfs: move path_put outside of spinlock <Daniel Rosenberg> 2 weeks ago
+78f879a : ANDROID: sdcardfs: Use case insensitive hash function <Daniel Rosenberg> 2 weeks ago
+2b3e442 : ANDROID: sdcardfs: declare MODULE_ALIAS_FS <Daniel Rosenberg> 2 weeks ago
+9601058 : ANDROID: sdcardfs: Get the blocksize from the lower fs <Daniel Rosenberg> 2 weeks ago
+e5bb283 : ANDROID: sdcardfs: Use d_invalidate instead of drop_recurisve <Daniel Rosenberg> 2 weeks ago
+02a6365 : ANDROID: sdcardfs: Switch to internal case insensitive compare <Daniel Rosenberg> 2 weeks ago
+2c591ff : ANDROID: sdcardfs: Use spin_lock_nested <Daniel Rosenberg> 2 weeks ago
+10304db : ANDROID: sdcardfs: Replace get/put with d_lock <Daniel Rosenberg> 3 weeks ago
+9308ee3 : ANDROID: sdcardfs: rate limit warning print <Daniel Rosenberg> 3 weeks ago
+47486a2 : ANDROID: sdcardfs: Fix case insensitive lookup <Daniel Rosenberg> 3 weeks ago
+d576c37 : ANDROID: sdcardfs: support direct-IO (DIO) operations <Daniel Rosenberg> 4 weeks ago
+b0fb9dd : ANDROID: sdcardfs: implement vm_ops->page_mkwrite <Daniel Rosenberg> 4 weeks ago
+b660346 : ANDROID: sdcardfs: Don't bother deleting freelist <Daniel Rosenberg> 4 weeks ago
+dd81435 : ANDROID: sdcardfs: Add missing path_put <Daniel Rosenberg> 5 weeks ago
+4e92f12 : ANDROID: sdcardfs: Fix incorrect hash <Daniel Rosenberg> 5 weeks ago
+1ca3cf9 : ANDROID: sdcardfs: Switch strcasecmp for internal call <Daniel Rosenberg> 7 weeks ago
+4a87df1 : ANDROID: sdcardfs: switch to full_name_hash and qstr <Daniel Rosenberg> 8 weeks ago
+1f83b1e : ANDROID: sdcardfs: Add GID Derivation to sdcardfs <Daniel Rosenberg> 8 weeks ago
+c9d8799 : ANDROID: sdcardfs: Remove redundant operation <Daniel Rosenberg> 8 weeks ago
+7861931 : ANDROID: sdcardfs: add support for user permission isolation <Daniel Rosenberg> 9 weeks ago
+2c89897 : ANDROID: sdcardfs: Refactor configfs interface <Daniel Rosenberg> 9 weeks ago
+bd51844 : ANDROID: sdcardfs: Allow non-owners to touch <Daniel Rosenberg> 9 weeks ago
+61f3674 : prima : update to LA.BR.1.3.6_rb1.14 <rahulsnair> 7 days ago
+ 
+**** cmold:android_kernel_samsung_smdk4412 ****
+c33193b : smdk4412 : qcom modem : mdm9xx5 driver from N8000XXUDOF1 <RGIB> 27 hours ago
+ 
+**** vanir:packages_apps_LockClock ****
+6f2b2cc : Update weather data only when the screen is on <Gabriele M> 8 days ago
+e039264 : Register network status change listener explicity <Gabriele M> 7 days ago
+54e41b5 : Save timestamp of last update <Gabriele M> 8 days ago
+069c3d1 : Fix typo in method name <Gabriele M> 7 days ago
+ 
+**** vanir:packages_apps_Messaging ****
+b847aac : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 10 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Recorder ****
+ed7a8b3 : Recorder: add and fix missing copyrights <Joey Rizzoli> 3 days ago
+779c197 : Recorder: screen recorder overlay <Joey Rizzoli> 3 days ago
+4bf3b75 : Recorder: update gradle and support libraries <Joey Rizzoli> 3 days ago
+ 
+**** vanir:packages_services_Telephony ****
+9fa88eb : Fix crash on opening Call Features - Revert "CallFeatureSettings: Only show call barring option if QTI package installed" <DHOMD> 4 hours ago
+ 
+**** vanir:vendor_htc ****
+f72b530 : Revert "pme: Hexedit slim_daemon to replace liblog.so with libhlg.so" <Christopher R. Palmer> 8 days ago
+ 
+**** vanir:vendor_motorola ****
+a0eef56 : victara: regen blobs/makefiles after switching to common extraction scripts <Dan Pasanen> 26 hours ago
+f29bf1d : clark: regen makefiles <Dan Pasanen> 26 hours ago
+ae72b80 : falcon/peregrine: Go back to prebuilt AKM daemon <gmrt> 2 days ago
+ 
