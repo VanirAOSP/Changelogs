@@ -1,26 +1,55 @@
 
+**** vanir:build ****
+42e93f7 : Build hacks <DHOMD> 5 months ago
+ 
+**** vanir:device_google_marlin ****
+d97506a : Add a proper barrier and use vendor/caf/telephony <DHOMD> 12 days ago
+446f2ad : Revert "marlin: disable our local telephony extensions" <DHOMD> 12 days ago
+ 
 **** cm:LineageOS/android_device_htc_pme ****
-dbd6e2c : pme: enable VR <Christopher R. Palmer> 22 hours ago
-e2288ce : pme: Add libjni_livedisplay <Christopher R. Palmer> 3 days ago
-75232d7 : pme: Disable sdcardfs <Christopher R. Palmer> 30 hours ago
-5fa09d0 : Revert "pme: Allow us to hexedit slim_daemon to inject liblog_htc" <Christopher R. Palmer> 7 days ago
+dbd6e2c : pme: enable VR <Christopher R. Palmer> 27 hours ago
+e2288ce : pme: Add libjni_livedisplay <Christopher R. Palmer> 4 days ago
+75232d7 : pme: Disable sdcardfs <Christopher R. Palmer> 35 hours ago
+5fa09d0 : Revert "pme: Allow us to hexedit slim_daemon to inject liblog_htc" <Christopher R. Palmer> 8 days ago
 2ec3d9d : pme: gps: Shim slim_daemon instead of hexediting it <Christopher R. Palmer> 8 days ago
  
 **** cm:LineageOS/android_device_motorola_clark ****
 b69614a : clark: update extract utils scripts from template <Hashbang173> 5 days ago
  
+**** cm:LineageOS/android_device_motorola_otus ****
+36de74e : Otus: Fix FM Radio <DHOMD> 9 weeks ago
+ 
 **** cm:LineageOS/android_device_motorola_victara ****
-89a86f1 : victara: switch to common extraction scripts <Dan Pasanen> 26 hours ago
+89a86f1 : victara: switch to common extraction scripts <Dan Pasanen> 31 hours ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+4bcae97 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 4 months ago
  
 **** vanir:frameworks_base ****
-d034477 : Prevent NPE in QSTileHost.java - just to see what happens <nuclearmistake> 31 hours ago
+4362fb5 : MountService: Don't run benchmarks after trimming <Christopher R. Palmer> 8 hours ago
+d034477 : Prevent NPE in QSTileHost.java - just to see what happens <nuclearmistake> 2 days ago
+ 
+**** cm:LineageOS/android_hardware_qcom_audio ****
+b2886a4 : configs: disable DTS TruMedia till it is upgraded to N <Divya Narayanan Poojary> 5 weeks ago
+34f3340 : audio: Fix realtime stream routing behavior <Haynes Mathew George> 9 months ago
+0262e84 : hal: remove redundant logs from utils.c <Sharad Sangle> 7 weeks ago
+6b9dfe5 : hal: fix kw issue in hal <Sidipotu Ashok> 6 weeks ago
+07ffd16 : audiod: Skip enumerating non-ADSP sound cards <Satya Krishna Pindiproli> 4 months ago
+ 
+**** cm:LineageOS/android_hardware_qcom_fm ****
+aff061a : FM: Fix KHz->kHz <Michael W> 11 hours ago
+ 
+**** cm:LineageOS/android_hardware_qcom_media ****
+c2fd762 : mm-video: Set thumbnail mode to core codec <Anubhav Phukan> 5 weeks ago
+bd9221f : mm-video-v4l2: serialize FTB's for dropped frames <Srinu Gorle> 9 weeks ago
+7c0de44 : mm-video-v4l2: vidc: venc: Free buffer FDs and handles <Saurabh Kothawade> 7 months ago
  
 **** cmold:android_kernel_htc_msm8996 ****
 f8a5710 : mdss: livedisplay: Fix memory leaks in mdss_livedisplay_update() <Sultanxda> 5 days ago
 078b9d9 : video: mdss: LiveDisplay driver <Steve Kondik> 1 year, 8 months ago
-a4183c9 : pme: Update kernel to LA.UM.5.5.r1-03800-8x96.0 <Christopher R. Palmer> 3 days ago
+a4183c9 : pme: Update kernel to LA.UM.5.5.r1-03800-8x96.0 <Christopher R. Palmer> 4 days ago
 3a7fdf9 : HID: Remove playstation4 as special driver <Hemant Gupta> 3 weeks ago
-1c51538 : ASoC: msm: acquire lock in ioctl <Yeleswarapu Nagaradhesh> 5 weeks ago
+1c51538 : ASoC: msm: acquire lock in ioctl <Yeleswarapu Nagaradhesh> 6 weeks ago
 9d5a0bc : bluetooth: Fix free data pointer routine <Sungjun Park> 9 weeks ago
 1120652 : msm: camera: Add check to ensure task wont hog CPU <VijayaKumar T M> 6 weeks ago
 79f371d : ANDROID: cpu: send KOBJ_ONLINE event when enabling cpus <Thierry Strudel> 5 weeks ago
@@ -69,7 +98,7 @@ be450f6 : ANDROID: sdcardfs: Switch to internal case insensitive compare <Daniel
 3737fb9 : ANDROID: sdcardfs: Replace get/put with d_lock <Daniel Rosenberg> 3 weeks ago
 80f468e : ANDROID: sdcardfs: rate limit warning print <Daniel Rosenberg> 3 weeks ago
 3d669d5 : ANDROID: sdcardfs: Fix case insensitive lookup <Daniel Rosenberg> 3 weeks ago
-8a4846b : msm: mdss: mdss_set_rgb: Print a new line in pr_info <Alberto97> 19 hours ago
+8a4846b : msm: mdss: mdss_set_rgb: Print a new line in pr_info <Alberto97> 24 hours ago
 c36799d : power: align wakeup_sources format <yangdongdong> 1 year, 8 months ago
  
 **** vanir:kernel_motorola_msm8952 ****
@@ -108,7 +137,10 @@ bd51844 : ANDROID: sdcardfs: Allow non-owners to touch <Daniel Rosenberg> 9 week
 61f3674 : prima : update to LA.BR.1.3.6_rb1.14 <rahulsnair> 7 days ago
  
 **** cmold:android_kernel_samsung_smdk4412 ****
-c33193b : smdk4412 : qcom modem : mdm9xx5 driver from N8000XXUDOF1 <RGIB> 27 hours ago
+c33193b : smdk4412 : qcom modem : mdm9xx5 driver from N8000XXUDOF1 <RGIB> 32 hours ago
+ 
+**** cm:LineageOS/android_packages_apps_CustomTiles ****
+440b231 : CustomTiles: rename app_name to "Extra tiles" <Joey Rizzoli> 2 days ago
  
 **** vanir:packages_apps_LockClock ****
 6f2b2cc : Update weather data only when the screen is on <Gabriele M> 8 days ago
@@ -117,7 +149,10 @@ e039264 : Register network status change listener explicity <Gabriele M> 7 days 
 069c3d1 : Fix typo in method name <Gabriele M> 7 days ago
  
 **** vanir:packages_apps_Messaging ****
-b847aac : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 10 days ago
+16874d5 : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 10 days ago
+ 
+**** vanir:packages_apps_PackageInstaller ****
+0f821af : Revert all the changes introduced with cafrebase <Gabriele M> 24 hours ago
  
 **** cm:LineageOS/android_packages_apps_Recorder ****
 ed7a8b3 : Recorder: add and fix missing copyrights <Joey Rizzoli> 3 days ago
@@ -125,13 +160,26 @@ ed7a8b3 : Recorder: add and fix missing copyrights <Joey Rizzoli> 3 days ago
 4bf3b75 : Recorder: update gradle and support libraries <Joey Rizzoli> 3 days ago
  
 **** vanir:packages_services_Telephony ****
-9fa88eb : Fix crash on opening Call Features - Revert "CallFeatureSettings: Only show call barring option if QTI package installed" <DHOMD> 4 hours ago
+9dc2d7d : Fix crash on opening Call Features - Revert "CallFeatureSettings: Only show call barring option if QTI package installed" <DHOMD> 9 hours ago
  
 **** vanir:vendor_htc ****
 f72b530 : Revert "pme: Hexedit slim_daemon to replace liblog.so with libhlg.so" <Christopher R. Palmer> 8 days ago
  
 **** vanir:vendor_motorola ****
-a0eef56 : victara: regen blobs/makefiles after switching to common extraction scripts <Dan Pasanen> 26 hours ago
-f29bf1d : clark: regen makefiles <Dan Pasanen> 26 hours ago
+c97c6b9 : victara: Correct deodex the location apk files from stock <Christopher R. Palmer> 3 hours ago
+474f383 : victara: Fix the copyright string <Christopher R. Palmer> 3 hours ago
+a0eef56 : victara: regen blobs/makefiles after switching to common extraction scripts <Dan Pasanen> 31 hours ago
+f29bf1d : clark: regen makefiles <Dan Pasanen> 31 hours ago
 ae72b80 : falcon/peregrine: Go back to prebuilt AKM daemon <gmrt> 2 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+f1d2ead : Add a barrier for Marlin/Sailfish <DHOMD> 12 days ago
+ 
+**** vanir:vendor_vanir ****
+cb8133c : Add wear to the power whitelist so it stops QQing <nuclearmistake> 4 hours ago
+dfdcb64 : Add email app to device idle whitelist. <Danny Baumann> 2 days ago
+de2056f : cm: allow apps to find profile manager service <Joey Rizzoli> 32 hours ago
+ 
+**** vanir:vendor_xiaomi ****
+3385b66 : msm8996-common: Remove unused blobs <Luca Stefani> 7 hours ago
  
