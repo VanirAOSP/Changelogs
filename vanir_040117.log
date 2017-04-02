@@ -1,0 +1,329 @@
+
+**** vanir:bionic ****
+5848aaf : libc: memcpy_base: Disable opt for certain targets <Raghavendra Prasad Nagaraj> 2 years, 2 months ago
+ 
+**** vanir:build ****
+8faeb08 : Build hacks <DHOMD> 6 months ago
+ 
+**** vanir:device_google_marlin ****
+31e0932 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 3 weeks ago
+7bbb526 : Revert "marlin: disable our local telephony extensions" <DHOMD> 3 weeks ago
+ 
+**** cm:LineageOS/android_device_htc_hima-common ****
+544fa8e : hima-common: Add entry for extra partition <David Hays> 9 weeks ago
+ 
+**** vanir:device_huawei_kiwi ****
+40fade3 : kiwi: remove duplicate flag. <Paul B> 3 days ago
+35e4873 : kiwi: Don't use low latency on primary <Michael W> 9 days ago
+ 
+**** vanir:device_lge_g3-common ****
+b70cdc9 : g3-common: Add NFC Mifare permissions <Kasual> 3 weeks ago
+7b9fead : Revert "g3: enable adaptive lmk" <Hendrik Hagendorn> 3 weeks ago
+15b4794 : Revert "g3: use xxxhdpi dalvik and hwui memory sizes" <Hendrik Hagendorn> 2 weeks ago
+1c246ea : g3: Update libnfc-brcm.conf <Hendrik Hagendorn> 2 days ago
+ 
+**** vanir:device_lge_g4-common ****
+5b0cd22 : consumerir: Cleanup consumerir_transmit() function <Paul Keith> 2 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+d9e3a63 : Otus: Fix FM Radio <DHOMD> 2 months ago
+ 
+**** vanir:device_motorola_qcom-common ****
+7de973d : qcom-common: Disable dexpreopt <nadlabak> 33 hours ago
+18f8553 : qcom-common: Set Qualcomm Bluetooth SOC ID <Ethan Chen> 6 months ago
+3259e20 : qcom-common: Switch from legacy audio HAL <nadlabak> 13 days ago
+f4ddb58 : qcom-common: remove deprecated eri.xml overlays <Dan Pasanen> 9 days ago
+c024c99 : qcom-common: power: Use POWER_HINT_LAUNCH for launch boosts <Zhao Wei Liew> 7 weeks ago
+ 
+**** github:Grarak/android_device_oneplus_oneplus2 ****
+1bf79e6 : sepolicy: Fix denials <Willi Ye> 3 days ago
+51eba19 : Don't build Snap for now <Willi Ye> 5 weeks ago
+ 
+**** vanir:device_oppo_common ****
+703d570 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+79e0aaf : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 4 months ago
+ 
+**** vanir:device_samsung_jf-common ****
+60b30ad : lights: Sync up lights header to hardware/samsung <Paul Keith> 4 days ago
+ 
+**** vanir:device_samsung_klte-common ****
+acef8ae : klte-common: Update package version note in proprietary files list <Kevin F. Haggerty> 10 hours ago
+ 
+**** vanir:device_samsung_kona-common ****
+f4baea0 : kona : n5100 : selinux update <RGIB> 3 days ago
+ 
+**** cm:LineageOS/android_external_ant-wireless_ant_native ****
+269f300 : ant_native: Add libbt-vendor dependency to bt-vendor_vfs <Sunguk Lee> 5 weeks ago
+ 
+**** vanir:frameworks_base ****
+d1f8936 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** cm:LineageOS/android_hardware_qcom_audio ****
+848f2eb : audio: configs: Enable USE_XML_AUDIO_POLICY_CONF for msm8909 <Divya Narayanan Poojary> 5 weeks ago
+ 
+**** cm:LineageOS/android_hardware_qcom_audio ****
+fdded0f : audio: Reduce minimum offload fragment size for direct pcm <Divya Narayanan Poojary> 10 weeks ago
+59b050c : Fix security vulnerability: Effect command might allow negative indexes <rago> 5 months ago
+8d85750 : Fix security vulnerability: Equalizer command might allow negative indexes <rago> 5 months ago
+ 
+**** cm:LineageOS/android_hardware_qcom_display ****
+4b21e85 : libmemtrack: Fix integer overflow in kgsl function <Archana Sriram> 3 months ago
+ 
+**** vanir:hardware_samsung ****
+047075e : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** cmold:android_kernel_huawei_kiwi ****
+5d24077 : kiwi: Clear qpnp's PON_RESTART_REASON on a normal reboot <Christopher R. Palmer> 8 weeks ago
+21c94eb : ASoC: msm: qdsp6v2: add support for any number of ASM buffers <Banajit Goswami> 2 years, 3 months ago
+ 
+**** github:Grarak/android_kernel_oneplus_msm8994 ****
+b05e369 : input: synaptics: Enable all gestures <Willi Ye> 5 weeks ago
+22a1b82 : qcacld-2.0: Import LA.BF64.1.2.3-01310-8x94.0 <Willi Ye> 9 weeks ago
+5d248a6 : Enable sdcardfs <Willi Ye> 6 days ago
+3c27a59 : sdcardfs: fix external storage exporting incorrect uid <alvin_liang> 7 months ago
+742a9d3 : sdcardfs: Flag files as non-mappable <fluxi> 5 months ago
+03a564f : sdcardfs: Remove stale dentries when reusing an inode. <Daniel Rosenberg> 7 months ago
+6d7c84b : sdcardfs: Fix issue with d_child move <Daniel Rosenberg> 1 year ago
+9361452 : ANDROID: sdcardfs: fix itnull.cocci warnings <Julia Lawall> 10 months ago
+3c2dac8 : sdcardfs: Truncate packages_gid.list on overflow <Daniel Rosenberg> 9 months ago
+723defb : vfs: change d_canonical_path to take two paths <Daniel Rosenberg> 12 months ago
+66557f5 : inotify: Fix erroneous update of bit count <Daniel Rosenberg> 1 year ago
+13c0dea : vfs: add d_canonical_path for stacked filesystem support <Daniel Rosenberg> 1 year, 2 months ago
+138dddd : sdcardfs: remove unneeded __init and __exit <Daniel Rosenberg> 1 year ago
+f20bf51 : sdcardfs: Remove unused code <Daniel Rosenberg> 1 year ago
+b6e35d7 : sdcardfs: remove effectless config option <Daniel Rosenberg> 1 year ago
+5c7eccb : sdcardfs: Add support for d_canonicalize <Daniel Rosenberg> 1 year, 2 months ago
+e066e9a : sdcardfs: Bring up to date with Android M permissions: <Daniel Rosenberg> 1 year, 2 months ago
+24201cd : sdcardfs: Changed type-cast in packagelist management <Daniel Campello> 1 year, 9 months ago
+3a8a403 : sdcardfs: port to 3.10 <Daniel Campello> 1 year, 9 months ago
+23e4f2e : Initial port of sdcardfs <Daniel Campello> 1 year, 9 months ago
+80202a9 : qcacld-2.0: Merge with LA.BF64.1.2.3-00910-8x94.0 <Willi Ye> 5 months ago
+1e628f5 : input: synaptics: Ditch oneplus virtual abs code <Willi Ye> 7 months ago
+d2569e3 : Enable cpusets and zram lz4 compression <Willi Ye> 6 days ago
+3d06eee : msm: qpnp-haptic: set up sysfs interface for common cmhw implementation <dianlujitao> 9 months ago
+60f6bdd : video: mdss: livedisplay: Fix livedisplay MODE_RGB functionality <Ethan Chen> 11 months ago
+6c0ffbd : DTS: optimize DSI command delays <Dan Elkouby> 10 months ago
+7dbd845 : video: mdss: Improve the LiveDisplay driver <Steve Kondik> 1 year, 3 months ago
+f71900e : mdss: LiveDisplay: fix cherry-pick failure <Scott Mertz> 1 year, 6 months ago
+cc7ca88 : video: mdss: Fix issues when setting a channel to zero <Steve Kondik> 1 year, 8 months ago
+b60de45 : msm: mdss: optimize DSI command delay semantics <Matt Wagantall> 1 year, 4 months ago
+4c7dab9 : msm: mdss: support parallel execution of MDSS_EVENT handlers <Matt Wagantall> 1 year, 4 months ago
+41f010f : kernel: cpuset: Make cpusets restore on hotplug <Riley Andrews> 1 year, 10 months ago
+337ce88 : kernel: Add allow_attach hook for cpusets on android. <Riley Andrews> 1 year, 10 months ago
+d2506e75 : qcacld-2.0: Merge LA.BF64.1.2.3-00510-8x94.0 <Willi Ye> 7 months ago
+f590aa8 : Add hcube module <Willi Ye> 12 months ago
+86fbc95 : oneplus2: defconfig: enable hw crc32 support <Alexander Martinz> 6 days ago
+702fb0a : crypto: arm64/crc32 - bring in line with generic CRC32 <Ard Biesheuvel> 1 year, 11 months ago
+d01aba5 : crypto: crc32 - Add ARM64 CRC32 hw accelerated module <Yazen Ghannam> 2 years, 4 months ago
+a11199c : KEYS: Fix race between read and revoke <David Howells> 1 year, 3 months ago
+7868d91 : input: synaptics: Send wakeup key for double tap <Willi Ye> 1 year ago
+46fbae2 : [2/2] Fix notification LED <Dan Elkouby> 1 year, 1 month ago
+3eb5935 : input: tri-state-key: Move keyCodes to procfs <Willi Ye> 1 year, 1 month ago
+a105998 : input: tri-state-key: Don't send duplicated keycodes <Willi Ye> 1 year, 2 months ago
+2b0404a : input: tri-state-key: Support more modes * On M we have 4 modes now <Willi Ye> 1 year, 2 months ago
+dc7ab41 : input: synaptics: Send generic power key for double tap <Willi Ye> 1 year, 5 months ago
+8837b11 : input: tri-state-key: Add sysfs to change order of slider <Willi Ye> 1 year, 6 months ago
+f2705d9 : input: synaptics: Return integer for key reverse <Willi Ye> 1 year, 6 months ago
+9d8d84e : input: synaptics: Create proc file for each gesture <Willi Ye> 1 year, 6 months ago
+68ed1be : input: synaptics: s3320: Rename input device <Willi Ye> 1 year, 6 months ago
+4fcaf68 : input: synaptics: Rename input device <Willi Ye> 1 year, 6 months ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+243eaa7 : netfilter: xt_rpfilter: skip locally generated broadcast/multicast, too <Florian Westphal> 4 years ago
+7443c19 : net: Loopback ifindex is constant now <Pavel Emelyanov> 4 years, 8 months ago
+ 
+**** cmold:android_kernel_samsung_smdk4412 ****
+377b340 : Revert "Revert "smdk4412 : qcom modem : mdm9xx5 driver from N8000XXUDOF1"" <Roberto Gibellini> 3 days ago
+11e99a9 : Revert "smdk4412 : qcom modem : deselect MSM_SUBSYSTEM_RESTART" <Roberto Gibellini> 3 days ago
+5375ffa : Revert "smdk4412 : qcom modem : do not automatically select MSM_SUBSYSTEM_RESTART" <Roberto Gibellini> 3 days ago
+ 
+**** vanir:platform_manifest ****
+ec1cf81 : Revert "cm: Remove ahbottomnavigation library" <Dan Pasanen> 4 days ago
+ 
+**** cm:LineageOS/android_packages_apps_AudioFX ****
+2cd4a6e : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+f4196b3 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Browser ****
+bc8a6c7 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_apps_CMParts ****
+4f90b17 : Fix reorientation of volume buttons on portrait tablets <LuK1337> 2 days ago
+8812ebc : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_apps_Calendar ****
+918bd81 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_apps_Camera2 ****
+e96a1aa : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_apps_CellBroadcastReceiver ****
+17e633f : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_apps_Contacts ****
+d17c717 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+52a6643 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** cm:LineageOS/android_packages_apps_CustomTiles ****
+ee80e81 : CaffeineTile: Use 'off' icon by default <Gabriele M> 2 days ago
+6bcbc09 : AdbOverNetworkTile: Use 'off' icon by default <Gabriele M> 2 days ago
+cb6961e : WakelockService: Don't check if wakelock is held twice <Luca Stefani> 2 days ago
+513dfbf : WakelockService: reference the wakelock <Luca Stefani> 2 days ago
+04e54c3 : CaffeineTile: Start service connection as current user <Luca Stefani> 2 days ago
+5bfa7e9 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_apps_DeskClock ****
+ded6afb : Automatic translation import <Abhisek Devkota> 3 days ago
+8de8bd0 : AlarmService : Change stopSelf into stopSelfResult <Mao Jinlong> 3 months ago
+1f3d393 : DeskClock: fix ringtones stored on /sdcard/Alarms <gismo2004> 7 weeks ago
+ 
+**** vanir:packages_apps_Dialer ****
+3803085 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_apps_Email ****
+92c2de4 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** cm:LineageOS/android_packages_apps_FMRadio ****
+bd6dd73 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** cm:LineageOS/android_packages_apps_FlipFlap ****
+d08398a : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+6c18534 : Gallery2: Rename app back to Gallery <Arne Coucheron> 3 weeks ago
+e2c405d : Gallery2: Properly declare the own permissions <AdrianDC> 1 year, 4 months ago
+31186d4 : Gallery2: Remove more possible NPEs <Michael W> 10 months ago
+56e5d2b : Gallery2: Enable frames in the editor <Arne Coucheron> 5 months ago
+e20c65b : Gallery2: hide navigation bar when we turn off lights <Joey Rizzoli> 10 months ago
+e0a45e8 : Gallery2: Remove slideshow option if there are only videos <yanglv> 3 years, 5 months ago
+ce2dae8 : Gallery2: Remove 3D overscroll effect <Michael Bestas> 10 months ago
+796ff98 : Gallery2: Disable dummy starting window <Michael Bestas> 10 months ago
+350820b : Gallery2: Fix up audio effects dialog <Danny Baumann> 3 years, 7 months ago
+3ba1504 : Gallery2: everyone or no one <Joey Rizzoli> 10 months ago
+5872cf4 : Gallery2: Replace hamburger menu with bottom bar <Joey Rizzoli> 10 months ago
+0d72c8f : Gallery2: change all share intents to chooser style <maxwen> 10 months ago
+6059c40 : Gallery2: update menu <Joey Rizzoli> 10 months ago
+3a83d9e : Gallery2: update theme <Joey Rizzoli> 10 months ago
+4c07826 : Gallery2: New icon <Michael Bestas> 10 months ago
+d8cdad3 : Gallery2: Move & improve CAF strings <Michael Bestas> 10 months ago
+75fc80b : Gallery2: Make sure no NPE happens <Michael W> 10 months ago
+93851ff : Gallery2: Remove invalid comment from manifest <Michael Bestas> 10 months ago
+eff103e : Gallery2: Cleanup renderscript flags in Android.mk <Michael Bestas> 10 months ago
+0393ad5 : Gallery2: Fix CROP_ACTION for third party apps <Danesh M> 1 year, 7 months ago
+c098de9 : Gallery2: Add Storage preference (2/2) <Scott Warner> 1 year, 11 months ago
+41c9fff : Gallery2: Reduce logspam in video player <emancebo> 2 years, 7 months ago
+cd22357 : Gallery2: Store DATE_TAKEN as milliseconds <Danesh M> 3 years, 1 month ago
+48be365 : Gallery2: Modify AOSP EL translations <Michael Bestas> 3 years, 8 months ago
+639e22f : Gallery2: Remove CAF translations <Michael Bestas> 2 years, 3 months ago
+4a5f816 : Gallery2: Add record time to details view <Flamefire> 2 years, 7 months ago
+4ce58dd : Gallery2: Fix crash of gallery on showing details <Flamefire> 2 years, 7 months ago
+7784b2d : Gallery2: Fix crash when Bluetooth service is disabled <root> 1 year, 10 months ago
+9b7a13a : Gallery2: Photo Gallery widget: fix NPE in getViewAt <Raj Yengisetty> 1 year, 9 months ago
+211c51b : Gallery2: Try to open existing camera <Michael W> 10 months ago
+7d42772 : Revert "Gallery: build against current SDK" <Arne Coucheron> 5 months ago
+b8b600e : Revert "Gallery2: enable beautification by default" <Arne Coucheron> 5 months ago
+88d6172 : SnapdragonGallery: Fix crash of viewing download uri <jinwu> 7 weeks ago
+554a896 : Gallery: Fix DDM UI issue <Kedi Xu> 3 months ago
+002491d : Gallery: Fix no ddm lib crash problem <Kedi Xu> 3 months ago
+fff1251 : Galley: add DDM feature code <Kedi Xu> 5 months ago
+304a29a : Gallery: fix ddm effect not applied on complete image <Kedi Xu> 3 months ago
+799eeeb : Gallery: fix no READ_PHONE_STATE permission crash <Kedi Xu> 3 months ago
+c363e15 : SnapdragonGallery: Fix trueportraint crash. <shenfe> 3 months ago
+03b4717 : SnapdragonGallery: Fix mPhotoView null crash. <shenfe> 3 months ago
+d4e21e9 : SnapdragonGallery: Fix select picture error when RTL. <shenfe> 5 months ago
+b6842bb : SnapdragonGallery: Fix number of pictures display error in gallery. <shenfe> 5 months ago
+654e1a6 : SnapdrgonGallery: Fix app force close because of lack of info. <shenfe> 5 months ago
+a84a437 : SnapdrgonGallery: Fix app force close because of lack of info. <shenfe> 5 months ago
+1aa1f8f : Gallery: fix crash while loading content <Likai Ding> 6 months ago
+7c48fea : SnapdragonGallery: Fix TimelinePage display blank page <Kedi Xu> 5 months ago
+94f1e04 : SnapdragonGallery: Fix app force close because mPhotoView is null. <shenfe> 5 months ago
+1cca56b : SnapdragonGallery: Fix mTrueScannerEditor is null <shenfe> 5 months ago
+ff98f5c : SnapdragonGallery: Fix photo show blank. <shenfe> 5 months ago
+fece30c : SnapdragonGallery: Fix timetitle doesn't show <Kedi Xu> 5 months ago
+ 
+**** cm:LineageOS/android_packages_apps_Gello ****
+a80d06a : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_apps_LockClock ****
+4afc8af : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_apps_Messaging ****
+3d827ff : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 3 weeks ago
+6e37349 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_apps_PackageInstaller ****
+0fc5fe1 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+eedc20a : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Profiles ****
+2a86c63 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Recorder ****
+b427c2f : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_apps_Settings ****
+210f42f : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Snap ****
+13d43d7 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Terminal ****
+44781da : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_apps_Trebuchet ****
+defe11d : Automatic translation import <Abhisek Devkota> 3 days ago
+315b2f9 : Moving a few testing classes to a separate package <Sunny Goyal> 1 year, 9 months ago
+3c58753 : Trebuchet: Remove ambient SDK leftover <Gabriele M> 6 days ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+251c7bd : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_inputmethods_LatinIME ****
+53836b2 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** cm:LineageOS/android_packages_providers_DataUsageProvider ****
+149eb22 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_providers_DownloadProvider ****
+4f6cf59 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** cm:LineageOS/android_packages_providers_WeatherProvider ****
+fd0d410 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** cm:LineageOS/android_packages_resources_devicesettings ****
+a765ae0 : Add strings for fingerprint pocketmode <Bruno Martins> 3 days ago
+d653283 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_services_Telephony ****
+c21ccee : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:vendor_cmsdk ****
+54996d4 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** cm:LineageOS/android_packages_apps_YahooWeatherProvider ****
+7c8a02e : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** cm:LineageOS/android_packages_apps_WundergroundWeatherProvider ****
+77358cc : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:vendor_motorola ****
+5f23052 : qcom-common: Switch from legacy audio HAL <nadlabak> 3 days ago
+ 
+**** vanir:vendor_qcom_binaries ****
+20c65a5 : Add a Nexus friendly option <DHOMD> 3 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+47521da : Add a barrier for Marlin/Sailfish <DHOMD> 3 weeks ago
+ 
+**** vanir:vendor_vanir ****
+48924c8 : Fix APNs for Cyprus <Alexander Phinikarides> 7 days ago
+0919ee4 : extract_utils: support extracting directly from an ota zip <Dan Pasanen> 12 days ago
+ 
