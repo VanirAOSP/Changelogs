@@ -1,0 +1,541 @@
+
+**** vanir:art ****
+f9e3754 : Revert "Revert "ART: Give JIT thread pool workers a peer"" <Andreas Gampe> 9 weeks ago
+2db6c40 : ART: Add ThreadPool mode that creates peers <Andreas Gampe> 10 weeks ago
+f5f462b : Add Thread entry to signal if the thread can call into java <Calin Juravle> 4 months ago
+3f3d4d6 : Cache flush/invalidate needs RWX permission <Artem Udovichenko> 5 months ago
+61049e8 : Delete extra arm64/mips64 MterpReturn suspend check <Mathieu Chartier> 3 months ago
+40d4c76 : Add visiting for class loaders in StickyMarkSweep <neo.chae> 5 months ago
+9d5d85e : Revert "Revert "Prune uses library classes even without profile DO NOT MERGE"" <Mathieu Chartier> 3 months ago
+fc9bec2 : Revert "Prune uses library classes even without profile DO NOT MERGE" <Griff Hazen> 4 months ago
+dfd17f1 : Prune uses library classes even without profile <Mathieu Chartier> 8 months ago
+8394cee : Prune uses library classes even without profile DO NOT MERGE <Mathieu Chartier> 8 months ago
+2b25ca9 : Fix event reporting from the debugger thread <Sebastien Hertz> 4 months ago
+b33635d : ART: Prioritize reference table dump <Andreas Gampe> 5 months ago
+ 
+**** vanir:bionic ****
+b7ec7ca : Fix streaming(memcpy) performance on Cortex-A7 <Chitti Babu Theegala> 4 months ago
+8402b42 : Add cortex-a7 specific routines. <Christopher Ferris> 4 months ago
+418fe1e : Check for bad packets in getaddrinfo.c's getanswer. <Elliott Hughes> 5 months ago
+2190eb1 : DO NOT MERGE: Update timezone data to 2016j <Neil Fuller> 4 months ago
+2993aaa : Fix x86_64 build which uses g++ and hits -Werror=unused-but-set-variable <Brian Carlstrom> 4 months ago
+c0f1f55 : Fix uninitialized variable usage. <Christopher Ferris> 5 months ago
+1dc3ae1 : Fix error case to print newlines properly. <Christopher Ferris> 5 months ago
+f1e4478 : Make prctl test check maps. <Christopher Ferris> 5 months ago
+b7f0267 : Fix uninitialized variable usage. <Christopher Ferris> 5 months ago
+105a0bd : Check for bad packets in getaddrinfo.c's getanswer. <Elliott Hughes> 5 months ago
+9ea3f1c : Check for bad packets in getaddrinfo.c's getanswer. <Elliott Hughes> 5 months ago
+87c0dba : Check for bad packets in getaddrinfo.c's getanswer. <Elliott Hughes> 5 months ago
+dd0155f : DO NOT MERGE : Update timezone data to 2016i. <Neil Fuller> 5 months ago
+41e96c8 : DO NOT MERGE : Update timezone data to 2016h. <Neil Fuller> 6 months ago
+ 
+**** vanir:development ****
+49453c6 : Increment package revision for 2017-02 samples release <Trevor Johns> 8 weeks ago
+8a66f8c : Update sample prebults for 2017-02 release (nyc-mr1-dev) <Trevor Johns> 8 weeks ago
+f22b170 : samples: Update sdk.atree for nyc-mr1-dev <Trevor Johns> 3 months ago
+3468e63 : Update the Notepad sample app to: 1. Show that any application state should be saved in onStop() versus    onPause(). 2. Remove the deprecated methods and start using CursorLoader instead    of any managedQuery. 3. Remove deprecated LiveFolders usage. <Nasir Khan> 5 months ago
+a70cf63 : Add runner to run frameworks-telephony tests <Naveen Kalla> 9 months ago
+ 
+**** vanir:device_google_marlin ****
+6eea584 : Telus: Add tethering apn back. <Youhan Wang> 6 weeks ago
+066e189 : apns: hide telus ims apn <Meng Wang> 7 weeks ago
+9a9800b : RJIO: Change Roaming protocal to IPV4V6. <Youhan Wang> 8 weeks ago
+27a2df0 : DTAG: Change ia APN from empty to internet.telekom <Jayachandran C> 8 weeks ago
+d908513 : DTAG: Add HOS APN for IWLAN (bearer 18) MMS. <Youhan Wang> 2 months ago
+e29680b : Rogers: Hide IMS apn from UI. <Youhan Wang> 9 weeks ago
+a955645 : racoon: Add SIOCSIFNETMASK <Nick Kralevich> 10 weeks ago
+4b51bb9 : DTAG: Use "WLAN call" instead of "Wi-Fi Calling" in SPN and Setting. <Youhan Wang> 2 months ago
+fffd6c5 : DTAG: Set default APN protocol type as "IPV4V6". <Rukun Mao> 2 months ago
+3ab6a38 : lights: Allow changing brightness when in low-persistence mode. <Craig Donner> 7 months ago
+d03d1ba : Enable TelephonyMonitor <Sooraj Sasindran> 3 months ago
+da6d5dc : DO NOT MERGE Revert "Marlin/Sailfish: customize bad WiFi RSSI values" <Randy Pan> 3 months ago
+b05c899 : sepolicy: Allow RamdumpUploader to write to /data/ramdump <Siqi Lin> 3 months ago
+53cce0c : marlin/sailfish: Disable RPS <Srinivas Girigowda> 3 months ago
+f625ca5 : cameraserver: add socket read permission <Zhijun He> 3 months ago
+baec06a : marlin: Add permission to camera <sam.ch_chang> 4 months ago
+a487fc4 : Fix incorrect gid for Telus or Koodo. <Junda Liu> 3 months ago
+b646634 : marlin: Adjust init timing for rtel. Let ramdump_rtel is created before subsystem_ramdump is running. <evan_wong> 3 months ago
+7d35610 : marlin: audio: Update volume level of volume listener (1007) <jasmine cha> 6 months ago
+06afb53 : Update SKIN_THROTTLING_THRESHOLD to a real value <Andrew Sapperstein> 4 months ago
+0bc0349 : Add policy for camera/cameraserver <Zhijun He> 4 months ago
+f860807 : DO NOT MERGE place RIL, netmgr, and smlog into bugreport. <Rukun Mao> 4 months ago
+17a6aec : DO NOT MERGE spn-conf: set WFC SPN for Rogers and Fido <Meng Wang> 4 months ago
+bce1569 : Create new data node /data/misc/netmgr <Rukun Mao> 4 months ago
+8360fa2 : apns-full-conf: add IMS apns for CA carriers <Meng Wang> 4 months ago
+e8ea1d1 : marlin: audio: Update volume level of volume listener (1007) <jasmine cha> 6 months ago
+560a4a4 : Allow bluetooth service to access bluetooth directory and add /logs (6/14) <Ajay Panicker> 4 months ago
+b8ac634 : Marlin/Sailfish: Set gInformBssRssiRaw to 0 <Srinivas Girigowda> 5 months ago
+1d81cfc : Signal M/S support for AUDIO_SOURCE_UNPROCESSED <rago> 7 months ago
+a77c496 : Marlin/Sailfish: customize bad WiFi RSSI values <Randy Pan> 4 months ago
+6bdfdc8 : Allow subsystem restart tracker access in user builds <Sooraj Sasindran> 5 months ago
+aacaad7 : DO NOT MERGE. Remove Spaces in front of APN Types <Naveen Kalla> 4 months ago
+5b29a0c : Remove Spaces in front of APN Types <Naveen Kalla> 4 months ago
+55c5c84 : O2UK, O2 Pay & Go, TESCO, giffgaff: APN change. <Youhan Wang> 4 months ago
+d2d3143 : Use bearer instead of bearer_bitmask to avoid merging APNs. <Amit Mahajan> 4 months ago
+cdde9de : Add APN Settings for UK  MVNO Jump.co.uk (Dual-IMSI MCC/MNC) <Piers Brown> 12 months ago
+4efc137 : Added Rebtel APN settings to conf file <Andy Kaminski> 1 year, 2 months ago
+764719f : apns-full-conf: add IMS apns for Bell 302/630 <Meng Wang> 4 months ago
+47b512a : apns: update RJIO APNs <Meng Wang> 5 months ago
+cd12e7b : sepolicy: Allow platform_app to access /data/ramdump <Siqi Lin> 7 months ago
+bc52cf6 : spn-conf: add spn override for DTAG <Meng Wang> 5 months ago
+3c3b224 : apns-full-conf: add IMS apn for Bell CA <Meng Wang> 4 months ago
+ae74857 : Delete smlog files left in /data <Naveen Kalla> 5 months ago
+96c889f : TMO: Use fast.t.mobile.com for Initial Attach. <Youhan Wang> 5 months ago
+8109281 : marlin/sailfish: Enable Fast bss transition config <Roshan Pius> 4 months ago
+58e0996 : Remove librilqmiservices.so from the blobs list <Bill Yi> 5 months ago
+4e17673 : sepolicy: grant thermal-engine sys_boot <Tim Murray> 5 months ago
+ed27904 : Add a thermal shutdown to marlin <Philip Cuadra> 5 months ago
+d12cf2e : Race condition fix in powerHAL <Srinath Sridharan> 5 months ago
+bb45633 : spn-conf: add spn override for RJIO <Meng Wang> 5 months ago
+ 
+**** vanir:device_htc_flounder ****
+88c3acd : flounder: limit dex2oat to one thread <Mark Salyzyn> 3 months ago
+4c4bf96 : gts: ro.product.first_api_level needs to be set to L (23) <Mark Salyzyn> 3 months ago
+f2a049a : ARM: tegra: flounder: update lates gps HAL 65.19.20.279807_47521 <Mark Salyzyn> 3 months ago
+715a993 : Allow bluetooth service to access bluetooth directory and add /logs (9/14) <Ajay Panicker> 4 months ago
+500d293 : Fix security issue in Visualizer effect <rago> 4 months ago
+ 
+**** cm:LineageOS/android_device_htc_hima-common ****
+9bdfd80 : hima: board-info: Add 7.0 OTAs SBL1 <David Hays> 3 days ago
+ 
+**** vanir:device_huawei_angler ****
+a1c8054 : N2G47H <DHOMD> 45 seconds ago
+7573357 : QCamera3: check channel nullptr <Chien-Yu Chen> 8 weeks ago
+daa33ed : angler: usb: Signal the usb stack to adjust the delay for USB port detection [ DO NOT MERGE ] <Badhri Jagan Sridharan> 9 weeks ago
+05e137c : angler: add first_api_level property <Vineeta Srivastava> 3 months ago
+b76cd94 : angler: apns-full-conf: Modify some wrong apns. <Changwei Tang> 3 months ago
+de1a410 : angler: apns-full-conf: Modify some wrong apns. <Changwei Tang> 3 months ago
+b69fff0 : angler: add first_api_level property <Vineeta Srivastava> 3 months ago
+ed5f9b3 : angler: fix selinux policy for fingerprintd <Nick Desaulniers> 3 months ago
+1f016ec : angler: fingerprint: update to SW20 <Wei Li> 3 months ago
+6aed25f : angler: overlay: Enable fingerprint swipe gesture <Nick Desaulniers> 3 months ago
+cbdd3c6 : angler: fingerprint: update to SW20 <Wei Li> 3 months ago
+031c90e : angler: overlay: Enable fingerprint swipe gesture <Nick Desaulniers> 3 months ago
+c2c7bbc : Enable qcril db in angler <Sooraj Sasindran> 5 months ago
+0c22ba9 : Update BoardConfigPartial,device-partial.mk files template <Bill Yi> 3 months ago
+2641bd4 : QCamera2: HAL3: Use monotonic timestamp for pthread_cond_timedwait <Shuzhen Wang> 4 months ago
+43d055f : Use bearer instead of bearer_bitmask to avoid merging APNs. <Amit Mahajan> 4 months ago
+5e4ceaf : cpufreq: limit cpufreq in recovery <Robb Glasser> 5 months ago
+0109a6c : angler: apns-full-conf: Add apns for another plmn(44051) of KDDI in Japan. <Changwei Tang> 5 months ago
+ 
+**** vanir:device_huawei_kiwi ****
+263b8fe : kiwi: Disable adaptive LMK <Christopher R. Palmer> 3 weeks ago
+ 
+**** vanir:device_lge_bullhead ****
+49d31d2 : QCamera3: check channel nullptr <Chien-Yu Chen> 8 weeks ago
+a1473ce : bullhead: add first_api_level property <Vineeta Srivastava> 3 months ago
+5c566da : bullhead: add first_api_level property <Vineeta Srivastava> 3 months ago
+9716010 : Update BoardConfigPartial,device-partial.mk files template <Bill Yi> 3 months ago
+a260c90 : QCamera2: HAL3: Use monotonic timestamp for pthread_cond_timedwait <Shuzhen Wang> 4 months ago
+dfd5ba1 : bullhead: only build vendor/ code when non-aosp <Nick Desaulniers> 4 months ago
+b280e1c : bullhead: overlay: Enable fingerprint swipe gesture <Nick Desaulniers> 4 months ago
+dc14c70 : bullhead: support fingerprint SW20.6 <Jongrak Kwon> 4 months ago
+e399813 : Use bearer instead of bearer_bitmask to avoid merging APNs. <Amit Mahajan> 4 months ago
+dd28d3b : cpufreq: limit cpufreq in recovery <mohamed.khadri> 6 months ago
+ 
+**** vanir:device_lge_g4-common ****
+ab81f65 : sepolicy: remove rest of cmte <Erwan Leboucher> 10 hours ago
+ 
+**** vanir:device_lge_v20-common ****
+0011fb6 : dependencies: Remove surplus repos <Harry Youd> 5 days ago
+ 
+**** vanir:device_moto_shamu ****
+d6ebd77 : shamu: add first_api_level property <Vineeta Srivastava> 3 months ago
+bd6ca81 : Revert "Revert "Revert "Path fix for backend connection to FE upon call disconnection""" <Eric Laurent> 3 months ago
+9388a72 : Revert "audio: fix headset + speaker path" <Eric Laurent> 3 months ago
+9957146 : shamu: add first_api_level property <Vineeta Srivastava> 3 months ago
+929cd03 : Allow bluetooth service to access bluetooth directory and add /logs (10/14) <Ajay Panicker> 4 months ago
+1c88540 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+161ffb5 : audio: fix headset + speaker path <Eric Laurent> 5 months ago
+ 
+**** vanir:device_motorola_msm8226-common ****
+edf69c7 : CMActions: Don't crash after screen rotations <Gabriele M> 5 hours ago
+90ffb50 : CMActions: Properly enable/disable the preferences <Gabriele M> 28 hours ago
+0aa2c36 : CMActions: Use a SwitchBar for Ambient Display preference <Gabriele M> 29 hours ago
+b95e143 : CMActions: Import SwitchBar code from Settings <Gabriele M> 5 days ago
+5842d5a : CMActions: Change parent theme of the app <Gabriele M> 5 days ago
+15319e9 : CMActions: Replace menu button with back button <Gabriele M> 5 days ago
+a254783 : CMActions: Enable service and add intent filters only when needed <Gabriele M> 30 hours ago
+685a152 : CMActions: Unregister gesture preferences listener <Gabriele M> 30 hours ago
+5d12b2f : CMActions: Release all the resources on service destruction <Gabriele M> 5 days ago
+43f4179 : CMActions: Code cleanup <Gabriele M> 5 days ago
+f3f0f4f : CMActions: Unregister screen state intent filter <Gabriele M> 5 days ago
+5793bce : CMActions: Perform operations as current user <Gabriele M> 5 days ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+1079e93 : oneplus3: Fix touchscreen and keypad firmware update process <Sultanxda> 28 hours ago
+5e95d0b : oneplus3: Set restart level to related for all subsystems <Sultanxda> 8 months ago
+ 
+**** vanir:device_oneplus_onyx ****
+cf37b8c : dependencies: Remove devicesettings <Harry Youd> 4 days ago
+ 
+**** cm:LineageOS/android_device_samsung_noblelte-common ****
+1a3f65c : noblelte: Allow everyone to read the kernel cmdline <Christopher N. Hesse> 27 hours ago
+d0441a9 : noblelte: Fix SIM runtime insertion <Christopher N. Hesse> 31 hours ago
+00876c9 : noblelte: Build SamsungDoze <Christopher N. Hesse> 35 hours ago
+ 
+**** vanir:external_boringssl ****
+7a342e9 : Rewrite BN_bn2dec. <David Benjamin> 7 months ago
+29b92ab : Rewrite BN_bn2dec. <David Benjamin> 7 months ago
+8c2c80c : Rewrite BN_bn2dec. <David Benjamin> 7 months ago
+ 
+**** vanir:external_flac ****
+83a817d : src/libFLAC/stream_decoder.c : Fix NULL de-reference. <Erik de Castro Lopo> 2 years, 4 months ago
+ 
+**** vanir:external_libnfc-nci ****
+6b9d393 : Fix native crash in nfc_ncif_proc_activate <fang.x.chen> 5 months ago
+ 
+**** vanir:external_skia ****
+318e350 : Use fixed size buffer for RLE bmps DO NOT MERGE <Leon Scroggins III> 3 months ago
+16882f7 : Fix out of bounds memory read in GIFMovie.cpp <Leon Scroggins III> 8 weeks ago
+20de35a : DO NOT MERGE Do not create an SkRawCodec with zero dimensions <Leon Scroggins III> 4 months ago
+ 
+**** vanir:frameworks_base ****
+16c5153 : Hotspot Tile: longclick should open Tethering settings <Jake Whatley> 9 weeks ago
+91053a5 : Fix Hotspot tile is shown on Guest user <Akitaka Kimura> 6 months ago
+5c923f2 : SettingsProvider: Update icon. <artas182x> 2 years, 5 months ago
+ 
+**** vanir:frameworks_opt_datetimepicker ****
+5f15692 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+8a18ea0 : Import translations. DO NOT MERGE <Bill Yi> 7 months ago
+ 
+**** vanir:frameworks_support ****
+d3347c7 : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+016c3fa : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+8cc46d2 : Fix memory leak in deferred a11y dispatcher. DO NOT MERGE <Griff Hazen> 4 months ago
+c88a088 : Fix dodge rect contains check <Chris Banes> 4 months ago
+acc7644 : Update documation for VDC / AVDC <Teng-Hui Zhu> 5 months ago
+d6c71b8 : Adding in a boilerplate for the ideal isAtLeast method <Ian Pedowitz> 4 months ago
+f073132 : Fix CoordinatorLayout inset tests <Chris Banes> 4 months ago
+c3e71f0 : Possibly fix IllegalArgumentException for dodge insets <Chris Banes> 4 months ago
+95ca36d : Return current object instead of Exception when constant state is null <Teng-Hui Zhu> 5 months ago
+69557a3 : Fix BottomNavigationMenu item selection via Menu object <Aurimas Liutikas> 5 months ago
+f56f87f : DO NOT MERGE fix BrowseFragmentTest static variable issue <Dake Gu> 7 months ago
+3536c10 : DO NOT MERGE leanback: Lint fixes <Dake Gu> 5 months ago
+6ae9314 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+0b27201 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+46fd97c : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+5435163 : Stop measure/layout on GONE views in CoordinatorLayout <Chris Banes> 5 months ago
+79cc8b4 : Fix AlertDialog width on API 11+ <Chris Banes> 5 months ago
+6caeb66 : MediaBrowserCompat: Fix NPE <Sungsoo> 5 months ago
+6508918 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+c6decbc : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+9693f80 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+4533a55 : Fix InputContentInfoCompat.releasePermission() <Yohei Yukawa> 5 months ago
+72c39bd : Fix TextViewCompat#getCompoundDrawablesRelative on API 17 <Chris Banes> 5 months ago
+5eab26a : Fix TextInputLayout hint not working in extract mode <Chris Banes> 5 months ago
+4d8f957 : Preserve left+right compound drawables <Chris Banes> 5 months ago
+724b679 : Workaround weirdness when running on Intel devices <Chris Banes> 5 months ago
+c6f44e3 : Fix background tint for Button.Colored on API 22 <Chris Banes> 5 months ago
+2210570 : Add proguard to make sure AVD's getter and setter still works <Teng-Hui Zhu> 5 months ago
+4f11964 : Prevent RecyclerView from doing another layout while processing updates <Yigit Boyar> 5 months ago
+7ff7ddc : Add shadow to BottomNavigationView. <Aurimas Liutikas> 5 months ago
+af52318 : Fix null LayoutManager prefetch crash - DO NOT MERGE <Chris Craik> 5 months ago
+80c46a0 : Fix crash when adding items to BottomNavigationView. <Aurimas Liutikas> 5 months ago
+2056c3e : leanback: Use weareference for details transition timeout task <Dake Gu> 5 months ago
+b997c6f : Update build numbers for nyc-mr1-dev to 25.0.1 <Chris Flatt> 5 months ago
+e1e8ec0 : BottomNavigationView javadoc fix up. <Aurimas Liutikas> 5 months ago
+259e537 : Fix "null" in content description <Dake Gu> 5 months ago
+ 
+**** vanir:hardware_broadcom_libbt ****
+f9d54f5 : BT: Added the libbt configuration file for nerka <Tim Kryger> 7 weeks ago
+904faf7 : Add vnd_ayu.txt <Masakazu Yamazaki> 3 months ago
+9f9f66a : update shasta and anthracite config <Andriy Naborskyy> 4 months ago
+159d531 : Add vnd_sawfish.txt <Zheng Zhang> 5 months ago
+bf26681 : Add empty line in vnd_sawshark.txt to fix build error <Zheng Zhang> 6 months ago
+1f5d57f : BT: Added the libbt configuration file of sawshark <Zheng Zhang> 6 months ago
+ 
+**** vanir:hardware_broadcom_wlan ****
+9deece5 : net: wireless: bcmdhd: add bssid count element in hotlist cfg <Insun Song> 4 months ago
+3377e62 : net: wireless: bcmdhd: update bcm4354/56 FW (7.35.101.5) <Insun Song> 8 weeks ago
+5a43434 : net: wireless: bcmdhd: fix buffer overrun in ePNOCommand <Insun Song> 9 weeks ago
+38cfc37 : net: wireless: bcmdhd: update bcm4358 FW (7.112.201.3) <Insun Song> 8 weeks ago
+bc88924 : DO NOT MERGE ANYWHERE: Fix P2P failure when setting WPS P2P IE <Sohani Rao> 10 weeks ago
+ 
+**** vanir:hardware_intel_img_hwcomposer ****
+088aa2e : display: fix up TTM dependency by setting ov# to 0 <Victor Tasayco Loarte> 3 months ago
+ 
+**** vanir:hardware_libhardware ****
+d6aebac : hw_auth_token: use macro for HW_AUTH_TOKEN_VERSION <Jongrak Kwon> 4 months ago
+3f9a6d3 : Fix security vulnerability: potential OOB write in audioserver <rago> 4 months ago
+93bd76b : BLE OOB Pairing - parse address type (2/5) <Jakub Pawlowski> 5 months ago
+c1ded2a : Sensors: MultiHal: support sensor API version 1.4 <Nick Vaccaro> 6 months ago
+28a872e : Treat all tags as unsigned when comparing them <Tucker Sylvestro> 6 months ago
+59d9fb4 : Sensors: MultiHal: ignore errors from poll calls <Nick Vaccaro> 9 months ago
+ 
+**** vanir:hardware_qcom_camera ****
+c92cb05 : Camera HAL3: cut off the private reprocess metadata for HFR <Zhijun He> 10 weeks ago
+fd231dd : QCamera2:HAL: Removing 20 second redundancy. <Ranjith Kagathi Ananda> 4 months ago
+e763e80 : QCamera2: HAL3: Add AF_SCENE_CHANGE vendor tag <Shuzhen Wang> 1 year ago
+e9fabb9 : QCamera2: avoid leaking device code names to JPEG EXIF <Zhijun He> 11 months ago
+72c75ca : QCamera2: HAL3: Remove unhelpful error message <Shuzhen Wang> 1 year, 1 month ago
+68ba517 : msm8998: Qcamera2: Add vendor tags for DevCamera debug <Samuel Ha> 4 months ago
+19463d7 : QCamera2: msmcobalt: HAL3: Add hybrid AE vendor tag <Shuzhen Wang> 1 year, 1 month ago
+426c4d9 : Camera: silent log spew <Zhijun He> 4 months ago
+4bea843 : msm8998: rename msmcobalt to msm8998 <Thierry Strudel> 4 months ago
+e924f42 : QCamera2: stack: update test for cam_semaphore_timedwait <Shuzhen Wang> 4 months ago
+c661363 : Do not include msmcobalt when building for msm8996 <Thierry Strudel> 4 months ago
+17883a4 : msmcobalt: QCameraMem: fix build when USE_MEDIA_EXTENSIONS is not set <Thierry Strudel> 4 months ago
+e80ad7c : msmcobalt: Update to LA.UM.5.7_RB1.07.00.00.251.006 <Thierry Strudel> 4 months ago
+59c9b8b : QCamera2: HAL3: Use monotonic timestamp for pthread_cond_timedwait <Shuzhen Wang> 4 months ago
+c2ee330 : msmcobalt: Update to 07.00.00.253.042 <Thierry Strudel> 5 months ago
+295a0ca : msmcobalt: Update to 07.00.00.253.039 <Thierry Strudel> 5 months ago
+ 
+**** vanir:hardware_qcom_gps ****
+4eda8e1 : fixing a race condition on MsgTask::destroy() <Dante Russo> 4 months ago
+02f13da : msm8998: rename msmcobalt to msm8998 <Thierry Strudel> 4 months ago
+47b6263 : Added XTRA CA path to gps.conf <Ajit Kumar> 4 months ago
+c2fbb41 : msmcobalt: Update to LA.UM.5.7_RB1.07.00.00.251.006 <Thierry Strudel> 4 months ago
+c5b4bd3 : gps: enable SAP <shinru_han> 4 months ago
+63f8eb7 : msmcobalt: Update to 07.00.00.253.042 <Thierry Strudel> 5 months ago
+bc2807a : msmcobalt: Update to 07.00.00.253.039 <Thierry Strudel> 5 months ago
+90ff845 : fixed a copy paste error <Dante Russo> 5 months ago
+685517e : deprecate legacy NTP time download <Dante Russo> 7 months ago
+351d698 : multiple XTRA downloaders could be triggered on boot up <Dante Russo> 8 months ago
+d304a98 : XTRA Client 2.0 <Dante Russo> 8 months ago
+d4fd1e9 : Adding TARGET_NO_GNSS check while creating LocApi <Dante Russo> 7 months ago
+f89bb9b : Fix gps compilation for 8x26 <Ajit Kumar> 7 months ago
+64efbd9 : Support GnssMeasurement <Ajit Kumar> 8 months ago
+ 
+**** cm:LineageOS/android_hardware_ril ****
+1faedb0 : ril: Fix crash when enabling RILC_LOG <Christopher R. Palmer> 4 weeks ago
+ 
+**** vanir:hardware_samsung ****
+d483dd7 : audience: Cleanup write_int() <Christopher N. Hesse> 34 hours ago
+658f447 : audience: Use O_WRONLY flag for write_int() <Christopher N. Hesse> 34 hours ago
+2036814 : audience: Always log write_int() fails <Christopher N. Hesse> 34 hours ago
+7052460 : audience: Warn when we cannot handle the output device <Christopher N. Hesse> 34 hours ago
+f9b8e83 : power: Add POWER_HINT_DISABLE_TOUCH support <Christopher N. Hesse> 3 months ago
+ 
+**** cmold:android_kernel_cyanogen_msm8916 ****
+500a553 : cpufreq: interactive: Use wake_up_process_no_notif to wake up tasks <Junjie Wu> 1 year, 3 months ago
+ 
+**** vanir:packages_apps_Camera2 ****
+d5645db : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+2432746 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+0c2aec1 : Import translations. DO NOT MERGE <Bill Yi> 7 months ago
+ 
+**** vanir:packages_apps_CertInstaller ****
+cc8cfc2 : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+9a9e517 : WifiInstaller: add permission for access downloaded files <Peter Qiu> 9 weeks ago
+bfd17d2 : WifiInstaller: remove the installation file <Peter Qiu> 4 months ago
+45d19cc : Import translations. DO NOT MERGE <Bill Yi> 4 months ago
+ace72de : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+7fcb43a : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+5f0cef6 : Import translations. DO NOT MERGE <Bill Yi> 7 months ago
+63cab9c : Import translations. DO NOT MERGE <Bill Yi> 8 months ago
+ 
+**** vanir:packages_apps_Contacts ****
+15922c5 : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+89b350a : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+9230fa7 : Import translations. DO NOT MERGE <Bill Yi> 7 months ago
+ 
+**** cm:LineageOS/android_packages_apps_CustomTiles ****
+a25d845 : WakelockService: Refactor <Luca Stefani> 33 hours ago
+e4a5f65 : Caffeine: Stop service if not enabled <Luca Stefani> 4 days ago
+ 
+**** vanir:packages_apps_DeskClock ****
+c4dc552 : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+df2ee66 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+721f8d5 : Import translations. DO NOT MERGE <Bill Yi> 7 months ago
+ 
+**** vanir:packages_apps_Dialer ****
+4095f56 : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+1b7051a : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+ 
+**** vanir:packages_apps_Email ****
+9794d7e : Limit account id and id to longs <Rohan Shah> 8 months ago
+4d43d4a : DO NOT MERGE Limit account id and id to longs <Rohan Shah> 8 months ago
+ 
+**** vanir:packages_apps_ExactCalculator ****
+a7c62ac : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+ef35d30 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+0967b4d : Import translations. DO NOT MERGE <Bill Yi> 7 months ago
+ 
+**** vanir:packages_apps_KeyChain ****
+d8f890c : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+ 
+**** vanir:packages_apps_ManagedProvisioning ****
+54dfb00 : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+40408b7 : DO NOT MERGE: Only select Wi-fi when needed <Mattias Petersson> 5 months ago
+b7d0c66 : Import translations. DO NOT MERGE <Bill Yi> 4 months ago
+a2b30c2 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+1fb5785 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+d5a2220 : Import translations. DO NOT MERGE <Bill Yi> 7 months ago
+ 
+**** vanir:packages_apps_Messaging ****
+6f763fe : 32764144 Security Vulnerability - heap buffer overflow in libgiftranscode.so in colorMap->Colors[colorIndex] <Tom Taylor> 3 months ago
+837474a : 33388925  Mismatched new vs delete in framesequence library <Tom Taylor> 3 months ago
+a2aa53f : 32807795  Security Vulnerability - AOSP Messaging App: thirdparty can attach private files from "/data/data/com.android.messaging/" directory to the messaging app. <Tom Taylor> 4 months ago
+69ed579 : 32161610 Security Vulnerability - Information disclosure vulnerability in AOSP Messaging <Tom Taylor> 4 months ago
+bcc1f62 : 32322450 Security Vulnerability - heap buffer overflow in libgiftranscode.so <Tom Taylor> 4 months ago
+ 
+**** vanir:packages_apps_Nfc ****
+e237e68 : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+5890c8c : Import translations. DO NOT MERGE <Bill Yi> 3 months ago
+67a5e6b : Adds functionality to detect live case NFC tags on lock screen. <Ruchi Kandoi> 4 months ago
+012bb17 : payment: Do not reset the default payment is non-null. <Ruchi Kandoi> 3 months ago
+b1e51e7 : Add android.nfc.tech.ndef to unformatted NFC tags <Ruchi Kandoi> 4 months ago
+a3a3558 : Use FileProvider rather than sharing raw file URI <Johan Redestig> 8 months ago
+18d84fe : Fix unresponsive touch screen after NFC WPS dialog is closed <xin.li> 7 months ago
+d7d4468 : BLE OOB Pairing - parse address type (4/5) <Jakub Pawlowski> 5 months ago
+f3caf6e : Add LE Secure Connection data parsing (4/4) <Jakub Pawlowski> 8 months ago
+8d0af30 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+ 
+**** vanir:packages_apps_PackageInstaller ****
+e1dbf0e : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+f44d80b : Don't show dialog when create the base view. <Shijian Li> 10 weeks ago
+275897a : Set USER_FIXED for all non-granted permissions as long as one in the group is changed. <Shijian Li> 2 months ago
+38a75ae : Tweak resource selector to only pick width for watch percentage size. <Michael Kwan> 2 months ago
+b8e4193 : Partial cherry-pick changes on permission model change. <Shijian Li> 2 months ago
+8bb2553 : Add refresh logic for individually controlled permission in onResume. <Shijian Li> 3 months ago
+f7d0ef9 : Don't set USER_FIXED when revoking a permission inside Settings -> App. <Shijian Li> 3 months ago
+1019d73 : Expand all permissions when permissions in a group are individually managed. <Shijian Li> 3 months ago
+6d4fdd4 : Merge "stop incorrectly showing unknown sources prompt" am: 5e4d32ccfc am: e931327ee0 <Daniel Micay> 4 months ago
+540a404 : Prioritize package installer intent filter <Philip P. Moltmann> 4 months ago
+17e1b04 : Prioritize package installer intent filter <Philip P. Moltmann> 4 months ago
+f1fb59a : Prioritze package installer intent filter <Philip P. Moltmann> 4 months ago
+a3b219a : Import translations. DO NOT MERGE <Bill Yi> 4 months ago
+e01dae7 : Prioritze package installer intent filter <Philip P. Moltmann> 4 months ago
+528811c : Add Bluetooth toggle prompts - package installer <Svet Ganov> 9 months ago
+6dfb1f6 : DO NOT MERGE Reworked additional permissions fragment for each app <Keyvan Amiri> 5 months ago
+23153df : Make system app fragment refresh on resume <Tony Mantler> 5 months ago
+aee1fe9 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+f7093b4 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+df5a889 : Display support dialog for locked permissions. <Matt McKeon> 5 months ago
+043bc59 : Fix crash on small square watches. <Michael Kwan> 5 months ago
+3485d26 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+746d850 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+827b513 : Fix icon positioning for AcceptDenyDialog. <Michael Kwan> 5 months ago
+ed03821 : Import translations. DO NOT MERGE <Bill Yi> 6 months ago
+75b7bd7 : Import translations. DO NOT MERGE <Bill Yi> 6 months ago
+f92132d : Fix issue with blank screen and grouped permissions. <Michael Kwan> 6 months ago
+931d2d2 : Fix issue where dialog buttons were not functional if the ID changed. <Michael Kwan> 6 months ago
+9999019 : Update ids of permission dialogs for easier testing and automation. <Michael Kwan> 6 months ago
+a5d853c : Update permissions UI to match new watch UI. <Michael Kwan> 6 months ago
+dd8fef7 : Handle exception when removing package <Anthony Hugh> 6 months ago
+b9f30f3 : Wear: Don't uninstall unless package is found <Vinod Krishnan> 7 months ago
+aac719d : Check for permissions after checking for features. <Flavio Lerda> 8 months ago
+0b3eafe : Import translations. DO NOT MERGE <Bill Yi> 8 months ago
+e27e680 : Add basic accessibility to Wear permissions dialog <Erik Wolsheimer> 9 months ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+d57140d : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+b2fc15f : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+ 
+**** vanir:packages_apps_Stk ****
+556bbac : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+f049bd4 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+ 
+**** github:substratum/interfacer ****
+ae4821c : Fix failed authorization toast on restartService <Ivan Iskandar> 4 days ago
+0f51d79 : JobService: Fix inital font application <Nathan Chancellor> 6 days ago
+bed5f44 : JobService: fix initial theme dir creation <Surge Raval> 3 weeks ago
+6595927 : Run RestartService immediately if called <George G> 4 weeks ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+eace8b4 : Don't allow file attachment from /data through GET_CONTENT. <Ekin Oguz> 4 months ago
+9edf71d : Don't allow file attachment from /data through GET_CONTENT. <Ekin Oguz> 4 months ago
+ 
+**** vanir:packages_apps_WallpaperPicker ****
+db3426b : Rename language+country resources to just language <Roozbeh Pournader> 3 months ago
+ 
+**** vanir:packages_inputmethods_LatinIME ****
+2b39ab6 : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+dd6d694 : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+99348c7 : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+4ddf46c : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+af57a49 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+dbceb8d : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+64be32f : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+f38dc8d : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+765fb96 : Import translations. DO NOT MERGE <Bill Yi> 7 months ago
+99edf00 : Import translations. DO NOT MERGE <Bill Yi> 7 months ago
+5062034 : Import translations. DO NOT MERGE <Bill Yi> 7 months ago
+ 
+**** vanir:packages_providers_CalendarProvider ****
+94029d1 : New Material icon <Michael Bestas> 2 years, 2 months ago
+ 
+**** vanir:packages_providers_DownloadProvider ****
+7d042ad : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+6ee315d : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+ 
+**** vanir:packages_providers_MediaProvider ****
+e0e756f : New Material icon <Michael Bestas> 2 years, 2 months ago
+cb7136a : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+761f04e : Import translations. DO NOT MERGE <Bill Yi> 4 months ago
+385f237 : Set the activity result for the watch's RingtonePickerActivity. <Joshua Trask> 4 months ago
+c4835ba : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+75bc824 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+f1c53f2 : Add buttonless UI for watch type devices. <Michael Kwan> 6 months ago
+ 
+**** vanir:packages_providers_TelephonyProvider ****
+059380f : TelephonyProvider: Update icon to Material <Michael Bestas> 2 years, 3 months ago
+ 
+**** vanir:packages_providers_UserDictionaryProvider ****
+4529b11 : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+ 
+**** vanir:packages_screensavers_PhotoTable ****
+eb37d17 : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+ 
+**** vanir:packages_services_Telephony ****
+823aaaf : Revert "Add support to launch call barring" <Arne Coucheron> 9 days ago
+8fa8274 : Revert "CallFeatureSettings: Only show call barring option if QTI package installed" <Arne Coucheron> 9 days ago
+ 
+**** vanir:packages_wallpapers_LivePicker ****
+1e405e3 : FUGLY - Revert "New Material icon" <DHOMD> 3 hours ago
+bf06fdf : New Material icon <Michael Bestas> 2 years ago
+f42c8e0 : Import translations. DO NOT MERGE <Bill Yi> 9 weeks ago
+777ac7d : Prompt wp destination when system imagery can migrate to lock. <John Heroy> 4 months ago
+9e60e91 : Import translations. DO NOT MERGE <Bill Yi> 5 months ago
+2645dad : Import translations. DO NOT MERGE <Bill Yi> 7 months ago
+ 
+**** vanir:system_extras ****
+8a764b5 : make_ext4fs: add option to specify the number of inodes [DO NOT MERGE] <Patrick Tjin> 6 months ago
+989f6a1 : DO NOT MERGE verity_verifier: Support verifying images with FEC. <Tao Bao> 6 months ago
+549f048 : DO NOT MERGE: libfec: allow fec_header to be located anywhere <Sami Tolvanen> 7 months ago
+61fce29 : DO NOT MERGE: fec: add --padding <Sami Tolvanen> 7 months ago
+955d3af : DO NOT MERGE: fec: remove unneeded target executable <Sami Tolvanen> 7 months ago
+cace33a : DO NOT MERGE: fec: remove unused mmap code <Sami Tolvanen> 7 months ago
+1522691 : build_verity_metadata: Support --signer_args argument. <Tao Bao> 6 months ago
+b403779 : ANRdaemon: fix a bug in handling dump request when trace is running. <Zhengyin Qian> 7 months ago
+47c3ecb : Remove unused function declarations <Damien Bargiacchi> 8 months ago
+83208e5 : Fix lsof option in anrd script. <Zhengyin Qian> 8 months ago
+95c0059 : Fix missing pipe in ANRdaemon. <Nancy Zheng> 8 months ago
+ 
+**** vanir:system_netd ****
+483afa4 : DO NOT MERGE Add success/errno to connect() event reporting <Hugo Benichi> 5 months ago
+5e07140 : DO NOT MERGE onConnectEvent does not report udp connects <Hugo Benichi> 4 months ago
+9b794ac : DO NOT MERGE Comment out tests/benchmarks/Android.mk on nyc-mr2-dev <Michal Karpinski> 4 months ago
+d0620ca : DO NOT MERGE Fix use-after-free of mClient member DnsProxyListener::GetHostByNameHandler::run(). <Michal Karpinski> 5 months ago
+69e82f1 : DO NOT MERGE Add null check for hp in DnsProxyListener::GetHostByNameHandler <Michal Karpinski> 5 months ago
+eced78e : DO NOT MERGE Add connect event reporting <Michal Karpinski> 6 months ago
+d1da1b8 : DO NOT MERGE Fixing the netd benchmark <Michal Karpinski> 6 months ago
+fa5d873 : DO NOT MERGE Extending DNS event reporting <Michal Karpinski> 6 months ago
+2169f5a : DO NOT MERGE Remove "if (auto ret = " treated as unused by some compilers <Robin Lee> 4 months ago
+8ef9907 : DO NOT MERGE Adding EventReporter class <Michal Karpinski> 6 months ago
+ad771ad : DO NOT MERGE [benchmark] remove unnecessary shared libs, fix apct <Robin Lee> 6 months ago
+a0f5ae9 : DO NOT MERGE Benchmarks for network metrics reporting <Robin Lee> 7 months ago
+9484dab : DO NOT MERGE Move Stopwatch into its own header <Robin Lee> 7 months ago
+137088f : DO NOT MERGE Fix getaddrinfo test to use random mapping ids <Robin Lee> 7 months ago
+1b82ad7 : DO NOT MERGE UidRange bounds-checking typo <Robin Lee> 10 months ago
+0186179 : DO NOT MERGE Rename the DnsEventListenerService to NetdEventListenerService <Michal Karpinski> 7 months ago
+ 
+**** vanir:system_security ****
+0ab28b7 : Support and use TAG_ALLOW_WHILE_ON_BODY <Tucker Sylvestro> 8 months ago
+ 
+**** vanir:system_sepolicy ****
+7a2107c : Allow bluetooth service to access bluetooth directory and add /logs (3/14) <Ajay Panicker> 7 months ago
+cea7171 : Add btsnoop_hci.log to bugreport zip (2/2) <Ajay Panicker> 7 months ago
+87a5654 : label /bugreports <Nick Kralevich> 5 months ago
+c2a470d : DO NOT MERGE Change name in the rules after renaming dns_listener -> netd_listener <Michal Karpinski> 7 months ago
+f6f51e0 : recovery.te: Allow writing to sysfs_devices_system_cpu. <Tao Bao> 4 months ago
+adf210d : allow policy to create a file by vfat (fs_type) for a case using sdcardfs <Eric Bae> 9 months ago
+e123f06 : Allow dumpstate to use wake_lock. <Wei Liu> 8 months ago
+ 
+**** vanir:system_vold ****
+e74c3ea : Fix deadlock between vold and init <Dimitry Ivanov> 2 months ago
+ 
+**** vanir:vendor_samsung ****
+377e774 : klte-common: Update blobs <Kevin F. Haggerty> 7 days ago
+ 
