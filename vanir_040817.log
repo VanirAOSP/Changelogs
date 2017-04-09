@@ -1,22 +1,100 @@
 
 **** vanir:build ****
-9ef5635 : Switch to Magisk as the built in root [2/2] <LorDClockaN> 9 weeks ago
-0ed989d : Build hacks <DHOMD> 6 months ago
+3320e19 : Build hacks <DHOMD> 6 months ago
  
 **** vanir:device_google_marlin ****
-1e05071 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 4 weeks ago
-4136309 : Revert "marlin: disable our local telephony extensions" <DHOMD> 4 weeks ago
+ec594ec : Add a proper barrier and use vendor/caf/telephony <DHOMD> 4 weeks ago
+3928c9c : Revert "marlin: disable our local telephony extensions" <DHOMD> 4 weeks ago
+ 
+**** vanir:device_huawei_kiwi ****
+54c1c8c : kiwi: add f2fs filesystem to list of partitions <Paul B> 10 days ago
+0204102 : kiwi: enable TARGET_USERIMAGES_USE_F2FS <Paul B> 10 days ago
+b272b21 : kiwi: enable hardware disk encryption <Paul B> 10 days ago
+ 
+**** vanir:device_lge_hammerhead ****
+97a2848 : power: Update for PerformanceManager changes <Gabriele M> 6 days ago
+ 
+**** cm:LineageOS/android_device_lge_mako ****
+80fd44b : power: Update for PerformanceManager changes <Gabriele M> 6 days ago
+ 
+**** vanir:device_moto_shamu ****
+d6550b3 : power: Update for PerformanceManager changes <Gabriele M> 6 days ago
  
 **** cm:LineageOS/android_device_motorola_otus ****
-ab78dbf : Otus: Fix FM Radio <DHOMD> 3 months ago
+d24f0a0 : Otus: Fix FM Radio <DHOMD> 3 months ago
  
 **** cm:LineageOS/android_device_oppo_msm8974-common ****
-7b5f61b : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 5 months ago
+d2a5084 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 5 months ago
+ 
+**** cm:LineageOS/android_device_samsung_nobleltetmo ****
+712b929 : nobleltetmo: Remove vendorsetup script <Christopher N. Hesse> 33 hours ago
  
 **** vanir:frameworks_base ****
-95df5ad : Rework  "I'll show you my pokey man if I can have a peek at you."" <nuclearmistake> 9 months ago
-b40323e : Revert "Update for N -  "I'll show you my pokey man if I can have a peek at you.""" <DHOMD> 2 minutes ago
-e12a6e9 : Update for N -  "I'll show you my pokey man if I can have a peek at you."" <nuclearmistake> 9 months ago
+527e207 : PowerManager: Bring back the compatibility with AOSP <Gabriele M> 6 days ago
+ 
+**** vanir:frameworks_native ****
+82c4726 : sensorservice: Register orientation sensor if HAL doesn't provide it <Arne Coucheron> 2 years, 5 months ago
+ 
+**** vanir:hardware_samsung ****
+3fa2b69 : power: Align to AOSP API <Christopher N. Hesse> 3 days ago
+ 
+**** cm:LineageOS/android_hardware_samsung_slsi-cm_exynos ****
+f0ac404 : v4l2: Print errno in case of device open fail <Christopher N. Hesse> 3 days ago
+ 
+**** cmold:android_kernel_huawei_kiwi ****
+3df361f : Revert "kiwi: Add dts files KIW-CL00 variants" <Christopher R. Palmer> 13 hours ago
+b2b0752 : Revert "kiwi: enable f2fs in defconfig." <Christopher R. Palmer> 13 hours ago
+4cfd0b6 : Revert "kiwi: f2fs: Finish patching up to latest f2fs-stable" <Christopher R. Palmer> 13 hours ago
+9f0dc5a : kiwi: enable f2fs in defconfig. <Paul B> 10 days ago
+4c94904 : dm-verity: Add modes and emit uevent on corrupted blocks <Sami Tolvanen> 2 years, 1 month ago
+4373e9f : md: dm-req-crypt: Pool based mechanism to manage crypto data <Dinesh K Garg> 1 year, 11 months ago
+9cd0b96 : f2fs: use __set{__clear}_bit_le <Jaegeuk Kim> 5 weeks ago
+7488f2b : f2fs: update_free_nid_bitmap() can be static <kbuild test robot> 4 weeks ago
+ba77470 : f2fs: __update_nat_bits() can be static <kbuild test robot> 4 weeks ago
+ef087f0 : f2fs: le16_to_cpu for xattr->e_value_size <Jaegeuk Kim> 4 weeks ago
+177bbba : f2fs: don't overwrite node block by SSR <Jaegeuk Kim> 5 weeks ago
+2cb4df2 : f2fs: don't need to invalidate wrong node page <Jaegeuk Kim> 5 weeks ago
+3ad79de : f2fs: fix an error return value in truncate_partial_data_page <Yunlei He> 6 weeks ago
+2bb5534 : fscrypt: catch up to v4.11-rc1 <Jaegeuk Kim> 4 weeks ago
+a6888c0 : f2fs: avoid to flush nat journal entries <Jaegeuk Kim> 6 weeks ago
+0470af3 : f2fs: avoid to issue redundant discard commands <Jaegeuk Kim> 6 weeks ago
+487ae01 : f2fs: fix a plint compile warning <Hou Pengyang> 6 weeks ago
+b191b94 : f2fs: add f2fs_drop_inode tracepoint <Hou Pengyang> 6 weeks ago
+307e922 : f2fs: Fix zoned block device support <Masato Suzuki> 6 weeks ago
+d1948a8 : f2fs: remove redundant set_page_dirty() <Yunlei He> 6 weeks ago
+f2f6f9a : f2fs: fix to enlarge size of write_io_dummy mempool <Chao Yu> 6 weeks ago
+12ba66f : f2fs: fix memory leak of write_io_dummy mempool during umount <Chao Yu> 6 weeks ago
+75520a0 : f2fs: fix to update F2FS_{CP_}WB_DATA count correctly <Chao Yu> 6 weeks ago
+bb69087 : f2fs: use MAX_FREE_NIDS for the free nids target <Kinglong Mee> 6 weeks ago
+e51cba9 : f2fs: introduce free nid bitmap <Chao Yu> 6 weeks ago
+f97ab43 : f2fs: new helper cur_cp_crc() getting crc in f2fs_checkpoint <Kinglong Mee> 6 weeks ago
+cc06e97 : f2fs: update the comment of default nr_pages to skipping <Kinglong Mee> 6 weeks ago
+9fd9d2c : f2fs: drop the duplicate pval in f2fs_getxattr <Kinglong Mee> 6 weeks ago
+de46b1c : f2fs: Don't update the xattr data that same as the exist <Kinglong Mee> 6 weeks ago
+d342c37 : f2fs: kill __is_extent_same <Chao Yu> 6 weeks ago
+2128af4 : f2fs: avoid bggc->fggc when enough free segments are avaliable after cp <Hou Pengyang> 6 weeks ago
+8767cd3 : f2fs: select target segment with closer temperature in SSR mode <Chao Yu> 6 weeks ago
+e0682c0 : f2fs: show simple call stack in fault injection message <Chao Yu> 6 weeks ago
+5dce470 : fscrypt: catch fscrypto_get_policy in v4.10-rc6 <Jaegeuk Kim> 6 weeks ago
+e60af91 : f2fs: use __clear_bit_le <Jaegeuk Kim> 6 weeks ago
+7f4e9ea : f2fs: no need lock_op in f2fs_write_inline_data <Yunlei He> 6 weeks ago
+2bd26d8 : f2fs: add bitmaps for empty or full NAT blocks <Jaegeuk Kim> 8 weeks ago
+3d38c8f : f2fs: replace rw semaphore extent_tree_lock with mutex lock <Yunlei He> 6 weeks ago
+2a4dba6 : f2fs: avoid m_flags overlay when allocating more data blocks <Kinglong Mee> 6 weeks ago
+7b2dfb7 : f2fs: remove unsafe bitmap checking <Hou Pengyang> 6 weeks ago
+317a56a : f2fs: init local extent_info to avoid stale stack info in tp <Hou Pengyang> 6 weeks ago
+6448a9f : f2fs: remove unnecessary condition check for write_checkpoint in f2fs_gc <Yunlong Song> 7 weeks ago
+46e4d5e : f2fs: do SSR for node segments more aggresively <Jaegeuk Kim> 6 weeks ago
+54a13b8 : f2fs: check discard alignment only for SEQWRITE zones <Jaegeuk Kim> 6 weeks ago
+935b9ea : f2fs: wait for discard completion after submission <Jaegeuk Kim> 6 weeks ago
+f1c3a68 : f2fs: much larger batched trim_fs job <Jaegeuk Kim> 6 weeks ago
+514e726 : f2fs: avoid very large discard command <Jaegeuk Kim> 6 weeks ago
+18bfb35 : f2fs: find data segments across all the types <Jaegeuk Kim> 6 weeks ago
+825c422 : f2fs: do SSR in higher priority <Jaegeuk Kim> 6 weeks ago
+a519e37 : f2fs: do SSR for data when there is enough free space <Yunlong Song> 7 weeks ago
+ 
+**** vanir:kernel_moto_shamu ****
+7c2eff5 : tools/include: use stdint types for user-space byteshift headers <Yaakov Selkowitz> 3 years, 9 months ago
  
 **** vanir:packages_apps_ContactsCommon ****
 020eebc : Themes: Define back arrow tint color for themes <Bryan Owens> 1 year, 4 months ago
@@ -31,7 +109,7 @@ e12a6e9 : Update for N -  "I'll show you my pokey man if I can have a peek at yo
 308d1b8 : Themes: Expose hard coded background in java <Bryan Owens> 1 year, 3 months ago
  
 **** vanir:packages_apps_Messaging ****
-e807e1c : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 4 weeks ago
+ac70c01 : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 4 weeks ago
  
 **** vanir:packages_apps_PackageInstaller ****
 9338bd5 : PackageInstaller: Add tint mode to icons <Bryan Owens> 1 year ago
@@ -40,8 +118,7 @@ e807e1c : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdpa
 dda15ec : Themes: Make dialpad seperator line theme-able <Thyrus11> 2 years, 2 months ago
  
 **** vanir:packages_apps_Settings ****
-3659474 : Settings: Allow root options for Magicsk <Pranav Vashi> 13 days ago
-ce8b47f : Fix Ms Merge <DHOMD> 2 days ago
+4d2521b : Fix Ms Merge <DHOMD> 2 days ago
  
 **** vanir:system_core ****
 69174d2 : Revert "Create "theme extras" directory" <Nathan Chancellor> 11 days ago
@@ -59,12 +136,15 @@ c5013bf : sepolicy: fix themed boot animation <bigrushdog> 3 months ago
 65c0f13 : Introduce sepolicy exceptions for theme assets <d34d> 3 months ago
 1be1d40 : OMS7-N: Add service 'overlay' to service_contexts <Mårten Kongstad> 1 year, 10 months ago
  
-**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
-42ee6a6 : Add a barrier for Marlin/Sailfish <DHOMD> 4 weeks ago
+**** commotio:commotio ****
+6f5cf8b : rebump 135 <DHOMD> 11 hours ago
+eb850ae : Revert "lvm" <DHOMD> 12 hours ago
+a82fa80 : lvm <DHOMD> 12 hours ago
+f67da15 : Magisk no su <DHOMD> 12 hours ago
  
-**** vanir:vendor_vanir ****
-55c5b92 : Revert "Revert "Old CM Theme vascectomy"" <DHOMD> 2 days ago
-816905b : Revert "Revert "OMS: Add ThemeInterfacer for Substratum OMS themes"" <DHOMD> 2 days ago
-06d5320 : Remove su + add magisk <DHOMD> 2 days ago
-a59d925 : Add Magisk <DHOMD> 2 days ago
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+780fec9 : Add a barrier for Marlin/Sailfish <DHOMD> 4 weeks ago
+ 
+**** vanir:vendor_xiaomi ****
+46e0d8d : kenzo: Use OSS Camera HAL <TheStrix> 12 days ago
  
