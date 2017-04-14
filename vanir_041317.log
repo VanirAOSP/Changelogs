@@ -1,0 +1,168 @@
+
+**** vanir:build ****
+e148eb5 : Build hacks <DHOMD> 6 months ago
+ 
+**** vanir:device_google_marlin ****
+6b03408 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 5 weeks ago
+330af21 : Revert "marlin: disable our local telephony extensions" <DHOMD> 5 weeks ago
+ 
+**** vanir:device_htc_flounder ****
+9767ea3 : flounder: update fingerprint to N4F26X <Hashbang173> 10 days ago
+b96caee : power: Update for PerformanceManager changes <Gabriele M> 11 days ago
+ 
+**** vanir:device_huawei_kiwi ****
+0409233 : kiwi: audio_policy: Remove low_latency path <SpetzPeach> 3 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+02137f5 : Otus: Fix FM Radio <DHOMD> 3 months ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+f4dd632 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 5 months ago
+ 
+**** vanir:device_sony_fusion3-common ****
+681ff46 : fusion3: camera: How about doing our NULL checks before crashing? <Christopher R. Palmer> 1 year, 2 months ago
+1aab1c4 : fusion3: Label reset_count as sysfs_thermal <Sergey Vlasov> 4 months ago
+39b5439 : fusion3: Label gpuclk as sysfs_thermal file and add perms. <dcashman> 1 year, 4 months ago
+9e6129a : fusion3: remove unused device_perms.h <ZeeLog> 4 months ago
+168806b : fusion3: sepolicy: Add rules for FM Radio <ZeeLog> 4 months ago
+2d2773d : fusion3: Update sepolicy for N <Chippa-a> 4 months ago
+30fb870 : fusion3: Update proprietary-files <ZeeLog> 3 months ago
+8836897 : fusion3: Build FM Radio package <ZeeLog> 4 months ago
+3ae9842 : fusion3: Set FM Radio to use internal antenna <ZeeLog> 4 months ago
+8f656de : fusion3: Update FM Radio to static driver <RonGokhale> 12 months ago
+ 
+**** vanir:frameworks_av ****
+143af6b : stagefright: Fix SurfaceMediaSource buffer search condition when buffer return <Bill Chen> 13 days ago
+2f4ec99 : camera: Ensure native handle isn't null before closing it. <Kyle Repinski> 6 months ago
+ 
+**** vanir:frameworks_base ****
+267b43c : Show lockscreen wallpaper when blur effect is enabled <Gabriele M> 5 days ago
+af1582f : systemui: Fix DE translation for navbar buttons <Elektroschmock> 31 hours ago
+1a64b6b : Reconcile some package scanning logic <nuclearmistake> 2 days ago
+1e8af84 : base: Fix proximity check on power key <Christopher R. Palmer> 4 days ago
+e7c0b96 : Various fixes and cleanups after 7.1.2 merge <Arne Coucheron> 2 days ago
+ 
+**** cmold:android_kernel_htc_flounder ****
+983ecd6 : flounder: disable tegra-cryptodev in lineage defconfig to keep inline with N4F26X <Hashbang173> 28 hours ago
+52d51e3 : net: wireless: bcmdhd: fix buffer overrun in wl_android_set_roampref (part deux) <Mark Salyzyn> 8 weeks ago
+0903d4e : net: wireless: bcmdhd: remove unused WEXT file. <Insun Song> 3 months ago
+3b8aee0 : sdcardfs: limit stacking depth <Andrew Chant> 9 weeks ago
+488daa8 : BACKPORT: fs: limit filesystem stacking depth <Miklos Szeredi> 2 years, 6 months ago
+74d0e4d : ANDROID: fix acl leaks <Mark Salyzyn> 3 months ago
+09f0a7d : FROMLIST: 9p: fix a potential acl leak <Cong Wang> 4 months ago
+7cf54a5 : BACKPORT: posix_acl: Clear SGID bit when setting file permissions <Jan Kara> 7 months ago
+5d09e9c : net: wireless: bcmdhd: Heap overflow in wl_run_escan. <Sudhir Kohalli> 3 months ago
+44d2103 : net: wireless: bcmdhd: Fix for arbitrary memory free. <Sudhir Kohalli> 3 months ago
+e217cbb : net: wireless: bcmdhd: fix overrun in wl_run_escan <Insun Song> 3 months ago
+95e9b66 : tegra-cryptodev:Fix untrusted pointer dereference in SHA <Shravani Dingari> 3 months ago
+8517de7 : tegra-cryptodev:check valid SHA message length <Shravani Dingari> 3 months ago
+2217aff : net: wireless: bcmdhd: fix buffer overrun in wl_android_set_roampref <Insun Song> 2 months ago
+0b6a98b : flounder_defconfig: disable tegra-cryptodev <Xia Yang> 3 months ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+cf7d454 : net/packet: fix overflow in check for tp_frame_nr <Andrey Konovalov> 2 weeks ago
+7d95a09 : net/packet: fix overflow in check for tp_reserve <Andrey Konovalov> 2 weeks ago
+8366845 : scsi: sg: check length passed to SG_NEXT_CMD_LEN <peter chang> 8 weeks ago
+72fe005 : sg: relax 16 byte cdb restriction <Douglas Gilbert> 2 years, 10 months ago
+7c79b72 : block: add blk_rq_set_block_pc() <Jens Axboe> 2 years, 10 months ago
+e5df0ad : platform: msm: spmi: Fix possible race condition in debugfs <ansharma> 3 months ago
+bd8ec2e : prima: Fix buffer overflow in WLANSAP_Set_WPARSNIes() <Nishank Aggarwal> 3 months ago
+b0619d0 : crypto: msm: check integer overflow on total data len in qcedev.c <Zhen Kong> 3 months ago
+b316697 : prima: Fix VHT-80 IBSS stops beaconing <Subrat Dash> 8 months ago
+ce9e837 : msm-camera: Addressing possible overflow conditions <Trilokesh Rangam> 5 months ago
+6d2214c : qcrypto: protect potential integer overflow. <Neeraj Soni> 5 months ago
+32e9b24 : sdcardfs: limit stacking depth <Andrew Chant> 9 weeks ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+c675d5c : input: synaptics: fw_update: Fix various memory leaks <Sultanxda> 4 days ago
+2c32cf5 : BACKPORT: tcp: avoid infinite loop in tcp_splice_read() <Eric Dumazet> 10 weeks ago
+e4c429c : BACKPORT: posix_acl: Clear SGID bit when setting file permissions <Jan Kara> 7 months ago
+ 
+**** cmold:android_kernel_samsung_d2 ****
+729883d : net: ipv4: Remove unused variable <Paul Keith> 2 hours ago
+6715dc3 : arch: arm: boot: Update gitignore <Paul Keith> 2 hours ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+21dd1e7 : packagelist.c: fix build <OzzysCmAcc> 7 days ago
+f222d47 : ANDROID: sdcardfs: Fix backport issue for 3.10 <Daniel Rosenberg> 4 months ago
+adc09f4 : defconfig: enable CONFIGFS <OzzysCmAcc> 11 days ago
+1aaa1d7 : sdcardfs: Flag files as non-mappable <fluxi> 6 months ago
+a96743a : sdcardfs: Fix issue with d_child move <Daniel Rosenberg> 1 year, 1 month ago
+a0eb9bf : sdcardfs: Move directory unlock before touch <Daniel Rosenberg> 7 months ago
+fc8d0ff : sdcardfs: fix external storage exporting incorrect uid <alvin_liang> 7 months ago
+25c2664 : sdcardfs: Added top to sdcardfs_inode_info <Daniel Rosenberg> 11 months ago
+5bbb884 : sdcardfs: Switch package list to RCU <Daniel Rosenberg> 11 months ago
+b4ddb1e : sdcardfs: Fix locking for permission fix up <Daniel Rosenberg> 8 months ago
+ffc3e39 : sdcardfs: Check for other cases on path lookup <Daniel Rosenberg> 12 months ago
+d4356bc : sdcardfs: override umask on mkdir and create <Daniel Rosenberg> 1 year ago
+3e57341 : ANDROID: sdcardfs: fix itnull.cocci warnings <Julia Lawall> 11 months ago
+7cf3365 : sdcardfs: Truncate packages_gid.list on overflow <Daniel Rosenberg> 9 months ago
+08c8f56 : vfs: change d_canonical_path to take two paths <Daniel Rosenberg> 12 months ago
+808fa87 : sdcardfs: remove unneeded __init and __exit <Daniel Rosenberg> 1 year, 1 month ago
+a3bfb35 : sdcardfs: Remove unused code <Daniel Rosenberg> 1 year, 1 month ago
+6dc2ec4 : sdcardfs: remove effectless config option <Daniel Rosenberg> 1 year, 1 month ago
+d3c16f9 : inotify: Fix erroneous update of bit count <Daniel Rosenberg> 1 year, 1 month ago
+46b165f : sdcardfs: Add support for d_canonicalize <Daniel Rosenberg> 1 year, 2 months ago
+b54582c : vfs: add d_canonical_path for stacked filesystem support <Daniel Rosenberg> 1 year, 2 months ago
+b7cfa66 : sdcardfs: Bring up to date with Android M permissions: <Daniel Rosenberg> 1 year, 2 months ago
+d56a5b2 : sdcardfs: Changed type-cast in packagelist management <Daniel Campello> 1 year, 10 months ago
+9d0e4ee : sdcardfs: Port to 3.4 <fluxi> 9 months ago
+ab8de62 : Included sdcardfs source code for kernel 3.0 <Daniel Campello> 1 year, 9 months ago
+edc5851 : deal with deadlock in d_walk() <Al Viro> 2 years, 6 months ago
+24f60cc : move d_rcu from overlapping d_child to overlapping d_alias <Al Viro> 2 years, 6 months ago
+804afd2 : Revert "Included sdcardfs source code for kernel 3.0" <OzzysCmAcc> 3 weeks ago
+a9445c3 : Revert "sdcardfs: Port to 3.4" <OzzysCmAcc> 3 weeks ago
+4724848 : Revert "sdcardfs: Changed type-cast in packagelist management" <OzzysCmAcc> 3 weeks ago
+1a2905b : Revert "sdcardfs: Bring up to date with Android M permissions:" <OzzysCmAcc> 3 weeks ago
+d5e5147 : Revert "sdcardfs: Add support for d_canonicalize" <OzzysCmAcc> 3 weeks ago
+388bb46 : Revert "sdcardfs: Remove unused code" <OzzysCmAcc> 3 weeks ago
+37f64c2 : Revert "sdcardfs: remove unneeded __init and __exit" <OzzysCmAcc> 3 weeks ago
+f886ba1 : Revert "vfs: change d_canonical_path to take two paths" <OzzysCmAcc> 3 weeks ago
+cfdfbec : Revert "sdcardfs: Truncate packages_gid.list on overflow" <OzzysCmAcc> 3 weeks ago
+a61a483 : Revert "ANDROID: sdcardfs: fix itnull.cocci warnings" <OzzysCmAcc> 3 weeks ago
+e6ce8a3 : Revert "sdcardfs: override umask on mkdir and create" <OzzysCmAcc> 3 weeks ago
+1dac44d : Revert "sdcardfs: Check for other cases on path lookup" <OzzysCmAcc> 3 weeks ago
+a7582db : Revert "sdcardfs: Fix locking" <OzzysCmAcc> 3 weeks ago
+82e3508 : Revert "sdcardfs: Added top to sdcardfs_inode_info" <OzzysCmAcc> 3 weeks ago
+6847c33 : Revert "Enable Configfs needed by sdcardfs" <OzzysCmAcc> 3 weeks ago
+b24c4eb : Revert "sdcardfs: Remove stale dentries when reusing an inode." <OzzysCmAcc> 3 weeks ago
+ 
+**** cmold:android_kernel_xiaomi_cancro ****
+7b2f1a4 : l2tp: fix racy SOCK_ZAPPED flag check in l2tp_ip{,6}_bind() <Guillaume Nault> 5 months ago
+ceeece3 : inet: prevent leakage of uninitialized memory to user in recv syscalls <Hannes Frederic Sowa> 3 years, 5 months ago
+7f9660f : l2tp: fix a race in l2tp_ip_sendmsg() <Eric Dumazet> 4 years, 10 months ago
+8b8ee22 : l2tp: fix oops in L2TP IP sockets for connect() AF_UNSPEC case <James Chapman> 4 years, 11 months ago
+b193816 : packet: fix races in fanout_add() <Eric Dumazet> 8 weeks ago
+f59a2e6 : sctp: deny peeloff operation on asocs with threads sleeping on it <Marcelo Ricardo Leitner> 7 weeks ago
+3986a83 : net/llc: avoid BUG_ON() in skb_orphan() <Eric Dumazet> 9 weeks ago
+3ff3b82 : tcp: avoid infinite loop in tcp_splice_read() <Eric Dumazet> 10 weeks ago
+d45942f : ipc/shm: Fix shmat mmap nil-page protection <Davidlohr Bueso> 6 weeks ago
+eca5e31 : msm: crypto: fix issues on digest buf and copy_from_user in qcedev.c <Zhen Kong> 5 months ago
+fb946c0 : net: ipc_router: Register services only on client port <Karthikeyan Ramasubramanian> 4 months ago
+b5c845d : prima: Fix array out-of-bounds & integer underflow in _iw_set_genie <Srinivas Girigowda> 4 months ago
+de3a43c : prima: Add buf len check in wlan_hdd_cfg80211_testmode <Manjeet Singh> 4 months ago
+a428fea : mpi: Fix NULL ptr dereference in mpi_powm() [ver #3] <Andrey Ryabinin> 5 months ago
+9a1888c : msm: camera: sensor: Validate eeprom_name string length <guyang> 4 months ago
+845e81c : msm: camera: fix bound check of offset to avoid overread overwrite <Krishnankutty Kolathappilly> 5 months ago
+fab6aea : msm: cpp: Fix for buffer overflow in cpp. <Krishnankutty Kolathappilly> 5 months ago
+481b964 : prima: Avoid overflow of "significant change" params <Jeff Johnson> 5 months ago
+a488b6b : prima: Avoid overflow of "set_bssid_hotlist" params <Hanumanth Reddy Pothula> 3 months ago
+e65e550 : dccp: fix freeing skb too early for IPV6_RECVPKTINFO <Andrey Konovalov> 8 weeks ago
+733db41 : perf/core: Fix concurrent sys_perf_event_open() vs. 'move_group' race <Peter Zijlstra> 3 months ago
+a52f00f : sctp: avoid BUG_ON on sctp_wait_for_sndbuf <Marcelo Ricardo Leitner> 9 weeks ago
+ 
+**** vanir:packages_apps_Messaging ****
+2433dea : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 4 weeks ago
+ 
+**** vanir:vendor_lge ****
+6667f06 : mako: Move tzapps.* to /vendor/firmware <Ivan Grinko> 13 hours ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+b881334 : Add a barrier for Marlin/Sailfish <DHOMD> 5 weeks ago
+ 
+**** vanir:vendor_sony ****
+78d88f1 : fusion3: cleanup FM Radio blobs <ZeeLog> 3 months ago
+ 
+**** vanir:vendor_vanir ****
+b26e266 : Fix typo from 2d8e61b <nuclearmistake> 14 hours ago
+ 
