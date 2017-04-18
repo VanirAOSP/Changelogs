@@ -1,0 +1,271 @@
+
+**** vanir:build ****
+bead42a : Build hacks <DHOMD> 6 months ago
+ 
+**** vanir:device_google_marlin ****
+af714f0 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 5 weeks ago
+1ef9a5b : Revert "marlin: disable our local telephony extensions" <DHOMD> 5 weeks ago
+ 
+**** vanir:device_lge_hammerhead ****
+5bc4adc : hammerhead: add faceunlock proprietary file libfrsdk.so <razorloves> 29 hours ago
+54edca0 : hammerhead: Set initial copyright year for extract script <razorloves> 29 hours ago
+ 
+**** vanir:device_moto_shamu ****
+3aee6cc : shamu: add faceunlock proprietary file libfrsdk.so <razorloves> 28 hours ago
+ 
+**** cm:LineageOS/android_device_motorola_msm8610-common ****
+51e775e : Enable svelte configuration for jemalloc <Gabriele M> 3 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+185cd24 : Otus: Fix FM Radio <DHOMD> 3 months ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+b263fd1 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 5 months ago
+ 
+**** vanir:device_samsung_jf-common ****
+1efc22b : jf-common: Update time-service blobs <Paul Keith> 5 hours ago
+0bbc716 : jflteRIL: bring back handleNitzTimeReceived <bryan2894> 12 days ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+422588f : msm8960: Nuke SDCLANG <Paul Keith> 2 days ago
+f440c48 : msm8960: Remove MALLOC_SVELTE <Paul Keith> 2 days ago
+957d993 : power: Switch to unified samsung powerhal <Paul Keith> 7 weeks ago
+ 
+**** cm:LineageOS/android_device_samsung_noblelte-common ****
+2376d11 : noblelte: Disable invalid check_fs statement <Christopher N. Hesse> 35 hours ago
+ 
+**** vanir:frameworks_base ****
+ff5995b : Taint cleanup <DHOMD> 2 minutes ago
+6618b8b : Themes: Allow volume slider and thumb to work with custom images. <Randall Rushing> 1 year, 3 months ago
+dd0fa5b : Separate tile label color from icon drawable color <bigrushdog> 7 days ago
+bdf823e : fingerprint: notify client when cancelling succeeded <Carlo Savignano> 6 months ago
+15dbc5f : Hold "volume up" during boot to disable all overlays <George G> 5 weeks ago
+f3a4b41 : Themes: Expose Keyboard Shortcuts Dialog <Bryan Owens> 3 weeks ago
+b9d1736 : Expose Screenshot flash and background colors <ezio84> 6 weeks ago
+3f617b3 : ThemeSafety: Introduce App Crash Intent <Ivan Iskandar> 6 weeks ago
+c195fa5 : Revert "Add a protected broadcast for Masquerade events" <Nathan Chancellor> 6 weeks ago
+3a1468c : base: Force authorize all calling packages by Masquerade (2/3) <George G> 7 weeks ago
+3266463 : FWB: Give power dialogs own set of volume icons for themes <Bryan Owens> 7 weeks ago
+cdf8058 : OMS: Add hide annotation to MODIFY_OVERLAYS permission <Evan Anderson> 7 weeks ago
+4c5a61a : OMS7: Rootless Security Update Preparation for March 2017 <Nicholas Chum> 8 weeks ago
+d314602 : Add a protected broadcast for Masquerade events <bigrushdog> 3 months ago
+6d26325 : Notification tint: add optional findContrastColor algorithm for dark backgrounds <SpiritCroc> 2 months ago
+165ce9c : Themes: Expose Keyguard affordance circle background <Branden M> 3 months ago
+37b9cb1 : Set external QS tiles tint mode to SRC_ATOP <Alex Cruz> 2 months ago
+cb4bb13 : graphics: ADB "N" icon compatible with OMS7 <George G> 3 months ago
+6d966a4 : Expose external qs tile tint color <Alex Cruz> 3 months ago
+2470713 : SystemUI: Expose switch bar title <daveyannihilation> 4 months ago
+de4066b : OMS: Introduce MODIFY_OVERLAYS permission for user apps <bigrushdog> 4 months ago
+cab9d7d : Themes: Expose QS battery <Abdulwahab Isam> 6 months ago
+ecbf1f7 : OMS7-N: ApplicationsState: add filter for Substratum icon overlays [1/2] <Kuba Schenk> 5 months ago
+8f5a3c8 : OMS7-N: ApplicationsState: add filter for Substratum overlays [1/2] <George G> 10 months ago
+1c5ea72 : SystemUI: Use own drawables for QS expand icon <Ivan Iskandar> 4 months ago
+e55733c : doze: allow grayscale even if invert boolean is false <Daniel Koman> 7 months ago
+cfdc76a : OMS7 compatible 'Ambient notification inversion' <George G> 5 months ago
+5792bfe : Allow prevention of doze notification color inversion <Daniel Koman> 2 years ago
+8f6b7f0 : Notification dynamic colors bool compatible with OMS7 <George G> 5 months ago
+73f6178 : Notifications: Expose a bool to disable dynamic colors <Nicholas Chum> 8 months ago
+2ab473c : Themes: Expose various QuickSettings text colors <Niklas Schnettler (Sh4dowSoul)> 6 months ago
+a0dec43 : Allow custom alpha for notification shade bg color <Simao Gomes Viana> 5 months ago
+b377a9d : SystemUI: Expose QS edit item decoration background color <Ivan Iskandar> 7 months ago
+fb7dd0f : Themes: Allow Navbar ripple color to be themed <Dave Kover> 1 year ago
+950f543 : Themes: Allow Permission Icons to be fully themed <Nicholas Chum> 1 year, 5 months ago
+23b6386 : Themes: Allow Immersive cling colors to be fully themed <Nicholas Chum> 1 year, 5 months ago
+b8177a6 : Themes: Expose resolver hardcoded colors <Dave Kover> 4 months ago
+1ed52a0 : N-Extras: AudioService: Allow system effect sounds to be themed <Nicholas Chum> 9 months ago
+9f16765 : N-Extras: Add dynamic theme fonts support <0xD34D> 10 months ago
+4e72991 : N-Extras: Add dynamic theme BootAnimation support <0xD34D> 10 months ago
+9edcd19 : OMS7-N: Implement multi-target enable/disable and disable-all [11/11] <Jacob McSwain> 10 months ago
+96ec018 : OMS7-N: Do not enforce code policy limiting overlay installation [10/11] <Nicholas Chum> 6 months ago
+f1cf782 : OMS7-N: Persistence on boot through OverlayManagerServiceImpl [9/11] <Nicholas Chum> 10 months ago
+483fd71 : OMS7-N: Disable Zygote preloaded drawables [8/11] <Josh Guilfoyle> 6 years ago
+2582baa : OMS7-N: installd: add command 'rmidmap' [7/11] <Mårten Kongstad> 11 months ago
+8770f18 : OMS7-N: Fix memory leak during idmap creation [6/11] <Mårten Kongstad> 11 months ago
+319f4ba : OMS7-N: idmap: suppress print for padded resources [5/11] <Mårten Kongstad> 1 year, 2 months ago
+400b275 : OMS7-N: Set EXTRA_REPLACING correctly in ACTION_PACKAGE_ADDED [4/11] <Mårten Kongstad> 12 months ago
+dd8d5b2 : OMS7-N: Integrate OverlayManagerService into framework [3/11] <Mårten Kongstad> 11 months ago
+2cdb972 : OMS7-N: Introduce the OverlayManagerService [2/11] <Mårten Kongstad> 1 year, 4 months ago
+ 
+**** vanir:frameworks_native ****
+c45e21a : OMS7-N: installd: add command 'rmidmap' <Mårten Kongstad> 1 year, 4 months ago
+ 
+**** vanir:frameworks_opt_net_wifi ****
+f473bef : Load the correct Wifi Saturation Threshold by Band <Nathan Harold> 3 days ago
+c65d0eb : Disqualify non-preferred band for both 2.4 and 5GHz <Nathan Harold> 3 days ago
+ 
+**** cmold:android_kernel_lge_g3 ****
+a22c622 : g3: Regenerate defconfigs <Hendrik Hagendorn> 4 days ago
+ 
+**** cmold:android_kernel_lge_msm8996 ****
+f58556f : h850_defconfig: Disable gallery sharpness enhancment <Rashed Abdel-Tawab> 2 days ago
+2fdbb51 : h918_defconfig: Disable gallery sharpness enhancment <Matt Filetto> 12 days ago
+603d315 : h918_defconfig: Regenerate defconfig <Rashed Abdel-Tawab> 2 days ago
+7cb7743 : h850_defconfig: Regenerate defconfig <Rashed Abdel-Tawab> 2 days ago
+98623df : h830_defconfig: Regenerate defconfig and disable gallery sharpening <Rashed Abdel-Tawab> 2 weeks ago
+c145330 : lge: power: Add missing ifdef for battery <Matt Filetto> 5 days ago
+22c98dd : camera_v2: Bring back support for imx234 and imx298 OIS <Rashed Abdel-Tawab> 12 days ago
+9dca3a8 : ASoC: Add ES9018 to ifdef for enable_es9218p <Rashed Abdel-Tawab> 12 days ago
+3c3f8b1 : camera: Never build iris modules <Rashed Abdel-Tawab> 12 days ago
+3221db9 : mdss: Fix conflicts <Rashed Abdel-Tawab> 2 weeks ago
+f5cf54c : Fix merge conflicts from lucye kernel <Rashed Abdel-Tawab> 2 weeks ago
+67bc29a : drivers: Remove the brcm_v4l2 driver <Rashed Abdel-Tawab> 2 weeks ago
+3416e60 : lucye: Copy UFS dtsi to current_storage_type <Rashed Abdel-Tawab> 2 weeks ago
+2d8960f : h872_defconfig: Initial defconfig <Rashed Abdel-Tawab> 2 weeks ago
+f500301 : Merge vs998 v10a into h915 v10a <Rashed Abdel-Tawab> 2 weeks ago
+ 
+**** cmold:android_kernel_motorola_msm8610 ****
+4e00161 : net/packet: fix overflow in check for tp_frame_nr <Andrey Konovalov> 3 weeks ago
+4d66e0f : net/packet: fix overflow in check for tp_reserve <Andrey Konovalov> 3 weeks ago
+3632176 : scsi: sg: check length passed to SG_NEXT_CMD_LEN <peter chang> 9 weeks ago
+6286a9b : sg: relax 16 byte cdb restriction <Douglas Gilbert> 2 years, 10 months ago
+a81088c : block: add blk_rq_set_block_pc() <Jens Axboe> 2 years, 10 months ago
+908a419 : platform: msm: spmi: Fix possible race condition in debugfs <ansharma> 3 months ago
+f946e45 : prima: Fix buffer overflow in WLANSAP_Set_WPARSNIes() <Nishank Aggarwal> 3 months ago
+0d3ad3a : crypto: msm: check integer overflow on total data len in qcedev.c <Zhen Kong> 3 months ago
+0c81747 : prima: Fix VHT-80 IBSS stops beaconing <Subrat Dash> 9 months ago
+8735ffb : msm-camera: Addressing possible overflow conditions <Trilokesh Rangam> 5 months ago
+4626c22 : sdcardfs: limit stacking depth <Andrew Chant> 10 weeks ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+b35cf78 : mdss: Fix solid fill unpack pattern <Naseer Ahmed> 9 months ago
+0950aba : mdss: move to a kthread for vsync_retire_work_handler <Tim Murray> 9 months ago
+52201e6 : msm: mdss: avoid scheduling pp work during continuous updates <Adrian Salido> 9 months ago
+ec65633 : mdss: Do not wait for kickoff in display commit <Naseer Ahmed> 9 months ago
+5d99f96a : kgsl: convert some workqueues to use kthreads <Tim Murray> 9 months ago
+233ced3 : tcp: take care of truncations done by sk_filter() <Eric Dumazet> 5 months ago
+1efc82c : rose: limit sk_filter trim to payload <Willem de Bruijn> 5 months ago
+9ad79cd : msm: thermal-dev: Protect IOCTL from race condition <Ram Chandrasekar> 4 weeks ago
+951037d : msm: camera: sensor: Validate csid lane count <Rajesh Bondugula> 3 months ago
+722c01a : msm: mdss: Fix integer overflow in cursor validaton <Rajkumar Subbiah> 4 weeks ago
+6580390 : msm: kgsl: Increase memstore size <Deepak Kumar> 4 weeks ago
+1f48d87 : soc: qcom: Avoid possible buffer overflow in service-locator <Puja Gupta> 6 weeks ago
+abaf996 : input: touchscreen: synaptics: Remove fw_update sysfs entries <Andrew Chant> 8 weeks ago
+e1dcdc7 : input: touchscreen: synaptics_dsx: Remove fw_update sysfs entries <Andrew Chant> 6 weeks ago
+cef330b : qseecom: fix potential memory leak in __qseecom_update_cmd_buf_64 <Zhen Kong> 3 months ago
+6f7b1e9 : msm: ispif: fix a bug in checking the validity of vfe intf <Junzhe Zou> 5 weeks ago
+91f1795 : qseecom: check img_len and mdt_len against ion buf len <Zhen Kong> 4 weeks ago
+a9cccfc : USB: gadget: midi: Fix use-after-free after midi_unbind <Manu Gautam> 5 weeks ago
+7b9264c : msm: camera: isp: Handle array out of bounds <Senthil Kumar Rajagopal> 10 weeks ago
+c745937 : msm: mdss: Fix possible integer overflow <Sravan Kumar D.V.N> 3 months ago
+7570ff3 : usb: f_serial: Check port_num before allocating serial instance <Ajay Agarwal> 4 weeks ago
+d1d99f0 : msm: camera: Add error check for cmd in IOCTL. <Trishansh Bhardwaj> 4 weeks ago
+ac76086 : msm: mdss: Add lock to avoid release of active session in rotator <Benjamin Chan> 6 weeks ago
+17597b4 : msm: mdss: fix race condition in mdp debugfs <Ingrid Gallardo> 7 weeks ago
+ff31baf : msm: mdss: Install sync fences after user copy <Naseer Ahmed> 3 months ago
+5dc87fc : msm: mdss: Validate cursor image size <Naseer Ahmed> 3 months ago
+2d5874c : msm: camera: isp: fix for out of bound access array <Senthil Kumar Rajagopal> 6 weeks ago
+f06f029 : msm: isp: fix for potentitial array out of bound access <Senthil Kumar Rajagopal> 9 weeks ago
+2faff53 : msm: camera: cpp: Replace const by macro <Pratap Nirujogi> 4 weeks ago
+84be788 : msm: mdss: mask DSI FIFO overflow errors during BTA operation <Sandeep Panda> 2 months ago
+a2e932c : msm: mdss: fix check for igc read <gopikrishnaiah Anand> 3 months ago
+f1af7d1 : msm: msm_bus: Set current index to default value <Odelu Kukatla> 5 weeks ago
+b031e38 : Revert "mm: vmscan: Add a debug file for shrinkers" <Dmitry Shmidt> 12 months ago
+b3be444 : ASoC: msm: qdsp6v2: set pointer to NULL after free <Xiaojun Sang> 8 weeks ago
+92367fe0 : cpp: Reset vbif and load firmware on poll failures <Krishnankutty Kolathappilly> 10 weeks ago
+e024c8d : msm: cpp: Check for validity of processed frame in cpp timeout <Krishnankutty Kolathappilly> 2 months ago
+ 
+**** cmold:android_kernel_samsung_d2 ****
+5e38f60 : cpufreq_limit/msm_thermal: Coordinate frequency limiting <Paul Keith> 4 days ago
+8d5d696 : d2: Update defconfig <Paul Keith> 4 days ago
+039b214 : cpufreq_limit: Change min/max cpu freq handling <Paul Keith> 4 days ago
+0ad9efd : cpufreq_limit: Move sysfs nodes <Paul Keith> 4 days ago
+f850a3c : d2: Disable CONFIG_QSEECOM <Paul Keith> 4 days ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+3ac2e86 : signal: allow to send any siginfo to itself <Andrey Vagin> 4 years, 2 months ago
+11abd35 : scsi: sg: check length passed to SG_NEXT_CMD_LEN <peter chang> 9 weeks ago
+62aa394 : BACKPORT: sg: relax 16 byte cdb restriction <Douglas Gilbert> 2 years, 10 months ago
+f0cf13d : BACKPORT: block: add blk_rq_set_block_pc() <Jens Axboe> 2 years, 10 months ago
+da36323 : sdcardfs: limit stacking depth <Andrew Chant> 10 weeks ago
+d1dbb46 : BACKPORT: fs: limit filesystem stacking depth <Miklos Szeredi> 2 years, 6 months ago
+4276274 : udp: properly support MSG_PEEK with truncated buffers <Eric Dumazet> 1 year, 4 months ago
+ 
+**** vanir:packages_apps_Contacts ****
+f89ea66 : Themes: Expose hardcoded layout and styles colors <beanstown106> 1 year, 5 months ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+8c89ad3 : Themes: Define back arrow tint color for themes <Bryan Owens> 1 year, 4 months ago
+1c94f9c : Themes: Expose hardcoded contact tile text colors <bgill55> 2 years, 3 months ago
+ 
+**** vanir:packages_apps_Dialer ****
+c726f98 : Themes: InCallUI dialpad digits color <George G> 5 months ago
+17609bb : Themes: Separate background color from text color <Alex Cruz> 12 months ago
+ 
+**** vanir:packages_apps_ExactCalculator ****
+4731ca4 : Themes: Expose all elevations <Abdulwahab Isam> 7 months ago
+23f2f92 : Themes: Expose hard coded background in java <Bryan Owens> 1 year, 4 months ago
+ 
+**** vanir:packages_apps_Messaging ****
+1506005 : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 5 weeks ago
+ 
+**** vanir:packages_apps_PackageInstaller ****
+ca0e758 : PackageInstaller: Add tint mode to icons <Bryan Owens> 1 year ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+de7fca0 : Themes: Make dialpad seperator line theme-able <Thyrus11> 2 years, 2 months ago
+ 
+**** vanir:packages_apps_Settings ****
+428e20a : Development: Allow all Masquerade calling packages for debugging (3/3) <George G> 7 weeks ago
+094c6e5 : Settings: Expose "ALL" hardcoded and @android colors <Bryan Owens> 7 weeks ago
+9d07a9b : Settings: Expose and add tint mode to custom icons <Randall Rushing> 1 year ago
+c604f18 : Settings: Expose styles in the manifest for themes <Bryan Owens> 7 weeks ago
+12ec068 : Settings: Guard against themes without colorAccent defined <Clark Scheff> 7 weeks ago
+d90dd5b : Set external settings icon tint mode to SRC_ATOP <Ivan Iskandar> 3 months ago
+b832bb7 : Settings: Expose bluetooth pin confirm dialog text colors <SpiritCroc> 3 months ago
+a77d9e1 : Expose switchbar background color <Ivan Iskandar> 3 months ago
+bc298dd : Expose dashboard category padding bottom <Ivan Iskandar> 3 months ago
+f0b443c : Expose color for external settings icons <Clark Scheff> 4 months ago
+d710489 : Hide the "show/hide overlays" when no overlay installed <Ivan Iskandar> 4 months ago
+a168adf : Exclude overlays from the app counter <Ivan Iskandar> 4 months ago
+3c91f0b : OMS7-N: Apps: show/hide Substratum icon overlays [2/2] <Kuba Schenk> 5 months ago
+7ddd96e : OMS7-N: Apps: show/hide Substratum overlays [2/2] <George G> 10 months ago
+a97945c : Settings: Expose LinearColorBar default colors <SpiritCroc> 4 months ago
+0db0362 : Settings: Expose storage icon colors <SpiritCroc> 4 months ago
+b89ec53 : Settings: Expose gesture settings switchbar <daveyannihilation> 5 months ago
+0a96c21 : Settings: Expose storage summary text <George G> 1 year, 5 months ago
+b5c1277 : Settings: Expose condition card colors <daveyannihilation> 7 months ago
+dc8c7db : Settings: Expose dashboard category and tile color <Ivan Iskandar> 7 months ago
+ 
+**** vanir:system_core ****
+f0629a2 : Revert "Create "theme extras" directory" <Nathan Chancellor> 3 weeks ago
+9aa03c1 : Create "theme extras" directory <bigrushdog> 3 months ago
+ 
+**** vanir:system_extras ****
+196ed2f : verity: Include libcrypto_utils_static <Luca Stefani> 10 hours ago
+252fe23 : Revert "Revert "Switch to BoringSSL for crypto."" <Luca Stefani> 10 hours ago
+442b784 : Revert "Switch to BoringSSL for crypto." <LuK1337> 16 hours ago
+ 
+**** vanir:system_sepolicy ****
+e866664 : sepolicy: add file and domain trans to interfacer <Surge Raval> 2 days ago
+7d0162b : Welcome to Theme Interfacer! [2/2] <Nathan Chancellor> 6 weeks ago
+3afaf40 : sepolicy: Redo masquerade rules <LuK1337> 7 weeks ago
+c1d3c13 : sepolicy: Fix application of bootanimation <Miccia> 7 weeks ago
+8ecd479 : sepolicy: allow masquerade to read and write theme assets <Surge1223> 8 weeks ago
+df92587 : sepolicy: rename masquerade domain and allow JobService in system_server <Surge1223> 8 weeks ago
+ff6e65f : initial policy edits for masquerade to operate rootless <Surge1223> 8 weeks ago
+2c95688 : sepolicy: fix themed sounds <George G> 10 weeks ago
+d354ccb : sepolicy: fix themed boot animation <bigrushdog> 3 months ago
+e4dfcdb : Introduce sepolicy exceptions for theme assets <d34d> 3 months ago
+d5e5ee0 : OMS7-N: Add service 'overlay' to service_contexts <Mårten Kongstad> 1 year, 10 months ago
+ 
+**** commotio:commotio ****
+0f5edd7 : Fingerprints <DHOMD> 10 hours ago
+ 
+**** vanir:vendor_lge ****
+1ca1d3c : hammerhead: add faceunlock proprietary file libfrsdk.so <razorloves> 26 hours ago
+d2f9a7e : bullhead: update blobs from 7.1.2 N2G47F factory image <razorloves> 3 days ago
+ 
+**** vanir:vendor_motorola ****
+af0c81f : shamu: add faceunlock proprietary file libfrsdk.so <razorloves> 27 hours ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+4e69883 : Add a barrier for Marlin/Sailfish <DHOMD> 5 weeks ago
+ 
+**** vanir:vendor_samsung ****
+86ad81a : jf: Update time-service blobs <Paul Keith> 5 days ago
+b90f910 : smdk4412-common: Update Widevine <Jason Lu> 3 days ago
+96cc2c5 : smdk4412-common: Regenerate Makefile <Jason Lu> 3 days ago
+ 
+**** vanir:vendor_sony ****
+2442050 : fusion3: Remove prima firmware files <Chippa-a> 4 days ago
+ 
