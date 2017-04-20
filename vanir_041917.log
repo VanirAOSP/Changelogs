@@ -1,0 +1,126 @@
+
+**** vanir:bootable_recovery ****
+2e76fbd : Revert "Convert recovery to use BoringSSL instead of mincrypt." <LuK1337> 3 days ago
+ 
+**** vanir:build ****
+7374885 : Build hacks <DHOMD> 6 months ago
+ 
+**** vanir:device_google_marlin ****
+0965381 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 5 weeks ago
+b6a44c4 : Revert "marlin: disable our local telephony extensions" <DHOMD> 5 weeks ago
+ 
+**** cm:LineageOS/android_device_htc_pme ****
+5de5752 : pme: update qcom sh files from 2.41.617.3 <Fagyi> 4 months ago
+26c2599 : pme - Enable blur using the new overlay <STELIX> 3 months ago
+f682a8f : pme: enable tethering without provisioning <Fagyi> 10 weeks ago
+fc4ddf6 : pme: Change the permission for persist <Subbaraman Narayanamurthy> 11 months ago
+fae2c88 : pme: usb: show htc 10 instead of Android phone when plugged it to PC <Fagyi> 10 weeks ago
+9f768d3 : pme: more rebrand changes for LineageOS <Fagyi> 10 weeks ago
+2e40733 : pme: init: Configure cpusets after ensuring cores are online <Christopher R. Palmer> 8 days ago
+995ea39 : pme: Update wpa_supplicant config based on stock config <Christopher R. Palmer> 4 weeks ago
+ 
+**** vanir:device_huawei_kiwi ****
+55cbc09 : kiwi: Enable cortex-a53 optimizations for 64-bit code <Christopher R. Palmer> 4 days ago
+ 
+**** vanir:device_moto_shamu ****
+4bc249c : shamu: Set initial copyright year <Elektroschmock> 11 days ago
+ 
+**** vanir:device_motorola_msm8226-common ****
+2c6b60f : power: Minor code optimization <Gabriele M> 31 hours ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+dacfc7d : Otus: Fix FM Radio <DHOMD> 3 months ago
+ 
+**** vanir:device_oneplus_bacon ****
+0ce7e9a : bacon: Enforce vendor tree presence <Christopher N. Hesse> 2 days ago
+cfa2b93 : bacon: Remove references to dead ppd service <Christopher N. Hesse> 5 days ago
+afb6e50 : bacon: Remove non existant qcom_oncrpc group UID <Christopher N. Hesse> 5 days ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+48b628d : op3: Remove fpc delays after authentication cancelled <dianlujitao> 6 days ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+20ce5e5 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 5 months ago
+ 
+**** vanir:external_boringssl ****
+63d45f9 : Make CRYPTO_is_NEON_capable aware of the buggy CPU. <David Benjamin> 12 months ago
+928d6b2 : Don't set a default armcap state in dynamic armcap modes. <David Benjamin> 12 months ago
+2b9e119 : Rewrite ARM feature detection. <David Benjamin> 1 year, 2 months ago
+6b80930 : Remove CRYPTO_set_NEON_functional. <David Benjamin> 1 year, 2 months ago
+ 
+**** vanir:frameworks_base ****
+1cd6110 : SystemUI:Notification bar custom notification display problems <minz> 8 weeks ago
+e0eb83c : SystemUI:Bluetooth can't be turn off <minz> 8 weeks ago
+57e4bf7 : BT: Update wait function in ManagerService to handle  BLE states <Gurpreet Ghai> 5 months ago
+e5b82e0 : frameworks/base: Fix password/PIN/pattern update issue <AnilKumar Chimata> 11 months ago
+357c516 : SystemUI: Fix QSTileHost exception <Arne Coucheron> 3 weeks ago
+cc5b481 : SystemUI: [RJIL new function] AutoBrightness <minz> 8 months ago
+dc364ad : SystemUI: Fix SystemUI ANR <mqi> 6 months ago
+4cd0b03 : Themes: Allow volume slider and thumb to work with custom images. <Randall Rushing> 1 year, 3 months ago
+59d6dff : Separate tile label color from icon drawable color <bigrushdog> 9 days ago
+7fcda7a : Hold "volume up" during boot to disable all overlays <George G> 6 weeks ago
+050b385 : Themes: Expose Keyboard Shortcuts Dialog <Bryan Owens> 3 weeks ago
+1347922 : Expose Screenshot flash and background colors <ezio84> 6 weeks ago
+a582f1c : ThemeSafety: Introduce App Crash Intent <Ivan Iskandar> 6 weeks ago
+21cf160 : Revert "Add a protected broadcast for Masquerade events" <Nathan Chancellor> 7 weeks ago
+08b524e : base: Force authorize all calling packages by Masquerade (2/3) <George G> 8 weeks ago
+9891d01 : FWB: Give power dialogs own set of volume icons for themes <Bryan Owens> 7 weeks ago
+0c1c04e : OMS: Add hide annotation to MODIFY_OVERLAYS permission <Evan Anderson> 7 weeks ago
+66fad37 : OMS7: Rootless Security Update Preparation for March 2017 <Nicholas Chum> 8 weeks ago
+1d2210e : Add a protected broadcast for Masquerade events <bigrushdog> 3 months ago
+c57a53a5 : Notification tint: add optional findContrastColor algorithm for dark backgrounds <SpiritCroc> 2 months ago
+ee39f7a : Themes: Expose Keyguard affordance circle background <Branden M> 3 months ago
+85298de : Set external QS tiles tint mode to SRC_ATOP <Alex Cruz> 3 months ago
+2c5eb18 : graphics: ADB "N" icon compatible with OMS7 <George G> 3 months ago
+16d0f11 : Expose external qs tile tint color <Alex Cruz> 3 months ago
+adc63de : SystemUI: Expose switch bar title <daveyannihilation> 4 months ago
+25bf3fb : OMS: Introduce MODIFY_OVERLAYS permission for user apps <bigrushdog> 4 months ago
+a14beed : Themes: Expose QS battery <Abdulwahab Isam> 7 months ago
+c867718 : OMS7-N: ApplicationsState: add filter for Substratum icon overlays [1/2] <Kuba Schenk> 5 months ago
+0e8d764 : OMS7-N: ApplicationsState: add filter for Substratum overlays [1/2] <George G> 10 months ago
+f10aeb0 : SystemUI: Use own drawables for QS expand icon <Ivan Iskandar> 5 months ago
+61ecb0c : doze: allow grayscale even if invert boolean is false <Daniel Koman> 7 months ago
+502da58 : OMS7 compatible 'Ambient notification inversion' <George G> 5 months ago
+7598fb3 : Allow prevention of doze notification color inversion <Daniel Koman> 2 years ago
+79c8715 : Notification dynamic colors bool compatible with OMS7 <George G> 5 months ago
+f34d067 : Notifications: Expose a bool to disable dynamic colors <Nicholas Chum> 8 months ago
+6bdf001 : Themes: Expose various QuickSettings text colors <Niklas Schnettler (Sh4dowSoul)> 7 months ago
+d0a195a : Allow custom alpha for notification shade bg color <Simao Gomes Viana> 5 months ago
+da731f7 : SystemUI: Expose QS edit item decoration background color <Ivan Iskandar> 7 months ago
+b5e9629 : Themes: Allow Navbar ripple color to be themed <Dave Kover> 1 year ago
+31d3298 : Themes: Allow Permission Icons to be fully themed <Nicholas Chum> 1 year, 5 months ago
+19beaf3 : Themes: Allow Immersive cling colors to be fully themed <Nicholas Chum> 1 year, 5 months ago
+d221617 : Themes: Expose resolver hardcoded colors <Dave Kover> 4 months ago
+5517ef1 : N-Extras: AudioService: Allow system effect sounds to be themed <Nicholas Chum> 9 months ago
+b3c80a6 : N-Extras: Add dynamic theme fonts support <0xD34D> 10 months ago
+4ef6557 : N-Extras: Add dynamic theme BootAnimation support <0xD34D> 10 months ago
+c2c9896 : OMS7-N: Implement multi-target enable/disable and disable-all [11/11] <Jacob McSwain> 10 months ago
+5344ef6 : OMS7-N: Do not enforce code policy limiting overlay installation [10/11] <Nicholas Chum> 6 months ago
+624a702 : OMS7-N: Persistence on boot through OverlayManagerServiceImpl [9/11] <Nicholas Chum> 10 months ago
+223a1af : OMS7-N: Disable Zygote preloaded drawables [8/11] <Josh Guilfoyle> 6 years ago
+9215988 : OMS7-N: installd: add command 'rmidmap' [7/11] <Mårten Kongstad> 11 months ago
+ 
+**** vanir:hardware_qcom_audio ****
+2627639 : msm8960: define HFP_ASM_RX_TX 24 <David Marble> 5 days ago
+ 
+**** cmold:android_kernel_lge_msm8996 ****
+19e55f7 : h918_defconfig: Disable reader mode <Matt Filetto> 35 hours ago
+c51efc0 : lge_battery_manager: Add missing batt_mngr_ocv_table definition <Paul Keith> 35 hours ago
+ 
+**** vanir:packages_apps_Messaging ****
+7418b41 : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 5 weeks ago
+ 
+**** vanir:system_core ****
+3bae7b3 : Revert "Add libcrypto_utils." <LuK1337> 2 days ago
+096a1b1 : Revert "Switch fs_mgr and adb to libcrypto_utils." <LuK1337> 3 days ago
+ 
+**** vanir:system_extras ****
+454bacc : Revert "Revert "Revert "Switch to BoringSSL for crypto.""" <nuclearmistake> 16 hours ago
+b5332df : Update verity_verifier from master branch <LuK1337> 2 days ago
+ 
+**** vanir:system_vold ****
+3c6bd03 : Revert "Switch to BoringSSL crypto." <LuK1337> 3 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+31778d6 : Add a barrier for Marlin/Sailfish <DHOMD> 5 weeks ago
+ 
