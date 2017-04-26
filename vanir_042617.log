@@ -1,0 +1,286 @@
+
+**** vanir:bootable_recovery_twrp ****
+b5ecaad : ADB Backup: fix adb restore issues <bigbiff bigbiff> 5 weeks ago
+ 
+**** vanir:build ****
+ac047c5 : Build hacks <DHOMD> 7 months ago
+ 
+**** vanir:device_google_marlin ****
+1485c24 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 6 weeks ago
+616b5a8 : Revert "marlin: disable our local telephony extensions" <DHOMD> 6 weeks ago
+ 
+**** vanir:device_lge_g3-common ****
+d14260f : overlay: Disable SIM batch operations <Gabriele M> 2 weeks ago
+ 
+**** cm:LineageOS/android_device_lge_g5-common ****
+2db33b8 : g5: Add camcorder stereo dual mic paths <Rashed Abdel-Tawab> 6 days ago
+ 
+**** cm:LineageOS/android_device_lge_mako ****
+ed5721d : mako: fix NFC selinux denial <Tom Powell> 2 days ago
+ 
+**** cm:LineageOS/android_device_lge_msm8996-common ****
+6fd1352 : msm8996: Enable stereo camcorder mics and set proper ACDB IDs <Rashed Abdel-Tawab> 7 hours ago
+32f3bdc : msm8996: Set top-app boost to 10 based on hints rather than always <Rashed Abdel-Tawab> 2 days ago
+47eb6aa : msm8996: sepolicy: Set schedutil tunable context <Rashed Abdel-Tawab> 2 days ago
+cb10bdd : msm8996: Switch to schedutil governor <Rashed Abdel-Tawab> 3 days ago
+9e399fb : msm8996: Move cpuset configuration to bootcomplete <Rashed Abdel-Tawab> 8 days ago
+71e6c36 : msm8996: Kang marlin libdumpstate <Rashed Abdel-Tawab> 6 weeks ago
+c38c989 : msm8996: Move power config into init.qcom.rc and add EAS'd perfd <Rashed Abdel-Tawab> 6 weeks ago
+ca20a0d : msm8996: Import marlin power HAL <Rashed Abdel-Tawab> 7 weeks ago
+ccd0f85 : msm8996: Add init.power.sh to manage EAS and other PM <Rashed Abdel-Tawab> 7 weeks ago
+1586e50 : msm8996: update cpusets at boot complete <Tim Murray> 9 months ago
+8d1432e : msm8996: Disable sched_boost after boot complete <jason_sung> 11 months ago
+e30c7fe : msm8996: Setting appropriate schedtune knobs during init. <Srinath Sridharan> 9 months ago
+ccd29a0 : msm8996: Add support for foreground and top-app stune groups. <Tim Murray> 10 months ago
+48b274d : msm8996: add camera-daemon cpuset <Tim Murray> 10 months ago
+073626b : msm8996: Enable cpusets and EAS features <Rashed Abdel-Tawab> 7 weeks ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+c1d3280 : Otus: Fix FM Radio <DHOMD> 3 months ago
+ 
+**** github:Grarak/android_device_oneplus_oneplus2 ****
+a2586f7 : oneplus2: Notify client when fp cancelling succeeded <Luca Stefani> 9 days ago
+0e1ba1c : sepolicy: Fix denials <Willi Ye> 4 weeks ago
+df01179 : op2: Doze: Refactor <Bruno Martins> 4 weeks ago
+1a37e68 : op2: Doze: Perform operations as current user <Gabriele M> 4 weeks ago
+9d9f970 : dependencies: Remove devicesettings <Harry Youd> 4 weeks ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+fd73be1 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 5 months ago
+ 
+**** cm:LineageOS/android_device_samsung_d2-common ****
+3c2fcfc : d2: Update camera wrapper flags for new wrapper <Paul Keith> 3 days ago
+ 
+**** vanir:device_samsung_klte-common ****
+0940aac : klte-common: Restore ownership/perms of bcm2079x dev node <Kevin F. Haggerty> 29 hours ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+bfc83ba : camera: Add back some missing changes <Paul Keith> 2 days ago
+c00699d : camera: Steal msm8930-common's wrapper <Paul Keith> 3 days ago
+ 
+**** vanir:device_yu_lettuce ****
+0979eb6 : Revert "lettuce: Use bin/netmgrd from ASUS stock rom" <Louis Popi> 11 days ago
+ 
+**** vanir:device_yu_tomato ****
+aed62b8 : Revert "tomato: Use bin/netmgrd from ASUS stock rom" <Louis Popi> 11 days ago
+ 
+**** vanir:external_openssh ****
+bcba846 : Revert SSHDIR to /data/ssh <Alexander Koenig> 5 days ago
+ 
+**** vanir:frameworks_base ****
+41088cd : SystemUI: Use AOSP AutoBrightness implementation <Luca Stefani> 6 days ago
+2f5e3c5 : Revert "SystemUI: [RJIL new function] AutoBrightness" <Luca Stefani> 6 days ago
+48e4858 : Revert "SystemUI: Fix QSTileHost exception" <Luca Stefani> 6 days ago
+d183b09 : am: Handle unchecked activity starts for protected components (2) <Gabriele M> 3 weeks ago
+9cffad5 : fix wrong algorithm in WifiPowerPerPacket() <yuanhuihui> 8 months ago
+cf74944 : Ensure that the decor view is attached to window. <xiaomei.li> 3 months ago
+0c21678 : Bad token of activity when do the launch work at the app process side. <xiaomei.li> 7 months ago
+60ffe39 : Query geo description in worker thread to prevent ANR <Ceci Wu> 8 months ago
+fb463d7 : remove duplicated incorrectly code in ProcessRecord <yuanhuihui> 7 months ago
+030eba7 : fix foreground process will be mistakenly killed when it uses content provider. <yuanhuihui> 8 months ago
+c5c4f8b : Fix PacketKeepalive.stop() crash <Peter Hsiang> 5 months ago
+8a0339e : FATAL EXCEPTION IN SYSTEM PROCESS: android.ui <yangbingqian> 5 weeks ago
+2ea0831 : Restart persistent process if start timeout. <riddle_hsu> 1 year, 5 months ago
+8e149f6 : fix system_server crash issue caused by fd leak. <songjinshi> 6 weeks ago
+ 
+**** vanir:frameworks_opt_telephony ****
+bc43228 : Create cdma dummy apns. <Alex Yakavenka> 3 years, 7 months ago
+71c8c95 : GsmCdmaPhone: Fix GSM SIM card ICCID on NV sub CDMA devices <nadlabak> 9 days ago
+ 
+**** cm:LineageOS/android_hardware_qcom_audio ****
+6bace74 : msm8996: audio: Add l/r mic swapping when using stereo mics <Rashed Abdel-Tawab> 1 year, 9 months ago
+fc1c0d9 : Add special case for stereo camcorder <alanht_wu> 1 year, 10 months ago
+97baada : hal: Featureize APE/VORBIS/WMA offload support <dianlujitao> 8 weeks ago
+ 
+**** cm:LineageOS/android_hardware_qcom_fm ****
+51e71fd : libfm_jni: Fix strchr implicit char* typecast in ConfFileParser <Adrian DC> 3 weeks ago
+56dd18a : libjm_jni: Missing liblog dependency and jni core headers <Adrian DC> 3 weeks ago
+ 
+**** vanir:hardware_samsung ****
+5e4fbe0 : power: Sanity check touchscreen path <Paul Keith> 4 days ago
+ 
+**** cmold:android_kernel_htc_msm8952 ****
+9409858 : msm: vidc: Protect debug_buffer access in core_info_read with lock. <Abdulla Anam> 5 weeks ago
+6c09589 : ion: blacklist %p kptr_restrict <Nick Desaulniers> 7 months ago
+960befb : qseecom: check img_len and mdt_len against ion buf len <Zhen Kong> 5 weeks ago
+b35c023 : usb: dwc3: Replace sscanf with kstrtou8_from_user <Liangliang Lu> 10 weeks ago
+aec992c : android: fiq_debugger: restrict access to critical commands. <Mark Salyzyn> 4 months ago
+b33579d : CHROMIUM: usb: gadget: configfs: Fix KASAN use-after-free <Jim Lin> 3 months ago
+4540957 : ANDROID: ion: check for kref overflow <Daniel Rosenberg> 5 months ago
+8f42ac1 : mpi: Fix NULL ptr dereference in mpi_powm() [ver #3] <Andrey Ryabinin> 5 months ago
+5b5456b : msm: mdss: Fix fence installation when retire fence is skipped <Naseer Ahmed> 5 weeks ago
+11bad02 : l2tp: fix racy SOCK_ZAPPED flag check in l2tp_ip{,6}_bind() <Guillaume Nault> 5 months ago
+96589ac : msm: mdss: Validate cursor image size <Naseer Ahmed> 4 months ago
+c9eaf4e : ASoC: msm: qdsp6v2: Fix out-of-bounds access in put functions <Karthikeyan Mani> 4 months ago
+39c476d : soc: qcom: pil: Clear elf memory on validation failure <Puja Gupta> 3 months ago
+275db4f : ASoC: Add backend user count checking <Walter Yang> 8 weeks ago
+a18f6ff : qseecom: fix potential memory leak in __qseecom_update_cmd_buf_64 <Zhen Kong> 4 months ago
+606e098 : msm: mdss: Install sync fences after user copy <Naseer Ahmed> 3 months ago
+349bbd6 : msm: mdss: Remove restore config call in resume <Jayant Shekhar> 1 year, 1 month ago
+cdb0287 : ASoC: msm: qdsp6v2: Add support to set volume in ASM loopback <Surendar karka> 9 months ago
+67f64e7 : msm: ipa: switch to interrupt mode only when needed <Skylar Chang> 1 year, 3 months ago
+fd4bad5 : msm: IPA: add the check on intf query <Skylar Chang> 8 weeks ago
+dae56f7 : msm: ipa: Prevent multiple header deletion from user space <Ghanim Fodi> 3 months ago
+f135c4d : msm: ipa: fix the potential heap overflow on wan-driver <Skylar Chang> 5 months ago
+c3d124c : ipa: Fix holb monitor response handling from Uc <Utkarsh Saxena> 1 year, 1 month ago
+837d28f : msm: ipa: use GFP_ATOMIC for DMA memory allocation during SSR <Ghanim Fodi> 6 months ago
+47a2c9f : msm: ipa: fix ioctl input param validation <Skylar Chang> 6 months ago
+71f648d : msm: ipa: fix potential race condition ioctls <Skylar Chang> 10 months ago
+3acd795 : msm: ipa: handle information leak on ADD_FLT_RULE_INDEX ioctl <Skylar Chang> 9 months ago
+ 
+**** cmold:android_kernel_lge_hammerhead ****
+4edc8ca : BACKPORT: signal: allow to send any siginfo to itself <Andrey Vagin> 4 years, 2 months ago
+ 
+**** cmold:android_kernel_lge_msm8996 ****
+6912121 : h850_defconfig: Regenerate and enable EAS <Rashed Abdel-Tawab> 7 days ago
+f7abb6f : h918_defconfig: Regenerate and enable EAS <Rashed Abdel-Tawab> 7 days ago
+5babe33 : h872_defconfig: Regenerate and enable EAS <Rashed Abdel-Tawab> 3 weeks ago
+917080f : h830_defconfig: Regenerate and enable EAS <Rashed Abdel-Tawab> 7 weeks ago
+5bce2cd : h872_defconfig: Properly enable EXT4 file-based encryption <Rashed Abdel-Tawab> 7 days ago
+c89413e : h918_defconfig: Properly enable EXT4 file-based encryption <Rashed Abdel-Tawab> 7 days ago
+6b13bfc : h850_defconfig: Properly enable EXT4 file-based encryption <Rashed Abdel-Tawab> 7 days ago
+740919e : h830_defconfig: Properly enable EXT4 file-based encryption <Rashed Abdel-Tawab> 7 weeks ago
+290cfde : msm8996pro: Decommonize energy model <Rashed Abdel-Tawab> 3 days ago
+a117de5 : DTS: Update Energy Model for SD820 Devices (msm8996) <RenderBroken> 6 days ago
+5f97e69 : DTS: MSM8996: EAS Energy Model Change <RenderBroken> 3 weeks ago
+1fcfbb1 : Revert "cpuidle: Wakeup only cpus for which qos has changed." <Siqi Lin> 5 months ago
+f714704 : cpuidle: Fix cpuidle_state_is_coupled() argument in cpuidle_enter() <Daniel Lezcano> 11 months ago
+155fa1c : staging: binder - Set binder_debug_mask=0 to suppress logging <John Dias> 9 months ago
+d444834 : Revert "memcg: add permission check" <Amit Pundir> 6 months ago
+7d5b762 : Revert "cgroup: memcg: pass correct argument to subsys_cgroup_allow_attach" <Amit Pundir> 6 months ago
+1cf5b63 : cgroup: Change from CAP_SYS_NICE to CAP_SYS_RESOURCE for cgroup migration permissions <John Stultz> 6 months ago
+71f530e : CHROMIUM: cgroups: relax permissions on moving tasks between cgroups <Dmitry Torokhov> 7 months ago
+5f33fda : ANDROID: sched/tune: Remove leftover instances of allow_attach <Amit Pundir> 6 months ago
+7a4cbbe : Revert "cgroup: refactor allow_attach function into common code" <Amit Pundir> 6 months ago
+b9b6cf9 : Revert "cgroup: Add generic cgroup subsystem permission checks" <Amit Pundir> 6 months ago
+0de164c : Revert "cgroup: Clean up after allow_attach check" <RenderBroken> 3 months ago
+a6add45 : cpuset: make sure new tasks conform to the current config of the cpuset <Zefan Li> 9 months ago
+536f84f : Revert "cpuset: Add allow_attach hook for cpusets on android." <RenderBroken> 3 months ago
+d1b734d : cpuset: handle race between CPU hotplug and cpuset_hotplug_work <Joonwoo Park> 8 months ago
+a2e578c : SCHED: SCHEDUTIL: Fix tunables not sticking after core going offline <RenderBroken> 9 weeks ago
+7f4a338 : sched: EAS: energy model change. Based on QCOM 8996AB one. <alucard24> 3 months ago
+57b2a57 : kbuild: move -Wunused-const-variable to W=1 warning level <arndb> 3 months ago
+d1c7b81 : arm64/boot/Makefile: Make sure find command follows symbolic links to find the dtb <andip71> 9 months ago
+1ab2a21 : FROM-LIST: cpufreq: schedutil: Redefine the rate_limit_us tunable <Viresh Kumar> 9 weeks ago
+bb302eb : sched: Implement lockless wake-queues <Peter Zijlstra> 2 years ago
+b3ae5d5d3 : UPSTREAM: sched/fair: Fix post_init_entity_util_avg() serialization <Peter Zijlstra> 11 months ago
+d9dc75c : ANDROID: sched: fix duplicate sched_group_energy const specifiers <Greg Hackmann> 7 weeks ago
+44663d3 : EXPERIMENTAL: sched/fair: Use energy_diff for tasks where appropriate <Chris Redpath> 4 weeks ago
+0ad4aab : EXPERIMENTAL: sched/fair: Reduce balance interval to 0 if we have a misfit task <Leo Yan> 4 weeks ago
+e5bd147 : EXPERIMENTAL: events: add tracpoint for energy/performance variations <Patrick Bellasi> 4 weeks ago
+9e251f0 : EXPERIMENTAL: events: add tracepoint for energy_diff <Patrick Bellasi> 4 weeks ago
+1daf35e : EXPERIMENTAL: sched/fair: add support to compute perf/energy variations <Patrick Bellasi> 7 months ago
+e978909 : EXPERIMENTAL: sched/fair: make find_new_capacity() to honour the task's boost <Patrick Bellasi> 7 months ago
+32d5842 : EXPERIMENTAL: sched/fair: use energy_env as single argument <Patrick Bellasi> 7 months ago
+b0ecea0 : EXPERIMENTAL: sched/fair: add ENERGY_FILTER sched_feature <Patrick Bellasi> 9 months ago
+e67a902 : EXPERIMENTAL: FROMLIST: sched/fair: kick nohz idle balance for misfit task <Chris Redpath> 4 weeks ago
+883d5c5 : sched/tune: don't use schedtune before it is ready <Chris Redpath> 4 weeks ago
+e2f4a28 : sched/fair: use SCHED_CAPACITY_SCALE for energy normalization <Patrick Bellasi> 7 months ago
+cc4b746 : sched/{fair,tune}: use reciprocal_value to compute boost margin <Patrick Bellasi> 7 months ago
+26c91d5 : sched/tune: Initialize raw_spin_lock in boosted_groups <Srinath Sridharan> 6 months ago
+a58a694 : sched/tune: report when SchedTune has not been initialized <Patrick Bellasi> 7 months ago
+c82a15f : sched/tune: fix sched_energy_diff tracepoint <Chris Redpath> 5 weeks ago
+ff4e71f : sched/tune: increase group count to 5 <Chris Redpath> 5 weeks ago
+3e41fcc : cpufreq/schedutil: use boosted_cpu_util for PELT to match WALT <Chris Redpath> 5 weeks ago
+ 
+**** github:Grarak/android_kernel_oneplus_msm8994 ****
+19895cc : Synchronize codes for OxygenOS 3.5.8 The changes list: 1.Recording 4K video capture process caused by the phone into the crash 2.Fix some stability issue and crash issue 3.add some secure patch <qiuchangping> 5 weeks ago
+3474e0d : input: synaptics: Enable all gestures <Willi Ye> 8 weeks ago
+62b170b : qcacld-2.0: Import LA.BF64.1.2.3-01310-8x94.0 <Willi Ye> 3 months ago
+d419bb6 : Revert "dts: Update from OOS" <Willi Ye> 4 months ago
+f39ce3d : Rebrand to lineageos <BobZhome> 4 months ago
+503b13a : dts: Update from OOS <Willi Ye> 4 months ago
+a30b212 : Revert "camera: sensor: Remove OIS burst write" <Willi Ye> 5 months ago
+f190850 : Enable RPFILTER <Ethan Chen> 5 months ago
+cdf9b99 : Enable sdcardfs <Willi Ye> 5 months ago
+835cb3d : sdcardfs: fix external storage exporting incorrect uid <alvin_liang> 7 months ago
+f12ebd5 : sdcardfs: Flag files as non-mappable <fluxi> 6 months ago
+e15cbbd : sdcardfs: Remove stale dentries when reusing an inode. <Daniel Rosenberg> 8 months ago
+9ad47b8 : sdcardfs: Fix issue with d_child move <Daniel Rosenberg> 1 year, 1 month ago
+f541f42 : ANDROID: sdcardfs: fix itnull.cocci warnings <Julia Lawall> 11 months ago
+6de9583 : sdcardfs: Truncate packages_gid.list on overflow <Daniel Rosenberg> 10 months ago
+bc94309 : vfs: change d_canonical_path to take two paths <Daniel Rosenberg> 1 year ago
+c6b1fc6 : inotify: Fix erroneous update of bit count <Daniel Rosenberg> 1 year, 1 month ago
+be85c5a : vfs: add d_canonical_path for stacked filesystem support <Daniel Rosenberg> 1 year, 2 months ago
+f7b41b7 : sdcardfs: remove unneeded __init and __exit <Daniel Rosenberg> 1 year, 1 month ago
+e4e35a3 : sdcardfs: Remove unused code <Daniel Rosenberg> 1 year, 1 month ago
+7ce40ba : sdcardfs: remove effectless config option <Daniel Rosenberg> 1 year, 1 month ago
+2a5f869 : sdcardfs: Add support for d_canonicalize <Daniel Rosenberg> 1 year, 2 months ago
+0c31cc1 : sdcardfs: Bring up to date with Android M permissions: <Daniel Rosenberg> 1 year, 3 months ago
+fb96072 : sdcardfs: Changed type-cast in packagelist management <Daniel Campello> 1 year, 10 months ago
+0dbf26f : sdcardfs: port to 3.10 <Daniel Campello> 1 year, 10 months ago
+a2bca05 : Initial port of sdcardfs <Daniel Campello> 1 year, 10 months ago
+593ea79 : KEYS: Fix short sprintf buffer in /proc/keys show function <David Howells> 8 months ago
+f258c873 : binder: prevent kptr leak by using %pK format specifier <Nick Desaulniers> 8 months ago
+907de67 : UPSTREAM: tcp: fix use after free in tcp_xmit_retransmit_queue() <Eric Dumazet> 8 months ago
+775b7e4 : net: Fix use after free in the recvmmsg exit path <Arnaldo Carvalho de Melo> 1 year, 1 month ago
+95aaa39 : mm: remove gup_flags FOLL_WRITE games from __get_user_pages() <Linus Torvalds> 7 months ago
+4f73eb5 : qcacld-2.0: Merge with LA.BF64.1.2.3-00910-8x94.0 <Willi Ye> 6 months ago
+668e6b4 : input: synaptics: Ditch oneplus virtual abs code <Willi Ye> 7 months ago
+468bb14 : camera: sensor: Remove OIS burst write <Willi Ye> 8 months ago
+3bdbd33 : Add Oneplus modification for OTA <jiachunxu> 8 months ago
+828b2c7 : Enable cpusets and other things <Willi Ye> 8 months ago
+02609d9 : Adds bound check on reg_cfg_cmd->u.dmi_info.hi_tbl_offset. <Trishansh Bhardwaj> 8 months ago
+64c52cc : ASoC: msm: qdsp6v2: check param length for EAC3 format <Surendar karka> 8 months ago
+0e8bffe : workqueue: declare system_highpri_wq <Lai Jiangshan> 2 years, 11 months ago
+6f6c4c6 : misc: fpc1020: Set fingerprintd priority to max when screen is off <Sultanxda> 9 months ago
+adde7e7 : misc: fpc1020: Report key input when interrupt is fired with screen off <Sultanxda> 9 months ago
+0fc5c1a : misc: fpc1020: Clean up PM routines and move them into dedicated worker <Sultanxda> 9 months ago
+e06babd : msm: qpnp-haptic: Process haptics asynchronously <Sultanxda> 9 months ago
+bb25517 : qpnp-haptic: Dejank the haptics <Steve Kondik> 9 months ago
+cdeb5e4 : msm: qpnp-haptic: set up sysfs interface for common cmhw implementation <dianlujitao> 10 months ago
+c1945af : video: mdss: livedisplay: Fix livedisplay MODE_RGB functionality <Ethan Chen> 12 months ago
+4f2b6be : DTS: optimize DSI command delays <Dan Elkouby> 11 months ago
+ce3df73 : video: mdss: Improve the LiveDisplay driver <Steve Kondik> 1 year, 4 months ago
+e57d00e : mdss: LiveDisplay: fix cherry-pick failure <Scott Mertz> 1 year, 7 months ago
+baecede : video: mdss: Fix issues when setting a channel to zero <Steve Kondik> 1 year, 8 months ago
+ 
+**** vanir:platform_manifest ****
+d0e83f6 : Fix duplicated marlin kernels <nuclearmistake> 30 minutes ago
+b2e6f24 : openssh derp <nuclearmistake> 2 hours ago
+55b8739 : de-staging <nuclearmistake> 2 hours ago
+14fbf35 : track openssh <nuclearmistake> 2 hours ago
+ 
+**** vanir:packages_apps_Dialer ****
+8604a37 : InCallUI: Don't force enable the prox sensor for incoming calls <Gabriele M> 12 days ago
+ 
+**** vanir:packages_apps_Email ****
+0657380 : Search in folder specified via URI parameter, if possible. <Danny Baumann> 6 days ago
+ 
+**** cm:LineageOS/android_packages_apps_EmergencyInfo ****
+985550c : Automatic translation import <Abhisek Devkota> 6 days ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+1f0ec6e : Revert "Gallery2: hide navigation bar when we turn off lights" <Gabriele M> 7 days ago
+ 
+**** vanir:packages_apps_Messaging ****
+57eba49 : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 6 weeks ago
+ 
+**** github:substratum/interfacer ****
+9936dc3 : README: Recommend Interfacer be put in the services folder <Nathan Chancellor> 12 hours ago
+97eceaf : JobService: Transition to the Binder Interprocess Communication System <Ivan Iskandar> 3 weeks ago
+ 
+**** vanir:packages_apps_Trebuchet ****
+99649a5 : Don't show market links if market app is protected <Gabriele M> 3 weeks ago
+1cc5cef : Trebuchet: use normalized strings for sorting into bucket <gismo2004> 3 weeks ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+b2b4ec0 : Make navigation drawer extend over status bar. <Danny Baumann> 1 year, 3 months ago
+45e989c : Pass selected folder to message search. <Danny Baumann> 6 days ago
+ 
+**** vanir:system_core ****
+6d39b93 : init.rc: set initial cpuset to all cores <Wei Wang> 12 days ago
+ 
+**** vanir:vendor_cmsdk ****
+117d242 : Protect system profiles related broadcasts <Gabriele M> 11 days ago
+ 
+**** vanir:vendor_lge ****
+5fe7aa3 : msm8996: Revert soundtrigger blobs to pre-h872 merge <Rashed Abdel-Tawab> 3 days ago
+f5c8d6c : msm8996: Add missing OMX blobs <Rashed Abdel-Tawab> 8 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+80ab2a8 : Add a barrier for Marlin/Sailfish <DHOMD> 6 weeks ago
+ 
+**** vanir:vendor_samsung ****
+4920258 : d2: Cleanup blobs <Paul Keith> 6 days ago
+ 
