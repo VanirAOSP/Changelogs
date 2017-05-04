@@ -1,0 +1,204 @@
+
+**** vanir:bootable_recovery ****
+8011e66 : recovery: Fix UI freezing <Tom Marshall> 35 hours ago
+ 
+**** vanir:build ****
+cc3c5f9 : Build hacks <DHOMD> 7 months ago
+ 
+**** vanir:device_google_marlin ****
+22bab78 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 7 weeks ago
+43dd5f5 : Revert "marlin: disable our local telephony extensions" <DHOMD> 7 weeks ago
+ 
+**** cm:LineageOS/android_device_htc_pme ****
+8724fdc : pme: Notify client when fp cancelling succeeded <Luca Stefani> 2 weeks ago
+ 
+**** vanir:device_huawei_kiwi ****
+af74fe9 : kiwi: Clean ramdisk <Michael W> 8 weeks ago
+ 
+**** cm:LineageOS/android_device_lge_g5-common ****
+4b6a56b : g5: increase gain for stereo camcorder mic <Matt Filetto> 18 hours ago
+ 
+**** vanir:device_lge_v20-common ****
+01ec3ff : v20: increase gain for stereo camcorder mic <Matt Filetto> 18 hours ago
+ 
+**** vanir:device_motorola_athene ****
+c8a2c52 : enable frameworks sched boosting <Ethan> 32 hours ago
+00f553e : athene: Enable wifi calling <Ethan> 32 hours ago
+b4b5cbf : bring up powerconfig <Ethan> 2 days ago
+cf795ea : cleanup system.prop <Ethan> 2 days ago
+25a3f14 : this should have never been put here <Ethan> 2 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+120833a : Otus: Fix FM Radio <DHOMD> 3 months ago
+ 
+**** cm:LineageOS/android_device_motorola_victara ****
+4f5216b : victara: Add single adb mode <Scott Warner> 9 hours ago
+353ea9e : victara: proprietary: Use our old libqc-opt.so for vendor perf ext <Christopher R. Palmer> 35 hours ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+02e2b60 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 5 months ago
+ 
+**** vanir:frameworks_av ****
+faa8b85 : seccomp: Fix policy for ffmpeg <Christopher R. Palmer> 3 days ago
+ 
+**** cmold:android_kernel_htc_msm8996 ****
+d17e170 : pme: Disable /dev/mem and /dev/kmem <Christopher R. Palmer> 3 days ago
+ 
+**** cmold:android_kernel_huawei_kiwi ****
+5e4dbfb : sdcardfs: limit stacking depth <Andrew Chant> 3 months ago
+295b456 : fs: limit filesystem stacking depth <Miklos Szeredi> 2 years, 6 months ago
+e554339 : Revert "fs: limit filesystem stacking depth" <Michael W> 6 hours ago
+7e2d994 : crypto: msm: check integer overflow on total data len in qcedev.c <Zhen Kong> 3 months ago
+450bc1d : ANDROID: ion: Protect kref from userspace manipulation <Nick Desaulniers> 3 months ago
+8a5c1b9 : ion: Fix use after free during ION_IOC_ALLOC <Daniel Rosenberg> 6 months ago
+87a7b30 : qcacld-2.0: Fix VHT-80 IBSS stops beaconing <Subrat Dash> 9 months ago
+05f3d04 : msm: ipa: fix ioctl input param validation <Skylar Chang> 6 months ago
+be349bd : msm-camera: Addressing possible overflow conditions <Trilokesh Rangam> 5 months ago
+fe7f1dd : msm: mdss: Correct the format specifiers in sscanf function <Shalini Krishnamoorthi> 10 months ago
+44d2126 : qcrypto: protect potential integer overflow. <Neeraj Soni> 5 months ago
+670c429 : fs: limit filesystem stacking depth <Miklos Szeredi> 2 years, 6 months ago
+6cd1d98 : irda: Fix lockdep annotations in hashbin_delete(). <David S. Miller> 3 months ago
+870aa61 : ip6_gre: fix ip6gre_err() invalid reads <Eric Dumazet> 3 months ago
+ed1ef27 : ANDROID: sdcardfs: Call lower fs's revalidate <Daniel Rosenberg> 9 days ago
+8ac6416 : ANDROID: sdcardfs: Avoid setting GIDs outside of valid ranges <Daniel Rosenberg> 9 days ago
+e1c03bf : Revert "Revert "Android: sdcardfs: Don't do d_add for lower fs"" <Daniel Rosenberg> 13 days ago
+fac86e4 : ANDROID: sdcardfs: Use filesystem specific hash <Daniel Rosenberg> 13 days ago
+b28e865 : Revert "Android: sdcardfs: Don't do d_add for lower fs" <Daniel Rosenberg> 13 days ago
+8bca82d : Android: sdcardfs: Don't complain in fixup_lower_ownership <Daniel Rosenberg> 2 weeks ago
+0bee074 : Android: sdcardfs: Don't do d_add for lower fs <Daniel Rosenberg> 2 weeks ago
+b1b1fbc : ANDROID: sdcardfs: ->iget fixes <Daniel Rosenberg> 2 weeks ago
+aff8ce2 : Android: sdcardfs: Change cache GID value <Daniel Rosenberg> 2 weeks ago
+09593c9 : sdcardfs: Fix compilation for d_child overlapping d_alias <Christopher R. Palmer> 10 days ago
+9abada0 : ANDROID: sdcardfs: Directly pass lower file for mmap <Daniel Rosenberg> 3 weeks ago
+864c6cc : ANDROID: sdcardfs: update module info <Daniel Rosenberg> 8 weeks ago
+809e4d5 : ANDROID: sdcardfs: use d_splice_alias <Daniel Rosenberg> 8 weeks ago
+9776eb6 : ANDROID: sdcardfs: fix ->llseek to update upper and lower offset <Daniel Rosenberg> 8 weeks ago
+0e5e8ac : ANDROID: sdcardfs: copy lower inode attributes in ->ioctl <Daniel Rosenberg> 8 weeks ago
+d98cd97 : ANDROID: sdcardfs: remove unnecessary call to do_munmap <Daniel Rosenberg> 8 weeks ago
+ab6ad82 : ANDROID: sdcardfs: Fix style issues in macros <Daniel Rosenberg> 6 weeks ago
+d11063a : ANDROID: sdcardfs: Use seq_puts over seq_printf <Daniel Rosenberg> 6 weeks ago
+c21785a : ANDROID: sdcardfs: Use to kstrout <Daniel Rosenberg> 7 weeks ago
+f7166b1 : ANDROID: sdcardfs: Use pr_[...] instead of printk <Daniel Rosenberg> 7 weeks ago
+77bc03b : ANDROID: sdcardfs: remove unneeded null check <Daniel Rosenberg> 6 weeks ago
+6634a70 : ANDROID: sdcardfs: Fix style issues with comments <Daniel Rosenberg> 7 weeks ago
+58b7285 : ANDROID: sdcardfs: Fix formatting <Daniel Rosenberg> 7 weeks ago
+e872704 : ANDROID: sdcardfs: correct order of descriptors <Daniel Rosenberg> 6 weeks ago
+ea8b70f : arm64: mm: ensure that the zero page is visible to the page table walker <Will Deacon> 1 year, 5 months ago
+060041e : Revert "ASoC: compress: Fix compress device direction check" <Christopher R. Palmer> 10 days ago
+42f67eb : kiwi: Rename printk_sched to printk_deferred in our code too <Christopher R. Palmer> 11 days ago
+4df6f79 : crypto: Remove extra definitions of U32_MAX <Christopher R. Palmer> 11 days ago
+fc07cd3 : arm64: Fix line endings in ptrace.h <Christopher R. Palmer> 10 days ago
+c53214f : arm64: Fix line endings in debug-monitors.c <Christopher R. Palmer> 10 days ago
+f022076 : Revert "USB: gadget: u_ether: Fix data stall issue in RNDIS tethering mode" <Christopher R. Palmer> 7 days ago
+7e6ccea : Revert "USB: gadget: u_ether: Optimize TX interrupt on completion" <Christopher R. Palmer> 7 days ago
+dfb7e36 : ANDROID: sdcardfs: declare MODULE_ALIAS_FS <Daniel Rosenberg> 8 weeks ago
+f3f7c11 : ANDROID: sdcardfs: Fix gid issue <Daniel Rosenberg> 7 weeks ago
+1b2f722 : ANDROID: sdcardfs: Use tabs instead of spaces in multiuser.h <Daniel Rosenberg> 7 weeks ago
+a924ce2 : ANDROID: sdcardfs: Get the blocksize from the lower fs <Daniel Rosenberg> 8 weeks ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+1a18e02 : fs/proc/array.c: make safe access to group_leader <Adrian Salido> 5 months ago
+f29e875 : ALSA: info: Check for integer overflow in snd_info_entry_write() <Siqi Lin> 6 months ago
+ff57117 : perf: don't leave group_entry on sibling list (use-after-free) <John Dias> 6 months ago
+9a56042 : xfrm_user: validate XFRM_MSG_NEWAE incoming ESN size harder <Andy Whitcroft> 6 weeks ago
+176e3d5 : xfrm_user: validate XFRM_MSG_NEWAE XFRMA_REPLAY_ESN_VAL replay_window <Andy Whitcroft> 6 weeks ago
+37308e4 : input: touchscreen: gt9xx: fix memory corruption in Goodix driver <Vevek Venkatesan> 3 months ago
+8304341 : soc: qcom: scm: add check to avoid buffer overflow <Satya Durga Srinivasu Prabhala> 6 months ago
+49b3d1d : ASoC: soc: prevent risk of buffer overflow <Xiaojun Sang> 6 months ago
+41cc25c : ASoC: msm: qdsp6v2: return error when copy from userspace fails <Siena Richard> 5 months ago
+81c5e81 : ASoC: msm: qdsp6v2: Add range checking in msm_dai_q6_set_channel_map <Xiaoyu Ye> 5 months ago
+eb958e7 : trace: resolve stack corruption due to string copy <Amey Telawane> 9 months ago
+e4b58a8 : ASoC: wcd9320: Fix out of bounds for mad input value <Karthikeyan Mani> 5 months ago
+02ab642 : slim-msm: Synchronize SSR callbacks <Dilip Kota> 1 year, 1 month ago
+6084099 : crypto: msm: check length before copying to buf in _debug_stats_read <Zhen Kong> 3 months ago
+3f70bb8 : prima: Trim operation classes to max supported in change station <SaidiReddy Yenuga> 3 months ago
+2ea1026 : perf: Tighten (and fix) the grouping condition <Peter Zijlstra> 2 years, 3 months ago
+f033a00 : net: avoid signed overflows for SO_{SND|RCV}BUFFORCE <Eric Dumazet> 5 months ago
+4e441ac : Fix "Add PR_{GET,SET}_NO_NEW_PRIVS to prevent execve from granting privs" <Gabriele M> 2 days ago
+ 
+**** vanir:kernel_motorola_msm8952 ****
+10041eb : kill the python wrapper <Ethan> 32 hours ago
+80bc6c4 : compile kernel with -ffast-math <Ethan> 32 hours ago
+02a6a11 : compile host with -O3 <Ethan> 32 hours ago
+8afc265 : disable gentle fair sleepers <Ethan> 33 hours ago
+64f6264 : cleanup defconfig <Ethan> 33 hours ago
+5674b15c : enable cpu_boost driver <Ethan> 2 days ago
+2107037 : regen defconfig <Ethan> 2 days ago
+d62a119 : prima : update to LA.BR.1.3.6_rb1.16 <rahulsnair> 3 weeks ago
+74eb261 : BACKPORT: UPSTREAM: selinux: fix off-by-one in setprocattr <Stephen Smalley> 3 months ago
+914458a : BACKPORT: UPSTREAM: dccp: fix freeing skb too early for IPV6_RECVPKTINFO <Andrey Konovalov> 3 months ago
+08b57a5 : ANDROID: uid_sys_stats: fix typo in init <Jin Qian> 7 weeks ago
+173a8ad : ANDROID: uid_sys_stats: change to use rt_mutex <Wei Wang> 7 weeks ago
+663464f : ANDROID: uid_sys_stats: account for fsync syscalls <Jin Qian> 9 weeks ago
+1f18fdc : ANDROID: sched: add a counter to track fsync <Jin Qian> 9 weeks ago
+2a11a17 : ANDROID: uid_sys_stats: fix negative write bytes. <Jin Qian> 9 weeks ago
+f6e41ad : ANDROID: uid_sys_stats: remove unnecessary code in procstat switch <Jin Qian> 3 months ago
+af6a796 : ANDROID: uid_sys_stats: return full size when state is not changed. <Jin Qian> 3 months ago
+655bbac : ANDROID: uid_sys_stats: allow writing same state <Jin Qian> 4 months ago
+5e53b17 : ANDROID: uid_sys_stats: rename uid_cputime.c to uid_sys_stats.c <Jin Qian> 4 months ago
+465d5ff : ANDROID: uid_cputime: add per-uid IO usage accounting <Jin Qian> 4 months ago
+94702c4 : BACKPORT: udf: Check path length when reading symlink <Jan Kara> 2 years, 5 months ago
+86bf436 : ipv4: keep skb->dst around in presence of IP options <Eric Dumazet> 3 months ago
+e363fbb : ANDROID: sdcardfs: Directly pass lower file for mmap <Daniel Rosenberg> 3 weeks ago
+aee7034 : ANDROID: sdcardfs: update module info <Daniel Rosenberg> 8 weeks ago
+89e0870 : ANDROID: sdcardfs: use d_splice_alias <Daniel Rosenberg> 8 weeks ago
+a07ade8 : ANDROID: sdcardfs: fix ->llseek to update upper and lower offset <Daniel Rosenberg> 8 weeks ago
+4f2bbd2 : ANDROID: sdcardfs: copy lower inode attributes in ->ioctl <Daniel Rosenberg> 8 weeks ago
+848ff8e : ANDROID: sdcardfs: remove unnecessary call to do_munmap <Daniel Rosenberg> 8 weeks ago
+52dd39b : BACKPORT: HID: input: generic hidinput_input_event handler <David Herrmann> 3 years, 10 months ago
+41c556c : UPSTREAM: seccomp: always propagate NO_NEW_PRIVS on tsync <Jann Horn> 1 year, 4 months ago
+dc0f1ec : ANDROID: sdcardfs: Fix style issues in macros <Daniel Rosenberg> 6 weeks ago
+2301971c : ANDROID: sdcardfs: Use seq_puts over seq_printf <Daniel Rosenberg> 6 weeks ago
+3b2068a : ANDROID: sdcardfs: Use to kstrout <Daniel Rosenberg> 7 weeks ago
+d0ced7c : ANDROID: sdcardfs: Use pr_[...] instead of printk <Daniel Rosenberg> 7 weeks ago
+b9c835a : ANDROID: sdcardfs: remove unneeded null check <Daniel Rosenberg> 6 weeks ago
+6ce1d88 : ANDROID: sdcardfs: Fix style issues with comments <Daniel Rosenberg> 7 weeks ago
+91d2f85 : ANDROID: sdcardfs: Fix formatting <Daniel Rosenberg> 7 weeks ago
+5464e12 : ANDROID: sdcardfs: correct order of descriptors <Daniel Rosenberg> 6 weeks ago
+1720c5c : fix the deadlock in xt_qtaguid when enable DDEBUG <Chenbo Feng> 6 weeks ago
+3151685 : msm: mdss: fix race condition in mdp debugfs <Ingrid Gallardo> 9 weeks ago
+55148c2 : CHROMIUM: usb: gadget: configfs: Fix KASAN use-after-free <Jim Lin> 4 months ago
+c2aae29 : soc: qcom: pil: Clear elf region on authentication failure <Gaurav Kohli> 2 months ago
+9f138ca : msm: mdss: Fix fence installation when retire fence is skipped <Naseer Ahmed> 6 weeks ago
+72194d1 : msm: camera: isp: fix for out of bound access array <Senthil Kumar Rajagopal> 9 weeks ago
+63d8433 : msm: isp: fix for potentitial array out of bound access <Senthil Kumar Rajagopal> 3 months ago
+e29f393 : msm: IPA: add the check on intf query <Skylar Chang> 9 weeks ago
+04c3151 : android: fiq_debugger: restrict access to critical commands. <Mark Salyzyn> 4 months ago
+a840ebc : msm: mdss: Check for buffer boundary condition in panel_debug_reg_write <Krishna Srinivas> 11 months ago
+b9deb9c : ANDROID: ion: check for kref overflow <Daniel Rosenberg> 5 months ago
+5d658d1 : input: synaptics: put offset checks under mutex. <Andrew Chant> 4 months ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+4c89c2a : msm: crypto: fix issues on digest buf and copy_from_user in qcedev.c <Zhen Kong> 6 months ago
+4801f77 : input: misc: fix heap overflow issue in hbtp_input.c <Dennis Cagle> 4 months ago
+2f27283 : ANDROID: ion: check for kref overflow <Ariel Yin> 4 months ago
+9ab9207f : net: ipc_router: Register services only on client port <Karthikeyan Ramasubramanian> 5 months ago
+4d87171 : fbdev: color map copying bounds checking <Kees Cook> 3 months ago
+ea1d964 : Revert "fbcmap: prevent memory overflow" <Kevin F. Haggerty> 14 hours ago
+a4231fd : ASoC: wcd9320: Fix out of bounds for mad input value <Karthikeyan Mani> 5 months ago
+7a7d5ec : ASoC: soc: msm: initialize buffer to prevent kernel data leakage <Xiaojun Sang> 5 months ago
+5aac38a : fs/proc/array.c: make safe access to group_leader <Adrian Salido> 5 months ago
+1ba0552 : ALSA: info: Check for integer overflow in snd_info_entry_write() <Siqi Lin> 6 months ago
+bf36e1b : slim-msm: Synchronize SSR callbacks <Dilip Kota> 1 year, 1 month ago
+69e0b08 : crypto: msm: check length before copying to buf in _debug_stats_read <Zhen Kong> 3 months ago
+6ceb09e : msm: ipa: fix ioctl input param validation <Skylar Chang> 6 months ago
+2d9e741 : msm-camera: Addressing possible overflow conditions <Trilokesh Rangam> 5 months ago
+ 
+**** vanir:packages_apps_Messaging ****
+88df419 : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 7 weeks ago
+ 
+**** vanir:vendor_lge ****
+6627f3b : bullhead: update blobs from N2G47O factory image <razorloves> 2 days ago
+ 
+**** vanir:vendor_motorola ****
+f164930 : victara: Hexedit libqc-opt.so for N <Christopher R. Palmer> 35 hours ago
+677d1a9 : victara: Switch to using libqc-opt <Christopher R. Palmer> 35 hours ago
+f33f39c : shamu: update blobs from N6F27C factory image <razorloves> 2 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+b19ef13 : Add a barrier for Marlin/Sailfish <DHOMD> 7 weeks ago
+ 
+**** vanir:vendor_vanir ****
+a037a47 : cm: Remove obsolete and unused overlays and configs <Arne Coucheron> 4 days ago
+a821c5c : cm: nuke browser, welcome jelly <Joey Rizzoli> 13 days ago
+ 
