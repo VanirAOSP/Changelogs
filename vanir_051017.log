@@ -1,0 +1,199 @@
+
+**** vanir:build ****
+3ebb52c : Build hacks <DHOMD> 7 months ago
+1642e47 : Disable recovery resource QQ <nuclearmistake> 27 hours ago
+ 
+**** vanir:device_google_marlin ****
+ff51354 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 8 weeks ago
+4ba3655 : Revert "marlin: disable our local telephony extensions" <DHOMD> 8 weeks ago
+ 
+**** cm:LineageOS/android_device_htc_hiae-common ****
+dfab368 : hiae: Correctly mount debugfs <Ethan Chen> 33 hours ago
+ 
+**** cm:LineageOS/android_device_htc_pme ****
+de5b81b : pme: init: Add running services to appropriate cpuset cgroups <Christopher R. Palmer> 2 days ago
+9bcf2ef : pme: init: Update cpusets on boot complete, not low power <Christopher R. Palmer> 2 days ago
+2b9d49d : pme: init: Setup cpusets on init instead of on boot <Christopher R. Palmer> 2 days ago
+ 
+**** vanir:device_lge_f400 ****
+429bcea : f400: update gps.conf from F400K30g <Joonhyuk Song> 12 days ago
+ 
+**** vanir:device_motorola_msm8226-common ****
+7e69136 : libsensors: peregrine: Report correct gyroscope range and resolution <Gabriele M> 3 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+81f0ac1 : Otus: Fix FM Radio <DHOMD> 4 months ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+45e1959 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 6 months ago
+ 
+**** vanir:device_samsung_msm8960-common ****
+de81909 : power: Update power hal for cpufreq_limit updates <Paul Keith> 12 days ago
+ 
+**** cm:LineageOS/android_device_samsung_noblelte-common ****
+52a825b : noblelte: Fix mismerge <Christopher N. Hesse> 24 hours ago
+ 
+**** vanir:frameworks_base ****
+abe9752 : telecom: Fix order of arguments when creating Details object <Gabriele M> 3 days ago
+3f98df2 : telecom: Fix order of arguments when creating Details object <Gabriele M> 3 days ago
+ 
+**** cmold:android_kernel_htc_msm8996 ****
+ccf8af9 : cpuset: Make cpusets restore on hotplug <Riley Andrews> 1 year, 11 months ago
+18d34c0 : net/packet: fix overflow in check for tp_frame_nr <Andrey Konovalov> 6 weeks ago
+b524abc : net/packet: fix overflow in check for tp_reserve <Andrey Konovalov> 6 weeks ago
+bf6f388 : crypto: ahash - Fix EINPROGRESS notification callback <Herbert Xu> 4 weeks ago
+77a6bb0 : pme: Disable /dev/mem and /dev/kmem <Christopher R. Palmer> 9 days ago
+236d9c7 : pme: Update version string after merging  LA.UM.5.5.r1-04300-8x96.0 <Christopher R. Palmer> 11 days ago
+233ced3 : tcp: take care of truncations done by sk_filter() <Eric Dumazet> 6 months ago
+1efc82c : rose: limit sk_filter trim to payload <Willem de Bruijn> 6 months ago
+9ad79cd : msm: thermal-dev: Protect IOCTL from race condition <Ram Chandrasekar> 7 weeks ago
+951037d : msm: camera: sensor: Validate csid lane count <Rajesh Bondugula> 3 months ago
+722c01a : msm: mdss: Fix integer overflow in cursor validaton <Rajkumar Subbiah> 8 weeks ago
+6580390 : msm: kgsl: Increase memstore size <Deepak Kumar> 7 weeks ago
+1f48d87 : soc: qcom: Avoid possible buffer overflow in service-locator <Puja Gupta> 9 weeks ago
+abaf996 : input: touchscreen: synaptics: Remove fw_update sysfs entries <Andrew Chant> 3 months ago
+e1dcdc7 : input: touchscreen: synaptics_dsx: Remove fw_update sysfs entries <Andrew Chant> 9 weeks ago
+cef330b : qseecom: fix potential memory leak in __qseecom_update_cmd_buf_64 <Zhen Kong> 4 months ago
+6f7b1e9 : msm: ispif: fix a bug in checking the validity of vfe intf <Junzhe Zou> 8 weeks ago
+91f1795 : qseecom: check img_len and mdt_len against ion buf len <Zhen Kong> 7 weeks ago
+b1987fe : Revert "mm: vmscan: Add a debug file for shrinkers" <Dmitry Shmidt> 1 year ago
+bf68a57 : msm: mdss: Add lock to avoid release of active session in rotator <Benjamin Chan> 9 weeks ago
+e2db856 : msm: mdss: fix race condition in mdp debugfs <Ingrid Gallardo> 2 months ago
+7aec5d7 : msm: mdss: Validate cursor image size <Naseer Ahmed> 4 months ago
+a36c7f4 : msm: mdss: Install sync fences after user copy <Naseer Ahmed> 3 months ago
+a9cccfc : USB: gadget: midi: Fix use-after-free after midi_unbind <Manu Gautam> 8 weeks ago
+7b9264c : msm: camera: isp: Handle array out of bounds <Senthil Kumar Rajagopal> 3 months ago
+c745937 : msm: mdss: Fix possible integer overflow <Sravan Kumar D.V.N> 4 months ago
+7570ff3 : usb: f_serial: Check port_num before allocating serial instance <Ajay Agarwal> 7 weeks ago
+d1d99f0 : msm: camera: Add error check for cmd in IOCTL. <Trishansh Bhardwaj> 8 weeks ago
+ac76086 : msm: mdss: Add lock to avoid release of active session in rotator <Benjamin Chan> 9 weeks ago
+17597b4 : msm: mdss: fix race condition in mdp debugfs <Ingrid Gallardo> 2 months ago
+ff31baf : msm: mdss: Install sync fences after user copy <Naseer Ahmed> 3 months ago
+5dc87fc : msm: mdss: Validate cursor image size <Naseer Ahmed> 4 months ago
+2d5874c : msm: camera: isp: fix for out of bound access array <Senthil Kumar Rajagopal> 10 weeks ago
+f06f029 : msm: isp: fix for potentitial array out of bound access <Senthil Kumar Rajagopal> 3 months ago
+2faff53 : msm: camera: cpp: Replace const by macro <Pratap Nirujogi> 7 weeks ago
+44c9633 : CHROMIUM: usb: gadget: configfs: Fix KASAN use-after-free <Jim Lin> 4 months ago
+00bfaa0 : mpi: Fix NULL ptr dereference in mpi_powm() [ver #3] <Andrey Ryabinin> 6 months ago
+19899b3 : input: synaptics: put offset checks under mutex. <Andrew Chant> 4 months ago
+384722a : net: avoid signed overflows for SO_{SND|RCV}BUFFORCE <Eric Dumazet> 5 months ago
+0e8cc58 : packet: fix race condition in packet_set_ring <Philip Pettersson> 5 months ago
+61c5e5a : l2tp: fix racy SOCK_ZAPPED flag check in l2tp_ip{,6}_bind() <Guillaume Nault> 6 months ago
+8bc3aaf : android: fiq_debugger: restrict access to critical commands. <Mark Salyzyn> 5 months ago
+84be788 : msm: mdss: mask DSI FIFO overflow errors during BTA operation <Sandeep Panda> 3 months ago
+ad49cf6 : ANDROID: ion: check for kref overflow <Daniel Rosenberg> 5 months ago
+a2e932c : msm: mdss: fix check for igc read <gopikrishnaiah Anand> 4 months ago
+af37375 : hid: usbhid: Changes to prevent buffer overflow <Sriharsha Allenki> 5 months ago
+f1af7d1 : msm: msm_bus: Set current index to default value <Odelu Kukatla> 8 weeks ago
+b031e38 : Revert "mm: vmscan: Add a debug file for shrinkers" <Dmitry Shmidt> 1 year ago
+b3be444 : ASoC: msm: qdsp6v2: set pointer to NULL after free <Xiaojun Sang> 3 months ago
+70fac83 : wcnss: Dump WCNSS registers during reset FIQ <Anand Kumar> 4 months ago
+ 
+**** cmold:android_kernel_lge_g3 ****
+723a556 : netlink: Fix dump skb leak/double free <Herbert Xu> 12 months ago
+e4038d1 : UPSTREAM: ring-buffer: Prevent overflow of size in ring_buffer_resize() <Steven Rostedt (Red Hat)> 12 months ago
+039bffe : KEYS: Disallow keyrings beginning with '.' to be joined as session keyrings <David Howells> 3 weeks ago
+80c1fdc : BACKPORT: ion: fix a race condition in the ion driver <Eun Taik Lee> 5 months ago
+80b3297 : mpi: Fix NULL ptr dereference in mpi_powm() [ver #3] <Andrey Ryabinin> 6 months ago
+2a9074d : qseecom: remove entry from qseecom_registered_app_list <Mallikarjuna Reddy Amireddy> 6 months ago
+d11cb26 : msm: camera: sensor: Validate eeprom_name string length <guyang> 5 months ago
+6b301b1 : msm: crypto: Fix integer over flow check in qce driver <Zhen Kong> 7 months ago
+c71628a : msm: camera: fix bound check of offset to avoid overread overwrite <Krishnankutty Kolathappilly> 6 months ago
+d8ee51a : msm: cpp: Fix for buffer overflow in cpp. <Krishnankutty Kolathappilly> 6 months ago
+d9298b0 : ASoC: msm: qdsp6v2: Change audio drivers to use %pK <Ben Romberger> 12 months ago
+bce9e89 : net: ping: check minimum size on ICMP header length <Kees Cook> 5 months ago
+81cef8b : hid: usbhid: Changes to prevent buffer overflow <Sriharsha Allenki> 5 months ago
+5ab3806 : drivers: soc: qcom: Add error handling in function avtimer_ioctl <Xiaoyu Ye> 5 months ago
+9ced6cf : mm: migrate dirty page without clear_page_dirty_for_io etc <Hugh Dickins> 1 year, 6 months ago
+7079816 : ASoC: msm: lock read/write when add/free audio ion memory <Walter Yang> 4 months ago
+43eb2a7 : BACKPORT: perf: Fix event->ctx locking <Ariel Yin> 7 months ago
+ffe5015 : BACKPORT: perf: Introduce perf_pmu_migrate_context() <Yan, Zheng> 4 years, 11 months ago
+16b2f8b : BACKPORT: lockdep: Silence warning if CONFIG_LOCKDEP isn't set <Paul Bolle> 4 years, 4 months ago
+ 
+**** cmold:android_kernel_xiaomi_cancro ****
+ee296aa : sdcardfs: limit stacking depth <Andrew Chant> 3 months ago
+00e11ec : BACKPORT: fs: limit filesystem stacking depth <Miklos Szeredi> 2 years, 7 months ago
+786cb52 : crypto: msm: check integer overflow on total data len in qcedev.c <Zhen Kong> 4 months ago
+3bc12c3 : KEYS: fix keyctl_set_reqkey_keyring() to not leak thread keyrings <Eric Biggers> 3 weeks ago
+4e90476 : KEYS: Change the name of the dead type to ".dead" to prevent user access <David Howells> 3 weeks ago
+366796b : KEYS: Disallow keyrings beginning with '.' to be joined as session keyrings <David Howells> 3 weeks ago
+2014dcf : mm: migrate dirty page without clear_page_dirty_for_io etc <Hugh Dickins> 10 months ago
+7cc9484 : mm: fix warning in __set_page_dirty_nobuffers <Hugh Dickins> 4 years, 11 months ago
+4aa0d4f : mm/mempolicy.c: fix error handling in set_mempolicy and mbind. <Chris Salls> 5 weeks ago
+c0b4fc0 : net/packet: fix overflow in check for tp_frame_nr <Andrey Konovalov> 6 weeks ago
+19d2f60 : net/packet: fix overflow in check for tp_reserve <Andrey Konovalov> 6 weeks ago
+9cbb8e3 : scsi: sg: check length passed to SG_NEXT_CMD_LEN <peter chang> 3 months ago
+e826779 : sg: relax 16 byte cdb restriction <Douglas Gilbert> 2 years, 11 months ago
+3546aab : block: add blk_rq_set_block_pc() <Jens Axboe> 2 years, 11 months ago
+92f8f97 : platform: msm: spmi: Fix possible race condition in debugfs <ansharma> 4 months ago
+a3dee95 : prima: Fix buffer overflow in WLANSAP_Set_WPARSNIes() <Nishank Aggarwal> 4 months ago
+4473e167 : prima: Fix VHT-80 IBSS stops beaconing <Subrat Dash> 9 months ago
+4939944 : msm-camera: Addressing possible overflow conditions <Trilokesh Rangam> 6 months ago
+33dc9d9 : qcrypto: protect potential integer overflow. <Neeraj Soni> 5 months ago
+ 
+**** cmold:android_kernel_xiaomi_msm8956 ****
+191fd83 : soc: qcom: pil: Explicitly clear the subsystem loading address <Gaurav Kohli> 7 weeks ago
+8843689 : Revert "Revert "ARM: dts: msm: update memory map for msm8976/8956/8952 for External release"" <Bharat Pawar> 9 months ago
+34309b0 : slim-msm: Synchronize SSR callbacks <Dilip Kota> 1 year, 2 months ago
+e2c680c : msm: vidc: Protect debug_buffer access in core_info_read with lock. <Abdulla Anam> 7 weeks ago
+95e72ae : ASoC: msm: qdspv2: add mutex to prevent access same memory simultaneously <kunleiz> 6 weeks ago
+ff26a86 : ion: blacklist %p kptr_restrict <Nick Desaulniers> 7 months ago
+c6f2a0c : msm: thermal-dev: Protect IOCTL from race condition <Ram Chandrasekar> 7 weeks ago
+3590acf : soc: qcom: Do not clear segments if pil boot failed in memory allocation <Avaneesh Kumar Dwivedi> 7 weeks ago
+efb32d0 : soc: qcom: Skip clearing modem FW region post load failure <Avaneesh Kumar Dwivedi> 8 weeks ago
+2b6962d : input: touchscreen: synaptics_dsx: Remove fw_update sysfs entries <Andrew Chant> 9 weeks ago
+f50da43 : ASoC: msm: qdsp6v2: set pointer to NULL after free <Xiaojun Sang> 3 months ago
+ccfb4b6 : qseecom: check img_len and mdt_len against ion buf len <Zhen Kong> 7 weeks ago
+d2359a6 : usb: dwc3: Replace sscanf with kstrtou8_from_user <Liangliang Lu> 3 months ago
+6afeb28 : msm: mdss: fix race condition in mdp debugfs <Ingrid Gallardo> 2 months ago
+a96e518 : msm: IPA: add the check on intf query <Skylar Chang> 2 months ago
+66cdec6 : android: fiq_debugger: restrict access to critical commands. <Mark Salyzyn> 5 months ago
+0199b1b : msm: isp: fix for potentitial array out of bound access <Senthil Kumar Rajagopal> 3 months ago
+109ac68 : soc: qcom: pil: Clear elf region on authentication failure <Gaurav Kohli> 3 months ago
+e7c425a : msm: mdss: Check for buffer boundary condition in panel_debug_reg_write <Krishna Srinivas> 11 months ago
+28960f5 : msm: camera: isp: fix for out of bound access array <Senthil Kumar Rajagopal> 10 weeks ago
+d6b06d7 : CHROMIUM: usb: gadget: configfs: Fix KASAN use-after-free <Jim Lin> 4 months ago
+756640f : ANDROID: ion: check for kref overflow <Daniel Rosenberg> 5 months ago
+7f6bc1a : input : touchscreen: synaptics: Remove fw_update sysfs entries <Andrew Chant> 3 months ago
+e1a2b0a : msm: mdss: Fix fence installation when retire fence is skipped <Naseer Ahmed> 7 weeks ago
+23769d7 : msm: mdss: Validate cursor image size <Naseer Ahmed> 4 months ago
+4978429 : f2fs: use __set{__clear}_bit_le <Jaegeuk Kim> 9 weeks ago
+af5bc5a : f2fs: update_free_nid_bitmap() can be static <kbuild test robot> 9 weeks ago
+d88d1d9 : f2fs: __update_nat_bits() can be static <kbuild test robot> 9 weeks ago
+fdcfc3a : f2fs: le16_to_cpu for xattr->e_value_size <Jaegeuk Kim> 9 weeks ago
+d71b05d : f2fs: don't overwrite node block by SSR <Jaegeuk Kim> 9 weeks ago
+0aeb6e0 : f2fs: don't need to invalidate wrong node page <Jaegeuk Kim> 10 weeks ago
+faf5b8a : f2fs: fix an error return value in truncate_partial_data_page <Yunlei He> 2 months ago
+3b11ec9 : fscrypt: catch up to v4.11-rc1 <Jaegeuk Kim> 9 weeks ago
+4757c55 : f2fs: avoid to flush nat journal entries <Jaegeuk Kim> 2 months ago
+9cf7cad : f2fs: avoid to issue redundant discard commands <Jaegeuk Kim> 2 months ago
+f19b1c3 : f2fs: fix a plint compile warning <Hou Pengyang> 2 months ago
+1be145c : f2fs: add f2fs_drop_inode tracepoint <Hou Pengyang> 2 months ago
+c27c325 : f2fs: Fix zoned block device support <Masato Suzuki> 2 months ago
+79f03cb : f2fs: remove redundant set_page_dirty() <Yunlei He> 2 months ago
+0e04be1 : f2fs: fix to enlarge size of write_io_dummy mempool <Chao Yu> 2 months ago
+e87e60d : f2fs: fix memory leak of write_io_dummy mempool during umount <Chao Yu> 2 months ago
+28c5954 : f2fs: fix to update F2FS_{CP_}WB_DATA count correctly <Chao Yu> 2 months ago
+e494f2d : f2fs: use MAX_FREE_NIDS for the free nids target <Kinglong Mee> 2 months ago
+2c1bd94 : f2fs: introduce free nid bitmap <Chao Yu> 3 months ago
+e5527f7 : f2fs: new helper cur_cp_crc() getting crc in f2fs_checkpoint <Kinglong Mee> 2 months ago
+7f4f1bd : f2fs: update the comment of default nr_pages to skipping <Kinglong Mee> 2 months ago
+1c21ea2 : f2fs: drop the duplicate pval in f2fs_getxattr <Kinglong Mee> 2 months ago
+638b594 : f2fs: Don't update the xattr data that same as the exist <Kinglong Mee> 2 months ago
+afa6994 : f2fs: kill __is_extent_same <Chao Yu> 2 months ago
+b45cf2a : f2fs: avoid bggc->fggc when enough free segments are avaliable after cp <Hou Pengyang> 2 months ago
+ 
+**** vanir:packages_apps_Messaging ****
+2c0416f : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 8 weeks ago
+ 
+**** vanir:system_core ****
+28cbdd1 : Revert "init.rc: set initial cpuset to all cores" <Christopher R. Palmer> 2 days ago
+ada295f : init.rc: set initial cpuset to all cores <Wei Wang> 4 weeks ago
+8361457 : Revert "rootdir: init.rc: Fix for "add_tid_to_cgroup failed to write" warnings" <Christopher R. Palmer> 5 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+69ff4b5 : Add a barrier for Marlin/Sailfish <DHOMD> 8 weeks ago
+ 
+**** vanir:vendor_vanir ****
+939c6bd : Threadsafe bottleservice <nuclearmistake> 26 hours ago
+ 
