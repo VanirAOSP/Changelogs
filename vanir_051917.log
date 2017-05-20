@@ -1,0 +1,120 @@
+
+**** vanir:build ****
+0873d3e : Build hacks <DHOMD> 7 months ago
+ 
+**** vanir:device_google_marlin ****
+e76b6fc : Add a proper barrier and use vendor/caf/telephony <DHOMD> 10 weeks ago
+a4e9a15 : Revert "marlin: disable our local telephony extensions" <DHOMD> 10 weeks ago
+0925d99 : marlin: fixup proprietary blob list <Dan Pasanen> 2 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+3aedaed : Otus: Fix FM Radio <DHOMD> 4 months ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+4c331a2 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 6 months ago
+ 
+**** vanir:device_xiaomi_libra ****
+1a37fe4 : libra: update kernel repo name and path <Dan Pasanen> 25 hours ago
+c24cfcc : init.target.rc: add quick and efficiency <Demon000> 25 hours ago
+4d411e8 : power: add efficiency and quick performance profiles support <Demon000> 26 hours ago
+7aee6d1 : init.qcom.sh: remove useless functions <Demon000> 31 hours ago
+58c3fdd : init.qcom.sh: remove unecessary cases <Demon000> 31 hours ago
+8e4c335 : init.qcom.sh: remove commented start_sensors function <Demon000> 31 hours ago
+27c124d : add build fingerprint <Demon000> 2 days ago
+8a23a9b : Revert "product: remove Snap camera" <Demon000> 2 days ago
+04eda55 : power: oops <Demon000> 2 days ago
+91c113c : init.target.rc: remove commented vm swappiness config <Demon000> 2 days ago
+ef0ce31 : init.target.rc: add initial performance profile configuration <Demon000> 2 days ago
+ce4cb44 : modules: add custom PowerHAL <Sultanxda> 2 days ago
+8fc58f5 : board: don't use qcom power hal <Demon000> 2 days ago
+bf88134 : rootdir: sched_boost is enabled on boot and disabled in post_boot so remove the enabling <Demon000> 2 days ago
+e86b4a8 : rootdir: move memory settings to post_boot <Demon000> 2 days ago
+2b20f5b : post_boot: move memory settings out of function <Demon000> 2 days ago
+fa3115c : post_boot: decrease minfree values <Demon000> 2 days ago
+efef6ee : post_boot: set max_cpus to 2 <Demon000> 2 days ago
+a0bff0b : rootdir: remove zram shit <Demon000> 2 days ago
+a99dac3 : post_boot: set min_cpus to 0 <Demon000> 2 days ago
+8ea91ad : post_boot: configure input boost <Demon000> 2 days ago
+144fa88 : init.target.rc: enable per-process reclaim <Ketut Putu Kumajaya> 2 days ago
+f71f24b : init.target.rc: remove commented services <Demon000> 2 days ago
+7bdc124 : init.target.rc: remove invalid entries for touchscreen <Demon000> 2 days ago
+6b32310 : Fix an error message and try not to break the WLAN in case of failure <Eugene Farfel> 6 days ago
+2d403a6 : Fix WLAN on libra devices with MAC address being stored in NV in reverse order <Eugene Farfel> 6 days ago
+0ddce45 : init: qcom: disable cnss logging in /sdcard/wlan_logs <Demon000> 8 days ago
+017b786 : camera: service closes native handles <AndropaX> 10 weeks ago
+2a738cb : display: add boot animation size <Demon000> 13 days ago
+d5ebfe3 : move libra makefile out of lineage.mk <Demon000> 13 days ago
+45f5d35 : kernel: use libra_defconfig <Demon000> 13 days ago
+2927b83 : fstab: add sdcard support for aqua <Carlos Solano> 2 weeks ago
+aa96c58 : product: remove Gello <Demon000> 2 weeks ago
+9efde7f : product: remove Snap camera <Demon000> 2 weeks ago
+5a38942 : libra: add missing audio policy xmls from miui 7.4.27 <Carlos Solano> 3 weeks ago
+5a8b124 : enable vr <AndropaX> 6 weeks ago
+66924fd : configure adaptive LMK <AndropaX> 5 weeks ago
+fd57666 : update opengl version <AndropaX> 5 weeks ago
+eb3de5d : libra: enable cdma <Carlos Solano> 7 weeks ago
+f267425 : Update brightness values from MiUI 7.3.23 <Serhij Kyryljan> 8 weeks ago
+6956907 : libra: Let just one big core sleep and enable input boost <Carlos Solano> 8 weeks ago
+9da841e : libra: Hide sRGB toggle in developer options <dianlujitao> 8 weeks ago
+316a30a : Add drm support <Carlos Solano> 8 weeks ago
+71475e8 : Disable lift to wake <Carlos Solano> 9 weeks ago
+7a6dbed : rootdir: post_boot: fix power level <Demon> 9 weeks ago
+51144b6 : rootdir: post_boot: disable input boost <Demon> 9 weeks ago
+0f7a045 : rootdir: post_boot: online the big cores <Demon> 9 weeks ago
+fdc5271 : rootdir: post_boot: remove AUO calibration <Demon> 9 weeks ago
+b49da5b : rootdir: post_boot: clean <Demon> 9 weeks ago
+4c49ba4 : Missing brightness overlays <Carlos Solano> 9 weeks ago
+ 
+**** vanir:kernel_google_marlin ****
+898f4f8 : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 10 days ago
+ 
+**** cmold:android_kernel_htc_msm8974 ****
+7a1d81e : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 10 days ago
+ 
+**** cmold:android_kernel_htc_msm8994 ****
+530394f : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 10 days ago
+ 
+**** cmold:android_kernel_lge_g3 ****
+791d82d : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 10 days ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+1a7c24c : scsi: sg: check length passed to SG_NEXT_CMD_LEN <peter chang> 3 months ago
+da131e5 : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 10 days ago
+c95a0e5 : net: ping: check minimum size on ICMP header length <Kees Cook> 6 months ago
+6d13e7c : msm: crypto: Fix integer over flow check in qcedev driver <Zhen Kong> 10 months ago
+58598f7 : qseecom: remove entry from qseecom_registered_app_list <Mallikarjuna Reddy Amireddy> 6 months ago
+ 
+**** cmold:android_kernel_motorola_msm8992 ****
+608a669 : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 10 days ago
+ 
+**** cmold:android_kernel_samsung_d2 ****
+a999edf : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 10 days ago
+ 
+**** cmold:android_kernel_samsung_jf ****
+7e9c810 : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 10 days ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+99c8cbc : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 10 days ago
+ 
+**** vanir:platform_manifest ****
+835cee9 : Our libra hasnt been updated in months. try cm's new trees <nuclearmistake> 7 hours ago
+ 
+**** vanir:packages_apps_CMParts ****
+e3457ee : Update contributors cloud <Harry Youd> 35 hours ago
+ 
+**** cm:LineageOS/android_packages_apps_Jelly ****
+7c65684 : Jelly: EditTextExt: Remove shader before drawing <Gabriele M> 3 days ago
+0a0fcbd : Jelly: Don't reload webview on screen rotation <Gabriele M> 3 days ago
+ 
+**** vanir:packages_apps_Messaging ****
+38aab55 : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 9 weeks ago
+ 
+**** vanir:system_sepolicy ****
+ec269cc : Allow recovery to alter / on userdebug/eng builds <Gabriele M> 4 months ago
+ 
+**** github:TheMuppets/proprietary_vendor_google ****
+197d5b7 : marlin: regen makefiles <Dan Pasanen> 2 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+2424345 : Add a barrier for Marlin/Sailfish <DHOMD> 10 weeks ago
+ 
