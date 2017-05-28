@@ -1,0 +1,68 @@
+
+**** vanir:build ****
+b784e49 : Build hacks <DHOMD> 8 months ago
+ 
+**** cm:LineageOS/android_device_sony_common ****
+150770d : init_sony: Should #include <sys/sysmacros.h> <Elliott Hughes> 10 days ago
+ 
+**** vanir:device_sony_fusion3-common ****
+9d6daf8 : fusion3: Set mobile data to off by default <CyberWalkMaN> 6 weeks ago
+342a36b : fusion3: Reorder and cleanup overlay configurations <Chippa-a> 6 weeks ago
+ 
+**** vanir:frameworks_base ****
+0b32c29 : SystemUI: Misc fixes for right (custom) lockscreen shortcuts <Matthias Yzusqui> 2 weeks ago
+ 
+**** vanir:hardware_samsung ****
+b0d8610 : modemloader: Add support for recent devices <Christopher N. Hesse> 3 days ago
+ 
+**** cmold:android_kernel_huawei_kiwi ****
+45d81e8 : msm: crypto: set CLR_CNTXT bit for crypto operations <Zhen Kong> 7 months ago
+9aef041 : input: touchscreen: gt9xx: fix memory corruption in Goodix driver <Vevek Venkatesan> 4 months ago
+0e298e2 : soc: qcom: scm: add check to avoid buffer overflow <Satya Durga Srinivasu Prabhala> 7 months ago
+86a9c84 : pinctrl: msm: fix function name allocation length <David Keitel> 2 years, 1 month ago
+91661b9 : qseecom: check buffer size when loading firmware images <Zhen Kong> 7 months ago
+f085018 : FROMLIST: CHROMIUM: usb: gadget: configfs: Fix KASAN use-after-free <Jim Lin> 5 months ago
+ac0fcd3 : qseecom: improve input validatation for qseecom_send_service_cmd <Zhen Kong> 5 months ago
+aff471c : ASoC: msm: initialize the params array before using it <vivek mehta> 9 months ago
+cf9b8df : msm: camera: restructure data handling to be more robust <Vasko Kalanoski> 2 years, 4 months ago
+99d1aeb : msm: camera: sensor: Fix use after free condition <VijayaKumar T M> 10 months ago
+b521264 : Revert "soc: qcom: smp2p: Fix kernel address leak" <Michael W> 28 hours ago
+ 
+**** cmold:lge-kernel-mako ****
+4074e5cb : md: use kzalloc() when bitmap is disabled <Benjamin Randazzo> 1 year, 10 months ago
+36fc78f : mnt: Fail collect_mounts when applied to unmounted mounts <Eric W. Biederman> 11 months ago
+b80396f : splice: Apply generic position and size checks to each write <Ben Hutchings> 2 years, 4 months ago
+0a8efaa : ext4: avoid hang when mounting non-journal filesystems with orphan list <gregkh@linuxfoundation.org> 3 years, 8 months ago
+15fa899 : net: cleanups in sock_setsockopt() <Eric Dumazet> 5 years ago
+7c6e43d : ASoC: msm: qdsp6v2: return error when copy from userspace fails <Siena Richard> 6 months ago
+ae5894b : ASoC: msm: qdsp6v2: Add range checking in msm_dai_q6_set_channel_map <Xiaoyu Ye> 5 months ago
+33108b0 : BACKPORT: posix_acl: Clear SGID bit when setting file permissions <Jan Kara> 8 months ago
+e2a84f5 : msm-camera: Addressing possible overflow conditions Changes to address possible integer overflow and incorrect array indexing conditions. <Trilokesh Rangam> 6 months ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+6cd89fb : cgroup: prefer %pK to %p <Nick Desaulniers> 9 months ago
+598dc9e : ANDROID: ion: check for kref overflow <Ariel Yin> 5 months ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+dcb0270 : posix_acl: Clear SGID bit when setting file permissions <Jaegeuk Kim> 6 months ago
+ 
+**** vanir:packages_apps_CMParts ****
+0d84c6e : CMParts: remove extra padding from app light preference <Joey Rizzoli> 7 days ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+00b92c8 : Export only selected contact, not all contacts <Artem Shvadskiy> 1 year, 1 month ago
+e4c455e : Add support to export multi contacts to Vcard <xjiang> 1 year, 9 months ago
+ 
+**** cm:LineageOS/android_packages_apps_Jelly ****
+576d1b9 : Jelly: Make download_message not specific to sdcard <Adrian DC> 3 days ago
+8f1365c : Jelly: Handle screenLayout changes <Luca Stefani> 3 days ago
+ 
+**** vanir:packages_apps_Settings ****
+820126f : Squash commit of SAR and IC Code. <Adnan Begovic> 2 years, 4 months ago
+ 
+**** vanir:packages_services_Telecomm ****
+ea38cbf : (1/2) Make sensitive phone numbers not to be shown in call log history. <Olaia Segovia> 2 months ago
+ 
+**** vanir:packages_services_Telephony ****
+9d67fca : Fix minor inconsistency in the CDMA call settings <Tim Schumacher> 8 days ago
+ 
