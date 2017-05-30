@@ -1,0 +1,154 @@
+
+**** vanir:build ****
+740b6f7 : Build hacks <DHOMD> 8 months ago
+ 
+**** vanir:device_htc_flounder ****
+2345d72 : flounder: Switch to the unified LED capabilities overlay <Zhao Wei Liew> 6 months ago
+ 
+**** vanir:device_moto_shamu ****
+d171502 : shamu: Fix offmode charging <Elektroschmock> 5 days ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+801d309 : op3: Doze: Require non-wake up proximity sensor <LuK1337> 6 days ago
+ 
+**** vanir:device_samsung_smdk4412-common ****
+2dfc2d6 : overlay: Disable SIM batch operations <Gabriele M> 7 weeks ago
+ 
+**** vanir:device_xiaomi_libra ****
+dcb1e5e : configs: move sensor configs to separate directories <Demon000> 2 days ago
+ae0ae1c : board: use multihal for sensors <Demon000> 3 days ago
+321309c : init.qcom.rc: remove useless early boot configs <Demon000> 3 days ago
+3fb57f7 : libra: move subsystem restart setup from blobs to init <Demon000> 3 days ago
+1ce2400 : proprietary-files: clean up and organize <Demon000> 4 days ago
+1ad1372 : proprietary-files: remove unused firmware and categorize it <Demon000> 4 days ago
+118a322 : proprietary-files: remove unused camera libs <Demon000> 4 days ago
+ 
+**** vanir:external_busybox ****
+9b46b1d : busybox: libarchive: Fix matchpathcon_init use of libselinux <Adrian DC> 3 months ago
+ 
+**** vanir:frameworks_av ****
+dc18694 : Revert "libstagefright: Use proper ctts offset" <Ethan Chen> 2 weeks ago
+ 
+**** cmold:android_kernel_huawei_kiwi ****
+537a08d : libceph: introduce ceph_crypt() for in-place en/decryption <Ilya Dryomov> 6 months ago
+1cf960f : packet: fix races in fanout_add() <Eric Dumazet> 3 months ago
+d995e35 : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 3 weeks ago
+71443fbe : scsi: sg: check length passed to SG_NEXT_CMD_LEN <peter chang> 3 months ago
+fadcd3a : BACKPORT: sg: relax 16 byte cdb restriction <Douglas Gilbert> 3 years ago
+9e6b95b : BACKPORT: block: add blk_rq_set_block_pc() <Jens Axboe> 3 years ago
+7cca1b4 : msm: camera: sensor: Validate i2c_freq_mode in msm_cci_set_clk_param <VijayaKumar T M> 6 months ago
+c4d1110 : ASoC: msm8x16-wcd: prevent out of bounds access <Aravind Kumar> 2 years, 1 month ago
+da71163 : msm: camera: flash: Validate the power setting size <Rajesh Bondugula> 6 months ago
+1ad2e92 : cgroup: prefer %pK to %p <Nick Desaulniers> 9 months ago
+cdeccc0 : misc: qcom: qdsp6v2: initialize config_32 <Laxminath Kasam> 9 months ago
+600c6de : misc: qcom: qdsp6v2: initialize wma_config_32 <Siena Richard> 10 months ago
+8070cf5 : msm-core: debug: Update the number of supported pstates <Archana Sathyakumar> 9 months ago
+ 
+**** cmold:lge-kernel-mako ****
+4305e72 : pipe: limit the per-user amount of pages allocated in pipes <Willy Tarreau> 1 year, 4 months ago
+6c73746 : ALSA: hrtimer: Fix stall by hrtimer_cancel() <Takashi Iwai> 1 year, 4 months ago
+fe8cf48 : ALSA: timer: Harden slave timer list handling <Takashi Iwai> 1 year, 4 months ago
+f6d32b1 : ALSA: timer: Fix double unlink of active_list <Takashi Iwai> 1 year, 5 months ago
+6161d77 : ALSA: usb-audio: avoid freeing umidi object twice <Andrey Konovalov> 1 year, 3 months ago
+5e07657 : ext4: validate s_first_meta_bg at mount time <Eryu Guan> 6 months ago
+6329665 : sg_write()/bsg_write() is not fit to be called under KERNEL_DS <Al Viro> 5 months ago
+fbf0f46 : fuse: break infinite loop in fuse_fill_write_pages() <Roman Gushchin> 1 year, 8 months ago
+f70388d : bluetooth: Validate socket address length in sco_sock_bind(). <David S. Miller> 1 year, 5 months ago
+16f98a8 : Input: aiptek - fix crash on detecting device without endpoints <Vladis Dronov> 1 year, 6 months ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+3e220ee : ASoC: soc: msm: initialize buffer to prevent kernel data leakage <Xiaojun Sang> 5 months ago
+4a4ab82 : ASoC: msm: q6dspv2: use correct variable type to store ION buff size <Banajit Goswami> 7 months ago
+ 
+**** cmold:android_kernel_motorola_omap4-common ****
+24ecfe9 : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 3 weeks ago
+0953bf8 : net/packet: fix overflow in check for tp_reserve <Andrey Konovalov> 9 weeks ago
+d91850e : net/packet: fix overflow in check for tp_frame_nr <Andrey Konovalov> 9 weeks ago
+ae5c795 : xfrm_user: validate XFRM_MSG_NEWAE incoming ESN size harder <Andy Whitcroft> 10 weeks ago
+2cf5cc6 : xfrm_user: ensure user supplied esn replay window is valid <Mathias Krause> 4 years, 8 months ago
+ac0e0b3 : xfrm_user: validate XFRM_MSG_NEWAE XFRMA_REPLAY_ESN_VAL replay_window <Andy Whitcroft> 10 weeks ago
+01bf61b : sctp: deny peeloff operation on asocs with threads sleeping on it <Marcelo Ricardo Leitner> 3 months ago
+718ba36 : irda: Fix lockdep annotations in hashbin_delete(). <David S. Miller> 3 months ago
+4ce9c79 : net/llc: avoid BUG_ON() in skb_orphan() <Eric Dumazet> 4 months ago
+0ae12b3 : tcp: avoid infinite loop in tcp_splice_read() <Eric Dumazet> 4 months ago
+5a97c2a : dccp: fix freeing skb too early for IPV6_RECVPKTINFO <Andrey Konovalov> 3 months ago
+9e8ac14 : perf/core: Fix concurrent sys_perf_event_open() vs. 'move_group' race <Peter Zijlstra> 5 months ago
+50188fe : perf: Do not double free <Peter Zijlstra> 1 year, 3 months ago
+65ede18 : perf: Fix perf_event_for_each() to use sibling <Michael Ellerman> 5 years ago
+13b9d22 : sctp: avoid BUG_ON on sctp_wait_for_sndbuf <Marcelo Ricardo Leitner> 4 months ago
+d384971 : time: Remove CONFIG_TIMER_STATS <Kees Cook> 4 months ago
+d3ab9da : ipc/shm: Fix shmat mmap nil-page protection <Davidlohr Bueso> 3 months ago
+d14a41a : trace: resolve stack corruption due to string copy Strcpy has no limit on string being copied which causes stack corruption leading to kernel panic. Use strlcpy to resolve the issue by providing length of string to be copied. <Amey Telawane> 10 months ago
+38d53fd : fs/proc/array.c: make safe access to group_leader <Adrian Salido> 6 months ago
+3d905c8 : ALSA: info: Check for integer overflow in snd_info_entry_write() <Siqi Lin> 7 months ago
+1372dda : perf: don't leave group_entry on sibling list (use-after-free) <John Dias> 7 months ago
+c529557 : KEYS: Disallow keyrings beginning with '.' to be joined as session keyrings <David Howells> 6 weeks ago
+2c6e162 : netfilter: Change %p to %pK in debug messages <Min Chong> 8 months ago
+65dd81e : fbdev: color map copying bounds checking <Kees Cook> 4 months ago
+653e992 : net: ping: check minimum size on ICMP header length <Kees Cook> 6 months ago
+30c9f51 : posix_acl: Clear SGID bit when setting file permissions <Jan Kara> 8 months ago
+cc8a71c : Btrfs: skip adding an acl attribute if we don't have to <Liu Bo> 4 years, 6 months ago
+824ef1e : switch posix_acl_equiv_mode() to umode_t * <Al Viro> 6 years ago
+aef939b : BUG: headers with BUG/BUG_ON etc. need linux/bug.h <Paul Gortmaker> 6 years ago
+1bf17eb : cgroup: prefer %pK to %p <Nick Desaulniers> 9 months ago
+6de3301 : mm: migrate dirty page without clear_page_dirty_for_io etc <Hugh Dickins> 11 months ago
+3ae2905 : udp: properly support MSG_PEEK with truncated buffers <Eric Dumazet> 1 year, 5 months ago
+df4c6f4 : l2tp: fix racy SOCK_ZAPPED flag check in l2tp_ip{,6}_bind() <Guillaume Nault> 6 months ago
+96c2b3d : l2tp: fix oops in L2TP IP sockets for connect() AF_UNSPEC case <James Chapman> 5 years ago
+7638172 : net: l2tp: unlock socket lock before returning from l2tp_ip_sendmsg <Sasha Levin> 5 years ago
+fc7a661 : l2tp: l2tp_ip - fix possible oops on packet receive <James Chapman> 5 years ago
+e04b2d9 : perf: Tighten (and fix) the grouping condition <Peter Zijlstra> 2 years, 4 months ago
+34c0d58 : fs: limit filesystem stacking depth <Miklos Szeredi> 2 years, 7 months ago
+3395e2b : mac80211: fix fragmentation code, particularly for encryption <Johannes Berg> 3 years, 4 months ago
+4652bf4 : splice: Apply generic position and size checks to each write <Ben Hutchings> 2 years, 4 months ago
+adc5b52 : ALSA: control: Make sure that id->index does not overflow <Lars-Peter Clausen> 2 years, 11 months ago
+c5b8f37 : mac80211: fix AP powersave TX vs. wakeup race <Emmanuel Grumbach> 3 years, 3 months ago
+905f1a2 : media-device: fix infoleak in ioctl media_enum_entities() <Salva Peiró> 3 years, 1 month ago
+102b89d : net: avoid signed overflows for SO_{SND|RCV}BUFFORCE <Eric Dumazet> 6 months ago
+41e2b27 : net: cleanups in sock_setsockopt() <Eric Dumazet> 5 years ago
+d86c039 : Revert "net: avoid signed overflows for SO_{SND|RCV}BUFFORCE" <Michael Gernoth> 30 hours ago
+ 
+**** vanir:packages_apps_Email ****
+70ccb25 : Close body InputStreams correctly. <Danny Baumann> 5 days ago
+c43715b : Fix message duplication on flag update. <Danny Baumann> 5 days ago
+ 
+**** vanir:packages_apps_Trebuchet ****
+5c6b5a2 : Add null check in Launcher onNewIntent() before moveToDefaultScreen(). <Tony> 1 year, 7 months ago
+273db43 : Handle OutOfMemoryException gracefully in WallpaperCropActivity. <Tony Wickham> 1 year, 7 months ago
+2846677 : Fixing All apps not respecting scaled icon size <Sunny Goyal> 1 year, 6 months ago
+14d0937 : Adding workaround to jump in wallpaper offsets. <Winson> 10 months ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+e353ae2 : Properly close body InputStreams. <Danny Baumann> 5 days ago
+ 
+**** vanir:system_vold ****
+9b58609 : vold: Run RestoreconRecursive at most once for each PrivateVolume <Angus Gratton> 12 days ago
+ 
+**** commotio:commotio ****
+095fc3c : Fingerprints <DHOMD> 3 hours ago
+73d9f5f : Bump + Jelly over gello <DHOMD> 3 hours ago
+ee87b24 : Update phone common + sensitivity stuff <DHOMD> 3 hours ago
+ 
+**** vanir:vendor_htc ****
+f62c7d9 : hiae: Move GPS libraries to variants <Ethan Chen> 8 days ago
+ad604a0 : hiaewhl: Add radio blobs from Sprint version <Ethan Chen> 9 days ago
+c36cb40 : hiae: Split hiae-common into hiae-common, hiaeul, hiaeuhl <Ethan Chen> 9 days ago
+f21575b : hiae: Add tftp_server, remove modem firmware <Ethan Chen> 8 days ago
+73245d1 : hiae-common: Regenerate makefile <Ethan Chen> 9 days ago
+ 
+**** vanir:vendor_vanir ****
+e9eaa9a : Fingerprints <nuclearmistake> 3 hours ago
+51c8fac : sensitive_pn: Added sensitive number for the Netherlands <Valerio Pilo> 5 hours ago
+8123dd6 : sensitive_pn: add sensitive numbers for Turkey <Ali B> 9 hours ago
+009fa8e : sensitive_pn: Add sensitive phone number for Bangladesh <Anik1199> 10 hours ago
+50758f6 : sensitive_pn: Add US number <Brinly Taylor> 10 hours ago
+6131382 : Add sensitive phone numbers for Brazil <João Paulo Just Peixoto> 2 days ago
+58966a1 : sensitive_pn: reorder by MCC code <Brinly Taylor> 12 hours ago
+e23f811 : sensitive_pn: Add Australian sensitive phone number. <Brinly Taylor> 12 hours ago
+bc3bdb8 : sensitive_pn: Add New Zealand sensitive numbers. <Brinly Taylor> 13 hours ago
+83a86fc : Make ccache_version_check better at finding ccache <nuclearmistake> 25 hours ago
+b092f1e : (2/2) Make sensitive phone numbers not to be shown in call log history. <Olaia Segovia> 10 weeks ago
+d84089c : overlay: Enable Wi-Fi by default on first boot <ShevT> 5 days ago
+b5bbb62 : extract_utils: fix extracting XML files containing binary characters <Dobroslaw Kijowski> 11 days ago
+eb0e835 : cm: Remove Gello <Dan Pasanen> 3 weeks ago
+ 
