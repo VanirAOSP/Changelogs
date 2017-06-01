@@ -1,0 +1,65 @@
+
+**** cm:LineageOS/android_hardware_qcom_display ****
+d222af7 : hwc: return correct color format string while layer dump <Rahul Sharma> 5 weeks ago
+ 
+**** cmold:lge-kernel-mako ****
+6481dcb : tty: n_hdlc: get rid of racy n_hdlc.tbuf <Alexander Popov> 3 months ago
+a2dc125 : TTY: n_hdlc, fix lockdep false positive <Jiri Slaby> 1 year, 6 months ago
+a98e5f3 : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 3 weeks ago
+6f07f58 : mm: Tighten x86 /dev/mem with zeroing reads <Kees Cook> 8 weeks ago
+ 
+**** cmold:android_kernel_samsung_smdk4412 ****
+b1afb7d : cypress: Add optional fade-in/out effect <Dominggoes Isakh> 6 days ago
+ 
+**** cmold:android_kernel_xiaomi_msm8992 ****
+0e12aa0 : libra_defconfig: enable uvc <Demon000> 13 days ago
+9f0ed6e : libra_defconfig: add ntfs support <Demon000> 3 weeks ago
+323cf60 : libra_defconfig: disable timer stats <Demon000> 3 weeks ago
+0397bc9 : libra_defconfig: disable CONFIG_PFT as it is unsupported <Yueyao (Nathan) Zhu> 5 weeks ago
+f38debc : Revert "KSM: Start KSM by default" <Angelo G. Del Regno -- EternityProject Team Manager> 2 years, 1 month ago
+648ee19 : sched: LOAD_FREQ (4*HZ+61) avoids loadavg Moire <Klaus Ripke> 3 years, 6 months ago
+e51cbbb : lib/memcopy: use glibc version <Miao Xie> 5 years ago
+9fe7fa0 : lib/string: use glibc version <Miao Xie> 5 years ago
+dd387c4 : asm-generic: rwsem: ensure sem->cnt is only accessed via atomic_long_* <Will Deacon> 3 years, 3 months ago
+89973a3 : ARM: optimize memset_io()/memcpy_fromio()/memcpy_toio() <Russell King> 2 years, 1 month ago
+a94bd2e : qos: Register irq notify after adding the qos request <Anil Kumar Mamidala> 1 year, 1 month ago
+2be56e7 : qos: Disable irq notifier when qos request is removed <Srinivas Rao L> 1 year, 4 months ago
+1f95d0d : IKSWL-3402 proc: stat: fix idle time jump <Lianwei Wang> 2 years, 6 months ago
+ee51e69 : clk: qcom: clock-pll: Optimize debug code for PLL lock failures <Pushkar Joshi> 1 year, 11 months ago
+d270f29 : sched: fix task-priority when using SCHED_RESET_ON_FORK <John Dias> 8 months ago
+53283e6 : sched/core: Fix an SMP ordering race in try_to_wake_up() vs. schedule() <Peter Zijlstra> 1 year, 8 months ago
+521f3ed : block: disable add_random <Chester Kener> 3 years, 3 months ago
+402a6ae : fs: aio: remove blk plug <ktoonsez> 3 years, 11 months ago
+057102e : mm: do not activate swap write failed pages <Vinayak Menon> 1 year, 3 months ago
+6c9f17d : mm: vmstat: faster proc <Francisco Franco> 7 months ago
+d5b4d21 : sched: core: optimize task search <franciscofranco> 1 year, 4 months ago
+45adfc8 : video: cfb: optimize <gustavoss> 1 year, 4 months ago
+9ff8db9 : lib: int_sqrt: optimize <engstk> 1 year, 4 months ago
+e6cea5c : drivers: irq-gic: return pending interrupt number <Anji Jonnala> 1 year, 8 months ago
+611aca9 : irqchip: gic: add support to return pending interrupt on particular cpu <Anji Jonnala> 2 years, 4 months ago
+b506455 : cpufreq: interactive governor drops bits in time calculation <Chris Redpath> 4 years ago
+65ea53e : PM / devfreq: bw_hwmon: Fix race condition in polling interval update <Saravana Kannan> 1 year, 3 months ago
+fd52314 : PM / devfreq: account suspend/resume for stats <Rajagopal Venkat> 4 years, 5 months ago
+3068ef5 : PM / devfreq: bw_hwmon: add comments back in from upstream <Dan Pasanen> 12 months ago
+4f5b75a : PM / devfreq: bw_hwmon: Expose a throttle adjust tunable <Rohit Gupta> 2 years, 1 month ago
+0833d5f : PM / devfreq: bimc-bwmon: Fix IRQ registration in resume path <Saravana Kannan> 1 year, 9 months ago
+d2376a6 : PM / devfreq: bw_hwmon: Fix handling of max_mbps <Saravana Kannan> 1 year, 9 months ago
+ed8aeac : PM / devfreq: bw_hwmon: Allow up_scale to be set to zero <Rohit Gupta> 1 year, 9 months ago
+381bdf5 : PM / devfreq: bw_hwmon: Remove debug logs from high frequency code path <Saravana Kannan> 1 year, 9 months ago
+50a005c : PM / devfreq: bw_hwmon: Take at least one sample per decision window <Saravana Kannan> 1 year, 10 months ago
+39714da : PM / devfreq: bw_hwmon: Remove unused tunables and disable some by default <Saravana Kannan> 1 year, 10 months ago
+9290786 : PM / devfreq: bw_hwmon: Fix AB vote less than measurement when freq at max <Saravana Kannan> 1 year, 10 months ago
+e449339 : PM / devfreq: bw_hwmon: Update to low latency, high sampling rate algorithm <Saravana Kannan> 2 years ago
+072a074 : PM / devfreq: bimc-bwmon: Fix typo <Saravana Kannan> 2 years ago
+675131f : PM / devfreq: bimc-bwmon: Optimize some debug messages <Saravana Kannan> 2 years ago
+5e95fda : devfreq_spdm: Handle spurious interrupts during bootup <Dilip Kota> 1 year, 6 months ago
+62dbf55 : PM / devfreq: msmcci-hwmon: Add support for handling shared irq <Hanumath Prasad> 1 year, 11 months ago
+fdeede5 : PM / devfreq: bimc-bwmon: Fix counter clearing <Saravana Kannan> 2 years ago
+95a6704 : PM / devfreq: bimc-bwmon: Update irq handling in suspend/resume <Hanumath Prasad> 1 year, 11 months ago
+31fddf7 : PM / devfreq: governor_cache_hwmon: Fix race in monitor start/stop <Junjie Wu> 1 year, 11 months ago
+b1c7f7b : PM / devfreq: msmcci-hwmon: Add provision for normal reg access <Arun KS> 1 year, 11 months ago
+c9ef907 : PM / devfreq: Introduce MSM CCI HWmon device <Junjie Wu> 2 years, 7 months ago
+0285a0b : msm: kgsl: Update bandwidth vote using the right API <Sunil Khatri> 1 year, 11 months ago
+8e91c905 : PM / devfreq: bimc-bwmon: set a floor_mbps for irq threshold <Hanumath Prasad> 2 years, 1 month ago
+41fe3747 : devfreq: spdm: Fix call to TZ spdm driver <Dan Sneddon> 2 years, 1 month ago
+ 
