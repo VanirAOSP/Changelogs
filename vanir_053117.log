@@ -1,0 +1,192 @@
+
+**** vanir:build ****
+0af9785 : Build hacks <DHOMD> 8 months ago
+ 
+**** vanir:device_google_marlin ****
+4c2eb4e : Add a proper barrier and use vendor/caf/telephony <DHOMD> 3 months ago
+1c93d7d : Revert "marlin: disable our local telephony extensions" <DHOMD> 3 months ago
+ 
+**** vanir:device_htc_flounder ****
+c9e4db7 : flounder: Add hotword enrollment <razorloves> 2 days ago
+ 
+**** cm:LineageOS/android_device_htc_hiae-common ****
+8a77fd3 : hiae: Late start pm-service <Ethan Chen> 2 days ago
+ 
+**** cm:LineageOS/android_device_lge_msm8996-common ****
+5f613ab : msm8996-common: Rewrite build-time symlinks creation <Bruno Martins> 6 months ago
+ 
+**** vanir:device_motorola_athene ****
+0d4edfb : Good thing we don't merge CM, so we don't get stuck with a defconfig that doesn't exist in the boardconfig or something <nuclearmistake> 4 hours ago
+ 
+**** vanir:device_motorola_msm8226-common ****
+1360c03 : msm8226-common: Disable audio offload <Gabriele M> 2 days ago
+ 
+**** vanir:device_motorola_msm8916-common ****
+3ee91a4 : overlay: Disable SIM batch operations <Gabriele M> 7 weeks ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+e02ee43 : Otus: Fix FM Radio <DHOMD> 4 months ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+0e3d1e3 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 6 months ago
+ 
+**** vanir:device_qcom_common ****
+ebff3b2 : power: use 8937 hal for 8953 <Dan Pasanen> 7 days ago
+ 
+**** cm:LineageOS/android_device_samsung_noblelte-common ****
+8096e36 : noblelte: Decommonize RIL blobs <Christopher N. Hesse> 3 weeks ago
+b5f374d : noblelte: Build modemloader <Christopher N. Hesse> 4 days ago
+7a98861 : noblelte: Import new rilcommon init script from N <Christopher N. Hesse> 6 days ago
+ 
+**** cm:LineageOS/android_device_samsung_nobleltetmo ****
+e58a407 : nobleltetmo: Update RIL props from N920TUVU4EQC6 <Christopher N. Hesse> 3 weeks ago
+d49458b : nobleltetmo: Add more RIL blobs <Christopher N. Hesse> 6 days ago
+12ebf86 : nobleltetmo: Import RIL blobs <Christopher N. Hesse> 3 weeks ago
+f73a7f8 : nobleltetmo: Use modemloader for RIL init <Christopher N. Hesse> 6 days ago
+9d86e38 : nobleltetmo: Remove deprecated M RIL hacks <Christopher N. Hesse> 6 days ago
+9dfd6ac : nobleltetmo: Update cbd from N920TUVU4EQC4 <Christopher N. Hesse> 6 days ago
+ 
+**** vanir:device_xiaomi_libra ****
+8d93b3e : post_boot: tweak core_ctl values <Demon000> 33 hours ago
+7e06a4e : post_boot: organize and clean up <Demon000> 2 days ago
+0de7105 : init.target.rc: remove sensor hal selection script <Demon000> 2 days ago
+9d289cf : post_boot: remove conflicting core_ctl values <Demon000> 2 days ago
+59cbdbf : init.target.rc: configure per profile input boost <Demon000> 2 days ago
+3fc3346 : move input boost configuration to power profiles <Demon000> 2 days ago
+37593ee : proprietary-files: add back all removed camera blobs <Demon000> 2 days ago
+ 
+**** vanir:external_stagefright-plugins ****
+4089877 : FFmpegExtractor: Don't use our extractor when we agree with StageFright <Christopher R. Palmer> 4 days ago
+ 
+**** vanir:frameworks_base ****
+6d48756 : SystemUI: Specify user while changing brightness mode <Alberto97> 2 days ago
+ 
+**** vanir:hardware_samsung ****
+d81a0a3 : liblights: Add support for variable touchkey brightness <Dominggoes Isakh> 7 days ago
+63b5bd7 : power: Write IO busy parameter for big cluster <Christopher N. Hesse> 2 days ago
+ 
+**** cm:LineageOS/android_hardware_samsung_slsi-cm_exynos7420 ****
+a0b32b5 : keymaster: Fix 64bit compilation <Christopher N. Hesse> 2 days ago
+ 
+**** cmold:android_kernel_htc_msm8960 ****
+78ba1f7 : msm: HTC: Add battery properties <Pavel Malyutin> 3 months ago
+df278e7 : power_supply_sysfs: correct handling of overload prop <Pavel Malyutin> 3 months ago
+f2567c6 : netfilter: Change %p to %pK in debug messages <Min Chong> 8 months ago
+1c8588f : ASoC: msm: qdsp6v2: return error when copy from userspace fails <Siena Richard> 6 months ago
+06cb920 : BACKPORT: usb: gadget: f_mbim: Change %p to %pK in debug messages <Min Chong> 8 months ago
+af421d7 : perf: don't leave group_entry on sibling list (use-after-free) <John Dias> 7 months ago
+f201a99 : net: ipc_router: Register services only on client port <Karthikeyan Ramasubramanian> 6 months ago
+0a65da8 : fs/proc/array.c: make safe access to group_leader <Adrian Salido> 6 months ago
+78aae42 : ALSA: info: Check for integer overflow in snd_info_entry_write() <Siqi Lin> 7 months ago
+a1a9618 : KEYS: Disallow keyrings beginning with '.' to be joined as session keyrings <David Howells> 6 weeks ago
+cdcac5b : net: ping: check minimum size on ICMP header length <Kees Cook> 6 months ago
+5106502 : BACKPORT: posix_acl: Clear SGID bit when setting file permissions <Jan Kara> 8 months ago
+e437c42 : net: ipc_router: fix NULL pointer de-reference issue <Arun Kumar Neelakantam> 8 months ago
+8f1b24c : mm: migrate dirty page without clear_page_dirty_for_io etc <Hugh Dickins> 11 months ago
+a27445d : qcacld-2.0: Fix VHT-80 IBSS stops beaconing <Subrat Dash> 10 months ago
+a4a0940 : ext4: validate s_first_meta_bg at mount time <Eryu Guan> 6 months ago
+336f4ed : l2tp: fix racy SOCK_ZAPPED flag check in l2tp_ip{,6}_bind() <Guillaume Nault> 6 months ago
+9edb9bd : BACKPORT: aio: mark AIO pseudo-fs noexec <Nick Desaulniers> 6 months ago
+df65322 : perf: Tighten (and fix) the grouping condition <Peter Zijlstra> 2 years, 4 months ago
+ 
+**** cmold:android_kernel_htc_msm8996 ****
+3e33273 : qcom: msm8996-htc-pme: Remove unused laser regulator <Christopher N. Hesse> 6 days ago
+0711fca : Revert "video: mdss: LiveDisplay driver" <Christopher N. Hesse> 6 days ago
+ 
+**** vanir:kernel_huawei_angler ****
+59459ab : kernel: Fix potential refcount leak in su check <Tom Marshall> 12 days ago
+91f852b : kernel: Only expose su when daemon is running <Tom Marshall> 4 months ago
+ 
+**** cmold:android_kernel_huawei_kiwi ****
+e71cc42 : ASoC: msm: qdsp6v2: set pointer to NULL after free. <Xiaojun Sang> 3 months ago
+ae2ab38 : drivers: soc: add size check <Siena Richard> 3 months ago
+e61973d : msm: vidc: Protect debug_buffer access in core_info_read with lock. <Abdulla Anam> 2 months ago
+6df18c6 : platform: msm: spmi: Fix possible race condition in debugfs <ansharma> 4 months ago
+e45f50c : perf/core: Fix concurrent sys_perf_event_open() vs. 'move_group' race <Peter Zijlstra> 5 months ago
+40fb3c1 : tcp: do not lock listener to process SYN packets <Eric Dumazet> 1 year, 8 months ago
+82be9d9 : usb: diag: change %p to %pK in debug messages <Min Chong> 8 months ago
+daf7f1a : net/packet: fix overflow in check for priv area size <Andrey Konovalov> 9 weeks ago
+2001713 : net/packet: fix overflow in check for tp_frame_nr <Andrey Konovalov> 9 weeks ago
+f2f4b93 : net/packet: fix overflow in check for tp_reserve <Andrey Konovalov> 9 weeks ago
+ 
+**** cmold:lge-kernel-mako ****
+ad6c595 : KEYS: fix keyctl_set_reqkey_keyring() to not leak thread keyrings <Eric Biggers> 6 weeks ago
+4a8b9c6 : KEYS: Change the name of the dead type to ".dead" to prevent user access <David Howells> 6 weeks ago
+219e84e : sctp: deny peeloff operation on asocs with threads sleeping on it <Marcelo Ricardo Leitner> 3 months ago
+6f06e04 : irda: Fix lockdep annotations in hashbin_delete(). <David S. Miller> 3 months ago
+699df5a : net/llc: avoid BUG_ON() in skb_orphan() <Eric Dumazet> 4 months ago
+0dc81c4 : tcp: avoid infinite loop in tcp_splice_read() <Eric Dumazet> 4 months ago
+04861a0 : sctp: avoid BUG_ON on sctp_wait_for_sndbuf <Marcelo Ricardo Leitner> 4 months ago
+0d47d41 : tcp: do not lock listener to process SYN packets <Eric Dumazet> 1 year, 8 months ago
+fb6099c : time: Remove CONFIG_TIMER_STATS <Kees Cook> 4 months ago
+71f5216 : KEYS: Disallow keyrings beginning with '.' to be joined as session keyrings <David Howells> 6 weeks ago
+a6a15a8 : cgroup: prefer %pK to %p <Nick Desaulniers> 9 months ago
+2bc8997 : net: ipc_router: fix NULL pointer de-reference issue <Arun Kumar Neelakantam> 8 months ago
+ff3e781 : hid: usbhid: Changes to prevent buffer overflow <Sriharsha Allenki> 5 months ago
+164a88d : ipv4: Don't do expensive useless work during inetdev destroy. <David S. Miller> 1 year, 3 months ago
+667d625 : USB: cdc-acm: more sanity checking <Oliver Neukum> 1 year, 3 months ago
+31d166f : netfilter: x_tables: check for size overflow <Florian Westphal> 1 year, 3 months ago
+5540286 : mm: migrate dirty page without clear_page_dirty_for_io etc <Hugh Dickins> 11 months ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+09cff47 : ASoC: msm: qdsp6v2: set pointer to NULL after free. <Xiaojun Sang> 3 months ago
+5eede13 : msm: vidc: Protect debug_buffer access in core_info_read with lock. <Abdulla Anam> 2 months ago
+ 
+**** cmold:android_kernel_samsung_smdk4412 ****
+aafe99e : cypress: Add LED on keypress support <Dominggoes Isakh> 9 hours ago
+0f3dc19 : cypress: Add touchkey brightness support <Dominggoes Isakh> 7 days ago
+ 
+**** vanir:packages_apps_Dialer ****
+ec686b9 : Dialer: update fab color to match aosp primary color <Joey Rizzoli> 3 days ago
+ 
+**** vanir:packages_apps_Email ****
+b76ada5 : Fix check for deleted messages. <Danny Baumann> 3 days ago
+ 
+**** cm:LineageOS/android_packages_apps_FlipFlap ****
+ad0c195 : FlipFlap: Hide cover view before removing <jrior001> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Jelly ****
+0106448 : Jelly: Enable adjust bounds for incognito image <Luca Stefani> 12 hours ago
+c642120 : Jelly: Never hide history view <Gabriele M> 3 days ago
+ea83c6c : Jelly: Use an observer to refresh the history view <Gabriele M> 4 days ago
+837ec77 : Add an indicator icon for incognito mode. <Gabriel Féron> 20 hours ago
+c35cc24 : Jelly: Update android tools build <Luca Stefani> 32 hours ago
+020a697 : Jelly: Don't accept cookies in incognito mode <Luca Stefani> 6 days ago
+dc48da6 : Jelly: Don't add duplicates to the history <Gabriele M> 4 days ago
+78e3754 : Jelly: Query an already ordered history <Gabriele M> 4 days ago
+c8e5ebe : Jelly: Enable the DOM storage API <Gabriele M> 3 days ago
+64920b0 : Jelly: Fix some warnings <Luca Stefani> 5 days ago
+503fea1 : Jelly: Use lambdas in settings activity <Luca Stefani> 5 days ago
+ 
+**** vanir:packages_apps_Messaging ****
+6942d9f : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 3 months ago
+ 
+**** cm:LineageOS/android_packages_apps_Snap ****
+f68cddc : SnapdragonCamera: Fix torch mode with continuous shot <Jay Wang> 7 months ago
+c737df5 : Revert "Snap: CaptureModule: lock exposure also when precapture trigger is started" <codeworkx> 32 hours ago
+09a7a0b : SnapdragonCamera: Camera2 force close after focused <weijiew> 6 months ago
+018fdd0 : SnapdragonCamera: GPS location can't be turn On in camera settings <weijiew> 6 months ago
+26d9aec : Fixed camera crash on exit <Valerio Pilo> 2 weeks ago
+ 
+**** vanir:packages_apps_Trebuchet ****
+1a65ab8 : Trebuchet: Sign with platform key <Arne Coucheron> 2 days ago
+ 
+**** cm:LineageOS/android_packages_resources_devicesettings ****
+1935d69 : Add fingerprint sleep strings <Alberto97> 30 hours ago
+ 
+**** vanir:vendor_cmsdk ****
+b5e2ea3 : cmsdk: fix twilight state not updating in live display auto mode <Matthias Yzusqui> 6 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+f0c22d4 : Add a barrier for Marlin/Sailfish <DHOMD> 3 months ago
+ 
+**** vanir:vendor_samsung ****
+1a2aa78 : nobleltetmo: Import more RIL blobs from N920TUVU4EQC4 <Christopher N. Hesse> 6 days ago
+a33692f : noblelte*: Decommonize RIL blobs <Christopher N. Hesse> 3 weeks ago
+ 
+**** vanir:vendor_vanir ****
+6e25a7d : sensitive_pn: Add sensitive phone numbers for Norway <Arne Coucheron> 21 hours ago
+59f755f : sensitive_pn: Add additional US numbers <Kasual> 2 days ago
+891526f : sensitive_pn: add sensitive number for Indonesia <qjohn> 2 days ago
+2b5bf92 : sensitive_pn: Add sensitive phone number for Romania <Calin> 3 days ago
+ 
