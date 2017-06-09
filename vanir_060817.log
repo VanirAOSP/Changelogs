@@ -1,0 +1,223 @@
+
+**** vanir:bootable_recovery_twrp ****
+79605ae : ors: Update doc <nailyk-fr> 7 weeks ago
+ffb02bd : Improve decrypted partition logging <nkk71> 4 days ago
+ 
+**** vanir:build ****
+5120dcf : Build hacks <DHOMD> 8 months ago
+ 
+**** vanir:device_google_marlin ****
+e4527e1 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 3 months ago
+d4e5415 : Revert "marlin: disable our local telephony extensions" <DHOMD> 3 months ago
+78a07f1 : marlin: Build LiveDisplay native interface library <Bruno Martins> 7 months ago
+4adad81 : marlin: add nexus.xml for nexus/pixel experience <Dan Pasanen> 3 months ago
+0a24f72 : marlin: add CarrierConfig overlay <Dan Pasanen> 3 months ago
+2049aaf : marlin: build NFC hal from source <Christian Oder> 6 weeks ago
+4ef0626 : marlin: update fingerprint for NJH47B <Dan Pasanen> 3 days ago
+ 
+**** cm:LineageOS/android_device_google_sailfish ****
+a97b89a : sailfish: update fingerprint for NJH47B <Dan Pasanen> 3 days ago
+ 
+**** vanir:device_lge_bullhead ****
+50d9dee : bullhead: update build fingerprint & description to N2G47W <razorloves> 3 days ago
+ 
+**** vanir:device_moto_shamu ****
+8e94f7b : shamu: power: Use POWER_HINT_LAUNCH <Elektroschmock> 3 months ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+e577305 : Otus: Fix FM Radio <DHOMD> 5 months ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+78aa1a0 : op3: Update from OxygenOS 4.1.5 <dianlujitao> 29 hours ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+87e0af5 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 7 months ago
+ 
+**** cm:LineageOS/android_external_chromium-webview ****
+2909904 : Update webviews <Luca Stefani> 28 hours ago
+ 
+**** vanir:frameworks_base ****
+750fefc : Fixed NPE in canAddMoreManagedProfiles <yuanhao> 5 months ago
+2a9db95 : QS: Remove listeners only if added <Gabriele M> 3 days ago
+ 
+**** cmold:android_kernel_lge_bullhead ****
+6e0f6ed : FROMLIST: msm: IPA: add the check on intf query <Skylar Chang> 3 months ago
+f8037c1 : BACKPORT: msm: mdss: Fix invalid dma attachment during fb shutdown <Jonathan Solnit> 9 weeks ago
+e4e7cff : BACKPORT: msm: sensor: validating the flash initialization parameters <Sureshnaidu Laveti> 6 months ago
+70e6322 : input: touchscreen: validate bounds of intr_reg_num <Andrew Chant> 9 weeks ago
+5b9e100 : ASoC: Add backend user count checking <Walter Yang> 3 months ago
+002b719 : msm: camera: sensor: Validate i2c_frq_mode in msm_cci_get_clk_rates <Rajesh Bondugula> 7 months ago
+b4e0e95 : qseecom: add mutex around qseecom_set_client_mem_param <Zhen Kong> 3 months ago
+9f47238 : msm: mdss: Fix integer overflow in cursor validaton <Naseer Ahmed> 2 months ago
+b74e5f52 : msm: camera: cpp: Fixing Heap overflow in output buffer <Dennis Cagle> 3 months ago
+24847d2 : ASoC: msm: acquire lock in ioctl <Dennis Cagle> 3 months ago
+0da970f : FROMLIST: drivers: soc: add size check <Siena Richard> 3 months ago
+bbdc6b6 : qcacld-2.0: Update correct msg length in oemData_SendMBOemDataReq API <Sreelakshmi Konamki> 9 months ago
+7baee3e : xfrm_user: validate XFRM_MSG_NEWAE XFRMA_REPLAY_ESN_VAL replay_window <Andy Whitcroft> 3 months ago
+ 
+**** cmold:android_kernel_lge_hammerhead ****
+dd262a1 : fuse: break infinite loop in fuse_fill_write_pages() <Roman Gushchin> 1 year, 8 months ago
+b549a06 : splice: Apply generic position and size checks to each write <Ben Hutchings> 2 years, 4 months ago
+955a6fd : fbdev: color map copying bounds checking <Kees Cook> 5 months ago
+3333d01 : Revert "fbcmap: prevent memory overflow" <razorloves> 28 hours ago
+778f576 : usb: diag: prevent showing the address of kernel variable 'port' <chengengjia> 9 months ago
+72583d7 : usb: diag: change %p to %pK in debug messages <Min Chong> 8 months ago
+ec7e362 : cgroup: prefer %pK to %p <Nick Desaulniers> 9 months ago
+ 
+**** cmold:lge-kernel-mako ****
+56ee099 : USB: cypress_m8: add endpoint sanity check <Oliver Neukum> 1 year, 2 months ago
+dee66f9 : unix: properly account for FDs passed over unix sockets <willy tarreau> 1 year, 5 months ago
+741ab25 : splice: introduce FMODE_SPLICE_READ and FMODE_SPLICE_WRITE <Linus Torvalds> 5 months ago
+c0318be : KEYS: Reinstate EPERM for a key type name beginning with a '.' <David Howells> 2 years, 9 months ago
+4e0194e : KEYS: special dot prefixed keyring name bug fix <Mimi Zohar> 3 years, 1 month ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+3f8c79c : sctp: do not inherit ipv6_{mc|ac|fl}_list from parent <Eric Dumazet> 3 weeks ago
+d6bb4ef : ipv6: Check ip6_find_1stfragopt() return value properly. <David S. Miller> 3 weeks ago
+8f01ac1 : ipv6: Prevent overrun when parsing v6 header options <Craig Gallek> 3 weeks ago
+f75065c : msm: mdss: Fix invalid dma attachment during fb shutdown <Benjamin Chan> 6 months ago
+d4aa677 : input: synaptics_dsx: valid bounds of intr_reg_num <Andrew Chant> 9 weeks ago
+9188dae : unix: correctly track in-flight fds in sending process user_struct <Hannes Frederic Sowa> 1 year, 4 months ago
+52ae8b2 : unix: properly account for FDs passed over unix sockets <willy tarreau> 1 year, 5 months ago
+09be64a : msm: mdss: Add sanity check for Gamut LUT size <Ping Li> 5 months ago
+a3a72b1 : qseecom: add mutex around qseecom_set_client_mem_param <Zhen Kong> 3 months ago
+6b09b17 : msm: IPA: add the check on intf query <Skylar Chang> 3 months ago
+2fed1a0 : USB: cypress_m8: add endpoint sanity check <Oliver Neukum> 1 year, 2 months ago
+4fa3de8 : ipv6: fix out of bound writes in __ip6_append_data() <Eric Dumazet> 3 weeks ago
+9d3a61f : ipv6/dccp: do not inherit ipv6_mc_list from parent <WANG Cong> 4 weeks ago
+ 
+**** cmold:android_kernel_motorola_msm8916 ****
+9fc2b0c : ipv6: Prevent overrun when parsing v6 header options <Craig Gallek> 3 weeks ago
+61956b1 : ipv6/dccp: do not inherit ipv6_mc_list from parent <WANG Cong> 4 weeks ago
+63182a7 : sctp: do not inherit ipv6_{mc|ac|fl}_list from parent <Eric Dumazet> 3 weeks ago
+868e618 : ipv6: fix out of bound writes in __ip6_append_data() <Eric Dumazet> 3 weeks ago
+de2e1ab7 : msm-core: debug: Update the number of supported pstates <Archana Sathyakumar> 10 months ago
+e091f99 : msm-core: debug: Fix the number of arguments for sysfs nodes <Archana Sathyakumar> 11 months ago
+4deb7fb : ASoC: msm: initialize the params array before using it <Walter Yang> 9 months ago
+3fff168 : msm: sensor: validating the flash initialization parameters <Gaoxiang Chen> 3 months ago
+1737f86 : qseecom: add mutex around qseecom_set_client_mem_param <Zhen Kong> 3 months ago
+77eeb15 : msm: mdss: Fix invalid dma attachment during fb shutdown <Sachin Bhayare> 6 months ago
+eda6122 : ASoC: Add backend user count checking <Walter Yang> 3 months ago
+332ddcd : input: touchscreen: remove msg21xx mstar touch driver <Shantanu Jain> 4 months ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+0b420df : ANDROID: sdcardfs: d_splice_alias can return error values <Daniel Rosenberg> 19 hours ago
+4b16c37 : UPSTREAM: merge d_materialise_unique() into d_splice_alias() <Al Viro> 2 years, 8 months ago
+e3f2f3d : ANDROID: mnt: Fix next_descendent <Daniel Rosenberg> 10 days ago
+533c69f : ANDROID: sdcardfs: Check for NULL in revalidate <Daniel Rosenberg> 2 weeks ago
+7dac750 : ANDROID: sdcardfs: Add linux/kref.h include <Dmitry Shmidt> 3 weeks ago
+15c629c : ANDROID: sdcardfs: Move top to its own struct <Daniel Rosenberg> 3 weeks ago
+f0ec7a5 : ANDROID: sdcardfs: fix sdcardfs_destroy_inode for the inode RCU approach <Gao Xiang> 4 weeks ago
+91a333a : ANDROID: sdcardfs: Don't iput if we didn't igrab <Daniel Roseberg> 4 weeks ago
+4deaf39 : ANDROID: sdcardfs: Call lower fs's revalidate <Daniel Rosenberg> 6 weeks ago
+12607ee : ANDROID: sdcardfs: Avoid setting GIDs outside of valid ranges <Daniel Rosenberg> 6 weeks ago
+4986494 : ANDROID: sdcardfs: Copy meta-data from lower inode <Daniel Rosenberg> 6 weeks ago
+f7c5642 : Revert "Revert "Android: sdcardfs: Don't do d_add for lower fs"" <Daniel Rosenberg> 7 weeks ago
+c38b737 : ANDROID: sdcardfs: Use filesystem specific hash <Daniel Rosenberg> 7 weeks ago
+fdf54d7 : Revert "Android: sdcardfs: Don't do d_add for lower fs" <Daniel Rosenberg> 7 weeks ago
+3226254 : Android: sdcardfs: Don't complain in fixup_lower_ownership <Daniel Rosenberg> 7 weeks ago
+f77dbb3 : Android: sdcardfs: Don't do d_add for lower fs <Daniel Rosenberg> 7 weeks ago
+0662909 : ANDROID: sdcardfs: ->iget fixes <Daniel Rosenberg> 7 weeks ago
+7700132 : Android: sdcardfs: Change cache GID value <Daniel Rosenberg> 7 weeks ago
+363b82c : ANDROID: sdcardfs: Directly pass lower file for mmap <Daniel Rosenberg> 8 weeks ago
+f6ebef33 : ANDROID: sdcardfs: update module info <Daniel Rosenberg> 3 months ago
+9adbfbf : ANDROID: sdcardfs: use d_splice_alias <Daniel Rosenberg> 3 months ago
+5b215e2 : ANDROID: sdcardfs: add read_iter/write_iter opeations <Daniel Rosenberg> 3 months ago
+f5db540 : ANDROID: sdcardfs: fix ->llseek to update upper and lower offset <Daniel Rosenberg> 3 months ago
+47900b0 : ANDROID: sdcardfs: copy lower inode attributes in ->ioctl <Daniel Rosenberg> 3 months ago
+049d4ca : ANDROID: sdcardfs: remove unnecessary call to do_munmap <Daniel Rosenberg> 3 months ago
+1914f7a : ANDROID: fs: Export vfs_rmdir2 <Guenter Roeck> 4 months ago
+57ddfbe : ANDROID: fs: Export free_fs_struct and set_fs_pwd <Guenter Roeck> 4 months ago
+b00bac8 : ANDROID: sdcardfs: Fix style issues in macros <Daniel Rosenberg> 3 months ago
+3438db4 : ANDROID: sdcardfs: Use seq_puts over seq_printf <Daniel Rosenberg> 3 months ago
+4aba92c : ANDROID: sdcardfs: Use to kstrout <Daniel Rosenberg> 3 months ago
+d291433 : ANDROID: sdcardfs: Use pr_[...] instead of printk <Daniel Rosenberg> 3 months ago
+3f28eb9 : ANDROID: sdcardfs: remove unneeded null check <Daniel Rosenberg> 3 months ago
+e70ce6f : ANDROID: sdcardfs: Fix style issues with comments <Daniel Rosenberg> 3 months ago
+449e09d : ANDROID: sdcardfs: Fix formatting <Daniel Rosenberg> 3 months ago
+3e8115b : ANDROID: sdcardfs: correct order of descriptors <Daniel Rosenberg> 3 months ago
+d996275 : ANDROID: sdcardfs: Fix gid issue <Daniel Rosenberg> 3 months ago
+7702a7b : ANDROID: sdcardfs: Use tabs instead of spaces in multiuser.h <Daniel Rosenberg> 3 months ago
+40af9e9 : ANDROID: sdcardfs: Remove uninformative prints <Daniel Rosenberg> 3 months ago
+e97b560 : ANDROID: sdcardfs: move path_put outside of spinlock <Daniel Rosenberg> 3 months ago
+cb3180a : ANDROID: sdcardfs: Use case insensitive hash function <Daniel Rosenberg> 3 months ago
+ab7a0a1 : ANDROID: sdcardfs: declare MODULE_ALIAS_FS <Daniel Rosenberg> 3 months ago
+3f4633e : ANDROID: sdcardfs: Get the blocksize from the lower fs <Daniel Rosenberg> 3 months ago
+43f589b : ANDROID: sdcardfs: Use d_invalidate instead of drop_recurisve <Daniel Rosenberg> 3 months ago
+51a670b : ANDROID: sdcardfs: Switch to internal case insensitive compare <Daniel Rosenberg> 3 months ago
+dc227f3 : ANDROID: sdcardfs: Use spin_lock_nested <Daniel Rosenberg> 3 months ago
+fcf76cf : ANDROID: sdcardfs: Replace get/put with d_lock <Daniel Rosenberg> 3 months ago
+d6603ca : ANDROID: sdcardfs: rate limit warning print <Daniel Rosenberg> 3 months ago
+89d2432 : ANDROID: sdcardfs: Fix case insensitive lookup <Daniel Rosenberg> 3 months ago
+a5b64bb : mm: Export do_munmap <Guenter Roeck> 1 year, 2 months ago
+1cf91dc : power: Synchronize with OxygenOS 4.1.5 <dianlujitao> 35 hours ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+62aa625 : sctp: do not inherit ipv6_{mc|ac|fl}_list from parent <Eric Dumazet> 3 weeks ago
+c7652e5 : ipv6: Prevent overrun when parsing v6 header options <Craig Gallek> 3 weeks ago
+bc394f5 : KEYS: Reinstate EPERM for a key type name beginning with a '.' <David Howells> 2 years, 9 months ago
+4008ea9 : KEYS: special dot prefixed keyring name bug fix <Mimi Zohar> 3 years, 1 month ago
+491315e : USB: cypress_m8: add endpoint sanity check <Oliver Neukum> 1 year, 2 months ago
+ 
+**** vanir:packages_apps_Email ****
+ea4eb75 : Adjust Email UnitTests to e353ae2ea19c9ea800d10b37e05de7b0ea1aeeb4 <Zennoe> 17 hours ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+93bcb4c : Gallery2: support GIF animation <Likai Ding> 3 years, 10 months ago
+ 
+**** cm:LineageOS/android_packages_apps_Jelly ****
+22cb565 : Implement history management through a ContentProvider. <Danny Baumann> 8 days ago
+ 
+**** vanir:packages_apps_Messaging ****
+3ee58a0 : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 3 months ago
+ 
+**** cm:LineageOS/android_packages_apps_Terminal ****
+5856a60 : Terminal: Fix keyboard Ctrl- and ALT-key input. <Patrik Stromdahl> 11 days ago
+18225bd : Terminal: all menu items should have their proper icon <Joey Rizzoli> 9 days ago
+ca41ebc : Terminal: update main theme color for improved readability <Joey Rizzoli> 9 days ago
+0ec9d32 : Terminal: fix preference defaults <Joey Rizzoli> 9 days ago
+5d69fc4 : Terminal: volume keys as up/down <Joey Rizzoli> 9 days ago
+ 
+**** cm:LineageOS/android_packages_apps_OpenWeatherMapProvider ****
+3fe4133 : Add back key to actionbar <Joey Rizzoli> 3 days ago
+b9b9cce : Add openweathermap copyright <Joey Rizzoli> 3 days ago
+d0d73c5 : Add icon <Joey Rizzoli> 3 days ago
+dccb527 : Refactor cyanogenmod -> lineageos <Joey Rizzoli> 3 days ago
+9d01897 : Update gradle <Joey Rizzoli> 3 days ago
+ 
+**** cm:LineageOS/android_packages_apps_YahooWeatherProvider ****
+bf4c5a3 : Don't fail when a translation is missing <Joey Rizzoli> 23 hours ago
+6110585 : Update app name to match other providers <Joey Rizzoli> 3 days ago
+a0d2c7c : Update icon <Joey Rizzoli> 3 days ago
+fd3221f : Refactor cyanogemod -> lineageos <Joey Rizzoli> 3 days ago
+5cb7ddf : Update gradle <Joey Rizzoli> 3 days ago
+ 
+**** cm:LineageOS/android_packages_apps_WundergroundWeatherProvider ****
+3e9b1c1 : Don't fail when a translation is missing <Joey Rizzoli> 23 hours ago
+3a8340c : Update icon <Joey Rizzoli> 3 days ago
+a195bb4 : Refactor cyanogenmod -> lineageos <Joey Rizzoli> 3 days ago
+a1ff743 : Update gradle <Joey Rizzoli> 3 days ago
+ 
+**** commotio:commotio ****
+5f3a73b : Fingerprinted <DHOMD> 21 hours ago
+ 
+**** github:TheMuppets/proprietary_vendor_google ****
+00b8b8a : marlin: build nfc hals from source <Christian Oder> 6 weeks ago
+751260f : marlin: update blobs from NJH47B <Dan Pasanen> 3 days ago
+ 
+**** vanir:vendor_lge ****
+465bb65 : bullhead: update blobs from N2G47W factory image <razorloves> 2 days ago
+737e197 : msm8996: Add board specific HotwordEnrollment <Rashed Abdel-Tawab> 4 days ago
+ 
+**** vanir:vendor_motorola ****
+afeaa28 : shamu: update blobs from N6F27E factory image <razorloves> 2 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+1c4faaa : op3: Update to OxygenOS 4.1.5 blobs <dianlujitao> 29 hours ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+c9e65ac : Add a barrier for Marlin/Sailfish <DHOMD> 3 months ago
+ 
+**** vanir:vendor_vanir ****
+81ec56d : Fingerprinted <DHOMD> 21 hours ago
+ 
