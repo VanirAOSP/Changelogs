@@ -1,0 +1,166 @@
+
+**** vanir:bootable_recovery_twrp ****
+39662b2 : Fix minui issues for some build trees <Ethan Yonker> 3 weeks ago
+ 
+**** vanir:build ****
+14d2a98 : Build hacks <DHOMD> 8 months ago
+c3e7f17 : Makefile: Add the missing dependency on FUTILITY. <Tao Bao> 4 months ago
+f36f76a : Build FUTILITY tool from futility-host. <Tao Bao> 4 months ago
+ 
+**** vanir:device_google_marlin ****
+95e1945 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 3 months ago
+31cf4f9 : Revert "marlin: disable our local telephony extensions" <DHOMD> 3 months ago
+ 
+**** vanir:device_htc_m7-common ****
+7023ac7 : m7-common: Update Adreno libraries <Matt Mower> 3 months ago
+77474e8 : Revert usage of vendor/qcom graphics blobs <Mikhail Chowdhury> 3 months ago
+ 
+**** cm:LineageOS/android_device_htc_pme ****
+cea96b1 : pme: Enable Universal Bandwidth Compression for ISP <Christopher N. Hesse> 4 weeks ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+ea48546 : Otus: Fix FM Radio <DHOMD> 5 months ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+bf37003 : op3: Update ril header for 7.1.2 <dianlujitao> 2 days ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+44447e8 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 7 months ago
+ 
+**** vanir:frameworks_base ****
+99bf8fc : SystemUI: allow user to dismiss a locked task by swiping it away manually <Joey Rizzoli> 8 days ago
+5ebba8f : SystemUI: animate icon when locking a task <Joey Rizzoli> 8 days ago
+6c158c6 : SystemUI: Support recents task locking <Anas Karbila> 6 weeks ago
+4b3a0fd : fingerprint: handle PerformanceStats NULL pointers <Ícaro Hoff> 7 days ago
+6ab406c : Optimised hwui rounded corners shader <Arun> 5 months ago
+2dbfdfd : Remove FastJNI optimization on AssetManager to avoid dead lock. <Tim Zhang> 4 months ago
+ 
+**** cm:LineageOS/android_hardware_ti_omap4 ****
+1738329 : omap4: Correct disabling of dirty regions invalidation <D. Andrei Măceș> 4 weeks ago
+ 
+**** cmold:android_kernel_htc_msm8960 ****
+0ce5798 : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 5 weeks ago
+147e28c : netfilter: x_tables: don't move to non-existent next rule <Florian Westphal> 1 year, 2 months ago
+a423c46 : netfilter: qtaguid: Don't BUG_ON if create_if_tag_stat fails <Pontus Fuchs> 4 years, 7 months ago
+96e7804 : netfilter: IDLETIMER: fix invalid deference of timer <JP Abgrall> 2 years, 6 months ago
+78a09b5 : netfilter: xt_qtaguid: fix error exit that would keep a spinlock. <JP Abgrall> 4 years, 8 months ago
+ 
+**** cmold:android_kernel_huawei_kiwi ****
+c381181 : prima: Avoid overflow of "set_bssid_hotlist" params <Hanumanth Reddy Pothula> 5 months ago
+1b162c9 : qcacld-2.0: Avoid overflow of "significant change" params <Jeff Johnson> 6 months ago
+777ce95 : msm: cpp: Validate frame message before manipulating it <Iliya Varadzhakov> 3 years ago
+ad6ec80 : msm: mdss: Add sanity check for Gamut LUT size <Ping Li> 5 months ago
+9073cd6 : ext4: fix data exposure after a crash <Jan Kara> 16 years ago
+4c8efb6 : ipv6: fix out of bound writes in __ip6_append_data() <Eric Dumazet> 3 weeks ago
+bad7b95 : ipv6/dccp: do not inherit ipv6_mc_list from parent <WANG Cong> 5 weeks ago
+3f51dd8 : sctp: do not inherit ipv6_{mc|ac|fl}_list from parent <Eric Dumazet> 4 weeks ago
+d0b5ee1 : ipv6: Prevent overrun when parsing v6 header options <Craig Gallek> 4 weeks ago
+8c8fce7 : fscrypt: remove broken support for detecting keyring key revocation <Eric Biggers> 4 months ago
+66b76d6 : KEYS: Fix ASN.1 indefinite length object parsing <David Howells> 1 year, 4 months ago
+ 
+**** cmold:lge-kernel-mako ****
+383245e : ext4: fix condition of validate s_first_meta_bg <syphyr> 27 hours ago
+b6b1df8 : net/packet: fix overflow in check for priv area size <Andrey Konovalov> 3 months ago
+a18e186 : net/packet: fix overflow in check for tp_reserve <Andrey Konovalov> 3 months ago
+5e68554 : net/packet: fix overflow in check for tp_frame_nr <Andrey Konovalov> 3 months ago
+3de35f6 : packet: handle too big packets for PACKET_V3 <Eric Dumazet> 2 years, 10 months ago
+d289f95 : xfrm_user: validate XFRM_MSG_NEWAE incoming ESN size harder <Andy Whitcroft> 3 months ago
+21fb36d : xfrm_user: validate XFRM_MSG_NEWAE XFRMA_REPLAY_ESN_VAL replay_window <Andy Whitcroft> 3 months ago
+e921104 : xfrm_user: ensure user supplied esn replay window is valid <Mathias Krause> 4 years, 9 months ago
+196540d : packet: fix races in fanout_add() <Eric Dumazet> 4 months ago
+384a965 : ipc/shm: Fix shmat mmap nil-page protection <Davidlohr Bueso> 3 months ago
+e509453 : soc: qcom: scm: add check to avoid buffer overflow <Satya Durga Srinivasu Prabhala> 8 months ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+6d7c49e : prima: Use heap memory for station_info instead of stack <kaliu> 10 months ago
+8795ace : ping: implement proper locking <Eric Dumazet> 3 months ago
+9d16270 : ext4: fix fencepost in s_first_meta_bg validation <Theodore Ts'o> 4 months ago
+dc00714 : ext4: fix condition of validate s_first_meta_bg <syphyr> 27 hours ago
+ 
+**** cmold:android_kernel_motorola_omap4-common ****
+87e2ac9 : defconfig: enable rpfilter-match for IPv4/6 <Michael Gernoth> 2 days ago
+6de3579 : netfilter: add ipv6 reverse path filter match <Florian Westphal> 6 years ago
+ce5fb88 : ipv6: add ip6_route_lookup <Florian Westphal> 6 years ago
+089e761 : netfilter: add ipv4 reverse path filter match <Florian Westphal> 6 years ago
+143311d : mac80211: fix build-failure for unused module <Michael Gernoth> 2 days ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+34ac328 : drivers: video: Add bounds checking in fb_cmap_to_user <Steve Pfetsch> 8 months ago
+e88a34a : net: ping: check minimum size on ICMP header length <Kees Cook> 6 months ago
+f296382 : ipv4: Don't do expensive useless work during inetdev destroy. <David S. Miller> 1 year, 3 months ago
+02d704e : pipe: limit the per-user amount of pages allocated in pipes <Willy Tarreau> 1 year, 5 months ago
+3db1bb7 : net: add length argument to skb_copy_and_csum_datagram_iovec <Sabrina Dubroca> 1 year, 8 months ago
+aba166a : sysctl: Drop reference added by grab_header in proc_sys_readdir <Zhou Chengming> 5 months ago
+655532d : ipv6: fix out of bound writes in __ip6_append_data() <Eric Dumazet> 3 weeks ago
+ee8ec7f : ipv6/dccp: do not inherit ipv6_mc_list from parent <WANG Cong> 5 weeks ago
+2b82ad6 : sctp: do not inherit ipv6_{mc|ac|fl}_list from parent <Eric Dumazet> 4 weeks ago
+b10e13e : ipv6: Prevent overrun when parsing v6 header options <Craig Gallek> 4 weeks ago
+44f8c37 : ext4: fix deadlock during page writeback <Jan Kara> 11 months ago
+20f7253 : ext4: fix data exposure after a crash <Jan Kara> 16 years ago
+276fdcc : bpf: don't let ldimm64 leak map addresses on unprivileged <Daniel Borkmann> 5 weeks ago
+ 
+**** cmold:android_kernel_samsung_smdk4412 ****
+2a7c21d : cypress: Fix brightness when led_on_keypress is active <Dominggoes Isakh> 4 days ago
+0a6801a : smdk4412: Disable samsung_extdisp driver <Filip Blagojevic> 2 days ago
+ 
+**** cmold:android_kernel_xiaomi_msm8992 ****
+f4012bd : cpufreq: cpu-boost: Remove migration sync boost <Junjie Wu> 2 years, 2 months ago
+f01f21a : iio: cm36686: remove x7 hal support <Demon000> 15 hours ago
+15410bd : ipv6: Prevent overrun when parsing v6 header options <Craig Gallek> 4 weeks ago
+e9d1046 : sctp: do not inherit ipv6_{mc|ac|fl}_list from parent <Eric Dumazet> 4 weeks ago
+2714288 : splice: introduce FMODE_SPLICE_READ and FMODE_SPLICE_WRITE <Linus Torvalds> 5 months ago
+f2827fd : net/packet: fix overflow in check for tp_frame_nr <Andrey Konovalov> 3 months ago
+1fbf0e5 : KEYS: Change the name of the dead type to ".dead" to prevent user access <David Howells> 8 weeks ago
+2912dac : ip6_gre: fix ip6gre_err() invalid reads <Eric Dumazet> 4 months ago
+de51508 : KEYS: Disallow keyrings beginning with '.' to be joined as session keyrings <David Howells> 8 weeks ago
+864042e : net: ping: check minimum size on ICMP header length <Kees Cook> 6 months ago
+d731691 : netfilter: x_tables: check for size overflow <Florian Westphal> 1 year, 3 months ago
+bb0d27d : ASoC: msm: disable unwanted module <Ravi Kumar Alamanda> 1 year, 2 months ago
+cfadaa3 : BACKPORT: fs: limit filesystem stacking depth <Miklos Szeredi> 2 years, 8 months ago
+1218da8 : ipv6: fix out of bound writes in __ip6_append_data() <Eric Dumazet> 3 weeks ago
+70bea07 : ipv6/dccp: do not inherit ipv6_mc_list from parent <WANG Cong> 5 weeks ago
+6c5b76f : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 5 weeks ago
+fe7ccb7 : mm: Tighten x86 /dev/mem with zeroing reads <Kees Cook> 10 weeks ago
+078df42 : mm/mempolicy.c: fix error handling in set_mempolicy and mbind. <Chris Salls> 9 weeks ago
+032a888 : ext4: fix data exposure after a crash <Jan Kara> 1 year, 2 months ago
+bbaf2cf : KEYS: fix keyctl_set_reqkey_keyring() to not leak thread keyrings <Eric Biggers> 8 weeks ago
+fdeb192 : net/packet: fix overflow in check for priv area size <Andrey Konovalov> 3 months ago
+f66c527 : net/packet: fix overflow in check for tp_reserve <Andrey Konovalov> 3 months ago
+595617f : net/packet: fix overflow in check for tp_frame_nr <Andrey Konovalov> 3 months ago
+d1f9faa : scsi: sg: check length passed to SG_NEXT_CMD_LEN <peter chang> 4 months ago
+cbf08e2 : BACKPORT: sg: relax 16 byte cdb restriction <Douglas Gilbert> 3 years ago
+d736f22 : BACKPORT: block: add blk_rq_set_block_pc() <Jens Axboe> 3 years ago
+085829a : sg_write()/bsg_write() is not fit to be called under KERNEL_DS <Al Viro> 6 months ago
+5a9ff43 : KEYS: Fix handling of stored error in a negatively instantiated user key <David Howells> 1 year, 7 months ago
+a6aeb4e : ipv6: addrconf: validate new MTU before applying it <Marcelo Leitner> 2 years, 4 months ago
+eb8eb12 : net: add length argument to skb_copy_and_csum_datagram_iovec <Sabrina Dubroca> 1 year, 8 months ago
+3a2a440 : Input: aiptek - fix crash on detecting device without endpoints <Vladis Dronov> 1 year, 6 months ago
+e58cf5b : mnt: Fail collect_mounts when applied to unmounted mounts <Eric W. Biederman> 2 years, 5 months ago
+46bcf9e : tty: Fix hang at ldsem_down_read() <Peter Hurley> 3 years, 6 months ago
+841c08d : packet: fix races in fanout_add() <Eric Dumazet> 4 months ago
+72069ee : irda: Fix lockdep annotations in hashbin_delete(). <David S. Miller> 4 months ago
+db5d72a : drivers: video: Add bounds checking in fb_cmap_to_user <Steve Pfetsch> 8 months ago
+82d3fbb : sctp: deny peeloff operation on asocs with threads sleeping on it <Marcelo Ricardo Leitner> 4 months ago
+43d84fb : net/llc: avoid BUG_ON() in skb_orphan() <Eric Dumazet> 4 months ago
+8d7f735 : BACKPORT: tcp: avoid infinite loop in tcp_splice_read() <Eric Dumazet> 4 months ago
+b8ba99f : dccp: fix freeing skb too early for IPV6_RECVPKTINFO <Andrey Konovalov> 4 months ago
+7def639 : sctp: avoid BUG_ON on sctp_wait_for_sndbuf <Marcelo Ricardo Leitner> 4 months ago
+f4c7892 : ipc/shm: Fix shmat mmap nil-page protection <Davidlohr Bueso> 4 months ago
+f7b22fe : tty: n_hdlc: get rid of racy n_hdlc.tbuf <Alexander Popov> 3 months ago
+74f8d7e : TTY: n_hdlc, fix lockdep false positive <Jiri Slaby> 1 year, 7 months ago
+4fabd55 : ext4: validate s_first_meta_bg at mount time <Eryu Guan> 6 months ago
+7f076e4 : libceph: introduce ceph_crypt() for in-place en/decryption <Ilya Dryomov> 6 months ago
+189ca58 : kernel: Fix potential refcount leak in su check <Tom Marshall> 3 weeks ago
+fe94fde : kernel: Only expose su when daemon is running <Tom Marshall> 5 months ago
+54d5670 : Kconfig: msm: disable ultrasound driver <Nick Desaulniers> 6 months ago
+74868f9 : netlink: Fix dump skb leak/double free <Herbert Xu> 1 year, 1 month ago
+ 
+**** vanir:packages_apps_Messaging ****
+e7ff1a5 : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 3 months ago
+ 
+**** cm:LineageOS/android_packages_apps_Snap ****
+78666b5 : Snap: Simulate back button press when menu back button is pressed <Gabriele M> 5 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+fd8cdcf : Add a barrier for Marlin/Sailfish <DHOMD> 3 months ago
+ 
