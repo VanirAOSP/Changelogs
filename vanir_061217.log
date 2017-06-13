@@ -1,0 +1,107 @@
+
+**** vanir:build ****
+ce3c3de : Build hacks <DHOMD> 8 months ago
+ 
+**** vanir:device_google_marlin ****
+2369062 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 3 months ago
+ade6d31 : Revert "marlin: disable our local telephony extensions" <DHOMD> 3 months ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+f769a80 : Otus: Fix FM Radio <DHOMD> 5 months ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+6d3a0b4 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 7 months ago
+ 
+**** vanir:frameworks_base ****
+f61b778 : Fix a use-of-uninitialized-value warning. <George Burgess IV> 5 months ago
+f3c417c : Fix a use-of-uninitialized-value warning. <George Burgess IV> 5 months ago
+05bdf55 : Check for spurious wake ups <Tom Cherry> 3 months ago
+336f3b3 : Reduce hwui CPU time by using glDrawRangeElements <Arun> 5 months ago
+6334326 : Stop holding mProxyLock while downloading PAC script data. <Daichi Hirono> 3 months ago
+b715a08 : Format Japanese numbers using national format when in Japan. <Tyler Gunn> 4 months ago
+fd4fa4f : NullPointerException: Attempt to invoke virtual method 'int android.os.Parcel.dataSize()' on a null object reference <liangweikang@xiaomi.com> 3 months ago
+ 
+**** cmold:android_kernel_google_msm ****
+21e685a : fs/proc/array.c: make safe access to group_leader <Adrian Salido> 6 months ago
+9e83134 : ALSA: info: Check for integer overflow in snd_info_entry_write() <Siqi Lin> 7 months ago
+c746791 : perf: don't leave group_entry on sibling list (use-after-free) <John Dias> 7 months ago
+9d79404 : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 5 weeks ago
+b3a21c4 : sctp: do not inherit ipv6_{mc|ac|fl}_list from parent <Eric Dumazet> 4 weeks ago
+92e4d26 : ipv6/dccp: do not inherit ipv6_mc_list from parent <WANG Cong> 5 weeks ago
+c0138cd : ipv6: fix out of bound writes in __ip6_append_data() <Eric Dumazet> 3 weeks ago
+ 
+**** cmold:android_kernel_lge_g3 ****
+59ed959 : sdcardfs: limit stacking depth <Andrew Chant> 4 months ago
+e90293a : BACKPORT: fs: limit filesystem stacking depth <Miklos Szeredi> 2 years, 8 months ago
+ 
+**** cmold:lge-kernel-mako ****
+870de5c : mm/mempolicy.c: fix error handling in set_mempolicy and mbind. <Chris Salls> 9 weeks ago
+3d232fa : ext4: fix fencepost in s_first_meta_bg validation <Theodore Ts'o> 4 months ago
+ 
+**** cmold:android_kernel_samsung_jf ****
+84402df : drivers: staging: prima: build non-debug version and don't panic on error <sombree> 10 months ago
+4a269a6 : drivers: staging: make prima buildable <sombree> 10 months ago
+e8fafd8 : drivers/sensors: Add i9515/i9515L <sombree> 1 year, 4 months ago
+f3702b1 : fix issue with faster extSDCards <John> 1 year, 6 months ago
+2f0e3c6 : Bring changes from board-jf_eur.c <root> 1 year, 10 months ago
+ab1e9d7 : net/wireless: Fix kernel crash while doing iwlist scan <Ming-yi Lin> 3 years, 5 months ago
+f8b8d10 : cfg80211: avoid restoring the regulatory during disconnect <Sachin Ahuja> 3 years, 2 months ago
+331f68c : cfg80211: unblock user hint when cfg80211_regdom is intersected <Mihir Shete> 3 years, 3 months ago
+4c290d9 : msm: wlan: Regulatory callback is ignored second time. <Bhargav Shah> 1 year, 11 months ago
+d222ebe : msm: wlan: Update tx power limits of country UA <Agrawal Ashish> 1 year, 5 months ago
+c623bd4 : msm: wlan: Update regulatory database for some countries <Agrawal Ashish> 1 year, 5 months ago
+17ad9dd : cfg80211: add space after the b/w in db.txt <Mihir Shete> 2 years, 3 months ago
+d2313c3 : regulatory: add 5.9 GHz frequency range to US regulatory domain <Samuel Ahn> 2 years, 6 months ago
+7e49b35 : msm: wlan: Update the wifi regulatory database <Chandrasekaran, Manishekar> 2 years, 7 months ago
+bb7c875 : msm: wlan: Update US wifi database for TDWR channels <Chandrasekaran, Manishekar> 2 years, 8 months ago
+a1e75c2 : msm: wlan: correct db.txt for country code RU <Manishekar Chandrasekaran> 2 years, 11 months ago
+5d5327f : nl80211: fix attrbuf access race by allocating a separate one <Johannes Berg> 4 years ago
+8fb5fda : cfg80211: Add attributes describing prohibited channel bandwidth <Rostislav Lisovy> 2 years, 6 months ago
+c6a1fb1 : cfg80211: add a flag to indicate inclusion of wdev and ifindex <Ahmad Kholaif> 2 years, 3 months ago
+804f8bb : cfg80211: allow drivers to selectively disable 80/160 MHz <Johannes Berg> 4 years, 6 months ago
+ea5b5c4 : nl80211: Fix backport of struct wiphy_vendor_command <Jeff Johnson> 2 years, 6 months ago
+286a6fd : nl80211: Correct the usage of command NL80211_CMD_VENDOR <Sunil Dutt> 3 years, 1 month ago
+e3e805d : cfg80211: Correct API cfg80211_vendor_cmd_reply_skb <Amar Singhal> 3 years, 4 months ago
+61be203 : cfg80211: Add new wiphy flag WIPHY_FLAG_DFS_OFFLOAD <Amar Singhal> 3 years, 5 months ago
+dde909c : mac80211: implement HS2.0 gratuitous ARP/unsolicited NA dropping <Johannes Berg> 3 years, 4 months ago
+f4a6fd2 : cfg80211: Allow NL80211_ATTR_IFINDEX to be added to vendor events <Ahmad Kholaif> 2 years, 4 months ago
+88a08e3 : cfg80211: Backport the channel switch notify event for VHT support. <Amarnath Hullur Subramanyam> 2 years, 4 months ago
+45ec49e : cfg80211: add channel switch notify event <Thomas Pedersen> 5 years ago
+4e2ea70 : msm: wlan: Restore missing functionalities from nl80211_send_wiphy <Chandrasekaran, Manishekar> 2 years, 5 months ago
+89734d4 : nl80211: allow splitting wiphy information in dumps <Johannes Berg> 2 years, 6 months ago
+085b829 : cfg80211: Allow use_mfp to be specified with the connect command <Jouni Malinen> 3 years ago
+7326c8a : cfg80211: Advertise maximum associated STAs in AP mode <Jouni Malinen> 3 years ago
+4b3707c : wcnss: Configure WLAN MAC addr through user control interface <Hardik Kantilal Patel> 3 years, 3 months ago
+c6b76a9 : wlan: Remove support for deprecated api get/set countryrev <Srinivas Girigowda> 3 years, 10 months ago
+1511eb7 : wlan: EnableStrictRegulatoryForFCC should be False by default. <Agarwal Ashish> 2 years, 11 months ago
+b10ae8e : wlan: Synchronize country code HDD ioctl <Sameer Thalappil> 3 years, 9 months ago
+a3098ee : wlan: Correcting timeout value for event driver_crda_req. <Madan Mohan Koyyalamudi> 3 years, 10 months ago
+40d712e : wlan: Send directed Probe Request frames only for hidden SSIDs. <Mahesh A Saptasagar> 2 years, 11 months ago
+eea595c : wlan: Address buffer overflow due to invalid length <Mahesh A Saptasagar> 1 year, 8 months ago
+365ae57 : wlan: Get Mac addr from platform driver <Hardik Kantilal Patel> 3 years, 6 months ago
+2c46cfc : qcacld 2.0: Validate WPA and RSN IE for valid length <Mahesh A Saptasagar> 1 year, 3 months ago
+f929dff : wlan:Check priviledge permission <Mukul Sharma> 1 year, 3 months ago
+379b66d : wlan:Check priviledge permission <Mukul Sharma> 1 year, 3 months ago
+ad8f5c6 : wlan:Check priviledge permission <Mukul Sharma> 1 year, 3 months ago
+fa141a2 : wlan:Check priviledge permission <Hanumantha Reddy Pothula> 1 year, 3 months ago
+76c3912 : wlan:Check priviledge permission <Mukul Sharma> 1 year, 3 months ago
+7ac035a : wlan:Check priviledge permission <Mukul Sharma> 1 year, 3 months ago
+f48bd43 : wlan:Check priviledge permission <Mukul Sharma> 1 year, 3 months ago
+9e1ebb6 : wlan:Check priviledge permission before processing <Mukul Sharma> 1 year, 3 months ago
+73fe7e7 : wlan:Check priviledge permission before processing <Mukul Sharma> 1 year, 3 months ago
+ 
+**** vanir:packages_apps_Messaging ****
+69a18bc : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 3 months ago
+ 
+**** cm:LineageOS/android_packages_apps_Snap ****
+d7247ff : Add orientation correction for landscape devices <andralex8> 2 weeks ago
+ 
+**** vanir:packages_services_Telephony ****
+a40c8ca : Fix Phone Service crash on MSIM devices as Guest user <Alberto97> 10 days ago
+ 
+**** vanir:vendor_htc ****
+af4bccb : m7/m7spr/m7zvw: Regenerate makefiles <Matt Mower> 3 months ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+aab758e : Add a barrier for Marlin/Sailfish <DHOMD> 3 months ago
+ 
