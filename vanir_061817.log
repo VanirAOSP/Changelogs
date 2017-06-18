@@ -1,0 +1,280 @@
+
+**** vanir:bootable_recovery_twrp ****
+9efbe76 : Fix incorrect 'unlink' return value check <nkk71> 5 days ago
+56cf564 : twrpDigest refactor <bigbiff bigbiff> 10 months ago
+ 
+**** vanir:build ****
+e29b839 : Build hacks <DHOMD> 8 months ago
+528b46e : Revert "Preventing default locale from being overridden because of buildinfo.sh" <Michael Bestas> 2 days ago
+a4075bf : Revert "build: skip 'ro.product.device' using  new macro "TARGET_SKIP_PRODUCT_DEVICE"" <Michael Bestas> 2 days ago
+ 
+**** cm:LineageOS/android_device_cyanogen_msm8916-common ****
+a1145cc : msm8916: Enable automatic brightness by default <Christopher N. Hesse> 9 weeks ago
+c327e33 : msm8916: Hide sRGB toggle in developer options <dianlujitao> 4 months ago
+ 
+**** vanir:device_google_marlin ****
+c9bb84c : Add a proper barrier and use vendor/caf/telephony <DHOMD> 3 months ago
+efbe7d2 : Revert "marlin: disable our local telephony extensions" <DHOMD> 3 months ago
+ 
+**** vanir:device_htc_flounder ****
+71d1c55 : flounder: Enable sdcardfs <Bruno Martins> 9 days ago
+ 
+**** vanir:device_huawei_angler ****
+4767852 : angler: build nfc from source <Christian Oder> 8 weeks ago
+ 
+**** vanir:device_lge_bullhead ****
+d837e95 : bullhead: build nfc from source <Myself5> 8 weeks ago
+ 
+**** vanir:device_lge_g3-common ****
+96602eb : g3-common: disable NfcF HCE <Exodus> 2 days ago
+ 
+**** vanir:device_lge_g4-common ****
+d6cd8c6 : g4: Enable HW based full disk encryption <codeworkx> 8 hours ago
+91c033b : g4: sepolicy: fix timekeep denials <codeworkx> 8 hours ago
+90e177d : g4: sepolicy: fix snap denial <codeworkx> 9 hours ago
+dccac22 : g4: add camera shim <codeworkx> 11 hours ago
+ 
+**** vanir:device_lge_hammerhead ****
+7788436 : Xtra Patch - https <Wyatt Riley> 8 months ago
+57f5414 : hammerhead: change to izatcloud xtra servers <razorloves> 16 hours ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+8369c82 : Otus: Fix FM Radio <DHOMD> 5 months ago
+ 
+**** vanir:device_oneplus_bacon ****
+5205ada : bacon: disable NfcF HCE <Simon Shields> 10 days ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+8cb292a : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 7 months ago
+1262e2f : msm8974: Hide sRGB toggle in developer options <dianlujitao> 4 months ago
+ 
+**** cm:LineageOS/android_device_oppo_n3 ****
+5faf374 : n3: disable NfcF HCE <Simon Shields> 10 days ago
+ 
+**** vanir:device_qcom_common ****
+5985a61 : power: Use the correct opcode for STOR_CLK_SCALE_DIS <Diogo Ferreira> 6 weeks ago
+ 
+**** vanir:device_samsung_klte ****
+6278585 : klte: disable NfcF HCE <Simon Shields> 10 days ago
+ 
+**** cm:LineageOS/android_hardware_qcom_audio ****
+bcd773f : aenc-aac: bounds checking <Aalique Grahame> 3 months ago
+ 
+**** cm:LineageOS/android_hardware_ril ****
+5758b0e : ril: fix a memory leak. <Yunlian Jiang> 7 months ago
+ 
+**** cm:LineageOS/android_hardware_ril ****
+588e49d : ril: fix a memory leak. <Yunlian Jiang> 7 months ago
+ 
+**** cmold:android_kernel_cyanogen_msm8916 ****
+3c2bbc0 : ipv6: fix out of bound writes in __ip6_append_data() <Eric Dumazet> 4 weeks ago
+153fc02 : ipv6/dccp: do not inherit ipv6_mc_list from parent <WANG Cong> 6 weeks ago
+ddb5d9e : sctp: do not inherit ipv6_{mc|ac|fl}_list from parent <Eric Dumazet> 5 weeks ago
+2775758 : ipv6: Prevent overrun when parsing v6 header options <Craig Gallek> 5 weeks ago
+6853f32 : qseecom: add mutex around qseecom_set_client_mem_param <Zhen Kong> 4 months ago
+15acd75 : msm: sensor: validating the flash initialization parameters <Gaoxiang Chen> 3 months ago
+b0eebc2 : crypto: ahash - Fix EINPROGRESS notification callback <Herbert Xu> 10 weeks ago
+5e593fe : crypto: hash - Add crypto_ahash_has_setkey <Herbert Xu> 1 year, 5 months ago
+abd9734 : crypto: ahash - ensure statesize is non-zero <Russell King> 1 year, 8 months ago
+ccd6481 : crypto: hash - initialize entry len for null input in crypto hash sg list walk <Tim Chen> 2 years, 11 months ago
+5959352 : crypto: hash - Add real ahash walk interface <Herbert Xu> 3 years, 1 month ago
+d9fec0e : crypto: hash - Simplify the ahash_finup implementation <Marek Vasut> 3 years, 3 months ago
+6bf3c09 : crypto: hash - Pull out the functions to save/restore request <Marek Vasut> 3 years, 3 months ago
+441a7f8 : crypto: hash - Fix the pointer voodoo in unaligned ahash <Marek Vasut> 3 years, 3 months ago
+b3db3d6 : crypto: ahash - Fully restore ahash request before completing <Marek Vasut> 3 years, 6 months ago
+7259ff7 : ext4: fix data exposure after a crash <Jan Kara> 1 year, 2 months ago
+eddd0c4 : msm: mdss: Fix invalid dma attachment during fb shutdown <Sachin Bhayare> 6 months ago
+67e8e36 : ping: implement proper locking <Eric Dumazet> 3 months ago
+34cb526 : USB: cypress_m8: add endpoint sanity check <Oliver Neukum> 1 year, 3 months ago
+2614911 : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 6 weeks ago
+e810ca0 : mm/mempolicy.c: fix error handling in set_mempolicy and mbind. <Chris Salls> 2 months ago
+2cc8364 : ip6_gre: fix ip6gre_err() invalid reads <Eric Dumazet> 4 months ago
+ 
+**** cmold:android_kernel_htc_flounder ****
+5b585d2 : ANDROID: sdcardfs: d_splice_alias can return error values <Daniel Rosenberg> 11 days ago
+f9f22de : ANDROID: mnt: Fix next_descendent <Daniel Rosenberg> 3 weeks ago
+abf308e : ANDROID: sdcardfs: Check for NULL in revalidate <Daniel Rosenberg> 4 weeks ago
+e7eef63 : ANDROID: sdcardfs: Add linux/kref.h include <Dmitry Shmidt> 5 weeks ago
+b981fa4 : ANDROID: sdcardfs: Move top to its own struct <Daniel Rosenberg> 5 weeks ago
+c847be3 : ANDROID: sdcardfs: fix sdcardfs_destroy_inode for the inode RCU approach <Gao Xiang> 6 weeks ago
+90fcc30 : ANDROID: sdcardfs: Don't iput if we didn't igrab <Daniel Roseberg> 6 weeks ago
+3f20852 : ANDROID: sdcardfs: Call lower fs's revalidate <Daniel Rosenberg> 8 weeks ago
+08b9fe5 : ANDROID: sdcardfs: Avoid setting GIDs outside of valid ranges <Daniel Rosenberg> 8 weeks ago
+69628b3 : Revert "Revert "Android: sdcardfs: Don't do d_add for lower fs"" <Daniel Rosenberg> 8 weeks ago
+352b9b7 : ANDROID: sdcardfs: Use filesystem specific hash <Daniel Rosenberg> 8 weeks ago
+580264d : Revert "Android: sdcardfs: Don't do d_add for lower fs" <Daniel Rosenberg> 8 weeks ago
+6fa7074 : Android: sdcardfs: Don't complain in fixup_lower_ownership <Daniel Rosenberg> 9 weeks ago
+4b3dd51 : Android: sdcardfs: Don't do d_add for lower fs <Daniel Rosenberg> 9 weeks ago
+e87c2ee : ANDROID: sdcardfs: ->iget fixes <Daniel Rosenberg> 9 weeks ago
+1ebdba9 : Android: sdcardfs: Change cache GID value <Daniel Rosenberg> 9 weeks ago
+ea36d44 : ANDROID: sdcardfs: Directly pass lower file for mmap <Daniel Rosenberg> 10 weeks ago
+450f2a6 : ANDROID: sdcardfs: update module info <Daniel Rosenberg> 3 months ago
+a27ee30 : ANDROID: sdcardfs: use d_splice_alias <Daniel Rosenberg> 3 months ago
+867dbe4 : ANDROID: sdcardfs: fix ->llseek to update upper and lower offset <Daniel Rosenberg> 3 months ago
+445c825 : ANDROID: sdcardfs: copy lower inode attributes in ->ioctl <Daniel Rosenberg> 3 months ago
+0358f67 : ANDROID: sdcardfs: remove unnecessary call to do_munmap <Daniel Rosenberg> 3 months ago
+ba06859 : ANDROID: sdcardfs: Fix style issues in macros <Daniel Rosenberg> 3 months ago
+92dc66b : ANDROID: sdcardfs: Use seq_puts over seq_printf <Daniel Rosenberg> 3 months ago
+d82b7d2 : ANDROID: sdcardfs: Use to kstrout <Daniel Rosenberg> 3 months ago
+d629740 : ANDROID: sdcardfs: Use pr_[...] instead of printk <Daniel Rosenberg> 3 months ago
+0dbeb9f : ANDROID: sdcardfs: remove unneeded null check <Daniel Rosenberg> 3 months ago
+5a270b3 : ANDROID: sdcardfs: Fix style issues with comments <Daniel Rosenberg> 3 months ago
+683a8ca : ANDROID: sdcardfs: Fix formatting <Daniel Rosenberg> 3 months ago
+0a645b4 : ANDROID: sdcardfs: correct order of descriptors <Daniel Rosenberg> 3 months ago
+85bf60e : ANDROID: sdcardfs: Fix gid issue <Daniel Rosenberg> 3 months ago
+ae87f5b : ANDROID: sdcardfs: Use tabs instead of spaces in multiuser.h <Daniel Rosenberg> 3 months ago
+08cec26 : ANDROID: sdcardfs: Remove uninformative prints <Daniel Rosenberg> 3 months ago
+807272d : ANDROID: sdcardfs: move path_put outside of spinlock <Daniel Rosenberg> 3 months ago
+703f8d3 : ANDROID: sdcardfs: Use case insensitive hash function <Daniel Rosenberg> 3 months ago
+68f403a : ANDROID: sdcardfs: declare MODULE_ALIAS_FS <Daniel Rosenberg> 3 months ago
+b9ce171 : ANDROID: sdcardfs: Get the blocksize from the lower fs <Daniel Rosenberg> 3 months ago
+1717f2a : ANDROID: sdcardfs: Use d_invalidate instead of drop_recurisve <Daniel Rosenberg> 3 months ago
+8c9bf00 : ANDROID: sdcardfs: Switch to internal case insensitive compare <Daniel Rosenberg> 3 months ago
+6c09f44 : ANDROID: sdcardfs: Use spin_lock_nested <Daniel Rosenberg> 3 months ago
+4f46190 : ANDROID: sdcardfs: Replace get/put with d_lock <Daniel Rosenberg> 4 months ago
+bcba96f : ANDROID: sdcardfs: rate limit warning print <Daniel Rosenberg> 4 months ago
+3811ff7 : ANDROID: sdcardfs: Fix case insensitive lookup <Daniel Rosenberg> 4 months ago
+d9406ee : ANDROID: sdcardfs: support direct-IO (DIO) operations <Daniel Rosenberg> 4 months ago
+edb5025 : ANDROID: sdcardfs: implement vm_ops->page_mkwrite <Daniel Rosenberg> 4 months ago
+46abcf8 : ANDROID: sdcardfs: Don't bother deleting freelist <Daniel Rosenberg> 4 months ago
+62cda1c : ANDROID: sdcardfs: Add missing path_put <Daniel Rosenberg> 4 months ago
+39cf53b : ANDROID: sdcardfs: Fix incorrect hash <Daniel Rosenberg> 4 months ago
+98a5add : ANDROID: sdcardfs: Switch strcasecmp for internal call <Daniel Rosenberg> 5 months ago
+b0ca7ce : ANDROID: sdcardfs: switch to full_name_hash and qstr <Daniel Rosenberg> 5 months ago
+ 
+**** cmold:android_kernel_htc_msm8960 ****
+e7e90ab : mm: Tighten x86 /dev/mem with zeroing reads <Kees Cook> 2 months ago
+ff54ca5 : sctp: deny peeloff operation on asocs with threads sleeping on it <Marcelo Ricardo Leitner> 4 months ago
+0c9b310 : dccp: fix freeing skb too early for IPV6_RECVPKTINFO <Andrey Konovalov> 4 months ago
+a2f55ca : sctp: avoid BUG_ON on sctp_wait_for_sndbuf <Marcelo Ricardo Leitner> 4 months ago
+5784929 : tcp: avoid infinite loop in tcp_splice_read() <Eric Dumazet> 5 months ago
+3ab7529 : net/llc: avoid BUG_ON() in skb_orphan() <Eric Dumazet> 4 months ago
+0f126a7 : tcp: do not lock listener to process SYN packets <Eric Dumazet> 1 year, 9 months ago
+0883bb6 : ipc/shm: Fix shmat mmap nil-page protection <Davidlohr Bueso> 4 months ago
+ab36492 : soc: qcom: scm: add check to avoid buffer overflow <Satya Durga Srinivasu Prabhala> 8 months ago
+531875e : qseecom: check buffer size when loading firmware images <Zhen Kong> 8 months ago
+8149bdd : trace: resolve stack corruption due to string copy <Amey Telawane> 11 months ago
+8f15526 : KEYS: fix keyctl_set_reqkey_keyring() to not leak thread keyrings <Eric Biggers> 9 weeks ago
+39b151f : usb: diag: change %p to %pK in debug messages <Min Chong> 8 months ago
+0e5be93 : cgroup: prefer %pK to %p <Nick Desaulniers> 9 months ago
+b59e00f : ASoC: wcd9xxx: Fix unprotected userspace access <Patrick Daly> 2 years, 1 month ago
+c36d0eb : crypto: msm: check length before copying to buf in _debug_stats_read <Zhen Kong> 5 months ago
+eb8ff158 : unix: properly account for FDs passed over unix sockets <willy tarreau> 1 year, 5 months ago
+1cd6c14 : BACKPORT: fs: limit filesystem stacking depth <Miklos Szeredi> 2 years, 8 months ago
+44d28f3 : sdcardfs: limit stacking depth <Andrew Chant> 4 months ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+4f466a6 : msm: sps: Fix race condition in SPS debugfs APIs <Siva Kumar Akkireddi> 5 weeks ago
+16bae03 : usb : dwc3: Initialize kernel stack variables properly <Sai Krishna Juturi> 5 weeks ago
+a84f18a : msm: ba: Update printk format specifier to prevent leaks <Shiju Mathew> 5 weeks ago
+118ba63 : qbt1000: Fix for incorrect buffer size check and integer overflow <Abir Ghosh> 5 weeks ago
+d04e920 : diag: Add proper synchronization checks to msg mask table <Gopikrishna Mogasati> 6 weeks ago
+93ff048 : clk: msm: clock-alpha-pll: Update handoff for dynamic alpha pll <Odelu Kukatla> 6 weeks ago
+29b35e1 : msm: kgsl: Perform cache operation with kernel address <Hareesh Gundu> 8 weeks ago
+b46109f : msm: camera: sensor: Validate sensor name during probe <Depeng Shao> 5 weeks ago
+d7dba1b : defconfig: gud: Remove gud driver <Trudy Shearer> 4 weeks ago
+61cced4 : msm: gud: Remove gud driver <Trudy Shearer> 4 weeks ago
+18cdbb9 : ARM: dts: msm: Add 600Mhz GPU clock support for SDM450 <Hareesh Gundu> 4 weeks ago
+faf5acf : ARM: dts: msm: Update gfx clock corners for SDM450 <Taniya Das> 5 weeks ago
+6134b6c : clk: msm: Add support for 600MHz for GPU clock <Taniya Das> 5 weeks ago
+85ac1c0 : usb: gadget: f_uvc: Fix crash on disconnect/connect during streaming <Sriharsha Allenki> 5 weeks ago
+c38be27 : msm: mdss: remove client from device list if failed to register <Sandeep Panda> 5 weeks ago
+8712e48 : clk: msm: mdss: add support for chip serial number in dfps info <Ashish Garg> 8 weeks ago
+3e11e56 : msm: mdss: fix memcpy source and dest memory buffer size mismatch <Harsh Sahu> 8 weeks ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+7e42fae : ASoC: msm: acquire lock in ioctl <Yeleswarapu Nagaradhesh> 4 months ago
+b4ae020 : msm: IPA: add the check on intf query <Skylar Chang> 4 months ago
+5382c3f : drivers: soc: qcom: Add error handling in function avtimer_ioctl <Xiaoyu Ye> 6 months ago
+2483a4d : qseecom: add mutex around qseecom_set_client_mem_param <Zhen Kong> 4 months ago
+1c68a99 : msm: mdss: Fix invalid dma attachment during fb shutdown <Benjamin Chan> 6 months ago
+a56f491 : ping: implement proper locking <Eric Dumazet> 3 months ago
+d0970c8 : Revert "ipv4: Missing sk_nulls_node_init() in ping_unhash()." <Kevin F. Haggerty> 5 days ago
+c0eabfd : ext4: fix fencepost in s_first_meta_bg validation <Theodore Ts'o> 4 months ago
+4f4f348 : ext4: fix condition of validate s_first_meta_bg <syphyr> 8 days ago
+ 
+**** cmold:android_kernel_xiaomi_msm8956 ****
+3a020d2 : prima: Update to LA.BR.1.3.6_rb1.19 <TheStrix> 3 days ago
+427232c : ping: implement proper locking <Eric Dumazet> 3 months ago
+9e2bde7 : Revert "Revert "ARM: dts: msm: update memory map for msm8976/8956/8952 for External release"" <Bharat Pawar> 10 months ago
+c3fe5bc : msm: camera: Prevent info leak in kernel driver. <VijayaKumar T M> 3 weeks ago
+c4de80b : diag: Add proper synchronization checks to msg mask table <Gopikrishna Mogasati> 3 weeks ago
+636bc7b : msm: msm_bus: Add mutex to protect node_list <David Dai> 8 weeks ago
+455affe : soc: qcom: msm_bus: add mutex lock for cllist data <Maria Yu> 8 weeks ago
+21f3674 : input: synaptics: fix for buggy code poined by SIL tool <Andrew Chant> 3 months ago
+569da15 : msm: ipa: do not use delay in SSR <Skylar Chang> 11 months ago
+e41c30b : msm: camera2: cpp: Fix iommu_attach/detach compat_ioctl issue <VijayaKumar T M> 3 weeks ago
+b3d9bb0 : msm: camera2: cpp: Fix out-of-bounds frame or command buffer access <Ravi kumar Koyyana> 10 weeks ago
+093e3bd : msm: mdss: remove client from device list if failed to register <Sandeep Panda> 5 weeks ago
+ebc0c18 : ASoC: msm: remove unused msm-compr-q6-v2 <Xiaojun Sang> 8 weeks ago
+19a678f : USB: f_qc_rndis: Prevent use-after-free for _rndis_qc <Pratham Pratap> 5 weeks ago
+7def49a : ASoC: msm-cpe: Fix range checking in function fw_name_store <Xiaoyu Ye> 5 weeks ago
+53fea72 : ASoC: msm-lsm-client: use kzalloc instead of kmalloc <Bhalchandra Gajare> 8 weeks ago
+aef9dd9 : msm: camera: don't cut to 8bits for validating enum variable <Gaoxiang Chen> 3 months ago
+abce53a : ALSA: pcm : Call kill_fasync() in stream lock <Takashi Iwai> 6 months ago
+ad76ef0 : tracing: do not leak kernel addresses <Nick Desaulniers> 4 months ago
+45e0652 : Prevent heap overflow in uvc driver <Robb Glasser> 4 months ago
+67e2136 : xfrm_user: validate XFRM_MSG_NEWAE incoming ESN size harder <Andy Whitcroft> 3 months ago
+befb2a8 : xfrm_user: validate XFRM_MSG_NEWAE XFRMA_REPLAY_ESN_VAL replay_window <Andy Whitcroft> 3 months ago
+0a5bf59 : ASoC: msm: qdsp6v2: clear address on error <Siena Richard> 8 weeks ago
+49a9db7 : radio-iris: Use copy_from_user API to access userspace memory <Kamal Negi> 7 weeks ago
+0fa7b8c : msm: camera: Allow driver file to be opend only once. <Trishansh Bhardwaj> 2 months ago
+ 
+**** vanir:packages_apps_CarrierConfig ****
+1249ef5 : Remove TIM from non-roaming networks list of H3G IT <Gabriele M> 3 days ago
+6aa9fb6 : CarrierConfig: allow 3 ITA roaming <Joey Rizzoli> 11 days ago
+ 
+**** cm:LineageOS/android_packages_apps_CustomTiles ****
+6af4393 : CustomTiles: Kill Battery Saver Tile <Kasual> 2 weeks ago
+ 
+**** vanir:packages_apps_Messaging ****
+5558c9a : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 3 months ago
+ 
+**** vanir:packages_apps_Nfc ****
+182c26e : NfcNci: make T3T/Nfc-F HCE optional <Simon Shields> 4 months ago
+ 
+**** vanir:packages_apps_Settings ****
+c2dc422 : Revert "Settings: Fix internal storage summary for non-emulated storage" <Dominggoes Isakh> 4 weeks ago
+f154e13 : Settings: Fix automatic hotspot turn off summary <Elektroschmock> 2 weeks ago
+ 
+**** cm:LineageOS/android_packages_apps_Snap ****
+0f83363 : SnapdragonCamera: Fix ghosting when non-zsl in VGA/QVGA size <mingwax> 3 months ago
+202f50a : SnapdragonCamera: Fix live shot image stretch when recording is 4K <mingwax> 4 months ago
+fffbe39 : SnapdragonCamera: Fix photo reversed when enable selfie Mirror <mingwax> 4 months ago
+dd1b09c : SnapdragonCamera: Fix photo reversed when enable selfie Mirror <mingwax> 5 months ago
+b37ea18 : SnapdragonCamera: Fix preview in wrong size <junjiez> 6 months ago
+708af54 : SnapdragonCamera: Fix front camera preview flipped <junjiez> 6 months ago
+9d21c69 : SnapdragonCamera: Fix preview is flipped on 8996 <junjiez> 7 months ago
+cc08b44 : SnapdragonCamera: Camera1 Selfie Mirror orientation check <Jack Yoo> 9 months ago
+c188ffe : SnapdragonCamera: Fix Camera1 force close when refocusing the picture. <pezhan> 4 months ago
+d24a8ed : SnapdragonCamera: Change video snapshot picture size logic <Byunghun Jeon> 9 months ago
+bdb5068 : SnapdragonCamera: Avoid cancel AF shortly after trigger <junjiez> 5 months ago
+3de435d : SnapdragonCamera: Fix crash during UI stress test <juwei> 6 months ago
+f870393 : SnapdragonCamera: Fix OutOfBoundsException in monkey test <mingwax> 10 months ago
+367758c : SnapdragonCamera: Fix FC for NullPointerException <mingwax> 9 months ago
+c8a45a3 : SnapdragonCamera: Reset zoom value when resuming <Byunghun Jeon> 8 months ago
+a5054be : SnapdragonCamera: Fix capture with flash will get black image. <qimengp> 6 months ago
+975aeca : SnapdragonCamera: Fix FC cause by Null pointer <qimengp> 6 months ago
+922c4b3 : SnapdragonCamera: Make copy of location before altering timestamp <Jay Wang> 8 months ago
+ 
+**** vanir:packages_apps_WallpaperPicker ****
+5b27292 : Fix bad wallpaper preview image format <Michael Bestas> 2 days ago
+ 
+**** vanir:system_bt ****
+331fc1e : bt: Disable AVRCP 1.6 <Gabriele M> 6 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oppo ****
+84ed955 : msm8939: Use widevine from kipper TOS125B <Michael Bestas> 4 days ago
+a33626f : msm8939: Use GPS blobs from kipper TOS125B <Michael Bestas> 4 days ago
+6f8191e : msm8939: Update adreno from kipper TOS125B <Michael Bestas> 4 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+38af07a : Add a barrier for Marlin/Sailfish <DHOMD> 3 months ago
+ 
+**** github:TheMuppets/proprietary_vendor_yu ****
+b25a3a6 : lettuce: Enable EAP proxy <Michael Bestas> 5 days ago
+2ab6f07 : lettuce: Update widevine from crackling TOS111B <Louis Popi> 3 weeks ago
+9ea99f4 : lettuce: Use radio blobs from crackling TOS111B <Louis Popi> 3 weeks ago
+a2a9569 : lettuce: Use GPS blobs from crackling TOS111B <Louis Popi> 6 weeks ago
+4b3dbf7 : lettuce: Update adreno from crackling TOS111B <Louis Popi> 3 weeks ago
+ 
