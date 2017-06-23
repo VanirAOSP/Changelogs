@@ -1,0 +1,96 @@
+
+**** vanir:build ****
+5c66ff9 : Build hacks <DHOMD> 8 months ago
+ 
+**** vanir:device_google_marlin ****
+1349c54 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 3 months ago
+ec8a564 : Revert "marlin: disable our local telephony extensions" <DHOMD> 3 months ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+c4227bd : Otus: Fix FM Radio <DHOMD> 5 months ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+c2e7eda : op3: Define ril-daemon normally <dianlujitao> 24 hours ago
+b303c21 : op3: sepolicy: Remove old and duplicate permissions <Luca Stefani> 5 days ago
+f4ecf29 : Revert "op3: sepolicy: Fix rmt_storage and rfs_access policies" <Luca Stefani> 25 hours ago
+bb87f54 : op3: Add system GID to rmt_storage <dianlujitao> 25 hours ago
+2b9d2a4 : op3: rmt_storage should have wakelock GID <Jeff Vander Stoep> 1 year, 1 month ago
+9d18ddd : op3: Drop NET_RAW and NET_ADMIN from qti <Naveen Ramaraj> 1 year ago
+9cbce71 : op3: Grant netmgrd proper unix perms <Jeff Vander Stoep> 1 year, 1 month ago
+f2bc6c0 : op3: Update qti telephony extension from MIUI 7.6.5 dev <dianlujitao> 2 days ago
+70581ae : op3: Convert rf_version to integer before comparison <dianlujitao> 2 days ago
+0f0e85d : op3: Update from Open Beta 18 <dianlujitao> 2 days ago
+3a1de8f : op3: Adjust lmk parameters <dianlujitao> 2 weeks ago
+ca1c05a : op3: Restore original CAF gps configuration <dianlujitao> 6 days ago
+a3beb0b : ipacm: fix the heap-use-after-free issue on bootup <Skylar Chang> 3 months ago
+ff7c00d : IPACM: fix the security issue in ConntrackClient <Skylar Chang> 3 months ago
+fd5bd05 : IPACM: fix security issue in querying if index <Skylar Chang> 3 months ago
+f701b60 : Re-enable delete_aiding_data for user build <Yingjie Wang> 9 weeks ago
+733dc1e : op3: Remove BCL hotplug disable/enable from init <Wei Wang> 12 months ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+452bedb : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 7 months ago
+ 
+**** vanir:device_samsung_smdk4412-qcom-common ****
+14c15f4 : smdk4x12QComRIL: Handle RIL_UNSOL_NITZ_TIME_RECEIVED <Gabriele M> 9 weeks ago
+ 
+**** vanir:hardware_samsung ****
+601bcef : exynos: multimedia: add support for OMX_IndexParamVideoIntraRefresh parameter <Dheeraj CVR> 2 years, 3 months ago
+ 
+**** cmold:lge-kernel-mako ****
+2bb39b1 : msm: camera: Fix various small issues in Actuator driver <Hariram Purushothaman> 3 years, 11 months ago
+1598998 : msm: camera: Multiple instance support for actuator driver <Sreesudhan Ramakrish Ramkumar> 4 years, 3 months ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+bcaf0dd : msm: vidc: Check validity of userspace address <Deepak Verma> 3 years, 8 months ago
+ 
+**** cmold:android_kernel_oneplus_msm8974 ****
+2621960 : prima: Fix array out-of-bounds & integer underflow in _iw_set_genie <Srinivas Girigowda> 6 months ago
+8e0949b : prima: Add buf len check in wlan_hdd_cfg80211_testmode <Manjeet Singh> 6 months ago
+495a6a4 : prima: Avoid overflow of "significant change" params <Jeff Johnson> 7 months ago
+31696b0 : prima: Avoid overflow of "set_bssid_hotlist" params <Hanumanth Reddy Pothula> 5 months ago
+f3da5c1 : fs/proc/array.c: make safe access to group_leader <Adrian Salido> 7 months ago
+9936cd0 : prima: Use heap memory for station_info instead of stack <kaliu> 11 months ago
+b0f454b : tmpfs: clear S_ISGID when setting posix ACLs <Gu Zheng> 6 months ago
+d52c8f1 : BACKPORT: posix_acl: Clear SGID bit when setting file permissions <Jan Kara> 9 months ago
+a32002d : cgroup: prefer %pK to %p <Nick Desaulniers> 9 months ago
+d41bb15 : ASoC: msm: initialize the params array before using it <vivek mehta> 9 months ago
+0a5461a : msm: vidc: use %pK instead of %p which respects kptr_restrict sysctl <Abdulla Anam> 1 year, 1 month ago
+f2c6f5c : qseecom: Change format specifier %p to %pK <Mallikarjuna Reddy Amireddy> 9 months ago
+c42c970 : ASoC: soc: msm: initialize buffer to prevent kernel data leakage <Xiaojun Sang> 6 months ago
+5ee2ddc : USB: cypress_m8: add endpoint sanity check <Oliver Neukum> 1 year, 3 months ago
+c5d8d26 : slim-msm: Synchronize SSR callbacks <Dilip Kota> 1 year, 3 months ago
+981fd7d : crypto: msm: check length before copying to buf in _debug_stats_read <Zhen Kong> 5 months ago
+8578142 : prima: Trim operation classes to max supported in change station <SaidiReddy Yenuga> 4 months ago
+91b8e25 : ASoC: wcd9320: Fix out of bounds for mad input value <Karthikeyan Mani> 7 months ago
+2aada08 : udp: properly support MSG_PEEK with truncated buffers <Eric Dumazet> 1 year, 6 months ago
+6d060cb : perf: Tighten (and fix) the grouping condition <Peter Zijlstra> 2 years, 5 months ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+86cce41 : ANDROID: sdcardfs: remove dead function open_flags_to_access_mode() <Greg Hackmann> 5 weeks ago
+e4f8e76 : ARM: dts: 15801: Disable core hotplugging, up the mitigation freq <Diogo Ferreira> 7 weeks ago
+ 
+**** cmold:android_kernel_samsung_smdk4412 ****
+dba764a : Revert "smdk4412: Update i9305 defconfig" <Filip Blagojevic> 10 hours ago
+ 
+**** cmold:android_kernel_xiaomi_msm8992 ****
+14caa4b : ext4: fix condition of validate s_first_meta_bg <syphyr> 12 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Jelly ****
+818e92d : Jelly: Guess filename from URL <Luca Stefani> 7 hours ago
+1a4f237 : Jelly: Allow media scan on download <Luca Stefani> 7 hours ago
+a8fe6fa : Jelly: Show download notification on completed <Luca Stefani> 8 hours ago
+ 
+**** vanir:packages_apps_Messaging ****
+62b25e6 : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 3 months ago
+ 
+**** cm:LineageOS/android_packages_apps_WundergroundWeatherProvider ****
+37e893a : Fix missing s/cyanogenmod/lineageos <Joey Rizzoli> 6 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+b7ac82e : op3: Update qti telephony extension from MIUI 7.6.5 dev <dianlujitao> 2 days ago
+627730b : op3: Update to Open Beta 18 blobs <dianlujitao> 2 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+1be2a08 : Add a barrier for Marlin/Sailfish <DHOMD> 3 months ago
+ 
