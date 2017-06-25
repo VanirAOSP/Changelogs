@@ -1,0 +1,294 @@
+
+**** vanir:bootable_recovery_twrp ****
+c86b6d4 : Complete support for project pathmap <Michael Bestas> 8 weeks ago
+ 
+**** vanir:build ****
+8f095fc : Build hacks <DHOMD> 9 months ago
+ 
+**** vanir:device_google_marlin ****
+c0188ac : Add a proper barrier and use vendor/caf/telephony <DHOMD> 3 months ago
+7efb803 : Revert "marlin: disable our local telephony extensions" <DHOMD> 3 months ago
+ 
+**** vanir:device_lge_g4-common ****
+7b3f20c : g4: sepolicy: fix some more denials <codeworkx> 30 hours ago
+307aec0 : g4: sepolicy: fix timekeep denials <codeworkx> 32 hours ago
+ 
+**** cm:LineageOS/android_device_lge_msm8996-common ****
+9464941 : msm8996-common: power: Use the correct opcode for STOR_CLK_SCALE_DIS <Diogo Ferreira> 7 weeks ago
+701b32d : msm8996-common: power: Add support for get_profile <Steve Kondik> 1 year, 8 months ago
+26c772a : msm8996-common: power: Remove ignore_hispeed_notif tuning <Dilip Gudlur> 11 months ago
+26ccbf3 : msm8996-common: power: Remove camera hints from 8996 <Steve Kondik> 9 months ago
+ab22589 : msm8996-common: power: Use monotonic time for interaction boost <Wei Wang> 1 year, 1 month ago
+99a326f : msm8996-common: power: Fix only sending the first pair out of every perf profile <Ricardo Cerqueira> 11 months ago
+01b1141 : msm8996-common: power: Disable sched grouping for flings <Steve Kondik> 12 months ago
+02f00e9 : msm8996-common: power: Support boost and perf profile hints <Zhao Wei Liew> 1 year ago
+bb85a96 : msm8996-common: power: update enum value for sched perflocks <Pracheer> 2 years, 7 months ago
+cd46fb5 : msm8996-common: power: Race condition fix in powerHAL <Srinath Sridharan> 8 months ago
+95e6aa5 : msm8996: update power hal from op3 <codeworkx> 3 months ago
+429a3a2 : msm8996: Import new power HAL <Rashed Abdel-Tawab> 3 days ago
+ef5e334 : msm8996-common: rootdir: Enable ZRAM for msm8996 targets <Diogo Ferreira> 7 weeks ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+fe04ffb : Otus: Fix FM Radio <DHOMD> 5 months ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+9a25a6a : op3: Sync bluetooth configuration with CAF <dianlujitao> 2 days ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+2ca44ad : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 7 months ago
+ 
+**** vanir:device_samsung_klte-common ****
+4808359 : klte-common: proprietary-files: General housekeeping <Kevin F. Haggerty> 33 hours ago
+ade8f08 : klte-common: Force SCO WBS samplerate to 8kHz <Patrick Lower> 34 hours ago
+ 
+**** vanir:frameworks_base ****
+260e7f3 : Automatic translation import <Abhisek Devkota> 2 days ago
+4acfe35 : Fix permissions for CTS [1/2] <Shane Francis> 6 weeks ago
+97f4a77 : OMS: StrictMode and files under /data/system/theme/ <mickybart> 7 months ago
+c04b8f7 : Add protected broadcast for app crash broadcast <Ivan Iskandar> 10 weeks ago
+415ca0f : Themes: Allow volume slider and thumb to work with custom images. <Randall Rushing> 1 year, 5 months ago
+fe64e28 : Separate tile label color from icon drawable color <bigrushdog> 3 months ago
+8328c81 : Hold "volume up" during boot to disable all overlays <George G> 4 months ago
+7aa2e6b : Themes: Expose Keyboard Shortcuts Dialog <Bryan Owens> 3 months ago
+ffaf580 : Expose Screenshot flash and background colors <ezio84> 4 months ago
+223e886 : ThemeSafety: Introduce App Crash Intent <Ivan Iskandar> 4 months ago
+00386ad : Revert "Add a protected broadcast for Masquerade events" <Nathan Chancellor> 4 months ago
+6986108 : base: Force authorize all calling packages by Masquerade (2/3) <George G> 4 months ago
+d70029e : FWB: Give power dialogs own set of volume icons for themes <Bryan Owens> 4 months ago
+5c29121 : OMS: Add hide annotation to MODIFY_OVERLAYS permission <Evan Anderson> 4 months ago
+44ee470 : OMS7: Rootless Security Update Preparation for March 2017 <Nicholas Chum> 4 months ago
+2e2f5b5 : Add a protected broadcast for Masquerade events <bigrushdog> 5 months ago
+3d6c593 : Notification tint: add optional findContrastColor algorithm for dark backgrounds <SpiritCroc> 5 months ago
+fb6d94f : Themes: Expose Keyguard affordance circle background <Branden M> 5 months ago
+a839e7355 : Set external QS tiles tint mode to SRC_ATOP <Alex Cruz> 5 months ago
+f508815 : graphics: ADB "N" icon compatible with OMS7 <George G> 5 months ago
+389b8e4 : Expose external qs tile tint color <Alex Cruz> 5 months ago
+5589f63 : SystemUI: Expose switch bar title <daveyannihilation> 6 months ago
+6807a50 : OMS: Introduce MODIFY_OVERLAYS permission for user apps <bigrushdog> 6 months ago
+d69f1d0 : Themes: Expose QS battery <Abdulwahab Isam> 9 months ago
+3a27fcb : OMS7-N: ApplicationsState: add filter for Substratum icon overlays [1/2] <Kuba Schenk> 7 months ago
+f79f948 : OMS7-N: ApplicationsState: add filter for Substratum overlays [1/2] <George G> 12 months ago
+2d364c6 : SystemUI: Use own drawables for QS expand icon <Ivan Iskandar> 7 months ago
+5425eee : doze: allow grayscale even if invert boolean is false <Daniel Koman> 9 months ago
+94b655e : OMS7 compatible 'Ambient notification inversion' <George G> 7 months ago
+13d52cb : Allow prevention of doze notification color inversion <Daniel Koman> 2 years, 2 months ago
+e9d4470 : Notification dynamic colors bool compatible with OMS7 <George G> 7 months ago
+22285ee : Notifications: Expose a bool to disable dynamic colors <Nicholas Chum> 10 months ago
+d775cd9 : Themes: Expose various QuickSettings text colors <Niklas Schnettler (Sh4dowSoul)> 9 months ago
+9fbc3ec : Allow custom alpha for notification shade bg color <Simao Gomes Viana> 7 months ago
+4039e30 : SystemUI: Expose QS edit item decoration background color <Ivan Iskandar> 9 months ago
+e5b54d1 : Themes: Allow Navbar ripple color to be themed <Dave Kover> 1 year, 2 months ago
+9faf415 : Themes: Allow Permission Icons to be fully themed <Nicholas Chum> 1 year, 7 months ago
+119e312 : Themes: Allow Immersive cling colors to be fully themed <Nicholas Chum> 1 year, 7 months ago
+ce191c1 : Themes: Expose resolver hardcoded colors <Dave Kover> 7 months ago
+3a1b18d : N-Extras: AudioService: Allow system effect sounds to be themed <Nicholas Chum> 11 months ago
+e0ac0a4 : N-Extras: Add dynamic theme fonts support <0xD34D> 1 year ago
+2364d7f : N-Extras: Add dynamic theme BootAnimation support <0xD34D> 1 year ago
+24784dc : OMS7-N: Implement multi-target enable/disable and disable-all [11/11] <Jacob McSwain> 12 months ago
+1c150a8 : OMS7-N: Do not enforce code policy limiting overlay installation [10/11] <Nicholas Chum> 8 months ago
+42edd17 : OMS7-N: Persistence on boot through OverlayManagerServiceImpl [9/11] <Nicholas Chum> 1 year ago
+b0ee2f8 : OMS7-N: Disable Zygote preloaded drawables [8/11] <Josh Guilfoyle> 6 years ago
+90d9814 : OMS7-N: installd: add command 'rmidmap' [7/11] <Mårten Kongstad> 1 year, 1 month ago
+3488c95 : OMS7-N: Fix memory leak during idmap creation [6/11] <Mårten Kongstad> 1 year, 1 month ago
+2ad81f4 : OMS7-N: idmap: suppress print for padded resources [5/11] <Mårten Kongstad> 1 year, 4 months ago
+3f79acb : OMS7-N: Set EXTRA_REPLACING correctly in ACTION_PACKAGE_ADDED [4/11] <Mårten Kongstad> 1 year, 2 months ago
+ 
+**** vanir:frameworks_native ****
+bb4b575 : OMS7-N: installd: add command 'rmidmap' <Mårten Kongstad> 1 year, 6 months ago
+ 
+**** cm:LineageOS/android_hardware_qcom_fm ****
+4c2e39e : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:hardware_samsung ****
+5b0f143 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cmold:lge-kernel-mako ****
+aa983cf : ASoC: msm: qdsp6v2: Fix buffer overflow in voice driver <Shiv Maliyappanahalli> 3 years, 8 months ago
+f4217ca : msm: actuator: fix to prevent kernel heap buffer overflow <Vasko Kalanoski> 3 years, 9 months ago
+49692c0 : msm: camera: Change CCI I2C write interface <Sreesudhan Ramakrish Ramkumar> 3 years, 11 months ago
+ 
+**** cmold:android_kernel_lge_msm8996 ****
+c345687 : g5/v20_defconfig: Regenerate defconfigs <Rashed Abdel-Tawab> 2 days ago
+aa1a243 : ARM64: configs: Enable ZRAM and LZ4 <Diogo Ferreira> 8 weeks ago
+8373b2d : UPSTREAM: zram/zcomp: do not zero out zcomp private pages <Sergey Senozhatsky> 1 year, 5 months ago
+814d6ab : UPSTREAM: zram: pass gfp from zcomp frontend to backend <Minchan Kim> 1 year, 5 months ago
+a875bc1 : zram: Revert LG's changes <Rashed Abdel-Tawab> 2 days ago
+6188c02 : ANDROID: ext4 crypto: Disables zeroing on truncation when there's no key <Michael Halcrow> 4 months ago
+08fcbc4 : BACKPORT: posix_acl: Clear SGID bit when setting file permissions <Jan Kara> 9 months ago
+768b47e : ext4: validate s_first_meta_bg at mount time <Eryu Guan> 7 months ago
+7d4fd8e : ping: implement proper locking <Eric Dumazet> 3 months ago
+1166e34 : USB: cypress_m8: add endpoint sanity check <Oliver Neukum> 1 year, 3 months ago
+994533e : drivers: video: Add bounds checking in fb_cmap_to_user <Steve Pfetsch> 8 months ago
+ae1bc6d : net: ping: check minimum size on ICMP header length <Kees Cook> 7 months ago
+6f6e40d : ipv4: Don't do expensive useless work during inetdev destroy. <David S. Miller> 1 year, 3 months ago
+f7f7f05 : pipe: limit the per-user amount of pages allocated in pipes <Willy Tarreau> 1 year, 5 months ago
+0149a09 : net: add length argument to skb_copy_and_csum_datagram_iovec <Sabrina Dubroca> 1 year, 8 months ago
+712a8bc : sysctl: Drop reference added by grab_header in proc_sys_readdir <Zhou Chengming> 6 months ago
+cbdb5e7 : ipv6: fix out of bound writes in __ip6_append_data() <Eric Dumazet> 5 weeks ago
+754fcbe : ipv6/dccp: do not inherit ipv6_mc_list from parent <WANG Cong> 7 weeks ago
+e0c270f : sctp: do not inherit ipv6_{mc|ac|fl}_list from parent <Eric Dumazet> 5 weeks ago
+b21277a : ipv6: Prevent overrun when parsing v6 header options <Craig Gallek> 6 weeks ago
+04661ea : ext4: fix deadlock during page writeback <Jan Kara> 12 months ago
+0b6ade2 : ext4: fix data exposure after a crash <Jan Kara> 16 years ago
+9fb5883 : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 7 weeks ago
+2a84679 : net/packet: fix overflow in check for tp_reserve <Andrey Konovalov> 3 months ago
+efaccf3 : net/packet: fix overflow in check for tp_frame_nr <Andrey Konovalov> 3 months ago
+cfb6f8c : net/packet: fix overflow in check for priv area size <Andrey Konovalov> 3 months ago
+3501d6e : ip6_gre: fix ip6gre_err() invalid reads <Eric Dumazet> 5 months ago
+6a06be3 : tty: n_hdlc: get rid of racy n_hdlc.tbuf <Alexander Popov> 4 months ago
+4796907 : TTY: n_hdlc, fix lockdep false positive <Jiri Slaby> 1 year, 7 months ago
+8fc1ac2 : kernel: Fix potential refcount leak in su check <Tom Marshall> 5 weeks ago
+35b7c84 : kernel: Only expose su when daemon is running <Tom Marshall> 5 months ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+f791056a : msm:camera:isp: Fix array index bound checks <Suman Mukherjee> 2 years, 4 months ago
+b4fb5bb : msm: cpp: Validate frame message before manipulating it <Manish Poddar> 3 years ago
+ 
+**** cmold:android_kernel_motorola_msm8916 ****
+42f7a4f : msm: wlan: update regulatory database <Agrawal Ashish> 3 months ago
+6b94543 : Revert "cfg80211: Changes to support key managment offload" <Chet Lanctot> 2 years, 6 months ago
+9c04c83 : Revert "nl80211: fixes for event reordering." <Chet Lanctot> 2 years, 6 months ago
+47935b5 : Revert "cfg80211: Key management offload support for SHA-256 and FT/8021.X" <Chet Lanctot> 2 years, 6 months ago
+c6dcafb : Revert "cfg80211: Key management offload support for 802.1X LEAP" <Chet Lanctot> 2 years, 6 months ago
+4b063ae : Revert "cfg80211: Pass PTK as part of key management offload completion" <Chet Lanctot> 2 years, 6 months ago
+88bb1aa : cfg80211: Specify frame and reason code for NL80211_CMD_DEL_STATION <Jouni Malinen> 2 years, 8 months ago
+6adc066 : cfg80211: Convert del_station() callback to use a param struct <Jouni Malinen> 2 years, 8 months ago
+99a79d6 : msm: wlan: Update wifi regulatory database for TW <Sachin Ahuja> 2 years, 3 months ago
+bc70d23 : wlan:Set reg treament as per reg domain change. <Kaushik, Sushant> 2 years, 7 months ago
+c187831 : wlan: Handle HID connect/disconnect indication <Abhishek Singh> 6 months ago
+3c22420 : wlan: Handle HID connect/disconnect indication <Abhishek Singh> 6 months ago
+5464d2a : Prima: Do not queue multiple setMaxTxPower cmd in SME pending queue <Aggarwal, Nishank> 6 months ago
+6461237 : wlan: Avoid switch channel during preauth <Padma, Santhosh Kumar> 4 months ago
+7333b9d : wlan: Fix suspicious dereference of pointer <Nishank Aggarwal> 3 months ago
+3f4ea35 : wlan: Check OUI and OUI type to confirm if its p2p action frame <Edhar, Mahesh Kumar> 3 months ago
+1b57b41 : UPSTREAM: ipx: call ipxitf_put() in ioctl error path <Dan Carpenter> 8 weeks ago
+f562f83 : BACKPORT: ip6_gre: fix ip6gre_err() invalid reads <Eric Dumazet> 5 months ago
+d51c90d : ANDROID: sdcardfs: remove dead function open_flags_to_access_mode() <Greg Hackmann> 6 weeks ago
+df16332 : ANDROID: sdcardfs: d_splice_alias can return error values <Daniel Rosenberg> 2 weeks ago
+5b38087 : ANDROID: mnt: Fix next_descendent <Daniel Rosenberg> 4 weeks ago
+1fe4e5b : ANDROID: sdcardfs: Check for NULL in revalidate <Daniel Rosenberg> 5 weeks ago
+9249e36 : ANDROID: sdcardfs: Add linux/kref.h include <Dmitry Shmidt> 5 weeks ago
+cae9b51 : ANDROID: sdcardfs: Move top to its own struct <Daniel Rosenberg> 6 weeks ago
+c2434ed : ANDROID: sdcardfs: fix sdcardfs_destroy_inode for the inode RCU approach <Gao Xiang> 6 weeks ago
+ef18dd4 : ANDROID: sdcardfs: Don't iput if we didn't igrab <Daniel Roseberg> 7 weeks ago
+ac49686 : ANDROID: sdcardfs: Call lower fs's revalidate <Daniel Rosenberg> 9 weeks ago
+3cbb734 : ANDROID: sdcardfs: Avoid setting GIDs outside of valid ranges <Daniel Rosenberg> 9 weeks ago
+b57251d : Revert "Revert "Android: sdcardfs: Don't do d_add for lower fs"" <Daniel Rosenberg> 9 weeks ago
+a6cf5b1 : ANDROID: sdcardfs: Use filesystem specific hash <Daniel Rosenberg> 9 weeks ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+e031ff4 : misc: Import SM-G900F kernel source code <Kevin F. Haggerty> 3 days ago
+ 
+**** vanir:packages_apps_CMParts ****
+403ac8d : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_CellBroadcastReceiver ****
+ebf9e97 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Contacts ****
+e4db886 : Automatic translation import <Abhisek Devkota> 2 days ago
+2a4e3e1 : Themes: Expose hardcoded layout and styles colors <beanstown106> 1 year, 7 months ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+136471a : Automatic translation import <Abhisek Devkota> 2 days ago
+8e81717 : Themes: Define back arrow tint color for themes <Bryan Owens> 1 year, 6 months ago
+8821911 : Themes: Expose hardcoded contact tile text colors <bgill55> 2 years, 5 months ago
+ 
+**** cm:LineageOS/android_packages_apps_CustomTiles ****
+9c8fcd2 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Dialer ****
+49d45fd : Automatic translation import <Abhisek Devkota> 2 days ago
+cb5662b : Themes: InCallUI dialpad digits color <George G> 7 months ago
+58d0997 : Themes: Separate background color from text color <Alex Cruz> 1 year, 2 months ago
+ 
+**** cm:LineageOS/android_packages_apps_FMRadio ****
+900759c : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_FlipFlap ****
+f45c2bf : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+06d5e55 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Jelly ****
+2d1bdcd : Jelly: Add save form data setting <Luca Stefani> 4 hours ago
+d2926c7 : Jelly: add Do Not Track setting <Alexandre Oliveira> 13 days ago
+42d6446 : Jelly: Add incognito mode shortcut <Luca Stefani> 26 hours ago
+69c2401 : Jelly: Update android tools build <Luca Stefani> 5 hours ago
+eff2fd2 : Open link in Incognito tab automatically when in Incognito mode <Tim Schumacher> 30 hours ago
+f7338cf : Jelly: Enable safe browsing <Luca Stefani> 32 hours ago
+dd23317 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_LockClock ****
+b41c0d7 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Messaging ****
+3b6bbf9 : Revert "32807795  Security Vulnerability - AOSP Messaging App: thirdparty can" <DHOMD> 3 months ago
+c8e61e5 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+433f6c8 : Automatic translation import <Abhisek Devkota> 2 days ago
+f575035 : Themes: Make dialpad seperator line theme-able <Thyrus11> 2 years, 4 months ago
+ 
+**** cm:LineageOS/android_packages_apps_Recorder ****
+67d5b07 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_apps_Settings ****
+e9405c8 : Clean Taint <DHOMD> 34 hours ago
+6f6e045 : Automatic translation import <Abhisek Devkota> 2 days ago
+df2d6a5 : Development: Allow all Masquerade calling packages for debugging (3/3) <George G> 4 months ago
+880b72e : Settings: Expose "ALL" hardcoded and @android colors <Bryan Owens> 4 months ago
+265e7a4 : Settings: Expose and add tint mode to custom icons <Randall Rushing> 1 year, 3 months ago
+9bbf9aa : Settings: Expose styles in the manifest for themes <Bryan Owens> 4 months ago
+2b00ac6 : Settings: Guard against themes without colorAccent defined <Clark Scheff> 4 months ago
+23eb5ae : Set external settings icon tint mode to SRC_ATOP <Ivan Iskandar> 5 months ago
+0776182 : Settings: Expose bluetooth pin confirm dialog text colors <SpiritCroc> 5 months ago
+39ec90c : Expose switchbar background color <Ivan Iskandar> 6 months ago
+faf1757 : Expose dashboard category padding bottom <Ivan Iskandar> 6 months ago
+565a1bb : Expose color for external settings icons <Clark Scheff> 6 months ago
+902f612 : Hide the "show/hide overlays" when no overlay installed <Ivan Iskandar> 6 months ago
+dced3d6 : Exclude overlays from the app counter <Ivan Iskandar> 7 months ago
+6b4e12a : OMS7-N: Apps: show/hide Substratum icon overlays [2/2] <Kuba Schenk> 7 months ago
+eed6977 : OMS7-N: Apps: show/hide Substratum overlays [2/2] <George G> 12 months ago
+cbc29a6 : Settings: Expose LinearColorBar default colors <SpiritCroc> 7 months ago
+d60764d : Settings: Expose storage icon colors <SpiritCroc> 7 months ago
+c319306 : Settings: Expose gesture settings switchbar <daveyannihilation> 7 months ago
+077ea45 : Settings: Expose storage summary text <George G> 1 year, 8 months ago
+743644b : Settings: Expose condition card colors <daveyannihilation> 9 months ago
+ab278e7 : Settings: Expose dashboard category and tile color <Ivan Iskandar> 9 months ago
+ 
+**** cm:LineageOS/android_packages_apps_Snap ****
+7e76c83 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Terminal ****
+a2a05d2 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_inputmethods_LatinIME ****
+3e047b8 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_providers_DownloadProvider ****
+30cc23d : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_resources_devicesettings ****
+75498f7 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:packages_services_Telephony ****
+23b6f58 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** vanir:vendor_cmsdk ****
+df15137 : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_packages_apps_YahooWeatherProvider ****
+dd1766a : Automatic translation import <Abhisek Devkota> 2 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_dataservices ****
+ca40d29 : datatop: Remove unused variables from datatop_ip_table_poll.c <Adrian DC> 13 days ago
+76076b1 : datatop: Fix out_dir array empty content verification <Adrian DC> 2 weeks ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+8288ab2 : Add a barrier for Marlin/Sailfish <DHOMD> 3 months ago
+ 
+**** vanir:vendor_samsung ****
+234ec9e : klte-common: Update blobs <Kevin F. Haggerty> 35 hours ago
+ 
