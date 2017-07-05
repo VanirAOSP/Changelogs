@@ -1,0 +1,249 @@
+
+**** vanir:build ****
+9596f3e : Build hacks <DHOMD> 9 months ago
+ 
+**** cm:LineageOS/android_device_cyanogen_msm8916-common ****
+1ea8311 : msm8916-common: Enable sdcardfs <Louis Popi> 5 months ago
+41501e7 : msm8916-common: Disable adaptative LMK <Louis Popi> 3 weeks ago
+3716846 : msm8916: Add core_ctl props <Kilian von Pflugk> 5 months ago
+88c22e9 : msm8939: Add power HAL extension to disable big cluster <Danny Baumann> 3 weeks ago
+6350ff4 : msm8939: Update sysfs paths after device tree changes. <Danny Baumann> 1 year, 1 month ago
+027c39e : msm8939: Set OpenGLES version to 3.2 <Louis Popi> 6 weeks ago
+ 
+**** vanir:device_google_marlin ****
+4447136 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 4 months ago
+2c9fd0d : Revert "marlin: disable our local telephony extensions" <DHOMD> 4 months ago
+249c6bb : marlin/sailfish: fix NFC selinux denial <Mitchell> 2 days ago
+ 
+**** cm:LineageOS/android_device_lge_g6-common ****
+a117327 : g6: add all unlockable models to build guard <Greg Willard (r3pwn)> 22 hours ago
+ 
+**** cm:LineageOS/android_device_motorola_condor ****
+f9c85f5 : condor: Abandon TARGET_UNIFIED_DEVICE flag [1/3] <Bruno Martins> 2 days ago
+d1d2b14 : condor: Allow vendor init to override props <Michael Bestas> 1 year, 4 months ago
+ 
+**** cm:LineageOS/android_device_motorola_msm8610-common ****
+08ff97d : msm8610-common: Abandon TARGET_UNIFIED_DEVICE flag [3/3] <Bruno Martins> 2 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+9ce8887 : Otus: Fix FM Radio <DHOMD> 6 months ago
+812aecf : otus: Abandon TARGET_UNIFIED_DEVICE flag [2/3] <Bruno Martins> 2 days ago
+19ad470 : otus: Allow vendor init to override props <Michael Bestas> 1 year, 4 months ago
+ 
+**** vanir:device_oneplus_bacon ****
+57dbafe : bacon: Complete enforcing vendor presence <Michael Bestas> 2 weeks ago
+560ef5e : bacon: Remove qcom BSP QCPATH references <Michael Bestas> 2 weeks ago
+828ecdc : msm8974: Remove loc_api that depends on QCPATH <Michael Bestas> 1 year, 8 months ago
+3ae5a95 : bacon: Use widevine from kipper TOS125B <Michael Bestas> 2 weeks ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+83eac02 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 8 months ago
+ 
+**** vanir:frameworks_base ****
+82e0cb1 : Automatic translation import <Abhisek Devkota> 25 hours ago
+4825fbc : SystemUI: Fix heads up tile off color <qjohn> 2 days ago
+ 
+**** cm:LineageOS/android_hardware_qcom_audio ****
+1ebcae6 : aenc-aac: bounds checking <Aalique Grahame> 3 months ago
+ 
+**** cm:LineageOS/android_hardware_qcom_audio ****
+3881c4c : aenc-aac: bounds checking <Aalique Grahame> 3 months ago
+ 
+**** cm:LineageOS/android_hardware_qcom_fm ****
+2e20c17 : Automatic translation import <Abhisek Devkota> 25 hours ago
+7a29d93 : FM: Fix helium hal build <Luca Stefani> 5 days ago
+0df98d3 : Change rename_dialog background color to default <Mingbo Zhang> 6 months ago
+f62c66a : FMStats: fix GetFMStatsForFreq error for non-cherokee <mingboz> 10 months ago
+ 
+**** cmold:android_kernel_cyanogen_msm8916 ****
+22f57b9 : tomato: Add defconfig <Michael Bestas> 2 weeks ago
+e93eea3 : ASoC: msm: Add Yulong CP8675 support <Ethan Chen> 1 year, 9 months ago
+6176f6d : alarmtimer: Add Yulong poweroff alarm implementation <Ethan Chen> 2 years, 8 months ago
+add3f97 : msm: mdss: Add support for Yulong DSI status check <Ethan Chen> 1 year, 9 months ago
+752ae5c : msm: mdss: Add support for Yulong TPS65132 regulator <Ethan Chen> 2 years, 8 months ago
+c0c0f38 : msm: mdss: Fix panel for the cp8675_I02 variant <Chirayu Desai> 2 years ago
+bdac26f : regulator: onsemi-6335d: Add yulong changes <Ethan Chen> 2 years, 6 months ago
+860f709 : regulator: tps65132-yl: Import Yulong TPS65132 regulator <Scott Mertz> 2 years, 8 months ago
+5266f5f : power: Import Yulong power drivers <Ethan Chen> 2 years, 8 months ago
+59eb4a0 : hwmon: qpnp-adc: Add support for Yulong NTC 12K battery <Ethan Chen> 2 years, 8 months ago
+db03320 : mmc: yulong: Add Yulong MMC parameter driver support <Ethan Chen> 1 year, 9 months ago
+a4bc2c0 : msm: camera: Merge tomato camera changes <Scott Mertz> 2 years, 9 months ago
+f8493e0 : input: gt9xx_yl: Import Yulong Goodix GT9XX driver <Ethan Chen> 1 year, 9 months ago
+5db4976 : input: yulong: Import Yulong touchscreen driver <Ethan Chen> 1 year, 9 months ago
+03f82ef : input: sensors: Add Coolpad hall sensor <Ethan Chen> 1 year, 9 months ago
+f90786f : input: sensors: Add Yulong MPU6880 driver <Ethan Chen> 1 year, 9 months ago
+03304f9 : input: sensors: Add Yulong PA12200001 light sensor <Ethan Chen> 1 year, 9 months ago
+4f1d2a5 : sensors: yl_sensparams: Add Yulong parameters driver <Ethan Chen> 1 year, 9 months ago
+24d6577 : ARM: dts: cp8675: Import cp8675 tomato board files <Ethan Chen> 1 year, 9 months ago
+fa48016 : yulong: Import Yulong platform code <Ethan Chen> 1 year, 9 months ago
+7218bbe : lettuce: Add defconfig <Michael Bestas> 2 weeks ago
+6a559da : cma: set default region to a low physical address for lettuce <Scott Mertz> 2 years, 2 months ago
+77919ee : ASoC: arizona: Work around for lettuce mp3/aac offload <Pat Erley> 2 years ago
+d62ba84 : ASoC: msm: t86519a1 wm8998 integration <Scott Mertz> 2 years, 5 months ago
+4f7d923 : msm: mdss: t86519a1: turn off lcd power on sleep <liuyuntao> 2 years, 5 months ago
+6741726 : power: smb1360: modify with wingtech changes <Scott Mertz> 2 years, 5 months ago
+4500a41 : regulator: tps65132: disable register reads for t86519a1 <Scott Mertz> 2 years, 4 months ago
+44e65ce : msm: camera_v2: add af software powerdown <Wang Guojun> 2 years, 5 months ago
+5475b14 : input: touchscreen: gsl1688e: Import GSL1688E touchscreen driver <Scott Mertz> 2 years, 5 months ago
+bf6a2af : input: sensors: mpu6050: add missing timestamp input events <Khalid Zubair> 1 year, 9 months ago
+7e38f1c : input: misc: akm09911: Write powerdown mode only if sensor is enabled <Rudolf Tammekivi> 1 year, 1 month ago
+112647a : input: sensors: akm09911: modify for t86519a1 <xiaomingming> 2 years, 11 months ago
+2510ca2 : ARM: dts: t86519a1: Import t86519a1 lettuce board files <Ethan Chen> 1 year, 9 months ago
+4c3465d : drivers: wingtech: Import Wingtech platform code <Ethan Chen> 1 year, 9 months ago
+dfc431e : jalebi: Add defconfig <Michael Bestas> 2 weeks ago
+9993f5f : ASoC: wcd: add jalebi variant sound driver <Edward Wang> 2 years, 1 month ago
+080bda6 : usb: phy-msm-usb: toggle power gpio to enable OTG on jalebi <Edward Wang> 2 years ago
+13d5e61 : hwmon: qpnp-adc: Add jalebi variant battery support <Edward Wang> 2 years, 1 month ago
+10654b6 : power: qpnp-linear-charger-hq: Add HQ driver variant <Edward Wang> 1 year, 4 months ago
+d13ef6a : power: qpnp-vm-bms-hq: Add HQ driver variant <Edward Wang> 1 year, 4 months ago
+5b8d0c4 : input: touchscreen: gt9xx_hq: Add jalebi variant touchscreen driver <Edward Wang> 2 years, 1 month ago
+be67fbc : input: ap3426: use averaging for calibration instead of min <Erica Chang> 1 year, 11 months ago
+54c0efc : input: sensors: kionix_hq: Add HQ kionix accel sensor support <Edward Wang> 1 year, 10 months ago
+296f8ed : ARM: dts: ql970: Import ql970 jalebi board files <Edward Wang> 2 years, 1 month ago
+671e62e : drivers: huaqin: Add platform support <Edward Wang> 2 years, 1 month ago
+0049cd4 : rendang: Add defconfig <Michael Bestas> 2 weeks ago
+2252df4 : hwmon: qpnp-adc: Add rendang battery thermistor mapping <Lin Ma> 2 years, 5 months ago
+95ed3ed : input: touchscreen: msg2xxx: Import MSG2XXX touchscreen driver <Lin Ma> 1 year, 9 months ago
+ef0d4a6 : input: sensors: mmc3416x: Expose file ops to compass HAL <Lin Ma> 1 year, 9 months ago
+a575c32 : input: sensors: kionix: Add Kionix accelerometer driver <Lin Ma> 2 years, 5 months ago
+ 
+**** cmold:android_kernel_htc_msm8974 ****
+02510a1 : drivers: staging: Update QC prima wireless driver <Bruno Martins> 4 days ago
+ 
+**** cmold:android_kernel_htc_msm8996 ****
+c20183b : pme: Use HZ=300 <Christopher R. Palmer> 4 weeks ago
+8c75fde : msm: sensor: validating the flash initialization parameters <Sureshnaidu Laveti> 7 months ago
+2bb249f : msm: vidc: Allocate memory dynamically for debugfs info_reads <Abdulla Anam> 8 weeks ago
+28adbf9 : ARM: dts: msm: Update low temperature APSS frequency in msm8996pro <Manaf Meethalavalappu Pallikunhi> 3 months ago
+4f466a6 : msm: sps: Fix race condition in SPS debugfs APIs <Siva Kumar Akkireddi> 8 weeks ago
+1fbbc5e : drivers: soc: qcom: rpm_stats: Add mutex lock for shared data <Naresh Malladi> 4 weeks ago
+9167e98 : usb: gadget: MIDI: Add support for SuperSpeed enumeration <Ajay Agarwal> 2 months ago
+6d94ec0 : msm: vidc: Copy user buffers to kernel memory before access <Surajit Podder> 5 weeks ago
+08e33c7 : iommu: iommu-debug: cleanup iommu debug <Liam Mark> 7 weeks ago
+172694f : iommu: iommu-debug: Rework CONFIG_IOMMU_DEBUG_TRACKING <Patrick Daly> 3 months ago
+39ea6ee : sched: qhmp: consider only the active CPUs in select_best_cpu() <Pavankumar Kondeti> 1 year, 4 months ago
+92c29bf : ARM: dts: msm: Bringup sdm450 QRD <Jiangen Jiao> 4 weeks ago
+be8935e : defconfig: msm: remove spcom driver on msm-3.18 <Amir Samuelov> 6 months ago
+4b11968 : soc: qcom: remove spcom driver from msm-3.18 <Amir Samuelov> 6 months ago
+beb2cf0 : msm: camera: Use mutex lock to avoid race condition <Krupal Divvela> 7 weeks ago
+e4079d6 : msm: camera: validate num_streams in stream_cfg_cmd before using it <Gaoxiang Chen> 7 weeks ago
+ea42dc7 : msm:camera: correct stats query out of boundary <Fei Zhang> 7 weeks ago
+7cf99a4 : msm: sps: Fix race condition in SPS debugfs APIs <Siva Kumar Akkireddi> 8 weeks ago
+523cc17 : ASoC: msm: Fix mute on speaker in VoWLAN calls <Tanya Dixit> 4 months ago
+90d23c4 : wcnss: Fix getting iris id wrong for wcn3610 card <jge> 6 weeks ago
+dbb2e1c : msm: mdss: update the wait sequence for DSI_VIDEO_DONE interrupt <Padmanabhan Komanduru> 9 months ago
+484d509 : msm: mdss: update the wait logic for sending DSI commands <Padmanabhan Komanduru> 10 months ago
+507541d : ARM: dts: msm: Add initial support for sdm450 QRD <Jiangen Jiao> 5 weeks ago
+a9036a9 : msm: camera: isp: Avoid information leak in ISPIF <Venu Yeshala> 5 weeks ago
+ee2ccf1 : ASoC: msm: qdsp6v2: make audio debugfs read and release exclusive <Divya Ojha> 10 weeks ago
+d48f7d2 : soc: qcom: rpm-smd-debug: initialize variables and check for return value <Naresh Malladi> 5 weeks ago
+4071434 : input: synaptics_dsx: remove unused synaptics touch screen driver files <Shantanu Jain> 8 weeks ago
+efe12ba : ASoC: msm-cpe: Fix range checking in function fw_name_store <Xiaoyu Ye> 8 weeks ago
+16bae03 : usb : dwc3: Initialize kernel stack variables properly <Sai Krishna Juturi> 7 weeks ago
+5ab5a03 : msm: mdss: Fix potential dereferencing of null pointer <Rajkumar Subbiah> 7 weeks ago
+04c1d98 : defconfig : gud: Remove gud driver <Trudy Shearer> 6 weeks ago
+5557b58 : msm : gud: Remove gud driver <Trudy Shearer> 7 weeks ago
+01958d3 : ARM : dts: msm: Add 600Mhz GPU clock support for SDM450 <Hareesh Gundu> 7 weeks ago
+0f78307 : ARM : dts: msm: Update gfx clock corners for SDM450 <Taniya Das> 7 weeks ago
+6225a08 : clk : msm: Add support for 600MHz for GPU clock <Taniya Das> 7 weeks ago
+a84f18a : msm: ba: Update printk format specifier to prevent leaks <Shiju Mathew> 8 weeks ago
+118ba63 : qbt1000: Fix for incorrect buffer size check and integer overflow <Abir Ghosh> 8 weeks ago
+d04e920 : diag: Add proper synchronization checks to msg mask table <Gopikrishna Mogasati> 9 weeks ago
+93ff048 : clk: msm: clock-alpha-pll: Update handoff for dynamic alpha pll <Odelu Kukatla> 8 weeks ago
+29b35e1 : msm: kgsl: Perform cache operation with kernel address <Hareesh Gundu> 3 months ago
+b46109f : msm: camera: sensor: Validate sensor name during probe <Depeng Shao> 8 weeks ago
+8eaedf2 : ARM: dts: msm: Enable KPDPWR software debounce for PM8994 <Anirudh Ghayal> 6 weeks ago
+13d45c2 : input: qpnp-power-on: Add debounce for KPDPWR_N rising edge <Anirudh Ghayal> 6 weeks ago
+d7dba1b : defconfig: gud: Remove gud driver <Trudy Shearer> 6 weeks ago
+61cced4 : msm: gud: Remove gud driver <Trudy Shearer> 7 weeks ago
+18cdbb9 : ARM: dts: msm: Add 600Mhz GPU clock support for SDM450 <Hareesh Gundu> 7 weeks ago
+faf5acf : ARM: dts: msm: Update gfx clock corners for SDM450 <Taniya Das> 7 weeks ago
+6134b6c : clk: msm: Add support for 600MHz for GPU clock <Taniya Das> 7 weeks ago
+3c05788 : msm: ipa: use GFP_ATOMIC for DMA memory allocation during SSR <Ghanim Fodi> 8 months ago
+4955680 : input: synaptics: fix for buggy code poined by SIL tool <Andrew Chant> 3 months ago
+ 
+**** cmold:android_kernel_lge_hammerhead ****
+79d000a : arm: oabi compat: add missing access checks <Dave Weinstein> 11 months ago
+12232d1 : ipv4: Don't do expensive useless work during inetdev destroy. <David S. Miller> 1 year, 4 months ago
+bccd7bf : ALSA: seq: Fix race at timer setup and close <Takashi Iwai> 1 year, 6 months ago
+3cfea91 : ALSA: compress: fix an integer overflow check <Dan Carpenter> 3 years ago
+18fc002 : mac80211: fix fragmentation code, particularly for encryption <Johannes Berg> 3 years, 5 months ago
+234673a : mac80211: fix AP powersave TX vs. wakeup race <Emmanuel Grumbach> 3 years, 4 months ago
+e9f40a3 : unix: correctly track in-flight fds in sending process user_struct <Hannes Frederic Sowa> 1 year, 5 months ago
+936a575 : unix: properly account for FDs passed over unix sockets <willy tarreau> 1 year, 6 months ago
+9100a48 : UPSTREAM: proc: actually make proc_fd_permission() thread-friendly <Oleg Nesterov> 1 year, 8 months ago
+7eb8ae7 : UPSTREAM: proc: make proc_fd_permission() thread-friendly <Oleg Nesterov> 3 years, 10 months ago
+5f995be : qcrypto: protect potential integer overflow. <Neeraj Soni> 7 months ago
+ 
+**** cmold:lge-kernel-mako ****
+077614c : ASoC: soc: qdsp6: prevent risk of buffer overflow <Xiaojun Sang> 8 months ago
+696f6a2 : BACKPORT: fiq_debugger: restrict access to critical commands. <Mark Salyzyn> 7 months ago
+d0599bc : ARM: fiq_debugger: lock between tty and console writes <Colin Cross> 4 years, 8 months ago
+6f0c1e5 : ARM: fiq_debugger: add process context reboot command <Colin Cross> 5 years ago
+9867f78 : msm: camera: Fix possible out of bound writes in csi driver <Lakshmi Narayana Kalavala> 3 years, 11 months ago
+fedacc7 : msm: actuator: fix to prevent untrusted pointer to lead DoS <Vasko Kalanoski> 3 years, 9 months ago
+ 
+**** cmold:android_kernel_oneplus_onyx ****
+932bc11 : drivers: synaptics_s3508: Add support for Swipe gestures <Ashwin Ramesh> 5 months ago
+9a8b13a : prima: Update driver to LA.BF.1.1.3_rb1.15 <Ashwin Ramesh> 2 days ago
+ 
+**** vanir:packages_apps_CMParts ****
+9be3492 : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** vanir:packages_apps_DeskClock ****
+5fef2c6 : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** vanir:packages_apps_Dialer ****
+ebaed92 : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+0b08d5d : Automatic translation import <Abhisek Devkota> 25 hours ago
+c45b89b : Gallery2: Fix crash after returning from albums in wallpaper picker <Arne Coucheron> 5 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Jelly ****
+1fd384c : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+d7bb21c : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** cm:LineageOS/android_packages_apps_Profiles ****
+9d14b09 : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** vanir:packages_apps_Settings ****
+e354e84 : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** cm:LineageOS/android_packages_apps_Terminal ****
+7c34511 : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** vanir:packages_apps_WallpaperPicker ****
+2b021c4 : WallpaperPicker: Update for wallpaper API changes <Arne Coucheron> 5 days ago
+ 
+**** cm:LineageOS/android_packages_providers_DataUsageProvider ****
+6637927 : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** cm:LineageOS/android_packages_providers_WeatherProvider ****
+d5ebc76 : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** cm:LineageOS/android_packages_resources_devicesettings ****
+bc9d3c1 : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** vanir:packages_services_Telephony ****
+282384c : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** vanir:vendor_cmsdk ****
+497a8e8 : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** cm:LineageOS/android_packages_apps_YahooWeatherProvider ****
+fb40ce0 : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+d8da28e : bacon: Update adreno blobs to LA.BF.1.1.3_rb1.12 <Ashwin Ramesh> 12 hours ago
+abe2e88 : onyx: Regen makefiles to fix Copyright <Ashwin Ramesh> 2 days ago
+0b83a67 : onyx: Regen Blobs <Ashwin Ramesh> 2 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+b92d791 : Add a barrier for Marlin/Sailfish <DHOMD> 4 months ago
+ 
+**** vanir:vendor_xiaomi ****
+6af81ab : cancro: Use widevine from kipper TOS125B <Michael Bestas> 4 days ago
+ 
