@@ -1,0 +1,280 @@
+
+**** vanir:bionic ****
+b928447 : linker: remove link from external library on unload <Dimitry Ivanov> 3 months ago
+ 
+**** vanir:build ****
+0192422 : Build hacks <DHOMD> 9 months ago
+2dd5b56 : Version bump to NJH47D <android-build-team Robot> 6 weeks ago
+df00a9a : [DO NOT MERGE]Updating security string to 2017-07-05 on nyc-dev bug:38342695 (cherry picked from commit 96d958c34509a65e5f7787945f9923fb44c42f05) <Adam Seaton> 7 weeks ago
+f1af383 : [DO NOT MERGE]Updating security string to 2017-07-01 on nyc-dev bug:38342695 (cherry picked from commit 77dad3dfcd677136f6657e1b95dd84ed1be1d728) <Adam Seaton> 7 weeks ago
+ 
+**** vanir:device_google_marlin ****
+3f61057 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 4 months ago
+acb66b8 : Revert "marlin: disable our local telephony extensions" <DHOMD> 4 months ago
+a9cc2b6 : marlin: update fingerprint to NJH47D <Dan Pasanen> 7 hours ago
+ 
+**** cm:LineageOS/android_device_google_sailfish ****
+3c5d0fd : sailfish: update fingerprint to NJH47D <Dan Pasanen> 7 hours ago
+ 
+**** vanir:device_huawei_angler ****
+2fda856 : Update fingerprints <DHOMD> 53 minutes ago
+0f45610 : Update extractor <DHOMD> 57 minutes ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+24194ac : Otus: Fix FM Radio <DHOMD> 6 months ago
+ 
+**** vanir:device_oneplus_bacon ****
+9e94d62 : bacon: Update adreno blobs to LA.BF.1.1.3_rb1.12 <Ashwin Ramesh> 2 days ago
+adb8acd : bacon: Remove deprecated BT props <Luca Stefani> 3 weeks ago
+83afcf6 : bacon: Update adreno blob listing <Ashwin Ramesh> 3 days ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+0d7712c : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 8 months ago
+1c43e2e : msm8974: Update adreno blobs to LA.BF.1.1.3_rb1.12 <Ashwin Ramesh> 2 days ago
+84fafed : msm8974: Use widevine from kipper TOS125B <Michael Bestas> 3 weeks ago
+ 
+**** vanir:external_boringssl ****
+b1aad23 : CVE 2016-2109 fix <Adam Vartanian> 3 months ago
+ 
+**** aosp:platform/external/dng_sdk ****
+35aa468 : Throw exception on integer overflow in dng_ifd.cpp. <Yujie Qin> 8 weeks ago
+ 
+**** aosp:platform/external/libavc ****
+9490be3 : Decoder: Fix end of bitstream error. <Hamsalekha S> 5 months ago
+77af827 : Decoder: Fix allocation for Mbaff weight matrix <Hamsalekha S> 8 weeks ago
+776ddbc : Decoder: Initialize MB info buffer to zero. <Hamsalekha S> 3 months ago
+4081cc4 : Decoder: Fixed flag u1_top_bottom_decoded. <Hamsalekha S> 8 weeks ago
+abb5cfb : Decoder: Added an error check while parsing PPS. <Hamsalekha S> 8 weeks ago
+c2d3ce5 : Fix stack buffer overflow in ih264d_process_intra_mb <Harish Mahendrakar> 1 year, 3 months ago
+76f6a3e : Decoder: Fix in reference list initialization. <Hamsalekha S> 4 months ago
+d4b34e3 : Decoder: Fixes in accessing mbaff flag in error cases <Harish Mahendrakar> 6 months ago
+9759612 : Fix in the case of MMCO 3 (long term reference idx). <Hamsalekha S> 5 months ago
+ 
+**** aosp:platform/external/libgdx ****
+c97a2c1 : Fix 36385715 heap overflow when loading HDR files <Lucas Dupin> 3 months ago
+4702c50 : Fix Pixmap overflow. Bug 36621442 <Lucas Dupin> 3 months ago
+e3b5da5 : Fix series of JPEG vulnerabilities <Lucas Dupin> 3 months ago
+e0ddaf0 : Fix 36385715 heap overflow when loading HDR files <Lucas Dupin> 3 months ago
+ 
+**** aosp:platform/external/libhevc ****
+6523680 : Fix heap buffer overflow while searching for valid PPS <Harish Mahendrakar> 7 weeks ago
+cf376a7 : Check for buffer overflow in pps/slice header parsing <Naveen Kumar P> 3 months ago
+62e944d : memset SPS to zero <Harish Mahendrakar> 3 months ago
+d6fd3d7 : Fix reallocation for new sps <Naveen Kumar P> 3 months ago
+011b658 : DO NOT MERGE Handle streams with change in max_dec_buffering/num_reorder_frames without resolution change <Harish Mahendrakar> 1 year, 3 months ago
+4667b9e : Check for cpb cnt in hrd parsing <Naveen Kumar P> 3 months ago
+ 
+**** aosp:platform/external/libmpeg2 ****
+b427732 : Check Number of Skip MBs <Venkatarama Avadhani> 3 months ago
+5da05c0 : Error Resilience - Check on as_recent_fld[0][1] <Venkatarama Avadhani> 3 months ago
+45df45d : Fix Bytes Consumed Issue <Venkatarama Avadhani> 3 months ago
+ 
+**** vanir:external_skia ****
+e60ff4c : Set a limit on the size for BMP images DO NOT MERGE <Leon Scroggins III> 4 months ago
+ 
+**** aosp:platform/external/sonivox ****
+63ff572 : Fix infinite recursion <Marco Nelissen> 8 weeks ago
+1f2842c : Check chunk size <Marco Nelissen> 8 weeks ago
+ 
+**** vanir:external_stagefright-plugins ****
+931ae6b : FFmpegExtractor: Fix "supported" typo in logs <Michael Bestas> 9 days ago
+ 
+**** aosp:platform/external/tremolo ****
+7d1beba : Always use unsigned char <Marco Nelissen> 8 weeks ago
+ 
+**** vanir:frameworks_av ****
+e0123f5 : Modifying MetaData invalidates previous char* <Marco Nelissen> 7 weeks ago
+309c4fb : Fix memory leak in error case <Marco Nelissen> 8 weeks ago
+77089b2 : Limit ogg packet size <Marco Nelissen> 8 weeks ago
+aaeca86 : Prevent OOB write in soft_avc encoder <Ray Essick> 8 weeks ago
+edc1286 : Don't allow using or allocating a buffer after the first state transition <Marco Nelissen> 3 months ago
+ 
+**** vanir:frameworks_base ****
+0d099dd : ZygoteInit: Remove CAP_SYS_RESOURCE <Nick Kralevich> 4 months ago
+6b7bffb : system_server: add CAP_SYS_PTRACE <Nick Kralevich> 5 months ago
+de7cc6b : Fix re-enabling alert window appop after leaving VR mode. <Ruben Brunk> 2 months ago
+aa4edfe : Make a11y node info parceling more robust <Phil Weaver> 3 months ago
+ 
+**** vanir:frameworks_native ****
+2210c72 : libgui: check for invalid slot in attachBuffer <Chia-I Wu> 7 weeks ago
+d3fa90b : libgui: Check slot received from IGBP in Surface <Dan Stoza> 9 weeks ago
+9ab1252 : ui: Fix bad size check in Fence::unflatten <Chris Forbes> 8 weeks ago
+ 
+**** vanir:kernel_google_marlin ****
+086e1cb : net/packet: fix overflow in check for tp_frame_nr <Andrey Konovalov> 3 months ago
+28e4473 : net/packet: fix overflow in check for tp_reserve <Andrey Konovalov> 3 months ago
+da29dd0 : qcacld-2.0: Add bounday check for multicastAddr array <Manjeet Singh> 7 months ago
+bc9ed86 : msm: kgsl: Fix kgsl memory allocation and free race condition <Sunil Khatri> 3 months ago
+b2a0b7b : msm: camera: Add regulator enable and disable independent of CSID <Ravi Kishore Tanuku> 9 weeks ago
+ca9d0fb : sound: soc: remove unused effect control <carter_hsu> 3 months ago
+55a807d : BACKPORT: UPSTREAM: dccp: fix freeing skb too early for IPV6_RECVPKTINFO <Andrey Konovalov> 5 months ago
+278dfe9 : Revert "proc: smaps: Allow smaps access for CAP_SYS_RESOURCE" <Nick Desaulniers> 9 weeks ago
+a4f0dee : UPSTREAM: ipv4: keep skb->dst around in presence of IP options <Eric Dumazet> 5 months ago
+10110b9 : msm: mdss: fix race condition during mdp debugfs release <Harsh Sahu> 3 months ago
+37c487a : ashmem: remove cache maintenance support <Dennis Cagle> 2 months ago
+47b4235 : msm: mdss: fix race condition in mdp debugfs <Ingrid Gallardo> 4 months ago
+ba0f16c : Fixing an issue that caused DEVPORT to always be set. <Max Bires> 6 months ago
+d180efd : Unsetting DEVPORT from marlin configurations. <Max Bires> 6 months ago
+aba4fd0 : UPSTREAM: net/packet: fix overflow in check for priv area size <Andrey Konovalov> 3 months ago
+1e27406 : BACKPORT: UPSTREAM: HID: hiddev: validate num_values for HIDIOCGUSAGES, HIDIOCSUSAGES commands <Scott Bauer> 1 year ago
+4596454 : qcacld-2.0: Race condition while using pkt log buffer <Ashish Kumar Dhanotiya> 3 months ago
+5a0026f : msm: rmnet_ipa: fix security issue <Dennis Cagle> 2 months ago
+81f6f22 : msm: camera: don't cut to 8bits for validating enum variable <Gaoxiang Chen> 3 months ago
+a21f7dd : msm: camera2: cpp: Fix out-of-bounds frame or command buffer access <Dennis Cagle> 10 weeks ago
+68d81f7 : soc: qcom: pil: Avoid possible buffer overflow during Modem boot <Nick Desaulniers> 7 weeks ago
+f788c29 : msm: camera: Fix kernel overwrite GET_BUF_BY_IDX ioctl <Dennis Cagle> 10 weeks ago
+fdc2082 : drivers: leds-qpnp-flash: remove unnecessary kfree <bob.pc_chang> 3 months ago
+4265aa2 : msm: mdss: Add plane_count limit check for mdss_rotator buffer <Benjamin Chan> 3 months ago
+24f7403 : msm: mdss: Add plane_count range check in mdss WFD <Dennis Cagle> 2 months ago
+0dc5d57 : msm: camera: sensor: Add boundary check for cci master <Rajesh Bondugula> 8 months ago
+ec22f61 : soc: qcom: Avoid possible buffer overflow in service-locator <Puja Gupta> 8 weeks ago
+8a03e7b : msm: isp: fix for potentitial array out of bound access <Senthil Kumar Rajagopal> 5 months ago
+c63dc79 : FROMLIST: msm: qdsp6v2: set pointer to NULL after free <Siqi Lin> 8 weeks ago
+ 
+**** cmold:android_kernel_htc_flounder ****
+fa22462 : UPSTREAM: net/packet: fix overflow in check for tp_reserve <Andrey Konovalov> 3 months ago
+9dcce4e : UPSTREAM: net/packet: fix overflow in check for tp_frame_nr <Andrey Konovalov> 3 months ago
+65dc57b : UPSTREAM: f2fs: sanity check segment count <Jin Qian> 2 months ago
+14e11f2 : UPSTREAM: net/packet: fix overflow in check for priv area size <Andrey Konovalov> 3 months ago
+432855d : net: wireless: bcmdhd: arpoe/ndoe IOVAR bug patch <Insun Song> 7 weeks ago
+77e08a5 : net: wireless: bcmdhd: adding boundary check in SWC gscan config <Insun Song> 3 months ago
+3a2dcef : video: tegra: dsi: Set max limit for reading panel <Pavan Kunapuli> 4 months ago
+83b8866 : ANDROID: f2fs: sanity check checkpoint segno and blkoff <Jin Qian> 8 weeks ago
+5bd9f92 : UPSTREAM: timerfd: Protect the might cancel mechanism proper <Thomas Gleixner> 5 months ago
+040ec0d : BACKPORT: f2fs: sanity check log_blocks_per_seg <Jin Qian> 2 months ago
+9674f94 : ANDROID: Fix the incompatible goto command in security Fix. <Chenbo Feng> 3 months ago
+5a4753c : BACKPORT: [UPSTREAM] udf: Check component length before reading it <Jan Kara> 2 years, 7 months ago
+df981e2 : BACKPORT: [UPSTREAM] udf: Verify i_size when loading inode <Jan Kara> 2 years, 7 months ago
+757833a : net: wireless: bcmdhd: adding boundary check in wl_cfg80211_mgmt_tx <Insun Song> 9 weeks ago
+ 
+**** vanir:kernel_huawei_angler ****
+c0afb15 : UPSTREAM: net/packet: fix overflow in check for tp_reserve <Andrey Konovalov> 3 months ago
+014b067 : UPSTREAM: net/packet: fix overflow in check for tp_frame_nr <Andrey Konovalov> 3 months ago
+3c9dc78 : UPSTREAM: char: Drop bogus dependency of DEVPORT on !M68K <Geert Uytterhoeven> 1 year, 3 months ago
+6953317 : msm: kgsl: Fix kgsl memory allocation and free race condition <Dennis Cagle> 7 weeks ago
+565b6ae : msm: camera: Add regulator enable and disable independent of CSID <Dennis Cagle> 8 weeks ago
+ff4b7cd : msm: vidc: Allocate bus vote data during initialization <Vasantha Balla> 7 weeks ago
+6592286 : ashmem: remove cache maintenance support <Dennis Cagle> 9 weeks ago
+725bad1 : BACKPORT: udf: Check path length when reading symlink <Jan Kara> 2 years, 7 months ago
+59cc320 : ipv4: keep skb->dst around in presence of IP options <Eric Dumazet> 5 months ago
+bb3e9cb : BACKPORT: UPSTREAM: dccp: fix freeing skb too early for IPV6_RECVPKTINFO <Andrey Konovalov> 5 months ago
+3731ac3 : Revert "proc: smaps: Allow smaps access for CAP_SYS_RESOURCE" <Nick Desaulniers> 9 weeks ago
+0026add : net: wireless: bcmdhd: adding boundary check in wl_cfg80211_mgmt_tx <Insun Song> 9 weeks ago
+08fc3c1 : BACKPORT: UPSTREAM: sg_start_req(): make sure that there's not too many elements in iovec <Al Viro> 2 years, 4 months ago
+b89051e : msm: mdss: fix race condition during mdp debugfs release <Harsh Sahu> 3 months ago
+6d26507 : msm: mdss: fix race condition in mdp debugfs <Ingrid Gallardo> 4 months ago
+e58dd31 : net: wireless: bcmdhd: adding boundary check in SWC gscan config <Insun Song> 3 months ago
+4ad6b90 : arm64: angler_defconfig: Unsetting DEVPORT from angler configurations. <Max Bires> 6 months ago
+244c98f : Fixing an issue that caused DEVPORT to always be set. <Max Bires> 6 months ago
+04a0461 : UPSTREAM: net/packet: fix overflow in check for priv area size <Andrey Konovalov> 3 months ago
+fc4472f : net: wireless: bcmdhd: arpoe/ndoe IOVAR bug patch <Insun Song> 7 weeks ago
+8a9ae70 : BACKPORT: UPSTREAM: HID: hiddev: validate num_values for HIDIOCGUSAGES, HIDIOCSUSAGES commands <Scott Bauer> 1 year ago
+61da6ad : msm: camera2: cpp: Fix out-of-bounds frame or command buffer access <Dennis Cagle> 9 weeks ago
+2bef9d1 : soc: qcom: pil: Avoid possible buffer overflow during Modem boot <Nick Desaulniers> 7 weeks ago
+839c878 : Revert "soc: qcom: pil: Avoid possible buffer overflow during Modem boot" <Stuart Scott> 7 weeks ago
+52a3183 : soc: qcom: pil: Avoid possible buffer overflow during Modem boot <Dennis Cagle> 9 weeks ago
+7235a04 : msm: camera: don't cut to 8bits for validating enum variable <Gaoxiang Chen> 3 months ago
+f15804e : msm: camera: sensor: Add boundary check for cci master <VijayaKumar T M> 8 weeks ago
+9a1fda3 : FROMLIST: msm: qdsp6v2: set pointer to NULL after free <Siqi Lin> 8 weeks ago
+ 
+**** cmold:android_kernel_lge_bullhead ****
+730a3df : UPSTREAM: net/packet: fix overflow in check for tp_reserve <Andrey Konovalov> 3 months ago
+427a1de : UPSTREAM: net/packet: fix overflow in check for tp_frame_nr <Andrey Konovalov> 3 months ago
+35ac273 : BACKPORT: UPSTREAM: dccp: fix freeing skb too early for IPV6_RECVPKTINFO <Andrey Konovalov> 5 months ago
+d68d3d4 : UPSTREAM: char: Drop bogus dependency of DEVPORT on !M68K <Geert Uytterhoeven> 1 year, 3 months ago
+0680be9 : arm64: bullhead_defconfig: Unsetting DEVPORT from bullhead configurations. <Max Bires> 6 months ago
+3ff47de : Fixing an issue that caused DEVPORT to always be set. <Max Bires> 6 months ago
+bbbe795 : msm: kgsl: Fix kgsl memory allocation and free race condition <Dennis Cagle> 7 weeks ago
+b93b39c : msm: mdss: fix race condition during mdp debugfs release <Harsh Sahu> 3 months ago
+7b49092 : msm: mdss: fix race condition in mdp debugfs <Ingrid Gallardo> 4 months ago
+ebd904e : BACKPORT: udf: Check path length when reading symlink <Jan Kara> 2 years, 7 months ago
+2c2206a : ashmem: remove cache maintenance support <Dennis Cagle> 9 weeks ago
+7fe8350 : Revert "proc: smaps: Allow smaps access for CAP_SYS_RESOURCE" <Nick Desaulniers> 9 weeks ago
+2ca85ce : ipv4: keep skb->dst around in presence of IP options <Eric Dumazet> 5 months ago
+ad68091 : msm: vidc: Allocate bus vote data during initialization <Vasantha Balla> 7 weeks ago
+14cb512 : msm: camera: Add regulator enable and disable independent of CSID <Dennis Cagle> 8 weeks ago
+af70f73 : BACKPORT: UPSTREAM: sg_start_req(): make sure that there's not too many elements in iovec <Al Viro> 2 years, 4 months ago
+f66049c : UPSTREAM: net/packet: fix overflow in check for priv area size <Andrey Konovalov> 3 months ago
+94c12b0 : BACKPORT: UPSTREAM: HID: hiddev: validate num_values for HIDIOCGUSAGES, HIDIOCSUSAGES commands <Scott Bauer> 1 year ago
+644ff45 : qcacld-2.0: Race condition while using pkt log buffer <Ashish Kumar Dhanotiya> 3 months ago
+9ac4d21 : msm: camera2: cpp: Fix out-of-bounds frame or command buffer access <Dennis Cagle> 9 weeks ago
+d3fd80f : msm: camera: don't cut to 8bits for validating enum variable <Gaoxiang Chen> 3 months ago
+6686922 : soc: qcom: pil: Avoid possible buffer overflow during Modem boot <Nick Desaulniers> 7 weeks ago
+ad5552c : msm: camera: sensor: Add boundary check for cci master <VijayaKumar T M> 8 weeks ago
+c3c8231 : qcacld-2.0: Add bounday check for multicastAddr array <Manjeet Singh> 7 months ago
+49075b0 : FROMLIST: msm: qdsp6v2: set pointer to NULL after free <Siqi Lin> 8 weeks ago
+ 
+**** cmold:lge-kernel-mako ****
+f1ba7a2 : ipv6: Check ip6_find_1stfragopt() return value properly. <David S. Miller> 7 weeks ago
+c3c38f3 : ipv6: Prevent overrun when parsing v6 header options <Craig Gallek> 7 weeks ago
+fc548f7 : selinux: fix off-by-one in setprocattr <Stephen Smalley> 5 months ago
+e313298 : fs/exec.c: account for argv/envp pointers <Kees Cook> 12 days ago
+66d3746 : Allow stack to grow up to address space limit <Helge Deller> 2 weeks ago
+4130baa : mm: larger stack guard gap, between vmas <Hugh Dickins> 2 weeks ago
+ 
+**** cmold:android_kernel_samsung_smdk4412 ****
+132101c : cypress: BLN: Allow BLN to override touchkey leds <Dominggoes Isakh> 5 days ago
+ 
+**** cmold:android_kernel_xiaomi_msm8992 ****
+179eebc : libra_defconfig: disable ssc sensors <Demon000> 10 days ago
+ 
+**** vanir:libcore ****
+b85da16 : Proper fix for rejecting ftp URL with /r/n. <Przemyslaw Szczepaniak> 2 months ago
+d1b3b26 : Test for rejection of ftp URL with /r/n in userinfo <Przemyslaw Szczepaniak> 3 months ago
+ 
+**** vanir:platform_manifest ****
+ab4120d : ref tags or whatever <DHOMD> 28 minutes ago
+585fd13 : Opencv3 is not yet updated <DHOMD> 33 minutes ago
+b9110a5 : Mirror LNG commit <DHOMD> 39 minutes ago
+21cf927 : R24 <DHOMD> 62 minutes ago
+ 
+**** cm:LineageOS/android_packages_apps_Jelly ****
+fa0b42a : Jelly: Don't save form data in incognito mode <Luca Stefani> 3 days ago
+ 
+**** vanir:packages_apps_Settings ****
+bd1cc32 : Fix phishing attack in ChooseLockGeneric <Steven Ng> 7 weeks ago
+97fd637 : resolve merge conflicts of 3964c51bf2 to nyc-dev <Dmitry Dementyev> 4 months ago
+ 
+**** vanir:packages_providers_DownloadProvider ****
+a66dd88 : DO NOT MERGE Deleting downloads for removed uids on downloadprovider start <Suprabh Shukla> 4 months ago
+ 
+**** vanir:packages_providers_MediaProvider ****
+67ef565 : [DO NOT MERGE] Enforce user separation on external storage <Fyodor Kupolov> 5 months ago
+ 
+**** vanir:system_sepolicy ****
+4cfc1b9 : system_server: replace sys_resource with sys_ptrace <Nick Kralevich> 5 months ago
+ 
+**** commotio:commotio ****
+333634e : Depreciate customtiles <DHOMD> 35 minutes ago
+b32bafc : Fingerprinted again <DHOMD> 53 minutes ago
+c50ed07 : Fingerprint <DHOMD> 55 minutes ago
+b062313 : Bump 139 <DHOMD> 62 minutes ago
+ 
+**** vanir:vendor_huawei ****
+6b073d2 : Angler vendor from July <DHOMD> 52 minutes ago
+ 
+**** github:TheMuppets/proprietary_vendor_oppo ****
+8e8f02e : msm8974: Update adreno blobs to LA.BF.1.1.3_rb1.12 <Michael Bestas> 13 hours ago
+b22966f : msm8974: Use widevine from kipper TOS125B <Michael Bestas> 3 weeks ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+c1dfe80 : Add a barrier for Marlin/Sailfish <DHOMD> 4 months ago
+ 
+**** vanir:vendor_vanir ****
+ed6d105 : Customtitles is depreciated <DHOMD> 35 minutes ago
+c39f53c : Add LTE support for China Telecom Macau. <AI Lion> 3 weeks ago
+7ddaff2 : qcom_utils: Cleanup supported QCOM_BOARD_PLATFORMS <Michael Bestas> 8 days ago
+d2d6cfd : build: qcom_target: Define MASTER_SIDE_CP_TARGET_LIST <Michael Bestas> 8 days ago
+5fe1862 : apns-conf: Add Japan Umobile APNs <Julien Humbert> 12 days ago
+878a599 : Fingerprints <DHOMD> 53 minutes ago
+ 
+**** github:TheMuppets/proprietary_vendor_yu ****
+532b44a : tomato: Enable EAP proxy <Michael Bestas> 3 weeks ago
+44c60ae : tomato: Use widevine from crackling TOS125B <Louis Popi> 13 days ago
+58d6e89 : tomato: Use radio blobs from kipper TOS125B <Louis Popi> 13 days ago
+5903356 : tomato: Use GPS blobs from kipper TOS125B <Louis Popi> 13 days ago
+7933350 : tomato: Update adreno from kipper TOS125B <Louis Popi> 13 days ago
+f78b354 : jalebi: Update widevine from crackling TOS111B <Louis Popi> 6 weeks ago
+a8fbd2c : jalebi: Update GPS blobs from crackling TOS111B <Louis Popi> 6 weeks ago
+8dde1c6 : jalebi: Update adreno from crackling TOS111B <Louis Popi> 6 weeks ago
+ 
