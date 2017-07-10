@@ -1,0 +1,102 @@
+
+**** vanir:build ****
+aac6c5d : Build hacks <DHOMD> 9 months ago
+ 
+**** vanir:device_google_marlin ****
+69ce316 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 4 months ago
+9699d74 : Revert "marlin: disable our local telephony extensions" <DHOMD> 4 months ago
+ 
+**** cm:LineageOS/android_device_htc_pme ****
+150c778 : pme: fstab: Fix OTG mount device. <Tab Fitts> 2 days ago
+ 
+**** cm:LineageOS/android_device_lge_ls990 ****
+fe4e99f : ls990: Update CarrierConfig options <Kasual> 11 days ago
+ 
+**** cm:LineageOS/android_device_lge_msm8996-common ****
+751cc4c : msm8996: add all unlockable g6 models to the build guard <Greg Willard (r3pwn)> 6 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+6d07d62 : Otus: Fix FM Radio <DHOMD> 6 months ago
+ 
+**** cm:LineageOS/android_device_motorola_victara ****
+adc44b9 : victara: Update adreno blobs to LA.BF.1.1.3_rb1.12 <Ashwin Ramesh> 5 days ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+3e7b3d4 : op3: Light up buttons only when pressed <dianlujitao> 11 days ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+c528a0d : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 8 months ago
+ 
+**** vanir:device_samsung_smdk4412-common ****
+5989a07 : smdk4412-common: camera: Fix front camera camcorder preview <filiprrs> 28 hours ago
+1427472 : smdk4412-common: camera: Fixes for the back camera preview <filiprrs> 32 hours ago
+ 
+**** cmold:android_kernel_google_msm ****
+4a56b88 : lockdep: Silence warning if CONFIG_LOCKDEP isn't set <Paul Bolle> 4 years, 5 months ago
+159eb10 : mm: Tighten x86 /dev/mem with zeroing reads <Kees Cook> 3 months ago
+a4a1f98 : mm/mempolicy.c: fix error handling in set_mempolicy and mbind. <Chris Salls> 3 months ago
+cbc7977 : net/packet: fix overflow in check for tp_frame_nr <Andrey Konovalov> 3 months ago
+eafa224 : net/packet: fix overflow in check for tp_reserve <Andrey Konovalov> 3 months ago
+fd3eaa5 : KEYS: Change the name of the dead type to ".dead" to prevent user access <David Howells> 3 months ago
+1a8c07a : packet: fix races in fanout_add() <Eric Dumazet> 5 months ago
+ecac447 : irda: Fix lockdep annotations in hashbin_delete(). <David S. Miller> 5 months ago
+ad0f565 : selinux: fix off-by-one in setprocattr <Stephen Smalley> 5 months ago
+b48a26f : fs/exec.c: account for argv/envp pointers <Kees Cook> 2 weeks ago
+9d4b4f7 : ANDROID: ion: Protect kref from userspace manipulation <Daniel Rosenberg> 5 months ago
+63299b9 : sctp: validate chunk len before actually using it <Marcelo Ricardo Leitner> 9 months ago
+631cf80 : Allow stack to grow up to address space limit <Helge Deller> 3 weeks ago
+45c60e5 : mm: larger stack guard gap, between vmas <Hugh Dickins> 3 weeks ago
+5ff7bc8 : tcp: do not lock listener to process SYN packets <Eric Dumazet> 1 year, 9 months ago
+5a3a309 : flo: regen defconfig <Flex1911> 12 days ago
+7b25909 : time: Remove CONFIG_TIMER_STATS <Kees Cook> 5 months ago
+af582b6 : ping: implement proper locking <Eric Dumazet> 4 months ago
+95b56ff : tty: n_hdlc: get rid of racy n_hdlc.tbuf <Alexander Popov> 4 months ago
+deb598f : TTY: n_hdlc, fix lockdep false positive <Jiri Slaby> 1 year, 7 months ago
+549fe02 : net: ipc_router: Register services only on client port <Karthikeyan Ramasubramanian> 7 months ago
+ 
+**** cmold:android_kernel_huawei_kiwi ****
+3ec8101 : ipv4: keep skb->dst around in presence of IP options <Eric Dumazet> 5 months ago
+e50b20f : ALSA: timer: Fix race between read and ioctl <Takashi Iwai> 5 weeks ago
+581bcb1 : ALSA: timer: Fix missing queue indices reset at SNDRV_TIMER_IOCTL_SELECT <Takashi Iwai> 5 weeks ago
+1537c14 : fs/exec.c: account for argv/envp pointers <Kees Cook> 2 weeks ago
+3ae818e : Allow stack to grow up to address space limit <Helge Deller> 3 weeks ago
+6818db5 : mm: fix new crash in unmapped_area_topdown() <Hugh Dickins> 3 weeks ago
+8ecf5a9 : mm: larger stack guard gap, between vmas <Hugh Dickins> 3 weeks ago
+6552c75 : android: fiq_debugger: restrict access to critical commands. <Mark Salyzyn> 7 months ago
+d408163 : diag: Fix possible underflow/overflow issues <Mohit Aggarwal> 1 year, 1 month ago
+4ee08c5 : Revert "(CR): Asoc:msm:Added Buffer overflow check" <Masaki Sato> 3 years, 3 months ago
+1dcdb7e : Asoc:msm:Added Buffer overflow check <Mohammad Johny Shaik> 3 years, 7 months ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+3c50347 : misc: Revert some changes from SM-G900F kernel source import <Moritz Horstmann> 2 days ago
+c7a1a2a : arch: arm: Fix order of msm_reserve() vs persistent_ram_early_init() <Gobinda Joy> 3 days ago
+b4d5601 : USB: digi_acceleport: do sanity checking for the number of ports <Oliver Neukum> 1 year, 3 months ago
+a672d08 : USB: mct_u232: add sanity checking in probe <Oliver Neukum> 1 year, 3 months ago
+c20d40d : USB: iowarrior: fix oops with malicious USB descriptors <Josh Boyer> 1 year, 4 months ago
+b679cdd : Input: gtco - fix crash on detecting device without endpoints <Vladis Dronov> 1 year, 3 months ago
+4902010 : Input: powermate - fix oops with malicious USB descriptors <Josh Boyer> 1 year, 4 months ago
+b962f72 : Input: ati_remote2 - fix crashes on detecting device with invalid descriptor <Vladis Dronov> 1 year, 4 months ago
+1d9c7f2 : ASoC: q6lsm: Add check for integer overflow <Bhalchandra Gajare> 2 years, 5 months ago
+d63402e : ALSA: compress: fix an integer overflow check <Dan Carpenter> 3 years ago
+421b20a : radio: iris: Use kernel API to copy data from user space <Ayaz Ahmad> 3 years, 9 months ago
+bf5a334 : msm: vidc: Check validity of userspace address <Deepak Verma> 3 years, 9 months ago
+073bcca : diag: Fix possible underflow/overflow issues <Mohit Aggarwal> 1 year, 1 month ago
+10c23c4 : msm:camera: Fix multiple bounds check <Jim Rasche> 4 years ago
+28f91de : msm: camera: Fix various small issues in cci driver <Hariram Purushothaman> 3 years, 11 months ago
+ 
+**** vanir:packages_apps_CMParts ****
+375d943 : Regenerate contributors cloud <Harry Youd> 2 days ago
+e1423b0 : CMParts: Move some strings from arrays.xml to strings.xml <Michael W> 30 hours ago
+ 
+**** vanir:packages_apps_Settings ****
+29aa061 : Bring back some physical keyboard settings <Gabriele M> 3 days ago
+ 
+**** vanir:packages_services_Telecomm ****
+021cadd : SensitivePhoneNumbers: Fix number comparison <Paul Keith> 3 days ago
+ 
+**** vanir:vendor_motorola ****
+98a8258 : victara: Update adreno blobs to LA.BF.1.1.3_rb1.12 <Ashwin Ramesh> 2 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+0eff1bf : Add a barrier for Marlin/Sailfish <DHOMD> 4 months ago
+ 
