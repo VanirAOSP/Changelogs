@@ -1,0 +1,198 @@
+
+**** vanir:build ****
+5293d38 : Build hacks <DHOMD> 10 months ago
+ 
+**** cm:LineageOS/android_device_cyanogen_msm8916-common ****
+378f1b2 : msm8916: Remove QCPATH support <Michael Bestas> 16 hours ago
+ 
+**** vanir:device_google_marlin ****
+9133ced : Add a proper barrier and use vendor/caf/telephony <DHOMD> 5 months ago
+7b97896 : Revert "marlin: disable our local telephony extensions" <DHOMD> 5 months ago
+ 
+**** cm:LineageOS/android_device_htc_m8-common ****
+e8cc2d1 : m8-common: Update adreno blobs to LA.BF.1.1.3_rb1.12 <Ashwin Ramesh> 4 weeks ago
+ 
+**** cm:LineageOS/android_device_lge_g6-common ****
+d750351 : g6: Drop to HWC1 for HDR <Rashed Abdel-Tawab> 5 hours ago
+0218133 : g6: Add camcorder stereo dual mic paths <Rashed Abdel-Tawab> 10 hours ago
+b2a5a41 : g6: Add some more postproc libs <Rashed Abdel-Tawab> 10 hours ago
+f839cb7 : g6: Update mixer_paths from us997 v13a <Rashed Abdel-Tawab> 12 days ago
+ 
+**** cm:LineageOS/android_device_lge_mako ****
+be79d25 : mako: Update extract scripts to latest templates <Randy McCaskill> 10 hours ago
+ 
+**** cm:LineageOS/android_device_lge_msm8996-common ****
+94b749e : msm8996: Label g6 charger sysfs <Rashed Abdel-Tawab> 2 days ago
+37c8a23 : Revert "msm8996: disable speaker protection" <Rashed Abdel-Tawab> 6 hours ago
+a9f92b5 : msm8996: Remove WBS <Rashed Abdel-Tawab> 32 hours ago
+064f8d4 : msm8996: Don't specify presence of vendor specific BLE impl <Rashed Abdel-Tawab> 2 days ago
+ec31b07 : msm8996: Add tinyxml2_1 for UM5.7 SDM blobs <Rashed Abdel-Tawab> 2 days ago
+f9e3842 : msm8996: Use msm8998 display HAL <Rashed Abdel-Tawab> 2 days ago
+10f7ca7 : msm8996: Add libgpustats.so and enable PQ encoding metadata <Rashed Abdel-Tawab> 3 months ago
+b67ca2a : msm8996: Add liboemcrypto and libcppf for widevine L1 <Rashed Abdel-Tawab> 4 months ago
+4dcc9b8 : msm8996: Add mediadrmserver to access cffp firmware <Rashed Abdel-Tawab> 4 months ago
+840bd97 : msm8996: sepolicy: Label sys.ois and sys.camera properties <Rashed Abdel-Tawab> 11 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+257091b : Otus: Fix FM Radio <DHOMD> 6 months ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+78b691c : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 8 months ago
+ 
+**** vanir:device_sony_fusion3-common ****
+53bedfc : fusion3: init: Remove read_ahead_kb write <Chippa-a> 3 months ago
+ 
+**** vanir:device_yu_lettuce ****
+dcca380 : lettuce: Update extract scripts to latest templates <Michael Bestas> 17 hours ago
+34a29fb : lettuce: Remove egl symlinks <Michael Bestas> 8 days ago
+e3e6cbc : lettuce: Enforce vendor tree presence <Christopher N. Hesse> 4 months ago
+44efe77 : lettuce: Remove QCPATH support <Michael Bestas> 8 days ago
+ 
+**** vanir:device_yu_tomato ****
+ebbeec8 : tomato: Update extract scripts to latest templates <Michael Bestas> 17 hours ago
+d3806ec : tomato: Remove egl symlinks <Michael Bestas> 8 days ago
+f4ce6c3 : tomato: Enforce vendor tree presence <Christopher N. Hesse> 4 months ago
+98cc05e : tomato: Remove QCPATH support <Michael Bestas> 8 days ago
+ 
+**** cmold:android_kernel_cyanogen_msm8916 ****
+9b85430 : fs/exec: fix use after free in execve <Andrea Arcangeli> 7 days ago
+ 
+**** vanir:kernel_huawei_angler ****
+9693f54 : fs/exec: fix use after free in execve <Andrea Arcangeli> 7 days ago
+ 
+**** cmold:android_kernel_lge_hammerhead ****
+6221246 : fs/exec: fix use after free in execve <Andrea Arcangeli> 7 days ago
+ 
+**** cmold:android_kernel_oneplus_msm8974 ****
+0ad520a : proc: prevent accessing /proc/<PID>/environ until it's ready <Mathias Krause> 1 year, 3 months ago
+3d62220 : fs/exec: fix use after free in execve <Andrea Arcangeli> 7 days ago
+e3cc460 : hid: usbhid: Changes to prevent buffer overflow <Tom Marshall> 6 days ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+696e9bb : ANDROID: sdcardfs: Remove unnecessary lock <Daniel Rosenberg> 13 days ago
+2d806fa : ANDROID: sdcardfs: use mount_nodev and fix a issue in sdcardfs_kill_sb <Gao Xiang> 3 months ago
+2bff160 : ANDROID: sdcardfs: remove dead function open_flags_to_access_mode() <Greg Hackmann> 3 months ago
+bb50265 : ANDROID: sdcardfs: d_splice_alias can return error values <Daniel Rosenberg> 8 weeks ago
+cc11a0c : ANDROID: mnt: Fix next_descendent <Daniel Rosenberg> 9 weeks ago
+1914904 : ANDROID: sdcardfs: Check for NULL in revalidate <Daniel Rosenberg> 2 months ago
+24fde62 : ANDROID: sdcardfs: Add linux/kref.h include <Dmitry Shmidt> 3 months ago
+5e616cd : ANDROID: sdcardfs: Move top to its own struct <Daniel Rosenberg> 3 months ago
+da23247 : ANDROID: sdcardfs: fix sdcardfs_destroy_inode for the inode RCU approach <Gao Xiang> 3 months ago
+310e6ba : ANDROID: sdcardfs: Don't iput if we didn't igrab <Daniel Roseberg> 3 months ago
+1adc4ab : ANDROID: sdcardfs: Call lower fs's revalidate <Daniel Rosenberg> 3 months ago
+1a6c220 : ANDROID: sdcardfs: Avoid setting GIDs outside of valid ranges <Daniel Rosenberg> 3 months ago
+db4584a : ANDROID: sdcardfs: Use filesystem specific hash <Daniel Rosenberg> 3 months ago
+b9928b3 : Android: sdcardfs: Don't complain in fixup_lower_ownership <Daniel Rosenberg> 3 months ago
+d05dd9e : Android: sdcardfs: Don't do d_add for lower fs <Daniel Rosenberg> 3 months ago
+3a4b2ee : ANDROID: sdcardfs: ->iget fixes <Daniel Rosenberg> 4 months ago
+4cf6b7e : Android: sdcardfs: Change cache GID value <Daniel Rosenberg> 4 months ago
+ae356db : ANDROID: sdcardfs: Directly pass lower file for mmap <Daniel Rosenberg> 4 months ago
+925384b : ANDROID: sdcardfs: update module info <Daniel Rosenberg> 5 months ago
+876f0bf : ANDROID: sdcardfs: use d_splice_alias <Daniel Rosenberg> 5 months ago
+54db915 : ANDROID: sdcardfs: fix ->llseek to update upper and lower offset <Daniel Rosenberg> 5 months ago
+e81d4e8 : ANDROID: sdcardfs: copy lower inode attributes in ->ioctl <Daniel Rosenberg> 5 months ago
+9656c45 : ANDROID: sdcardfs: remove unnecessary call to do_munmap <Daniel Rosenberg> 5 months ago
+59ab471 : ANDROID: sdcardfs: Fix style issues in macros <Daniel Rosenberg> 4 months ago
+92e76f5 : ANDROID: sdcardfs: Use seq_puts over seq_printf <Daniel Rosenberg> 4 months ago
+8d7fe3c : ANDROID: sdcardfs: Use to kstrout <Daniel Rosenberg> 5 months ago
+806541e : ANDROID: sdcardfs: Use pr_[...] instead of printk <Daniel Rosenberg> 5 months ago
+e0bc2ed : ANDROID: sdcardfs: remove unneeded null check <Daniel Rosenberg> 4 months ago
+776d032 : ANDROID: sdcardfs: Fix style issues with comments <Daniel Rosenberg> 5 months ago
+86e0508 : ANDROID: sdcardfs: Fix formatting <Daniel Rosenberg> 5 months ago
+2393c36 : ANDROID: sdcardfs: correct order of descriptors <Daniel Rosenberg> 4 months ago
+fd6b6b1 : ANDROID: sdcardfs: Fix gid issue <Daniel Rosenberg> 5 months ago
+35ec3ab : ANDROID: sdcardfs: Use tabs instead of spaces in multiuser.h <Daniel Rosenberg> 5 months ago
+2e0138c : ANDROID: sdcardfs: Remove uninformative prints <Daniel Rosenberg> 5 months ago
+6ea52b1 : ANDROID: sdcardfs: move path_put outside of spinlock <Daniel Rosenberg> 5 months ago
+6069c1e : ANDROID: sdcardfs: Use case insensitive hash function <Daniel Rosenberg> 5 months ago
+c61cb8a : fs: Limit sys_mount to only request filesystem modules. <Eric W. Biederman> 4 years, 5 months ago
+9f9ffaa : ANDROID: sdcardfs: declare MODULE_ALIAS_FS <Daniel Rosenberg> 5 months ago
+e888a58 : ANDROID: sdcardfs: Get the blocksize from the lower fs <Daniel Rosenberg> 5 months ago
+079066e : ANDROID: sdcardfs: Use d_invalidate instead of drop_recurisve <Daniel Rosenberg> 5 months ago
+7e0b8c5 : ANDROID: sdcardfs: Switch to internal case insensitive compare <Daniel Rosenberg> 5 months ago
+af51c22 : ANDROID: sdcardfs: Use spin_lock_nested <Daniel Rosenberg> 5 months ago
+d73ebcb : ANDROID: sdcardfs: Replace get/put with d_lock <Daniel Rosenberg> 5 months ago
+4276a7c : ANDROID: sdcardfs: rate limit warning print <Daniel Rosenberg> 5 months ago
+5cc50d4 : ANDROID: sdcardfs: support direct-IO (DIO) operations <Daniel Rosenberg> 5 months ago
+8de60df : ANDROID: sdcardfs: implement vm_ops->page_mkwrite <Daniel Rosenberg> 5 months ago
+bad39b0 : ANDROID: sdcardfs: Don't bother deleting freelist <Daniel Rosenberg> 5 months ago
+8cba71e : ANDROID: sdcardfs: Add missing path_put <Daniel Rosenberg> 6 months ago
+ec9f2e1 : ANDROID: sdcardfs: Fix incorrect hash <Daniel Rosenberg> 6 months ago
+02ad822 : ANDROID: sdcardfs: Switch strcasecmp for internal call <Daniel Rosenberg> 6 months ago
+ 
+**** cmold:android_kernel_xiaomi_msm8992 ****
+ff2eefc : qpnp-smbcharger: Publish charger voltage to the usb psy <Diogo Ferreira> 3 months ago
+159e3b3 : libra_defconfig: regenerate <Demon000> 8 hours ago
+c3424f9 : libra_defconfig: replace qualcomm cpu boost with cpu input boost <Demon000> 7 weeks ago
+7897c6e : cpu_input_boost: adapt cluster masks for msm8992 <Demon000> 7 weeks ago
+9c219f3 : cpu_input_boost: backport to 3.10 <Demon000> 13 days ago
+24e9a91 : cpufreq: Introduce CPU input boost driver <Sultanxda> 7 weeks ago
+8b37541 : BACKPORT: qcom-cpufreq: Use CLKFLAG_NO_RATE_CACHE <Sultanxda> 2 weeks ago
+1717dee : clk: qcom: clock-cpu-8994: Use CLKFLAG_NO_RATE_CACHE for a57_hf_mux_v2 <Sultanxda> 2 weeks ago
+b58544c : fs: aio: remove blk plug <ktoonsez> 4 years, 1 month ago
+3142364 : block: disable add_random <Chester Kener> 3 years, 5 months ago
+21ef756 : Revert "KSM: Start KSM by default" <Angelo G. Del Regno -- EternityProject Team Manager> 2 years, 3 months ago
+12118c2 : lib/memcopy: use glibc version <Miao Xie> 5 years ago
+69386db : lib/string: use glibc version <Miao Xie> 5 years ago
+51e597a : ARM: optimize memset_io()/memcpy_fromio()/memcpy_toio() <Russell King> 2 years, 3 months ago
+10c496d : asm-generic: atomic.h: relaxed atomic_read <Sumit Singh> 3 years, 4 months ago
+42dabe8 : mm: do not activate swap write failed pages <Vinayak Menon> 1 year, 5 months ago
+01449f8 : msm: mdss: Correct the AD backlight calculation formulas <Ping Li> 1 year, 11 months ago
+dd63bb5 : readahead: make context readahead more conservative <Fengguang Wu> 3 years, 11 months ago
+3a16990 : lowmemorykiller: Don't count swap cache pages twice <Liam Mark> 2 years, 5 months ago
+2de2cfe : lowmemorykiller: account for unevictable pages <Tim Murray> 11 months ago
+18ce2bf : cpuidle: don't disable cpuidle when entering suspend <Francisco Franco> 8 months ago
+e205823 : cpufreq: interactive governor drops bits in time calculation <Chris Redpath> 4 years, 2 months ago
+b7c1df3 : cpufreq: governor: Be friendly towards latency-sensitive bursty workloads <Srivatsa S. Bhat> 3 years, 2 months ago
+c5e0dbe : cpufreq: Break out early when frequency equals target_freq <Stratos Karafotis> 3 years, 3 months ago
+1c9121e : sched: LOAD_FREQ (4*HZ+61) avoids loadavg Moire <Klaus Ripke> 3 years, 8 months ago
+3cf9830 : sched: fix task-priority when using SCHED_RESET_ON_FORK <John Dias> 11 months ago
+7234145 : sched/loadavg: Fix loadavg artifacts on fully idle and on fully loaded systems <Vik Heyndrickx> 1 year, 3 months ago
+d5cca53 : UPSTREAM: sched/fair: Avoid pulling all tasks in idle balancing <Yuyang Du> 2 years, 1 month ago
+e206cce : qcom: mpm: use interruptible wait to reduce load avg <Francisco Franco> 11 months ago
+dc10e97 : msm: Use interruptible wait to not affect load average <franciscofranco> 1 year, 8 months ago
+010358d : qcom: msm-core: uninterruptible wait - you can kiss my arse goodbye <franciscofranco> 1 year, 8 months ago
+3a27203 : libra_defconfig: enable power efficient workqueues <Demon000> 7 months ago
+a44e8f1 : kthread_work: wake up worker only when the worker is idle <Lai Jiangshan> 3 years ago
+f47f44b : power: smb349-dual-charger: queue work on system_power_efficient_wq <Francisco Franco> 8 months ago
+384eb04 : devfreq: Use high priority workqueue <myfluxi> 3 years, 7 months ago
+68b1bb3 : mdss: move to a kthread for vsync_retire_work_handler <Francisco Franco> 9 months ago
+6f878aa : msm: mdss: flush retire work before ctl_stop operation <Lloyd Atkinson> 1 year, 3 months ago
+211db7f : kgsl: convert some workqueues to use kthreads <Francisco Franco> 9 months ago
+8c57f31 : power: smb135x-charger: queue work on system_power_efficient_wq <Francisco Franco> 8 months ago
+05f4d7b : qcom: msm-core: queue work on system_power_efficient_wq <Francisco Franco> 8 months ago
+49f8a6f : power: bcl: queue work on system_power_efficient_wq <Francisco Franco> 10 months ago
+63f1575 : power: smbcharger: queue work on system_power_efficient_wq <Francisco Franco> 11 months ago
+65a00d4 : drivers: thermal: queue work on system_power_efficient_wq <Francisco Franco> 8 months ago
+038e6a7 : power: qpnp-fg: queue work on system_power_efficient_wq <Francisco Franco> 9 months ago
+54f1921 : rcu: Move SRCU grace period work to power efficient workqueue <Shaibal Dutta> 3 years, 6 months ago
+b5892c8 : net/ipv4: queue work on power efficient wq <viresh kumar> 3 years, 6 months ago
+f0ef9b9 : firmware: use power efficient workqueue for unloading and aborting fw load <Shaibal Dutta> 3 years, 6 months ago
+18874fc : net: wireless: move regulatory timeout work to power efficient workqueue <Shaibal Dutta> 3 years, 6 months ago
+c780999 : workqueue: squashed: Add system wide power_efficient workqueues <NeilBrown> 2 years, 8 months ago
+b49af29 : libra_defconfig: enable uvc <Demon000> 2 months ago
+ 
+**** cm:LineageOS/android_packages_apps_Snap ****
+a206d75 : Snap: fix low resolution front camera switch icon <nijel8> 11 days ago
+ 
+**** commotio:commotio ****
+b6b4215 : Mido <DHOMD> 13 hours ago
+af088c7 : Some twrp basics <DHOMD> 13 hours ago
+ 
+**** vanir:vendor_htc ****
+3c5c089 : m8-common: Update adreno blobs to LA.BF.1.1.3_rb1.12 <Ashwin Ramesh> 4 weeks ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+074ee30 : Add a barrier for Marlin/Sailfish <DHOMD> 5 months ago
+ 
+**** vanir:vendor_vanir ****
+2764c97 : qcom: Allow setting custom audio, display, and media HALs <Rashed Abdel-Tawab> 2 days ago
+3367b47 : extract_files: Add support for paths without system/ <Rashed Abdel-Tawab> 4 months ago
+34cd4b7 : extract_files: Add support for specifying blob sections <Rashed Abdel-Tawab> 4 months ago
+eaad1d8 : build: Update smali and baksmali to 2.2.1 <Rashed Abdel-Tawab> 2 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_yu ****
+a6dfab0 : tomato: Regenerate makefiles <Michael Bestas> 16 hours ago
+39951f3 : lettuce: Regenerate makefiles <Michael Bestas> 16 hours ago
+f79194a : jalebi: Regenerate makefiles <Michael Bestas> 16 hours ago
+ 
