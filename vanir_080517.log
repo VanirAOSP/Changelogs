@@ -1,0 +1,198 @@
+
+**** vanir:build ****
+1997c76 : Build hacks <DHOMD> 10 months ago
+ 
+**** vanir:device_google_marlin ****
+6fa1a37 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 5 months ago
+85724a9 : Revert "marlin: disable our local telephony extensions" <DHOMD> 5 months ago
+ 
+**** vanir:device_lge_bullhead ****
+23bbc78 : bullhead: Disable non-AOSP Bluetooth-features <Martin Hoffmann> 7 weeks ago
+ 
+**** cm:LineageOS/android_device_lge_g5-common ****
+2e7a36e : g5: Split off radio configs per-variant <Rashed Abdel-Tawab> 4 days ago
+ 
+**** cm:LineageOS/android_device_lge_g6-common ****
+bfdcd98 : g6: Split off radio configs per-variant <Rashed Abdel-Tawab> 4 days ago
+ 
+**** cm:LineageOS/android_device_lge_mako ****
+1a7308e : mako: Update sepolicy for temperature sensors. <Randy McCaskill> 23 hours ago
+ 
+**** cm:LineageOS/android_device_lge_msm8996-common ****
+10602ee : msm8996: audio: Dump acdb_ids from stock <Rashed Abdel-Tawab> 6 days ago
+0fd665a : msm8996: rootdir: Split off radio configs per-variant <Rashed Abdel-Tawab> 4 days ago
+ 
+**** vanir:device_motorola_msm8916-common ****
+9c7f421 : msm8916-common: move gps.conf here and update it <Sultan Qasim Khan> 4 days ago
+ab4049f : msm8916-common: rootdir: usb: Remove leading "0x" from idProduct <Alberto97> 8 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+06b983e : Otus: Fix FM Radio <DHOMD> 7 months ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+50416b4 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 9 months ago
+ 
+**** cm:LineageOS/android_device_xiaomi_kenzo ****
+c9ffb05 : kenzo: Add time service blobs <TheStrix> 26 hours ago
+47d40e6 : kenzo: Remove modem assert <TheStrix> 27 hours ago
+ 
+**** cm:LineageOS/android_device_xiaomi_msm8956-common ****
+743eb8b : msm8956: Decommonize time service blobs <TheStrix> 26 hours ago
+02b7712 : msm8956: Remove modem assertion check <TheStrix> 27 hours ago
+ 
+**** vanir:device_yu_lettuce ****
+4e473bc : QCamera2: Adding missed media extenisons changes <Suman Mukherjee> 6 months ago
+ 
+**** vanir:device_yu_tomato ****
+788e0c4 : tomato: Add baseband-sh service definition <Meninblack007> 11 days ago
+8e5d777 : QCamera2: Adding missed media extenisons changes <Suman Mukherjee> 6 months ago
+ 
+**** vanir:frameworks_base ****
+40d132c : Automatic translation import <Abhisek Devkota> 33 hours ago
+c729010 : AppOps: Fix yet another deadlock <Gabriele M> 9 days ago
+ 
+**** vanir:frameworks_opt_telephony ****
+b1a8579 : Telephony: Keep preferred SMS Sim <Michael W> 2 days ago
+ 
+**** cm:LineageOS/android_hardware_qcom_fm ****
+dcad703 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:hardware_samsung ****
+2c868b1 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** cmold:android_kernel_oneplus_msm8974 ****
+a65c09c : ASoC: msm: qdsp6v2: Add range checking in msm_dai_q6_set_channel_map <Xiaoyu Ye> 8 months ago
+fd5bd99 : ASoC: msm: q6dspv2: use correct variable type to store ION buff size <Banajit Goswami> 9 months ago
+28dad1b : ASoC: msm: qdsp6v2: Fix build after mismerge <Tom Marshall> 17 hours ago
+5aa7dd9 : ASoC: msm: qdsp6v2: Fix build after mismerge <Tom Marshall> 17 hours ago
+ee25912 : drivers: soc: add mutex to prevent response being processed twice <Siena Richard> 6 months ago
+46832bd : trace: resolve stack corruption due to string copy <Amey Telawane> 1 year ago
+b93128a : ASoC: msm: qdsp6v2: Fix out-of-bounds access in put functions <Karthikeyan Mani> 7 months ago
+7fa9977 : defconfig: msm: Disable CONFIG_CP_ACCESS <Tom Marshall> 18 hours ago
+382069c8 : ANDROID: ion: Protect kref from userspace manipulation <Daniel Rosenberg> 6 months ago
+c3495aa : ion: blacklist %p kptr_restrict <Nick Desaulniers> 10 months ago
+293eba5 : ion: Fix use after free during ION_IOC_ALLOC <Daniel Rosenberg> 9 months ago
+ 
+**** cmold:android_kernel_xiaomi_msm8956 ****
+7be24d4 : random32: include missing header file <Patrick Tjin> 6 months ago
+8c2fd43 : ARM64: Wire up getrandom. <Josh Gao> 1 year, 1 month ago
+fbdcb3b : BACKPORT: ARM: wire up getrandom syscall <Russell King> 3 years ago
+c99adfc : BACKPORT: random: Wake up all getrandom(2) callers when pool is ready <Herbert Xu> 2 years, 3 months ago
+81f6fc4 : BACKPORT: random: introduce getrandom(2) system call <Theodore Ts'o> 3 years, 1 month ago
+dd01f87 : BACKPORT: random32: add prandom_reseed_late() and call when nonblocking pool becomes initialized <Hannes Frederic Sowa> 3 years, 9 months ago
+5c6264d : BACKPORT: random32: add periodic reseeding <Hannes Frederic Sowa> 3 years, 9 months ago
+e48aa4d : Revert "Revert "ARM: dts: msm: update memory map for msm8976/8956/8952 for External release"" <Bharat Pawar> 11 months ago
+5c51588 : drivers: soc: qcom: rpm_stats: Add mutex lock for shared data <Naresh Malladi> 5 weeks ago
+5c719ba : ASoC: msm: qdsp6v2: make audio debugfs read and release exclusive <Divya Ojha> 3 months ago
+7ff0e9a : msm: mdss: hdmi: check up-bound of CEC frame size <zhaoyuan> 6 months ago
+f73e8eb : msm: pcie: add bounds check for debugfs register write <Tony Truong> 7 months ago
+1c96584 : msm: mdss: validate the buffer size before allocating memory <Ashish Garg> 2 months ago
+b64d3a8 : msm: mdss: validate page id before reading from edid buffer <Ashish Garg> 9 weeks ago
+080f4cf : diag: Synchronize command registration table access <Mohit Aggarwal> 2 months ago
+223ab33 : msm : mdss: fix unaligned access problem <Harsh Sahu> 2 months ago
+4b577f2 : msm: camera: Use mutex lock to avoid race condition <VijayaKumar T M> 9 weeks ago
+ee01597 : msm: vidc: Allocate memory dynamically for debugfs info_reads <Abdulla Anam> 3 months ago
+69ddd8a : msm: camera: validate num_streams in stream_cfg_cmd before using it <Gaoxiang Chen> 3 months ago
+3f95a82 : msm: sps: Fix race condition in SPS debugfs APIs <Siva Kumar Akkireddi> 3 months ago
+8777c60 : msm: vidc: Copy user buffers to kernel memory before access <Surajit Podder> 9 weeks ago
+1e82d2a : usb : dwc3: Initialize kernel stack variables properly <Sai Krishna Juturi> 3 months ago
+f2a4824 : net: usb: rmnet_usb_ctrl:Make sure list_head operate atomically <Liangliang Lu> 3 months ago
+19cfce8 : msm: mdss: Buffer overflow while processing gamut table data <Bharath Gopal> 3 months ago
+4fb4afa : drivers: soc: qcom: rpm_stats: Add mutex lock for shared data <Naresh Malladi> 9 weeks ago
+57ec926 : diag: dci: Add NULL pointer checks for dci buffers <Manoj Prabhu B> 9 weeks ago
+874bbc2 : ipv6: addrconf: validate new MTU before applying it <Marcelo Leitner> 2 years, 5 months ago
+5f61f4a : msm: camera: isp: Avoid information leak in ISPIF <Venu Yeshala> 10 weeks ago
+bccb05d : msm: camera: fix untrusted pointer for power down setting <Haibin Liu> 3 months ago
+06b0bc1 : soc: qcom: rpm-smd-debug: initialize variables and check for return value <Naresh Malladi> 10 weeks ago
+ac8832a : hid: usbhid: Changes to prevent buffer overflow <Sriharsha Allenki> 8 months ago
+dec1403 : msm: isp: Avoid unaligned register access <Abhishek Kondaveeti> 1 year, 4 months ago
+4275ba7 : mmc: host: Shift pm qos unvoting to sofitrq <Vijay Viswanath> 3 months ago
+fc3412d : ASoC: msm: qdsp6v2: extend validation of virtual address <Siena Richard> 3 months ago
+ 
+**** cm:LineageOS/android_packages_apps_AudioFX ****
+4081d14 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_apps_CMParts ****
+f8ed153 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_apps_Camera2 ****
+b918d59 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_apps_CellBroadcastReceiver ****
+073c499 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_apps_Contacts ****
+ae19f55 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+bf4ddba : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_apps_DeskClock ****
+33a443d : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_apps_Dialer ****
+4dff7aa : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_apps_Email ****
+c44eaf0 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** cm:LineageOS/android_packages_apps_EmergencyInfo ****
+de00e09 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** cm:LineageOS/android_packages_apps_FlipFlap ****
+17cb1c8 : strings: correct spelling mistake <jrior001> 12 hours ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+ddd2341 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** cm:LineageOS/android_packages_apps_Jelly ****
+03d8d55 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_apps_LockClock ****
+c6d8d03 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_apps_ManagedProvisioning ****
+886e7ce : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_apps_Messaging ****
+76d63b3 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+7a3ed55 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_apps_Settings ****
+5067a1c : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** cm:LineageOS/android_packages_apps_Snap ****
+e595787 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_apps_Tag ****
+25ee4c5 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_apps_Trebuchet ****
+cd4a3c3 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+a3b49c5 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_inputmethods_LatinIME ****
+cd62db3 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_providers_CalendarProvider ****
+0bfe0b6 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_providers_DownloadProvider ****
+581eab3 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** cm:LineageOS/android_packages_resources_devicesettings ****
+0f88d74 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_services_Telecomm ****
+5f8e16d : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_services_Telephony ****
+074391e : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+3a62d4d : Add a barrier for Marlin/Sailfish <DHOMD> 5 months ago
+ 
