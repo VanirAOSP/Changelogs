@@ -1,0 +1,140 @@
+
+**** vanir:build ****
+6851419 : Build hacks <DHOMD> 10 months ago
+ 
+**** vanir:device_google_marlin ****
+eee4bb2 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 5 months ago
+9f39145 : Revert "marlin: disable our local telephony extensions" <DHOMD> 5 months ago
+ 
+**** vanir:device_htc_m8 ****
+6d8553e : m8: Update for new kernel defconfig <Bruno Martins> 11 days ago
+ 
+**** cm:LineageOS/android_device_htc_msm8974-common ****
+cef0c3c : msm8974-common: Use the default PCM device ID for voice2call usecase <Bruno Martins> 4 days ago
+2cb86fb : audio: remove startOffsetMs from media_profile <Divya Narayanan Poojary> 12 months ago
+5f7bc12 : Revert "Revert "msm8974: Turn on sdcardfs"" <Bruno Martins> 11 days ago
+ 
+**** vanir:device_lge_v20-common ****
+8327dcf : v20: Split off radio configs per-variant <Rashed Abdel-Tawab> 6 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+8a40589 : Otus: Fix FM Radio <DHOMD> 7 months ago
+ 
+**** vanir:device_oneplus_onyx ****
+5070c16 : onyx: audio: update acdb id of SND_DEVICE_IN_SPEAKER_MIC <CheckYourScreen> 5 months ago
+2dcfcd3 : onyx: audio: update backends <CheckYourScreen> 5 months ago
+904818c : onyx: overlay: Disable SIM batch operations <Gabriele M> 4 months ago
+8c0b4d7 : onyx: Fix bluetooth mac generation <Ashwin Ramesh> 28 hours ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+935aa81 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 9 months ago
+ 
+**** vanir:device_qcom_sepolicy ****
+415717e : sepolicy: Add qpnp-smbcharger battery supply contexts <Rashed Abdel-Tawab> 4 days ago
+6ff8a5f : sepolicy: Add new dc_supply sysfs <Rashed Abdel-Tawab> 7 days ago
+08a5a42 : sepolicy: Allow untrusted_apps to read usb power supply stats <Rashed Abdel-Tawab> 7 days ago
+ 
+**** vanir:device_sony_fusion3-common ****
+90be96d : fusion3: Remove references to deleted dhcpcd.conf <Pierre Imai> 1 year, 5 months ago
+7a4f602 : fusion3: init: Mount debugfs on early-init <Gabriele M> 11 months ago
+9afd644 : fusion3: Remove deprecated HAVE_ADRENO_SOURCE flag <CyberWalkMaN> 3 months ago
+51f4fc8 : fusion3: Fix Phone symlink from overlay/packages/apps <CaHbKaUp> 12 days ago
+5e0101f : fusion3: Update fm shell version <Chippa-a> 3 months ago
+e9e9cc9 : fusion3: Hide sRGB toggle in developer options <dianlujitao> 6 months ago
+612246b : fusion3: services: Enable delay service restart <Raghavendra Prasad Nagaraj> 1 year, 9 months ago
+ed045e7 : fusion3: proprietary: Add support for new global extract_files features <Rashed Abdel-Tawab> 4 months ago
+3f00430 : fusion3: proprietary: Use new generic extract utils <Adrian DC> 7 months ago
+ 
+**** vanir:device_sony_pollux ****
+e6845ec : pollux: proprietary: Use new generic extract utils <Adrian DC> 7 months ago
+ 
+**** cm:LineageOS/android_device_sony_pollux-common ****
+cb44f9e : pollux-common: proprietary: Use new generic extract utils <Adrian DC> 7 months ago
+ 
+**** cm:LineageOS/android_device_sony_pollux_windy ****
+1d75a05 : pollux_windy: proprietary: Use new generic extract utils <Adrian DC> 7 months ago
+ 
+**** vanir:device_sony_yuga ****
+8e21f40 : yuga: proprietary: Use new generic extract utils <Adrian DC> 7 months ago
+ 
+**** vanir:device_yu_lettuce ****
+c955aa0 : audio: remove startOffsetMs from media_profile <Divya Narayanan Poojary> 12 months ago
+ 
+**** cmold:android_kernel_htc_msm8974 ****
+ba5594c : net: tcp: fix rtable leak in tcp_is_local[6] <liping.zhang> 1 year, 6 months ago
+9c0b954 : pipe: Fix buffer offset after partially failed read <Ben Hutchings> 1 year, 6 months ago
+fa05b5a : mmc: core: Fix possbile memory leak <Sujit Reddy Thumma> 4 years, 7 months ago
+99a1e1b : ANDROID: trace: net: use %pK for kernel pointers <mukesh agrawal> 1 year, 1 month ago
+1a3b7f0 : BACKPORT: Bluetooth: Fix potential NULL dereference in RFCOMM bind callback <Jaganath Kanakkassery> 2 years, 3 months ago
+2e6de8d : tcp: Use supported random32 in pre-3.8 kernels <Matt Mower> 12 months ago
+4fcd941 : BACKPORT: tcp: make challenge acks less predictable <Eric Dumazet> 1 year, 1 month ago
+eff5652 : UPSTREAM: ppp: defer netns reference release for ppp channel <WANG Cong> 1 year, 1 month ago
+28cfffa : UPSTREAM: net: validate the range we feed to iov_iter_init() in sys_sendto/sys_recvfrom <Al Viro> 2 years, 5 months ago
+ba9ab4b : UPSTREAM: ipv6: add complete rcu protection around np->opt <Eric Dumazet> 1 year, 8 months ago
+c93157f : UPSTREAM: unix: avoid use-after-free in ep_remove_wait_queue <Rainer Weikusat> 1 year, 9 months ago
+252e4c1 : UPSTREAM: ALSA: control: Fix replacing user controls <Lars-Peter Clausen> 3 years, 2 months ago
+54a8ca2 : BACKPORT: ipv6: Don't reduce hop limit for an interface <D.S. Ljungmark> 1 year, 1 month ago
+492176a : UPSTREAM: ipv4: try to cache dst_entries which would cause a redirect <Hannes Frederic Sowa> 1 year, 1 month ago
+a2f594b : UPSTREAM: KEYS: close race between key lookup and freeing <Sasha Levin> 1 year, 1 month ago
+5f918c7 : UPSTREAM: KEYS: potential uninitialized variable <Dan Carpenter> 1 year, 2 months ago
+3ef6eb9 : KEYS: Fix short sprintf buffer in /proc/keys show function <David Howells> 11 months ago
+4859659 : UPSTREAM: udp: fix behavior of wrong checksums <Eric Dumazet> 1 year, 1 month ago
+a5229d3 : drivers: soc: qcom: Add error handling in function avtimer_ioctl <Xiaoyu Ye> 8 months ago
+37169e4 : drivers: soc: add mutex to prevent response being processed twice <Siena Richard> 6 months ago
+c1ca41a : drivers: soc: add size checks and update log messages <Siena Richard> 10 months ago
+00e4d7f : ASoC: check for null function pointer for dummy device read/write <Yuan Lin> 12 months ago
+9bb7236 : ASoC: soc: msm: initialize buffer to prevent kernel data leakage <Xiaojun Sang> 8 months ago
+1eb5fe0 : ASoC: msm: qdsp6v2: Fix out-of-bounds access in put functions <Ariel Yin> 6 months ago
+9b2f265 : ASoC: msm: qdsp6v2: Add range checking in msm_dai_q6_set_channel_map <Xiaoyu Ye> 8 months ago
+9180d57 : ASoC: msm: q6dspv2: use correct variable type to store ION buff size <Banajit Goswami> 9 months ago
+eaf9e0b : ASoC: msm: qdsp6v2: check param length for EAC3 format <Surendar karka> 11 months ago
+115e89c : ASoC: msm: qdsp6v2: Change audio drivers to use %pK <Ben Romberger> 1 year, 3 months ago
+481a46f : ASoC: msm-lsm-client: free lsm client data in msm_lsm_close <Vidyakumar Athota> 1 year, 8 months ago
+21914c9 : trace: resolve stack corruption due to string copy <Amey Telawane> 1 year ago
+04a274d : net: ipc_router: Register services only on client port <Karthikeyan Ramasubramanian> 8 months ago
+d325432 : perf: don't leave group_entry on sibling list (use-after-free) <John Dias> 9 months ago
+72d65ff : sctp: validate chunk len before actually using it <Marcelo Ricardo Leitner> 10 months ago
+4e5fcd3 : prima: Add buf len check in wlan_hdd_cfg80211_testmode <Manjeet Singh> 7 months ago
+166bdff : prima: Avoid overflow of "significant change" params <Jeff Johnson> 8 months ago
+cd5a477 : prima: Avoid overflow of "set_bssid_hotlist" params <Hanumanth Reddy Pothula> 6 months ago
+a10404f : prima: Trim operation classes to max supported in change station <SaidiReddy Yenuga> 6 months ago
+fd6fc8a : prima: Fix buffer overflow in WLANSAP_Set_WPARSNIes() <Nishank Aggarwal> 7 months ago
+1cc62eb : drivers: qcom: ultrasound: Lock async driver calls <Sudheer Papothi> 10 months ago
+f05a428 : msm: cpp: Fix for integer overflow in cpp <Ariel Yin> 7 months ago
+7c1d3b4 : msm: cpp: Fix for buffer overflow in cpp. <Krishnankutty Kolathappilly> 9 months ago
+3b68276 : msm-camera: Addressing possible overflow conditions <Trilokesh Rangam> 9 months ago
+d78a2f3 : msm: camera: sensor: Fix use after free condition <VijayaKumar T M> 1 year ago
+def85c7 : msm: camera: sensor: Validate eeprom_name string length <VijayaKumar T M> 9 months ago
+0f2d864 : msm: camera: fix bound check of offset to avoid overread overwrite <VijayaKumar T M> 9 months ago
+65867cc : msm: camera: Validate size param before allocating memory <Deepak Kaushal> 2 years, 4 months ago
+a418525 : platform: msm: sensor: Fix out of bounds and null pointer. <Ivan Tiyanov> 3 years, 2 months ago
+36427ab : msm: vidc: use %pK instead of %p which respects kptr_restrict sysctl <Abdulla Anam> 1 year, 2 months ago
+4e70f3c : msm: ipa: fix potential race condition ioctls <Biswajit Paul> 1 year, 1 month ago
+4baeabd : msm: crypto: Fix integer over flow check in qce driver <Zhen Kong> 10 months ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+3779076 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:packages_apps_Calendar ****
+3feea52 : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** vanir:vendor_cmsdk ****
+05c689d : Automatic translation import <Abhisek Devkota> 3 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+2ad6aea : onyx: Update hci_qcomm_init from bacon <Ashwin Ramesh> 27 hours ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+30b40f0 : Add a barrier for Marlin/Sailfish <DHOMD> 5 months ago
+ 
+**** vanir:vendor_sony ****
+24f5724 : fusion3: Cleanup unreferenced libraries <AdrianDC> 1 year, 5 months ago
+1ef7775 : yuga: Use new generic extract utils <Chippa-a> 4 months ago
+3345f3f : pollux_windy: Use new generic extract utils <Chippa-a> 4 months ago
+7851f5b : pollux-common: Use new generic extract utils <Chippa-a> 4 months ago
+b56e09b : pollux: Use new generic extract utils <Chippa-a> 4 months ago
+f0b72d7 : fusion3: Use new generic extract utils <Chippa-a> 4 months ago
+ 
+**** vanir:vendor_vanir ****
+91cb327 : Add WOM Internet/MMS (CL) apn <Keita Espinoza> 3 days ago
+ 
