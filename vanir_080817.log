@@ -1,14 +1,17 @@
 
 **** vanir:build ****
+d4fcfa6 : Build hacks <DHOMD> 10 months ago
 d98d8e5 : Version bump to NJH47F <android-build-team Robot> 6 weeks ago
 e310b21 : [DO NOT MERGE] Updating Security String to 2017-08-05 on nyc-dev bug:62388772 (cherry picked from commit 2b93753bc4025e92e6b6c8ed510bc9b3f8faff4d) <Adam Seaton> 9 weeks ago
 41eef5f : [DO NOT MERGE] Updating Security String to 2017-08-01 on nyc-dev bug:62388772 (cherry picked from commit a847c0b23ce761b09148f4f8fd6c9b473a46f531) <Adam Seaton> 9 weeks ago
  
 **** vanir:device_google_marlin ****
-67f194d : marlin: update fingerprint to NJH47F <Dan Pasanen> 17 hours ago
+138fcbf : Add a proper barrier and use vendor/caf/telephony <DHOMD> 5 months ago
+3257429 : Revert "marlin: disable our local telephony extensions" <DHOMD> 5 months ago
+67f194d : marlin: update fingerprint to NJH47F <Dan Pasanen> 18 hours ago
  
 **** cm:LineageOS/android_device_google_sailfish ****
-40d6e66 : sailfish: update fingerprint to NJH47F <Dan Pasanen> 17 hours ago
+40d6e66 : sailfish: update fingerprint to NJH47F <Dan Pasanen> 18 hours ago
  
 **** vanir:device_htc_flounder ****
 5755028 : flounder: update build fingerprint & description to N9F27H <razorloves> 17 hours ago
@@ -20,7 +23,7 @@ fab971c : Grant netmgrd proper unix perms <Jeff Vander Stoep> 1 year, 3 months a
 6a86b55 : Grant netmgrd proper unix perms <Jeff Vander Stoep> 1 year, 3 months ago
  
 **** vanir:device_huawei_angler ****
-b90830f : update extractor <nuclearmistake> 3 hours ago
+b90830f : update extractor <nuclearmistake> 4 hours ago
 1c4f138 : angler: update build fingerprint & description to N2G48C <razorloves> 17 hours ago
  
 **** vanir:device_lge_bullhead ****
@@ -38,8 +41,14 @@ b90830f : update extractor <nuclearmistake> 3 hours ago
 **** cm:LineageOS/android_device_motorola_clark ****
 f2465dc : Grant netmgrd proper unix perms <Jeff Vander Stoep> 1 year, 3 months ago
  
+**** cm:LineageOS/android_device_motorola_otus ****
+a82dae5 : Otus: Fix FM Radio <DHOMD> 7 months ago
+ 
 **** cm:LineageOS/android_device_motorola_victara ****
 e4b9d5c : Grant netmgrd proper unix perms <Jeff Vander Stoep> 1 year, 3 months ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+2bf0026 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 9 months ago
  
 **** vanir:device_samsung_jf-common ****
 69b02e8 : Grant netmgrd proper unix perms <Jeff Vander Stoep> 1 year, 3 months ago
@@ -173,8 +182,8 @@ ec1f0ee : i2c: chip: CwMcuSensor: Fix Security Vulnerability <Andy Chuang> 9 wee
 8054a1f : ASoC: tegra: check ucode upper limit <Ravindra Lokhande> 3 months ago
  
 **** vanir:kernel_huawei_angler ****
-2a4da67 : Revert "UPSTREAM: f2fs: sanity check segment count" <nuclearmistake> 2 hours ago
-b20cca6 : Revert "BACKPORT: f2fs: sanity check checkpoint segno and blkoff" <nuclearmistake> 2 hours ago
+2a4da67 : Revert "UPSTREAM: f2fs: sanity check segment count" <nuclearmistake> 3 hours ago
+b20cca6 : Revert "BACKPORT: f2fs: sanity check checkpoint segno and blkoff" <nuclearmistake> 3 hours ago
 5d70d64 : USB: f_qc_rndis: Prevent use-after-free for _rndis_qc <Pratham Pratap> 3 months ago
 ada4869 : msm: ipa: Fix for missing int overflow check in the refcount library <Utkarsh Saxena> 4 months ago
 4d576a4 : ASoC: msm: qdspv2: add result check when audio process fail <kunleiz> 4 months ago
@@ -248,7 +257,7 @@ b0efa48 : ASoC: soc: prevent risk of buffer overflow <Xiaojun Sang> 9 months ago
 6947e43 : ASoC: msm: Fix to avoid crash during voip call <Vidyakumar Athota> 3 years, 1 month ago
  
 **** vanir:platform_manifest ****
-8e21463 : r29 <nuclearmistake> 3 hours ago
+8e21463 : r29 <nuclearmistake> 4 hours ago
  
 **** cm:LineageOS/android_packages_apps_Jelly ****
 f20c0a4 : Jelly: Add Yandex search engine <Paul Keith> 4 weeks ago
@@ -256,10 +265,30 @@ f20c0a4 : Jelly: Add Yandex search engine <Paul Keith> 4 weeks ago
 **** vanir:system_bt ****
 80cca31 : Revert "Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into cm-14.1" <Dan Pasanen> 16 hours ago
  
+**** commotio:commotio ****
+7c7435b : 140 <DHOMD> 34 seconds ago
+3c9591d : Fingerprinted <DHOMD> 81 seconds ago
+ 
 **** vanir:vendor_huawei ****
 48ee5a1 : Angler N2G48C blobs <nuclearmistake> 3 hours ago
  
+**** vanir:vendor_lge ****
+bbe820f : msm8996: Add tinyxml2_1 for UM5.7 SDM <Rashed Abdel-Tawab> 9 days ago
+ec53259 : msm8996: Update graphics blobs from oneplus/cheeseburger <Rashed Abdel-Tawab> 2 weeks ago
+89f5fa9 : g6: Properly deodex DolbyVisionService <Rashed Abdel-Tawab> 13 days ago
+ac3f8fb : msm8996: Add libgpustats for PQ metadata encoding <Rashed Abdel-Tawab> 4 months ago
+838dc7a : msm8996: Add support for widevine L1 <Rashed Abdel-Tawab> 4 months ago
+d4b4864 : g6: Add some camera postproc blobs <Rashed Abdel-Tawab> 3 weeks ago
+9a98bf2 : bullhead: update blobs from N2G48C factory image <razorloves> 5 hours ago
+ 
+**** vanir:vendor_motorola ****
+7d4ab83 : shamu: update blobs from N8I11B factory image <razorloves> 2 hours ago
+83bc509 : msm8916-common: move gps.conf to device <Sultan Qasim Khan> 7 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+0067aa3 : Add a barrier for Marlin/Sailfish <DHOMD> 5 months ago
+ 
 **** vanir:vendor_vanir ****
-8160436 : Update fingerprints <nuclearmistake> 3 hours ago
+8160436 : Update fingerprints <nuclearmistake> 4 hours ago
 88d0dfe : Fix extract_utils when not using blob sections <Harry Youd> 3 days ago
  

@@ -44,7 +44,7 @@
   <project name="LineageOS/android_device_motorola_condor" path="device/motorola/condor" revision="f9c85f51fdd4bd9c324e65d40866efc9001211d5" upstream="cm-14.1"/>
   <project name="LineageOS/android_device_motorola_lux" path="device/motorola/lux" revision="6ece9939aaf0e5879840fd6a0f475a444577681d" upstream="cm-14.1"/>
   <project name="LineageOS/android_device_motorola_msm8610-common" path="device/motorola/msm8610-common" revision="08ff97d506da66dfafd7ad1e8cef67320091f0ab" upstream="cm-14.1"/>
-  <project name="LineageOS/android_device_motorola_otus" path="device/motorola/otus" revision="812aecfb10f97cc4ee46c8f63b235ff042ddadb0" upstream="cm-14.1"/>
+  <project name="LineageOS/android_device_motorola_otus" path="device/motorola/otus" revision="a82dae53b7ade57ba288ed6f8b361d9651e89869" upstream="cm-14.1"/>
   <project name="LineageOS/android_device_motorola_peregrine" path="device/motorola/peregrine" revision="74870013da239701c748b9093ffce351d123d452" upstream="cm-14.1"/>
   <project name="LineageOS/android_device_motorola_titan" path="device/motorola/titan" revision="ebefb44ac3ec7423167aef9dd9f98b93845e7329" upstream="cm-14.1"/>
   <project name="LineageOS/android_device_motorola_victara" path="device/motorola/victara" revision="e4b9d5cc6131b9c8e9ecff13b5d5c6dcdf5445ae" upstream="cm-14.1"/>
@@ -52,7 +52,7 @@
   <project name="LineageOS/android_device_oppo_find7" path="device/oppo/find7" revision="0175c1950cb106b86e90d94e4f9d7f4d11b26424" upstream="cm-14.1"/>
   <project name="LineageOS/android_device_oppo_find7-common" path="device/oppo/find7-common" revision="9f764951283014f5f6dc41aa6349ad691cefb469" upstream="cm-14.1"/>
   <project name="LineageOS/android_device_oppo_find7s" path="device/oppo/find7s" revision="cb1f70783774c893b320784751ddce8d9d040615" upstream="cm-14.1"/>
-  <project name="LineageOS/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" revision="a30eac693553e9b3c605fa34c2463e81b2ab1ca2" upstream="cm-14.1"/>
+  <project name="LineageOS/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" revision="2bf0026de4e8e04452c888211ec3ec63008e097a" upstream="cm-14.1"/>
   <project name="LineageOS/android_device_oppo_n3" path="device/oppo/n3" revision="3abd5a47b86cffb69ea3549a7ce9f90b9dd19761" upstream="cm-14.1"/>
   <project groups="GS3_device" name="LineageOS/android_device_samsung_d2-common" path="device/samsung/d2-common" revision="67000ba208c9f5850ec7ee6c9b0111cd9d2e9dc3" upstream="cm-14.1"/>
   <project groups="GS3_device" name="LineageOS/android_device_samsung_d2att" path="device/samsung/d2att" revision="bef70d10fe81d8e350b11e24f50e3bf91481087e" upstream="cm-14.1"/>
@@ -226,7 +226,7 @@
   <project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" revision="da6e595c73cf7c8c45d5933ce0f2efe50229cf33" upstream="cm-14.1"/>
   <project name="LineageOS/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" revision="ca40d290f95967963c1698b378e4927508f5bd01" upstream="cm-14.1"/>
   <project name="LineageOS/android_vendor_qcom_opensource_dpm" path="vendor/qcom/opensource/dpm" revision="70c2c64bcd3df5e7d9d78f9cd9ab9afaa8dc7142" upstream="cm-14.1"/>
-  <project name="LineageOS/android_vendor_qcom_opensource_time-services" path="vendor/qcom/opensource/time-services" revision="dfab2a8b0418966421160512bfb18ec57b20159f" upstream="cm-14.1"/>
+  <project name="LineageOS/android_vendor_qcom_opensource_time-services" path="vendor/qcom/opensource/time-services" revision="0067aa3a6704cd3b7b0847f2c57c5ccce46a5ea4" upstream="cm-14.1"/>
   <project name="LineageOS/external_android_support-prebuilt" path="external/android/support-prebuilt" revision="a88269c345c1ab38f101e44884a455c749f641b4" upstream="master"/>
   <project name="LineageOS/ion" path="external/koush/ion" revision="14d5d874e31f8e47a07954968e48d97e6505f655" upstream="cm-14.1"/>
   <project name="TheMuppets/proprietary_vendor_audience" path="vendor/audience" remote="github" revision="963c94769faea5c49404ff525286653344f9d78d" upstream="cm-14.1"/>
@@ -279,13 +279,13 @@
   <project groups="pdk" name="bootable" remote="vanir" revision="61c0c7fd8b776269a6f88496615e57c3dc4a8a38" upstream="n71"/>
   <project groups="pdk" name="bootable_recovery" path="bootable/recovery" remote="vanir" revision="f035abde8eb9050e5b86dd8c292f9c4bf0fb1704" upstream="n71"/>
   <project groups="pdk" name="bootable_recovery_twrp" path="bootable/recovery-twrp" remote="vanir" revision="24068e85e006fbc6cdfb98445ffcaa6d64637700" upstream="n71"/>
-  <project groups="pdk" name="build" remote="vanir" revision="6dc916b111ee8b7d3eb3092bc46061b3b18c1af6" upstream="n71">
+  <project groups="pdk" name="build" remote="vanir" revision="d4fcfa62ef80408fe3386fc117e2cb1c91c91ab0" upstream="n71">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <copyfile dest="BUILD_COMMAND_README" src="tools/BUILD_COMMAND_README"/>
   </project>
   <project groups="pdk,tradefed" name="build_kati" path="build/kati" remote="vanir" revision="3a155e6203461e57cad79921d3d988fa742d18db" upstream="n71"/>
   <project name="ccache.git" path="ccache" remote="samba" revision="8c8d5810d57f52f3a5e7ab7815e30ce2384654f7" upstream="master"/>
-  <project groups="vendor" name="commotio" path="vendor/commotio" remote="commotio" revision="b6b42155543a1efa046aa9bf12b3a76e095a9617" upstream="71"/>
+  <project groups="vendor" name="commotio" path="vendor/commotio" remote="commotio" revision="7c7435b234afa5dd360f526a1debbe38e19ac590" upstream="71"/>
   <project groups="pdk-cw-fs,pdk-fs" name="development" remote="vanir" revision="820975bbd096efc1a2bce5dea6261c0576b2b976" upstream="n71"/>
   <project groups="pdk-cw-fs,pdk" name="device/common" remote="aosp" revision="d49a18a17d624b41bcf79ad972ebfdb93f4c2045" upstream="refs/tags/android-7.1.2_r29"/>
   <project groups="pdk" name="device/generic/arm64" remote="aosp" revision="6cb781ce6b178e671586c7448389d00bd8342c8e" upstream="refs/tags/android-7.1.2_r29"/>
@@ -307,7 +307,7 @@
   <project groups="pdk" name="device/sample" remote="aosp" revision="11e84765fa179b5337c9a2fce685d5ba2388fe2c" upstream="refs/tags/android-7.1.2_r29"/>
   <project name="device_asus_deb" path="device/asus/deb" remote="vanir" revision="6d981a6b740e4b99dd91ea02dde615fcd4e44ff1" upstream="n71"/>
   <project name="device_asus_flo" path="device/asus/flo" remote="vanir" revision="42b685b6cd77540048e15012278ef290f94194a7" upstream="n71"/>
-  <project name="device_google_marlin" path="device/google/marlin" remote="vanir" revision="abcab6ad7a7bd1ff707efb843d485aa0492c3148" upstream="n71"/>
+  <project name="device_google_marlin" path="device/google/marlin" remote="vanir" revision="138fcbf2fbf74cd56f8a66598e80cbbcaa313c38" upstream="n71"/>
   <project name="device_htc_flounder" path="device/htc/flounder" remote="vanir" revision="bc2f0f4e1b7d11f6a02d41bde25973ad295a989b" upstream="n71"/>
   <project name="device_htc_m7" path="device/htc/m7" remote="vanir" revision="aefb4b89ea3dd3d7fdb7c9fe24bac52a1d63e6c0" upstream="n71"/>
   <project name="device_htc_m7-common" path="device/htc/m7-common" remote="vanir" revision="63f80e7cd8958a3a307dcf3134f36842d57bd708" upstream="n71"/>
@@ -801,8 +801,8 @@
   <project name="vendor_cmsdk" path="vendor/cmsdk" remote="vanir" revision="893ddd391f3a1e6331b76e512fd845f50962d6f0" upstream="n71"/>
   <project name="vendor_htc" path="vendor/htc" remote="vanir" revision="3c5c0890be8b797d560f3bf7195a448755ff7946" upstream="n71"/>
   <project name="vendor_huawei" path="vendor/huawei" remote="vanir" revision="48ee5a1bfb80cbb5c9b659bb172a64efc942deca" upstream="n71"/>
-  <project name="vendor_lge" path="vendor/lge" remote="vanir" revision="137c6f3e528bfbde9ab03fac7f1833f828c38318" upstream="n71"/>
-  <project groups="vendor" name="vendor_motorola" path="vendor/motorola" remote="vanir" revision="02c06ae3bedbe8a52f6086c22bdff62f6a0168f9" upstream="n71"/>
+  <project name="vendor_lge" path="vendor/lge" remote="vanir" revision="bbe820f2c2dbd9aa6952cbc95b05447158e7c717" upstream="n71"/>
+  <project groups="vendor" name="vendor_motorola" path="vendor/motorola" remote="vanir" revision="7d4ab83ba935c426e9740c30f006cd844e651157" upstream="n71"/>
   <project name="vendor_nvidia" path="vendor/nvidia" remote="vanir" revision="89ce9bd4cea602b5d5af8534ec3828dcd766f117" upstream="n71"/>
   <project name="vendor_qcom_binaries" path="vendor/qcom/binaries" remote="vanir" revision="e09c56082bded792cb92ad994dc49187b625c8b6" upstream="n71"/>
   <project groups="vendor" name="vendor_samsung" path="vendor/samsung" remote="vanir" revision="1cf3321e0cf96c2e5fd57a323080037bfe4dcb2c" upstream="n71"/>
