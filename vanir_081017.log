@@ -1,0 +1,147 @@
+
+**** vanir:build ****
+ae19a46 : Build hacks <DHOMD> 10 months ago
+ 
+**** vanir:device_google_marlin ****
+e05aad6 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 5 months ago
+250dc86 : Revert "marlin: disable our local telephony extensions" <DHOMD> 5 months ago
+ 
+**** vanir:device_lge_g4-common ****
+ea01d2b : g4: fix derp at libims* <codeworkx> 18 hours ago
+f0efbb4 : g4: libcir is needed for building consumerir hal <codeworkx> 18 hours ago
+ff91d1f : g4: update proprietary files <codeworkx> 18 hours ago
+ 
+**** cm:LineageOS/android_device_lge_h811 ****
+824162d : h811: update proprietary files <codeworkx> 18 hours ago
+ 
+**** cm:LineageOS/android_device_lge_h815 ****
+79614a5 : h815: update proprietary files <codeworkx> 18 hours ago
+ 
+**** vanir:device_lge_v20-common ****
+4109b50 : v20: Move IR blaster perm <Rashed Abdel-Tawab> 2 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+c403ee5 : Otus: Fix FM Radio <DHOMD> 7 months ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+73610f1 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 9 months ago
+ 
+**** vanir:device_xiaomi_libra ****
+5f5d658 : sepolicy: allow vold to access firmware files <Demon000> 4 hours ago
+44e4cf5 : sepolicy: allow vold to access bk1 <Demon000> 5 hours ago
+d1c7ee3 : overlay: frameworks: allow gms to access persistent data partition <Demon000> 6 hours ago
+30482ac : post_boot: tweak values <Demon000> 8 days ago
+ 
+**** cmold:android_kernel_htc_msm8974 ****
+1053aae : radio-iris: Fix smd init when iris-transport is not compiled as module <M1cha> 3 years, 11 months ago
+ 
+**** vanir:kernel_huawei_angler ****
+33f33b61 : f2fs: switch to using fscrypt_match_name() <Eric Biggers> 4 months ago
+a84f770 : fscrypt: introduce helper function for filename matching <Eric Biggers> 4 months ago
+280e3ae : fscrypt: fix context consistency check when key(s) unavailable <Eric Biggers> 4 months ago
+18d9b75 : fscrypt: Move key structure and constants to uapi <Joe Richey> 4 months ago
+e28303e : fscrypt: remove unnecessary checks for NULL operations <Eric Biggers> 4 months ago
+4b34772 : fscrypt: eliminate ->prepare_context() operation <Eric Biggers> 6 months ago
+bdab00b1 : fscrypt: remove broken support for detecting keyring key revocation <Eric Biggers> 6 months ago
+80645bf : fscrypt: avoid collisions when presenting long encrypted filenames <Eric Biggers> 4 months ago
+91c88e5 : f2fs: check entire encrypted bigname when finding a dentry <Jaegeuk Kim> 4 months ago
+5ffb872 : f2fs: sync f2fs_lookup() with ext4_lookup() <Eric Biggers> 4 months ago
+6576f6c : f2fs: fix a mount fail for wrong next_scan_nid <Yunlei He> 4 months ago
+6ad997f : f2fs: relocate inode_{,un}lock in F2FS_IOC_SETFLAGS <Chao Yu> 3 months ago
+d790267 : f2fs: show available_nids in f2fs/status <Jaegeuk Kim> 3 months ago
+9eeaf20 : f2fs: flush dirty nats periodically <Jaegeuk Kim> 3 months ago
+d87ed57 : f2fs: introduce CP_TRIMMED_FLAG to avoid unneeded discard <Chao Yu> 3 months ago
+14967f8 : f2fs: allow cpc->reason to indicate more than one reason <Chao Yu> 4 months ago
+961c558 : f2fs: release cp and dnode lock before IPU <Hou Pengyang> 4 months ago
+3500ff9 : f2fs: shrink size of struct discard_cmd <Chao Yu> 4 months ago
+287d241 : f2fs: don't hold cmd_lock during waiting discard command <Chao Yu> 4 months ago
+2057ec7 : f2fs: nullify fio->encrypted_page for each writes <Jaegeuk Kim> 4 months ago
+4c2be4b : f2fs: sanity check segment count <Jin Qian> 4 months ago
+b8fefbb : f2fs: introduce valid_ipu_blkaddr to clean up <Jaegeuk Kim> 4 months ago
+499dffd : f2fs: lookup extent cache first under IPU scenario <Hou Pengyang> 4 months ago
+cc4389a : f2fs: reconstruct code to write a data page <Hou Pengyang> 4 months ago
+3982822 : f2fs: introduce __wait_discard_cmd <Chao Yu> 4 months ago
+aacf0b1 : f2fs: introduce __issue_discard_cmd <Chao Yu> 4 months ago
+aa93306 : f2fs: enable small discard by default <Chao Yu> 4 months ago
+1f60010 : f2fs: delay awaking discard thread <Chao Yu> 4 months ago
+0595477 : f2fs: seperate read nat page from nat_tree_lock <Yunlei He> 4 months ago
+c0d822b : f2fs: fix multiple f2fs_add_link() having same name for inline dentry <Sheng Yong> 4 months ago
+ae65f70e : f2fs: skip encrypted inode in ASYNC IPU policy <Hou Pengyang> 4 months ago
+392f2b9 : f2fs: fix out-of free segments <Jaegeuk Kim> 4 months ago
+0605f2e : f2fs: improve definition of statistic macros <Arnd Bergmann> 4 months ago
+77f5f4c : f2fs: assign allocation hint for warm/cold data <Jaegeuk Kim> 4 months ago
+7961084 : f2fs: fix _IOW usage <Jaegeuk Kim> 4 months ago
+3a21782 : f2fs: add ioctl to flush data from faster device to cold area <Jaegeuk Kim> 4 months ago
+721db1a : f2fs: introduce async IPU policy <Hou Pengyang> 4 months ago
+1e62431 : f2fs: add undiscard blocks stat <Chao Yu> 4 months ago
+aa259a7 : f2fs: unlock cp_rwsem early for IPU writes <Chao Yu> 4 months ago
+7005c12 : f2fs: introduce __check_rb_tree_consistence <Chao Yu> 4 months ago
+61e1a27 : f2fs: trace __submit_discard_cmd <Chao Yu> 4 months ago
+ef7c5b0 : f2fs: in prior to issue big discard <Chao Yu> 4 months ago
+5ccb7e8 : f2fs: clean up discard_cmd_control structure <Chao Yu> 4 months ago
+8dcecca : f2fs: use rb-tree to track pending discard commands <Chao Yu> 4 months ago
+bd5fc0c : f2fs: avoid dirty node pages in check_only recovery <Jaegeuk Kim> 4 months ago
+06f274e : f2fs: fix not to set fsync/dentry mark <Jaegeuk Kim> 4 months ago
+5aa9421 : f2fs: allocate hot_data for atomic writes <Jaegeuk Kim> 4 months ago
+e627c3e : f2fs: give time to flush dirty pages for checkpoint <Jaegeuk Kim> 4 months ago
+bc33b62 : f2fs: fix fs corruption due to zero inode page <Jaegeuk Kim> 4 months ago
+c25d317 : f2fs: shrink blk plug region <Chao Yu> 5 months ago
+ 
+**** cmold:android_kernel_motorola_msm8916 ****
+1552c72 : ANDROID: sdcardfs: override credential for ioctl to lower fs <Jaegeuk Kim> 5 weeks ago
+892a610 : ANDROID: sdcardfs: Remove unnecessary lock <Daniel Rosenberg> 3 weeks ago
+18de97a : ANDROID: sdcardfs: use mount_nodev and fix a issue in sdcardfs_kill_sb <Gao Xiang> 3 months ago
+ 
+**** cmold:android_kernel_oneplus_msm8974 ****
+b04631f : sctp: avoid BUG_ON on sctp_wait_for_sndbuf <Marcelo Ricardo Leitner> 6 months ago
+7d9f104 : tcp: do not lock listener to process SYN packets <Eric Dumazet> 1 year, 10 months ago
+b2e85d0 : ipv4: keep skb->dst around in presence of IP options <Eric Dumazet> 6 months ago
+d484cef : ping: implement proper locking <Eric Dumazet> 5 months ago
+75f18d6 : tty: n_hdlc: get rid of racy n_hdlc.tbuf <Alexander Popov> 5 months ago
+cebb2e22 : TTY: n_hdlc, fix lockdep false positive <Jiri Slaby> 1 year, 8 months ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+f81f72a : BACKPORT: f2fs: sanity check checkpoint segno and blkoff <Jin Qian> 3 months ago
+0c510c9 : UPSTREAM: f2fs: sanity check segment count <Jin Qian> 4 months ago
+77b46ac : timerfd: Protect the might cancel mechanism proper <Thomas Gleixner> 6 months ago
+9ab76a1 : BACKPORT: f2fs: sanity check log_blocks_per_seg <Jin Qian> 4 months ago
+40a44a7 : msm: ipa: Fix for missing int overflow check in the refcount library <Utkarsh Saxena> 4 months ago
+27dde41 : sysrq: FIQ and sysrq default deauthorized <Mark Salyzyn> 5 months ago
+68b86eb : drivers: soc: add mutex to prevent response being processed twice <Siena Richard> 7 months ago
+5c51db0 : net: wireless: bcmdhd: remove unsed WEXT file. <Insun Song> 7 months ago
+74616c1 : Kconfig: msm: disable ultrasound driver <Nick Desaulniers> 8 months ago
+24eea65 : drivers: qcom: ultrasound: Lock async driver calls <Sudheer Papothi> 10 months ago
+1fe530b : proc: prevent accessing /proc/<PID>/environ until it's ready <Mathias Krause> 1 year, 3 months ago
+ 
+**** cmold:android_kernel_xiaomi_msm8992 ****
+184424d : input: touchscreen: rewrite proc_init functions <Demon000> 7 hours ago
+43d583f : misc: isa1000: don't give write permission for ro file <Demon000> 8 hours ago
+ 
+**** vanir:packages_apps_Bluetooth ****
+c129b6c : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_apps_Calendar ****
+edb28f5 : Automatic translation import <Abhisek Devkota> 33 hours ago
+ 
+**** vanir:packages_apps_CarrierConfig ****
+ea0ad38 : Fix up incorrect domestic roaming and non-roaming cases <Alberto97> 2 weeks ago
+ 
+**** cm:LineageOS/android_packages_apps_Jelly ****
+d76965a : Jelly: Improve incognito mode privacy <Luca Stefani> 6 weeks ago
+6767c48 : Jelly: Enable more HTML5 features <Luca Stefani> 6 weeks ago
+2e53eb0 : Jelly: Don't crash on non-http downloads <Luca Stefani> 7 weeks ago
+3347ed4 : Jelly: Avoid Url bar interraction when focused <Adrian DC> 2 days ago
+f67c692 : Jelly: The app should not close when search is active and back-button is pressed. <Steegi> 12 days ago
+ 
+**** vanir:vendor_lge ****
+9645802 : g4: remove deprecated makefile <codeworkx> 18 hours ago
+ee1614d : g4: cleanup, regen makefiles <codeworkx> 18 hours ago
+037be24 : g4: libcir is needed to build consumerir hal <codeworkx> 18 hours ago
+d995ed5 : g4: regenerate makefiles <codeworkx> 18 hours ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+2bb4f3b : Add a barrier for Marlin/Sailfish <DHOMD> 5 months ago
+ 
+**** vanir:vendor_vanir ****
+70076f1 : Add Correios Celular (BR) APN <Alexandre Oliveira> 5 days ago
+ 
