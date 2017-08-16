@@ -1,0 +1,104 @@
+
+**** vanir:bootable_recovery_twrp ****
+e136fd4 : Fix typos / inconsistencies in German language <Pierre Roth> 3 months ago
+ 
+**** vanir:build ****
+450bebb : Build hacks <DHOMD> 10 months ago
+ 
+**** vanir:device_google_marlin ****
+9ce8e4a : Add a proper barrier and use vendor/caf/telephony <DHOMD> 5 months ago
+bf7f6aa : Revert "marlin: disable our local telephony extensions" <DHOMD> 5 months ago
+ 
+**** vanir:device_huawei_angler ****
+668c652 : angler: don't inherit wifi firmware <razorloves> 3 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+31c5487 : Otus: Fix FM Radio <DHOMD> 7 months ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+c767976 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 9 months ago
+ 
+**** vanir:device_sony_fusion3-common ****
+2d38609 : init: Remove Sony LTALabel partition mount to lta-label <Chippa-a> 4 months ago
+ 
+**** cm:LineageOS/android_device_sony_pollux-common ****
+7bdd061 : pollux-common: aapt: Set PRODUCT_AAPT_PREBUILT_DPI <Ying Wang> 2 years, 8 months ago
+aa9670e : pollux-common: Update screen size to extra-large <Humberto Borba> 1 year, 2 months ago
+ 
+**** vanir:device_sony_yuga ****
+56533b9 : yuga: aapt: Set PRODUCT_AAPT_PREBUILT_DPI <Ying Wang> 2 years, 8 months ago
+ 
+**** vanir:device_xiaomi_libra ****
+a5d9f37 : kernel: use Image-dtb <Demon000> 4 days ago
+ 
+**** vanir:frameworks_base ****
+5b410f0 : base: audioservice: Set BT_SCO status <Humberto Borba> 6 days ago
+ 
+**** vanir:frameworks_native ****
+bdafb32 : SF: Improve hwrotation handling <Christopher N. Hesse> 6 days ago
+ 
+**** cm:LineageOS/android_hardware_qcom_bt ****
+328d8af : Revert "Merge tag 'LA.UM.5.5.r1-04900-8x96.0' into HEAD" <Luca Stefani> 7 weeks ago
+ 
+**** cm:LineageOS/android_hardware_samsung_slsi-cm_exynos ****
+0bc62e7 : v4l2: Implement exynos_v4l2_prepare <Christopher N. Hesse> 2 days ago
+ 
+**** cmold:android_kernel_lge_hammerhead ****
+646ee0b : net: wireless: bcmdhd: fix buffer overrun in wlfc reordering <Insun Song> 6 months ago
+ccb2420 : net: wireless: bcmdhd: fix overrun in wl_run_escan <Insun Song> 7 months ago
+6ee59da : net: wireless: bcmdhd: fix hotlist index in wl_cfgvendor_hotlist_cfg <Insun Song> 9 months ago
+ed16a3e : net: wireless: bcmdhd: adding boundary check in SWC gscan config <Insun Song> 4 months ago
+5a2d7ff : net: wireless: bcmdhd: fix buffer overrun in wl_cfgvendor_hotlist_cfg <Insun Song> 10 months ago
+aca2550 : net: wireless: bcmdhd: Heap overflow in wl_run_escan. <Sudhir Kohalli> 7 months ago
+8870c6e : net: wireless: bcmdhd: fix buffer overrun in private command path <Insun Song> 10 months ago
+78e37c6 : net: wireless: bcmdhd: fix buffer overrun in wl_cfg80211_add_iw_ie <Insun Song> 7 months ago
+cc112de : net: wireless: bcmdhd: adding boundary check in wl_cfg80211_mgmt_tx <Insun Song> 3 months ago
+1dfc2fa : net: wireless: bcmdhd: additional length check for BRCM EVENT frame. <Insun Song> 4 months ago
+ 
+**** cmold:lge-kernel-mako ****
+14736ab : qseecom: add mutex around qseecom_set_client_mem_param <Zhen Kong> 6 months ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+06354e9 : proc: prevent accessing /proc/<PID>/environ until it's ready <Mathias Krause> 1 year, 3 months ago
+11adf8e : perf: Fix fasync handling on inherited events <Peter Zijlstra> 2 years, 2 months ago
+842436b : timer: Fix lock inversion between hrtimer_bases.lock and scheduler locks <Jan Kara> 3 years, 1 month ago
+ 
+**** cmold:android_kernel_lge_msm8996 ****
+c6964f6 : h870: Enable tertiary mi2s and DSDP dual audio <Rashed Abdel-Tawab> 6 hours ago
+ 
+**** cmold:android_kernel_oneplus_msm8974 ****
+65451d7 : BACKPORT: msm: IPA: add the check on intf query <Skylar Chang> 6 months ago
+5ecdf8e : mm: Tighten x86 /dev/mem with zeroing reads <Kees Cook> 4 months ago
+0c3aba0 : x86/mm/init.c: Fix devmem_is_allowed() off by one <T Makphaibulchoke> 5 years ago
+2cef7df : msm: mdss: Fix invalid dma attachment during fb shutdown <Sachin Bhayare> 8 months ago
+3c85ad6 : ASoC: Add backend user count checking <Walter Yang> 6 months ago
+f583a86 : BACKPORT: ASoC: msm: acquire lock in ioctl <Yeleswarapu Nagaradhesh> 6 months ago
+7c30104 : xfrm_user: validate XFRM_MSG_NEWAE XFRMA_REPLAY_ESN_VAL replay_window <Andy Whitcroft> 5 months ago
+e339352 : sctp: deny peeloff operation on asocs with threads sleeping on it <Marcelo Ricardo Leitner> 6 months ago
+8c390e5 : irda: Fix lockdep annotations in hashbin_delete(). <David S. Miller> 6 months ago
+ 
+**** cmold:android_kernel_samsung_klte ****
+61c9656 : cyttsp4 driver: Fixing Makefile assignments <Maxiwell Garcia> 11 months ago
+ 
+**** vanir:packages_apps_DeskClock ****
+436ce6a : clock: Reset profile if profile is already selected <Rashed Abdel-Tawab> 4 weeks ago
+ 
+**** vanir:packages_apps_Settings ****
+79fbb04 : AppOps: Switch to an HashMap <Luca Stefani> 2 days ago
+91b1f5d : Settings: Add a shortcut icon for carrier selection <Michael W> 4 days ago
+876d51c : AppOps: Redesign <Michael W> 4 days ago
+ 
+**** commotio:commotio ****
+df71930 : Fingerprints <DHOMD> 13 hours ago
+ 
+**** vanir:vendor_lge ****
+150b7dc : Reconcile msm8996-common <nuclearmistake> 13 hours ago
+e292620 : Reconcile g5-common <nuclearmistake> 13 hours ago
+8284ab2 : Reconcile h8* <nuclearmistake> 13 hours ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+4f2a53e : Add a barrier for Marlin/Sailfish <DHOMD> 5 months ago
+ 
+**** vanir:vendor_vanir ****
+91c53f4 : fingerprints <nuclearmistake> 13 hours ago
+ 
