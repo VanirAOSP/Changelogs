@@ -1,0 +1,484 @@
+
+**** vanir:build ****
+0d36a38 : Build hacks <DHOMD> 10 months ago
+ 
+**** vanir:device_google_marlin ****
+ac6bc8b : Add a proper barrier and use vendor/caf/telephony <DHOMD> 5 months ago
+9bab73a : Revert "marlin: disable our local telephony extensions" <DHOMD> 5 months ago
+ 
+**** cm:LineageOS/android_device_htc_hiae-common ****
+83e34f2 : hiae-common: GestureHandler: Remove redundant DT2W toggle <Bruno Martins> 2 days ago
+c686b7d : hiae-common: Grant rmt_storage proper unix perms <Bruno Martins> 8 weeks ago
+ 
+**** cm:LineageOS/android_device_htc_hima-common ****
+38bc550 : hima-common: GestureHandler: Remove redundant DT2W toggle <Bruno Martins> 2 days ago
+13a11a8 : hima-common: Grant rmt_storage proper unix perms <Bruno Martins> 8 weeks ago
+ 
+**** vanir:device_htc_m8 ****
+8eafee2 : m8: init: Override GMS_CLIENTID_BASE for Verizon variant <Bruno Martins> 2 days ago
+ 
+**** cm:LineageOS/android_device_htc_m8-common ****
+d009b96 : m8-common: releasetools: Remove property replacement for Verizon <Bruno Martins> 2 days ago
+3a12a4b : m8-common: Re-organize the list of common blobs <Bruno Martins> 4 days ago
+12f57de : m8-common: Update extractors to match the latest templates <Bruno Martins> 4 days ago
+7e1a3f2 : sepolicy: Clean up permissions <Bruno Martins> 5 days ago
+ 
+**** cm:LineageOS/android_device_htc_msm8974-common ****
+c3d0a28 : msm8974-common: GestureHandler: Remove redundant DT2W toggle <Bruno Martins> 2 days ago
+934b636 : msm8974-common: Add devicesettings as a dependency <Ethan Chen> 6 months ago
+2770ecd : msm8974-common: Switch to common lid app (FlipFlap) <jrior001> 8 months ago
+ 
+**** cm:LineageOS/android_device_htc_pme ****
+c389139 : pme: GestureHandler: Remove redundant DT2W toggle <Bruno Martins> 2 days ago
+ 
+**** vanir:device_huawei_angler ****
+752aaf6 : angler: CarrierConfig: Enable world mode for verizon <Matt Mower> 7 months ago
+ 
+**** vanir:device_lge_bullhead ****
+e772579 : bullhead: CarrierConfig: Enable world mode for verizon <Matt Mower> 7 months ago
+ 
+**** cm:LineageOS/android_device_lge_g5-common ****
+bd74d6e : g5: Add rs988 to build guard <Rashed Abdel-Tawab> 3 days ago
+ 
+**** cm:LineageOS/android_device_lge_msm8996-common ****
+59a3908 : msm8996: Add rs988 to build guard <Rashed Abdel-Tawab> 3 days ago
+e8a5d56 : msm8996: Remove problematic ACDB IDs <Rashed Abdel-Tawab> 4 days ago
+ 
+**** vanir:device_moto_shamu ****
+1697541 : shamu: CarrierConfig: Enable world mode for verizon <Matt Mower> 7 months ago
+d6a63d2 : shamu: CarrierConfig: Enable world mode for verizon <Matt Mower> 7 months ago
+ 
+**** cm:LineageOS/android_device_motorola_condor ****
+64bdbfa : condor: Rename camera blob <Harry Youd> 4 weeks ago
+72ae205 : condor: Update extraction scripts <Matthias Yzusqui> 5 days ago
+ 
+**** vanir:device_motorola_msm8226-common ****
+48ec627 : sensors: falcon-peregrine: Write negative delay for disabled sensors <Gabriele M> 2 days ago
+ 
+**** cm:LineageOS/android_device_motorola_msm8610-common ****
+1199aef : msm8610-common: Update how we generate our blob lists <Steve Kondik> 5 days ago
+aed04a4 : msm8610-common: remove accidental blobs <Sultan Qasim Khan> 5 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+bed2f05 : Otus: Fix FM Radio <DHOMD> 7 months ago
+c2e831a : otus: rename proprietary blob list file <Sultan Qasim Khan> 5 days ago
+a7259ed : otus: Rename camera blob <Harry Youd> 4 weeks ago
+b1c2ad8 : otus: Update extraction scripts <Matthias Yzusqui> 5 days ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+6a0aba5 : op3: Add DCI-P3 entry to color profiles <dianlujitao> 5 days ago
+ 
+**** cm:LineageOS/android_device_oppo_find7 ****
+6aadaba : find7: Move LED brightness overlay to msm8974-common <Michael Bestas> 8 weeks ago
+ 
+**** cm:LineageOS/android_device_oppo_find7-common ****
+c9e91a2 : find7: Use normal paths for qpnp leds <Michael Bestas> 8 weeks ago
+ 
+**** cm:LineageOS/android_device_oppo_find7s ****
+f214970 : Revert "healthd_charger: Define custom LED paths" <Michael Bestas> 8 weeks ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+882ddaf : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 9 months ago
+cf707d9 : msm8974: Enable LED brightness LibLights control <AdrianDC> 2 years ago
+e6d8dac : msm8974: LED brightness control for DT liblights <AdrianDC> 2 years ago
+562d56f : lights: Use normal paths for qpnp leds <Michael Bestas> 8 weeks ago
+ 
+**** cm:LineageOS/android_device_oppo_n3 ****
+49e2bb3 : n3: Use normal paths for qpnp leds <Michael Bestas> 8 weeks ago
+ 
+**** vanir:device_qcom_sepolicy ****
+c631819 : Use set_prop() macro for property sets <Michael Bestas> 12 days ago
+ 
+**** vanir:device_sony_fusion3-common ****
+4ad3e39 : fusion3: camerawrapper: Fix an undefined behavior on buffer <Adrian DC> 1 year, 1 month ago
+13759c5 : fusion3: overlay: Disable SIM batch operations <Gabriele M> 4 months ago
+1e3d259 : fusion3: init: Update Interactive governor settings <Chippa-a> 4 months ago
+2651a85 : fusion3: init: Configure CPU-boost parameters <Chippa-a> 4 months ago
+4242e20 : fusion3: init: power: Add missing scaling_max_freq <Kalpaj Chaudhari> 8 months ago
+893ce7d : fusion3: init: power: Add perms to cpu.notify_on_migrate <Kalpaj Chaudhari> 8 months ago
+f391418 : fusion3: Enable MIDI support <Mike Lockwood> 2 years, 5 months ago
+6553ddc : fusion3: sepolicy: Add missing sepolicies <Kalpaj Chaudhari> 4 months ago
+32e0cc6 : fusion3: Don't set BFQ scheduler until boot is complete <Ethan Chen> 1 year, 7 months ago
+c6ea7e0 : fusion3: libril: Update to AOSP 7.1.2_r2 CAF sources <Adrian DC> 4 months ago
+b0541bc : fusion3: bluetooth: Disable BR/EDR secure connections <Andre Eisenbach> 2 years, 3 months ago
+ed97690 : fusion3: display: Disable EGL buffer_age extension support <Adrian DC> 3 weeks ago
+c5ed335 : fusion3: init: Remove writes to ondemand from charger <Chippa-a> 4 months ago
+ 
+**** cm:LineageOS/android_device_sony_pollux-common ****
+8ce9a71 : pollux-common: Fix healthd backlight path <CaHbKaUp> 3 weeks ago
+ 
+**** vanir:device_sony_yuga ****
+b994da8 : yuga: Update screen size to large <CyberWalkMaN> 11 days ago
+ 
+**** vanir:device_xiaomi_libra ****
+bfb217b : Revert "post_boot: tweak values" <Demon000> 5 days ago
+ 
+**** vanir:external_busybox ****
+522be10 : Busybox : Android N  has its own strchrnul if using GNU. Fix the case and use Bionic strchrnul with gnu. <sayeed99> 3 months ago
+ 
+**** vanir:frameworks_av ****
+2b7a3aa : Camera: Add NULL check on mDevice to avoid crash. <Mridul Singh> 6 months ago
+069679b : Camera: Add null check on mDevice to avoid crash <Ranjith Kagathi Ananda> 9 months ago
+ 
+**** vanir:frameworks_base ****
+e8836cd : Tweak Privacy Guard dialog layout <Veeti Paananen> 4 days ago
+79509bc : Automatic translation import <Abhisek Devkota> 25 hours ago
+85f87c4 : PowerManager: Allow to distinguish different keypresses <Corinna Vinschen> 8 days ago
+c43051c : Add @hide annotation to the privacy guard ops set <Gabriele M> 2 days ago
+d0bf054 : Change visibility of the Privacy Guard ops set <Gabriele M> 2 weeks ago
+72a04fd : Camera2: Fix Error Callback if buffer lost. <Shukla Mradul> 3 months ago
+92add56 : Camera: ignore torch status update for aux or compsite camera <Gaoxiang Chen> 4 months ago
+99391bf : Fix permissions for CTS [1/2] <Shane Francis> 3 months ago
+f4a050c : OMS: StrictMode and files under /data/system/theme/ <mickybart> 9 months ago
+b3b2148 : Add protected broadcast for app crash broadcast <Ivan Iskandar> 4 months ago
+bb1998a : Themes: Allow volume slider and thumb to work with custom images. <Randall Rushing> 1 year, 7 months ago
+130c0c7 : Separate tile label color from icon drawable color <bigrushdog> 4 months ago
+0a26050 : Hold "volume up" during boot to disable all overlays <George G> 5 months ago
+f23381e : Themes: Expose Keyboard Shortcuts Dialog <Bryan Owens> 5 months ago
+f459b64 : Expose Screenshot flash and background colors <ezio84> 6 months ago
+59c3f2c : ThemeSafety: Introduce App Crash Intent <Ivan Iskandar> 5 months ago
+367be11 : Revert "Add a protected broadcast for Masquerade events" <Nathan Chancellor> 6 months ago
+9f55a9f : base: Force authorize all calling packages by Masquerade (2/3) <George G> 6 months ago
+b3c1d13 : FWB: Give power dialogs own set of volume icons for themes <Bryan Owens> 6 months ago
+1459786 : OMS: Add hide annotation to MODIFY_OVERLAYS permission <Evan Anderson> 6 months ago
+0f2687f : OMS7: Rootless Security Update Preparation for March 2017 <Nicholas Chum> 6 months ago
+8ab64b9 : Add a protected broadcast for Masquerade events <bigrushdog> 7 months ago
+ee5aae4 : Notification tint: add optional findContrastColor algorithm for dark backgrounds <SpiritCroc> 7 months ago
+385817d : Themes: Expose Keyguard affordance circle background <Branden M> 7 months ago
+c993853 : Set external QS tiles tint mode to SRC_ATOP <Alex Cruz> 7 months ago
+0bb32be : graphics: ADB "N" icon compatible with OMS7 <George G> 7 months ago
+24dfd85 : Expose external qs tile tint color <Alex Cruz> 7 months ago
+1676fcc : SystemUI: Expose switch bar title <daveyannihilation> 8 months ago
+6e4d7ce : OMS: Introduce MODIFY_OVERLAYS permission for user apps <bigrushdog> 8 months ago
+6cddaa8 : Themes: Expose QS battery <Abdulwahab Isam> 11 months ago
+10030af : OMS7-N: ApplicationsState: add filter for Substratum icon overlays [1/2] <Kuba Schenk> 9 months ago
+66327c2 : OMS7-N: ApplicationsState: add filter for Substratum overlays [1/2] <George G> 1 year, 2 months ago
+929600f : SystemUI: Use own drawables for QS expand icon <Ivan Iskandar> 9 months ago
+fdf50c9 : doze: allow grayscale even if invert boolean is false <Daniel Koman> 11 months ago
+0f7d502 : OMS7 compatible 'Ambient notification inversion' <George G> 9 months ago
+c0fcccb : Allow prevention of doze notification color inversion <Daniel Koman> 2 years, 4 months ago
+9a81b1a : Notification dynamic colors bool compatible with OMS7 <George G> 9 months ago
+d93b17e : Notifications: Expose a bool to disable dynamic colors <Nicholas Chum> 12 months ago
+42602d8 : Themes: Expose various QuickSettings text colors <Niklas Schnettler (Sh4dowSoul)> 11 months ago
+36c6a80 : Allow custom alpha for notification shade bg color <Simao Gomes Viana> 9 months ago
+7e3322f : SystemUI: Expose QS edit item decoration background color <Ivan Iskandar> 11 months ago
+068c613 : Themes: Allow Navbar ripple color to be themed <Dave Kover> 1 year, 4 months ago
+759e0a7 : Themes: Allow Permission Icons to be fully themed <Nicholas Chum> 1 year, 9 months ago
+761efff : Themes: Allow Immersive cling colors to be fully themed <Nicholas Chum> 1 year, 9 months ago
+7a0648b : Themes: Expose resolver hardcoded colors <Dave Kover> 8 months ago
+a01f64d : N-Extras: AudioService: Allow system effect sounds to be themed <Nicholas Chum> 1 year, 1 month ago
+c8fe2bd : N-Extras: Add dynamic theme fonts support <0xD34D> 1 year, 2 months ago
+5a221f9 : N-Extras: Add dynamic theme BootAnimation support <0xD34D> 1 year, 2 months ago
+fe776a5 : OMS7-N: Implement multi-target enable/disable and disable-all [11/11] <Jacob McSwain> 1 year, 2 months ago
+e36def2 : OMS7-N: Do not enforce code policy limiting overlay installation [10/11] <Nicholas Chum> 10 months ago
+ 
+**** vanir:frameworks_native ****
+afbd1c1 : InputDispatcher: On keypress, deliver keycode to pokeUserActivity <Corinna Vinschen> 8 days ago
+766d692 : PowerManager.h: Define USER_ACTIVITY_FLAG values <Corinna Vinschen> 8 days ago
+c1f311b : native: Increase ART heap limit to 192MB for 1024MB RAM devices <Adrian DC> 9 months ago
+ 
+**** cm:LineageOS/android_hardware_cyanogen ****
+e2f8e45 : livedisplay: SDM: Add support for DCI-P3 display mode <dianlujitao> 5 days ago
+ 
+**** cm:LineageOS/android_hardware_ril ****
+d8290dd : ril: Allow targets to disable Clang <Bruno Martins> 12 days ago
+ 
+**** cmold:android_kernel_htc_msm8974 ****
+751f4ec : [HACK] drivers: CwMcuSensor: Disable abs for uncalibrated gyroscope <Dan Pasanen> 1 year, 1 month ago
+6da4d9a : ANDROID: sdcardfs: override credential for ioctl to lower fs <Jaegeuk Kim> 6 weeks ago
+79458ce : net: bluetooth: Fix mismerges <Bruno Martins> 5 days ago
+b17e6fd : net: bluetooth: Partially reset to CAF <Bruno Martins> 6 days ago
+4b94983 : drivers: hall_sensor: Report expected SW_LID keycode <Paul Keith> 7 months ago
+2c9d1cf : drivers: media: camera_v2: Change compilation order of sensors <Bruno Martins> 6 days ago
+ 
+**** cmold:android_kernel_lge_hammerhead ****
+829e958 : ARM: 7743/1: compressed/head.S: work around new binutils warning <Arnd Bergmann> 4 years, 3 months ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+d0dfc6b1 : msm:camera:isp: Fix array index bound checks <Suman Mukherjee> 2 years, 5 months ago
+8b699f6 : msm: camera: validate user space parameter for max and min value <Vasko Kalanoski> 2 years, 7 months ago
+3ac528c : net: wireless: bcmdhd update driver to 1.201.54.6 (2015.03.23) <Arnau> 6 days ago
+cbe9628 : qcdev: Check the digest length during the SHA operations <Dennis Cagle> 3 months ago
+a82471d : timerfd: Protect the might cancel mechanism proper <Thomas Gleixner> 7 months ago
+6c02c8c : xfrm: policy: check policy direction value <Vladis Dronov> 3 weeks ago
+ 
+**** cmold:android_kernel_lge_msm8996 ****
+959660f : rs988: Initial defconfig <Rashed Abdel-Tawab> 3 days ago
+15b9a4f : ASoC: msm8996: Remove unused variables <Rashed Abdel-Tawab> 4 days ago
+ 
+**** cmold:android_kernel_motorola_msm8610 ****
+2a64ba0 : f_qc_rndis: Check config or cdev is NULL in before accessing <Mayank Rana> 3 years ago
+ccd9197 : USB: f_qc_rndis: Prevent use-after-free for _rndis_qc <Pratham Pratap> 3 months ago
+f90f144 : prima: Remove the support for iw_set_priv ioctl <Srinivas Girigowda> 1 year ago
+74718bd : qcdev: Check the digest length during the SHA operations <Dennis Cagle> 3 months ago
+541b610 : prima: Trim extn capability to max supported in change station <Srinivas Girigowda> 3 months ago
+df880d8 : msm: ipa: Fix for missing int overflow check in the refcount library <Utkarsh Saxena> 4 months ago
+63b327f : BACKPORT: f2fs: sanity check checkpoint segno and blkoff <Jin Qian> 3 months ago
+5616b20 : UPSTREAM: f2fs: sanity check segment count <Jin Qian> 4 months ago
+ced553e : BACKPORT: f2fs: sanity check log_blocks_per_seg <Jin Qian> 4 months ago
+e2431d4 : UPSTREAM: timerfd: Protect the might cancel mechanism proper <Thomas Gleixner> 7 months ago
+d663282 : wlan:Check priviledge permission <Mukul Sharma> 1 year, 5 months ago
+6215810 : fs/exec: fix use after free in execve <Andrea Arcangeli> 4 weeks ago
+9bce6ca : FROMLIST: security,perf: Allow further restriction of perf_event_open <Jeff Vander Stoep> 1 year, 3 months ago
+51f1889 : BACKPORT: perf tools: Document the perf sysctls <Ben Hutchings> 1 year, 7 months ago
+8c8186c : msm: ipa: fix potential race condition ioctls <Skylar Chang> 1 year, 1 month ago
+f7efa89 : msm: mdss: fix race condition during mdp debugfs release <Harsh Sahu> 4 months ago
+d034d11 : msm: mdss: fix race condition in mdp debugfs <Ingrid Gallardo> 6 months ago
+d5a8441 : ashmem: remove cache maintenance support <Dennis Cagle> 4 months ago
+d976ed7 : msm: kgsl: Fix kgsl memory allocation and free race condition <Dennis Cagle> 3 months ago
+248f265 : msm: ispif: fix a bug in checking the validity of vfe intf <Junzhe Zou> 5 months ago
+b7300b0 : ASoC: msm: qdsp6v2: check audio client pointer before accessing <Aravind Kumar> 2 years, 3 months ago
+2aacee8 : ASoC: msm: qdsp6v2: validate audio client in callback <Fred Oh> 2 years, 4 months ago
+252cfc2 : msm: camera: sensor: Add boundary check for cci master <Rajesh Bondugula> 9 months ago
+0b5d6ea : ipv4: keep skb->dst around in presence of IP options <Eric Dumazet> 7 months ago
+f20961b : ALSA: timer: Fix race between read and ioctl <Takashi Iwai> 3 months ago
+ed4977d : Revert "proc: smaps: Allow smaps access for CAP_SYS_RESOURCE" <Nick Desaulniers> 4 months ago
+cc51d5a : hid: usbhid: Changes to prevent buffer overflow <Sriharsha Allenki> 8 months ago
+f8b192c : msm : dma_test: Initialize newly allocated memory <Srinivasarao P> 1 year, 1 month ago
+da5c9d2 : USB: digi_acceleport: do sanity checking for the number of ports <Oliver Neukum> 1 year, 5 months ago
+a44862e : USB: iowarrior: fix NULL-deref in write <Johan Hovold> 6 months ago
+6dfdf61 : USB: iowarrior: fix oops with malicious USB descriptors <Josh Boyer> 1 year, 5 months ago
+6ba5b85 : USB: iowarrior: fix NULL-deref at probe <Johan Hovold> 6 months ago
+a950a99 : Input: gtco - fix crash on detecting device without endpoints <Vladis Dronov> 1 year, 5 months ago
+92270ea : Input: powermate - fix oops with malicious USB descriptors <Josh Boyer> 1 year, 5 months ago
+44dd6ac : Input: ati_remote2 - fix crashes on detecting device with invalid descriptor <Vladis Dronov> 1 year, 5 months ago
+2ea030c : ARM: perf: reject groups spanning multiple hardware PMUs <Suzuki K. Poulose> 2 years, 5 months ago
+ 
+**** cmold:android_kernel_motorola_msm8992 ****
+64b9387 : ANDROID: cpu: send KOBJ_ONLINE event when enabling cpus <Thierry Strudel> 6 months ago
+ 
+**** cmold:android_kernel_oneplus_msm8974 ****
+5e6e4e8 : Fix "msm: kgsl: Fix kgsl memory allocation and free race condition" <Michael Bestas> 3 days ago
+6466522 : Revert "msm: camera: sensor: Validate i2c_freq_mode in msm_cci_set_clk_param" <Michael Bestas> 7 days ago
+c4becc9 : sctp: do not inherit ipv6_{mc|ac|fl}_list from parent <Eric Dumazet> 3 months ago
+687de46 : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 3 months ago
+912ec5d : ashmem: remove cache maintenance support <Sudarshan Rajagopalan> 5 months ago
+81c6bf4 : msm: kgsl: Fix kgsl memory allocation and free race condition <Sunil Khatri> 4 months ago
+75d28e2 : msm: camera: don't cut to 8bits for validating enum variable <Gaoxiang Chen> 5 months ago
+2b4cbdc : msm: camera: sensor: Add boundary check for cci master <Rajesh Bondugula> 9 months ago
+7e3ac99 : ASoC: msm: qdsp6v2: set pointer to NULL after free. <Xiaojun Sang> 6 months ago
+008a784 : msm: vidc: Protect debug_buffer access in core_info_read with lock. <Abdulla Anam> 5 months ago
+04b4d6e : qseecom: add mutex around qseecom_set_client_mem_param <Zhen Kong> 6 months ago
+d1333ea : ext4: fix fencepost in s_first_meta_bg validation <Theodore Ts'o> 6 months ago
+5b3261f : ext4: fix condition of validate s_first_meta_bg <syphyr> 2 months ago
+ec0b479 : Revert "ecryptfs: don't allow mmap when the lower fs doesn't support it" <Bruno Martins> 10 days ago
+01d428b : msm: camera: Remove obsolete OPPO changes <Michael Bestas> 6 months ago
+3a6bb24 : msm: vidc: Check video buffer handle for Null pointer access. <Vasantha Balla> 9 months ago
+8141234 : msm:vidc: Fix klockwork errors in video driver. <Vasantha Balla> 9 months ago
+bb2bb3f : msm:vidc: Add null check for handle in smem buffer comparision. <Vasantha Balla> 11 months ago
+85d21fb : msm: vidc: add ion_handle checking before mapping buffers. <Suman Mukherjee> 1 year, 2 months ago
+c412e42 : msm: vidc: Add same fd ref only for static buffer mode <Surajit Podder> 2 years, 8 months ago
+4282d9a : input: synaptics: Cleanup "Support up arrow gesture" <Michael Bestas> 9 months ago
+234402b : mdss: Restore last backlight value on panel on. <Danny Baumann> 1 year ago
+cab73be : mmc: core: Silence log spam <myfluxi> 2 years, 6 months ago
+38a391e : msm: mdss: Remove redundant clock operations <myfluxi> 2 years, 7 months ago
+e8d20058 : msm: camera: Assign NULL after freeing memory <Figo Wang> 2 years, 10 months ago
+4404428 : ppp: Fix kernel panic on disconnect due to CAF mis-merge <Sultanxda> 6 months ago
+f37ec61 : staging: prima: Update to LA.BF.1.1.3_rb1.15 <Michael Bestas> 6 months ago
+169bfd1 : Revert "msm: camera: sensor: Validate i2c_freq_mode in msm_cci_set_clk_param" <Michael Bestas> 7 days ago
+d20b203 : ext4: fix fencepost in s_first_meta_bg validation <Theodore Ts'o> 6 months ago
+3dd734a : ext4: fix condition of validate s_first_meta_bg <syphyr> 2 months ago
+a382825 : Revert "ecryptfs: don't allow mmap when the lower fs doesn't support it" <Bruno Martins> 10 days ago
+40bb591 : input: evdev: Move wake_lock_destroy call <Anurag Singh> 4 years, 5 months ago
+0bd88c5 : mmc: core: Fix possbile memory leak <Sujit Reddy Thumma> 4 years, 8 months ago
+6853868 : include: Remove executable bit from sdio_func.h <Stephen Boyd> 4 years, 7 months ago
+804e9ca : spmi: prevent showing the address of spmidev <Abhijeet Dharmapurikar> 1 year, 2 months ago
+8242064 : Revert "spmi: prevent showing the address of spmidev" <Bharat Pawar> 7 months ago
+1e9325f : ALSA: timer: Fix leak in events via snd_timer_user_tinterrupt <Kangjie Lu> 1 year, 4 months ago
+0d582ec : ALSA: timer: Fix leak in events via snd_timer_user_ccallback <Kangjie Lu> 1 year, 4 months ago
+07c0212 : msm: camera: ispif: Add missing mutex usage in ioctl <VijayaKumar T M> 10 months ago
+e3f3311 : [PATCH] arm: fix handling of F_OFD_... in oabi_fcntl64() <Al Viro> 1 year, 8 months ago
+a3c5b67 : ALSA: timer: Fix leak in SNDRV_TIMER_IOCTL_PARAMS <Kangjie Lu> 1 year, 4 months ago
+ca442c2 : ANDROID: binder: Clear binder and cookie when setting handle in flat binder struct <Arve Hjønnevåg> 1 year ago
+f1d2f51 : netfilter: x_tables: validate e->target_offset early <Florian Westphal> 1 year, 5 months ago
+91d0765 : netfilter: x_tables: make sure e->next_offset covers remaining blob size <Florian Westphal> 1 year, 5 months ago
+6874131 : UPSTREAM: block: fix use-after-free in seq file <Vegard Nossum> 1 year, 1 month ago
+9d0cd63 : tcp: fix use after free in tcp_xmit_retransmit_queue() <Eric Dumazet> 1 year ago
+33582d7 : qcrypto: protect potential integer overflow. <Neeraj Soni> 9 months ago
+ac87168 : ASoC: wcd9xxx: Fix unprotected userspace access <Patrick Daly> 2 years, 3 months ago
+b8d54cc : block: fix use-after-free in sys_ioprio_get() <Omar Sandoval> 1 year, 2 months ago
+531e0ae : HID: core: prevent out-of-bound readings <Benjamin Tissoires> 1 year, 7 months ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+f24efb5 : Revert "dmaengine: device must have at least one channel" <dianlujitao> 3 days ago
+860ce0b : tracing: fix race condition reading saved tgids <Adrian Salido> 4 months ago
+f659a47 : fs/exec: fix use after free in execve <Andrea Arcangeli> 4 weeks ago
+f6a6d52 : xfrm: policy: check policy direction value <Vladis Dronov> 3 weeks ago
+7f87b76 : timerfd: Protect the might cancel mechanism proper <Thomas Gleixner> 7 months ago
+4ed84e0 : soc: qcom: secure_buffer: Fix memory leak <Patrick Daly> 8 months ago
+ef37e81 : dmaengine: device must have at least one channel <Viresh Kumar> 1 year, 1 month ago
+05a003a : FROMLIST: f2fs: add ioctl to expose current features <Jaegeuk Kim> 4 weeks ago
+9c97e51 : FROMLIST: f2fs: don't give partially written atomic data from process crash <Jaegeuk Kim> 4 weeks ago
+7d87138 : FROMLIST: f2fs: give a try to do atomic write in -ENOMEM case <Jaegeuk Kim> 5 weeks ago
+1b0401c : ANDROID: sdcardfs: override credential for ioctl to lower fs <Jaegeuk Kim> 6 weeks ago
+558241a : ANDROID: keychord: Fix for a memory leak in keychord. <Mohan Srinivasan> 11 days ago
+0024862 : ANDROID: keychord: Fix races in keychord_write. <Mohan Srinivasan> 11 days ago
+da3bad8 : Use %zu to print resid (size_t). <Mohan Srinivasan> 3 weeks ago
+b419d04 : ANDROID: keychord: Fix a slab out-of-bounds read. <Mohan Srinivasan> 4 weeks ago
+66f6a43 : mdss: livedisplay: Add support for DCI-P3 mode <ljkgpxs> 8 days ago
+ 
+**** cmold:android_kernel_oppo_msm8974 ****
+5e6e4e8 : Fix "msm: kgsl: Fix kgsl memory allocation and free race condition" <Michael Bestas> 3 days ago
+6466522 : Revert "msm: camera: sensor: Validate i2c_freq_mode in msm_cci_set_clk_param" <Michael Bestas> 7 days ago
+c4becc9 : sctp: do not inherit ipv6_{mc|ac|fl}_list from parent <Eric Dumazet> 3 months ago
+687de46 : dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 3 months ago
+912ec5d : ashmem: remove cache maintenance support <Sudarshan Rajagopalan> 5 months ago
+81c6bf4 : msm: kgsl: Fix kgsl memory allocation and free race condition <Sunil Khatri> 4 months ago
+75d28e2 : msm: camera: don't cut to 8bits for validating enum variable <Gaoxiang Chen> 5 months ago
+2b4cbdc : msm: camera: sensor: Add boundary check for cci master <Rajesh Bondugula> 9 months ago
+7e3ac99 : ASoC: msm: qdsp6v2: set pointer to NULL after free. <Xiaojun Sang> 6 months ago
+008a784 : msm: vidc: Protect debug_buffer access in core_info_read with lock. <Abdulla Anam> 5 months ago
+04b4d6e : qseecom: add mutex around qseecom_set_client_mem_param <Zhen Kong> 6 months ago
+d1333ea : ext4: fix fencepost in s_first_meta_bg validation <Theodore Ts'o> 6 months ago
+5b3261f : ext4: fix condition of validate s_first_meta_bg <syphyr> 2 months ago
+ec0b479 : Revert "ecryptfs: don't allow mmap when the lower fs doesn't support it" <Bruno Martins> 10 days ago
+65451d7 : BACKPORT: msm: IPA: add the check on intf query <Skylar Chang> 6 months ago
+5ecdf8e : mm: Tighten x86 /dev/mem with zeroing reads <Kees Cook> 5 months ago
+0c3aba0 : x86/mm/init.c: Fix devmem_is_allowed() off by one <T Makphaibulchoke> 5 years ago
+2cef7df : msm: mdss: Fix invalid dma attachment during fb shutdown <Sachin Bhayare> 8 months ago
+3c85ad6 : ASoC: Add backend user count checking <Walter Yang> 6 months ago
+f583a86 : BACKPORT: ASoC: msm: acquire lock in ioctl <Yeleswarapu Nagaradhesh> 6 months ago
+7c30104 : xfrm_user: validate XFRM_MSG_NEWAE XFRMA_REPLAY_ESN_VAL replay_window <Andy Whitcroft> 5 months ago
+e339352 : sctp: deny peeloff operation on asocs with threads sleeping on it <Marcelo Ricardo Leitner> 6 months ago
+8c390e5 : irda: Fix lockdep annotations in hashbin_delete(). <David S. Miller> 6 months ago
+01d428b : msm: camera: Remove obsolete OPPO changes <Michael Bestas> 6 months ago
+3a6bb24 : msm: vidc: Check video buffer handle for Null pointer access. <Vasantha Balla> 9 months ago
+8141234 : msm:vidc: Fix klockwork errors in video driver. <Vasantha Balla> 9 months ago
+bb2bb3f : msm:vidc: Add null check for handle in smem buffer comparision. <Vasantha Balla> 11 months ago
+85d21fb : msm: vidc: add ion_handle checking before mapping buffers. <Suman Mukherjee> 1 year, 2 months ago
+c412e42 : msm: vidc: Add same fd ref only for static buffer mode <Surajit Podder> 2 years, 8 months ago
+4282d9a : input: synaptics: Cleanup "Support up arrow gesture" <Michael Bestas> 9 months ago
+234402b : mdss: Restore last backlight value on panel on. <Danny Baumann> 1 year ago
+cab73be : mmc: core: Silence log spam <myfluxi> 2 years, 6 months ago
+38a391e : msm: mdss: Remove redundant clock operations <myfluxi> 2 years, 7 months ago
+e8d20058 : msm: camera: Assign NULL after freeing memory <Figo Wang> 2 years, 10 months ago
+4404428 : ppp: Fix kernel panic on disconnect due to CAF mis-merge <Sultanxda> 6 months ago
+f37ec61 : staging: prima: Update to LA.BF.1.1.3_rb1.15 <Michael Bestas> 6 months ago
+169bfd1 : Revert "msm: camera: sensor: Validate i2c_freq_mode in msm_cci_set_clk_param" <Michael Bestas> 7 days ago
+7ea8ccf : defconfig: msm: Disable CONFIG_CP_ACCESS <Tom Marshall> 2 weeks ago
+d20b203 : ext4: fix fencepost in s_first_meta_bg validation <Theodore Ts'o> 6 months ago
+3dd734a : ext4: fix condition of validate s_first_meta_bg <syphyr> 2 months ago
+a382825 : Revert "ecryptfs: don't allow mmap when the lower fs doesn't support it" <Bruno Martins> 10 days ago
+b04631f : sctp: avoid BUG_ON on sctp_wait_for_sndbuf <Marcelo Ricardo Leitner> 7 months ago
+7d9f104 : tcp: do not lock listener to process SYN packets <Eric Dumazet> 1 year, 11 months ago
+b2e85d0 : ipv4: keep skb->dst around in presence of IP options <Eric Dumazet> 7 months ago
+d484cef : ping: implement proper locking <Eric Dumazet> 5 months ago
+75f18d6 : tty: n_hdlc: get rid of racy n_hdlc.tbuf <Alexander Popov> 6 months ago
+cebb2e22 : TTY: n_hdlc, fix lockdep false positive <Jiri Slaby> 1 year, 9 months ago
+2999dfd : selinux: fix off-by-one in setprocattr <Stephen Smalley> 7 months ago
+26ba85f : Revert "proc: smaps: Allow smaps access for CAP_SYS_RESOURCE" <Nick Desaulniers> 4 months ago
+8501456 : net: wireless: bcmdhd: adding boundary check in wl_cfg80211_mgmt_tx <Insun Song> 4 months ago
+ 
+**** vanir:kernel_samsung_klte ****
+fbc3ea4 : Add a defconfig for VZW <DHOMD> 2 years, 7 months ago
+ 
+**** cmold:android_kernel_xiaomi_cancro ****
+4777312 : libceph: introduce ceph_crypt() for in-place en/decryption <Ilya Dryomov> 9 months ago
+a922836 : fs/proc/array.c: make safe access to group_leader <Adrian Salido> 9 months ago
+5e4a144 : prima: Use heap memory for station_info instead of stack <kaliu> 1 year, 1 month ago
+2eeea51 : BACKPORT: posix_acl: Clear SGID bit when setting file permissions <Jan Kara> 11 months ago
+029a5ee : cgroup: prefer %pK to %p <Nick Desaulniers> 11 months ago
+1e0a87c : ASoC: msm: initialize the params array before using it <vivek mehta> 11 months ago
+5eba5de : msm: vidc: use %pK instead of %p which respects kptr_restrict sysctl <Abdulla Anam> 1 year, 3 months ago
+32c6c22 : qseecom: Change format specifier %p to %pK <Mallikarjuna Reddy Amireddy> 11 months ago
+30de7f0 : ASoC: soc: msm: initialize buffer to prevent kernel data leakage <Xiaojun Sang> 8 months ago
+6556e99 : USB: cypress_m8: add endpoint sanity check <Oliver Neukum> 1 year, 5 months ago
+0368e7f : crypto: msm: check length before copying to buf in _debug_stats_read <Zhen Kong> 7 months ago
+4d7d895 : prima: Trim operation classes to max supported in change station <SaidiReddy Yenuga> 6 months ago
+85b6a22 : ASoC: wcd9320: Fix out of bounds for mad input value <Karthikeyan Mani> 9 months ago
+8b6297c : udp: properly support MSG_PEEK with truncated buffers <Eric Dumazet> 1 year, 8 months ago
+20e9e2d : perf: Tighten (and fix) the grouping condition <Peter Zijlstra> 2 years, 7 months ago
+ 
+**** cmold:android_kernel_xiaomi_msm8992 ****
+cbe73a8 : arm64: make Timer Interrupt Frequency selectable <Kefeng Wang> 1 year, 10 months ago
+1472102 : msm: kgsl: Fix direct references to HZ <Ajay Dudani> 1 year, 8 months ago
+2270476 : qcom: rpm-smd: Remove rpm workqueue initialization <Achyuth Sai Vadrav> 1 year, 9 months ago
+dc4526d : staging: qcacld-2.0: Fix non-debug build and switch to it <Michael Bestas> 7 days ago
+13a7efb : libra_defconfig: enable device tree exposing in proc <Demon000> 4 days ago
+79afbad : dts: libra/aqua: set pon device for flash led <Demon000> 5 days ago
+fe85730 : leds-qpnp-flash: allow rb spare control <Demon000> 5 days ago
+f939c29 : dts: libra/aqua: fix pon_3 extra properties <Demon000> 5 days ago
+7cb9091 : staging: qcacld-2.0: Fix non-debug build and switch to it <Michael Bestas> 7 days ago
+ 
+**** vanir:platform_manifest ****
+1dc6ccf : LS997 <DHOMD> 2 days ago
+3ea833e : Kltevzw keeps on getting dropped by remote... just follow our own <DHOMD> 3 days ago
+ 
+**** cm:LineageOS/android_packages_apps_AudioFX ****
+39c6ce2 : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** vanir:packages_apps_CMParts ****
+8ba6fe3 : Automatic translation import <Abhisek Devkota> 25 hours ago
+c604da8 : CMParts: Add strings for DCI-P3 color profile <dianlujitao> 5 days ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+951aab3 : Themes: Define back arrow tint color for themes <Bryan Owens> 1 year, 8 months ago
+9584546 : Themes: Expose hardcoded contact tile text colors <bgill55> 2 years, 7 months ago
+ 
+**** vanir:packages_apps_Dialer ****
+b9de4c2 : Themes: InCallUI dialpad digits color <George G> 9 months ago
+153e42f : Themes: Separate background color from text color <Alex Cruz> 1 year, 4 months ago
+ 
+**** cm:LineageOS/android_packages_apps_FlipFlap ****
+c2f96c2 : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** cm:LineageOS/android_packages_apps_Jelly ****
+b6ba24f : Automatic translation import <Abhisek Devkota> 25 hours ago
+21b9d05 : Jelly: Check for onChanged in history data observer <Luca Stefani> 5 days ago
+1ea2382 : Jelly: Improve URL bar behavior <Luca Stefani> 4 months ago
+ 
+**** vanir:packages_apps_Messaging ****
+0b0899a : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** vanir:packages_apps_Settings ****
+5bb707b : Automatic translation import <Abhisek Devkota> 25 hours ago
+f02e040 : Settings: Always show Privacy Guard permissions <Gabriele M> 2 weeks ago
+a2f914c : Revert "Settings[Wifi]: fix the input invalid length for WEP encryption." <Dominggoes Isakh> 7 days ago
+a84a0e5 : Development: Allow all Masquerade calling packages for debugging (3/3) <George G> 6 months ago
+f553a26 : Settings: Expose "ALL" hardcoded and @android colors <Bryan Owens> 6 months ago
+cbe72a9 : Settings: Expose and add tint mode to custom icons <Randall Rushing> 1 year, 5 months ago
+e7eda30 : Settings: Expose styles in the manifest for themes <Bryan Owens> 6 months ago
+61847b5 : Settings: Guard against themes without colorAccent defined <Clark Scheff> 6 months ago
+be8d2cf : Set external settings icon tint mode to SRC_ATOP <Ivan Iskandar> 7 months ago
+c3216b8 : Settings: Expose bluetooth pin confirm dialog text colors <SpiritCroc> 7 months ago
+985d7ae : Expose switchbar background color <Ivan Iskandar> 8 months ago
+8608349 : Expose dashboard category padding bottom <Ivan Iskandar> 8 months ago
+210416d : Expose color for external settings icons <Clark Scheff> 8 months ago
+2839dd0 : Hide the "show/hide overlays" when no overlay installed <Ivan Iskandar> 8 months ago
+435d604 : Exclude overlays from the app counter <Ivan Iskandar> 9 months ago
+fd23576 : OMS7-N: Apps: show/hide Substratum icon overlays [2/2] <Kuba Schenk> 9 months ago
+9969406 : OMS7-N: Apps: show/hide Substratum overlays [2/2] <George G> 1 year, 2 months ago
+d2c4af4 : Settings: Expose LinearColorBar default colors <SpiritCroc> 8 months ago
+f76b626 : Settings: Expose storage icon colors <SpiritCroc> 9 months ago
+b7404d5 : Settings: Expose gesture settings switchbar <daveyannihilation> 9 months ago
+8fa6783 : Settings: Expose storage summary text <George G> 1 year, 10 months ago
+aa0e4be : Settings: Expose condition card colors <daveyannihilation> 11 months ago
+5c4faec : Settings: Expose dashboard category and tile color <Ivan Iskandar> 11 months ago
+ 
+**** cm:LineageOS/android_packages_apps_Snap ****
+e6ab315 : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** cm:LineageOS/android_packages_apps_Terminal ****
+3f23959 : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** vanir:packages_apps_Trebuchet ****
+1f15340 : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+8a9f67d : Automatic translation import <Abhisek Devkota> 25 hours ago
+ 
+**** cm:LineageOS/android_packages_resources_devicesettings ****
+9620e09 : Automatic translation import <Abhisek Devkota> 24 hours ago
+ 
+**** vanir:vendor_lge ****
+ca65f9b : ls997 from Muppets <DHOMD> 2 days ago
+ 
+**** vanir:vendor_motorola ****
+0313ee1 : msm8610-common: regenerate vendor makefiles <Sultan Qasim Khan> 5 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+6d67ede : Add a barrier for Marlin/Sailfish <DHOMD> 5 months ago
+ 
+**** vanir:vendor_xiaomi ****
+50739fc : msm8956-common: Decommonize time service blobs <TheStrix> 2 weeks ago
+ 
