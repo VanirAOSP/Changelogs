@@ -80,3 +80,338 @@ ddd1f29 : kltespr: Use new full defconfig from new kernel <Kevin F. Haggerty> 3 
 8f4f086 : bluetooth: Remove hci_qcomm_init package <CyberWalkMaN> 2 days ago
 98bdd9a : extract-files: Default to sanitize vendor folder during extraction <Bruno Martins> 12 days ago
  
+**** vanir:frameworks_av ****
+ed79f23 : Fix potential leak <Marco Nelissen> 4 months ago
+ 
+**** vanir:frameworks_base ****
+c0f1177 : Keyguard: Change fingerprint listening behavior <Paul Keith> 9 days ago
+b6ea118 : Revert "Use SystemClock.elapsedRealtime() to calc TTFF" <nuclearmistake> 35 hours ago
+0f1f3418 : Allow to ignore presentation indicator of outgoing calls [1/3] <Gabriele M> 1 year, 6 months ago
+b2b4489 : Use SystemClock.elapsedRealtime() to calc TTFF <Yingjie Wang> 6 months ago
+ 
+**** vanir:frameworks_native ****
+0ee2a95 : InputDispatcher_test: fix pokeUserActivity after afbd1c1265de317f5ecf44cd400586c53a001ee7 <Dan Pasanen> 8 days ago
+9fe7f3c : InputDispatcher_test: fix pokeUserActivity after afbd1c1265de317f5ecf44cd400586c53a001ee7 <Dan Pasanen> 8 days ago
+ 
+**** vanir:frameworks_opt_telephony ****
+b231815 : Allow to ignore presentation indicator of outgoing calls [2/3] <Gabriele M> 1 year, 6 months ago
+ 
+**** cm:LineageOS/android_hardware_qcom_wlan ****
+93c8631 : WifiHAL: Free the stats received so far if requestResponse() fails <Srinivas Dasari> 7 months ago
+eabd5a6 : Wifi-HAL: Move llstats freeing to a common API <Srinivas Dasari> 7 months ago
+ 
+**** cm:LineageOS/android_hardware_samsung_slsi-cm_exynos5 ****
+b93ce61 : ion: Implement ION_IOC_SYNC_PARTIAL <Christopher N. Hesse> 9 days ago
+ 
+**** cmold:android_kernel_htc_msm8974 ****
+bdc12e8 : usb: gadget: mass_storage: added sysfs entry for cdrom to LUNs <FrozenCow> 4 years, 2 months ago
+63f1573 : SELinux: include definition of new capabilities <Eric Paris> 5 years ago
+6770d72 : rtc: Remove old alarm driver and switch to new implementation <Steve Kondik> 2 years, 10 months ago
+655e23a : mach: htc_battery: hax up to work with alarmtimer <Dan Pasanen> 3 days ago
+9f895da : power: qpnp-charger: Convert to alarmtimers <Steve Kondik> 1 year, 9 months ago
+ab5aacd : drivers: lpm-levels: Provide API to set wake up time from suspend <Anji Jonnala> 2 years, 6 months ago
+335383c : Revert "HACK: time: Disable alarmtimer" <AdrianDC> 1 year, 6 months ago
+df2159f : msm: thermal: Remove alarm support in KTM <Ram Chandrasekar> 3 years, 9 months ago
+8070799 : kernel: alarm: Increase power-on alarm before alarm time to 300 sec <AdrianDC> 1 year, 6 months ago
+53630b3 : rtc: alarm: init power_on_alarm_lock mutex in alarmtimer_rtc_timer_init <Kumar Gala> 3 years, 8 months ago
+2fbe09d : staging: alarm-dev: information leak in alarm_ioctl() <Dan Carpenter> 4 years, 3 months ago
+29f0920 : alarm : Fix the race conditions in alarm-dev.c <Mao Jinlong> 3 years, 5 months ago
+7860357 : qpnp-rtc: clear alarm register when rtc irq is disabled <Matthew Qin> 3 years, 8 months ago
+00d5559 : rtc: alarm: Add power-on alarm feature <Matthew Qin> 3 years, 8 months ago
+492dfbd : staging: alarm-dev: Refactor alarm-dev ioctl code in prep for compat_ioctl <John Stultz> 4 years, 8 months ago
+02c4012 : staging: alarm-dev: Drop pre Android 1.0 _OLD ioctls <John Stultz> 4 years, 8 months ago
+94e389c : staging: android-alarm: Switch from wakelocks to wakeup sources <John Stultz> 5 years ago
+391075c : Revert "HACK: android-alarm: wakelock workaround" <Colin Cross> 6 years ago
+7a654a2 : android-alarm: Rework alarm-dev.c to use upstreamed alarmtimers <John Stultz> 6 years ago
+301dacb : android-alarm: Convert ALARM_ELAPSED_REALTIME to use CLOCK_BOOTTIME <John Stultz> 6 years ago
+b0a96ec : staging: android-alarm: HACK: wakelock workaround <John Stultz> 6 years ago
+e790bb0 : staging: android-alarm: Fix namespace collision with upstreamed alarmtimers <John Stultz> 6 years ago
+626be60 : staging: android-alarm: Fix include compile issues <John Stultz> 6 years ago
+98db4d0 : staging: android-alarm: Add needed module.h includes <Andy Green> 6 years ago
+10edea8 : staging: android-alarm: Add android alarm driver & in-kernel alarm interface <Arve Hjønnevåg> 6 years ago
+a3a7499 : rtc: alarm: Change wake-up source <Mohit Aggarwal> 2 years, 8 months ago
+880f4b7 : alarmtimer: add verification for rtc dev in power_on_alarm_init <Mao Jinlong> 2 years, 5 months ago
+89c4028 : alarm: init power_on_alarm in alarm_dev_init <Mao Jinlong> 2 years, 7 months ago
+08b2320 : Revert "rtc: alarm: set power_on_alarm again when calling alarm_resume" <Dan Pasanen> 3 days ago
+d8318d3 : Revert "rtc:alarm: remove alarm_shutdown hook in alarm driver" <Dan Pasanen> 3 days ago
+6c0e9ee : Revert "alarm : Fix the race conditions in alarm-dev.c" <Dan Pasanen> 3 days ago
+6afdaff : - rtc: alarm: sanity check new time. <Vijayakuamar Badiger> 2 years, 10 months ago
+805f86c : rtc: alarm: init power_on_alarm_lock mutex in alarmtimer_rtc_timer_init <Kumar Gala> 3 years, 8 months ago
+7e20962 : rtc: alarm: set power_on_alarm again when calling alarmtimer_resume <Mao Jinlong> 3 years ago
+4443277 : alarmtimer: add rtc irq support for alarm <Xiaocheng Li> 3 years, 10 months ago
+3a7d11d : alarmtimers: Squash upstream changes <John Stultz> 5 years ago
+025e64d : timerfd: support CLOCK_BOOTTIME clock <Greg Hackmann> 3 years, 9 months ago
+3051395 : timerfd: add alarm timers <Todd Poynor> 4 years, 4 months ago
+7b121bc : rtc: alarm: Fix data handling issue with alarm->type <Venkatesh Yadav Abbarapu> 2 years, 6 months ago
+101eaea : alarmtimer: Lock k_itimer during timer callback <Richard Larocque> 3 years ago
+5a4265b : alarmtimer: Do not signal SIGEV_NONE timers <Richard Larocque> 3 years ago
+6f9dbe8 : alarmtimer: Return relative times in timer_gettime <Richard Larocque> 3 years ago
+4b63700 : alarmtimer: Fix bug where relative alarm timers were treated as absolute <John Stultz> 3 years, 2 months ago
+a1aeaf1 : alarmtimer: add alarm_expires_remaining <Todd Poynor> 4 years, 4 months ago
+55b6fc0 : alarmtimer: add alarm_start_relative <Todd Poynor> 4 years, 4 months ago
+52f116c : alarmtimer: add alarm_forward_now <Todd Poynor> 4 years, 4 months ago
+6bb98e5 : alarmtimer: add alarm_restart <Todd Poynor> 4 years, 4 months ago
+a19dc89 : alarmtimer: Use hrtimer per-alarm instead of per-base <John Stultz> 4 years, 11 months ago
+80a9c24 : alarmtimer: implement minimum alarm interval for allowing suspend <Todd Poynor> 5 years ago
+ 
+**** cmold:android_kernel_huawei_kiwi ****
+ee9e283 : Revert "ecryptfs: forbid opening files without mmap handler" <Jeff Mahoney> 1 year, 2 months ago
+d2bd2e1 : msm: rmnet_ipa: fix security issue <Skylar Chang> 5 months ago
+3f8684b : xfrm: policy: check policy direction value <Vladis Dronov> 4 weeks ago
+455933e : timerfd: Protect the might cancel mechanism proper <Thomas Gleixner> 7 months ago
+7e00fd7 : qcdev: Check the digest length during the SHA operations <Dennis Cagle> 3 months ago
+be23fed : BACKPORT: f2fs: sanity check log_blocks_per_seg <Jin Qian> 4 months ago
+456d2dc : ASoC: msm: qdspv2: add result check when audio process fail <kunleiz> 5 months ago
+fa92fc8 : msm: ipa: Fix for missing int overflow check in the refcount library <Utkarsh Saxena> 4 months ago
+9ef84fc : msm: ipa: handle information leak on ADD_FLT_RULE_INDEX ioctl <Skylar Chang> 1 year, 1 month ago
+9ba23be : Prevent heap overflow in uvc driver <Robb Glasser> 7 months ago
+7f47edb : misc: qcom: qdsp6v2: Add missing initialization <vivek mehta> 1 year, 1 month ago
+f0a3cd3 : qcacld-2.0: Remove the support for setwpaie ioctl <SaidiReddy Yenuga> 1 year, 3 months ago
+48c6639 : msm: mdss: Fix invalid dma attachment during fb shutdown <Sachin Bhayare> 8 months ago
+ 
+**** cmold:android_kernel_lge_g3 ****
+0cfaf1b : g3: camera: Fix the size of the i2c register array <Christopher R. Palmer> 6 months ago
+c27d054 : ALSA: timer: Fix race between read and ioctl <Takashi Iwai> 3 months ago
+2989a65a : ALSA: timer: Fix missing queue indices reset at SNDRV_TIMER_IOCTL_SELECT <Takashi Iwai> 3 months ago
+d1af61d : fs/exec.c: account for argv/envp pointers <Kees Cook> 9 weeks ago
+507ebc2 : Allow stack to grow up to address space limit <Helge Deller> 2 months ago
+63e5143 : mm: larger stack guard gap, between vmas <Hugh Dickins> 2 months ago
+99ac249 : xfrm: policy: check policy direction value <Vladis Dronov> 4 weeks ago
+7aeabcc : BACKPORT: f2fs: sanity check checkpoint segno and blkoff <Jin Qian> 4 months ago
+e42dd30 : UPSTREAM: f2fs: sanity check segment count <Jin Qian> 4 months ago
+7622b53 : UPSTREAM: timerfd: Protect the might cancel mechanism proper <Thomas Gleixner> 7 months ago
+031d857 : USB: f_qc_rndis: Prevent use-after-free for _rndis_qc <Pratham Pratap> 4 months ago
+3f0cc15 : f_qc_rndis: Check config or cdev is NULL in before accessing <Mayank Rana> 3 years ago
+d32ff6d : ipv6: fix out of bound writes in __ip6_append_data() <Eric Dumazet> 3 months ago
+a463b05 : ipv6/dccp: do not inherit ipv6_mc_list from parent <WANG Cong> 4 months ago
+2deefee : sctp: do not inherit ipv6_{mc|ac|fl}_list from parent <Eric Dumazet> 3 months ago
+53bbe9f : ipv6: Check ip6_find_1stfragopt() return value properly. <David S. Miller> 3 months ago
+a448f14 : ipv6: Prevent overrun when parsing v6 header options <Craig Gallek> 3 months ago
+7664adb : ashmem: remove cache maintenance support <Sudarshan Rajagopalan> 5 months ago
+34ccb44 : msm: kgsl: Fix kgsl memory allocation and free race condition <Dennis Cagle> 3 months ago
+bb68357 : msm: camera: don't cut to 8bits for validating enum variable <Gaoxiang Chen> 5 months ago
+6466386 : ASoC: msm: qdsp6v2: check audio client pointer before accessing <Aravind Kumar> 2 years, 4 months ago
+7abf5e5 : ASoC: msm: qdsp6v2: validate audio client in callback <Fred Oh> 2 years, 5 months ago
+f46472b : msm: camera: sensor: Add boundary check for cci master <Rajesh Bondugula> 10 months ago
+b626760 : ASoC: msm: qdsp6v2: set pointer to NULL after free. <Xiaojun Sang> 6 months ago
+145d3a3 : BACKPORT: msm: camera: Avoid exposing kernel addresses <Siqi Lin> 11 months ago
+6b20474 : msm: vidc: Protect debug_buffer access in core_info_read with lock. <Abdulla Anam> 5 months ago
+9c46990 : qseecom: add mutex around qseecom_set_client_mem_param <Zhen Kong> 6 months ago
+e810e17 : msm: IPA: add the check on intf query <Skylar Chang> 6 months ago
+1701774 : crypto: ahash - Fix EINPROGRESS notification callback <Herbert Xu> 5 months ago
+19d0a91 : crypto: hash - Simplify the ahash_finup implementation <Marek Vasut> 3 years, 6 months ago
+c763826 : crypto: hash - Pull out the functions to save/restore request <Marek Vasut> 3 years, 6 months ago
+6c7e725 : crypto: hash - Fix the pointer voodoo in unaligned ahash <Marek Vasut> 3 years, 6 months ago
+3ca3c08 : crypto: ahash - Fully restore ahash request before completing <Marek Vasut> 3 years, 9 months ago
+1bd9679 : mm/mempolicy.c: fix error handling in set_mempolicy and mbind. <Chris Salls> 5 months ago
+149c2d7 : KEYS: fix keyctl_set_reqkey_keyring() to not leak thread keyrings <Eric Biggers> 4 months ago
+7c25f80 : msm: mdss: Fix invalid dma attachment during fb shutdown <Benjamin Chan> 9 months ago
+c309050 : net/packet: fix overflow in check for tp_reserve <Andrey Konovalov> 5 months ago
+042a90d : net/packet: fix overflow in check for tp_frame_nr <Andrey Konovalov> 5 months ago
+c332456 : scsi: sg: check length passed to SG_NEXT_CMD_LEN <peter chang> 6 months ago
+9f36a14 : sg: relax 16 byte cdb restriction <Douglas Gilbert> 3 years, 3 months ago
+f222afd : block: add blk_rq_set_block_pc() <Jens Axboe> 3 years, 3 months ago
+43c5011 : xfrm_user: validate XFRM_MSG_NEWAE incoming ESN size harder <Andy Whitcroft> 5 months ago
+c9a089f : xfrm_user: validate XFRM_MSG_NEWAE XFRMA_REPLAY_ESN_VAL replay_window <Andy Whitcroft> 5 months ago
+c1d2769 : KEYS: Change the name of the dead type to ".dead" to prevent user access <David Howells> 4 months ago
+10e1a26 : platform: msm: spmi: Fix possible race condition in debugfs <ansharma> 7 months ago
+80f8bd7 : sctp: deny peeloff operation on asocs with threads sleeping on it <Marcelo Ricardo Leitner> 6 months ago
+f9f62d7 : irda: Fix lockdep annotations in hashbin_delete(). <David S. Miller> 6 months ago
+d69bd1b : packet: fix races in fanout_add() <Eric Dumazet> 7 months ago
+7fb74f5 : net/llc: avoid BUG_ON() in skb_orphan() <Eric Dumazet> 7 months ago
+054fccc : tcp: avoid infinite loop in tcp_splice_read() <Eric Dumazet> 7 months ago
+ 
+**** cmold:android_kernel_lge_hammerhead ****
+d0acbfe : netlink: Fix dump skb leak/double free <Herbert Xu> 1 year, 3 months ago
+b6a6877 : netlink: add reference of module in netlink_dump_start <Gao feng> 4 years, 11 months ago
+b0829c5 : sysrq: FIQ and sysrq default deauthorized <Mark Salyzyn> 5 months ago
+7b91973 : BACKPORT: fiq_debugger: restrict access to critical commands. <Mark Salyzyn> 8 months ago
+64c70cf : msm: remote_spinlock: swp{b} is deprecated for ARM>v5 <myfluxi> 3 years, 4 months ago
+d433131 : ARM: 8160/1: drop warning about return_address not using unwind tables <Uwe Kleine-König> 2 years, 11 months ago
+f4c6270 : ppp: defer netns reference release for ppp channel <WANG Cong> 1 year, 2 months ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+c7262d7 : ext4: fix race between truncate and __ext4_journalled_writepage() <Theodore Ts'o> 2 years, 3 months ago
+ff6b2e3 : ext4: fix reservation overflow in ext4_da_write_begin <Eric Sandeen> 2 years, 11 months ago
+4143fb7 : ext4: make fsync to sync parent dir in no-journal for real this time <Lukas Czerner> 2 years, 5 months ago
+f5f6f19 : ext4: bail out from make_indexed_dir() on first error <Jan Kara> 2 years, 10 months ago
+a489a8e : ext4: add ext4_iget_normal() which is to be used for dir tree lookups <Theodore Ts'o> 2 years, 11 months ago
+989caf5 : ext3,ext4: don't mess with dir_file->f_pos in htree_dirblock_to_tree() <Al Viro> 4 years, 2 months ago
+f581883 : ext4: always set i_op in ext4_mknod() <Bernd Schubert> 4 years, 11 months ago
+3769138 : ext4: disallow hard-linked directory in ext4_lookup <Andreas Dilger> 5 years ago
+07d8918 : ext4: don't orphan or truncate the boot loader inode <Theodore Ts'o> 2 years, 11 months ago
+205e765 : ext4: avoid trying to kfree an ERR_PTR pointer <Theodore Ts'o> 3 years ago
+17698b6 : ext4: propagate errors up to ext4_find_entry()'s callers <Theodore Ts'o> 3 years ago
+96437cb : ext4: atomically set inode->i_flags in ext4_set_inode_flags() <Theodore Ts'o> 3 years, 5 months ago
+a3bda16 : ext4: return ENOMEM if sb_getblk() fails <Theodore Ts'o> 4 years, 8 months ago
+d94b932 : ext4: fix possible use-after-free with AIO <Jan Kara> 4 years, 7 months ago
+5c7d84d : ext4/jbd2: don't wait (forever) for stale tid caused by wraparound <Theodore Ts'o> 4 years, 5 months ago
+1baf58b : ext4: fix overflow when counting used blocks on 32-bit architectures <Jan Kara> 4 years, 3 months ago
+ff2630b : ext4: fix data=journal fast mount/umount hang <Theodore Ts'o> 4 years, 5 months ago
+de4cf97 : ext4: init pagevec in ext4_da_block_invalidatepages <Eric Sandeen> 4 years, 9 months ago
+b9759bc : ext4: fix fdatasync() for files with only i_size changes <Jan Kara> 4 years, 11 months ago
+47845ca : ext4: fix potential deadlock in ext4_nonda_switch() <Theodore Ts'o> 4 years, 11 months ago
+96ddc0a : ext4: undo ext4_calc_metadata_amount if we fail to claim space <Theodore Ts'o> 5 years ago
+6494ebf : ext4: don't let i_reserved_meta_blocks go negative <Brian Foster> 5 years ago
+cb62be2 : xfrm_user: validate XFRM_MSG_NEWAE XFRMA_REPLAY_ESN_VAL replay_window <Andy Whitcroft> 5 months ago
+27c98d2 : xfrm_user: validate XFRM_MSG_NEWAE incoming ESN size harder <Andy Whitcroft> 5 months ago
+75a2eac : xfrm_user: ensure user supplied esn replay window is valid <Mathias Krause> 4 years, 11 months ago
+8c06b6a : xfrm_user: don't copy esn replay window twice for new states <Mathias Krause> 4 years, 11 months ago
+fd87d44 : xfrm_user: fix info leak in copy_to_user_tmpl() <Mathias Krause> 4 years, 11 months ago
+ca68fb4 : xfrm_user: fix info leak in copy_to_user_policy() <Mathias Krause> 4 years, 11 months ago
+aafd005 : xfrm_user: fix info leak in copy_to_user_state() <Mathias Krause> 4 years, 11 months ago
+38cee20 : xfrm_user: fix info leak in copy_to_user_auth() <Mathias Krause> 4 years, 11 months ago
+258ca6e : xfrm_user: return error pointer instead of NULL #2 <Mathias Krause> 5 years ago
+aaccf6f : xfrm_user: return error pointer instead of NULL <Mathias Krause> 5 years ago
+c98b04c : msm: vidc: use %pK instead of %p which respects kptr_restrict sysctl. <Yueyao (Nathan) Zhu> 12 months ago
+ccfafd0 : msm: kgsl: Fix the race between context create and destroy <Sunil Khatri> 3 months ago
+33ea493 : msm: kgsl: Reserve a context ID slot but don't populate immediately <Steve Pfetsch> 8 months ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+64a83fe : Prevent heap overflow in uvc driver <Robb Glasser> 7 months ago
+f8ce934 : Revert "tcp: do not lock listener to process SYN packets" <Wang Han> 7 days ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+6f65dfd : qcacld-2.0: Update to LA.UM.5.5.r1-05700-8x96.0 <dianlujitao> 6 days ago
+02d1218 : ARM: dts: msm: Enable USB type-c support for PMI8940/PMI8937 <Kiran Gunda> 3 weeks ago
+6b26156 : msm: ipa3: Verify IPA client id before using it <Ghanim Fodi> 7 weeks ago
+beb9db9 : ASoC: msm: qdsp6v2: clear address on error <Siena Richard> 4 months ago
+8083abc : msm: sensor: ois: add conditional check for ioctl <Tanvi Aggarwal> 4 weeks ago
+b666c99 : ARM: dts: msm: add support of PMI8937/PMI8940 for MSM8953 <Kiran Gunda> 5 weeks ago
+6f26ff2 : fbdev: core: Initialise structure to prevent kernel information leak <Krishna Manikandan> 3 months ago
+8f3e564 : msm: mdss: Avoid direct dereference user input in pp cache config <Sravan Kumar D.V.N> 9 weeks ago
+bff011f : msm: camera: Instead of read_lock use read_lock_irqsave. <Trishansh Bhardwaj> 7 weeks ago
+7f7cc32 : msm: kgsl: Fix integer overflow in _load_gpmu_firmware <Abhilash Kumar> 5 weeks ago
+c84d655 : cfg80211: Define nla_policy for NL80211_ATTR_LOCAL_MESH_POWER_MODE <Srinivas Dasari> 8 weeks ago
+efa2b4c : cnss_pci: fix the race condition bug in WLAN firmware table config <Sarada Prasanna Garnayak> 6 weeks ago
+316421f : msm: camera: fix off-by-one overflow in msm_isp_get_bufq <Gaoxiang Chen> 3 months ago
+ae5355d : diag: dci: Add protection while querying event status <Mohit Aggarwal> 4 months ago
+e083ac1 : msm: pcie: add bounds check for debugfs register write <Tony Truong> 8 months ago
+7d686ee : SoC: msm: audio-effects: return directly to avoid integer overflow <Weiyin Jiang> 5 weeks ago
+4bf9e1d : msm: ipa: fix security issues in ipa wan driver <Skylar Chang> 6 months ago
+68ccd6e : msm: camera: Make use of mutex lock to avoid race condition <annamraj> 6 weeks ago
+7043c6b : crypto: msm: Fix several race condition issues in crypto drivers <Brahmaji K> 9 weeks ago
+7aa8d06 : msm: mdss: fix the use after free problem in rotator ioctl <Harsh Sahu> 9 weeks ago
+94022fe : power: qpnp-fg: Fix Rslow charger compensation workaround <Fenglin Wu> 7 weeks ago
+66b7afc : msm: camera: Bound check for num_of_stream. <Alok Kediya> 6 months ago
+919a55d : dwc3: Do not perform core reinitialisation for host only mode <Ajay Agarwal> 5 weeks ago
+90a9f5b : msm: camera: isp: Support dualcamera overflow <Ramesh V> 8 weeks ago
+69650e9 : msm: camera: Instead of read_lock use read_lock_irqsave. <Trishansh Bhardwaj> 7 weeks ago
+322f203 : msm: mdss: Add check for fence count <Krishna Manikandan> 9 weeks ago
+5ed5176 : msm: mdss: Fix possible memory overwrite in pgc config <Sravan Kumar D.V.N> 6 weeks ago
+7bea133 : msm: mdss: Fix possible leaks in PP LUT get functions <Sravan Kumar D.V.N> 6 weeks ago
+06e6cc1 : coresight: tmc: Fix the unbalanced lock in tmc_read() <Saranya Chidura> 5 weeks ago
+cdff0f9 : defconfig: disable cp_access <Srinivasarao P> 7 months ago
+c508555 : osq_lock: avoid live-lock issue for RT task <Prateek Sood> 7 weeks ago
+ee78128 : osq_lock: fix osq_lock queue corruption <Prateek Sood> 7 weeks ago
+1ec330b : net/packet: fix overflow in check for tp_reserve <Andrey Konovalov> 5 months ago
+344309c : net/packet: fix overflow in check for tp_frame_nr <Andrey Konovalov> 5 months ago
+8f14375 : msm: sensor: Fix to validate the settings size in flash <Samyukta Mogily> 8 weeks ago
+154f27b : msm: mdss: Increase fbmem buf ref count before use <Mishra Mahima> 7 weeks ago
+9a3a66c : msm: mdss: information leak during buffer copy from userspace <Ashish Garg> 8 weeks ago
+7ef3264 : msm: ipa3: Protect access to ipa3_qmi_ctx variable by lock <Ghanim Fodi> 7 weeks ago
+734aabe : coresight: tmc: Fix use after free issue with tmc read <Saranya Chidura> 7 weeks ago
+baf3b7b : ARM: dts: msm: Add AF support for Rear Aux Camera on msm8937 <Vijay kumar Tumati> 6 weeks ago
+1d8f4d8 : wcnss: fix the potential buffer flow issue in firmware setup <Sarada Prasanna Garnayak> 7 weeks ago
+0ed4a6b : Revert "proc: smaps: Allow smaps access for CAP_SYS_RESOURCE" <Nick Desaulniers> 4 months ago
+851ee84 : net/packet: fix overflow in check for priv area size <Andrey Konovalov> 5 months ago
+f3b16e8 : ipv4: keep skb->dst around in presence of IP options <Eric Dumazet> 7 months ago
+dbc0e5b : dccp: fix freeing skb too early for IPV6_RECVPKTINFO <Andrey Konovalov> 6 months ago
+28d874c : msm: kgsl: Fix a dead loop issue while changing gpu frequency <Venkateswara Rao Tadikonda> 9 weeks ago
+0362003 : msm: mdss: Fix possible integer overflow <Sachin Bhayare> 4 months ago
+7419d03 : usb: f_mtp: Check number of iterations before division <Ajay Agarwal> 3 months ago
+c7a45fb : sched/idle: Add missing checks to the exit condition of cpu_idle_poll() <Preeti U Murthy> 2 years, 7 months ago
+f8e3d57 : qseecom: add bus scaling support for GP operations <Zhen Kong> 4 months ago
+ 
+**** cmold:android_kernel_sony_apq8064 ****
+8c6f648 : Revert "msm: pm-8x60: Don't save or restore GIC,VFP state in power collapse" <Matt Wagantall> 3 years, 11 months ago
+4ffe6e9 : power: validate wakeup source before activating it. <jinqian> 2 years, 5 months ago
+aa50c94 : PM: Introduce suspend state PM_SUSPEND_FREEZE <Zhang Rui> 4 years, 7 months ago
+c9aa277 : rtc: pm8xxx: move device_init_wakeup() before rtc_register <Josh Cartwright> 3 years, 5 months ago
+beb1e39 : PM / Domains: don't use [delayed_]work_pending() <Tejun Heo> 4 years, 8 months ago
+0c558d1 : PM: Reorganize device PM initialization <Rafael J. Wysocki> 5 years ago
+254133c : PM / Runtime: let rpm_resume() succeed if RPM_ACTIVE, even when disabled, v2 <Kevin Hilman> 4 years, 11 months ago
+c72cc64 : PM / QoS: Add return code to pm_qos_get_value function. <Luis Gonzalez Fernandez> 5 years ago
+9f56805 : wlan: Remove WLAN_FEATURE_HOLD_RX_WAKELOCK feature <Rajeev Kumar> 1 year, 10 months ago
+f8cd4d0 : wireless: sort and extend element ID list <Kanchanapally, Vidyullatha> 1 year, 7 months ago
+adf5819 : PM: Rename CAP_EPOLLWAKEUP to CAP_BLOCK_SUSPEND <Michael Kerrisk> 5 years ago
+3d48269 : Wlan: Optimize set key part to reduce the set key time <Abhishek Singh> 1 year, 7 months ago
+bf333a8 : wlan: Fix null mac address check in WDA <Hu Wang> 1 year, 2 months ago
+b99474a : wlan: Return updated rssi value to upperlayer <Hanumanth Reddy Pothula> 12 months ago
+22c07df : wlan: Update qie_age->age to match the BSS age in the driver <Selvaraj, Sridhar> 11 months ago
+ca0968d : wlan: Increase the Wait for key timer value <SaidiReddy Yenuga> 1 year ago
+dd1807f : wlan: Disconnect the session when WaitForKey timer expires <SaidiReddy Yenuga> 1 year, 6 months ago
+9fd8d15 : wlan: Use system time instead of jiffies for BSS received time <Deepthi Gowri> 12 months ago
+c89e11f : prima: Reduce expiration time of traffic timer during roaming <Padma, Santhosh Kumar> 2 years, 2 months ago
+aa1dec6 : driver: soc: bam_dmux: Fix spinlock lock-up <Arun Kumar Neelakantam> 2 years, 8 months ago
+b46585f : arm, hw-breakpoint: Fix CPU hotplug callback registration <Srivatsa S. Bhat> 3 years, 6 months ago
+5034250 : CPU hotplug, perf: Fix CPU hotplug callback registration <Srivatsa S. Bhat> 3 years, 6 months ago
+07e9b47 : perf, cpu hotplug: Use cached value of smp_processor_id() <Srivatsa S. Bhat> 4 years, 10 months ago
+aaf9051 : perf, cpu hotplug: Run CPU_STARTING notifiers with irqs disabled <Srivatsa S. Bhat> 4 years, 10 months ago
+8b75572 : Doc/cpu-hotplug: Specify race-free way to register CPU hotplug callbacks <Srivatsa S. Bhat> 3 years, 6 months ago
+2c612f0 : CPU hotplug, writeback: Don't call writeback_set_ratelimit() too often during hotplug <Srivatsa S. Bhat> 4 years, 11 months ago
+6b42203 : sched/core: Fix an SMP ordering race in try_to_wake_up() vs. schedule() <Peter Zijlstra> 1 year, 11 months ago
+0c2a2a0 : PM / sleep: unregister wakeup source when disabling device wakeup <Zhang Rui> 3 years, 3 months ago
+6826334 : defconfig: fusion3: Disable CONFIG_STRICT_MEMORY_RWX <Kalpaj Chaudhari> 6 weeks ago
+62adcb4 : sched_clock: Avoid corrupting hrtimer tree during suspend <Stephen Boyd> 3 years, 1 month ago
+10ff4d1 : arm: arch_timer: Update for 64bit sched_clock <fluxi> 1 year, 4 months ago
+83d3dd7 : sched_clock: Add support for >32 bit sched_clock <Stephen Boyd> 4 years, 1 month ago
+62d4f4d : sched_clock: Use an hrtimer instead of timer <Stephen Boyd> 4 years, 1 month ago
+8cae301 : sched_clock: Use seqcount instead of rolling our own <Stephen Boyd> 3 years, 7 months ago
+257410b : ARM: sched_clock: Load cycle count after epoch stabilizes <Stephen Boyd> 4 years, 2 months ago
+2fa5b0f : sched_clock: Make ARM's sched_clock generic for all architectures <Stephen Boyd> 4 years, 3 months ago
+d5bd5cc : ASoC: msm: qdsp6: check audio client pointer before accessing <Aravind Kumar> 2 years, 4 months ago
+c744ef9 : ASoC: msm: qdsp6: validate audio client in callback <Fred Oh> 2 years, 5 months ago
+d5820b4 : ASoC: msm: qdsp6v2: check audio client pointer before accessing <Aravind Kumar> 2 years, 4 months ago
+bc360ea : ASoC: msm: qdsp6v2: validate audio client in callback <Fred Oh> 2 years, 5 months ago
+59654ca : ashmem: remove cache maintenance support <Dennis Cagle> 4 months ago
+740ee12 : msm: kgsl: Fix kgsl memory allocation and free race condition <Dennis Cagle> 3 months ago
+012941e : msm: kgsl: remove or fix badly formated printk messages <Jeremy Gebben> 3 years, 11 months ago
+2b4ca16 : ipv4: keep skb->dst around in presence of IP options <Eric Dumazet> 7 months ago
+d196290 : ALSA: timer: Fix race between read and ioctl <Takashi Iwai> 3 months ago
+85735ca : ALSA: timer: Fix missing queue indices reset at SNDRV_TIMER_IOCTL_SELECT <Takashi Iwai> 3 months ago
+9f3e363 : Revert "proc: smaps: Allow smaps access for CAP_SYS_RESOURCE" <Nick Desaulniers> 4 months ago
+04ae1cb : USB: iowarrior: fix oops with malicious USB descriptors <Josh Boyer> 1 year, 5 months ago
+acfebdb : Input: gtco - fix crash on detecting device without endpoints <Vladis Dronov> 1 year, 5 months ago
+b5438a3 : Input: powermate - fix oops with malicious USB descriptors <Josh Boyer> 1 year, 5 months ago
+ 
+**** vanir:platform_manifest ****
+be415e6 : I dont have time for this ATM - Revert "Kltevzw keeps on getting dropped by remote... just follow our own" <DHOMD> 4 hours ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+8b38e68 : ContactsCommon: Fix possible NPE <Michael W> 6 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Jelly ****
+8e71ae9 : Jelly: Remove the SwipeRefreshLayout <Gabriele M> 3 weeks ago
+2a6aa75 : Fix NPE. <Danny Baumann> 8 days ago
+ 
+**** vanir:packages_apps_Settings ****
+6d4bee5 : Settings: Change Updater package name <Gabriele M> 8 weeks ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+2dd00df : Email: Fix led notification settings <Michael W> 4 days ago
+ 
+**** vanir:packages_services_Telephony ****
+33954d1 : Allow to ignore presentation indicator of outgoing calls [3/3] <Gabriele M> 1 year, 6 months ago
+ 
+**** vanir:vendor_lge ****
+e51e555 : g2-common: Use widevine from kipper TOS125B <KhabarlakKonstantin> 12 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+09fcd69 : cheeseburger: camera: change second rear cam from BACK_AUX to BACK <Rashed Abdel-Tawab> 2 days ago
+ea00438 : cheeseburger: include libdczoom <Alexander Martinz> 3 days ago
+2e1e140 : op3: Kang perfd stack from marlin <dianlujitao> 2 weeks ago
+b3e9cba : op3: Remove vendor thermal-engine.conf <dianlujitao> 2 weeks ago
+ 
+**** vanir:vendor_samsung ****
+ba5a9d1 : klte-common: Update blobs <Kevin F. Haggerty> 21 hours ago
+a0f6a57 : klte-common: Hex sensors.msm8974.so to quiet LightSensor logspam <Kevin F. Haggerty> 3 days ago
+ 
+**** vanir:vendor_vanir ****
+a445bc4 : Magisk v13.3 <nuclearmistake> 35 hours ago
+9d8b689 : envsetup: Fix installboot on ZSH <Ashwin Ramesh> 2 weeks ago
+bcaaa96 : charger: Remove battery_fail images <Michael Bestas> 10 days ago
+2067c64 : Update initial attach for Tmo US <Abhisek Devkota> 3 weeks ago
+51d24fd : tasks: kernel: Kill unexisting wiki reference <Luca Stefani> 11 days ago
+e2cf5e8 : build: qcom_target: Add sdm660 <dianlujitao> 8 weeks ago
+ 
