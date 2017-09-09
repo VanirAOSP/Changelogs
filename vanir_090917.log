@@ -1,0 +1,263 @@
+
+**** cm:LineageOS/android_device_htc_hiae-common ****
+e9efbdb : hiae: enable vibrator voltage control <Sultan Qasim Khan> 1 year, 4 months ago
+9b403b6 : hiae: Declare that our LED can support RGB notification, battery & blink <Christopher R. Palmer> 8 months ago
+ca0f73c : hiae: show HTC A9 instead of Android phone when plugged it to PC <Fagyi> 7 months ago
+387c487 : hiae: Update Snap config overlay <Ethan Chen> 8 days ago
+52f2a99 : hiae: Allow cameraserver to read debugfs <Ethan Chen> 8 days ago
+1f9a5a2 : hiae: camera: provide missing parameter for new hal <Altaf-Mahdi> 9 months ago
+a955e29 : hiae: Update camera proprietary file list <Ethan Chen> 8 days ago
+d5229fd : hiae: Revert M camera hacks <Ethan Chen> 8 days ago
+2e48d41 : hiae: Reverse CameraParameters_EXT inheritance <Ethan Chen> 9 days ago
+cc44c6a : hiae: Update Linux boot parameters for 2.18.617.30 <Ethan Chen> 10 days ago
+4d7dd0a : hiae: Update SELinux policy for 2.18.617.30 <Ethan Chen> 10 days ago
+2bd9ff7 : hiae: Add power shim <Ethan Chen> 10 days ago
+5355413 : hiae: Remove libcryptm hack <Ethan Chen> 10 days ago
+0683b1b : hiae: Remove clockd <Ethan Chen> 10 days ago
+846d1e7 : hiae: Include aptX libraries <Ethan Chen> 10 days ago
+c5424aa : hiae: Update data configuration files from 2.18.617.30 <Ethan Chen> 10 days ago
+b3ca58a : hiae: Update sec_config from 2.18.617.30 <Ethan Chen> 8 days ago
+37aa8a5 : hiae: Update media_codecs_performance from 2.18.617 <Ethan Chen> 8 days ago
+705073e : hiae: Update mixer_paths from 2.18.617.30 <Ethan Chen> 8 days ago
+138a37d : hiae: Update GPS config from 2.18.617.30 <Ethan Chen> 8 days ago
+7f0563c : hiae-common: Remove DAC override permission from netmgrd <Bruno Martins> 3 months ago
+d968bd4 : Grant netmgrd proper unix perms <Jeff Vander Stoep> 1 year, 4 months ago
+ 
+**** cm:LineageOS/android_device_htc_hiaeuhl ****
+172ea5b : hiae: Update proprietary files list for N <Ethan Chen> 11 days ago
+ 
+**** cm:LineageOS/android_device_htc_hiaeul ****
+0fda2e9 : hiae: Update proprietary files list for N <Ethan Chen> 11 days ago
+0fe4e6c : hiae: Update fingerprint <Ethan Chen> 11 days ago
+ 
+**** cm:LineageOS/android_device_htc_hima-common ****
+1767f42 : hima: Add devicesettings as a dependency <Ethan Chen> 7 months ago
+11260f3 : hima-common: Fix cir_fw_update permissions <Bruno Martins> 2 months ago
+2c855f7 : hima-common: GestureHandler: Add haptic feedback option <Bruno Martins> 3 weeks ago
+2158f93 : hima-common: GestureHandler: Commonize strings translations <Bruno Martins> 9 days ago
+d9a38cc : hima-common: GestureHandler: Slot into Gestures <Bruno Martins> 3 weeks ago
+ 
+**** cm:LineageOS/android_device_htc_m8-common ****
+19727bc : m8-common: Import device-specific overlays from msm8974-common <Bruno Martins> 30 hours ago
+ 
+**** cm:LineageOS/android_device_htc_msm8974-common ****
+66576f0 : msm8974-common: Decommonize device-specific overlays <Bruno Martins> 30 hours ago
+85b9005 : msm8974-common: rootdir: Remove deprecated and unused USB configs <Bruno Martins> 29 hours ago
+17f5e2f : msm8974-common: Show proper HTC device model when plugged into the PC <Fagyi> 7 months ago
+8889760 : msm8974-common: Remove fm_dl service <Matt Mower> 8 months ago
+c34805d : msm8974-common: rootdir: Clean up fstab <Bruno Martins> 3 days ago
+ 
+**** cm:LineageOS/android_device_lge_h872 ****
+19cea0c : h872: Move bluetooth to msm8996-common <Rashed Abdel-Tawab> 4 weeks ago
+ 
+**** cm:LineageOS/android_device_lge_mako ****
+22b4ddc : thermald.conf: set GPU thottling more gentle. <Randy McCaskill> 2 days ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+2b0b6b7 : op3: Update to OB23 / OB14 blobs <dianlujitao> 3 days ago
+a7c91cc : op3: Advertize high-speed recording profiles <blunden> 6 days ago
+ 
+**** vanir:device_sony_fusion3-common ****
+9d211b6 : audio: enable QCOM's HW AAC encoder <Mingming Yin> 4 years, 2 months ago
+5bbb6f9 : fusion3: init: Remove missing fast-dormancy service <CaHbKaUp> 3 weeks ago
+30ff93a : fusion3: init: Update init.qcom file <Chippa-a> 13 days ago
+6bd1206 : fusion3: init: Update init.qcom.power file <Chippa-a> 13 days ago
+98bbcf8 : fusion3: init: Unite init.sony with init.qcom <Chippa-a> 2 weeks ago
+5cae41a : fusion3: init: Remove unnecessary permission for kgsl-3d0 <Chippa-a> 2 weeks ago
+bddb6a2 : fusion3: init: Move adaptive LMK to init.qcom.power <Chippa-a> 2 weeks ago
+ 
+**** vanir:device_xiaomi_armani ****
+1815c7a : armani: Grant rmt_storage proper unix perms <Bruno Martins> 11 days ago
+09d876f : armani: Remove DAC override permission from netmgrd <Bruno Martins> 3 months ago
+22704cd : Grant netmgrd proper unix perms <Jeff Vander Stoep> 1 year, 4 months ago
+ 
+**** vanir:frameworks_base ****
+aecb6e8 : MobileImsImageView: Set on inflate. Nulled on detach. Explodes on re-attach. <nuclearmistake> 2 days ago
+ 
+**** cm:LineageOS/android_hardware_qcom_display ****
+dfb291d : libmemtrack: Fix fd leak in kgsl function <Archana Sriram> 2 weeks ago
+ 
+**** cm:LineageOS/android_hardware_qcom_media ****
+0ac114a : mm-video-v4l2: venc: Advertise correct output-size for meta-mode <Praveen Chavan> 6 months ago
+1eab97d : mm-video-v4l2: Fix input buffer release in deinit <Surajit Podder> 5 weeks ago
+45c9e3b : mm-video-v4l2: Use correct buffer header while freeing buffers <Vasantha Balla> 6 weeks ago
+ 
+**** cmold:android_kernel_htc_msm8952 ****
+0fee31c : msm: vidc: Allocate memory dynamically for debugfs info_reads <Abdulla Anam> 4 months ago
+79dc461 : msm: vidc: Copy user buffers to kernel memory before access <Surajit Podder> 3 months ago
+95c9ca0 : msm-vidc: Allocate bus vote data during initialization <Vasantha Balla> 6 months ago
+c59e384 : msm: vidc: Protect debug_buffer access in core_info_read with lock. <Abdulla Anam> 6 months ago
+5af4403 : msm: vidc: Allow clients to suggest I-frame sizes <Deepak Kushwah> 11 months ago
+79843106 : msm: vidc: Check video buffer handle for Null pointer access. <Vasantha Balla> 10 months ago
+4bcd6c6 : msm: camera: Make camera_v2_m the default camera implementation <Ethan Chen> 10 days ago
+1b9bdca : qseecom: Undo HTC change to ICE FDE key ID <Ethan Chen> 2 weeks ago
+a256f4c : qseecom: New command IDs for FSM IKE and LTEOTA <Kranthikumar Kurapati> 3 years, 3 months ago
+c0492eb : hiae: disable CONFIG_PFT as it is unsupported <Yueyao (Nathan) Zhu> 1 year, 4 months ago
+baba3b4 : hiae: Disable HTC debugging code <Ethan Chen> 1 year, 1 month ago
+043e719 : hiae: Disable HTC garbage filter <Ethan Chen> 1 year, 1 month ago
+33749be : hiae: Disable HTC pnpmgr <Ethan Chen> 1 year, 1 month ago
+ae82e57 : cfq-iosched: Fix compilation if HTC_PNPMGR is disabled <Ethan Chen> 2 weeks ago
+3987ca0 : msm: qpnp-power-on: Fix compilation if HTC_DEBUG_POWER is disabled <Ethan Chen> 2 weeks ago
+7f9c9e3 : lpm_levels: Fix compilation if HTC_DEBUG_POWER is disabled <Ethan Chen> 2 weeks ago
+2aa769a : irq: Fix compilation if HTC_DEBUG_RTB is disabled <Ethan Chen> 1 year, 8 months ago
+0cec0fd : htc_debug: Fix CONFIG_HTC_DEBUG build dependencies <Ethan Chen> 1 year, 8 months ago
+1ea1b5a : net: ipc_router: Fix compilation if HTC_DEBUG is disabled <Ethan Chen> 2 weeks ago
+937a1c3 : fs: Fix compilation if HTC_DEBUG is disabled <Ethan Chen> 1 year, 8 months ago
+2e8a4c7 : rtnetlink: Fix compilation when HTC_NET_DEBUG is disabled <Ethan Chen> 2 weeks ago
+23bd9ad : net: Fix compilation if HTC_NET_DEBUG is disabled <Ethan Chen> 1 year, 1 month ago
+6e5e67f : net: HTC: Fix compilation if HTC_NET_DEBUG is disabled <Ethan Chen> 1 year, 1 month ago
+6fcda86 : soc: qcom: watchdog_v2: Fix pointer passed to PM functions <Ethan Chen> 1 year, 8 months ago
+76c4bd7 : hiae: Update defconfig <Ethan Chen> 1 year, 1 month ago
+a3a8ba1 : pft: move d_rcu from overlapping d_child to overlapping d_alias <Ethan Chen> 1 year, 1 month ago
+eb69758 : input: synaptics_dsx_htc: Allow touchscreen use in recovery <Ethan Chen> 1 year, 8 months ago
+e630c2d : kernel: Fix potential refcount leak in su check <Tom Marshall> 4 months ago
+359ff8d : kernel: Only expose su when daemon is running <Tom Marshall> 8 months ago
+a6171e4 : video: mdss: LiveDisplay driver <Steve Kondik> 2 years, 2 months ago
+78dec46 : hall_sensor: Report expected SW_LID keycode <Paul Keith> 8 months ago
+654d0e1 : mmc: core: Revert HTC host detect_wake_lock use <Ethan Chen> 4 months ago
+d26224a : hiae: Enable PRONTO_WLAN <Ethan Chen> 1 year, 1 month ago
+796edf3 : wlan: Remove WLAN_FEATURE_HOLD_RX_WAKELOCK feature <Rajeev Kumar> 1 year, 10 months ago
+da394d5 : prima: Update QC prima wireless driver <Ethan Chen> 11 months ago
+c0ddaa9 : prima: Import QC prima wireless driver <Ethan Chen> 1 year, 8 months ago
+af4f0a2 : hiae: Default to noop scheduler <Ethan Chen> 1 year, 1 month ago
+57da368 : hiae: Enable BFQ scheduler <Ethan Chen> 1 year, 1 month ago
+bb566bf : block, bfq: add Early Queue Merge (EQM) to BFQ-v7r8 for 3.10.8+ <Mauro Andreolini> 2 years, 3 months ago
+768057b : block: introduce the BFQ-v7r8 I/O sched for 3.10.8+ <Paolo Valente> 4 years, 4 months ago
+7ee934f : block: cgroups, kconfig, build bits for BFQ-v7r8-3.10.8+ <Arianna Avanzini> 3 years, 7 months ago
+fb18a15 : hiae: Build core_ctl module into kernel <Ethan Chen> 11 months ago
+c64f3b4 : hiae: Enable core control module <Ethan Chen> 1 year, 1 month ago
+1dd4869 : core_ctl: Manage number of online cores based on system load <Pavankumar Kondeti> 1 year, 3 months ago
+0b6a092 : hiae: Build modules as built-ins, disable unused modules <Ethan Chen> 2 weeks ago
+cf58a6e : hiae: Minimize defconfig <Ethan Chen> 2 weeks ago
+710cc2d : hiae: Import initial defconfig <Ethan Chen> 2 weeks ago
+7687409 : Revert HTC comment changes <Ethan Chen> 6 weeks ago
+4eb16be : misc: Import HTC hiaeul kernel source code <Ethan Chen> 6 weeks ago
+9ea3e19 : Revert "Revert "ARM: dts: msm: update memory map for msm8976/8956/8952 for External release"" <Bharat Pawar> 1 year ago
+ 
+**** cmold:android_kernel_htc_msm8974 ****
+e151791 : ANDROID: sdcardfs: Add missing break <Daniel Rosenberg> 14 hours ago
+a903eb2 : ANDROID: Sdcardfs: Move gid derivation under flag <Daniel Rosenberg> 7 weeks ago
+edeafe3 : ANDROID: mnt: Fix freeing of mount data <Daniel Rosenberg> 3 days ago
+e43bec8 : usb: gadget: Expose back all device attributes <Bruno Martins> 2 days ago
+def8212 : radio-iris: Fix broken hci_smd init <Bruno Martins> 3 days ago
+ 
+**** cmold:android_kernel_huawei_kiwi ****
+fd55674 : ASoC: msm: remove unused msm-compr-q6-v2 <Xiaojun Sang> 5 months ago
+27a4094 : ipx: call ipxitf_put() in ioctl error path <Dan Carpenter> 4 months ago
+8c9ccff : ion: Fix unprotected userspace access <Se Wang (Patrick) Oh> 2 years, 2 months ago
+1faf65c : mm: Fix incorrect type conversion for size during dma allocation <Maggie White> 9 weeks ago
+4be8c00 : BACKPORT: f2fs: sanity check checkpoint segno and blkoff <Jin Qian> 4 months ago
+5500f9a : UPSTREAM: f2fs: sanity check segment count <Jin Qian> 5 months ago
+e0ca1dc : qcacld-2.0: Trim extn capability to max supported in change station <Srinivas Girigowda> 4 months ago
+e6d8de4 : msm: gud: Remove gud driver <Maggie White> 3 months ago
+ 
+**** cmold:android_kernel_lge_hammerhead ****
+50b3ffc : mm: migrate dirty page without clear_page_dirty_for_io etc <Hugh Dickins> 1 year, 2 months ago
+dcac1f3 : ALSA: usb-audio: avoid freeing umidi object twice <Andrey Konovalov> 1 year, 7 months ago
+1a62ac0 : slim-msm: Synchronize SSR callbacks <Dilip Kota> 1 year, 6 months ago
+ 
+**** cmold:lge-kernel-mako ****
+17f520e : msm: camera: Allow driver file to be opend only once. <Trishansh Bhardwaj> 5 months ago
+2bfa59e : wcnss: fix the potential memory leak and heap overflow <Sarada Prasanna Garnayak> 5 months ago
+4597ba7 : ASoC: msm: qdsp6v2: extend validation of virtual address <Siena Richard> 8 months ago
+615a0e8 : mm: Fix incorrect type conversion for size during dma allocation <Maggie White> 9 weeks ago
+fd6890b : ASoC: msm: qdsp6v2: check audio client pointer before accessing <Aravind Kumar> 2 years, 4 months ago
+338a5ce : ASoC: msm: qdsp6v2: validate audio client in callback <Fred Oh> 2 years, 5 months ago
+996942e : ipx: call ipxitf_put() in ioctl error path <Dan Carpenter> 4 months ago
+b94e82c : Prevent heap overflow in uvc driver <Robb Glasser> 7 months ago
+f100025 : wcnss: Avoid user buffer overloading for write cal data <Anand Kumar> 1 year, 3 months ago
+b31a1a8 : Squashed updated of wcnss from LA.AF.1.2.1_rb1.26 <Randy McCaskill> 3 days ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+2b31ca4 : Revert "net: wireless: bcmdhd: adding boundary check in wl_cfg80211_mgmt_tx" <Arnau> 4 days ago
+ 
+**** cmold:android_kernel_lge_msm8996 ****
+b745b8e : h872: Initial defconfig and DT fixes <Rashed Abdel-Tawab> 10 hours ago
+ 
+**** cmold:android_kernel_motorola_msm8610 ****
+da3cc7c : packet: fix tp_reserve race in packet_set_ring <Willem de Bruijn> 4 weeks ago
+1b0c8e7 : ipv6: avoid overflow of offset in ip6_find_1stfragopt <Sabrina Dubroca> 7 weeks ago
+8740fee : tcp: fix wraparound issue in tcp_lp <Eric Dumazet> 4 months ago
+8faf6042 : ipv6: Need to export ipv6_push_frag_opts for tunneling now. <David S. Miller> 4 months ago
+f536469 : ip6_tunnel: Fix missing tunnel encapsulation limit option <Craig Gallek> 5 months ago
+574e68c : ptrace: fix PTRACE_LISTEN race corrupting task->state <bsegall@google.com> 5 months ago
+d9519f7 : af_key: Add lock to key dump <Yuejie Shi> 5 months ago
+8376677 : net: unix: properly re-increment inflight counter of GC discarded candidates <Andrey Ulanov> 6 months ago
+fcd9abb : perf/core: Fix event inheritance on fork() <Peter Zijlstra> 6 months ago
+de51b0d : futex: Add missing error handling to FUTEX_REQUEUE_PI <Peter Zijlstra> 6 months ago
+13e9f30 : futex: Fix potential use-after-free in FUTEX_REQUEUE_PI <Peter Zijlstra> 6 months ago
+5fcb925 : futex: Drop refcount if requeue_pi() acquired the rtmutex <Thomas Gleixner> 1 year, 9 months ago
+dcf4d12 : Prevent heap overflow in uvc driver <Robb Glasser> 7 months ago
+2c00d2a : Revert "tcp: do not lock listener to process SYN packets" <Wang Han> 3 weeks ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+992748c : FROMLIST: f2fs: introduce discard_granularity sysfs entry <Chao Yu> 5 weeks ago
+81b8e2d : FROMLIST: f2fs: use IPU for cold files <Jaegeuk Kim> 5 weeks ago
+cc41c1d : FROMLIST: f2fs: make background threads of f2fs being aware of freezing <Chao Yu> 7 weeks ago
+c45e7c7 : ARM: dts: 15801: Update panel sRGB & DCI-P3 cmd from Open Beta kernel <dianlujitao> 3 days ago
+ca8bbde : ARM: dts: 15801: Nuke redundant panel cmds <dianlujitao> 3 months ago
+ 
+**** cmold:android_kernel_oneplus_msm8998 ****
+0a5766a : Linux 4.4.58 <Greg Kroah-Hartman> 5 months ago
+f8a62db : crypto: algif_hash - avoid zero-sized array <Jiri Slaby> 9 months ago
+540d6d7 : fbcon: Fix vc attr at deinit <Takashi Iwai> 8 months ago
+ac60197 : serial: 8250_pci: Detach low-level driver during PCI error recovery <Sumit Semwal> 6 months ago
+b8687d8 : ACPI / blacklist: Make Dell Latitude 3350 ethernet work <Sumit Semwal> 6 months ago
+d3607fc : ACPI / blacklist: add _REV quirks for Dell Precision 5520 and 3520 <Sumit Semwal> 6 months ago
+4e2c66b : uvcvideo: uvc_scan_fallback() for webcams with broken chain <Sumit Semwal> 6 months ago
+ce54941 : s390/zcrypt: Introduce CEX6 toleration <Sumit Semwal> 6 months ago
+7023f50 : block: allow WRITE_SAME commands with the SG_IO ioctl <Sumit Semwal> 6 months ago
+9fd9e14 : vfio/spapr: Postpone allocation of userspace version of TCE table <Sumit Semwal> 6 months ago
+4110080 : PCI: Do any VF BAR updates before enabling the BARs <Sumit Semwal> 6 months ago
+bcbdcf48 : PCI: Ignore BAR updates on virtual functions <Sumit Semwal> 6 months ago
+d4f09ea : PCI: Update BARs using property bits appropriate for type <Sumit Semwal> 6 months ago
+131f796 : PCI: Don't update VF BARs while VF memory space is enabled <Sumit Semwal> 6 months ago
+40a85d6 : PCI: Decouple IORESOURCE_ROM_ENABLE and PCI_ROM_ADDRESS_ENABLE <Sumit Semwal> 6 months ago
+1278c9f : PCI: Add comments about ROM BAR updating <Sumit Semwal> 6 months ago
+cef498a : PCI: Remove pci_resource_bar() and pci_iov_resource_bar() <Sumit Semwal> 6 months ago
+a87693e : PCI: Separate VF BAR updates from standard BAR updates <Sumit Semwal> 6 months ago
+e4ce31c : x86/hyperv: Handle unknown NMIs on one CPU when unknown_nmi_panic <Sumit Semwal> 6 months ago
+ca7e3bd : igb: add i211 to i210 PHY workaround <Sumit Semwal> 6 months ago
+4db313d : igb: Workaround for igb i210 firmware issue <Sumit Semwal> 6 months ago
+ec52364 : xen: do not re-use pirq number cached in pci device msi msg data <Sumit Semwal> 6 months ago
+6d43e48 : xfs: clear _XBF_PAGES from buffers when readahead page <Darrick J. Wong> 8 months ago
+f154de0 : USB: usbtmc: add missing endpoint sanity check <Johan Hovold> 6 months ago
+74c8dd0 : nl80211: fix dumpit error path RTNL deadlocks <Johannes Berg> 6 months ago
+7922c1b : xfs: fix up xfs_swap_extent_forks inline extent handling <Eric Sandeen> 10 months ago
+c4cf86f : xfs: don't allow di_size with high bit set <Darrick J. Wong> 9 months ago
+48da8f8 : libceph: don't set weight to IN when OSD is destroyed <Ilya Dryomov> 6 months ago
+73dd1ed : raid10: increment write counter after bio is split <Tomasz Majchrzak> 1 year, 1 month ago
+1750396 : cpufreq: Restore policy min/max limits on CPU online <Viresh Kumar> 6 months ago
+e1af444 : ARM: dts: at91: sama5d2: add dma properties to UART nodes <Nicolas Ferre> 1 year, 7 months ago
+2705b18 : ARM: at91: pm: cpu_idle: switch DDR to power-down mode <Nicolas Ferre> 6 months ago
+55b6c18 : iommu/vt-d: Fix NULL pointer dereference in device_to_iommu <Koos Vriezen> 6 months ago
+c856b66 : xen/acpi: upload PM state from init-domain to Xen <Ankur Arora> 6 months ago
+52e40a2 : mmc: sdhci: Do not disable interrupts while waiting for clock <Adrian Hunter> 6 months ago
+27d9bf0 : ext4: mark inode dirty after converting inline directory <Eric Biggers> 6 months ago
+c7d1545 : parport: fix attempt to write duplicate procfiles <Sudip Mukherjee> 6 months ago
+7413d1f : iio: hid-sensor-trigger: Change get poll value function order to avoid sensor properties losing after resume from S3 <Song Hongyan> 7 months ago
+8f189e1 : iio: adc: ti_am335x_adc: fix fifo overrun recovery <Michael Engl> in the future
+dcf879c : mmc: ushc: fix NULL-deref at probe <Johan Hovold> 6 months ago
+2c251e5 : uwb: hwa-rc: fix NULL-deref at probe <Johan Hovold> 6 months ago
+815321d : uwb: i1480-dfu: fix NULL-deref at probe <Johan Hovold> 6 months ago
+14a2032 : usb: hub: Fix crash after failure to read BOS descriptor <Guenter Roeck> 6 months ago
+47285be : usb: musb: cppi41: don't check early-TX-interrupt for Isoch transfer <Bin Liu> 6 months ago
+a7cb1fa : USB: wusbcore: fix NULL-deref at probe <Johan Hovold> 6 months ago
+d6389d6 : USB: idmouse: fix NULL-deref at probe <Johan Hovold> 6 months ago
+a771286 : USB: lvtest: fix NULL-deref at probe <Johan Hovold> 6 months ago
+73490ab : USB: uss720: fix NULL-deref at probe <Johan Hovold> 6 months ago
+2c929ea : usb-core: Add LINEAR_FRAME_INTR_BINTERVAL USB quirk <Samuel Thibault> 6 months ago
+8a8a800 : usb: gadget: f_uvc: Fix SuperSpeed companion descriptor's wBytesPerInterval <Roger Quadros> 6 months ago
+ 
+**** commotio:commotio ****
+f786534 : Cheese <DHOMD> 4 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_google ****
+a6ca36f : dragon: update blobs to N2G48C <followmsi> 6 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+75327ea : op3: Update blobs from OB23 / OB14 <dianlujitao> 3 days ago
+ 
+**** vanir:vendor_vanir ****
+f2c5d4b : Cheeseburger <DHOMD> 4 days ago
+ 
