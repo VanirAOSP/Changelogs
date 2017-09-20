@@ -1,0 +1,226 @@
+
+**** vanir:build ****
+afa84cb : Build hacks <DHOMD> 11 months ago
+ 
+**** vanir:device_google_marlin ****
+4cee481 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 6 months ago
+f284e08 : Revert "marlin: disable our local telephony extensions" <DHOMD> 6 months ago
+ 
+**** vanir:device_htc_m8 ****
+3269c4d : m8: Update product properties according to stock <Bruno Martins> 2 days ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+116cf52 : Otus: Fix FM Radio <DHOMD> 8 months ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+bbccc87 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 10 months ago
+ 
+**** vanir:device_samsung_klte-common ****
+b7f109e : klte-common: init: Remove writes to non-existant cpufreq nodes <Kevin F. Haggerty> 4 days ago
+6daa361 : klte-common: Add bootdevice to kernel cmdline <Kevin F. Haggerty> 5 days ago
+ 
+**** cm:LineageOS/android_device_samsung_noblelte-common ****
+d37c575 : noblelte: Fix camera permsission <isimobile> 2 days ago
+ 
+**** vanir:external_skia ****
+c6e270a : Defend against ICOs with large BMPs embedded DO NOT MERGE <Leon Scroggins III> 4 months ago
+ 
+**** vanir:frameworks_av ****
+f80e21a : audioflinger: Use offloaded effects in case of PCM offload <Gabriele M> 4 months ago
+be42248 : MPEG4Source: fix fragmented read. <Wei Jia> 6 months ago
+ac561ef : stagefright: fix crash due to bad timestamp index <Chong Zhang> 2 months ago
+47f7228 : stagefright: check aac_frame_length to prevent infinite loop <Chong Zhang> 2 months ago
+708ca76 : MediaPlayerService: fix access of mPlayer in client <Wei Jia> 10 weeks ago
+20a8bdc : audio effects: filter reserved effect commands <Eric Laurent> 3 months ago
+1f8cd83 : MPEG4Extractor: ensure returned status is checked. <Wei Jia> 7 months ago
+09ebf66 : DO NOT MERGE Check frame handle validity before freeing buffer. <Ray Essick> 3 months ago
+ae74db2 : Change MPEG2 reinit Error Handling <Venkatarama Avadhani> 4 months ago
+6e05adf : Track: Check buffer size of static tracks <Andy Hung> 3 months ago
+e0b8295 : MPEG4Extractor: check size for yrrc box <Dongwon Kang> 3 months ago
+7a84ae8 : AudioFlinger: Fix memory allocation for client-less tracks <Andy Hung> 7 months ago
+b1c91bc : Notify Errors Appropriately from SoftMPEG2 <Venkatarama Avadhani> 5 months ago
+6dff427 : EffectBundle: Check value size for get preset name <Andy Hung> 4 months ago
+3fcd8ac : Fix TOCTOU problem in libstagefright_soft_aacenc <Ray Essick> 6 months ago
+ 
+**** vanir:frameworks_base ****
+8af183e : SystemServer: Don't start widget service when it is alarm boot <Mao Jinlong> 7 weeks ago
+0eb8797 : ActivityManager: Remove POWER_OFF_ALARM intent leftover <Michael Bestas> 12 days ago
+15360df : Always hide protected apps from the recent tasks list <Gabriele M> 9 weeks ago
+c7589f7 : Recents: Add accessibility descriptions for lock ImageViews <Harry Youd> 3 weeks ago
+b3ae346 : SystemUI: Add separate pref screen for the status bar tuner <Gabriele M> 3 days ago
+629bff9 : SystemUI: Revert some Tuner changes <Gabriele M> 3 days ago
+5a7a7e9 : Back-port fixes for b/62196835 <Phil Weaver> 10 weeks ago
+ 
+**** vanir:hardware_broadcom_wlan ****
+71b070f : net: wireless: bcmdhd: update bcm4354/4356 FW (7.35.101.8) <Insun Song> 3 months ago
+ 
+**** cm:LineageOS/android_hardware_qcom_media ****
+b28bc21 : BACKPORT: mm-video: venc: Protect buffer from being freed while accessing <Paras Nagda> 3 months ago
+f65fe19 : BACKPORT: mm-video: vdec: Avoid processing ETBs/FTBs in invalid states <Praveen Chavan> 1 year, 5 months ago
+ 
+**** vanir:hardware_samsung ****
+298215c : audio: Fix WBS sample rate usage <Martin Hoffmann> 8 weeks ago
+ 
+**** cm:LineageOS/android_hardware_samsung_slsi-cm_exynos ****
+38b2efb : libcsc: Always log the unsupported csc hw type <Christopher N. Hesse> 3 days ago
+ 
+**** vanir:kernel_google_marlin ****
+c5dc0ad : Bluetooth: Properly check L2CAP config option output buffer length <Ben Seri> 10 days ago
+ 
+**** cmold:android_kernel_google_msm ****
+fc2106f : Bluetooth: Properly check L2CAP config option output buffer length <Ben Seri> 10 days ago
+6140d5f : ashmem: remove cache maintenance support <Dennis Cagle> 5 months ago
+a03b968 : fs/exec: fix use after free in execve <Andrea Arcangeli> 8 weeks ago
+ 
+**** cmold:android_kernel_htc_flounder ****
+8bae891 : Bluetooth: Properly check L2CAP config option output buffer length <Ben Seri> 10 days ago
+ 
+**** cmold:android_kernel_htc_msm8974 ****
+a4a1761 : wcnss: fix the potential memory leak and heap overflow <Sarada Prasanna Garnayak> 5 months ago
+88fef62 : f_qc_rndis: Check config or cdev is NULL in before accessing <Mayank Rana> 3 years, 1 month ago
+8f61036 : IKHSS7-18791 msm:fix the list usage in msm_bus_dbg <lianwei.wang> 5 years ago
+4992c21 : ASoC: msm: remove unused msm-compr-q6-v2 <Xiaojun Sang> 5 months ago
+8927915 : ASoC: msm: qdsp6v2: extend validation of virtual address <Siena Richard> 8 months ago
+e5fdfe0 : Allow stack to grow up to address space limit <Helge Deller> 3 months ago
+4c15ebd : mm: larger stack guard gap, between vmas <Hugh Dickins> 3 months ago
+ 
+**** vanir:kernel_huawei_angler ****
+382d6e5 : Bluetooth: Properly check L2CAP config option output buffer length <Ben Seri> 10 days ago
+6245053 : Revert "BACKPORT: crypto: msm: Fix buffer overflow issue" <Siqi Lin> 9 weeks ago
+75c9fae : Revert "msm: sps: Fix race condition in SPS debugfs APIs" <Siqi Lin> 9 weeks ago
+995b1a9 : Revert "msm: camera: isp: Avoid information leak in ISPIF" <Siqi Lin> 9 weeks ago
+e975fb4 : Revert "msm: sensor: Validationg function pointers before using them" <Siqi Lin> 9 weeks ago
+e72bbd2 : Revert "msm: camera: validate num_streams in stream_cfg_cmd before using it" <Siqi Lin> 9 weeks ago
+09f4284 : Revert "dm ioctl: prevent stack leak in dm ioctl call" <Siqi Lin> 9 weeks ago
+6353f42 : Revert "BACKPORT: ALSA: timer: Fix race between read and ioctl" <Siqi Lin> 9 weeks ago
+1316fe8 : Revert "UPSTREAM: ALSA: timer: Fix missing queue indices reset at SNDRV_TIMER_IOCTL_SELECT" <Siqi Lin> 9 weeks ago
+4f864a5 : msm: camera: isp: fix for out of bound access array <Maggie White> 3 months ago
+b46b3d1 : ASoC: msm: remove unused msm-compr-q6-v2 <Xiaojun Sang> 5 months ago
+ddbd0ff : msm: camera: Allow driver file to be opend only once. <Trishansh Bhardwaj> 6 months ago
+df48ee2 : soc: qcom: msm_bus: add mutex lock for cllist data <Maria Yu> 5 months ago
+4ac61e3 : BACKPORT: ipv6/dccp: do not inherit ipv6_mc_list from parent <WANG Cong> 4 months ago
+c58c935 : UPSTREAM: ALSA: timer: Fix missing queue indices reset at SNDRV_TIMER_IOCTL_SELECT <Takashi Iwai> 4 months ago
+59a480f : BACKPORT: ALSA: timer: Fix race between read and ioctl <Takashi Iwai> 4 months ago
+25cce4e : BACKPORT: ext4: fix data exposure after a crash <Jan Kara> 1 year, 5 months ago
+1853870 : BACKPORT: dccp/tcp: do not inherit mc_list from parent <Eric Dumazet> 4 months ago
+694af1c : UPSTREAM: mm: fix new crash in unmapped_area_topdown() <Hugh Dickins> 3 months ago
+07cf73f : BACKPORT: mm: larger stack guard gap, between vmas <Hugh Dickins> 2 months ago
+80c3475 : msm: camera: isp: Handle array out of bounds <Dennis Cagle> 3 months ago
+5479a3c : mm: Fix incorrect type conversion for size during dma allocation <Maggie White> 3 months ago
+a8d5056 : ASoC: msm: qdsp6v2: extend validation of virtual address <Siena Richard> 8 months ago
+99bc435 : msm: sensor: Validationg function pointers before using them <VijayaKumar T M> 10 months ago
+b856d72 : UPSTREAM: tcp: avoid infinite loop in tcp_splice_read() <Eric Dumazet> 8 months ago
+453fafa : UPSTREAM: packet: fix races in fanout_add() <Eric Dumazet> 7 months ago
+5c98138 : BACKPORT: ip6_gre: fix ip6gre_err() invalid reads <Eric Dumazet> 8 months ago
+eef1c178 : UPSTREAM: mm/mempolicy.c: fix error handling in set_mempolicy and mbind. <Chris Salls> 6 months ago
+08ccf85 : net: wireless: bcmdhd: adding boundary check for pfn events <Insun Song> 4 months ago
+5816842 : net: wireless: bcmdhd: Remove "dhd_handle_swc_evt" from dhd. <Sudhir Kohalli> 3 months ago
+c3fab4b : BACKPORT: crypto: msm: Fix buffer overflow issue <Dennis Cagle> 3 months ago
+5575ff4 : net: wireless: bcmdhd: add boundary check in GSCAN full result handler <Sudhir Kohalli> 3 months ago
+68acc6a : net: wireless: bcmdhd: adding boudary check in wl_escan_handler <Insun Song> 4 months ago
+2935fde : net: wireless: bcmdhd: adding boundary check in wl_notify_rx_mgmt_frame <Insun Song> 4 months ago
+f35ce58 : net: wireless: bcmdhd: add boundary check in dhd_rtt_event_handler <Insun Song> 4 months ago
+5a6c624 : msm: camera: isp: Avoid information leak in ISPIF <Venu Yeshala> 4 months ago
+2ae1eab : msm: camera: fix untrusted pointer for power down setting <Haibin Liu> 4 months ago
+8fa7f49 : msm: ipa: fix security issues in ipa wan driver <Skylar Chang> 6 months ago
+61ff153 : msm:camera: correct stats query out of boundary <Fei Zhang> 4 months ago
+3631826 : msm: camera: validate num_streams in stream_cfg_cmd before using it <Gaoxiang Chen> 4 months ago
+2632947 : msm: camera: fix off-by-one overflow in msm_isp_get_bufq <Gaoxiang Chen> 4 months ago
+1da242a : Prevent potential double frees in sg driver <Robb Glasser> 6 months ago
+2c451e5 : dm ioctl: prevent stack leak in dm ioctl call <Adrian Salido> 5 months ago
+1a68951 : msm: camera: Fix Use after free bug in msm_vb2.c. <VijayaKumar T M> 3 months ago
+d965e96 : msm: camera: Use mutex lock to avoid race condition <VijayaKumar T M> 4 months ago
+dff6910 : msm: sps: Fix race condition in SPS debugfs APIs <Siva Kumar Akkireddi> 4 months ago
+230dc02 : msm: pcie: add bounds check for debugfs register write <Tony Truong> 9 months ago
+ 
+**** cmold:android_kernel_huawei_kiwi ****
+aee1c5c : Bluetooth: Properly check L2CAP config option output buffer length <Ben Seri> 10 days ago
+8cf026a : msm:camera: correct stats query out of boundary <Fei Zhang> 4 months ago
+d8ea809 : msm: mdss: fix race condition during mdp debugfs release <Harsh Sahu> 5 months ago
+7738cac : msm: mdss: fix race condition in mdp debugfs <Ingrid Gallardo> 7 months ago
+ee4d5a3 : msm-vidc: Allocate bus vote data during initialization <Vasantha Balla> 6 months ago
+96d493c : msm: camera: don't cut to 8bits for validating enum variable <Gaoxiang Chen> 6 months ago
+f43699a : msm: camera: isp: fix for out of bound access array <Maggie White> 3 months ago
+ 
+**** cmold:android_kernel_lge_bullhead ****
+da9fc8d : Bluetooth: Properly check L2CAP config option output buffer length <Ben Seri> 10 days ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+2caffda : Merge with Linux Kernel 3.4.20 <Arnau> 5 years ago
+d342e5b : Bluetooth: Properly check L2CAP config option output buffer length <Ben Seri> 10 days ago
+ 
+**** cmold:android_kernel_lge_msm8996 ****
+f97daa1 : v20: Fix headphone insertion <Eric Meddaugh> 34 hours ago
+d5ea55f : v20: fix touchscreen <Null> 5 days ago
+9c858f1 : v20: Fix 50% battery defconfig <Eric Meddaugh> 4 days ago
+ 
+**** vanir:kernel_moto_shamu ****
+70f3bd9 : Bluetooth: Properly check L2CAP config option output buffer length <Ben Seri> 10 days ago
+ 
+**** cmold:android_kernel_motorola_msm8226 ****
+0c64805 : prima: Fix build when debugging is enabled <Gabriele M> 31 hours ago
+d7c7bfc : defconfig: moto8226: Enable Stack Protector (strong) <Gabriele M> 4 days ago
+5a07694 : Makefile: fix build with make 3.80 again <Jan Beulich> 3 years, 7 months ago
+2f669e2 : Makefile: fix extra parenthesis typo when CC_STACKPROTECTOR_REGULAR is enabled <Fathi Boudra> 3 years, 7 months ago
+04e835d : stackprotector: Introduce CONFIG_CC_STACKPROTECTOR_STRONG <Kees Cook> 3 years, 9 months ago
+c364ce0 : stackprotector: Unify the HAVE_CC_STACKPROTECTOR logic between architectures <Kees Cook> 3 years, 9 months ago
+67b562d : Bluetooth: Properly check L2CAP config option output buffer length <Ben Seri> 10 days ago
+ 
+**** vanir:platform_manifest ****
+9966aef : Fix last commit <DHOMD> 3 days ago
+530a5bc :  manifest: switch to our forks of several repos <DHOMD> 3 days ago
+b91aa0d :  cm: Use msm8996 HALs for 8953 & 8937 <DHOMD> 3 days ago
+ 
+**** cm:LineageOS/android_packages_apps_AudioFX ****
+3f7743b : AudioFX: use vector drawables <Joey Rizzoli> 6 days ago
+b94e30b : AudioFX: set theme accent to white <Joey Rizzoli> 6 days ago
+00d3381 : AudioFX: match control switches color with fragment background <Joey Rizzoli> 7 days ago
+f5d78ad : AudioFX: Add Reverb toggle <Paul Keith> 9 days ago
+9fe5a3a : AudioFX: Use default material toggle <Paul Keith> 8 days ago
+9662067 : AudioFX: Apply effects independently of the output flags <Gabriele M> 10 days ago
+ 
+**** vanir:packages_apps_CMParts ****
+0f8007e : CMParts: Update intent to start the status bar preferences <Gabriele M> 3 days ago
+ 
+**** vanir:packages_apps_DeskClock ****
+6c3941b : DeskClock: Remove POWER_OFF_ALARM intent leftovers <Michael Bestas> 12 days ago
+ 
+**** vanir:packages_apps_Messaging ****
+87f81d9 : 37742976 - Catch bad gifs <Tom Taylor> 3 months ago
+ 
+**** vanir:packages_apps_Nfc ****
+f20aedf : Add READ_EXTERNAL_STORAGE for file based Uri while beaming. <Ruchi Kandoi> 4 months ago
+ 
+**** vanir:packages_apps_Settings ****
+a747d96 : AppOpsState: Hide undeclared Privacy Guard OPs <Gabriele M> 3 weeks ago
+6661727 : Back-port ag/2491664 <Phil Weaver> 10 weeks ago
+ 
+**** vanir:system_bt ****
+215d434 : Add missing extension length check while parsing BNEP control packets <Pavlin Radoslavov> 9 weeks ago
+a61aaf1 : Free p_pending_data from tBNEP_CONN to avoid potential memory leaks <Pavlin Radoslavov> 9 weeks ago
+922d50b : Add a missing check for PAN buffer size before copying data <Pavlin Radoslavov> 10 weeks ago
+c6f7f86 : Add missing packet length checks while parsing BNEP control packets <Pavlin Radoslavov> 10 weeks ago
+7e30b79 : Add missing continuation offset check for SDP continuation requests <Pavlin Radoslavov> 10 weeks ago
+0700e5b : Disable PAN Reverse Tethering when connection originated by the Remote <Pavlin Radoslavov> 10 weeks ago
+8825957 : Allocate buffers of the right size when BT_HDR is included <Pavlin Radoslavov> 3 months ago
+ 
+**** vanir:vendor_cmsdk ****
+613f209 : cmsdk: Run in core apps only for poweroff alarm boot <LuK1337> 3 months ago
+8f3b971 : Make CMParts a protected component manager <Gabriele M> 3 months ago
+3d3d2e9 : cmsdk: Don't change ring volume or mode if DND is enabled <Gabriele M> 3 days ago
+ 
+**** vanir:vendor_htc ****
+e4e68b3 : flounder: update blobs from N9F27L factory image <razorloves> 5 days ago
+dea7ef8 : hiae: Enable camera to load libhtc_facebeauty from LD_PATH <Ethan Chen> 3 weeks ago
+aba1338 : hiae: Disable face detection <Ethan Chen> 3 weeks ago
+983ff3f : hiae: Update proprietary libraries <Ethan Chen> 3 weeks ago
+ 
+**** vanir:vendor_motorola ****
+27dda28 : shamu: update blobs from NGI55D factory image <razorloves> 5 days ago
+4250ea4 : msm8916-common: Remove unused L1 widevine blobs <Alberto97> 9 days ago
+56634bf : msm8916-common: Remove debugging tools <Alberto97> 9 days ago
+b4d1f8b : msm8916: Regenerate Makefiles <Alberto97> 9 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+b0025c6 : Add a barrier for Marlin/Sailfish <DHOMD> 6 months ago
+ 
