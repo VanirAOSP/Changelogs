@@ -1,0 +1,349 @@
+
+**** vanir:build ****
+16d7ef5 : Build hacks <DHOMD> 12 months ago
+5f04d9d : Fix warning with AAPT2 and LOCAL_STATIC_ANDROID_LIBRARIES <Colin Cross> 10 months ago
+ 
+**** cm:LineageOS/android_device_cyanogen_msm8916-common ****
+61cd731 : init: Check if power off alarm is set <Michael Bestas> 3 weeks ago
+629382e : init: Use core init function to read from files <Bruno Martins> 2 weeks ago
+51bfcf8 : msm8916: Remove obsolete sepolicy rules <Michael Bestas> 7 weeks ago
+c58ce28 : msm8916-common: Grant rmt_storage proper unix perms <Bruno Martins> 3 months ago
+da42497 : msm8916: Grant netmgrd proper unix perms <Jeff Vander Stoep> 1 year, 4 months ago
+98023dc : msm8916: Update ril-daemon service <Bruno Martins> 10 months ago
+7635f16 : msm8916: Import init.recovery.twrp.rc in power scripts <Michael Bestas> 7 weeks ago
+ 
+**** vanir:device_google_marlin ****
+d1dcb03 : Add a proper barrier and use vendor/caf/telephony <DHOMD> 7 months ago
+cf90ab8 : Revert "marlin: disable our local telephony extensions" <DHOMD> 7 months ago
+ 
+**** cm:LineageOS/android_device_htc_hiae-common ****
+5acf97f : hiae: Add xtwifi.conf <Ethan Chen> 3 days ago
+ 
+**** cm:LineageOS/android_device_htc_hiaeuhl ****
+3b2e212 : hiaeuhl: Add all GPS libs <Ethan Chen> 3 days ago
+ecd7eb7 : hiaeuhl: Remove 32-bit GPS libraries <Ethan Chen> 3 days ago
+ 
+**** cm:LineageOS/android_device_htc_hiaeul ****
+9e414b5 : hiaeul: Add all GPS libs <Ethan Chen> 3 days ago
+8ba5f0e : hiaeul: Remove 32-bit GPS libraries <Ethan Chen> 3 days ago
+ 
+**** vanir:device_htc_m7-common ****
+530db5d : m7-common: Add KeyDisabler class <Mikhail Chowdhury> 2 months ago
+ 
+**** vanir:device_htc_m8 ****
+6b579dc : m8: Commonize all the things!!! <Bruno Martins> 5 days ago
+ 
+**** cm:LineageOS/android_device_htc_m8-common ****
+963815d : m8-common: Leave Keymaster firmware in the default location <Bruno Martins> 3 days ago
+af0d11e : m8-common: Build DRM ClearKey plugin from sources <Bruno Martins> 3 days ago
+471c9e9 : m8-common: Identify the origin of all blobs <Bruno Martins> 5 days ago
+3e8ec42 : m8-common: Remove unused blobs <Bruno Martins> 5 days ago
+e80c52c : m8-common: Commonize all the things!!! <Bruno Martins> 5 days ago
+ 
+**** vanir:device_moto_shamu ****
+9bca8ad : shamu: enable burnIn protection support <Joey Rizzoli> 3 weeks ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+421e1cb : Otus: Fix FM Radio <DHOMD> 8 months ago
+ 
+**** cm:LineageOS/android_device_oneplus_cheeseburger ****
+6ed3c76 : cheeseburger: enable burnIn protection support <Joey Rizzoli> 3 weeks ago
+ 
+**** cm:LineageOS/android_device_oneplus_oneplus3 ****
+81f2976 : op3: Update blobs from OB24 / OB15 <dianlujitao> 2 days ago
+1c89272 : op3: Update file extractors to match new template <dianlujitao> 2 days ago
+ 
+**** vanir:device_oppo_common ****
+605f192 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+e79e2a5 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 10 months ago
+ 
+**** vanir:device_samsung_klte-common ****
+9b03812 : klte-common: enable burnIn protection support <Joey Rizzoli> 3 weeks ago
+ 
+**** vanir:frameworks_base ****
+f9abd3b : Revert "System Profiles in QS Tiles" <DHOMD> 12 minutes ago
+9c27190 : SystemUI: locked tasks should have a valid view <thecrazyskull> 2 weeks ago
+df71882 : System Profiles in QS Tiles <Roman Birg> 2 years, 8 months ago
+e22626c : [1/3] SystemUI: add burnIn protection setting <Park Ju Hyung> 8 months ago
+1e27dad : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** cm:LineageOS/android_hardware_cyanogen ****
+da0e259 : livedisplay: Add msm8998 and sdm660 as SDM targets <dianlujitao> 4 days ago
+ 
+**** cm:LineageOS/android_hardware_qcom_fm ****
+5b7319b : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** cmold:android_kernel_cyanogen_msm8916 ****
+e6c766d : Fix "BACKPORT: ARM: wire up getrandom syscall" <Michael Bestas> 3 days ago
+0a8dbf3 : config: rendang: gud: Remove gud driver <Dennis Cagle> 6 weeks ago
+0d074bc : Revert "ALSA: timer: fix NULL pointer dereference in read()/ioctl() race" <Wang Han> 5 days ago
+505fe65 : BACKPORT: ALSA: timer: Fix race between read and ioctl <Takashi Iwai> 4 months ago
+dcbcb5c : UPSTREAM: ALSA: timer: Fix missing queue indices reset at SNDRV_TIMER_IOCTL_SELECT <Takashi Iwai> 4 months ago
+39eb500 : Prevent potential double frees in sg driver <Robb Glasser> 6 months ago
+1a0c214 : sg: O_EXCL and other lock handling <Douglas Gilbert> 3 years, 3 months ago
+26693b7 : ipx: call ipxitf_put() in ioctl error path <Dan Carpenter> 5 months ago
+eef1f3d : msm: ipa: fix security issues in ipa wan driver <Skylar Chang> 6 months ago
+8692380 : Bluetooth: Properly check L2CAP config option output buffer length <Ben Seri> 2 weeks ago
+7c66c14 : ANDROID: mnt: Fix next_descendent <Daniel Rosenberg> 4 months ago
+7f9c3de : ANDROID: sdcardfs: override credential for ioctl to lower fs <Jaegeuk Kim> 3 months ago
+abf94e6 : f2fs: avoid cpu lockup <Jaegeuk Kim> 2 months ago
+ee0ab9a : f2fs: include seq_file.h for sysfs.c <Jaegeuk Kim> 2 months ago
+ec32a11 : f2fs: Don't clear SGID when inheriting ACLs <Jaegeuk Kim> 2 months ago
+e5d77ac : f2fs: remove extra inode_unlock() in error path <Luis Henriques> 2 months ago
+da3eb81 : fscrypt: add support for AES-128-CBC <Daniel Walter> 3 months ago
+70f5b1b : fscrypt: inline fscrypt_free_filename() <Eric Biggers> 4 months ago
+056765b : f2fs: make more close to v4.13-rc1 <Jaegeuk Kim> 3 months ago
+8418178 : f2fs: support plain user/group quota <Chao Yu> 3 months ago
+8bd9a2d : f2fs: avoid deadlock caused by lock order of page and lock_op <Jaegeuk Kim> 3 months ago
+0aa8673 : f2fs: use spin_{,un}lock_irq{save,restore} <Chao Yu> 3 months ago
+0551cfd : f2fs: relax migratepage for atomic written page <Jaegeuk Kim> 3 months ago
+c49448d : f2fs: don't count inode block in in-memory inode.i_blocks <Chao Yu> 3 months ago
+1df638f : Revert "f2fs: fix to clean previous mount option when remount_fs" <Chao Yu> 3 months ago
+14fe9b0 : f2fs: do not set LOST_PINO for renamed dir <Sheng Yong> 3 months ago
+d951ac2 : f2fs: do not set LOST_PINO for newly created dir <Sheng Yong> 3 months ago
+74c8fce : f2fs: skip ->writepages for {mete,node}_inode during recovery <Chao Yu> 3 months ago
+5f86361 : f2fs: introduce __check_sit_bitmap <Chao Yu> 3 months ago
+3b6dfe2 : f2fs: stop gc/discard thread in prior during umount <Chao Yu> 3 months ago
+1ff83fb : f2fs: introduce reserved_blocks in sysfs <Chao Yu> 3 months ago
+f261020 : f2fs: avoid redundant f2fs_flush after remount <Yunlong Song> 3 months ago
+a9e7cde : f2fs: report # of free inodes more precisely <Jaegeuk Kim> 3 months ago
+2c7032c : f2fs: add ioctl to do gc with target block address <Jaegeuk Kim> 3 months ago
+06fe408 : f2fs: don't need to check encrypted inode for partial truncation <Jaegeuk Kim> 3 months ago
+493521c : f2fs: measure inode.i_blocks as generic filesystem <Chao Yu> 3 months ago
+8469356 : f2fs: set CP_TRIMMED_FLAG correctly <Chao Yu> 3 months ago
+827a640 : f2fs: require key for truncate(2) of encrypted file <Eric Biggers> 3 months ago
+e37d860 : f2fs: move sysfs code from super.c to fs/f2fs/sysfs.c <Chao Yu> 3 months ago
+a9f1a1d : f2fs: clean up sysfs codes <Chao Yu> 3 months ago
+220446c : f2fs: fix wrong error number of fill_super <Chao Yu> 3 months ago
+76e4957 : f2fs: fix to show injection rate in ->show_options <Chao Yu> 3 months ago
+ebc746d : f2fs: Fix a return value in case of error in 'f2fs_fill_super' <Christophe JAILLET> 4 months ago
+1b09971 : f2fs: use proper variable name <Tiezhu Yang> 4 months ago
+514a531 : f2fs: fix to avoid panic when encountering corrupt node <Chao Yu> 4 months ago
+1c79ae1 : f2fs: don't track newly allocated nat entry in list <Chao Yu> 4 months ago
+9315d82 : f2fs: add f2fs_bug_on in __remove_discard_cmd <Chao Yu> 4 months ago
+a21b825 : f2fs: introduce __wait_one_discard_bio <Chao Yu> 4 months ago
+4d4dd7d : f2fs: dax: fix races between page faults and truncating pages <Qiuyang Sun> 4 months ago
+6907336 : f2fs: simplify the way of calulating next nat address <Fan Li> 4 months ago
+ 
+**** cmold:android_kernel_htc_msm8960 ****
+ba6725f : ARM: perf: reject groups spanning multiple hardware PMUs <Suzuki K. Poulose> 2 years, 6 months ago
+503ab10 : fs/exec: fix use after free in execve <Andrea Arcangeli> 9 weeks ago
+18b2a64 : ashmem: remove cache maintenance support <Dennis Cagle> 5 months ago
+1ab7be2 : media: Revert "Init the reserved fields of struct media_link_desc" <Adrian DC> 3 months ago
+69e5bac : mmc: core : fix arbitrary read/write to user space <Raviv Shvili> 1 year, 4 months ago
+ed56a98 : qseecom: Add checks for API called in IOCTL <Mona Hossain> 4 years ago
+e358a79 : unix: correctly track in-flight fds in sending process user_struct <Hannes Frederic Sowa> 1 year, 8 months ago
+9a6d1ae : net/packet: fix overflow in check for tp_reserve <Andrey Konovalov> 6 months ago
+7d155ad : net/packet: fix overflow in check for tp_frame_nr <Andrey Konovalov> 6 months ago
+8601a5f : ipv4: keep skb->dst around in presence of IP options <Eric Dumazet> 8 months ago
+9f4b6c9 : selinux: fix off-by-one in setprocattr <Stephen Smalley> 8 months ago
+26babde : Revert "proc: smaps: Allow smaps access for CAP_SYS_RESOURCE" <Nick Desaulniers> 5 months ago
+5585a0a : net: wireless: bcmdhd: adding boundary check in wl_cfg80211_mgmt_tx <Insun Song> 5 months ago
+8d31aa9 : net: wireless: bcmdhd: fix for IOVAR GET failed <Insun Song> 6 months ago
+e1efd7a : net: wireless: bcmdhd: fix use-after-free in _dhd_pno_get_for_batch() <Greg Hackmann> 10 months ago
+b325002 : fs: fuse: Add replacment for CMA pages into the LRU cache <Laura Abbott> 3 years, 9 months ago
+f8aab69 : net: add additional args validation in ping_common_sendmsg() <Ravi Kumar Siddojigari> 10 months ago
+f2e5e12 : proc: prevent accessing /proc/<PID>/environ until it's ready <Mathias Krause> 1 year, 5 months ago
+679a2fe : arm: oabi compat: add missing access checks <Dave Weinstein> 1 year, 2 months ago
+dc82af7 : ALSA: seq: Fix race at creating a queue <Takashi Iwai> 8 months ago
+ 
+**** cmold:android_kernel_lge_msm8996 ****
+b069036 : Bluetooth: Properly check L2CAP config option output buffer length <Ben Seri> 2 weeks ago
+ 
+**** cmold:android_kernel_oneplus_msm8996 ****
+0036392 : ARM: dts: 15801: Attach sRGB off cmd to dsi on cmd <dianlujitao> 11 hours ago
+b504f72 : mdss: livedisplay: Don't send sRGB/DCI-P3 off cmd when dsi on <dianlujitao> 12 hours ago
+d59ae90 : Prevent potential double frees in sg driver <Robb Glasser> 6 months ago
+3505db7 : driver core: platform: fix race condition with driver_override <Adrian Salido> 5 months ago
+e24eb35 : ipx: call ipxitf_put() in ioctl error path <Dan Carpenter> 5 months ago
+3e4c954 : ANDROID: sdcardfs: Add missing break <Daniel Rosenberg> 2 weeks ago
+68e8b2b : ANDROID: Sdcardfs: Move gid derivation under flag <Daniel Rosenberg> 9 weeks ago
+29eb328 : ANDROID: mnt: Fix freeing of mount data <Daniel Rosenberg> 2 weeks ago
+dfa3c86 : drivers: staging: Update qcacld-2.0 driver <Luca Stefani> 5 days ago
+df473c4 : ARM: dts: 15801: Switch back to old sRGB cmds <dianlujitao> 3 days ago
+e7d8f89 : Bluetooth: Properly check L2CAP config option output buffer length <Ben Seri> 2 weeks ago
+bf01854 : ASoC: msm: qdspv2: initialize struct member before being used <yidongh> 6 weeks ago
+41e4f88 : msm: ipa3: Fix IPA aggregation force close call <Ghanim Fodi> 7 weeks ago
+993865b : tracing : fix race condition reading saved tgids <Adrian Salido> 5 months ago
+98b503a : FROMLIST: f2fs: sanity check checkpoint segno and blkoff <Jin Qian> 5 months ago
+3b96134 : f2fs: sanity check segment count <Jin Qian> 5 months ago
+0a07cde : timerfd: Protect the might cancel mechanism proper <Thomas Gleixner> 8 months ago
+9bdf72b : BACKPORT: f2fs: sanity check log_blocks_per_seg <Jin Qian> 5 months ago
+5db02769 : qseecom: use strnlen in qseecom_start_app <Zhen Kong> 3 months ago
+3c7b724 : qbt1000: Validate FP app name before qseecom_start_app <Abir Ghosh> 5 months ago
+8f0ab2d : drm/msm: Fix potential buffer overflow issue <Kasin Li> 7 months ago
+627cf6c : msm:ipa: Fix to incorrect structure access <Mohammed Javid> 3 months ago
+a577ecd : msm: kgsl: Protect the event->handle with spinlock <Sunil Khatri> 9 weeks ago
+53a72780 : msm: kgsl: Fix the syncpoint_fence trace <Sunil Khatri> 8 weeks ago
+9dbac2e : msm: mdss: Check htotal for calculating programmable fetch <Ashish Garg> 8 weeks ago
+d9a1d7b : msm: mdss: Add check for ioctl calls <Krishna Manikandan> 8 weeks ago
+2e33286 : qseecom: Fix accessing userspace memory in kernel space <Brahmaji K> 4 months ago
+e5d491b : msm: sensor: Add mutex lock during ois power down operations <VijayaKumar T M> 7 weeks ago
+94ce602 : msm: camera: Avoid deadlock for vb2 operations using separate lock <annamraj> 7 weeks ago
+25a1ee2 : ASoC: msm: qdsp6v2: Check out-of-bound access in put functions <Divya Ojha> 8 weeks ago
+add9c95 : msm: sensor: Fix crash when ioctl VIDIOC_MSM_SENSOR_INIT_CFG <Haibin Liu> 6 weeks ago
+e8015a1 : thermal: tsens: Disable Tsens interrupts during driver initialization <Rama Krishna Phani A> 9 weeks ago
+089a1ad : diag: Synchronize msg mask read and write on a peripheral <Manoj Prabhu B> 9 weeks ago
+c65dfb5 : trace: ipc_logging: Avoid buffer overflow in ipc_log_string() <Liangliang Lu> 3 months ago
+ 
+**** cmold:android_kernel_samsung_msm8974 ****
+35ebe65 : fs: exfat: Update to version 1.2.24 <Kevin F. Haggerty> 14 hours ago
+d29996d : mm: vmpressure: fix backport <Dave Daynard> 2 years ago
+ 
+**** cm:LineageOS/android_packages_apps_AudioFX ****
+92be39f : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_CMParts ****
+3beba47 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_Camera2 ****
+01bb31f : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_CellBroadcastReceiver ****
+281c98e : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_CertInstaller ****
+362b032 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_Contacts ****
+0367579 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_ContactsCommon ****
+5252984 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_DeskClock ****
+c70b4d7 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_Dialer ****
+9705f9d : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_Email ****
+1918cd1 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** cm:LineageOS/android_packages_apps_EmergencyInfo ****
+14aa0c5 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_ExactCalculator ****
+95c032e : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Exchange ****
+fc7dcd5 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** cm:LineageOS/android_packages_apps_FMRadio ****
+7c3d7ba : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** cm:LineageOS/android_packages_apps_FlipFlap ****
+484ba97 : FlipFlap: Specify a qualified user for start/stop service <Luca Stefani> 3 days ago
+d27b7eb : FlipFlap: Allow to set dot ratio <Mikhail Basov> 6 days ago
+e619f79 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_Gallery2 ****
+091a21f : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Jelly ****
+82b6dc4 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_LockClock ****
+a4ecd46 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_ManagedProvisioning ****
+4710e8e : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_Messaging ****
+5a2e4e6 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_Nfc ****
+0ca5949 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_PackageInstaller ****
+0a014d5 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_PhoneCommon ****
+1cb92e0 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Recorder ****
+cb3b617 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_Settings ****
+93cb253 : [2/3] Settings: add burnIn protection setting <Joey Rizzoli> 3 weeks ago
+69c1279 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Snap ****
+3303f45 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_Stk ****
+5e539f5 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_Tag ****
+e037ef8 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** cm:LineageOS/android_packages_apps_Terminal ****
+5ed62db : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_Trebuchet ****
+d10c3fd : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_apps_UnifiedEmail ****
+247b234 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_inputmethods_LatinIME ****
+2f8c2bf : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_providers_CalendarProvider ****
+92b1ffa : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_providers_ContactsProvider ****
+1773515 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** cm:LineageOS/android_packages_providers_DataUsageProvider ****
+9223bd6 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_providers_DownloadProvider ****
+8e88ae7 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_providers_MediaProvider ****
+dce15b5 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_providers_TelephonyProvider ****
+22499c6 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** cm:LineageOS/android_packages_resources_devicesettings ****
+f17bd9d : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_screensavers_Basic ****
+f0224d3 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_screensavers_PhotoTable ****
+d595350 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_services_Telecomm ****
+e6525bc : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_services_Telephony ****
+9ab1633 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:packages_wallpapers_LivePicker ****
+af1d81d : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** vanir:system_extras_su ****
+11730a5 : correct delivering process return code to caller <gwzhang> 11 days ago
+ 
+**** vanir:vendor_cmsdk ****
+3249774 : [3/3] cmsdk: add burnIn protection setting <Joey Rizzoli> 3 weeks ago
+70aa69e : Revert "cmsdk: Don't change ring volume or mode if DND is enabled" <Gabriele M> 3 days ago
+4ded1a9 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** cm:LineageOS/android_packages_apps_YahooWeatherProvider ****
+a509003 : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** cm:LineageOS/android_packages_apps_WundergroundWeatherProvider ****
+ecb0ddd : Automatic translation import <Abhisek Devkota> 5 days ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+2c8740e : op3: Update blobs from OB24 / OB15 <dianlujitao> 2 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+edc8a81 : Add a barrier for Marlin/Sailfish <DHOMD> 7 months ago
+ 
