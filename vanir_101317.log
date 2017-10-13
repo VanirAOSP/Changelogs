@@ -1,0 +1,426 @@
+
+**** vanir:build ****
+0bc78d5 : Build hacks <DHOMD> 1 year ago
+ca7da85 : [DO NOT MERGE] Update platform security string to 2017-10-05 in nyc-dev Bug:64896113 (cherry picked from commit 1517f3d2da27eae798a3ac765096251914f9b119) <Adam Seaton> 8 weeks ago
+7bb1126 : [DO NOT MERGE] Update platform security string to 2017-10-01 in nyc-dev Bug:64896113 (cherry picked from commit 73ab80dec9df8966bf660725dc1a942d9c1f324e) <Adam Seaton> 8 weeks ago
+b78ebb3 : core: config: Use host bison if requested <Christopher N. Hesse> 2 weeks ago
+ 
+**** vanir:device_google_marlin ****
+ba4fb8d : Add a proper barrier and use vendor/caf/telephony <DHOMD> 7 months ago
+a2957c9 : Revert "marlin: disable our local telephony extensions" <DHOMD> 7 months ago
+c2d64d8 : Add TimeService.apk <James Muir> 3 weeks ago
+da4bedb : marlin: enable burnIn protection support <Joey Rizzoli> 6 weeks ago
+ 
+**** vanir:device_htc_flounder ****
+db555b6 : flounder: update build fingerprint & description to N9F27M <razorloves> 9 days ago
+ 
+**** vanir:device_htc_m8 ****
+76d5209 : m8: Cleanup bluetooth config <Michael Bestas> 2 weeks ago
+ 
+**** cm:LineageOS/android_device_htc_m8-common ****
+0891796 : m8-common: Remove deprecated media blobs <Michael Bestas> 13 days ago
+43518f9 : m8-common: Ship missing OMX codecs decoders <Bruno Martins> 10 days ago
+61887f9 : m8-common: Add aptX libraries <Bruno Martins> 10 days ago
+6b94f0b : sepolicy: Remove label of old camera file <Bruno Martins> 11 days ago
+4c19392 : m8-common: camera: Clean up for unexisting parameters <Bruno Martins> 3 weeks ago
+4f4b5e8 : sepolicy: Label gpuclk and reset_count as sysfs_thermal <Sergey Vlasov> 11 days ago
+6afbfec : sepolicy: Update thermanager policies <Bruno Martins> 11 days ago
+ 
+**** cm:LineageOS/android_device_htc_msm8974-common ****
+6208835 : msm8974-common: Clean up OMX codecs packages <Bruno Martins> 10 days ago
+dfcd083 : msm8974-common: Use https for XTRA download <Kevin F. Haggerty> 2 weeks ago
+e373817 : msm8974-common: thermanager: Fix backlight sysfs path <Bruno Martins> 2 weeks ago
+c63788b : msm8974-common: Clean up main QC init script <Bruno Martins> 11 days ago
+22e8ad1 : msm8974-common: Create missing directories under data <Bruno Martins> 11 days ago
+2f33ce6 : msm8974-common: Create root directories on early-init <Bruno Martins> 11 days ago
+d13d854 : msm8974-common: Fix tombstones creation <Bruno Martins> 11 days ago
+02fc716 : msm8974-common: Remove ro.crypto.fuse_sdcard property <Matt Mower> 1 year, 2 months ago
+d063a81 : msm8974-common: Remove deprecated flags <Bruno Martins> 2 weeks ago
+246480b : msm8974-common: gps: Enabling CLANG compilation and fixing all resulting errors <Saurabh Srivastava> 1 year, 7 months ago
+a2a64a1 : msm8974-common: gps: Cleanup makefiles and remove useless files <Michael Bestas> 2 weeks ago
+421f79d : msm8974-common: liblights: Remove button backlight support <Bruno Martins> 2 weeks ago
+ 
+**** vanir:device_huawei_angler ****
+b46ad95 : QCamera2/HAL3: correct mutex lock/unlock sequence <Dennis Cagle> 2 months ago
+2cd4036 : angler: add HwSarControlService apk to blob list <razorloves> 2 weeks ago
+02e2c5b : angler: enable burnIn protection support <Joey Rizzoli> 6 weeks ago
+ 
+**** vanir:device_lge_bullhead ****
+33ae2fe : QCamera2/HAL3: correct mutex lock/unlock sequence <Dennis Cagle> 2 months ago
+ 
+**** vanir:device_lge_g2-common ****
+79dcdc1 : g2-common: Use libRSDriver_adreno.so from kipper TOS125B <Arnau> 4 weeks ago
+ 
+**** cm:LineageOS/android_device_lge_msm8996-common ****
+de6efed : msm8996: Fix build.prop ro.bt.bdaddr_path to fix bt mac <Eric Meddaugh> 2 weeks ago
+39aa428 : msm8996: Adjust acdb ids, fixes microphone <Eric Meddaugh> 3 weeks ago
+ 
+**** vanir:device_moto_shamu ****
+8c46196 : shamu: update build fingerprint & description to N6F27M <razorloves> 10 days ago
+1c4294c : QCamera2/HAL3: correct mutex lock/unlock sequence <Shuzhen Wang> 9 weeks ago
+67b5be4 : Revert "Revert "Revert "Path fix for backend connection to FE upon call disconnection""" <Eric Laurent> 9 months ago
+8e88ad7 : Revert "audio: fix headset + speaker path" <Eric Laurent> 9 months ago
+ 
+**** cm:LineageOS/android_device_motorola_otus ****
+f19303e : Otus: Fix FM Radio <DHOMD> 9 months ago
+34269d7 : otus: specify metadata partition selinux context <Sultan Qasim Khan> 5 weeks ago
+ 
+**** cm:LineageOS/android_device_motorola_victara ****
+e11e4f8 : marlin: enable burnIn protection support <Joey Rizzoli> 6 weeks ago
+ 
+**** cm:LineageOS/android_device_oneplus_cheeseburger ****
+2636ff9 : cheeseburger: proprietary-files-qc: remove init.qcom.post_boot.sh <Alexander Martinz> 2 weeks ago
+ 
+**** cm:LineageOS/android_device_oppo_find7 ****
+17a4e76 : find7: kill AndroidBoard <Simon Shields> 7 weeks ago
+ 
+**** cm:LineageOS/android_device_oppo_find7-common ****
+12fd5c0 : find7: remove old-modem hack <Ivan Kutepov> 4 months ago
+6cdbb30 : find7: Remove restorecon_recursive /persist <Michael Bestas> 2 weeks ago
+99163b7 : camera: Remove dead code <Michael Bestas> 2 weeks ago
+ddd8103 : camera: How about doing our NULL checks before crashing? <Christopher R. Palmer> 1 year, 8 months ago
+c4becbc : find7: Cleanup bluetooth config <Michael Bestas> 2 weeks ago
+ 
+**** cm:LineageOS/android_device_oppo_find7s ****
+5075db9 : find7s: kill AndroidBoard <Simon Shields> 7 weeks ago
+ 
+**** cm:LineageOS/android_device_oppo_msm8974-common ****
+fe9f880 : Port from bacon: Add blob to decrypt full-disk encryption of /data. <J. Joe Feise> 11 months ago
+6637467 : msm8974: Cleanup proprietary files list <Michael Bestas> 13 days ago
+ec6d397 : msm8974: Commonize RIL blobs again <Michael Bestas> 13 days ago
+b474679 : msm8974: Remove deprecated media blobs <Michael Bestas> 13 days ago
+a0337fb : msm8974: Update extract scripts to latest templates <Michael Bestas> 13 days ago
+e416608 : msm8974: Fix WCNSS_qcom_cfg.ini symlink <luca020400> 1 year, 5 months ago
+a6a7c8e : msm8974: Remove unused wcd9320 symlinks <Michael Bestas> 2 weeks ago
+49921d8 : msm8974: Remove deprecated overlay <Michael Bestas> 2 weeks ago
+8043f5b : msm8974: Remove unused BoardConfig flags <Michael Bestas> 2 weeks ago
+2a17c85 : gps: Enabling CLANG compilation and fixing all resulting errors <Saurabh Srivastava> 1 year, 7 months ago
+c760f88 : gps: Cleanup makefiles <Michael Bestas> 2 weeks ago
+032ace9 : init: Check if power off alarm is set <Michael Bestas> 5 weeks ago
+7f9e189 : init: Check reboot_reason when setting alarm_boot prop <Zhao Wei Liew> 11 months ago
+52191c0 : init: Use core init function to read from files <Bruno Martins> 5 weeks ago
+ 
+**** cm:LineageOS/android_device_oppo_n3 ****
+0a3e9a9 : n3: Alphabetically sort BoardConfig <Michael Bestas> 2 weeks ago
+d98c7fa : n3: kill AndroidBoard <Simon Shields> 7 weeks ago
+382f37d : n3: remove old-modem hack <Ivan Kutepov> 4 months ago
+f395e9b : n3: Remove restorecon_recursive /persist <Michael Bestas> 2 weeks ago
+68e72dd : camera: Remove dead code <Michael Bestas> 2 weeks ago
+3f3dde4 : camera: How about doing our NULL checks before crashing? <Christopher R. Palmer> 1 year, 8 months ago
+bad59fc : n3: Cleanup bluetooth config <Michael Bestas> 2 weeks ago
+ 
+**** cm:LineageOS/android_device_samsung_d2-common ****
+e16e746 : d2-common: enable burnIn protection support <Joey Rizzoli> 6 weeks ago
+ 
+**** vanir:device_samsung_jf-common ****
+089169a : jf-common: enable burnIn protection support <Joey Rizzoli> 6 weeks ago
+ 
+**** vanir:device_samsung_klte-common ****
+b7d9a63 : klte-common: Update TWRP makefile/compatibility <Kevin F. Haggerty> 8 days ago
+0850adf : klte-common: Nuke some unused libs <Paul Keith> 11 days ago
+1c19827 : klte-common: proprietary-files: Update bluetooth firmware <Kevin F. Haggerty> 2 weeks ago
+ed880e6 : klte-common: Use https for XTRA download <Kevin F. Haggerty> 2 weeks ago
+d66d9d9 : klte-common: sepolicy: Clean-up policy for external sdcards <Kevin F. Haggerty> 4 weeks ago
+bf67c96 : klte-common: Use kernel exfat <Kevin F. Haggerty> 4 weeks ago
+ 
+**** vanir:device_samsung_msm8974-common ****
+681c57a : msm8974: Remove libdivxdrmdecrypt <Paul Keith> 10 days ago
+ 
+**** vanir:device_samsung_smdk4412-common ****
+44228bd : smdk4412-common: enable burnIn protection support <Joey Rizzoli> 2 weeks ago
+ 
+**** vanir:device_sony_fusion3-common ****
+5dea97e : gps: Switch to XTRA3 digitally signed format <CyberWalkMaN> 13 days ago
+b99a4ce : fusion3: init: Update ueventd.qcom file <Chippa-a> 6 months ago
+678e797 : fusion3: Update Camera HAL wrapper <aphisitworachorch> 1 year, 10 months ago
+670f9d6 : boot: Don't create boot.elf link <RonGokhale> 1 year, 6 months ago
+ 
+**** cm:LineageOS/android_device_sony_pollux-common ****
+b3a26a4 : pollux-common: audio: Update mixer_paths file <Chippa-a> 5 weeks ago
+ 
+**** cm:LineageOS/android_device_sony_pollux_windy ****
+a53b86f : pollux_windy: Grant rmt_storage proper unix perms <Bruno Martins> 4 months ago
+ 
+**** cm:LineageOS/android_external_libhevc ****
+42469df : Fix slice decrement for skipped slices <Naveen Kumar P> 4 months ago
+6f57834 : Ensure CTB size > 16 for clips with tiles and width/height >= 4096 <Harish Mahendrakar> 5 months ago
+ 
+**** vanir:external_libnfc-nci ****
+257864a : pn54x: Don't default to pn551 if BOARD_NFC_CHIPSET isn't set <Luca Stefani> 3 weeks ago
+ 
+**** cm:LineageOS/android_external_tremolo ****
+166d5a3 : Fix out of bounds access in codebook processing <Marco Nelissen> 3 months ago
+ 
+**** vanir:frameworks_av ****
+019e77c : Fix 'potential memory leak' compiler warning. <Caroline Tice> 9 months ago
+223131d : Check buffer size in useBuffer in software components <Dongwon Kang> 3 months ago
+2ca6228 : stagefright: avoid buffer overflow in base64 decoder <Lajos Molnar> 4 months ago
+49e724e : Add EFFECT_CMD_SET_PARAM parameter checking to Downmix and Reverb <Mikhail Naganov> 3 months ago
+8511171 : Fix memory leak in OggExtractor <Dongwon Kang> 3 months ago
+f1e2df1 : Skip track if verification fails <Marco Nelissen> 3 months ago
+ 
+**** vanir:frameworks_base ****
+90c2139 : Fix security hole in GateKeeperResponse. <Charles He> 3 months ago
+e0ef9d6 : Enforce policy for camera gesture in keyguard <Tony Mak> 3 months ago
+8d0e833 : SystemUI: Cleanup BatteryMeter <Michael W> 3 weeks ago
+622656f : SystemUI: Improve battery icons <Michael W> 3 weeks ago
+43d2ed5 : Revert "Camera: ignore torch status update for aux or compsite camera" <Eric Meddaugh> 2 weeks ago
+8c1a6e1 : SystemUI: Hide ambient display tile if device does not support it <Michael Bestas> 4 weeks ago
+f20f3c0 : Don't crash when checking if components are protected <Gabriele M> 3 weeks ago
+ 
+**** cm:LineageOS/android_hardware_qcom_audio ****
+e90d1b4 : audiopolicy: fix compilation issue due to AOSP refresh <Lalit Kansara> 1 year, 5 months ago
+ 
+**** cm:LineageOS/android_hardware_qcom_display ****
+56d8fbf : libmemtrack: Fix fd leak in kgsl function <Archana Sriram> 7 weeks ago
+ 
+**** cm:LineageOS/android_hardware_ril ****
+4609708 : DO NOT MERGE Fix security vulnerability in pre-O rild code. <Sanket Padawe> 3 months ago
+ 
+**** cm:LineageOS/android_hardware_ril ****
+cc408d7 : DO NOT MERGE Fix security vulnerability in pre-O rild code. <Sanket Padawe> 3 months ago
+ 
+**** vanir:hardware_samsung ****
+e3999d3 : liblights: Add led-blink support for BLN <Dominggoes Isakh> 9 weeks ago
+913945f : libril: Force RADIO_TECH_1xRTT on lteOnCdmaDevice <Matt Mower> 11 months ago
+ 
+**** cm:LineageOS/android_hardware_sony_thermanager ****
+d951bd0 : thermanager: Add sysfs read-only handling and adapt msm-adc <Adrian DC> 2 weeks ago
+ 
+**** cmold:android_kernel_htc_flounder ****
+95e9c8a : flounder: regen defconfig for N9F27M changes <razorloves> 9 days ago
+fa7d438 : net: wireless: bcmdhd: fix buffer overrun in dhd_pno_process_anqpo_result <Insun Song> 9 months ago
+a58d6f8 : net: wireless: bcmdhd: fix buffer overrun in wlfc reordering <Insun Song> 9 months ago
+ef46245 : net: wireless: bcmdhd: adding boundary check in wl_notify_rx_mgmt_frame <Insun Song> 5 months ago
+d6ff580 : net: wireless: bcmdhd: adding boudary check in wl_escan_handler <Insun Song> 4 months ago
+7230e0e : net: wireless: bcmdhd: adding boundary check for pfn events <Insun Song> 4 months ago
+5e53dd1 : net: wireless: bcmdhd: add boundary check in GSCAN full result handler <Sudhir Kohalli> 4 months ago
+bd7950b : net: wireless: bcmdhd: Remove "dhd_handle_swc_evt" from dhd. <Sudhir Kohalli> 4 months ago
+0076183 : net: wireless: bcmdhd: add boundary check in dhd_rtt_event_handler <Insun Song> 5 months ago
+ed75f1c : net: wireless: bcmdhd: add log trace event length check <Franky Lin> 3 months ago
+a567268 : net: wireless: bcmdhd: fix hotlist index in wl_cfgvendor_hotlist_cfg <Insun Song> 11 months ago
+c27a3cd : flounder: disable CONFIG_CHR_DEV_SG <Mark Salyzyn> 1 year, 1 month ago
+14b40b9 : Switch to MAX_COMMAND_SIZE to SG_MAX_CDB_SIZE <Mark Salyzyn> 7 weeks ago
+7c1ccc9 : UPSTREAM: brcmfmac: fix possible buffer overflow in brcmf_cfg80211_mgmt_tx() <Arend van Spriel> 3 months ago
+aa579ad : UPSTREAM: x86/acpi: Prevent out of bound access caused by broken ACPI tables <Seunghun Han> 3 months ago
+5dd98fe : UPSTREAM: char: lp: fix possible integer overflow in lp_setup() <Willy Tarreau> 5 months ago
+f4f64bf : ANDROID: check dir value of xfrm_userpolicy_id <Suren Baghdasaryan> 8 weeks ago
+455666b : BACKPORT: FROMLIST: pids: make task_tgid_nr_ns() safe <Oleg Nesterov> 8 weeks ago
+6beca42 : Revert "proc: smaps: Allow smaps access for CAP_SYS_RESOURCE" <Daniel Mentz> 3 months ago
+da5c862 : UPSTREAM: scsi: sg: check length passed to SG_NEXT_CMD_LEN <peter chang> 8 months ago
+8009a517 : perf/core: Fix concurrent sys_perf_event_open() vs. 'move_group' race <Peter Zijlstra> 9 months ago
+ 
+**** cmold:android_kernel_htc_msm8960 ****
+cb121ea : media: info leak in __media_device_enum_links() <Dan Carpenter> 4 years, 6 months ago
+6ba298e : posix_acl: Clear SGID bit when setting file permissions <Jan Kara> 1 year, 1 month ago
+ 
+**** cmold:android_kernel_htc_msm8974 ****
+13cc776 : msm_rmnet: Kill logspam <Steve Kondik> 1 year, 6 months ago
+cbb034f : staging: prima: Shush frame logging failure message <Steve Kondik> 1 year, 10 months ago
+e1343fc : staging: prima: Fix non-debug build and switch to it <Gabriele M> 2 years, 2 months ago
+1e1d36e : staging: prima: Remove unused makefile and firmware <Bruno Martins> 13 days ago
+c9436b3 : sdcardfs: Backport and use some 3.10 hlist/hash macros <Paul Keith> 2 weeks ago
+ 
+**** cmold:android_kernel_lge_hammerhead ****
+22bff1f : ANDROID: ion: check for kref overflow <Daniel Rosenberg> 10 months ago
+b3a38bc : ANDROID: ion: Protect kref from userspace manipulation <Daniel Rosenberg> 8 months ago
+ce94d3a : ion: Fix use after free during ION_IOC_ALLOC <Daniel Rosenberg> 12 months ago
+5292d83 : msm: kgsl: Fix the race between context create and destroy <Sunil Khatri> 4 months ago
+0a9d1b3 : ion: use %pk instead of %p which respects kptr_restrict sysctl <Srinivasarao P> 1 year ago
+842eda7 : msm: kgsl: Reserve a context ID slot but don't populate immediately <Steve Pfetsch> 9 months ago
+58b8025 : msm: crypto: fix issues on digest buf and copy_from_user in qcedev.c <Zhen Kong> 12 months ago
+3a16517 : ARM: perf: reject groups spanning multiple hardware PMUs <Suzuki K. Poulose> 2 years, 7 months ago
+5c609ee : perf: Tighten (and fix) the grouping condition <Peter Zijlstra> 2 years, 9 months ago
+c472680 : mnt: Prevent pivot_root from creating a loop in the mount tree <Eric W. Biederman> 3 years ago
+d5f14c9 : vfs: read file_handle only once in handle_to_path <Sasha Levin> 2 years, 9 months ago
+ 
+**** vanir:kernel_lge_msm8974 ****
+d923faa : Merge with Linux Kernel 3.4.50 <Arnau> 2 weeks ago
+39d52bf : Merge with Linux Kernel 3.4.40 <Arnau> 4 years, 9 months ago
+c84c904 : mm: Fix incorrect type conversion for size during dma allocation <Maggie White> 3 months ago
+ddade47 : Merge with Linux Kernel 3.4.30 <Arnau> 5 years ago
+ 
+**** cmold:android_kernel_lge_msm8996 ****
+39d1e9e : ms8996: h910: Fix static on boot <Eric Meddaugh> 10 days ago
+125bd06 : msm8996: vs995: Fix static on boot <Eric Meddaugh> 10 days ago
+2c1fa87 : camera_v2: Update imtech IMX258 OIS sensor driver <Rashed Abdel-Tawab> 12 days ago
+4aaaf21 : v20: Added camera sensor s5k2p7 <Eric Meddaugh> 4 weeks ago
+ 
+**** vanir:kernel_moto_shamu ****
+a93f059 : Revert "Revert "msm: sps: Fix race condition in SPS debugfs APIs"" <Alexey Polyudov> 9 weeks ago
+775ad4d : UPSTREAM: sctp: do not inherit ipv6_{mc|ac|fl}_list from parent <Eric Dumazet> 5 months ago
+389a42d : net: wireless: bcmdhd: add log trace event length check <Franky Lin> 3 months ago
+1805deb : crypto: msm: Fix several race condition issues in crypto drivers <Oleg Matcovschi> 9 weeks ago
+5ca6f64 : msm: mdss: Buffer overflow while processing gamut table data <Maggie White> 2 months ago
+ 
+**** cmold:android_kernel_motorola_msm8610 ****
+44aab1d : net: prevent sign extension in dev_get_stats() <Eric Dumazet> 4 months ago
+34aeed8 : lib/cmdline.c: fix get_options() overflow while parsing ranges <Ilya Matveychikov> 4 months ago
+4a5d089 : xfrm: NULL dereference on allocation failure <Dan Carpenter> 4 months ago
+c2ffa08 : xfrm: Oops on error in pfkey_msg2xfrm_state() <Dan Carpenter> 4 months ago
+c089aac : selinux: fix double free in selinux_parse_opts_str() <Paul Moore> 4 months ago
+d4bfd80 : KEYS: fix dereferencing NULL payload with nonzero length <Eric Biggers> 4 months ago
+95c243d : net: ping: do not abuse udp_poll() <Eric Dumazet> 4 months ago
+cd3dfc16 : ipv6: Fix leak in ipv6_gso_segment(). <David S. Miller> 4 months ago
+04d5490 : net: add kfree_skb_list() <Ben Hutchings> 4 months ago
+f71a38c : alarmtimer: Prevent overflow of relative timers <Thomas Gleixner> 5 months ago
+70ef18e : ipv6: xfrm: Handle errors reported by xfrm6_find_1stfragopt() <Ben Hutchings> 5 months ago
+98aea7c : ext4: fix fdatasync(2) after extent manipulation operations <Jan Kara> 5 months ago
+9b8d41c : ext4: fix data corruption for mmap writes <Jan Kara> 5 months ago
+53617b6 : ext4: keep existing extra fields when inode expands <Konstantin Khlebnikov> 5 months ago
+fd7083f : USB: core: replace %p with %pK <Vamsi Krishna Samavedam> 5 months ago
+1da1b9f : tcp: eliminate negative reordering in tcp_clean_rtx_queue <Soheil Hassas Yeganeh> 5 months ago
+b14ac8c : tcp: avoid fragmenting peculiar skbs in SACK <Yuchung Cheng> 5 months ago
+dec7fdf : af_key: Fix slab-out-of-bounds in pfkey_compile_policy. <Steffen Klassert> 5 months ago
+8d509f1 : xfrm: fix stack access out of bounds with CONFIG_XFRM_SUB_POLICY <Sabrina Dubroca> 5 months ago
+6ddb65f : defconfig: enable strong stack protector for msm8610 <Sultan Qasim Khan> 3 weeks ago
+b848c18 : Makefile: fix build with make 3.80 again <Jan Beulich> 3 years, 8 months ago
+e3c5ac7 : Makefile: fix extra parenthesis typo when CC_STACKPROTECTOR_REGULAR is enabled <Fathi Boudra> 3 years, 8 months ago
+4d011a7 : stackprotector: Introduce CONFIG_CC_STACKPROTECTOR_STRONG <Kees Cook> 3 years, 10 months ago
+88a7f65 : stackprotector: Unify the HAVE_CC_STACKPROTECTOR logic between architectures <Kees Cook> 3 years, 10 months ago
+7e61afd : msm: camera: Allow driver file to be opend only once. <Trishansh Bhardwaj> 6 months ago
+84709e9f : prima: Fix build when debugging is enabled <Gabriele M> 4 weeks ago
+12cf97c : prima: Fix out of bound read issue in get link properties <Srinivas Girigowda> 3 months ago
+4a059f5 : ASoC: msm: remove unused msm-compr-q6-v2 <Xiaojun Sang> 6 months ago
+d269568 : mm: Fix incorrect type conversion for size during dma allocation <Maggie White> 3 months ago
+fb1b829 : wcnss: fix the potential memory leak and heap overflow <Sarada Prasanna Garnayak> 6 months ago
+7d4841e : msm: camera: isp: fix for out of bound access array <Maggie White> 3 months ago
+295b2fb : ipx: call ipxitf_put() in ioctl error path <Dan Carpenter> 5 months ago
+57b9a8a : xfrm: policy: check policy direction value <Vladis Dronov> 2 months ago
+69c5d5b : prima: Avoid concurrent matrix max param overread <Srinivas Girigowda> 3 months ago
+9d41360 : msm: camera: fix off-by-one overflow in msm_isp_get_bufq <Gaoxiang Chen> 5 months ago
+3b0ec3c : ASoC: msm: qdsp6v2: extend validation of virtual address <Siena Richard> 9 months ago
+ 
+**** cmold:android_kernel_motorola_msm8916 ****
+69cdfd0 : Bluetooth: Properly check L2CAP config option output buffer length <Ben Seri> 5 weeks ago
+ 
+**** cmold:android_kernel_oneplus_msm8974 ****
+be73925 : Bluetooth: Properly check L2CAP config option output buffer length <Ben Seri> 5 weeks ago
+ 
+**** cmold:android_kernel_oppo_msm8974 ****
+35029f8 : prima: Shush frame logging failure message <Steve Kondik> 1 year, 10 months ago
+d94b397 : staging: prima: Fix non-debug build and switch to it <Gabriele M> 2 years, 2 months ago
+a6ee5cc : staging: prima: Cleanup unused files <Scott Mertz> 1 year, 7 months ago
+0e0ba62 : power: bq27541/qpnp-charger: Remove unused procfs/sysfs entries <Michael Bestas> 2 weeks ago
+c7fdab8 : power: qpnp-charger: Fix bad merge <Michael Bestas> 2 weeks ago
+4bc4c49 : power: Remove unused OPPO power supply properties <Michael Bestas> 2 weeks ago
+a8d156f : power: qpnp-charger: Don't report fatal error for optional attrs <Ethan Chen> 3 years, 5 months ago
+ed661ab : ARM: dts: oppo: Disable battery thermal monitoring <Ethan Chen> 3 years, 5 months ago
+ca414c0 : power: qpnp-charger: Add back missing code after update <Michael Bestas> 6 weeks ago
+be73925 : Bluetooth: Properly check L2CAP config option output buffer length <Ben Seri> 5 weeks ago
+ 
+**** cmold:android_kernel_samsung_jf ****
+7075249 : ASoC: msm: qdsp6: set pointer to NULL after free. <Xiaojun Sang> 8 months ago
+392c91e : ASoC: msm: qdsp6v2: set pointer to NULL after free. <Xiaojun Sang> 8 months ago
+2b232c2 : crypto: ahash - Fix EINPROGRESS notification callback <Herbert Xu> 6 months ago
+2b9078a : crypto: hash - Simplify the ahash_finup implementation <Marek Vasut> 3 years, 7 months ago
+04c25b5 : crypto: hash - Pull out the functions to save/restore request <Marek Vasut> 3 years, 7 months ago
+bc4ed8e : crypto: hash - Fix the pointer voodoo in unaligned ahash <Marek Vasut> 3 years, 7 months ago
+c4fa4ad : crypto: ahash - Fully restore ahash request before completing <Marek Vasut> 3 years, 10 months ago
+d03b777 : prima: Fix buffer overflow in WLANSAP_Set_WPARSNIes() <Nishank Aggarwal> 9 months ago
+a3d456e : perf/core: Fix concurrent sys_perf_event_open() vs. 'move_group' race <Peter Zijlstra> 9 months ago
+27c024c : tcp: do not lock listener to process SYN packets <Eric Dumazet> 2 years ago
+edfb03d : ipc/shm: Fix shmat mmap nil-page protection <Davidlohr Bueso> 8 months ago
+1bef341 : BACKPORT: ipc: add COMPAT_SHMLBA support <Will Deacon> 5 years ago
+bf2bff3 : ping: implement proper locking <Eric Dumazet> 7 months ago
+eeaa9de : msm: crypto: set CLR_CNTXT bit for crypto operations <Zhen Kong> 11 months ago
+e7dea67 : soc: qcom: scm: add check to avoid buffer overflow <Satya Durga Srinivasu Prabhala> 12 months ago
+ca4978a : qseecom: check buffer size when loading firmware images <Zhen Kong> 12 months ago
+1b91afc : kernel.h: define u8, s8, u32, etc. limits <Alex Elder> 3 years, 9 months ago
+4fbe3ba : ASoC: soc: qdsp6: prevent risk of buffer overflow <Xiaojun Sang> 11 months ago
+2d54252 : ASoC: msm: qdsp6: return error when copy from userspace fails <Siena Richard> 10 months ago
+d1737c6 : ASoC: msm: qdsp6: Add range checking in msm_dai_q6_set_channel_map <Xiaoyu Ye> 10 months ago
+e3ef0d0 : crypto: msm: check integer overflow on total data len in qcedev.c <Zhen Kong> 9 months ago
+9a18ce1 : msm: crypto: fix issues on digest buf and copy_from_user in qcedev.c <Zhen Kong> 12 months ago
+bab7235 : prima: Fix array out-of-bounds & integer underflow in _iw_set_genie <Srinivas Girigowda> 10 months ago
+3e442d4 : perf: don't leave group_entry on sibling list (use-after-free) <John Dias> 11 months ago
+7df1300 : splice: introduce FMODE_SPLICE_READ and FMODE_SPLICE_WRITE <Linus Torvalds> 9 months ago
+b7bc987 : qseecom: remove entry from qseecom_registered_app_list <Zhen Kong> 11 months ago
+dc7eb9a : prima: Use heap memory for station_info instead of stack <kaliu> 1 year, 2 months ago
+ddc08f9 : BACKPORT: usb: gadget: f_mbim: Change %p to %pK in debug messages <Min Chong> 12 months ago
+526e9a7 : proc: prevent accessing /proc/<PID>/environ until it's ready <Mathias Krause> 1 year, 5 months ago
+a3b461b : perf: protect group_leader from races that cause ctx double-free <John Dias> 1 year ago
+a6e3555 : BACKPORT: perf: Fix event->ctx locking <Ariel Yin> 1 year ago
+3fe61a3 : BACKPORT: lockdep: Silence warning if CONFIG_LOCKDEP isn't set <Paul Bolle> 4 years, 9 months ago
+b170140 : BACKPORT: perf: Introduce perf_pmu_migrate_context() <Yan, Zheng> 5 years ago
+3f7e20e : BACKPORT: perf: Allow the PMU driver to choose the CPU on which to install events <Yan, Zheng> 5 years ago
+a3557f6 : qseecom: Change format specifier %p to %pK <Mallikarjuna Reddy Amireddy> 1 year, 6 months ago
+9a51c59 : msm: kgsl: Change %p to %pK in debug messages <Sudeep Yedalapure> 1 year, 1 month ago
+9fb8e71 : wcnss: Avoid user buffer overloading for write cal data <Anand Kumar> 1 year, 4 months ago
+627462c : ASoC: wcd9xxx: Fix unprotected userspace access <Patrick Daly> 2 years, 5 months ago
+f900ff9 : ALSA: seq: Fix race at timer setup and close <Takashi Iwai> 1 year, 9 months ago
+391802f : crypto: msm: check length before copying to buf in _debug_stats_read <Zhen Kong> 9 months ago
+1f7b45d : qcacld-2.0: Fix VHT-80 IBSS stops beaconing <Subrat Dash> 1 year, 2 months ago
+4deb4e2 : qcrypto: protect potential integer overflow. <Neeraj Soni> 11 months ago
+ae1e783 : libceph: introduce ceph_crypt() for in-place en/decryption <Ilya Dryomov> 11 months ago
+3c73276 : wlan: Validate ioctls for valid input length <Mahesh A Saptasagar> 2 years ago
+9a7d21b : Fix the buffer overflow issue observed in static code analysis. <Kiran Kumar Lokere> 3 years, 11 months ago
+2c7500c : msm: ultrasound: add verifications of some input parameters <Baruch Eruchimovitch> 4 years ago
+5297afa : qseecom: Add checks for user space buffer pointers <Zhen Kong> 3 years, 11 months ago
+bfe0b84 : qseecom: Validate pointer offset in qseecom_send_modfd_cmd <Zhen Kong> 3 years, 7 months ago
+d232030 : mmc: card: fix arbitrary write via read handler in mmc_block_test <Lee Susman> 3 years, 11 months ago
+ecaf11e : diag: Fix possible underflow/overflow issues <Mohit Aggarwal> 1 year, 4 months ago
+ 
+**** cmold:android_kernel_samsung_msm8974 ****
+fd73781 : msm: mdss: Buffer overflow while processing gamut table data <Bharath Gopal> 2 months ago
+001458a : diag: Synchronize command registration table access <Mohit Aggarwal> 5 months ago
+21d39f6 : msm: sps: Fix race condition in SPS debugfs APIs <Siva Kumar Akkireddi> 5 months ago
+44af112 : crypto: msm: Fix several race condition issues in crypto drivers <Oleg Matcovschi> 9 weeks ago
+2930b42 : net: wireless: bcmdhd: remove SDIO debug IOVARs causing out of bounds <Insun Song> 3 months ago
+ed1213b : ion: disable system contig heap <Liam Mark> 1 year ago
+4b861dd : sdcardfs: Backport and use some 3.10 hlist/hash macros <Paul Keith> 2 weeks ago
+d1f73cf : usb: gadget: mass_storage: added sysfs entry for cdrom to LUNs <FrozenCow> 4 years, 3 months ago
+07df957 : Add some gitignores <Paul Keith> 2 weeks ago
+91d1832 : Fix standalone kernel compilation <Paul Keith> 2 weeks ago
+819766e : scsi: sg: init open_rel_lock mutex <Andrea Arcangeli> 2 weeks ago
+f10987d : diag: dci: Add protection while querying event status <Mohit Aggarwal> 6 months ago
+c5b5937 : msm: ipa: Prevent multiple header deletion from user space <Ghanim Fodi> 3 months ago
+eeacb548 : Prevent potential double frees in sg driver <Robb Glasser> 7 months ago
+ 
+**** cmold:android_kernel_samsung_smdk4412 ****
+09c1455 : cypress: BLN: Add led_blink support <Dominggoes Isakh> 4 months ago
+ 
+**** cmold:android_kernel_sony_apq8064 ****
+2184d85 : ASoC: msm: qdsp6v2: extend validation of virtual address <Siena Richard> 9 months ago
+8761ac9 : ipx: call ipxitf_put() in ioctl error path <Dan Carpenter> 5 months ago
+ 
+**** cmold:android_kernel_xiaomi_cancro ****
+5f252c2 : Bluetooth: Properly check L2CAP config option output buffer length <Ben Seri> 5 weeks ago
+ 
+**** vanir:libcore ****
+aa4fd2e : Fix failing FileTest#test_canonicalCachesAreOff() <Przemyslaw Szczepaniak> 9 weeks ago
+c1a58e9 : Disable File.getCanonicalPath caches. <Przemyslaw Szczepaniak> 3 months ago
+ 
+**** vanir:platform_manifest ****
+1b74447 : Ccache path update <Derek> 10 days ago
+ 
+**** vanir:packages_apps_PackageInstaller ****
+cec631f : DO NOT MERGE Disable overlays while installer is resumed <Suprabh Shukla> 3 months ago
+ 
+**** vanir:packages_apps_Settings ****
+73dcbc0 : Disabling the activate button when paused <Suprabh Shukla> 8 weeks ago
+ 
+**** vanir:system_sepolicy ****
+83840c7 : sepolicy: Allow exfat and ntfs access for sdcard <Kevin F. Haggerty> 4 weeks ago
+ 
+**** vanir:system_vold ****
+d8d5e6e : Fix bug in cryptfs_verify_passwd with hardware disk encryption <Yuval Detuscher> 4 months ago
+ 
+**** commotio:commotio ****
+adfe722 : Fingerprints <DHOMD> 47 seconds ago
+ 
+**** github:TheMuppets/proprietary_vendor_google ****
+9d5c814 : marlin: Add TimeService.apk <James Muir> 3 weeks ago
+ 
+**** github:TheMuppets/proprietary_vendor_oneplus ****
+8bf521b : oneplus2: update graphic blobs <OzzysCmAcc> 9 days ago
+e37a54f : cheeseburger: remove init.qcom.post_boot.sh <Alexander Martinz> 2 weeks ago
+ 
+**** github:TheMuppets/proprietary_vendor_oppo ****
+af3b29c : msm8974: Cleanup proprietary files list <Michael Bestas> 13 days ago
+d100c68 : msm8974: Commonize RIL blobs again <Michael Bestas> 13 days ago
+301907b : msm8974: Remove deprecated media blobs <Michael Bestas> 13 days ago
+ 
+**** cm:LineageOS/android_vendor_qcom_opensource_time-services ****
+0b35f61 : Add a barrier for Marlin/Sailfish <DHOMD> 7 months ago
+ 
